@@ -65,7 +65,9 @@ parent_is_tca_portal() {
 
 parent_is_allowed() {
     set -x
-    parent_is_tca_portal && return 0
+    if parent_is_tca_portal; then
+         return 0
+    fi
 
     ppid="$(ps -o ppid= "$$"|tr -dc '[:digit:]')"
     exe="$(readlink "/proc/${ppid}/exe")"
