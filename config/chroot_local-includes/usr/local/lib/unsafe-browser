@@ -45,6 +45,7 @@ def main():
             ),
             ("/sys", "/sys"),
         ],
+        hide_dirs=["/home/amnesia/Tor Browser/"],
     )
 
 

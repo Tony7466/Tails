@@ -15,11 +15,15 @@ from tailslib.gnome import gnome_env_vars
 from tailslib import LIVE_USERNAME
 
 
-def run_in_netns(*args, netns, user="amnesia", root="/", bind_mounts=[]):
+def run_in_netns(*args, netns, user="amnesia", root="/", bind_mounts=[], hide_dirs=[]):
     # base bwrap sharing most of the system
     bwrap = ["bwrap", "--bind", root, "/", "--proc", "/proc", "--dev", "/dev"]
     for src, dest in bind_mounts:
         bwrap += ["--bind", src, dest]
+    if hide_dirs:
+        os.makedirs('/tmp/netns-empty/', mode=0o000, exist_ok=True)
+        for directory in hide_dirs:
+            bwrap += ["--ro-bind", '/tmp/netns-empty/', directory]
     # passes data to us
     bwrap += [
         "--bind",
