@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -eu
+set -x
+
+# XXX: Replace app name and command
+# shellcheck disable=SC2046
+sudo ip netns exec tbb \
+    env \
+    TOR_BROWSER_SKIP_OFFLINE_WARNING="${TOR_BROWSER_SKIP_OFFLINE_WARNING:-}" \
+    /usr/local/lib/run-with-user-env \
+    flatpak run --command=tor-browser org.boum.tails.TorBrowser "$@"

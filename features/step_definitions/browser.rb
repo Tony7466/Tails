@@ -11,7 +11,7 @@ def save_page_as
     name:     'Save page as\u2026',
     roleName: 'push button'
   ).press
-  browser.child('Save As', roleName: 'file chooser')
+  desktop_portal_save_as_dialog
 end
 
 When /^I (?:try to )?start the Unsafe Browser$/ do

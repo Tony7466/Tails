@@ -2,6 +2,14 @@ require 'fileutils'
 require 'tempfile'
 require 'open3'
 
+def desktop_portal
+  Dogtail::Application.new('xdg-desktop-portal-gtk')
+end
+
+def desktop_portal_save_as_dialog
+  desktop_portal.child('Save As', roleName: 'file chooser')
+end
+
 def post_vm_start_hook
   $vm.late_patch if $config['LATE_PATCH']
 
@@ -1080,9 +1088,18 @@ When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) dire
     output_dir = "/home/#{LIVE_USER}/Persistent/Tor Browser"
     # Select the "Tor Browser (persistent)" bookmark in the file chooser's
     # sidebar. It doesn't expose an action via the accessibility API, so we
-    # have to grab focus and use the keyboard to activate it.
-    file_dialog.child(description: output_dir, roleName: 'list item').grabFocus
-    @screen.press('Space')
+    # have to select it and use the keyboard to activate it.
+    bookmark = file_dialog.child(
+      description: output_dir,
+      roleName:    'list item',
+      showingOnly: true
+    )
+    try_for(3) do
+      bookmark.select
+      bookmark.grabFocus
+      bookmark.selected and bookmark.focused
+    end
+    @screen.press('Enter')
   when 'default downloads'
     output_dir = "/home/#{LIVE_USER}/Tor Browser"
   else
@@ -1098,6 +1115,14 @@ When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) dire
   text_entry = file_dialog.child('Name', roleName: 'label').labelee
   text_entry.text = output_file
   file_dialog.child('Save', roleName: 'push button').click
+
+  # As a workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=1814851,
+  # we retry the download from the Downloads menu if it failed.
+  browser.child('Downloads', roleName: 'push button').press
+  downloads_panel = browser.child('Downloads', roleName: 'panel')
+  if downloads_panel.child?('Failed', roleName: 'label', retry: false)
+    downloads_panel.child('Retry', roleName: 'push button').press
+  end
 
   if should_work
     try_for(20,
@@ -1117,7 +1142,7 @@ When /^I can print the current page as "([^"]+[.]pdf)" to the (default downloads
                end
   @screen.press('ctrl', 'p')
   @torbrowser.child('Save', roleName: 'push button').press
-  file_dialog = @torbrowser.child('Save As', roleName: 'file chooser')
+  file_dialog = desktop_portal_save_as_dialog
   # Enter the output filename in the text entry
   text_entry = file_dialog.child('Name', roleName: 'label').labelee
   filename = "#{output_dir}/#{output_file}"
