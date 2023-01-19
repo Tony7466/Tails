@@ -1,7 +1,23 @@
 #!/usr/bin/env python3
 
+import os
+import sh
 import sys
 
 from tailslib.netnsdrop import run_in_netns
 
-run_in_netns("/usr/bin/tor-browser", *sys.argv[1:], netns="tbb")
+if os.getuid() == 1000:
+    # Ensure that the xdg-document-portal service has started, because if it
+    # hasn't started *before* the bwrap command is executed, binding
+    # /run/user/1000/doc/by-app/$APP_ID fails.
+    sh.dbus_send(
+        "--session",
+        "--print-reply=literal",
+        "--dest=org.freedesktop.portal.Documents",
+        "/org/freedesktop/portal/documents",
+        "org.freedesktop.portal.Documents.GetMountPoint"
+    )
+
+run_in_netns("/usr/bin/tor-browser", *sys.argv[1:], netns="tbb",
+             app_id="torbrowser.Browser.firefox",
+             flatpak_info="/usr/share/tails/tor-browser/.flatpak-info")
