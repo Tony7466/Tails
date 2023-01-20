@@ -93,7 +93,7 @@ def main():
         uri = uri + "#" + anchor
 
     os.environ["TOR_BROWSER_SKIP_OFFLINE_WARNING"] = "yes"
-    os.execv("/usr/bin/gtk-launch", ["/usr/bin/gtk-launch", "tor-browser.desktop", uri])
+    os.execv("/usr/bin/gtk-launch", ["/usr/bin/gtk-launch", "torbrowser.Browser.firefox.desktop", uri])
 
 
 if __name__ == "__main__":

@@ -16,7 +16,7 @@ class BrowserBookmarks(Feature):
     Mounts = [Mount("bookmarks", "/home/amnesia/.mozilla/firefox/bookmarks")]
     conflicting_apps = [
         ConflictingApp(name="Tor Browser",
-                       desktop_id="tor-browser.desktop",
+                       desktop_id="torbrowser.Browser.firefox.desktop",
                        process_names=["firefox.real"])
     ]
 
