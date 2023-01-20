@@ -28,6 +28,24 @@ def run_in_netns(*args, netns, user="amnesia", root="/", bind_mounts=[], flatpak
     if flatpak_info and root == "/":
         bwrap += [
              "--proc", "/proc",
+             # TODO: Using a new devtmpfs here via --dev probably breaks
+             # some use cases.
+             # Quoting from apparmor/torbrowser.Browser.firefox:
+             #
+             #   # Required for multiprocess Firefox (aka Electrolysis, i.e. e10s)
+             #   owner /{dev,run}/shm/org.chromium.* rw,
+             #   owner /dev/shm/org.mozilla.ipc.[0-9]*.[0-9]* rw, # for Chromium IPC
+             #
+             #   # Required for Wayland display protocol support
+             #   owner /dev/shm/wayland.mozilla.ipc.[0-9]* rw,
+             #
+             #   # u2f (tested with Yubikey 4)
+             #   /sys/class/ r,
+             #   /sys/bus/ r,
+             #   /sys/class/hidraw/ r,
+             #   /run/udev/data/c24{5,7,9}:* r,
+             #   /dev/hidraw* rw,
+             #
              "--dev", "/dev",
              # TODO: We might be able to drop some of these bindings
              "--bind", "/bin", "/bin",
