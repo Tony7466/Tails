@@ -1,0 +1,22 @@
+[Application]
+name=org.flatpak.Hello
+runtime=org.freedesktop.Platform/x86_64/22.08
+sdk=org.freedesktop.Sdk/x86_64/22.08
+command=/usr/bin/tor-browser
+
+# Copied from https://github.com/flathub/com.github.micahflee.torbrowser-launcher/blob/master/com.github.micahflee.torbrowser-launcher.yaml#L17-L26
+# XXX: Remove access which is not required in Tails
+[Context]
+shared=network;ipc;
+sockets=x11;wayland;pulseaudio;fallback-x11;session-bus;
+devices=dri;
+filesystems=xdg-config/kdeglobals:ro;/run/tor-has-bootstrapped;
+
+[Session Bus Policy]
+com.canonical.AppMenu.Registrar=talk
+org.kde.kconfig.notify=talk
+org.kde.KGlobalSettings=talk
+org.freedesktop.Notifications=talk
+
+[Environment]
+MOZ_ENABLE_WAYLAND=1

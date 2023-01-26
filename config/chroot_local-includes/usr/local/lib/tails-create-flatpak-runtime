@@ -1,0 +1,40 @@
+#!/bin/sh
+
+set -eu
+set -x
+
+# Bind-mount the squashfs filesystem to our pseudo flatpak runtime.
+# Flatpak runtimes are mounted to /usr in the sandbox, so we can't just
+# bind-mount the whole squashfs filesystem to the runtime root, because
+# that would cause /bin to be mounted over /usr/bin, /lib over /usr/lib
+# etc. Instead, we create overlayfs to merge /bin and /usr/bin in /bin
+# in the runtime, /lib and /usr/lib in /lib etc.
+
+FSPATH=/lib/live/mount/rootfs/filesystem.squashfs
+MERGEBASE=/var/lib/flatpak/runtime/org.freedesktop.Platform/x86_64/22.08/active/files
+DIRS="/bin /etc /lib /lib64 /sbin /var /include /libexec /local /share"
+TMPDIR=$(mktemp -d --tmpdir tails-flatpak-runtime-overlay.XXXXXXXXXX)
+
+for dir in ${DIRS}; do
+  UPPERDIR="${TMPDIR}/upper-dir-${dir}"
+  WORKDIR="${TMPDIR}/work-dir-${dir}"
+  if [ -d "${dir}" ]; then
+    LOWERDIRS="${FSPATH}/${dir}"
+  fi
+  if [ -d "/usr/${dir}" ]; then
+    if [ -n "${LOWERDIRS:-}" ]; then
+      LOWERDIRS="${LOWERDIRS}:${FSPATH}/usr/${dir}"
+    else
+      LOWERDIRS="${FSPATH}/usr/${dir}"
+    fi
+  fi
+  if [ -z "${LOWERDIRS:-}" ]; then
+    continue
+  fi
+  MERGEDDIR="${MERGEBASE}/${dir#/usr}"
+  install -d "${UPPERDIR}" "${WORKDIR}" "${MERGEDDIR}"
+  mount -t overlay overlay -o lowerdir="${LOWERDIRS}",upperdir="${UPPERDIR}",workdir="${WORKDIR}" "${MERGEDDIR}"
+done
+
+# Flatpak expects the .ref file to exist
+install /dev/null "${MERGEBASE}/.ref"

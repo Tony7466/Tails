@@ -10,4 +10,4 @@ exec systemd-run --user --scope \
     --property=After="${AT_SPI_PROXY_SERVICE}" \
     --property=Requires="${IBUS_PROXY_SERVICE}" \
     --property=After="${IBUS_PROXY_SERVICE}" \
-    sudo /usr/local/lib/run-tor-browser-in-netns "$@"
+    sudo /usr/local/lib/tails-run-tor-browser-in-flatpak "$@"

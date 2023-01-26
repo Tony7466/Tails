@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -eu
+set -x
+
+# XXX: Replace app name and command
+sudo ip netns exec tbb \
+    runuser -u amnesia -- \
+    flatpak run --command=tor-browser org.flatpak.Hello
