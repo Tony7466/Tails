@@ -72,7 +72,7 @@ class Thunderbird(Feature):
     Bindings = [Binding("thunderbird", "/home/amnesia/.thunderbird")]
     conflicting_apps = [
         ConflictingApp(name="Thunderbird",
-                       desktop_id="thunderbird.desktop",
+                       desktop_id="org.mozilla.Thunderbird.desktop",
                        process_names=["thunderbird"])
     ]
 
