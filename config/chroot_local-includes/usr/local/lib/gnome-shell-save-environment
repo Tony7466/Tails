@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 
-'''
+"""
 This is the privileged part for gnome-shell-dump-environment.
 
 The core security feature is that it can only be run once: the next time it is called, it will be a noop.
 
 It trusts the file in amnesia's home; this could seem risky. However, the first (and only!) time this will
 happen is at boot time. If an attacker is already there, it means we have already lost.
-'''
+"""
 
 import shutil
 import sys
@@ -17,8 +17,8 @@ from tailslib import LIVE_USERNAME
 
 
 def main():
-    destdir = Path('/run/gnome-shell-environment/')
-    dest = destdir / 'environ'
+    destdir = Path("/run/gnome-shell-environment/")
+    dest = destdir / "environ"
     try:
         # the exist_ok parameter is critical in this block
 
@@ -45,14 +45,14 @@ def main():
         )
         sys.exit(1)
 
-    with src.open('rb') as buf:
+    with src.open("rb") as buf:
         content = buf.read()
-    with dest.open('wb') as buf:
+    with dest.open("wb") as buf:
         buf.write(content)
     src.unlink()
 
     shutil.chown(str(dest), group=LIVE_USERNAME)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
