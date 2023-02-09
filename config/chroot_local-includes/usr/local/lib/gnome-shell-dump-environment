@@ -39,6 +39,10 @@ def main():
     try:
         env_file.touch(exist_ok=False)
     except FileExistsError:
+        # by calling SAVE_BIN with --empty, we:
+        # - make a "first run", so that the script cannot be run anymore
+        # - tell SAVE_BIN not to trust any input in /home/, to avoid security problems
+        subprocess.check_call(["sudo", "-n", SAVE_BIN, "--empty"])
         sys.exit(0)
 
     # we are getting our own environment.

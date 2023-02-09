@@ -7,16 +7,28 @@ The core security feature is that it can only be run once: the next time it is c
 
 It trusts the file in amnesia's home; this could seem risky. However, the first (and only!) time this will
 happen is at boot time. If an attacker is already there, it means we have already lost.
+
+To detect whether we're indeed at "boot time", this script will trust the non-existence of
+/run/gnome-shell-environment/. However, an attacker might force this, by preventing this script to run at all.
+So, it is important that this script is always run at boot time, hence the --empty option
 """
 
 import shutil
 import sys
 from pathlib import Path
+import argparse
 
 from tailslib import LIVE_USERNAME
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+            "--empty", action="store_true", default=False,
+            help="Don't read any input, just create empty files",
+            )
+    args = parser.parse_args()
+
     destdir = Path("/run/gnome-shell-environment/")
     dest = destdir / "environ"
     try:
@@ -35,6 +47,9 @@ def main():
     except FileExistsError:
         sys.exit(0)
     dest.chmod(0o440)
+
+    if args.empty:
+        sys.exit(0)
 
     src = Path("/home/%s/.gnome-shell-environment" % LIVE_USERNAME)
     if src.is_symlink():
