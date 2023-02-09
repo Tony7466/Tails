@@ -36,7 +36,15 @@ def main():
         sys.exit(0)
     dest.chmod(0o440)
 
-    src = Path('/home/%s/.gnome-shell-environment' % LIVE_USERNAME)
+    src = Path("/home/%s/.gnome-shell-environment" % LIVE_USERNAME)
+    if src.is_symlink():
+        print(
+            "%s is a symlink: this could be an attack. Aborting!"
+            % src,
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
     with src.open('rb') as buf:
         content = buf.read()
     with dest.open('wb') as buf:
