@@ -1412,7 +1412,7 @@ If, at a later stage of the process, you realize Mirrorbits is still not
 "noticing" that mirrors are up-to-date, don't be afraid of refreshing/rehashing
 again, or even restart the whole service:
 
-    ssh rsync.lizard systemctl restart mirrorbits.service
+    ssh rsync.lizard sudo systemctl restart mirrorbits.service
 
 In any case, please report your experience on
 [[!tails_ticket 19396]]
@@ -2238,7 +2238,7 @@ If you just released an RC
 
 1. Tomorrow, on <https://jenkins.tails.boum.org/view/RM/>, make sure Jenkins
    successfully:
-    - builds all updated major branches
+    - builds `devel` and `${RELEASE_BRANCH}`
     - builds the website
     - checks PO files
 
