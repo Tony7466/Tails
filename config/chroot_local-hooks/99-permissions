@@ -18,3 +18,8 @@ chown -R debian-tor:debian-tor /etc/tor
 # in /home/amnesia (that is itself not world-readable), *but* the root
 # of the persistent volume has to be world-readable.
 chmod -R go= /etc/skel/* /etc/skel/.[a-z]*
+
+# Make bwrap setuid root to allow unprivileged users to run containers
+# in new user namespaces even though we set
+# kernel.unprivileged_userns_clone=0.
+chmod u+s /usr/bin/bwrap
