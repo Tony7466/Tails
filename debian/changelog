@@ -228,7 +228,6 @@ tails (5.10) unstable; urgency=medium
       - tps: Ask for confirmation when Persistent Storage exists but is not unlocked
 
  -- Tails developers <tails@boum.org>  Wed, 15 Feb 2023 09:44:33 +0000
->>>>>>> stable
 
 tails (5.9) unstable; urgency=medium
 
