@@ -142,6 +142,15 @@ def save_journal
   )
 end
 
+def save_boot_log
+  save_vm_command_output(
+    command:  'cat /var/log/boot.log*',
+    id:       'boot-log',
+    basename: 'artifact.boot-log',
+    desc:     'boot log'
+  )
+end
+
 def save_vm_file_content(file, desc: nil)
   _save_vm_file_content(
     file:     file,
@@ -262,6 +271,7 @@ Before('@product') do |scenario|
   # as a regression test for #17792
   @sudo_password = 'asdf !'
   @persistence_password = 'asdf !'
+  @changed_persistence_password = 'foo123'
   @has_been_reset = false
   # See comment for add_extra_allowed_host() above.
   @extra_allowed_hosts ||= []
@@ -295,7 +305,7 @@ After('@product') do |scenario|
     mins = format('%<mins>02d', mins: (time_of_fail / 60) % 60)
     hrs  = format('%<hrs>02d',  hrs: time_of_fail / (60 * 60))
     elapsed = "#{hrs}:#{mins}:#{secs}"
-    info_log("Scenario failed at time #{elapsed}")
+    info_log("SCENARIO FAILED: '#{scenario.name}' (at time #{elapsed})")
     unless $vm.display.nil?
       screenshot_path = sanitize_filename("#{scenario.name}.png")
       $vm.display.screenshot(screenshot_path)
@@ -354,6 +364,7 @@ After('@product') do |scenario|
     # on the remote shell here:
     if $vm&.remote_shell_is_up?
       save_journal
+      save_boot_log
       if scenario.feature.file \
          == 'features/additional_software_packages.feature'
         save_vm_command_output(
