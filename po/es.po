@@ -3473,11 +3473,11 @@ msgstr "Reloj"
 msgid "Delete Data…"
 msgstr "Eliminar Datos…"
 
-msgid "The data about this feature is still saved."
+msgid "The data of this feature is still saved."
 msgstr "Los datos de esta función todavía están guardados."
 
 msgid ""
-"Delete all data stored on the Persistent Storage for the {} feature?\n\n"
+"Delete all the data of the {} feature that is saved in the Persistent Storage?\n\n"
 "If you cancel, the data will be restored when you turn this feature on again."
 msgstr ""
 "¿Eliminar todo los datos guardados en el Almacenamiento Persistente para la función {}?\n\n"
