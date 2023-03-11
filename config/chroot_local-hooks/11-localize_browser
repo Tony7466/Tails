@@ -85,7 +85,7 @@ while IFS=: read -r MOZILLA_LOCALE LOCATION; do
     . /etc/os-release # get $TAILS_CHANNEL and $TAILS_DISTRIBUTION
     if [ "${TAILS_DISTRIBUTION}" = UNRELEASED ] \
           || [ "${TAILS_CHANNEL:-stable}" != stable ]; then
-       HOMEPAGE="${HOMEPAGE}testing/"
+       HOMEPAGE="${HOMEPAGE}"
     fi
     if echo "${TAILS_WIKI_SUPPORTED_LANGUAGES}" | grep -qw "${LANG_CODE}"; then
         HOMEPAGE="${HOMEPAGE}index.${LANG_CODE}.html"
