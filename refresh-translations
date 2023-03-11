@@ -42,6 +42,7 @@ PYTHON_PROGS="\
     /usr/lib/python3/dist-packages/tps_frontend/feature.py \
     /usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py \
     /usr/lib/python3/dist-packages/tps_frontend/window.py \
+    /usr/lib/python3/dist-packages/tps/service.py \
     /usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py \
     /usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py \
     /usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py \
