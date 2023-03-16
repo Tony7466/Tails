@@ -155,7 +155,7 @@ When /^I plug and mount a USB drive containing a (.+) VeraCrypt file container( 
 end
 
 When /^I unlock and mount this VeraCrypt (volume|file container) with Unlock VeraCrypt Volumes$/ do |support|
-  step 'I start "Unlock VeraCrypt Volumes" via GNOME Activities Overview'
+  launch_unlock_veracrypt_volumes
   case support
   when 'volume'
     @screen.wait('Gtk3UnlockButton.png', 10).click
@@ -189,8 +189,7 @@ When /^I unlock and mount this VeraCrypt (volume|file container) with Unlock Ver
 end
 
 When /^I unlock and mount this VeraCrypt (volume|file container) with GNOME Disks$/ do |support|
-  step 'I start "Disks" via GNOME Activities Overview'
-  disks = gnome_disks_app
+  disks = launch_gnome_disks
   size = veracrypt_volume_size_in_gnome_disks(
     isHidden: @veracrypt_is_hidden,
     needsPim: @veracrypt_needs_pim

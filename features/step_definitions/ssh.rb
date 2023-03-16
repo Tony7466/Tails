@@ -128,8 +128,7 @@ Then /^I connect to an SFTP server on the Internet$/ do
   end
 
   retry_tor(recovery_proc) do
-    step 'I start "Nautilus" via GNOME Activities Overview'
-    nautilus = Dogtail::Application.new('org.gnome.Nautilus')
+    nautilus = launch_nautilus
     nautilus.child(roleName: 'frame')
     # "Other Locations" has no click action, so Dogtail cannot interact with it.
     @screen.click('NautilusOtherLocations.png')

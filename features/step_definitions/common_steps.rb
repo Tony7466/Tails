@@ -642,7 +642,7 @@ Given /^available upgrades have been checked$/ do
 end
 
 When /^I start the Tor Browser( in offline mode)?$/ do |offline|
-  step 'I start "Tor Browser" via GNOME Activities Overview'
+  launch_tor_browser(check_started: !offline)
   if offline
     start_button = Dogtail::Application
                    .new('zenity')
@@ -904,7 +904,7 @@ end
 
 When /^I run "([^"]+)" in GNOME Terminal$/ do |command|
   if !$vm.process_running?('gnome-terminal-server')
-    step 'I start "GNOME Terminal" via GNOME Activities Overview'
+    launch_gnome_terminal
     @screen.wait('GnomeTerminalWindow.png', 40)
   else
     @screen.wait('GnomeTerminalWindow.png', 20).click
@@ -973,6 +973,100 @@ def switch_input_source
   sleep 1
 end
 
+def launch_app(desktop_file_name, app_name, **options)
+  options[:user] ||= LIVE_USER
+  options[:timeout] ||= 30
+  options[:check_started] = true unless options.key?(:check_started)
+  # We use systemd-run to launch the app, because we want the app to run
+  # in the active systemd login session, so that polkit rules for active
+  # sessions apply to it.
+  cmd = ['systemd-run', '--user',
+         '--unit', desktop_file_name,
+         '--remain-after-exit',
+         'gtk-launch', desktop_file_name,].join(' ')
+  $vm.execute(cmd, **options)
+
+  unless options[:check_started]
+    return
+  end
+
+  app = nil
+  try_for(options[:timeout]) do
+    app = Dogtail::Application.new(app_name)
+  rescue Dogtail::Failure
+    false
+  end
+  app
+end
+
+def launch_persistent_storage
+  launch_app(
+    'org.boum.tails.PersistentStorage.desktop',
+    'tps-frontend'
+  )
+end
+
+def launch_gnome_disks
+  app = launch_app(
+    'org.gnome.DiskUtility.desktop',
+    'gnome-disks'
+  )
+  # Give GNOME Shell some time to draw the minimize/maximize/close
+  # buttons in the title bar, to ensure the other title bar buttons we
+  # will later click, such as GnomeDisksDriveMenuButton.png, have
+  # stopped moving. Otherwise, we sometimes lose the race: the
+  # coordinates returned by Screen#wait are obsolete by the time we
+  # run Screen#click, which makes us click on the minimize
+  # button instead.
+  @screen.wait('GnomeWindowActionsButtons.png', 10)
+  app
+end
+
+def launch_gnome_terminal
+  launch_app(
+    'org.gnome.Terminal.desktop',
+    'gnome-terminal-server'
+  )
+end
+
+def launch_nautilus
+  launch_app(
+    'org.gnome.Nautilus.desktop',
+    'org.gnome.Nautilus'
+  )
+end
+
+def launch_thunderbird
+  launch_app(
+    'thunderbird.desktop',
+    'Thunderbird'
+  )
+end
+
+def launch_tor_browser(**options)
+  launch_app(
+    'tor-browser.desktop',
+    'Firefox',
+    **options
+  )
+end
+
+def launch_unlock_veracrypt_volumes
+  launch_app(
+    'unlock-veracrypt-volumes.desktop',
+    'unlock-veracrypt-volumes'
+  )
+end
+
+def launch_unsafe_browser(**options)
+  options[:timeout] ||= 60
+  launch_app(
+    'unsafe-browser.desktop',
+    'Firefox',
+    **options
+  )
+end
+
 Given /^I start "([^"]+)" via GNOME Activities Overview$/ do |app_name|
   # Search disambiguations: below we assume that there is only one
   # result, since multiple results introduces a race that leads to a
@@ -1013,6 +1107,23 @@ Given /^I start "([^"]+)" via GNOME Activities Overview$/ do |app_name|
   if language_has_non_latin_input_source($language)
     # Switch back to $language's default keyboard layout
     switch_input_source
+  end
+end
+
+When /^I close the "([^"]+)" window$/ do |app_name|
+  # Press the close button
+  Dogtail::Application.new(app_name)
+                      .child('Close', roleName: 'push button', showingOnly: true)
+                      .click
+
+  # Wait for the app to close
+  try_for(10) do
+    Dogtail::Application.new(app_name)
+  rescue Dogtail::Failure
+    # The app couldn't be found, which is what we want
+    true
+  else
+    false
   end
 end
 
@@ -1456,19 +1567,6 @@ Given /^I create a symlink "(\S+)" to "(\S+)"$/ do |link, target|
   $vm.execute_successfully(
     "ln -s --no-target-directory '#{target}' '#{link}'"
   )
-end
-
-def gnome_disks_app
-  disks_app = Dogtail::Application.new('gnome-disks')
-  # Give GNOME Shell some time to draw the minimize/maximize/close
-  # buttons in the title bar, to ensure the other title bar buttons we
-  # will later click, such as GnomeDisksDriveMenuButton.png, have
-  # stopped moving. Otherwise, we sometimes lose the race: the
-  # coordinates returned by Screen#wait are obsolete by the time we
-  # run Screen#click, which makes us click on the minimize
-  # button instead.
-  @screen.wait('GnomeWindowActionsButtons.png', 10)
-  disks_app
 end
 
 def save_qrcode(str)

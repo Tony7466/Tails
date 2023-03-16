@@ -2,10 +2,8 @@ def browser
   Dogtail::Application.new('Firefox')
 end
 
-When /^I (?:try to )?start the Unsafe Browser$/ do
-  # XXX:Bookworm: switch to "gio launch" and drop the whole
-  # language_has_non_latin_input_source / switch_input_source system.
-  step 'I start "Unsafe Browser" via GNOME Activities Overview'
+When /^I (try to )?start the Unsafe Browser$/ do |try_to|
+  launch_unsafe_browser(check_started: !try_to)
 end
 
 When /^I successfully start the Unsafe Browser(?: in "([^"]+)")?$/ do |lang_code|
