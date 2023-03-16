@@ -236,8 +236,7 @@ def enable_all_tps_features
 end
 
 When /^I (enable|disable) the first tps feature$/ do |mode|
-  step 'I start "Persistent Storage" via GNOME Activities Overview'
-  assert persistent_storage_main_frame.child('Personal Documents', roleName: 'label')
+  launch_persistent_storage
   persistent_folder_switch = persistent_storage_main_frame.child(
     'Activate Persistent Folder',
     roleName: 'toggle button'
@@ -273,7 +272,7 @@ Given /^I create a persistent partition( with the default settings| for Addition
   default_settings = mode
   asp = mode == ' for Additional Software'
   unless asp || dontrun
-    step 'I start "Persistent Storage" via GNOME Activities Overview'
+    launch_persistent_storage
   end
   persistent_storage_main_frame.button('Co_ntinue').click
   persistent_storage_main_frame
@@ -302,7 +301,7 @@ Given /^I change the passphrase of the Persistent Storage( back to the original)
     new_passphrase = @changed_persistence_password
   end
 
-  step 'I start "Persistent Storage" via GNOME Activities Overview'
+  launch_persistent_storage
 
   # We can't use the click action here because this button causes a
   # modal dialog to be run via gtk_dialog_run() which causes the
@@ -885,7 +884,7 @@ Then /^only the expected files are present on the persistence partition on USB d
 end
 
 When /^I delete the persistent partition$/ do
-  step 'I start "Persistent Storage" via GNOME Activities Overview'
+  launch_persistent_storage
 
   delete_btn = persistent_storage_main_frame.button('Delete Persistent Storage')
   assert delete_btn
@@ -1433,7 +1432,7 @@ Then /^the Persistent directory does not exist$/ do
 end
 
 When /^I delete the data of the Persistent Folder feature$/ do
-  step 'I start "Persistent Storage" via GNOME Activities Overview'
+  launch_persistent_storage
 
   def persistent_folder_delete_button(**opts)
     persistent_storage_main_frame.child(
@@ -1472,7 +1471,7 @@ Then /^the Welcome Screen tells me that the Persistent Folder feature couldn't b
 end
 
 Then /^the Persistent Storage settings tell me that the Persistent Folder feature couldn't be activated$/ do
-  step 'I start "Persistent Storage" via GNOME Activities Overview'
+  launch_persistent_storage
 
   persistent_folder_row = persistent_storage_frontend
                           .child('Activate Persistent Folder').parent

@@ -928,6 +928,26 @@ def switch_input_source
   sleep 1
 end
 
+def launch_app(desktop_file_name)
+  $vm.spawn("gtk-launch #{desktop_file_name}", user: LIVE_USER)
+end
+
+def app_is_running(app_name)
+  Dogtail::Application.new(app_name)
+rescue Dogtail::Failure
+  # The app couldn't be found
+  false
+else
+  true
+end
+
+def launch_persistent_storage
+  launch_app('org.boum.tails.PersistentStorage.desktop')
+  try_for(10) do
+    app_is_running('tps-frontend')
+  end
+end
+
 Given /^I start "([^"]+)" via GNOME Activities Overview$/ do |app_name|
   # Search disambiguations: below we assume that there is only one
   # result, since multiple results introduces a race that leads to a
@@ -968,6 +988,23 @@ Given /^I start "([^"]+)" via GNOME Activities Overview$/ do |app_name|
   if language_has_non_latin_input_source($language)
     # Switch back to $language's default keyboard layout
     switch_input_source
+  end
+end
+
+When /^I close the "([^"]+)" window$/ do |app_name|
+  # Press the close button
+  Dogtail::Application.new(app_name)
+                      .child('Close', roleName: 'push button', showingOnly: true)
+                      .click
+
+  # Wait for the app to close
+  try_for(10) do
+    Dogtail::Application.new(app_name)
+  rescue Dogtail::Failure
+    # The app couldn't be found, which is what we want
+    true
+  else
+    false
   end
 end
 
