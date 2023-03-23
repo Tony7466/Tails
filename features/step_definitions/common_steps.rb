@@ -16,7 +16,9 @@ def post_snapshot_restore_hook(snapshot_name)
   @screen.press('Escape')
 
   $vm.wait_until_remote_shell_is_up
-  unless snapshot_name.end_with?('tails-greeter')
+  if snapshot_name.end_with?('tails-greeter')
+    @screen.wait('TailsGreeter.png', 40)
+  else
     @screen.wait("GnomeApplicationsMenu#{$language}.png", 40)
   end
   post_vm_start_hook
