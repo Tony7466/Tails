@@ -12,9 +12,12 @@ def post_vm_start_hook
 end
 
 def post_snapshot_restore_hook(snapshot_name)
+  # Press escape to wake up the display
+  @screen.press('Escape')
+
   $vm.wait_until_remote_shell_is_up
   unless snapshot_name.end_with?('tails-greeter')
-    @screen.wait("GnomeApplicationsMenu#{$language}.png", 20)
+    @screen.wait("GnomeApplicationsMenu#{$language}.png", 40)
   end
   post_vm_start_hook
 
