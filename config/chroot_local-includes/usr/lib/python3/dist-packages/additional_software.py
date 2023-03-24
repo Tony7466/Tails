@@ -209,10 +209,9 @@ def notify_failure(summary, details=None):
 
 def show_system_log():
     """Show additional packages configuration window."""
-    run_with_user_env("/usr/bin/gedit",
-                      ASP_LOG_FILE)
+    run_with_user_env("gtk-launch", "org.gnome.gedit.desktop", ASP_LOG_FILE)
 
 
 def show_configuration_window():
     """Show additional packages configuration window."""
-    run_with_user_env("/usr/local/bin/tails-additional-software-config")
+    run_with_user_env("gtk-launch", "org.boum.tails.additional-software-config.desktop")
