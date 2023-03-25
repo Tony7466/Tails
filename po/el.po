@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-18 14:06+0100\n"
+"POT-Creation-Date: 2023-03-25 11:54+0100\n"
 "PO-Revision-Date: 2023-03-09 08:38+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/tor/tails-gui/el/"
@@ -44,6 +44,165 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.2-dev\n"
+
+#. Translators: Don't translate {details}, it's a placeholder and will
+#. be replaced.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:191
+#, python-brace-format
+msgid ""
+"{details} Please check your list of additional software or read the system "
+"log to understand the problem."
+msgstr ""
+"{details} Παρακαλώ, ελέγξτε τη λίστα σας με τα επιπρόσθετα λογισμικά ή "
+"διαβάστε το αρχείο συστήματος για να κατανοήσετε το πρόβλημα."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:196
+msgid ""
+"Please check your list of additional software or read the system log to "
+"understand the problem."
+msgstr ""
+"[λεπτομέρειες] Παρακαλώ, ελέγξτε τη λίστα σας με τα επιπρόσθετα λογισμικά ή "
+"διαβάστε το αρχείο συστήματος για να κατανοήσετε το πρόβλημα."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:200
+msgid "Show Log"
+msgstr "Εμφάνιση αρχείου καταγραφής"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:200
+msgid "Configure"
+msgstr "Διαμόρφωση"
+
+#. Translators: Don't translate {packages}, it's a placeholder and will
+#. be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:41
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:72
+#, python-brace-format
+msgid "Add {packages} to your additional software?"
+msgstr "Να προστεθούν τα {packages} στο επιπρόθετο λογισμικό σας;"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:43
+msgid ""
+"To install it automatically from your persistent storage when starting Tails."
+msgstr ""
+"Μπορείτε να εγκαταστήσετε επιπλέον λογισμικό αυτόματα από το μόνιμο "
+"αποθηκευτικό σας χώρο ξεκινώντας το Tails."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:45
+msgid "Install Every Time"
+msgstr "Εγκατάσταση κάθε φορά"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:46
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:78
+msgid "Install Only Once"
+msgstr "Εγκατάσταση μόνο μία φορά"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:53
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:84
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:151
+msgid "The configuration of your additional software failed."
+msgstr "Η διαμόρφωση για το επιπρόσθετο λογισμικό απέτυχε."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:74
+msgid ""
+"To install it automatically when starting Tails, you can create a persistent "
+"storage and activate the <b>Additional Software</b> feature."
+msgstr ""
+"Για να το εγκαταστήσετε αυτόματα κατά την εκκίνηση του Tails, μπορείτε να "
+"δημιουργήσετε ένα μόνιμο αποθηκευτικό χώρο και να ενεργοποιήσετε τη "
+"λειτουργία <b>Πρόσθετο λογισμικό</b>."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:77
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:246
+msgid "Create Persistent Storage"
+msgstr "Δημιουργία Μόνιμου αποθηκευτικού χώρου"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:86
+msgid "Creating your persistent storage failed."
+msgstr "Η δημιουργία μόνιμου αποθηκευτικού χώρου απέτυχε."
+
+#. Translators: Don't translate {packages}, it's a placeholder and
+#. will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:95
+#, python-brace-format
+msgid "You could install {packages} automatically when starting Tails"
+msgstr ""
+"Θα μπορούσατε να εγκαταστήσετε {packages} αυτόματα ξεκινώντας το Tails."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:98
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr "Για να το κάνετε, χρειάζεται να τρέξετε το Tails από USB."
+
+#. Translators: Don't translate {packages}, it's a placeholder and will be
+#. replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:138
+#, python-brace-format
+msgid "Remove {packages} from your additional software?"
+msgstr "Να αφαιρεθούν τα {packages} από το επιπρόθετο λογισμικό σας;"
+
+#. Translators: Don't translate {packages}, it's a placeholder
+#. and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:142
+#, python-brace-format
+msgid "This will stop installing {packages} automatically."
+msgstr "Αυτό θα σταματήσει την εγκατάσταση των {packages} αυτόματα."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:144
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:168
+msgid "Remove"
+msgstr "Απομάκρυνση"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:145
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:170
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:591
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#. Translators: Don't translate {beginning} or {last}, they are
+#. placeholders and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:165
+#, python-brace-format
+msgid "{beginning} and {last}"
+msgstr "{beginning} και {last}"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:166
+msgid ", "
+msgstr ", "
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:38
+msgid "The check for upgrades of your additional software failed"
+msgstr "Ο έλεγχος για αναβαθμίσεις για τα πρόσθετα λογισμικά σας απέτυχε."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:40
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:48
+msgid ""
+"Please check your network connection, restart Tails, or read the system log "
+"to understand the problem."
+msgstr ""
+"Ελέγξτε την σύνδεσή σας στο διαδίκτυο, επανεκκινήστε το Tails ή διαβάστε το "
+"ιστορικό συστήματος για να κατανοήσετε το πρόβλημα."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:47
+msgid "The upgrade of your additional software failed"
+msgstr "Η αναβάθμιση του πρόσθετού σας λογισμικού απέτυχε."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:112
+msgid "Installing your additional software from persistent storage..."
+msgstr ""
+"Εγκαθιστάται το πρόσθετο λογισμικό σας από το μόνιμο αποθηκευτικό χώρο..."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:114
+msgid "This can take several minutes."
+msgstr "Αυτό μπορεί να πάρει μερικά λεπτά."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:127
+msgid "The installation of your additional software failed"
+msgstr "Η εγκατάσταση του πρόσθετου λογισμικού απέτυχε."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:142
+msgid "Additional software installed successfully"
+msgstr "Το πρόσθετο λογισμικό εγκαταστάθηκε επιτυχώς."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
@@ -68,7 +227,7 @@ msgstr ""
 "χώρο όταν ξεκινά το Tails."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:180
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:185
 msgid ""
 "To add more, install some software using <a href=\"synaptic."
 "desktop\">Synaptic Package Manager</a> or <a href=\"org.gnome.Terminal."
@@ -543,14 +702,6 @@ msgstr "Προέκυψε σφάλμα κατά την εγκατάσταση τ�
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:32
 msgid "Additional Settings"
 msgstr "Πρόσθετες Ρυθμίσεις"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:170
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:591
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:374
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
-msgid "Cancel"
-msgstr "Ακύρωση"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:46
 msgid "Add"
@@ -1229,163 +1380,12 @@ msgstr ""
 msgid "not available"
 msgstr "μη διαθέσιμο"
 
-#. Translators: Don't translate {details}, it's a placeholder and will
-#. be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:157
-#, python-brace-format
-msgid ""
-"{details} Please check your list of additional software or read the system "
-"log to understand the problem."
-msgstr ""
-"{details} Παρακαλώ, ελέγξτε τη λίστα σας με τα επιπρόσθετα λογισμικά ή "
-"διαβάστε το αρχείο συστήματος για να κατανοήσετε το πρόβλημα."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:162
-msgid ""
-"Please check your list of additional software or read the system log to "
-"understand the problem."
-msgstr ""
-"[λεπτομέρειες] Παρακαλώ, ελέγξτε τη λίστα σας με τα επιπρόσθετα λογισμικά ή "
-"διαβάστε το αρχείο συστήματος για να κατανοήσετε το πρόβλημα."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:166
-msgid "Show Log"
-msgstr "Εμφάνιση αρχείου καταγραφής"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:166
-msgid "Configure"
-msgstr "Διαμόρφωση"
-
-#. Translators: Don't translate {beginning} or {last}, they are
-#. placeholders and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:232
-#, python-brace-format
-msgid "{beginning} and {last}"
-msgstr "{beginning} και {last}"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:233
-msgid ", "
-msgstr ", "
-
-#. Translators: Don't translate {packages}, it's a placeholder and will
-#. be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:298
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:328
-#, python-brace-format
-msgid "Add {packages} to your additional software?"
-msgstr "Να προστεθούν τα {packages} στο επιπρόθετο λογισμικό σας;"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:300
-msgid ""
-"To install it automatically from your persistent storage when starting Tails."
-msgstr ""
-"Μπορείτε να εγκαταστήσετε επιπλέον λογισμικό αυτόματα από το μόνιμο "
-"αποθηκευτικό σας χώρο ξεκινώντας το Tails."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:302
-msgid "Install Every Time"
-msgstr "Εγκατάσταση κάθε φορά"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:303
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:334
-msgid "Install Only Once"
-msgstr "Εγκατάσταση μόνο μία φορά"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:309
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:339
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:379
-msgid "The configuration of your additional software failed."
-msgstr "Η διαμόρφωση για το επιπρόσθετο λογισμικό απέτυχε."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:330
-msgid ""
-"To install it automatically when starting Tails, you can create a persistent "
-"storage and activate the <b>Additional Software</b> feature."
-msgstr ""
-"Για να το εγκαταστήσετε αυτόματα κατά την εκκίνηση του Tails, μπορείτε να "
-"δημιουργήσετε ένα μόνιμο αποθηκευτικό χώρο και να ενεργοποιήσετε τη "
-"λειτουργία <b>Πρόσθετο λογισμικό</b>."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:333
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:246
-msgid "Create Persistent Storage"
-msgstr "Δημιουργία Μόνιμου αποθηκευτικού χώρου"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:341
-msgid "Creating your persistent storage failed."
-msgstr "Η δημιουργία μόνιμου αποθηκευτικού χώρου απέτυχε."
-
-#. Translators: Don't translate {packages}, it's a placeholder and
-#. will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:350
-#, python-brace-format
-msgid "You could install {packages} automatically when starting Tails"
-msgstr ""
-"Θα μπορούσατε να εγκαταστήσετε {packages} αυτόματα ξεκινώντας το Tails."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:353
-msgid "To do so, you need to run Tails from a USB stick."
-msgstr "Για να το κάνετε, χρειάζεται να τρέξετε το Tails από USB."
-
-#. Translators: Don't translate {packages}, it's a placeholder and will be
-#. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
-#, python-brace-format
-msgid "Remove {packages} from your additional software?"
-msgstr "Να αφαιρεθούν τα {packages} από το επιπρόθετο λογισμικό σας;"
-
-#. Translators: Don't translate {packages}, it's a placeholder
-#. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:371
-#, python-brace-format
-msgid "This will stop installing {packages} automatically."
-msgstr "Αυτό θα σταματήσει την εγκατάσταση των {packages} αυτόματα."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:373
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:163
-msgid "Remove"
-msgstr "Απομάκρυνση"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:550
-msgid "Installing your additional software from persistent storage..."
-msgstr ""
-"Εγκαθιστάται το πρόσθετο λογισμικό σας από το μόνιμο αποθηκευτικό χώρο..."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:552
-msgid "This can take several minutes."
-msgstr "Αυτό μπορεί να πάρει μερικά λεπτά."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:565
-msgid "The installation of your additional software failed"
-msgstr "Η εγκατάσταση του πρόσθετου λογισμικού απέτυχε."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:580
-msgid "Additional software installed successfully"
-msgstr "Το πρόσθετο λογισμικό εγκαταστάθηκε επιτυχώς."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:600
-msgid "The check for upgrades of your additional software failed"
-msgstr "Ο έλεγχος για αναβαθμίσεις για τα πρόσθετα λογισμικά σας απέτυχε."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:602
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:610
-msgid ""
-"Please check your network connection, restart Tails, or read the system log "
-"to understand the problem."
-msgstr ""
-"Ελέγξτε την σύνδεσή σας στο διαδίκτυο, επανεκκινήστε το Tails ή διαβάστε το "
-"ιστορικό συστήματος για να κατανοήσετε το πρόβλημα."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:609
-msgid "The upgrade of your additional software failed"
-msgstr "Η αναβάθμιση του πρόσθετού σας λογισμικού απέτυχε."
-
 #: config/chroot_local-includes/usr/local/lib/tails-additional-software-notify:36
 msgid "Documentation"
 msgstr "Τεκμηρίωση"
 
 #. Translators: Don't translate {package}, it's a placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:95
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:100
 #, python-brace-format
 msgid ""
 "Remove {package} from your additional software? This will stop installing "
@@ -1395,22 +1395,22 @@ msgstr ""
 "την εγκατάσταση των πακέτων αυτόματα."
 
 #. Translators: Don't translate {pkg}, it's a placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:106
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:111
 #, python-brace-format
 msgid "Failed to remove {pkg}"
 msgstr "Απέτυχε η αφαίρεση {pkg}"
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:131
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:136
 msgid "Failed to read additional software configuration"
 msgstr "Απέτυχε η ανάγνωση διαμόρφωσης του πρόσθετου λογισμικού"
 
 #. Translators: Don't translate {package}, it's a placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:161
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:166
 #, python-brace-format
 msgid "Stop installing {package} automatically"
 msgstr "Σταμάτησε την εγκατάσταση των {package} αυτόματα"
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:187
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:192
 msgid ""
 "To do so, install some software using <a href=\"synaptic.desktop\">Synaptic "
 "Package Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the "
@@ -1420,7 +1420,7 @@ msgstr ""
 "href=\"synaptic.desktop\">Synaptic Package Manager</a>ή το <a href=\"org."
 "gnome.Terminal.desktop\">ΑΡΤ στην γραμμή εντολών</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:196
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:201
 msgid ""
 "To do so, unlock your persistent storage when starting Tails and install "
 "some software using <a href=\"synaptic.desktop\">Synaptic Package Manager</"
@@ -1431,7 +1431,7 @@ msgstr ""
 "href=\"synaptic.desktop\">Synaptic Package Manager</a>ή το <a href=\"org."
 "gnome.Terminal.desktop\">ΑΡΤ στην γραμμή εντολών</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:206
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:211
 msgid ""
 "To do so, create a persistent storage and install some software using <a "
 "href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a href=\"org."
@@ -1442,13 +1442,13 @@ msgstr ""
 "desktop\">Synaptic Package Manager</a>ή το <a href=\"org.gnome.Terminal."
 "desktop\">ΑΡΤ στην γραμμή εντολών</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:214
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:219
 msgid "To do so, install Tails on a USB stick and create a persistent storage."
 msgstr ""
 "Για να το κάνετε αυτό, εγκαταστήστε το Tails σε ένα στικάκι USB και "
 "δημιουργήστε ένα μόνιμο αποθηκευτικό χώρο."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:258
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:263
 msgid "[package not available]"
 msgstr "[πακέτο μη διαθέσιμο]"
 
