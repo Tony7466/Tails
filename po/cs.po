@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-18 14:06+0100\n"
+"POT-Creation-Date: 2023-03-25 11:54+0100\n"
 "PO-Revision-Date: 2023-03-01 17:39+0000\n"
 "Last-Translator: emma peel <emma.peel@riseup.net>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/tor/tails-gui/cs/"
@@ -40,6 +40,160 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 4.16\n"
+
+#. Translators: Don't translate {details}, it's a placeholder and will
+#. be replaced.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:191
+#, python-brace-format
+msgid ""
+"{details} Please check your list of additional software or read the system "
+"log to understand the problem."
+msgstr ""
+"{details} Zkontrolujte seznam dodatečného softwaru nebo si přečtěte "
+"systémový protokol pro lepší pochopení problému."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:196
+msgid ""
+"Please check your list of additional software or read the system log to "
+"understand the problem."
+msgstr ""
+"Zkontrolujte seznam dodatečného softwaru nebo si přečtěte systémový protokol "
+"pro lepší pochopení problému."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:200
+msgid "Show Log"
+msgstr "Zobrazit protokol"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:200
+msgid "Configure"
+msgstr "Konfigurovat"
+
+#. Translators: Don't translate {packages}, it's a placeholder and will
+#. be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:41
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:72
+#, python-brace-format
+msgid "Add {packages} to your additional software?"
+msgstr "Přidat {packages} k vašemu dodatečnému softwaru?"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:43
+msgid ""
+"To install it automatically from your persistent storage when starting Tails."
+msgstr "Instalovat automaticky z vašeho trvalého úložiště při spouštění Tails."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:45
+msgid "Install Every Time"
+msgstr "Instalovat pokaždé"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:46
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:78
+msgid "Install Only Once"
+msgstr "Instalovat pouze jednou"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:53
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:84
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:151
+msgid "The configuration of your additional software failed."
+msgstr "Konfigurace vašeho dodatečného softwaru selhala."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:74
+msgid ""
+"To install it automatically when starting Tails, you can create a persistent "
+"storage and activate the <b>Additional Software</b> feature."
+msgstr ""
+"K automatické instalaci při spouštění Tails můžete vytvořit trvalé úložiště "
+"a aktivovat vlastnost <b>Dodatečný software.</b>"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:77
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:246
+msgid "Create Persistent Storage"
+msgstr "Vytvořit trvalé úložiště"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:86
+msgid "Creating your persistent storage failed."
+msgstr "Trvalé úložiště se nepodařilo vytvořit."
+
+#. Translators: Don't translate {packages}, it's a placeholder and
+#. will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:95
+#, python-brace-format
+msgid "You could install {packages} automatically when starting Tails"
+msgstr "{packages} můžete instalovat automaticky při startu Tails."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:98
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr "K tomu musíte Tails spustit z USB disku."
+
+#. Translators: Don't translate {packages}, it's a placeholder and will be
+#. replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:138
+#, python-brace-format
+msgid "Remove {packages} from your additional software?"
+msgstr "Chcete odstranit {packages} z vašeho dodatečného softwaru?"
+
+#. Translators: Don't translate {packages}, it's a placeholder
+#. and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:142
+#, python-brace-format
+msgid "This will stop installing {packages} automatically."
+msgstr "Tím se balík {packages} přestane automaticky aktualizovat."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:144
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:168
+msgid "Remove"
+msgstr "Odstranit"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:145
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:170
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:591
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
+msgid "Cancel"
+msgstr "Zrušit"
+
+#. Translators: Don't translate {beginning} or {last}, they are
+#. placeholders and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:165
+#, python-brace-format
+msgid "{beginning} and {last}"
+msgstr "{beginning} a {last}"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:166
+msgid ", "
+msgstr ", "
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:38
+msgid "The check for upgrades of your additional software failed"
+msgstr "Kontrola aktualizací vašeho dodatečného softwaru selhala"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:40
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:48
+msgid ""
+"Please check your network connection, restart Tails, or read the system log "
+"to understand the problem."
+msgstr ""
+"Zkontrolujte prosím síťové připojení, restartujte Tails nebo si přečtěte "
+"systémový protokol pro lepší pochopení problému."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:47
+msgid "The upgrade of your additional software failed"
+msgstr "Upgrade vašeho dodatečného softwaru selhal"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:112
+msgid "Installing your additional software from persistent storage..."
+msgstr "Instalace dodatečného softwaru z trvalého úložiště..."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:114
+msgid "This can take several minutes."
+msgstr "Toto může trvat pár minut."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:127
+msgid "The installation of your additional software failed"
+msgstr "Instalace dalšího softwaru selhala"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:142
+msgid "Additional software installed successfully"
+msgstr "Dodatečný software byl úspěšně nainstalován"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
@@ -64,7 +218,7 @@ msgstr ""
 "při spouštění Tails."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:180
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:185
 msgid ""
 "To add more, install some software using <a href=\"synaptic."
 "desktop\">Synaptic Package Manager</a> or <a href=\"org.gnome.Terminal."
@@ -531,14 +685,6 @@ msgstr "Chyba při instalaci aktualizace"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:32
 msgid "Additional Settings"
 msgstr "Další nastavení"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:170
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:591
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:374
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
-msgid "Cancel"
-msgstr "Zrušit"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:46
 msgid "Add"
@@ -1192,158 +1338,12 @@ msgstr ""
 msgid "not available"
 msgstr "nedostupné"
 
-#. Translators: Don't translate {details}, it's a placeholder and will
-#. be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:157
-#, python-brace-format
-msgid ""
-"{details} Please check your list of additional software or read the system "
-"log to understand the problem."
-msgstr ""
-"{details} Zkontrolujte seznam dodatečného softwaru nebo si přečtěte "
-"systémový protokol pro lepší pochopení problému."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:162
-msgid ""
-"Please check your list of additional software or read the system log to "
-"understand the problem."
-msgstr ""
-"Zkontrolujte seznam dodatečného softwaru nebo si přečtěte systémový protokol "
-"pro lepší pochopení problému."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:166
-msgid "Show Log"
-msgstr "Zobrazit protokol"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:166
-msgid "Configure"
-msgstr "Konfigurovat"
-
-#. Translators: Don't translate {beginning} or {last}, they are
-#. placeholders and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:232
-#, python-brace-format
-msgid "{beginning} and {last}"
-msgstr "{beginning} a {last}"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:233
-msgid ", "
-msgstr ", "
-
-#. Translators: Don't translate {packages}, it's a placeholder and will
-#. be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:298
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:328
-#, python-brace-format
-msgid "Add {packages} to your additional software?"
-msgstr "Přidat {packages} k vašemu dodatečnému softwaru?"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:300
-msgid ""
-"To install it automatically from your persistent storage when starting Tails."
-msgstr "Instalovat automaticky z vašeho trvalého úložiště při spouštění Tails."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:302
-msgid "Install Every Time"
-msgstr "Instalovat pokaždé"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:303
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:334
-msgid "Install Only Once"
-msgstr "Instalovat pouze jednou"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:309
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:339
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:379
-msgid "The configuration of your additional software failed."
-msgstr "Konfigurace vašeho dodatečného softwaru selhala."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:330
-msgid ""
-"To install it automatically when starting Tails, you can create a persistent "
-"storage and activate the <b>Additional Software</b> feature."
-msgstr ""
-"K automatické instalaci při spouštění Tails můžete vytvořit trvalé úložiště "
-"a aktivovat vlastnost <b>Dodatečný software.</b>"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:333
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:246
-msgid "Create Persistent Storage"
-msgstr "Vytvořit trvalé úložiště"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:341
-msgid "Creating your persistent storage failed."
-msgstr "Trvalé úložiště se nepodařilo vytvořit."
-
-#. Translators: Don't translate {packages}, it's a placeholder and
-#. will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:350
-#, python-brace-format
-msgid "You could install {packages} automatically when starting Tails"
-msgstr "{packages} můžete instalovat automaticky při startu Tails."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:353
-msgid "To do so, you need to run Tails from a USB stick."
-msgstr "K tomu musíte Tails spustit z USB disku."
-
-#. Translators: Don't translate {packages}, it's a placeholder and will be
-#. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
-#, python-brace-format
-msgid "Remove {packages} from your additional software?"
-msgstr "Chcete odstranit {packages} z vašeho dodatečného softwaru?"
-
-#. Translators: Don't translate {packages}, it's a placeholder
-#. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:371
-#, python-brace-format
-msgid "This will stop installing {packages} automatically."
-msgstr "Tím se balík {packages} přestane automaticky aktualizovat."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:373
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:163
-msgid "Remove"
-msgstr "Odstranit"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:550
-msgid "Installing your additional software from persistent storage..."
-msgstr "Instalace dodatečného softwaru z trvalého úložiště..."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:552
-msgid "This can take several minutes."
-msgstr "Toto může trvat pár minut."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:565
-msgid "The installation of your additional software failed"
-msgstr "Instalace dalšího softwaru selhala"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:580
-msgid "Additional software installed successfully"
-msgstr "Dodatečný software byl úspěšně nainstalován"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:600
-msgid "The check for upgrades of your additional software failed"
-msgstr "Kontrola aktualizací vašeho dodatečného softwaru selhala"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:602
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:610
-msgid ""
-"Please check your network connection, restart Tails, or read the system log "
-"to understand the problem."
-msgstr ""
-"Zkontrolujte prosím síťové připojení, restartujte Tails nebo si přečtěte "
-"systémový protokol pro lepší pochopení problému."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:609
-msgid "The upgrade of your additional software failed"
-msgstr "Upgrade vašeho dodatečného softwaru selhal"
-
 #: config/chroot_local-includes/usr/local/lib/tails-additional-software-notify:36
 msgid "Documentation"
 msgstr "Dokumentace"
 
 #. Translators: Don't translate {package}, it's a placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:95
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:100
 #, python-brace-format
 msgid ""
 "Remove {package} from your additional software? This will stop installing "
@@ -1353,22 +1353,22 @@ msgstr ""
 "přestane automaticky aktualizovat."
 
 #. Translators: Don't translate {pkg}, it's a placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:106
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:111
 #, python-brace-format
 msgid "Failed to remove {pkg}"
 msgstr "Odstranění {pkg} selhalo"
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:131
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:136
 msgid "Failed to read additional software configuration"
 msgstr "Selhalo čtení konfigurace dodatečného softwaru"
 
 #. Translators: Don't translate {package}, it's a placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:161
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:166
 #, python-brace-format
 msgid "Stop installing {package} automatically"
 msgstr "Zastavit automatickou instalaci {package}"
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:187
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:192
 msgid ""
 "To do so, install some software using <a href=\"synaptic.desktop\">Synaptic "
 "Package Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the "
@@ -1378,7 +1378,7 @@ msgstr ""
 "href=\"synaptic.desktop\">Správce balíčků Synaptic</a> nebo <a href=\"org."
 "gnome.Terminal.desktop\">APT v příkazové řádce</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:196
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:201
 msgid ""
 "To do so, unlock your persistent storage when starting Tails and install "
 "some software using <a href=\"synaptic.desktop\">Synaptic Package Manager</"
@@ -1389,7 +1389,7 @@ msgstr ""
 "balíčků Synaptic</a> nebo <a href=\"org.gnome.Terminal.desktop\">APT v "
 "příkazové řádce</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:206
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:211
 msgid ""
 "To do so, create a persistent storage and install some software using <a "
 "href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a href=\"org."
@@ -1399,13 +1399,13 @@ msgstr ""
 "prostřednictvím <a href=\"synaptic.desktop\">Správce balíčků Synaptic</a> "
 "nebo <a href=\"org.gnome.Terminal.desktop\">APT v příkazové řádce</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:214
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:219
 msgid "To do so, install Tails on a USB stick and create a persistent storage."
 msgstr ""
 "To provedete tak, že nainstalujete Tails na USB disk a vytvoříte trvalé "
 "úložiště."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:258
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:263
 msgid "[package not available]"
 msgstr "[balík není dostupný]"
 

@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-18 14:06+0100\n"
+"POT-Creation-Date: 2023-03-25 11:54+0100\n"
 "PO-Revision-Date: 2023-03-05 10:37+0000\n"
 "Last-Translator: emma peel <emma.peel@riseup.net>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/tor/tails-gui/da/"
@@ -34,6 +34,161 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.2-dev\n"
+
+#. Translators: Don't translate {details}, it's a placeholder and will
+#. be replaced.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:191
+#, python-brace-format
+msgid ""
+"{details} Please check your list of additional software or read the system "
+"log to understand the problem."
+msgstr ""
+"{details} Tjek venligst din liste over yderligere software eller læs "
+"systemloggen for at forstå problemet."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:196
+msgid ""
+"Please check your list of additional software or read the system log to "
+"understand the problem."
+msgstr ""
+"Tjek venligst din liste over yderligere software eller læs systemloggen for "
+"at forstå problemet."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:200
+msgid "Show Log"
+msgstr "Vis Log"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:200
+msgid "Configure"
+msgstr "Konfigurer"
+
+#. Translators: Don't translate {packages}, it's a placeholder and will
+#. be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:41
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:72
+#, python-brace-format
+msgid "Add {packages} to your additional software?"
+msgstr "Tilføj {packages} til dine yderligere software?"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:43
+msgid ""
+"To install it automatically from your persistent storage when starting Tails."
+msgstr ""
+"For automatisk at installere det fra dit vedvarende lager når Tails starter."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:45
+msgid "Install Every Time"
+msgstr "Installer hver gang"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:46
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:78
+msgid "Install Only Once"
+msgstr "Installer kun én gang"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:53
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:84
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:151
+msgid "The configuration of your additional software failed."
+msgstr "Konfigurationen af dine yderligere software mislykkedes."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:74
+msgid ""
+"To install it automatically when starting Tails, you can create a persistent "
+"storage and activate the <b>Additional Software</b> feature."
+msgstr ""
+"For automatisk at installere det når Tails starter kan du oprette et "
+"vedvarende lager og aktivere funktionaliteten <b>Yderligere software</b>."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:77
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:246
+msgid "Create Persistent Storage"
+msgstr "Opret vedvarende lager"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:86
+msgid "Creating your persistent storage failed."
+msgstr "Oprettelse af dit vedvarende lager mislykkedes."
+
+#. Translators: Don't translate {packages}, it's a placeholder and
+#. will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:95
+#, python-brace-format
+msgid "You could install {packages} automatically when starting Tails"
+msgstr "Du kan installere {packages} automatisk når Tails starter"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:98
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr "Det gøres ved at køre Tails fra en USB-pen."
+
+#. Translators: Don't translate {packages}, it's a placeholder and will be
+#. replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:138
+#, python-brace-format
+msgid "Remove {packages} from your additional software?"
+msgstr "Fjern {packages} fra dine yderligere software?"
+
+#. Translators: Don't translate {packages}, it's a placeholder
+#. and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:142
+#, python-brace-format
+msgid "This will stop installing {packages} automatically."
+msgstr "Det vil stoppe automatisk installation af {packages}."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:144
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:168
+msgid "Remove"
+msgstr "Fjern"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:145
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:170
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:591
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
+msgid "Cancel"
+msgstr "Annuller"
+
+#. Translators: Don't translate {beginning} or {last}, they are
+#. placeholders and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:165
+#, python-brace-format
+msgid "{beginning} and {last}"
+msgstr "{beginning} og {last}"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:166
+msgid ", "
+msgstr ", "
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:38
+msgid "The check for upgrades of your additional software failed"
+msgstr "Søgningen efter opgraderinger af dine yderligere software mislykkedes"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:40
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:48
+msgid ""
+"Please check your network connection, restart Tails, or read the system log "
+"to understand the problem."
+msgstr ""
+"Tjek venligst din internetforbindelse, genstart Tails eller læs systemloggen "
+"for at forstå problemet."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:47
+msgid "The upgrade of your additional software failed"
+msgstr "Opgraderingen af dine yderligere software mislykkedes"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:112
+msgid "Installing your additional software from persistent storage..."
+msgstr "Installerer dine yderligere software from vedvarende lager..."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:114
+msgid "This can take several minutes."
+msgstr "Det kan tage flere minutter."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:127
+msgid "The installation of your additional software failed"
+msgstr "Installationen af dine yderligere software mislykkedes."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:142
+msgid "Additional software installed successfully"
+msgstr "Yderligere software blev installeret."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.additional-software-config.desktop.in.h:1
@@ -58,7 +213,7 @@ msgstr ""
 "starter."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:180
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:185
 msgid ""
 "To add more, install some software using <a href=\"synaptic."
 "desktop\">Synaptic Package Manager</a> or <a href=\"org.gnome.Terminal."
@@ -514,14 +669,6 @@ msgstr "Fejl under installation af opgraderingen"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:32
 msgid "Additional Settings"
 msgstr "Yderligere indstillinger"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:170
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:591
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:374
-#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
-msgid "Cancel"
-msgstr "Annuller"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:46
 msgid "Add"
@@ -1180,159 +1327,12 @@ msgstr ""
 msgid "not available"
 msgstr "ikke tilgængelig"
 
-#. Translators: Don't translate {details}, it's a placeholder and will
-#. be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:157
-#, python-brace-format
-msgid ""
-"{details} Please check your list of additional software or read the system "
-"log to understand the problem."
-msgstr ""
-"{details} Tjek venligst din liste over yderligere software eller læs "
-"systemloggen for at forstå problemet."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:162
-msgid ""
-"Please check your list of additional software or read the system log to "
-"understand the problem."
-msgstr ""
-"Tjek venligst din liste over yderligere software eller læs systemloggen for "
-"at forstå problemet."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:166
-msgid "Show Log"
-msgstr "Vis Log"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:166
-msgid "Configure"
-msgstr "Konfigurer"
-
-#. Translators: Don't translate {beginning} or {last}, they are
-#. placeholders and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:232
-#, python-brace-format
-msgid "{beginning} and {last}"
-msgstr "{beginning} og {last}"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:233
-msgid ", "
-msgstr ", "
-
-#. Translators: Don't translate {packages}, it's a placeholder and will
-#. be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:298
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:328
-#, python-brace-format
-msgid "Add {packages} to your additional software?"
-msgstr "Tilføj {packages} til dine yderligere software?"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:300
-msgid ""
-"To install it automatically from your persistent storage when starting Tails."
-msgstr ""
-"For automatisk at installere det fra dit vedvarende lager når Tails starter."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:302
-msgid "Install Every Time"
-msgstr "Installer hver gang"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:303
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:334
-msgid "Install Only Once"
-msgstr "Installer kun én gang"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:309
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:339
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:379
-msgid "The configuration of your additional software failed."
-msgstr "Konfigurationen af dine yderligere software mislykkedes."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:330
-msgid ""
-"To install it automatically when starting Tails, you can create a persistent "
-"storage and activate the <b>Additional Software</b> feature."
-msgstr ""
-"For automatisk at installere det når Tails starter kan du oprette et "
-"vedvarende lager og aktivere funktionaliteten <b>Yderligere software</b>."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:333
-#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:246
-msgid "Create Persistent Storage"
-msgstr "Opret vedvarende lager"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:341
-msgid "Creating your persistent storage failed."
-msgstr "Oprettelse af dit vedvarende lager mislykkedes."
-
-#. Translators: Don't translate {packages}, it's a placeholder and
-#. will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:350
-#, python-brace-format
-msgid "You could install {packages} automatically when starting Tails"
-msgstr "Du kan installere {packages} automatisk når Tails starter"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:353
-msgid "To do so, you need to run Tails from a USB stick."
-msgstr "Det gøres ved at køre Tails fra en USB-pen."
-
-#. Translators: Don't translate {packages}, it's a placeholder and will be
-#. replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:367
-#, python-brace-format
-msgid "Remove {packages} from your additional software?"
-msgstr "Fjern {packages} fra dine yderligere software?"
-
-#. Translators: Don't translate {packages}, it's a placeholder
-#. and will be replaced.
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:371
-#, python-brace-format
-msgid "This will stop installing {packages} automatically."
-msgstr "Det vil stoppe automatisk installation af {packages}."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:373
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:163
-msgid "Remove"
-msgstr "Fjern"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:550
-msgid "Installing your additional software from persistent storage..."
-msgstr "Installerer dine yderligere software from vedvarende lager..."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:552
-msgid "This can take several minutes."
-msgstr "Det kan tage flere minutter."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:565
-msgid "The installation of your additional software failed"
-msgstr "Installationen af dine yderligere software mislykkedes."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:580
-msgid "Additional software installed successfully"
-msgstr "Yderligere software blev installeret."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:600
-msgid "The check for upgrades of your additional software failed"
-msgstr "Søgningen efter opgraderinger af dine yderligere software mislykkedes"
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:602
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:610
-msgid ""
-"Please check your network connection, restart Tails, or read the system log "
-"to understand the problem."
-msgstr ""
-"Tjek venligst din internetforbindelse, genstart Tails eller læs systemloggen "
-"for at forstå problemet."
-
-#: config/chroot_local-includes/usr/local/sbin/tails-additional-software:609
-msgid "The upgrade of your additional software failed"
-msgstr "Opgraderingen af dine yderligere software mislykkedes"
-
 #: config/chroot_local-includes/usr/local/lib/tails-additional-software-notify:36
 msgid "Documentation"
 msgstr "Dokumentation"
 
 #. Translators: Don't translate {package}, it's a placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:95
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:100
 #, python-brace-format
 msgid ""
 "Remove {package} from your additional software? This will stop installing "
@@ -1342,22 +1342,22 @@ msgstr ""
 "installationen af pakken."
 
 #. Translators: Don't translate {pkg}, it's a placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:106
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:111
 #, python-brace-format
 msgid "Failed to remove {pkg}"
 msgstr "Kunne ikke fjerne {pkg}"
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:131
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:136
 msgid "Failed to read additional software configuration"
 msgstr "Kunne ikke læse konfiguration af yderligere software"
 
 #. Translators: Don't translate {package}, it's a placeholder and will be replaced.
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:161
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:166
 #, python-brace-format
 msgid "Stop installing {package} automatically"
 msgstr "Stop automatisk installation af {package}"
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:187
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:192
 msgid ""
 "To do so, install some software using <a href=\"synaptic.desktop\">Synaptic "
 "Package Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the "
@@ -1367,7 +1367,7 @@ msgstr ""
 "desktop\">Synaptic-pakkehåndtering</a> eller <a href=\"org.gnome.Terminal."
 "desktop\">APT i kommandolinjen</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:196
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:201
 msgid ""
 "To do so, unlock your persistent storage when starting Tails and install "
 "some software using <a href=\"synaptic.desktop\">Synaptic Package Manager</"
@@ -1378,7 +1378,7 @@ msgstr ""
 "pakkehåndtering</a> eller <a href=\"org.gnome.Terminal.desktop\">APT i "
 "kommandolinjen</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:206
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:211
 msgid ""
 "To do so, create a persistent storage and install some software using <a "
 "href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a href=\"org."
@@ -1388,13 +1388,13 @@ msgstr ""
 "href=\"synaptic.desktop\">Synaptic-pakkehåndtering</a> eller <a href=\"org."
 "gnome.Terminal.desktop\">APT i kommandolinjen</a>."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:214
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:219
 msgid "To do so, install Tails on a USB stick and create a persistent storage."
 msgstr ""
 "Det gøres ved at installere Tails på en USB-pen og oprette et vedvarende "
 "lager."
 
-#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:258
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:263
 msgid "[package not available]"
 msgstr "[pakken er ikke tilgængelig]"
 
