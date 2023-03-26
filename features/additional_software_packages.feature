@@ -35,19 +35,23 @@ Feature: Additional software
     Then Additional Software is correctly configured for package "popularity-contest"
     And the package "popularity-contest" is installed after Additional Software has been started
 
-  # Depends on scenario: I set up Additional Software when installing a package without persistent partition and the package is installed next time I start Tails
   Scenario: The Additional Software dpkg hook notices when persistence is locked down while installing a package
-    Given a computer
-    And I start Tails from USB drive "__internal" and I login with an administration password
+    Given I have started Tails without network from a USB drive with a persistent partition and stopped at Tails Greeter's login screen
+    When I set an administration password
+    And I log in to a new session
+    And the network is plugged
+    And Tor is ready
+    And all notifications have disappeared
     And I update APT using apt
     When I install "makepp" using apt
     Then the Additional Software dpkg hook has been run for package "makepp" and notices the persistence is locked
     And the package "makepp" is installed
 
-  # Depends on scenario: I set up Additional Software when installing a package without persistent partition and the package is installed next time I start Tails
   Scenario: My Additional Software list is configurable through a GUI or through notifications when I install or remove packages with APT or Synaptic
-    Given a computer
-    And I start Tails from USB drive "__internal" and I login with persistence enabled and an administration password
+    Given I have started Tails from a USB drive and logged in with an administration password and the network is connected and I updated APT
+    When I install "popularity-contest" using apt
+    And I accept adding "popularity-contest" to Additional Software
+    Then Additional Software is correctly configured for package "popularity-contest"
     When I uninstall "popularity-contest" using apt
     And I accept removing "popularity-contest" from Additional Software
     Then "popularity-contest" is not in the list of Additional Software
@@ -66,26 +70,24 @@ Feature: Additional software
     And I refuse adding "cowsay" to Additional Software
     Then "cowsay" is not in the list of Additional Software
 
-  # Depends on scenario: My Additional Software list is configurable through a GUI or through notifications when I install or remove packages with APT or Synaptic
   # See https://tails.boum.org/blueprint/additional_software_packages/offline_mode/#incomplete-online-upgrade for high level logic
   #19233
   @not_release_blocker @fragile
   Scenario: Recovering in offline mode after Additional Software previously failed to upgrade and then succeed to upgrade when online
-    Given a computer
-    And I start Tails from USB drive "__internal" and I login with persistence enabled and an administration password
-    And I configure APT to prefer an old version of cowsay
-    When I install an old version "3.03+dfsg2-1" of the cowsay package using apt
+    Given I have started Tails from a USB drive and logged in with an administration password and Persistent Storage enabled and the network is connected and I updated APT
+    When I configure APT to prefer an old version of cowsay
+    And I install an old version "3.03+dfsg2-1" of the cowsay package using apt
     And I accept adding "cowsay" to Additional Software
-    And Additional Software is correctly configured for package "cowsay"
-    And I shutdown Tails and wait for the computer to power off
+    Then Additional Software is correctly configured for package "cowsay"
+    When I shutdown Tails and wait for the computer to power off
     And I start Tails from USB drive "__internal" with network unplugged
     And I enable persistence
     # We need to add back this custom APT source for the Additional Software
     # install step, as it was not saved in persistence
     And I configure APT to prefer an old version of cowsay
     And I log in to a new session
-    And the installed version of package "cowsay" is "3.03+dfsg2-1" after Additional Software has been started
-    And I revert the APT tweaks that made it prefer an old version of cowsay
+    Then the installed version of package "cowsay" is "3.03+dfsg2-1" after Additional Software has been started
+    When I revert the APT tweaks that made it prefer an old version of cowsay
     # We remove the newest package after it has been downloaded and before
     # it is installed, so that the upgrade process fails
     And I prepare the Additional Software upgrade process to fail
@@ -114,14 +116,15 @@ Feature: Additional software
     Then the Additional Software upgrade service has started
     And the installed version of package "cowsay" is newer than "3.03+dfsg2-1"
 
-  # Depends on scenario: Recovering in offline mode after Additional Software previously failed to upgrade and then succeed to upgrade when online
-  #19233
   @not_release_blocker_inherited @fragile
   Scenario: I am notified when Additional Software fails to install a package
-    Given a computer
-    And I start Tails from USB drive "__internal" with network unplugged
-    And I enable persistence
-    And I remove the "cowsay" deb files from the APT cache
+    Given I have started Tails from a USB drive and logged in with an administration password and Persistent Storage enabled and the network is connected and I updated APT
+    When I install "cowsay" using apt
+    And I accept adding "cowsay" to Additional Software
+    Then Additional Software is correctly configured for package "cowsay"
+    When I remove the "cowsay" deb files from the APT cache
+    And I shutdown Tails and wait for the computer to power off
+    And I start Tails from USB drive "__internal" with network unplugged and I login with persistence enabled
     # Prevent the "Warning: virtual machine detected!" notification from racing
     # with the one we'll be interacting with below.
     And I disable the tails-virt-notify-user.service user unit
