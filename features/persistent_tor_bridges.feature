@@ -5,13 +5,9 @@ Feature: Using persistent Tor bridges and pluggable transports
   And be given the option to use them again
 
   Background:
-    Given I start Tails from a freshly installed USB drive with an administration password and the network is plugged and I login
+    Given I have started Tails without network from a USB drive without a persistent partition and logged in
     And I create a persistent partition with the default settings
-    And I cold reboot the computer
-    And the computer reboots Tails
-    And I enable persistence
-    And I log in to a new session
-    And /var/lib/tca is not configured to persist
+    Then /var/lib/tca is not configured to persist
     When the network is plugged
     And the Tor Connection Assistant autostarts
     And I configure some persistent obfs4 bridges in the Tor Connection Assistant
