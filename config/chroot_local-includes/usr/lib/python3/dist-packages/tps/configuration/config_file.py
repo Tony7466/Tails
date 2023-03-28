@@ -1,3 +1,5 @@
+import array
+import fcntl
 import tempfile
 from contextlib import contextmanager
 import grp
@@ -18,6 +20,10 @@ if TYPE_CHECKING:
     from tps.configuration.feature import Feature
 
 CONFIG_FILE_NAME = "persistence.conf"
+EXT2_IOC_GETFLAGS = 0x80086601
+EXT2_IOC_SETFLAGS = 0x40086602
+EXT2_SYNC_FL = 0x8
+
 if 'unittest' in sys.modules:
     TPS_UID = os.getuid()
     TPS_GID = os.getgid()
@@ -174,8 +180,18 @@ class ConfigFile(object):
         os.fchown(fd, TPS_UID, TPS_GID)
 
         # Ensure changes made elsewhere are written synchronously on the disk
-        # (in case something else ever needs to modify this file)
-        subprocess.check_call(["chattr", "+S", path])
+        # (in case something else ever needs to modify this file).
+        # This is the same as calling `chattr +S` on the path but that
+        # turned out to take a long time in some cases, so we use the
+        # file descriptor directly instead.
+        def set_attr(fd: int, attr: int):
+            dat = array.array('I', [0])
+            fcntl.ioctl(fd, EXT2_IOC_GETFLAGS, dat, True)
+            dat[0] = dat[0] | attr
+            fcntl.ioctl(fd, EXT2_IOC_SETFLAGS, dat, False)
+
+        set_attr(fd, EXT2_SYNC_FL)
+
         return fd
 
     @contextmanager
