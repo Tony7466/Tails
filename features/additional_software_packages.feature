@@ -21,7 +21,8 @@ Feature: Additional software
   # Note: the "__internal" drive will keep its state across scenarios
   # and features until one of its snapshots is restored.
   Scenario: I set up Additional Software when installing a package without persistent partition and the package is installed next time I start Tails
-    Given I have started Tails from a USB drive and logged in with an administration password and the network is connected and I updated APT
+    Given I start Tails from a freshly installed USB drive with an administration password and the network is plugged and I login
+    And I update APT using apt
     And I install "popularity-contest" using apt
     Then I am proposed to add the "popularity-contest" package to my Additional Software
     When I create a persistent storage and activate the Additional Software feature
@@ -44,7 +45,7 @@ Feature: Additional software
     And the package "makepp" is installed
 
   Scenario: My Additional Software list is configurable through a GUI or through notifications when I install or remove packages with APT or Synaptic
-    Given I have started Tails from a USB drive and logged in with an administration password and the network is connected and I updated APT
+    Given I have started Tails from a USB drive and logged in with an administration password and Persistent Storage enabled and the network is connected and I updated APT
     When I install "popularity-contest" using apt
     And I accept adding "popularity-contest" to Additional Software
     Then Additional Software is correctly configured for package "popularity-contest"
