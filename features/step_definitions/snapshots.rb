@@ -78,37 +78,6 @@ CHECKPOINTS =
       ],
     },
 
-    'usb-install-logged-in-with-sudo-pw-no-network'                                   => {
-      description:       'I have started Tails without network from a USB drive and logged in with an administration password',
-      parent_checkpoint: 'usb-install-tails-greeter',
-      steps:             [
-        'I set an administration password',
-        'I log in to a new session',
-        'all notifications have disappeared',
-      ],
-    },
-
-    'usb-install-logged-in-with-sudo-pw-with-network'                                 => {
-      temporary:         true,
-      description:       'I have started Tails from a USB drive and logged in with an administration password and the network is connected',
-      parent_checkpoint: 'usb-install-logged-in-with-sudo-pw-no-network',
-      steps:             [
-        'the network is plugged',
-        'Tor is ready',
-        'all notifications have disappeared',
-        'available upgrades have been checked',
-      ],
-    },
-
-    'usb-install-logged-in-with-sudo-pw-with-network-and-apt-updated'                 => {
-      temporary:         true,
-      description:       'I have started Tails from a USB drive and logged in with an administration password and the network is connected and I updated APT',
-      parent_checkpoint: 'usb-install-logged-in-with-sudo-pw-with-network',
-      steps:             [
-        'I update APT using apt',
-      ],
-    },
-
     'usb-install-with-persistence-tails-greeter'                                      => {
       description:       "I have started Tails without network from a USB drive with a persistent partition and stopped at Tails Greeter's login screen",
       parent_checkpoint: 'usb-install-logged-in',
@@ -147,8 +116,9 @@ CHECKPOINTS =
       ],
     },
 
-    'usb-install-with-sudo-pw-and-persistence-logged-in-no-network'                   => {
-      description:       'I have started Tails without network from a USB drive and logged in with an administration password and Persistent Storage enabled',
+    'usb-install-with-persistence-and-sudo-pw-logged-in-with-network-and-apt-updated' => {
+      temporary:         true,
+      description:       'I have started Tails from a USB drive and logged in with an administration password and Persistent Storage enabled and the network is connected and I updated APT',
       parent_checkpoint: 'usb-install-with-persistence-tails-greeter',
       steps:             [
         'I enable persistence',
@@ -159,26 +129,10 @@ CHECKPOINTS =
         'all persistence configuration files have safe access rights',
         'all persistent directories have safe access rights',
         'all notifications have disappeared',
-      ],
-    },
-
-    'usb-install-with-persistence-and-sudo-pw-logged-in-with-network'                 => {
-      temporary:         true,
-      description:       'I have started Tails from a USB drive and logged in with an administration password and Persistent Storage enabled and the network is connected',
-      parent_checkpoint: 'usb-install-with-sudo-pw-and-persistence-logged-in-no-network',
-      steps:             [
         'the network is plugged',
         'Tor is ready',
         'all notifications have disappeared',
         'available upgrades have been checked',
-      ],
-    },
-
-    'usb-install-with-persistence-and-sudo-pw-logged-in-with-network-and-apt-updated' => {
-      temporary:         true,
-      description:       'I have started Tails from a USB drive and logged in with an administration password and Persistent Storage enabled and the network is connected and I updated APT',
-      parent_checkpoint: 'usb-install-with-persistence-and-sudo-pw-logged-in-with-network',
-      steps:             [
         'I update APT using apt',
       ],
     },
