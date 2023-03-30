@@ -11,11 +11,39 @@ def post_vm_start_hook
   @screen.click(@screen.w - 1, @screen.h / 2)
 end
 
-def post_snapshot_restore_hook(snapshot_name)
+def post_snapshot_restore_hook(snapshot_name, num_try)
+  scenario_indent = ' ' * 4
+
+  # Press escape to wake up the display
+  @screen.press('Escape')
+
   $vm.wait_until_remote_shell_is_up
-  unless snapshot_name.end_with?('tails-greeter')
-    @screen.wait("GnomeApplicationsMenu#{$language}.png", 20)
+  pattern = if snapshot_name.end_with?('tails-greeter')
+              'TailsGreeter.png'
+            else
+              "GnomeApplicationsMenu#{$language}.png"
+            end
+  begin
+    try_for(10, delay: 0) do
+      # We use @screen.real_find here instead of @screen.wait because we
+      # don't want check_and_raise_display_output_not_active() to be called.
+      @screen.real_find(pattern)
+    rescue FindFailed
+      # Press escape to wake up the display
+      @screen.press('Escape')
+      next
+    end
+  rescue Timeout::Error
+    if num_try == 3
+      raise 'Failed to restore snapshot'
+    end
+
+    debug_log(scenario_indent + 'Failed to restore snapshot, retrying...',
+              color: :yellow, timestamp: false)
+    reach_checkpoint(snapshot_name, num_try + 1)
+    return
   end
+
   post_vm_start_hook
 
   # Increase the chances that by the time we leave this function, if
@@ -138,6 +166,7 @@ When /^I start the computer$/ do
          'Trying to start a VM that is already running')
   $vm.start
   $language = ''
+  $lang_code = ''
 end
 
 Given /^I start Tails( from DVD)?( with network unplugged)?( and genuine APT sources)?( and I login)?$/ do |dvd_boot, network_unplugged, keep_apt_sources, do_login|
@@ -337,8 +366,9 @@ Given /^the computer (?:re)?boots Tails( with genuine APT sources)?$/ do |keep_a
   step 'I configure APT to use non-onion sources' unless keep_apt_sources
 end
 
-Given /^I set the language to (.*)$/ do |lang|
+Given /^I set the language to (.*) \((.*)\)$/ do |lang, lang_code|
   $language = lang
+  $lang_code = lang_code
   # The listboxrow does not expose any actions through AT-SPI,
   # so Dogtail is unable to click it directly. We let it grab focus
   # and activate it via the keyboard instead.
@@ -359,7 +389,7 @@ Given /^I set the language to (.*)$/ do |lang|
   @screen.press('Return')
 end
 
-Given /^I log in to a new session(?: in ([^ ]*))?( without activating the Persistent Storage)?( after having activated the Persistent Storage| expecting no warning about the Persistent Storage not being activated)?$/ do |lang, expect_warning, expect_no_warning|
+Given /^I log in to a new session(?: in ([^ ]*) \(([^ ]*)\))?( without activating the Persistent Storage)?( after having activated the Persistent Storage| expecting no warning about the Persistent Storage not being activated)?$/ do |lang, lang_code, expect_warning, expect_no_warning|
   # We'll record the location of the login button before changing
   # language so we only need one (English) image for the button while
   # still being able to click it in any language.
@@ -373,7 +403,7 @@ Given /^I log in to a new session(?: in ([^ ]*))?( without activating the Persis
                  end
   login_button_region = @screen.wait_any(login_button, 15)[:match]
   if lang && lang != 'English'
-    step "I set the language to #{lang}"
+    step "I set the language to #{lang} (#{lang_code})"
     # After selecting options (language, administration password,
     # etc.), the Greeter needs some time to focus the main window
     # back, so that typing the accelerator for the "Start Tails"
