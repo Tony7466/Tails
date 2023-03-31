@@ -903,13 +903,35 @@ Given /^I switch to the "([^"]+)" NetworkManager connection$/ do |con_name|
 end
 
 When /^I run "([^"]+)" in GNOME Terminal$/ do |command|
-  if !$vm.process_running?('gnome-terminal-server')
-    launch_gnome_terminal
-    @screen.wait('GnomeTerminalWindow.png', 40)
-  else
-    @screen.wait('GnomeTerminalWindow.png', 20).click
+  app = if !$vm.process_running?('gnome-terminal-server')
+          launch_gnome_terminal
+        else
+          gnome_terminal
+        end
+  assert !app.nil?
+
+  terminal = nil
+  try_for(10) do
+    terminal = app.child('Terminal', roleName: 'terminal')
+    terminal.grabFocus
+    terminal.focused
   end
-  @screen.paste(command, app: :terminal)
+  assert !terminal.nil?
+
+  try_for(20) do
+    @screen.paste(command, app: :terminal)
+    if terminal.text[command]
+      # The command was pasted successfully
+      true
+    else
+      # The command was not pasted successfully. Press Ctrl+C to cancel
+      # whatever keyboard input the terminal received (if any) and try
+      # again.
+      @screen.press('ctrl', 'c')
+      false
+    end
+  end
+
   @screen.press('Return')
 end
 
@@ -1065,6 +1087,11 @@ def launch_unsafe_browser(**options)
     'Firefox',
     **options
   )
+end
+
+def gnome_terminal
+  Dogtail::Application.new('gnome-terminal-server')
+                      .child('Terminal', roleName: 'terminal')
 end
 
 Given /^I start "([^"]+)" via GNOME Activities Overview$/ do |app_name|
