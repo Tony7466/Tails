@@ -155,18 +155,33 @@ When /^I plug and mount a USB drive containing a (.+) VeraCrypt file container( 
 end
 
 When /^I unlock and mount this VeraCrypt (volume|file container) with Unlock VeraCrypt Volumes$/ do |support|
-  launch_unlock_veracrypt_volumes
+  app = launch_unlock_veracrypt_volumes
   case support
   when 'volume'
-    @screen.wait('Gtk3UnlockButton.png', 10).click
+    try_for(10) do
+      button = app.child('Unlock', roleName: 'push button', showingOnly: true)
+      button.grabFocus
+      button.focused
+    end
+    @screen.press('Return')
   when 'file container'
-    @screen.wait('UnlockVeraCryptVolumesAddButton.png', 10).click
-    @screen.wait('Gtk3FileChooserDocumentsButton.png', 10)
+    try_for(10) do
+      button = app.child('Add', roleName: 'push button', showingOnly: true)
+      button.grabFocus
+      button.focused
+    end
+    @screen.press('Return')
+
+    try_for(10) do
+      app.child?('Choose File Container', showingOnly: true)
+    end
+
     @screen.paste(@veracrypt_shared_dir_in_guest + '/' + $veracrypt_volume_name,
                   app: :gtk_file_chooser)
     sleep 2 # avoid ENTER being eaten by the auto-completion system
     @screen.press('Return')
   end
+
   @screen.wait('VeraCryptUnlockDialog.png', 10)
   @screen.paste(
     @veracrypt_is_hidden ? $veracrypt_hidden_passphrase : $veracrypt_passphrase,
