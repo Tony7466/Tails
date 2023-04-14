@@ -1,4 +1,6 @@
 import os
+import threading
+import time
 from pathlib import Path
 import re
 import stat
@@ -171,21 +173,39 @@ class Partition(object):
         parent_device = BootDevice.get_tails_boot_device()
         offset = parent_device.get_beginning_of_free_space()
 
+        # Start a thread which calls `udevadm trigger` every 3 seconds
+        # until the partition is created. This could avoid
+        # "Timed out waiting for object" errors, see
+        # https://github.com/storaged-project/udisks/issues/1081#issuecomment-1494267002
+        created_lock = threading.Lock()
+
+        def trigger_udevadm():
+            while not created_lock.locked():
+                executil.check_call(["udevadm", "trigger"])
+                time.sleep(3)
+
+        t = threading.Thread(target=trigger_udevadm)
+        t.start()
+
         # Create and format the partition
-        partition_table = parent_device.partition_table
-        path = partition_table.call_create_partition_and_format_sync(
-            arg_offset=offset,
-            # Size 0 means maximal size
-            arg_size=0,
-            arg_type=PARTITION_GUID,
-            arg_name=PARTITION_LABEL,
-            arg_options=GLib.Variant('a{sv}', {}),
-            arg_format_type="ext4",
-            arg_format_options=GLib.Variant('a{sv}', {
-                "label": GLib.Variant('s', PARTITION_LABEL),
-                "encrypt.passphrase": GLib.Variant('s', passphrase),
-            }),
-        )
+        try:
+            partition_table = parent_device.partition_table
+            path = partition_table.call_create_partition_and_format_sync(
+                arg_offset=offset,
+                # Size 0 means maximal size
+                arg_size=0,
+                arg_type=PARTITION_GUID,
+                arg_name=PARTITION_LABEL,
+                arg_options=GLib.Variant('a{sv}', {}),
+                arg_format_type="ext4",
+                arg_format_options=GLib.Variant('a{sv}', {
+                    "label": GLib.Variant('s', PARTITION_LABEL),
+                    "encrypt.passphrase": GLib.Variant('s', passphrase),
+                }),
+            )
+        finally:
+            created_lock.acquire()
+            t.join()
 
         # Wait for all UDisks and udev events to finish
         udisks.settle()
