@@ -1,6 +1,8 @@
 import os
+import tempfile
 import threading
 import time
+import traceback
 from pathlib import Path
 import re
 import stat
@@ -203,6 +205,21 @@ class Partition(object):
                     "encrypt.passphrase": GLib.Variant('s', passphrase),
                 }),
             )
+        except GLib.Error as e:
+            # Store the output of `lsblk /dev/bilibop` so that we can
+            # debug the issue.
+            cmd = ["lsblk", "/dev/bilibop", "--output-all"]
+            lsblk_output = executil.check_output(cmd)
+            Path(tps.DEBUGGING_INFO_DIR).mkdir(mode=0o700, parents=True, exist_ok=True)
+            uptime = Path("/proc/uptime").read_text().split()[0]
+            with tempfile.NamedTemporaryFile(mode="w+", prefix=f"{uptime}-format-partition-error.",
+                                             dir=tps.DEBUGGING_INFO_DIR,
+                                             delete=False) as output_file:
+                # Print the exception with stack trace to the file
+                traceback.print_exc(file=output_file)
+                output_file.write(f"Output of {' '.join(cmd)}:\n")
+                output_file.write(lsblk_output)
+            raise e
         finally:
             created_lock.acquire()
             t.join()
