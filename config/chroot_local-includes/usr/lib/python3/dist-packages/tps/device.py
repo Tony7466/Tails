@@ -211,20 +211,28 @@ class Partition(object):
         return None
 
     @classmethod
-    def create(cls, job: Job, passphrase: str) -> "Partition":
+    def create(cls, job: Optional[Job], passphrase: str,
+               parent_device: Optional["BootDevice"] = None) -> "Partition":
         """Create the Persistent Storage encrypted partition"""
+
+        if parent_device is None:
+            parent_device = BootDevice.get_tails_boot_device()
+            is_backup = False
+        else:
+            is_backup = True
 
         # This should be the number of next_step() calls
         num_steps = 7
         current_step = 0
 
         def next_step(description: Optional[str] = None):
+            if not job:
+                return
             nonlocal current_step
             progress = int((current_step / num_steps) * 100)
             job.refresh_properties(description, progress)
             current_step += 1
 
-        parent_device = BootDevice.get_tails_boot_device()
         offset = parent_device.get_beginning_of_free_space()
 
         # Create the partition
@@ -266,7 +274,7 @@ class Partition(object):
         # Unlock the partition
         logger.info("Unlocking partition")
         next_step(_("Unlocking partition"))
-        partition.unlock(passphrase)
+        partition.unlock(passphrase, rename_dm_device=not is_backup)
 
         # Get the cleartext device
         cleartext_device = partition.get_cleartext_device()
@@ -282,9 +290,15 @@ class Partition(object):
         )
         udisks.settle()
 
+        if is_backup:
+            # We let the caller mount the backup partition
+            return partition
+
         # Mount the cleartext device
         logger.info("Mounting filesystem")
         next_step(_("Mounting filesystem"))
+        # Mount the cleartext device as the currently active
+        # Persistent Storage
         cleartext_device.mount()
 
         next_step(_("Finishing things up"))
@@ -338,7 +352,7 @@ class Partition(object):
             input=passphrase,
         )
 
-    def unlock(self, passphrase: str):
+    def unlock(self, passphrase: str, rename_dm_device: bool = True):
         """Unlock the Persistent Storage encrypted partition"""
         encrypted = self._get_encrypted()
 
@@ -357,12 +371,13 @@ class Partition(object):
 
         udisks.settle()
 
-        # Get the cleartext device
-        cleartext_device = self.get_cleartext_device()
+        if rename_dm_device:
+            # Get the cleartext device
+            cleartext_device = self.get_cleartext_device()
 
-        # Rename the cleartext device to "TailsData_unlocked", so that
-        # is has the same name as after a reboot.
-        cleartext_device.rename_dm_device("TailsData_unlocked")
+            # Rename the cleartext device to "TailsData_unlocked", which
+            # is the expected dm name for historical reasons
+            cleartext_device.rename_dm_device("TailsData_unlocked")
 
     def _ensure_unmounted(self):
         try:

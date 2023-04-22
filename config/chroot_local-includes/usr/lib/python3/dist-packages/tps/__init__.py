@@ -24,6 +24,7 @@ DBUS_FEATURE_INTERFACE = "org.boum.tails.PersistentStorage.Feature"
 DBUS_JOB_INTERFACE = "org.boum.tails.PersistentStorage.Job"
 
 TPS_MOUNT_POINT = "/live/persistence/TailsData_unlocked"
+TPS_BACKUP_MOUNT_POINT = "/media/amnesia/TailsData"
 
 ON_ACTIVATED_HOOKS_DIR = "/usr/local/lib/persistent-storage/on-activated-hooks"
 ON_DEACTIVATED_HOOKS_DIR = "/usr/local/lib/persistent-storage/on-deactivated-hooks"
