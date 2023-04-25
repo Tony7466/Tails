@@ -1370,7 +1370,7 @@ def share_host_files(files)
   step "I temporarily create an #{disk_size} bytes disk named \"#{disk}\""
   step "I create a gpt partition labeled \"#{disk}\" with an ext4 " \
        "filesystem on disk \"#{disk}\""
-  $vm.storage.guestfs_disk_helper(disk) do |g, _|
+  $vm.guestfs_with_disks(disk) do |g, _|
     partition = g.list_partitions.first
     g.mount(partition, '/')
     files.each { |f| g.upload(f, "/#{File.basename(f)}") }
@@ -1587,12 +1587,12 @@ Given /^I write (|an old version of )the Tails (ISO|USB) image to disk "([^"]+)"
     },
   }
   dest_disk = {
-    path: $vm.storage.disk_path(name),
+    path: $vm.disk_path(name),
     opts: {
       format: $vm.storage.disk_format(name),
     },
   }
-  $vm.storage.guestfs_disk_helper(
+  $vm.guestfs_with_disks(
     src_disk,
     dest_disk
   ) do |g, src_disk_handle, dest_disk_handle|

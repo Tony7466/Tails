@@ -143,16 +143,16 @@ CHECKPOINTS =
 # rubocop:disable Metrics/MethodLength
 def reach_checkpoint(name, num_try = 0)
   step 'a computer'
-  if VM.snapshot_exists?(name)
-    $vm.restore_snapshot(name)
+  if $snapshots.exists?(name)
+    $snapshots.restore(name)
   else
     checkpoint = CHECKPOINTS[name]
     checkpoint_description = checkpoint[:description]
     parent_checkpoint = checkpoint[:parent_checkpoint]
     steps = checkpoint[:steps]
     if parent_checkpoint
-      if VM.snapshot_exists?(parent_checkpoint)
-        $vm.restore_snapshot(parent_checkpoint)
+      if $snapshots.exists?(parent_checkpoint)
+        $snapshots.restore(parent_checkpoint)
       else
         reach_checkpoint(parent_checkpoint)
       end
@@ -177,13 +177,8 @@ def reach_checkpoint(name, num_try = 0)
       log_step_succeeded(step_name)
       step_action = 'And'
     end
-    $vm.save_snapshot(name)
+    $snapshots.save(name)
   end
-  # VM#save_snapshot restores the RAM-only snapshot immediately
-  # after saving it, in which case post_snapshot_restore_hook is
-  # useful to ensure we've reached a good starting point, so we run
-  # it in all cases, including even when've just saved a new snapshot.
-  post_snapshot_restore_hook(name, num_try)
 end
 # rubocop:enable Metrics/MethodLength
 
