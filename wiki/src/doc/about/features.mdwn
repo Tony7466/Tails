@@ -2,7 +2,7 @@
 
 [[!toc levels=2]]
 
-Tails is based on [[Debian|https://www.debian.org/]] 11 (Bullseye).
+Tails is based on [[Debian|https://www.debian.org/]] 12 (Bookworm).
 
 Included software
 =================

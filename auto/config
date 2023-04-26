@@ -72,7 +72,7 @@ export LB_BOOTSTRAP_INCLUDE="gnupg"
 RUN_LB_CONFIG="lb config noauto"
 
 # init config/ with defaults for the target distribution
-$RUN_LB_CONFIG --distribution bullseye "${@}"
+$RUN_LB_CONFIG --distribution bookworm "${@}"
 
 # set up everything for time-based snapshots:
 if [ -n "${APT_SNAPSHOTS_SERIALS:-}" ]; then
@@ -127,7 +127,7 @@ $RUN_LB_CONFIG \
    --checksums none \
    --bootappend-live "${CMDLINE_APPEND}" \
    --bootstrap debootstrap \
-   --bootstrap-config bullseye \
+   --bootstrap-config bookworm \
    --archive-areas "main contrib non-free" \
    --includes none \
    --iso-application="Tails" \
