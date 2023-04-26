@@ -357,7 +357,6 @@ pcscd
 spice-vdagent
 
 ### Wireless regulation
-crda
 wireless-regdb
 
 ### Automated test suite
