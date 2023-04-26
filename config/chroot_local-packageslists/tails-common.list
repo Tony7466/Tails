@@ -89,8 +89,7 @@ dosfstools
 electrum
 eog
 evince
-exfat-fuse
-exfat-utils
+exfatprogs
 exiv2
 file-roller
 fonts-cantarell
