@@ -87,7 +87,7 @@ class VMStorage
 
   # XXX: giving up on a few worst offenders for now
   # rubocop:disable Metrics/AbcSize
-  def create_new_disk(name, **options)
+  def create_new_volume(name, **options)
     options[:size] ||= 2
     options[:unit] ||= 'GiB'
     options[:type] ||= 'qcow2'
@@ -124,7 +124,24 @@ class VMStorage
   end
   # rubocop:enable Metrics/AbcSize
 
-  def disk_format(name)
+  def clone_to_new_disk(from, to)
+    begin
+      old_to_vol = @pool.lookup_volume_by_name(to)
+    rescue Libvirt::RetrieveError
+      # noop
+    else
+      old_to_vol.delete
+    end
+    from_vol = @pool.lookup_volume_by_name(from)
+    xml = REXML::Document.new(from_vol.xml_desc)
+    pool_path = REXML::Document.new(@pool.xml_desc)
+                               .elements['pool/target/path'].text
+    xml.elements['volume/name'].text = to
+    xml.elements['volume/target/path'].text = "#{pool_path}/#{to}"
+    @pool.create_volume_xml_from(xml.to_s, from_vol)
+  end
+
+  def volume_format(name)
     vol = @pool.lookup_volume_by_name(name)
     vol_xml = REXML::Document.new(vol.xml_desc)
     vol_xml.elements['volume/target/format'].attributes['type']

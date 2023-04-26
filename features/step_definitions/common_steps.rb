@@ -102,7 +102,7 @@ end
 Given /^I (temporarily )?create an? (\d+) ([[:alpha:]]+) (?:([[:alpha:]]+) )?disk named "([^"]+)"$/ do |temporary, size, unit, type, name|
   type ||= 'qcow2'
   begin
-    $vm.storage.create_new_disk(name, size: size, unit: unit, type: type)
+    $vm.storage.create_new_volume(name, size: size, unit: unit, type: type)
   rescue NoSpaceLeftError => e
     cmd = "du -ah \"#{$config['TMPDIR']}\" | sort -hr | head -n20"
     info_log("#{cmd}\n" + `#{cmd}`)
@@ -1589,7 +1589,7 @@ Given /^I write (|an old version of )the Tails (ISO|USB) image to disk "([^"]+)"
   dest_disk = {
     path: $vm.disk_path(name),
     opts: {
-      format: $vm.storage.disk_format(name),
+      format: $vm.storage.volume_format(name),
     },
   }
   $vm.guestfs_with_disks(

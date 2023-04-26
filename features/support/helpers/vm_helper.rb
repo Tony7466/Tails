@@ -192,7 +192,7 @@ class VM
     g.set_autosync(1)
     disks.each do |disk|
       if disk.instance_of?(String)
-        g.add_drive_opts(disk_path(disk), format: @storage.disk_format(disk))
+        g.add_drive_opts(disk_path(disk), format: @storage.volume_format(disk))
       elsif disk.instance_of?(Hash)
         g.add_drive_opts(disk[:path], disk[:opts])
       else
@@ -453,7 +453,7 @@ class VM
 
     xml = REXML::Document.new(File.read("#{@xml_path}/disk.xml"))
     xml.elements['disk/source'].attributes['file'] = disk_path(name)
-    xml.elements['disk/driver'].attributes['type'] = @storage.disk_format(name)
+    xml.elements['disk/driver'].attributes['type'] = @storage.volume_format(name)
     xml.elements['disk/target'].attributes['dev'] = dev
     xml.elements['disk/target'].attributes['bus'] = type
     if removable_usb

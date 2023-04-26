@@ -1061,7 +1061,7 @@ Then /^only the expected files are present on the persistence partition on USB d
   disk = {
     path: $vm.disk_path(name),
     opts: {
-      format:   $vm.storage.disk_format(name),
+      format:   $vm.storage.volume_format(name),
       readonly: true,
     },
   }
