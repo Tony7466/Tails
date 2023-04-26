@@ -128,7 +128,7 @@ $RUN_LB_CONFIG \
    --bootappend-live "${CMDLINE_APPEND}" \
    --bootstrap debootstrap \
    --bootstrap-config bookworm \
-   --archive-areas "main contrib non-free" \
+   --archive-areas "main contrib non-free non-free-firmware" \
    --includes none \
    --iso-application="Tails" \
    --iso-publisher="https://tails.boum.org/" \
