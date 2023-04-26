@@ -15,9 +15,7 @@ logger = getLogger(__name__)
 
 
 def wordlist():
-    # XXX:Bookworm: These wordlists are supported on Bookworm (Bullseye only supports English)
-    # wordlist_dict = {'pt_BR':'pt-br', 'de_DE':'de'}
-    wordlist_dict = dict()
+    wordlist_dict = {'pt_BR':'pt-br', 'de_DE':'de'}
     default_wordlist = 'en_securedrop'
     return wordlist_dict.get(locale.getlocale()[0], default_wordlist)
 
