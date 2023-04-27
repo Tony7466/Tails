@@ -240,6 +240,9 @@ class SnapshotManager
         </domainsnapshot>
     XML
 
+    debug_log("XXX disks XML:\n#{disks_xml}")
+    debug_log("XXX snapshot XML:\n#{xml}")
+
     # We don't want libvirt to create snapshot metadata because it can't
     # handle external snapshots anyway. We handle restoring and deleting
     # snapshots manually (see restore and delete).
