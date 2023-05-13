@@ -100,7 +100,7 @@ SERVICES_EXPECTED_ON_ALL_IFACES =
   [
     ['cups-browsed', '0.0.0.0', '631'],
     ['cupsd', '*', '631'],
-    ['onion-grater', '0.0.0.0', '9051'],
+    ['onion-grater', '0.0.0.0', '951'],
     ['tor', '10.200.1.1', '9050'],
   ].freeze
 # OpenDNS
