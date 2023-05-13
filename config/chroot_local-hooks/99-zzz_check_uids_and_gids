@@ -11,6 +11,10 @@ for file in passwd group; do
 		fail=1
 		echo "/etc/${file} differs from expected:" >&2
 		diff -Naur "/usr/share/tails/build/${file}" "/etc/${file}" >&2 || :
+		echo >&2
+		echo "Content of '/etc/${file}':" >&2
+		cat "/etc/${file}" >&2
+		echo >&2
 		echo "If these changes are innocuous, update " \
 		     "config/chroot_local-includes/usr/share/tails/build/${file}." \
 		     >&2
