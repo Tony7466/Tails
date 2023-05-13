@@ -382,7 +382,6 @@ tails (5.12) unstable; urgency=medium
       - tps: Fix activation of feature in inconsistent state
 
  -- Tails developers <tails@boum.org>  Tue, 18 Apr 2023 16:54:56 +0000
->>>>>>> stable
 
 tails (5.11) unstable; urgency=medium
 
