@@ -4,7 +4,9 @@
     "isPrimary": true,
     "unlockDialog": null,
     "isLocked": true,
+    "hasOverview": false,
     "hasWindows": true,
+    "showWelcomeDialog": false,
     "components": ["polkitAgent"],
     "panel": {
         "left": [],
