@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-15 09:13+0200\n"
+"POT-Creation-Date: 2023-05-16 21:31+0200\n"
 "PO-Revision-Date: 2023-02-22 21:37+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/tor/tails-gui/"
@@ -60,13 +60,13 @@ msgstr ""
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:180
 msgid ""
-"To add more, install some software using <a href=\"synaptic.desktop"
-"\">Synaptic Package Manager</a> or <a href=\"org.gnome.Terminal.desktop"
-"\">APT on the command line</a>."
+"To add more, install some software using <a href=\"synaptic."
+"desktop\">Synaptic Package Manager</a> or <a href=\"org.gnome.Terminal."
+"desktop\">APT on the command line</a>."
 msgstr ""
-"Щоб додати більше, встановіть програмне забезпечення за допомогою <a href="
-"\"synaptic.desktop\">Synaptic Package Manager</a> або <a href=\"org.gnome."
-"Terminal.desktop\">APT у командному рядку</a>."
+"Щоб додати більше, встановіть програмне забезпечення за допомогою <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> або <a href=\"org."
+"gnome.Terminal.desktop\">APT у командному рядку</a>."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:154
 msgid "_Create persistent storage"
@@ -202,16 +202,16 @@ msgstr ""
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:289
 msgid ""
 "<b>An error occured while updating the signing key.</b>\\n\\n<b>This "
-"prevents determining whether an upgrade is available from our website.</b>\\n"
-"\\nCheck your network connection, and restart Tails to try upgrading again."
-"\\n\\nIf the problem persists, go to file:///usr/share/doc/tails/website/doc/"
-"upgrade/error/check.en.html"
+"prevents determining whether an upgrade is available from our website.</"
+"b>\\n\\nCheck your network connection, and restart Tails to try upgrading "
+"again.\\n\\nIf the problem persists, go to file:///usr/share/doc/tails/"
+"website/doc/upgrade/error/check.en.html"
 msgstr ""
 "<b>Під час оновлення ключа підпису сталася помилка.</b>\\n\\n<b>Це не "
-"дозволяє визначити, чи доступне оновлення з нашого веб-сайту.</b>\\n"
-"\\nПеревірте підключення до мережі та перезапустіть Tails, щоб спробувати "
-"оновити знову.\\n\\nЯкщо проблема не зникне, перейдіть до файлу: file:///usr/"
-"share/doc/tails/website/doc/upgrade/error/check.en.html"
+"дозволяє визначити, чи доступне оновлення з нашого веб-сайту.</"
+"b>\\n\\nПеревірте підключення до мережі та перезапустіть Tails, щоб "
+"спробувати оновити знову.\\n\\nЯкщо проблема не зникне, перейдіть до файлу: "
+"file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:303
 msgid "Error while downloading the signing key"
@@ -521,8 +521,8 @@ msgid ""
 "install.en.html"
 msgstr ""
 "<b>У процесі установки оновлення сталася помилка.</b>\\n\\nВаш Tails-"
-"пристрій потребує відновлення, і, можливо, не зможе запуститися знову.\\n"
-"\\nбудь ласка, дотримуйтесь інструкцій по посиланню file:///usr/share/doc/"
+"пристрій потребує відновлення, і, можливо, не зможе запуститися знову."
+"\\n\\nбудь ласка, дотримуйтесь інструкцій по посиланню file:///usr/share/doc/"
 "tails/website/doc/upgrade/error/install.en.html"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:863
@@ -535,7 +535,7 @@ msgstr "Додаткові налаштування"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:167
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:591
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:648
 #: config/chroot_local-includes/usr/local/sbin/tails-additional-software:374
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:342
@@ -698,12 +698,12 @@ msgstr "_Формати"
 msgid "_Keyboard Layout"
 msgstr "_Розкладка клавіатури"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:288
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:289
 #, python-format
 msgid "Unable to write on %(device)s, skipping."
 msgstr "Неможливо записати на %(device)s, пропускаю."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:332
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:333
 #, python-format
 msgid ""
 "Some partitions of the target device %(device)s are mounted. They will be "
@@ -712,16 +712,16 @@ msgstr ""
 "Деякі розділи цільового пристрою %(device)s змонтовані. Вони будуть "
 "демонтовані перед початком установки."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:341
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:342
 msgid "Extracting live image to the target device..."
 msgstr "Видобування живого образу на цільовий пристрій..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:348
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:349
 #, python-format
 msgid "Wrote to device at %(speed)d MB/sec"
 msgstr "Записано на пристрій на %(speed)d MB/sec"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:446
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:447
 #, python-format
 msgid ""
 "There was a problem executing the following command: `%(command)s`.\n"
@@ -730,7 +730,7 @@ msgstr ""
 "Помилка виконання команди: `%(command)s`.\n"
 "Детальний журнал помилок збережений у \"%(filename)s\"."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:462
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:463
 #, python-format
 msgid ""
 "Not enough free space on device.\n"
@@ -740,157 +740,162 @@ msgstr ""
 "%(iso_size)dMB ISO + %(overlay_size)dMB постійне сховище > %(free_space)dMB "
 "вільного місця"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:471
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:472
 #, python-format
 msgid "Creating %sMB persistent overlay"
 msgstr "Створення %sМБ постійного сховища"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:521
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:522
 #, python-format
 msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
 msgstr "Не вдалося скопіювати %(infile)s на %(outfile)s: %(message)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:535
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:536
 msgid "Removing existing Tails system"
 msgstr "Видалення існуючої системи Tails"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:545
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:546
 #, python-format
 msgid "Unable to remove file from previous Tails system: %(message)s"
 msgstr "Не вдалося видалити файл з попередньої системи Tails: %(message)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:552
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:553
 #, python-format
 msgid "Unable to chmod %(file)s: %(message)s"
 msgstr "Не вдалося chmod %(file)s: %(message)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:559
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:560
 #, python-format
 msgid "Unable to remove directory from previous Tails system: %(message)s"
 msgstr "Не вдалося видалити каталог з попередньої системи Tails: %(message)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:607
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:608
 #, python-format
 msgid "Cannot find device %s"
 msgstr "Пристрій %s не знайдено"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:657
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:904
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:658
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:905
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr "Невідома файлова система. Ваш пристрій потребує переформатування."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:660
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:907
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:661
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:908
 #, python-format
 msgid "Unsupported filesystem: %s"
 msgstr "Непідтримувана файлова система: %s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:678
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:679
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
 msgstr "Невідоме виключення GLib при спробі встановити пристрій: %(message)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:683
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:684
 #, python-format
 msgid "Unable to mount device: %(message)s"
 msgstr "Не вдалося змонтувати пристрій: %(message)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:688
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:689
 msgid "No mount points found"
 msgstr "Немає точок монтування"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:699
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:700
 #, python-format
 msgid "Entering unmount_device for \"%(device)s\""
 msgstr "Відкриття незмонтованого_пристрою для «%(device)s»"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:708
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:709
 #, python-format
 msgid "Unmounting mounted filesystems on \"%(device)s\""
 msgstr "Демонтування файлових систем на «%(device)s»"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:712
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:713
 #, python-format
 msgid "Unmounting \"%(udi)s\" on \"%(device)s\""
 msgstr "Відмонтування «%(udi)s» на «%(device)s»"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:723
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:724
 #, python-format
 msgid "Mount %s exists after unmounting"
 msgstr "Точка монтування %s існує після демонтування"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:760
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:761
 #, python-format
 msgid "Partitioning device %(device)s"
 msgstr "Розмітка пристрою %(device)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:889
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:890
 #, python-format
 msgid "Unsupported device '%(device)s', please report a bug."
 msgstr ""
 "Непідтримуваний пристрій '%(device)s', будь ласка, повідомте про помилку."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:892
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:893
 msgid "Trying to continue anyway."
 msgstr "Спроба все одно продовжити."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:901
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:902
 msgid "Verifying filesystem..."
 msgstr "Перевірка файлової системи..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:925
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:926
 #, python-format
 msgid "Unable to change volume label: %(message)s"
 msgstr "Не вдалося змінити мітку тому: %(message)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:930
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:931
 msgid "Installing bootloader..."
 msgstr "Встановлення завантажувача..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:937
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:938
 #, python-format
 msgid "Removing %(file)s"
 msgstr "Видалення %(file)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1019
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:964
+#, fuzzy
+msgid "Cloning Persistent Storage..."
+msgstr "Постійне сховище"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1032
 #, python-format
 msgid "%s already bootable"
 msgstr "%s вже завантажувальний"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1039
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1052
 msgid "Unable to find partition"
 msgstr "Не вдалося знайти розділ"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1058
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1071
 #, python-format
 msgid "Formatting %(device)s as FAT32"
 msgstr "Форматування %(device)s у FAT32"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1121
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1134
 #, python-format
 msgid "Reading extracted MBR from %s"
 msgstr "Читання витягнутого MBR з %s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1125
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1138
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
 msgstr "Не зміг прочитати витягнутий MBR з %(path)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1138
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1139
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1151
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1152
 #, python-format
 msgid "Resetting Master Boot Record of %s"
 msgstr "Очищення головного завантажувального запису %s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1144
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1157
 msgid "Drive is a loopback, skipping MBR reset"
 msgstr "Цей диск є циклічним пристроєм, пропускаємо очищення MBR"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1148
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1161
 msgid "Synchronizing data on disk..."
 msgstr "Синхронізація даних на диску..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:147
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:150
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
@@ -898,63 +903,79 @@ msgstr ""
 "Помилка: Не вдається встановити позначку чи отримати UUID вашого пристрою.  "
 "Неможливо продовжити."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:181
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:186
 #, python-format
 msgid "Installation complete! (%s)"
 msgstr "Установка завершена! (%s)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:186
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:191
 msgid "Tails installation failed!"
 msgstr "Не вдалось установити Tails!"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:275
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:281
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
 msgid "Tails Installer"
 msgstr "Инсталятор Tails"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:317
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:324
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
 msgid "Clone the current Tails"
 msgstr "Клонувати поточний Tails"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:324
-#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:185
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:331
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:200
 msgid "Use a downloaded Tails ISO image"
 msgstr "Використати завантажений ISO-образ Tails"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:368
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:381
 msgid "Upgrade"
 msgstr "Оновлення"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:369
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:382
 msgid "Manual Upgrade Instructions"
 msgstr "Інструкція з ручного оновлення"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:380
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:579
-#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:359
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:393
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:636
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:374
 msgid "Install"
 msgstr "Встановити"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:383
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:396
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:131
 msgid "Installation Instructions"
 msgstr "Інструкції зі Встановлення"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:390
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:403
 #, python-format
 msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(size)s%(vendor)s%(model)s пристрій (%(device)s)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:402
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:415
 msgid "No ISO image selected"
 msgstr "Не вибрано ISO-образ"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:403
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:416
 msgid "Please select a Tails ISO image."
 msgstr "Оберіть ISO-образ Tails."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:465
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:434
+#, fuzzy
+msgid "Can't clone locked Persistent Storage"
+msgstr "Створити Постійне Сховище"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:483
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
+#, fuzzy
+msgid "Clone the current Persistent Storage"
+msgstr "Не вдалося налаштувати Постійне Сховище"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:485
+#, fuzzy
+msgid "Clone the current Persistent Storage (requires reinstall)"
+msgstr "Видалити і перевстановити постійне сховище"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:522
 #, python-format
 msgid ""
 "The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
@@ -964,7 +985,7 @@ msgstr ""
 "USB-накопичувач \"%(pretty_name)s\" налаштовано виробником як незнімний, і "
 "Tails не зможе з нього запуститися. Спробуйте встановити на іншу модель."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:475
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:532
 #, python-format
 msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
@@ -973,7 +994,7 @@ msgstr ""
 "Пристрій \"%(pretty_name)s\" замалий для встановлення Tails (потрібно хоча б "
 "%(size)s ГБ)."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:488
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:545
 #, python-format
 msgid ""
 "To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a "
@@ -984,35 +1005,35 @@ msgstr ""
 "скористатися завантаженим ISO-образом Tails:\n"
 "%(dl_url)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:508
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:565
 msgid "No device suitable to install Tails could be found"
 msgstr "Не вдалося знайти пристрій, придатний для встановлення Tails"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:510
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:567
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
 msgstr ""
 "Будь ласка, під'єднайте USB-накопичувач або SD-карту ємністю принаймні %0.1f "
 "ГБ."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:522
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:579
 msgid "An error happened while installing Tails"
 msgstr "Під час встановлення Tails сталася помилка"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:574
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:631
 msgid "Installation complete!"
 msgstr "Установка завершена!"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:629
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:686
 msgid "Unable to mount device"
 msgstr "Не вдалося змонтувати пристрій"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:635
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:692
 #, python-format
 msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
 msgstr "%(parent_size)s %(vendor)s %(model)s пристрій (%(device)s)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:644
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:701
 msgid ""
 "\n"
 "\n"
@@ -1022,11 +1043,11 @@ msgstr ""
 "\n"
 "Постійне сховище на цьому USB-накопичувачі буде втрачено."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:645
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:702
 msgid "Delete Persistent Storage and Reinstall"
 msgstr "Видалити і перевстановити постійне сховище"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:647
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:704
 msgid ""
 "\n"
 "\n"
@@ -1036,26 +1057,26 @@ msgstr ""
 "\n"
 "Всі дані на цьому USB-накопичувачі будуть втрачені."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:648
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:705
 msgid "Delete All Data and Install"
 msgstr "Видалити всі дані і встановити"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:649
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:706
 #, python-format
 msgid "%(description)s%(delete_message)s"
 msgstr "%(description)s%(delete_message)s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:653
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:710
 msgid "Confirm the target USB stick"
 msgstr "Підтвердьте цільовий USB-накопичувач"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:694
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:751
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr "Вибраний файл не читається. Виправте файл або виберіть інший."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:700
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:757
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
@@ -1063,7 +1084,7 @@ msgstr ""
 "Неможливо використовувати вказаний файл. Спробуйте перемістити ISO в корінь "
 "диска (наприклад, C:\\)"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:706
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:763
 #, python-format
 msgid "%(filename)s selected"
 msgstr "%(filename)s обрано"
@@ -1400,9 +1421,9 @@ msgid ""
 "Package Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the "
 "command line</a>."
 msgstr ""
-"Щоб зробити це, встановіть програмне забезпечення за допомогою <a href="
-"\"synaptic.desktop\">Synaptic Package Manager</a> або <a href=\"org.gnome."
-"Terminal.desktop\">APT у командному рядку</a>."
+"Щоб зробити це, встановіть програмне забезпечення за допомогою <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> або <a href=\"org."
+"gnome.Terminal.desktop\">APT у командному рядку</a>."
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:196
 msgid ""
@@ -3084,11 +3105,11 @@ msgstr "_Розблокувати"
 msgid "Detach this volume"
 msgstr "Від’єднати це сховище"
 
-#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:266
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:281
 msgid "Target USB stick:"
 msgstr "Цільовий USB-накопичувач:"
 
-#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:342
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:357
 msgid "Reinstall (delete all data)"
 msgstr "Перевстановити (вилучити всі дані)"
 
@@ -3976,8 +3997,8 @@ msgstr "Годинник"
 #~ msgstr "Tails налаштовує ваше постійне сховище. Будь ласка, зачекайте..."
 
 #~ msgid ""
-#~ "Only use the Unsafe Browser to sign in to a network, then close it.\\n"
-#~ "\\nThe Unsafe Browser is disabled by default for security.\\n\\nTo <a "
+#~ "Only use the Unsafe Browser to sign in to a network, then close it."
+#~ "\\n\\nThe Unsafe Browser is disabled by default for security.\\n\\nTo <a "
 #~ "href='file:///usr/share/doc/tails/website/doc/anonymous_internet/"
 #~ "unsafe_browser.en.html#use'>use the Unsafe Browser</a>, restart Tails and "
 #~ "enable the Unsafe Browser in the additional settings of the Welcome "
