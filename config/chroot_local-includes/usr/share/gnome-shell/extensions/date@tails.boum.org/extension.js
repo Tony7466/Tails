@@ -2,6 +2,7 @@ const Main = imports.ui.main;
 const GLib = imports.gi.GLib;
 
 const ExtensionUtils = imports.misc.extensionUtils;
+const ByteArray = imports.byteArray;
 
 var settings;
 
@@ -14,7 +15,7 @@ function overrider(lbl) {
     if(out == null) {
         var desired = now.toLocaleString('en-US') + ' GMT';
     } else {
-        desired = out.toString().trim();
+        desired = ByteArray.toString(out).trim();
     }
 
     var t = lbl.get_text();
