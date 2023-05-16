@@ -464,27 +464,13 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
                                            0, False, 0, 0)
 
     def update_start_button(self):
-        # Make the start button insensitive if the target device already
-        # contains a Tails installation (i.e. self.opts.partition is False)
-        # and the "Clone the current Persistent Storage" button is checked,
-        # because in that case we only support reinstalling (via the
-        # separate "Reinstall (delete all data)" button).
-        if not self.opts.partition and \
-                self.__check_button_clone_persistent_storage.get_active():
-            sensitive = False
-        elif self.source_available and self.target_available:
+        if self.source_available and self.target_available:
             sensitive = True
         else:
             sensitive = False
         self.__button_start.set_sensitive(sensitive)
 
     def update_clone_persistent_storage_check_button(self):
-        if self.opts.partition:
-            label = _('Clone the current Persistent Storage')
-        else:
-            label = _('Clone the current Persistent Storage (requires reinstall)')
-        self.__check_button_clone_persistent_storage.set_label(label)
-
         sensitive = self.opts.clone
         self.__check_button_clone_persistent_storage.set_sensitive(sensitive)
         if not sensitive:
