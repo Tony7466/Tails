@@ -193,13 +193,14 @@ class Partition(object):
         return bool(cls.find())
 
     @classmethod
-    def find(cls) -> Optional["Partition"]:
+    def find(cls, parent_device: Optional["BootDevice"] = None) -> Optional["Partition"]:
         """Return the Persistent Storage encrypted partition or None
         if it couldn't be found."""
-        try:
-            parent_device = BootDevice.get_tails_boot_device()
-        except InvalidBootDeviceError:
-            return None
+        if parent_device is None:
+            try:
+                parent_device = BootDevice.get_tails_boot_device()
+            except InvalidBootDeviceError:
+                return None
 
         partitions = parent_device.partition_table.props.partitions
         for partition_name in sorted(partitions):
@@ -402,6 +403,21 @@ class Partition(object):
             # Ignore errors caused by the device not being mounted.
             if not err.matches(UDisks.error_quark(), UDisks.Error.NOT_MOUNTED):
                 raise
+
+    def ensure_locked(self):
+        """Ensure that the Persistent Storage encrypted partition is locked"""
+        self._ensure_unmounted()
+        try:
+            encrypted = self._get_encrypted()
+        except InvalidPartitionError:
+            # The partition is already locked
+            return
+
+        # Lock the partition
+        encrypted.call_lock_sync(
+            arg_options=GLib.Variant('a{sv}', {}),
+            cancellable=None,
+        )
 
     def change_passphrase(self, passphrase: str, new_passphrase: str):
         """Change the passphrase of the Persistent Storage encrypted

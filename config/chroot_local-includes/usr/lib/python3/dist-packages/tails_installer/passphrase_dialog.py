@@ -1,4 +1,5 @@
 import os
+import sys
 
 from gi.repository import Gdk, Gio, GLib, Gtk
 from typing import TYPE_CHECKING
@@ -25,10 +26,12 @@ class PassphraseDialog(Gtk.Dialog):
     error_infobar_label = Gtk.Template.Child()  # type: Gtk.Label
 
     def __init__(self, parent: "Gtk.Window", creator: "TailsInstallerCreator",
+                 update_persistence: bool = False,
                  *args, **kwargs):
         super().__init__(use_header_bar=1, *args, **kwargs)
         self.parent = parent
         self.live = creator
+        self.update_persistence = update_persistence
         self.passphrase = None
         self.passphrase_is_correct = False
 
@@ -55,11 +58,18 @@ class PassphraseDialog(Gtk.Dialog):
         self.set_sensitive(False)
 
         self.passphrase = self.passphrase_entry.get_text()
+        print(f"XXX: Passphrase: {self.passphrase}", file=sys.stderr)
+        print(f"XXX: Drive: {self.live.drive['device']}", file=sys.stderr)
+
+        if self.update_persistence:
+            device = self.live.drive['device']
+        else:
+            device = ""
 
         # Test the passphrase
         tps_proxy.call(
             method_name="TestPassphrase",
-            parameters=GLib.Variant("(s)", (self.passphrase,)),
+            parameters=GLib.Variant("(ss)", (self.passphrase, device)),
             flags=Gio.DBusCallFlags.NONE,
             timeout_msec=GLib.MAXINT,
             cancellable=None,

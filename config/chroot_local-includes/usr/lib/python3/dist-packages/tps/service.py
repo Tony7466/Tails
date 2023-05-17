@@ -61,6 +61,10 @@ class Service(DBusObject, ServiceUsingJobs):
                     <arg name='passphrase' direction='in' type='s'/>
                     <arg name='device' direction='in' type='s'/>
                 </method>
+                <method name='UpdateBackup'>
+                    <arg name='passphrase' direction='in' type='s'/>
+                    <arg name='device' direction='in' type='s'/>
+                </method>
                 <method name='ChangePassphrase'>
                     <arg name='passphrase' direction='in' type='s'/>
                     <arg name='new_passphrase' direction='in' type='s'/>
@@ -75,6 +79,7 @@ class Service(DBusObject, ServiceUsingJobs):
                 </method>
                 <method name='TestPassphrase'>
                     <arg name='passphrase' direction='in' type='s'/>
+                    <arg name='device' direction='in' type='s'/>
                     <arg name='is_correct' direction='out' type='b'/>
                 </method>
                 <property name="State" type="s" access="read" />
@@ -223,6 +228,61 @@ class Service(DBusObject, ServiceUsingJobs):
         partition._get_encrypted().call_lock_sync(
             arg_options=GLib.Variant('a{sv}', {}),
         )
+
+    def UpdateBackup(self, passphrase: str, device: str):
+        """Update a backup of the Persistent Storage partition"""
+        logger.info(f"Updating Persistent Storage backup on device {device}...")
+
+        if self.state != State.UNLOCKED:
+            msg = "Can't update backup of Persistent Storage when state is '%s'" % \
+                  self.state.name
+            raise FailedPreconditionError(msg)
+
+        dev_num = os.stat(device).st_rdev
+        device = BootDevice(udisks.get_block_for_dev(dev_num).get_object())
+        partition = Partition.create(None, passphrase, device)
+
+        was_unlocked = partition.is_unlocked()
+        if was_unlocked:
+            cleartext_device = partition.get_cleartext_device()
+            cleartext_device.mount_point = TPS_BACKUP_MOUNT_POINT
+            was_mounted = cleartext_device.is_mounted()
+        else:
+            was_mounted = False
+
+        # Upgrade the LUKS device of the backup Persistent Storage to
+        # LUKS2 and convert the PBKDF to argon2id if necessary
+        if not partition.is_upgraded():
+            partition.test_passphrase(passphrase)
+            # The partition must be locked before upgrading to LUKS2
+            partition.ensure_locked()
+            partition.upgrade_luks2()
+            partition.convert_pbkdf_argon2id(passphrase)
+
+        # Unlock the backup Persistent Storage
+        if not partition.is_unlocked():
+            partition.unlock(passphrase)
+
+        # Mount the cleartext device
+        if not was_mounted:
+            Path(TPS_BACKUP_MOUNT_POINT).mkdir(parents=True, exist_ok=True)
+            cleartext_device_path = partition.get_cleartext_device().device_path
+            executil.check_call(["mount", cleartext_device_path,
+                                 TPS_BACKUP_MOUNT_POINT])
+
+        # Copy the data from the Persistent Storage to the new device
+        executil.check_call(['/usr/local/lib/tails-backup-rsync'])
+
+        # Unmount the cleartext device and delete the mountpoint
+        if not was_mounted:
+            partition.get_cleartext_device().force_unmount()
+            Path(TPS_BACKUP_MOUNT_POINT).rmdir()
+
+        # Close the LUKS device
+        if not was_unlocked:
+            partition._get_encrypted().call_lock_sync(
+                arg_options=GLib.Variant('a{sv}', {}),
+            )
 
     def Delete(self):
         """Delete the Persistent Storage partition"""
@@ -381,14 +441,20 @@ class Service(DBusObject, ServiceUsingJobs):
         self._partition.upgrade_luks2()
         self._partition.convert_pbkdf_argon2id(passphrase)
 
-    def TestPassphrase(self, passphrase: str) -> bool:
+    def TestPassphrase(self, passphrase: str, device: str) -> bool:
         """Do not unlock the Persistent Storage, just test if the
         specified passphrase is correct. Return True if the passphrase
         is correct, False otherwise."""
 
-        logger.info("Testing passphrase...")
+        if device == "":
+            device = BootDevice.get_tails_boot_device()
+        else:
+            dev_num = os.stat(device).st_rdev
+            device = BootDevice(udisks.get_block_for_dev(dev_num).get_object())
 
-        partition = Partition.find()
+        logger.info(f"Testing passphrase for {device.device_path}...")
+
+        partition = Partition.find(device)
         if not partition:
             raise NotCreatedError("No Persistent Storage found")
 

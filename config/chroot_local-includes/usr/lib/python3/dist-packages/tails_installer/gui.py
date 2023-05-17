@@ -225,7 +225,6 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
         self.source_available = False
         self.target_available = False
         self.target_selected = False
-        self.devices_with_persistence = []
         self.force_reinstall = False
         self.force_reinstall_button_available = False
 
@@ -422,6 +421,10 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
             self.warn_ISO_not_selected()
             return
 
+        if not self.target_selected:
+            self.live.drive = self.get_selected_drive()
+        self.target_selected = True
+
         if self.opts.clone_persistent_storage_requested:
             try:
                 subprocess.check_call(['/usr/local/lib/tpscli', 'is-unlocked'])
@@ -437,12 +440,15 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
                     return
                 raise
 
-            if not self.live.passphrase:
-                passphrase_dialog = PassphraseDialog(self, self.live)
-                passphrase_dialog.run()
-                if not passphrase_dialog.passphrase_is_correct:
-                    return
-                self.live.passphrase = passphrase_dialog.passphrase
+            update_persistence = self.live.drive['device'] in \
+                                 self.live.devices_with_persistence \
+                                 and not self.opts.partition
+
+            passphrase_dialog = PassphraseDialog(self, self.live, update_persistence)
+            passphrase_dialog.run()
+            if not passphrase_dialog.passphrase_is_correct:
+                return
+            self.live.passphrase = passphrase_dialog.passphrase
 
         self.begin()
 
@@ -484,7 +490,6 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
             self.__liststore_target.clear()
             self.live.log.debug('drives: %s' % self.live.drives)
             target_list = []
-            self.devices_with_persistence = []
             for device, info in list(self.live.drives.items()):
                 # Skip the device that is the source of the copy
                 if (self.live.source and
@@ -498,9 +503,9 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
                     self.live.log.debug('Skipping running device: %s' % info['device'])
                     continue
                 # Skip LUKS-encrypted partitions
-                if info['fstype'] and info['fstype'] == 'crypto_LUKS':
+                if info['fstype'] == 'crypto_LUKS' and info['label'] == 'TailsData':
                     self.live.log.debug('Skipping LUKS-encrypted partition: %s' % info['device'])
-                    self.devices_with_persistence.append(info['parent'])
+                    self.live.devices_with_persistence.append(info['parent'])
                     continue
                 pretty_name = self.get_device_pretty_name(info)
                 # Skip devices with non-removable bit enabled
@@ -650,9 +655,6 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
         This method is called when the "Install Tails" button is clicked.
         """
         self.enable_widgets(False)
-        if not self.target_selected:
-            self.live.drive = self.get_selected_drive()
-        self.target_selected = True
         for signal_match in self.signals_connected:
             signal_match.remove()
 
@@ -683,7 +685,7 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
                                                    if self.live.drive['parent_size']
                                                    else self.live.drive['size'])
                 }
-                if self.live.drive['parent'] in self.devices_with_persistence:
+                if self.live.drive['parent'] in self.live.devices_with_persistence:
                     delete_message     = _('\n\nThe persistent storage on this USB stick will be lost.')
                     confirmation_label = _('Delete Persistent Storage and Reinstall')
                 else:

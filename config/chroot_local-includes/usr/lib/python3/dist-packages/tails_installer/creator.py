@@ -34,7 +34,7 @@ import os
 import re
 import stat
 import sys
-from typing import Optional
+from typing import List, Optional
 
 from io import StringIO
 from datetime import datetime
@@ -79,6 +79,7 @@ class TailsInstallerCreator(object):
     drives = {}  # {device: {'label': label, 'mount': mountpoint}}
     overlay = 0  # size in mb of our persisten overlay
     dest = None  # the mount point of of our selected drive
+    dest_has_persistence = False  # does our selected drive have persistence?
     uuid = None  # the uuid of our selected drive
     pids = []  # a list of pids of all of our subprocesses
     output = StringIO()  # log subprocess output in case of errors
@@ -89,6 +90,7 @@ class TailsInstallerCreator(object):
     ext_fstypes = set(['ext2', 'ext3', 'ext4'])
     valid_fstypes = set(['vfat', 'msdos']) | ext_fstypes
     passphrase = None  # type: Optional[str]
+    devices_with_persistence = []  # type: List[str]
 
     drive = property(fget=lambda self: self.drives[self._drive],
                      fset=lambda self, d: self._set_drive(d))
@@ -961,14 +963,25 @@ class TailsInstallerCreator(object):
     def clone_persistent_storage(self):
         if not self.opts.clone_persistent_storage_requested:
             return
-        self.log.info(_('Cloning Persistent Storage...'))
-        tps_proxy.call_sync(
-            method_name="CreateBackup",
-            parameters=GLib.Variant("(ss)", (self.passphrase, self.drive['parent'])),
-            flags=Gio.DBusCallFlags.NONE,
-            timeout_msec=GLib.MAXINT,
-            cancellable=None,
-        )
+
+        if self.drive['parent'] in self.devices_with_persistence:
+            self.log.info(_('Updating Persistent Storage...'))
+            tps_proxy.call_sync(
+                method_name="UpdateBackup",
+                parameters=GLib.Variant("(ss)", (self.passphrase, self.drive['parent'])),
+                flags=Gio.DBusCallFlags.NONE,
+                timeout_msec=GLib.MAXINT,
+                cancellable=None,
+            )
+        else:
+            self.log.info(_('Cloning Persistent Storage...'))
+            tps_proxy.call_sync(
+                method_name="CreateBackup",
+                parameters=GLib.Variant("(ss)", (self.passphrase, self.drive['parent'])),
+                flags=Gio.DBusCallFlags.NONE,
+                timeout_msec=GLib.MAXINT,
+                cancellable=None,
+            )
 
     def get_free_bytes(self, device=None):
         """ Return the number of available bytes on our device """
