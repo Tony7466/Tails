@@ -24,11 +24,6 @@ Package: live-boot live-boot-doc live-boot-initramfs-tools
 Pin: origin deb.tails.boum.org
 Pin-Priority: 999
 
-Explanation: Dummy package since we install obfs4proxy from the Tor Browser tarball (#18800)
-Package: obfs4proxy
-Pin: origin deb.tails.boum.org
-Pin-Priority: 999
-
 Package: webext-ublock-origin-firefox
 Pin: release o=Debian,n=sid
 Pin-Priority: 999
