@@ -104,6 +104,7 @@ gkbd-capplet
 gnome-calculator
 gnome-control-center
 gnome-disk-utility
+gnome-keyring
 gnome-menus
 gnome-power-manager
 gnome-screenshot
