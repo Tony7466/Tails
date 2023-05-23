@@ -73,7 +73,7 @@ enabled-extensions = ['apps-menu@gnome-shell-extensions.gcampax.github.com', 'pl
 favorite-apps=['tor-browser.desktop', 'tca.desktop', 'org.boum.tails.PersistentStorage.desktop', 'tails-documentation.desktop', 'whisperback.desktop', 'tails-installer.desktop', 'thunderbird.desktop', 'org.keepassxc.KeePassXC.desktop', 'org.kde.kleopatra.desktop']
 
 [org/gnome/shell/extensions/ding]
-icon-size='small'
+icon-size='standard'
 show-home = false
 show-trash = true
 
