@@ -74,8 +74,11 @@ favorite-apps=['tor-browser.desktop', 'tca.desktop', 'org.boum.tails.PersistentS
 
 [org/gnome/shell/extensions/ding]
 icon-size='standard'
+show-drop-place = false
 show-home = false
+show-network-volumes = false
 show-trash = true
+show-volumes = false
 
 [org/gnome/system/smb]
 workgroup = 'localhost'
