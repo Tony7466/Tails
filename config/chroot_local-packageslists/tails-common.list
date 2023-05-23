@@ -414,3 +414,6 @@ libu2f-udev
 
 # Allow running Qt applications as native Wayland
 qtwayland5
+
+# Needed by our curl wrapper
+xxd
