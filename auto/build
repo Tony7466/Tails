@@ -90,7 +90,7 @@ find \
 # we need /debootstrap/deburis to build a manifest of used packages:
 DEBOOTSTRAP_OPTIONS="${DEBOOTSTRAP_OPTIONS:-} --keep-debootstrap-dir"
 
-# we're not ready for merged-/usr yet: Debian#843461, Tails#11903
+# we're not ready for merged-/usr yet: Tails#11903
 DEBOOTSTRAP_OPTIONS="${DEBOOTSTRAP_OPTIONS:-} --no-merged-usr"
 
 # use our own APT repository's key:
