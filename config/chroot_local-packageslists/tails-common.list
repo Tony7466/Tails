@@ -236,6 +236,7 @@ usbutils
 user-setup
 vim-tiny
 wireless-tools
+wpasupplicant
 xdg-user-dirs-gtk
 xsel
 xz-utils
