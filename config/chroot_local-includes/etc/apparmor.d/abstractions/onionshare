@@ -39,3 +39,6 @@
 
   # Directory for received files
   owner @{HOME}/Downloads/{,**} rw,
+
+  # Silence innocuous denials
+  deny @{HOME}/.face r,
