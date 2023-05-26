@@ -82,7 +82,11 @@ Then /^the Unsafe Browser has started(?: in "([^"]+)")?$/ do |lang_code|
 end
 
 Then /^I see a warning about another instance already running$/ do
-  @screen.wait('UnsafeBrowserWarnAlreadyRunning.png', 10)
+  assert_not_nil(
+    Dogtail::Application.new('zenity')
+    .child(roleName: 'label')
+    .text['Another Unsafe Browser is currently running']
+  )
 end
 
 Then /^I can start the Unsafe Browser again$/ do
