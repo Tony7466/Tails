@@ -180,8 +180,6 @@ def page_has_loaded_in_the_tor_browser(page_titles)
   end
 end
 
-# This step is limited to the Tor Browser due to #7502 since dogtail
-# uses the same interface.
 Then /^"([^"]+)" has loaded in the Tor Browser$/ do |title|
   page_has_loaded_in_the_tor_browser(title)
 end
