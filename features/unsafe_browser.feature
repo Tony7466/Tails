@@ -55,7 +55,7 @@ Feature: Browsing the web using the Unsafe Browser
     # this sleep, it is confused and it's impossible to start a new
     # instance (it will just switch to the one we already started).
     And I wait 10 seconds
-    And I start the Unsafe Browser
+    And I try to start the Unsafe Browser
     Then I see a warning about another instance already running
 
   Scenario: The Unsafe Browser is not allowed to use a local proxy
