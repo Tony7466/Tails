@@ -19,9 +19,10 @@ def save_page_as
 end
 
 When /^I (?:try to )?start the Unsafe Browser$/ do
-  # XXX:Bookworm: switch to "gio launch" and drop the whole
-  # language_has_non_latin_input_source / switch_input_source system.
-  step 'I start "Unsafe Browser" via GNOME Activities Overview'
+  $vm.spawn(
+    'gio launch /usr/share/applications/unsafe-browser.desktop',
+    user: LIVE_USER
+  )
 end
 
 When /^I successfully start the Unsafe Browser(?: in "([^"]+)")?$/ do |lang_code|
