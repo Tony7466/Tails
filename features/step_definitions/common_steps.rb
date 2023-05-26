@@ -1155,7 +1155,6 @@ Given /^a web server is running on the LAN$/ do
   @web_server_ip_addr = $vmnet.bridge_ip_addr
   @web_server_port = 8000
   @web_server_url = "http://#{@web_server_ip_addr}:#{@web_server_port}"
-  web_server_hello_msg = 'Welcome to the LAN web server!'
 
   # I've tested ruby Thread:s, fork(), etc. but nothing works due to
   # various strange limitations in the ruby interpreter. For instance,
@@ -1173,7 +1172,7 @@ Given /^a web server is running on the LAN$/ do
                                    :Port => #{@web_server_port},
                                    :DocumentRoot => "/dev/null")
   server.mount_proc("/") do |req, res|
-    res.body = "#{web_server_hello_msg}"
+    res.body = "<head><title>#{LAN_WEB_SERVER_HELLO_MSG}</title></head><h1>#{LAN_WEB_SERVER_HELLO_MSG}</h1>"
   end
   server.start
   CODE
@@ -1201,7 +1200,7 @@ Given /^a web server is running on the LAN$/ do
     # wrapper script makes curl use Tor and we want to access the LAN.
     msg = $vm.execute_successfully("/usr/bin/curl #{@web_server_url}",
                                    user: LIVE_USER).stdout.chomp
-    web_server_hello_msg == msg
+    msg.include?(LAN_WEB_SERVER_HELLO_MSG)
   end
 end
 

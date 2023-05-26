@@ -45,6 +45,13 @@ Then /^the Unsafe Browser has a red theme$/ do
   @screen.wait('UnsafeBrowserRedTheme.png', 10)
 end
 
+Then /^the Unsafe Browser Browser displays the LAN web server hello message$/ do
+  msg = LAN_WEB_SERVER_HELLO_MSG.dup
+  try_for(60, delay: 3) do
+    page_has_heading(@unsafe_browser, "#{msg} — Unsafe Browser", msg)
+  end
+end
+
 Then /^the Unsafe Browser shows a warning as its start page(?: in "([^"]+)")?$/ do |lang_code|
   if lang_code
     # Use localized image for languages that have a translated version
@@ -62,6 +69,10 @@ Then /^the Unsafe Browser shows a warning as its start page(?: in "([^"]+)")?$/ 
 end
 
 Then /^the Unsafe Browser has started(?: in "([^"]+)")?$/ do |lang_code|
+  try_for(60) do
+    @unsafe_browser = Dogtail::Application.new('Firefox')
+    @unsafe_browser.child?(roleName: 'frame', recursive: false)
+  end
   if lang_code
     step 'the Unsafe Browser shows a warning as its start page in ' \
          "\"#{lang_code}\""

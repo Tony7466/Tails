@@ -18,7 +18,7 @@ Feature: Browsing the web using the Unsafe Browser
     And a web server is running on the LAN
     When I successfully start the Unsafe Browser
     And I open a page on the LAN web server in the Unsafe Browser
-    Then I see "UnsafeBrowserHelloLANWebServer.png" after at most 20 seconds
+    Then the Unsafe Browser Browser displays the LAN web server hello message
 
   @doc
   Scenario: Starting the Unsafe Browser works as it should
