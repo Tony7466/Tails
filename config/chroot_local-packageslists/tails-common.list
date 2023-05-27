@@ -417,3 +417,6 @@ qtwayland5
 
 # Needed by our curl wrapper
 xxd
+
+# Needed by root-terminal.desktop
+dbus-x11
