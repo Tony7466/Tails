@@ -1,6 +1,6 @@
-diff -Naur /etc/apparmor.d.orig/abstractions/base /etc/apparmor.d/abstractions/base
+diff -Naur /etc/apparmor.d/abstractions.orig/base /etc/apparmor.d/abstractions/base
 --- a/etc/apparmor.d/abstractions/base	2023-02-14 11:49:15.000000000 +0000
-+++ b/etc/apparmor.d/abstractions/base	2023-05-08 16:11:15.120399457 +0000
++++ b/etc/apparmor.d/abstractions/base	2023-05-27 17:17:50.492891624 +0000
 @@ -32,6 +32,7 @@
    @{etc_ro}/locale/**          r,
    @{etc_ro}/locale.alias       r,
@@ -22,10 +22,20 @@ diff -Naur /etc/apparmor.d.orig/abstractions/base /etc/apparmor.d/abstractions/b
    /{usr/,}lib/@{multiarch}/**.so*   mr,
    /{usr/,}lib/tls/i686/{cmov,nosegneg}/*.so*    mr,
    /{usr/,}lib/i386-linux-gnu/tls/i686/{cmov,nosegneg}/*.so*    mr,
-diff -Naur /etc/apparmor.d.orig/abstractions/ubuntu-helpers /etc/apparmor.d/abstractions/ubuntu-helpers
+diff -Naur /etc/apparmor.d/abstractions.orig/ubuntu-helpers /etc/apparmor.d/abstractions/ubuntu-helpers
 --- a/etc/apparmor.d/abstractions/ubuntu-helpers	2023-02-14 11:49:15.000000000 +0000
-+++ b/etc/apparmor.d/abstractions/ubuntu-helpers	2023-05-08 16:10:14.611806677 +0000
-@@ -67,8 +67,8 @@
++++ b/etc/apparmor.d/abstractions/ubuntu-helpers	2023-05-27 17:19:33.761291530 +0000
+@@ -54,7 +54,8 @@
+   /{usr/,usr/local/,}{bin,sbin}/* Pixr,
+ 
+   # Allow exec of libexec applications in /usr/lib* and /usr/local/lib*
+-  /usr/{,local/}lib*/{,**/}* Pixr,
++  /usr/{,local/}lib*/* Pixr,
++  /usr/{,local/}lib*/{[^l],l[^i],li[^v],liv[^e],live[^/]}{,**/}* Pixr,
+ 
+   # Allow exec of software-center scripts. We may need to allow wider
+   # permissions for /usr/share, but for now just do this. (LP: #972367)
+@@ -67,8 +68,8 @@
    # in limited libraries so glibc's secure execution should be enough to not
    # require the santized_helper (ie, LD_PRELOAD will only use standard system
    # paths (man ld.so)).
@@ -36,7 +46,7 @@ diff -Naur /etc/apparmor.d.orig/abstractions/ubuntu-helpers /etc/apparmor.d/abst
    /opt/google/chrome{,-beta,-unstable}/chrome-sandbox PUxr,
    /opt/google/chrome{,-beta,-unstable}/google-chrome Pixr,
    /opt/google/chrome{,-beta,-unstable}/chrome Pixr,
-@@ -85,7 +85,8 @@
+@@ -85,7 +86,8 @@
    # Full access
    / r,
    /** rwkl,
