@@ -1538,6 +1538,16 @@ def gnome_disks_app
   disks_app
 end
 
+def select_path_in_file_chooser(file_chooser, path)
+  assert_equal('file chooser', file_chooser.roleName)
+  @screen.press('ctrl', 'l')
+  try_for(10) { file_chooser.focused_child.roleName == 'text' }
+  file_chooser.focused_child.text = path
+  try_for(10) { file_chooser.button('Open').sensitive }
+  file_chooser.button('Open').click
+  try_for(10) { !file_chooser.showing }
+end
+
 def save_qrcode(str)
   # Generate a QR code similar enough to BridgeDB's:
   # https://gitlab.torproject.org/tpo/anti-censorship/bridgedb/-/blob/main/bridgedb/qrcodes.py
