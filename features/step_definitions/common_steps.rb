@@ -135,7 +135,7 @@ end
 def activate_gnome_shell_menu_entry(label)
   gnome_shell = Dogtail::Application.new('gnome-shell')
   menu_entry = gnome_shell.child(label,
-                                 roleName: 'label',
+                                 roleName:    'label',
                                  showingOnly: true)
   try_for(5) do
     menu_entry.grabFocus
