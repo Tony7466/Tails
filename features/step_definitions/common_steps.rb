@@ -1548,13 +1548,13 @@ def gnome_disks_app
   disks_app
 end
 
-def select_path_in_file_chooser(file_chooser, path)
+def select_path_in_file_chooser(file_chooser, path, button_label: 'Open')
   assert_equal('file chooser', file_chooser.roleName)
   @screen.press('ctrl', 'l')
   try_for(10) { file_chooser.focused_child.roleName == 'text' }
   file_chooser.focused_child.text = path
-  try_for(10) { file_chooser.button('Open').sensitive }
-  file_chooser.button('Open').click
+  try_for(10) { file_chooser.button(button_label).sensitive }
+  file_chooser.button(button_label).click
   try_for(10) { !file_chooser.showing }
 end
 
