@@ -812,17 +812,30 @@ Given /^I enter the sudo password in the pkexec prompt$/ do
   step "I enter the \"#{@sudo_password}\" password in the pkexec prompt"
 end
 
+def gnome_shell_unlock_dialog
+  d = Dogtail::Application.new('gnome-shell')
+                          .child('Authentication Required', roleName: 'label')
+                          .parent.parent.parent.parent.parent.parent.parent
+  assert_equal('dialog', d.roleName)
+  d
+end
+
+def gnome_shell_unlock_dialog?
+  Dogtail::Application.new('gnome-shell')
+                      .child?(
+                        'Authentication Required',
+                        roleName: 'label',
+                        retry:    false
+                      )
+end
+
 def deal_with_polkit_prompt(password, **opts)
   opts[:expect_success] = true if opts[:expect_success].nil?
-  gnome_shell = Dogtail::Application.new('gnome-shell')
-  dialog = gnome_shell.child('Authentication Required', roleName: 'label')
-                      .parent.parent
+  dialog = gnome_shell_unlock_dialog
   dialog.child('', roleName: 'password text').text = password
   @screen.press('Return')
   if opts[:expect_success]
-    try_for(20) do
-      !gnome_shell.child?('Authentication Required', roleName: 'label')
-    end
+    try_for(20) { !gnome_shell_unlock_dialog? }
   else
     # Using Dogtail for this one is not trivial: the error message is
     # seen as "showing" by Dogtail even when it's not visible on
