@@ -183,12 +183,20 @@ module Dogtail
       Node.new(node_var.to_s, **@opts)
     end
 
+    def methods
+      run("print(dir(#{@var}))").stdout.chomp
+    end
+
     def get_field(key)
       run("print(#{@var}.#{key})").stdout.chomp
     end
 
     def set_field(key, value)
       run("#{@var}.#{key} = #{self.class.value_to_s(value)}")
+    end
+
+    def actions
+      get_field('actions')
     end
 
     def combovalue
