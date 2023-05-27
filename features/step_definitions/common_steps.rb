@@ -144,21 +144,31 @@ def activate_gnome_shell_menu_entry(label)
   @screen.press('Return')
 end
 
+def expand_gnome_shell_menu_section(label)
+  expand_button = Dogtail::Application.new('gnome-shell')
+                                      .child(label,
+                                             roleName:    'label',
+                                             showingOnly: true)
+                                      .parent
+                                      .button('')
+  try_for(5) do
+    expand_button.grabFocus
+    expand_button.focused
+  end
+  @screen.press('Return')
+end
+
 Given /^I (dis)?connect the network through GNOME$/ do |disconnect|
   open_gnome_system_menu
 
   # Expand the menu entry for the wired connection
-  if disconnect
-    activate_gnome_shell_menu_entry('Wired Connected')
-  else
-    activate_gnome_shell_menu_entry('Wired Off')
-  end
+  expand_gnome_shell_menu_section('Wired')
 
   # Activate the Connect/Disconnect entry
   if disconnect
-    activate_gnome_shell_menu_entry('Turn Off')
+    activate_gnome_shell_menu_entry('Disconnect Wired')
   else
-    activate_gnome_shell_menu_entry('Connect')
+    activate_gnome_shell_menu_entry('Connect to Wired')
   end
 end
 
