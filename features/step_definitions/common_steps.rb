@@ -814,12 +814,20 @@ end
 
 def deal_with_polkit_prompt(password, **opts)
   opts[:expect_success] = true if opts[:expect_success].nil?
-  image = 'PolicyKitAuthPrompt.png'
-  @screen.wait(image, 60)
-  @screen.type(password, ['Return'])
+  gnome_shell = Dogtail::Application.new('gnome-shell')
+  dialog = gnome_shell.child('Authentication Required', roleName: 'label')
+                      .parent.parent
+  dialog.child('', roleName: 'password text').text = password
+  @screen.press('Return')
   if opts[:expect_success]
-    @screen.wait_vanish(image, 20)
+    try_for(20) do
+      !gnome_shell.child?('Authentication Required', roleName: 'label')
+    end
   else
+    # Using Dogtail for this one is not trivial: the error message is
+    # seen as "showing" by Dogtail even when it's not visible on
+    # screen, and I could find no way to tell whether it's
+    # actually displayed.
     @screen.wait('PolicyKitAuthFailure.png', 20)
     # Ensure the dialog is ready to handle whatever else
     # we want to do with it next, such as pressing Escape
@@ -948,11 +956,15 @@ Given /^I switch to the "([^"]+)" NetworkManager connection$/ do |con_name|
 end
 
 When /^I run "([^"]+)" in GNOME Terminal$/ do |command|
-  if !$vm.process_running?('gnome-terminal-server')
+  unless $vm.process_running?('gnome-terminal-server')
     step 'I start "GNOME Terminal" via GNOME Activities Overview'
-    @screen.wait('GnomeTerminalWindow.png', 40)
-  else
-    @screen.wait('GnomeTerminalWindow.png', 20).click
+  end
+  try_for(40) do
+    terminal = Dogtail::Application.new('gnome-terminal-server')
+                                   .child('Terminal', roleName: 'terminal')
+    terminal.text['amnesia@amnesia:']
+    terminal.grabFocus
+    terminal.focused
   end
   @screen.paste(command, app: :terminal)
   @screen.press('Return')
