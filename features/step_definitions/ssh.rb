@@ -142,21 +142,23 @@ Then /^I connect to an SFTP server on the Internet$/ do
     step 'I start "Nautilus" via GNOME Activities Overview'
     nautilus = Dogtail::Application.new('org.gnome.Nautilus')
     nautilus.child(roleName: 'frame')
-    # "Other Locations" has no click action, so Dogtail cannot interact with it.
+    # "Other Locations", its relevant parents, and relevant sibling,
+    # have no a11y action, so Dogtail cannot interact with them.
+    # They don't react to #grabFocus either.
     @screen.click('NautilusOtherLocations.png')
-    connect_bar = nautilus.child('Connect to Server', roleName: 'label').parent
-    connect_bar
-      .child(roleName: 'filler', recursive: false)
-      .child(roleName: 'text', recursive: false)
-      .text = 'sftp://' + @sftp_username + '@' + @sftp_host + ':' + @sftp_port
-    connect_bar.button('Connect', recursive: false).click
+    connect_bar = nautilus.child('Connect to Server', roleName: 'label')
+                          .parent.parent
+    connect_bar.child('Connect to Server', roleName: 'text').text =
+      "sftp://#{@sftp_username}@#{@sftp_host}:#{@sftp_port}"
+    connect_bar.childLabelled('Connect').click
     step 'I verify the SSH fingerprint for the SFTP server'
   end
 end
 
 Then /^I verify the SSH fingerprint for the SFTP server$/ do
   try_for(30) do
-    Dogtail::Application.new('gnome-shell').child?('Log In Anyway')
+    Dogtail::Application.new('gnome-shell').child?('Log In Anyway',
+                                                   roleName: 'push button')
   end
   # Here we'd like to click on the button using Dogtail, but something
   # is buggy so let's just use the keyboard.
