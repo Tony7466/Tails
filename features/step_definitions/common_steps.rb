@@ -823,18 +823,18 @@ Given /^I enter the sudo password in the pkexec prompt$/ do
   step "I enter the \"#{@sudo_password}\" password in the pkexec prompt"
 end
 
-def gnome_shell_unlock_dialog
+def gnome_shell_unlock_dialog(title = 'Authentication Required')
   d = Dogtail::Application.new('gnome-shell')
-                          .child('Authentication Required', roleName: 'label')
+                          .child(title, roleName: 'label')
                           .parent.parent.parent.parent.parent.parent.parent
   assert_equal('dialog', d.roleName)
   d
 end
 
-def gnome_shell_unlock_dialog?
+def gnome_shell_unlock_dialog?(title = 'Authentication Required')
   Dogtail::Application.new('gnome-shell')
                       .child?(
-                        'Authentication Required',
+                        title,
                         roleName: 'label',
                         retry:    false
                       )
@@ -842,11 +842,12 @@ end
 
 def deal_with_polkit_prompt(password, **opts)
   opts[:expect_success] = true if opts[:expect_success].nil?
-  dialog = gnome_shell_unlock_dialog
+  opts[:title] = 'Authentication Required' if opts[:title].nil?
+  dialog = gnome_shell_unlock_dialog(opts[:title])
   dialog.child('', roleName: 'password text').text = password
   @screen.press('Return')
   if opts[:expect_success]
-    try_for(20) { !gnome_shell_unlock_dialog? }
+    try_for(20) { !gnome_shell_unlock_dialog?(opts[:title]) }
   else
     # Using Dogtail for this one is not trivial: the error message is
     # seen as "showing" by Dogtail even when it's not visible on
