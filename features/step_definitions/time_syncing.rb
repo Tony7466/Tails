@@ -23,7 +23,10 @@ When /^I bump the (hardware clock's|system) time with "([^"]+)"$/ do |clock_type
     old_time = DateTime.parse(
       $vm.execute_successfully('hwclock -r').stdout
     ).to_time
-    $vm.execute_successfully("hwclock --set --date 'now #{timediff}'")
+    desired_new_time = cmd_helper(
+      ['date', '--utc', '-d', "now #{timediff}", '+%Y-%m-%d %T']
+    ).chomp
+    $vm.execute_successfully("hwclock --set --date '#{desired_new_time}'")
     new_time = DateTime.parse(
       $vm.execute_successfully('hwclock -r').stdout
     ).to_time
