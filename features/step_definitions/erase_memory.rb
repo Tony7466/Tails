@@ -87,9 +87,7 @@ When /^I start a process allocating (\d+) ([[:alpha:]]+) of memory with a known 
     import math
     import time
     pattern = "wipe_didnt_work\\n"
-    buffer = ""
-    for x in range(math.ceil(#{convert_to_bytes(size.to_i, unit)} / len(pattern))):
-      buffer += pattern
+    buffer = pattern * math.ceil(#{convert_to_bytes(size.to_i, unit)} / len(pattern))
     with open("#{fillram_done_path}", "w") as f:
       f.write("done")
     time.sleep(365*24*60*60)
