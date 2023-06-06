@@ -27,6 +27,10 @@ natural-scroll = true
 tap-to-click = true
 two-finger-scrolling-enabled = true
 
+[org/gnome/desktop/privacy]
+usb-protection = true
+usb-protection-level = 'lockscreen'
+
 [org/gnome/desktop/screensaver]
 lock-enabled = true
 picture-uri = 'file:///usr/share/tails/screensaver_background.png'

@@ -421,3 +421,6 @@ xxd
 
 # Needed by root-terminal.desktop
 dbus-x11
+
+# Needed by the GNOME USB protection feature
+usbguard
