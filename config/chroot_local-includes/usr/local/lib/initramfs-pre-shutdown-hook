@@ -30,7 +30,7 @@ mkdir -p /mnt/live/squashfs
       /mnt/live/squashfs
 mkdir -p /mnt/live/medium
 /bin/mount --move \
-      /oldroot/lib/live/mount/medium \
+      /oldroot/usr/lib/live/mount/medium \
       /mnt/live/medium
 mkdir -p /mnt/live/dev
 /bin/mount --move \
