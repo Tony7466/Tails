@@ -11,9 +11,17 @@ Then /^I can print the current document to "([^"]+)"$/ do |output_file|
   try_for(10) do
     print_dialog.child('Print to File', roleName: 'table cell').parent.focused
   end
-  print_dialog.children(roleName: 'push button', showingOnly: true)
-              .find { |b| /[.]pdf$/.match(b.name) }
-              .click
+  output_file_selection_button = nil
+  try_for(10) do
+    output_file_selection_button = print_dialog
+                                   .children(
+                                     roleName:    'push button',
+                                     showingOnly: true
+                                   )
+                                   .find { |b| /[.]pdf$/.match(b.name) }
+    !output_file_selection_button.nil?
+  end
+  output_file_selection_button.click
   select_path_in_file_chooser(
     evince.child(
       'Select a filename',
