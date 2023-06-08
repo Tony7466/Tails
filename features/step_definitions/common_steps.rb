@@ -1586,8 +1586,10 @@ end
 
 def select_path_in_file_chooser(file_chooser, path, button_label: 'Open')
   assert_equal('file chooser', file_chooser.roleName)
-  @screen.press('ctrl', 'l')
-  try_for(10) { file_chooser.focused_child.roleName == 'text' }
+  try_for(10) do
+    @screen.press('ctrl', 'l')
+    file_chooser.focused_child.roleName == 'text'
+  end
   file_chooser.focused_child.text = path
   try_for(10) { file_chooser.button(button_label).sensitive }
   file_chooser.button(button_label).click
