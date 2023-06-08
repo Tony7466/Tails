@@ -193,12 +193,11 @@ def before_all(context):
     # config/chroot_local-includes/lib/systemd/system/run-nosymfollow.mount.
     # We also do it here to test that it does prevent symlink attacks.
     Path(NOSYMFOLLOW_MOUNTPOINT).mkdir(exist_ok=True)
-    mount(src="/", dest=NOSYMFOLLOW_MOUNTPOINT, flags=MOUNTFLAG_BIND)
     mount(
-        src="", dest=NOSYMFOLLOW_MOUNTPOINT,
-        flags=MOUNTFLAG_REMOUNT | MOUNTFLAG_NOSYMFOLLOW,
+        src="/",
+        dest=NOSYMFOLLOW_MOUNTPOINT,
+        flags=MOUNTFLAG_BIND | MOUNTFLAG_NOSYMFOLLOW,
     )
-
 
 def after_all(context):
     subprocess.run(["umount", NOSYMFOLLOW_MOUNTPOINT], check=True)
