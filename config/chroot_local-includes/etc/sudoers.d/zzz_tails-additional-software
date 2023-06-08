@@ -1,2 +1,0 @@
-# XXX:Bookworm: this sudo rule should be replaced by a polkit rule (#19213)
-amnesia ALL = NOPASSWD: /bin/systemctl start tails-additional-software-install.service
