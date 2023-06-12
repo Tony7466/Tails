@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+from pathlib import Path
+
+for po in sorted(Path('po/').glob('*.po')):
+    lang = po.name.split('.')[0]
+    if '_' in lang:
+        lang, sub = lang.split('_', maxsplit=1)
+    else:
+        sub = lang.upper()
+    print(f"{lang}:{sub}")
