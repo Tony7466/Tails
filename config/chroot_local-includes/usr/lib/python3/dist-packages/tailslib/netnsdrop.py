@@ -19,7 +19,7 @@ A11Y_BUS_SANDBOX_PATH = "/run/user/1000/tails-sandbox/a11y-bus-proxy.sock"
 IBUS_SANDBOX_PATH = "/run/user/1000/tails-sandbox/ibus-proxy.sock"
 
 
-def run_in_netns(*args, netns, root="/", bind_mounts=None):
+def run_in_netns(*args, netns, root="/", bind_mounts=None, env_file=None):
     if bind_mounts is None:
         bind_mounts = []
 
@@ -51,8 +51,16 @@ def run_in_netns(*args, netns, root="/", bind_mounts=None):
         "ip", "netns", "exec", netns,
         "/sbin/runuser", "-u", LIVE_USERNAME, "--",
         *bwrap, "--",
-        "/usr/local/lib/run-with-user-env",
-        *args
     ]
+    if env_file:
+        cmd += [
+            "/usr/local/lib/run-with-env", "--env-file", env_file, "--delete", "--",
+        ]
+    else:
+        cmd += [
+            "/usr/local/lib/run-with-user-env",
+        ]
+    cmd += args
+
     logging.info("Running %s", cmd)
     os.execvp(cmd[0], cmd)
