@@ -1,9 +1,10 @@
-tails (5.16) UNRELEASED; urgency=medium
+tails (5.15) UNRELEASED; urgency=medium
 
   * Dummy entry for next release.
   * Dummy entry for next release.
+  * Dummy entry for next release.
 
- -- boyska <boyska@riseup.net>  Tue, 13 Jun 2023 15:35:31 +0200
+ -- boyska <boyska@riseup.net>  Tue, 13 Jun 2023 15:39:13 +0200
 
 tails (5.14) unstable; urgency=medium
 
