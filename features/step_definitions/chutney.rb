@@ -15,7 +15,7 @@ def chutney_status_log(cmd)
            else
              return
            end
-  puts("Chutney Tor network simulation: #{action} ...")
+  debug_log("Chutney Tor network simulation: #{action} ...")
 end
 
 def chutney_env
