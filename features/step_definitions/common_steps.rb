@@ -593,6 +593,7 @@ def check_disable_network
 end
 
 Given /^I successfully configure Tor$/ do
+  wait_until_chutney_is_working
   # First we wait for tor's control port to be ready...
   try_for(60) do
     $vm.execute_successfully('/usr/local/lib/tor_variable get --type=info version')
@@ -623,6 +624,7 @@ Given /^I successfully configure Tor$/ do
 end
 
 Then /^I wait until Tor is ready$/ do
+  wait_until_chutney_is_working
   # Here we actually check that Tor is ready
   step 'Tor has built a circuit'
   step 'the time has synced'
