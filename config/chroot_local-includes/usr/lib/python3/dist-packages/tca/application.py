@@ -15,6 +15,7 @@ import dbus
 import dbus.mainloop.glib
 import systemd.daemon
 
+from tailslib.persistence import has_persistence, has_unlocked_persistence
 from tca.ui.main_window import TCAMainWindow
 import tca.config
 from tca.torutils import (
@@ -78,8 +79,8 @@ class TCAApplication(Gtk.Application):
         self.last_nm_state = None
         self._tor_is_working: bool = TOR_HAS_BOOTSTRAPPED_PATH.exists()
         self.tor_info: Dict[str, Any] = {"DisableNetwork": None}
-        self.has_persistence = args.has_persistence
-        self.has_unlocked_persistence = args.has_unlocked_persistence
+        self.has_persistence = has_persistence()
+        self.has_unlocked_persistence = has_unlocked_persistence()
         self.log.debug(
             "Persistence = %s, unlocked = %s",
             self.has_persistence,
@@ -329,18 +330,6 @@ def get_parser():
     p = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
     p.add_argument("--debug", dest="debug", action="store_true", default=False)
     p.add_argument("--debug-statefile")
-    p.add_argument(
-        "--has-persistence",
-        dest="has_persistence",
-        action="store_true",
-        default=False,
-    )
-    p.add_argument(
-        "--has-unlocked-persistence",
-        dest="has_unlocked_persistence",
-        action="store_true",
-        default=False,
-    )
     p.add_argument(
         "--log-level",
         default="DEBUG" if is_tails_debug_mode() else "INFO",
