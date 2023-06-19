@@ -82,3 +82,5 @@
 
 # early_patch= (aka. --early-patch) hook
 /hook
+
+.flatpak-builder/
