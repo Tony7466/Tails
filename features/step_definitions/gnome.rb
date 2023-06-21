@@ -1,6 +1,6 @@
 When /^GNOME offers me various screenshot options$/ do
   assert_not_nil(
-    Dogtail::Application.new('gnome-shell').child('Screen', showingOnly: true)
+    Dogtail::Application.new('gnome-shell').child('Screen')
   )
 end
 

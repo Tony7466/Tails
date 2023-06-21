@@ -145,9 +145,7 @@ end
 
 def expand_gnome_shell_menu_section(label)
   expand_button = Dogtail::Application.new('gnome-shell')
-                                      .child(label,
-                                             roleName:    'label',
-                                             showingOnly: true)
+                                      .child(label, roleName: 'label')
                                       .parent
                                       .button('')
   try_for(5) do

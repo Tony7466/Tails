@@ -5,8 +5,8 @@ end
 Then /^I can print the current document to "([^"]+)"$/ do |output_file|
   evince = Dogtail::Application.new('evince')
   @screen.press('ctrl', 'p')
-  print_dialog = evince.dialog('Print', showingOnly: true)
-  print_dialog.child('Print to File', roleName: 'table cell', showingOnly: true)
+  print_dialog = evince.dialog('Print')
+  print_dialog.child('Print to File', roleName: 'table cell')
   @screen.press('Tab')
   try_for(10) do
     print_dialog.child('Print to File', roleName: 'table cell').parent.focused
@@ -14,10 +14,7 @@ Then /^I can print the current document to "([^"]+)"$/ do |output_file|
   output_file_selection_button = nil
   try_for(10) do
     output_file_selection_button = print_dialog
-                                   .children(
-                                     roleName:    'push button',
-                                     showingOnly: true
-                                   )
+                                   .children(roleName: 'push button')
                                    .find { |b| /[.]pdf$/.match(b.name) }
     !output_file_selection_button.nil?
   end

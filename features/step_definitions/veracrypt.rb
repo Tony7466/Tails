@@ -174,11 +174,7 @@ When /^I unlock and mount this VeraCrypt (volume|file container) with Unlock Ver
     @screen.press('Return')
 
     select_path_in_file_chooser(
-      app.child(
-        'Choose File Container',
-        roleName:    'file chooser',
-        showingOnly: true
-      ),
+      app.child('Choose File Container', roleName: 'file chooser'),
       "#{@veracrypt_shared_dir_in_guest}/#{$veracrypt_volume_name}"
     )
   end
@@ -277,11 +273,7 @@ When /^I unlock and mount this VeraCrypt (volume|file container) with GNOME Disk
     @screen.press('alt', 'k')
     @screen.press('Return')
     select_path_in_file_chooser(
-      disks.child(
-        'Select a Keyfile',
-        roleName:    'file chooser',
-        showingOnly: true
-      ),
+      disks.child('Select a Keyfile', roleName: 'file chooser'),
       '/tmp/keyfile'
     )
   end
@@ -301,7 +293,7 @@ When /^I unlock and mount this VeraCrypt (volume|file container) with GNOME Disk
     # the "Mount selected partition" button.
     @screen.press('down')
     try_for(10) do
-      disks.children(roleName: 'panel', showingOnly: true)
+      disks.children(roleName: 'panel')
            .find { |c| /Filesystem\n\d+ [KM]B FAT/.match(c.name) }
            .focused
     end
