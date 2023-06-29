@@ -882,8 +882,8 @@ Given /^process "([^"]+)" has stopped running after at most (\d+) seconds$/ do |
   end
 end
 
-Given /^I kill the process "([^"]+)"$/ do |process|
-  $vm.execute_successfully("killall #{process}")
+def ensure_process_is_terminated(process)
+  $vm.execute("killall #{process}")
   try_for(10, msg: "Process '#{process}' could not be killed") do
     !$vm.process_running?(process)
   end
@@ -1270,6 +1270,12 @@ end
 
 When /^I open a page on the LAN web server in the (.*)$/ do |browser|
   step "I open the address \"#{@web_server_url}\" in the #{browser}"
+end
+
+Then /^no traffic was sent to the web server on the LAN$/ do
+  assert_no_connections(@sniffer.pcap_file) do |c|
+    (c.daddr == @web_server_ip_addr) && (c.dport == @web_server_port)
+  end
 end
 
 Given /^I wait (?:between (\d+) and )?(\d+) seconds$/ do |min, max|
