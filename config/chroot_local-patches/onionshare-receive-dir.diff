@@ -1,14 +1,5 @@
 --- a/usr/lib/python3/dist-packages/onionshare_cli/mode_settings.py	2023-05-05 12:41:35.000000000 +0000
-+++ b/usr/lib/python3/dist-packages/onionshare_cli/mode_settings.py	2023-05-25 08:23:51.588213806 +0000
-@@ -43,7 +43,7 @@
-             "persistent": {"mode": None, "enabled": False},
-             "general": {
-                 "title": None,
--                "public": False,
-+                "public": True,
-                 "autostart_timer": False,
-                 "autostop_timer": False,
-                 "service_id": None,
++++ b/usr/lib/python3/dist-packages/onionshare_cli/mode_settings.py	2023-05-24 13:58:56.864000000 +0000
 @@ -109,7 +109,7 @@
              return os.path.expanduser("~\\OnionShare")
          else:
