@@ -267,7 +267,6 @@ tails (5.14) unstable; urgency=medium
       - tails-get-network-time: Don't set any User-Agent
 
  -- Tails developers <tails@boum.org>  Mon, 12 Jun 2023 14:53:26 +0200
->>>>>>> stable
 
 tails (5.13) unstable; urgency=medium
 
