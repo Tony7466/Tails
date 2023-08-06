@@ -1,3 +1,16 @@
+tails (5.18) UNRELEASED; urgency=medium
+
+  * Dummy entry for next release.
+  * Dummy entry for next release.
+
+ -- boyska <boyska@riseup.net>  Wed, 12 Jul 2023 13:01:53 +0200
+
+tails (5.15.1) unstable; urgency=medium
+
+  * Emergency fix: fix whisperback reporting
+
+ -- Tails developers <tails@boum.org>  Tue, 11 Jul 2023 13:20:32 +0200
+
 tails (5.15) unstable; urgency=medium
 
   * Resolve "Upgrade Tor Browser to 12.5.1" (tails/tails!1195)
@@ -319,7 +332,7 @@ tails (5.15) unstable; urgency=medium
       - Add comment
       - Display the Tails version in the boot loader entry
 
- -- Tails developers <tails@boum.org>  Mon, 10 Jul 2023 12:06:03 +0200
+ -- Tails developers <tails@boum.org>  Mon, 10 Jul 2023 12:04:32 +0200
 
 tails (5.14) unstable; urgency=medium
 
