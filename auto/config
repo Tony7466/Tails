@@ -65,8 +65,10 @@ fi
 
 
 # space-separated list of additional packages debootstrap installs
+#  - ca-certificates: needed for HTTPS APT repositories,
+#    such as the upstream Signal one
 #  - gnupg: needed by apt-key, not installed by default since Buster
-export LB_BOOTSTRAP_INCLUDE="gnupg"
+export LB_BOOTSTRAP_INCLUDE="ca-certificates gnupg"
 
 # init variables
 RUN_LB_CONFIG="lb config noauto"
