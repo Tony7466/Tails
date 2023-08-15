@@ -90,6 +90,7 @@ exfat-fuse
 exfat-utils
 exiv2
 file-roller
+flatpak
 fonts-cantarell
 fonts-dejavu
 fonts-liberation
