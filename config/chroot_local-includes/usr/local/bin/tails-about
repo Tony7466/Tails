@@ -4,6 +4,7 @@
 running Tails installation.
 """
 
+import datetime
 import gettext
 import subprocess
 
@@ -16,7 +17,7 @@ class AboutTails(Gtk.AboutDialog):
     """A simple class showing the dialog"""
     def __init__(self):
         gettext.install("tails")
-        self.get_tails_version()
+        tails_version_data = self.tails_version_data()
         Gtk.AboutDialog.__init__(self)
 
         self.set_program_name(_("Tails"))
@@ -32,26 +33,58 @@ class AboutTails(Gtk.AboutDialog):
         except GLib.GError:
             pass
 
-        self.set_comments(_("Tails") + "\n\n" +
-                          _("Build information:\n%s") % self.tails_version)
-        self.set_copyright("Tails developers")
-        self.set_version(self.tails_main_version)
-        self.set_website("https://tails.net/")
+        website = tails_version_data["HOME_URL"]
 
+        if tails_version_data:
+            comment = ""
+            version = tails_version_data["VERSION"]
+            built_name = tails_version_data["TAILS_GIT_SHORT_ID"]
+            if tails_version_data["TAILS_DISTRIBUTION"] == "UNRELEASED":
+                version += " " + _("UNRELEASED")
+                if "TAILS_GIT_BASE_BRANCH" in tails_version_data:
+                    built_name += "+%s@%s" % (
+                        tails_version_data["TAILS_GIT_BASE_BRANCH"],
+                        tails_version_data["TAILS_GIT_BASE_SHORT_ID"],
+                    )
+
+                built_time = datetime.datetime.fromtimestamp(
+                    int(tails_version_data["TAILS_SOURCE_DATE_EPOCH"])
+                )
+                comment = _("Build from %s on %s") % (built_name, built_time)
+            else:
+                comment = _("Build from %s") % (built_name)
+
+            if "TAILS_GIT_TAG" in tails_version_data:
+                tag = tails_version_data["TAILS_GIT_TAG"].replace("~", "-")
+                if "~" in version:
+                    website += "news/test_%s" % tag
+                else:
+                    website += "news/version_%s" % tag
+
+            self.set_version(version)
+            self.set_comments(comment)
+
+        self.set_copyright("Tails developers")
+        self.set_website(website)
         self.connect("delete-event", Gtk.main_quit)
         self.connect("response", Gtk.main_quit)
         self.show_all()
         Gtk.main()
 
-    def get_tails_version(self):
-        """Find out the tails_version and the tails_main_version"""
+    def tails_version_data(self):
+        """dict of information in /etc/os-release"""
+        ret = dict()
         try:
-            self.tails_version = subprocess.Popen(
-                ["tails-version"], stdout=subprocess.PIPE).communicate()[0]
-            self.tails_version = self.tails_version.decode('utf-8')
-            self.tails_main_version = self.tails_version.split("-")[0]
+            with open("/etc/os-release") as f:
+                data = f.read()
+            for i in data.splitlines():
+                name, value = i.split("=")
+                ret[name.strip()] = value.strip('"')
+
         except OSError:
-            self.tails_version = _("not available")
-            self.tails_main_version = ""
+            pass
+
+        return ret
+
 
 AboutTails()
