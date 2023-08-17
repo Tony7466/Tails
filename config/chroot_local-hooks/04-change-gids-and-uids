@@ -160,6 +160,7 @@ Change_gid crontab           108
 Change_gid netdev            109
 Change_gid memlockd          110
 Change_gid messagebus        111
+Change_gid debian-tor        112
 Change_gid ssl-cert          113
 Change_gid ssh               114
 Change_gid lpadmin           115
