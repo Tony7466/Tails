@@ -177,7 +177,6 @@ tails (5.16) unstable; urgency=medium
       - tbb upgrade: add ma1 repository
 
  -- Tails developers <tails@boum.org>  Sun, 06 Aug 2023 10:32:57 +0000
->>>>>>> stable
 
 tails (5.15.1) unstable; urgency=medium
 
