@@ -336,6 +336,9 @@ rmdir "${TBB_INSTALL}"/distribution/extensions
 mkdir -p "${TBB_PROFILE}"
 create_default_profile "${TBB_EXT}" "${TBB_PROFILE}"
 
+# Let's just sanity check that we haven't forgotten anything in the
+# default profile.
+rmdir "${TBB_INSTALL}"/TorBrowser/Data/Browser/profile.default
 # Let's remove files no longer needed
 rm -r "${TBB_INSTALL}"/TorBrowser
 # The Tor Browser will fail, complaining about an incomplete profile,
