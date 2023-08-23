@@ -548,7 +548,7 @@ class FilteredControlPortProxySession:
                     if self.restrict_stream_events and cmd == 'GETINFO' and arg_str == 'circuit-status':
                         old_response_rewriter = response_rewriter
                         def _response_rewriter(ignored):
-                            new_lines = "250+circuit-status=\r\n"
+                            new_lines = ""
                             circuits = self.my_circuits()
                             # The _raw_content is the last raw CIRC
                             # event received for each circuit id, so
@@ -562,7 +562,9 @@ class FilteredControlPortProxySession:
                             # considered a single-line response which
                             # need no such termination.
                             if len(circuits) > 0:
-                                new_lines += ".\r\n"
+                                new_lines = "250+circuit-status=\r\n" + new_lines + ".\r\n"
+                            else:
+                                new_lines = "250-circuit-status=\r\n"
                             new_lines += "250 OK\r\n"
                             if old_response_rewriter:
                                 new_lines = old_response_rewriter(new_lines)
