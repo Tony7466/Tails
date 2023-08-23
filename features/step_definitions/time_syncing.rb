@@ -111,10 +111,8 @@ end
 Then /^the system clock is just past Tails' source date$/ do
   system_time_str = $vm.execute_successfully('date').to_s
   system_time = DateTime.parse(system_time_str).to_time
-  source_time_str = $vm.file_content('/etc/amnesia/version')
-                       .split("\n")[0]
-                       .match(/^.* - ([0-9]+)$/)[1]
-  source_time = DateTime.parse(source_time_str).to_time
+  source_time = $vm.file_content('/etc/os-release')
+                       .match(/^TAILS_SOURCE_DATE_EPOCH\s*=\s*"([0-9]+)"$/)[1]
   diff = system_time - source_time # => in seconds
   # Half an hour should be enough to boot Tails on any reasonable
   # hardware and VM setup.

@@ -6,18 +6,17 @@ running Tails installation.
 
 import datetime
 import gettext
-import subprocess
 
 from gi import require_version
 require_version('Gtk', '3.0')
 from gi.repository import GLib, Gtk, GdkPixbuf
 
+from tailslib.release import VERSION_DATA, get_release_date
 
 class AboutTails(Gtk.AboutDialog):
     """A simple class showing the dialog"""
     def __init__(self):
         gettext.install("tails")
-        tails_version_data = self.tails_version_data()
         Gtk.AboutDialog.__init__(self)
 
         self.set_program_name(_("Tails"))
@@ -33,29 +32,26 @@ class AboutTails(Gtk.AboutDialog):
         except GLib.GError:
             pass
 
-        website = tails_version_data["HOME_URL"]
+        website = VERSION_DATA["HOME_URL"]
 
-        if tails_version_data:
+        if VERSION_DATA:
             comment = ""
-            version = tails_version_data["VERSION"]
-            built_name = tails_version_data["TAILS_GIT_SHORT_ID"]
-            if tails_version_data["TAILS_DISTRIBUTION"] == "UNRELEASED":
+            version = VERSION_DATA["VERSION"]
+            built_name = VERSION_DATA["TAILS_GIT_SHORT_ID"]
+            if VERSION_DATA["TAILS_DISTRIBUTION"] == "UNRELEASED":
                 version += " " + _("UNRELEASED")
-                if "TAILS_GIT_BASE_BRANCH" in tails_version_data:
+                if "TAILS_GIT_BASE_BRANCH" in VERSION_DATA:
                     built_name += "+%s@%s" % (
-                        tails_version_data["TAILS_GIT_BASE_BRANCH"],
-                        tails_version_data["TAILS_GIT_BASE_SHORT_ID"],
+                        VERSION_DATA["TAILS_GIT_BASE_BRANCH"],
+                        VERSION_DATA["TAILS_GIT_BASE_SHORT_ID"],
                     )
 
-                built_time = datetime.datetime.fromtimestamp(
-                    int(tails_version_data["TAILS_SOURCE_DATE_EPOCH"])
-                )
-                comment = _("Build from %s on %s") % (built_name, built_time)
+                comment = _("Build from %s on %s") % (built_name, get_release_date())
             else:
                 comment = _("Build from %s") % (built_name)
 
-            if "TAILS_GIT_TAG" in tails_version_data:
-                tag = tails_version_data["TAILS_GIT_TAG"].replace("~", "-")
+            if "TAILS_GIT_TAG" in VERSION_DATA:
+                tag = VERSION_DATA["TAILS_GIT_TAG"].replace("~", "-")
                 if "~" in version:
                     website += "news/test_%s" % tag
                 else:
@@ -70,21 +66,6 @@ class AboutTails(Gtk.AboutDialog):
         self.connect("response", Gtk.main_quit)
         self.show_all()
         Gtk.main()
-
-    def tails_version_data(self):
-        """dict of information in /etc/os-release"""
-        ret = dict()
-        try:
-            with open("/etc/os-release") as f:
-                data = f.read()
-            for i in data.splitlines():
-                name, value = i.split("=")
-                ret[name.strip()] = value.strip('"')
-
-        except OSError:
-            pass
-
-        return ret
 
 
 AboutTails()

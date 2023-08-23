@@ -1137,23 +1137,11 @@ def iuk_changes(version) # rubocop:disable Metrics/MethodLength
     },
     {
       filesystem:  :rootfs,
-      path:        'etc/amnesia/version',
-      status:      :modified,
-      new_content: <<~CONTENT,
-        #{version} - 20380119
-        ffffffffffffffffffffffffffffffffffffffff
-        live-build: 3.0.5+really+is+2.0.12-0.tails2
-        live-boot: 4.0.2-1
-        live-config: 4.0.4-1
-      CONTENT
-    },
-    {
-      filesystem:  :rootfs,
       path:        'etc/os-release',
       status:      :modified,
       new_content: <<~CONTENT,
-        TAILS_PRODUCT_NAME="Tails"
-        TAILS_VERSION_ID="#{version}"
+        NAME="Tails"
+        VERSION="#{version}"
       CONTENT
     },
     {
@@ -1319,11 +1307,8 @@ Given /^Tails is fooled to think a (.+) SquashFS delta is installed$/ do |versio
     'Implementation error, alert the test suite maintainer!'
   )
   $vm.execute_successfully(
-    "sed --regexp-extended -i '1s/^\S+ /#{version}/' /etc/amnesia/version"
-  )
-  $vm.execute_successfully(
-    "sed -i 's/^TAILS_VERSION_ID=.*/TAILS_VERSION_ID=#{version}/' " \
-    '/etc/amnesia/version'
+    "sed -i 's/^VERSION=.*/VERSION=\"#{version}\"/' " \
+    '/etc/os-release'
   )
 end
 

@@ -35,16 +35,9 @@ for version in $VERSIONS; do
       echo "Some content 2.3" > "$SQUASHFS_SRC"/some_new_file_2.3
       rm "$SQUASHFS_SRC"/usr/share/common-licenses/MPL-1.1
    fi
-   cat > "$SQUASHFS_SRC"/etc/amnesia/version <<EOF
-$version - 20380119
-ffffffffffffffffffffffffffffffffffffffff
-live-build: 3.0.5+really+is+2.0.12-0.tails2
-live-boot: 4.0.2-1
-live-config: 4.0.4-1
-EOF
    cat > "$SQUASHFS_SRC"/etc/os-release <<EOF
-TAILS_PRODUCT_NAME="Tails"
-TAILS_VERSION_ID="$version"
+NAME="Tails"
+VERSION="$version"
 EOF
    mksquashfs \
       "$SQUASHFS_SRC" \
