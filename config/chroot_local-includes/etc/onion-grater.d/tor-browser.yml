@@ -17,4 +17,5 @@
     bridge:
   events:
     STREAM:
+    CIRC:
   restrict-stream-events: true
