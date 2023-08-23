@@ -4,6 +4,8 @@ This module is meant to provide informations about Tails release data
 """
 
 import datetime
+from typing import Dict
+
 
 def version_data() -> Dict[str, str]:
     """dict of information in /etc/os-release"""
@@ -23,9 +25,10 @@ def version_data() -> Dict[str, str]:
 
 def get_release_date() -> datetime.datetime:
     source_dt = datetime.datetime.fromtimestamp(
-            int(VERSION_DATA["TAILS_SOURCE_DATE_EPOCH"])
+        int(VERSION_DATA["TAILS_SOURCE_DATE_EPOCH"])
     )
     source_dt = source_dt.replace(tzinfo=datetime.timezone.utc)
     return source_dt
+
 
 VERSION_DATA = version_data()
