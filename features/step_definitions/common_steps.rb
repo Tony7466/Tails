@@ -1373,7 +1373,7 @@ Given /^Tails is fooled to think that version (.+) was initially installed$/ do 
   assert_equal(
     version,
     $vm.execute_successfully(
-      ". #{initial_os_release_file} && echo ${TAILS_VERSION_ID}"
+      ". #{initial_os_release_file} && echo ${VERSION}"
     ).stdout.chomp,
     'Implementation error, alert the test suite maintainer!'
   )
