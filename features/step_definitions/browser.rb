@@ -125,8 +125,7 @@ When /^I open the address "([^"]*)" in the (.* Browser)( without waiting)?$/ do 
   open_address = proc do
     step "I open a new tab in the #{browser_name}"
     @screen.click(info[:address_bar_image])
-    # Insert string via Dogtail which is more robust than @screen.paste
-    browser.focused_child.text = address
+    @screen.paste(address)
     @screen.press('Return')
   end
   recovery_on_failure = proc do
@@ -336,8 +335,7 @@ Then /^DuckDuckGo is the default search engine$/ do
   end
   step 'I open a new tab in the Tor Browser'
 
-  # Insert string via Dogtail which is more robust than @screen.paste
-  browser.focused_child.text = 'a random search string'
+  @screen.paste('a random search string')
   @screen.wait(ddg_search_prompt, 20)
 end
 
