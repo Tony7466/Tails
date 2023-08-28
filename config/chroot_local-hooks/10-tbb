@@ -301,9 +301,9 @@ TBB_TIMESTAMP="$(date --date='2000-01-01 00:00:00' +%s)"
 TBB_SHA256SUMS_FILE=/usr/share/tails/tbb-sha256sums.txt
 TBB_DIST_URL_FILE=/usr/share/tails/tbb-dist-url.txt
 TBB_TARBALLS_BASE_URL="$(cat "${TBB_DIST_URL_FILE}")"
-TBB_TARBALLS="$(grep "\<tor-browser-linux64-.*\.tar.xz$" "${TBB_SHA256SUMS_FILE}")"
+TBB_TARBALLS="$(grep "\<tor-browser-linux-x86_64-.*\.tar\.xz$" "${TBB_SHA256SUMS_FILE}")"
 
-MAIN_TARBALL="$(echo "${TBB_TARBALLS}" | grep -o "tor-browser-linux64-.*_ALL\.tar\.xz")"
+MAIN_TARBALL="$(echo "${TBB_TARBALLS}" | grep -o "tor-browser-linux-x86_64-.*\.tar\.xz")"
 
 TMP="$(mktemp -d)"
 download_and_verify_files "${TBB_TARBALLS_BASE_URL}" "${TBB_TARBALLS}" "${TMP}"
