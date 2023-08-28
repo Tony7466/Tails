@@ -4,24 +4,7 @@ This module is meant to provide informations about Tails release data
 """
 
 import datetime
-from typing import Dict
-
-
-def version_data() -> Dict[str, str]:
-    """dict of information in /etc/os-release"""
-    ret = dict()
-    try:
-        with open("/etc/os-release") as f:
-            data = f.read()
-        for i in data.splitlines():
-            name, value = i.split("=")
-            ret[name.strip()] = value.strip('"')
-
-    except OSError:
-        pass
-
-    return ret
-
+import plattform
 
 def get_release_date() -> datetime.datetime:
     source_dt = datetime.datetime.fromtimestamp(
@@ -31,4 +14,4 @@ def get_release_date() -> datetime.datetime:
     return source_dt
 
 
-VERSION_DATA = version_data()
+VERSION_DATA = platform.freedesktop_os_release()
