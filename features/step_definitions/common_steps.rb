@@ -1381,8 +1381,15 @@ end
 
 Then /^Tails is running version (.+)$/ do |version|
   v = $vm.file_content('/etc/os-release')
-    .match(/^VERSION\s*=\s*"(.+?)"$/)[1]
+#      .match(/^VERSION\s*=\s*"(.+?)"/)[1]
   assert_equal(version, v, "The version doesn't match /etc/os-release")
+  assert_equal(
+    version,
+    $vm.execute_successfully(
+      ". /etc/os-release && echo ${VERSION}"
+    ).stdout.chomp,
+    'Implementation error, alert the test suite maintainer!'
+  )
 end
 
 def size_of_shared_disk_for(files)
