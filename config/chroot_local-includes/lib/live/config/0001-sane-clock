@@ -9,6 +9,6 @@ echo "- making sure the system clock is sane"
 SECS_OF_DAY=86400
 . /etc/os-release
 SOURCE_DATE="$TAILS_SOURCE_DATE_EPOCH"
-if [ "$(date +%s)" -lt $(($SOURCE_DATE-$SECS_OF_DAY)) ]; then
+if [ "$(date +%s)" -lt $((SOURCE_DATE-SECS_OF_DAY)) ]; then
     date --set "@${SOURCE_DATE}"
 fi
