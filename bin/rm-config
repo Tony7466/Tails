@@ -62,6 +62,7 @@ STAGE_SCHEMA = {
         "milestone": InputStr,
         "tails_signature_key_long_id": InputStr,
         "iuk_source_versions": InputStr,
+        "test_iuk_source_versions": InputStr,
     },
     "built-almost-final": {
         "almost_final_build_manifest": IsBuildManifest,
@@ -142,12 +143,21 @@ class Config():
         iuk_source_versions = subprocess.check_output(
             [git_repo_root() / "bin/iuk-source-versions", version],
             encoding="utf8").rstrip("\n")
+        # We always test the upgrade path from the last stable version
+        test_iuk_source_versions = self.data['previous_stable_version']
+        # ... but also from the last of any alphas/betas/RCs. Given Tails
+        # versioning scheme we trivially have that it can only be the
+        # previous version, but only if it isn't the same as the previous
+        # stable release (alpha/beta/RC is not stable by definition).
+        if self.data['previous_stable_version'] != self.data['previous_version']:
+            test_iuk_source_versions += ' ' + self.data['previous_version']
         generated_config = {
             "release_branch": release_branch,
             "tag": tag,
             "previous_tag": self.data["previous_version"].replace("~", "-"),
             "website_release_branch": "web/release-%s" % tag,
             "iuk_source_versions": iuk_source_versions,
+            "test_iuk_source_versions": test_iuk_source_versions,
             "iuks_dir": str(iuks_dir),
             "iuks_hashes": str(iuk_hashes),
             "milestone": re.sub('~.*', '', self.data["version"]),
@@ -233,37 +243,46 @@ def validate_configuration(stage: str):
 def main():
     """Command-line entry point"""
     parser = argparse.ArgumentParser(
-        description="Query and manage Release Management configuration")
+        description="Query and manage Release Management configuration",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+        )
     parser.add_argument("--debug", action="store_true", help="debug output")
     subparsers = parser.add_subparsers(help="sub-command help", dest="command")
 
     parser_generate_boilerplate = subparsers.add_parser(
         "generate-boilerplate",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         help="Creates a configuration file template that you will fill")
     parser_generate_boilerplate.add_argument("--stage",
                                              type=str,
                                              action="store",
                                              default="base",
-                                             help="")
+                                             choices=STAGES,
+                                             help="Select stage")
     parser_generate_boilerplate.set_defaults(func=generate_boilerplate)
 
     parser_validate_configuration = subparsers.add_parser(
-        "validate-configuration", help="Validate configuration files")
+        "validate-configuration",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+        help="Validate configuration files")
     parser_validate_configuration.add_argument("--stage",
                                                type=str,
                                                action="store",
                                                default="base",
-                                               help="")
+                                               choices=STAGES,
+                                               help="Select stage")
     parser_validate_configuration.set_defaults(func=validate_configuration)
 
     parser_generate_environment = subparsers.add_parser(
         "generate-environment",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         help="Creates a shell sourceable file with resulting environment")
     parser_generate_environment.add_argument("--stage",
                                              type=str,
                                              action="store",
                                              default="base",
-                                             help="")
+                                             choices=STAGES,
+                                             help="Select stage")
     parser_generate_environment.set_defaults(func=generate_environment)
 
     args = parser.parse_args()

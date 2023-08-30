@@ -2,8 +2,7 @@ Package: firmware-linux-free
 Pin: release o=Debian,n=sid
 Pin-Priority: 999
 
-Explanation: src:firmware-nonfree
-Package: firmware-linux firmware-linux-nonfree firmware-amd-graphics firmware-atheros firmware-brcm80211 firmware-intel-sound firmware-ipw2x00 firmware-iwlwifi firmware-libertas firmware-misc-nonfree firmware-realtek firmware-ti-connectivity
+Package: src:firmware-nonfree
 Pin: release o=Debian,n=sid
 Pin-Priority: 990
 
@@ -19,8 +18,8 @@ Package: firmware-zd1211
 Pin: release o=Debian,n=sid
 Pin-Priority: 999
 
-Explanation: src:live-boot (#15477)
-Package: live-boot live-boot-doc live-boot-initramfs-tools
+Explanation: #15477
+Package: src:live-boot
 Pin: origin deb.tails.boum.org
 Pin-Priority: 999
 

@@ -1,9 +1,182 @@
-tails (5.18) UNRELEASED; urgency=medium
+tails (5.20) UNRELEASED; urgency=medium
 
   * Dummy entry for next release.
   * Dummy entry for next release.
 
- -- boyska <boyska@riseup.net>  Wed, 12 Jul 2023 13:01:53 +0200
+ -- boyska <boyska@riseup.net>  Tue, 15 Aug 2023 13:06:36 +0200
+
+tails (5.16.1) unstable; urgency=medium
+
+  * Mitigate Downfall and INCEPTION speculative-execution vulnerabilities
+    (tails/tails!1215)
+
+    Closes issues:
+      - Fix Downfall and INCEPTION speculative-execution vulnerabilities
+        (tails/tails#19937)
+
+    Commits:
+      - Update SquashFS sort file manually
+      - Upgrade to Linux linux-image-6.1.0-11-amd64 (currently version 6.1.38-4)
+
+  * onion-grater: deal with race condition in my_circuits() (tails/tails!1212)
+
+    Closes issues:
+      - Circuits view sometimes not displayed in Tor Browser, possibly related onion-
+        grater exception and dropped restricted stream event (tails/tails#19897)
+
+    Commits:
+      - onion-grater: deal with race condition in my_circuits()
+
+  * automailer.py: add support for notmuch (tails/tails!1213)
+
+    Closes issues:
+      - automailer.py: add support for notmuch (tails/tails#19932)
+
+    Commits:
+      - automailer: remove duplicate variable
+      - automailer (notmuch): add support for attachments
+      - Reformat with black
+      - automailer: refactoring (extract code to function)
+      - automailer: lint
+      - automailer: name parameter instead of relying on position
+      - automailer (notmuch): use the specified email body
+      - automailer: simplify
+
+  * Add options verification to Tails shell library (tails/tails!1211)
+
+    Closes issues:
+      - Tails shell library should verify that it is called set -e -u
+        (tails/tails#6588)
+
+    Commits:
+      - Replace backticks with single quotes to prevent command substitution
+      - Add another options verification to Tails shell library
+      - Add options verification to Tails shell library
+
+  * simplify and fix automailer parser config (tails/tails!1210)
+
+    Closes issues:
+      - generate-call-for-trusted-reproducer is broken: TypeError: add_parser_mailer()
+        missing 1 required positional argument: 'config' (tails/tails#19929)
+
+    Commits:
+      - simplify and fix automailer parser config
+
+  * create_box.sh: fix IMG_SIZE parsing on Debian Sid (tails/tails!1208)
+
+    Closes issues:
+      - Creating basebox broken on Debian Sid (tails/tails#19927)
+
+    Commits:
+      - create_box.sh: use jq for json parsing instead of awk
+      - create_box.sh: fix IMG_SIZE parsing on Debian Sid
+
+  * Test suite: make --view and --vnc-server-only compatible with Wayland without
+    sudo (tails/tails!1203)
+
+    Commits:
+      - Make shellcheck happy
+      - Test suite: send arbitrary options to x11vnc via the TAILS_X11VNC_OPTS
+        environment variable
+      - Test suite: make --view and --vnc-server-only compatible with Wayland
+
+  * Initialize passphrase strength hint as blank, don't show 0%! (tails/tails!1202)
+
+    Closes issues:
+      - Passphrase strength meter initially shows 0% (tails/tails#19918)
+
+    Commits:
+      - Update passphrase_view.py to remove "0%" and display blank hint initially
+      - Update passphrase_dialog.py to not display "0%" as strength hint before the
+        user types anything
+      - Update change_passphrase_dialog.py to have a blank default hint instead of "0%"
+        until user types
+
+ -- Tails developers <tails@boum.org>  Mon, 14 Aug 2023 15:11:40 +0200
+
+tails (5.16) unstable; urgency=medium
+
+  * Upgrade to Thunderbird 1:102.14.0-1~deb11u1
+
+  * Upgrade to Linux 6.1.38-2
+
+  * Upgrade to Tor Browser 12.5.2 (Firefox 102.14) (tails/tails!1207)
+
+    Closes issues:
+      - Upgrade to Tor Browser 12.5.2 (Firefox 102.14) (tails/tails#19889)
+
+    Commits:
+      - Fetch Tor Browser from our own archive
+      - Upgrade Tor Browser to 12.5.2
+
+  * Install amd64-microcode from Debian security (tails/tails!1204)
+
+    Closes issues:
+      - Upgrade to Linux 6.1.38 and amd64-microcode 3.20230719.1 (tails/tails#19888)
+
+    Commits:
+      - Install amd64-microcode from Debian security
+
+  * Test suite: ensure tails-debugging-info does not crash (tails/tails!1206)
+
+    Closes issues:
+      - Automated tests for Whisperback (tails/tails#19881)
+
+    Commits:
+      - Remove obsolete justification
+      - Update comment
+      - Stop installing inotify-tools
+      - Drop obsolete /run/tordate
+      - WhisperBack: move huge "lsusb --verbose" below info that's more often used
+      - Test suite: ensure tails-debugging-info does not crash
+
+  * Test suite: ignore exception if LAN web server is kill():ed before we wait()
+    (tails/tails!1199)
+
+    Commits:
+      - Test suite: ignore exception if LAN web server is kill():ed before we wait()
+
+  * onion-grater: make my_circuits() handle unattached streams correctly
+    (tails/tails!1198)
+
+    Commits:
+      - Compare to None with identity, not equality
+      - onion-grater: make my_circuits() handle unattached streams correctly
+
+  * Turn off capitalization to make passphrase suggestion easier to type.
+    (tails/tails!1197)
+
+    Commits:
+      - Turn off capitalization to make passphrase suggestion easier to type.
+
+  * Doc updates for 5.15 (tails/tails!1194)
+
+    Closes issues:
+      - More robust UDF signing (tails/tails#19665)
+
+    Commits:
+      - Re-add anchor
+      - UDFs signature check
+      - variables, not constants!
+      - less bogus usages of cat
+      - login cmdline option useful in testing again
+      - more usages for automailer
+      - fix rc/final check
+      - automatic manual testing email
+      - automailer supports attachments
+      - kernel cmdline options make instructions simpler
+      - black reformatting
+      - automailer: set default in configuration file
+      - more automailer
+      - clarify what's inside the "If" statement
+      - Update PO files takes longer than you think
+      - let's remove useless sections early
+      - more automailer
+      - tbb upgrade: clarify norm vs exception
+      - tbb upgrade: chdir in subshell
+      - tbb upgrade: add ma1 repository
+
+ -- Tails developers <tails@boum.org>  Sun, 06 Aug 2023 10:32:57 +0000
 
 tails (5.15.1) unstable; urgency=medium
 
