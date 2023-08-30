@@ -644,16 +644,8 @@ Then /^a Tails persistence partition exists( with LUKS version 1)? on USB drive 
 end
 
 Given /^I try to enable persistence( with the changed passphrase)?$/ do |with_changed_passphrase|
-  # @type [Dogtail::Node]
-  passphrase_entry = nil
-  try_for(60) do
-    passphrase_entry = greeter
-                       .child(roleName: 'password text')
-    passphrase_entry.grabFocus
-    passphrase_entry.focused
-  end
-  assert !passphrase_entry.nil?
-
+  passphrase_entry = greeter.child(roleName: 'password text')
+  passphrase_entry.grabFocus
   password = if with_changed_passphrase
                @changed_persistence_password
              else
