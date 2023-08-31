@@ -154,7 +154,7 @@ def page_has_loaded_in_the_tor_browser(page_titles)
   browser_name = 'Tor Browser'
   if $language == 'German'
     reload_action = 'Neu laden'
-    separator = '-'
+    separator = '–'
   else
     reload_action = 'Reload'
     separator = '—'
