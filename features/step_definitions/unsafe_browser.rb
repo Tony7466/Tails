@@ -4,9 +4,9 @@ Then /^the Unsafe Browser has no add-ons enabled$/ do
   # have one, so it must exist. We mostly check this to verify that we
   # are on the expected page which is important since the next check
   # is of the "does not exist" type.
-  assert(Dogtail::Application.new('Firefox').exist?('Disabled', roleName: 'heading'))
+  assert(Dogtail::Application.new('Firefox').child?('Disabled', roleName: 'heading'))
   # So no "Enabled" header implies no enabled addons.
-  assert(!Dogtail::Application.new('Firefox').exist?('Enabled', roleName: 'heading'))
+  assert(!Dogtail::Application.new('Firefox').child?('Enabled', roleName: 'heading'))
 end
 
 Then /^the Unsafe Browser has no bookmarks$/ do
