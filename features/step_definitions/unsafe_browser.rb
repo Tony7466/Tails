@@ -6,7 +6,7 @@ Then /^the Unsafe Browser has no add-ons enabled$/ do
   # is of the "does not exist" type.
   assert(Dogtail::Application.new('Firefox').child?('Disabled', roleName: 'heading'))
   # So no "Enabled" header implies no enabled addons.
-  assert(!Dogtail::Application.new('Firefox').child?('Enabled', roleName: 'heading'))
+  assert(!Dogtail::Application.new('Firefox').child?('Enabled', roleName: 'heading', retry: false))
 end
 
 Then /^the Unsafe Browser has no bookmarks$/ do
