@@ -92,6 +92,21 @@ Automated test suite
 
 Point `--old-iso` to the ISO image of the previous stable release.
 
+If you plan to go AFK while the test suite is running it might be a
+good idea to first make sure that Chutney successfully bootstrapped so
+you don't risk coming back hours later, having to restart from
+scratch. The following command will exit when Chutney has successfully
+bootstrapped, or time out after ten minutes, which indicates that
+something is wrong:
+
+    env CHUTNEY_DATA_DIR=/tmp/TailsToaster/chutney-data \
+        CHUTNEY_START_TIME=600 \
+            submodules/chutney/chutney wait_for_bootstrap \
+                                       features/chutney/test-network
+
+Please adjust `CHUTNEY_DATA_DIR` above if you run `run_test_suite`
+with a non-default `--tmpdir`.
+
 See:
 
  - [[automated test suite documentation|test/automated_tests]]
