@@ -1,6 +1,17 @@
 #! /usr/bin/python3
 
 # Documentation: https://tails.net/contribute/working_together/GitLab/#api
+#
+# Usage example, from when we had lots of SPAM users and used this script
+# during the Ticket Gardening process:
+#
+#     GITLAB_NAME=TailsRoot ./bin/gitlab-users-cleanup \
+#         --min-creation-age='29 days' \
+#         --min-inactivity='28 days' \
+#         --active \
+#         --max-post-sign-up-activity='120 days' \
+#         --max-contribution-events=0 \
+#         --action=deactivate-or-block
 
 import datetime
 import logging
