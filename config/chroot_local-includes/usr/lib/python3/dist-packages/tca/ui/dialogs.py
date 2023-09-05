@@ -8,6 +8,7 @@ import gi
 
 from tailsgreeter.ui.popover import Popover
 import tca.config
+import tailslib.release
 
 gi.require_version("Gdk", "3.0")
 gi.require_version("Gtk", "3.0")
@@ -20,12 +21,7 @@ log = getLogger("dialogs")
 
 
 def get_build_year():
-    with open("/etc/amnesia/version") as buf:
-        firstline = buf.readline()
-        date = firstline.split(" - ")[1]
-        year = date[:4]
-        return int(year)
-
+    return tailslib.release.get_release_date.year
 
 def get_time_dialog(initial_tz: Optional[str] = None):
     """Create a TimeDialog."""
