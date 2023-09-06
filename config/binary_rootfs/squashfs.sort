@@ -42,6 +42,7 @@ etc/laptop-mode/conf.d/wireless-iwl-power.conf                       32727
 etc/laptop-mode/conf.d/wireless-power.conf                           32726
 etc/laptop-mode/laptop-mode.conf                                     32725
 etc/udev/udev.conf                                                   32724
+etc/amnesia/version                                                  32723
 bin/date                                                             32721
 lib/x86_64-linux-gnu/ld-2.31.so                                      32720
 lib/x86_64-linux-gnu/libc-2.31.so                                    32719
