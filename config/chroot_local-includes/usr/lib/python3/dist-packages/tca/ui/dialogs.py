@@ -21,7 +21,7 @@ log = getLogger("dialogs")
 
 
 def get_build_year():
-    return tailslib.release.get_release_date.year
+    return tailslib.release.get_release_date().year
 
 def get_time_dialog(initial_tz: Optional[str] = None):
     """Create a TimeDialog."""
