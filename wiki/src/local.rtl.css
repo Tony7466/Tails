@@ -10,6 +10,18 @@ html[dir="rtl"] div.trail span.trailarrow {
     position: relative;
 }
 
+html[dir="rtl"] #search-and-donate {
+    right: calc(100% - 245px);
+}
+
+html[dir="rtl"] #searchform button {
+    border-radius: 0.3em 0 0 0.3em;
+}
+
+html[dir="rtl"] #searchform button {
+    border-radius: 0 0.3em 0.3em 0;
+}
+
 html[dir="rtl"] div.bug,
 html[dir="rtl"] div.caution,
 html[dir="rtl"] div.next,
