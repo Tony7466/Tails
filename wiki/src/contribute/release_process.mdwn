@@ -1576,28 +1576,32 @@ Public testing
             done
         )
 
-1. Email <tails-testers@boum.org> to ask them to test the tentative images:
+## If you're publishing a RC or a Major
+
+Email <tails-testers@boum.org> to ask them to test the tentative images.
 
    - Point them to the up-to-date mirror you've found previously.
    - This is a public list, don't point to the pad.
    - Make a deadline clear: until when is feedback useful?
 
-     ./bin/automailer.py <<EOF
-     To: tails-testers@boum.org
-     Subject: Call for testing: ${VERSION?}
+```sh
+./bin/automailer.py <<EOF
+To: tails-testers@boum.org
+Subject: Call for testing: ${VERSION?}
 
-     Hi,
+Hi,
 
-     The *candidate* images for Tails ${VERSION} are ready for testing:
+The *candidate* images for Tails ${VERSION} are ready for testing:
 
-     https://download.tails.net/tails/stable/tails-amd64-${VERSION}/tails-amd64-${VERSION}.img
+https://download.tails.net/tails/stable/tails-amd64-${VERSION}/tails-amd64-${VERSION}.img
 
-     They did not go through our entire QA yet.
+They did not go through our entire QA yet.
 
-     Please test and report back by Tuesday, 09:00 UTC.
+Please test and report back by Tuesday, 09:00 UTC.
 
-     Thanks!
-     EOF
+Thanks!
+EOF
+```
 
 Lead the internal manual testing to conclusion
 ==============================================
