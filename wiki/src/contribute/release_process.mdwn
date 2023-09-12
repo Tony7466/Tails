@@ -1578,14 +1578,14 @@ Public testing
 
 ## If you're publishing a RC or a Major
 
-Email <tails-testers@boum.org> to ask them to test the tentative images.
+Email <tails-testers@boum.org> to ask them to test the tentative images:
 
-   - Point them to the up-to-date mirror you've found previously.
-   - This is a public list, don't point to the pad.
-   - Make a deadline clear: until when is feedback useful?
+ - Point them to the up-to-date mirror you've found previously.
+ - This is a public list, don't point to the pad.
+ - Make a deadline clear: until when is feedback useful?
 
 ```sh
-./bin/automailer.py <<EOF
+( [ "${DIST:?}" = alpha ] || [ "${MAJOR:?}" -eq 1 ] ) && ./bin/automailer.py <<EOF
 To: tails-testers@boum.org
 Subject: Call for testing: ${VERSION?}
 
