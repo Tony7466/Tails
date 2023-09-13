@@ -9,7 +9,7 @@ fi
 
 (
     what=()
-    args=(--tmpdir "$tmpdir" --keep-snapshots --capture --view
+    args=(--tmpdir "$tmpdir" --capture --view
         --iso "${ISOS:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.iso"
         --old-iso "${ISOS}/tails-amd64-${PREVIOUS_STABLE_VERSION:?}/tails-amd64-${PREVIOUS_STABLE_VERSION:?}.iso"
     )
