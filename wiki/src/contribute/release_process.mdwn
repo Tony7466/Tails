@@ -1576,7 +1576,7 @@ Public testing
             done
         )
 
-## If you're publishing a RC or a Major
+## If you're publishing a RC
 
 Email <tails-testers@boum.org> to ask them to test the tentative images:
 
@@ -1585,7 +1585,7 @@ Email <tails-testers@boum.org> to ask them to test the tentative images:
  - Make a deadline clear: until when is feedback useful?
 
 ```sh
-( [ "${DIST:?}" = alpha ] || [ "${MAJOR:?}" -eq 1 ] ) && ./bin/automailer.py <<EOF
+[ "${DIST:?}" = alpha ] && ./bin/automailer.py <<EOF
 To: tails-testers@boum.org
 Subject: Call for testing: ${VERSION?}
 
