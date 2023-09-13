@@ -1521,10 +1521,17 @@ fi
     # scratch. The following command will exit when Chutney has successfully
     # bootstrapped, or time out after ten minutes, which indicates that
     # something is wrong:
-    env CHUTNEY_DATA_DIR="${tmpdir}/chutney-data" \
-        CHUTNEY_START_TIME=600 \
-        submodules/chutney/chutney wait_for_bootstrap \
-        features/chutney/test-network || exit 1
+    (
+        sleep 10
+        if ! env CHUTNEY_DATA_DIR="${tmpdir}/chutney-data" \
+            CHUTNEY_START_TIME=60 \
+            submodules/chutney/chutney wait_for_bootstrap \
+            features/chutney/test-network; then
+
+            echo "ERROR: chutney not ready" >&2
+            exit 1
+        fi
+    ) &
     ./run_test_suite "${args[@]}" "${what[@]}"
 
     while true; do
