@@ -372,7 +372,6 @@ header.title { /* override style.css */
 #searchform {
   position: relative;
   margin: 10px auto 0 auto;
-  width: 150px;
   display: flex;
   height: 28px;
   width: 180px;
