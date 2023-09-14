@@ -267,7 +267,7 @@ You can skip this if you're releasing a final major version.
 
 Check that you are indeed preparing a RC:
 
-    [ "$DIST" = alpha ]
+    [ "${DIST:?}" = alpha ]
 
 Follow this part ONLY if you are preparing the release candidate for a major release.
 
@@ -310,7 +310,7 @@ Follow this part ONLY if you are preparing the release candidate for a major rel
 
 Check that you are indeed preparing a Bugfix:
 
-    [ "$DIST" = stable ] && [ "$MAJOR" -eq 0 ]
+    [ "${DIST:?}" = stable ] && [ "${MAJOR_RELEASE:?}" -eq 0 ]
 
 Follow this part ONLY if you are preparing a bugfix release.
 
@@ -414,7 +414,7 @@ follow these instructions:
 
 Check that you are indeed preparing a major release:
 
-    [ "$DIST" = stable ] && [ "$MAJOR" -eq 1 ]
+    [ "${DIST:?}" = stable ] && [ "${MAJOR_RELEASE:?}" -eq 1 ]
 
 Merge each APT overlay suite listed in the `testing` branch's
 `config/APT_overlays.d/` into the `testing` custom APT suite:
@@ -425,7 +425,7 @@ Merge each APT overlay suite listed in the `testing` branch's
 
 Check that you are indeed preparing a bugfix release:
 
-    [ "$DIST" = stable ] && [ "$MAJOR" -eq 0 ]
+    [ "${DIST:?}" = stable ] && [ "${MAJOR_RELEASE:?}" -eq 0 ]
 
 <div class="note">
 For bugfix releases, we generally do not put any RC out, so freeze time
@@ -508,13 +508,13 @@ Update the Changelog entry for the release you're preparing:
 
 ### If you're preparing a release candidate:
 
- - `[ "$DIST" = alpha ]`
+ - `[ "${DIST:?}" = alpha ]`
  - Set the version for the new entry in `debian/changelog` to `$VERSION`: the
    above code has incorrectly set it to `$MILESTONE`.
 
 ### If you're preparing a release candidate or a major release:
 
- - `[ "$DIST" = alpha ] || [ "$MAJOR" -eq 1 ]`
+ - `[ "${DIST:?}" = alpha ] || [ "${MAJOR_RELEASE:?}" -eq 1 ]`
  - For each merge request listed in the new Changelog entry,
    copy the "Closes: #NNNNNN" string from the MR description into the relevant
    section of the Changelog.
@@ -934,7 +934,7 @@ and the build of every branch based on it, which would effectively
 block other development work. So the final steps towards publishing
 the release will be done in a new, dedicated branch.
 
-    if [ "$DIST" = alpha ]; then
+    if [ "${DIST:?}" = alpha ]; then
         git checkout -b "${WEBSITE_RELEASE_BRANCH:?}" origin/master && \
         git push -u origin "${WEBSITE_RELEASE_BRANCH:?}"
     else
@@ -1309,7 +1309,7 @@ Prepare the image description file for the download verification
 
 If preparing a RC, skip this part:
 
-    [ "$DIST" = stable ]
+    [ "${DIST:?}" = stable ]
 
 Update the image description file (IDF) used by the verification JavaScript:
 
@@ -1355,7 +1355,7 @@ Delete obsolete IUKs
 
 Skip this section if you're preparing a non-final release (beta, RC):
 
-    [ "$DIST" = stable ]
+    [ "${DIST:?}" = stable ]
 
 Delete the IUKs that upgrade to any beta or RC corresponding to the version you
 are preparing:
@@ -1674,7 +1674,7 @@ The technical writers will update the release notes after the release.
 
 Skip this part if preparing a RC.
 
-    [ "$DIST" = stable ]
+    [ "${DIST:?}" = stable ]
 
 Rename, copy, garbage collect and update various files:
 
@@ -1712,7 +1712,7 @@ published for the version you are preparing.
 
 Skip this part if preparing a final release:
 
-    [ "$DIST" = alpha ]
+    [ "${DIST:?}" = alpha ]
 
 Copy the signatures and the Torrents into the website repository:
 
@@ -1876,7 +1876,7 @@ fully refreshed. To do so:
 
 Check:
 
-    [ "$DIST" = stable ]
+    [ "${DIST:?}" = stable ]
 
 wait until all these conditions are met:
  - <https://tails.net/news/> includes the release notes
@@ -1888,7 +1888,7 @@ wait until all these conditions are met:
 
 Check:
 
-    [ "$DIST" = alpha ]
+    [ "${DIST:?}" = alpha ]
 
 wait until <https://tails.net/news/test_$TAG/> is live.
 
@@ -1897,7 +1897,7 @@ Bug tracker [if preparing a final release]
 
 Skip this part if preparing a release candidate:
 
-    [ "$DIST" = stable ]
+    [ "${DIST:?}" = stable ]
 
 1. Ensure you have an up-to-date `tails:gitlab-triage-stable` container image:
 
@@ -1997,7 +1997,7 @@ Prepare for the next development cycle
 
 Check that you are indeed preparing a final release:
 
-    [ "$DIST" = stable ]
+    [ "${DIST:?}" = stable ]
 
 1. If you just released a new stable release, remove the previous
    stable release from:
@@ -2247,7 +2247,7 @@ Check that you are indeed preparing a final release:
 
 Check that you are indeed preparing a RC:
 
-    [ "$DIST" = alpha ]
+    [ "${DIST:?}" = alpha ]
 
 1. If this command outputs anything:
 
