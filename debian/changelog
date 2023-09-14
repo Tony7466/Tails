@@ -1,4 +1,4 @@
-tails (5.17.1) UNRELEASED; urgency=medium
+tails (5.17.1) unstable; urgency=medium
 
   * Upgrade Tor Browser to 12.5.4 (tails/tails!1244)
 
@@ -22,7 +22,7 @@ tails (5.17.1) UNRELEASED; urgency=medium
     Commits:
       - Add $HOME/.local/bin to $PATH if it exists Update .profile
 
- -- Tails developers <tails@boum.org>  Thu, 14 Sep 2023 16:53:07 +0000
+ -- Tails developers <tails@boum.org>  Thu, 14 Sep 2023 20:06:20 +0200
 
 tails (5.17) unstable; urgency=medium
 
