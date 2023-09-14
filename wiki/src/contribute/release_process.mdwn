@@ -371,7 +371,8 @@ Pull updated translations for languages translated in Transifex,
 refresh the code PO files,
 and commit the result, including new PO files:
 
-    (cd "${RELEASE_CHECKOUT:?}"
+    (
+     cd "${RELEASE_CHECKOUT:?}"
      set -x
      err() { echo "Error $*"; exit 1; }
      ./import-translations || err "importing translations"
