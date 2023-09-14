@@ -373,7 +373,7 @@ and commit the result, including new PO files:
 
     (cd "${RELEASE_CHECKOUT:?}"
      set -x
-     err() { echo "Error $*"; exit 1 }
+     err() { echo "Error $*"; exit 1; }
      ./import-translations || err "importing translations"
      ./refresh-translations || err "refreshing translations"
      ./submodules/jenkins-tools/slaves/lint_po || err "in lint"
