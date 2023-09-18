@@ -127,25 +127,27 @@ Both of those must output `Good signature from "Tails developers <tails@boum.org
 
 ## Verify that your products match what was published
 
-### ISO and USB images
+    To run this step, you need to wait for the release to be public.
 
-    for type in iso usb ; do
-       case "$type" in
-          iso)
-             ext=iso
-             ;;
-          usb)
-             ext=img
-             ;;
-       esac
-       if cmp --quiet \
-          "${ISOS:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.$ext" \
-          "${PUBLISHED_ARTIFACTS:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.$ext" ; then
-          echo "OK: locally built $type matches the published one"
-       else
-          echo "FAIL: locally built $type does not match the published one"
-       fi
-    done
+### ISO and IMG
+
+    This will get hashes of the published files from Tails mirrorbits server, so you can check the hash
+without downloading the full image:
+
+    (
+        set -eu
+        expectedSha="/run/user/$(id -u)/tr-sha256sums.txt"
+        basefile="tails-amd64-${VERSION:?}"
+        basepath="${DIST:?}/${basefile}/${basefile}"
+
+        shaIso="$(curl -s --header "Accept: application/json" "https://download.tails.net/tails/${basepath}.iso" | jq --raw-output .FileInfo.Sha256)"
+        shaImg="$(curl -s --header "Accept: application/json" "https://download.tails.net/tails/${basepath}.img" | jq --raw-output .FileInfo.Sha256)"
+        (echo "${shaIso} ${basefile}.iso"; echo "${shaImg} ${basefile}.img") > "${expectedSha:?}"
+
+        cd "${ARTIFACTS:?}"
+        sha256sum -c "${expectedSha:?}"
+    )
+
 
 ### IDF
 
