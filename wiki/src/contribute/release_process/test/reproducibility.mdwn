@@ -81,14 +81,15 @@ Set these environment variables accordingly:
 
 2. Build ISO and USB images:
 
-        cd "${TAILS_CHECKOUT:?}" && \
-        git checkout "${TAG:?}" && \
-        git submodule update --init && \
-        export SOURCE_DATE_EPOCH=$(date --utc --date="$(dpkg-parsechangelog --show-field=Date)" '+%s') && \
-        rake build && \
-        mkdir -p "${ISOS:?}/tails-amd64-${VERSION:?}" && \
-        mv "${ARTIFACTS:?}/tails-amd64-${VERSION:?}".* \
-           "${ISOS:?}/tails-amd64-${VERSION:?}/"
+    (
+        set -eux
+        cd "${TAILS_CHECKOUT:?}"
+        git checkout "${TAG:?}"
+        git submodule update --init
+        SOURCE_DATE_EPOCH="$(date --utc --date="$(dpkg-parsechangelog --show-field=Date)" '+%s')"
+        export SOURCE_DATE_EPOCH
+        rake build
+    )
 
 <!-- ## Build your own IUKs -->
 
