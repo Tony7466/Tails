@@ -156,7 +156,7 @@ If you are verifying the reproducibility of anything but a stable release
 
 Download the IDF by running:
 
-    wget https://tails.net/install/v2/Tails/amd64/${DIST:?}/latest.json
+    wget https://tails.net/install/v2/Tails/amd64/${DIST:?}/latest.json -O latest.json
 
 Then check that the hashes and sizes match what you have built:
 
