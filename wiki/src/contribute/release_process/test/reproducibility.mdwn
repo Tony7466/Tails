@@ -48,7 +48,6 @@ Set these environment variables accordingly:
 * `DIST`: either 'alpha' (for RC:s) or 'stable' (for actual releases)
 * `ISOS`: the directory where one stores `tails-amd64-*` sub-directories,
   like the ones downloaded with BitTorrent.
-* `RELEASE_BRANCH`: `testing` if this is a major release, else `stable`
 * `VERSION`: the version you're trying to reproduce
 <!-- * `ISOS_CHECKOUT`: path to your Tails ISO history repo checkout. -->
 <!-- * `PACKAGES_FILE="${ISOS:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.iso.packages"` -->
