@@ -197,3 +197,16 @@ Then check that the hashes and sizes match what you have built:
       
 <!--       EOF -->
 <!--       done -->
+
+
+# Send confirmation
+
+If all was good, send an email to tails-rm@boum.org.
+
+    To: tails-rm@boum.org
+    Subject: Tails ${VERSION:?} reproducibility test
+
+    I have run the process at https://tails.net/contribute/release_process/test/reproducibility/ and confirm
+    that Tails ${VERSION:?} is reproducible.
+
+Remember to sign+encrypt the email!
