@@ -116,7 +116,7 @@ fatresize	1.1.0-1
 fdisk	2.36.1-8+deb11u1
 ferm	2.5.1-1
 ffmpeg	7:4.3.6-0+deb11u1
-file	1:5.39-3
+file	1:5.39-3+deb11u1
 file-roller	3.38.1-1
 findutils	4.8.0-1
 firmware-amd-graphics	20230515-3
@@ -366,7 +366,7 @@ libamtk-5-common	5.2.0-1
 libann0	1.1.2+doc-7
 libao-common	1.2.2+20180113-1.1
 libao4:amd64	1.2.2+20180113-1.1
-libaom0:amd64	1.0.0.errata1-3
+libaom0:amd64	1.0.0.errata1-3+deb11u1
 libapparmor1:amd64	2.13.6-10
 libapt-pkg6.0:amd64	2.2.4
 libarchive-zip-perl	1.68-1
@@ -937,8 +937,8 @@ liblz4-1:amd64	1.9.3-2
 liblzma5:amd64	5.2.5-2.1~deb11u1
 liblzo2-2:amd64	2.10-2
 libmad0:amd64	0.15.1b-10
-libmagic-mgc	1:5.39-3
-libmagic1:amd64	1:5.39-3
+libmagic-mgc	1:5.39-3+deb11u1
+libmagic1:amd64	1:5.39-3+deb11u1
 libmagick++-6.q16-8:amd64	8:6.9.11.60+dfsg-1.3+deb11u1
 libmagickcore-6.q16-6:amd64	8:6.9.11.60+dfsg-1.3+deb11u1
 libmagickwand-6.q16-6:amd64	8:6.9.11.60+dfsg-1.3+deb11u1
@@ -1560,7 +1560,7 @@ obfs4proxy	0.0.8-1.0tails1
 ocl-icd-libopencl1:amd64	2.2.14-2
 onioncircuits	0.7-2
 onionshare	2.2-3+deb11u1
-open-vm-tools	2:11.2.5-2+deb11u1
+open-vm-tools	2:11.2.5-2+deb11u2
 openssh-client	1:8.4p1-5+deb11u1
 openssl	1.1.1n-0+deb11u5
 orca	3.38.2-2
@@ -1776,8 +1776,8 @@ thunderbird-l10n-ru	1:102.15.0-1~deb11u1
 thunderbird-l10n-tr	1:102.15.0-1~deb11u1
 thunderbird-l10n-zh-cn	1:102.15.0-1~deb11u1
 timgm6mb-soundfont	1.3-5
-tor	0.4.7.13-1~d11.bullseye+1
-tor-geoipdb	0.4.7.13-1~d11.bullseye+1
+tor	0.4.8.5-1~d11.bullseye+1
+tor-geoipdb	0.4.8.5-1~d11.bullseye+1
 torsocks	2.3.0-3
 totem	3.38.0-2
 totem-common	3.38.0-2

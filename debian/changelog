@@ -1,9 +1,40 @@
 tails (5.20) UNRELEASED; urgency=medium
 
   * Dummy entry for next release.
-  * Dummy entry for next release.
 
  -- intrigeri <intrigeri@debian.org>  Tue, 05 Sep 2023 09:30:23 +0000
+
+tails (5.18) UNRELEASED; urgency=medium
+
+  * Dummy entry for next release.
+
+ -- anonym <anonym@riseup.net>  Wed, 20 Sep 2023 12:09:31 +0200
+
+tails (5.17.1) unstable; urgency=medium
+
+  * Upgrade Tor Browser to 12.5.4 (tails/tails!1244)
+
+    Closes issues:
+      - Upgrade TorBrowser to 12.5.4 (tails/tails#19972)
+
+    Commits:
+      - Upgrade Tor Browser to 12.5.4 (refs: tails/tails#19972)
+
+  * Update tor to 0.4.8.5 (tails/tails!1241)
+
+    Closes issues:
+      - Support conflux circuits (tails/tails#19879)
+      - Upgrade to tor 0.4.8.x (tails/tails#19952)
+
+    Commits:
+      - Update tor to 0.4.8.5 (refs: tails/tails#19952)
+
+  * Add $HOME/.local/bin to $PATH if it exists (tails/tails!1237)
+
+    Commits:
+      - Add $HOME/.local/bin to $PATH if it exists Update .profile
+
+ -- Tails developers <tails@boum.org>  Thu, 14 Sep 2023 20:06:20 +0200
 
 tails (5.17) unstable; urgency=medium
 
