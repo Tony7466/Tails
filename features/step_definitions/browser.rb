@@ -243,10 +243,21 @@ When /^I download some file in the Tor Browser$/ do
   @some_file = 'tails-signing.key'
   some_url = "https://tails.net/#{@some_file}"
   step "I open the address \"#{some_url}\" in the Tor Browser without waiting"
+  button = @torbrowser
+             .child("Opening #{@some_file}", roleName: 'frame')
+             .button('Save File')
+  try_for(10) { button.sensitive }
+  button.press
   @torbrowser
-    .child(@some_file, roleName: 'label')
-    .parent
-    .children('Completed.*', roleName: 'label')
+    .child(roleName: 'file chooser')
+    .button('Save')
+    .click
+  @torbrowser
+    .button('Downloads')
+    .press
+  @torbrowser
+    .child('Downloads', roleName: 'panel')
+    .child("#{@some_file} Completed .*", roleName: 'list item')
 end
 
 Then /^the file is saved to the default Tor Browser download directory$/ do
