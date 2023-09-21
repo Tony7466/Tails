@@ -3,7 +3,7 @@ body {
 }
 
 .card {
-  border: 1px solid #ccc;
+  border: 1px solid var(--light-gray);
   margin: 1em;
 }
 
@@ -14,7 +14,7 @@ body {
 h2.name {
   font-size: 2.8em;
   margin-bottom: 0;
-  color: #53b351;
+  color: var(--medium-light-green);
   text-decoration: underline;
 }
 

@@ -42,7 +42,7 @@
 }
 
 .progress-bar {
-  background: #53b351;
+  background: var(--medium-light-green);
   height: 15px;
 }
 

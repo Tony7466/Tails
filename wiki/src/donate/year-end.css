@@ -22,7 +22,7 @@
 */
 
 #donate-banner {
-    background-color: #ffd500;
+    background-color: var(--yellow);
     background-image: url(year-end/godzilla.png), url(year-end/city.png);
     background-repeat: no-repeat;
     background-size: 450px, 250px;

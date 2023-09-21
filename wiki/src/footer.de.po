@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-24 19:56+0000\n"
+"POT-Creation-Date: 2023-09-19 19:37+0000\n"
 "PO-Revision-Date: 2022-06-09 21:40+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.9.1\n"
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "Tails"
 msgstr ""
 
@@ -50,7 +50,7 @@ msgstr ""
 msgid "[[News|news]]"
 msgstr ""
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "Support"
 msgstr ""
 
@@ -74,7 +74,7 @@ msgstr ""
 msgid "[[Upgrade|upgrade]]"
 msgstr ""
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "Contribute"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgstr ""
 msgid "[[Donate|donate]]"
 msgstr "[[Spenden|donate]]"
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "About us"
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 msgid "[[Jobs|jobs]]"
 msgstr ""
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "News"
 msgstr ""
 
@@ -140,12 +140,12 @@ msgstr ""
 
 #. type: Content of: <div><form>
 msgid ""
-"<input aria-label=\"Email\" name=\"email\" value=\"\"/> <button aria-label="
-"\"Subscribe\" type=\"submit\"><strong>Subscribe</strong></button>"
+"<input aria-label=\"Email\" name=\"email\" value=\"\"/> <button aria-"
+"label=\"Subscribe\" type=\"submit\"><strong>Subscribe</strong></button>"
 msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"[[!img lib/twitter.svg link=\"https://twitter.com/Tails_live\" alt=\"Twitter"
-"\"]]"
+"[[!img lib/twitter.svg link=\"https://twitter.com/Tails_live\" "
+"alt=\"Twitter\"]]"
 msgstr ""

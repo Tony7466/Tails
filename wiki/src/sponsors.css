@@ -2,7 +2,7 @@
     clear: both;
     font-size: 0.9em;
     font-weight: bold;
-    color: #bbb;
+    color: var(--medium-light-gray);
     overflow: hidden;
     text-align: left;
     line-height: 1.4em;

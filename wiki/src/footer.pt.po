@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-24 19:56+0000\n"
+"POT-Creation-Date: 2023-09-19 19:37+0000\n"
 "PO-Revision-Date: 2022-08-29 22:15+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.9.1\n"
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "Tails"
 msgstr "Tails"
 
@@ -50,7 +50,7 @@ msgstr "[[Contribua|contribute]]"
 msgid "[[News|news]]"
 msgstr "[[Notícias|news]]"
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "Support"
 msgstr "Suporte"
 
@@ -74,7 +74,7 @@ msgstr "[[Accessibilidade|doc/first_steps/accessibility]]"
 msgid "[[Upgrade|upgrade]]"
 msgstr "[[Atualização|upgrade]]"
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "Contribute"
 msgstr "Contribua"
 
@@ -98,7 +98,7 @@ msgstr "[[!tails_gitlab tails/tails/-/issues desc=\"GitLab\"]]"
 msgid "[[Donate|donate]]"
 msgstr "[[Faça uma doação|donate]]"
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "About us"
 msgstr "Sobre nós"
 
@@ -130,7 +130,7 @@ msgstr "[[Licença|doc/about/license]]"
 msgid "[[Jobs|jobs]]"
 msgstr "[[Trabalhe conosco|jobs]]"
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "News"
 msgstr "Notícias"
 
@@ -140,19 +140,19 @@ msgstr "Inscreva-se na nossa [[newsletter|news]]:"
 
 #. type: Content of: <div><form>
 msgid ""
-"<input aria-label=\"Email\" name=\"email\" value=\"\"/> <button aria-label="
-"\"Subscribe\" type=\"submit\"><strong>Subscribe</strong></button>"
+"<input aria-label=\"Email\" name=\"email\" value=\"\"/> <button aria-"
+"label=\"Subscribe\" type=\"submit\"><strong>Subscribe</strong></button>"
 msgstr ""
-"<input aria-label=\"Email\" name=\"email\" value=\"\"/> <button aria-label="
-"\"Inscrever\" type=\"submit\"><strong>Inscrever</strong></button>"
+"<input aria-label=\"Email\" name=\"email\" value=\"\"/> <button aria-"
+"label=\"Inscrever\" type=\"submit\"><strong>Inscrever</strong></button>"
 
 #. type: Content of: <div><p>
 msgid ""
-"[[!img lib/twitter.svg link=\"https://twitter.com/Tails_live\" alt=\"Twitter"
-"\"]]"
+"[[!img lib/twitter.svg link=\"https://twitter.com/Tails_live\" "
+"alt=\"Twitter\"]]"
 msgstr ""
-"[[!img lib/twitter.svg link=\"https://twitter.com/Tails_live\" alt=\"Twitter"
-"\"]]"
+"[[!img lib/twitter.svg link=\"https://twitter.com/Tails_live\" "
+"alt=\"Twitter\"]]"
 
 #~ msgid "[[Roadmap|contribute/roadmap]]"
 #~ msgstr "[[Roadmap|contribute/roadmap]]"
