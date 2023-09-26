@@ -80,6 +80,7 @@ def post_snapshot_restore_hook(snapshot_name, num_try)
     $vm.execute('systemctl stop tor@default.service')
     $vm.host_to_guest_time_sync
     already_synced_time_host_to_guest = true
+    wait_until_chutney_is_working unless config_bool('DISABLE_CHUTNEY')
     $vm.execute('systemctl start tor@default.service')
     wait_until_tor_is_working
   end
@@ -126,6 +127,7 @@ Then /^drive "([^"]+)" is detected by Tails$/ do |name|
 end
 
 Given /^the network is plugged$/ do
+  wait_until_chutney_is_working unless config_bool('DISABLE_CHUTNEY')
   $vm.plug_network
 end
 
