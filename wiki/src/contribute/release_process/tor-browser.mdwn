@@ -259,7 +259,7 @@ available in this git-annex repo.
 
 To synchronize your local git-annex metadata with the remote, run:
 
-	git annex sync
+	git annex sync --no-content
 
 Set up environment variables
 ----------------------------
@@ -320,9 +320,9 @@ Commit and push your changes
     (
 	cd "${TBB_ARCHIVE:?}" && \
 	git commit -m "Add Tor Browser ${TBB_VERSION:?}" && \
-	git annex sync && \
+	git annex sync --no-content && \
 	git annex copy --to origin -- "${TBB_VERSION:?}" && \
-	git annex sync
+	git annex sync --no-content
     )
 
 Adjust the URL in the main Git repository
@@ -371,7 +371,7 @@ Clean up
     (
 	cd "${TBB_ARCHIVE:?}" && \
 	git annex drop -- "${TBB_VERSION:?}" && \
-    git annex sync && \
+    git annex sync --no-content && \
     rm -rf "${DL_DIR:?}" && \
     cd "${TAILS_GIT_REPO:?}" && \
     rm -f sha256sums-unsigned-build.txt{,.asc${TBB_SIGNER_SUFFIX}}
