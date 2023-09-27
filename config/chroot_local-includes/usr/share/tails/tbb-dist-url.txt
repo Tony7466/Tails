@@ -1,1 +1,1 @@
-http://torbrowser-archive.tails.boum.org/12.5.4/
+https://archive.torproject.org/tor-package-archive/torbrowser/12.5.5/
