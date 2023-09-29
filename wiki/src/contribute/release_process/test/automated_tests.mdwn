@@ -119,11 +119,6 @@ that is under our control to be used by the system under testing,
 offering us greatly improved performance and robustness compared to if
 we used the real Tor network.
 
-This "simulated" Tor network is created when the automated test suite
-initializes, before any feature or scenario is started. It might take
-around a minute for it to be operational which stalls the testing
-process, so please be patient!
-
 [[!tails_gitweb_dir submodules/chutney/]]
 [[!tails_gitweb features/chutney/test-network]]
 
