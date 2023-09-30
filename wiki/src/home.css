@@ -73,8 +73,9 @@
   width: 68%;
 }
 
-span.highlight {
-  background-color: white;
+#donate-random span.link {
+  font-weight: bold;
+  border-bottom: 2px solid black !important;
 }
 
 /* Donate message during the year-end campaign */
