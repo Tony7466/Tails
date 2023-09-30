@@ -8,8 +8,8 @@ def save_page_as
     roleName:    'push button'
   ).press
   browser.child(
-    name:        'Save page as\u2026',
-    roleName:    'push button'
+    name:     'Save page as\u2026',
+    roleName: 'push button'
   ).press
   browser.child('Save As', roleName: 'file chooser')
 end
@@ -375,9 +375,9 @@ end
 Then /^Tor Browser's circuit view is working$/ do
   @torbrowser.child('Tor Circuit', roleName: 'push button').click
   nodes = @torbrowser.child('This browser', roleName: 'list item')
-            .parent.children(roleName: 'list item')
+                     .parent.children(roleName: 'list item')
   url = @torbrowser.child('Navigation', roleName: 'tool bar')
-          .parent.child(roleName: 'entry').text
+                   .parent.child(roleName: 'entry').text
   domain = URI.parse(url).host.split('.')[-2..-1].join('.')
   assert_equal('This browser', nodes.first.name)
   assert_equal(domain, nodes.last.name)
