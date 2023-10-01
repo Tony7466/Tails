@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-30 19:30+0000\n"
 "PO-Revision-Date: 2023-10-01 20:41+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: \n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -592,12 +592,17 @@ msgid ""
 "work, installing the software in a secure place, monitoring their value and "
 "trading them, etc."
 msgstr ""
+"Riconoscere un maggior numero di criptovalute implica un maggior lavoro per "
+"noi: imparare come funzionano, installare il software in un luogo sicuro, "
+"monitorare il loro valore e scambiarle, ecc."
 
 #. type: Content of: <div><div><div><div><p>
 msgid ""
 "To make a good use of our time, we focus on the cryptocurrencies that are "
 "the easiest for us to accept and the most popular."
 msgstr ""
+"Per impiegare al meglio il nostro tempo, ci concentriamo sulle criptovalute "
+"più facili da accettare e sulle più popolari."
 
 #. type: Content of: <div><div><div><div><p>
 msgid ""
@@ -606,6 +611,10 @@ msgid ""
 "other cryptocurrencies gain real popularity before spending more time on "
 "them."
 msgstr ""
+"Le criptovalute diverse da Bitcoin, Ethereum e Monero rappresentano al "
+"momento meno dell'1% delle nostre donazioni in criptovalute. Prima di "
+"dedicare più tempo ad altre criptovalute aspettiamo che guadagnino "
+"popolarità."
 
 #. type: Content of: <div><div><h4>
 msgid "Bank transfer"
@@ -619,6 +628,8 @@ msgstr "Conto bancario tedesco (modalità preferita)"
 msgid ""
 "These instructions also work with <a href=\"https://wise.com/\">Wise</a>."
 msgstr ""
+"Queste istruzioni sono valide anche per <a href=\"https://wise.com/\""
+">Wise</a>."
 
 #. type: Content of: <div><div><div><p>
 msgid "<em>Account holder</em>: Center for Cultivation of Technology gGmbH"
@@ -644,7 +655,7 @@ msgstr ""
 
 #. type: Content of: <div><div><div><p>
 msgid "Please make sure to mention the purpose of transfer:"
-msgstr ""
+msgstr "Assicurati di indicare la causale del bonifico:"
 
 #. type: Content of: <div><div><div><p>
 msgid "<em>Purpose of transfer</em>: TAILS-R43NGFR9"
@@ -675,40 +686,38 @@ msgstr "Contanti e assegni  US"
 #. type: Content of: <div><div><p>
 msgid "You can send us cash in any currency and US checks by post:"
 msgstr ""
+"Puoi inviarci contanti in qualsiasi valuta e assegni americani per posta:"
 
 #. type: Content of: <div><div><p>
 msgid "Riseup Labs"
 msgstr "Riseup Labs"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "PO Box 4282"
 msgid "PO Box 3027"
-msgstr "PO Box 4282"
+msgstr "PO Box 3027"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "Seattle, WA 98194"
 msgid "Lacey, WA 98509"
-msgstr "Seattle, WA 98194"
+msgstr "Lacey, WA 98509"
 
 #. type: Content of: <div><div><p>
 msgid "Please add a note that your donation is for Tails."
-msgstr ""
+msgstr "Aggiungi una nota che la tua donazione è per Tails."
 
 #. type: Content of: <div><div><p>
 msgid "Checks should be made payable to Riseup Labs."
-msgstr ""
+msgstr "Gli assegni devono essere intestati a Riseup Labs."
 
 #. type: Content of: <div><div><h4>
 msgid "Corporate matching donation programs"
-msgstr ""
+msgstr "Programmi di donazione coordinata aziendale"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "Search for <strong>Riseup Labs</strong> and donate to <strong>Tails via "
 "Riseup Labs</strong>."
 msgstr ""
+"Cerca <strong>Riseup Labs</strong> e dona a Tails via Riseup Labs</strong>."
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -716,6 +725,10 @@ msgid ""
 "let us know so we can attribute your donation to Tails specifically.  Riseup "
 "Labs is a 501(c)(3) nonprofit in the USA."
 msgstr ""
+"Se non puoi specificare che la tua donazione a Riseup Labs è per Tails, "
+"facelo sapere in modo da assegnare la tua donazione specificatamente a "
+"Tails.  Riseup Labs è una fondazione 501(c)(3) senza scopo di lucro negli "
+"Stati Uniti."
 
 #. type: Content of: <div><div><h4>
 msgid "Contact"
@@ -726,6 +739,8 @@ msgid ""
 "If you have any question or problem regarding your donation, our fundraising "
 "team is here to help you:"
 msgstr ""
+"Per qualsiasi domanda o problema relativo alla tua donazione, il nostro team "
+"raccolta fondi è a tua disposizione:"
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -742,7 +757,7 @@ msgstr "Come utilizzeremo quei soldi"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Releases, maintenance, and infrastructure"
-msgstr ""
+msgstr "Rilasci, manutenzione e infrastrutture"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(38%)"
@@ -755,10 +770,14 @@ msgid ""
 "versions of the underlying software, keeping our website and development "
 "infrastructure secure and reliable, etc."
 msgstr ""
+"Tails è un lavoro infinito di aggiornamenti e manutenzione: pubblicare una "
+"nuova release ogni 4 settimane per correggere le vulnerabilità di sicurezza, "
+"adattarsi alle nuove versioni del software sottostante, mantenere il nostro "
+"sito web e l'infrastruttura di sviluppo sicuri e affidabili, ecc."
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "New features and major improvements"
-msgstr ""
+msgstr "Nuove funzionalità e miglioramenti importanti"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(26%)"
@@ -770,10 +789,13 @@ msgid ""
 "issues in the <i>Tor Connection</i> assistant, and redesigned the "
 "<i>Persistent Storage</i>."
 msgstr ""
+"Nel 2022 abbiamo ristrutturato le istruzioni di installazione, risolto molti "
+"problemi di usabilità dell'assistente nella <i>Tor Connection</i> e "
+"riprogettato l'<i>Archivio Persistente</i>."
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "User experience, documentation, and support"
-msgstr ""
+msgstr "Esperienza utente, documentazione e supporto"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(19%)"
@@ -792,7 +814,7 @@ msgstr ""
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Administration and fundraising"
-msgstr ""
+msgstr "Amministrazione e raccolta fondi"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(17%)"
@@ -803,6 +825,8 @@ msgid ""
 "We make the most of the money that we receive because we prefer spending our "
 "time improving Tails for our users."
 msgstr ""
+"Utilizziamo al meglio il denaro che riceviamo perché preferiamo dedicare il "
+"nostro tempo per migliorare Tails per i nostri utenti."
 
 #. type: Content of: <div><div><h3>
 msgid "Recommended by"
@@ -820,47 +844,47 @@ msgstr "Da dove provengono i nostri fondi"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Passionate people like you"
-msgstr ""
+msgstr "Persone motivate come te"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(69%)"
-msgstr ""
+msgstr "(69%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Entities related to the US government"
-msgstr ""
+msgstr "Entità legate al governo degli Stati Uniti"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(20%)"
-msgstr ""
+msgstr "(20%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li>
 msgid "like the US Department of State and Internews"
-msgstr ""
+msgstr "come il Dipartimento di Stato americano e Internews."
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Foundations & NGOs"
-msgstr ""
+msgstr "Fondazioni e ONG"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(6%)"
-msgstr ""
+msgstr "(6%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li>
 msgid "like Tor and RIPE NCC"
-msgstr ""
+msgstr "come Tor e RIPE NCC"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Private companies"
-msgstr ""
+msgstr "Aziende private"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(5%)"
-msgstr ""
+msgstr "(5%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li>
 msgid "like ProtonMail and ThinkPenguin"
-msgstr ""
+msgstr "come ProtonMail e ThinkPenguin"
 
 #. type: Content of: <div><div><h3>
 msgid "Our sponsors"
@@ -871,11 +895,12 @@ msgid ""
 "All donations, grants, and awards of more than $1&#8239;000 appear in our "
 "[[list of sponsors|sponsors]]."
 msgstr ""
+"Tutte le donazioni, le sovvenzioni e i premi di importo superiore a 1&#8239;"
+"000 dollari appaiono nel nostro [[lelenco degli sponsors|sponsors]]."
 
 #. type: Content of: <div><div><p>
 msgid "Come talk to us and [[become a sponsor|sponsors/become]] yourself!"
-msgstr ""
-"Vienici a parlare e tu stessa [[diventa sostenitrice|sponsors/become]]!"
+msgstr "Vieni a parlare e [[diventa sponsor|sponsorizza/diventa]] tu!"
 
 #, fuzzy
 #~| msgid ""
