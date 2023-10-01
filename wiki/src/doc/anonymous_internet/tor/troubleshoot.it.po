@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
 "PO-Revision-Date: 2023-10-01 21:13+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -106,7 +106,7 @@ msgstr "Segui le istruzioni sulla homepage del *Browser Non Sicuro*."
 #, no-wrap
 msgid "<h2 id=\"stuck\">The progress bar gets stuck around 50%</h2>\n"
 msgstr ""
-"<h2 id=\"blocco\">La barra di avanzamento si blocca intorno al 50%</h2>\n"
+"<h2 id=\"stuck\">La barra di avanzamento si blocca intorno al 50%</h2>\n"
 
 #. type: Plain text
 msgid ""
