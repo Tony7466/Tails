@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-10-01 20:07+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -317,6 +317,10 @@ msgid ""
 "downloading the advertisements that are included in a webpage, that could "
 "reveal that you are a Tails user."
 msgstr ""
+"Una differenza è che Tails include l'estensione *uBlock Origin*, che rimuove "
+"le pubblicità. Se un aggressore riesce a determinare che non stai scaricando "
+"le pubblicità incluse in una pagina web, questo potrebbe rivelare che sei un "
+"utente di Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -330,11 +334,15 @@ msgid ""
 "connecting to Tor, see our documentation about [[connecting to the Tor\n"
 "network|tor]].</p>\n"
 msgstr ""
+"<p>Per nascondere a chi controlla la tua connessione a Internet che ti stai\n"
+"connettendo a Tor, consulta la nostra documentazione sulla [[connessione "
+"alla rete\n"
+"Tor|tor]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"https-everywhere\">HTTPS encryption with HTTPS Everywhere</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"https-everywhere\">HTTPS cifratura con HTTPS Everywhere</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -342,6 +350,9 @@ msgid ""
 "and prevents the [[Tor exit node from intercepting your communications|about/"
 "warnings/tor#exit]]."
 msgstr ""
+"Usando HTTPS invece di HTTP cifri le tue comunicazioni con il sito web e "
+"impedisci al [[nodo di uscita Tor di intercettare le tue comunicazioni|about/"
+"warnings/tor#exit]]."
 
 #. type: Plain text
 msgid ""
@@ -424,7 +435,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"javascript\">Protection against dangerous JavaScript</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"javascript\">Protezione da JavaScript pericolosi</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -456,6 +467,12 @@ msgid ""
 "refer to the <a href=\"https://2019.www.torproject.org/projects/torbrowser/design/\">\n"
 "<span class=\"application\">Tor Browser</span> design document</a>.</p>\n"
 msgstr ""
+"<p>`Per capire meglio come si muove <span class=\"applicazione\">Tor\n"
+"Browser</span>per esempio con JavaScript e cookie, puoi\n"
+"vedere il<a href=\"https://2019.www.torproject.org/projects/torbrowser/"
+"design/\">\n"
+"<span class=\"applicazione\">Tor Browser</span>documento di "
+"progettazione</a></p>\n"
 
 #. type: Plain text
 #, no-wrap
