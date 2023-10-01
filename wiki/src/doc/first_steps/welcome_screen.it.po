@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails italiano\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-10-01 21:19+0000\n"
+"PO-Revision-Date: 2023-10-01 21:25+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -318,7 +318,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img additional.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img aggiuntive.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img additional.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Title -
 #, no-wrap
