@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-01 13:59+0000\n"
+"PO-Revision-Date: 2023-10-01 15:12+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -863,12 +863,14 @@ msgstr ""
 
 #. type: Plain text
 msgid "- The data of the feature is still saved in the USB stick."
-msgstr ""
+msgstr "- I dati della funzionalità sono ancora salvati nella chiavetta USB."
 
 #. type: Plain text
 #, no-wrap
 msgid "  A **Delete Data** button appears in the setting of the feature.\n"
 msgstr ""
+"  Nell'impostazione della funzionalità appare il pulsante **Cancella dati**."
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -880,12 +882,16 @@ msgid ""
 "Click the **Delete Data** button to delete the corresponding data from the "
 "USB stick."
 msgstr ""
+"Fai clic sul pulsante **Elimina dati** per eliminare dalla chiavetta USB i "
+"dati corrispondenti."
 
 #. type: Bullet: '  * '
 msgid ""
 "Turn on the feature again to restore the data and make it available in Tails "
 "again."
 msgstr ""
+"Attiva nuovamente la funzionalità per ripristinare i dati e renderli "
+"nuovamente disponibili in Tails."
 
 #, no-wrap
 #~ msgid "<!-- Remove after #8447. -->\n"
