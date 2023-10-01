@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-01 13:57+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-01 13:58+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -833,31 +833,25 @@ msgid "Deleting the data corresponding to a feature"
 msgstr "Eliminare i file corrispondenti a una funzionalità"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "How to use the Persistent Storage"
 msgid "When you turn off a feature of the Persistent Storage:"
-msgstr "Come utilizzare l'Archivio Persistente"
+msgstr "Quando disattivi una funzionalità dell'Archivio Persistente:"
 
 #. type: Plain text
 msgid "- The data of the feature is not available anymore in Tails."
-msgstr ""
+msgstr "- I dati della funzionalità non sono più disponibili in Tails."
 
 #. type: Plain text
 #, no-wrap
 msgid "  For example:\n"
-msgstr ""
+msgstr "  Per esempio:\n"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "Your personal files in the *Persistent* folder are accessible from "
-#| "**Places**&nbsp;▸ **Persistent**."
 msgid ""
 "If you turn off the Persistent Folder feature, the documents saved in "
 "**Places** &nbsp;▸ **Persistent** are not available anymore."
 msgstr ""
-"I tuoi dati personali nella cartella *Persistente* sono accessibili da "
-"**Luoghi**&nbsp;▸ **Persistente**."
+"Se disattivi la ffunzionalità Cartella Persistente, i documenti salvati in "
+"**Places** &nbsp;▸ **Persistenti** non sono più disponibili."
 
 #. type: Bullet: '  - '
 msgid ""
