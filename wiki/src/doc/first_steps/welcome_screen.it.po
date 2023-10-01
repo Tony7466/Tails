@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails italiano\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-10-01 21:26+0000\n"
+"PO-Revision-Date: 2023-10-01 23:12+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -368,34 +368,32 @@ msgstr ""
 #. type: Title -
 #, no-wrap
 msgid "Offline Mode"
-msgstr ""
+msgstr "Modalità offline"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Disable all networking if you want to work completely offline with "
-#| "additional security."
 msgid ""
 "Turn on the **Offline Mode** if you want to work completely offline for "
 "increased security."
 msgstr ""
-"Disabilita tutte le connessioni se vuoi lavorare completamente disconnesso "
-"per una sicurezza maggiore."
+"Attiva la **Modalità offline** se vuoi lavorare completamente offline per "
+"una sicurezza maggiore."
 
 #. type: Title -
 #, no-wrap
 msgid "Unsafe Browser"
-msgstr ""
+msgstr "Browser Non Sicuro"
 
 #. type: Plain text
 msgid "Disable the ** *Unsafe Browser* **."
-msgstr ""
+msgstr "Disabilita il ** *Browser Non Sicuro* **."
 
 #. type: Plain text
 msgid ""
 "See our documentation about [[the *Unsafe Browser* and its security "
 "implications|anonymous_internet/unsafe_browser]]."
 msgstr ""
+"Vedi la nostra documentazione su [[*Browser Non Sicuro* e le sue "
+"implicazioni per la sicurezza|anonymous_internet/unsafe_browser]]."
 
 #. type: Title =
 #, no-wrap
@@ -403,19 +401,7 @@ msgid "Keyboard shortcuts"
 msgstr "Scorciatoie da tastiera (Keyboard shortcuts)"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<table>\n"
-#| "<tr><td><span class=\"keycap\">Alt+L</span></td><td><span class=\"guilabel\">Language</td></tr>\n"
-#| "<tr><td><span class=\"keycap\">Alt+K</span></td><td><span class=\"guilabel\">Keyboard Layout</td></tr>\n"
-#| "<tr><td><span class=\"keycap\">Alt+F</span></td><td><span class=\"guilabel\">Formats</td></tr>\n"
-#| "<tr><td><span class=\"keycap\">Alt+P</span></td><td><span class=\"guilabel\">Encrypted Persistent Storage</td></tr>\n"
-#| "<tr><td><span class=\"keycap\">Alt+A</span></td><td><span class=\"guilabel\">Additional Settings</td></tr>\n"
-#| "<tr><td><span class=\"keycap\">Ctrl+Shift+A</span></td><td><span class=\"guilabel\">Administration Password</td></tr>\n"
-#| "<tr><td><span class=\"keycap\">Ctrl+Shift+M</span></td><td><span class=\"guilabel\">MAC Address Spoofing</td></tr>\n"
-#| "<tr><td><span class=\"keycap\">Ctrl+Shift+N</span></td><td><span class=\"guilabel\">Network Configuration</td></tr>\n"
-#| "<tr><td><span class=\"keycap\">Alt+S</td><td><span class=\"guilabel\">Start Tails</td></tr>\n"
-#| "</table>\n"
+#, no-wrap
 msgid ""
 "<table>\n"
 "<tr><td><span class=\"keycap\">Alt+L</span></td><td><span class=\"guilabel\">Language</td></tr>\n"
@@ -429,15 +415,22 @@ msgid ""
 "</table>\n"
 msgstr ""
 "<table>\n"
-"<tr><td><span class=\"keycap\">Alt+L</span></td><td><span class=\"guilabel\">Language</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+K</span></td><td><span class=\"guilabel\">Keyboard Layout</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+F</span></td><td><span class=\"guilabel\">Formats</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+P</span></td><td><span class=\"guilabel\">Encrypted Persistent Storage</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+A</span></td><td><span class=\"guilabel\">Additional Settings</td></tr>\n"
-"<tr><td><span class=\"keycap\">Ctrl+Shift+A</span></td><td><span class=\"guilabel\">Administration Password</td></tr>\n"
-"<tr><td><span class=\"keycap\">Ctrl+Shift+M</span></td><td><span class=\"guilabel\">MAC Address Spoofing</td></tr>\n"
-"<tr><td><span class=\"keycap\">Ctrl+Shift+N</span></td><td><span class=\"guilabel\">Network Configuration</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+S</td><td><span class=\"guilabel\">Start Tails</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+L</span></td><td><span class=\"guilabel\""
+">Lingua</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+K</span></td><td><span class=\"guilabel\""
+">Layout della tastiera</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+F</span></td><td><span class=\"guilabel\""
+">Formati</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+P</span></td><td><span class=\"guilabel\""
+">Archivio Persistente</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+A</span></td><td><span class=\"guilabel\""
+">Impostazioni Aggiuntive</td></tr>\n"
+"<tr><td><span class=\"keycap\">Ctrl+Shift+A</span></td><td><span class="
+"\"guilabel\">Password di Amministrazione</td></tr>\n"
+"<tr><td><span class=\"keycap\">Ctrl+Shift+M</span></td><td><span class="
+"\"guilabel\">Anonimato dell'Indirizzo MAC</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+S</td><td><span class=\"guilabel\">Avvia "
+"Tails</td></tr>\n"
 "</table>\n"
 
 #, fuzzy
