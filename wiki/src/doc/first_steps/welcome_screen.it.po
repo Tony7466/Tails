@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails italiano\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-10-01 21:17+0000\n"
+"PO-Revision-Date: 2023-10-01 21:18+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -240,10 +240,9 @@ msgid "  [[!img US_calendar_in_Russian.png link=\"no\" alt=\"\"]]\n"
 msgstr "  [[!img US_calendar_in_Russian.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"persistence\"></a>\n"
+#, no-wrap
 msgid "<a id=\"persistent_storage\"></a>\n"
-msgstr "<a id=\"persistence\"></a>\n"
+msgstr "<a id=\"archivio_persistente\"></a>\n"
 
 #. type: Title =
 #, no-wrap
