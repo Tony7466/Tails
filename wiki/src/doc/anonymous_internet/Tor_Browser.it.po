@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-01 20:10+0000\n"
+"PO-Revision-Date: 2023-10-01 21:12+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -636,7 +636,7 @@ msgstr "Chiude tutte le schede aperte."
 
 #. type: Bullet: '  - '
 msgid "Clears the session state including cache, history, and cookies."
-msgstr ""
+msgstr "Cancella lo stato della sessione, compresi cache, cronologia e cookie."
 
 #. type: Bullet: '  - '
 msgid "Closes all existing web connections and creates new Tor circuits."
@@ -654,6 +654,10 @@ msgid ""
 "as the Tor circuits used ouside of\n"
 "<i>Tor Browser</i> are not changed.</p>\n"
 msgstr ""
+"<p>Questa funzionalità non è sufficiente per nettamente [[separare identità "
+"contestuali|about/warnings/identity#contextual]]\n"
+"poiché i circuiti Tor utilizzati all'esterno di\n"
+"<i>Tor Browser</i> non sono cambiati</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -665,11 +669,16 @@ msgid ""
 "For more details, see the [design and implementation of the Tor Browser]"
 "(https://2019.www.torproject.org/projects/torbrowser/design/#new-identity)."
 msgstr ""
+"Per maggiori dettagli, vedi [progettazione e implementazione di Tor "
+"Browser](https://2019.www.torproject.org/projects/torbrowser/design/#new-"
+"identity)."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"noscript\">NoScript to have even more control over JavaScript</h1>\n"
 msgstr ""
+"<h1 id=\"noscript\">NoScript per avere ancora maggior controllo su "
+"JavaScript</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -696,15 +705,15 @@ msgstr ""
 #. type: Bullet: '- '
 msgid "Allow you to disable JavaScript completely on some websites only."
 msgstr ""
+"Ti consente di disabilitare completamente JavaScript solo su alcuni siti web."
 
 #. type: Plain text
 msgid ""
 "For more information, you can refer to the NoScript [website](http://"
 "noscript.net/) and [features](http://noscript.net/features)."
 msgstr ""
-"Per ulteriori informazioni, puoi fare riferimento al [sito web](https://"
-"noscript.net/) di NoScript e in particolare alla pagina delle [funzionalità]"
-"(https://noscript.net/features) (in inglese)."
+"Per ulteriori informazioni, vedi il [sito web](https://noscript.net/) di "
+"NoScript e [funzionalità](https://noscript.net/features)."
 
 #. type: Plain text
 #, fuzzy, no-wrap
