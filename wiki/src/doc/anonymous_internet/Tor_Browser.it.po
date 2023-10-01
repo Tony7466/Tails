@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-10-01 21:12+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -123,6 +123,8 @@ msgstr "[[Connesso alla rete Tor|anonymous_internet/tor]]"
 #, no-wrap
 msgid "<h1 id=\"confinement\">AppArmor confinement, downloading, and uploading files</h1>\n"
 msgstr ""
+"<h1 id=\"confinement\">AppArmor isolamento, scaricando e caricando files</h1>"
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -584,8 +586,8 @@ msgid ""
 "to use a different circuit.\n"
 msgstr ""
 "Clicca sul tasto\n"
-"<span class=\"guilabel\"></span>[[Nuovo Circuito per questo sito|Tor_Browser"
-"#circuit-view]]</span>\n"
+"<span class=\"guilabel\">[[Nuovo Circuito per questo sito|Tor_Browser"
+"#circuit-view]]</span> pulsante\n"
 "per usare un circuito diverso.\n"
 
 #. type: Plain text
@@ -627,7 +629,7 @@ msgid ""
 "The New Identity feature of\n"
 "<i>Tor Browser</i>:\n"
 msgstr ""
-"La Nuova identità funzionalità di\n"
+"La funzionalità Nuova Identità di\n"
 "<i>Tor Browser</i>\n"
 
 #. type: Bullet: '  - '
@@ -716,14 +718,14 @@ msgstr ""
 "NoScript e [funzionalità](https://noscript.net/features)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"letterboxing\">Letterboxing</h1>\n"
-msgstr "<h1 id=\"letterboxing\">Letterboxing</h1>\n"
+msgstr "<h1 id=\"letterboxing\">Funzionalità Letterboxing</h1>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img letter-boxing.png link=no alt=\"\"]]\n"
-msgstr "[[!img Tor_Browser/tor-browser.png link=no alt=\"\"]]\n"
+msgstr "[[!img letter-boxing.png link=no alt=\"funzionalità letterboxing\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -733,6 +735,13 @@ msgid ""
 "Without letterboxing, websites could use\n"
 "the size of the browser window to track visitors or weaken your anonymity.\n"
 msgstr ""
+"La funzionalità letterboxing di <span class=\"application\">Tor Browser</"
+"span> ti aiuta a prevenire\n"
+"l'identificazione da parte di alcuni siti web basata sulla grandezza del tuo "
+"schermo.\n"
+"Senza letterboxing, i siti web potrebbero usare\n"
+"la grandezza della finestra del browser per tracciare chi li visita o "
+"indebolire il tuo anonimato.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -742,6 +751,13 @@ msgid ""
 "webpage remains as close as possible to the desired size without revealing the\n"
 "actual size of the window.\n"
 msgstr ""
+"La funzionalità di letterboxing di <span class=\"application\">Tor Browser</"
+"span> funziona\n"
+"aggiungendo dei margini grigi attorno alla finestra del browser quando la "
+"stessa è ridimensionata. La\n"
+"pagina web rimane il più vicino possibile alla grandezza desiderata senza "
+"rivelare \n"
+"l'attuale grandezza della finestra.\n"
 
 #~ msgid "Erases the content of the clipboard."
 #~ msgstr "Cancella il contenuto degli appunti."
