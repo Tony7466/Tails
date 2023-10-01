@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
 "PO-Revision-Date: 2023-10-01 21:17+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -66,6 +66,11 @@ msgid ""
 "turn on the [[Welcome Screen|persistent_storage/configure#welcome_screen]]\n"
 "feature of the Persistent Storage.</p>\n"
 msgstr ""
+"<p>Per memorizzare le impostazioni della schermata di benvenuto in diverse "
+"sessioni di Tails,\n"
+"attivare la funzionalità [[Schermata di benvenuto|persistent_storage/"
+"configure#welcome_screen]]\n"
+"della funzionalità dell' Archivio Persistente</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -73,6 +78,8 @@ msgid ""
 "<p>With this feature turned on, unlock your Persistent Storage to\n"
 "restore your settings in the Welcome Screen.</p>\n"
 msgstr ""
+"<p>Con questa funzionalità attivata, sblocca l'Archivio Persistente per\n"
+"ripristinare le impostazioni nella Schermata di Benvenuto.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -92,7 +99,7 @@ msgstr "<a id=\"accessibility\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Assistive technologies"
-msgstr ""
+msgstr "Tecnologie assistive"
 
 #. type: Plain text
 msgid ""
@@ -103,10 +110,11 @@ msgstr ""
 "lettore schermo, dal menù di accesso universale (l'icona"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/preferences-desktop-accessibility.png alt=\"Universal Access\" class=\"symbolic\" link=\"no\"]]\n"
+#, no-wrap
 msgid "[[!img lib/preferences-desktop-accessibility.png alt=\"Accessibility Menu\" class=\"symbolic\" link=\"no\"]]\n"
-msgstr "[[!img lib/preferences-desktop-accessibility.png alt=\"Universal Access\" class=\"symbolic\" link=\"no\"]]\n"
+msgstr ""
+"[[!img lib/preferences-desktop-accessibility.png alt=\"Menu di "
+"accessibilità\" class=\"symbolic\" link=\"no\"]]\n"
 
 #. type: Plain text
 msgid "icon which looks like a person) in the top bar."
@@ -118,10 +126,9 @@ msgid "<a id=\"locale\"></a>\n"
 msgstr "<a id=\"locale\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Language & region\n"
+#, no-wrap
 msgid "Language & region"
-msgstr "Lingua e zone geografica\n"
+msgstr "Lingua e regione"
 
 #. type: Plain text
 msgid ""
@@ -132,10 +139,9 @@ msgstr ""
 "schermo di benvenuto."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img persistence.png link=\"no\" alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img locale.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img persistence.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img locale.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -174,9 +180,10 @@ msgstr ""
 "  disposizioni tastiera dal desktop.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "  [[!img desktop/keyboard.png link=\"no\" alt=\"Keyboard Menu\"]]\n"
-msgstr "  [[!img desktop/keyboard.png size=\"267x\" link=\"no\" alt=\"Menu in the top-right corner of the desktop to switch between different keyboard layouts\"]]\n"
+msgstr ""
+"  [[!img desktop/keyboard.png link=\"no\" alt=\"Menu della tastiera\"]]\n"
 
 #. type: Bullet: '* '
 msgid ""
