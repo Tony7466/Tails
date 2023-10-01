@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
 "PO-Revision-Date: 2023-10-01 21:25+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -323,16 +323,20 @@ msgstr "[[!img additional.png link=\"no\" alt=\"\"]]\n"
 #. type: Title -
 #, no-wrap
 msgid "Administration Password"
-msgstr ""
+msgstr "Password di Amministrazione"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Set an <span class=\"guilabel\">Administration Password</span> to be able to perform administrative tasks like installing additional software or accessing the internal hard disks of the computer."
+#, no-wrap
 msgid ""
 "Set an <span class=\"guilabel\">Administration Password</span> to be\n"
 "able to perform administrative tasks like installing additional\n"
 "software or accessing the internal hard disks of the computer.\n"
-msgstr "Inserire una <span class=\"guilabel\">Password Amministrativa</span> per essere in grado di eseguire operazioni amministrative come l'installazione di software aggiuntivo o accedere ai dischi fissi interni del computer."
+msgstr ""
+"Imposta una <span class=\"guilabel\">Password di Amministrazione</span> per "
+"poter\n"
+"per poter eseguire operazioni amministrative come l'installazione di "
+"software\n"
+"aggiuntivo o l'accesso ai dischi rigidi interni del computer.\n"
 
 #. type: Plain text
 msgid ""
