@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-01 20:01+0000\n"
+"PO-Revision-Date: 2023-10-01 20:04+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -58,6 +58,8 @@ msgstr ""
 msgid ""
 "Cookies can be used to track and identify you across different websites."
 msgstr ""
+"I cookie possono essere utilizzati da diversi siti web per tracciarti e "
+"identificarti ."
 
 #. type: Bullet: '- '
 msgid ""
@@ -65,12 +67,18 @@ msgid ""
 "Browser in the past](https://arstechnica.com/information-technology/2013/08/"
 "attackers-wield-firefox-exploit-to-uncloak-anonymous-tor-users/)."
 msgstr ""
+"Le vulnerabilità di sicurezza in JavaScript sono state utilizzate nel "
+"passato per [togliere anonimato in Tor Browser (https://arstechnica.com/"
+"information-technology/2013/08/"
+"attackers-wield-firefox-exploit-to-uncloak-anonymous-tor-users/)."
 
 #. type: Plain text
 msgid ""
 "This is why *Tor Browser* integrates all kinds of security protections "
 "inside the browser as well."
 msgstr ""
+"Per questo motivo *Tor Browser* integra tutti i tipi di protezioni di "
+"sicurezza anche all'interno del browser."
 
 #. type: Plain text
 #, no-wrap
@@ -84,30 +92,32 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"proxy\">Proxy server refusing connections</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"proxy\">Server proxy rifiuta le connessioni</h1>\n"
 
 #. type: Plain text
 msgid ""
 "The following error message in *Tor Browser* means that Tails is not yet "
 "connected to the Tor network:"
 msgstr ""
+"Il seguente messaggio di errore in *Tor Browser* significa che Tails non è "
+"ancora connesso alla rete Tor:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    The proxy server is refusing connections\n"
-msgstr ""
+msgstr "    Il server proxy rifiuta le connessioni\n"
 
 #. type: Plain text
 msgid "Make sure that you are:"
-msgstr ""
+msgstr "Assicurati di essere:"
 
 #. type: Bullet: '1. '
 msgid "[[Connected to a local network|anonymous_internet/networkmanager]]"
-msgstr ""
+msgstr "[[Collegato a una rete locale|anonymous_internet/networkmanager]]"
 
 #. type: Bullet: '1. '
 msgid "[[Connected to the Tor network|anonymous_internet/tor]]"
-msgstr ""
+msgstr "[[Connesso alla rete Tor|anonymous_internet/tor]]"
 
 #. type: Plain text
 #, no-wrap
@@ -141,6 +151,9 @@ msgid ""
 "denied</em> errors if you try to download files to the\n"
 "<em>Home</em> folder.</p>\n"
 msgstr ""
+"<p>Questo è il motivo per cui, ad esempio, puoi incontrare errori <em>"
+"Permission\n"
+"denied</em> se tenti di scaricare i file nella cartella <em>Home</em> </p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -177,6 +190,11 @@ msgid ""
 "from *Tor Browser*. The content of the *Persistent/Tor Browser* folder is "
 "saved across different working sessions."
 msgstr ""
+"- Se hai attivato la [[Cartella Persistente|persistent_storage/"
+"configure#persistent_folder]] funzionalità dell'Archivio Persistente, puoi "
+"anche usare la cartella *Persistente/Tor Browser* per scaricare e caricare "
+"file da *Tor Browser*. Il contenuto della cartella*Persistente/Tor Browser* "
+"viene salvato in diverse sessioni di lavoro."
 
 #. type: Plain text
 #, no-wrap
@@ -191,11 +209,18 @@ msgid ""
 "All the files that you download outside of the Persistent Storage are\n"
 "stored in memory (RAM), which is more limited.</p>\n"
 msgstr ""
+"<p>Per evitare che Tails esaurisca la memoria e vada in crash, scarica\n"
+"file molto grandi nella cartella <em>Persistente/Tor Browser</em>.\n"
+"Tutti i file scaricati al di fuori dell'Archivio Persistente vengono "
+"memorizzati nella\n"
+"memoria (RAM), che è più limitata.</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"fingerprint\">Hiding that you are using <i>Tor Browser</i></h1>\n"
 msgstr ""
+"<h1 id=\"fingerprint\">Nascondere che stai utilizzando <i>Tor "
+"Browser</h1></i>\n"
 
 #. type: Plain text
 msgid ""
