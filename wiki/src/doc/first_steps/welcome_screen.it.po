@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails italiano\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-10-01 21:18+0000\n"
+"PO-Revision-Date: 2023-10-01 21:19+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -254,6 +254,8 @@ msgid ""
 "You can save some of your files and configuration in an encrypted "
 "[[Persistent Storage|persistent_storage]] on your Tails USB stick."
 msgstr ""
+"È possibile salvare alcuni file e la configurazione in un [[Archivio "
+"Persistente|persistent_storage]] cifrato sulla chiavetta USB di Tails."
 
 #. type: Bullet: '- '
 msgid ""
@@ -261,6 +263,10 @@ msgid ""
 "**Create Persistent Storage** button to automatically start the Persistent "
 "Storage settings after you start Tails and the desktop appears."
 msgstr ""
+"Se non rilevi alcun Archivio Persistente sulla chiavetta USB, puoi cliccare "
+"sul pulsante **Crea Archivio Persistente** per avviare automaticamente le "
+"impostazioni dell'Archivio Persistente dopo che hai avviato Tails e che il "
+"desktop compare."
 
 #. type: Plain text
 #, no-wrap
@@ -273,6 +279,9 @@ msgid ""
 "and click **Unlock Encryption** to unlock and activate your Persistent "
 "Storage."
 msgstr ""
+"Se sulla chiavetta USB viene rilevato un Archivio Persistente, inserisci la "
+"frase d'accesso e clicca su **Sblocca crittografia** per sbloccare e "
+"attivare il tuo Archivio Persistente."
 
 #. type: Plain text
 #, no-wrap
@@ -283,6 +292,8 @@ msgstr "  [[!img unlock_persistent_storage.png link=\"no\" alt=\"\"]]\n"
 msgid ""
 "See also our [[documentation on the Persistent Storage|persistent_storage]]."
 msgstr ""
+"Vedi anche la nostra [[documentazione sull' Archivio "
+"Persistente|persistent_storage]]."
 
 #. type: Plain text
 #, no-wrap
@@ -290,10 +301,9 @@ msgid "<a id=\"additional\"></a>\n"
 msgstr "<a id=\"additional\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Additional settings\n"
+#, no-wrap
 msgid "Additional settings"
-msgstr "Configurazioni aggiuntive\n"
+msgstr "Configurazioni aggiuntive"
 
 #. type: Plain text
 msgid ""
@@ -306,10 +316,9 @@ msgstr ""
 "modificare una o più delle impostazioni seguenti dallo Schermo di Benvenuto."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img persistence.png link=\"no\" alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img additional.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img persistence.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img aggiuntive.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Title -
 #, no-wrap
