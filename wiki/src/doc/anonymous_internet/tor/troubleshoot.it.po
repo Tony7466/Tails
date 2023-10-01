@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-03-16 10:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-01 20:29+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -27,21 +27,28 @@ msgid ""
 "The sections below summarize the most common problems when [[connecting to "
 "Tor|tor]]."
 msgstr ""
+"Le sezioni che seguono riassumono i problemi più comuni quando ci si [["
+"connette a Tor|tor]]."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"clock\">The computer clock is set to an incorrect time zone</h2>\n"
-msgstr "L'orologio del computer è impostato su un fuso orario errato"
+msgstr ""
+"<h2 id=\"clock\">L'orologio del computer è impostato su un fuso orario "
+"errato</h2>\n"
 
 #. type: Plain text
 msgid "The clock of the computer needs to be correct to connect to Tor."
-msgstr ""
+msgstr "L'orologio del computer deve essere corretto per connettersi a Tor."
 
 #. type: Plain text
 msgid ""
 "If you choose to [[hide that you are connecting to Tor|tor#hiding]], you "
 "might have to fix the clock manually if Tails fails to connect to Tor."
 msgstr ""
+"Se scegli di [[nascondere che ti stai connettendo a Tor|tor#hiding]], "
+"potrebbe essere necessario correggere l'orologio manualmente se Tails non "
+"riesce a connettersi a Tor."
 
 #. type: Plain text
 msgid ""
@@ -59,6 +66,11 @@ msgid ""
 "connecting to the captive portal detection service of [Fedora](https://"
 "getfedora.org/) before connecting to Tor."
 msgstr ""
+"Se riscontri problemi nel regolare l'orologio, puoi provare a riavviare "
+"Tails e scegliere di [[connetterti a Tor automaticamente|tor#automatico]]. "
+"Quando ti connetti a Tails automaticamente, Tails corregge l'orologio "
+"automaticamente connettendosi al servizio di rilevamento del captive portal "
+"di [Fedora](https://getfedora.org/) prima di connettersi a Tor."
 
 #. type: Plain text
 #, fuzzy, no-wrap
