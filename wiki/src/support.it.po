@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-03-24 08:43+0000\n"
-"PO-Revision-Date: 2022-07-09 16:07+0000\n"
+"PO-Revision-Date: 2023-10-01 21:09+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
@@ -37,6 +37,8 @@ msgstr "Cercare la documentazione"
 msgid ""
 "Our comprehensive [[documentation|doc]] might already answer your question:"
 msgstr ""
+"Nella nostra ampia [[documentazione|doc]] potrebbe esserci la risposta alla "
+"tua domanda:"
 
 #. type: Plain text
 #, no-wrap
@@ -47,6 +49,13 @@ msgid ""
 "  <button aria-label=\"Search\" class=\"button\" type=\"submit\"><strong>Search</strong></button>\n"
 "</form>\n"
 msgstr ""
+"<form method=\"get\" action=\"https://duckduckgo.com/\" target=\"_blank\">\n"
+"  <input aria-label=\"Cerca\" type=\"cerca\" name=\"q\" value=\"\" size=\"32"
+"\" placeholder=\"Usando DuckDuckGo&hellip;\" />\n"
+"  <input type=\"nascosto\" name=\"siti\" value=\"tails.net\"/>\n"
+"  <button aria-label=\"Cerca\" class=\"tasto\" type=\"invia\""
+"><strong>Search</strong></button>\n"
+"</form>\n"
 
 #. type: Title =
 #, no-wrap
