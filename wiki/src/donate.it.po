@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-30 19:30+0000\n"
-"PO-Revision-Date: 2023-10-01 20:41+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"PO-Revision-Date: 2023-10-01 21:13+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: \n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -717,7 +717,8 @@ msgid ""
 "Search for <strong>Riseup Labs</strong> and donate to <strong>Tails via "
 "Riseup Labs</strong>."
 msgstr ""
-"Cerca <strong>Riseup Labs</strong> e dona a Tails via Riseup Labs</strong>."
+"Cerca <strong>Riseup Labs</strong> e dona a <strong>Tails via Riseup "
+"Labs</strong>."
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -860,7 +861,7 @@ msgstr "(20%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li>
 msgid "like the US Department of State and Internews"
-msgstr "come il Dipartimento di Stato americano e Internews."
+msgstr "come il Dipartimento di Stato americano e Internews"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Foundations & NGOs"
