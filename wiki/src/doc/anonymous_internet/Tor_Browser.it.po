@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-10-01 20:09+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -562,6 +562,9 @@ msgid ""
 "to connect to the website in the current tab, its 3 relays, their countries, "
 "and IP addresses."
 msgstr ""
+"Clicca sul lucchetto nella barra degli indirizzi per visualizzare il "
+"circuito Tor utilizzato per connettersi al sito web nella scheda corrente, i "
+"suoi 3 relè, i rispettivi Paesi e gli indirizzi IP."
 
 #. type: Plain text
 msgid ""
@@ -580,6 +583,10 @@ msgid ""
 "<span class=\"guilabel\">[[New Circuit for this Site|Tor_Browser#circuit-view]]</span> button\n"
 "to use a different circuit.\n"
 msgstr ""
+"Clicca sul tasto\n"
+"<span class=\"guilabel\"></span>[[Nuovo Circuito per questo sito|Tor_Browser"
+"#circuit-view]]</span>\n"
+"per usare un circuito diverso.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -588,6 +595,10 @@ msgid ""
 "<span class=\"application\">[[Onion Circuits|doc/anonymous_internet/tor/circuits]]</span>\n"
 "to get more detailed information about the circuits being used.\n"
 msgstr ""
+"Puoi usare\n"
+"<span class=\"applicazione\">[[Onion Circuits|doc/anonymous_internet/tor/"
+"circuits]]</span>\">\n"
+"per ottenere informazioni più dettagliate sui circuiti utilizzati.\n"
 
 #. type: Plain text
 #, no-wrap
