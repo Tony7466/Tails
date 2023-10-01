@@ -538,7 +538,7 @@ msgstr "[[!img system.png link=\"no\" alt=\"\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h3 id=\"networking\">Networking</h3>\n"
-msgstr "<h3 id=\"collegamento di rete\">Networking</h3>\n"
+msgstr "<h3 id=\"networking\">Networking</h3>\n"
 
 #. type: Plain text
 msgid "From the system menu, you can choose which Wi-Fi network to connect to."
