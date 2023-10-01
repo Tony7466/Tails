@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-10-01 20:29+0000\n"
+"PO-Revision-Date: 2023-10-01 20:30+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -73,9 +73,9 @@ msgstr ""
 "di [Fedora](https://getfedora.org/) prima di connettersi a Tor."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"portal\">You need to sign in to the network</h2>\n"
-msgstr "Non sei entrato correttamente nel ponte"
+msgstr "<h2 id=\"portal\">È necessario effettuare l'accesso alla rete</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -84,29 +84,29 @@ msgstr "[[!inline pages=\"doc/anonymous_internet/unsafe_browser/captive_portal.i
 
 #. type: Plain text
 msgid "To sign in to a network using a captive portal:"
-msgstr ""
+msgstr "Accedere a una rete utilizzando un captive portal:"
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid ""
 "In the error screen of the *Tor Connection* assistant, choose **Try Signing "
 "in to the Network**."
 msgstr ""
-"Scegli **Fix Clock** nella schermata di errore dell'assistente *Tor "
-"Connection* per impostare l'orologio e il fuso orario del tuo computer."
+"Nella schermata di errore dell'assistente *Tor Connection*, scegli **Prova "
+"ad accedere alla rete**."
 
 #. type: Bullet: '1. '
 msgid "Wait until the *Unsafe Browser* starts."
-msgstr ""
+msgstr "Aspetta che si avvii il *Browser Non Sicuro*."
 
 #. type: Bullet: '1. '
 msgid "Follow the instructions on the homepage of the *Unsafe Browser*."
-msgstr ""
+msgstr "Segui le istruzioni sulla homepage del *Browser Non Sicuro*."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"stuck\">The progress bar gets stuck around 50%</h2>\n"
 msgstr ""
+"<h2 id=\"blocco\">La barra di avanzamento si blocca intorno al 50%</h2>\n"
 
 #. type: Plain text
 msgid ""
