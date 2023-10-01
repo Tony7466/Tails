@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-06-13 14:17+0200\n"
-"PO-Revision-Date: 2023-07-03 22:33+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"PO-Revision-Date: 2023-10-01 20:58+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "To sign in to a network using a captive portal:"
-msgstr "Accedere a una rete usando un  captive portal:"
+msgstr "Accedere a una rete utilizzando un captive portal:"
 
 #. type: Bullet: '1. '
 msgid ""
