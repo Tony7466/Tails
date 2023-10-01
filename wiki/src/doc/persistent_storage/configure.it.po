@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-10-01 13:53+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -268,7 +268,7 @@ msgid ""
 msgstr ""
 "Quando la funzionalità Connessioni di Rete è attivata, la [[password per le "
 "reti Wi-Fi e la configurazione delle reti cablate|doc/anonymous_internet/"
-"networkmanager]] viene salvata nella memoria persistente."
+"networkmanager]] viene salvata nell' Archivio Persistente."
 
 #. type: Plain text
 #, no-wrap
