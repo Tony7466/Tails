@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-15 18:33+0000\n"
-"PO-Revision-Date: 2023-10-01 20:58+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"PO-Revision-Date: 2023-10-01 21:13+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr ""
 #. type: Plain text
 msgid "- Close the *Unsafe Browser* after signing in to the network."
 msgstr ""
-"- Chiudi il *Browser Non Sicuror* dopo aver effettuato l'accesso alla rete."
+"- Chiudi il *Browser Non Sicuro* dopo aver effettuato l'accesso alla rete."
 
 #. type: Plain text
 #, no-wrap
