@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails italiano\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-10-01 21:13+0000\n"
+"PO-Revision-Date: 2023-10-01 21:14+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -41,10 +41,10 @@ msgstr ""
 
 # Più opzioni? Pulsante Si/No e Login
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img welcome-screen.png link=no alt=\"Welcome to Tails!\"]]\n"
+#, no-wrap
 msgid "[[!img welcome_screen.png link=no alt=\"Welcome to Tails!\"]]\n"
-msgstr "[[!img welcome-screen.png link=no alt=\"Benvenuta in Tails!\"]]\n"
+msgstr ""
+"[[!img schermata_di_benvenuto.png link=no alt=\"Benvenuti in Tails!\"]]\n"
 
 #. type: Plain text
 #, no-wrap
