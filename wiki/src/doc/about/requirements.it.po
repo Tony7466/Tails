@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Italian translation\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-10-01 14:19+0000\n"
+"PO-Revision-Date: 2023-10-01 15:12+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -68,15 +68,12 @@ msgstr ""
 "Schede grafiche \"Gaming\" come Nvidia o AMD Radeon, spesso incompatibili."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<p>See the [[known hardware compatibility\n"
-#| "issues|support/known_issues]].</p>\n"
+#, no-wrap
 msgid ""
 "<p>See our [[list of known hardware compatibility\n"
 "issues|support/known_issues]].</p>\n"
 msgstr ""
-"<p>Vedere i [[problemi noti di compatibilità\n"
+"<p>Vedi il nostro [[[[elenco di problemi noti di compatibilità\n"
 "hardware|support/known_issues]].</p>\n"
 
 #. type: Plain text
@@ -85,10 +82,9 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Hardware requirements:"
+#, no-wrap
 msgid "Hardware requirements"
-msgstr "Requisiti hardware:"
+msgstr "Requisiti hardware"
 
 #. type: Plain text
 msgid "- A USB stick of 8 GB minimum or a recordable DVD."
@@ -122,16 +118,12 @@ msgstr ""
 "\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "Tails does not work with Mac models that use the [[!wikipedia Apple M1]] "
-#| "chip."
 msgid ""
 "Tails does not work on newer Mac computers with an [[!wikipedia "
 "Apple_silicon#M_series desc=\"Apple processors\"]] (M1 or M2)."
 msgstr ""
-"Tails non funziona con modelli di Mac che utilizzano il chip [[!wikipedia "
-"Apple M1]] ."
+"Tails non funziona sui computer Mac più recenti con [[!wikipedia "
+"Apple_silicon#M_series desc=\"processori Apple\"]] (M1 o M2)."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -142,10 +134,8 @@ msgstr ""
 "Tails_3.0_will_require_a_64-bit_processor]] (June 2017)."
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "Tails does not work on most tablets and phones."
 msgid "Tails does not work on phone or tablets."
-msgstr "Tails non funziona sulla maggior parte dei tablet e smartphone."
+msgstr "Tails non funziona su telefoni o tablet."
 
 #. type: Plain text
 msgid "- 2 GB of RAM to work smoothly."
@@ -159,7 +149,7 @@ msgstr "  Tails può funzionare con meno di 2 GB di RAM, ma potrebbe presentare 
 #. type: Title =
 #, no-wrap
 msgid "Recommended hardware"
-msgstr ""
+msgstr "Hardware consigliato"
 
 #. type: Plain text
 msgid ""
@@ -167,27 +157,36 @@ msgid ""
 "list of recommended hardware. Below are some guidelines if you, or your "
 "organization, are considering acquiring a laptop dedicated to running Tails."
 msgstr ""
+"I modelli di computer portatili si evolvono troppo rapidamente per poter "
+"fornire un elenco aggiornato dell'hardware consigliato. Di seguito sono "
+"riportate alcune linee guida se tu, o la tua organizzazione, state pensando "
+"di acquistare un computer portatile dedicato all'esecuzione di Tails."
 
 #. type: Title ###
 #, no-wrap
 msgid "For PC"
-msgstr ""
+msgstr "Per PC"
 
 #. type: Bullet: '- '
 msgid "Avoid \"gaming\" models with Nvidia or AMD Radeon graphics cards."
-msgstr ""
+msgstr "Evitare i modelli \"gaming\" con schede grafiche Nvidia o AMD Radeon."
 
 #. type: Bullet: '- '
 msgid ""
 "Consider buying a refurbished laptop from a high-end (professional) series.  "
 "These are cheaper and will last longer than new but lower-quality laptops."
 msgstr ""
+"Considera l'acquisto di un computer portatile ricondizionato di una serie di "
+"fascia alta (professionale).  Sono più economici e durano più a lungo dei "
+"portatili nuovi ma di qualità inferiore."
 
 #. type: Bullet: '  * '
 msgid ""
 "For example, the Lenovo ThinkPad series work well with Tails, including the "
 "X250, X1 Carbon, T440, T480, and T490 models."
 msgstr ""
+"Ad esempio, la serie ThinkPad di Lenovo funziona bene con Tails, compresi i "
+"modelli X250, X1 Carbon, T440, T480 e T490."
 
 #. type: Bullet: '  * '
 msgid ""
@@ -196,109 +195,131 @@ msgid ""
 "Guarantee](https://www.amazon.com/gp/help/customer/display.html?"
 "nodeId=G4ZAA22U35N373NX)."
 msgstr ""
+"Se vivi in una parte del mondo in cui l'acquisto di computer portatili "
+"ricondizionati è poco comune, cerca su eBay e Amazon. Amazon offre una "
+"garanzia di 90 giorni [Amazon Renewed Guarantee] (https://www.amazon.com/gp/"
+"help/customer/display.html?nodeId=G4ZAA22U35N373NX)."
 
 #. type: Bullet: '- '
 msgid ""
 "Consider buying a new laptop from vendors who guarantee the compatibility "
 "with Linux and Tails like [ThinkPenguin](https://www.thinkpenguin.com/)."
 msgstr ""
+"Considera l'acquisto di un nuovo portatile da fornitori che garantiscono la "
+"compatibilità con Linux e Tails come [ThinkPenguin](https://www.thinkpenguin."
+"com/)."
 
 #. type: Title ###
 #, no-wrap
 msgid "For Mac"
-msgstr ""
+msgstr "Per Mac"
 
 #. type: Plain text
 msgid ""
 "Unfortunately, we don't know of any Mac model that works well in Tails and "
 "can run the latest macOS version."
 msgstr ""
+"Purtroppo non conosciamo alcun modello di Mac che funzioni bene con Tails e "
+"che possa eseguire l'ultima versione di macOS."
 
 #. type: Plain text
 #, no-wrap
 msgid "<!--\n"
-msgstr ""
+msgstr "<!--\n"
 
 #. type: Plain text
 msgid "To update the list of Mac computer:"
-msgstr ""
+msgstr "Per aggiornare l'elenco di computer Mac:"
 
 #. type: Bullet: '1. '
 msgid ""
 "Store an archive of WhisperBack reports from the last 6 months in a folder."
-msgstr ""
+msgstr "Archivia in una cartella i rapporti WhisperBack degli ultimi 6 mesi."
 
 #. type: Bullet: '2. '
 msgid "Decrypt all the reports:"
-msgstr ""
+msgstr "Decripta tutti i rapporti:"
 
 #. type: Plain text
 #, no-wrap
 msgid "   ~/Tails/blueprints/stats/whisperback_scripts/decrypt.rb\n"
-msgstr ""
+msgstr "   ~/Tails/blueprints/stats/whisperback_scripts/decrypt.rb\n"
 
 #. type: Bullet: '3. '
 msgid "Extract the list of computer models:"
-msgstr ""
+msgstr "Estrai l'elenco dei modelli di computer:"
 
 #. type: Plain text
 #, no-wrap
 msgid "   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/dmidecode -s system-product-name\" > machines\n"
 msgstr ""
+"   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/"
+"dmidecode -s system-product-name\" > machines\n"
 
 #. type: Bullet: '4. '
 msgid "Sort and count identical models:"
-msgstr ""
+msgstr "Ordina e conta i modelli identici:"
 
 #. type: Plain text
 #, no-wrap
 msgid "   grep -v Bug_report machines | sort | uniq -c | sort -rhk 1 > top\n"
-msgstr ""
+msgstr "   grep -v Bug_report machines | sort | uniq -c | sort -rhk 1 > top\n"
 
 #. type: Bullet: '5. '
 msgid ""
 "Share WhisperBack reports number with the Foundations team and ask them to "
 "evaluate hardware compatibility hints in those reports."
 msgstr ""
+"Condividi il numero di rapporti di WhisperBack con il team di Foundations e "
+"chiedi a loro di valutare i suggerimenti sulla compatibilità hardware "
+"contenuti in quei rapporti."
 
 #. type: Plain text
 #, no-wrap
 msgid "   While analyzing the reports corresponding from each model, FT should:\n"
 msgstr ""
+"   Nell'analizzare i rapporti corrispondenti a ciascun modello, FT dovrebbe:"
+"\n"
 
 #. type: Bullet: '   - '
 msgid "Check whether they were sent from the same email address, if any"
 msgstr ""
+"Verificare se sono state inviate dallo stesso indirizzo e-mail, se presente"
 
 #. type: Bullet: '   - '
 msgid "Check whether the wlan0 interface was the same hardware device"
-msgstr ""
+msgstr "Verificare se l'interfaccia wlan0 sia lo stesso dispositivo hardware"
 
 #. type: Bullet: '   - '
 msgid "Check whether the report was about hardware compatibility issues"
 msgstr ""
+"Verificare se la segnalazione riguardava problemi di compatibilità hardware"
 
 #. type: Bullet: '6. '
 msgid ""
 "Check whether these Mac models still support the latest version of macOS."
 msgstr ""
+"Verificate se questi modelli di Mac supportano ancora l'ultima versione di "
+"macOS."
 
 #. type: Plain text
 msgid "To update the list of PC computers:"
-msgstr ""
+msgstr "Per aggiornare l'elenco di computer PC:"
 
 #. type: Plain text
 msgid "- Check what's commonly available with refurbishing companies."
 msgstr ""
+"- Verificate cosa è comunemente disponibile presso le aziende di "
+"ricondizionamento."
 
 #. type: Plain text
 msgid "- Ask tails-assembly@ for models."
-msgstr ""
+msgstr "- Chiedere a tails-assembly@ per i modelli."
 
 #. type: Plain text
 #, no-wrap
 msgid "-->\n"
-msgstr ""
+msgstr "-->\n"
 
 #, no-wrap
 #~ msgid "<div class=\"note\">\n"
