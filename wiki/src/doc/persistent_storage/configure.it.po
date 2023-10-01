@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-01 13:54+0000\n"
+"PO-Revision-Date: 2023-10-01 13:57+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -344,31 +344,23 @@ msgid "[[!img lib/apps/electrum.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img lib/apps/electrum.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\"><h2>Bitcoin Client</h2></div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\"><h2>Electrum Bitcoin Wallet</h2></div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><h2>Client Bitcoin</h2></div>\n"
+"<div class=\"testo\"><h2>Electrum Bitcoin Wallet</h2></div>\n"
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "When the Bitcoin Client feature is turned on, the bitcoin wallet and "
-#| "preferences of the [[*Electrum* bitcoin client|anonymous_internet/"
-#| "electrum]] are saved in the Persistent Storage."
 msgid ""
 "When the Electrum Bitcoin Wallet feature is turned on, the bitcoin wallet "
 "and preferences of the [[*Electrum* bitcoin client|anonymous_internet/"
 "electrum]] are saved in the Persistent Storage."
 msgstr ""
-"Quando la funzione Bitcoin Client è attivata, il portafoglio bitcoin e le "
-"preferenze del [[*Electrum* bitcoin client|anonimo_internet/electrum]] "
-"vengono salvati nell'Archivio Persistente."
+"Quando la funzione Electrum Bitcoin Wallet è attivata, il portafoglio "
+"bitcoin e le preferenze del [[*Electrum* bitcoin client|anonymous_internet/"
+"electrum]] vengono salvati nell'Archivio Persistente."
 
 #. type: Plain text
 #, no-wrap
@@ -381,31 +373,23 @@ msgid "[[!img lib/apps/thunderbird.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img lib/apps/thunderbird.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\"><h2>Thunderbird</h2></div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\"><h2>Thunderbird Email Client</h2></div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><h2>Thunderbird</h2></div>\n"
+"<div class=\"testo\"><h2>Thunderbird Email Client</h2></div>\n"
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "When the Thunderbird feature is turned on, the email, feeds, and OpenPGP "
-#| "keys in the [[*Thunderbird* email client|doc/anonymous_internet/"
-#| "thunderbird]] are saved in the Persistent Storage."
 msgid ""
 "When the Thunderbird Email Client feature is turned on, the email, feeds, "
 "and OpenPGP keys in the [[*Thunderbird* email client|doc/anonymous_internet/"
 "thunderbird]] are saved in the Persistent Storage."
 msgstr ""
-"Quando questa opzione di Thunderbird è attivata, le email, i feed, e le "
-"chiavi OpenGPG in [[*Thunderbird*  gestore locale di email |doc/"
-"anonymous_internet/thunderbird]] sono salvate nel Volume Persistente."
+"Quando la funzionalità Email Client di Thunderbird è attivata, le email, i "
+"feed, e le chiavi OpenGPG in [[*Thunderbird* email client|doc/"
+"anonymous_internet/thunderbird]] sono salvate nel Archivio Persistente."
 
 #. type: Plain text
 #, no-wrap
@@ -427,17 +411,14 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "When the GnuPG feature is turned on, the OpenPGP keys that you create or "
-#| "import in *GnuPG* and *Kleopatra* are saved in the Persistent Storage."
 msgid ""
 "When the GnuPG feature is turned on, the OpenPGP keys that you create or "
 "import in *GnuPG* and [[*Kleopatra*|doc/encryption_and_privacy/kleopatra]] "
 "are saved in the Persistent Storage."
 msgstr ""
-"Quando la funzione GnuPG è attivata, le chiavi OpenPGP che crei o importi in "
-"*GnuPG* e *Kleopatra* vengono salvate nell'Archivio Persistente."
+"Quando la funzionalità GnuPG è attivata, le chiavi OpenPGP che crei o "
+"importi in *GnuPG* e [[*Kleopatra*|doc/encryption_and_privacy/kleopatra]] "
+"vengono salvate nell'Archivio Persistente."
 
 #. type: Plain text
 #, no-wrap
@@ -463,67 +444,48 @@ msgid "[[!img lib/apps/pidgin.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img lib/apps/pidgin.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\"><h2>Printers</h2></div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\"><h2>Pidgin Internet Messenger</h2></div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><h2>Stampanti</h2></div>\n"
+"<div class=\"text\"><h2>Pidgin Internet Messenger</h2></div>\n"
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "When the Pidgin feature is turned on, all the configuration files of the "
-#| "[[*Pidgin* internet messenger|doc/anonymous_internet/pidgin]] are saved "
-#| "in the Persistent Storage:"
 msgid ""
 "When the Pidgin Internet Messenger feature is turned on, all the "
 "configuration files of the [[*Pidgin* internet messenger|doc/"
 "anonymous_internet/pidgin]] are saved in the Persistent Storage:"
 msgstr ""
-"Quando la funzionalità Pidgin è attivata, tutti i file di configurazione di "
-"[[*Pidgin* internet messenger|doc/anonimo_internet/pidgin]] vengono salvati "
-"nell' Archivio Persistente:"
+"Quando la funzionalità Pidgin Internet Messenger è attivata, tutti i file di "
+"configurazione di [[*Pidgin* internet messenger|doc/anonimo_internet/pidgin]]"
+" vengono salvati nell'Archivio Persistente:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The configuration of your accounts, buddies and chats."
 msgid ""
 "- The configuration of your accounts, contacts, and chats - Your OTR "
 "encryption keys and keyring"
 msgstr ""
-"La configurazione dei tuoi account, dei tuoi contatti e delle tue "
-"conversazioni."
+"- La configurazione dei tuoi account, contatti e chat - Le tue chiavi di "
+"crittografia OTR e il portachiavi"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The content of the discussions is not saved unless you configure <span "
-#| "class=\"application\">Pidgin</span> to do so."
 msgid ""
 "The content of the discussions is not saved, unless you configure *Pidgin* "
 "to do so."
 msgstr ""
 "Il contenuto delle discussioni non viene salvato a meno che tu non configuri "
-"<span class=\"application\">Pidgin</span> per farlo."
+"*Pidgin* per farlo."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "All the configuration options are available from the graphical interface "
-#| "of *Pidgin*. There is no need to manually edit or overwrite the "
-#| "configuration files."
 msgid ""
 "All the configuration options are available from the graphical interface of "
 "*Pidgin*. You don't need to manually edit or overwrite the configuration "
 "files."
 msgstr ""
 "Tutte le opzioni di configurazione sono disponibili dall'interfaccia grafica "
-"di*Pidgin*. Non c'è bisogno di modificare manualmente o sovrascrivere i file "
+"di*Pidgin*. Non hai bisogno di modificare manualmente o sovrascrivere i file "
 "di configurazione."
 
 #. type: Plain text
@@ -546,16 +508,12 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "When the SSH Client feature is turned on, all the files related to the "
-#| "secure-shell (SSH) client are saved in the Persistent Storage:"
 msgid ""
 "When the SSH Client feature is turned on, all the files related to the "
 "Secure Shell (SSH) client are saved in the Persistent Storage:"
 msgstr ""
 "Quando la funzionalità Client SSH è attivata, tutti i file relativi al "
-"client shell-sicura (SSH) vengono salvati in nell'Archivio Persistente:"
+"client Secure Shell (SSH) vengono salvati nell'Archivio Persistente:"
 
 #. type: Bullet: '  - '
 msgid "The SSH keys that you create or import"
@@ -573,10 +531,9 @@ msgstr ""
 "span>"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Some settings"
+#, no-wrap
 msgid "Advanced Settings"
-msgstr "Alcune impostazioni"
+msgstr "Impostazioni Avanzate"
 
 #. type: Plain text
 #, no-wrap
@@ -693,15 +650,7 @@ msgstr ""
 "dotfiles*:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "    /live/persistence/TailsData_unlocked/dotfiles\n"
-#| "    ├── file_a\n"
-#| "    ├── folder\n"
-#| "    │   ├── file_b\n"
-#| "    │   └── subfolder\n"
-#| "    │       └── file_c\n"
-#| "    └── emptyfolder\n"
+#, no-wrap
 msgid ""
 "    /live/persistence/TailsData_unlocked/dotfiles\n"
 "    ├── file_a\n"
@@ -714,24 +663,17 @@ msgstr ""
 "    /live/persistence/TailsData_unlocked/dotfiles\n"
 "    ├── file_a\n"
 "    ├── cartella\n"
-"    │   ├── file_b\n"
-"    │   └── sottocartella\n"
-"    │       └── file_c\n"
-"    └── cartella_vuota\n"
+"    │   ├── file_b\n"
+"    │   └── sottocartella\n"
+"    │       └── file_c\n"
+"    └── cartellavuota\n"
 
 #. type: Plain text
 msgid "Produces the following result in */home/amnesia*:"
 msgstr "Produce il seguente risultato in */home/amnesia*:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "    /home/amnesia\n"
-#| "    ├── file_a → /live/persistence/TailsData_unlocked/dotfiles/file_a\n"
-#| "    └── folder\n"
-#| "        ├── file_b → /live/persistence/TailsData_unlocked/dotfiles/folder/file_b\n"
-#| "        └── subfolder\n"
-#| "            └── file_c → /live/persistence/TailsData_unlocked/dotfiles/folder/subfolder/file_c\n"
+#, no-wrap
 msgid ""
 "    /home/amnesia\n"
 "    ├── file_a → /live/persistence/TailsData_unlocked/dotfiles/file_a\n"
@@ -743,9 +685,11 @@ msgstr ""
 "    /home/amnesia\n"
 "    ├── file_a → /live/persistence/TailsData_unlocked/dotfiles/file_a\n"
 "    └── cartella\n"
-"        ├── file_b → /live/persistence/TailsData_unlocked/dotfiles/cartella/file_b\n"
-"        └── sottocartella\n"
-"            └── file_c → /live/persistence/TailsData_unlocked/dotfiles/cartella/sottocartella/file_c\n"
+"        ├── file_b → /live/persistence/TailsData_unlocked/dotfiles/cartella/"
+"file_b\n"
+"        └── sottocartella\n"
+"            └── file_c → /live/persistence/TailsData_unlocked/dotfiles/"
+"cartella/sottocartella/file_c\n"
 
 #. type: Plain text
 #, no-wrap
@@ -777,6 +721,8 @@ msgid ""
 "<p>Be careful if you use the Dotfiles feature to overwrite the default\n"
 "settings.</p>\n"
 msgstr ""
+"<p>Fai attenzione se utilizzi la funzionalità Dotfiles per sovrascrivere le "
+"impostazioni predefinite.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -784,6 +730,10 @@ msgid ""
 "<p>The programs included in Tails are carefully configured with security in\n"
 "mind. You can weaken your security if you change the defaults.</p>\n"
 msgstr ""
+"<p>I programmi inclusi in Tails sono stati accuratamente configurati in "
+"funzione della sicurezza.\n"
+"La sicurezza può essere indebolita se modifichi le impostazioni "
+"predefinite.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -792,6 +742,10 @@ msgid ""
 "Tails user from another. In some cases, changing the default settings can break\n"
 "your anonymity.</p>\n"
 msgstr ""
+"<p>L'anonimato di Tor e Tails si basa sulla difficoltà di distinguere un "
+"utente Tails da un altro.\n"
+"In alcuni casi, la modifica delle impostazioni predefinite può compromettere "
+"il tuo anonimato.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -823,29 +777,26 @@ msgid ""
 "Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Settings** to open "
 "the *Settings* utility."
 msgstr ""
+"Scegli **Applicationi**&nbsp;▸ **Strumenti di Sistema**&nbsp;▸ "
+"**Impostazioni** per aprire l'utility *Impostazioni*."
 
 #. type: Bullet: '1. '
 msgid "Choose **Displays** in the *Settings* utility."
-msgstr ""
+msgstr "Scegli **Display** nell'utility *Impostazioni*."
 
 #. type: Bullet: '1. '
 msgid "Configure your displays."
 msgstr "Configura i tuoi schermi."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Choose **Places**&nbsp;▸ **Dotfiles** to open the <span "
-#| "class=\"filename\">/live/persistence/TailsData_unlocked/dotfiles</span> "
-#| "folder in the <span class=\"application\">Files</span> browser."
 msgid ""
 "Choose **Places**&nbsp;▸ **Dotfiles** to open the <span class=\"filename\">/"
 "live/persistence/TailsData_unlocked/dotfiles</span> folder in the <span "
 "class=\"application\">Files</span> browser."
 msgstr ""
-"Scegli **Places**&nbsp;▸ **Dotfiles** per aprire <span class=\"filename\">/"
-"live/persistence/TailsData_unlocked/dotfiles</span> cartella nel <span "
-"class=\"application\">File</span> browser."
+"Scegli **Places**&nbsp;▸ **Dotfiles** per aprire <span class=\"nomefile\">/"
+"live/persistence/TailsData_unlocked/dotfiles</span> cartella nell' <span "
+"class=\"applicatione\">File</span> browser."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -877,10 +828,9 @@ msgstr ""
 "span>."
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "<p>To delete the files corresponding to a feature:</p>\n"
+#, no-wrap
 msgid "Deleting the data corresponding to a feature"
-msgstr "<p>Per eliminare i file corrispondenti a una funzionalità:</p>\n"
+msgstr "Eliminare i file corrispondenti a una funzionalità"
 
 #. type: Plain text
 #, fuzzy
