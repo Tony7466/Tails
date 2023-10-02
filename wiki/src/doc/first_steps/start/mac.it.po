@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-07-03 22:33+0000\n"
+"PO-Revision-Date: 2023-10-01 21:13+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -53,13 +53,7 @@ msgid "[[!inline pages=\"install/inc/steps/mac_startup_disks.inline\" raw=\"yes\
 msgstr "[[!inline pages=\"install/inc/steps/mac_startup_disks.inline.it\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"next\">\n"
-#| "<p>If the Boot Loader appears, you can continue reading our [[instructions\n"
-#| "on the Welcome Screen and configuring the Persistent\n"
-#| "Storage|install/mac/usb#welcome-screen]].</p>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"next\">\n"
 "<p>If the Boot Loader appears, you can follow our [[instructions\n"
@@ -67,9 +61,8 @@ msgid ""
 "</div>\n"
 msgstr ""
 "<div class=\"next\">\n"
-"<p>Se appare il Boot Loader, puoi continuare a leggere le nostre [[istruzioni\n"
-"nella schermata di benvenuto e configurare la funzione Archivio \n"
-"Persistente|install/mac/usb#welcome-screen]].</p>\n"
+"<p>Se si visualizza il Boot Loader, puoi seguire le nostre [[istruzioni\n"
+"sulla schermata di benvenuto|install/mac#tails]].</p>\n"
 "</div>\n"
 
 #. type: Plain text
@@ -127,6 +120,8 @@ msgstr "<p class=\"pre\">Potrebbe essersi verificato  un problema con questa imm
 #, no-wrap
 msgid "<p>Then, you have to [[install Tails using <i>balenaEtcher</i>|install/mac#etcher]].</p>\n"
 msgstr ""
+"<p>Poi, devi [[installare Tails usando <i>balenaEtcher</i>|install/"
+"mac#etcher]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -141,18 +136,14 @@ msgstr ""
 "noti</h2>\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Similar problems might have been reported already for your model of "
-#| "computer in our [[list of known issues|support/known_issues]]."
 msgid ""
 "Similar problems might have been reported already for your Mac model in our "
 "[[list of known issues about Tails not starting at all|support/"
 "known_issues#mac-not-at-all]]."
 msgstr ""
-"Problemi simili al tuo potrebbero essere già stati segnalati per il tuo "
-"modello di computer nella nostra [[lista dei problemi noti|support/"
-"known_issues]]."
+"Problemi simili potrebbero essere già stati segnalati per il tuo modello di "
+"Mac nel nostro [[elenco dei problemi noti relativi al mancato avvio di Tails|"
+"supporto/problemi_conosciuti#mac-not-at-all]]."
 
 #. type: Plain text
 #, no-wrap

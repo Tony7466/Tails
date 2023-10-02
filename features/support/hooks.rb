@@ -224,7 +224,7 @@ BeforeFeature('@product') do
     $vmstorage = VMStorage.new($virt, VM_XML_PATH)
     $started_first_product_feature = true
   end
-  ensure_chutney_is_running unless config_bool('DISABLE_CHUTNEY')
+  initialize_chutney unless config_bool('DISABLE_CHUTNEY')
 end
 
 AfterFeature('@product') do

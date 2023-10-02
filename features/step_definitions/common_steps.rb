@@ -80,6 +80,7 @@ def post_snapshot_restore_hook(snapshot_name, num_try)
     $vm.execute('systemctl stop tor@default.service')
     $vm.host_to_guest_time_sync
     already_synced_time_host_to_guest = true
+    wait_until_chutney_is_working unless config_bool('DISABLE_CHUTNEY')
     $vm.execute('systemctl start tor@default.service')
     wait_until_tor_is_working
   end
@@ -126,6 +127,7 @@ Then /^drive "([^"]+)" is detected by Tails$/ do |name|
 end
 
 Given /^the network is plugged$/ do
+  wait_until_chutney_is_working unless config_bool('DISABLE_CHUTNEY')
   $vm.plug_network
 end
 
@@ -136,10 +138,7 @@ end
 def activate_gnome_shell_menu_entry(label)
   gnome_shell = Dogtail::Application.new('gnome-shell')
   menu_entry = gnome_shell.child(label, roleName: 'label')
-  try_for(5) do
-    menu_entry.grabFocus
-    menu_entry.focused
-  end
+  menu_entry.grabFocus
   @screen.press('Return')
 end
 
@@ -410,12 +409,7 @@ Given /^I set the language to (.*) \((.*)\)$/ do |lang, lang_code|
   # The listboxrow does not expose any actions through AT-SPI,
   # so Dogtail is unable to click it directly. We let it grab focus
   # and activate it via the keyboard instead.
-  try_for(10) do
-    row = greeter
-          .child(description: 'Configure Language')
-    row.grabFocus
-    row.focused
-  end
+  greeter.child(description: 'Configure Language').grabFocus
   @screen.press('Return')
   try_for(10) do
     greeter
@@ -468,11 +462,7 @@ Given /^I log in to a new session(?: in ([^ ]*) \(([^ ]*)\))?( without activatin
 end
 
 def open_greeter_additional_settings
-  button = greeter.child('Add an additional setting', roleName: 'push button')
-  try_for(5) do
-    button.grabFocus
-    button.focused
-  end
+  greeter.child('Add an additional setting', roleName: 'push button').grabFocus
   @screen.press('Return')
 
   greeter.child('Additional Settings', roleName: 'dialog')
@@ -484,18 +474,10 @@ end
 
 Given /^I disable networking in Tails Greeter$/ do
   dialog = open_greeter_additional_settings
-  row = dialog.child(description: 'Configure Offline Mode')
-  try_for(5) do
-    row.grabFocus
-    row.focused
-  end
+  dialog.child(description: 'Configure Offline Mode').grabFocus
   @screen.press('Return')
 
-  row = dialog.child('Disable all networking').parent.parent
-  try_for(5) do
-    row.grabFocus
-    row.focused
-  end
+  dialog.child('Disable all networking').parent.parent.grabFocus
   @screen.press('Return')
 end
 
@@ -783,14 +765,7 @@ Given /^all notifications have disappeared$/ do
       roleName: 'label', retry: false
     )
     unless no_notifications
-      try_for(3) do
-        button = gnome_shell.child(
-          'Clear',
-          roleName: 'push button'
-        )
-        button.grabFocus
-        button.focused
-      end
+      gnome_shell.child('Clear', roleName: 'push button').grabFocus
       @screen.press('Return')
       gnome_shell.child?('No Notifications', roleName: 'label')
     end
@@ -906,12 +881,9 @@ Given /^I shutdown Tails and wait for the computer to power off$/ do
 end
 
 def open_gnome_menu(name)
-  menu = Dogtail::Application.new('gnome-shell')
-                             .child(name, roleName: 'menu')
-  try_for(5) do
-    menu.grabFocus
-    menu.focused
-  end
+  Dogtail::Application.new('gnome-shell')
+    .child(name, roleName: 'menu')
+    .grabFocus
   @screen.press('Return')
 end
 
@@ -931,11 +903,7 @@ When /^I request a (shutdown|reboot) using the system menu$/ do |action|
                    else
                      'Restart'
                    end
-  try_for(5) do
-    menu_item = gnome_shell.child(menu_item_name, roleName: 'label')
-    menu_item.grabFocus
-    menu_item.focused
-  end
+  gnome_shell.child(menu_item_name, roleName: 'label').grabFocus
   @screen.press('Return')
 end
 
@@ -1147,14 +1115,7 @@ When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) dire
     # Select the "Tor Browser (persistent)" bookmark in the file chooser's
     # sidebar. It doesn't expose an action via the accessibility API, so we
     # have to grab focus and use the keyboard to activate it.
-    try_for(3) do
-      bookmark = file_dialog.child(
-        description: output_dir,
-        roleName:    'list item'
-      )
-      bookmark.grabFocus
-      bookmark.focused
-    end
+    file_dialog.child(description: output_dir, roleName: 'list item').grabFocus
     @screen.press('Space')
   when 'default downloads'
     output_dir = "/home/#{LIVE_USER}/Tor Browser"

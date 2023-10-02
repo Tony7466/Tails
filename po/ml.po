@@ -1446,11 +1446,6 @@ msgstr "ടെയിൽ‌സിന്റെ ഈ പതിപ്പിന് അ
 msgid "Known security issues"
 msgstr "അറിയപ്പെടുന്ന സുരക്ഷാ പ്രശ്നങ്ങൾ"
 
-#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:56
-#, sh-format
-msgid "Network card ${nic} disabled"
-msgstr "നെറ്റ്‌വർക്ക് കാർഡ് ${nic} പ്രവർത്തനരഹിതമാക്കി"
-
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:57
 #, sh-format
 msgid ""

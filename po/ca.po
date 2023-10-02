@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-08-20 10:49+0000\n"
+"PO-Revision-Date: 2023-09-26 19:00+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/tor/tails-gui/ca/"
 ">\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -656,7 +656,7 @@ msgstr "L'actualització s'ha baixat correctament"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:758
 msgid "Apply upgrade"
-msgstr "Aplicar actualització"
+msgstr "Aplica l'actualització"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:765
 msgid ""
@@ -2535,7 +2535,7 @@ msgstr ""
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
-msgstr "Informa d'un error"
+msgstr "Informe d'error"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
@@ -2570,7 +2570,7 @@ msgstr "Aprèn més sobre Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:1
 msgid "Back Up Persistent Storage"
-msgstr "Fes una còpia de seguretat de l'Emmagatzematge Persistent"
+msgstr "Còpia de seguretat de l'Emmagatzematge Persistent"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
 msgid ""
@@ -2617,7 +2617,7 @@ msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:1
 msgid "WhisperBack Error Reporting"
-msgstr "Informe d'errors del WhisperBack"
+msgstr "Informe d'errors de WhisperBack"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:2
 msgid "Send feedback via encrypted e-mail"
@@ -3690,7 +3690,7 @@ msgstr "S'està connectant al Tor…"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2007
 msgid "Start Tor Browser"
-msgstr "Inicia el navegador Tor"
+msgstr "Inicia el Navegador Tor"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2026
 msgid "Open Network Monitor"

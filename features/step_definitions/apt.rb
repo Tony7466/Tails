@@ -199,13 +199,9 @@ Then /^I install "(.+)" using Synaptic$/ do |package_name|
     find_dialog.button('Search').click
     package_list = @synaptic.child('Installed Version',
                                    roleName: 'table column header').parent
-    package_entry = package_list.child(package_name, roleName: 'table cell')
     # We need to wait for the synaptic UI to get responsive after the
     # search has completed.
-    try_for(10) do
-      package_entry.grabFocus
-      package_entry.focused
-    end
+    package_list.child(package_name, roleName: 'table cell').grabFocus
     @screen.press('Return')
     # Now we have marked the package for installation and we have to
     # wait for the Apply button to become available

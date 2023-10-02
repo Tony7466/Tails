@@ -446,11 +446,7 @@ Given /^I change the passphrase of the Persistent Storage( back to the original)
   # modal dialog to be run via gtk_dialog_run() which causes the
   # application to hang when triggered via a ATSPI action. See
   # https://gitlab.gnome.org/GNOME/gtk/-/issues/1281
-  button = persistent_storage_main_frame.button('Change Passphrase')
-  try_for(5) do
-    button.grabFocus
-    button.focused
-  end
+  persistent_storage_main_frame.button('Change Passphrase').grabFocus
   @screen.press('Return')
   change_passphrase_dialog = persistent_storage_frontend
                              .child('Change Passphrase', roleName: 'dialog')
@@ -648,16 +644,8 @@ Then /^a Tails persistence partition exists( with LUKS version 1)? on USB drive 
 end
 
 Given /^I try to enable persistence( with the changed passphrase)?$/ do |with_changed_passphrase|
-  # @type [Dogtail::Node]
-  passphrase_entry = nil
-  try_for(60) do
-    passphrase_entry = greeter
-                       .child(roleName: 'password text')
-    passphrase_entry.grabFocus
-    passphrase_entry.focused
-  end
-  assert !passphrase_entry.nil?
-
+  passphrase_entry = greeter.child(roleName: 'password text')
+  passphrase_entry.grabFocus
   password = if with_changed_passphrase
                @changed_persistence_password
              else
@@ -1097,17 +1085,11 @@ end
 When /^I delete the persistent partition$/ do
   step 'I start "Persistent Storage" via GNOME Activities Overview'
 
-  delete_btn = persistent_storage_main_frame.button('Delete Persistent Storage')
-  assert delete_btn
-
   # If we just do delete_btn.click, then dogtail won't find tps-frontend anymore.
   # Related to https://gitlab.gnome.org/GNOME/gtk/-/issues/1281 mentioned
   # elsewhere in this file?
   # That's probably a bug somewhere, and this is a simple workaround
-  try_for(5) do
-    delete_btn.grabFocus
-    delete_btn.focused
-  end
+  persistent_storage_main_frame.button('Delete Persistent Storage').grabFocus
   @screen.press('Return')
 
   persistent_storage_frontend

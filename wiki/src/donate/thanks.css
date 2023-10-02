@@ -90,7 +90,7 @@
   width: 290px;
   color: black !important;
   text-decoration: none;
-  border: 1px solid #b5b7b9 !important;
+  border: 1px solid var(--medium-light-gray) !important;
   border-radius: 20px;
   padding: 20px !important;
   font-size: 16px;
@@ -126,9 +126,9 @@
   margin: 20px 0 0 0;
   padding: 1em 0.5em;
   text-align: center;
-  box-shadow: 1px 1px 5px #ccc;
+  box-shadow: 1px 1px 5px var(--medium-light-gray);
   width: 100%;
-  background: #53b351;
+  background: var(--medium-light-green);
 }
 
 @media (max-width: 986px) {

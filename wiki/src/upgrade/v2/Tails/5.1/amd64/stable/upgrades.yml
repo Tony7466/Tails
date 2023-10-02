@@ -4,17 +4,17 @@ channel: stable
 initial-install-version: '5.1'
 product-name: Tails
 upgrades:
-- details-url: https://tails.net/news/version_5.17/
+- details-url: https://tails.net/news/version_5.17.1/
   type: major
   upgrade-paths:
   - target-files:
-    - sha256: ffd90d74aedaba1d68dbc07359253a57769b8049b25ce982fdd090fa0491e4d4
+    - sha256: 108b6303addec2e1af6d326000fb67199b9309cbf31d5506846cf8f0c2da7aba
       size: 1316044800
-      url: https://download.tails.net/tails/stable/tails-amd64-5.17/tails-amd64-5.17.iso
+      url: https://download.tails.net/tails/stable/tails-amd64-5.17.1/tails-amd64-5.17.1.iso
     type: full
   - target-files:
-    - sha256: 8e3d57505f8ac3902524a31469d02615f7e1dd35f6b174aaeb442dffa7bafcab
-      size: 661102592
-      url: https://download.tails.net/tails/stable/iuk/v2/Tails_amd64_5.1_to_5.17.iuk
+    - sha256: 97e280045d958ae3a286d2e7f088a19d141ae4ce3a24091e6cb0353fd3ab78c6
+      size: 662597632
+      url: https://download.tails.net/tails/stable/iuk/v2/Tails_amd64_5.1_to_5.17.1.iuk
     type: incremental
-  version: '5.17'
+  version: 5.17.1
