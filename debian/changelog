@@ -1,4 +1,4 @@
-tails (5.18) UNRELEASED; urgency=medium
+tails (5.18) unstable; urgency=medium
 
   * Resolve "Upgrade Tor Browser to 12.5.6" (tails/tails!1253)
 
@@ -68,7 +68,7 @@ tails (5.18) UNRELEASED; urgency=medium
       - Test suite: debug_log chutney events instead of puts:ing
       - Test suite: defer the chutney bootstrap check until we need Tor
 
- -- Tails developers <tails@boum.org>  Mon, 02 Oct 2023 08:13:03 +0000
+ -- Tails developers <tails@boum.org>  Mon, 02 Oct 2023 11:26:32 +0200
 
 tails (5.17.1) unstable; urgency=medium
 
