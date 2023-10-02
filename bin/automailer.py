@@ -16,10 +16,12 @@ import tempfile
 from pathlib import Path
 import subprocess
 from typing import List
+from functools import lru_cache
 
 from xdg.BaseDirectory import xdg_config_home  # type: ignore
 
 
+@lru_cache(maxsize=1)
 def read_config() -> dict:
     config_files = sorted((Path(xdg_config_home) / "tails/automailer/").glob("*.toml"))
     if not config_files:
@@ -72,13 +74,14 @@ def mailer_thunderbird(body: str):
     if attachments:
         spec.append("attachment='%s'" % ",".join(attachments))
 
+    thunderbird_cmd = read_config().get('thunderbird_cmd', ['thunderbird'])
     with tempfile.TemporaryDirectory() as tmpdir:
         fpath = Path(tmpdir) / "email.eml"
         with fpath.open("w") as fp:
             fp.write(body)
         spec.append("format=text")
         spec.append(f"message={fpath}")
-        cmdline = ["thunderbird", "-compose", ",".join(spec)]
+        cmdline = thunderbird_cmd + ["-compose", ",".join(spec)]
         subprocess.check_output(cmdline)
 
         # this is a workaround to the fact that Thunderbird will terminate *before* reading the file
