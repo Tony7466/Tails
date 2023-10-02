@@ -12,7 +12,7 @@
 }
 
 #unsafe {
-  background: #ffd500 url(warning.png) no-repeat left 15px center !important;
+  background: var(--yellow) url(warning.png) no-repeat left 15px center !important;
   padding-top: 20px;
   padding-left: 80px;
   padding-bottom: 1px;

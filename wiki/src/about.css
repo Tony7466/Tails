@@ -55,11 +55,11 @@ section {
 }
 
 h1 {
-  color: #56347c;
+  color: var(--medium-purple);
 }
 
 .metaphor {
-  color: #666;
+  color: var(--medium-dark-gray);
   font-size: 15px;
 }
 
@@ -68,7 +68,7 @@ h1 {
 }
 
 .medium {
-  color: #666;
+  color: var(--medium-dark-gray);
 }
 
 .links {

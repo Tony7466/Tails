@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-03-15 23:28+0000\n"
+"PO-Revision-Date: 2023-10-01 21:12+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -337,7 +337,7 @@ msgstr "Documentazione di riferimento"
 
 #. type: Bullet: '  - '
 msgid "[[Mission and values|contribute/mission]]"
-msgstr "[[Mission and values|contribute/mission]]"
+msgstr "[[Missione e principi|contribute/mission]]"
 
 #. type: Bullet: '  - '
 msgid "[[Design documents|contribute/design]]"
@@ -525,7 +525,7 @@ msgstr "[[Codice di condotta|contribute/working_together/code_of_conduct]]"
 
 #. type: Bullet: '  - '
 msgid "[[Social contract|doc/about/social_contract]]"
-msgstr ""
+msgstr "[[Il contratto sociale|doc/about/social_contract]]"
 
 #. type: Bullet: '  - '
 msgid "[[People|contribute/working_together/people]]"

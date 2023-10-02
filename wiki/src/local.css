@@ -1,13 +1,33 @@
-/*
-Tails custom colors: see tails_ticket#14836
-dark purple: #3a2354 hsl(268,58,33)
-medium purple (logo): #56347c hsl(268,58,49)
-light purple: #9f73d2 hsl(269,45,82)
-dark green: #276426 hsl(119,62,39)
-medium dark green (links): #3b833a hsl(119,98,94) // Passes WebAIM contrast check for small text on white background
-medium light green (buttons): #53b351 hsl(119,55,70)
-light green: #73d171 hsl(119,46,82)
+/* Color palette */
+:root {
+  /* Purple */
+  --dark-purple: #3a2354;
+  --medium-purple: #56347c; /* logo */
+  --light-purple: #9f73d2;
+  --background-purple: #f3edf9;
 
+  /* Green */
+  --dark-green: #276426;
+  --medium-dark-green: #3b833a;
+  --medium-light-green: #53b351; /* buttons */
+  --light-green: #73d171;
+  --background-green: #a8ffa0;
+
+  /* Gray */
+  --dark-gray: #393a35;
+  --medium-dark-gray: #58595b;
+  --medium-light-gray: #b5b7b9;
+  --light-gray: #dadbdc;
+  --background-gray: #f0f1f2;
+
+  /* Misc */
+  --yellow: #ffd500;
+  --light-yellow: #ffec8c;
+  --background-yellow: #fffff0;
+  --red: #ef1f31;
+}
+
+/*
 Tails font style:
 Some text sizing use ems with decimals to calculate round pixel numbers by
 default, when the user does not resize the text.
@@ -184,10 +204,10 @@ div#feedlink {
 }
 
 .toc {
-  border-top: thin solid dimgray;
-  border-left: thin solid dimgray;
-  border-bottom: thin dotted darkgrey;
-  border-right: thin dotted darkgrey;
+  border-top: thin solid var(--dark-gray);
+  border-left: thin solid var(--dark-gray);
+  border-bottom: thin dotted var(--background-gray);
+  border-right: thin dotted var(--background-gray);
   float: none;
   margin: 1em 0;
   max-width: 45em;
@@ -195,13 +215,13 @@ div#feedlink {
 }
 
 blockquote > p {
-  border-left: 2px solid #53b351;
+  border-left: 2px solid var(--light-purple);
   padding-left: 5px;
-  background: #f5f5f5;
+  background: var(--background-gray);
 }
 
 blockquote > p:hover {
-  background: #eeeeee;
+  background: var(--background-gray);
 }
 
 /* Tables */
@@ -221,11 +241,11 @@ th, td {
 }
 
 th {
-  background: #9f73d2;
+  background: var(--light-purple);
 }
 
 tr:nth-child(odd) {
-  background: #eee;
+  background: var(--background-gray);
 }
 
 td.check, td.cross {
@@ -269,7 +289,7 @@ table.img, table.img td {
 table.img caption, .image .caption {
   font-size: 90%;
   font-style: italic;
-  color: #58595b;
+  color: var(--medium-dark-gray);
   margin: 1em 0;
   max-width: 100%;
 }
@@ -305,7 +325,7 @@ button, input, textarea {
 }
 
 input:focus, textarea:focus {
-  outline: 2px solid #53b351;
+  outline: 2px solid var(--light-green);
 }
 
 /* Layout */
@@ -329,7 +349,7 @@ header.title { /* override style.css */
 /* Banner */
 
 #banner {
-  background: #56347c;
+  background: var(--medium-purple);
   margin: 0 auto;
   max-width: 986px;
   border: none;
@@ -375,12 +395,12 @@ header.title { /* override style.css */
 }
 
 #searchform button {
-  background: #53b351 url(lib/search.png) no-repeat center;
+  background: var(--medium-light-green) url(lib/search.png) no-repeat center;
   width: 40px;
   border: 0;
   border-top-right-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
-  box-shadow: 1px 1px 1px #170036, 1px 1px 4px #280a4d, inset 1px 1px 1px #a8ffa0;
+  box-shadow: 1px 1px 1px black, 1px 1px 4px var(--dark-gray), inset 1px 1px 1px var(--background-green);
   cursor: pointer;
 }
 
@@ -398,7 +418,7 @@ label[for="searchbox"]{
 }
 
 #donate a {
-  background: #53b351;
+  background: var(--medium-light-green);
   color: black !important;
   font-size: 13px;
   font-weight: bold;
@@ -406,7 +426,7 @@ label[for="searchbox"]{
   padding: 0.2em;
   display: flex;
   justify-content: center;
-  box-shadow: 1px 1px 1px #170036, 1px 1px 4px #280a4d, inset 1px 1px 1px #a8ffa0;
+  box-shadow: 1px 1px 1px black, 1px 1px 4px var(--dark-gray), inset 1px 1px 1px var(--background-green);
   width: 180px;
   height: 28px;
 }
@@ -465,7 +485,7 @@ label[for="searchbox"]{
   max-width: 986px;
   margin: 0 auto;
   padding-left: 30px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--background-gray);
 }
 
 .topbar ul {
@@ -495,11 +515,11 @@ label[for="searchbox"]{
 
 .topbar a:hover {
   text-decoration: none;
-  border-bottom: 5px solid #73d171 !important;
+  border-bottom: 5px solid var(--medium-light-green) !important;
 }
 
 .topbar .selflink {
-  border-bottom: 5px solid #276426;
+  border-bottom: 5px solid var(--dark-green);
 }
 
 @media (min-width: 810px) {
@@ -521,7 +541,7 @@ label[for="searchbox"]{
 }
 
 #crumbs {
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid var(--light-gray);
   margin: 0 -2em;
   padding-left: 30px;
   max-width: 110%;
@@ -536,7 +556,7 @@ label[for="searchbox"]{
 
 #crumbs li {
   display: inline-block;
-  color: #666;
+  color: var(--medium-dark-gray);
   padding-right: 12px;
 }
 
@@ -554,7 +574,7 @@ label[for="searchbox"]{
 
 #crumbs li a:link,
 #crumbs li a:visited {
-  color: #666;
+  color: var(--medium-dark-gray);
   text-decoration: none;
 }
 
@@ -588,7 +608,7 @@ label[for="searchbox"]{
 }
 
 .pageheader #otherlanguages li a {
-  color: #666;
+  color: var(--medium-dark-gray);
   text-decoration: none;
 }
 
@@ -601,9 +621,9 @@ label[for="searchbox"]{
 }
 
 .pageheader #otherlanguages ul li:hover, .pageheader #otherlanguages ul li.current{
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid var(--medium-light-green);
   text-decoration: none;
-  background: #EEEEEE;
+  background: var(--background-gray);
 }
 
 .pageheader #otherlanguages ul li.master, .pageheader #otherlanguages ul li:hover.master  {
@@ -643,8 +663,8 @@ span.title {
   font-size: 2.8em;
   line-height: 1em;
   display: block;
-  color: #56347c;
-  border-left: 10px solid #444444;
+  color: var(--medium-purple);
+  border-left: 10px solid var(--dark-gray);
   padding-left: 18px;
   margin-left: -28px;
 }
@@ -658,13 +678,12 @@ div.title span.date {
 /* Links */
 
 a {
-  color: #666;
   text-decoration: none;
 }
 
 #pagebody a {
-  color: #3b833a;
-  border-bottom: 1px solid #3b833a;
+  color: var(--medium-dark-green);
+  border-bottom: 1px solid var(--medium-dark-green);
 }
 
 #pagebody a:hover {
@@ -672,8 +691,8 @@ a {
 }
 
 #pagebody a:visited {
-  color: #276426;
-  border-color: #276426;
+  color: var(--dark-green);
+  border-color: var(--dark-green);
 }
 
 /* test inside and outside links */
@@ -699,9 +718,9 @@ a {
 
 #talk h1, #bugs h1, #wishlist h1, #tools h1 {
   margin-top: 18px;
-  color: #56347c;
+  color: var(--medium-purple);
   line-height: 1.6em;
-  border-bottom: 5px solid #56347c;
+  border-bottom: 5px solid var(--medium-purple);
 }
 
 #talk h1 {
@@ -783,11 +802,11 @@ div.blocks img {
 
 .button {
   color: black !important;
-  background: #53b351 !important;
+  background: var(--medium-light-green) !important;
   border: none !important;
   padding: 6px 12px !important;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px #777, 2px 2px 10px #bbb, inset 2px 2px 2px #a8ffa0;
+  box-shadow: 1px 1px 1px var(--medium-dark-gray), 2px 2px 10px var(--light-gray), inset 2px 2px 2px var(--background-green);
   display: inline-block;
   cursor: pointer;
   margin-bottom: 1.5em;
@@ -799,7 +818,7 @@ div.blocks img {
 }
 
 .cfa a {
-  background: #53b351 !important;
+  background: var(--medium-light-green) !important;
   color: black !important;
   font-size: 24px;
   font-weight: bold;
@@ -807,7 +826,7 @@ div.blocks img {
   padding: 1em 0.5em;
   display: block;
   text-align: center;
-  box-shadow: 2px 2px 2px #777, 2px 2px 10px #bbb, inset 2px 2px 2px #a8ffa0;
+  box-shadow: 1px 1px 1px var(--medium-dark-gray), 2px 2px 10px var(--light-gray), inset 2px 2px 2px var(--background-green);
   width: 100%;
   font-family: "Source Sans Pro Regular", "DejaVu Sans", "Verdana", sans-serif;
 }
@@ -816,7 +835,7 @@ div.blocks img {
 
 #pagebody div.toggleable {
   position: relative;
-  background: #f3edf9;
+  background: var(--background-purple);
   border-top: solid 5px black;
   border-bottom: solid 5px black;
   padding: 15px 2em;
@@ -837,8 +856,8 @@ div.blocks img {
 #pagebody .floating-toggleable div.toggleable {
   display: none;
   background: white;
-  border: 1px solid #53b351;
-  box-shadow: 5px 5px #53b351;
+  border: 1px solid var(--medium-light-green);
+  box-shadow: 5px 5px var(--medium-light-green);
   padding: 15px 30px;
   margin: 0;
   position: absolute;
@@ -882,7 +901,7 @@ span.bold { font-weight: bold; }
 span.code, span.command {
   font-family: "Source Code Pro Regular", "Courier", monospace;
   font-size: 1.071em; /* 14×1.071=15px */
-  border: 1px solid #E0E0DF;
+  border: 1px solid var(--light-gray);
   padding-left: 0.2em;
   padding-right: 0.2em;
 }
@@ -896,8 +915,8 @@ span.keycap { font-weight: bold; }
 span.menuchoice { font-weight: bold; }
 span.replaceable { font-style: italic; }
 div.bug, div.caution, div.next, div.note, div.tip, div.trophy, div.attack {
-  background-color: #FFFFF0;
-  border: 1px solid #E0E0DF;
+  background-color: var(--background-yellow);
+  border: 1px solid var(--light-gray);
   border-radius: 4px;
   padding: 1.5em 6px 0em;
   background-position: 6px 0.5em;
@@ -950,9 +969,9 @@ code {
 }
 
 pre, p.pre {
-  background-color: #eee;
-  border: thin solid #ccc;
-  color: #444;
+  background-color: var(--background-gray);
+  border: thin solid var(--medium-light-gray);
+  color: var(--dark-gray);
   margin: 1.5em 1em 1.5em 1.5em;
   padding: 0.25em 0.5em;
   max-width: 61em !important;
@@ -969,7 +988,7 @@ p.command-example, p.command-output {
 }
 
 span.command-placeholder {
-  color: #ec407a;
+  color: var(--red);
   font-style: italic;
   font-family: "Source Code Pro Regular", "Courier", monospace;
   font-weight: bold;
@@ -1015,7 +1034,7 @@ div.contribute-role img {
 /* Highlight */
 
 div#highlight {
-  border: 5px solid #56347c;
+  border: 5px solid var(--medium-purple);
   width: 44em;
   padding: 0.5em 1em;
   border-radius: 0.5em;
@@ -1030,10 +1049,10 @@ div#highlight p {
   border-bottom: none;
   width: 100%;
   display: block;
-  box-shadow: 1px 1px 5px #ccc;
+  box-shadow: 1px 1px 5px var(--medium-light-gray);
   border-radius: 0.5em;
   padding: 0.5em 1em;
-  background: #53b351 url('lib/donate.png') no-repeat scroll 10px 50% !important;
+  background: var(--medium-light-green) url('lib/donate.png') no-repeat scroll 10px 50% !important;
   font-size: 26px;
   padding-left: 70px;
   line-height: 1em;
@@ -1105,23 +1124,39 @@ div#highlight p {
   font-weight: bold;
 }
 
-/* Accessible color palette */
 
-.blue   .key-label:before { background-color: #5da5da; }
-.orange .key-label:before { background-color: #faa43a; }
-.green  .key-label:before { background-color: #60bd68; }
-.pink   .key-label:before { background-color: #f17cb0; }
-.brown  .key-label:before { background-color: #b2912f; }
-.purple .key-label:before { background-color: #b276b2; }
-.yellow .key-label:before { background-color: #decf3f; }
+.chart {
+  /* Accessible color palette */
+  --blue:     #5da5da;
+  --orange:   #faa43a;
+  --green:    #60bd68;
+  --pink:     #f17cb0;
+  --brown:    #b2912f;
+  --purple:   #b276b2;
+  --yellow:   #decf3f;
 
-/* Tails color palette */
+  /* Tails color palette */
+  --purple-1: #7a478b;
+  --purple-2: #9c6bad;
+  --purple-3: #af97c7;
+  --green-1:  var(--medium-light-green);
+  --gray:     var(--light-gray);
+}
 
-.purple-1 .key-label:before { background-color: #7a478b; }
-.purple-2 .key-label:before { background-color: #9c6bad; }
-.purple-3 .key-label:before { background-color: #af97c7; }
-.green    .key-label:before { background-color: #53b351; }
-.gray     .key-label:before { background-color: #dadbdc; }
+.blue   .key-label:before { background-color: var(--blue); }
+.orange .key-label:before { background-color: var(--orange); }
+.green  .key-label:before { background-color: var(--green); }
+.pink   .key-label:before { background-color: var(--pink); }
+.brown  .key-label:before { background-color: var(--brown); }
+.purple .key-label:before { background-color: var(--purple); }
+.yellow .key-label:before { background-color: var(--yellow); }
+
+
+.purple-1 .key-label:before { background-color: var(--purple-1); }
+.purple-2 .key-label:before { background-color: var(--purple-2); }
+.purple-3 .key-label:before { background-color: var(--purple-3); }
+.green-1  .key-label:before { background-color: var(--green-1); }
+.gray     .key-label:before { background-color: var(--gray); }
 
 .embedded {
   display: none;
@@ -1130,7 +1165,7 @@ div#highlight p {
 /* Footer */
 
 #footer {
-  background: #58595b;
+  background: var(--medium-dark-gray);
   margin: 0 auto;
   max-width: 986px;
   padding: 30px;

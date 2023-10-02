@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-24 19:56+0000\n"
+"POT-Creation-Date: 2023-09-19 19:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "Tails"
 msgstr ""
 
@@ -49,7 +49,7 @@ msgstr ""
 msgid "[[News|news]]"
 msgstr ""
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "Support"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr ""
 msgid "[[Upgrade|upgrade]]"
 msgstr ""
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "Contribute"
 msgstr ""
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid "[[Donate|donate]]"
 msgstr ""
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "About us"
 msgstr ""
 
@@ -129,7 +129,7 @@ msgstr ""
 msgid "[[Jobs|jobs]]"
 msgstr ""
 
-#. type: Content of: <div><h3>
+#. type: Content of: <div><h5>
 msgid "News"
 msgstr ""
 
