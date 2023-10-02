@@ -454,6 +454,9 @@ Update other base branches
 
         ./bin/merge-main-branch "${RELEASE_BRANCH:?}" devel
 
+   If you did *not* proceed with the merge, it means you're in a non-standard
+   situation, and need to investigate what's appropriate to do.
+
 2. [[Thaw|APT_repository/time-based_snapshots#thaw]], on the devel
    branch, the time-based APT repository snapshots being used
    during the freeze:
