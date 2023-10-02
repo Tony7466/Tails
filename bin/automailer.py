@@ -20,6 +20,18 @@ from functools import lru_cache
 
 from xdg.BaseDirectory import xdg_config_home  # type: ignore
 
+LONG_HELP = """
+## Configuration
+
+To configure automailer, put config files in ~/.config/tails/automailer/*.toml
+
+Supported options are:
+ - mailer: must be a string. supported values are
+   - "print"
+   - "thunderbird"
+   - "notmuch"
+ - thunderbird_cmd: must be a list of strings. default value is ["thunderbird"].
+"""
 
 @lru_cache(maxsize=1)
 def read_config() -> dict:
@@ -137,6 +149,7 @@ def add_parser_mailer(parser: ArgumentParser, config: dict):
 def get_parser():
     config = read_config()
     argparser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
+    argparser.add_argument("--long-help", action='store_true', default=False)
     add_parser_mailer(argparser, config)
     return argparser
 
@@ -144,5 +157,8 @@ def get_parser():
 if __name__ == "__main__":
     parser = get_parser()
     args = parser.parse_args()
+    if args.long_help:
+        print(LONG_HELP)
+        sys.exit(0)
     body = sys.stdin.read()
     mailer(args.mailer, body)
