@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-03-09 14:29+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"PO-Revision-Date: 2023-10-01 21:13+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -85,13 +85,15 @@ msgstr "<h1 class=\"step\">Continua a installare o aggiornare Tails</h1>\n"
 
 #. type: Plain text
 msgid "With this ISO image, you can either:"
-msgstr ""
+msgstr "Con questa immagine ISO è possibile:"
 
 #. type: Plain text
 msgid ""
 "- [[Burn a Tails DVD|dvd]] - [[Use Tails in a virtual machine|doc/"
 "advanced_topics/virtualization]]"
 msgstr ""
+"- [[Masterizzare un DVD di Tails|dvd]] - [[Usare Tails in una macchina "
+"virtuale|doc/advanced_topics/virtualization]"
 
 #. type: Plain text
 msgid ""

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-06-13 14:17+0200\n"
-"PO-Revision-Date: 2023-07-03 22:33+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"PO-Revision-Date: 2023-10-01 21:13+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "To sign in to a network using a captive portal:"
-msgstr "Accedere a una rete usando un  captive portal:"
+msgstr "Accedere a una rete utilizzando un captive portal:"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -94,16 +94,12 @@ msgstr ""
 "   e prova a connetterti alla rete Tor di nuovo.\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "After Tor is ready, close <span class=\"warning\">this browser.</span> "
-#| "<span class=\"doc\">the <i>Unsafe Browser</i>.</span>"
 msgid ""
 "After Tails is connected to Tor, close <span class=\"warning\">this browser."
 "</span> <span class=\"doc\">the <i>Unsafe Browser</i>.</span>"
 msgstr ""
-"Quando Tor è pronto, chiudi <span class=\"warning\">questo browser.</span> "
-"<span class=\"doc\">the <i>Unsafe Browser</i>.</span>"
+"Quando Tails è connesso a Tor, chiudi <span class=\"warning\">questo "
+"browser.</span> <span class=\"doc\">il <i>Browser Non Sicuro</i>.</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -118,6 +114,13 @@ msgid ""
 "   If you keep the <i>Unsafe Browser</i> open, a very advanced network attacker\n"
 "   might use it to deanonymize you.</p>\n"
 msgstr ""
+"   <p>È particolarmente importante che tu chiuda il <i>Browser Non Sicuro</"
+"i> se\n"
+"   utilizzi funzionalità di accessibilità come la tastiera a schermo o lo "
+"Screen Reader.\n"
+"   Se tieni aperto il <i>Browser Non Sicuro</i> , un aggressore di rete "
+"molto esperto\n"
+"   potrebbe usarlo per toglierti l'anonimato.</p>\n"
 
 #. type: Plain text
 #, no-wrap

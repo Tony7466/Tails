@@ -71,14 +71,14 @@
 }
 
 .btn-primary {
-  background-color: #53b351 !important;
-  border-color: #53b351 !important;
+  background-color: var(--medium-light-green) !important;
+  border-color: var(--medium-light-green) !important;
   color: black;
 }
 
 .btn-primary.active, .btn-primary.active:hover {
-  background-color: #276426 !important;
-  border-color: #276426 !important;
+  background-color: var(--dark-green) !important;
+  border-color: var(--dark-green) !important;
   color: white;
 }
 
@@ -87,8 +87,8 @@
 }
 
 .btn-primary:hover {
-  background-color: #428f40 !important;
-  border-color: #428f40 !important;
+  background-color: var(--medium-dark-green) !important;
+  border-color: var(--medium-dark-green) !important;
   color: black;
 }
 
@@ -117,7 +117,7 @@
 .shake {
   animation: shake 1s;
   display: inline-block;
-  border-color: #ef1f31 !important;
+  border-color: var(--red) !important;
 }
 
 @keyframes shake {
@@ -134,7 +134,7 @@
 
 .tax-deductible {
   font-size: 11px;
-  color: #666;
+  color: var(--medium-dark-gray);
 }
 
 .amounts .btn {
@@ -169,13 +169,13 @@
 #email {
   display: none;
   font-size: 11px;
-  color: #666;
+  color: var(--medium-dark-gray);
   margin-bottom: 0;
 }
 
 p.email {
   font-size: 11px;
-  color: #666;
+  color: var(--medium-dark-gray);
 }
 
 /* Version without JavaScript */
@@ -201,7 +201,7 @@ p.email {
 /* Other ways */
 
 h4 {
-  color: #56347c;
+  color: var(--medium-purple);
 }
 
 p+h4, div+h4 {
@@ -220,7 +220,7 @@ h5 {
 
 #other-ways-1, #other-ways-2, #other-ways-3, #income {
   margin-top: 2em;
-  background: #f5f5f5;
+  background: var(--background-gray);
   box-sizing: border-box;
   padding-bottom: 1.5em;
 }
