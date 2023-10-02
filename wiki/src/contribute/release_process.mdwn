@@ -158,6 +158,10 @@ To release Tails you need:
   `config/release_management/examples/local.yml` there and adjust to your
   local environment.
 
+* Optional: configure _automailer_ by running `./bin/automailer.py --long-help`,
+  which will give you tips on how to configure it. This will make sending emails
+  a bit easier.
+
 Environment
 ===========
 
