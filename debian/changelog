@@ -1,3 +1,9 @@
+tails (5.19) UNRELEASED; urgency=medium
+
+  * Dummy entry for next release.
+
+ -- boyska <boyska@riseup.net>  Tue, 03 Oct 2023 12:42:21 +0200
+
 tails (5.18) unstable; urgency=medium
 
   * Resolve "Upgrade Tor Browser to 12.5.6" (tails/tails!1253)
