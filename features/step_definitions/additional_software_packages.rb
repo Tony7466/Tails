@@ -40,12 +40,9 @@ def click_gnome_shell_notification_button(title)
   # The notification buttons do not expose any actions through AT-SPI,
   # so Dogtail is unable to click it directly. We let it grab focus
   # and activate it via the keyboard instead.
-  try_for(10) do
-    button = Dogtail::Application.new('gnome-shell')
-                                 .child(title, roleName: 'push button')
-    button.grabFocus
-    button.focused
-  end
+  Dogtail::Application.new('gnome-shell')
+    .child(title, roleName: 'push button')
+    .grabFocus
   @screen.press('Return')
 end
 

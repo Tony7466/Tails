@@ -110,7 +110,6 @@ class VM
     set_vcpu($config['VCPUS']) if $config['VCPUS']
     @display = Display.new(@domain_name, x_display)
     set_cdrom_boot(TAILS_ISO)
-    plug_network
     add_remote_shell_channel
   rescue StandardError => e
     destroy_and_undefine

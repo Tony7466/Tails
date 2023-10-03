@@ -337,7 +337,10 @@ Manual testing coordination
 
 Bootstrap internal manual testing coordination:
 
-1. Create a pad.
+1. Create a pad. Here's a good name:
+
+        echo "manualtesting-Tails_${VERSION:?}-$(pwgen 32 1)"
+
 2. Set the `PAD` environment variable to the URL of this pad.
 3. Copy the [[manual test suite|contribute/release_process/test]]
    into this pad.
@@ -1510,43 +1513,18 @@ You probably already know how to do that, but keep this in mind:
 Automatically re-run failures
 --------------------------------
 
-So here is a good example of how you can do this. Save this code into a file named `test-rerun.sh`, tweaking it
-(especially the `tmpdir`) to adapt it to your directory structure.
+The file test-rerun.sh will help you rerunning the test suite automatically, which avoids wasting CPU.
 
 ```sh
-#!/bin/bash
-
-if [ $(id -u) -ne 0 ]; then
-	exec sudo \
-		VERSION="$VERSION" ISOS="$ISOS" PREVIOUS_STABLE_VERSION="$PREVIOUS_STABLE_VERSION" \
-		tmpdir="$HOME/tails/release/test-results/${VERSION:?}" \
-		"$0" "$@"
-fi
-
-(
-    tmpdir="${tmpdir}"
-    what=()
-    args=(--tmpdir "$tmpdir" --keep-snapshots --capture --view
-        --iso "${ISOS:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.iso"
-        --old-iso "${ISOS}/tails-amd64-${PREVIOUS_STABLE_VERSION:?}/tails-amd64-${PREVIOUS_STABLE_VERSION:?}.iso"
-    )
-    ./run_test_suite "${args[@]}" "${what[@]}"
-
-    while true; do
-        ./run_test_suite "${args[@]}" "@$(find "${tmpdir:?}" -maxdepth 2 -type f -name rerun.txt  -print0 | xargs -0 ls -t1|stest -s|shuf -n1)"
-        sleep 3
-    done
-)
+cp bin/test-rerun.sh ../
 ```
 
-then, run
+Tweak it: the `tmpdir` might especially need some customization based on your directory structure.
 
 ```sh
 export VERSION ISOS PREVIOUS_STABLE_VERSION
-./test-rerun.sh
+../test-rerun.sh
 ```
-
-This will run tests *forever*, so that CPU time is not wasted.
 
 
 Public testing
@@ -1577,28 +1555,32 @@ Public testing
             done
         )
 
-1. Email <tails-testers@boum.org> to ask them to test the tentative images:
+## If you're publishing a RC
 
-   - Point them to the up-to-date mirror you've found previously.
-   - This is a public list, don't point to the pad.
-   - Make a deadline clear: until when is feedback useful?
+Email <tails-testers@boum.org> to ask them to test the tentative images:
 
-     ./bin/automailer.py <<EOF
-     To: tails-testers@boum.org
-     Subject: Call for testing: ${VERSION?}
+ - Point them to the up-to-date mirror you've found previously.
+ - This is a public list, don't point to the pad.
+ - Make a deadline clear: until when is feedback useful?
 
-     Hi,
+```sh
+[ "${DIST:?}" = alpha ] && ./bin/automailer.py <<EOF
+To: tails-testers@boum.org
+Subject: Call for testing: ${VERSION?}
 
-     The *candidate* images for Tails ${VERSION} are ready for testing:
+Hi,
 
-     https://download.tails.net/tails/stable/tails-amd64-${VERSION}/tails-amd64-${VERSION}.img
+The *candidate* images for Tails ${VERSION} are ready for testing:
 
-     They did not go through our entire QA yet.
+https://download.tails.net/tails/stable/tails-amd64-${VERSION}/tails-amd64-${VERSION}.img
 
-     Please test and report back by Tuesday, 09:00 UTC.
+They did not go through our entire QA yet.
 
-     Thanks!
-     EOF
+Please test and report back by Tuesday, 09:00 UTC.
+
+Thanks!
+EOF
+```
 
 Lead the internal manual testing to conclusion
 ==============================================

@@ -1,1 +1,1 @@
-http://torbrowser-archive.tails.boum.org/12.5.4/
+http://torbrowser-archive.tails.boum.org/12.5.6/

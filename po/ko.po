@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-07-21 16:06+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-09-23 13:00+0000\n"
+"Last-Translator: Kyeongmin Kim <kyeongmin.dev@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/tor/tails-gui/ko/"
 ">\n"
 "Language: ko\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -40,14 +40,16 @@ msgid ""
 "{details} Please check your list of additional software or read the system "
 "log to understand the problem."
 msgstr ""
-"{details} 문제를 이해하려면 추가 소프트웨어의 사용자 목록을 확인하거나 시스"
-"템 로그를 읽어보세요."
+"{details} 문제를 파악하기 위하여 추가 소프트웨어의 목록을 확인하거나 시스템 "
+"로그를 읽으십시오."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:198
 msgid ""
 "Please check your list of additional software or read the system log to "
 "understand the problem."
-msgstr "문제를 이해하실려면 추가 소프트웨어 리스트나 시스템 로그를 읽어보세요."
+msgstr ""
+"문제를 파악하기 위하여 추가 소프트웨어의 목록을 확인하거나 시스템 로그를 읽으"
+"십시오."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:202
 msgid "Show Log"
@@ -55,7 +57,7 @@ msgstr "로그 보기"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:202
 msgid "Configure"
-msgstr "구성"
+msgstr "설정"
 
 #. Translators: Don't translate {packages}, it's a placeholder and will
 #. be replaced.
@@ -63,12 +65,12 @@ msgstr "구성"
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:72
 #, python-brace-format
 msgid "Add {packages} to your additional software?"
-msgstr "사용자의 추가 소프트웨어에 {packages}을(를) 추가하시겠습니까?"
+msgstr "추가 소프트웨어에 {packages}을(를) 추가하시겠습니까?"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:43
 msgid ""
 "To install it automatically from your persistent storage when starting Tails."
-msgstr "Tails를 시작할 때 영구 저장소에서 자동으로 설치합니다."
+msgstr "Tails를 시작할 때 영속 저장소에서 자동으로 설치합니다."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:45
 msgid "Install Every Time"
@@ -77,56 +79,56 @@ msgstr "매번 설치하기"
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:46
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:78
 msgid "Install Only Once"
-msgstr "한번 설치하기"
+msgstr "한 번만 설치하기"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:53
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:84
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:151
 msgid "The configuration of your additional software failed."
-msgstr "추가 소프트웨어 생성이 실패했습니다."
+msgstr "추가 소프트웨어의 설정에 실패하였습니다."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:74
 msgid ""
 "To install it automatically when starting Tails, you can create a persistent "
 "storage and activate the <b>Additional Software</b> feature."
 msgstr ""
-"Tails를 시작할 때 자동으로 설치하려면 퍼시스턴트 저장소를 생성하고 <b>추가 소"
-"프트웨어</b> 기능을 활성화하면 됩니다."
+"Tails를 시작할 때 자동으로 설치하려면, 영속 저장소를 만들고 <b>추가 소프트웨"
+"어</b> 기능을 활성화하십시오."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:77
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:224
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:242
 msgid "Create Persistent Storage"
-msgstr "퍼시스턴트 저장소 생성"
+msgstr "영속 저장소 만들기"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:86
 msgid "Creating your persistent storage failed."
-msgstr "퍼시스턴트 저장소 생성이 실패하였습니다."
+msgstr "영속 저장소를 만드는 데 실패하였습니다."
 
 #. Translators: Don't translate {packages}, it's a placeholder and
 #. will be replaced.
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:95
 #, python-brace-format
 msgid "You could install {packages} automatically when starting Tails"
-msgstr "자동으로 Tails를 시작할때 {packages} 설치하실수 있습니다."
+msgstr "Tails를 시작할 때 {packages}을(를) 자동으로 설치할 수 있습니다"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:98
 msgid "To do so, you need to run Tails from a USB stick."
-msgstr "그렇게 하려면 USB 스틱에서 Tails를 실행해야 합니다."
+msgstr "이렇게 하려면, USB 스틱에서 Tails를 실행해야 합니다."
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:138
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
-msgstr "추가 소프트웨어에서 {packages} 제거하겠습니까?"
+msgstr "추가 소프트웨어에서 {packages}을(를) 제거하시겠습니까?"
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:142
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
-msgstr "이건 {packages} 설치를 중단할겁니다."
+msgstr "{packages}을(를) 자동으로 설치하지 않게 됩니다."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:144
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:168
@@ -147,7 +149,7 @@ msgstr "취소"
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:165
 #, python-brace-format
 msgid "{beginning} and {last}"
-msgstr "{beginning} 과 {last}"
+msgstr "{beginning}와(과) {last}"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:166
 msgid ", "
@@ -155,7 +157,7 @@ msgstr ", "
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:38
 msgid "The check for upgrades of your additional software failed"
-msgstr "추가 소프트웨어 업그래이드 확인이 실패했습니다."
+msgstr "추가 소프트웨어의 업그레이드 확인에 실패하였습니다"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:40
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:48
@@ -163,28 +165,28 @@ msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr ""
-"문제를 이해하실려면 네트워크 연결을 확인하시고, Tails을 제시작하시고, 시스템"
-"로그를 읽어보세요."
+"문제를 파악하기 위하여 네트워크 연결을 확인하거나, Tails를 다시 시작하거나, "
+"시스템 로그를 읽으십시오."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:47
 msgid "The upgrade of your additional software failed"
-msgstr "추가 소프트웨어의 업그래이드가 실패했습니다."
+msgstr "추가 소프트웨어의 업그레이드에 실패하였습니다"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:112
 msgid "Installing your additional software from persistent storage..."
-msgstr "퍼시스턴트 저장소에서 추가 소프트웨어를 설치하는중..."
+msgstr "영속 저장소에서 추가 소프트웨어를 설치하는 중..."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:114
 msgid "This can take several minutes."
-msgstr "몇분이 소요될수도 있습니다."
+msgstr "이 작업은 몇 분 정도 걸릴 수 있습니다."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:127
 msgid "The installation of your additional software failed"
-msgstr "추가 소프트웨어의 설치가 실패했습니다."
+msgstr "추가 소프트웨어의 설치에 실패하였습니다"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:142
 msgid "Additional software installed successfully"
-msgstr "추가 소프트웨어가 성공적으로 설치되었습니다."
+msgstr "추가 소프트웨어가 성공적으로 설치되었습니다"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:1
@@ -197,15 +199,15 @@ msgid ""
 "You can install additional software automatically from your persistent "
 "storage when starting Tails."
 msgstr ""
-"자동으로 Tails을 시작할때 퍼시스턴트 저장소에서 추가 소프트웨어를 설치하실수 "
-"있습니다."
+"Tails를 시작할 때 영속 저장소에서 추가 소프트웨어를 자동으로 설치할 수 있습니"
+"다."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:77
 msgid ""
 "The following software is installed automatically from your persistent "
 "storage when starting Tails."
 msgstr ""
-"이 소프트웨어는 자동으로 tails을 시작할때 퍼시스턴트 저장소에서 설치됩니다."
+"Tails를 시작할 때 영속 저장소에서 다음 소프트웨어가 자동으로 설치됩니다."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:185
@@ -214,13 +216,13 @@ msgid ""
 "desktop\">Synaptic Package Manager</a> or <a href=\"org.gnome.Terminal."
 "desktop\">APT on the command line</a>."
 msgstr ""
-"더 추가를 하실려면, <a href=\"synaptic.desktop\">Synaptic Package Manager</a>"
-"나, <a href=\"org.gnome.Terminal.desktop\">APT on the command line</a> 을 이"
-"용해서 설치 하십시요."
+"더 추가하려면, <a href=\"synaptic.desktop\">시냅틱 패키지 관리자</a> 또는 <a "
+"href=\"org.gnome.Terminal.desktop\">명령줄에서 APT</a>를 사용하여 소프트웨어"
+"를 설치하십시오."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:154
 msgid "_Create persistent storage"
-msgstr "_퍼시스턴트 저장소 생성"
+msgstr "_영속 저장소 만들기"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:94
 msgid ""
@@ -231,6 +233,13 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails는 온라인에서 모든 사람들을 자유롭게 하고 안전하게 보호하기 위하여 기부"
+"가 필요합니다.\n"
+"\n"
+"모든 비트는 감시와 검열에 맞서 싸우는 데 도움이 됩니다!\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">기부"
+"금은 이렇게 사용됩니다.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:101
 msgid ""
@@ -241,26 +250,32 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails는 당신의 지갑을 보호합니다.\n"
+"\n"
+"귀하의 비트코인을 안전하게 보호할 수 있도록 도와주세요!\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">기부"
+"금은 이렇게 사용됩니다.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:112
 msgid "Donate Now"
-msgstr ""
+msgstr "지금 기부하기"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:113
 msgid "Later"
-msgstr ""
+msgstr "나중에"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:123
 msgid "Opening Electrum with our donation address..."
-msgstr ""
+msgstr "우리의 기부 주소와 함께 Electrum을 여는 중..."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:124
 msgid "Thank you for making the Internet a safer place!"
-msgstr ""
+msgstr "인터넷을 더 안전한 곳으로 만들어 주셔서 감사합니다!"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:157
 msgid "Persistence is disabled for Electrum"
-msgstr "퍼시스턴스는 Electrum에서는 비활성화 됩니다"
+msgstr "Electrum에 대하여 영속이 비활성화되어 있습니다"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:159
 msgid ""
@@ -269,9 +284,9 @@ msgid ""
 "It is strongly recommended to only run Electrum when its persistence feature "
 "is activated."
 msgstr ""
-"Tails를 재부팅하면 비트코인 지갑을 포함하여 Electrum의 모든 데이터가 손실됩니"
-"다.\n"
-"지속성 기능이 활성화된 경우에만 Electrum을 실행하는 것이 좋습니다."
+"Tails를 다시 시작하면, 비트코인 지갑을 포함하여 Electrum의 모든 데이터가 손실"
+"됩니다.\n"
+"Electrum을 영속 기능이 활성화된 경우에만 실행하기를 강력히 권장합니다."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:160
 msgid "Do you want to start Electrum anyway?"
