@@ -18,4 +18,4 @@
   events:
     STREAM:
     CIRC:
-  restrict-stream-events: true
+  tor-browser-mode: true
