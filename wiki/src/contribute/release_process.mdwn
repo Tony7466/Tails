@@ -1339,6 +1339,14 @@ Update the image description file (IDF) used by the verification JavaScript:
     git commit -m "Update IDF for download verification" && \
     git push origin "${WEBSITE_RELEASE_BRANCH:?}"
 
+Check that incremental upgrades are working
+==============================================
+
+If you can (ie: you have a spare laptop), do the _Incremental upgrades_ section
+of the manual test suite yourself.
+This will give you more confidence that the incremental upgrades are ok, and you
+can indeed proceed with the next section (_Done with OpenPGP signing_).
+
 Done with OpenPGP signing
 =========================
 
