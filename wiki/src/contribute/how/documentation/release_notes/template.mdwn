@@ -24,6 +24,8 @@ vulnerability in $APPLICATION.
 
 - Update *Tor Browser* to [1.2.3](https://blog.torproject.org/new-release-tor-browser-1234).
 
+- Update *Tor* to 0.1.2.3.
+
 - Update *Thunderbird* to [1.2.3](https://www.thunderbird.net/en-US/thunderbird/1.2.3/releasenotes/).
 
 - Update (the *Linux* kernel to a.b.c|most firmware packages). <!-- Only if 'a.b' increased --> This improves the support for newer
