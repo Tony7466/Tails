@@ -2201,6 +2201,12 @@ Check that you are indeed preparing a final release:
    - If a release candidate is planned, include it in the release schedule
      and the call for manual testers.
 
+1. If you don't know who will be the release manager for the next release, open
+   an issue so you don't forget. Set the title to "Plan RM shift for 5.19"
+
+    /label ~"C:Release management" ~"Core Work:Foundations Team" ~"To Do" ~"P:Elevated" 
+    /milestone %"Tails_${NEXT_PLANNED_VERSION:?}" 
+
 1. If you are the release manager for the next release too, look at the
    tasks that must be done at the beginning of your shift in the
    [[release manager role page|contribute/working_together/roles/release_manager#shift]].
