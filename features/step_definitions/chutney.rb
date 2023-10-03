@@ -15,44 +15,40 @@ def chutney_status_log(cmd)
            else
              return
            end
-  puts("Chutney Tor network simulation: #{action} ...")
+  debug_log("Chutney Tor network simulation: #{action} ...")
+end
+
+def chutney_env
+  {
+    'CHUTNEY_LISTEN_ADDRESS' => $vmnet.bridge_ip_addr,
+    'CHUTNEY_DATA_DIR'       => "#{$config['TMPDIR']}/chutney-data",
+    # The default value (60s) is too short for "chutney wait_for_bootstrap"
+    # to succeed reliably.
+    'CHUTNEY_START_TIME'     => ENV['CHUTNEY_START_TIME'] || '600',
+  }
+end
+
+def chutney_cmd(cmd)
+  chutney_script = "#{GIT_DIR}/features/scripts/chutney"
+  network_definition = "#{GIT_DIR}/features/chutney/test-network"
+  chutney_status_log(cmd)
+  cmd = 'stop' if cmd == 'stop_old'
+  cmd_helper([chutney_script, cmd, network_definition], env: chutney_env)
+end
+
+def chutney_data_dir_cleanup
+  if File.directory?(chutney_env['CHUTNEY_DATA_DIR'])
+    FileUtils.rm_r(chutney_env['CHUTNEY_DATA_DIR'])
+  end
 end
 
 # XXX: giving up on a few worst offenders for now
-# rubocop:disable Metrics/AbcSize
-# rubocop:disable Metrics/CyclomaticComplexity
 # rubocop:disable Metrics/MethodLength
-# rubocop:disable Metrics/PerceivedComplexity
-def ensure_chutney_is_running
+def initialize_chutney
   # Ensure that a fresh chutney instance is running, and that it will
   # be cleaned upon exit. We only do it once, though, since the same
   # setup can be used throughout the same test suite run.
   return if $chutney_initialized
-
-  chutney_listen_address = $vmnet.bridge_ip_addr
-  chutney_script = "#{GIT_DIR}/features/scripts/chutney"
-  network_definition = "#{GIT_DIR}/features/chutney/test-network"
-  chutney_start_time = ENV['CHUTNEY_START_TIME']
-  chutney_start_time = '600' if chutney_start_time.nil?
-  env = {
-    'CHUTNEY_LISTEN_ADDRESS' => chutney_listen_address,
-    'CHUTNEY_DATA_DIR'       => "#{$config['TMPDIR']}/chutney-data",
-    # The default value (60s) is too short for "chutney wait_for_bootstrap"
-    # to succeed reliably.
-    'CHUTNEY_START_TIME'     => chutney_start_time,
-  }
-
-  chutney_data_dir_cleanup = proc do
-    if File.directory?(env['CHUTNEY_DATA_DIR'])
-      FileUtils.rm_r(env['CHUTNEY_DATA_DIR'])
-    end
-  end
-
-  chutney_cmd = proc do |cmd|
-    chutney_status_log(cmd)
-    cmd = 'stop' if cmd == 'stop_old'
-    cmd_helper([chutney_script, cmd, network_definition], env: env)
-  end
 
   # After an unclean shutdown of the test suite (e.g. Ctrl+C) the
   # tor processes are left running, listening on the same ports we
@@ -61,23 +57,23 @@ def ensure_chutney_is_running
   # processes are killed manually.
   begin
     cmd_helper(['pkill', '--full', '--exact',
-                "tor -f #{env['CHUTNEY_DATA_DIR']}/nodes/.*/torrc --quiet",])
+                "tor -f #{chutney_env['CHUTNEY_DATA_DIR']}/nodes/.*/torrc --quiet",])
   rescue StandardError
     # Nothing to kill
   end
 
   if KEEP_CHUTNEY
     begin
-      chutney_cmd.call('start')
+      chutney_cmd('start')
     rescue Test::Unit::AssertionFailedError => e
-      if File.directory?(env['CHUTNEY_DATA_DIR'])
+      if File.directory?(chutney_env['CHUTNEY_DATA_DIR'])
         raise e, %{#{e.message}
 
 Note: You are running with --keep-snapshots or --keep-chutney, but Chutney
 failed to start with its current data directory. To recover you likely
 want to delete Chutney's data directory and all test suite snapshots:
 
-    sudo rm -r #{env['CHUTNEY_DATA_DIR']}
+    sudo rm -r #{chutney_env['CHUTNEY_DATA_DIR']}
 
     for snapshot in $(virsh snapshot-list --name TailsToaster); do
       virsh snapshot-delete TailsToaster --snapshotname "${snapshot}"
@@ -85,28 +81,37 @@ want to delete Chutney's data directory and all test suite snapshots:
 
 }
       else
-        chutney_cmd.call('configure')
-        chutney_cmd.call('start')
+        chutney_cmd('configure')
+        chutney_cmd('start')
       end
     end
   else
-    chutney_cmd.call('stop_old')
-    chutney_data_dir_cleanup.call
-    chutney_cmd.call('configure')
-    chutney_cmd.call('start')
+    chutney_cmd('stop_old')
+    chutney_data_dir_cleanup
+    chutney_cmd('configure')
+    chutney_cmd('start')
   end
-
-  # Documentation: submodules/chutney/README, "Waiting for the network" section
-  chutney_cmd.call('wait_for_bootstrap')
 
   at_exit do
-    chutney_cmd.call('stop')
-    chutney_data_dir_cleanup.call unless KEEP_CHUTNEY
+    chutney_cmd('stop')
+    chutney_data_dir_cleanup unless KEEP_CHUTNEY
   end
+
+  $chutney_initialized = true
+end
+# rubocop:enable Metrics/MethodLength
+
+def wait_until_chutney_is_working
+  return if $chutney_working
+
+  initialize_chutney
+
+  # Documentation: submodules/chutney/README, "Waiting for the network" section
+  chutney_cmd('wait_for_bootstrap')
 
   # We have to sanity check that all nodes are running because
   # `chutney start` will return success even if some nodes fail.
-  status = chutney_cmd.call('status')
+  status = chutney_cmd('status')
   match = Regexp.new('^(\d+)/(\d+) nodes are running$').match(status)
   assert_not_nil(match, "Chutney's status did not contain the expected " \
                         'string listing the number of running nodes')
@@ -114,14 +119,9 @@ want to delete Chutney's data directory and all test suite snapshots:
   assert_equal(
     total, running, "Chutney is only running #{running}/#{total} nodes"
   )
-
-  $chutney_initialized = true
   chutney_status_log('done')
+  $chutney_working = true
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/CyclomaticComplexity
-# rubocop:enable Metrics/MethodLength
-# rubocop:enable Metrics/PerceivedComplexity
 
 def configure_simulated_Tor_network # rubocop:disable Naming/MethodName
   # At the moment this function essentially assumes that we boot with 'the
@@ -149,7 +149,7 @@ def configure_simulated_Tor_network # rubocop:disable Naming/MethodName
   # abstraction impractical and it's better that we avoid it an go
   # with the more explicit, step-based approach.
 
-  ensure_chutney_is_running
+  initialize_chutney
   # Most of these lines are taken from chutney's client template.
   client_torrc_lines = [
     'TestingTorNetwork 1',

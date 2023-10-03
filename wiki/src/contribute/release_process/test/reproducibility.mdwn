@@ -96,7 +96,7 @@ Set these environment variables accordingly:
 <!-- 1. Obtain needed old Tails releases: -->
 
 <!--         cd "${ISOS_CHECKOUT:?}" && \ -->
-<!--         git annex sync && \ -->
+<!--         git annex sync --no-content && \ -->
 <!--         for old_version in ${IUK_SOURCE_VERSIONS:?}; do -->
 <!--             tails_dir="tails-amd64-${old_version}" && \ -->
 <!--             git annex get "${tails_dir}" && \ -->

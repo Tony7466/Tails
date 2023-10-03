@@ -52,12 +52,12 @@ ssh misc.lizard << EOF
    ( [ -d isos ] || git clone gitolite@puppet-git.lizard:isos.git ) && \
    cd isos && \
    git annex init && \
-   git annex sync && \
+   git annex sync --no-content && \
    git annex import ../tails-amd64-${VERSION:?} && \
    rmdir ../tails-amd64-${VERSION:?} && \
    git commit -m "Add Tails ${VERSION:?}" && \
-   git annex sync && \
+   git annex sync --no-content && \
    git annex copy tails-amd64-${VERSION:?} --to origin && \
    git annex drop tails-amd64-${VERSION:?} && \
-   git annex sync
+   git annex sync --no-content
 EOF
