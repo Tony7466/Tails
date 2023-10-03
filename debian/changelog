@@ -4,11 +4,77 @@ tails (5.20) UNRELEASED; urgency=medium
 
  -- intrigeri <intrigeri@debian.org>  Tue, 05 Sep 2023 09:30:23 +0000
 
-tails (5.18) UNRELEASED; urgency=medium
+tails (5.18) unstable; urgency=medium
 
-  * Dummy entry for next release.
+  * Resolve "Upgrade Tor Browser to 12.5.6" (tails/tails!1253)
 
- -- anonym <anonym@riseup.net>  Wed, 20 Sep 2023 12:09:31 +0200
+    Closes issues:
+      - Upgrade Tor Browser to 12.5.6 (tails/tails#19983)
+
+    Commits:
+      - Fetch Tor Browser from our own archive
+      - Upgrade Tor Browser to 12.5.6
+
+  * Update tor to 0.4.8.6 (tails/tails!1252)
+
+    Closes issues:
+      - Upgrade to tor 0.4.8.6 (tails/tails#19977)
+
+    Commits:
+      - Update tor to 0.4.8.6
+
+  * Upgrade to Linux linux-image-6.1.0-12-amd64 (currently version 6.1.52-1)
+    (tails/tails!1250)
+
+    Closes issues:
+      - Upgrade to Linux 6.1.52 (DSA 5492-1) (tails/tails#19967)
+
+    Commits:
+      - Refresh webext-ublock-origin-firefox patch vs 1.51.0+dfsg-2
+      - Update the snapshot of the Debian archive to 2023092602
+      - Upgrade to Linux linux-image-6.1.0-12-amd64 (currently version 6.1.52-1)
+
+  * Upgrade to Tor Browser 12.5.5 (tails/tails!1249)
+
+    Closes issues:
+      - Upgrade to Tor Browser 12.5.5 (tails/tails#19980)
+
+    Commits:
+      - Fetch Tor Browser from our own archive
+      - Get ready for upcoming "git-annex sync" behavior change
+      - Upgrade Tor Browser to 12.5.5
+
+  * Fix cryptsetup backport (tails/tails!1240)
+
+    Commits:
+      - Clarify reason why we install our cryptsetup backport
+      - Temporarily pin our cryptsetup 2:2.6.1-4~deb11u1~tails1 backport
+      - Needed package update: add exception for cryptsetup
+      - Enable the fix-cryptsetup-backport APT overlay
+
+  * Test suite: ensure node is focused after node.grabFocus (tails/tails!1235)
+
+    Commits:
+      - Test suite: drop grabFocus workaround + simplify
+      - Test suite: drop grabFocus workaround + simplify
+      - Test suite: mechanically drop workaround that is now part of grabFocus
+      - Test suite: ensure node is focused after node.grabFocus
+
+  * Defer the chutney bootstrap check until we need Tor (tails/tails!1179)
+
+    Commits:
+      - keep-snapshots is better avoided for release
+      - move script to its own file
+      - waiting chutney starts *after* test suite started
+      - test-rerun waits for chutney to be bootstrapped
+      - Release process: document how to run `chutney wait_for_bootstrap`
+      - Test suite: make --disable-chutney work again
+      - Test suite: be more careful about when we require Chutney to have bootstrapped
+      - Test suite: disable the network for the VM by default
+      - Test suite: debug_log chutney events instead of puts:ing
+      - Test suite: defer the chutney bootstrap check until we need Tor
+
+ -- Tails developers <tails@boum.org>  Mon, 02 Oct 2023 11:26:32 +0200
 
 tails (5.17.1) unstable; urgency=medium
 
