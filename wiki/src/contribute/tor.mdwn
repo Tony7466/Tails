@@ -32,10 +32,9 @@ the upgrade:
 3. On that branch, bump `config/APT_snapshots.d/torproject/serial` to a snapshot
    that's recent enough to include the relevant new version of `tor`:
 
-     elinks -dump -no-references -no-numbering \
-         "https://time-based.snapshots.deb.tails.boum.org/torproject/dists/${DIST:?}/snapshots/"  | \
-         grep --perl-regexp --only-matching '\b20\d{8}/' | tr -d / | sort -nr | \
-         head -n1 > config/APT_snapshots.d/torproject/serial
+     auto/scripts/apt-snapshots-serials get-latest torproject \
+         | cut -d' ' -f2 \
+         > config/APT_snapshots.d/torproject/serial
 
 4. [[Bump the expiration
    date|contribute/APT_repository/time-based_snapshots/#bump-expiration-date]]
