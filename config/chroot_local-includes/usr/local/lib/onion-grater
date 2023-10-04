@@ -428,6 +428,7 @@ class FilteredControlPortProxySession:
                     self.client_streams.remove(event.id)
             elif isinstance(event, stem.response.events.CircuitEvent):
                 if event.status == stem.CircStatus.CLOSED:
+                    old_event_raw_content = event.raw_content()
                     # We let all CIRC CLOSED events through so Tor
                     # Browser's iternal circuit tracking can clear its
                     # info about this circuit, but we strip all
@@ -435,6 +436,9 @@ class FilteredControlPortProxySession:
                     event = stem.response.events.CircuitEvent.from_str(
                         f"650 CIRC {event.id} {stem.CircStatus.CLOSED}\r\n"
                     )
+                    self.debug_log_rewrite('received event',
+                                           old_event_raw_content,
+                                           event.raw_content())
                 else:
                     self.debug_log('dropped restricted circuit event: ' +
                                    event.raw_content())
