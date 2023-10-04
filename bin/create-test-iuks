@@ -32,7 +32,7 @@ for version in $VERSIONS; do
       rm "$SQUASHFS_SRC"/usr/share/common-licenses/BSD
    fi
    if [ "$version" = '6.3~testoverlayfs' ]; then
-      echo "Some content 2.3" > "$SQUASHFS_SRC"/some_new_file_2.3
+      echo "Some content 6.3" > "$SQUASHFS_SRC"/some_new_file_6.3
       rm "$SQUASHFS_SRC"/usr/share/common-licenses/MPL-1.1
    fi
    cat > "$SQUASHFS_SRC"/etc/os-release <<EOF

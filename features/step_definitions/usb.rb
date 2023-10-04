@@ -1175,10 +1175,10 @@ def iuk_changes(version) # rubocop:disable Metrics/MethodLength
     changes + [
       {
         filesystem:  :rootfs,
-        path:        'some_new_file_2.3',
+        path:        'some_new_file_6.3',
         status:      :added,
         new_content: <<~CONTENT,
-          Some content 2.3
+          Some content 6.3
         CONTENT
       },
       {
