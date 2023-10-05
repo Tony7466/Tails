@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: transitails 1\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-10-05 21:59+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -160,20 +160,15 @@ msgid "Click **Delete All Data and Install** to confirm."
 msgstr "Clicca su **Elimina tutti i dati e installa** per confermare."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "   The\n"
-#| "   <span class=\"install-clone mac-clone\">installation</span>\n"
-#| "   <span class=\"upgrade\">upgrade</span>\n"
-#| "   takes a few minutes.\n"
+#, no-wrap
 msgid ""
 "   The\n"
 "   <span class=\"pc-clone mac-clone\">installation</span>\n"
 "   <span class=\"upgrade\">upgrade</span>\n"
 "   takes a few minutes.\n"
 msgstr ""
-"   <span class=\"install-clone mac-clone\">L'installazione</span>\n"
-"   <span class=\"upgrade\">L'aggiornamento</span>\n"
+"   <span class=\"pc-clone mac-clone\">installazione</span>\n"
+"   <span class=\"aggiornamento\">upgrade</span>\n"
 "   richiede alcuni minuti.\n"
 
 #. type: Plain text
