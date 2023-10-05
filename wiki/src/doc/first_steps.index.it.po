@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
 "PO-Revision-Date: 2023-10-05 21:29+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "[[Su Mac|first_steps/start/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Accessibility|first_steps/accessibility]]"
-msgstr "[[Accessibilità|primi_passi/accessibility]]"
+msgstr "[[Accessibilità|first_steps/accessibility]]"
 
 #. type: Bullet: '  - '
 msgid "[[Welcome Screen|first_steps/welcome_screen]]"
