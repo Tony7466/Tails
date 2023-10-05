@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2023-10-05 21:23+0000\n"
+"PO-Revision-Date: 2023-10-05 23:13+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -36,8 +36,6 @@ msgid "[[!img inc/infography/verify.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img inc/infography/verify.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div>
-#, fuzzy
-#| msgid "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
 msgid "[[!img inc/infography/verify-from-tails.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img inc/infography/verify-from-tails.png link=\"no\" alt=\"\"]]"
 
