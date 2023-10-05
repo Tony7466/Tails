@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
 "PO-Revision-Date: 2023-10-05 21:54+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -220,13 +220,15 @@ msgstr "½ mezz'ora per installare"
 
 #. type: Content of: <div><div><p>
 msgid "½ hour to upgrade"
-msgstr "½ ora per aggiornare"
+msgstr "½ mezz'ora per aggiornare"
 
 #. type: Content of: <p>
 msgid ""
 "[[!toggle id=\"requirements\" text=\"Detailed system requirements and "
 "recommended hardware.\"]]"
 msgstr ""
+"[[!toggle id=\"requisiti\" text=\"Requisiti di sistema dettagliati e "
+"hardware consigliato\".]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
