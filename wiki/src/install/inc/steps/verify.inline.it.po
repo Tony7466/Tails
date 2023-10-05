@@ -197,9 +197,8 @@ msgid ""
 "[[!img lib/check.png class=\"icon\" link=\"no\" alt=\"\"]]<b>Verification "
 "successful!</b> (<em><span class=\"verify-filename\">$FILENAME</span></em>)"
 msgstr ""
-"[[!img lib/check.png class=\"icona\" link=\"no\" alt=\"\"]]<b>Verifica "
-"riuscita!</b> (<em><span class=\"vverificare- nome-file\""
-">$FILENAME</span></em>)"
+"[[!img lib/check.png class=\"icon\" link=\"no\" alt=\"\"]]<b>Verifica "
+"riuscita!</b> (<em><span class=\"verify-filename\">$FILENAME</span></em>)"
 
 #. type: Content of: <div><div><p>
 msgid ""
