@@ -77,7 +77,7 @@ msgstr "[[Windows|installa/windows]]"
 
 #. type: Bullet: '    - '
 msgid "[[macOS|install/mac]]"
-msgstr ""
+msgstr "[[macOS|installa/mac]]"
 
 #. type: Bullet: '    - '
 #, fuzzy
