@@ -4,7 +4,6 @@ CHECKPOINTS =
       description:       "I have started Tails from DVD without network and stopped at Tails Greeter's login screen",
       parent_checkpoint: nil,
       steps:             [
-        'the network is unplugged',
         'I start the computer',
         'the computer boots Tails',
       ],

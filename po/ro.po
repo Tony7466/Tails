@@ -1561,17 +1561,6 @@ msgstr "Probleme de securitate cunoscute"
 msgid "Network card ${nic} disabled"
 msgstr "Placa de rețea ${nic} dezactivată"
 
-#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:57
-#, sh-format
-msgid ""
-"MAC address anonymization failed for network card ${nic_name} (${nic}) so it "
-"is temporarily disabled.\n"
-"You might prefer to restart Tails and disable MAC address anonymization."
-msgstr ""
-"Anonimizarea adresei MAC a eșuat pentru placa de rețea ${nic_name} (${nic}), "
-"deci este dezactivat temporar. S-ar putea să preferați să reporniți Tails și "
-"să dezactivați anonimizarea adresei MAC."
-
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:66
 msgid "All networking disabled"
 msgstr "Toate rețelele sunt dezactivate"

@@ -47,9 +47,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-07-02 19:48+0000\n"
-"Last-Translator: \"Bucket B. Bucketman\" <healtheries_deceptions@simplelogin."
-"com>\n"
+"PO-Revision-Date: 2023-09-06 08:05+0000\n"
+"Last-Translator: xXx <xxx_xxx_xxxxxxxxx@mail.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/tor/tails-gui/ru/"
 ">\n"
 "Language: ru\n"
@@ -59,7 +58,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -2814,10 +2813,8 @@ msgstr ""
 "так далее."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:225
-#, fuzzy
 msgid "Create and configure a Persistent Storage after starting Tails"
-msgstr ""
-"Cоздайте и настройте Постоянное хранилище после того, как запустите Tails"
+msgstr "Создание и настройка постоянного хранилища после запуска Tails"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:279
 msgid "Language & Region"

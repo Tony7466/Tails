@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-14 13:53+0200\n"
-"PO-Revision-Date: 2023-03-13 17:30+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"PO-Revision-Date: 2023-10-01 21:12+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -79,16 +79,12 @@ msgid "Throw your mouse pointer to the top-left hot corner."
 msgstr "Sposta il cursore sull'angolo attivo in alto a sinistra."
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "Press the <b>Super</b> ([[!img lib/start.png alt=\"\" class=\"symbolic\" "
-#| "link=\"no\"]]) key on your keyboard."
 msgid ""
 "Press the <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link=\"no\" "
 "alt=\"\"]]) key on your keyboard."
 msgstr ""
-"Premi il tasto <b>Super</b> ([[!img lib/start.png alt=\"\" "
-"class=\"symbolic\" link=\"no\"]]) della tua tastiera."
+"Premi il tasto <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link="
+"\"no\" alt=\"\"]]) della tua tastiera."
 
 #. type: Plain text
 msgid ""
@@ -114,10 +110,9 @@ msgstr ""
 "[[programmi inclusi in Tails|about/features]] e le utilità di configurazione di GNOME.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img applications.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img applications.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img applications.png link=\"no\" alt=\"menu applicazioni\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -130,32 +125,24 @@ msgid "<div class=\"icon\">\n"
 msgstr "<div class=\"icon\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/help-browser.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/help-browser.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/help-browser.png link=no]]\n"
+msgstr "[[!img lib/apps/help-browser.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\">\n"
-#| "  <span class=\"guimenuitem\">Help</span>: to access the <span class=\"application\">GNOME Desktop Help</span> choose\n"
-#| "  <span class=\"menuchoice\">\n"
-#| "    <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
-#| "    <span class=\"guimenuitem\">Help</span></span>\n"
-#| "  </div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "  <span class=\"guimenuitem\">Help</span>: to access the <span class=\"application\">GNOME Desktop Help</span> choose\n"
 "  <span class=\"menuchoice\">\n"
-"    <span class=\"guisubmenu\">Utilities</span>&nbsp;â¸\n"
+"    <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">Help</span></span>\n"
 "  </div>\n"
 "</div>\n"
 msgstr ""
 "<div class=\"text\">\n"
-"  <span class=\"guimenuitem\">Aiuto</span>: per accedere alla <span class=\"application\">Guida di GNOME</span> seleziona\n"
+"  <span class=\"guimenuitem\">Aiuto</span>: per accedere alla <span class="
+"\"application\">Guida di GNOME</span> seleziona\n"
 "  <span class=\"menuchoice\">\n"
 "    <span class=\"guisubmenu\">Utilità</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">Aiuto</span></span>\n"
@@ -168,26 +155,21 @@ msgid "[[!img lib/apps/preferences-system.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img lib/apps/preferences-system.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\">\n"
-#| "  <b>Settings</b>:\n"
-#| "  to change various system settings such as keyboard, mouse and touchpad,\n"
-#| "  or displays, choose <b>System Tools&nbsp;▸ Settings</b>.\n"
-#| "  </div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "  <b>Settings</b>:\n"
 "  to change various system settings such as keyboard, mouse and touchpad,\n"
-"  or displays, choose <b>System Tools&nbsp;â¸ Settings</b>.\n"
+"  or displays, choose <b>System Tools&nbsp;▸ Settings</b>.\n"
 "  </div>\n"
 "</div>\n"
 msgstr ""
 "<div class=\"text\">\n"
 "  <b>Impostazioni</b>:\n"
-"  per modificare varie impostazioni di sistema come quelle relative a tastiera, mouse e touchpad,\n"
-"  o le impostazioni degli schermi, seleziona <b>Strumenti di sistema&nbsp;▸ Impostazioni</b>.\n"
+"  per modificare varie impostazioni di sistema come quelle relative a "
+"tastiera, mouse e touchpad,\n"
+"  o degli schermi, seleziona <b>Strumenti di sistema&nbsp;▸ Impostazioni</b>."
+"\n"
 "  </div>\n"
 "</div>\n"
 
@@ -203,6 +185,11 @@ msgid ""
 "Tails. Only the settings that you saved in the [[Persistent\n"
 "Storage|persistent_storage]] are restored when you restart Tails.</p>\n"
 msgstr ""
+"<p>Per impostazione predefinita, qualsiasi impostazione modificata in Tails "
+"viene persa quando si spegne\n"
+"Tails. Solo le impostazioni salvate nell' [[Archivio "
+"Persistente|persistent_storage]] vengono ripristinate al riavvio di "
+"Tails.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -226,34 +213,24 @@ msgstr ""
 "<b>Scorciatoie tastiera</b>.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/help-about.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/help-about.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/help-about.png link=no]]\n"
+msgstr "[[!img lib/apps/help-about.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\">\n"
-#| "  <span class=\"guimenuitem\">About Tails</span>:\n"
-#| "  to know the version of Tails that you are currently running, choose\n"
-#| "  <span class=\"menuchoice\">\n"
-#| "    <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-#| "    <span class=\"guimenuitem\">About Tails</span></span>\n"
-#| "  </div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "  <span class=\"guimenuitem\">About Tails</span>:\n"
 "  to know the version of Tails that you are currently running, choose\n"
 "  <span class=\"menuchoice\">\n"
-"    <span class=\"guisubmenu\">Tails</span>&nbsp;â¸\n"
+"    <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">About Tails</span></span>\n"
 "  </div>\n"
 "</div>\n"
 msgstr ""
 "<div class=\"text\">\n"
-"  <span class=\"guimenuitem\">Riguardo Tails</span>:\n"
+"  <span class=\"guimenuitem\">Su Tails</span>:\n"
 "  per conoscere la versione di Tails attualmente in esecuzione, vai su\n"
 "  <span class=\"menuchoice\">\n"
 "    <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
@@ -276,10 +253,9 @@ msgstr ""
 "scorciatoie permettono di lanciare applicazioni di frequente utilizzo:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/tor-browser.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/tor-browser.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/tor-browser.png link=no]]\n"
+msgstr "[[!img lib/apps/tor-browser.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -317,19 +293,12 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/files.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/persistent_storage.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/files.png link=no alt=\"\"]]\n"
+msgstr "[[!img lib/apps/persistent_storage.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\">\n"
-#| "<strong>Configure persistent volume</strong> to create and configure a Persistent Storage on your Tails USB stick<br/>\n"
-#| "[[See our documentation on the Persistent Storage|persistence]]\n"
-#| "</div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "<strong>Persistent Storage</strong> to create and configure a Persistent Storage on your Tails USB stick<br/>\n"
@@ -338,16 +307,17 @@ msgid ""
 "</div>\n"
 msgstr ""
 "<div class=\"text\">\n"
-"<strong>Configura l'archivio persistente</strong> per creare e configurare un Archivio Persistente sulla tua penna USB Tails<br/>\n"
-"[[Vedi la nostra documentazione sull'Archivio Persistente|persistence]]\n"
+"<strong>Archivio Persistente</strong> per creare e configurare un Archivio "
+"Persistente sulla tua chiavetta USB Tails<br/>\n"
+"[[Vedi la nostra documentazione sull'Archivio "
+"Persistente|persistent_storage]]\n"
 "</div>\n"
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/tails-help.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/tails-help.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/tails-help.png link=no]]\n"
+msgstr "[[!img lib/apps/tails-help.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -358,15 +328,15 @@ msgid ""
 "</div>\n"
 msgstr ""
 "<div class=\"text\">\n"
-"<strong>Documentazione di Tails</strong> per aprire una versione offline del sito web di Tails e della sua documentazione, incorporati in Tails<br/>\n"
+"<strong>Documentazione di Tails</strong> per aprire una versione offline del "
+"sito web di Tails e della sua documentazione, inclusi in Tails<br/>\n"
 "</div>\n"
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/whisperback.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/whisperback.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/whisperback.png link=no]]\n"
+msgstr "[[!img lib/apps/whisperback.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -384,21 +354,21 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/tails-installer.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/tails-installer.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/tails-installer.png link=no]]\n"
+msgstr "[[!img lib/apps/tails-installer.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "<div class=\"text\">\n"
-"<strong>Tails Installer</strong> to clone Tails to another USB stick<br/>\n"
+"<strong>Tails Cloner</strong> to clone Tails to another USB stick<br/>\n"
 "</div>\n"
 "</div>\n"
 msgstr ""
 "<div class=\"text\">\n"
-"<strong>Tails Installer</strong> per clonare Tails su un'altra penna USB<br/>\n"
+"<strong>Tails Cloner</strong> per clonare Tails su un'altra chiavetta USB<br/"
+">\n"
 "</div>\n"
 "</div>\n"
 
@@ -421,10 +391,9 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/keepassxc.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/keepassxc.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/keepassxc.png link=no]]\n"
+msgstr "[[!img lib/apps/keepassxc.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -476,10 +445,9 @@ msgstr ""
 "cartelle e supporti di archiviazione.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img places.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img places.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img places.png link=no alt=\"\"]]\n"
+msgstr "[[!img places.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -494,10 +462,9 @@ msgstr ""
 "stato di Tor."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img tor-status.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img tor-status.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img tor-status.png link=no alt=\"\"]]\n"
+msgstr "[[!img tor-status.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -522,10 +489,9 @@ msgstr ""
 "di accessibilità."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img accessibility.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img accessibility.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img accessibility.png link=no alt=\"\"]]\n"
+msgstr "[[!img accessibilità.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid "[[See our documentation on accessibility.|accessibility]]"
@@ -545,10 +511,9 @@ msgstr ""
 "tastiera e il metodo di input per gli script non-latini."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img keyboard.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img keyboard.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img keyboard.png link=no alt=\"\"]]\n"
+msgstr "[[!img keyboard.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -566,15 +531,14 @@ msgstr ""
 "e di riavviare il tuo computer."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img system.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img system.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img system.png link=no alt=\"\"]]\n"
+msgstr "[[!img system.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h3 id=\"networking\">Networking</h3>\n"
-msgstr "<h3 id=\"networking\">Reti</h3>\n"
+msgstr "<h3 id=\"networking\">Networking</h3>\n"
 
 #. type: Plain text
 msgid "From the system menu, you can choose which Wi-Fi network to connect to."
@@ -640,10 +604,9 @@ msgstr ""
 "quando lo blocchi per la prima volta."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "  [[!img screen-locker.png alt=\"\" link=\"no\"]]\n"
+#, no-wrap
 msgid "  [[!img screen-locker.png link=\"no\" alt=\"\"]]\n"
-msgstr "  [[!img screen-locker.png alt=\"\" link=\"no\"]]\n"
+msgstr "  [[[!img screen-locker.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -734,10 +697,9 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img user-trash.png link=no]]\n"
+#, no-wrap
 msgid "[[!img user-trash.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img user-trash.png link=no]]\n"
+msgstr "[[!img user-trash.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -764,10 +726,9 @@ msgstr ""
 "<h1 id=\"files\">Il browser <span class=\"application\">File</span></h1>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img nautilus.png link=no]]\n"
+#, no-wrap
 msgid "[[!img nautilus.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img nautilus.png link=no]]\n"
+msgstr "[[!img nautilus.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -779,19 +740,14 @@ msgstr ""
 "a scelta:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "- Choose <span class=\"menuchoice\">\n"
-#| "    <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "    <span class=\"guisubmenu\">Accessories</span>&nbsp;▸\n"
-#| "    <span class=\"guimenuitem\">Files</span></span>.\n"
+#, no-wrap
 msgid ""
 "- Choose <span class=\"menuchoice\">\n"
-"    <span class=\"guimenu\">Applications</span>&nbsp;â¸\n"
-"    <span class=\"guisubmenu\">Accessories</span>&nbsp;â¸\n"
+"    <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"    <span class=\"guisubmenu\">Accessories</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">Files</span></span>.\n"
 msgstr ""
-"- Selezionare <span class=\"menuchoice\">\n"
+"- Seleziona <span class=\"menuchoice\">\n"
 "    <span class=\"guimenu\">Applicazioni</span>&nbsp;▸\n"
 "    <span class=\"guisubmenu\">Accessori</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">File</span></span>.\n"
@@ -805,10 +761,9 @@ msgstr ""
 "span>."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/files.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/files.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/files.png link=no alt=\"\"]]\n"
+msgstr "[[!img lib/apps/files.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid "To connect to a remote SFTP (SSH File Transfer Protocol) server:"

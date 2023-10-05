@@ -22,9 +22,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-06 10:11+0200\n"
-"PO-Revision-Date: 2023-08-06 10:16+0200\n"
-"Last-Translator: emma peel <emmapeel@torproject.org>\n"
+"POT-Creation-Date: 2023-09-04 09:24+0200\n"
+"PO-Revision-Date: 2023-09-06 17:06+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/tor/tails-gui/es/"
 ">\n"
 "Language: es\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -325,17 +325,6 @@ msgstr[2] "{count}a"
 
 #. Translators: Don't translate {count}, it's a place holder and
 #. will be replaced.
-#. d is the short form for days.
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:82
-#, perl-brace-format
-msgid "1d"
-msgid_plural "{count}d"
-msgstr[0] "1d"
-msgstr[1] "{count}d"
-msgstr[2] "{count}d"
-
-#. Translators: Don't translate {count}, it's a place holder and
-#. will be replaced.
 #. h is the short form for hours;
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:86
 #, perl-brace-format
@@ -455,7 +444,8 @@ msgstr ""
 "nuestro sitio web"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-msgid "your device was not created using a USB image or Tails Installer"
+#, fuzzy
+msgid "your device was not created using a USB image or Tails Cloner"
 msgstr "Tu dispositivo no se creó con una imagen USB o el instalador de Tails"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
@@ -828,20 +818,20 @@ msgstr "Iniciar sin Almacenamiento Persistente"
 msgid "Error unlocking Persistent Storage: {}"
 msgstr "Error al desbloquear Almacenamiento Persistente: {}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:124
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
 msgid "Error upgrading Persistent Storage: {}"
 msgstr "Error al actualizar el Almacenamiento Persistente: {}"
 
 #. Translators: Don't translate {features}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:146
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
 #, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
 msgstr ""
 "No se han podido configurar algunas funcionalidades de tu Almacenamiento "
 "Persistente: {features}."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
 msgid "Error activating Persistent Storage: {}"
 msgstr "Error al activar Almacenamiento Persistente: {}"
 
@@ -867,8 +857,8 @@ msgid ""
 "Failed to upgrade the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
-"Falló la activación del Almacenamiento Persistente. Inicia Tails y envía un "
-"informe de error."
+"Falló la actualización del Almacenamiento Persistente. Inicia Tails y envía "
+"un informe de error."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:127
 msgid ""
@@ -891,11 +881,10 @@ msgid "Upgrading the Persistent Storage. This may take a while…"
 msgstr "Mejorar el Almacenamiento Persistente. Esto puede llevar un tiempo…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:154
-#, fuzzy
 msgid "Start Tails and open the Persistent Storage settings to find out more."
 msgstr ""
-"No se pudo desbloquear el Almacenamiento Persistente. Inicia Tails y envía "
-"un informe de error."
+"Inicia Tails y abre la configuración de Almacenamiento Persistente para "
+"obtener más información."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:190
 msgid "_Language"
@@ -1129,7 +1118,8 @@ msgstr "La instalación de Tails ha fallado!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-msgid "Tails Installer"
+#, fuzzy
+msgid "Tails Cloner"
 msgstr "Instalador de Tails"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
@@ -1184,9 +1174,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
-#, fuzzy
 msgid "Clone the current Persistent Storage"
-msgstr "Continuar sin Almacenamiento Persistente"
+msgstr "Clona el Almacenamiento Persistente actual"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:493
 msgid ""
@@ -1836,7 +1825,7 @@ msgstr "Estado de Tor"
 msgid "Open Onion Circuits"
 msgstr "Abrir Onion Circuits"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:319
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:315
 #, python-brace-format
 msgid ""
 "Only {available_memory} KiB of memory is available, need at least "
@@ -1849,12 +1838,11 @@ msgstr ""
 "\n"
 "Inténtalo de nuevo tras cerrar algunas aplicaciones o tras reiniciar."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:331
-#, fuzzy
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
 msgid "Creating a partition for the Persistent Storage..."
-msgstr "Corrigiendo permisos del volumen persistente."
+msgstr "Se está creando una partición para el Almacenamiento Persistente..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:351
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
 #, fuzzy
 msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
@@ -1863,25 +1851,23 @@ msgstr ""
 "Iniciando encriptación LUKS... El ordenador podría dejar de responder "
 "durante unos segundos."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:373
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
 msgstr "Desbloqueando la encriptación..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:381
-#, fuzzy
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
 msgid "Formatting the file system..."
-msgstr "Verificando el sistema de archivos..."
+msgstr "Formateando el sistema de archivos..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:396
-#, fuzzy
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:392
 msgid "Activating the Persistent Storage..."
-msgstr "Error al activar Almacenamiento Persistente: {}"
+msgstr "Se está activando el Almacenamiento Persistente..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:401
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
 msgid "Finishing setting up the Persistent Storage..."
 msgstr "Terminando de configurar el Almacenamiento Persistente..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:611
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
 "Can't unmount Persistent Storage, some process is still using it. Please "
 "close all applications that could be accessing it and try again. If that "
@@ -1913,9 +1899,8 @@ msgid "Persistent Storage"
 msgstr "Almacenamiento Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:46
-#, fuzzy
 msgid "Failed to start the Persistent Storage service"
-msgstr "No se ha podido configurar tu Almacenamiento Persistente"
+msgstr "No se ha podido iniciar el servicio de Almacenamiento Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
 msgid "Could not find the WhisperBack application"
@@ -1933,9 +1918,8 @@ msgid "Delete {feature} data"
 msgstr "Eliminar datos de {feature}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:107
-#, fuzzy
 msgid "Activation failed"
-msgstr "Activar Dotfiles"
+msgstr "La activación ha fallado"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:163
 msgid "Activation failed. Try again or delete data."
@@ -1951,15 +1935,13 @@ msgstr "Los datos de esta función todavía están guardados."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:268
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:273
-#, fuzzy
 msgid "Error activating feature {}"
-msgstr "Error al activar Almacenamiento Persistente: {}"
+msgstr "Se ha producido un error activando la función {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:311
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:316
-#, fuzzy
 msgid "Error deactivating feature {}"
-msgstr "Error al activar Almacenamiento Persistente: {}"
+msgstr "Se ha producido un error desactivando la función {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:335
 msgid ""
@@ -2012,15 +1994,13 @@ msgstr "{app} (PIDs: {pids})"
 msgid "Change Passphrase"
 msgstr "Cambiar frase contraseña"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:83
-#, fuzzy
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:85
 msgid "The current passphrase is incorrect"
-msgstr "Las frases contraseñas no concuerdan"
+msgstr "La contraseña es incorrecta"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:92
-#, fuzzy
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:94
 msgid "Changing the passphrase failed"
-msgstr "Cambiar frase contraseña"
+msgstr "No se ha podido cambiar la contraseña"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:41
 msgid "Weak"
@@ -2028,7 +2008,7 @@ msgstr "Débil"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:44
 msgid "Fair"
-msgstr ""
+msgstr "Aceptable"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:47
 msgid "Good"
@@ -2076,7 +2056,7 @@ msgstr "_Borrar Almacenamiento Persistente"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
 #, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "Borrar Almacenamiento Persistente"
+msgstr "Se está eliminando el Almacenamiento Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
@@ -2095,7 +2075,7 @@ msgstr "_OK"
 msgid ""
 "Sorry, you can't close this app until the ongoing operation has completed."
 msgstr ""
-"Lo sentimos, no puedes cerrar esta aplicación hasta que finalicen la "
+"Lo sentimos, no puedes cerrar esta aplicación hasta que finalice la "
 "operación en curso."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
@@ -2107,14 +2087,13 @@ msgid "Not enough memory to create Persistent Storage"
 msgstr "No hay suficiente memoria para crear el Almacenamiento Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:221
-#, fuzzy
 msgid "Failed to create Persistent Storage"
-msgstr "No se ha podido configurar tu Almacenamiento Persistente"
+msgstr "No se ha podido crear el Almacenamiento Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:240
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:245
 msgid "Error deleting Persistent Storage"
-msgstr "Error al intentar borrar el Almacenamiento Persistente"
+msgstr "Se ha producido un error al borrar el Almacenamiento Persistente"
 
 #. Translators: Don't translate {volume_label} or {volume_size},
 #. they are placeholders and will be replaced. They need
@@ -2185,7 +2164,7 @@ msgstr "Frase contraseña o parámetros incorrectos"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:236
 msgid "Error unlocking volume"
-msgstr "Error al desbloquear el volumen"
+msgstr "Se ha producido un error al desbloquear el volumen"
 
 #. Translators: Don't translate {volume_name} or {error_message},
 #. they are placeholder and will be replaced.  They need
@@ -2584,17 +2563,15 @@ msgid "Learn more about Tails"
 msgstr "Aprende más acerca de Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:1
-#, fuzzy
 msgid "Back Up Persistent Storage"
-msgstr "Almacenamiento Persistente"
+msgstr "Crea una copia de seguridad del Almacenamiento Persistente"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
-#, fuzzy
 msgid ""
 "Make a backup of the Tails Persistent Storage to another Tails USB stick"
 msgstr ""
-"Activa las opciones de Almacenamiento Persistente para los datos que quieras "
-"guardar en tu memoria USB Tails."
+"Crea una copia de seguridad del Almacenamiento Persistente de Tails en otra "
+"memoria USB de Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:2
 msgid "Install, clone, upgrade Tails"
@@ -2835,13 +2812,12 @@ msgid "_Passphrase"
 msgstr "Frase _contraseña"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:546
-#, fuzzy
 msgid ""
 "Your Persistent Storage is unlocked. Its content will be available until you "
 "shut down Tails."
 msgstr ""
-"Tu almacenamiento persistente está desbloqueado. Reinicia Tails para volver "
-"a bloquearlo."
+"Tu almacenamiento persistente está desbloqueado. Su contenido estará "
+"disponible hasta que cierres Tails."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:583
 msgid "_Additional Settings"
@@ -2970,18 +2946,16 @@ msgid "System Settings"
 msgstr "Configuración de sistema"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:228
-#, fuzzy
 msgid "Welcome Screen"
-msgstr "Activar Pantalla de Bienvenida"
+msgstr "Pantalla de Bienvenida"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:244
 msgid "Activate Welcome Screen"
 msgstr "Activar Pantalla de Bienvenida"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:257
-#, fuzzy
 msgid "Printers"
-msgstr "Activar impresoras"
+msgstr "Impresoras"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:273
 msgid "Activate Printers"
@@ -3016,9 +2990,8 @@ msgid "Applications"
 msgstr "Aplicaciones"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:429
-#, fuzzy
 msgid "Tor Browser Bookmarks"
-msgstr "Activar marcadores del navegador Tor"
+msgstr "Marcadores del Navegador Tor"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:445
 msgid "Activate Tor Browser Bookmarks"
@@ -3045,9 +3018,8 @@ msgid "GnuPG"
 msgstr "GnuPG"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:517
-#, fuzzy
 msgid "OpenPGP keys outside of Thunderbird, including in Kleopatra."
-msgstr "Claves OpenPGP fuera de Thunderbird."
+msgstr "Claves OpenPGP fuera de Thunderbird, incluyendo Kleopatra."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:533
 msgid "Activate GnuPG"
@@ -3276,9 +3248,8 @@ msgid "Detach this volume"
 msgstr "Separar este volumen"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:8
-#, fuzzy
 msgid "Choose Passphrase"
-msgstr "Cambiar frase contraseña"
+msgstr "Escoja la contraseña"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:30
 msgid "Choose the passphrase for the cloned Persistent Storage."
@@ -3635,7 +3606,6 @@ msgstr ""
 "parecer sospechoso para alguien que monitorea tu conexión a Internet."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1499
-#, fuzzy
 msgid ""
 "Tails will only connect to Tor after you configured a Tor bridge. Bridges "
 "are secret Tor relays that hide that you are connecting to Tor.\n"
@@ -3652,7 +3622,7 @@ msgstr ""
 "conectado a Tor.\n"
 "\n"
 "Nuestro equipo está haciendo todo lo posible para ayudarte a conectarte a "
-"Tor utilizando los tipos más discretos de puentes Tor.\n"
+"Tor utilizando los tipos de puentes Tor más discretos.\n"
 "\n"
 "Tendrás que hacer configuración extra si todavía no conoces ningún puente de "
 "Tor, si te conectas desde una red Wi-Fi pública, o si estás en el hemisferio "

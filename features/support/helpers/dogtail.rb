@@ -333,7 +333,13 @@ module Dogtail
     end
 
     def grabFocus
-      call_tree_node_method('grabFocus')
+      # We have seen grabFocus return before the node is focused,
+      # leading to race conditions, so let's block until the node is
+      # actually focused.
+      try_for(10) do
+        call_tree_node_method('grabFocus')
+        focused
+      end
     end
 
     def activate

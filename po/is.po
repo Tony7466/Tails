@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-08-21 13:51+0000\n"
+"PO-Revision-Date: 2023-09-16 16:59+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://hosted.weblate.org/projects/tor/tails-gui/"
 "is/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -792,16 +792,15 @@ msgid "Error unlocking Persistent Storage: {}"
 msgstr "Villa við að aflæsa varanlegri gagnageymslu: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
-#, fuzzy
 msgid "Error upgrading Persistent Storage: {}"
-msgstr "Villa við að aflæsa varanlegri gagnageymslu: {}"
+msgstr "Villa við að uppfæra varanlega gagnageymslu: {}"
 
 #. Translators: Don't translate {features}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
-msgstr "Tókst ekki að stilla varanlega gagnageymslu"
+msgstr "Tókst ekki að suma eiginleika varanlegrar gagnageymslu: {features}."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
 msgid "Error activating Persistent Storage: {}"
@@ -815,7 +814,7 @@ msgstr "Aflæsi…"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:135
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:505
 msgid "Unlock Encryption"
-msgstr ""
+msgstr "Aflæsa dulritun"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:113
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:41
@@ -823,12 +822,11 @@ msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Get ekki aflæst dulritaðri gagnageymslu með þessum lykilfrasa."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:122
-#, fuzzy
 msgid ""
 "Failed to upgrade the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
-"Mistókst að virkja varanlegu gagnageymsluna. Ræstu Tails og sendu "
+"Mistókst að uppfæra varanlegu gagnageymsluna. Ræstu Tails og sendu "
 "villuskýrslu."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:127

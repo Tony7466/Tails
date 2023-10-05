@@ -47,7 +47,6 @@ Feature: Time syncing
 
   Scenario: The clock is set to the source date when the hardware clock is way in the past
     Given a computer
-    And the network is unplugged
     And the hardware clock is set to "01 Jan 2000 12:34:56"
     And I start the computer
     And the computer boots Tails
