@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
 "PO-Revision-Date: 2023-10-05 21:19+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -229,19 +229,14 @@ msgstr ""
 "un'interruzione durante lo scaricamento."
 
 #. type: Content of: <div><div><div><p>
-#, fuzzy
-#| msgid ""
-#| "The verification also fails if you try to verify a different download "
-#| "than the latest version (<span class=\"remove-extra-space\">[[!inline "
-#| "pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]</span>)."
 msgid ""
 "The verification also fails if you try to verify a different download than "
 "the latest version, Tails [[!inline pages=\"inc/stable_amd64_version\" raw="
 "\"yes\" sort=\"age\"]]."
 msgstr ""
-"La verifica fallisce ugualmente se cerchi di verificare uno scaricamento che "
-"non sia la versione più recente (<span class=\"remove-extra-space\">[[!"
-"inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]</span>)."
+"La verifica fallisce anche se cerchi di verificare un download diverso "
+"dall'ultima versione, Tails [[!inline pages=\"inc/stable_amd64_version\" raw="
+"\"yes\" sort=\"age\"]]."
 
 #. type: Content of: <div><div><div><p>
 msgid ""
@@ -262,13 +257,9 @@ msgstr ""
 "prova a scaricare da un luogo diverso o da un altro computer."
 
 #. type: Content of: <div><div><div><p>
-#, fuzzy
-#| msgid ""
-#| "[[How does the extension work?|contribute/design/verification_extension]]"
 msgid ""
 "[[How does the verification work?|contribute/design/download_verification]]"
-msgstr ""
-"[[Come funziona l'estensione?|contribute/design/verification_extension]]"
+msgstr "[[Come funziona la verifica? |contributi/progetto/download_verifica]]"
 
 #. type: Content of: <div><div><p>
 #, fuzzy
