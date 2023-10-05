@@ -270,18 +270,13 @@ msgstr ""
 "\"]]\" id=\"scaricare-img-ancora\">Prova a scaricare di nuovo&hellip;</a>"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"[[!inline pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" sort="
-#| "\"age\"]]\" id=\"download-iso-again\" class=\"use-mirror-pool-on-retry"
-#| "\">Please try to download again&hellip;</a>"
 msgid ""
 "<a href=\"[[!inline pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" sort=\"age"
 "\"]]\" id=\"download-iso-again\">Please try to download again&hellip;</a>"
 msgstr ""
 "<a href=\"[[!inline pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" sort=\"age"
-"\"]]\" id=\"download-iso-again\" class=\"use-mirror-pool-on-retry\">Per "
-"favore prova a scaricare nuovamente&hellip;</a>"
+"\"]]\" id=\"scaricare-iso-nuovamente\">Prova a scaricare "
+"nuovamente&hellip;</a>"
 
 #. type: Content of: <div><div><p>
 msgid ""
