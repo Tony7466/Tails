@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-10-05 22:04+0000\n"
+"PO-Revision-Date: 2023-10-05 22:05+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -44,14 +44,8 @@ msgstr ""
 "di Tails che hai scaricato in precedenza.</p>\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Click on the following link to download <span "
-#| "class=\"application\">balenaEtcher</span>:"
 msgid "Click on the following button to download <em>balenaEtcher</em>:"
-msgstr ""
-"Fai clic sul collegamento seguente per scaricare <span "
-"class=\"application\">balenaEtcher</span>:"
+msgstr "Clicca sul tasto di seguito per scaricare <em>balenaEtcher</em>:"
 
 #. type: Plain text
 #, no-wrap
@@ -132,7 +126,7 @@ msgid ""
 "     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
 msgstr ""
-"1. Apri <span class=\"applicazion\">Terminale</span> da\n"
+"1. Apri <span class=\"applicazione\">Terminale</span> da\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applicazioni</span>&nbsp;▸\n"
 "     <span class=\"guisubmenu\">Utilità</span>&nbsp;▸\n"
