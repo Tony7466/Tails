@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-04-19 10:22+0200\n"
-"PO-Revision-Date: 2023-10-05 21:37+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-05 21:38+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -90,13 +90,15 @@ msgid "[[!inline pages=\"doc/persistent_storage.index\" raw=\"yes\" sort=\"age\"
 msgstr "[[!inline pages=\"doc/persistent_storage.index.it\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"luks\">How strong is the encryption of the Persistent Storage?</h2>\n"
-msgstr "<h1 id=\"use\">Usando l'Archivio Persistente</h1>\n"
+msgstr ""
+"<h2 id=\"luks\">Quanto è forte la criptazione dell'Archivio Persistente?</h2>"
+"\n"
 
 #. type: Plain text
 msgid "The encryption of the Persistent Storage uses LUKS and DMCrypt."
-msgstr ""
+msgstr "La crittografia dell'Archivio Persistente utilizza LUKS e DMCrypt."
 
 #. type: Plain text
 msgid ""
@@ -107,6 +109,12 @@ msgid ""
 "as we recommend for [[creating and using encrypted volumes|doc/"
 "encryption_and_privacy/encrypted_volumes]] in general."
 msgstr ""
+"[LUKS](https://gitlab.com/cryptsetup/cryptsetup/) and "
+"[DMCrypt](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/DMCrypt) sono il "
+"sistema standard per la crittografia dei dischi in Linux. Tails utilizza i "
+"loro parametri di crittografia predefiniti, considerati altamente sicuri. "
+"Questa è la stessa tecnica consigliata per la [[creazione e l'uso di volumi "
+"criptati|doc/encryption_and_privacy/encrypted_volumes]] in generale."
 
 #. type: Plain text
 #, no-wrap
@@ -124,6 +132,8 @@ msgid ""
 "<p>The weakest point of such encryption is often the passphrase chosen by\n"
 "the user.</p>\n"
 msgstr ""
+"<p>Il punto più debole di tale crittografia è spesso la frase d'accesso "
+"scelta dall'utente.</p>\n"
 
 #. type: Plain text
 #, no-wrap
