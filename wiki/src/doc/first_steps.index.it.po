@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
 "PO-Revision-Date: 2023-10-05 21:30+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -56,17 +56,12 @@ msgid "[[Introduction to GNOME and the Tails desktop|first_steps/desktop]]"
 msgstr "[[Introduzione a GNOME e al desktop Tails|first_steps/desktop]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid "[[!traillink Why_is_the_time_wrong?|first_steps/desktop/time]]"
 msgid "[[Why is the time wrong?|first_steps/desktop/time]]"
-msgstr ""
-"[[!traillink Perchè_c'è_l'_orario_sbagliato?|first_steps/desktop/time]]"
+msgstr "[[Perchè l'orario è sbagliato?|fprimi_passi/desktop/time]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Reporting_an_error|first_steps/bug_reporting]]"
 msgid "[[Reporting an error|first_steps/bug_reporting]]"
-msgstr "[[!traillink Segnalare_un_errore|first_steps/bug_reporting]]"
+msgstr "[[Segnalare un errore|primi_passi/bug_reporting]]"
 
 #. type: Bullet: '  - '
 #, fuzzy
