@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2023-10-05 21:20+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-05 21:21+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -287,16 +287,16 @@ msgstr ""
 
 #. type: Content of: <div><div><p>
 msgid "Make sure that you select a USB image that is readable by your browser."
-msgstr ""
+msgstr "Assicurati di selezionare un'immagine USB leggibile dal tuo browser."
 
 #. type: Content of: <div><div><p>
 msgid ""
 "Make sure that you select an ISO image that is readable by your browser."
-msgstr ""
+msgstr "Assicurati di selezionare un'immagine ISO leggibile dal tuo browser."
 
 #. type: Content of: <div><div><p>
 msgid "<a id=\"retry-json\">Retry&hellip;</a>"
-msgstr ""
+msgstr "<a id=\"riprova-json\">Retry&hellip;</a>"
 
 #. type: Content of: <div><div><p>
 msgid ""
