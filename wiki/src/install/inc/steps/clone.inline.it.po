@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: transitails 1\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-10-05 21:56+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -67,16 +67,12 @@ msgstr ""
 "</p>\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Plug <span class=\"install-clone mac-clone\">the new</span> <span "
-#| "class=\"upgrade\">your Tails</span> USB stick in the computer."
 msgid ""
 "Plug <span class=\"pc-clone mac-clone\">the new</span> <span "
 "class=\"upgrade\">your Tails</span> USB stick into the computer."
 msgstr ""
-"Inserisci la <span class=\"install-clone mac-clone\">nuova chiavetta USB</"
-"span> <span class=\"upgrade\">tua chiavetta USB Tails</span> nel computer."
+"Inserisci la <span class=\"pc-clone mac-clone\">il nuovo</span> <span class="
+"\"aggiornamento\">tuoTails</span> chiavetta USB nel computer."
 
 #. type: Plain text
 #, fuzzy, no-wrap
