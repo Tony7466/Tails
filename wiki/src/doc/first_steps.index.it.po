@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
 "PO-Revision-Date: 2023-10-05 21:29+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -47,14 +47,9 @@ msgstr ""
 "administration_password]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink MAC_address_anonymization|first_steps/welcome_screen/"
-#| "mac_spoofing]]"
 msgid "[[MAC address anonymization|first_steps/welcome_screen/mac_spoofing]]"
 msgstr ""
-"[[!traillink Anonimizzazione_dell'indirizzo_MAC|first_steps/welcome_screen/"
-"mac_spoofing]]"
+"[[Anonimato dell'indirizzo MAC|primi_passi/welcome_screen/mac_spoofing]]"
 
 #. type: Bullet: '  - '
 #, fuzzy
