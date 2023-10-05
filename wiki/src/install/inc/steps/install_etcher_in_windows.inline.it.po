@@ -44,13 +44,14 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Click on the following button to download <em>balenaEtcher</em>:"
-msgstr "Clicca sul tasto seguente per scaricare <em>balenaEtcher</em>:"
+msgstr "Clicca sul seguente tasto per scaricare <em>balenaEtcher</em>:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <a href='https://tails.boum.org/etcher/Etcher-Portable.exe'>Download Etcher for Windows</a>\n"
+#, no-wrap
 msgid "   <a href=\"https://tails.net/etcher/balenaEtcher-portable.exe\" class=\"button\">Download balenaEtcher for Windows</a>\n"
-msgstr "   <a href='https://tails.boum.org/etcher/Etcher-Portable.exe'>Scarica Etcher per Windows</a>\n"
+msgstr ""
+"   <a href=\"https://tails.net/etcher/balenaEtcher-portable.exe\" class="
+"\"tasto\">Scarica balenaEtcher per Windows</a\n"
 
 #, no-wrap
 #~ msgid "<div class=\"hidden-step-1\"></div>\n"
