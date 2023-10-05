@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-05 21:30+0000\n"
+"PO-Revision-Date: 2023-10-05 23:13+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
@@ -65,7 +65,7 @@ msgstr "[[Segnalare un errore|first_steps/bug_reporting]]"
 
 #. type: Bullet: '  - '
 msgid "[[Shutting down Tails|first_steps/shutdown]]"
-msgstr "[[Spegnere Tails|primi_passi/shutdown]]"
+msgstr "[[Spegnere Tails|first_steps/shutdown]]"
 
 #~ msgid "[[!traillink Persistent_Storage|first_steps/persistence]]"
 #~ msgstr "[[!traillink Archivio_Persistente|first_steps/persistence]]"
