@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-09 07:47+0200\n"
 "PO-Revision-Date: 2023-10-05 23:13+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Welcome to Tails!\"]]"
-msgstr "[[!meta title=\"Benvenuti in Tails!\"]]"
+msgstr "[[!meta title=\"Ti diamo il benvenuto in Tails!\"]]"
 
 #. [[!inline pages="home/year-end.inline" raw="yes" sort="age"]]
 #. type: Content of: outside any tag (error?)
