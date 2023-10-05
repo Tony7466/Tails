@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-05 21:42+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-05 21:43+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -80,10 +80,8 @@ msgid "[[macOS|install/mac]]"
 msgstr "[[macOS|installa/mac]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid "[[Install from Linux (recommended)|install/linux/usb-overview]]"
 msgid "[[Linux (recommended)|install/linux]]"
-msgstr "[[Installa da Linux (raccomandato)|install/linux/usb-overview]]"
+msgstr "[[Linux (consigliato)|installa/linux]]"
 
 #. type: Bullet: '    - '
 #, fuzzy
