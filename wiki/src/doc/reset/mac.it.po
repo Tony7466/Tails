@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-03-15 23:28+0000\n"
+"PO-Revision-Date: 2023-10-05 21:49+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -69,10 +69,8 @@ msgstr ""
 "    della finestra.\n"
 
 #. type: Bullet: '3.  '
-#, fuzzy
-#| msgid "Plug the USB stick that you want to reset."
 msgid "Plug in the USB stick that you want to reset."
-msgstr "Collega la chiavetta USB che vuoi formattare."
+msgstr "Inserisci la chiavetta USB che vuoi resettare."
 
 #. type: Plain text
 #, no-wrap
