@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
 "PO-Revision-Date: 2023-10-05 21:18+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -166,20 +166,21 @@ msgid ""
 "button <b>Select your download&hellip;</b> to verify your download with "
 "JavaScript."
 msgstr ""
+"Se non sai come utilizzare la OpenPGP signature, fai clic sul pulsante "
+"<b>Seleziona il tuo download&hellip;</b> per verificare il download con "
+"JavaScript."
 
 #. type: Content of: <div><div><div><p>
 msgid "[[OpenPGP signing key|tails-signing.key]]"
-msgstr ""
+msgstr "[[OpenPGP signing key|tails-signing.key]]"
 
 #. type: Content of: <div><div><div><p>
-#, fuzzy
-#| msgid ""
-#| "[[How does the extension work?|contribute/design/verification_extension]]"
 msgid ""
 "[[Security analysis of the different verification techniques|contribute/"
 "design/download_verification]]"
 msgstr ""
-"[[Come funziona l'estensione?|contribute/design/verification_extension]]"
+"[[Analisi della sicurezza delle diverse tecniche di verifica|contributi/"
+"design/download_verification]]"
 
 #. type: Content of: <div><div><div>
 msgid "\"\"\"]]"
