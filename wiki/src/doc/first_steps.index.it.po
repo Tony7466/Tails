@@ -64,10 +64,8 @@ msgid "[[Reporting an error|first_steps/bug_reporting]]"
 msgstr "[[Segnalare un errore|primi_passi/bug_reporting]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Shutting_down_Tails|first_steps/shutdown]]"
 msgid "[[Shutting down Tails|first_steps/shutdown]]"
-msgstr "[[!traillink Arrestare_Tails|first_steps/shutdown]]"
+msgstr "[[Spegnere Tails|primi_passi/shutdown]]"
 
 #~ msgid "[[!traillink Persistent_Storage|first_steps/persistence]]"
 #~ msgstr "[[!traillink Archivio_Persistente|first_steps/persistence]]"
