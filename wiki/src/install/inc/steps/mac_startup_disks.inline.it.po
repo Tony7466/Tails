@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-02 10:29+0200\n"
-"PO-Revision-Date: 2023-10-05 22:12+0000\n"
+"PO-Revision-Date: 2023-10-05 23:13+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -65,19 +65,15 @@ msgid "Switch on the computer."
 msgstr "Riaccendi il computer."
 
 #. type: Content of: <ol><li><p>
-#, fuzzy
-#| msgid ""
-#| "Switch on the computer and immediately press-and-hold the <span "
-#| "class=\"keycap\">Option</span> key (<span class=\"keycap\">Alt</span> "
-#| "key) until a list of possible startup disks appears."
 msgid ""
 "Immediately press-and-hold the <span class=\"keycap\">Option</span> key "
 "(<span class=\"keycap\">⌥</span> or <span class=\"keycap\">Alt</span>key) "
 "when the startup chime is played."
 msgstr ""
 "Accendi il computer e immediatamente premi e mantieni premuto il tasto <span "
-"class=\"keycap\">Option</span> (tasto <span class=\"keycap\">Alt</span>) "
-"finché non appare una lista dei possibili dischi d'avvio."
+"class=\"keycap\">Option</span> (<span class=\"keycap\">⌥</span> o tasto "
+"<span class=\"keycap\">Alt</span>) finché non appare una lista dei possibili "
+"dischi d'avvio."
 
 #. type: Content of: <ol><li><p>
 msgid "Hold the key pressed until a list of possible startup disks appears."
@@ -156,7 +152,7 @@ msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid "To open <em>Startup Security Utility</em>:"
-msgstr "Per aprire l'<em>Utilità di sicurezza all'avvio</em>."
+msgstr "Per aprire l'<em>Utilità di sicurezza all'avvio</em>:"
 
 #. type: Content of: <ol><li><ol><li><p>
 msgid ""
@@ -295,7 +291,7 @@ msgid ""
 msgstr ""
 "La voce <b>Disco Rigido Esterno</b> consente di [[avviare da un disco rigido "
 "esterno|doc/advanced_topicsi/external_hard_disk]] e alcune [[ problematiche "
-"chiavette USB|supporto/problemi_conosciuti#problematic-usb-stick]]."
+"chiavette USB|support/known_issues#problematic-usb-stick]]."
 
 #, fuzzy
 #~| msgid ""
