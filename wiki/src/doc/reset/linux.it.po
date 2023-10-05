@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Italian Tails translation\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-03-15 23:28+0000\n"
+"PO-Revision-Date: 2023-10-05 21:48+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -68,15 +68,7 @@ msgstr ""
 "Assicurati che la chiavetta USB che vuoi inizializzare sia disinserita."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "1. Choose\n"
-#| "   <span class=\"menuchoice\">\n"
-#| "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
-#| "     <span class=\"guimenuitem\">Disks</span>\n"
-#| "   </span>\n"
-#| "   to start <span class=\"application\">GNOME Disks</span>.\n"
+#, no-wrap
 msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
@@ -92,7 +84,7 @@ msgstr ""
 "     <span class=\"guisubmenu\">Utilità</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Dischi</span>\n"
 "   </span>\n"
-"   per iniziare <span class=\"application\">Dischi GNOME</span>.\n"
+"   per avviare <span class=\"applicazione\">GNOME Disks</span>.\n"
 
 #. type: Plain text
 #, no-wrap
