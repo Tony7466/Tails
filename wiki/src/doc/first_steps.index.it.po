@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
 "PO-Revision-Date: 2023-10-05 21:30+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr ""
 #. type: Bullet: '    - '
 msgid "[[MAC address anonymization|first_steps/welcome_screen/mac_spoofing]]"
 msgstr ""
-"[[Anonimato dell'indirizzo MAC|primi_passi/welcome_screen/mac_spoofing]]"
+"[[Anonimato dell'indirizzo MAC|first_steps/welcome_screen/mac_spoofing]]"
 
 #. type: Bullet: '  - '
 msgid "[[Introduction to GNOME and the Tails desktop|first_steps/desktop]]"
