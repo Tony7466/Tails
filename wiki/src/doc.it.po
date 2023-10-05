@@ -101,7 +101,7 @@ msgstr "[[Per PC|installa/clone/pc]]"
 
 #. type: Bullet: '    - '
 msgid "[[For Mac|install/clone/mac]]"
-msgstr ""
+msgstr "[[Per Mac|installa/clone/mac]]"
 
 #. type: Bullet: '  - '
 #, fuzzy
