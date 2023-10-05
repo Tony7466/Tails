@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Italian Tails translation\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-10-05 21:49+0000\n"
+"PO-Revision-Date: 2023-10-05 23:13+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -97,7 +97,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Plug in the USB stick that you want to reset."
-msgstr "Inserisci la chiavetta USB che vuoi resettare."
+msgstr "Inserisci la chiavetta USB che vuoi formattare."
 
 #. type: Plain text
 #, no-wrap
