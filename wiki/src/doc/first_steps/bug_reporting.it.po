@@ -282,13 +282,7 @@ msgstr ""
 "<span class=\"application\">GNOME Screenshot</span>.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "To start <span class=\"application\">GNOME Screenshot</span>, choose\n"
-#| "<span class=\"menuchoice\">\n"
-#| "  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "  <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
-#| "  <span class=\"guimenuitem\">Screenshot</span></span>.\n"
+#, no-wrap
 msgid ""
 "To start <span class=\"application\">GNOME Screenshot</span>, choose\n"
 "<span class=\"menuchoice\">\n"
@@ -296,10 +290,10 @@ msgid ""
 "  <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
 "  <span class=\"guimenuitem\">Screenshot</span></span>.\n"
 msgstr ""
-"Per avviare <span class=\"application\">GNOME Screenshot</span>, seleziona\n"
+"Per avviare <span class=\"applicatione\">GNOME Screenshot</span>, seleziona\n"
 "<span class=\"menuchoice\">\n"
 "   <span class=\"guimenu\">Applicazioni</span>&nbsp;▸\n"
-"   <span class=\"guisubmenu\">Strumenti di sistema</span>&nbsp;▸\n"
+"   <span class=\"guisubmenu\">Utilità</span>&nbsp;▸\n"
 "   <span class=\"guimenuitem\">Screenshot</span></span>.\n"
 
 #. type: Plain text
