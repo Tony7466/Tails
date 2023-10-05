@@ -185,16 +185,12 @@ msgstr ""
 "   </div>\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "After the installation finishes, close <span class=\"application\">Tails "
-#| "Installer</span>."
 msgid ""
 "After the installation finishes, close <span class=\"application\">Tails "
 "Cloner</span>."
 msgstr ""
-"Una volta che l'installazione è terminata, chiudi l'<span "
-"class=\"application\">Installer di Tails</span>."
+"Una volta che l'installazione è terminata, chiudi l'<span class="
+"\"applicatione\">Tails Cloner</span>."
 
 #. type: Plain text
 #, no-wrap
