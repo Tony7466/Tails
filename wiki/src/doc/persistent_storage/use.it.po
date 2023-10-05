@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-05 21:40+0000\n"
+"PO-Revision-Date: 2023-10-05 21:41+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -40,20 +40,23 @@ msgstr ""
 "accesso e clicca su **Sblocca Crittografia**."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   [[!img first_steps/welcome_screen/persistence.png link=\"no\" alt=\"\"]]\n"
+#, no-wrap
 msgid "   [[!img first_steps/welcome_screen/unlock_persistent_storage.png link=\"no\" alt=\"\"]]\n"
-msgstr "   [[!img first_steps/welcome_screen/persistence.png link=\"no\" alt=\"\"]]\n"
+msgstr ""
+"   [[!img first_steps/welcome_screen/unlock_persistent_storage.png link=\"no"
+"\" alt=\"\"]]\n"
 
 #. type: Bullet: '1. '
 msgid "Start Tails."
-msgstr ""
+msgstr "Avvia Tails."
 
 #. type: Bullet: '1. '
 msgid ""
 "The data corresponding to each feature of the Persistent Storage that is "
 "turned on is automatically available. For example:"
 msgstr ""
+"I dati corrispondenti a ciascuna funzionalità attivata dell'Archivio "
+"Persistente sono automaticamente disponibili. Ad esempio:"
 
 #. type: Bullet: '   - '
 msgid ""
@@ -61,12 +64,17 @@ msgid ""
 "**Places**&nbsp;▸ **Persistent**, if the [[Persistent Folder|"
 "configure#persistent_folder]] feature is turned on."
 msgstr ""
+"I file personali nella cartella *Persistente* sono accessibili da "
+"**Places**&nbsp;▸ **Persistent**, se la funzione [[Persistent "
+"Folder|configure#persistent_folder]] è attivata."
 
 #. type: Bullet: '   - '
 msgid ""
 "Your persistent bookmarks are available in *Tor Browser*, if the [[Tor "
 "Browser Bookmarks|configure#bookmarks]] feature is turned on."
 msgstr ""
+"I tuoi segnalibri persistenti sono disponibili in *Tor Browser*, se la "
+"funzionalità [[Tor Browser Bookmarks|configura#bookmarks]] è attivata."
 
 #. type: Bullet: '   - '
 msgid ""
