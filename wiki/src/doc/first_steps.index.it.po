@@ -31,10 +31,8 @@ msgid "[[On Mac|first_steps/start/mac]]"
 msgstr "[[Su Mac|primi_passi/start/mac]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Accessibility|first_steps/accessibility]]"
 msgid "[[Accessibility|first_steps/accessibility]]"
-msgstr "[[!traillink Accessibilità|first_steps/accessibility]]"
+msgstr "[[Accessibilità|primi_passi/accessibility]]"
 
 #. type: Bullet: '  - '
 #, fuzzy
