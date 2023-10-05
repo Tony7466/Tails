@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
 "PO-Revision-Date: 2023-10-05 21:29+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -39,15 +39,11 @@ msgid "[[Welcome Screen|first_steps/welcome_screen]]"
 msgstr "[[Schermata di benvenuto|primi_passi/welcome_screen]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Administration_password|first_steps/welcome_screen/"
-#| "administration_password]]"
 msgid ""
 "[[Administration password|first_steps/welcome_screen/"
 "administration_password]]"
 msgstr ""
-"[[!traillink Password_di_amministrazione|first_steps/welcome_screen/"
+"[[Password di amministrazione|primi_passi/welcome_screen/"
 "administration_password]]"
 
 #. type: Bullet: '    - '
