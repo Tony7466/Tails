@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: transitails 1\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-05 21:56+0000\n"
+"PO-Revision-Date: 2023-10-05 21:57+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -75,30 +75,18 @@ msgstr ""
 "\"aggiornamento\">tuoTails</span> chiavetta USB nel computer."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "   <div class=\"caution install-clone mac-clone\">\n"
-#| "   <p>All the data on this USB stick will be lost.</p>\n"
-#| "   </div>\n"
+#, no-wrap
 msgid ""
 "   <div class=\"caution pc-clone mac-clone\">\n"
 "   <p>All the data on this USB stick will be lost.</p>\n"
 "   </div>\n"
 msgstr ""
-"   <div class=\"caution install-clone mac-clone\">\n"
+"   <div class=\"caution pc-clone mac-clone\">\n"
 "   <p>Tutti i dati su questa chiavetta USB verranno persi.</p>\n"
 "   </div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "1. Choose\n"
-#| "   <span class=\"menuchoice\">\n"
-#| "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-#| "     <span class=\"guimenuitem\">Tails Installer</span>\n"
-#| "   </span>\n"
-#| "   to start <span class=\"application\">Tails Installer</span>.\n"
+#, no-wrap
 msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
@@ -112,9 +100,9 @@ msgstr ""
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applicazioni</span>&nbsp;▸\n"
 "     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">Tails Installer</span>\n"
+"     <span class=\"guimenuitem\">Tails Cloner</span>\n"
 "   </span>\n"
-"   per avviare l'<span class=\"application\">Installer di Tails</span>.\n"
+"   per avviare l'<span class=\"applicazione\">Tails Cloner</span>.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
