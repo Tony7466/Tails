@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
 "PO-Revision-Date: 2023-10-05 21:42+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -73,7 +73,7 @@ msgstr "Installazione da:"
 
 #. type: Bullet: '    - '
 msgid "[[Windows|install/windows]]"
-msgstr "[[Windows|installa/windows]]"
+msgstr "[[Windows|install/windows]]"
 
 #. type: Bullet: '    - '
 msgid "[[macOS|install/mac]]"
