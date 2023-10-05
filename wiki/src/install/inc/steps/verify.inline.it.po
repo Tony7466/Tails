@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
 "PO-Revision-Date: 2023-10-05 21:17+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -32,10 +32,8 @@ msgid "Verify your download"
 msgstr "Verifica il download"
 
 #. type: Content of: <div>
-#, fuzzy
-#| msgid "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
 msgid "[[!img inc/infography/verify.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
+msgstr "[[!img inc/infography/verify.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div>
 #, fuzzy
@@ -48,50 +46,47 @@ msgid ""
 "Verify your download to make sure that it is safe and was not corrupted "
 "during download."
 msgstr ""
+"Verifica il download per assicurarti che sia sicuro e che non sia stato "
+"danneggiato durante il download."
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid ""
-#| "Your BitTorrent client will automatically verify your download when it is "
-#| "complete."
 msgid ""
 "Your BitTorrent client will automatically verify your download when it "
 "completes."
 msgstr ""
-"Il tuo client BitTorrent verificherà automaticamente il tuo scaricamento una "
-"volta completato."
+"Il client BitTorrent verificherà il download al termine automaticamente ."
 
 #. type: Content of: <div><p>
 msgid "The verification below is optional for a BitTorrent download."
-msgstr ""
+msgstr "La verifica che segue è facoltativa per un download BitTorrent."
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid ""
-#| "You seem to have JavaScript disabled. To use our browser extension, "
-#| "please allow all this page:"
 msgid ""
 "You seem to have JavaScript disabled. To verify your download, you can "
 "either:"
 msgstr ""
-"Sembra che il tuo JavaScript sia disattivato. Per usare la nostra "
-"estensione, ti preghiamo di autorizzare completamente questa pagina:"
+"Sembra che JavaScript sia disabilitato. Per verificare il download, è "
+"possibile:"
 
 #. type: Content of: <div><div><ul><li><p>
 msgid "Enable JavaScript and reload this page."
-msgstr ""
+msgstr "Abilita JavaScript e ricarica la pagina."
 
 #. type: Content of: <div><div><ul><li><p>
 msgid ""
 "Compare manually the checksum of your download with [[the checksum of our "
 "images|install/v2/Tails/amd64/stable/latest.json]]."
 msgstr ""
+"Confronta manualmente il checksum del tuo download con [[il checksum delle "
+"nostre immagini|install/v2/Tails/amd64/stable/latest.json]]."
 
 #. type: Content of: <div><div><ul><li><p>
 msgid ""
 "See our documentation on [[calculating checksums using GtkHash|doc/"
 "encryption_and_privacy/checksums]]."
 msgstr ""
+"Consulta la nostra documentazione su [[calcolo delle checksum con GtkHash|"
+"doc/encryption_and_privacy/checksum]]."
 
 #. type: Content of: <div><div><ul><li><p>
 msgid ""
@@ -111,41 +106,39 @@ msgstr ""
 
 #. type: Content of: <div><div><ul><li><p>
 msgid "We don't provide instructions to verify downloads with OpenPGP anymore."
-msgstr ""
+msgstr "Non forniamo più istruzioni per verificare i download con OpenPGP."
 
 #. type: Content of: <div><div><ul><p>
-#, fuzzy
-#| msgid ""
-#| "[[How does the extension work?|contribute/design/verification_extension]]"
 msgid ""
 "[[See our security analysis of the different verification techniques.|"
 "contribute/design/download_verification]]"
 msgstr ""
-"[[Come funziona l'estensione?|contribute/design/verification_extension]]"
+"[[Vedi la nostra analisi di sicurezza delle diverse tecniche di verifica.|"
+"contribute/design/download_verification]]"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "You seem to be using <em>Internet Explorer</em>. To verify your download, "
 "please use a different browser."
 msgstr ""
+"Sembra che tu stia utilizzando <em>Internet Explorer</em>. Per verificare il "
+"download, utilizza un altro browser."
 
 #. type: Content of: <div><div>
 msgid ""
 "<label class=\"button\"> Select your download&hellip; <input id=\"verify-file"
 "\" type=\"file\"/> </label>"
 msgstr ""
+"<label class=\"tasto\">Seleziona il download&hellip; <input id=\"verifica-"
+"file\" type=\"file\"/> </label>"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid ""
-#| "[[!toggleable id=\"why-verify-supported\" text=\"\"\" [[!toggle id=\"why-"
-#| "verify-supported\" text=\"X\"]]"
 msgid ""
 "or verify using the [[!toggle id=\"openpgp-verification\" text=\"OpenPGP "
 "signature\"]]"
 msgstr ""
-"[[!toggleable id=\"why-verify-supported\" text=\"\"\" [[!toggle id=\"why-"
-"verify-supported\" text=\"X\"]]"
+"o verifica usando il [[!toggle id=\"openpgp-verifica\" text=\"OpenPGP "
+"signature\"]]"
 
 #. type: Content of: <div><div><div>
 #, fuzzy
