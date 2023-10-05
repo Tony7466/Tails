@@ -55,13 +55,12 @@ msgstr ""
 "automaticamente."
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "You can choose to unlock your Persistent Storage or not each time you start "
 "Tails."
 msgstr ""
-"Dopo aver creato un Archivio Persistente, puoi scegliere di aprirlo oppure "
-"no ogni volta che avvii Tails."
+"Puoi scegliere di sbloccare o meno l'Archivio Persistente ogni volta che "
+"avvii Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -75,6 +74,10 @@ msgid ""
 "stick can know that there is a Persistent Storage. Take into consideration that\n"
 "you could be forced or tricked to give out its passphrase.</p>\n"
 msgstr ""
+"<p>L'Archivio Persistente non è nascosto. Un aggressore in possesso della "
+"tua chiavetta USB\n"
+"può sapere che esiste una memoria persistente. Tieni in considerazione che\n"
+"potresti essere costretto o ingannato e fornire la frase d'accesso</p>\n"
 
 #. type: Plain text
 #, no-wrap
