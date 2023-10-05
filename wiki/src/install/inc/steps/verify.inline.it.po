@@ -141,16 +141,12 @@ msgstr ""
 "signature\"]]"
 
 #. type: Content of: <div><div><div>
-#, fuzzy
-#| msgid ""
-#| "[[!toggleable id=\"why-verify-supported\" text=\"\"\" [[!toggle id=\"why-"
-#| "verify-supported\" text=\"X\"]]"
 msgid ""
 "[[!toggleable id=\"openpgp-verification\" text=\"\"\" [[!toggle id=\"openpgp-"
 "verification\" text=\"X\"]]"
 msgstr ""
-"[[!toggleable id=\"why-verify-supported\" text=\"\"\" [[!toggle id=\"why-"
-"verify-supported\" text=\"X\"]]"
+"[[!toggleable id=\"openpgp-verifica\" text=\"\"\" [[!toggle id=\"openpgp-"
+"verifica\" text=\"X\"]]"
 
 #. type: Content of: <div><div><div><p>
 msgid ""
