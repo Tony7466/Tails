@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-05 21:33+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-05 21:34+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -128,21 +128,26 @@ msgid ""
 "   you know it well.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <p>Per aiutarti a ricordare la tua frase d'accesso, puoi scriverla su un "
+"pezzo di\n"
+"   carta, conservarla nel portafoglio per qualche giorno e distruggerla\n"
+"   una volta che la ricordi bene.</p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
 msgid "Type again the same passphrase in the **Confirm** text box."
 msgstr ""
+"Digita nuovamente la stessa frase d'accesso nella casella di testo "
+"**Conferma**."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid "Unlocking the Persistent Storage"
 msgid "Click **Create Persistent Storage**."
-msgstr "Sbloccare l'Archivio Persistente"
+msgstr "Clicca **Crea Archivio Persistente**."
 
 #. type: Plain text
 #, no-wrap
 msgid "   The creation process takes a few seconds.\n"
-msgstr ""
+msgstr "   Il processo di creazione richiede pochi secondi.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -155,6 +160,8 @@ msgid ""
 "<p>After the creation is finished, you can start [[configuring your Persistent\n"
 "Storage|configure]].</p>\n"
 msgstr ""
+"<p>Una volta creata, puoi iniziare a [[configurare il tuo Archivio "
+"Persistente|configurare]].</p>\n"
 
 #, no-wrap
 #~ msgid "   <div class=\"tip\">\n"
