@@ -69,7 +69,7 @@ msgstr ""
 
 #. type: Bullet: '3.  '
 msgid "Plug in the USB stick that you want to reset."
-msgstr "Inserisci la chiavetta USB che vuoi resettare."
+msgstr "Inaerisci la chiavetta USB che vuoi formattare."
 
 #. type: Plain text
 #, no-wrap
