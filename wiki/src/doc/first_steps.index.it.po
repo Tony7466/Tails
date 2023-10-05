@@ -53,7 +53,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[Introduction to GNOME and the Tails desktop|first_steps/desktop]]"
-msgstr "[[Introduzione a GNOME e al desktop Tails|primi_passi/desktop]]"
+msgstr "[[Introduzione a GNOME e al desktop Tails|first_steps/desktop]]"
 
 #. type: Bullet: '    - '
 #, fuzzy
