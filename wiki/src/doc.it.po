@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
 "PO-Revision-Date: 2023-10-05 21:45+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -109,7 +109,7 @@ msgstr "[[Masterizzare un DVD|install/dvd]]"
 
 #. type: Bullet: '  - '
 msgid "[[Running Tails in a virtual machine|install/vm]]"
-msgstr "[[Esecuzione di Tails in una macchina virtuale|installa/vm]]"
+msgstr "[[Esecuzione di Tails in una macchina virtuale|install/vm]]"
 
 #. type: Bullet: '  - '
 msgid "Downloading without installing:"
