@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-10-05 21:27+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -208,7 +208,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr ""
+msgstr "<div class=\"note\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -216,6 +216,9 @@ msgid ""
 "<p>We are not able to answer every error report, so you might not receive a\n"
 "reply from us.</p>\n"
 msgstr ""
+"<p>Non siamo in grado di rispondere a tutte le segnalazioni di errore, "
+"quindi è possibile che tu non ricevera una\n"
+"risposta da parte nostra.</p>\n"
 
 #. type: Plain text
 #, no-wrap
