@@ -74,7 +74,7 @@ msgid ""
 "Browser Bookmarks|configure#bookmarks]] feature is turned on."
 msgstr ""
 "I tuoi segnalibri persistenti sono disponibili in *Tor Browser*, se la "
-"funzionalità [[Tor Browser Bookmarks|configura#bookmarks]] è attivata."
+"funzionalità [[Tor Browser Bookmarks|configure#bookmarks]] è attivata."
 
 #. type: Bullet: '   - '
 msgid ""
