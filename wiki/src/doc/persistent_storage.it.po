@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-04-19 10:22+0200\n"
 "PO-Revision-Date: 2023-10-05 21:37+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -32,19 +32,21 @@ msgid ""
 "But you can save some of your files and configuration in an encrypted "
 "Persistent Storage on your Tails USB stick, for example:"
 msgstr ""
+"Tuttavia, è possibile salvare alcuni file e la configurazione in un Archivio "
+"Persistente Crittato sulla chiavetta USB di Tails, ad esempio:"
 
 #. type: Plain text
 msgid "- Your documents - Your Wi-Fi passwords - Your brower bookmarks - ..."
 msgstr ""
+"- I vostri documenti - Le password del Wi-Fi - I segnalibri del browser - ..."
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "The Persistent Storage is an encrypted partition protected by a passphrase "
 "that occupies all the free space left on the USB stick."
 msgstr ""
-"L' Archivio Persistente Crittato è una partizione  protetta da una "
-"passphrase sulla chivetta USB."
+"L' Archivio Persistente è una partizione cifrata, protetta da una passphrase "
+"che occupa tutto lo spazio lasciato libero sulla chivetta USB."
 
 #. type: Plain text
 msgid "Everything in the Persistent Storage is encrypted automatically."
