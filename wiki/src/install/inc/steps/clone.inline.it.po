@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: transitails 1\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-05 21:57+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-05 21:58+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -105,31 +105,28 @@ msgstr ""
 "   per avviare l'<span class=\"applicazione\">Tails Cloner</span>.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"install-clone mac-clone\" alt=\"Tails Installer: 'Clone the current Tails'\"]]\n"
+#, no-wrap
 msgid "   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"pc-clone mac-clone\" alt=\"Tails Cloner: 'Clone the current Tails'\"]]\n"
-msgstr "   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"install-clone mac-clone\" alt=\"Installer di Tails: 'Clona l'attuale Tails'\"]]\n"
+msgstr ""
+"   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"pc-"
+"clone mac-clone\" alt=\"Tails Cloner: 'Clona il corrente Tails'\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" class=\"upgrade\" alt=\"Tails Installer: 'Clone the current Tails'\"]]\n"
+#, no-wrap
 msgid "   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" class=\"upgrade\" alt=\"Tails Cloner: 'Clone the current Tails'\"]]\n"
-msgstr "   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" class=\"upgrade\" alt=\"Installer di Tails: 'Clona l'attuale Tails'\"]]\n"
+msgstr ""
+"   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" "
+"class=\"upgrade\" alt=\"Cloner diTails: 'Clona il Tails corrente'\"]]\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Choose <span class=\"install-clone mac-clone\">the new</span> <span "
-#| "class=\"upgrade\">your</span> USB stick in the <span "
-#| "class=\"guilabel\">Target USB stick</span> drop-down list."
 msgid ""
 "Choose <span class=\"pc-clone mac-clone\">the new</span> <span "
 "class=\"upgrade\">your</span> USB stick in the <span "
 "class=\"guilabel\">Target USB stick</span> menu."
 msgstr ""
-"Seleziona la <span class=\"install-clone mac-clone\">nuova</span> <span "
-"class=\"upgrade\">tua</span> chiavetta USB nel menù a tendina <span "
-"class=\"guilabel\">Penna USB di destinazione</span>."
+"Seleziona la <span class=\"pc-clone mac-clone\">nuovo</span> <span class="
+"\"aggiornamento\">tua</span> chiavetta USB nel menù <span class=\"guilabel\""
+">chiavetta USB di destinazione</span>."
 
 #. type: Bullet: '1. '
 msgid ""
