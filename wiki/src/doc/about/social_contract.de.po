@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
-"PO-Revision-Date: 2022-06-14 08:09+0000\n"
+"PO-Revision-Date: 2023-10-10 10:13+0000\n"
 "Last-Translator: Reiner Unfug <maigatter@posteo.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Social Contract\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Gesellschaftsvertrag\"]]\n"
 
 #. type: Title ##
 #, no-wrap
