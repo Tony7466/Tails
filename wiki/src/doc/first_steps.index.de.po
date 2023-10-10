@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-10 09:38+0000\n"
-"Last-Translator: Rose <rose@rosedev.de>\n"
+"PO-Revision-Date: 2023-10-10 10:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "Starting Tails"
-msgstr "Tails Starten"
+msgstr "Tails starten"
 
 #. type: Bullet: '    - '
 #, fuzzy
