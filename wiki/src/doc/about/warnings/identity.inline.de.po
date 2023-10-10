@@ -3,26 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-11 14:19-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-10-10 10:13+0000\n"
+"Last-Translator: k3w b4fd <k3wqfo8bke6mgaijt7fyb4fd@systemli.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Content of: <p>
 msgid "Tails is designed to hide your identity."
-msgstr ""
+msgstr "Tails wurde entwickelt, um Ihre Identität zu verbergen."
 
 #. type: Content of: <p>
 msgid "But some of your activities could reveal your identity:"
-msgstr ""
+msgstr "Aber einige Ihrer Aktivitäten könnten Ihre Identität preisgeben:"
 
 #. type: Content of: <ul><li>
 msgid ""
