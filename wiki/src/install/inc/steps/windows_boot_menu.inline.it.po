@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-10-05 23:13+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-11 20:12+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -42,16 +42,12 @@ msgid "[[the Linux command line|install/expert#install]]"
 msgstr "[[linea di comando di Linux|install/expert#install]]"
 
 #. type: Content of: <ol><li><p>
-#, fuzzy
-#| msgid ""
-#| "Click on the <span class=\"guimenu\">Start [[!img lib/start.png alt=\"\" "
-#| "link=\"no\"]]</span> button."
 msgid ""
 "Click on the <span class=\"guimenu\">Start [[!img lib/start.png alt=\"\" "
 "class=\"symbolic\" link=\"no\"]]</span> button."
 msgstr ""
-"Clicca il pulsante <span class=\"guimenu\">Start [[!img lib/start.png "
-"alt=\"\" link=\"no\"]]</span>."
+"Clicca il tasto <span class=\"guimenu\">Avvia [[!img lib/start.png alt=\"\" "
+"class=\"symbolic\" link=\"no\"]]</span>."
 
 #. type: Content of: <ol><li><p>
 #, fuzzy
