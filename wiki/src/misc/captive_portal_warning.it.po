@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-10-05 23:13+0000\n"
+"PO-Revision-Date: 2023-10-11 20:12+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -73,7 +73,7 @@ msgstr "<div id=\"unsafe\">\n"
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "<p class=\"big\">This browser is not anonymous.</p>\n"
-msgstr ""
+msgstr "<p class=\"big\">questo browser non è anonimo.</p>\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap
@@ -90,7 +90,7 @@ msgstr "</div>\n"
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "<div id=\"eyes\">[[!img unsafe.jpg link=\"no\" alt=\"\"]]</div>\n"
-msgstr ""
+msgstr "<div id=\"eyes\">[[!img unsafe.jpg link=\"no\" alt=\"\"]]</div>\n"
 
 #. type: Title =
 #, markdown-text, no-wrap
