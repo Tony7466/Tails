@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2022-06-17 06:07+0000\n"
+"PO-Revision-Date: 2023-10-15 22:16+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "requirements/es/>\n"
@@ -52,10 +52,8 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid "<p>Tails might not work on:</p>\n"
 msgid "Tails might not work on:"
-msgstr "<p>Tails podría no funcionar en:</p>\n"
+msgstr "Tails podría no funcionar en:"
 
 #. type: Bullet: '  * '
 msgid "Some older computers, for example, if they don't have enough RAM."
@@ -105,10 +103,9 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Hardware requirements:"
+#, no-wrap
 msgid "Hardware requirements"
-msgstr "Requerimientos de hardware:"
+msgstr "Requerimientos de Hardware"
 
 #. type: Plain text
 msgid "- A USB stick of 8 GB minimum or a recordable DVD."
@@ -117,7 +114,9 @@ msgstr "- Una memoria USB de al menos 8 GB o un DVD grabable."
 #. type: Plain text
 #, no-wrap
 msgid "  All the data on this USB stick or DVD will be lost when installing Tails.\n"
-msgstr "  Toda la información en la memoria USB o DVD se perderá cuando se instale Tails.\n"
+msgstr ""
+"  Toda la información en la memoria USB o DVD se perderá cuando se instale "
+"Tails.\n"
 
 #. type: Plain text
 msgid "- The ability to start from a USB stick or a DVD reader."
@@ -129,8 +128,8 @@ msgid ""
 "A 64-bit <span class=\"definition\">[[!wikipedia x86-64]]</span> compatible "
 "processor:"
 msgstr ""
-"Un 64-bit <span class=\"definition\">[[!wikipedia_es x86-64]]</span> "
-"procesador compatible:"
+"Un procesador de 64-bits <span class=\"definition\">[[!wikipedia_es "
+"x86-64]]</span>  compatible:"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -172,7 +171,9 @@ msgstr "- 2 GB de memoria RAM para trabajar cómodamente."
 #. type: Plain text
 #, no-wrap
 msgid "  Tails can work with less than 2 GB RAM but might behave strangely or crash.\n"
-msgstr "  Tails puede funcionar con menos de 2 GB de memoria RAM pero puede comportarse de manera extraña o fallar.\n"
+msgstr ""
+"  Tails puede funcionar con menos de 2 GB de memoria RAM pero puede "
+"comportarse de manera extraña o fallar.\n"
 
 #. type: Title =
 #, no-wrap
