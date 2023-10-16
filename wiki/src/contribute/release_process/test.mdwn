@@ -53,7 +53,6 @@ Reproducibility
 
 ⚠ Wait until the Release Manager removes this warning.
 
-Send a message to the Trusted Reproducer, telling them that they can start their work.
 
 0. Check that the <https://tails.net/contribute/calendar/>
    documents who is the _Trusted Reproducer_ for this release.
