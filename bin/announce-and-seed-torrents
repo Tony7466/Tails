@@ -9,7 +9,7 @@ ssh bittorrent.lizard gpg --import \
 for type in iso img ; do
     image_filename="tails-amd64-${VERSION:?}.${type:?}"
     torrent_dirname="tails-amd64-${VERSION:?}-${type:?}"
-    rsync -L \
+    rsync --copy-links \
         "${ISOS:?}/${image_filename:?}.torrent" \
         "${ISOS:?}/tails-amd64-${VERSION:?}/${image_filename:?}.sig" \
         "bittorrent.lizard:${torrent_dirname}/"
@@ -20,7 +20,7 @@ for type in iso img ; do
         set -eu
         chmod 0775 "${torrent_dirname:?}"
         cd "${torrent_dirname:?}"
-        wget -nv -c \
+        wget --no-verbose --continue \
             "https://nightly.tails.boum.org/build_Tails_ISO_${RELEASE_BRANCH:?}/builds/${MATCHING_JENKINS_IMAGES_BUILD_ID:?}/archive/build-artifacts/${image_filename:?}"
         gpg --verify ${image_filename:?}{.sig,}
         cd
