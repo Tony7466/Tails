@@ -966,9 +966,14 @@ may start. Remeber to encrypt and sign your email!
     Subject: Testing Tails ${VERSION:?}
     X-Attach: $(ls -1 "$ISOS/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.packages" "$ISOS/tails-amd64-${VERSION:?}/"tails-amd64-${VERSION:?}.{iso,img}.sig "$ISOS/tails-amd64-${VERSION:?}".{iso,img}.torrent | tr '\n' ,)
 
-    You can now download the images and start testing:
+    You can now download the images, verify them using the attached signatures, and start testing:
 
     https://nightly.tails.boum.org/build_Tails_ISO_${RELEASE_BRANCH:?}/builds/${MATCHING_JENKINS_IMAGES_BUILD_ID:?}/archive/build-artifacts/
+    
+    To verify downloaded data, run:
+
+        gpg --verify tails-amd64-${VERSION:?}.img.sig tails-amd64-${VERSION:?}.img
+        gpg --verify tails-amd64-${VERSION:?}.iso.sig tails-amd64-${VERSION:?}.iso
 
     Please note that the attached Torrents don't work yet.
     EOF
