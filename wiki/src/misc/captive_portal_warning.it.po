@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-10-11 20:12+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-17 19:48+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -64,11 +64,13 @@ msgid ""
 "You might have to sign in to this network before you can connect to the Tor "
 "network."
 msgstr ""
+"Potrebbe essere necessario accedere a questa rete prima di poterti "
+"connettere alla rete Tor."
 
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "<div id=\"unsafe\">\n"
-msgstr "<div id=\"unsafe\">\n"
+msgstr "<div id=\"non sicuro\">\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap
