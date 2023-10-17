@@ -12,12 +12,12 @@ end
 
 def thunderbird_inbox
   folder_view = thunderbird_main.child($config['Thunderbird']['address'],
-                                       roleName: 'table row').parent
+                                       roleName: 'tree item')
   # Dogtail mangles the regexps we pass it, which we have to workaround,
   # hence the suboptimal regexp below (the simpler /^Inbox( .*)?$/ would
   # not work). For details, see
   # https://gitlab.tails.boum.org/tails/tails/-/issues/19928#note_215864
-  folder_view.child(/^Inbox|Inbox (.*)$/, roleName: 'table row', recursive: false)
+  folder_view.child(/^Inbox|Inbox (.*)$/, roleName: 'tree item')
 end
 
 When /^I start Thunderbird$/ do
@@ -107,10 +107,10 @@ Then /^the autoconfiguration wizard's choice for the (incoming|outgoing) server 
   assert(subsections.any? { |s| s.text == 'SSL/TLS' || s.text == 'STARTTLS' })
 end
 
-def wait_for_thunderbird_progress_bar_to_vanish(thunderbird_frame)
+def wait_for_thunderbird_progress_bar_to_vanish
   try_for(120) do
-    thunderbird_frame.child(roleName: 'status bar', retry: false)
-                     .child(roleName: 'progress bar', retry: false)
+    thunderbird_main.child(roleName: 'status bar', retry: false)
+                    .child(roleName: 'progress bar', retry: false)
     false
   rescue StandardError
     true
@@ -118,19 +118,8 @@ def wait_for_thunderbird_progress_bar_to_vanish(thunderbird_frame)
 end
 
 When /^I fetch my email$/ do
-  thunderbird_main.child($config['Thunderbird']['address'],
-                         roleName: 'table row')
-                  .activate
-  thunderbird_frame = thunderbird_app.child(
-    "#{$config['Thunderbird']['address']} - Mozilla Thunderbird", roleName: 'frame'
-  )
-
-  get_messages_menu = thunderbird_frame.child('Mail Toolbar', roleName: 'tool bar')
-                                       .button('Get Messages')
-  get_messages_menu.press
-  get_messages_menu.child('Get All New Messages', roleName: 'menu item')
-                   .click
-  wait_for_thunderbird_progress_bar_to_vanish(thunderbird_frame)
+  thunderbird_main.button('Get Messages').press
+  wait_for_thunderbird_progress_bar_to_vanish
 end
 
 When /^I accept the (?:autoconfiguration wizard's|manual) configuration$/ do
@@ -160,7 +149,7 @@ When /^I accept the (?:autoconfiguration wizard's|manual) configuration$/ do
   # e.g. only the INBOX folder is listed, so after that we fetch
   # email manually: otherwise Thunderbird does not know about the "Sent"
   # directory yet and sending email will fail when copying messages there.
-  wait_for_thunderbird_progress_bar_to_vanish(thunderbird_main)
+  wait_for_thunderbird_progress_bar_to_vanish
   step 'I fetch my email'
 end
 
@@ -169,8 +158,7 @@ When /^I select the autoconfiguration wizard's IMAP choice$/ do
 end
 
 When /^I send an email to myself$/ do
-  thunderbird_main.child('Mail Toolbar',
-                         roleName: 'tool bar').button('Write').press
+  thunderbird_main.button('New Message').press
   compose_window = thunderbird_app.child('Write: (no subject) - Thunderbird')
   compose_window.child('To', roleName: 'entry').grabFocus
   @screen.paste($config['Thunderbird']['address'])
@@ -194,20 +182,20 @@ Then /^I can find the email I sent to myself in my inbox$/ do
   recovery_proc = proc { step 'I fetch my email' }
   retry_tor(recovery_proc) do
     thunderbird_inbox.activate
+    thunderbird_main.child('Quick Filter',
+                           roleName: 'toggle button')
+                    .press
     thunderbird_main.child('Filter these messages <Ctrl+Shift+K>',
                            roleName: 'entry')
                     .grabFocus
     @screen.paste(@subject)
-    hit_counter = thunderbird_main.child('1 message')
-    inbox_view = hit_counter.parent
-    all_rows = inbox_view.children(roleName: 'table row')
-    relevant_rows = all_rows.filter { |r| r.name.include?(@subject) }
-    message_row = relevant_rows.first
-    the_message = message_row.child(@subject, roleName: 'table cell')
-    assert_not_nil(the_message)
+    message = thunderbird_main.child(
+      "#{$config['Thunderbird']['address']},.*, #{@subject}, Unread",
+      roleName: 'tree item'
+    )
     # Let's clean up
-    the_message.parent.activate
-    inbox_view.button('Delete').press
+    message.activate
+    thunderbird_main.button('Delete').press
   end
 end
 
