@@ -134,11 +134,11 @@ msgstr "<a href=\"http://example.com/bla\">bla</a>"
 
 #. type: Plain text
 msgid "External:"
-msgstr ""
+msgstr "Extern:"
 
 #. type: Bullet: '* '
 msgid "<a href=\"http://example.com/ble\">ble</a>"
-msgstr ""
+msgstr "<a href=\"http://example.com/ble\">ble</a>"
 
 #. type: Title ##
 #, no-wrap
