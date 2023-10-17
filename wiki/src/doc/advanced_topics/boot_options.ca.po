@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-11-04 18:21+0000\n"
-"PO-Revision-Date: 2023-10-17 22:00+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-10-17 23:26+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -190,11 +190,11 @@ msgstr "<a id=\"grub\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Using *GRUB*"
-msgstr ""
+msgstr "Utilitzant *GRUB*"
 
 #. type: Plain text
 msgid "This is what *GRUB* looks like:"
-msgstr ""
+msgstr "Aquesta és l'aparença de *GRUB*:"
 
 #. type: Plain text
 #, no-wrap
@@ -202,6 +202,9 @@ msgid ""
 "[[!img install/inc/screenshots/grub.png link=\"no\" alt=\"Black screen ('GNU GRUB') with Tails\n"
 "logo and 2 options: 'Tails' and 'Tails (Troubleshooting Mode)'.\"]]\n"
 msgstr ""
+"[[!img install/inc/screenshots/grub.png link=\"no\" alt=\"Pantalla negra ("
+"'GNU GRUB') amb el logotip\n"
+"de Tails i 2 opcions: 'Tails' i 'Tails (Troubleshooting Mode)'.\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -209,19 +212,23 @@ msgid ""
 "<p>If your Boot Loader looks different, refer to our instructions on\n"
 "modifying the boot options [[using SYSLINUX|boot_options#syslinux]] above.</p>\n"
 msgstr ""
+"<p>Si el vostre Carregador d'Arrencada té un aspecte diferent, consulteu les "
+"nostres instruccions sobre\n"
+"com modificar les opcions d'arrencada [[utilitzant "
+"SYSLINUX|boot_options#syslinux]] anteriors.</p>\n"
 
 #. type: Plain text
 msgid "To modify the boot options in *GRUB*:"
-msgstr ""
+msgstr "Per modificar les opcions d'arrencada a *GRUB*:"
 
 #. type: Bullet: '1. '
 msgid "Press **e** when GRUB appears."
-msgstr ""
+msgstr "Premeu la tecla **e** quan aparegui GRUB."
 
 #. type: Plain text
 #, no-wrap
 msgid "   A new screen appears with more options.\n"
-msgstr ""
+msgstr "   Apareix una nova pantalla amb més opcions.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -229,6 +236,8 @@ msgid ""
 "   [[!img grub-with-options.png link=\"no\" alt=\"GRUB with a list of\n"
 "   options starting with 'setparams Tails'\"]]\n"
 msgstr ""
+"   [[!img grub-with-options.png link=\"no\" alt=\"GRUB amb una llista\n"
+"   d'opcions que comencen per 'setparams Tails'\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -238,7 +247,13 @@ msgid ""
 "   Type the boot option that you want to add. The line is most likely\n"
 "   wrapped and displayed on several lines but it is a single configuration line.\n"
 msgstr ""
+"   Per afegir una opció d'arrencada, navegueu amb les fletxes del teclat "
+"fins al final de la línia que\n"
+"   comença per <span class=\"code\">linux</span>.\n"
+"   Escriviu l'opció d'arrencada que voleu afegir. És probable que la línia\n"
+"   es trenqui i es mostri en diverses línies, però es tracta d'una única "
+"línia de configuració.\n"
 
 #. type: Bullet: '1. '
 msgid "Press **Ctrl+X**, **F10**, or **Fn+F10** to start Tails."
-msgstr ""
+msgstr "Premeu **Ctrl+X**, **F10** o **Fn+F10** per iniciar Tails."
