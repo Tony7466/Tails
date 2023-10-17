@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-11-04 18:21+0000\n"
-"PO-Revision-Date: 2023-03-12 00:36+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-17 21:57+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,10 +21,14 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Modifying the boot options using the Boot Loader\"]]\n"
 msgstr ""
+"[[!meta title=\"Modificació de les opcions d'arrencada mitjançant el "
+"Carregador d'Arrencada\"]]\n"
 
 #. type: Plain text
 msgid "The Boot Loader is the first screen that appears when Tails starts."
 msgstr ""
+"El Carregador d'Arrencada és la primera pantalla que apareix quan s'inicia "
+"Tails."
 
 #. type: Plain text
 msgid ""
@@ -34,6 +38,12 @@ msgid ""
 "support/known_issues/graphics]] document boot options for different graphics "
 "cards."
 msgstr ""
+"Pots utilitzar el Carregador d'Arrencada per modificar les *opcions "
+"d'arrencada*. Les opcions d'arrencada són paràmetres especials utilitzats "
+"per resoldre problemes o trobar solucions temporals a problemes de "
+"compatibilitat amb el maquinari. Per exemple, la nostra [[llista de "
+"problemes coneguts amb targetes gràfiques|support/known_issues/graphics]] "
+"documenta opcions d'arrencada per diferents targetes gràfiques."
 
 #. type: Plain text
 #, no-wrap
