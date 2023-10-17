@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-11-04 18:21+0000\n"
-"PO-Revision-Date: 2023-10-17 21:58+0000\n"
+"PO-Revision-Date: 2023-10-17 22:00+0000\n"
 "Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -115,19 +115,25 @@ msgid ""
 "<p>If your Boot Loader looks different, refer to our instructions below on\n"
 "modifying the boot options [[using GRUB|boot_options#grub]].</p>\n"
 msgstr ""
+"<p>Si el vostre Carregador d'Arrencada sembla diferent, consulteu les "
+"nostres instruccions a continuació\n"
+"per modificar les opcions d'arrencada [[utilitzant "
+"GRUB|boot_options#grub]].</p>\n"
 
 #. type: Plain text
 msgid "To modify the boot options in *SYSLINUX*:"
-msgstr ""
+msgstr "Per modificar les opcions d'arrencada a *SYSLINUX*:"
 
 #. type: Plain text
 #, no-wrap
 msgid "<!-- Keep in sync with install/inc/steps/restart_first_time.inline.mdwn. -->\n"
 msgstr ""
+"<!-- Keep in sync with install/inc/steps/restart_first_time.inline.mdwn. -->"
+"\n"
 
 #. type: Bullet: '1. '
 msgid "Press **Tab** when *SYSLINUX* appears."
-msgstr ""
+msgstr "Premeu la tecla de **tabulació** quan aparegui *SYSLINUX*."
 
 #. type: Plain text
 #, no-wrap
@@ -135,6 +141,8 @@ msgid ""
 "   A command line with a list\n"
 "   of boot options appears at the bottom of the screen.\n"
 msgstr ""
+"   Una línia d'ordres amb una llista\n"
+"   d'opcions d'arrencada apareix a la part inferior de la pantalla.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -142,10 +150,13 @@ msgid ""
 "   [[!img syslinux-with-options.png link=\"no\" alt=\"SYSLINUX with\n"
 "   a list of options starting with '/live/vmlinuz' at the bottom\"]]\n"
 msgstr ""
+"   [[!img syslinux-with-options.png link=\"no\" alt=\"SYSLINUX amb\n"
+"   una llista d'opcions que comencen per '/live/vmlinuz' a la part inferior\""
+"]]\n"
 
 #. type: Bullet: '1. '
 msgid "Modify the boot options as needed."
-msgstr ""
+msgstr "Modifiqueu les opcions d'arrencada segons sigui necessari."
 
 #. type: Plain text
 #, no-wrap
@@ -153,6 +164,9 @@ msgid ""
 "   To add a boot option, press <span class=\"keycap\">Space</span> and type the boot option that you\n"
 "   want to add.\n"
 msgstr ""
+"   Per afegir una opció d'arrencada, premeu <span class=\"keycap\">Espai</"
+"span> i teclejeu la opció d'arrencada que\n"
+"   voleu afegir.\n"
 
 #. type: Plain text
 #, no-wrap
