@@ -1342,10 +1342,21 @@ Update the image description file (IDF) used by the verification JavaScript:
 Check that incremental upgrades are working
 ==============================================
 
-If you can (ie: you have a spare laptop), do the _Incremental upgrades_ section
-of the manual test suite yourself.
-This will give you more confidence that the incremental upgrades are ok, and you
-can indeed proceed with the next section (_Done with OpenPGP signing_).
+Check if the upgrades file looks good:
+
+    (
+    err() { echo "$*"; exit 1; }
+    for version in ${TEST_IUK_SOURCE_VERSIONS:?}; do
+        echo "Upgrade from ${version}"
+        udf="wiki/src/upgrade/v2/Tails/${version}/amd64/${DIST:?}/upgrades.yml"
+        grep --quiet --fixed-strings "to_${VERSION}.iuk" "$udf" || err "No IUK mentioned in $udf"
+        grep --quiet --fixed-strings -- "-${VERSION}.iso" "$udf" || err "No IUK mentioned in $udf"
+        cat "wiki/src/upgrade/v2/Tails/${version}/amd64/${DIST:?}/upgrades.yml"
+    done
+    )
+
+The above output should mention a valid upgrade path from the last stable version.
+
 
 Done with OpenPGP signing
 =========================
