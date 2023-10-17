@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 15:01+0000\n"
 "PO-Revision-Date: 2023-10-17 19:56+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -76,13 +76,11 @@ msgstr "Terminale"
 
 #. type: Content of: <div><div><p>
 msgid "Debian or Ubuntu using the command line and GnuPG"
-msgstr ""
+msgstr "Debian o Ubuntu usando la linea di comando e GnuPG"
 
 #. type: Content of: <div><div>
-#, fuzzy
-#| msgid "|install/linux]]"
 msgid "|install/expert]]"
-msgstr "|install/linux]]"
+msgstr "|installa/expert]]"
 
 #. type: Content of: <div><p>
 msgid ""
