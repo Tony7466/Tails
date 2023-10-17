@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2023-10-17 21:43+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-10-17 21:44+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: None\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgstr "- MR: !123 - issue: #18079"
 #. type: Title #
 #, no-wrap
 msgid "Header"
-msgstr ""
+msgstr "Capçalera"
 
 #. type: Plain text
 #, no-wrap
@@ -50,35 +50,41 @@ msgid ""
 ">\n"
 "> Back to the first level.\n"
 msgstr ""
+"> Això és un bloc de cita. \n"
+">\n"
+"> Aquest és el primer nivell de citació.\n"
+">\n"
+"> > Això és un bloc de cita imbricat.\n"
+">\n"
+"> De tornada al primer nivell.\n"
 
 #. type: Plain text
 msgid "Numbered list:"
-msgstr ""
+msgstr "Llista numerada:"
 
 #. type: Bullet: '1. '
 msgid "First item."
-msgstr ""
+msgstr "Primer element."
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid "Another."
-msgstr "Noch einer."
+msgstr "Un altre."
 
 #. type: Bullet: '* '
 msgid "nesting them"
-msgstr ""
+msgstr "imbricant-los"
 
 #. type: Bullet: '* '
 msgid "more nests"
-msgstr ""
+msgstr "més imbricacions"
 
 #. type: Bullet: '1. '
 msgid "And another.."
-msgstr "Und noch einer ..."
+msgstr "I un altre..."
 
 #. type: Plain text
 msgid "Bulleted list:"
-msgstr ""
+msgstr "Llista de pics:"
 
 #. type: Bullet: '* '
 msgid "*item*"
