@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2023-10-17 21:44+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-10-17 21:45+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: None\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -90,35 +90,35 @@ msgstr "Llista de pics:"
 
 #. type: Bullet: '* '
 msgid "*item*"
-msgstr ""
+msgstr "*element*"
 
 #. type: Bullet: '* '
 msgid "item"
-msgstr "Eintrag"
+msgstr "element"
 
 #. type: Bullet: '  - '
 msgid "1st item in nested list"
-msgstr ""
+msgstr "1r element de la llista imbricada"
 
 #. type: Bullet: '  - '
 msgid "2nd item in nested list"
-msgstr ""
+msgstr "2n element de la llista imbricada"
 
 #. type: Bullet: '  - '
 msgid "3rd item in nested list"
-msgstr ""
+msgstr "3r element de la llista imbricada"
 
 #. type: Plain text
 msgid "Internal:"
-msgstr ""
+msgstr "Intern:"
 
 #. type: Bullet: '* '
 msgid "<http://tails.net/bla>"
-msgstr ""
+msgstr "<http://tails.net/bla>"
 
 #. type: Bullet: '* '
 msgid "<https://tails.net/bla>"
-msgstr ""
+msgstr "<https://tails.net/bla>"
 
 #. type: Bullet: '* '
 msgid "<http://dl.amnesia.boum.org/bla>"
