@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-11-04 18:21+0000\n"
 "PO-Revision-Date: 2023-10-17 22:00+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -174,15 +174,18 @@ msgid ""
 "   If you want to add more than one boot option, type them one after the\n"
 "   other and separate them with a <span class=\"keycap\">Space</span>.\n"
 msgstr ""
+"   Si voleu afegir més d'una opció d'arrencada, escriviu-les una darrere\n"
+"   l'altra i separeu-les amb un <span class=\"keycap\">Espai</span>.\n"
 
 #. type: Bullet: '1. '
 msgid "Press <span class=\"keycap\">Enter</span> to start Tails."
 msgstr ""
+"Premeu la tecla de <span class=\"keycap\">Retorn</span> per iniciar Tails."
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"grub\"></a>\n"
-msgstr ""
+msgstr "<a id=\"grub\"></a>\n"
 
 #. type: Title =
 #, no-wrap
