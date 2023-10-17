@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-10-11 20:12+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"PO-Revision-Date: 2023-10-17 21:26+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "<div id=\"unsafe\">\n"
 #. type: Plain text
 #, no-wrap
 msgid "<p class=\"big\">This browser is not anonymous.</p>\n"
-msgstr "<p class=\"big\">questo browser non è anonimo.</p>\n"
+msgstr "<p class=\"big\">Questo browser non è anonimo.</p>\n"
 
 #. type: Plain text
 #, no-wrap
