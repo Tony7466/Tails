@@ -199,16 +199,6 @@ Then /^I can find the email I sent to myself in my inbox$/ do
   end
 end
 
-Then /^my Thunderbird inbox is non-empty$/ do
-  thunderbird_inbox.activate
-  message_list = thunderbird_main.child('Filter these messages <Ctrl+Shift+K>',
-                                        roleName: 'entry')
-                                 .parent.parent.child(roleName: 'table')
-  visible_messages = message_list.children(recursive: false,
-                                           roleName:  'table row')
-  assert(!visible_messages.empty?)
-end
-
 Then(/^the screen keyboard works in Thunderbird$/) do
   step 'I start Thunderbird'
   osk_key = 'ScreenKeyboardKeyX.png'
