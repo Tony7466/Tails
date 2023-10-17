@@ -6,28 +6,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2017-12-21 21:10+0100\n"
-"Last-Translator: Sebastian Kuhnert <mail@sebastian-kuhnert.de>\n"
+"PO-Revision-Date: 2023-10-17 21:42+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: None\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 msgid "This is the SandBox."
-msgstr ""
+msgstr "Aquest és l'Entorn de Proves."
 
 #. type: Plain text
 #, no-wrap
 msgid "*emphasised* text.\n"
-msgstr ""
+msgstr "text *ressaltat*.\n"
 
 #. type: Title #
 #, no-wrap
 msgid "GitLab syntax"
-msgstr ""
+msgstr "Sintaxi GitLab"
 
 #. type: Plain text
 msgid "- MR: !123 - issue: #18079"
