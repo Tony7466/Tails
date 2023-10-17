@@ -44,7 +44,7 @@ msgstr "|installa/windows]]"
 
 #. type: Content of: <div><div>
 msgid "[[ [[!img install/inc/icons/apple.png link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[ [[!img installa/inc/icone/apple.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "macOS"
