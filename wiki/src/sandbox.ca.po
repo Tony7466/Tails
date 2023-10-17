@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2023-10-17 21:46+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-10-17 23:26+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: None\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -143,12 +143,11 @@ msgstr "<a href=\"http://example.com/ble\">ble</a>"
 #. type: Title ##
 #, no-wrap
 msgid "Heading level 2"
-msgstr ""
+msgstr "Encapçalament de nivell 2"
 
 #. type: Plain text
-#, fuzzy
 msgid "Another test!"
-msgstr "Noch einer."
+msgstr "Una altra prova!"
 
 #~ msgid ""
 #~ "This is the SandBox, a page anyone can edit to learn how to use the wiki."
