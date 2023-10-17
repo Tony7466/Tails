@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-09 07:47+0200\n"
-"PO-Revision-Date: 2023-10-17 19:50+0000\n"
+"PO-Revision-Date: 2023-10-17 19:51+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -111,16 +111,20 @@ msgid ""
 "<div>\n"
 "  <p class=\"big\">You made it!</p>\n"
 msgstr ""
+"<div>\n"
+"  <p class=\"big\">Ce l'hai fatta!</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p>You managed to start <span class=\"pc-clone mac-clone\">your new</span> Tails on your computer!</p>\n"
 msgstr ""
+"  <p>Sei riuscito ad avviare <span class=\"pc-clone mac-clone\">il tuo "
+"nuovo</span>Tails sul tuo computer!</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p>Congratulations on staying safe :)</p>\n"
-msgstr ""
+msgstr "  </p>Congratulazioni per la sicurezza :)<p>\n"
 
 #. type: Plain text
 #, no-wrap
