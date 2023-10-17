@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
 "PO-Revision-Date: 2023-10-17 21:46+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: None\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -126,7 +126,7 @@ msgstr "<http://dl.amnesia.boum.org/bla>"
 
 #. type: Bullet: '* '
 msgid "<https://dl.amnesia.boum.org/bla>"
-msgstr ""
+msgstr "<https://dl.amnesia.boum.org/bla>"
 
 #. type: Bullet: '* '
 msgid "<a href=\"http://example.com/bla\">bla</a>"
