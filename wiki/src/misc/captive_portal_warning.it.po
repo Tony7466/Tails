@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-10-17 19:48+0000\n"
+"PO-Revision-Date: 2023-10-17 21:26+0000\n"
 "Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -75,7 +75,7 @@ msgstr "<div id=\"non sicuro\">\n"
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "<p class=\"big\">This browser is not anonymous.</p>\n"
-msgstr "<p class=\"big\">questo browser non è anonimo.</p>\n"
+msgstr "<p class=\"big\">Questo browser non è anonimo.</p>\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap
@@ -83,6 +83,8 @@ msgid ""
 "<p class=\"small\">Only use this browser to sign in to the network, then "
 "close it.</p>\n"
 msgstr ""
+"<p class=\"small\"> Utilizza questo browser solo per accedere alla rete, poi "
+"chiudilo.</p>\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap
