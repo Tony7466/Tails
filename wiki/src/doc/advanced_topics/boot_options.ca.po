@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-11-04 18:21+0000\n"
 "PO-Revision-Date: 2023-10-17 22:00+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgid ""
 msgstr ""
 "[[!img install/inc/screenshots/syslinux.png link=\"no\" alt=\"Pantalla negra "
 "('SYSLINUX') amb el logotip\n"
-"de Tails i 2 opcions: 'Tails' i 'Tails (Troubleshooting Mode)'.\"]]\n"
+"de Tails i dues opcions: 'Tails' i 'Tails (Troubleshooting Mode)'.\"]]\n"
 
 #. type: Plain text
 #, no-wrap
