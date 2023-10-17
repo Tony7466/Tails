@@ -96,6 +96,12 @@ If there is *any* type of mismatch at some point below, let the RM and
 the Board know *immediately*! But still proceed and do everything below,
 potentially reporting multiple different issues.
 
+## Install dependencies
+
+```sh
+apt install jq
+```
+
 ## Verify that your products match what was tested
 
 You should have a mail in your inbox whose subject is "Re: Testing Tails ${VERSION}", sent by the RM to tails-manual-testers@boum.org
@@ -145,7 +151,6 @@ Then check that the hashes and sizes match what you have built:
 
     (
     set -eu
-    which jq || sudo apt install jq
     for ext in iso img ; do
        locally_built_file="${ARTIFACTS:?}/tails-amd64-${VERSION:?}.$ext"
        idf_size=$(cat latest.json | jq ".installations[0].\"installation-paths\" | map(select(.type == \"$ext\"))[0].\"target-files\"[0].size")
