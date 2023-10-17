@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
 "PO-Revision-Date: 2023-10-17 21:43+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: None\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "text *ressaltat*.\n"
 #. type: Title #
 #, no-wrap
 msgid "GitLab syntax"
-msgstr "Sintaxi GitLab"
+msgstr "Sintaxi de GitLab"
 
 #. type: Plain text
 msgid "- MR: !123 - issue: #18079"
