@@ -32,7 +32,7 @@ done
 git checkout "$BRANCH"
 find config/APT_overlays.d -type f -not -name .placeholder -exec git rm '{}' \;
 git commit config/APT_overlays.d/ \
-    -m "Empty the list of APT overlays: they were merged"
+    -m "Empty the list of APT overlays: they were merged" || :
 
 ### Push the Git branch
 
