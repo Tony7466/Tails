@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-09 07:47+0200\n"
-"PO-Revision-Date: 2023-10-17 19:53+0000\n"
+"PO-Revision-Date: 2023-10-17 21:26+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -130,8 +130,8 @@ msgstr "  <p>Congratulazioni per mantenerti al sicuro :)</p>\n"
 #, no-wrap
 msgid "  <p>To continue discovering Tails, read our [[documentation|doc]].</p>\n"
 msgstr ""
-"  </p>Per continuare a scoprire Tails, leggi la nostra "
-"[[documentation|doc]].<p>\n"
+"  <p>Per continuare a scoprire Tails, leggi la nostra "
+"[[documentation|doc]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
