@@ -158,6 +158,10 @@ To release Tails you need:
   `config/release_management/examples/local.yml` there and adjust to your
   local environment.
 
+* Optional: configure _automailer_ by running `./bin/automailer.py --long-help`,
+  which will give you tips on how to configure it. This will make sending emails
+  a bit easier.
+
 Environment
 ===========
 
@@ -450,6 +454,9 @@ Update other base branches
 
         ./bin/merge-main-branch "${RELEASE_BRANCH:?}" devel
 
+   If you did *not* proceed with the merge, it means you're in a non-standard
+   situation, and need to investigate what's appropriate to do.
+
 2. [[Thaw|APT_repository/time-based_snapshots#thaw]], on the devel
    branch, the time-based APT repository snapshots being used
    during the freeze:
@@ -726,9 +733,9 @@ recent. Also look if there's a new `-buildX` tag (e.g.
 `tor-browser-60.3.0esr-8.0-1-build1`) for the Firefox version the Tor
 Browser we want to ship is based on in these Git repositories:
 
-* https://gitlab.torproject.org/tpo/applications/tor-browser-build/activity
+* [tor-browser-build activity](https://gitlab.torproject.org/tpo/applications/tor-browser-build/activity)
   (`maint-X.Y` branch)
-* https://gitlab.torproject.org/tpo/applications/tor-browser/activity
+* [tor-browser activity](https://gitlab.torproject.org/tpo/applications/tor-browser/activity)
 
 A new tag may indicate that a new Tor Browser release or rebuild is imminent.
 
@@ -2193,6 +2200,12 @@ Check that you are indeed preparing a final release:
 
    - If a release candidate is planned, include it in the release schedule
      and the call for manual testers.
+
+1. If you don't know who will be the release manager for the next release, open
+   an issue so you don't forget. Set the title to "Plan RM shift for 5.19"
+
+       /label ~"C:Release management" ~"Core Work:Foundations Team" ~"To Do" ~"P:Elevated" 
+       /milestone %"Tails_${NEXT_PLANNED_VERSION:?}" 
 
 1. If you are the release manager for the next release too, look at the
    tasks that must be done at the beginning of your shift in the
