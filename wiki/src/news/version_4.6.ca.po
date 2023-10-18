@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-10-18 13:26+0000\n"
+"PO-Revision-Date: 2023-10-18 15:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -81,7 +81,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img favorites.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "  [[!img favorites.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Bullet: '- '
 msgid ""
