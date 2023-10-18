@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-17 23:26+0000\n"
+"PO-Revision-Date: 2023-10-18 15:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -123,12 +123,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img test_5.8-beta1/create.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "[[!img test_5.8-beta1/create.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img test_5.8-beta1/features.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "[[!img test_5.8-beta1/features.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -162,7 +162,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img version_5.0/kleopatra.png alt=\"\" link=\"no\"]]\n"
-msgstr ""
+msgstr "  [[!img version_5.0/kleopatra.png alt=\"\" link=\"no\"]]\n"
 
 #. type: Bullet: '- '
 msgid ""
@@ -228,7 +228,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img test_5.8-beta1/qr_code.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "  [[!img test_5.8-beta1/qr_code.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -275,7 +275,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img version_5.7/metadata_cleaner.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "[[!img version_5.7/metadata_cleaner.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -308,7 +308,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img version_4.25/backup.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "[[!img version_4.25/backup.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
