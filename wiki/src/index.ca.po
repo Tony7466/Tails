@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-07-27 18:28+0000\n"
-"PO-Revision-Date: 2023-07-29 23:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-18 13:26+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Home\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Inici\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -42,45 +42,47 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!img laptop.svg link=\"no\" alt=\"\" class=\"laptop\"]]"
-msgstr ""
+msgstr "[[!img laptop.svg link=\"no\" alt=\"\" class=\"laptop\"]]"
 
 #. type: Content of: <div><h1>
 msgid "<span class=\"hero-tails\">Tails</span>"
-msgstr ""
+msgstr "<span class=\"hero-tails\">Tails</span>"
 
 #. type: Content of: <div><h1>
 msgid "is a portable operating system"
-msgstr ""
+msgstr "és un sistema operatiu portàtil"
 
 #. type: Content of: <div><h1>
 msgid "that protects against"
-msgstr ""
+msgstr "que us protegeix contra"
 
 #. type: Content of: <div><h1>
 msgid "surveillance and censorship."
-msgstr ""
+msgstr "la vigilància i la censura."
 
 #. type: Content of: <section><div><section>
 msgid "[[!img city.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img city.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><section><h2>
 msgid "Avoid surveillance, censorship, advertising, and viruses"
-msgstr ""
+msgstr "Eviteu la vigilància, la censura, la publicitat i els virus"
 
 #. type: Content of: <section><div><section><p>
 msgid ""
 "Tails uses the Tor network to protect your privacy online and help you avoid "
 "censorship. Enjoy the Internet like it should be."
 msgstr ""
+"Tails utilitza la xarxa Tor per protegir la vostra privadesa en línia i "
+"ajudar-vos a evitar la censura. Gaudiu d'Internet com hauria de ser."
 
 #. type: Content of: <section><div><section>
 msgid "[[!img camping.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img camping.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><section><h2>
 msgid "Your secure computer anywhere"
-msgstr ""
+msgstr "El vostre ordinador segur a qualsevol lloc"
 
 #. type: Content of: <section><div><section><p>
 msgid ""
@@ -88,14 +90,17 @@ msgid ""
 "on Windows, macOS, or Linux. Tails leaves no trace on the computer when shut "
 "down."
 msgstr ""
+"Apagueu l'ordinador i inicieu-vos amb el vostre llapis USB de Tails en lloc d"
+"'iniciar-vos a Windows, macOS o Linux. Tails no deixa rastre a l'ordinador "
+"quan l'apagueu."
 
 #. type: Content of: <section><div><section>
 msgid "[[!img toolbox.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img toolbox.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><section><h2>
 msgid "Digital security toolbox"
-msgstr ""
+msgstr "Caixa d'eines de seguretat digital"
 
 #. type: Content of: <section><div><section><p>
 msgid ""
@@ -103,24 +108,29 @@ msgid ""
 "and communicate securely. Everything in Tails is ready-to-use and has safe "
 "defaults."
 msgstr ""
+"Tails inclou una selecció d'aplicacions per treballar amb documents "
+"sensibles i comunicar-se de manera segura. Tot a Tails està llest per "
+"utilitzar i té una configuració predeterminada segura."
 
 #. type: Content of: <section><div><section>
 msgid "[[!img gift.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img gift.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><section><h2>
 msgid "Free Software"
-msgstr ""
+msgstr "Programari lliure"
 
 #. type: Content of: <section><div><section><p>
 msgid ""
 "You can download Tails for free and independent security researchers can "
 "verify our work. Tails is based on Debian GNU/Linux."
 msgstr ""
+"Podeu baixar Tails gratuïtament i investigadors de seguretat independents "
+"poden verificar el nostre treball. Tails està basat en Debian GNU/Linux."
 
 #. type: Content of: <div><div>
 msgid "[[How Tails works|about]]"
-msgstr ""
+msgstr "[[Com funciona Tails|about]]"
 
 #. type: Content of: <div><div>
 msgid "[[Install Tails|install]]"
@@ -128,7 +138,7 @@ msgstr ""
 
 #. type: Content of: <section><h1>
 msgid "News"
-msgstr ""
+msgstr "Notícies"
 
 #. type: Content of: <section><div>
 msgid ""
@@ -136,48 +146,57 @@ msgid ""
 "discussion and (currentlang() or news/report_2* or news/test_*)\" show=\"3\" "
 "feeds=\"no\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
 msgstr ""
+"[[!inline pages=\"page(news/*) and !news/archive and !news/*/* and !news/"
+"discussion and (currentlang() or news/report_2* or news/test_*)\" show=\"3\" "
+"feeds=\"no\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
 
 #. type: Content of: <section><h1>
 msgid "Who uses Tails"
-msgstr ""
+msgstr "Qui utilitza Tails"
 
 #. type: Content of: <section><div><section>
 msgid "[[!img activist.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img activist.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><section><p>
 msgid ""
 "<span class=\"persona\">Activists</span> use Tails to hide their identities, "
 "avoid censorship, and communicate securely."
 msgstr ""
+"<span class=\"persona\">Activistes</span> utilitzen Tails per ocultar les "
+"seves identitats, evitar la censura i comunicar-se de manera segura."
 
 #. type: Content of: <section><div><section>
 msgid "[[!img journalist.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img journalist.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><section><p><span>
 msgid "<span class=\"persona\">Journalists"
-msgstr ""
+msgstr "<span class=\"persona\">Periodistes"
 
 #. type: Content of: <section><div><section><p>
 msgid ""
 "and their sources</span> use Tails to publish sensitive information and "
 "access the Internet from unsafe places."
 msgstr ""
+"i les seves fonts</span> utilitzen Tails per publicar informació sensible i "
+"accedir a Internet des de llocs insegurs."
 
 #. type: Content of: <section><div><section>
 msgid "[[!img survivor.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img survivor.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><section><p>
 msgid ""
 "<span class=\"persona\">Domestic violence survivors</span> use Tails to "
 "escape surveillance at home."
 msgstr ""
+"<span class=\"persona\">Supervivents de violència domèstica</span> utilitzen "
+"Tails per escapar de la vigilància a casa."
 
 #. type: Content of: <section><div><section>
 msgid "[[!img you.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img you.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><section><p>
 msgid ""
@@ -187,16 +206,17 @@ msgstr ""
 
 #. type: Content of: <section><h1>
 msgid "Recommended by"
-msgstr ""
+msgstr "Recomanat per"
 
 #. type: Content of: <section>
 msgid ""
 "[[!inline pages=\"donate/testimonials.inline\" raw=\"yes\" sort=\"age\"]]"
 msgstr ""
+"[[!inline pages=\"donate/testimonials.inline.ca\" raw=\"yes\" sort=\"age\"]]"
 
 #. type: Content of: <section><h1>
 msgid "Sponsors"
-msgstr ""
+msgstr "Patrocinadors"
 
 #. type: Content of: <section><p>
 msgid ""
