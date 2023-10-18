@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-10-18 13:26+0000\n"
+"PO-Revision-Date: 2023-10-18 15:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -57,6 +57,7 @@ msgstr ""
 #, no-wrap
 msgid "[[!img doc/anonymous_internet/tor/tor-connection.png link=\"no\" alt=\"\"]]\n"
 msgstr ""
+"[[!img doc/anonymous_internet/tor/tor-connection.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
