@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-10-17 19:26+0000\n"
+"PO-Revision-Date: 2023-10-18 13:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #. type: Content of: <section><div><h2>
 msgid "Your secure computer anywhere"
-msgstr ""
+msgstr "El vostre ordinador segur a qualsevol lloc"
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -183,11 +183,11 @@ msgstr ""
 
 #. type: Content of: <section><div>
 msgid "[[!img toolbox.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img toolbox.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Digital security toolbox"
-msgstr ""
+msgstr "Caixa d'eines de seguretat digital"
 
 #. type: Content of: <section><div><p>
 msgid ""
