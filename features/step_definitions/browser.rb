@@ -397,3 +397,23 @@ Then /^Tor Browser's circuit view is working$/ do
   assert_equal(domain, nodes.last.name)
   assert_equal(5, nodes.size)
 end
+
+Then /^the Tor Browser restarts into a fresh session$/ do
+  try_for(20) do
+    # Each tab (and only them) has its own 'document web' node
+    tabs = @torbrowser.children(roleName: 'document web', showingOnly: false)
+    assert_equal(1, tabs.size)
+    only_tab = tabs.first
+    assert_equal("New Tab", only_tab.name)
+    # Since Tor Browser 13.0, requesting a New Identity restarts and
+    # loads about:tor and not the start page. This link always exists on
+    # the about:tor page in Tails as part of the info box explaining
+    # that Tor Browser is not managing tor.
+    only_tab.child('Test your connection', roleName: 'link')
+    assert_not_equal(@old_tab_names, tabs.map { |tab| tab.name })
+    true
+  end
+  url = @torbrowser.child('Navigation', roleName: 'tool bar')
+          .parent.child(roleName: 'entry').text
+  assert_empty(url)
+end

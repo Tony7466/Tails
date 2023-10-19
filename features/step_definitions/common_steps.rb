@@ -719,6 +719,10 @@ Given /^the Tor Browser loads the (startup page|Tails homepage|Tails GitLab)$/ d
 end
 
 When /^I request a new identity in Tor Browser$/ do
+  # Each tab (and only them) has its own 'document web' node
+  @old_tab_names = @torbrowser
+                     .children(roleName: 'document web', showingOnly: false)
+                     .map { |tab| tab.name }
   @torbrowser.child('New Identity', roleName: 'push button').press
   @torbrowser.child('Restart Tor Browser', roleName: 'push button').press
 end

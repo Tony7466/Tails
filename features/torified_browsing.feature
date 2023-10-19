@@ -98,7 +98,7 @@ Feature: Browsing the web using the Tor Browser
     And I open the Tails homepage in the Tor Browser
     Then the Tor Browser loads the Tails homepage
     When I request a new identity in Tor Browser
-    Then the Tor Browser loads the startup page
+    Then the Tor Browser restarts into a fresh session
 
   Scenario: The Tor Browser's circuit view feature works as expected
     Given I have started Tails from DVD and logged in and the network is connected
