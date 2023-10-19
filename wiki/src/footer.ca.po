@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-19 19:37+0000\n"
-"PO-Revision-Date: 2023-10-19 17:26+0000\n"
+"PO-Revision-Date: 2023-10-19 19:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -32,7 +32,7 @@ msgstr "[[Com funciona Tails|about]]"
 
 #. type: Content of: <div><ul><li>
 msgid "[[Install Tails|install]]"
-msgstr ""
+msgstr "[[Instal·lar Tails|install]]"
 
 #. type: Content of: <div><ul><li>
 msgid "[[Documentation|doc]]"
@@ -44,7 +44,7 @@ msgstr ""
 
 #. type: Content of: <div><ul><li>
 msgid "[[Contribute|contribute]]"
-msgstr ""
+msgstr "[[Contribuir|contribute]]"
 
 #. type: Content of: <div><ul><li>
 msgid "[[News|news]]"
@@ -96,7 +96,7 @@ msgstr ""
 
 #. type: Content of: <div><ul><li>
 msgid "[[Donate|donate]]"
-msgstr ""
+msgstr "[[Feu una donació|donate]]"
 
 #. type: Content of: <div><h5>
 msgid "About us"
@@ -116,7 +116,7 @@ msgstr ""
 
 #. type: Content of: <div><ul><li>
 msgid "[[Sponsors|sponsors]]"
-msgstr ""
+msgstr "[[Patrocinadors|sponsors]]"
 
 #. type: Content of: <div><ul><li>
 msgid "[[Code of conduct|contribute/working_together/code_of_conduct]]"
