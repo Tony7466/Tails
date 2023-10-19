@@ -1874,8 +1874,8 @@ following state:
       git merge --edit "origin/${WEBSITE_RELEASE_BRANCH:?}"
       git submodule update --init
       echo "stable" > config/base_branch
-      git diff-index HEAD config/base_branch || \
-      git commit config/base_branch \
+      git diff-index --quiet HEAD config/base_branch || \
+        git commit config/base_branch \
           -m "Restore master's base branch." \
     )
 
