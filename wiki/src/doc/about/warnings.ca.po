@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-07-28 16:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-19 17:26+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Warnings: Tails is safe but not magic!\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Advertències: Tails és segur però no màgic!\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -33,16 +33,21 @@ msgid ""
 "or operating system, cannot protect you from everything—even if they pretend "
 "to."
 msgstr ""
+"Tails és més segur que qualsevol sistema operatiu normal. Però Tails, o "
+"qualsevol programari o sistema operatiu, no us poden protegir de tot, fins i "
+"tot si ho pretenen."
 
 #. type: Content of: <div><p>
 msgid ""
 "The recommendations below will keep you even safer, especially if you are at "
 "high risk."
 msgstr ""
+"Les recomanacions següents us mantindran encara més segur, sobretot si teniu "
+"un alt risc."
 
 #. type: Content of: <div><div><div><h3>
 msgid "Protecting your identity when using Tails"
-msgstr ""
+msgstr "Protecció de la vostra identitat quan feu servir Tails"
 
 #. type: Content of: <div><div><div>
 msgid ""
@@ -55,10 +60,11 @@ msgstr ""
 #. type: Content of: <div><div>
 msgid "<a id=\"toggle-identity\" class=\"button\">Protecting your identity</a>"
 msgstr ""
+"<a id=\"toggle-identity\" class=\"button\">Protegir la vostra identitat</a>"
 
 #. type: Content of: <div><div><div><h3>
 msgid "Limitations of the Tor network"
-msgstr ""
+msgstr "Limitacions de la xarxa Tor"
 
 #. type: Content of: <div><div><div>
 msgid ""
@@ -70,11 +76,11 @@ msgstr ""
 
 #. type: Content of: <div><div>
 msgid "<a id=\"toggle-tor\" class=\"button\">Limitations of Tor</a>"
-msgstr ""
+msgstr "<a id=\"toggle-tor\" class=\"button\">Limitacions de Tor</a>"
 
 #. type: Content of: <div><div><div><h3>
 msgid "Reducing risks when using untrusted computers"
-msgstr ""
+msgstr "Reducció de riscos en utilitzar ordinadors no fiables"
 
 #. type: Content of: <div><div><div>
 msgid ""
@@ -88,6 +94,7 @@ msgstr ""
 msgid ""
 "<a id=\"toggle-computer\" class=\"button\">Using untrusted computers</a>"
 msgstr ""
+"<a id=\"toggle-computer\" class=\"button\">Ús d'ordinadors no fiables</a>"
 
 #. type: Content of: <div>
 msgid ""
@@ -119,13 +126,18 @@ msgid ""
 "specific needs and threats, we encourage you to learn more by reading the "
 "following guides:"
 msgstr ""
+"Com que sempre heu d'adaptar les vostres pràctiques de seguretat digital a "
+"les vostres necessitats i amenaces específiques, us animem a obtenir més "
+"informació llegint les guies següents:"
 
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"https://ssd.eff.org/\">EFF: Surveillance Self-Defense</a>"
-msgstr ""
+msgstr "<a href=\"https://ssd.eff.org/\">EFF: Autodefensa de vigilància</a>"
 
 #. type: Content of: <div><ul><li>
 msgid ""
 "<a href=\"https://securityinabox.org/\">Front Line Defenders: Security-in-a-"
 "Box</a>"
 msgstr ""
+"<a href=\"https://securityinabox.org/\">Front Line Defenders: Security-"
+"in-a-Box</a>"
