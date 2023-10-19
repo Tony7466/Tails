@@ -2,9 +2,12 @@
 
 [[!meta stylesheet="jobs" rel="stylesheet" title=""]]
 [[!tag job/staff]]
-[[!tag job/open]]
 
 [[!toc levels=1]]
+
+**This job opening is on hold.**
+
+**Applications received after October 18, 2023, will not be considered.**
 
 Summary
 =======
