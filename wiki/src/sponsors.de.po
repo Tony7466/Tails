@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-03-12 00:33+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"POT-Creation-Date: 2023-10-09 12:39+0000\n"
+"PO-Revision-Date: 2023-10-10 10:13+0000\n"
+"Last-Translator: Stefan Leibfarth <stefan+translatetails@leibfarth.org>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -19,10 +19,8 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Content of: <div>
-#, fuzzy
-#| msgid "[[!meta title=\"Partners\"]]"
 msgid "[[!meta title=\"Sponsors\"]]"
-msgstr "[[!meta title=\"Partner\"]]"
+msgstr "[[!meta title=\"Sponsoren\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -223,6 +221,20 @@ msgid ""
 msgstr ""
 "<a href=\"https://freiheitsfoo.de/\" target=\"_blank\">[[!img freiheitsfoo."
 "png link=\"no\" alt=\"\"]]</a>"
+
+#. type: Attribute 'title' of: <div><p>
+#, fuzzy
+#| msgid "ExpressVPN - $1.000"
+msgid "James Seibel - $1 000"
+msgstr "ExpressVPN - $1.000"
+
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
+msgid ""
+"<a href=\"https://jamesseibel.com/\" target=\"_blank\">[[!img seibel.png "
+"link=\"no\" alt=\"\"]]</a>"
+msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
@@ -1112,13 +1124,6 @@ msgstr "Tor - 8.500€"
 #~ msgid ""
 #~ "<a href=\"https://www.domains4bitcoins.com/\" target=\"_blank\">[[!img "
 #~ "domains4bitcoins.png link=\"no\" alt=\"\"]]</a>"
-#~ msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
-
-#, fuzzy
-#~| msgid "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
-#~ msgid ""
-#~ "<a href=\"https://mozilla.org/\" target=\"_blank\">[[!img mozilla.png "
-#~ "link=\"no\" alt=\"\"]]</a>"
 #~ msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #, fuzzy

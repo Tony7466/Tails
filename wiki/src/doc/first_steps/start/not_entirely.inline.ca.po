@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:41-0600\n"
-"PO-Revision-Date: 2023-07-29 17:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-18 15:26+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -24,15 +24,12 @@ msgid "[[!meta robots=\"noindex\"]]\n"
 msgstr "[[!meta robots=\"noindex\"]]\n"
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "Use this section if the Boot Loader appears but not the Welcome Screen when "
 "you start Tails."
 msgstr ""
-"   Der folgende Abschnitt trifft zu, wenn das Menü <span class=\"guilabel"
-"\">Boot Tails</span>, aber nicht\n"
-"   der <span class=\"application\">Tails Greeter</span> beim Start von Tails "
-"erscheint.\n"
+"Utilitzeu aquesta secció si apareix el Carregador d'Arrencada però no la "
+"Pantalla de Benvinguda quan inicieu Tails."
 
 #. type: Plain text
 #, no-wrap

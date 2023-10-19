@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-07-29 17:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-17 21:26+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -18,10 +18,9 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!meta title=\"Warning! This browser is not anonymous!\"]]\n"
+#, no-wrap
 msgid "[[!meta title=\"Unsafe Browser\"]]\n"
-msgstr "[[!meta title=\"Avvertenza! Questo browser non è anonimo!\"]]\n"
+msgstr "[[!meta title=\"Browser Non Sicuro\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -36,13 +35,12 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<div id=\"unsafe\">\n"
-msgstr ""
+msgstr "<div id=\"unsafe\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!meta title=\"Warning! This browser is not anonymous!\"]]\n"
+#, no-wrap
 msgid "<p class=\"big\">This browser is not anonymous.</p>\n"
-msgstr "[[!meta title=\"Avvertenza! Questo browser non è anonimo!\"]]\n"
+msgstr "<p class=\"big\">Questo browser non è anonimo.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -52,7 +50,7 @@ msgstr "</div>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<div id=\"eyes\">[[!img unsafe.jpg link=\"no\" alt=\"\"]]</div>\n"
-msgstr ""
+msgstr "<div id=\"eyes\">[[!img unsafe.jpg link=\"no\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -64,7 +62,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "What captive portals are"
-msgstr ""
+msgstr "Cosa sono i captive portal"
 
 #. type: Plain text
 #, no-wrap

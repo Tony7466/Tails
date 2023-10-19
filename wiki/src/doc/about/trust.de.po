@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
-"PO-Revision-Date: 2023-03-29 14:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-12 10:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -19,10 +19,9 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!meta title=\"Trusting Tails\"]]\n"
+#, no-wrap
 msgid "[[!meta title=\"How can I trust Tails?\"]]\n"
-msgstr "[[!meta title=\"Tails vertrauen\"]]\n"
+msgstr "[[!meta title=\"Wie kann ich Tails vertrauen?\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -38,14 +37,19 @@ msgid ""
 "we have written this page to help you make an informed decision about "
 "whether you can trust Tails."
 msgstr ""
+"Tails wird niemals versuchen Ihnen oder unseren anderen Nutzern Schaden "
+"zuzufügen. Das ist ein Grundprinzip [[unseres Sozialvertrags|about/"
+"social_contract]]. Als Teil dieser Selbstverpflichtung haben wir diese Seite "
+"verfasst um Ihnen zu helfen eine informierte Entscheidung zu treffen ob sie "
+"Tails vertrauen können."
 
 #. type: Plain text
 msgid "We think that Tails is a trustworthy project because:"
-msgstr ""
+msgstr "Wir denken, dass Tails ein vertrauenswürdiges Projekt ist, weil:"
 
 #. type: Plain text
 msgid "- **Our source code is public**"
-msgstr ""
+msgstr "- **Unser Quellcode ist öffentlich**"
 
 #. type: Plain text
 #, no-wrap
@@ -53,6 +57,9 @@ msgid ""
 "  Tails is [[Free Software|about/license]] and security researchers worldwide\n"
 "  can examine our [[!tails_gitlab desc=\"source code\"]].\n"
 msgstr ""
+"  Tails ist [[Freie Software|about/license]] und Sicherheitsforscher "
+"weltweit\n"
+"  können unseren [[!tails_gitlab desc=\"Quellcode\"]] untersuchen.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -60,10 +67,12 @@ msgid ""
 "  The most sensitive parts of Tails are explained in our [[design\n"
 "  documents|contribute/design]].\n"
 msgstr ""
+"  Die sensibelsten Teile von Tails sind in unseren [[Design\n"
+"  Dokumenten|contribute/design]]  erklärt.\n"
 
 #. type: Plain text
 msgid "- **Tails is based on Tor and Debian**"
-msgstr ""
+msgstr "- **Tails basiert auf Tor und Debian**"
 
 #. type: Plain text
 #, no-wrap
@@ -71,6 +80,9 @@ msgid ""
 "  Most of the software included in Tails has not been written by us, but is\n"
 "  inherited from Tor and Debian:\n"
 msgstr ""
+"  Der Großteil der Software die in Tails inkludiert ist, ist nicht von uns "
+"geschrieben, sondern\n"
+"  wurde von Tor und Debian übernommen:\n"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -82,6 +94,14 @@ msgid ""
 "whose work is entirely public. All this makes Debian one of the Free "
 "Software projects under the most scrutiny by security researchers."
 msgstr ""
+"[Debian](https://debian.org/) ist eine der ältesten Linux Distributionen und "
+"ist die mit den meisten Derivaten, inklusive Ubuntu. Debian und seine "
+"Derivative sind [die beliebtesten Linux Distributionen auf Web-"
+"Servern](https://w3techs.com/technologies/details/os-linux) im gesamten "
+"Internet. Das Debian Projekt wird über das Internet von einem Team an "
+"Freiwilligen koordiniert, deren Arbeit komplett öffentlich ist. Das alles "
+"macht Debian zu einem der von Sicherheitsforschern am meisten unter die Lupe "
+"genommen Freien Software Projekte."
 
 #. type: Bullet: '  * '
 msgid ""
@@ -94,10 +114,19 @@ msgid ""
 "Internet Anonymity](https://www.theguardian.com/world/interactive/2013/"
 "oct/04/tor-high-secure-internet-anonymity).\""
 msgstr ""
+"[Tor](https://torproject.org/) ist das zur Zeit beste, existierende "
+"Anonymitätsnetzwerk. Tor ist Partnerschaften mit führenden "
+"Forschungseinrichtungen eingegangen und wurde intensiv wissenschaftlich "
+"untersucht. Tor hat Auszeichnungen von Institutionen wie der "
+"[EFF](https://www.eff.org/awards/pioneer/2012) und der [Free Software "
+"Foundation](https://www.fsf.org/news/2010-free-software-awards-announced) "
+"erhalten.  Sogar die NSA qualifizierte Tor als \"[den König der hochsicheren "
+"Internet-Anonymität mit geringer Latenzzeit](https://www.theguardian.com/"
+"world/interactive/2013/oct/04/tor-high-secure-internet-anonymity).\""
 
 #. type: Plain text
 msgid "- **Our downloads are verifiable**"
-msgstr ""
+msgstr "- **Unsere Downloads sind überprüfbar**"
 
 #. type: Plain text
 #, no-wrap
@@ -105,6 +134,9 @@ msgid ""
 "  Making sure that our users are really downloading an unmodified version of\n"
 "  our work is also critical to trust and security:\n"
 msgstr ""
+"  Sicherzustellen, dass unsere Nutzer wirklich eine unveränderte Version "
+"unserer\n"
+"Arbeit herunterladen, ist für Vertrauen und Sicherheit ebenso entscheidend:\n"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -112,6 +144,9 @@ msgid ""
 "sure that the process of building the downloads from our source code was not "
 "altered by our own infrastructure."
 msgstr ""
+"Unsere Downloads sind [[reproduzierbar|contribute/build/reproducible]], um "
+"sicherzustellen, dass der Prozess der Erstellung der Downloads aus unserem "
+"Quellcode nicht durch unsere eigene Infrastruktur verändert worden ist."
 
 #. type: Bullet: '  * '
 msgid ""
@@ -119,16 +154,21 @@ msgid ""
 "design/download_verification]] to make sure that our users are downloading a "
 "genuine copy of Tails."
 msgstr ""
+"Wir bieten [[starke und einfach zu bedienende Überprüfungsmechanismen|"
+"contribute/design/download_verification]] an, um sicherzustellen, dass "
+"unsere Nutzer eine unverfälschte Kopie von Tails herunterladen."
 
 #. type: Plain text
 msgid ""
 "- **Tails is recommended by renown and diverse people and organizations**"
 msgstr ""
+"- **Tails wird von namhaften und unterschiedlichsten Personen und "
+"Organisationen empfohlen**"
 
 #. type: Plain text
 #, no-wrap
 msgid "  See also our list of [[sponsors]].\n"
-msgstr ""
+msgstr "  Siehe auch unsere Liste von [[Sponsoren]].\n"
 
 #. type: Plain text
 #, no-wrap
