@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-10-19 17:26+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -47,6 +47,12 @@ msgid ""
 "and some proprietary components, for example to add support for USB\n"
 "devices.\n"
 msgstr ""
+"<span class=\"application\">VirtualBox</span> té una versió de programari "
+"lliure,\n"
+"anomenada <span class=\"application\">VirtualBox Open Source Edition</span>\n"
+"i alguns components propietaris, per exemple per afegir suport per a "
+"dispositius\n"
+"USB.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -78,6 +84,10 @@ msgid ""
 "Until Guest Additions is added back (#18728), the tip below shouldn't be "
 "displayed."
 msgstr ""
+"XXX: VirtualBox Guest Additions s'ha eliminat des de Tails 4.27. Sense Guest "
+"Additions, la funció de carpetes compartides de VirtualBox no està "
+"disponible. Fins que no es torni a afegir Guest Additions (#18728), el "
+"consell següent no s'hauria de mostrar."
 
 #. type: Plain text
 #, no-wrap
