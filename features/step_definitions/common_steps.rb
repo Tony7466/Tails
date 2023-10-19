@@ -718,7 +718,7 @@ Given /^the Tor Browser loads the (startup page|Tails homepage|Tails GitLab)$/ d
   page_has_loaded_in_the_tor_browser(titles)
 end
 
-When /^I request a new identity using Torbutton$/ do
+When /^I request a new identity in Tor Browser$/ do
   @torbrowser.child('New Identity', roleName: 'push button').press
   @torbrowser.child('Restart Tor Browser', roleName: 'push button').press
 end

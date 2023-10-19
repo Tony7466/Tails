@@ -97,7 +97,7 @@ Feature: Browsing the web using the Tor Browser
     And the Tor Browser loads the startup page
     And I open the Tails homepage in the Tor Browser
     Then the Tor Browser loads the Tails homepage
-    When I request a new identity using Torbutton
+    When I request a new identity in Tor Browser
     Then the Tor Browser loads the startup page
 
   Scenario: The Tor Browser's circuit view feature works as expected
