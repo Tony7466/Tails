@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-10-09 12:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,6 +166,17 @@ msgstr ""
 msgid ""
 "<a href=\"https://freiheitsfoo.de/\" target=\"_blank\">[[!img freiheitsfoo."
 "png link=\"no\" alt=\"\"]]</a>"
+msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
+
+#. type: Attribute 'title' of: <div><p>
+msgid "James Seibel - $1 000"
+msgstr ""
+
+#. type: Content of: <div><p>
+#, fuzzy
+msgid ""
+"<a href=\"https://jamesseibel.com/\" target=\"_blank\">[[!img seibel.png "
+"link=\"no\" alt=\"\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
@@ -864,12 +875,6 @@ msgstr ""
 #~ msgid ""
 #~ "<a href=\"https://internews.org/\">[[!img internews.png link=\"no\" alt="
 #~ "\"\"]]</a>"
-#~ msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
-
-#, fuzzy
-#~ msgid ""
-#~ "<a href=\"https://www.seanvegezzi.com/\" target=\"_blank\">[[!img svkh."
-#~ "png link=\"no\" alt=\"\"]]</a>"
 #~ msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #, fuzzy

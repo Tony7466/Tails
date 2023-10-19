@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-10-01 15:12+0000\n"
+"PO-Revision-Date: 2023-10-05 23:12+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -295,7 +295,8 @@ msgstr ""
 #. type: Content of: <section><div><ul><li>
 msgid "Everything in the Persistent Storage is encrypted automatically."
 msgstr ""
-"Tutto ciò che si trova nel volume persistente è automaticamente cifrato."
+"Tutto ciò che si trova nell'Archivio Persistente viene cifrato "
+"automaticamente."
 
 #. type: Content of: <section><div><ul><li>
 msgid ""

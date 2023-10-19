@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-02 10:29+0200\n"
-"PO-Revision-Date: 2022-12-22 14:06+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-19 10:31+0200\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -58,30 +58,28 @@ msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid "Plug in your Tails USB stick."
-msgstr ""
+msgstr "Inserisci la tua chiavetta USB con Tails."
 
 #. type: Content of: <ol><li><p>
 msgid "Switch on the computer."
 msgstr "Riaccendi il computer."
 
 #. type: Content of: <ol><li><p>
-#, fuzzy
-#| msgid ""
-#| "Switch on the computer and immediately press-and-hold the <span "
-#| "class=\"keycap\">Option</span> key (<span class=\"keycap\">Alt</span> "
-#| "key) until a list of possible startup disks appears."
 msgid ""
 "Immediately press-and-hold the <span class=\"keycap\">Option</span> key "
 "(<span class=\"keycap\">⌥</span> or <span class=\"keycap\">Alt</span>key) "
 "when the startup chime is played."
 msgstr ""
 "Accendi il computer e immediatamente premi e mantieni premuto il tasto <span "
-"class=\"keycap\">Option</span> (tasto <span class=\"keycap\">Alt</span>) "
-"finché non appare una lista dei possibili dischi d'avvio."
+"class=\"keycap\">Option</span> (<span class=\"keycap\">⌥</span> o tasto "
+"<span class=\"keycap\">Alt</span>) finché non appare una lista dei possibili "
+"dischi d'avvio."
 
 #. type: Content of: <ol><li><p>
 msgid "Hold the key pressed until a list of possible startup disks appears."
 msgstr ""
+"Tieni premuto il tasto finché non appare un elenco di possibili dischi di "
+"avvio."
 
 #. type: Content of: <ol><li><p>
 msgid ""
@@ -115,19 +113,23 @@ msgstr ""
 
 #. type: Content of: <ol><li><div><p>
 msgid "If the USB stick does not appear in the list of startup disks:"
-msgstr ""
+msgstr "Se la chiavetta USB non compare nell'elenco dei dischi di avvio:"
 
 #. type: Content of: <ol><li><div>
 msgid ""
 "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline\" "
 "raw=\"yes\" sort=\"age\"]]"
 msgstr ""
+"[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline\" raw=\"yes"
+"\" sort=\"age\"]]"
 
 #. type: Content of: <ol><li><div><p>
 msgid ""
 "If your computer still does not display the Boot Loader, it might currently "
 "be impossible to start Tails on your computer."
 msgstr ""
+"Se il computer non visualizza ancora il Boot Loader, potrebbe essere "
+"impossibile avviare Tails sul tuo computer."
 
 #. type: Content of: <ol><li><p>
 msgid "If your Mac displays the following error:"
@@ -137,16 +139,20 @@ msgstr "Se il tuo Mac visualizza l'errore seguente:"
 #, no-wrap
 msgid "Security settings do not allow this Mac to use an external startup disk."
 msgstr ""
+"Le impostazioni di sicurezza non consentono a questo Mac di utilizzare un "
+"disco di avvio esterno."
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "Then you have to change the settings of the <em>Startup Security Utility</"
 "em> of your Mac to authorize starting from Tails."
 msgstr ""
+"Quindi devi modificare le impostazioni dell'<em>Utilità di sicurezza "
+"all'avvio</em> del tuo Mac per autorizzare l'avvio di Tails."
 
 #. type: Content of: <ol><li><p>
 msgid "To open <em>Startup Security Utility</em>:"
-msgstr ""
+msgstr "Per aprire l'<em>Utilità di sicurezza all'avvio</em>:"
 
 #. type: Content of: <ol><li><ol><li><p>
 msgid ""
@@ -154,46 +160,55 @@ msgid ""
 "immediately after you see the Apple logo. Your Mac starts up from <a "
 "href=\"https://support.apple.com/kb/HT201314\">macOS Recovery</a>."
 msgstr ""
+"Accendi il Mac, quindi tieni premuto <strong>Comando(⌘)+R</strong> subito "
+"dopo aver visto il logo Apple. Il Mac si avvia da <a href=\"https://support."
+"apple.com/kb/HT201314\">Ripristino macOS</a>."
 
 #. type: Content of: <ol><li><ol><li><p>
 msgid ""
 "When you see the macOS <em>Utilities</em> window, choose "
 "<strong>Utilities&nbsp;▸ Startup Security Utility</strong> from the menu bar."
 msgstr ""
+"Quando viene visualizzata la finestra <em>Utilità</em> di macOS, scegli "
+"<strong>Utility&nbsp;▸ Utilità di sicurezza all'avvio</strong> dalla barra "
+"del menu."
 
 #. type: Content of: <ol><li><ol><li><p>
 msgid ""
 "When you are asked to authenticate, click <strong>Enter macOS Password</"
 "strong>, then choose an administrator account and enter its password."
 msgstr ""
+"Quando ti viene richiesto di autenticarti, clicca <strong>Inserisci password "
+"macOS</strong>, quindi scegli un account di amministratore e inserisci la "
+"relativa password."
 
 #. type: Content of: <ol><li><p>
-#, fuzzy
-#| msgid ""
-#| "   [[!img install/inc/screenshots/mac_option_key.png class=\"mac mac-"
-#| "clone\" link=\"no\"]]\n"
 msgid ""
 "[[!img install/inc/screenshots/startup-security-utility.png link=\"no\" "
 "alt=\"Startup Security Utility\"]]"
 msgstr ""
-"   [[!img install/inc/screenshots/mac_option_key.png class=\"mac mac-clone\" "
-"link=\"no\"]]\n"
+"[[!img install/inc/screenshots/startup-security-utility.png link=\"no\" alt="
+"\"Avvio dell'utilità di sicurezza\"]]"
 
 #. type: Content of: <ol><li><p>
 msgid "In the <em>Startup Security Utility</em>:"
-msgstr ""
+msgstr "A l' <em>Avvio dell'utilità di sicurezza</em>:"
 
 #. type: Content of: <ol><li><ul><li><p>
 msgid ""
 "Choose <strong>No Security</strong> in the <strong>Secure Boot</strong> "
 "section."
 msgstr ""
+"Scegli <strong>Nessuna Sicurezza</strong> nella sezione <strong>Avvio "
+"Sicuro</strong>."
 
 #. type: Content of: <ol><li><ul><li><p>
 msgid ""
 "Choose <strong>Allow booting from external media</strong> in the "
 "<strong>External Boot</strong>."
 msgstr ""
+"Scegli <strong>Consenti l'avvio da supporti esterni</strong> in "
+"<strong>Avvio Esterno</strong>."
 
 #. type: Content of: <ol><li><div><p>
 msgid ""
@@ -202,6 +217,11 @@ msgid ""
 "firmware password prevents users who do not have the password from starting "
 "up from any media other than the designated startup disk."
 msgstr ""
+"Per proteggere ancora il tuo Mac dall'avvio da supporti esterni non "
+"affidabili, è possibile impostare una password del firmware, disponibile su "
+"macOS Mountain Lion o versioni successive. La password del firmware "
+"impedisce agli utenti che non ne sono in possesso di avviare il Mac da un "
+"supporto diverso dal disco di avvio designato."
 
 #. type: Content of: <ol><li><div><p>
 msgid ""
@@ -209,22 +229,29 @@ msgid ""
 "service appointment with an Apple Store or Apple Authorized Service Provider."
 "</strong>"
 msgstr ""
+"<strong>Se dimentichi la password del firmware, è necessario un appuntamento "
+"di persona con un Apple Store o un fornitore di servizi autorizzato "
+"Apple.</strong>"
 
 #. type: Content of: <ol><li><p>
 msgid "Read more on Apple Support about:"
-msgstr ""
+msgstr "Ulteriori informazioni su Supporto Apple:"
 
 #. type: Content of: <ol><li><ul><li>
 msgid ""
 "<a href=\"https://support.apple.com/en-us/HT208198\">Startup Security "
 "Utility</a>"
 msgstr ""
+"<a href=\"https://support.apple.com/en-us/HT208198\">Avvio dell'utilità di "
+"sicurezza</a>"
 
 #. type: Content of: <ol><li><ul><li>
 msgid ""
 "<a href=\"https://support.apple.com/en-us/HT204455\">How to set a firmware "
 "password on your Mac</a>"
 msgstr ""
+"<a href=\"https://support.apple.com/en-us/HT204455\">Come impostare una "
+"password del firmware sul Mac</a>"
 
 #. type: Content of: <ol><li><p>
 msgid ""
@@ -250,7 +277,7 @@ msgid ""
 "kernel and might work better on some computers. You can try this option if "
 "you think you are experiencing hardware compatibility errors while starting "
 "Tails."
-msgstr ""
+msgstr "La voce <b>Modalità di risoluzione dei problemi</b> disabilita alcune funzionalità del kernel Linux e potrebbe funzionare meglio su alcuni computer. Puoi provare questa opzione se ritieni che si verifichino errori di compatibilità hardware durante l'avvio di Tails."
 
 #. type: Content of: <ol><ul><li><p>
 msgid ""
@@ -258,6 +285,9 @@ msgid ""
 "external hard disk|doc/advanced_topics/external_hard_disk]] and some "
 "[[problematic USB sticks|support/known_issues#problematic-usb-stick]]."
 msgstr ""
+"La voce <b>Disco Rigido Esterno</b> permette di [[avviare da un disco rigido "
+"esterno|doc/advanced_topics/external_hard_disk]] e alcune [[chiavette USB "
+"problematiche|support/known_issues#problematic-usb-stick]]."
 
 #, fuzzy
 #~| msgid ""

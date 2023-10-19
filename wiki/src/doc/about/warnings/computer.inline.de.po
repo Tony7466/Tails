@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-11 14:19-0500\n"
-"PO-Revision-Date: 2022-07-04 10:08+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-10-10 10:13+0000\n"
+"Last-Translator: Avnar <CFAJH@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid "But Tails cannot always protect you when:"
-msgstr "Aber Tails kann nicht immer schützen, zum Beispiel bei:"
+msgstr "Aber Tails kann Sie nicht immer schützen, zum Beispiel bei:"
 
 #. type: Content of: <ul><li>
 msgid "Installing from an infected computer"

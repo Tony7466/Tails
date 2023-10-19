@@ -40,7 +40,6 @@ Please focus on translating and maintaining the
 
 Currently, there are several active **language teams**:
 
-* [[Catalan|translate/team/ca]]
 * [[Chinese (Simplified)|translate/team/zh]]
 * [[Farsi|translate/team/fa]]
 * [[French|translate/team/fr]]
