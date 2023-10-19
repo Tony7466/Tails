@@ -331,8 +331,6 @@ rmdir "${TBB_INSTALL}"/TorBrowser/Data/Browser/profile.default/extensions
 mv "${TBB_INSTALL}"/distribution/extensions/* "${TBB_EXT}"
 rmdir "${TBB_INSTALL}"/distribution/extensions
 
-# shellcheck disable=SC2153
-mkdir -p "${TBB_PROFILE}"
 create_default_profile "${TBB_EXT}" "${TBB_PROFILE}"
 
 # Let's just sanity check that we haven't forgotten anything in the
