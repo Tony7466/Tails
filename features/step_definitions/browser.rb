@@ -117,6 +117,9 @@ When /^I open a new tab in the (.*)$/ do |browser|
     @screen.click(info[:new_tab_button_image])
     @screen.wait(info[:address_bar_image], 15)
   end
+  # Focus the address bar since that is what we want to interact with
+  # after this step
+  @screen.click(info[:address_bar_image])
 end
 
 When /^I open the address "([^"]*)" in the (.* Browser)( without waiting)?$/ do |address, browser_name, non_blocking|
@@ -124,7 +127,6 @@ When /^I open the address "([^"]*)" in the (.* Browser)( without waiting)?$/ do 
   info = xul_application_info(browser_name)
   open_address = proc do
     step "I open a new tab in the #{browser_name}"
-    @screen.click(info[:address_bar_image])
     @screen.paste(address)
     @screen.press('Return')
   end
@@ -345,7 +347,6 @@ Then /^DuckDuckGo is the default search engine$/ do
     ddg_search_prompt = "DuckDuckGoSearchPrompt#{$language}.png"
   end
   step 'I open a new tab in the Tor Browser'
-
   @screen.paste('a random search string')
   @screen.wait(ddg_search_prompt, 20)
 end
@@ -363,7 +364,6 @@ Then(/^the screen keyboard works in Tor Browser$/) do
   end
   step 'I start the Tor Browser'
   step 'I open a new tab in the Tor Browser'
-  @screen.wait(xul_application_info('Tor Browser')[:address_bar_image], 10).click
   @screen.wait('ScreenKeyboard.png', 20)
   @screen.wait_any(osk_key_images, 20).click
   @screen.wait(browser_bar_x, 20)
