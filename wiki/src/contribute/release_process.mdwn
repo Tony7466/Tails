@@ -1349,6 +1349,7 @@ Check if the upgrades file looks good:
 
     (
     err() { echo "$*"; exit 1; }
+    cd "${MASTER_CHECKOUT:?}" || err "Cannot change directory"
     for version in ${TEST_IUK_SOURCE_VERSIONS:?}; do
         echo "Upgrade from ${version}"
         udf="wiki/src/upgrade/v2/Tails/${version}/amd64/${DIST:?}/upgrades.yml"
