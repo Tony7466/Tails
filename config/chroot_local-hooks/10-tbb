@@ -214,6 +214,23 @@ apply_prefs_hacks() {
     rm -r "${tmp}"
 }
 
+hide_tor_donation_campaign() {
+    local tbb_install tmp tbb_timestamp
+    tbb_install="${1}"
+    tbb_timestamp="${2}"
+
+    tmp="$(mktemp -d)"
+    (
+        cd "${tmp}"
+        7z x -tzip "${tbb_install}/browser/omni.ja"
+        sed -i '/YecWidget.init();/d' ./chrome/browser/content/browser/abouttor/aboutTor.js
+        touch --date="@${tbb_timestamp}" ./chrome/browser/content/browser/abouttor/aboutTor.js
+        rm "${tbb_install}/browser/omni.ja"
+        7z a -mtc=off -tzip -- "${tbb_install}/browser/omni.ja" *
+    )
+    rm -r "${tmp}"
+}
+
 disable_update_checks() {
     local tbb_install
     tbb_install="${1}"
@@ -315,6 +332,7 @@ rm -f /usr/local/lib/tor-browser/start-browser.orig
 rm -f /usr/local/lib/tor-browser/start-tor-browser.orig
 
 apply_prefs_hacks "${TBB_INSTALL}" "${TBB_TIMESTAMP}"
+hide_tor_donation_campaign "${TBB_INSTALL}" "${TBB_TIMESTAMP}"
 install_debian_extensions "${TBB_INSTALL}" "${TBB_TIMESTAMP}"
 disable_update_checks "${TBB_INSTALL}"
 strip_nondeterminism "${TBB_INSTALL}" "${TBB_TIMESTAMP}"
