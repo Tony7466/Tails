@@ -111,8 +111,8 @@ def xul_application_info(application)
   end
 end
 
-When /^I open a new tab in the (.*)$/ do |browser|
-  info = xul_application_info(browser)
+When /^I open a new tab in the (.*)$/ do |browser_name|
+  info = xul_application_info(browser_name)
   retry_action(2) do
     @screen.click(info[:new_tab_button_image])
     @screen.wait(info[:address_bar_image], 15)
@@ -120,6 +120,11 @@ When /^I open a new tab in the (.*)$/ do |browser|
   # Focus the address bar since that is what we want to interact with
   # after this step
   @screen.click(info[:address_bar_image])
+  browser = Dogtail::Application.new('Firefox')
+  try_for(10) do
+    focused = browser.focused_child
+    focused.name == 'Search or enter address' && focused.roleName == 'entry'
+  end
 end
 
 When /^I open the address "([^"]*)" in the (.* Browser)( without waiting)?$/ do |address, browser_name, non_blocking|
