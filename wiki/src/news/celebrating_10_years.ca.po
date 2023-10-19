@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-07-29 21:23+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-18 15:26+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -278,7 +278,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img logos.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "[[!img logos.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -303,11 +303,15 @@ msgstr ""
 #, no-wrap
 msgid "[[!img snowden-1.jpg size=\"380x\" alt=\"Snowden plugging an SD card in a laptop with a blue Tails USB stick\"]]\n"
 msgstr ""
+"[[!img snowden-1.jpg size=\"380x\" alt=\"Snowden connectant una targeta SD a "
+"un ordinador portàtil amb un llapis USB de Tails blau\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img snowden-2.jpg size=\"380x\" alt=\"Snowden showing NSA documents on Tails to Ewen MacAskill\"]]\n"
 msgstr ""
+"[[!img snowden-2.jpg size=\"380x\" alt=\"Snowden mostrant documents de la "
+"NSA sobre Tails a Ewen MacAskill\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -346,7 +350,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img tails-1.0.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "[[!img tails-1.0.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Title =
 #, no-wrap
@@ -497,7 +501,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img users-budget.svg link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "[[!img users-budget.svg link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""

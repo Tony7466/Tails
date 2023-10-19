@@ -8,20 +8,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-11-19 17:07+0000\n"
-"PO-Revision-Date: 2019-07-16 07:52+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2023-10-10 10:13+0000\n"
+"Last-Translator: Deleted User <noreply+435@weblate.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Help porting Windows camouflage to GNOME 3.14\"]]\n"
 msgstr ""
+"[[!meta title=\"Hilfe bei der Portierung von Windows-Camouflage auf GNOME 3."
+"14\"]]\n"
 
 #. type: Plain text
 #, no-wrap
