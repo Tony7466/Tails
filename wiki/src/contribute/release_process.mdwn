@@ -1353,7 +1353,7 @@ Check if the upgrades file looks good:
         echo "Upgrade from ${version}"
         udf="wiki/src/upgrade/v2/Tails/${version}/amd64/${DIST:?}/upgrades.yml"
         grep --quiet --fixed-strings "to_${VERSION}.iuk" "$udf" || err "No IUK mentioned in $udf"
-        grep --quiet --fixed-strings -- "-${VERSION}.iso" "$udf" || err "No IUK mentioned in $udf"
+        grep --quiet --fixed-strings -- "-${VERSION}.iso" "$udf" || err "No ISO mentioned in $udf"
         cat "wiki/src/upgrade/v2/Tails/${version}/amd64/${DIST:?}/upgrades.yml"
     done
     )
