@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-19 19:26+0000\n"
+"PO-Revision-Date: 2023-10-20 12:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -186,9 +186,11 @@ msgid "Persistent Storage"
 msgstr "Emmagatzematge Persistent"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!inline pages=\"doc/persistent_storage.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/first_steps.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/persistent_storage.index.ca\" raw=\"yes\" sort=\"age\""
+"]]\n"
 
 #. type: Title #
 #, no-wrap
