@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-20 12:26+0000\n"
+"PO-Revision-Date: 2023-10-20 20:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -178,7 +178,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/first_steps.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/first_steps.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/first_steps.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -200,7 +201,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/anonymous_internet.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/anonymous_internet.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/anonymous_internet.index.ca\" raw=\"yes\" sort=\"age\""
+"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -210,7 +213,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/encryption_and_privacy.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/encryption_and_privacy.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/encryption_and_privacy.index.ca\" raw=\"yes\" sort="
+"\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -220,7 +225,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/sensitive_documents.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/sensitive_documents.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/sensitive_documents.index.ca\" raw=\"yes\" sort=\"age\""
+"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -230,7 +237,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/advanced_topics.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/advanced_topics.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/advanced_topics.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
 
 #, fuzzy
 #~ msgid ""
