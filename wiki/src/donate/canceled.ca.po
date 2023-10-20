@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2020-10-22 02:48+0000\n"
-"PO-Revision-Date: 2023-10-20 12:26+0000\n"
+"PO-Revision-Date: 2023-10-20 15:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -29,6 +29,10 @@ msgid ""
 "stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "robots=\"noindex\"]]"
 msgstr ""
+"[[!meta stylesheet=\"donate/canceled\" rel=\"stylesheet\" title=\"\"]] [["
+"!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [["
+"!meta stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [["
+"!meta robots=\"noindex\"]]"
 
 #. type: Content of: <div>
 msgid "[[!img canceled.png link=\"no\" alt=\"\"]]"
@@ -61,8 +65,9 @@ msgstr ""
 "]]"
 
 msgid "[[!meta title=\"Payment canceled\"]]\n"
-msgstr "[[!meta title=\"Bezahlvorgang abgebrochen\"]]\n"
+msgstr "[[!meta title=\"Pagament cancel·lat\"]]\n"
 
+#, fuzzy
 msgid ""
 "If you faced technical problems or were annoyed by something in the process, "
 "we are very interested in hearing about it."
@@ -71,5 +76,6 @@ msgstr ""
 "Vorgang aufgehalten wurden, wären wir sehr daran interessiert, mehr darüber "
 "zu erfahren."
 
+#, fuzzy
 msgid "Please contact us at <mailto:tails-fundraising@boum.org>."
 msgstr "Bitte kontaktieren Sie uns unter <mailto:tails-fundraising@boum.org>."
