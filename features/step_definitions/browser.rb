@@ -123,7 +123,10 @@ When /^I open a new tab in the (.*)$/ do |browser_name|
   browser = Dogtail::Application.new('Firefox')
   try_for(10) do
     focused = browser.focused_child
-    focused.name == 'Search or enter address' && focused.roleName == 'entry'
+    # Just matching against any entry could be racy if some other
+    # entry had focus when calling this step, but address bar is
+    # probably the only entry inside a tool bar.
+    focused.roleName == 'entry' && focused.parent.parent.roleName == 'tool bar'
   end
 end
 
