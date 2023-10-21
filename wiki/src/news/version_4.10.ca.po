@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-10-20 12:26+0000\n"
+"PO-Revision-Date: 2023-10-21 22:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -143,7 +143,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Get Tails 4.10"
-msgstr ""
+msgstr "Obtenir Tails 4.10"
 
 #. type: Title ##
 #, no-wrap
