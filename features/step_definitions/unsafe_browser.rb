@@ -59,7 +59,7 @@ Then /^the Unsafe Browser shows a warning as its start page(?: in "([^"]+)")?$/ 
     start_page_image = if File.exist?("#{OPENCV_IMAGE_PATH}/#{localized_image}")
                          localized_image
                        else
-                         start_page_image = 'UnsafeBrowserStartPage.png'
+                         'UnsafeBrowserStartPage.png'
                        end
   else
     start_page_image = 'UnsafeBrowserStartPage.png'
