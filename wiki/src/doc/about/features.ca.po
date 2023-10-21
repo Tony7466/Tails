@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-19 21:26+0000\n"
+"PO-Revision-Date: 2023-10-21 18:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -31,17 +31,21 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 msgid "Tails is based on [[Debian|https://www.debian.org/]] 11 (Bullseye)."
 msgstr ""
+"Tails es basa en [[Debian|https://www.debian.org/index.ca.html]] 11 "
+"(Bullseye)."
 
 #. type: Title =
 #, no-wrap
 msgid "Included software"
-msgstr ""
+msgstr "Programari inclòs"
 
 #. type: Bullet: '* '
 msgid ""
 "[GNOME](http://www.gnome.org), an intuitive and attractive desktop "
 "environment ([[More...|doc/first_steps/desktop]])"
 msgstr ""
+"[GNOME](http://www.gnome.org), un entorn d'escriptori intuïtiu i atractiu "
+"([[Més...|doc/first_steps/desktop]])"
 
 #. type: Title -
 #, no-wrap
@@ -50,7 +54,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[Tor](https://www.torproject.org) with:"
-msgstr ""
+msgstr "[Tor](https://www.torproject.org/ca/) amb:"
 
 #. type: Bullet: '  - '
 msgid "[[stream isolation|contribute/design/stream_isolation]]"
@@ -74,6 +78,9 @@ msgid ""
 "Tor_Browser]]), a web browser based on [Mozilla Firefox](https://www.mozilla."
 "org/firefox/) and modified to protect your anonymity with:"
 msgstr ""
+"[Navegador Tor](https://www.torproject.org) ([[Més...|doc/anonymous_internet/"
+"Tor_Browser]]), un navegador web basat en [Mozilla Firefox](https://"
+"www.mozilla. org/firefox/) i modificat per protegir el vostre anonimat amb:"
 
 #. type: Bullet: '  - '
 msgid "all cookies are treated as session cookies by default;"
