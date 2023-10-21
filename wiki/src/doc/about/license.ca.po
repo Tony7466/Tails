@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -44,7 +45,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Source code"
-msgstr ""
+msgstr "Codi font"
 
 #. type: Plain text
 msgid ""
@@ -75,18 +76,20 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "license: Creative Commons Attribution 3.0"
-msgstr ""
+msgstr "llicència: Creative Commons Attribution 3.0"
 
 #. type: Bullet: '  - '
 msgid ""
 "author: [Firefox user 14030863](https://addons.mozilla.org/en-US/firefox/"
 "user/14030863/)"
 msgstr ""
+"autor: [usuari de Firefox 14030863](https://addons.mozilla.org/ca/firefox/"
+"user/14030863/)"
 
 #. type: Title =
 #, no-wrap
 msgid "Website"
-msgstr ""
+msgstr "Pàgina web"
 
 #. type: Plain text
 msgid ""
@@ -99,10 +102,12 @@ msgid ""
 "The Tails logo is based on [[USB|http://thenounproject.com/term/usb/23873/]] "
 "by Ilsur Aptukov from the Noun Project."
 msgstr ""
+"El logotip de Tails es basa en el llapis [[USB|http://thenounproject.com/"
+"term/usb/23873/]] d'Ilsur Aptukov del Noun Project."
 
 #. type: Plain text
 msgid "- Debian logo: Copyright (c) 1999 Software in the Public Interest."
-msgstr ""
+msgstr "- Logotip de Debian: Copyright (c) 1999 Programari d'interès públic."
 
 #. type: Bullet: '- '
 msgid ""
@@ -110,12 +115,17 @@ msgid ""
 "is authorized to use it under certain conditions; licensed under Creative "
 "Commons Attribution 3.0 United States License."
 msgstr ""
+"Logotip d'Onion: marca registrada de The Tor Project, Inc.; el projecte "
+"Tails està autoritzat a utilitzar-lo en determinades condicions; amb "
+"llicència de Creative Commons Attribution 3.0 d'Estats Units d'Amèrica."
 
 #. type: Plain text
 msgid ""
 "- [Forge](https://github.com/digitalbazaar/forge/), copyright Digital "
 "Bazaar, Inc."
 msgstr ""
+"- [Forge](https://github.com/digitalbazaar/forge/), copyright Digital "
+"Bazaar, Inc."
 
 #. type: Bullet: '- '
 msgid ""
@@ -146,133 +156,175 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Icons from [[The Noun Project|http://thenounproject.com/]]:"
-msgstr ""
+msgstr "- Icones de [[The Noun Project|http://thenounproject.com/]]:"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Announcement|http://thenounproject.com/term/announcement/1186/]]: Creative "
 "Commons - Attribution, by Olivier Guin."
 msgstr ""
+"[[Anunci|http://thenounproject.com/term/announcement/1186/]]: Creative "
+"Commons - Reconeixement, d'Olivier Guin."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Code|http://thenounproject.com/term/code/18033/]]: Creative Commons — "
 "Attribution, by Azis."
 msgstr ""
+"[[Codi|http://thenounproject.com/term/code/18033/]]: Creative Commons — "
+"Atribució, per Azis."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Pen|http://thenounproject.com/term/pen/18907/]]: Creative Commons — "
 "Attribution, by factor[e] design initiative."
 msgstr ""
+"[[Bolígraf|http://thenounproject.com/term/pen/18907/]]: Creative Commons — "
+"Atribució, per factor[e] design initiative."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Loan|http://thenounproject.com/term/loan/19538/]]: Public Domain, by "
 "Rohith M S."
 msgstr ""
+"[[Loan|http://thenounproject.com/term/loan/19538/]]: Domini públic, de "
+"Rohith M S."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[User|http://thenounproject.com/term/user/419/]]: Creative Commons — "
 "Attribution, by Edward Boatman."
 msgstr ""
+"[[Usuari|http://thenounproject.com/term/user/419/]]: Creative Commons — "
+"Atribució, per Edward Boatman."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Translation|http://thenounproject.com/term/translation/5735/]]: Creative "
 "Commons — Attribution, by Joe Mortell."
 msgstr ""
+"[[Traducció|http://thenounproject.com/term/translation/5735/]]: Creative "
+"Commons — Atribució, per Joe Mortell."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Gears|http://thenounproject.com/term/gears/8949/]]: Creative Commons — "
 "Attribution, by Cris Dobbins."
 msgstr ""
+"[[Engranatges|http://thenounproject.com/term/gears/8949/]]: Creative Commons "
+"— Atribució, per Cris Dobbins."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Graphic Design|http://thenounproject.com/term/graphic_design/9198/]]: "
 "Creative Commons — Attribution, by Cornelius Danger."
 msgstr ""
+"[[Disseny gràfic|http://thenounproject.com/term/graphic_design/9198/]]: "
+"Creative Commons — Atribució, per Cornelius Danger."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Check Mark|https://thenounproject.com/term/check/4489/]]: Public Domain, "
 "by Julian Norton."
 msgstr ""
+"[[Marca de verificació|https://thenounproject.com/term/check/4489/]]: Domini "
+"públic, de Julian Norton."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Delete|https://thenounproject.com/term/delete/49691/]]: Creative Commons — "
 "Attribution, by Kervin Markle."
 msgstr ""
+"[[Eliminar|https://thenounproject.com/term/delete/49691/]]: Creative Commons "
+"— Atribució, per Kervin Markle."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Play|https://thenounproject.com/term/play/152052]]: Creative Commons — "
 "Attribution, by Zech Nelson."
 msgstr ""
+"[[Play|https://thenounproject.com/term/play/152052]]: Creative Commons — "
+"Atribució, per Zech Nelson."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Pause|https://thenounproject.com/term/pause/152046]]: Creative Commons — "
 "Attribution, by Zech Nelson."
 msgstr ""
+"[[Pausa|https://thenounproject.com/term/pause/152046]]: Creative Commons — "
+"Atribució, per Zech Nelson."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[USB|https://thenounproject.com/term/usb/28901]]: Creative Commons — "
 "Attribution, by Wilson Joseph."
 msgstr ""
+"[[USB|https://thenounproject.com/term/usb/28901]]: Creative Commons — "
+"Atribució, per Wilson Joseph."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Time|https://thenounproject.com/term/time/6732]]: Creative Commons — "
 "Attribution, by Richard de Vos."
 msgstr ""
+"[[Temps|https://thenounproject.com/term/time/6732]]: Creative Commons — "
+"Atribució, per Richard de Vos."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Printer|https://thenounproject.com/term/printer/146674]]: Creative Commons "
 "— Attribution, by Diego Naive."
 msgstr ""
+"[[Impressora|https://thenounproject.com/term/printer/146674]]: Creative "
+"Commons — Atribució, per Diego Naive."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Smart Phones|https://thenounproject.com/term/smartphone/25790]]: Creative "
 "Commons — Attribution, by Pham Thi Dieu Linh."
 msgstr ""
+"[[Telèfons intel·ligents|https://thenounproject.com/term/smartphone/25790]]: "
+"Creative Commons — Atribució, per Pham Thi Dieu Linh."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Laptop|https://thenounproject.com/term/laptop/6729]]: Public Domain, by "
 "Jean Yashu."
 msgstr ""
+"[[Portàtil|https://thenounproject.com/term/laptop/6729]]: Domini públic, de "
+"Jean Yashu."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Love|https://thenounproject.com/term/love/218846/]]: Creative Commons — "
 "Attribution, by Thomas Helbig."
 msgstr ""
+"[[Amor|https://thenounproject.com/term/love/218846/]]: Creative Commons — "
+"Atribució, per Thomas Helbig."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Survey|https://thenounproject.com/term/survey/1296072]]: Creative Commons "
 "— Attribution, by unlimicon."
 msgstr ""
+"[[Enquesta|https://thenounproject.com/term/survey/1296072]]: Creative "
+"Commons — Atribució, per unlimicon."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Info|https://thenounproject.com/term/info/808461]]: Creative Commons — "
 "Attribution, by icongeek."
 msgstr ""
+"[[Informació|https://thenounproject.com/term/info/808461]]: Creative Commons "
+"— Atribució, per icongeek."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Command Line|https://thenounproject.com/icon/command-line-39108]]: Public "
 "Domain, by Daniel Gamage."
 msgstr ""
+"[[Línia d'ordres|https://thenounproject.com/icon/command-line-39108]]: "
+"Domini públic, de Daniel Gamage."
 
 #, fuzzy
 #~ msgid ""
