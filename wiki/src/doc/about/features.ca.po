@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 10:59+0000\n"
+"PO-Revision-Date: 2023-10-22 11:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -285,33 +285,41 @@ msgid ""
 "[KeePassXC](https://keepassxc.org/) password manager ([[More...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 msgstr ""
+"[KeePassXC](https://keepassxc.org/) gestor de contrasenyes ([[Més...|doc/"
+"encryption_and_privacy/manage_passwords]])"
 
 #. type: Bullet: '* '
 msgid ""
 "[GtkHash](https://github.com/tristanheaven/gtkhash) to calculate checksums "
 "([[More...|doc/encryption_and_privacy/checksums]])"
 msgstr ""
+"[GtkHash](https://github.com/tristanheaven/gtkhash) per calcular les sumes "
+"de verificació ([[Més...|doc/encryption_and_privacy/checksums]])"
 
 #. type: Bullet: '* '
 msgid ""
 "[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to convert "
 "images containing text into a text document"
 msgstr ""
+"[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) per convertir "
+"imatges que contenen text en un document de text"
 
 #. type: Bullet: '* '
 msgid "[FFmpeg](https://ffmpeg.org/) to record and convert audio and video"
-msgstr ""
+msgstr "[FFmpeg](https://ffmpeg.org/) per gravar i convertir àudio i vídeo"
 
 #. type: Title =
 #, no-wrap
 msgid "Additional software"
-msgstr ""
+msgstr "Programari addicional"
 
 #. type: Plain text
 msgid ""
 "Additionally, you can install in Tails any other software available in "
 "Debian."
 msgstr ""
+"A més, podeu instal·lar a Tails qualsevol altre programari disponible a "
+"Debian."
 
 #. type: Plain text
 msgid ""
@@ -319,36 +327,48 @@ msgid ""
 "[[Additional Software|persistent_storage/additional_software]] feature of "
 "the Persistent Storage."
 msgstr ""
+"Per instal·lar programari addicional automàticament en iniciar Tails, "
+"utilitzeu la funció [[Programari addicional|persistent_storage/"
+"additional_software]] de l'Emmagatzematge Persistent."
 
 #. type: Title =
 #, no-wrap
 msgid "Additional features"
-msgstr ""
+msgstr "Característiques addicionals"
 
 #. type: Bullet: '* '
 msgid ""
 "automatic mechanism to [[upgrade a USB stick|doc/upgrade]] to newer versions"
 msgstr ""
+"mecanisme automàtic per [[actualitzar un llapis USB|doc/upgrade]] a versions "
+"més noves"
 
 #. type: Bullet: '* '
 msgid ""
 "can be run as a virtualized guest inside [VirtualBox](http://www.virtualbox."
 "org/) ([[More...|doc/advanced_topics/virtualization]])"
 msgstr ""
+"es pot executar com a convidat virtualitzat dins de [VirtualBox](http://www."
+"virtualbox.org/) ([[Més...|doc/advanced_topics/virtualization]])"
 
 #. type: Bullet: '* '
 msgid ""
 "64-bit PAE-enabled kernel with NX-bit and SMP support on hardware that "
 "supports it"
 msgstr ""
+"Nucli habilitat per PAE de 64 bits amb suport per a NX-bit i SMP al "
+"maquinari que ho admet"
 
 #. type: Bullet: '* '
 msgid "Some basic [[doc/first_steps/accessibility]] features"
 msgstr ""
+"Algunes funcions bàsiques d'[[accessibilitat|doc/first_steps/accessibility]]."
 
 #. type: Bullet: '* '
 msgid "Some [[contribute/design/application_isolation]] with AppArmor"
 msgstr ""
+"Algun [[aïllament d'aplicacions|contribute/design/application_isolation]] "
+"amb AppArmor"
 
 #. type: Bullet: '* '
 msgid ""
