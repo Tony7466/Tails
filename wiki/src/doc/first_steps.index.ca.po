@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-22 12:11+0000\n"
+"PO-Revision-Date: 2023-10-22 18:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "Starting Tails"
-msgstr ""
+msgstr "Iniciar Tails"
 
 #. type: Bullet: '    - '
 msgid "[[On PC|first_steps/start/pc]]"
@@ -43,10 +43,12 @@ msgid ""
 "[[Administration password|first_steps/welcome_screen/"
 "administration_password]]"
 msgstr ""
+"[[Contrasenya d'administració|first_steps/welcome_screen/"
+"administration_password]]"
 
 #. type: Bullet: '    - '
 msgid "[[MAC address anonymization|first_steps/welcome_screen/mac_spoofing]]"
-msgstr ""
+msgstr "[[Anonimat de l'adreça MAC|first_steps/welcome_screen/mac_spoofing]]"
 
 #. type: Bullet: '  - '
 msgid "[[Introduction to GNOME and the Tails desktop|first_steps/desktop]]"
