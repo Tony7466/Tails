@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
 "PO-Revision-Date: 2023-10-22 11:35+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -408,7 +408,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[Relationship with upstream|contribute/relationship_with_upstream]]"
-msgstr ""
+msgstr "[[Relació amb upstream|contribute/relationship_with_upstream]]"
 
 #. type: Bullet: '  - '
 msgid "[[Improve Tails by working on Debian|contribute/how/debian]]"
