@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-18 13:26+0000\n"
+"PO-Revision-Date: 2023-10-22 12:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -50,7 +50,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[Introduction to GNOME and the Tails desktop|first_steps/desktop]]"
-msgstr "[[Introducció a GNOME i a l'escriptori Tails|first_steps/desktop]]"
+msgstr "[[Introducció a GNOME i a l'escriptori de Tails|first_steps/desktop]]"
 
 #. type: Bullet: '    - '
 msgid "[[Why is the time wrong?|first_steps/desktop/time]]"
