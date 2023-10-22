@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 10:49+0000\n"
+"PO-Revision-Date: 2023-10-22 10:52+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -58,19 +58,24 @@ msgstr "[Tor](https://www.torproject.org/ca/) amb:"
 
 #. type: Bullet: '  - '
 msgid "[[stream isolation|contribute/design/stream_isolation]]"
-msgstr ""
+msgstr "[[aïllament de flux|contribute/design/stream_isolation]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "the Onion Circuits graphical frontend ([[More...|doc/anonymous_internet/tor/"
 "circuits]])"
 msgstr ""
+"la interfície gràfica d'Onion Circuits ([[Més...|doc/anonymous_internet/tor/"
+"circuits]])"
 
 #. type: Bullet: '* '
 msgid ""
 "[NetworkManager](https://wiki.gnome.org/Projects/NetworkManager) for easy "
 "network configuration ([[More...|doc/anonymous_internet/networkmanager]])"
 msgstr ""
+"[NetworkManager](https://wiki.gnome.org/Projects/NetworkManager) per a una "
+"configuració fàcil de la xarxa ([[Més...|doc/anonymous_internet/"
+"networkmanager]])"
 
 #. type: Bullet: '* '
 msgid ""
@@ -84,23 +89,29 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "all cookies are treated as session cookies by default;"
-msgstr ""
+msgstr "totes les galetes es tracten com a galetes de sessió per defecte;"
 
 #. type: Bullet: '  - '
 msgid ""
 "[HTTPS Everywhere](https://www.eff.org/https-everywhere)  transparently "
 "enables SSL-encrypted connections to a great number of major websites"
 msgstr ""
+"[HTTPS Everywhere](https://www.eff.org/https-everywhere) permet de manera "
+"transparent connexions encriptades amb SSL a un gran nombre de llocs web "
+"principals"
 
 #. type: Bullet: '  - '
 msgid ""
 "[NoScript](http://noscript.net/) to have even more control over JavaScript."
 msgstr ""
+"[NoScript](http://noscript.net/) per tenir encara més control sobre el "
+"JavaScript."
 
 #. type: Bullet: '  - '
 msgid ""
 "[uBlock Origin](https://github.com/gorhill/uBlock/) to remove advertisements."
 msgstr ""
+"[uBlock Origin](https://github.com/gorhill/uBlock/) per eliminar anuncis."
 
 #. type: Bullet: '* '
 msgid ""
@@ -108,6 +119,9 @@ msgid ""
 "cypherpunks.ca/index.php) for Off-the-Record Messaging ([[More...|doc/"
 "anonymous_internet/pidgin]])"
 msgstr ""
+"[Pidgin](http://www.pidgin.im/) preconfigurat amb [OTR](https://otr."
+"cypherpunks.ca/index.php) per a missatgeria fora del registre ([[Més...| doc/"
+"anonymous_internet/pidgin]])"
 
 #. type: Bullet: '* '
 msgid "[OnionShare](https://onionshare.org/) for anonymous file sharing"
