@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-28 17:57-0500\n"
-"PO-Revision-Date: 2023-10-22 15:11+0000\n"
+"PO-Revision-Date: 2023-10-22 18:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Troubleshooting Wi-Fi not working\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Resolució de problemes quan el Wi-Fi no funciona\"]]\n"
 
 #. type: Plain text
 #, no-wrap
