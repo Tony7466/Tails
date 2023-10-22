@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-10-22 18:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -322,15 +322,15 @@ msgid "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline\" raw=\"
 msgstr "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline.ca\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>If your computer still does not display the Boot Loader, it might currently be impossible to start Tails on your computer.</p>\n"
 "</li>\n"
 msgstr ""
-"   <div class=\"bug mac-dvd\">\n"
-"   <p>Wenn Ihr Computer beim Starten von der Tails-DVD fehlschlägt, ist es möglicherweise derzeit\n"
-"   unmöglich, Tails auf Ihrem Mac Modell zu starten.</p>\n"
-"   </div>\n"
+"<p>Si el vostre ordinador encara no mostra el carregador d'arrencada, és "
+"possible que actualment sigui impossible iniciar Tails al vostre "
+"ordinador.</p>\n"
+"</li>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -375,9 +375,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"tails\" class=\"step windows linux mac\">Welcome to Tails!</h1>\n"
-msgstr "<div class=\"trophy windows linux mac\">\n"
+msgstr ""
+"<h1 id=\"tails\" class=\"step windows linux mac\">Us donem la benvinguda a "
+"Tails!</h1>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
