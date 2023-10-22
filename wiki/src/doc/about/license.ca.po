@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-10-22 10:41+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,13 +21,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"License and source code distribution\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Llicència i distribució del codi font\"]]\n"
 
 #. type: Plain text
 msgid ""
 "Tails is [Free Software](https://www.gnu.org/philosophy/free-sw.html): you "
 "can download, use, and share it with no restrictions."
 msgstr ""
+"Tails és [Programari Lliure](https://www.gnu.org/philosophy/free-sw.ca.html):"
+" podeu descarregar-lo, utilitzar-lo i compartir-lo sense restriccions."
 
 #. type: Plain text
 msgid ""
