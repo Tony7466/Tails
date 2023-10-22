@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 17:10-0600\n"
-"PO-Revision-Date: 2023-10-21 18:26+0000\n"
+"PO-Revision-Date: 2023-10-22 09:27+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -173,7 +173,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
-msgstr "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
+msgstr ""
+"       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-"
+"lamb.co.uk>\n"
 
 #. type: Plain text
 #, no-wrap
