@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 10:52+0000\n"
+"PO-Revision-Date: 2023-10-22 10:58+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -125,7 +125,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[OnionShare](https://onionshare.org/) for anonymous file sharing"
-msgstr ""
+msgstr "[OnionShare](https://onionshare.org/) per compartir fitxers anònimament"
 
 #. type: Bullet: '* '
 msgid ""
@@ -133,70 +133,90 @@ msgid ""
 "OpenPGP and RSS and Atom news feeds ([[More...|doc/anonymous_internet/"
 "thunderbird]])"
 msgstr ""
+"[Thunderbird](https://www.thunderbird.net/) client de correu electrònic amb "
+"suport per a OpenPGP i canals de notícies RSS i Atom ([[Més...|doc/"
+"anonymous_internet/thunderbird]])"
 
 #. type: Bullet: '* '
 msgid "[Aircrack-ng](http://aircrack-ng.org/) for wireless network auditing"
 msgstr ""
+"[Aircrack-ng](http://aircrack-ng.org/) per a l'auditoria de xarxes sense fil"
 
 #. type: Bullet: '* '
 msgid ""
 "[Electrum](https://electrum.org/), an easy-to-use bitcoin client ([[More...|"
 "doc/anonymous_internet/electrum]])"
 msgstr ""
+"[Electrum](https://electrum.org/), un client bitcoin fàcil d'utilitzar "
+"([[Més...|doc/anonymous_internet/electrum]])"
 
 #. type: Bullet: '- '
 msgid "[Wget](https://www.gnu.org/software/wget/) and [curl](https://curl.se)"
-msgstr ""
+msgstr "[Wget](https://www.gnu.org/software/wget/) i [curl](https://curl.se)"
 
 #. type: Title -
 #, no-wrap
 msgid "Desktop edition"
-msgstr ""
+msgstr "Edició d'escriptori"
 
 #. type: Bullet: '* '
 msgid ""
 "[LibreOffice](https://www.libreoffice.org/) ([[More...|doc/"
 "sensitive_documents/office_suite]])"
 msgstr ""
+"[LibreOffice](https://ca.libreoffice.org/) ([[Més...|doc/sensitive_documents/"
+"office_suite]])"
 
 #. type: Bullet: '* '
 msgid ""
 "[Gimp](https://www.gimp.org/) and [Inkscape](https://inkscape.org/) to edit "
 "images ([[More...|doc/sensitive_documents/graphics]])"
 msgstr ""
+"[Gimp](https://www.gimp.org/) i [Inkscape](https://inkscape.org/) per editar "
+"imatges ([[Més...|doc/sensitive_documents/graphics]])"
 
 #. type: Bullet: '* '
 msgid ""
 "GNOME Sound Recorder for recording sound ([[More...|doc/sensitive_documents/"
 "sound_and_video]])"
 msgstr ""
+"GNOME Sound Recorder per gravar so ([[Més...|doc/sensitive_documents/"
+"sound_and_video]])"
 
 #. type: Bullet: '* '
 msgid ""
 "[Audacity](https://www.audacityteam.org/) for recording and editing sounds "
 "([[More...|doc/sensitive_documents/sound_and_video]])"
 msgstr ""
+"[Audacity](https://www.audacityteam.org/) per gravar i editar sons ([[Més...|"
+"doc/sensitive_documents/sound_and_video]])"
 
 #. type: Bullet: '* '
 msgid ""
 "[Document Scanner](https://gitlab.gnome.org/GNOME/simple-scan) to scan "
 "documents"
 msgstr ""
+"[Escàner de documents](https://gitlab.gnome.org/GNOME/simple-scan) per "
+"escanejar documents"
 
 #. type: Bullet: '* '
 msgid "[Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
 msgstr ""
+"[Brasero](https://wiki.gnome.org/Apps/Brasero) per enregistrar CDs i DVDs"
 
 #. type: Bullet: '* '
 msgid ""
 "[Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) to rip audio CDs"
 msgstr ""
+"[Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) per digitalitzar CDs"
 
 #. type: Bullet: '* '
 msgid ""
 "[BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) to convert "
 "linear PDF documents into booklets, and vice-versa"
 msgstr ""
+"[BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) per convertir "
+"documents PDF lineals en fullets, i viceversa"
 
 #. type: Title -
 #, no-wrap
@@ -209,24 +229,34 @@ msgid ""
 "[VeraCrypt](https://veracrypt.fr) encrypted volumes (like USB sticks) "
 "([[More...|doc/encryption_and_privacy/encrypted_volumes]])"
 msgstr ""
+"Compatibilitat amb els volums xifrats tant de [[!wikipedia "
+"Linux_Unified_Key_Setup desc=\"LUKS\"]] com de [VeraCrypt](https://veracrypt."
+"fr) (com ara llapis USB) ([[Més...|doc/encryption_and_privacy/"
+"encrypted_volumes]] )"
 
 #. type: Bullet: '* '
 msgid ""
 "[GnuPG](http://gnupg.org/), the GNU implementation of OpenPGP for email and "
 "data encyption and signing"
 msgstr ""
+"[GnuPG](http://gnupg.org/), la implementació GNU d'OpenPGP per a "
+"l'encriptatge i signatura de correu electrònic i dades"
 
 #. type: Bullet: '  * '
 msgid ""
 "[Kleopatra](https://apps.kde.org/kleopatra/) provides a graphical interface "
 "to manage and use GnuPG on text and files"
 msgstr ""
+"[Kleopatra](https://apps.kde.org/kleopatra/) proporciona una interfície "
+"gràfica per gestionar i utilitzar GnuPG en text i fitxers"
 
 #. type: Bullet: '  * '
 msgid ""
 "[Thunderbird](https://www.thunderbird.net/) has an integrated OpenPGP "
 "feature for encrypted emails"
 msgstr ""
+"[Thunderbird](https://www.thunderbird.net/) té una funció OpenPGP integrada "
+"per a correus electrònics xifrats"
 
 #. type: Bullet: '* '
 msgid ""
@@ -235,6 +265,10 @@ msgid ""
 "hardware [[!wikipedia Keystroke logging desc=\"keyloggers\"]] ([[More...|doc/"
 "encryption_and_privacy/virtual_keyboard]])"
 msgstr ""
+"[Teclat de pantalla GNOME](https://help.gnome.org/users/gnome-help/stable/"
+"keyboard-osk.html.ca) per a l'accessibilitat i com a contramesura contra el "
+"maquinari [[!wikipedia Keystroke logging desc=\" keyloggers\"]] ([[Més...|"
+"doc/encryption_and_privacy/virtual_keyboard]])"
 
 #. type: Bullet: '* '
 msgid ""
