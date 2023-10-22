@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 10:54-0300\n"
-"PO-Revision-Date: 2023-10-22 12:11+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-22 18:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -304,9 +304,8 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '   - '
-#, fuzzy
 msgid "Click <span class=\"bold\">Start Tails</span>."
-msgstr "Im <span class=\"application\">Tails Greeter</span>:"
+msgstr "Feu clic a <span class=\"bold\">Inicia Tails</span>."
 
 #. type: Bullet: '1. '
 msgid "After 15&ndash;30 seconds, the Tails desktop appears."
