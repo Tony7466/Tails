@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-10-22 09:27+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-10-22 10:35+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -162,11 +162,11 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
 
 #. type: Plain text
 #, no-wrap
