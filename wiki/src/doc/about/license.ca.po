@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 10:41+0000\n"
+"PO-Revision-Date: 2023-10-22 10:44+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -37,12 +37,17 @@ msgid ""
 "is Copyright (C) Tails developers <tails@boum.org>.  Any exception to this "
 "rule is documented either below or in the affected source file."
 msgstr ""
+"El codi font de Tails es publica sota la GNU/GPL (versió 3 o superior) i té "
+"Copyright (C) desenvolupadors de Tails <tails@boum.org>. Qualsevol excepció "
+"a aquesta regla es documenta a continuació o al fitxer font afectat."
 
 #. type: Plain text
 msgid ""
 "However, Tails includes non-free firmware in order to work on as much "
 "hardware as possible."
 msgstr ""
+"Tanmateix, Tails inclou un microprogramari no lliure per tal de treballar "
+"amb el màxim de maquinari possible."
 
 #. type: Title =
 #, no-wrap
@@ -54,12 +59,16 @@ msgid ""
 "Most of the software included in Tails is taken directly from upstream "
 "Debian packages and is neither modified nor recompiled by Tails."
 msgstr ""
+"La major part del programari inclòs a Tails s'obté directament dels paquets "
+"de Debian i Tails no els modifica ni els recompila."
 
 #. type: Bullet: '- '
 msgid ""
 "The source code of software that is specific to Tails is available in [[our "
 "Git repositories|contribute/git]]."
 msgstr ""
+"El codi font del programari específic de Tails està disponible a [[els "
+"nostres repositoris Git|contribute/git]]."
 
 #. type: Bullet: '- '
 msgid ""
@@ -67,6 +76,9 @@ msgid ""
 "[APT snapshot](https://tagged.snapshots.deb.tails.boum.org/)  that we "
 "created for that version of Tails."
 msgstr ""
+"El codi font dels paquets de Debian inclosos a Tails està disponible a l'["
+"APT snapshot](https://tagged.snapshots.deb.tails.boum.org/) que vam crear "
+"per a aquesta versió de Tails."
 
 #. type: Bullet: '- '
 msgid ""
@@ -75,6 +87,11 @@ msgid ""
 "used by Tails' _Unsafe Browser_ was downloaded from Mozilla add-ons website "
 "(<https://addons.mozilla.org/en-US/firefox/addon/simplyred/>):"
 msgstr ""
+"El [[!tails_gitweb config/chroot_local-includes/usr/share/tails/"
+"chroot-browsers/unsafe-browser/extensions/red-2.0-an+fx.xpi desc=\"red "
+"theme\"]] utilitzat pel _Navegador Insegur_ de Tails es va baixar del lloc "
+"web de complements de Mozilla (<https://addons.mozilla.org/ca/firefox/addon/"
+"simplyred/>):"
 
 #. type: Bullet: '  - '
 msgid "license: Creative Commons Attribution 3.0"
@@ -98,6 +115,8 @@ msgid ""
 "This website uses several images with distinct copyright, licenses, "
 "trademarks and distribution terms:"
 msgstr ""
+"Aquest lloc web utilitza diverses imatges amb drets d'autor, llicències, "
+"marques comercials i termes de distribució diferents:"
 
 #. type: Bullet: '- '
 msgid ""
