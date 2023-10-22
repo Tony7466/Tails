@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-10-22 12:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Documentation\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Documentació\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -40,6 +40,9 @@ msgid ""
 "<p>If this section doesn't answer your questions, you can also look at our\n"
 "[[FAQ|support/faq]].</p>\n"
 msgstr ""
+"<p>Si aquesta secció no respon les vostres preguntes, també podeu consultar "
+"les nostres\n"
+"[[PMF|support/faq]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -49,7 +52,7 @@ msgstr "</div>\n"
 #. type: Title #
 #, no-wrap
 msgid "General information"
-msgstr ""
+msgstr "Informació general"
 
 #. type: Plain text
 #, no-wrap
@@ -59,121 +62,117 @@ msgstr "[[!inline pages=\"doc/about.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"install\"></a>\n"
-msgstr ""
+msgstr "<a id=\"install\"></a>\n"
 
 #. type: Title #
 #, no-wrap
 msgid "Download, installation, and upgrade"
-msgstr ""
+msgstr "Baixada, instal·lació i actualització"
 
 #. type: Bullet: '  - '
 msgid "Installing from:"
-msgstr ""
+msgstr "Instal·lar des de:"
 
 #. type: Bullet: '    - '
-#, fuzzy
 msgid "[[Windows|install/windows]]"
-msgstr ""
-"[[Von anderen Linux-Distributionen aus installieren|install/linux/usb-"
-"overview]]"
+msgstr "[[Windows|install/windows]]"
 
 #. type: Bullet: '    - '
 msgid "[[macOS|install/mac]]"
-msgstr ""
+msgstr "[[macOS|install/mac]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
 msgid "[[Linux (recommended)|install/linux]]"
-msgstr ""
-"[[Von anderen Linux-Distributionen aus installieren|install/linux/usb-"
-"overview]]"
+msgstr "[[Linux (recomanat)|install/linux]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
 msgid ""
 "[[Debian, Ubuntu, or Mint using the command line and GnuPG (experts)|install/"
 "expert]]"
 msgstr ""
-"[[Von Debian, Ubuntu oder Mint aus installieren|install/debian/usb-overview]]"
+"[[Debian, Ubuntu o Mint utilitzant la línia d'ordres i GnuPG (experts)|"
+"install/expert]]"
 
 #. type: Bullet: '  - '
 msgid "Installing by cloning from another Tails:"
-msgstr ""
+msgstr "Instal·lació mitjançant la clonació des d'un altre Tails:"
 
 #. type: Bullet: '    - '
 msgid "[[For PC|install/clone/pc]]"
-msgstr ""
+msgstr "[[Per a PC|install/clone/pc]]"
 
 #. type: Bullet: '    - '
 msgid "[[For Mac|install/clone/mac]]"
-msgstr ""
+msgstr "[[Per a Mac|install/clone/mac]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid "[[Burning a DVD|install/dvd]]"
-msgstr "[[Tails auf eine DVD brennen|install/dvd]]"
+msgstr "[[Gravació d'un DVD|install/dvd]]"
 
 #. type: Bullet: '  - '
 msgid "[[Running Tails in a virtual machine|install/vm]]"
-msgstr ""
+msgstr "[[Utilitzar Tails en una màquina virtual|install/vm]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid "Downloading without installing:"
-msgstr "[[Nur herunterladen ohne Installation|install/download]]"
+msgstr "Baixar sense instal·lar:"
 
 #. type: Bullet: '    - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
 
 #. type: Bullet: '    - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
 
 #. type: Bullet: '  - '
 msgid "Upgrading a Tails USB stick:"
-msgstr ""
+msgstr "Actualització d'un llapis USB de Tails:"
 
 #. type: Bullet: '    - '
 msgid "[[Upgrading automatically|upgrade]]"
-msgstr ""
+msgstr "[[Actualització automàtica|upgrade]]"
 
 #. type: Bullet: '    - '
 msgid "[[Upgrading manually from your Tails|upgrade/tails]]"
-msgstr ""
+msgstr "[[Actualització manual des del vostre Tails|upgrade/tails]]"
 
 #. type: Bullet: '    - '
 msgid "[[Upgrading manually from Windows|upgrade/windows]]"
-msgstr ""
+msgstr "[[Actualització manual des de Windows|upgrade/windows]]"
 
 #. type: Bullet: '    - '
 msgid "[[Upgrading manually from macOS|upgrade/mac]]"
-msgstr ""
+msgstr "[[Actualització manual des de macOS|upgrade/mac]]"
 
 #. type: Bullet: '    - '
 msgid "[[Upgrading manually from Linux|upgrade/linux]]"
-msgstr ""
+msgstr "[[Actualització manual des de Linux|upgrade/linux]]"
 
 #. type: Bullet: '    - '
 msgid "[[Upgrading manually by cloning from another Tails|upgrade/clone]]"
-msgstr ""
+msgstr "[[Actualització manual clonant des d'un altre Tails|upgrade/clone]]"
 
 #. type: Bullet: '    - '
 msgid ""
 "[[Repairing a Tails USB stick that fails to start after an upgrade|upgrade/"
 "repair]]"
 msgstr ""
+"[[Reparació d'un llapis USB de Tails que no s'inicia després d'una "
+"actualització|upgrade/repair]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "Uninstalling Tails or resetting a USB stick using [[Linux|reset/linux]], "
 "[[Windows|reset/windows]], or [[Mac|reset/mac]]"
 msgstr ""
+"Desinstal·lar Tails o restablir un llapis USB mitjançant [[Linux|reset/"
+"linux]], [[Windows|reset/windows]] o [[Mac|reset/mac]]"
 
 #. type: Title #
 #, no-wrap
 msgid "First steps with Tails"
-msgstr ""
+msgstr "Primers passos amb Tails"
 
 #. type: Plain text
 #, no-wrap
@@ -196,7 +195,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Uncensored and anonymous Internet"
-msgstr ""
+msgstr "Internet sense censura i anònim"
 
 #. type: Plain text
 #, no-wrap
@@ -208,7 +207,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Encryption and privacy"
-msgstr ""
+msgstr "Encriptatge i privadesa"
 
 #. type: Plain text
 #, no-wrap
@@ -220,7 +219,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Work on sensitive documents"
-msgstr ""
+msgstr "Treballar amb documents sensibles"
 
 #. type: Plain text
 #, no-wrap
@@ -232,7 +231,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Advanced topics"
-msgstr ""
+msgstr "Temes avançats"
 
 #. type: Plain text
 #, no-wrap
