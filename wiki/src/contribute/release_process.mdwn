@@ -332,9 +332,11 @@ Set base branch
 
 Reset the release branch's `config/base_branch`:
 
-        echo "${RELEASE_BRANCH:?}" > config/base_branch && \
-           git commit config/base_branch \
-               -m "Restore ${RELEASE_BRANCH:?}'s base branch."
+    (
+        echo "${RELEASE_BRANCH:?}" > config/base_branch
+        git commit config/base_branch \
+          -m "Restore ${RELEASE_BRANCH:?}'s base branch." || :
+    )
 
 Manual testing coordination
 =============================
@@ -386,7 +388,8 @@ and commit the result, including new PO files:
      ./refresh-translations || err "refreshing translations"
      ./submodules/jenkins-tools/slaves/lint_po || err "in lint"
      ./bin/check-po-msgfmt || err "in msgfmt"
-     git add po && git commit -m 'Update PO files.'
+     git add po
+     git commit -m 'Update PO files.' || :
     )
 
 If `lint_po` complains:
@@ -1339,6 +1342,26 @@ Update the image description file (IDF) used by the verification JavaScript:
     git commit -m "Update IDF for download verification" && \
     git push origin "${WEBSITE_RELEASE_BRANCH:?}"
 
+Check that incremental upgrades are working
+==============================================
+
+Check if the upgrades file looks good:
+
+    (
+    err() { echo "$*"; exit 1; }
+    cd "${MASTER_CHECKOUT:?}" || err "Cannot change directory"
+    for version in ${TEST_IUK_SOURCE_VERSIONS:?}; do
+        echo "Upgrade from ${version}"
+        udf="wiki/src/upgrade/v2/Tails/${version}/amd64/${DIST:?}/upgrades.yml"
+        grep --quiet --fixed-strings "to_${VERSION}.iuk" "$udf" || err "No IUK mentioned in $udf"
+        grep --quiet --fixed-strings -- "-${VERSION}.iso" "$udf" || err "No ISO mentioned in $udf"
+        cat "wiki/src/upgrade/v2/Tails/${version}/amd64/${DIST:?}/upgrades.yml"
+    done
+    )
+
+The above output should mention a valid upgrade path from the last stable version.
+
+
 Done with OpenPGP signing
 =========================
 
@@ -1844,13 +1867,16 @@ following state:
           "${WEBSITE_RELEASE_BRANCH:?}:${WEBSITE_RELEASE_BRANCH:?}" \
           devel:devel \
     ) && \
-    ( cd "${MASTER_CHECKOUT:?}" && \
-      git fetch && \
-      git merge origin/master && \
-      git merge --edit "origin/${WEBSITE_RELEASE_BRANCH:?}" && \
-      git submodule update --init && \
-      echo "stable" > config/base_branch && \
-      git commit config/base_branch \
+    (
+      set -eu
+      cd "${MASTER_CHECKOUT:?}"
+      git fetch
+      git merge origin/master
+      git merge --edit "origin/${WEBSITE_RELEASE_BRANCH:?}"
+      git submodule update --init
+      echo "stable" > config/base_branch
+      git diff-index --quiet HEAD config/base_branch || \
+        git commit config/base_branch \
           -m "Restore master's base branch." \
     )
 
@@ -2292,7 +2318,7 @@ Check that you are indeed preparing a RC:
         dch --newversion "${SECOND_NEXT_PLANNED_MAJOR_VERSION:?}" \
            "Dummy entry for next release." && \
         git commit debian/changelog \
-           -m "Add dummy changelog entry for ${SECOND_NEXT_PLANNED_MAJOR_VERSION:?}."
+           -m "Add dummy changelog entry for ${SECOND_NEXT_PLANNED_MAJOR_VERSION:?}." || :
 
 1. Merge testing into devel (keeping a single changelog entry, for the
    second next major release), and push them:
