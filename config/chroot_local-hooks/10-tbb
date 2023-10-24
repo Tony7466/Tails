@@ -223,7 +223,7 @@ hide_tor_donation_campaign() {
     (
         cd "${tmp}"
         7z x -tzip "${tbb_install}/browser/omni.ja"
-        sed -i '/YecWidget.init();/d' ./chrome/browser/content/browser/abouttor/aboutTor.js
+        sed -i '/YecWidget\.init();/d' ./chrome/browser/content/browser/abouttor/aboutTor.js
         touch --date="@${tbb_timestamp}" ./chrome/browser/content/browser/abouttor/aboutTor.js
         rm "${tbb_install}/browser/omni.ja"
         7z a -mtc=off -tzip -- "${tbb_install}/browser/omni.ja" *
