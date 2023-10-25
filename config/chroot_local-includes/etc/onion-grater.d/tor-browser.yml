@@ -17,4 +17,5 @@
     bridge:
   events:
     STREAM:
-  restrict-stream-events: true
+    CIRC:
+  tor-browser-mode: true
