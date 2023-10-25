@@ -1,11 +1,59 @@
 #!/usr/bin/python3
 
+import sys
 from pathlib import Path
+import toml
+import functools
+import re
 
-for po in sorted(Path('po/').glob('*.po')):
-    lang = po.name.split('.')[0]
-    if '_' in lang:
-        lang, sub = lang.split('_', maxsplit=1)
-    else:
-        sub = lang.upper()
-    print(f"{lang}:{sub}")
+ERRORS = 0
+LANGUAGE_RE = re.compile(r'^"Language:\s+(.*)\\n"$')
+MAPFILE="po/po-to-mozilla.toml"
+
+
+@functools.lru_cache
+def po_to_mozilla():
+    return toml.load(open(MAPFILE))
+
+
+
+
+def get_language(pofile: Path) -> str:
+    for line in pofile.open():
+        match = LANGUAGE_RE.match(line)
+        if match is not None:
+            return match.group(1)
+    raise ValueError(f"Could not extract language from file {pofile}")
+
+
+def get_all_mozlocales():
+    global ERRORS
+    for po in sorted(Path("po/").glob("*.po")):
+        moz_locale = get_language(po)
+
+        if "_" in moz_locale:
+            lang, sub = moz_locale.split("_", maxsplit=1)
+            yield f"{lang}-{sub}:{sub}"
+        elif moz_locale in po_to_mozilla()["map"]:
+            value = po_to_mozilla()["map"][moz_locale]
+            if type(value) is str:
+                yield value
+            else:
+                yield from value
+        else:
+            print(
+                f"Could not find {moz_locale} (from {po}), "
+                f"please add it to {MAPFILE}",
+                file=sys.stderr,
+            )
+            ERRORS += 1
+
+
+def main():
+    for out in sorted(get_all_mozlocales()):
+        print(out)
+    sys.exit(0 if not ERRORS else 1)
+
+
+if __name__ == "__main__":
+    main()
