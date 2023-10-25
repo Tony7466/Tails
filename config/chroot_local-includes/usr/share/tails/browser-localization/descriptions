@@ -5,9 +5,9 @@ cs:CZ
 da:DK
 de:DE
 el:GR
-es-ES:ES
-es-AR:AR
 en-US:US
+es:ES
+es:MX
 fa:IR
 fi:FI
 fr:FR
@@ -24,12 +24,13 @@ ki:KE
 ko:KR
 lt:LT
 mk:MK
-ms:MY
+ms-MY:MY
 my:MM
 nb-NO:NO
 nl:NL
 pl:PL
 pt-BR:BR
+pt-PT:PT
 ro:RO
 ru:RU
 sq:AL
