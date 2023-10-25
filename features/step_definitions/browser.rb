@@ -253,8 +253,11 @@ When /^I download some file in the Tor Browser$/ do
   @some_file = 'tails-signing.key'
   some_url = "https://tails.net/#{@some_file}"
   step "I open the address \"#{some_url}\" in the Tor Browser without waiting"
+  # Note that the "Opening ..." dialog sometimes appear with roleName
+  # "frame" and sometimes with "dialog", so we deliberately do not
+  # specify the roleName.
   button = @torbrowser
-             .child("Opening #{@some_file}", roleName: 'frame')
+             .child("Opening #{@some_file}")
              .button('Save File')
   try_for(10) { button.sensitive }
   button.press
