@@ -27,3 +27,6 @@ user_pref("extensions.pocket.enabled", false);
 
 // Enable userChrome.css
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+
+// Hide bookmarks toolbar
+user_pref("browser.toolbars.bookmarks.visibility", "never");
