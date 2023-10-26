@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-09 07:47+0200\n"
-"PO-Revision-Date: 2023-07-30 10:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-17 21:26+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -27,6 +27,8 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #, no-wrap
 msgid "<h1 id=\"new\" class=\"pc-clone mac-clone\">Welcome to your new Tails!</h1>\n"
 msgstr ""
+"<h1 id=\"new\" class=\"pc-clone mac-clone\">Un benvenuto al vostro nuovo "
+"Tails</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -38,17 +40,19 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"wi-fi\">Test your Wi-Fi</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"wi-fi\">Verifica il tuo Wi-F</h2>\n"
 
 #. type: Plain text
 msgid ""
 "Problems with Wi-Fi are unfortunately quite common in Tails and Linux in "
 "general. To test if your Wi-Fi interface works in Tails:"
 msgstr ""
+"I problemi con il Wi-Fi sono purtroppo abbastanza comuni in Tails e in Linux "
+"in generale. Per verificare se la tua interfaccia Wi-Fi funziona in Tails:"
 
 #. type: Bullet: '1. '
 msgid "Open the system menu in the top-right corner:"
-msgstr ""
+msgstr "Apri il menu di sistema nell'angolo in alto a destra:"
 
 #. type: Plain text
 #, no-wrap
@@ -60,12 +64,16 @@ msgid ""
 "Choose <span class=\"guilabel\">Wi-Fi Not Connected</span> and then <span "
 "class=\"guilabel\">Select Network</span>."
 msgstr ""
+"Scegli <span class=\"guilabel\">Wi-Fi Non Connesso</span> e poi <span class="
+"\"guilabel\">Seleziona Rete</span>."
 
 #. type: Bullet: '1. '
 msgid ""
 "After establishing a connection to a local network, the *Tor Connection* "
 "assistant appears to help you connect to the Tor network."
 msgstr ""
+"Dopo aver stabilito una connessione a una rete locale, appare l'assistente *"
+"Tor Connection* per aiutarti a connetterti alla rete Tor."
 
 #. type: Plain text
 #, no-wrap
@@ -76,11 +84,13 @@ msgstr "   [[!img doc/anonymous_internet/tor/tor-connection.png link=\"no\"]]\n"
 #, no-wrap
 msgid "[[!inline pages=\"doc/anonymous_internet/no-wifi.inline\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr ""
+"[[!inline pages=\"doc/anonymous_internet/no-wifi.inline\" raw=\"yes\" sort="
+"\"age\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"success\">\n"
-msgstr ""
+msgstr "<div class=\"success\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -89,6 +99,11 @@ msgid ""
 "  <source src=\"https://tails.net/install/inc/success/start.mp4\" type=\"video/mp4\" />\n"
 "</video>\n"
 msgstr ""
+"<video autoplay loop muted width=\"200\" height=\"200\" poster=\"https"
+"://tails.net/install/inc/success/start.png\">\n"
+"  <source src=\"https://tails.net/install/inc/success/start.mp4\" type="
+"\"video/mp4\" />\n"
+"</video>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -96,21 +111,27 @@ msgid ""
 "<div>\n"
 "  <p class=\"big\">You made it!</p>\n"
 msgstr ""
+"<div>\n"
+"  <p class=\"big\">Ce l'hai fatta!</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p>You managed to start <span class=\"pc-clone mac-clone\">your new</span> Tails on your computer!</p>\n"
 msgstr ""
+"  <p>Sei riuscito ad avviare <span class=\"pc-clone mac-clone\">il tuo "
+"nuovo</span>Tails sul tuo computer!</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p>Congratulations on staying safe :)</p>\n"
-msgstr ""
+msgstr "  <p>Congratulazioni per mantenerti al sicuro :)</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p>To continue discovering Tails, read our [[documentation|doc]].</p>\n"
 msgstr ""
+"  <p>Per continuare a scoprire Tails, leggi la nostra "
+"[[documentation|doc]].</p>\n"
 
 #. type: Plain text
 #, no-wrap

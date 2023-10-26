@@ -8,7 +8,6 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 (
-    what=()
     args=(--tmpdir "$tmpdir" --capture --view
         --iso "${ISOS:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.iso"
         --old-iso "${ISOS}/tails-amd64-${PREVIOUS_STABLE_VERSION:?}/tails-amd64-${PREVIOUS_STABLE_VERSION:?}.iso"
@@ -30,7 +29,7 @@ fi
             exit 1
         fi
     ) &
-    ./run_test_suite "${args[@]}" "${what[@]}"
+    ./run_test_suite "${args[@]}" "$@"
 
     while true; do
         ./run_test_suite "${args[@]}" "@$(find "${tmpdir:?}" -maxdepth 2 -type f -name rerun.txt  -print0 | xargs -0 ls -t1|stest -s|shuf -n1)"

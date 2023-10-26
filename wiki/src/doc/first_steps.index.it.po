@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2022-07-09 13:08+0000\n"
+"PO-Revision-Date: 2023-10-05 23:13+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: it\n"
@@ -23,78 +23,49 @@ msgid "Starting Tails"
 msgstr "Avviare Tails"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid "[[!traillink On_PC|first_steps/start/pc]]"
 msgid "[[On PC|first_steps/start/pc]]"
-msgstr "[[!traillink Su_PC|first_steps/start/pc]]"
+msgstr "[[Su PC|first_steps/start/pc]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid "[[!traillink On_Mac|first_steps/start/mac]]"
 msgid "[[On Mac|first_steps/start/mac]]"
-msgstr "[[!traillink Su_Mac|first_steps/start/mac]]"
+msgstr "[[Su Mac|first_steps/start/mac]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Accessibility|first_steps/accessibility]]"
 msgid "[[Accessibility|first_steps/accessibility]]"
-msgstr "[[!traillink Accessibilità|first_steps/accessibility]]"
+msgstr "[[Accessibilità|first_steps/accessibility]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Welcome_Screen|first_steps/welcome_screen]]"
 msgid "[[Welcome Screen|first_steps/welcome_screen]]"
-msgstr "[[!traillink Schermo_di_benvenuto|first_steps/welcome_screen]]"
+msgstr "[[Schermata di benvenuto|first_steps/welcome_screen]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Administration_password|first_steps/welcome_screen/"
-#| "administration_password]]"
 msgid ""
 "[[Administration password|first_steps/welcome_screen/"
 "administration_password]]"
 msgstr ""
-"[[!traillink Password_di_amministrazione|first_steps/welcome_screen/"
+"[[Password di amministrazione|first_steps/welcome_screen/"
 "administration_password]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink MAC_address_anonymization|first_steps/welcome_screen/"
-#| "mac_spoofing]]"
 msgid "[[MAC address anonymization|first_steps/welcome_screen/mac_spoofing]]"
 msgstr ""
-"[[!traillink Anonimizzazione_dell'indirizzo_MAC|first_steps/welcome_screen/"
-"mac_spoofing]]"
+"[[Anonimato dell'indirizzo MAC|first_steps/welcome_screen/mac_spoofing]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Introduction_to_GNOME_and_the_Tails_desktop|first_steps/"
-#| "desktop]]"
 msgid "[[Introduction to GNOME and the Tails desktop|first_steps/desktop]]"
-msgstr ""
-"[[!traillink Introduzione_a_GNOME_e_al_desktop_Tails|first_steps/desktop]]"
+msgstr "[[Introduzione a GNOME e al desktop Tails|first_steps/desktop]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid "[[!traillink Why_is_the_time_wrong?|first_steps/desktop/time]]"
 msgid "[[Why is the time wrong?|first_steps/desktop/time]]"
-msgstr ""
-"[[!traillink Perchè_c'è_l'_orario_sbagliato?|first_steps/desktop/time]]"
+msgstr "[[Perchè l'orario è sbagliato?|fprimi_passi/desktop/time]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Reporting_an_error|first_steps/bug_reporting]]"
 msgid "[[Reporting an error|first_steps/bug_reporting]]"
-msgstr "[[!traillink Segnalare_un_errore|first_steps/bug_reporting]]"
+msgstr "[[Segnalare un errore|first_steps/bug_reporting]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Shutting_down_Tails|first_steps/shutdown]]"
 msgid "[[Shutting down Tails|first_steps/shutdown]]"
-msgstr "[[!traillink Arrestare_Tails|first_steps/shutdown]]"
+msgstr "[[Spegnere Tails|first_steps/shutdown]]"
 
 #~ msgid "[[!traillink Persistent_Storage|first_steps/persistence]]"
 #~ msgstr "[[!traillink Archivio_Persistente|first_steps/persistence]]"

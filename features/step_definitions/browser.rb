@@ -112,11 +112,22 @@ def xul_application_info(application)
   end
 end
 
-When /^I open a new tab in the (.*)$/ do |browser|
-  info = xul_application_info(browser)
+When /^I open a new tab in the (.*)$/ do |browser_name|
+  info = xul_application_info(browser_name)
   retry_action(2) do
     @screen.click(info[:new_tab_button_image])
     @screen.wait(info[:address_bar_image], 15)
+  end
+  # Focus the address bar since that is what we want to interact with
+  # after this step
+  @screen.click(info[:address_bar_image])
+  browser = Dogtail::Application.new('Firefox')
+  try_for(10) do
+    focused = browser.focused_child
+    # Just matching against any entry could be racy if some other
+    # entry had focus when calling this step, but address bar is
+    # probably the only entry inside a tool bar.
+    focused.roleName == 'entry' && focused.parent.parent.roleName == 'tool bar'
   end
 end
 
@@ -125,9 +136,7 @@ When /^I open the address "([^"]*)" in the (.* Browser)( without waiting)?$/ do 
   info = xul_application_info(browser_name)
   open_address = proc do
     step "I open a new tab in the #{browser_name}"
-    @screen.click(info[:address_bar_image])
-    # Insert string via Dogtail which is more robust than @screen.paste
-    browser.focused_child.text = address
+    @screen.paste(address)
     @screen.press('Return')
   end
   recovery_on_failure = proc do
@@ -156,7 +165,7 @@ def page_has_loaded_in_the_tor_browser(page_titles)
   browser_name = 'Tor Browser'
   if $language == 'German'
     reload_action = 'Neu laden'
-    separator = '-'
+    separator = '–'
   else
     reload_action = 'Reload'
     separator = '—'
@@ -243,10 +252,24 @@ When /^I download some file in the Tor Browser$/ do
   @some_file = 'tails-signing.key'
   some_url = "https://tails.net/#{@some_file}"
   step "I open the address \"#{some_url}\" in the Tor Browser without waiting"
+  # Note that the "Opening ..." dialog sometimes appear with roleName
+  # "frame" and sometimes with "dialog", so we deliberately do not
+  # specify the roleName.
+  button = @torbrowser
+             .child("Opening #{@some_file}")
+             .button('Save File')
+  try_for(10) { button.sensitive }
+  button.press
   @torbrowser
-    .child(@some_file, roleName: 'label')
-    .parent
-    .children('Completed.*', roleName: 'label')
+    .child(roleName: 'file chooser')
+    .button('Save')
+    .click
+  @torbrowser
+    .button('Downloads')
+    .press
+  @torbrowser
+    .child('Downloads', roleName: 'panel')
+    .child("#{@some_file} Completed .*", roleName: 'list item')
 end
 
 Then /^the file is saved to the default Tor Browser download directory$/ do
@@ -334,9 +357,7 @@ Then /^DuckDuckGo is the default search engine$/ do
     ddg_search_prompt = "DuckDuckGoSearchPrompt#{$language}.png"
   end
   step 'I open a new tab in the Tor Browser'
-
-  # Insert string via Dogtail which is more robust than @screen.paste
-  browser.focused_child.text = 'a random search string'
+  @screen.paste('a random search string')
   @screen.wait(ddg_search_prompt, 20)
 end
 
@@ -353,7 +374,6 @@ Then(/^the screen keyboard works in Tor Browser$/) do
   end
   step 'I start the Tor Browser'
   step 'I open a new tab in the Tor Browser'
-  @screen.wait(xul_application_info('Tor Browser')[:address_bar_image], 10).click
   @screen.wait('ScreenKeyboard.png', 20)
   @screen.wait_any(osk_key_images, 20).click
   @screen.wait(browser_bar_x, 20)
@@ -381,4 +401,169 @@ Then /^Tor Browser's circuit view is working$/ do
   assert_equal('This browser', nodes.first.name)
   assert_equal(domain, nodes.last.name)
   assert_equal(5, nodes.size)
+end
+
+When /^I start the Tor Browser( in offline mode)?$/ do |offline|
+  step 'I start "Tor Browser" via GNOME Activities Overview'
+  if offline
+    start_button = Dogtail::Application
+                   .new('zenity')
+                   .dialog('Tor is not ready')
+                   .button('Start Tor Browser Offline')
+    # Sometimes this click is lost. Maybe the dialog is not fully setup yet?
+    sleep 2
+    start_button.click
+  end
+  step 'the Tor Browser has started'
+  if offline
+    step 'the Tor Browser shows the ' \
+         '"The proxy server is refusing connections" error'
+  end
+end
+
+Given /^the Tor Browser (?:has started|starts)$/ do
+  try_for(60) do
+    @torbrowser = Dogtail::Application.new('Firefox')
+    @torbrowser.child?(roleName: 'frame', recursive: false)
+  end
+  browser_info = xul_application_info('Tor Browser')
+  @screen.wait(browser_info[:new_tab_button_image], 10)
+  try_for(120, delay: 3) do
+    # We can't use Dogtail here: this step must support many languages
+    # and using Dogtail would require maintaining a list of translations
+    # for the "Stop" and "Reload" buttons.
+    @screen.wait_vanish(browser_info[:browser_stop_button_image], 120)
+    if RTL_LANGUAGES.include?($language)
+      @screen.wait(browser_info[:browser_reload_button_image_rtl], 120)
+    else
+      @screen.wait(browser_info[:browser_reload_button_image], 120)
+    end
+  end
+end
+
+Given /^the Tor Browser loads the (startup page|Tails homepage|Tails GitLab)$/ do |page|
+  case page
+  when 'startup page'
+    titles = [
+      'Tails',
+      'Tails - Trying a testing version of Tails',
+      'Tails - Welcome to Tails!',
+      'Tails - Dear Tails user,',
+    ]
+  when 'Tails homepage'
+    titles = ['Tails']
+  when 'Tails GitLab'
+    titles = ['tails · GitLab']
+  else
+    raise "Unsupported page: #{page}"
+  end
+  page_has_loaded_in_the_tor_browser(titles)
+end
+
+Given /^I add a bookmark to eff.org in the Tor Browser$/ do
+  url = 'https://www.eff.org'
+  step "I open the address \"#{url}\" in the Tor Browser"
+  step 'the Tor Browser shows the ' \
+       '"The proxy server is refusing connections" error'
+  @screen.press('ctrl', 'd')
+  prompt = @torbrowser.child('Add bookmark', roleName: 'panel')
+  prompt.click
+  @screen.paste(url)
+  prompt.child('Location', roleName: 'combo box').open
+  prompt.child('Bookmarks Menu', roleName: 'menu item').click
+  prompt.button('Save').press
+end
+
+Given /^the Tor Browser has a bookmark to eff.org$/ do
+  @screen.press('alt', 'b')
+  @screen.wait('TorBrowserEFFBookmark.png', 10)
+end
+
+When /^I can print the current page as "([^"]+[.]pdf)" to the (default downloads|persistent Tor Browser) directory$/ do |output_file, output_dir|
+  output_dir = if output_dir == 'persistent Tor Browser'
+                 "/home/#{LIVE_USER}/Persistent/Tor Browser"
+               else
+                 "/home/#{LIVE_USER}/Tor Browser"
+               end
+  @screen.press('ctrl', 'p')
+  @torbrowser.child('Save', roleName: 'push button').press
+  file_dialog = @torbrowser.child('Save As', roleName: 'file chooser')
+  # Enter the output filename in the text entry
+  text_entry = file_dialog.child('Name', roleName: 'label').labelee
+  filename = "#{output_dir}/#{output_file}"
+  text_entry.text = filename
+  file_dialog.child('Save', roleName: 'push button').click
+
+  try_for(30,
+          msg: "The page was not printed to #{output_dir}/#{output_file}") do
+    $vm.file_exist?("#{output_dir}/#{output_file}")
+  end
+end
+
+When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) directory$/ do |should_work, output_file, output_dir|
+  should_work = should_work == 'can'
+
+  file_dialog = save_page_as
+
+  case output_dir
+  when 'persistent Tor Browser'
+    output_dir = "/home/#{LIVE_USER}/Persistent/Tor Browser"
+    # Select the "Tor Browser (persistent)" bookmark in the file chooser's
+    # sidebar. It doesn't expose an action via the accessibility API, so we
+    # have to grab focus and use the keyboard to activate it.
+    file_dialog.child(description: output_dir, roleName: 'list item').grabFocus
+    @screen.press('Space')
+  when 'default downloads'
+    output_dir = "/home/#{LIVE_USER}/Tor Browser"
+  else
+    # Enter the output directory in the text entry
+    text_entry = file_dialog.child('Name', roleName: 'label').labelee
+    text_entry.text = output_dir
+    # Do the "activate" action of the text entry (same effect as
+    # pressing Enter) to open the directory.
+    text_entry.activate
+  end
+
+  # Enter the output filename in the text entry
+  text_entry = file_dialog.child('Name', roleName: 'label').labelee
+  text_entry.text = output_file
+  file_dialog.child('Save', roleName: 'push button').click
+
+  if should_work
+    try_for(20,
+            msg: "The page was not saved to #{output_dir}/#{output_file}") do
+      $vm.file_exist?("#{output_dir}/#{output_file}")
+    end
+  else
+    @screen.wait('TorBrowserCannotSavePage.png', 10)
+  end
+end
+
+When /^I request a new identity in Tor Browser$/ do
+  # Each tab (and only them) has its own 'document web' node
+  @old_tab_names = @torbrowser
+                     .children(roleName: 'document web', showingOnly: false)
+                     .map { |tab| tab.name }
+  @torbrowser.child('New Identity', roleName: 'push button').press
+  @torbrowser.child('Restart Tor Browser', roleName: 'push button').press
+end
+
+Then /^the Tor Browser restarts into a fresh session$/ do
+  try_for(20) do
+    # Each tab (and only them) has its own 'document web' node
+    tabs = @torbrowser.children(roleName: 'document web', showingOnly: false)
+    assert_equal(1, tabs.size)
+    only_tab = tabs.first
+    assert_equal("New Tab", only_tab.name)
+    # Since Tor Browser 13.0, requesting a New Identity restarts and
+    # loads about:tor and not the start page. This link always exists on
+    # the about:tor page in Tails as part of the info box explaining
+    # that Tor Browser is not managing tor.
+    only_tab.child('Test your connection', roleName: 'link')
+    assert_not_equal(@old_tab_names, tabs.map { |tab| tab.name })
+    true
+  end
+  url = @torbrowser.child('Navigation', roleName: 'tool bar')
+          .parent.child(roleName: 'entry').text
+  assert_empty(url)
 end

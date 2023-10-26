@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-07-28 23:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-18 15:26+0000\n"
+"Last-Translator: retiolus <retiolus@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"How Tails works\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Com funciona Tails\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -32,7 +32,7 @@ msgstr ""
 
 #. type: Content of: <h1>
 msgid "Leave no trace on the computer"
-msgstr ""
+msgstr "No deixeu rastre a l'ordinador"
 
 #. type: Content of: <section><div>
 msgid "[[!img anywhere.svg link=\"no\" alt=\"\"]]"
@@ -43,16 +43,20 @@ msgid ""
 "<i class=\"metaphor\">Like a tent, you can carry Tails with you and use it "
 "anywhere.</i>"
 msgstr ""
+"<i class=\"metaphor\">Com una tenda de campanya, podeu portar i utilitzar "
+"Tails a qualsevol lloc.</i>"
 
 #. type: Content of: <section><div><h2>
 msgid "Your secure computer anywhere"
-msgstr ""
+msgstr "El vostre ordinador segur a qualsevol lloc"
 
 #. type: Content of: <section><div><p>
 msgid ""
 "To use Tails, shut down the computer and start on your Tails USB stick "
 "instead of starting on Windows, macOS, or Linux."
 msgstr ""
+"Per utilitzar Tails, apagueu l'ordinador i inicieu-lo amb el vostre llapis "
+"USB de Tails en lloc d'iniciar-lo a Windows, macOS o Linux."
 
 #
 #
@@ -62,6 +66,9 @@ msgid ""
 "strong>. You can also <strong>stay safe while using the computer of somebody "
 "else</strong>."
 msgstr ""
+"Podeu temporalment <strong>convertir el vostre propi ordinador en una "
+"màquina segura</strong>. També podeu <strong>mantenir-vos segur mentre "
+"utilitzeu l'ordinador d'una altra persona</strong>."
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -71,6 +78,11 @@ msgid ""
 "years old.  You can start again on the other operating system after you shut "
 "down Tails."
 msgstr ""
+"Tails és una baixada de [[!inline pages=\"inc/stable_amd64_iso_size\" raw="
+"\"yes\" sort=\"age\"]] i la instal·lació triga mitja hora. Tails es pot "
+"instal·lar en qualsevol llapis USB de 8 GB com a mínim. Tails funciona a la "
+"majoria d'ordinadors de menys de 10 anys. Podeu tornar a començar a l'altre "
+"sistema operatiu després d'apagar Tails."
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -80,18 +92,23 @@ msgid ""
 "viruses or if you use it on a computer with malicious hardware, like "
 "keyloggers."
 msgstr ""
+"No us heu de preocupar que l'ordinador tingui virus perquè Tails funciona de "
+"manera independent de l'altre sistema operatiu i mai no utilitza el disc "
+"dur. Però, Tails no sempre us pot protegir si l'instal·leu des d'un "
+"ordinador amb virus o si l'utilitzeu en un ordinador amb maquinari maliciós, "
+"com ara enregistradors de tecles."
 
 #. type: Content of: <section><div><div><p>
 msgid "See also:"
-msgstr ""
+msgstr "Vegeu també:"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Warnings: Tails is safe but not magic!|doc/about/warnings]]"
-msgstr ""
+msgstr "[[Advertències: Tails és segur però no màgic!|doc/about/warnings]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Download and install Tails|install]]"
-msgstr ""
+msgstr "[[Baixar i instal·lar Tails|install]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[System requirements and recommended hardware|doc/about/requirements]]"
@@ -106,29 +123,34 @@ msgid ""
 "Tails is amnesic: it always starts empty and leaves no trace when you leave."
 "</i>"
 msgstr ""
+"[[!img amnesia.svg link=\"no\" alt=\"\"]] <i class=\"metaphor\">Com una "
+"tenda de campanya, Tails és amnèsic: sempre comença buit i no deixa cap "
+"rastre quan marxeu.</i>"
 
 #. type: Content of: <section><div><h2>
 msgid "Amnesia"
-msgstr ""
+msgstr "Amnèsia"
 
 #. type: Content of: <section><div><p>
 msgid ""
 "Tails always starts from the same clean state and <strong>everything you do "
 "disappears</strong> automatically when you shut down Tails."
 msgstr ""
+"Tails sempre comença des del mateix estat net i <strong>tot el que feu "
+"desapareix</strong> automàticament quan tanqueu Tails."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "Without Tails, almost everything you do can leave traces on the computer:"
-msgstr ""
+msgstr "Sense Tails, gairebé tot el que feu pot deixar rastres a l'ordinador:"
 
 #. type: Content of: <section><div><ul><li>
 msgid "Websites that you visited, even in private mode"
-msgstr ""
+msgstr "Llocs web que heu visitat, fins i tot en mode privat"
 
 #. type: Content of: <section><div><ul><li>
 msgid "Files that you opened, even if you deleted them"
-msgstr ""
+msgstr "Fitxers que heu obert, encara que els hagueu suprimit"
 
 #. type: Content of: <section><div><ul><li>
 msgid "Passwords, even if you use a password manager"
@@ -183,11 +205,11 @@ msgstr ""
 
 #. type: Content of: <section><div>
 msgid "[[!img toolbox.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img toolbox.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Digital security toolbox"
-msgstr ""
+msgstr "Caixa d'eines de seguretat digital"
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -260,17 +282,17 @@ msgstr ""
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Documentation|doc]]"
-msgstr ""
+msgstr "[[Documentació|doc]]"
 
 #. type: Content of: <h1>
 msgid "Leave no trace on the Internet"
-msgstr ""
+msgstr "No deixeu rastre a Internet"
 
 #
 #
 #. type: Content of: <section><div>
 msgid "[[!img relays.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img relays.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Tor for everything"
@@ -336,7 +358,7 @@ msgstr ""
 #
 #. type: Content of: <section><div>
 msgid "[[!img walkie-talkie.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img walkie-talkie.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Avoid online surveillance and censorship"
@@ -367,7 +389,7 @@ msgstr ""
 
 #. type: Content of: <section><div>
 msgid "[[!img footprints.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img footprints.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Avoid tracking and change identity"
@@ -403,7 +425,7 @@ msgstr ""
 #
 #. type: Content of: <section><div>
 msgid "[[!img blueprint.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img blueprint.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Transparency to build trust"
@@ -431,7 +453,7 @@ msgstr ""
 #
 #. type: Content of: <section><div>
 msgid "[[!img fire.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img fire.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Top security for free"
@@ -470,7 +492,7 @@ msgstr ""
 #
 #. type: Content of: <section><div>
 msgid "[[!img roots.svg link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img roots.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Sharing to be stronger"

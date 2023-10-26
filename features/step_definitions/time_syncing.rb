@@ -149,7 +149,7 @@ Then /^the hardware clock is still off by "([^"]+)"$/ do |timediff|
   hwclock = DateTime.parse(
     $vm.execute_successfully('hwclock -r').stdout.chomp
   ).to_time
-  expected = DateTime.parse(cmd_helper(['date', '-d', "now #{timediff}"])).to_time
+  expected = DateTime.parse(cmd_helper(['date', '--rfc-3339=seconds', '-d', "now #{timediff}"])).to_time
   expected_time_lower_bound = expected - max_time_drift
   expected_time_upper_bound = expected + 1
   assert(expected_time_lower_bound <= hwclock &&

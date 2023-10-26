@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2022-12-22 16:06+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-17 21:26+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -35,10 +35,8 @@ msgid "1 USB stick"
 msgstr "1 chiavetta USB"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "another Tails"
 msgid "Only for Tails!"
-msgstr "un altro Tails"
+msgstr "Solo per Tails!"
 
 #. type: Content of: <div><div><p>
 msgid "8 GB minimum"
@@ -95,14 +93,12 @@ msgid "[[!img install/inc/icons/apple.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img install/inc/icons/apple.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "macOS 10.10 (Yosemite)"
 msgid "macOS 10.10"
-msgstr "macOS 10.10 (Yosemite)"
+msgstr "macOS 10.10"
 
 #. type: Content of: <div><div><p>
 msgid "Yosemite"
-msgstr ""
+msgstr "Yosemite"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/linux.png link=\"no\" alt=\"\"]]"
@@ -167,10 +163,8 @@ msgid "Intel processor"
 msgstr "Processore Intel"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "not M1"
 msgid "not Apple M1 or M2"
-msgstr "non M1"
+msgstr "non Apple M1 or M2"
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -205,16 +199,12 @@ msgid "1 hour in total"
 msgstr "1 ora in tutto"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "½ hour"
 msgid "½ hour"
-msgstr "½ ora"
+msgstr "½ mezz'ora"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "¼ hour"
 msgid "¼ hour"
-msgstr "¼ d'ora"
+msgstr "¼ un quarto d’ora"
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -225,22 +215,20 @@ msgstr ""
 "scaricare"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "½ hour to install"
 msgid "½ hour to install"
-msgstr "½ ora per installare"
+msgstr "½ mezz'ora per installare"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "½ hour to upgrade"
 msgid "½ hour to upgrade"
-msgstr "½ ora per aggiornare"
+msgstr "½ mezz'ora per aggiornare"
 
 #. type: Content of: <p>
 msgid ""
 "[[!toggle id=\"requirements\" text=\"Detailed system requirements and "
 "recommended hardware.\"]]"
 msgstr ""
+"[[!toggle id=\"requirements\" text=\"Requisiti di sistema dettagliati e "
+"hardware consigliato\".]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -248,6 +236,9 @@ msgid ""
 "id=\"requirements\" text=\"\"]]</span> [[!inline pages=\"doc/about/"
 "requirements\" raw=\"yes\" sort=\"age\"]] \"\"\"]]"
 msgstr ""
+"[[!toggleable id=\"requirements\" text=\"\"\" <span class=\"hide\">[[!toggle "
+"id=\"requirements\" text=\"\"]]</span> [[!inline pages=\"doc/about/"
+"requirements\" raw=\"yes\" sort=\"age\"]] \"\"\"]]"
 
 #. type: Content of: <h2>
 msgid "Your steps"
@@ -427,7 +418,7 @@ msgid ""
 "[[!img install/inc/infography/clone-tails.png link=\"no\" alt=\"\"]]"
 msgstr ""
 "</a> <a href=\"#upgrade\" class=\"upgrade-tails upgrade-os upgrade-clone\"> "
-"[[!img install/inc/infography/clone-tails.png link=\"no\" alt=\"\""
+"[[!img install/inc/infography/clone-tails.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><a><p>
 msgid "Upgrade your Tails by cloning"

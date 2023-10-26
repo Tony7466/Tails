@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: transitails 1\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-07-02 11:33+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-05 23:13+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -23,16 +23,14 @@ msgid "[[!meta robots=\"noindex\"]]\n"
 msgstr "[[!meta robots=\"noindex\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<h1 id=\"install-tails\" class=\"step install-clone mac-clone\">Install Tails</h1>\n"
-#| "<h1 id=\"upgrade\" class=\"step upgrade\">Upgrade your Tails</h1>\n"
+#, no-wrap
 msgid ""
 "<h1 id=\"install\" class=\"step pc-clone mac-clone\">Install Tails by cloning</h1>\n"
 "<h1 id=\"upgrade\" class=\"step upgrade\">Upgrade your Tails by cloning</h1>\n"
 msgstr ""
-"<h1 id=\"install-tails\" class=\"step install-clone mac-clone\">Installa Tails</h1>\n"
-"<h1 id=\"upgrade\" class=\"step upgrade\">Aggiorna la tua Tails</h1>\n"
+"<h1 id=\"install\" class=\"step pc-clone mac-clone\">Installa Tails "
+"clonando</h1>\n"
+"<h1 id=\"upgrade\" class=\"step upgrade\">Aggiorna Tails clonando</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -50,15 +48,7 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<p class=\"upgrade\">\n"
-#| "  In this step, you will upgrade your Tails from the\n"
-#| "  <span class=\"upgrade-clone\">other</span>\n"
-#| "  <span class=\"upgrade-tails upgrade-os\">intermediary</span>\n"
-#| "  Tails using\n"
-#| "  <span class=\"application\">Tails Installer</span>.\n"
-#| "</p>\n"
+#, no-wrap
 msgid ""
 "<p class=\"upgrade\">\n"
 "  In this step, you will upgrade your Tails from the\n"
@@ -69,50 +59,34 @@ msgid ""
 "</p>\n"
 msgstr ""
 "<p class=\"upgrade\">\n"
-"  In questo passaggio, aggiornerai il tuo Tails\n"
-"  <span class=\"upgrade-clone\">dall'altro Tails</span>\n"
-"  <span class=\"upgrade-tails upgrade-os\">dal Tails intermedio</span>\n"
-"  usando\n"
-"  l'<span class=\"application\">Installer di Tails</span>.\n"
+"  In questo passaggio, aggiornerai Tails da\n"
+"  <span class=\"upgrade-clone\">altri</span>\n"
+"  <span class=\"upgrade-tails upgrade-os\">intermediario</span>\n"
+"  Tails usando\n"
+"  <span class=\"application\">Tails Cloner</span>.\n"
 "</p>\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Plug <span class=\"install-clone mac-clone\">the new</span> <span "
-#| "class=\"upgrade\">your Tails</span> USB stick in the computer."
 msgid ""
 "Plug <span class=\"pc-clone mac-clone\">the new</span> <span "
 "class=\"upgrade\">your Tails</span> USB stick into the computer."
 msgstr ""
-"Inserisci la <span class=\"install-clone mac-clone\">nuova chiavetta USB</"
-"span> <span class=\"upgrade\">tua chiavetta USB Tails</span> nel computer."
+"Inserisci la <span class=\"pc-clone mac-clone\">il nuovo</span> <span class="
+"\"upgrade\">tuoTails</span> chiavetta USB nel computer."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "   <div class=\"caution install-clone mac-clone\">\n"
-#| "   <p>All the data on this USB stick will be lost.</p>\n"
-#| "   </div>\n"
+#, no-wrap
 msgid ""
 "   <div class=\"caution pc-clone mac-clone\">\n"
 "   <p>All the data on this USB stick will be lost.</p>\n"
 "   </div>\n"
 msgstr ""
-"   <div class=\"caution install-clone mac-clone\">\n"
+"   <div class=\"caution pc-clone mac-clone\">\n"
 "   <p>Tutti i dati su questa chiavetta USB verranno persi.</p>\n"
 "   </div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "1. Choose\n"
-#| "   <span class=\"menuchoice\">\n"
-#| "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-#| "     <span class=\"guimenuitem\">Tails Installer</span>\n"
-#| "   </span>\n"
-#| "   to start <span class=\"application\">Tails Installer</span>.\n"
+#, no-wrap
 msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
@@ -126,36 +100,33 @@ msgstr ""
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Applicazioni</span>&nbsp;▸\n"
 "     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">Tails Installer</span>\n"
+"     <span class=\"guimenuitem\">Tails Cloner</span>\n"
 "   </span>\n"
-"   per avviare l'<span class=\"application\">Installer di Tails</span>.\n"
+"   per avviare l'<span class=\"applicazion\">Tails Cloner</span>.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"install-clone mac-clone\" alt=\"Tails Installer: 'Clone the current Tails'\"]]\n"
+#, no-wrap
 msgid "   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"pc-clone mac-clone\" alt=\"Tails Cloner: 'Clone the current Tails'\"]]\n"
-msgstr "   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"install-clone mac-clone\" alt=\"Installer di Tails: 'Clona l'attuale Tails'\"]]\n"
+msgstr ""
+"   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"pc-"
+"clone mac-clone\" alt=\"Tails Cloner: 'Clona il corrente Tails'\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" class=\"upgrade\" alt=\"Tails Installer: 'Clone the current Tails'\"]]\n"
+#, no-wrap
 msgid "   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" class=\"upgrade\" alt=\"Tails Cloner: 'Clone the current Tails'\"]]\n"
-msgstr "   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" class=\"upgrade\" alt=\"Installer di Tails: 'Clona l'attuale Tails'\"]]\n"
+msgstr ""
+"   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" "
+"class=\"upgrade\" alt=\"Cloner diTails: 'Clona il Tails corrente'\"]]\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Choose <span class=\"install-clone mac-clone\">the new</span> <span "
-#| "class=\"upgrade\">your</span> USB stick in the <span "
-#| "class=\"guilabel\">Target USB stick</span> drop-down list."
 msgid ""
 "Choose <span class=\"pc-clone mac-clone\">the new</span> <span "
 "class=\"upgrade\">your</span> USB stick in the <span "
 "class=\"guilabel\">Target USB stick</span> menu."
 msgstr ""
-"Seleziona la <span class=\"install-clone mac-clone\">nuova</span> <span "
-"class=\"upgrade\">tua</span> chiavetta USB nel menù a tendina <span "
-"class=\"guilabel\">Penna USB di destinazione</span>."
+"Seleziona la <span class=\"pc-clone mac-clone\">nuova</span> <span class="
+"\"upgrade\">tua</span> chiavetta USB nel menù <span class=\"guilabel\""
+">chiavetta USB di destinazione</span>."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -186,23 +157,18 @@ msgstr "Leggi il messaggio di avviso nella finestra di conferma."
 
 #. type: Bullet: '1. '
 msgid "Click **Delete All Data and Install** to confirm."
-msgstr ""
+msgstr "Clicca su **Elimina tutti i dati e installa** per confermare."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "   The\n"
-#| "   <span class=\"install-clone mac-clone\">installation</span>\n"
-#| "   <span class=\"upgrade\">upgrade</span>\n"
-#| "   takes a few minutes.\n"
+#, no-wrap
 msgid ""
 "   The\n"
 "   <span class=\"pc-clone mac-clone\">installation</span>\n"
 "   <span class=\"upgrade\">upgrade</span>\n"
 "   takes a few minutes.\n"
 msgstr ""
-"   <span class=\"install-clone mac-clone\">L'installazione</span>\n"
-"   <span class=\"upgrade\">L'aggiornamento</span>\n"
+"   <span class=\"pc-clone mac-clone\">installazione</span>\n"
+"   <span class=\"upgrade\">upgrade</span>\n"
 "   richiede alcuni minuti.\n"
 
 #. type: Plain text
@@ -219,16 +185,12 @@ msgstr ""
 "   </div>\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "After the installation finishes, close <span class=\"application\">Tails "
-#| "Installer</span>."
 msgid ""
 "After the installation finishes, close <span class=\"application\">Tails "
 "Cloner</span>."
 msgstr ""
-"Una volta che l'installazione è terminata, chiudi l'<span "
-"class=\"application\">Installer di Tails</span>."
+"Una volta che l'installazione è terminata, chiudi <span class=\"application\""
+">Tails Cloner</span>."
 
 #. type: Plain text
 #, no-wrap
