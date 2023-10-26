@@ -3,11 +3,11 @@
 [[!meta title="Make the gift of privacy!"]]
 [[!tag announce]]
 
-Since we started in 2008, hundreds of thousands of people around the world have
+Since we started in 2008, millions of people around the world have
 used Tails to be more secure, autonomous, and anonymous in their digital lives. 
 
 We have come so far thanks to you, and need your support to continue to do what
-we do best: deliver the world’s most privacy-preserving operating system! Your
+we do best: deliver the world's most privacy-preserving operating system! Your
 donations are 70% of our income.
 
 Our goal is clear: to make Tails even more useful for vulnerable people living
@@ -17,7 +17,7 @@ usability, and fortifying the system against emerging threats.
 
 # How you can contribute
 
-With malicious actors’ intrusions into human rights growing in sophistication
+With malicious actors' intrusions into human rights growing in sophistication
 and scale, Tails stands as a beacon of hope for those seeking refuge in a more
 secure digital environment. We stand on the precipice of a future where digital
 privacy should be a fundamental right, not a luxury. 
@@ -27,15 +27,15 @@ Tails and make it accessible to all who seek refuge in its secure embrace. Here
 are some 5 ways you can get involved:
 
 1. By making a recurring donation. Recurring donations are the best insurance
-for Tails’s mission. These help us weather economic uncertainties and plan our
+for Tails' mission. These help us weather economic uncertainties and plan our
 work sustainbly.
 
-2. With a one-time gift. If you can’t set-up a recurring donation, we’ll still
-accept your one-time donations. Donate via PayPal, bank transfers, mail in your
-checks, or just send us good, old cash. Here’s a pro-tip: donations of over USD
-1,000 entitle you to some neat sponsorship benefits.
+2. With a one-time gift, if you can't set-up a recurring donation.
+Donate via PayPal, bank transfers, mail in your
+checks, or just send us good, old cash. Here's a pro-tip: donations of over
+$1&#8239;000 entitle you to some neat [[sponsorship benefits|sponsors/become]].
 
-3. Through cryptocurrency: We accept crypto donations in Bitcoin, Ethereum, and
+3. Through cryptocurrency. We accept crypto donations in Bitcoin, Ethereum, and
 Monero.
 
 4. Gift matching. If your employer runs gift-matching programmes, consider
