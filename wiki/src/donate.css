@@ -192,10 +192,7 @@ p.email {
 
 h4 {
   color: var(--medium-purple);
-}
-
-p+h4, div+h4 {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 @media (max-width: 986px) {
@@ -208,7 +205,7 @@ h5 {
   font-weight: bold;
 }
 
-#other-ways-1, #other-ways-2, #other-ways-3, #income {
+#other-ways-1, #other-ways-2, #other-ways-3, #expenses {
   margin-top: 2em;
   background: var(--background-gray);
   box-sizing: border-box;
@@ -232,8 +229,11 @@ h5 {
 }
 
 #cryptos {
-  overflow-wrap: break-word;
   padding-right: 2em;
+}
+
+.crypto-address {
+  overflow-wrap: break-word;
 }
 
 /* Indent bank account details for wire transfers */
