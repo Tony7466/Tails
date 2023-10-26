@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-19 19:37+0000\n"
-"PO-Revision-Date: 2023-10-01 21:13+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-17 21:26+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +80,7 @@ msgstr "Contribuisci"
 
 #. type: Content of: <div><ul><li>
 msgid "[[Report an error|doc/first_steps/bug_reporting]]"
-msgstr "[Segnala un errore|doc/first_steps/bug_reporting]]"
+msgstr "[[Segnala un errore|doc/first_steps/bug_reporting]]"
 
 #. type: Content of: <div><ul><li>
 msgid "[[Translate|contribute/how/translate]]"

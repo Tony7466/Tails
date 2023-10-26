@@ -134,7 +134,7 @@ when the tarballs are fetched:
 
     (
         grep --color=never -E \
-            "\stor-browser-linux64-([0-9]|tbb-nightly).*_ALL\.tar\.xz$" \
+            "\stor-browser-linux-x86_64-${TBB_VERSION%-build*}\.tar\.xz$" \
             sha256sums-unsigned-build.txt
     ) > config/chroot_local-includes/usr/share/tails/tbb-sha256sums.txt
 
@@ -184,7 +184,7 @@ Download the relevant files:
 ```sh
  (
     grep --color=never -Eo \
-        '\stor-browser-linux64-[0-9].*_en-US\.tar\.xz$' \
+        '\stor-browser-linux-x86_64-${TBB_VERSION%-build*}\.tar\.xz$' \
         sha256sums-unsigned-build.txt \
 ) | sed -re "s@^\s*@${TBB_DIST_URL:?}@" | xargs wget -c
 ```

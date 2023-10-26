@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-01-14 07:54+0000\n"
-"PO-Revision-Date: 2019-07-16 07:52+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2023-10-10 10:12+0000\n"
+"Last-Translator: k3w b4fd <k3wqfo8bke6mgaijt7fyb4fd@systemli.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Join us at the Tails HackFest, 2014!\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Besuche uns am Tails HackFest, 2014!\"]]\n"
 
 #. type: Plain text
 #, no-wrap

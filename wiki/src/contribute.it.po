@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-10-01 21:12+0000\n"
+"PO-Revision-Date: 2023-10-17 21:26+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
@@ -510,14 +510,8 @@ msgid "Collective process"
 msgstr "Processo collettivo"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[Calendar|contribute/calendar]] of releases, meetings, working sessions, "
-#| "etc."
 msgid "[[Calendar|contribute/calendar]] of releases"
-msgstr ""
-"[[Calendario|contribute/calendar]] dei rilasci, incontri, sessioni di lavoro "
-"ecc..."
+msgstr "[[Calendario|contribute/calendar]] dei rilasci"
 
 #. type: Bullet: '  - '
 msgid "[[Code of conduct|contribute/working_together/code_of_conduct]]"
