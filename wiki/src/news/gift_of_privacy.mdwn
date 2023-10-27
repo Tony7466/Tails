@@ -4,7 +4,7 @@
 [[!tag announce]]
 
 Since we started in 2008, millions of people around the world have
-used Tails to be more secure, autonomous, and anonymous in their digital lives. 
+used Tails to be more secure, autonomous, and anonymous in their digital lives.
 
 We have come so far thanks to you, and need your support to continue to do what
 we do best: deliver the world's most privacy-preserving operating system! Your
@@ -20,7 +20,7 @@ usability, and fortifying the system against emerging threats.
 With malicious actors' intrusions into human rights growing in sophistication
 and scale, Tails stands as a beacon of hope for those seeking refuge in a more
 secure digital environment. We stand on the precipice of a future where digital
-privacy should be a fundamental right, not a luxury. 
+privacy should be a fundamental right, not a luxury.
 
 With your support, we will forge ahead, steadfast in our mission to fortify
 Tails and make it accessible to all who seek refuge in its secure embrace. Here
@@ -47,7 +47,7 @@ network, friends, and colleagues. Help us amplify our impact by reaching a
 wider audience!
 
 Every donation, no matter how small, makes a difference. Please donate today
-and help us keep Tails alive and well in 2024 and beyond! 
+and help us keep Tails alive and well in 2024 and beyond!
 
 Thank you for being part of this journey. Oh, and in case you have somehow
 managed to skip over all the links to our donations page so far, here it is:
