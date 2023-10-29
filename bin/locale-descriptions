@@ -16,8 +16,6 @@ def po_to_mozilla():
     return toml.load(open(MAPFILE))
 
 
-
-
 def get_language(pofile: Path) -> str:
     for line in pofile.open():
         match = LANGUAGE_RE.match(line)
@@ -28,6 +26,7 @@ def get_language(pofile: Path) -> str:
 
 def get_all_mozlocales():
     global ERRORS
+    yield from po_to_mozilla().get('extra', {}).get('extra_languages', [])
     for po in sorted(Path("po/").glob("*.po")):
         moz_locale = get_language(po)
 

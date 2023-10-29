@@ -35,3 +35,9 @@ th="th:TH"
 tr="tr:TR"
 uk="uk:UA"
 vi="vi:VN"
+
+[extra]
+# those languages are added to 
+extra_languages = [
+"ms:MY",
+]
