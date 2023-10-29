@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-30 19:30+0000\n"
+"POT-Creation-Date: 2023-10-27 09:15+0000\n"
 "PO-Revision-Date: 2022-12-24 08:17+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: Tails Chinese translators <jxt@twngo.xyz>\n"
@@ -49,48 +49,54 @@ msgstr ""
 #. type: Content of: <div><div><p>
 msgid ""
 "At Tails, we build a liberating operating system that puts people in control "
-"of their digital lives:"
-msgstr ""
-
-#. type: Content of: <div><div><ul><li>
-msgid ""
-"<b>Journalists and whistleblowers</b> use Tails to denounce the wrongdoings "
-"of governments and corporations."
-msgstr ""
-
-#. type: Content of: <div><div><ul><li>
-msgid ""
-"<b>Activists</b> use Tails to avoid surveillance and organize their "
-"struggles for liberatory social change."
-msgstr ""
-
-#. type: Content of: <div><div><ul><li>
-msgid ""
-"<b>Domestic violence survivors</b> use Tails to escape surveillance at home."
-msgstr ""
-
-#. type: Content of: <div><div><ul><li>
-msgid ""
-"<b>Privacy-concerned citizens</b> use Tails to avoid online tracking and "
-"censorship."
+"of their digital lives."
 msgstr ""
 
 #. type: Content of: <div><div><p>
 msgid ""
-"Tails is and will remain Free Software because the most vulnerable and "
-"oppressed people are the most in need of privacy and security."
+"In 2023, Tails touched the lives of approximately 25&#8239;000 individuals "
+"daily, and will surpass a staggering 10 million uses. Over the years, Tails "
+"has become an invaluable ally for those on the front lines of truth-seeking "
+"and progressive political advocacy:"
+msgstr ""
+
+#. type: Content of: <div><div><ul><li><p>
+msgid ""
+"<b>Investigative journalists</b> have used Tails to securely unearth "
+"corruption and wrongdoing, without fear of reprisal. For example, "
+"journalists from PODER and Serendipia used Tails to investigate the "
+"systematic espionage of feminists and LGBTQIA+ groups by the Mexican army."
+msgstr ""
+
+#. type: Content of: <div><div><ul><li><p>
+msgid ""
+"<b>Activists</b> have used Tails to organize and communicate with each "
+"other, even in repressive regimes. For example, reproductive rights "
+"activists in Brazil have used Tails to protect their work and personal data "
+"from intrusive law enforcement and boyfriends alike."
+msgstr ""
+
+#. type: Content of: <div><div><ul><li><p>
+msgid ""
+"<b>Whistleblowers</b> have used Tails to expose wrongdoing without "
+"compromising their identities or endangering their sources. For example, "
+"Edward Snowden and his collaborators used Tails to expose the massive global "
+"surveillance programs orchestrated by the NSA and the Five Eyes intelligence "
+"alliance."
 msgstr ""
 
 #. type: Content of: <div><div><p>
-#, fuzzy
 msgid ""
-"Donations from passionate people like you are our most valuable source of "
-"funding because they guarantee our independence. We are a very small "
-"nonprofit and our yearly budget is ridiculously small compared to the value "
-"of Tails."
+"Tails is non-profit, and runs on a relatively small budget. We have punched "
+"above our weight thanks to your support, and we continue to need your "
+"support every year."
 msgstr ""
-"捐款來自像你這樣的個人捐款者，各位是我們最重要的資源，也讓 Tails可以獨立於政"
-"府和企業資助。"
+
+#. type: Content of: <div><div><p>
+msgid ""
+"By donating to Tails, you can help us to continue developing and improving "
+"Tails, and to make it more accessible to people who need it most."
+msgstr ""
 
 #.  HTML Variables for PayPal Payments Standard:
 #.        https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/ 
@@ -286,7 +292,7 @@ msgstr ""
 msgid "Donate in dollars"
 msgstr "美元捐款"
 
-#. type: Content of: <div><div><div><div><h3>
+#. type: Content of: <div><div><div><div><h4>
 msgid "Recurring donation"
 msgstr "定期捐款"
 
@@ -368,7 +374,7 @@ msgstr ""
 msgid "<input type=\"submit\" value=\"Donate (recurring)\"/>"
 msgstr "<input type=\"submit\" value=\"Donate\"/>"
 
-#. type: Content of: <div><div><div><div><h3>
+#. type: Content of: <div><div><div><div><h4>
 msgid "One-time donation"
 msgstr "單次捐款"
 
@@ -450,6 +456,21 @@ msgid ""
 "If you need a donation receipt, contact us at <a href=\"mailto:tails-"
 "fundraising@boum.org\">tails-fundraising@boum.org</a>."
 msgstr ""
+
+#. type: Content of: <div><div><h4>
+msgid "Become a sponsor"
+msgstr ""
+
+#. type: Content of: <div><div><p>
+msgid ""
+"All donations, grants, and awards of more than $1&#8239;000 appear in our "
+"[[list of sponsors|sponsors]]."
+msgstr ""
+
+#. type: Content of: <div><div><p>
+#, fuzzy
+msgid "Come talk to us and [[become a sponsor|sponsors/become]] yourself!"
+msgstr "見見我們的[[伙伴|partners]] 或是 [[成為我們的伙伴|partners/become]]!"
 
 #. type: Content of: <div><div><div><h3>
 msgid "Other ways to donate"
@@ -555,6 +576,34 @@ msgid ""
 "them."
 msgstr ""
 
+#. type: Content of: <div><div><div><div><h4>
+msgid "Cash and US checks"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "You can send us cash in any currency and US checks by post:"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "Riseup Labs"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "PO Box 3027"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "Lacey, WA 98509"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "Please add a note that your donation is for Tails."
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "Checks should be made payable to Riseup Labs."
+msgstr ""
+
 #. type: Content of: <div><div><h4>
 msgid "Bank transfer"
 msgstr "銀行滙款"
@@ -610,34 +659,6 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <div><div><h4>
-msgid "Cash and US check"
-msgstr ""
-
-#. type: Content of: <div><div><p>
-msgid "You can send us cash in any currency and US checks by post:"
-msgstr ""
-
-#. type: Content of: <div><div><p>
-msgid "Riseup Labs"
-msgstr ""
-
-#. type: Content of: <div><div><p>
-msgid "PO Box 3027"
-msgstr ""
-
-#. type: Content of: <div><div><p>
-msgid "Lacey, WA 98509"
-msgstr ""
-
-#. type: Content of: <div><div><p>
-msgid "Please add a note that your donation is for Tails."
-msgstr ""
-
-#. type: Content of: <div><div><p>
-msgid "Checks should be made payable to Riseup Labs."
-msgstr ""
-
-#. type: Content of: <div><div><h4>
 msgid "Corporate matching donation programs"
 msgstr ""
 
@@ -668,6 +689,54 @@ msgstr ""
 msgid ""
 "<a href=\"mailto:tails-fundraising@boum.org\">tails-fundraising@boum.org</a> "
 "([[OpenPGP key|tails-fundraising.key]])"
+msgstr ""
+
+#. type: Content of: <div><div><h3>
+msgid "Where our money comes from"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li><div>
+msgid "Passionate people like you"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li><div>
+msgid "(69%)"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li><div>
+msgid "Entities related to the US government"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li><div>
+msgid "(20%)"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li>
+msgid "like the US Department of State and Internews"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li><div>
+msgid "Foundations & NGOs"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li><div>
+msgid "(6%)"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li>
+msgid "like Tor and RIPE NCC"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li><div>
+msgid "Private companies"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li><div>
+msgid "(5%)"
+msgstr ""
+
+#. type: Content of: <div><div><figure><figcaption><ul><li>
+msgid "like ProtonMail and ThinkPenguin"
 msgstr ""
 
 #. type: Content of: <div><div><h3>
@@ -743,69 +812,19 @@ msgid ""
 "[[!inline pages=\"donate/testimonials.inline\" raw=\"yes\" sort=\"age\"]]"
 msgstr ""
 
-#. type: Content of: <div><div><h3>
-msgid "Where our money comes from"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li><div>
-msgid "Passionate people like you"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li><div>
-msgid "(69%)"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li><div>
-msgid "Entities related to the US government"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li><div>
-msgid "(20%)"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li>
-msgid "like the US Department of State and Internews"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li><div>
-msgid "Foundations & NGOs"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li><div>
-msgid "(6%)"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li>
-msgid "like Tor and RIPE NCC"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li><div>
-msgid "Private companies"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li><div>
-msgid "(5%)"
-msgstr ""
-
-#. type: Content of: <div><div><figure><figcaption><ul><li>
-msgid "like ProtonMail and ThinkPenguin"
-msgstr ""
-
-#. type: Content of: <div><div><h3>
 #, fuzzy
-msgid "Our sponsors"
-msgstr "我們的合伙人"
+#~ msgid ""
+#~ "Donations from passionate people like you are our most valuable source of "
+#~ "funding because they guarantee our independence. We are a very small "
+#~ "nonprofit and our yearly budget is ridiculously small compared to the "
+#~ "value of Tails."
+#~ msgstr ""
+#~ "捐款來自像你這樣的個人捐款者，各位是我們最重要的資源，也讓 Tails可以獨立於"
+#~ "政府和企業資助。"
 
-#. type: Content of: <div><div><p>
-msgid ""
-"All donations, grants, and awards of more than $1&#8239;000 appear in our "
-"[[list of sponsors|sponsors]]."
-msgstr ""
-
-#. type: Content of: <div><div><p>
 #, fuzzy
-msgid "Come talk to us and [[become a sponsor|sponsors/become]] yourself!"
-msgstr "見見我們的[[伙伴|partners]] 或是 [[成為我們的伙伴|partners/become]]!"
+#~ msgid "Our sponsors"
+#~ msgstr "我們的合伙人"
 
 #, fuzzy
 #~ msgid "Our impact"

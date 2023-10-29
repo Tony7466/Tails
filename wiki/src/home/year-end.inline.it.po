@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-10-19 14:43+0000\n"
+"POT-Creation-Date: 2023-10-27 09:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgstr ""
 
 #. type: Content of: <div><div><p>
 msgid ""
-"That's why we give out Tails for free. But making sure that Tails stays "
-"secure and improves constantly takes a lot of effort and money."
+"That's why we give out Tails for free. However, keeping Tails secure, "
+"constantly improving, and accessible costs money."
 msgstr ""
 
 #. type: Content of: <div><div><p>

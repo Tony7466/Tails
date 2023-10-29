@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-10-18 13:26+0000\n"
+"PO-Revision-Date: 2023-10-22 12:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -40,7 +40,7 @@ msgstr "[[!tag announce]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -68,6 +68,8 @@ msgid ""
 "For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
 "\"]]."
 msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"llistat de canvis\"]]."
 
 #. type: Plain text
 #, no-wrap
@@ -85,7 +87,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"get\">Get Tails 4.28</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"get\">Obtenir Tails 4.28</h1>\n"
 
 #. type: Title ##
 #, no-wrap
@@ -167,16 +169,16 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"next\">What's coming up?</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 4.29 is [[scheduled|contribute/calendar]] for April 5."
