@@ -1,8 +1,171 @@
 tails (5.19) UNRELEASED; urgency=medium
 
-  * Dummy entry for next release.
+  * Upgrade to Tor Browser 13.0.1 based on Firefox 115.4 (tails/tails!1265)
 
- -- boyska <boyska@riseup.net>  Tue, 03 Oct 2023 12:42:21 +0200
+    Closes issues:
+      - Upgrade to Tor Browser 13.0.1 based on Firefox 115.4 (tails/tails#19994)
+
+    Commits:
+      - Tor Browser release process: adjust one more thing to new tarball naming scheme
+      - Upgrade Tor Browser to 13.0.1 (refs: tails/tails#19994)
+
+  * Update to Thunderbird 115 and re-enable Thunderbird automated tests
+    (tails/tails!1258)
+
+    Closes issues:
+      - Fix and re-enable "I can send emails, and receive emails over IMAP" automated
+        test: Certificate handling on Jenkins needs updating for Thunderbird 102
+        (tails/tails#19193)
+      - Update to Thunderbird 115 (tails/tails#19885)
+
+    Commits:
+      - Test suite: remove unused step
+      - Test suite: adapt steps for changes in Thunderbird 115 (refs:
+        tails/tails#19885)
+      - Test suite: dont import isotesters' snakeoil SSL cert anymore
+      - Test suite: re-enable "I can send emails, and receive emails over IMAP" test
+      - Update Thunderbird patches from
+        tails/thunderbird@b8b54f4bb25b028171be3b7548f2b7d309d5b61d
+
+  * Refresh Thunderbird patch (tails/tails!1257)
+
+    Commits:
+      - Refresh Thunderbird patch
+
+  * Tor Browser 13 (tails/tails!1232)
+
+    Closes issues:
+      - Upgrade to Tor Browser 13 based on Firefox 115 (tails/tails#19478)
+
+    Commits:
+      - Test suite: adapt test to Tor Browser's download dialog having random roles
+      - Browsers: hide the bookmark toolbar
+      - Escape "." that's meant as a literal char, rather than a special regepx char
+      - Test suite: don't assign an assignment :)
+      - Test suite: add image due to new Italian translation
+      - Test suite: move browser-related scenarios from common_steps.rb to browser.rb
+      - Test suite: don't use translated string in Dogtail
+      - Test suite: adapt scenario for Tor Browser's New Identity feature vs version
+        13.0
+      - Test suite: rename step
+      - Fix indentation
+      - Tor Browser: hide Tor donation campaign in about:tor
+      - 10-tbb: don't create the profile directory outside of create_default_profile()
+      - Test suite: make sure browser URL bar is focused and ready for interaction
+      - Test suite: refactor
+      - Simplify
+      - Test suite: bump images for Tor Browser 13.0
+      - Upgrade Tor Browser to final 13.0 (refs: tails/tails#19478)
+      - Update (last time!) AppArmor policy for Tor Browser 13 (refs:
+        tails/tails#19478)
+      - onion-grater: log the rewrite of CIRC CLOSED events when tor-browser-mode is
+        enabled
+      - Update AppArmor policy for Tor Browser 13
+      - onion-grater: make the circuit leak prevention compatible with Tor Browser 13
+      - Upgrade Tor Browser to 13.0a6 (refs: tails/tails#19478)
+      - Upgrade Tor Browser to 13.0a5-build1 (refs: tails/tails#19478)
+      - Test suite: adapt test to Tor Browser 13.0a4's file download UX (refs:
+        tails/tails#19478)
+      - Upgrade Tor Browser to 13.0a4 (refs: tails/tails#19478)
+      - Update (again) AppArmor policy for Tor Browser 13 (refs: tails/tails#19478)
+      - Test suite: bump images
+      - Test suite: optimize
+      - Test suite: fix test where method names were mixed up
+      - Test suite: German uses a new separator in Tor Browser 13
+      - Adapt for new Tor Browser tarball naming scheme.
+      - Upgrade Tor Browser to 13.0a3-build1 (refs: tails/tails#19478)
+      - onion-grater: craft correct empty answers for `getinfo circuit-status`
+      - Clean up unnecessary json data
+      - Tor Browser: allow subscribing to CIRC events via onion-grater
+      - Unsafe Browser: disable uBlock Origin
+      - Update AppArmor policy for Tor Browser 13 (refs: tails/tails#19478)
+      - Browsers: hide warning when downloading files
+      - Test suite: revert from setting browser url with Dogtail's .text= to
+        @screen.paste()
+      - 10-tbb: sanity check that we migrated everything from TBB's profile
+      - 10-tbb: clean up TorBrowser sub-dir properly
+      - 10-tbb: remove potential residual file from inside omni.ja
+      - 10-tbb: adapt for upgrade to Tor Browser 13 (refs: tails/tails#19478)
+      - Upgrade Tor Browser to 13.0a2-build2
+
+  * add image for new translation (tails/tails!1264)
+
+    Closes issues:
+      - Fix "Tails is localized for every tier-1 language, Examples (#6)"
+        (tails/tails#20002)
+
+    Commits:
+      - add image for new translation
+
+  * Upgrade to Linux 6.1.55-1 (tails/tails!1266)
+
+    Closes issues:
+      - Upgrade to Linux 6.1.55 (tails/tails#20004)
+
+    Commits:
+      - Upgrade to linux-image-6.1.0-13-amd64 (currently at version 6.1.55-1)
+
+  * Avoid errors when publishing UDFs (tails/tails!1260)
+
+    Commits:
+      - run test from the right directory
+      - fix: diff-index exit code
+      - Apply 1 suggestion(s) to 1 file(s)
+      - less git commit errors
+      - manually check test udf
+      - More checks where I do errors
+
+  * Upgrade to Bullseye 11.8, tor 0.4.8.7, and OnionCircuits 0.8 (tails/tails!1259)
+
+    Closes issues:
+      - Onion Circuits: please allow copying relay information (tails/tails#12114)
+      - OnionCircuits uses deprecated functions (tails/tails#19917)
+      - Replicate Vidalia's ability to close arbitrary circuits (tails/tails#8927)
+      - Release Onion Circuits 0.8 (tails/tails#19963)
+      - Upgrade to tor 0.4.8.7 (tails/tails#19978)
+      - Upgrade to Bullseye 11.8 (tails/tails#19957)
+
+    Commits:
+      - Add comment
+      - onion-grater: allow OnionCircuits to close arbitrary circuits
+      - Install OnionCircuits from sid (currently 0.8)
+      - Upgrade to tor 0.4.8.7
+      - Upgrade to Bullseye 11.8
+
+  * post-5.18  release improvements (tails/tails!1254)
+
+    Commits:
+      - Apply 3 suggestion(s) to 2 file(s)
+      - plan next RM shift
+      - link URLs
+      - locale-independent output for date
+      - tests can be selected passing arguments
+      - announce-and-seed-torrents a bit more idempotent
+      - set -eu is nicer
+      - clarify what to do in case of "no"
+      - better merge-main-branch question
+      - some tips on configuring automailer
+      - some info on how to configure automailer
+      - thunderbird command can be customized
+
+  * Install sq-keyring-linter (tails/tails!1248)
+
+    Closes issues:
+      - Add sq-keyring-linter to Tails images (tails/tails#19970)
+
+    Commits:
+      - Install sq-keyring-linter
+
+  * fix deprecation warning (tails/tails!1140)
+
+    Closes issues:
+      - date GNOME Shell extension uses deprecated JavaScript (tails/tails#19021)
+
+    Commits:
+      - usage of object.actor is deprecated
+      - fix deprecation warning
+
+ -- Tails developers <tails@boum.org>  Sun, 29 Oct 2023 19:39:04 +0000
 
 tails (5.18) unstable; urgency=medium
 
