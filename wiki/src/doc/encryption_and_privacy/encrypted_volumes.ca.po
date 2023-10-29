@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-18 15:26+0000\n"
+"PO-Revision-Date: 2023-10-22 18:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -88,12 +88,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/encryption_and_privacy/luks_vs_veracrypt.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/encryption_and_privacy/luks_vs_veracrypt.inline.ca\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/encryption_and_privacy/luks_vs_veracrypt.inline.ca\" "
+"raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"creating\">Creating an encrypted partition</h1>\n"
-msgstr "<h2 class=\"bullet-number-three\">Erstellen Sie eine neue, verschlüsselte Partition</h2>\n"
+msgstr "<h1 id=\"creating\">Creació d'una partició encriptada</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -102,9 +104,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"identifying\">Identifying your external storage device</h2>\n"
-msgstr "<h2 class=\"bullet-number-one\">Identifizieren Sie das externe Speichermedium</h2>\n"
+msgstr ""
+"<h2 id=\"identifying\">Identificació del dispositiu d'emmagatzematge "
+"extern</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -134,9 +138,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"formatting\">Formatting the device</h2>\n"
-msgstr "<h2 class=\"bullet-number-two\">Formatieren Sie das Medium</h2>\n"
+msgstr "<h2 id=\"formatting\">Formatar el dispositiu</h2>\n"
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -174,9 +178,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"partition\">Creating a new encrypted partition</h2>\n"
-msgstr "<h2 class=\"bullet-number-three\">Erstellen Sie eine neue, verschlüsselte Partition</h2>\n"
+msgstr "<h2 id=\"partition\">Creació d'una partició encriptada nova</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -266,9 +270,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "         <div class=\"tip\">\n"
-msgstr "<div class=\"tip\">\n"
+msgstr "         <div class=\"tip\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -279,9 +283,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "         </div>\n"
-msgstr "</div>\n"
+msgstr "         </div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -324,9 +328,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"using\">Using the new partition</h2>\n"
-msgstr "<h2 class=\"bullet-number-four\">Benutzen Sie die neue Partition</h2>\n"
+msgstr "<h2 id=\"using\">Ús de la nova partició</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -342,9 +346,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"opening\">Opening an existing encrypted partition</h1>\n"
-msgstr "Öffnen Sie eine bestehende, verschlüsselte Partition\n"
+msgstr "<h1 id=\"opening\">Obrir una partició encriptada existent</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -392,9 +396,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"storing\">Storing sensitive documents</h1>\n"
-msgstr "Sensible Dokumente speichern\n"
+msgstr "<h1 id=\"storing\">Emmagatzematge de documents sensibles</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -404,9 +408,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"os\">Opening encrypted volumes from other operating systems</h1>\n"
-msgstr "Öffnen verschlüsselter Laufwerke auf anderen Betriebssystemen\n"
+msgstr ""
+"<h1 id=\"os\">Obrir volums encriptats des d'altres sistemes operatius</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -422,9 +427,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"changing\">Changing the passphrase of an existing encrypted partition</h1>\n"
-msgstr "Öffnen Sie eine bestehende, verschlüsselte Partition\n"
+msgstr ""
+"<h1 id=\"changing\">Canvi de la contrasenya d'una partició encriptada "
+"existent</h1>\n"
 
 #. type: Plain text
 #, no-wrap
