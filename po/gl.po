@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-07-21 16:06+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-10-04 14:10+0000\n"
+"Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/tor/tails-gui/"
 "gl/>\n"
 "Language: gl\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -146,7 +146,7 @@ msgstr "{beginning} e {last}"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:166
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:38
 msgid "The check for upgrades of your additional software failed"
@@ -1153,7 +1153,7 @@ msgid ""
 msgstr ""
 "A unidade USB «%(pretty_name)s» está configurada como non retirábel polo "
 "fabricante e Tails non poderá arrancar desde ela. Ténteo instalando noutro "
-"modelo diferente. "
+"modelo diferente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:541
 #, python-format
@@ -1325,7 +1325,7 @@ msgstr "Manter o nome actual"
 
 #: config/chroot_local-includes/usr/local/bin/replace-su-with-sudo:19
 msgid "su is disabled. Please use sudo instead."
-msgstr "su está desactivado. Utilice sudo no seu lugar. "
+msgstr "su está desactivado. Utilice sudo no seu lugar."
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:221
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:77
