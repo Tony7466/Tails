@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-06-09 07:47+0200\n"
+"POT-Creation-Date: 2023-10-27 09:15+0000\n"
 "PO-Revision-Date: 2023-07-03 22:33+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,17 +19,18 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Content of: <div>
-msgid "[[!meta title=\"Welcome to Tails!\"]]"
+msgid "[[!meta title=\"Dear Tails user,\"]]"
 msgstr ""
 
-#. [[!inline pages="home/year-end.inline" raw="yes" sort="age"]]
+#. [[!inline pages="home/donate.inline" raw="yes" sort="age"]]
 #. type: Content of: outside any tag (error?)
+#, fuzzy
 msgid ""
 "[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-"robots=\"noindex\"]] [[!meta script=\"home\"]] [[!inline pages=\"home/donate."
-"inline\" raw=\"yes\" sort=\"age\"]]"
+"robots=\"noindex\"]] [[!meta script=\"home\"]] [[!inline pages=\"home/year-"
+"end.inline\" raw=\"yes\" sort=\"age\"]]"
 msgstr ""
 "[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "

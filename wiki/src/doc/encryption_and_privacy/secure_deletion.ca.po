@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-18 15:26+0000\n"
+"PO-Revision-Date: 2023-10-22 18:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -29,9 +29,9 @@ msgid "[[!toc levels=1]]\n"
 msgstr "[[!toc levels=1]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"why\">Why use secure deletion?</h1>\n"
-msgstr "Warum sicheres Löschen verwenden?\n"
+msgstr "<h1 id=\"why\">Per què utilitzar la supressió segura?</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -133,9 +133,9 @@ msgid "- Physically destroy the device."
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"files\">Securely deleting files</h1>\n"
-msgstr "Dateien sicher löschen\n"
+msgstr "<h1 id=\"files\">Suprimir fitxers de manera segura</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -175,9 +175,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"disk_space\">Securely cleaning available disk space</h1>\n"
-msgstr "Sicheres Löschen von verfügbarem Speicherplatz\n"
+msgstr ""
+"<h1 id=\"disk_space\">Neteja segura de l'espai disponible en disc</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -233,9 +234,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"device\">Securely erasing an entire device</h1>\n"
-msgstr "Sicheres Löschen von verfügbarem Speicherplatz\n"
+msgstr "<h1 id=\"device\">Esborrar de manera segura un dispositiu sencer</h1>\n"
 
 #. type: Bullet: '1. '
 msgid "Open the <span class=\"application\">Disks</span> utility."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-10-18 13:26+0000\n"
+"PO-Revision-Date: 2023-10-22 12:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -102,6 +102,8 @@ msgid ""
 "For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
 "\"]]."
 msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"llistat de canvis\"]]."
 
 #. type: Plain text
 #, no-wrap
@@ -126,7 +128,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Get Tails 4.9"
-msgstr ""
+msgstr "Obtenir Tails 4.9"
 
 #. type: Title ##
 #, no-wrap
@@ -184,11 +186,11 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
 
 #. type: Title #
 #, no-wrap
