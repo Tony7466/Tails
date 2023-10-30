@@ -38,9 +38,9 @@ class ValidLocales:
         ret = {}
         for row in dom.find_all('tr'):
             locale = row.select('td:first-child > a')[0].string
-            language = row.select('td:nth-child(2)')[0].string
-            country = row.select('td:nth-child(3)')[0].string
-            ret[locale] = (language, country)
+            language = row.select('td:nth-child(2)')[0].string.strip('— ')
+            country = row.select('td:nth-child(3)')[0].string or ''
+            ret[locale] = (language, country.title())
         return ret
 
 class LocaleDescriptions:
@@ -80,7 +80,8 @@ class LocaleDescriptions:
         for lang in sorted(self.languages_not_found):
             locales = valid_locales.languages[lang]
             if len(locales) == 1:
-                suggested_add += (f'{lang}="{locales[0]}"\n')
+                details = ', '.join(valid_locales.locales[locales[0]])
+                suggested_add += (f'{lang}="{locales[0]}"   # {details}\n')
         return suggested_add
 
 
