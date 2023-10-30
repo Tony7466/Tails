@@ -2,8 +2,16 @@
 
 import sys
 from pathlib import Path
-import toml
 import re
+from collections import defaultdict
+
+import toml
+import requests
+
+try:
+    from BeautifulSoup import BeautifulSoup
+except ImportError:
+    from bs4 import BeautifulSoup
 
 ERRORS = 0
 LANGUAGE_RE = re.compile(r'^"Language:\s+(.*)\\n"$')
@@ -18,9 +26,27 @@ def get_language(pofile: Path) -> str:
     raise ValueError(f"Could not extract language from file {pofile}")
 
 
+class ValidLocales:
+    def __init__(self):
+        self.locales = self.parse_table(requests.get('https://lh.2xlibre.net/locales/').text)
+        self.languages = defaultdict(list)
+        for locale in self.locales:
+            self.languages[locale.split('_')[0]].append(locale)
+
+    def parse_table(self, body):
+        dom = BeautifulSoup(body, features='lxml')
+        ret = {}
+        for row in dom.find_all('tr'):
+            locale = row.select('td:first-child > a')[0].string
+            language = row.select('td:nth-child(2)')[0].string
+            country = row.select('td:nth-child(3)')[0].string
+            ret[locale] = (language, country)
+        return ret
+
 class LocaleDescriptions:
     def __init__(self):
         self.n_errors = 0
+        self.languages_not_found = set()
         self.po_to_mozilla = toml.load(open(MAPFILE))
 
     def get_all_mozlocales(self):
@@ -44,13 +70,30 @@ class LocaleDescriptions:
                     file=sys.stderr,
                 )
                 self.n_errors += 1
+                self.languages_not_found.add(moz_locale)
+
+    def get_suggestions(self):
+        if not self.languages_not_found:
+            return
+        valid_locales = ValidLocales()
+        suggested_add = ""
+        for lang in sorted(self.languages_not_found):
+            locales = valid_locales.languages[lang]
+            if len(locales) == 1:
+                suggested_add += (f'{lang}="{locales[0]}"\n')
+        return suggested_add
 
 
 def main():
     helper = LocaleDescriptions()
     for out in sorted(helper.get_all_mozlocales()):
         print(out)
-    sys.exit(0 if not helper.n_errors else 1)
+    if helper.n_errors:
+        suggestion = helper.get_suggestions()
+        print("You might want to add this block, but please verify it first!", file=sys.stderr)
+        print(suggestion, file=sys.stderr)
+        sys.exit(1)
+    sys.exit(0)
 
 
 if __name__ == "__main__":
