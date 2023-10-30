@@ -1565,12 +1565,13 @@ export VERSION ISOS PREVIOUS_STABLE_VERSION
 Public testing
 ==============
 
+## If you're publishing a RC
+
 1. Using [[!tails_gitlab desc="`check-mirrors`" tails/check-mirrors]],
    choose a fast mirror that already has the
    tentative ISO and USB images. E.g. <https://mirrors.edge.kernel.org/tails/> or
    <https://mirrors.wikimedia.org/tails/> are reliable and have plenty
    of bandwidth:
-
         
         (
             success=false
@@ -1590,13 +1591,11 @@ Public testing
             done
         )
 
-## If you're publishing a RC
+2. Emailed <tails-testers@boum.org> to ask them to test the tentative images:
 
-Email <tails-testers@boum.org> to ask them to test the tentative images:
-
- - Point them to the up-to-date mirror you've found previously.
- - This is a public list, don't point to the pad.
- - Make a deadline clear: until when is feedback useful?
+   - Point them to the up-to-date mirror you've found previously.
+   - This is a public list, don't point to the pad.
+   - Make a deadline clear: until when is feedback useful?
 
 ```sh
 [ "${DIST:?}" = alpha ] && ./bin/automailer.py <<EOF
