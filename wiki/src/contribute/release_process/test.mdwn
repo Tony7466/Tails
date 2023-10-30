@@ -140,6 +140,7 @@ Only perform this test if one of these conditions is met:
 To check that the EHLO/HELO SMTP message is not leaking anything
 at the application level:
 
+0. In the Welcome Screen, set an administration password.
 1. Start Thunderbird using the GNOME Applications menu.
 2. Configure the outgoing SMTP server for an email account
    so it uses STARTTLS on port 587
