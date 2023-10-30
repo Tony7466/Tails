@@ -4,6 +4,7 @@ import sys
 from pathlib import Path
 import re
 from collections import defaultdict
+from argparse import ArgumentParser
 
 import toml
 import requests
@@ -88,19 +89,42 @@ class LocaleDescriptions:
         return suggested_add
 
 
+def get_parser():
+    p = ArgumentParser()
+    p.set_defaults(mode='')
+    sub = p.add_subparsers()
+    generate = sub.add_parser('generate')
+    generate.set_defaults(mode='generate')
+    suggest = sub.add_parser('suggest')
+    suggest.set_defaults(mode='suggest')
+
+    return p
+
+
 def main():
+    parser = get_parser()
+    args = parser.parse_args()
     helper = LocaleDescriptions()
-    for out in sorted(helper.get_all_mozlocales()):
-        print(out)
-    if helper.n_errors:
-        suggestion = helper.get_suggestions()
-        print(
-            "You might want to add this block, but please verify it first!",
-            file=sys.stderr,
-        )
-        print(suggestion, file=sys.stderr)
-        sys.exit(1)
-    sys.exit(0)
+
+    if args.mode == '':
+        print(parser.error("You need to specify a subcommand"))
+
+    mozlocales = list(sorted(helper.get_all_mozlocales()))
+    if args.mode == 'generate':
+        for out in mozlocales:
+            print(out)
+        sys.exit(0)
+
+    elif args.mode == 'suggest':
+        if helper.n_errors:
+            suggestion = helper.get_suggestions()
+            if suggestion:
+                print(
+                    "You might want to add this block, but please verify it first!",
+                    file=sys.stderr,
+                )
+                print(suggestion, file=sys.stderr)
+        sys.exit(0)
 
 
 if __name__ == "__main__":
