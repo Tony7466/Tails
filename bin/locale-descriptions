@@ -15,7 +15,7 @@ except ImportError:
 
 ERRORS = 0
 LANGUAGE_RE = re.compile(r'^"Language:\s+(.*)\\n"$')
-MAPFILE="po/po-to-mozilla.toml"
+MAPFILE = "po/po-to-mozilla.toml"
 
 
 def get_language(pofile: Path) -> str:
@@ -28,20 +28,23 @@ def get_language(pofile: Path) -> str:
 
 class ValidLocales:
     def __init__(self):
-        self.locales = self.parse_table(requests.get('https://lh.2xlibre.net/locales/').text)
+        self.locales = self.parse_table(
+            requests.get("https://lh.2xlibre.net/locales/").text
+        )
         self.languages = defaultdict(list)
         for locale in self.locales:
-            self.languages[locale.split('_')[0]].append(locale)
+            self.languages[locale.split("_")[0]].append(locale)
 
     def parse_table(self, body):
-        dom = BeautifulSoup(body, features='lxml')
+        dom = BeautifulSoup(body, features="lxml")
         ret = {}
-        for row in dom.find_all('tr'):
-            locale = row.select('td:first-child > a')[0].string
-            language = row.select('td:nth-child(2)')[0].string.strip('— ')
-            country = row.select('td:nth-child(3)')[0].string or ''
+        for row in dom.find_all("tr"):
+            locale = row.select("td:first-child > a")[0].string
+            language = row.select("td:nth-child(2)")[0].string.strip("— ")
+            country = row.select("td:nth-child(3)")[0].string or ""
             ret[locale] = (language, country.title())
         return ret
+
 
 class LocaleDescriptions:
     def __init__(self):
@@ -50,7 +53,7 @@ class LocaleDescriptions:
         self.po_to_mozilla = toml.load(open(MAPFILE))
 
     def get_all_mozlocales(self):
-        yield from self.po_to_mozilla.get('extra', {}).get('extra_languages', [])
+        yield from self.po_to_mozilla.get("extra", {}).get("extra_languages", [])
         for po in sorted(Path("po/").glob("*.po")):
             moz_locale = get_language(po)
 
@@ -80,8 +83,8 @@ class LocaleDescriptions:
         for lang in sorted(self.languages_not_found):
             locales = valid_locales.languages[lang]
             if len(locales) == 1:
-                details = ', '.join(valid_locales.locales[locales[0]])
-                suggested_add += (f'{lang}="{locales[0]}"   # {details}\n')
+                details = ", ".join(valid_locales.locales[locales[0]])
+                suggested_add += f'{lang}="{locales[0]}"   # {details}\n'
         return suggested_add
 
 
@@ -91,7 +94,10 @@ def main():
         print(out)
     if helper.n_errors:
         suggestion = helper.get_suggestions()
-        print("You might want to add this block, but please verify it first!", file=sys.stderr)
+        print(
+            "You might want to add this block, but please verify it first!",
+            file=sys.stderr,
+        )
         print(suggestion, file=sys.stderr)
         sys.exit(1)
     sys.exit(0)
