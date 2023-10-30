@@ -1179,7 +1179,7 @@ The download step takes a few minutes.
 
 If this verification succeeds, good!
 
-Otherwise, see the next sections
+Otherwise, see the next sections.
 
 ### If it fails with `urllib.error.HTTPError: HTTP Error 404: Not Found`
 
