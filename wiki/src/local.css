@@ -206,8 +206,8 @@ div#feedlink {
 .toc {
   border-top: thin solid var(--dark-gray);
   border-left: thin solid var(--dark-gray);
-  border-bottom: thin dotted var(--background-gray);
-  border-right: thin dotted var(--background-gray);
+  border-bottom: thin dotted var(--medium-dark-gray);
+  border-right: thin dotted var(--medium-dark-gray);
   float: none;
   margin: 1em 0;
   max-width: 45em;
