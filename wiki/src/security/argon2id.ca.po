@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-21 18:26+0000\n"
+"PO-Revision-Date: 2023-10-30 16:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -837,20 +837,24 @@ msgid ""
 "When starting Tails, [[set up an administration password|doc/first_steps/"
 "welcome_screen/administration_password/]]."
 msgstr ""
+"Quan inicieu Tails, [[configureu una contrasenya d'administració|doc/"
+"first_steps/welcome_screen/administration_password/]]."
 
 #. type: Bullet: '   1. '
 msgid ""
 "Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Root Terminal**."
 msgstr ""
+"Trieu **Aplicacions**&nbsp;▸ **Eines del sistema**&nbsp;▸ **Terminal "
+"d'administrador**."
 
 #. type: Bullet: '   1. '
 msgid "Execute the following command:"
-msgstr ""
+msgstr "Executeu l'ordre següent:"
 
 #. type: Plain text
 #, no-wrap
 msgid "          lsblk\n"
-msgstr ""
+msgstr "          lsblk\n"
 
 #. type: Plain text
 #, no-wrap
@@ -858,6 +862,9 @@ msgid ""
 "      The output is a list of the storage devices and partitions on the system.\n"
 "      For example:\n"
 msgstr ""
+"      La sortida és una llista dels dispositius d'emmagatzematge i "
+"particions del sistema.\n"
+"      Per exemple:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -870,6 +877,16 @@ msgid ""
 "            └─TailsData_unlocked 253:0    0    3G  0 crypt /run/nosymfollow/live/persistence/TailsData_un...\n"
 "          zram0                  254:0    0  2.8G  0 disk  [SWAP]\n"
 msgstr ""
+"          NAME                   MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT\n"
+"          loop0                    7:0    0  1.2G  1 loop  /lib/live/mount/"
+"rootfs/filesystem.squashfs\n"
+"          sda                      8:0    1    7G  0 disk\n"
+"          ├─sda1                   8:1    1    4G  0 part  /lib/live/mount/"
+"medium\n"
+"          └─sda2                   8:2    1    3G  0 part\n"
+"            └─TailsData_unlocked 253:0    0    3G  0 crypt /run/nosymfollow/"
+"live/persistence/TailsData_un...\n"
+"          zram0                  254:0    0  2.8G  0 disk  [SWAP]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -888,6 +905,8 @@ msgid ""
 "To verify whether your encrypted volume uses PBKDF2 or Argon2id, execute the "
 "following command."
 msgstr ""
+"Per verificar si el vostre volum encriptat utilitza PBKDF2 o Argon2id, "
+"executeu l'ordre següent."
 
 #. type: Plain text
 #, no-wrap
@@ -904,13 +923,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "      In the output:\n"
-msgstr ""
+msgstr "      A la sortida:\n"
 
 #. type: Bullet: '      - '
 msgid ""
 "<span class=\"command\">Version</span> indicates the version of LUKS, either "
 "<span class=\"command\">1</span> or <span class=\"command\">2</span>."
 msgstr ""
+"<span class=\"command\">Version</span> indica la versió de LUKS, ja sigui "
+"<span class=\"command\">1</span> o <span class=\"command\">2</span>."
 
 #. type: Bullet: '      - '
 msgid ""
@@ -918,6 +939,9 @@ msgid ""
 "either <span class=\"command\">pbkdf2</span> or <span class=\"command"
 "\">argon2id</span>."
 msgstr ""
+"<span class=\"command\">PBKDF</span> indica la funció de derivació de clau, "
+"ja sigui <span class=\"command\">pbkdf2</span> o <span class=\"command\""
+">argon2id</span>."
 
 #. type: Title ###
 #, no-wrap

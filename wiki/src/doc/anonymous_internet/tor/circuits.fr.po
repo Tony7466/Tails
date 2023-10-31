@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2021-09-07 14:15+0200\n"
+"POT-Creation-Date: 2023-10-31 09:58+0100\n"
 "PO-Revision-Date: 2021-10-09 12:06+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
@@ -19,8 +19,9 @@ msgstr ""
 "X-Generator: Weblate 3.11.3\n"
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!meta title=\"Viewing the circuits of Tor\"]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!meta title=\"Viewing the circuits of Tor\"]]\n"
+msgid "[[!meta title=\"Managing the circuits of Tor\"]]\n"
 msgstr "[[!meta title=\"Voir les circuits de Tor\"]]\n"
 
 #. type: Plain text
@@ -35,13 +36,23 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"To open <span class=\"application\">Onion Circuits</span>, click on the\n"
-"Tor status icon in the top-right corner and choose <span class=\"guimenuitem\">Open Onion\n"
-"Circuits</span>.\n"
+"To open **Onion Circuits**, click on the\n"
+"Tor status icon ([[!img lib/symbolic/tor-disconnected.png alt=\"Tor status menu\" link=\"no\" class=\"symbolic\"]]\n"
+"or [[!img lib/symbolic/tor-connected.png alt=\"Tor status menu\" link=\"no\"\n"
+"class=\"symbolic\"]]) in the top-right corner and choose **Open Onion\n"
+"Circuits**.\n"
 msgstr ""
-"Pour ouvrir <span class=\"application\">Circuits oignon</span>, cliquez sur\n"
-"l'icône de statut de Tor dans le coin supérieur droit puis sur <span class=\"guimenuitem\">Ouvrir \n"
-"Circuits oignon</span>.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"view\">Understanding Tor circuits</h1>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If Tails is already [[connected to the Tor network|doc/anonymous_internet/"
+"tor]], a list of Tor circuits appears in the left pane of *Onion Circuits*."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -53,35 +64,6 @@ msgstr ""
 "<!-- Note for translators: the entry guard in use when you take the screenshot\n"
 "onion-circuits.png is in a position to identify you. You might prefer to leave it\n"
 "untranslated.-->\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!img onion-circuits.png link=no]]\n"
-msgstr "[[!img onion-circuits.png link=no]]\n"
-
-#. type: Plain text
-msgid ""
-"The circuits established by Tor are listed in the left pane. A Tor circuit "
-"is made of three relays:"
-msgstr ""
-"Les circuits établis par Tor sont listés dans le panneau de gauche. Un "
-"circuit Tor est constitué de trois relais :"
-
-#. type: Bullet: '  - '
-msgid ""
-"The first relay or *entry guard*. If you configured Tor bridges, one of your "
-"bridges is the first relay."
-msgstr ""
-"Un premier relais ou *garde d'entrée* (« entry guard »). Si vous avez "
-"configuré des ponts Tor, un de ces ponts est votre premier relais."
-
-#. type: Bullet: '  - '
-msgid "The second relay or *middle node*."
-msgstr "Un second relais ou *nœud du milieu*."
-
-#. type: Bullet: '  - '
-msgid "The exit node."
-msgstr "Un nœud de sortie."
 
 #. type: Plain text
 msgid ""
@@ -93,35 +75,140 @@ msgstr ""
 "qu'elle emprunte."
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "If you click on a circuit, technical details about the relays of the "
+#| "circuit appear in the right pane."
 msgid ""
-"In the example above, the connection to\n"
-"<span class=\"code\">check.torproject.org</span> goes through the relays\n"
-"<span class=\"guilabel\">tor7kryptonit</span>,\n"
-"<span class=\"guilabel\">Casper03</span>, and the exit node\n"
-"<span class=\"guilabel\">blackfish</span>.\n"
-msgstr ""
-"Dans l'exemple ci-dessous, la connexion vers\n"
-"<span class=\"code\">check.torproject.org</span> passe par les relais\n"
-"<span class=\"guilabel\">tor7kryptonit</span>,\n"
-"<span class=\"guilabel\">Casper03</span>, et le nœud de sortie\n"
-"<span class=\"guilabel\">blackfish</span>.\n"
-
-#. type: Plain text
-msgid ""
-"If you click on a circuit, technical details about the relays of the circuit "
-"appear in the right pane."
+"Click on a circuit to display the technical details about each relay in the "
+"right pane."
 msgstr ""
 "Si vous cliquez sur un circuit, des informations techniques à propos des "
 "relais le composant apparaissent dans le panneau de droite."
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img doc/anonymous_internet/tor/tor.svg link=\"no\" alt=\"Schematics of a connection to Tor with the client, the 3 relays, and the destination server.\"]]\n"
+msgid "[[!img onion-circuits.png link=no]]\n"
+msgstr "[[!img onion-circuits.png link=no]]\n"
+
+#. type: Plain text
+msgid ""
+"Each Tor circuit is made of 3 Tor relays. In the example above, the "
+"connection to **tails.net** goes through the 3 relays **drk**, **kicka**, "
+"and **Quetzalcoatl**."
 msgstr ""
-"[[!img doc/anonymous_internet/tor/tor.svg link=\"no\" alt=\"Schéma d'une "
-"connexion vers Tor montrant le client, les trois relais, et le serveur de "
-"destination.\"]]\n"
+
+#. type: Bullet: '1. '
+msgid "The first relay, here **drk**, is called the *entry guard*."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "The first relay or *entry guard*. If you configured Tor bridges, one of your bridges is the first relay."
+msgid "   If you configured a Tor bridge, your bridge is your entry guard.\n"
+msgstr "Un premier relais ou *garde d'entrée* (« entry guard »). Si vous avez configuré des ponts Tor, un de ces ponts est votre premier relais."
+
+#. type: Bullet: '2. '
+#, fuzzy
+#| msgid "The second relay or *middle node*."
+msgid "The second relay, here **kicka**, is called the *middle relay*."
+msgstr "Un second relais ou *nœud du milieu*."
+
+#. type: Bullet: '3. '
+msgid "The third relay, here **Quetzalcoatl**, is called the *exit node*."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img doc/anonymous_internet/tor/tor.svg link=\"no\" alt=\"Schematics of a connection to Tor with the client, the 3 relays, and the destination server.\"]]\n"
+msgstr "[[!img doc/anonymous_internet/tor/tor.svg link=\"no\" alt=\"Schéma d'une connexion vers Tor montrant le client, les trois relais, et le serveur de destination.\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"change\">Closing and replacing a Tor circuit</h1>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can close a given Tor circuit to help replace a particularly slow Tor "
+"circuit or troubleshoot issues on the Tor network. To do so:"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid ""
+"Right-click (on Mac, click with two fingers) on the circuit that you want to "
+"close."
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid "Choose **Close this circuit** in the shortcut menu."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   When you close a circuit that is being used by an application, your\n"
+"   application gets disconnected from this destination service.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   For example, when you close a circuit while <i>Tor Browser</i> is\n"
+"   downloading a file, the download fails.\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "When you connect to a destination server, for example, when visiting a "
+#| "website, the connection appears in the list below the circuit it uses."
+msgid ""
+"If you connect to the same destination server again, Tor uses a different "
+"circuit to replace the circuit that you closed."
+msgstr ""
+"Lorsque vous vous connectez à un serveur de destination, par exemple en "
+"visitant un site web, la connexion apparaît dans la liste sous le circuit "
+"qu'elle emprunte."
+
+#. type: Plain text
+#, no-wrap
+msgid "   For example, if you download the same file again, Tor uses a new circuit.\n"
+msgstr ""
+
+#, no-wrap
+#~ msgid ""
+#~ "To open <span class=\"application\">Onion Circuits</span>, click on the\n"
+#~ "Tor status icon in the top-right corner and choose <span class=\"guimenuitem\">Open Onion\n"
+#~ "Circuits</span>.\n"
+#~ msgstr ""
+#~ "Pour ouvrir <span class=\"application\">Circuits oignon</span>, cliquez sur\n"
+#~ "l'icône de statut de Tor dans le coin supérieur droit puis sur <span class=\"guimenuitem\">Ouvrir \n"
+#~ "Circuits oignon</span>.\n"
+
+#~ msgid ""
+#~ "The circuits established by Tor are listed in the left pane. A Tor "
+#~ "circuit is made of three relays:"
+#~ msgstr ""
+#~ "Les circuits établis par Tor sont listés dans le panneau de gauche. Un "
+#~ "circuit Tor est constitué de trois relais :"
+
+#~ msgid "The exit node."
+#~ msgstr "Un nœud de sortie."
+
+#, no-wrap
+#~ msgid ""
+#~ "In the example above, the connection to\n"
+#~ "<span class=\"code\">check.torproject.org</span> goes through the relays\n"
+#~ "<span class=\"guilabel\">tor7kryptonit</span>,\n"
+#~ "<span class=\"guilabel\">Casper03</span>, and the exit node\n"
+#~ "<span class=\"guilabel\">blackfish</span>.\n"
+#~ msgstr ""
+#~ "Dans l'exemple ci-dessous, la connexion vers\n"
+#~ "<span class=\"code\">check.torproject.org</span> passe par les relais\n"
+#~ "<span class=\"guilabel\">tor7kryptonit</span>,\n"
+#~ "<span class=\"guilabel\">Casper03</span>, et le nœud de sortie\n"
+#~ "<span class=\"guilabel\">blackfish</span>.\n"
 
 #, no-wrap
 #~ msgid ""
@@ -235,15 +322,9 @@ msgstr ""
 #~ msgstr "[[!meta title=\"Contrôler Tor grâce à Vidalia\"]]\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "[[!img first_steps/desktop/tor-on."
-#~| "png link=no]]\n"
-#~ msgid ""
-#~ "[[!img doc/first_steps/desktop/"
-#~ "vidalia.png link=\"no\"]]\n"
-#~ msgstr ""
-#~ "[[!img first_steps/desktop/tor-on.png "
-#~ "link=no]]\n"
+#~| msgid "[[!img first_steps/desktop/tor-on.png link=no]]\n"
+#~ msgid "[[!img doc/first_steps/desktop/vidalia.png link=\"no\"]]\n"
+#~ msgstr "[[!img first_steps/desktop/tor-on.png link=no]]\n"
 
 #, fuzzy
 #~| msgid ""
@@ -280,8 +361,8 @@ msgstr ""
 #~ msgstr ""
 #~ "L'icône d'oignon de <span class=\"application\">Vidalia</span> reste "
 #~ "quelquefois jaune\n"
-#~ "même si Tor est déjà démarré. Si la notification <span class=\"guilabel"
-#~ "\">Tor est\n"
+#~ "même si Tor est déjà démarré. Si la notification <span "
+#~ "class=\"guilabel\">Tor est\n"
 #~ "prêt</span> apparaît ou si vous pouvez naviguer sur Internet en utilisant "
 #~ "le\n"
 #~ "<span class=\"application\">Navigateur Tor</span>, alors Tor est "
@@ -308,8 +389,8 @@ msgstr ""
 #~ "right-click\n"
 #~ "on the onion icon to open its popup menu:\n"
 #~ msgstr ""
-#~ "Pour accéder à plus de fonctionnalités de <span class=\"application"
-#~ "\">Vidalia</span>, faire\n"
+#~ "Pour accéder à plus de fonctionnalités de <span "
+#~ "class=\"application\">Vidalia</span>, faire\n"
 #~ "clique-droit sur l'icône d'oignon pour ouvrir son menu contextuel :\n"
 
 #~ msgid ""
@@ -344,8 +425,8 @@ msgstr ""
 #~ "    USA, and the relay <span class=\"guilabel\">DFRI3</span> is in "
 #~ "Sweden.\n"
 #~ msgstr ""
-#~ "    Dans l'exemple ci-dessous, le relai <span class=\"guilabel"
-#~ "\">PiratenNDS2</span>\n"
+#~ "    Dans l'exemple ci-dessous, le relai <span "
+#~ "class=\"guilabel\">PiratenNDS2</span>\n"
 #~ "    est en Allemagne, le relai <span class=\"guilabel\">AxleRelay3</span> "
 #~ "est aux\n"
 #~ "    États-Unis, et le relai <span class=\"guilabel\">DFRI3</span> est un "
@@ -406,9 +487,9 @@ msgstr ""
 #~ "It is impossible to edit the <span class=\"filename\">torrc</span> "
 #~ "configuration file using <span class=\"application\">Vidalia</span>."
 #~ msgstr ""
-#~ "Il est impossible d'éditer le fichier de configuration <span class="
-#~ "\"filename\">torrc</span> en utilisant <span class=\"application"
-#~ "\">Vidalia</span>."
+#~ "Il est impossible d'éditer le fichier de configuration <span "
+#~ "class=\"filename\">torrc</span> en utilisant <span "
+#~ "class=\"application\">Vidalia</span>."
 
 #, fuzzy
 #~| msgid ""
@@ -442,12 +523,8 @@ msgstr ""
 #~ msgid "<div class=\"bug\">\n"
 #~ msgstr "<div class=\"bug\">\n"
 
-#~ msgid ""
-#~ "[[!img first_steps/desktop/tor-off."
-#~ "png link=no]]\n"
-#~ msgstr ""
-#~ "[[!img first_steps/desktop/tor-off."
-#~ "png link=no]]\n"
+#~ msgid "[[!img first_steps/desktop/tor-off.png link=no]]\n"
+#~ msgstr "[[!img first_steps/desktop/tor-off.png link=no]]\n"
 
 #~ msgid ""
 #~ "[[As explained on our warning page|about/warning#identities]], this "
@@ -479,12 +556,8 @@ msgstr ""
 #~ "Tor, Vidalia apparaît dans la barre de notification, en haut à droite, "
 #~ "sous l'aspect d'un oignon."
 
-#~ msgid ""
-#~ "[[!img first_steps/desktop/tor-"
-#~ "stopping.png link=no]]\n"
-#~ msgstr ""
-#~ "[[!img first_steps/desktop/tor-"
-#~ "stopping.png link=no]]\n"
+#~ msgid "[[!img first_steps/desktop/tor-stopping.png link=no]]\n"
+#~ msgstr "[[!img first_steps/desktop/tor-stopping.png link=no]]\n"
 
 #~ msgid "Right-clicking this icon displays a configuration menu."
 #~ msgstr "Clic droit sur cette icône fait apparâitre un menu de configuration"

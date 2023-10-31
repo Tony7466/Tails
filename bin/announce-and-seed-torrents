@@ -29,7 +29,7 @@ for type in iso img ; do
         mv \
             "${torrent_dirname:?}" \
             /var/lib/transmission-daemon/downloads/
-        transmission-remote --add ${image_filename:?}.torrent \
+        transmission-remote --add /var/lib/transmission-daemon/downloads/${torrent_dirname}/${image_filename:?}.torrent \
             --find /var/lib/transmission-daemon/downloads/
         transmission-remote --list
     )
