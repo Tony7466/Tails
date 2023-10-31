@@ -2224,7 +2224,7 @@ Check that you are indeed preparing a final release:
           - Monday, XXX: build images, start testing
           - Tuesday, XXX: releasing
 
-         @testers, please let me know how much time you'll have for manual QA 
+         @testers, please let the RM know how much time you'll have for manual QA
          from Monday 17:00 to Tuesday 11:00 (Europe/Berlin)
          EOF
 
