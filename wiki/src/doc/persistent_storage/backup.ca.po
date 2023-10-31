@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 18:11+0000\n"
+"PO-Revision-Date: 2023-10-31 15:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -73,13 +73,15 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Choose **Applications**&nbsp;▸ **Tails Cloner**."
-msgstr ""
+msgstr "Trieu **Aplicacions**&nbsp;▸ **Clonador de Tails**."
 
 #. type: Bullet: '1. '
 msgid ""
 "Turn on the option **Clone the current Persistent Storage** below the option "
 "**Clone the current Tails**."
 msgstr ""
+"Activeu l'opció **Clona l'Emmagatzematge Persistent actual** a sota de "
+"l'opció **Clona el Tails actual**."
 
 #. type: Plain text
 #, no-wrap
@@ -91,32 +93,37 @@ msgid ""
 "Make sure that the new USB stick is selected in the **Target USB stick** "
 "menu."
 msgstr ""
+"Assegureu-vos que el nou llapis USB estigui seleccionat al menú **Llapis USB "
+"objectiu**."
 
 #. type: Bullet: '1. '
 msgid "To start the cloning, click on the **Install** button."
-msgstr ""
+msgstr "Per iniciar la clonació, feu clic al botó **Instal·la**."
 
 #. type: Bullet: '1. '
 msgid ""
 "Enter a passphrase for the Persistent Storage on the new USB stick in the "
 "**Passphrase** text box."
 msgstr ""
+"Introduïu una contrasenya per a l'Emmagatzematge Persistent al nou llapis "
+"USB al quadre de text **Contrasenya**."
 
 #. type: Bullet: '1. '
 msgid "Enter the same passphrase again in the **Confirm** text box."
 msgstr ""
+"Torneu a introduir la mateixa contrasenya al quadre de text **Confirma**."
 
 #. type: Bullet: '1. '
 msgid "Click **Continue**."
-msgstr ""
+msgstr "Feu clic a **Continua**."
 
 #. type: Bullet: '1. '
 msgid "Read the warning message in the confirmation dialog."
-msgstr ""
+msgstr "Llegiu el missatge d'advertència al diàleg de confirmació."
 
 #. type: Bullet: '1. '
 msgid "Click **Delete All Data and Install** to confirm."
-msgstr ""
+msgstr "Feu clic a **Suprimeix totes les dades i instal·la** per confirmar."
 
 #. type: Plain text
 #, no-wrap
