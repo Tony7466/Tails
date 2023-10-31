@@ -37,22 +37,13 @@ end
 
 Then /^I can watch a WebM video over HTTPs$/ do
   test_url = WEBM_VIDEO_URL
-  host = URI(test_url).host
 
   # These tricks are needed because on Jenkins, tails.net
   # resolves to a RFC 1918 address (#10442), which tor would not allow
   # connecting to, and the firewall leak checker would make a fuss
   # out of it.
-  resolver = Resolv::DNS.new
-  rfc1918_ips = resolver.getaddresses(host).select do |addr|
-    # This crude "is it a RFC 1918 IP address?" check is just accurate enough
-    # for our current needs. We'll improve it if/as needed.
-    addr.instance_of?(Resolv::IPv4) && addr.to_s.start_with?('192.168.')
-  end
-  disable_tor_reject_internal_addresses if rfc1918_ips.count.positive?
-  rfc1918_ips.each do |ip|
-    add_extra_allowed_host(ip.to_s, 443)
-  end
+  host = URI(test_url).host
+  allow_connecting_to_possibly_rfc1918_host(host)
 
   recovery_on_failure = proc do
     step 'I close Totem'

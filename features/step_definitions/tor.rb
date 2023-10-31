@@ -1033,3 +1033,16 @@ def disable_tor_reject_internal_addresses
   $vm.execute('systemctl start tor@default.service')
   wait_until_tor_is_working
 end
+
+def allow_connecting_to_possibly_rfc1918_host(host)
+  resolver = Resolv::DNS.new
+  rfc1918_ips = resolver.getaddresses(host).select do |addr|
+    # This crude "is it a RFC 1918 IP address?" check is just accurate enough
+    # for our current needs. We'll improve it if/as needed.
+    addr.instance_of?(Resolv::IPv4) && addr.to_s.start_with?('192.168.')
+  end
+  disable_tor_reject_internal_addresses if rfc1918_ips.count.positive?
+  rfc1918_ips.each do |ip|
+    add_extra_allowed_host(ip.to_s, 443)
+  end
+end
