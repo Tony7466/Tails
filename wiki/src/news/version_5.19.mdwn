@@ -1,5 +1,5 @@
 [[!meta title="Tails 5.19"]]
-[[!meta date="Tue, 30 Oct 2023 12:34:56 +0000"]]
+[[!meta date="Tue, 31 Oct 2023 12:34:56 +0000"]]
 [[!pagetemplate template="news.tmpl"]]
 [[!tag announce]]
 
