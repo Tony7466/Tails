@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-03-13 17:30+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-31 21:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,22 +21,27 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Reporting an error\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Informar d'un error\"]]\n"
 
 #. type: Plain text
 msgid ""
 "In this documentation we use the term *bug* to refer to a software error."
 msgstr ""
+"En aquesta documentació fem servir el terme *bug* per referir-nos a un error "
+"de programació."
 
 #. type: Plain text
 msgid "Reporting bugs is a great way of helping us improve Tails."
 msgstr ""
+"Informar d'errors o bugs és una bona manera d'ajudar-nos a millorar Tails."
 
 #. type: Plain text
 msgid ""
 "Remember that **the more effectively you report a bug**, the more likely we "
 "are to fix it."
 msgstr ""
+"Recordeu que **com més eficaçment informeu d'un error**, més probable és que "
+"puguem solucionar-lo."
 
 #. type: Plain text
 #, no-wrap
@@ -46,26 +51,29 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"already-known\">Check if the bug is already known</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"already-known\">Comproveu si l'error ja és conegut</h1>\n"
 
 #. type: Plain text
 msgid "Have a look at:"
-msgstr ""
+msgstr "Feu una ullada a:"
 
 #. type: Bullet: '  - '
 msgid "the [[list of known issues|support/known_issues]]"
-msgstr ""
+msgstr "la [[llista de problemes coneguts|support/known_issues]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "the [[!tails_gitlab groups/tails/-/milestones desc=\"list of things that "
 "will be fixed or improved in the next release\"]]"
 msgstr ""
+"la [[!tails_gitlab groups/tails/-/milestones desc=\"llista de problemes que "
+"es solucionaran o milloraran en la propera versió\"]]"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"useful-bug-report\">How to write a useful bug report</h1>\n"
 msgstr ""
+"<h1 id=\"useful-bug-report\">Com escriure un informe d'error útil</h1>\n"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -73,35 +81,48 @@ msgid ""
 "reproduce the failure**, so try to reproduce the issue yourself and describe "
 "how you did that."
 msgstr ""
+"El primer objectiu d'un informe d'error és **indicar als desenvolupadors "
+"exactament com reproduir l'error**, així que intenteu reproduir el problema "
+"vosaltres mateixos i descriviu com ho heu fet."
 
 #. type: Bullet: '  - '
 msgid ""
 "If that is not possible, try to **describe what went wrong in detail**.  "
 "Write down the error messages, especially if they have numbers."
 msgstr ""
+"Si això no és possible, intenteu **descriure què ha fallat en detall**. "
+"Anoteu els missatges d'error, sobretot si tenen números."
 
 #. type: Bullet: '  - '
 msgid ""
 "Write **clearly and be precise**. Say what you mean, and make sure it cannot "
 "be misinterpreted."
 msgstr ""
+"Escriviu **clarament i sigueu precís**. Digueu el que penseu i assegureu-vos "
+"que no es pugui malinterpretar."
 
 #. type: Bullet: '  - '
 msgid ""
 "Be ready to provide extra information if the developers need it. If they did "
 "not need it, they would not be asking for it."
 msgstr ""
+"Estigueu preparats per proporcionar informació addicional si els "
+"desenvolupadors ho necessiten. Si no la necessitessin, no la estarien "
+"demanant."
 
 #. type: Plain text
 msgid ""
 "You can also refer to the great [How to Report Bugs Effectively](http://www."
 "chiark.greenend.org.uk/~sgtatham/bugs.html), by Simon Tatham."
 msgstr ""
+"També podeu consultar el gran [Com informar d'errors de manera "
+"efectiva](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html), de Simon "
+"Tatham (en anglès)."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"whisperback\">Use WhisperBack</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"whisperback\">Useu WhisperBack</h1>\n"
 
 #. type: Plain text
 #, no-wrap
