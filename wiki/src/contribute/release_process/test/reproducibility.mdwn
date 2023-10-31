@@ -64,15 +64,15 @@ Set these environment variables accordingly:
 
 2. Build ISO and USB images:
 
-    (
-        set -eux
-        cd "${TAILS_CHECKOUT:?}"
-        git checkout "${TAG:?}"
-        git submodule update --init
-        SOURCE_DATE_EPOCH="$(date --utc --date="$(dpkg-parsechangelog --show-field=Date)" '+%s')"
-        export SOURCE_DATE_EPOCH
-        rake build
-    )
+        (
+            set -eux
+            cd "${TAILS_CHECKOUT:?}"
+            git checkout "${TAG:?}"
+            git submodule update --init
+            SOURCE_DATE_EPOCH="$(date --utc --date="$(dpkg-parsechangelog --show-field=Date)" '+%s')"
+            export SOURCE_DATE_EPOCH
+            rake build
+        )
 
 <!-- ## Build your own IUKs -->
 
