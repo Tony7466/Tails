@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-05-15 17:21+0200\n"
-"PO-Revision-Date: 2023-10-30 16:11+0000\n"
+"PO-Revision-Date: 2023-10-31 15:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -48,11 +48,15 @@ msgid ""
 "Add `curl`, a command line tool to download over HTTPS, FTP, and other "
 "protocols."
 msgstr ""
+"S'ha afegit `curl`, una eina de línia d'ordres per baixar mitjançant HTTPS, "
+"FTP i altres protocols."
 
 #. type: Plain text
 #, no-wrap
 msgid "  `curl` can be useful for online investigations as an alternative to `wget`.\n"
 msgstr ""
+"  `curl` pot ser útil per a investigacions en línia com a alternativa a "
+"`wget`.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -71,6 +75,9 @@ msgid ""
 "Use LUKS2 by default for all new Persistent Storage and LUKS encrypted "
 "volumes. LUKS2 provide stronger cryptography by default."
 msgstr ""
+"S'utilitza LUKS2 de manera predeterminada per a tots els nous volums "
+"d'Emmagatzematge Persistent i encriptats amb LUKS. LUKS2 ofereix una "
+"criptografia més forta per defecte."
 
 #. type: Plain text
 #, no-wrap
@@ -78,17 +85,22 @@ msgid ""
 "  We will provide a migration plan from LUKS1 to LUKS2 for existing Persistent\n"
 "  Storage in Tails 5.14 (early June).\n"
 msgstr ""
+"  Proporcionarem un pla de migració de LUKS1 a LUKS2 per als "
+"Emmagatzematges\n"
+"  Persistents existents a Tails 5.14 (principis de juny).\n"
 
 #. type: Plain text
 msgid ""
 "- Update *Tor Browser* to [12.0.6](https://blog.torproject.org/new-release-"
 "tor-browser-1206)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.0.6](https://blog."
+"torproject.org/new-release-tor-browser-1206)."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -126,6 +138,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.13."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.13."
 
 #. type: Plain text
 #, no-wrap
@@ -195,6 +209,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.13 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.13 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
