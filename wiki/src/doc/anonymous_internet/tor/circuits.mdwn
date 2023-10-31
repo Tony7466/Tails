@@ -1,35 +1,63 @@
-[[!meta title="Viewing the circuits of Tor"]]
+[[!meta title="Managing the circuits of Tor"]]
 
 <span class="application">Onion Circuits</span> displays information about
 the current Tor circuits and connections.
 
-To open <span class="application">Onion Circuits</span>, click on the
-Tor status icon in the top-right corner and choose <span class="guimenuitem">Open Onion
-Circuits</span>.
+To open **Onion Circuits**, click on the
+Tor status icon ([[!img lib/symbolic/tor-disconnected.png alt="Tor status menu" link="no" class="symbolic"]]
+or [[!img lib/symbolic/tor-connected.png alt="Tor status menu" link="no"
+class="symbolic"]]) in the top-right corner and choose **Open Onion
+Circuits**.
+
+[[!toc]]
+
+<h1 id="view">Understanding Tor circuits</h1>
+
+If Tails is already [[connected to the Tor
+network|doc/anonymous_internet/tor]], a list of Tor circuits appears in the
+left pane of *Onion Circuits*.
 
 <!-- Note for translators: the entry guard in use when you take the screenshot
 onion-circuits.png is in a position to identify you. You might prefer to leave it
 untranslated.-->
 
+When you connect to a destination server, for example, when visiting a website,
+the connection appears in the list below the circuit it uses.
+
+Click on a circuit to display the technical details about each relay in the right pane.
+
 [[!img onion-circuits.png link=no]]
 
-The circuits established by Tor are listed in the left pane. A Tor circuit is
-made of three relays:
+Each Tor circuit is made of 3 Tor relays. In the example above, the connection
+to **tails.net** goes through the 3 relays **drk**, **kicka**, and
+**Quetzalcoatl**.
 
-  - The first relay or *entry guard*. If you configured Tor bridges, one of your bridges is the first relay.
-  - The second relay or *middle node*.
-  - The exit node.
+1. The first relay, here **drk**, is called the *entry guard*.
 
-When you connect to
-a destination server, for example, when visiting a website, the connection appears in the list below the circuit
-it uses.
+   If you configured a Tor bridge, your bridge is your entry guard.
 
-In the example above, the connection to
-<span class="code">check.torproject.org</span> goes through the relays
-<span class="guilabel">tor7kryptonit</span>,
-<span class="guilabel">Casper03</span>, and the exit node
-<span class="guilabel">blackfish</span>.
+2. The second relay, here **kicka**, is called the *middle relay*.
 
-If you click on a circuit, technical details about the relays of the circuit appear in the right pane.
+3. The third relay, here **Quetzalcoatl**, is called the *exit node*.
 
 [[!img doc/anonymous_internet/tor/tor.svg link="no" alt="Schematics of a connection to Tor with the client, the 3 relays, and the destination server."]]
+
+<h1 id="change">Closing and replacing a Tor circuit</h1>
+
+You can close a given Tor circuit to help replace a particularly slow Tor
+circuit or troubleshoot issues on the Tor network. To do so:
+
+1. Right-click (on Mac, click with two fingers) on the circuit that you want to close.
+
+1. Choose **Close this circuit** in the shortcut menu.
+
+   When you close a circuit that is being used by an application, your
+   application gets disconnected from this destination service.
+
+   For example, when you close a circuit while <i>Tor Browser</i> is
+   downloading a file, the download fails.
+
+1. If you connect to the same destination server again, Tor uses a different
+   circuit to replace the circuit that you closed.
+
+   For example, if you download the same file again, Tor uses a new circuit.
