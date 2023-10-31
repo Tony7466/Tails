@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-10-31 17:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,12 +21,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Unlocking and using the Persistent Storage\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Desbloqueig i ús de l'Emmagatzematge Persistent\"]]\n"
 
 #. type: Plain text
 msgid ""
 "To unlock your Persistent Storage and use the data that is stored in it:"
 msgstr ""
+"Per desbloquejar el vostre Emmagatzematge Persistent i utilitzar les dades "
+"que hi ha emmagatzemades:"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -34,6 +36,9 @@ msgid ""
 "Screen|first_steps/welcome_screen]], enter your passphrase and click "
 "**Unlock Encryption**."
 msgstr ""
+"Quan inicieu Tails, a la secció **Emmagatzematge Persistent** de la [["
+"Pantalla de Benvinguda|first_steps/welcome_screen]], introduïu la vostra "
+"contrasenya i feu clic a **Desbloqueja l'encriptació**."
 
 #. type: Plain text
 #, no-wrap
@@ -44,13 +49,15 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Start Tails."
-msgstr ""
+msgstr "Inicieu Tails."
 
 #. type: Bullet: '1. '
 msgid ""
 "The data corresponding to each feature of the Persistent Storage that is "
 "turned on is automatically available. For example:"
 msgstr ""
+"Les dades corresponents a cada funció de l'Emmagatzematge Persistent que "
+"està activada estan disponibles automàticament. Per exemple:"
 
 #. type: Bullet: '   - '
 msgid ""
@@ -58,12 +65,18 @@ msgid ""
 "**Places**&nbsp;▸ **Persistent**, if the [[Persistent Folder|"
 "configure#persistent_folder]] feature is turned on."
 msgstr ""
+"Els vostres fitxers personals de la carpeta *Persistent* són accessibles des "
+"de **Llocs**&nbsp;▸ **Persistent**, si la funció [[Carpeta "
+"Persistent|configure#persistent_folder]] està activada."
 
 #. type: Bullet: '   - '
 msgid ""
 "Your persistent bookmarks are available in *Tor Browser*, if the [[Tor "
 "Browser Bookmarks|configure#bookmarks]] feature is turned on."
 msgstr ""
+"Les vostres adreces d'interès persistents estan disponibles al *Navegador "
+"Tor*, si la funció [[Adreces d'Interès del Navegador "
+"Tor|configure#bookmarks]] està activada."
 
 #. type: Bullet: '   - '
 msgid ""
@@ -71,3 +84,6 @@ msgid ""
 "installed when starting Tails, if the [[Additional Software|"
 "configure#additional_software]] feature is turned on."
 msgstr ""
+"Els vostres paquets de [[Programari Addicional|additional_software]] "
+"s'instal·len automàticament en iniciar Tails, si la funció [[Programari "
+"Addicional|configure#additional_software]] està activada."
