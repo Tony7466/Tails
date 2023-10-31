@@ -85,6 +85,7 @@ check-translatable-live-website-urls:
 
 check-locale-descriptions:
   script:
+    - apt-get -qy install python3 python3-requests python3-toml python3-bs4
     - echo 'If this fails, look at https://tails.net/contribute/release_process/update_locale_descriptions/'
     - ./bin/locale-descriptions suggest
 
