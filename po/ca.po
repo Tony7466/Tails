@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-09-26 19:00+0000\n"
+"PO-Revision-Date: 2023-10-21 23:00+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/tor/tails-gui/ca/"
 ">\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.1\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -77,7 +77,7 @@ msgstr "Voleu afegir {packages} al vostre programari addicional?"
 msgid ""
 "To install it automatically from your persistent storage when starting Tails."
 msgstr ""
-"Per instal·lar-lo automàticament des del vostre emmagatzematge persistent en "
+"Per instal·lar-lo automàticament des del vostre Emmagatzematge Persistent en "
 "iniciar Tails."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:45
@@ -112,7 +112,7 @@ msgstr "Crea un Emmagatzematge Persistent"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:86
 msgid "Creating your persistent storage failed."
-msgstr "S'ha produït un error creant l'emmagatzematge persistent."
+msgstr "S'ha produït un error en crear l'Emmagatzematge Persistent."
 
 #. Translators: Don't translate {packages}, it's a placeholder and
 #. will be replaced.
@@ -186,7 +186,8 @@ msgstr "S'ha produït un error en l'actualització del programari addicional"
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:112
 msgid "Installing your additional software from persistent storage..."
 msgstr ""
-"Instal·lant el programari addicional des d'un emmagatzematge persistent..."
+"S'està instal·lant el programari addicional des de l'Emmagatzematge "
+"Persistent..."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:114
 msgid "This can take several minutes."
@@ -198,13 +199,13 @@ msgstr "Ha fallat la instal·lació del programari addicional"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:142
 msgid "Additional software installed successfully"
-msgstr "S'ha instal·lat el programari addicional amb èxit"
+msgstr "S'ha instal·lat el programari addicional correctament"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:646
 msgid "Additional Software"
-msgstr "Programari addicional"
+msgstr "Programari Addicional"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:51
 msgid ""
@@ -212,7 +213,7 @@ msgid ""
 "storage when starting Tails."
 msgstr ""
 "Podeu instal·lar programari addicional automàticament des del vostre "
-"emmagatzematge persistent en iniciar Tails."
+"Emmagatzematge Persistent en iniciar Tails."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:77
 msgid ""
@@ -220,7 +221,7 @@ msgid ""
 "storage when starting Tails."
 msgstr ""
 "El programari següent s'instal·la automàticament des del vostre "
-"emmagatzematge persistent quan s'inicia Tails."
+"Emmagatzematge Persistent quan s'inicia Tails."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:185
@@ -235,7 +236,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:154
 msgid "_Create persistent storage"
-msgstr "_Crea l'emmagatzematge persistent"
+msgstr "_Crea l'Emmagatzematge Persistent"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:94
 msgid ""
@@ -456,11 +457,10 @@ msgstr ""
 "versió"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-#, fuzzy
 msgid "your device was not created using a USB image or Tails Cloner"
 msgstr ""
-"el vostre dispositiu no s'ha creat amb una imatge USB ni amb l'Instal·lador "
-"de Tails"
+"el vostre dispositiu no s'ha creat amb una imatge USB ni amb el Clonador de "
+"Tails"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
 msgid "Tails was started from a DVD or a read-only device"
@@ -648,7 +648,7 @@ msgstr ""
 "\n"
 "La connexió de xarxa es desactivarà en aplicar l'actualització.\n"
 "\n"
-"Deseu el vostre treball i tanqueu totes les altres aplicacions."
+"Deseu el vostre treball i tanqueu totes les aplicacions."
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:757
 msgid "Upgrade successfully downloaded"
@@ -764,7 +764,7 @@ msgstr "Anonimització d'Adreça _MAC"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:249
 msgid "_Offline Mode"
-msgstr "_Mode fora de línia"
+msgstr "Mode _fora de línia"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:258
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:413
@@ -819,7 +819,7 @@ msgstr "L'Emmagatzematge Persistent roman bloquejat"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:160
 msgid ""
 "Do you really want to start Tails without unlocking your Persistent Storage?"
-msgstr "Voleu iniciar Tails sense desbloquejar l'Emmagatzematge persistent?"
+msgstr "Voleu iniciar Tails sense desbloquejar l'Emmagatzematge Persistent?"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:162
 msgid "Start Without Persistent Storage"
@@ -893,7 +893,7 @@ msgstr ""
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:154
 msgid "Start Tails and open the Persistent Storage settings to find out more."
 msgstr ""
-"Inicieu Tails i obriu la configuració d'Emmagatzematge Persistent per "
+"Inicieu Tails i obriu la configuració de l'Emmagatzematge Persistent per "
 "obtenir més informació."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:190
@@ -1129,9 +1129,8 @@ msgstr "L'instal·lació de Tails ha fallat!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-#, fuzzy
 msgid "Tails Cloner"
-msgstr "Instal·lador de Tails"
+msgstr "Clonador de Tails"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
@@ -1186,7 +1185,7 @@ msgstr ""
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
 msgid "Clone the current Persistent Storage"
-msgstr "Clona Emmagatzematge Persistent actual"
+msgstr "Clona l'Emmagatzematge Persistent actual"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:493
 msgid ""
@@ -1508,10 +1507,10 @@ msgid ""
 "some software using <a href=\"synaptic.desktop\">Synaptic Package Manager</"
 "a> or <a href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
 msgstr ""
-"Per fer-ho, desbloquegeu l'emmagatzematge persistent en iniciar Tails i "
-"instal·leu algun programari utilitzant <a href=\"synaptic.desktop\">el "
-"Gestor de Paquets Synaptic</a> o <a href=\"org.gnome.Terminal.desktop\">APT "
-"a la línia d'ordres</a>."
+"Per fer-ho, desbloquegeu l'Emmagatzematge Persistent en iniciar Tails i "
+"instal·leu algun programari utilitzant el<a href=\"synaptic.desktop\">Gestor "
+"de Paquets Synaptic</a> o <a href=\"org.gnome.Terminal.desktop\">APT a la "
+"línia d'ordres</a>."
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:211
 msgid ""
@@ -1520,14 +1519,14 @@ msgid ""
 "gnome.Terminal.desktop\">APT on the command line</a>."
 msgstr ""
 "Per fer-ho, creeu un Emmagatzematge Persistent i instal·leu algun programari "
-"utilitzant <a href=\"synaptic.desktop\">el Gestor de Paquets Synaptic</a> o "
+"utilitzant el <a href=\"synaptic.desktop\">Gestor de Paquets Synaptic</a> o "
 "<a href=\"org.gnome.Terminal.desktop\">APT a la línia d'ordres</a>."
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:219
 msgid "To do so, install Tails on a USB stick and create a persistent storage."
 msgstr ""
-"Per fer-ho, instal·leu Tails en una llapis USB i creeu un emmagatzematge "
-"persistent."
+"Per fer-ho, instal·leu Tails en una llapis USB i creeu un Emmagatzematge "
+"Persistent."
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:263
 msgid "[package not available]"
@@ -1876,7 +1875,7 @@ msgstr "S'està activant l'Emmagatzematge Persistent..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
 msgid "Finishing setting up the Persistent Storage..."
-msgstr "S'està acabant de configurar l'emmagatzematge persistent..."
+msgstr "S'està acabant de configurar l'Emmagatzematge Persistent..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
@@ -2063,9 +2062,8 @@ msgid "_Delete Persistent Storage"
 msgstr "_Suprimeix l'Emmagatzematge Persistent"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "S'està suprimint l'Emmagatzematge Persistent"
+msgstr "S'està suprimint l'Emmagatzematge Persistent..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
@@ -2073,8 +2071,8 @@ msgid ""
 "Persistent Storage and open the Persistent Storage settings again."
 msgstr ""
 "Per suprimir l'Emmagatzematge Persistent, reinicieu Tails sense desbloquejar "
-"l'Emmagatzematge Persistent i torneu a obrir la configuració "
-"d'Emmagatzematge Persistent."
+"l'Emmagatzematge Persistent i torneu a obrir la configuració de "
+"l'Emmagatzematge Persistent."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:181
 msgid "_OK"
@@ -2612,8 +2610,8 @@ msgid ""
 "Configure the additional software installed from your persistent storage "
 "when starting Tails"
 msgstr ""
-"Configureu el programari addicional instal·lat des del vostre emmagatzematge "
-"persistent al iniciar Tails"
+"Configureu el programari addicional instal·lat des del vostre Emmagatzematge "
+"Persistent al iniciar Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:1
 msgid "WhisperBack Error Reporting"
@@ -2771,7 +2769,7 @@ msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:576
 msgid "Enable the Unsafe Browser (default)"
-msgstr "Desactiva el Navegador Insegur (per defecte)"
+msgstr "Activa el Navegador Insegur (per defecte)"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:622
 msgid "Disable the Unsafe Browser"
@@ -2779,7 +2777,7 @@ msgstr "Desactiva el Navegador Insegur"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:101
 msgid "Settings were loaded from the persistent storage."
-msgstr "S'han carregat els paràmetres de l'emmagatzematge persistent."
+msgstr "S'han carregat els paràmetres de l'Emmagatzematge Persistent."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:153
 msgid "Welcome to Tails!"
@@ -3057,11 +3055,11 @@ msgstr "Instal·leu programari addicional automàticament en iniciar Tails."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:672
 msgid "Configure Additional Software"
-msgstr "Configureu el programari addicional"
+msgstr "Configureu el Programari Addicional"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:685
 msgid "Activate Additional Software"
-msgstr "Activeu el programari addicional"
+msgstr "Activeu el Programari Addicional"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:698
 msgid "Dotfiles"

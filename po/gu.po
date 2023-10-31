@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-01-26 19:00+0000\n"
-"Last-Translator: emma peel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2023-10-04 14:10+0000\n"
+"Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: Gujarati <https://hosted.weblate.org/projects/tor/tails-gui/"
 "gu/>\n"
 "Language: gu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -1368,7 +1368,7 @@ msgstr "પાસવર્ડ"
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:150
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:93
 msgid "Confirm"
-msgstr "પુષ્ટિ કરો "
+msgstr "પુષ્ટિ કરો"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:121
 msgid "This version of Tails has known security issues:"
@@ -2384,7 +2384,7 @@ msgstr "વહીવટ પાસવર્ડ દાખલ કરો"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:107
 msgid "Confirm your administration password"
-msgstr "તમારા વહીવટ પાસવર્ડની પુષ્ટિ કરો "
+msgstr "તમારા વહીવટ પાસવર્ડની પુષ્ટિ કરો"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:124
 msgid "Disable"

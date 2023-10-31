@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-09-06 17:06+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-10-29 20:27+0100\n"
+"Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/tor/tails-gui/es/"
 ">\n"
 "Language: es\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.1.1-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -244,9 +244,9 @@ msgstr ""
 "línea.\n"
 "\n"
 "¡Cada trozo nos ayuda en la lucha contra la vigilancia y la censura!\n"
-"\\v\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Como "
-"empleamos nuestro dinero.</a>"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Cómo "
+"usamos el dinero.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:101
 msgid ""
@@ -261,8 +261,8 @@ msgstr ""
 "\n"
 "¡Ayúdanos a mantener tus bitcoins a salvo!\n"
 "\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Como "
-"empleamos nuestro dinero.</a>"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Cómo "
+"usamos el dinero.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:112
 msgid "Donate Now"
@@ -319,9 +319,20 @@ msgstr "Tiempo desconocido"
 #, perl-brace-format
 msgid "1y"
 msgid_plural "{count}y"
-msgstr[0] "1a"
-msgstr[1] "{count}a"
-msgstr[2] "{count}a"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. d is the short form for days.
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:82
+#, perl-brace-format
+msgid "1d"
+msgid_plural "{count}d"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #. Translators: Don't translate {count}, it's a place holder and
 #. will be replaced.
@@ -330,9 +341,9 @@ msgstr[2] "{count}a"
 #, perl-brace-format
 msgid "1h"
 msgid_plural "{count}h"
-msgstr[0] "1h"
-msgstr[1] "{count}h"
-msgstr[2] "{count}h"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #. Translators: Don't translate {count}, it's a place holder and
 #. will be replaced.
@@ -444,9 +455,8 @@ msgstr ""
 "nuestro sitio web"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-#, fuzzy
 msgid "your device was not created using a USB image or Tails Cloner"
-msgstr "Tu dispositivo no se creó con una imagen USB o el instalador de Tails"
+msgstr "tu dispositivo no fue creado usando una imagen USB o Tails Cloner"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
 msgid "Tails was started from a DVD or a read-only device"
@@ -852,7 +862,6 @@ msgstr ""
 "No se puede desbloquear el almacenamiento cifrado con esta frase-contraseña."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:122
-#, fuzzy
 msgid ""
 "Failed to upgrade the Persistent Storage. Please start Tails and send an "
 "error report."
@@ -1118,9 +1127,8 @@ msgstr "La instalación de Tails ha fallado!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-#, fuzzy
 msgid "Tails Cloner"
-msgstr "Instalador de Tails"
+msgstr "Tails Cloner"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
@@ -1468,7 +1476,7 @@ msgstr ""
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:111
 #, python-brace-format
 msgid "Failed to remove {pkg}"
-msgstr "No se pudo eliminar {pkg}"
+msgstr "No se pudo quitar {pkg}"
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:136
 msgid "Failed to read additional software configuration"
@@ -1659,7 +1667,7 @@ msgid ""
 "To save your bridge, <a href=\"doc/persistent_storage\">unlock your "
 "Persistent Storage</a>."
 msgstr ""
-"Para guardar tu puente,<a href=\"doc/persistent_storage\">desbloquea el "
+"Para guardar tu puente, <a href=\"doc/persistent_storage\">desbloquea el "
 "Almacenamiento Persistente</a>."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:249
@@ -1688,7 +1696,8 @@ msgstr "No se ha podido configurar tu Almacenamiento Persistente"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:385
 msgid "Failed to detect a webcam. Maybe your webcam is too old."
 msgstr ""
-"No se pudo detectar una cámara web. Tal vez tu cámara web es demasiado vieja."
+"No se pudo detectar una cámara web. Tal vez tu cámara web sea demasiado "
+"antigua."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:394
 msgid "Failed to scan QR code. Try with more light or closer to the camera."
@@ -1843,13 +1852,12 @@ msgid "Creating a partition for the Persistent Storage..."
 msgstr "Se está creando una partición para el Almacenamiento Persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
-#, fuzzy
 msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
 "few seconds."
 msgstr ""
-"Iniciando encriptación LUKS... El ordenador podría dejar de responder "
-"durante unos segundos."
+"Iniciando cifrado LUKS... El ordenador podría dejar de responder durante "
+"unos segundos."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
@@ -2054,9 +2062,8 @@ msgid "_Delete Persistent Storage"
 msgstr "_Borrar Almacenamiento Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "Se está eliminando el Almacenamiento Persistente"
+msgstr "Borrando tu almacenamiento persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
@@ -2064,8 +2071,8 @@ msgid ""
 "Persistent Storage and open the Persistent Storage settings again."
 msgstr ""
 "Para eliminar el Almacenamiento Persistente, reinicia Tails sin desbloquear "
-"el Almacenamiento Persistente y abrir los ajustes de Almacenamiento "
-"Persistente de nuevo."
+"el Almacenamiento Persistente y abre los ajustes de Almacenamiento "
+"Persistente otra vez."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:181
 msgid "_OK"
@@ -2080,7 +2087,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
 msgid "Please wait"
-msgstr "Por favor, espere"
+msgstr "Por favor, espera"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:216
 msgid "Not enough memory to create Persistent Storage"
@@ -2117,7 +2124,7 @@ msgstr "{partition_name} ({partition_size})"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:77
 #, python-brace-format
 msgid "{volume_size} Volume"
-msgstr "{volume_size} Volumen"
+msgstr "Volumen {volume_size}"
 
 #. Translators: Don't translate {volume_name}, it's a placeholder and
 #. will be replaced. It needs to be present in the translated string.
@@ -2355,13 +2362,13 @@ msgid ""
 "Unsafe Browser, you first need to connect to a Wi-Fi, wired, or mobile "
 "network."
 msgstr ""
-"Todavía no estás conectado a una red local.\\n\\nPara poder iniciar el "
-"Navegador No Seguro, primero necesitas conectarte a una red Wi-Fi, cableada "
-"o móvil."
+"Todavía no se ha logrado conectar a una red local.\\n\\nPara poder iniciar "
+"el Navegador No Seguro, primero necesitas conectarte a una red Wi-Fi, "
+"cableada o móvil."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:155
 msgid "Failed to run browser."
-msgstr "Falló al iniciar el navegador."
+msgstr "Fallo al iniciar el navegador."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:40
 #, python-format

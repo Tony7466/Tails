@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-10-31 09:58+0100\n"
 "PO-Revision-Date: 2023-10-22 18:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -372,7 +372,11 @@ msgstr "<h2 id=\"tor-status\">Estat de Tor i circuits</h2>\n"
 
 #. type: Plain text
 msgid ""
-"The Tor status icon and *Onion Circuits* allow you to view the status of Tor."
+"The Tor status icon ([[!img lib/symbolic/tor-disconnected.png alt=\"Tor "
+"status menu\" link=\"no\" class=\"symbolic\"]] or [[!img lib/symbolic/tor-"
+"connected.png alt=\"Tor status menu\" link=\"no\" class=\"symbolic\"]]) "
+"provides a shortcut to *Onion Circuits*, which allows you to manage the Tor "
+"circuits being used by Tails."
 msgstr ""
 
 #. type: Plain text
@@ -560,8 +564,7 @@ msgid ""
 "</div>\n"
 msgstr ""
 "<div class=\"text\">\n"
-"<strong>Documentació de Tails</strong> per obrir una versió fora de línia "
-"del lloc web i de la documentació de Tails, incrustats a Tails<br/>\n"
+"<strong>Documentació de Tails</strong> per obrir una versió fora de línia del lloc web i de la documentació de Tails, incrustats a Tails<br/>\n"
 "</div>\n"
 
 #. type: Plain text

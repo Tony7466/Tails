@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-10-31 09:58+0100\n"
 "PO-Revision-Date: 2023-05-15 09:20+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -475,10 +475,12 @@ msgstr "<h2 id=\"tor-status\">Estado e circuitos do Tor</h2>\n"
 
 #. type: Plain text
 msgid ""
-"The Tor status icon and *Onion Circuits* allow you to view the status of Tor."
+"The Tor status icon ([[!img lib/symbolic/tor-disconnected.png alt=\"Tor "
+"status menu\" link=\"no\" class=\"symbolic\"]] or [[!img lib/symbolic/tor-"
+"connected.png alt=\"Tor status menu\" link=\"no\" class=\"symbolic\"]]) "
+"provides a shortcut to *Onion Circuits*, which allows you to manage the Tor "
+"circuits being used by Tails."
 msgstr ""
-"O ícone de status Tor e *Circuitos Onion* permitem que você veja o status do "
-"Tor."
 
 #. type: Plain text
 #, no-wrap
@@ -817,6 +819,13 @@ msgstr "   <p class=\"pre command\">ssh://user@example.com/</p>\n"
 #. type: Bullet: '1. '
 msgid "Click <span class=\"bold\">Connect</span>."
 msgstr "Clique em <span class=\"bold\">Conectar</span>."
+
+#~ msgid ""
+#~ "The Tor status icon and *Onion Circuits* allow you to view the status of "
+#~ "Tor."
+#~ msgstr ""
+#~ "O ícone de status Tor e *Circuitos Onion* permitem que você veja o status "
+#~ "do Tor."
 
 #~ msgid ""
 #~ "By default, any such customization is reset when shutting down Tails. "
