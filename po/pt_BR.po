@@ -39,8 +39,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-07-19 17:05+0000\n"
-"Last-Translator: Kaio <kaiod@riseup.net>\n"
+"PO-Revision-Date: 2023-10-13 04:11+0000\n"
+"Last-Translator: Eduardo Addad de Oliveira <duduaddad@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/tor/"
 "tails-gui/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -49,7 +49,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -827,9 +827,8 @@ msgid "Off (default)"
 msgstr "Desativar (padrão)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:159
-#, fuzzy
 msgid "Persistent Storage Still Locked"
-msgstr "Armazenamento persistente não desbloqueado"
+msgstr "Armazenamento persistente ainda bloqueado"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:160
 msgid ""
@@ -839,25 +838,24 @@ msgstr ""
 "persistente?"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:162
-#, fuzzy
 msgid "Start Without Persistent Storage"
-msgstr "Continuar sem armazenamento persistente"
+msgstr "Começar sem armazenamento persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:101
 msgid "Error unlocking Persistent Storage: {}"
 msgstr "Erro ao desbloquear armazenamento persistente: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
-#, fuzzy
 msgid "Error upgrading Persistent Storage: {}"
-msgstr "Erro ao desbloquear armazenamento persistente: {}"
+msgstr "Erro ao atualizar o armazenamento persistente: {}"
 
 #. Translators: Don't translate {features}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
-msgstr "Falha ao configurar seu Armazenamento Persistente"
+msgstr ""
+"Falha ao ativar alguns recursos do armazenamento persistente: {features}."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
 msgid "Error activating Persistent Storage: {}"
@@ -880,12 +878,11 @@ msgstr ""
 "Não foi possível desbloquear o armazenamento criptografado com esta senha."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:122
-#, fuzzy
 msgid ""
 "Failed to upgrade the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
-"Falha ao ativar o armazenamento persistente. Por favor, inicie o Tails e "
+"Falha ao atualizar o armazenamento persistente. Por favor, inicie o Tails e "
 "envie um relatório de erro."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:127
@@ -909,11 +906,10 @@ msgid "Upgrading the Persistent Storage. This may take a while…"
 msgstr "Atualizando o armazenamento persistente. Isso pode demorar um pouco…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:154
-#, fuzzy
 msgid "Start Tails and open the Persistent Storage settings to find out more."
 msgstr ""
-"Falha ao desbloquear o armazenamento persistente. Por favor, inicie o Tails "
-"e envie um relatório de erro."
+"Inicie o Tails e abra as configurações de armazenamento persistente para "
+"saber mais."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:190
 msgid "_Language"
@@ -1086,9 +1082,8 @@ msgid "Removing %(file)s"
 msgstr "Removendo %(file)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:964
-#, fuzzy
 msgid "Cloning Persistent Storage..."
-msgstr "Armazenamento persistente"
+msgstr "Clonando armazenamento persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1032
 #, python-format
@@ -1203,15 +1198,16 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
-#, fuzzy
 msgid "Clone the current Persistent Storage"
-msgstr "Continuar sem armazenamento persistente"
+msgstr "Clone o armazenamento persistente atual"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:493
 msgid ""
 "Clone the current Persistent Storage\n"
 "You can only choose to reinstall when cloning the Persistent Storage."
 msgstr ""
+"Clone o armazenamento persistente atual\n"
+"Você só pode optar por reinstalar ao clonar o armazenamento persistente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:531
 #, python-format
@@ -1862,34 +1858,32 @@ msgid ""
 msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
-#, fuzzy
 msgid "Creating a partition for the Persistent Storage..."
-msgstr "Corrigindo as permissões do volume persistente."
+msgstr "Criando uma partição para o armazenamento persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
 msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
 "few seconds."
 msgstr ""
+"Inicializando a criptografia LUKS... O computador pode parar de responder "
+"por alguns segundos."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
-msgstr ""
+msgstr "Desbloqueando a criptografia..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
-#, fuzzy
 msgid "Formatting the file system..."
-msgstr "Verificando sistema de arquivos..."
+msgstr "Formatando o sistema de arquivos..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:392
-#, fuzzy
 msgid "Activating the Persistent Storage..."
-msgstr "Erro ao ativar armazenamento persistente: {}"
+msgstr "Ativando o armazenamento persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
-#, fuzzy
 msgid "Finishing setting up the Persistent Storage..."
-msgstr "Continuar sem armazenamento persistente"
+msgstr "Concluindo a configuração do armazenamento persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
@@ -1898,6 +1892,10 @@ msgid ""
 "doesn't work, restart Tails and try deleting the Persistent Storage without "
 "unlocking it."
 msgstr ""
+"Não é possível desmontar o armazenamento persistente, algum processo ainda "
+"estão utilizando. Feche todos os aplicativos que possam acessá-lo e tente "
+"novamente. Se isso não funcionar, reinicie o Tails e tente excluir o "
+"armazenamento persistente sem desbloqueá-lo."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/configuration/binding.py:406
 #, python-brace-format
@@ -1905,6 +1903,9 @@ msgid ""
 "Can't unmount target {target}, some process is still using it. Please close "
 "all applications that could be accessing the target and try again."
 msgstr ""
+"Não é possível desmontar o destino {target}, algum processo ainda está "
+"utilizando. Feche todos os aplicativos que possam estar acessando o alvo e "
+"tente novamente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
@@ -1922,7 +1923,7 @@ msgstr "Falha ao configurar seu Armazenamento Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
 msgid "Could not find the WhisperBack application"
-msgstr ""
+msgstr "Não foi possível encontrar o aplicativo WhisperBack"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:82
 #, fuzzy
@@ -1932,9 +1933,9 @@ msgstr "Apagar"
 #. Translators: Don't translate {feature}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:88
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Delete {feature} data"
-msgstr ""
+msgstr "Excluir dados de {recurso}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:107
 #, fuzzy
@@ -1943,15 +1944,15 @@ msgstr "Ativar Dotfiles"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:163
 msgid "Activation failed. Try again or delete data."
-msgstr ""
+msgstr "Ativação falhou. Tente novamente ou exclua os dados."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:165
 msgid "Activation failed. Try again."
-msgstr ""
+msgstr "Ativação falhou. Tente novamente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:167
 msgid "The data of this feature is still saved."
-msgstr ""
+msgstr "Os dados deste recurso ainda são salvos."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:268
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:273
@@ -1972,6 +1973,10 @@ msgid ""
 "\n"
 "If you cancel, the data will be restored when you turn this feature on again."
 msgstr ""
+"Excluir todos os dados do recurso {} salvos no armazenamento persistente?\n"
+"\n"
+"Se você cancelar, os dados serão restaurados quando você ativar esse recurso "
+"novamente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
 #, fuzzy
@@ -1980,17 +1985,17 @@ msgstr "Apagar"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:373
 msgid "Error deleting data of feature {}"
-msgstr ""
+msgstr "Erro ao excluir dados do recurso {}"
 
 #. Translators: Don't translate {applications}, it's a placeholder
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:457
 #, python-brace-format
 msgid "Close {applications} to continue"
-msgstr ""
+msgstr "Fechar {applications} para continuar"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:458
 msgid " and "
-msgstr ""
+msgstr " e "
 
 #. Translators: Don't translate {app} and {pid}, they
 #. are placeholders.
@@ -2024,7 +2029,7 @@ msgstr "Alterar Senha"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:41
 msgid "Weak"
-msgstr ""
+msgstr "Fraco"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:44
 msgid "Fair"
@@ -2032,15 +2037,16 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:47
 msgid "Good"
-msgstr ""
+msgstr "Bom"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:50
 msgid "Strong"
-msgstr ""
+msgstr "Forte"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:36
 msgid "You can send an error report to help solve the issue."
 msgstr ""
+"Você pode enviar um relatório de erros para ajudar a resolver o problema."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
 #, fuzzy
@@ -2058,6 +2064,8 @@ msgid ""
 "Are you sure that you want to delete your Persistent Storage? This action "
 "cannot be undone."
 msgstr ""
+"Tem certeza de que deseja excluir seu armazenamento persistente? Essa ação "
+"não pode ser desfeita."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:149
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
@@ -2082,19 +2090,24 @@ msgid ""
 "To delete the Persistent Storage, restart Tails without unlocking the "
 "Persistent Storage and open the Persistent Storage settings again."
 msgstr ""
+"Para excluir o armazenamento persistente, reinicie o Tails sem desbloquear o "
+"armazenamento persistente e abra as configurações do armazenamento "
+"persistente novamente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:181
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:189
 msgid ""
 "Sorry, you can't close this app until the ongoing operation has completed."
 msgstr ""
+"Desculpe, você não pode fechar este aplicativo até que a operação em "
+"andamento seja concluída."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
 msgid "Please wait"
-msgstr ""
+msgstr "Por favor, aguarde"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:216
 #, fuzzy
@@ -2950,7 +2963,7 @@ msgstr "Pasta persistente"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:135
 msgid "A folder where you can save your documents."
-msgstr ""
+msgstr "Uma pasta onde você pode salvar seus documentos."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:160
 msgid "Open Persistent Folder"
@@ -3145,11 +3158,11 @@ msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:82
 msgid "We recommend a long passphrase of 5 to 7 random words."
-msgstr ""
+msgstr "Recomendamos uma senha longa de 5 a 7 palavras aleatórias."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:94
 msgid " For example:"
-msgstr ""
+msgstr " Por exemplo:"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:186
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:46

@@ -27,34 +27,16 @@ mislead you.
 
 # Gather input data
 
-## Inputs from manual testers
-
-A manual tester should have sent you
-clear-signed hashes for all products of this release. Then:
-
-1. Verify that the
-   signature is valid and made by one of our usual manual testers
-2. Put the hashes, excluding the OpenPGP signature data, into a file
-   called `SHA512SUMS.txt`.
-
-<!--     IUK_SOURCE_VERSIONS="$(bin/iuk-source-versions "$VERSION")" -->
-<!--     echo -e "Got these IUK source versions:\n${IUK_SOURCE_VERSIONS}" -->
-
 ## Your inputs
 
 Set these environment variables accordingly:
 
 * `ARTIFACTS`: the directory where build artifacts (e.g. the `.packages` file) land
 * `DIST`: either 'alpha' (for RC:s) or 'stable' (for actual releases)
-* `ISOS`: the directory where one stores `tails-amd64-*` sub-directories,
   like the ones downloaded with BitTorrent.
-* `RELEASE_BRANCH`: `testing` if this is a major release, else `stable`
 * `VERSION`: the version you're trying to reproduce
 <!-- * `ISOS_CHECKOUT`: path to your Tails ISO history repo checkout. -->
 <!-- * `PACKAGES_FILE="${ISOS:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.iso.packages"` -->
-* `PUBLISHED_ARTIFACTS`: some _new_ directory where you can download
-  gigabytes of data to.
-* `SHA512SUMS`: the path of the `SHA512SUMS.txt` file from above.
 * `TAILS_CHECKOUT`: path to your Tails Git repo checkout.
 
 
@@ -82,14 +64,15 @@ Set these environment variables accordingly:
 
 2. Build ISO and USB images:
 
-        cd "${TAILS_CHECKOUT:?}" && \
-        git checkout "${TAG:?}" && \
-        git submodule update --init && \
-        export SOURCE_DATE_EPOCH=$(date --utc --date="$(dpkg-parsechangelog --show-field=Date)" '+%s') && \
-        rake build && \
-        mkdir -p "${ISOS:?}/tails-amd64-${VERSION:?}" && \
-        mv "${ARTIFACTS:?}/tails-amd64-${VERSION:?}".* \
-           "${ISOS:?}/tails-amd64-${VERSION:?}/"
+    (
+        set -eux
+        cd "${TAILS_CHECKOUT:?}"
+        git checkout "${TAG:?}"
+        git submodule update --init
+        SOURCE_DATE_EPOCH="$(date --utc --date="$(dpkg-parsechangelog --show-field=Date)" '+%s')"
+        export SOURCE_DATE_EPOCH
+        rake build
+    )
 
 <!-- ## Build your own IUKs -->
 
@@ -113,45 +96,47 @@ If there is *any* type of mismatch at some point below, let the RM and
 the Board know *immediately*! But still proceed and do everything below,
 potentially reporting multiple different issues.
 
+## Install dependencies
+
+```sh
+apt install jq
+```
+
 ## Verify that your products match what was tested
 
-    cd "${ISOS:?}/tails-amd64-${VERSION:?}" && \
-    sha512sum -c "${SHA512SUMS:?}"
+You should have a mail in your inbox whose subject is "Re: Testing Tails ${VERSION}", sent by the RM to tails-manual-testers@boum.org
 
-## Wait for the release to be published
+This email has, attached, OpenPGP signatures for the tested image. Save those files where you want, then run
 
-In order to get the guarantees we're looking for here,
-the following steps have to be done only after the release has been made public.
+    gpg --verify "/tmp/tails-amd64-${VERSION:?}.iso.sig" "${ARTIFACTS:?}/tails-amd64-${VERSION:?}.iso"
+    gpg --verify "/tmp/tails-amd64-${VERSION:?}.img.sig" "${ARTIFACTS:?}/tails-amd64-${VERSION:?}.img"
 
-## Download published products
+Both of those must output `Good signature from "Tails developers <tails@boum.org>"`.
 
-    mkdir -p "${PUBLISHED_ARTIFACTS:?}" && \
-    cd "${PUBLISHED_ARTIFACTS:?}" && \
-    mkdir tails-amd64-${VERSION:?} && \
-    cd tails-amd64-${VERSION:?} && \
-    wget https://download.tails.net/tails/${DIST:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.{img,iso}
 
 ## Verify that your products match what was published
 
-### ISO and USB images
+To run this step, you need to wait for the release to be public.
 
-    for type in iso usb ; do
-       case "$type" in
-          iso)
-             ext=iso
-             ;;
-          usb)
-             ext=img
-             ;;
-       esac
-       if cmp --quiet \
-          "${ISOS:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.$ext" \
-          "${PUBLISHED_ARTIFACTS:?}/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.$ext" ; then
-          echo "OK: locally built $type matches the published one"
-       else
-          echo "FAIL: locally built $type does not match the published one"
-       fi
-    done
+### ISO and IMG
+
+This will get hashes of the published files from Tails mirrorbits server, so you can check the hash
+without downloading the full image:
+
+    (
+        set -eu
+        expectedSha="/run/user/$(id -u)/tr-sha256sums.txt"
+        basefile="tails-amd64-${VERSION:?}"
+        basepath="${DIST:?}/${basefile}/${basefile}"
+
+        shaIso="$(curl -s --header "Accept: application/json" "https://download.tails.net/tails/${basepath}.iso" | jq --raw-output .FileInfo.Sha256)"
+        shaImg="$(curl -s --header "Accept: application/json" "https://download.tails.net/tails/${basepath}.img" | jq --raw-output .FileInfo.Sha256)"
+        (echo "${shaIso} ${basefile}.iso"; echo "${shaImg} ${basefile}.img") > "${expectedSha:?}"
+
+        cd "${ARTIFACTS:?}"
+        sha256sum -c "${expectedSha:?}"
+    )
+
 
 ### IDF
 
@@ -160,37 +145,30 @@ If you are verifying the reproducibility of anything but a stable release
 
 Download the IDF by running:
 
-    wget https://tails.net/install/v2/Tails/amd64/${DIST:?}/latest.json
+    wget https://tails.net/install/v2/Tails/amd64/${DIST:?}/latest.json -O latest.json
 
 Then check that the hashes and sizes match what you have built:
 
-    sudo apt install jq && \
-    for type in iso usb ; do
-       locally_built_dir="${ISOS:?}/tails-amd64-${VERSION:?}"
-       case "$type" in
-          iso)
-             ext=iso
-             ;;
-          usb)
-             ext=img
-             ;;
-       esac
-       locally_built_file="${locally_built_dir}/tails-amd64-${VERSION:?}.$ext"
+    (
+    set -eu
+    for ext in iso img ; do
+       locally_built_file="${ARTIFACTS:?}/tails-amd64-${VERSION:?}.$ext"
        idf_size=$(cat latest.json | jq ".installations[0].\"installation-paths\" | map(select(.type == \"$ext\"))[0].\"target-files\"[0].size")
        locally_built_size=$(stat --format='%s' "$locally_built_file")
        if [ "$idf_size" = "$locally_built_size" ]; then
-          echo "OK: $type size matches"
+          echo "OK: $ext size matches"
        else
-          echo "FAIL: $type size does not match"
+          echo "FAIL: $ext size does not match"
        fi
        idf_sha256=$(cat latest.json | jq --raw-output ".installations[0].\"installation-paths\" | map(select(.type == \"$ext\"))[0].\"target-files\"[0].sha256")
        locally_built_sha256=$(sha256sum "$locally_built_file" | cut -f 1 -d ' ' | tr -d '\n')
        if [ "$idf_sha256" = "$locally_built_sha256" ]; then
-          echo "OK: $type sha256 matches"
+          echo "OK: $ext sha256 matches"
        else
-          echo "FAIL: $type sha256 does not match"
+          echo "FAIL: $ext sha256 does not match"
        fi
     done
+    )
 
 <!-- ### UDFs -->
 
@@ -224,3 +202,16 @@ Then check that the hashes and sizes match what you have built:
       
 <!--       EOF -->
 <!--       done -->
+
+
+# Send confirmation
+
+If all was good, send an email to tails-rm@boum.org.
+
+    To: tails-rm@boum.org
+    Subject: Tails ${VERSION:?} reproducibility test
+
+    I have run the process at https://tails.net/contribute/release_process/test/reproducibility/ and confirm
+    that Tails ${VERSION:?} is reproducible.
+
+Remember to sign+encrypt the email!

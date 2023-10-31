@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-06-23 20:35+0000\n"
+"PO-Revision-Date: 2023-10-22 21:03+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/tor/tails-gui/"
 "uk/>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.1\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -239,6 +239,13 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails потребує допомоги, щоб підтримувати безпеку та свободу в інтернеті для "
+"всіх.\n"
+"\n"
+"У нашій боротьбі проти стеження та цензури допомагає кожна копійка!\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Як "
+"ми витрачаємо кошти.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:101
 msgid ""
@@ -249,22 +256,28 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails захищає ваш гаманець.\n"
+"\n"
+"Допоможіть нам захистити ваші біткоїни!\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Як "
+"ми витрачаємо кошти.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:112
 msgid "Donate Now"
-msgstr ""
+msgstr "Підтримати зараз"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:113
 msgid "Later"
-msgstr ""
+msgstr "Пізніше"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:123
 msgid "Opening Electrum with our donation address..."
-msgstr ""
+msgstr "Відкриваємо Electrum з нашою адресою для внесків..."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:124
 msgid "Thank you for making the Internet a safer place!"
-msgstr ""
+msgstr "Дякуємо, що робите інтернет безпечнішим!"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:157
 msgid "Persistence is disabled for Electrum"
@@ -442,10 +455,8 @@ msgid "no automatic upgrade is available from our website for this version"
 msgstr "для цієї версії програми немає автоматичного оновлення нашого сайту"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-#, fuzzy
 msgid "your device was not created using a USB image or Tails Cloner"
-msgstr ""
-"ваш пристрій не було створено за допомогою образу USB або Tails Installer"
+msgstr "ваш пристрій не було створено за допомогою образу USB або Tails Cloner"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
 msgid "Tails was started from a DVD or a read-only device"
@@ -835,7 +846,7 @@ msgstr "Розблокування…"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:135
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:505
 msgid "Unlock Encryption"
-msgstr ""
+msgstr "Розблокувати шифрування"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:113
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:41
@@ -868,7 +879,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:143
 msgid "Upgrading the Persistent Storage. This may take a while…"
-msgstr ""
+msgstr "Оновлення Постійного сховища. Це може тривати деякий час…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:154
 msgid "Start Tails and open the Persistent Storage settings to find out more."
@@ -1103,9 +1114,8 @@ msgstr "Не вдалось установити Tails!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-#, fuzzy
 msgid "Tails Cloner"
-msgstr "Инсталятор Tails"
+msgstr "Tails Cloner"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
@@ -1154,6 +1164,8 @@ msgid ""
 "Clone the current Persistent Storage\n"
 "Impossible to clone the Persistent Storage because it is locked."
 msgstr ""
+"Клонувати поточне Постійне сховище\n"
+"Неможливо клонувати Постійне сховище, оскільки його заблоковано."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
@@ -1165,6 +1177,9 @@ msgid ""
 "Clone the current Persistent Storage\n"
 "You can only choose to reinstall when cloning the Persistent Storage."
 msgstr ""
+"Клонувати поточне Постійне сховище\n"
+"Ви можете вибрати перевстановлення лише під час клонування Постійного "
+"сховища."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:531
 #, python-format
@@ -1809,6 +1824,10 @@ msgid ""
 "\n"
 "Try again after closing some applications or rebooting."
 msgstr ""
+"Доступно лише {available_memory} КіБ пам'яті, потрібно принаймні "
+"{required_memory} КіБ\n"
+"\n"
+"Спробуйте ще раз після закриття деяких застосунків або перезавантаження."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
 msgid "Creating a partition for the Persistent Storage..."
@@ -1819,10 +1838,12 @@ msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
 "few seconds."
 msgstr ""
+"Ініціалізація шифрування LUKS... Комп'ютер може перестати відповідати на "
+"кілька секунд."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
-msgstr ""
+msgstr "Розблокування шифрування..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
 msgid "Formatting the file system..."
@@ -1843,6 +1864,10 @@ msgid ""
 "doesn't work, restart Tails and try deleting the Persistent Storage without "
 "unlocking it."
 msgstr ""
+"Не вдалося демонтувати Постійне сховище, якийсь процес досі використовує "
+"його. Закрийте всі застосунки, які можуть мати до нього доступ, і повторіть "
+"спробу. Якщо це не допоможе, перезапустіть Tails і спробуйте видалити "
+"Постійне сховище, не розблоковуючи його."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/configuration/binding.py:406
 #, python-brace-format
@@ -1850,6 +1875,9 @@ msgid ""
 "Can't unmount target {target}, some process is still using it. Please close "
 "all applications that could be accessing the target and try again."
 msgstr ""
+"Не вдалося демонтувати об'єкт {target}, якийсь процес досі використовує цей "
+"об'єкт. Закрийте всі застосунки, які можуть мати доступ до об'єкта, і "
+"повторіть спробу."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
@@ -1866,7 +1894,7 @@ msgstr "Не вдалося запустити службу Постійного
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
 msgid "Could not find the WhisperBack application"
-msgstr ""
+msgstr "Не вдалося знайти застосунок WhisperBack"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:82
 msgid "Delete Data…"
@@ -1877,7 +1905,7 @@ msgstr "Видалити дані…"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:88
 #, python-brace-format
 msgid "Delete {feature} data"
-msgstr ""
+msgstr "Видалити дані {feature}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:107
 msgid "Activation failed"
@@ -1885,15 +1913,15 @@ msgstr "Не вдалось активувати"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:163
 msgid "Activation failed. Try again or delete data."
-msgstr ""
+msgstr "Не вдалось активувати. Спробуйте ще раз або видаліть дані."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:165
 msgid "Activation failed. Try again."
-msgstr ""
+msgstr "Не вдалось активувати. Спробуйте ще раз."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:167
 msgid "The data of this feature is still saved."
-msgstr ""
+msgstr "Дані цієї функції досі зберігаються."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:268
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:273
@@ -1912,6 +1940,9 @@ msgid ""
 "\n"
 "If you cancel, the data will be restored when you turn this feature on again."
 msgstr ""
+"Видалити всі дані функції {}, що зберігаються у Постійному сховищі?\n"
+"\n"
+"Якщо ви скасуєте, дані буде відновлено, коли ви знову ввімкнете цю функцію."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
 msgid "_Delete Data"
@@ -1919,31 +1950,31 @@ msgstr "_Видалити дані"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:373
 msgid "Error deleting data of feature {}"
-msgstr ""
+msgstr "Помилка видалення даних функції {}"
 
 #. Translators: Don't translate {applications}, it's a placeholder
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:457
 #, python-brace-format
 msgid "Close {applications} to continue"
-msgstr ""
+msgstr "Щоб продовжити, закрийте {applications}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:458
 msgid " and "
-msgstr ""
+msgstr " і "
 
 #. Translators: Don't translate {app} and {pid}, they
 #. are placeholders.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:469
 #, python-brace-format
 msgid "{app} (PID: {pid})"
-msgstr ""
+msgstr "{app} (PID: {pid})"
 
 #. Translators: Don't translate {app} and {pids}, they
 #. are placeholders.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:474
 #, python-brace-format
 msgid "{app} (PIDs: {pids})"
-msgstr ""
+msgstr "{app} (PIDs: {pids})"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:36
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:8
@@ -1961,23 +1992,23 @@ msgstr "Не вдалося змінити парольну фразу"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:41
 msgid "Weak"
-msgstr ""
+msgstr "Слабка"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:44
 msgid "Fair"
-msgstr ""
+msgstr "Достатня"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:47
 msgid "Good"
-msgstr ""
+msgstr "Хороша"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:50
 msgid "Strong"
-msgstr ""
+msgstr "Надійна"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:36
 msgid "You can send an error report to help solve the issue."
-msgstr ""
+msgstr "Ви можете надіслати звіт про помилку, щоб допомогти усунути проблему."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
 msgid "_Send Error Report"
@@ -1994,6 +2025,8 @@ msgid ""
 "Are you sure that you want to delete your Persistent Storage? This action "
 "cannot be undone."
 msgstr ""
+"Ви впевнені, що хочете видалити своє Постійне сховище? Цю дію не можна "
+"скасувати."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:149
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
@@ -2008,28 +2041,31 @@ msgid "_Delete Persistent Storage"
 msgstr "_Видалити постійне сховище"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "Видалення Постійного сховища"
+msgstr "Видалення Постійного сховища..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
 "To delete the Persistent Storage, restart Tails without unlocking the "
 "Persistent Storage and open the Persistent Storage settings again."
 msgstr ""
+"Щоб видалити Постійне сховище, перезапустіть Tails, не розблоковуючи "
+"Постійне сховище, і знову відкрийте налаштування Постійного сховища."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:181
 msgid "_OK"
-msgstr ""
+msgstr "_Гаразд"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:189
 msgid ""
 "Sorry, you can't close this app until the ongoing operation has completed."
 msgstr ""
+"На жаль, ви не можете закрити цей застосунок, доки не завершиться поточна "
+"операція."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
 msgid "Please wait"
-msgstr ""
+msgstr "Будь ласка, зачекайте"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:216
 msgid "Not enough memory to create Persistent Storage"
@@ -2073,7 +2109,7 @@ msgstr "Розмір {volume_size}"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:116
 #, python-brace-format
 msgid "{volume_name} (Read-Only)"
-msgstr "{volume_name} (тількт для читання)"
+msgstr "{volume_name} (лише для читання)"
 
 #. Translators: Don't translate {partition_name} and {container_path}, they
 #. are placeholders and will be replaced. They need to be present
@@ -2113,7 +2149,7 @@ msgstr "Неправильна парольна фраза або парамет
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:236
 msgid "Error unlocking volume"
-msgstr "Помилка розблокування гучності"
+msgstr "Помилка розблокування розділу"
 
 #. Translators: Don't translate {volume_name} or {error_message},
 #. they are placeholder and will be replaced.  They need
@@ -2872,7 +2908,7 @@ msgstr "Постійна тека"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:135
 msgid "A folder where you can save your documents."
-msgstr ""
+msgstr "Тека, в якій ви можете зберігати свої документи."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:160
 msgid "Open Persistent Folder"
@@ -3058,11 +3094,11 @@ msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:82
 msgid "We recommend a long passphrase of 5 to 7 random words."
-msgstr ""
+msgstr "Ми радимо використовувати довгу парольну фразу з 5-7 випадкових слів."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:94
 msgid " For example:"
-msgstr ""
+msgstr " Наприклад:"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:186
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:46
