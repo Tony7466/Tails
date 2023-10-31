@@ -35,18 +35,6 @@ When /^I close Totem$/ do
   ensure_process_is_terminated('totem')
 end
 
-def disable_tor_reject_internal_addresses
-  client_torrc_lines = [
-    'ClientDNSRejectInternalAddresses 0',
-    'ClientRejectInternalAddresses 0',
-  ]
-  $vm.file_append('/etc/tor/torrc', client_torrc_lines)
-  $vm.execute('systemctl stop tor@default.service')
-  $vm.execute('systemctl --no-block restart tails-tor-has-bootstrapped.target')
-  $vm.execute('systemctl start tor@default.service')
-  wait_until_tor_is_working
-end
-
 Then /^I can watch a WebM video over HTTPs$/ do
   test_url = WEBM_VIDEO_URL
   host = URI(test_url).host
