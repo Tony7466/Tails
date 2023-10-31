@@ -1,0 +1,35 @@
+[[!meta title="Update the locale descriptions file"]]
+
+[[!toc levels=2]]
+
+
+Context
+============
+
+
+How to fix a FTBFS
+==========================
+
+If you are reading this, it's likely you just met a FTBFS. Ouch!
+
+If your build logs include a line that starts with `The following supported browser locales lack descriptions in`, then this section is for you, so you can read on. Otherwise, you hit a different kind of bug, that we still haven't documented how to fix.
+
+The last two characters in that line will tell you *which* is the offending line. Let's call it `${LANG}`.
+What this means is that our scripts want a line beginning with "${LANG}:" (note the final colon) in `config/chroot_local-includes/usr/share/tails/browser-localization/descriptions`.
+
+Now, check `ls po/${LANG}*.po`. Does it yield any result? if it does, then this means we need to *map* this
+language into the specified locale.
+
+If it doesn't, this means we need to *add* this locale in the _extra_ section of `po/po-to-mozilla.toml`.
+
+
+
+How to add new locale
+============================
+
+Running this will provide you with suggestions:
+
+    ./bin/locale-descriptions suggest
+
+Some of those are copy-pastable into `po/po-to-mozilla.toml`, while some other will give you a list of
+languages for which you need to clarify what is the best locale to be used.

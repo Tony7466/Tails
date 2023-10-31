@@ -53,7 +53,7 @@ class LocaleDescriptions:
         self.languages_not_found = set()
         self.po_to_mozilla = toml.load(open(MAPFILE))
 
-    def get_all_mozlocales(self):
+    def get_all_mozlocales(self, warnings=True):
         yield from self.po_to_mozilla.get("extra", {}).get("extra_languages", [])
         for po in sorted(Path("po/").glob("*.po")):
             moz_locale = get_language(po)
@@ -68,11 +68,12 @@ class LocaleDescriptions:
                 else:
                     yield from value
             else:
-                print(
-                    f"Could not find {moz_locale} (from {po}), "
-                    f"please add it to {MAPFILE}",
-                    file=sys.stderr,
-                )
+                if warnings:
+                    print(
+                        f"Could not find {moz_locale} (from {po}), "
+                        f"please add it to {MAPFILE}",
+                        file=sys.stderr,
+                    )
                 self.n_errors += 1
                 self.languages_not_found.add(moz_locale)
 
@@ -81,22 +82,33 @@ class LocaleDescriptions:
             return
         valid_locales = ValidLocales()
         suggested_add = ""
+        others = ""
         for lang in sorted(self.languages_not_found):
             locales = valid_locales.languages[lang]
             if len(locales) == 1:
                 details = ", ".join(valid_locales.locales[locales[0]])
                 suggested_add += f'{lang}="{locales[0]}"   # {details}\n'
-        return suggested_add
+            else:
+                others += f"{lang}: pick between\n"
+                for locale in locales:
+                    details = ", ".join(valid_locales.locales[locale])
+                    others += f'  {lang}="{locale}"   # {details}\n'
+
+        text = others
+        if suggested_add:
+            text += "\n\n## You might want to add this block as-is, but please verify it first!\n"
+            text += f"{suggested_add}"
+        return text
 
 
 def get_parser():
     p = ArgumentParser()
-    p.set_defaults(mode='')
+    p.set_defaults(mode="")
     sub = p.add_subparsers()
-    generate = sub.add_parser('generate')
-    generate.set_defaults(mode='generate')
-    suggest = sub.add_parser('suggest')
-    suggest.set_defaults(mode='suggest')
+    generate = sub.add_parser("generate")
+    generate.set_defaults(mode="generate")
+    suggest = sub.add_parser("suggest")
+    suggest.set_defaults(mode="suggest")
 
     return p
 
@@ -106,24 +118,21 @@ def main():
     args = parser.parse_args()
     helper = LocaleDescriptions()
 
-    if args.mode == '':
+    if args.mode == "":
         print(parser.error("You need to specify a subcommand"))
 
-    mozlocales = list(sorted(helper.get_all_mozlocales()))
-    if args.mode == 'generate':
+    mozlocales = list(
+        sorted(helper.get_all_mozlocales(warnings=(args.mode == "generate")))
+    )
+    if args.mode == "generate":
         for out in mozlocales:
             print(out)
         sys.exit(0)
 
-    elif args.mode == 'suggest':
+    elif args.mode == "suggest":
         if helper.n_errors:
             suggestion = helper.get_suggestions()
-            if suggestion:
-                print(
-                    "You might want to add this block, but please verify it first!",
-                    file=sys.stderr,
-                )
-                print(suggestion, file=sys.stderr)
+            print(suggestion, file=sys.stderr)
         sys.exit(0)
 
 
