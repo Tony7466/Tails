@@ -83,6 +83,10 @@ check-translatable-live-website-urls:
     - apt-get -qy install python3-polib
     - ./bin/check-translatable-live-website-urls po/tails.pot
 
+check-locale-descriptions:
+  script:
+    - ./bin/locale-descriptions suggest
+
 test-iuk:
   rules:
     - if: '$CI_COMMIT_BRANCH != "master"'

@@ -130,10 +130,11 @@ def main():
         sys.exit(0)
 
     elif args.mode == "suggest":
-        if helper.n_errors:
-            suggestion = helper.get_suggestions()
-            print(suggestion, file=sys.stderr)
-        sys.exit(0)
+        if not helper.n_errors:
+            sys.exit(0)
+        suggestion = helper.get_suggestions()
+        print(suggestion, file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
