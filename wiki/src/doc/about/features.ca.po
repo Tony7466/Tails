@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 15:11+0000\n"
+"PO-Revision-Date: 2023-10-31 15:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -65,7 +65,7 @@ msgid ""
 "the Onion Circuits graphical frontend ([[More...|doc/anonymous_internet/tor/"
 "circuits]])"
 msgstr ""
-"la interfície gràfica d'Onion Circuits ([[Més...|doc/anonymous_internet/tor/"
+"la interfície gràfica de Circuits Onion ([[Més...|doc/anonymous_internet/tor/"
 "circuits]])"
 
 #. type: Bullet: '* '
@@ -201,8 +201,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
-msgstr ""
-"[Brasero](https://wiki.gnome.org/Apps/Brasero) per enregistrar CDs i DVDs"
+msgstr "[Brasero](https://wiki.gnome.org/Apps/Brasero) per enregistrar CD i DVD"
 
 #. type: Bullet: '* '
 msgid ""
@@ -232,7 +231,7 @@ msgstr ""
 "Compatibilitat amb els volums xifrats tant de [[!wikipedia "
 "Linux_Unified_Key_Setup desc=\"LUKS\"]] com de [VeraCrypt](https://veracrypt."
 "fr) (com ara llapis USB) ([[Més...|doc/encryption_and_privacy/"
-"encrypted_volumes]] )"
+"encrypted_volumes]])"
 
 #. type: Bullet: '* '
 msgid ""
@@ -256,7 +255,7 @@ msgid ""
 "feature for encrypted emails"
 msgstr ""
 "[Thunderbird](https://www.thunderbird.net/) té una funció OpenPGP integrada "
-"per a correus electrònics xifrats"
+"per a correus electrònics encriptats"
 
 #. type: Bullet: '* '
 msgid ""
@@ -306,12 +305,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[FFmpeg](https://ffmpeg.org/) to record and convert audio and video"
-msgstr "[FFmpeg](https://ffmpeg.org/) per gravar i convertir àudio i vídeo"
+msgstr "[FFmpeg](https://ffmpeg.org/) per enregistrar i convertir àudio i vídeo"
 
 #. type: Title =
 #, no-wrap
 msgid "Additional software"
-msgstr "Programari addicional"
+msgstr "Programari Addicional"
 
 #. type: Plain text
 msgid ""
@@ -362,7 +361,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Some basic [[doc/first_steps/accessibility]] features"
 msgstr ""
-"Algunes funcions bàsiques d'[[accessibilitat|doc/first_steps/accessibility]]"
+"Algunes funcionalitats bàsiques d'[[accessibilitat|doc/first_steps/"
+"accessibility]]"
 
 #. type: Bullet: '* '
 msgid "Some [[contribute/design/application_isolation]] with AppArmor"
