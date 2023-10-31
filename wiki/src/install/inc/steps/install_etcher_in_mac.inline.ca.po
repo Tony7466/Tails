@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-10-31 15:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -117,7 +117,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Execute the following command:"
-msgstr ""
+msgstr "Executeu l'ordre següent:"
 
 #. type: Plain text
 #, no-wrap
