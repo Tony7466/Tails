@@ -396,7 +396,7 @@ Regenerate the localization list:
 
     ./bin/locale-descriptions generate > config/chroot_local-includes/usr/share/tails/browser-localization/descriptions
 
-Take a look at error lines that are suggesting you to add more languages to `po/po-to-mozilla.toml`. Copy-paste everything into a new issue (title: `Update mozilla locale descriptions`) and move on.
+Take a look at error lines that are suggesting you to add more languages to `po/po-to-mozilla.toml`. Copy-paste everything into a new issue (title: `Update mozilla locale descriptions`, content: `https://tails.net/contribute/release_process/update_locale_descriptions/` ) and move on.
 
 Manually inspect the diffs:
 

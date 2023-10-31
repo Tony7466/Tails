@@ -85,6 +85,7 @@ check-translatable-live-website-urls:
 
 check-locale-descriptions:
   script:
+    - echo 'If this fails, look at https://tails.net/contribute/release_process/update_locale_descriptions/'
     - ./bin/locale-descriptions suggest
 
 test-iuk:
