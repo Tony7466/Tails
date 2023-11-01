@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-10-31 15:11+0000\n"
+"PO-Revision-Date: 2023-11-01 11:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -38,10 +38,13 @@ msgid ""
 "<p class=\"upgrade\">In the following steps, you will install an intermediary Tails using the Tails USB\n"
 "image that you downloaded earlier.</p>\n"
 msgstr ""
+"<p class=\"upgrade\">En els passos següents, instal·lareu un Tails "
+"intermediari mitjançant la imatge USB\n"
+"de Tails que heu baixat abans.</p>\n"
 
 #. type: Bullet: '1. '
 msgid "Click on the following button to download <em>balenaEtcher</em>:"
-msgstr ""
+msgstr "Feu clic al botó següent per baixar <em>balenaEtcher</em>:"
 
 #. type: Plain text
 #, no-wrap
