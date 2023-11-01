@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-01 11:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -83,7 +83,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 class=\"step\">Continue installing or upgrading Tails</h1>\n"
-msgstr ""
+msgstr "<h1 class=\"step\">Continueu instal·lant o actualitzant Tails</h1>\n"
 
 #. type: Plain text
 msgid "With this ISO image, you can either:"
