@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-05-13 10:54+0200\n"
-"PO-Revision-Date: 2023-10-22 09:27+0000\n"
+"PO-Revision-Date: 2023-11-01 11:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Running Tails in a virtual machine\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Executar Tails en una màquina virtual\"]]\n"
 
 #. type: Plain text
 #, no-wrap
