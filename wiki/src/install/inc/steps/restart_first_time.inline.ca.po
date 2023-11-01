@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-10-22 18:11+0000\n"
+"PO-Revision-Date: 2023-11-01 11:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -420,6 +420,10 @@ msgid ""
 "keyboard layout in the <span class=\"guilabel\">Language & Region</span> section.\n"
 "Click <span class=\"bold\">Start Tails</span>.\n"
 msgstr ""
+"1. A la Pantalla de Benvinguda, seleccioneu el vostre idioma i\n"
+"la disposició del teclat a la secció <span class=\"guilabel\">Idioma i "
+"Regió</span>.\n"
+"Feu clic a <span class=\"bold\">Inicia Tails</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -431,7 +435,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "After 15&ndash;30 seconds, the Tails desktop appears."
-msgstr ""
+msgstr "Després de 15&ndash;30 segons, apareix l'escriptori de Tails."
 
 #. type: Plain text
 #, no-wrap
