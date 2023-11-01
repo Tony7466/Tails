@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-10-22 18:11+0000\n"
+"PO-Revision-Date: 2023-11-01 11:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -56,12 +56,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<div id=\"unsafe\">\n"
-msgstr ""
+msgstr "<div id=\"unsafe\">\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<p class=\"big\">This browser is not anonymous.</p>\n"
-msgstr ""
+msgstr "<p class=\"big\">Aquest navegador no és anònim.</p>\n"
 
 #. type: Plain text
 #, no-wrap
