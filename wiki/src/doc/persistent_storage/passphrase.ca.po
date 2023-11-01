@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-10-31 15:12+0000\n"
+"PO-Revision-Date: 2023-11-01 11:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -50,7 +50,7 @@ msgstr "Introduïu la contrasenya nova al quadre de text **Contrasenya nova**."
 #. type: Plain text
 #, no-wrap
 msgid "   <!-- Consider removing after #18736. -->\n"
-msgstr ""
+msgstr "   <!-- Consider removing after #18736. -->\n"
 
 #. type: Plain text
 #, no-wrap
@@ -58,6 +58,8 @@ msgid ""
 "   <div class=\"caution\">\n"
 "   <p>It is impossible to recover your passphrase if you forget it!</p>\n"
 msgstr ""
+"   <div class=\"caution\">\n"
+"   <p>És impossible recuperar la contrasenya si l'oblideu!</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -67,6 +69,11 @@ msgid ""
 "   you know it well.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <p>Per ajudar-vos a recordar la vostra contrasenya, podeu escriure-la en "
+"un tros de\n"
+"   paper, guardar-la a la cartera durant uns dies i destruir-la una vegada\n"
+"   la sabeu bé.</p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
 msgid ""
