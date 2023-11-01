@@ -32,7 +32,7 @@ if [ "$mode" = unknown ]; then
 fi
 
 building_with_tagged_APT_snapshots() {
-  rgrep --quiet --silent --fixed-strings \
+  grep --recursive --quiet --silent --fixed-strings \
 	tagged.snapshots.deb.tails.boum.org \
 	/etc/apt/sources.list.d/
 }
