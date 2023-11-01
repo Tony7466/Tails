@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 15:11+0000\n"
+"PO-Revision-Date: 2023-11-01 16:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Limitations of the Tor network\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Limitacions de la xarxa Tor\"]]"
 
 #. type: Content of: <h1>
 msgid "Limitations of the Tor network"
@@ -35,7 +35,7 @@ msgstr ""
 
 #. type: Content of: <h2>
 msgid "Tails makes it clear that you are using Tor and probably Tails"
-msgstr ""
+msgstr "Tails deixa clar que esteu utilitzant Tor i probablement Tails"
 
 #. type: Content of: <p>
 msgid ""
@@ -48,6 +48,9 @@ msgid ""
 "user, but by making all Tor and Tails users look the same. It becomes "
 "impossible to know who is who among them."
 msgstr ""
+"Tor i Tails no us protegeixen fent-vos semblar un usuari d'Internet "
+"qualsevol, sinó fent que tots els usuaris de Tor i Tails semblin iguals. Es "
+"fa impossible saber qui és qui entre ells."
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -56,6 +59,10 @@ msgid ""
 "hide that you connect to Tor, you can use a [[Tor bridge|doc/"
 "anonymous_internet/tor]]."
 msgstr ""
+"El vostre proveïdor de serveis d'Internet (PSI) i la xarxa local poden veure "
+"que us connecteu a la xarxa Tor. Encara no saben quins llocs visiteu. Per "
+"ocultar que us connecteu a Tor, podeu utilitzar un [[pont de Tor|doc/"
+"anonymous_internet/tor]]."
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -63,6 +70,9 @@ msgid ""
 "href=\"https://metrics.torproject.org/exonerator.html\">list of exit nodes "
 "of the Tor network</a> is public."
 msgstr ""
+"Els llocs que visiteu poden saber que utilitzeu Tor, perquè la <a href="
+"\"https://metrics.torproject.org/exonerator.html\">llista de nodes de "
+"sortida de la xarxa Tor</a> és pública."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -70,16 +80,22 @@ msgid ""
 "censorship can identify and block connections to the Tor network that don't "
 "use Tor bridges."
 msgstr ""
+"Els controls parentals, els proveïdors de serveis d'Internet i els països "
+"amb una forta censura poden identificar i bloquejar connexions a la xarxa "
+"Tor que no utilitzen ponts de Tor."
 
 #. type: Content of: <div><p>
 msgid ""
 "Many websites ask you to solve a CAPTCHA or block access from the Tor "
 "network."
 msgstr ""
+"Molts llocs web us demanen que resolgueu un CAPTCHA o bloquegen l'accés des "
+"de la xarxa Tor."
 
 #. type: Content of: <h2>
 msgid "Exit nodes can intercept traffic to the destination server"
 msgstr ""
+"Els nodes de sortida poden interceptar el trànsit al servidor de destinació"
 
 #. type: Content of: <p>
 msgid ""
@@ -88,6 +104,10 @@ msgid ""
 "<i>exit node</i>, establishes the actual connection to the destination "
 "server. This last step can be unencrypted."
 msgstr ""
+"Tor amaga la vostra ubicació dels servidors de destinació, però no encripta "
+"<i>totes</i> les vostres comunicacions. L'últim repetidor d'un circuit Tor, "
+"anomenat <i>node de sortida</i>, estableix la connexió real amb el servidor "
+"de destinació. Aquest darrer pas es pot desencriptar."
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -95,10 +115,13 @@ msgid ""
 "Tor connection goes through 3 relays with the last one establishing the "
 "actual connection to the final destination\"]]"
 msgstr ""
+"[[!img doc/anonymous_internet/tor/tor.svg size=\"600x\" link=\"no\" alt=\"Una"
+" connexió Tor passa per tres repetidors i l'últim estableix la connexió real "
+"amb la destinació final\"]]"
 
 #. type: Content of: <p>
 msgid "The exit node can:"
-msgstr ""
+msgstr "El node de sortida pot:"
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -107,6 +130,10 @@ msgid ""
 "Tor_Browser#https-everywhere]], to encrypt the connection between the exit "
 "node and the destination server, whenever possible."
 msgstr ""
+"Observar el vostre trànsit. És per això que el <i>Navegador Tor</i> i Tails "
+"inclouen eines, com ara [[<i>HTTPS Everywhere</i>|doc/anonymous_internet/"
+"Tor_Browser#https-everywhere]], per encriptar la connexió entre el node de "
+"sortida i el servidor de destinació, sempre que sigui possible."
 
 #. type: Content of: <ul><li><p>
 msgid ""
