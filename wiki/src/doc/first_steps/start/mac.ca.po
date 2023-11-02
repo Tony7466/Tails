@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-02 22:56+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Starting Tails on Mac\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Iniciar Tails a Mac\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -40,6 +40,8 @@ msgstr ""
 msgid ""
 "This page describes the technique to start Tails from a USB stick on Mac."
 msgstr ""
+"Aquesta pàgina descriu la tècnica per iniciar Tails des d'un llapis USB a "
+"Mac."
 
 #. type: Plain text
 #, no-wrap
@@ -49,7 +51,7 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"mac-start\">Starting on Mac</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"mac-start\">Iniciar a Mac</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -66,6 +68,11 @@ msgid ""
 "on the Welcome Screen|install/mac#tails]].</p>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"next\">\n"
+"<p>Si apareix el carregador d'arrencada, podeu seguir les nostres [["
+"instruccions\n"
+"de la Pantalla de Benvinguda|install/mac#tails]].</p>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
