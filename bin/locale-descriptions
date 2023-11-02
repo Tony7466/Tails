@@ -95,9 +95,11 @@ class LocaleDescriptions:
                     others += f'  {lang}="{locale}"   # {details}\n'
 
         text = others
-        if suggested_add:
-            text += "\n\n## You might want to add this block as-is, but please verify it first!\n"
-            text += f"{suggested_add}"
+        text += (
+            "\n\n## You can add the following block as-is,"
+            " but please verify it first!\n"
+        )
+        text += suggested_add
         return text
 
 

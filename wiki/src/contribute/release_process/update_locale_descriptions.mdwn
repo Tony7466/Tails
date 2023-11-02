@@ -40,7 +40,7 @@ Running this will provide you with suggestions:
 The first part of the output gives you suggestions. For each language, a list of possible locales is shown.
 Pick the ones that you consider more fid, using the methods and principles from [How to manually associate a territory to a language](#get-territory).
 
-The second part of the output is introduced by `## You might want to add this block as-is, but please verify it first!`.
+The second part of the output is introduced by `## You can add the following block as-is, but please verify it first!`.
 
 As it says, you need to verify. Hopefully, copy-pasting will be enough.
 
