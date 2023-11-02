@@ -28,6 +28,7 @@ def copy(e_to, e_from):
     Copies the content from a given entry to a given entry.
     """
     e_to.msgid = e_from.msgid
+    e_to.msgstr = e_from.msgstr
     e_to.occurrences = e_from.occurrences
     e_to.comment = e_from.comment
     e_to.flags = e_from.flags[:]  # clone flags
