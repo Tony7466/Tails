@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-10-21 22:26+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-02 23:11+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -919,13 +919,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "  <pre>Loading, please wait...</pre>\n"
-msgstr ""
+msgstr "  <pre>Loading, please wait...</pre>\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Behave weirdly. For example, your keyboard does not work or you cannot "
 "connect to a network."
 msgstr ""
+"Comportar-se de manera estranya. Per exemple, el vostre teclat no funciona o "
+"no us podeu connectar a una xarxa."
 
 #. type: Plain text
 msgid ""
