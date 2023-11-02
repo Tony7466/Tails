@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 18:11+0000\n"
+"PO-Revision-Date: 2023-11-02 21:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -38,10 +38,12 @@ msgid ""
 "You can connect to a local network using a wired, Wi-Fi, or mobile data "
 "connection:"
 msgstr ""
+"Podeu connectar-vos a una xarxa local mitjançant una connexió de dades per "
+"cable, Wi-Fi o mòbil:"
 
 #. type: Bullet: '1. '
 msgid "Open the system menu in the top-right corner."
-msgstr ""
+msgstr "Obriu el menú del sistema a l'extrem superior dret."
 
 #. type: Plain text
 #, no-wrap
@@ -53,12 +55,17 @@ msgid ""
 "If a wired connection is detected, Tails automatically connects to the "
 "network."
 msgstr ""
+"Si es detecta una connexió per cable, Tails es connecta automàticament a la "
+"xarxa."
 
 #. type: Bullet: '   - '
 msgid ""
 "To connect to a Wi-Fi network, choose <span class=\"guilabel\">Wi-Fi Not "
 "Connected</span> and then <span class=\"guilabel\">Select Network</span>."
 msgstr ""
+"Per connectar-vos a una xarxa Wi-Fi, trieu <span class=\"guilabel\">Wi-Fi No "
+"Connectada</span> i després <span class=\"guilabel\">Seleccioneu la "
+"Xarxa</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -72,6 +79,11 @@ msgid ""
 "   is not working in Tails. See our documentation on [[troubleshooting Wi-Fi\n"
 "   not working|no-wifi]].</p>\n"
 msgstr ""
+"   <p>Si no hi ha cap opció per connectar-vos a una xarxa Wi-Fi, vol dir que "
+"la vostra interfície Wi-Fi\n"
+"   no funciona a Tails. Consulteu la nostra documentació sobre la [["
+"resolució de problemes de\n"
+"   Wi-Fi|no-wifi]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -83,6 +95,8 @@ msgid ""
 "To connect to a mobile data network, choose <span class=\"guilabel\">Mobile "
 "Broadband</span>."
 msgstr ""
+"Per connectar-vos a una xarxa de dades mòbils, trieu <span class=\"guilabel\""
+">Banda ampla mòbil</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -90,6 +104,8 @@ msgid ""
 "   <div class=\"note\">\n"
 "   <p>It is currently impossible to connect to a network using:</p>\n"
 msgstr ""
+"   <div class=\"note\">\n"
+"   <p>Actualment és impossible connectar-se a una xarxa mitjançant:</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -99,12 +115,18 @@ msgid ""
 "   <li>VPNs, see [[the corresponding FAQ|support/faq#vpn]].</li>\n"
 "   </ul>\n"
 msgstr ""
+"   <ul>\n"
+"   <li>Mòdems de connexió telefònica.</li>\n"
+"   <li>VPNs, consulteu [[les PMF corresponents|support/faq#vpn]].</li>\n"
+"   </ul>\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "After you connect to a local network, the *Tor Connection* assistant appears "
 "to help you [[connect to the Tor network|tor]]."
 msgstr ""
+"Després de connectar-vos a una xarxa local, apareix l'assistent de *Connexió "
+"Tor* per ajudar a [[connectar-vos a la xarxa Tor|tor]]."
 
 #. type: Plain text
 #, no-wrap
@@ -118,11 +140,15 @@ msgid ""
 "<span class=\"application\">[[GNOME Help|first_steps/desktop#help]]</span>\n"
 "and choose <span class=\"guilabel\">Networking, web & email</span>.\n"
 msgstr ""
+"Per a més informació, obriu\n"
+"<span class=\"application\">[[l'Ajuda de GNOME|first_steps/"
+"desktop#help]]</span>\n"
+"i trieu <span class=\"guilabel\">Xarxa, web i correu electrònic</span>.\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Saving your network settings"
-msgstr ""
+msgstr "Desar la configuració de la xarxa"
 
 #. type: Plain text
 msgid ""
@@ -131,11 +157,15 @@ msgid ""
 "Connections|persistent_storage/configure#network_connections]] feature of "
 "the Persistent Storage."
 msgstr ""
+"Per recordar la contrasenya de les xarxes Wi-Fi i les configuracions de "
+"xarxa personalitzades en diferents sessions de Tails, activeu la funció [["
+"Connexions de Xarxa|persistent_storage/configure#network_connections]] de "
+"l'Emmagatzematge Persistent."
 
 #. type: Title =
 #, no-wrap
 msgid "Modifying your network settings"
-msgstr ""
+msgstr "Modificació de la configuració de la xarxa"
 
 #. type: Plain text
 msgid ""
@@ -143,6 +173,10 @@ msgid ""
 "automatically connect to a Wi-Fi network, choose **Applications&nbsp;▸ "
 "System Tools&nbsp;▸ Settings&nbsp;▸ Network**."
 msgstr ""
+"Per modificar la configuració de la vostra xarxa, per exemple, per "
+"configurar si us connecteu automàticament o no a una xarxa Wi-Fi, "
+"seleccioneu **Aplicacions&nbsp;▸ Eines del sistema&nbsp;▸ Configuració&nbsp;▸"
+" Xarxa**."
 
 #~ msgid ""
 #~ "If you want to reuse your custom\n"
