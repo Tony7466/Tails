@@ -11,6 +11,37 @@ import subprocess
 import sys
 import pathlib
 
+
+def recover_from_old(e_old, e_new):
+    if not e_old.translated():
+        return False
+
+    if not e_new.translated():
+        return True
+
+    return False
+
+
+def copy(e_to, e_from):
+    """
+    Copies the content from a given entry to a given entry.
+    """
+    e_to.msgid = e_from.msgid
+    e_to.occurrences = e_from.occurrences
+    e_to.comment = e_from.comment
+    e_to.flags = e_from.flags[:]  # clone flags
+    e_to.msgid_plural = e_from.msgid_plural
+    e_to.obsolete = e_from.obsolete
+    if e_from.msgstr_plural:
+        for pos in e_from.msgstr_plural:
+            try:
+                # keep existing translation at pos if any
+                e_to.msgstr_plural[pos]
+            except KeyError:
+                e_to.msgstr_plural[pos] = ''
+
+
+
 logger = logging.getLogger(__name__)
 
 OLD_REF = sys.argv[1]
@@ -22,17 +53,8 @@ diff = old.diff(NEW_REF)
 
 logging.basicConfig()
 
-def recover_from_old(e_old, e_new):
-    if e_old.fuzzy:
-        return False
 
-    if e_new.fuzzy:
-        return True
 
-    if not e_new.msgstr:
-        return True
-
-    return False
 
 changed = False
 
@@ -66,7 +88,7 @@ for i in diff:
 
         if recover_from_old(e_old, e_new):
             changed_file = True
-            e_new.merge(e_old)
+            copy(e_new, e_old)
             if not e_old.fuzzy and e_new.fuzzy:
                 e_new.flags.remove('fuzzy')
 
