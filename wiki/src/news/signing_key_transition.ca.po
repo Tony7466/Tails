@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-10-20 12:26+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-02 19:35+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgid "[[!meta title=\"Transition to a new OpenPGP signing key\"]]\n"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
