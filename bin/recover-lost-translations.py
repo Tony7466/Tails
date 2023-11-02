@@ -17,10 +17,10 @@ def recover_from_old(e_old, e_new):
     if not e_old.translated():
         return False
 
-    if not e_new.translated():
-        return True
+    if e_new.translated():
+        return False
 
-    return False
+    return True
 
 
 def copy(e_to, e_from):
@@ -93,8 +93,6 @@ for i in diff:
         if recover_from_old(e_old, e_new):
             changed_file = True
             copy(e_new, e_old)
-            if not e_old.fuzzy and e_new.fuzzy:
-                e_new.flags.remove('fuzzy')
 
     if changed_file:
         newpath = i.b_path
