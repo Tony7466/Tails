@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-08-10 17:24+0000\n"
-"PO-Revision-Date: 2023-10-22 09:27+0000\n"
+"PO-Revision-Date: 2023-11-02 23:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -25,7 +25,7 @@ msgstr "[[!meta title=\"Xat\"]]\n"
 
 #. type: Plain text
 msgid "Join our XMPP chat room to ask questions about Tails."
-msgstr ""
+msgstr "Uniu-vos a la nostra sala de xat XMPP per fer preguntes sobre Tails."
 
 #. type: Plain text
 msgid ""
@@ -33,6 +33,9 @@ msgid ""
 "[Disroot](https://disroot.org/services/xmpp)  or any other XMPP account "
 "provider."
 msgstr ""
+"Per fer-ho, necessiteu un compte XMPP. Podeu registrar-vos per obtenir un "
+"compte XMPP a [Disroot](https://disroot.org/services/xmpp) o qualsevol altre "
+"proveïdor de comptes XMPP."
 
 #. type: Plain text
 msgid ""
@@ -40,18 +43,21 @@ msgid ""
 "http://www.pidgin.im/]], which runs on Windows, GNU/Linux, and macOS, to "
 "connect to:"
 msgstr ""
+"A continuació, configureu el vostre client de missatgeria instantània "
+"preferit, per exemple [[Pidgin|http://www.pidgin.im/]], que s'executa a "
+"Windows, GNU/Linux i macOS, per connectar-vos a:"
 
 #. type: Bullet: '* '
 msgid "server: `chat.disroot.org`"
-msgstr ""
+msgstr "servidor: `chat.disroot.org`"
 
 #. type: Bullet: '* '
 msgid "room: `tails`"
-msgstr ""
+msgstr "sala: tails"
 
 #. type: Bullet: '* '
 msgid "Use TLS/SSL to connect!"
-msgstr ""
+msgstr "Utilitzeu TLS/SSL per connectar-vos!"
 
 #~ msgid "Our chatroom is an IRC one."
 #~ msgstr "Unser Chatraum ist im IRC."
