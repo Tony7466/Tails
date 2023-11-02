@@ -6,6 +6,7 @@
 import git
 import polib
 
+import argparse
 import logging
 import subprocess
 import sys
@@ -44,12 +45,15 @@ def copy(e_to, e_from):
 
 logger = logging.getLogger(__name__)
 
-OLD_REF = sys.argv[1]
-NEW_REF = sys.argv[2]
+parser = argparse.ArgumentParser()
+parser.add_argument('--width', '-w', type=int, default=80, help='Width to wrap lines')
+parser.add_argument('old_ref', help='commit before the probleatic commit')
+parser.add_argument('new_ref', default='HEAD', help='commit onto you recover. normally you want  to use HEAD here.', nargs='?')
+args = parser.parse_args()
 
 repo = git.Repo("")
-old = repo.commit(OLD_REF)
-diff = old.diff(NEW_REF)
+old = repo.commit(args.old_ref)
+diff = old.diff(args.new_ref)
 
 logging.basicConfig()
 
@@ -70,13 +74,13 @@ for i in diff:
     try:
         pofile_old = polib.pofile(i.a_blob.data_stream.read().decode("utf-8"), encoding="utf-8", wrapwidth=79)
     except OSError as e:
-        logger.warning(f"{i.a_path}@{OLD_REF}: {e}")
+        logger.warning(f"{i.a_path}@{args.old_ref}: {e}")
         continue
 
     try:
         pofile_new = polib.pofile(i.b_blob.data_stream.read().decode("utf-8"), encoding="utf-8", wrapwidth=79)
     except OSError as e:
-        logger.warning(f"{i.b_path}@{NEW_REF}: {e}")
+        logger.warning(f"{i.b_path}@{args.new_ref}: {e}")
         continue
 
     changed_file = False
@@ -94,7 +98,7 @@ for i in diff:
 
     if changed_file:
         newpath = i.b_path
-        subprocess.run(['msgconv', '-w', '79', '-t', 'utf-8' ,'-o', str(git_base/newpath)],
+        subprocess.run(['msgcat', '--width', str(args.width), '-t', 'utf-8' ,'-o', str(git_base/newpath), '-'],
                        input=pofile_new.__unicode__().encode('utf-8'),
                        check=True)
         changed = True
