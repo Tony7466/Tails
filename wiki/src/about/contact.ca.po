@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-29 07:10+0000\n"
-"PO-Revision-Date: 2023-10-18 13:26+0000\n"
+"PO-Revision-Date: 2023-11-02 21:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,16 +21,19 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Contact\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Contacte\"]]\n"
 
 #. type: Plain text
 msgid ""
 "There are many ways to contact us, depending on what you want to talk about."
 msgstr ""
+"Hi ha moltes maneres de contactar amb nosaltres, depenent del que vulgueu "
+"parlar."
 
 #. type: Plain text
 msgid "All mailing lists are in English unless specified otherwise."
 msgstr ""
+"Totes les llistes de correu son en anglès tret que s'especifiqui el contrari."
 
 #. type: Plain text
 #, no-wrap
@@ -40,7 +43,7 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"public-mailing-lists\">Public mailing lists</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"public-mailing-lists\">Llistes de correu públiques</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -54,6 +57,10 @@ msgid ""
 "send compromising information. Please respect the\n"
 "[[code of conduct|contribute/working_together/code_of_conduct/]].</p>\n"
 msgstr ""
+"<p>Aquestes llistes de correu són públiques: la subscripció està oberta a "
+"tothom. No\n"
+"envieu informació comprometedora. Respecteu el\n"
+"[[codi de conducta|contribute/working_together/code_of_conduct/]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -71,6 +78,9 @@ msgid ""
 "email. It has a low traffic and it is the right place to stay up-to-date "
 "with the releases and security announcements."
 msgstr ""
+"amnesia-news@boum.org és la llista de correu on enviem les nostres "
+"[[notícies|news]] per correu electrònic. Té un trànsit baix i és el lloc "
+"adequat per estar al dia dels llançaments i dels anuncis de seguretat."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -94,6 +104,8 @@ msgid ""
 "Public archive of amnesia-news: <https://lists.autistici.org/list/amnesia-"
 "news.html>."
 msgstr ""
+"Arxiu públic d'amnesia-news: <https://lists.autistici.org/list/amnesia-news."
+"html>."
 
 #. type: Plain text
 #, no-wrap
@@ -130,6 +142,9 @@ msgid ""
 "technical design questions, upcoming events, monthly reports, and user "
 "experience."
 msgstr ""
+"tails-dev@boum.org és la llista de correu on es coordina el projecte: "
+"preguntes de disseny tècnic, propers esdeveniments, informes mensuals i "
+"experiència d'usuari."
 
 #. type: Plain text
 #, no-wrap
@@ -154,6 +169,8 @@ msgid ""
 "Public archive of tails-dev: <https://lists.autistici.org/list/tails-dev."
 "html>."
 msgstr ""
+"Arxiu públic de tails-dev: <https://lists.autistici.org/list/tails-dev.ca."
+"html>."
 
 #. type: Plain text
 #, no-wrap
@@ -189,6 +206,8 @@ msgid ""
 "tails-testers@boum.org is the mailing list for people who want to help "
 "[[test|contribute/how/testing]] new releases or features."
 msgstr ""
+"tails-testers@boum.org és la llista de correu per a persones que volen "
+"ajudar a [[provar|contribute/how/testing]] noves versions o funcions."
 
 #. type: Plain text
 #, no-wrap
@@ -213,6 +232,8 @@ msgid ""
 "Public archive of tails-testers: <https://lists.autistici.org/list/tails-"
 "testers.html>."
 msgstr ""
+"Arxiu públic de tails-testers: <https://lists.autistici.org/list/tails-"
+"testers.ca.html>."
 
 #. type: Plain text
 #, no-wrap
@@ -254,6 +275,8 @@ msgstr ""
 #, no-wrap
 msgid "<h1 id=\"private-email-addresses\">Private email addresses</h1>\n"
 msgstr ""
+"<h1 id=\"private-email-addresses\">Adreces de correu electrònic privades</h1>"
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -271,6 +294,9 @@ msgid ""
 "You can write encrypted emails to <tails-support-private@boum.org> if\n"
 "you need help in private.\n"
 msgstr ""
+"Podeu escriure correus electrònics encriptats a <tails-support-private@"
+"boum.org> si\n"
+"necessiteu ajuda en privat.\n"
 
 #. type: Plain text
 msgid ""
@@ -290,6 +316,10 @@ msgid ""
 "send us links to [[press articles|press]] about Tails, write to\n"
 "<tails-press@boum.org>.\n"
 msgstr ""
+"Si sou periodista i voleu escriure sobre Tails, o si voleu\n"
+"enviar-nos enllaços a [[articles de premsa|press]] sobre Tails, escriu-nos "
+"a\n"
+"<tails-press@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
@@ -306,6 +336,8 @@ msgstr "<h2 id=\"tails-accounting\">tails-accounting</h2>\n"
 #, no-wrap
 msgid "If you want to contact our accounting team, write to <tails-accounting@boum.org>.\n"
 msgstr ""
+"Si voleu contactar amb el nostre equip de comptabilitat, escriviu a <tails-"
+"accounting@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
@@ -324,6 +356,8 @@ msgstr "<h2 id=\"tails-fundraising\">tails-fundraising</h2>\n"
 #, no-wrap
 msgid "If you want to contact our fundraising team, write to <tails-fundraising@boum.org>.\n"
 msgstr ""
+"Si voleu contactar amb el nostre equip de recaptació de fons, escriviu a "
+"<tails-fundraising@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
@@ -345,6 +379,10 @@ msgid ""
 "Team|contribute/working_together/roles/foundations_team]], write to\n"
 "<tails-foundations@boum.org>.\n"
 msgstr ""
+"Per posar-se en contacte amb el [[Foundations\n"
+"Team|contribute/working_together/roles/foundations_team]] de Tails, escriviu "
+"a\n"
+"<tails-foundations@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
@@ -362,6 +400,7 @@ msgstr "<h2 id=\"tails-mirrors\">tails-mirrors</h2>\n"
 #. type: Plain text
 msgid "If you want to operate a Tails mirror, see [[contribute/how/mirror]]."
 msgstr ""
+"Si voleu fer funcionar un mirall de Tails, vegeu [[contribute/how/mirror]]."
 
 #. type: Plain text
 #, no-wrap
@@ -369,6 +408,8 @@ msgid ""
 "To get in touch with the team that manages our pool of mirror,\n"
 "write to <tails-mirrors@boum.org>.\n"
 msgstr ""
+"Per posar-vos en contacte amb l'equip que gestiona els nostres miralls,\n"
+"escriviu a <tails-mirrors@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
@@ -389,6 +430,9 @@ msgid ""
 "To talk about our infrastructure (servers, test suite, repositories,\n"
 "mirrors, etc.), write to <tails-sysadmins@boum.org>.\n"
 msgstr ""
+"Per parlar de la nostra infraestructura (servidors, suite de proves, "
+"repositoris,\n"
+"miralls, etc.), escriviu a <tails-sysadmins@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
@@ -407,6 +451,8 @@ msgstr "<h2 id=\"tails-weblate\">tails-weblate</h2>\n"
 #, no-wrap
 msgid "To talk about the [[Tails translation platform|contribute/how/translate/with_translation_platform]], write to <tails-weblate@boum.org>.\n"
 msgstr ""
+"Per parlar de la [[plataforma de traducció de Tails|contribute/how/translate/"
+"with_translation_platform]], escriviu a <tails-weblate@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
@@ -427,6 +473,9 @@ msgid ""
 "You can write to the Board at <tails-board@boum.org> about sponsorship requests\n"
 "and governance issues.\n"
 msgstr ""
+"Podeu escriure a la Junta a <tails-board@boum.org> sobre les sol·licituds de "
+"patrocini\n"
+"i qüestions de govern.\n"
 
 #. type: Plain text
 msgid ""
@@ -444,6 +493,9 @@ msgid ""
 "For matters that are listed in none of the above and for vulnerabilities "
 "disclosures, you can write encrypted emails to <tails@boum.org>."
 msgstr ""
+"Per a qüestions que no s'inclouen en cap de les anteriors opcions i per a "
+"divulgació de vulnerabilitats, podeu escriure correus electrònics encriptats "
+"a <tails@boum.org>."
 
 #. type: Plain text
 msgid ""
