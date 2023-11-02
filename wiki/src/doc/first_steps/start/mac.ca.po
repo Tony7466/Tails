@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
 "PO-Revision-Date: 2023-11-02 22:58+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -86,7 +86,7 @@ msgid ""
 "Boot Loader does not display:"
 msgstr ""
 "Utilitzeu aquesta secció si l'ordinador no s'inicia des del llapis USB i el "
-"carregador d'arrencada no es mostra:"
+"Carregador d'Arrencada no es mostra:"
 
 #. type: Plain text
 #, no-wrap
