@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-02 22:58+0000\n"
+"PO-Revision-Date: 2023-11-02 23:11+0000\n"
 "Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -163,7 +163,7 @@ msgstr ""
 msgid "<h1 id=\"not-entirely\">Troubleshooting Tails not starting after the Boot Loader</h1>\n"
 msgstr ""
 "<h1 id=\"not-entirely\">Resolució de problemes quan Tails no s'inicia "
-"després del carregador d'arrencada</h1>\n"
+"després del Carregador d'Arrencada</h1>\n"
 
 #. type: Plain text
 #, no-wrap
