@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-10-01 16:15+0000\n"
 "PO-Revision-Date: 2023-11-02 21:11+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
 msgid "ISO images of amnesia 0.3 for pre-Intel Apple Macs are released."
-msgstr "Es publiquen imatges ISO de l'amnèsia 0.3 per a Apple Macs pre-Intel."
+msgstr "Es publiquen imatges ISO d'amnesia 0.3 per a Apple Macs pre-Intel."
 
 #. type: Plain text
 msgid ""
