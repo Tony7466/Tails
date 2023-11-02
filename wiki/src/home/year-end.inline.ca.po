@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-27 09:15+0000\n"
 "PO-Revision-Date: 2023-11-02 23:12+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -30,22 +30,29 @@ msgid ""
 "That's why we give out Tails for free. However, keeping Tails secure, "
 "constantly improving, and accessible costs money."
 msgstr ""
+"És per això que donem Tails de forma gratuïta. Tanmateix, mantenir Tails "
+"segur, millorant constantment i accessible costa diners."
 
 #. type: Content of: <div><div><p>
 msgid ""
 "When you donate, you are keeping safe the thousands of other people who rely "
 "on Tails and cannot donate."
 msgstr ""
+"Quan fas una donació, protegeixes els milers d'altres persones que depenen "
+"de Tails i que no poden donar."
 
 #. type: Content of: <div><div><p>
 msgid ""
 "<span class=\"highlight\">If everyone reading this gave $5, our fundraiser "
 "would be done in one day.</span> The price of a USB stick is all we need."
 msgstr ""
+"<span class=\"highlight\">Si tothom que llegeix això donés 5 dòlars, la "
+"nostra recaptació de fons es faria en un dia.</span> El preu d'un llapis USB "
+"és tot el que necessitem."
 
 #. type: Content of: <div><div><p>
 msgid "[[Donate now to fight surveillance and censorship!|donate]]"
-msgstr ""
+msgstr "[[Dona ara per lluitar contra la vigilància i la censura!|donate]]"
 
 #. type: Content of: <div><div>
 msgid "[[!img tails_net_donate.png link=\"no\" alt=\"\"]]"
@@ -53,4 +60,4 @@ msgstr "[[!img tails_net_donate.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "<i>Scan to donate from your phone.</i>"
-msgstr ""
+msgstr "<i>Escaneja per fer una donació des del teu telèfon.</i>"
