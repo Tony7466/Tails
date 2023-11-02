@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-09 12:39+0000\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-02 19:30+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Sponsors\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Patrocinadors\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -36,30 +36,37 @@ msgid ""
 "Tails through grants, awards, or donations. Thanks to their substantial "
 "support we are able to maintain and improve Tails. Thank you!"
 msgstr ""
+"Aquestes organitzacions, empreses i persones han ofert suport financer a "
+"Tails mitjançant subvencions, premis o donacions. Gràcies al seu suport "
+"substancial podem mantenir i millorar Tails. Gràcies!"
 
 #. type: Content of: <h1>
 msgid "Becoming a sponsor"
-msgstr ""
+msgstr "Fer-se patrocinador"
 
 #. type: Content of: <p>
 msgid ""
 "Are you a company or organization and want to help Tails? [[Become a "
 "sponsor!|sponsors/become]]"
 msgstr ""
+"Sou una empresa o organització i voleu ajudar a Tails? [[Convertiu-vos en "
+"patrocinador!|sponsors/become]]"
 
 #. type: Content of: <p>
 msgid ""
 "Are you an individual and want to help Tails? [[We warmly welcome your "
 "donations!|donate]]"
 msgstr ""
+"Sou un particular i voleu ajudar a Tails? [[Rebem agraïts les vostres "
+"donacions!|donate]]"
 
 #. type: Content of: <h1>
 msgid "Current sponsors"
-msgstr ""
+msgstr "Patrocinadors actuals"
 
 #. type: Content of: <p>
 msgid "&gt; $100&#8239;000"
-msgstr ""
+msgstr "&gt; 100&#8239;000$"
 
 #. type: Attribute 'title' of: <div><p>
 msgid ""
