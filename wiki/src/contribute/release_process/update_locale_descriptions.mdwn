@@ -26,6 +26,11 @@ see [How to manually associate a territory to a language](#get-territory).
 
 Add it to `po/po-to-mozilla.toml`, in the `extra_languages` list (which itself is in the `[extra]` section).
 
+Finally, run
+
+    ./bin/locale-descriptions generate > config/chroot_local-includes/usr/share/tails/browser-localization/descriptions
+
+
 
 <a id="add-new"></a>
 How to add new locales
@@ -43,6 +48,10 @@ Pick the ones that you consider more fid, using the methods and principles from 
 The second part of the output is introduced by `## You can add the following block as-is, but please verify it first!`.
 
 As it says, you need to verify. Hopefully, copy-pasting will be enough.
+
+Finally, run
+
+    ./bin/locale-descriptions generate > config/chroot_local-includes/usr/share/tails/browser-localization/descriptions
 
 <a id="get-territory">
 How to manually associate a territory to a language
