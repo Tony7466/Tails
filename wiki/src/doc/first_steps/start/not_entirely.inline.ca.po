@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:41-0600\n"
-"PO-Revision-Date: 2023-10-22 18:11+0000\n"
+"PO-Revision-Date: 2023-10-31 17:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -34,7 +34,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2>Verify your Tails USB stick</h2>\n"
-msgstr ""
+msgstr "<h2>Verifiqueu el vostre llapis USB de Tails</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -53,22 +53,29 @@ msgid ""
 "In the Boot Loader, choose the **Troubleshooting Mode** entry, which works "
 "better on some computers."
 msgstr ""
+"Al carregador d'arrencada, trieu l'entrada **Mode de resolució de problemes ("
+"Troubleshooting Mode)**, que funciona millor en alguns ordinadors."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"external-hard-disk\">Try the External Hard Disk entry</h2>\n"
 msgstr ""
+"<h2 id=\"external-hard-disk\">Proveu l'entrada del disc dur extern</h2>\n"
 
 #. type: Plain text
 msgid ""
 "In the Boot Loader, choose the **External Hard Disk** entry, if it is "
 "available. Some USB sticks need this entry in order to start Tails."
 msgstr ""
+"Al carregador d'arrencada, trieu l'entrada **Disc dur extern**, si està "
+"disponible. Alguns llapis USB necessiten aquesta entrada per iniciar Tails."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"known-issues-not-entirely\">Check our list of known issues</h2>\n"
 msgstr ""
+"<h2 id=\"known-issues-not-entirely\">Consulteu la nostra llista de problemes "
+"coneguts</h2>\n"
 
 #. type: Bullet: '- '
 msgid ""
@@ -76,6 +83,9 @@ msgid ""
 "graphics card**, refer to our [[list of known issues with graphics cards|"
 "support/known_issues/graphics]]."
 msgstr ""
+"Si l'ordinador mostra el missatge d'error **Error starting GDM with your "
+"graphics card**, consulteu la nostra [[llista de problemes coneguts amb les "
+"targetes gràfiques|support/known_issues/graphics]]."
 
 #. type: Bullet: '- '
 msgid ""
@@ -83,6 +93,9 @@ msgid ""
 "entirely|support/known_issues#not-entirely]]. It might contain workarounds "
 "for your computer model."
 msgstr ""
+"En cas contrari, consulteu la nostra [[llista de problemes coneguts sobre "
+"Tails quan no s'inicia del tot|support/known_issues#not-entirely]]. Pot "
+"contenir solucions alternatives per al vostre model d'ordinador."
 
 #, fuzzy
 #~ msgid "        <div class=\"note\">\n"

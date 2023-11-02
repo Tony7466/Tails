@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-25 15:41-0600\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-02 17:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -84,6 +84,8 @@ msgstr ""
 #, no-wrap
 msgid "<h1 id=\"install\" class=\"step\">Install an intermediary Tails using <em>GNOME Disks</em></h1>\n"
 msgstr ""
+"<h1 id=\"install\" class=\"step\">Instal·leu un Tails intermediari "
+"mitjançant <em>Discs de GNOME</em></h1>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -95,6 +97,8 @@ msgid ""
 "In this step, you will install an intermediary Tails using the Tails USB "
 "image that you downloaded earlier."
 msgstr ""
+"En aquest pas, instal·lareu un Tails intermediari mitjançant la imatge USB "
+"de Tails que heu baixat anteriorment."
 
 #. type: Plain text
 #, no-wrap

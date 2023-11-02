@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-01 11:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -77,7 +77,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 class=\"step\">Continue installing or upgrading Tails</h1>\n"
-msgstr ""
+msgstr "<h1 class=\"step\">Continueu instal·lant o actualitzant Tails</h1>\n"
 
 #. type: Plain text
 msgid "With this USB image, you can either:"
@@ -109,21 +109,23 @@ msgstr ""
 
 #. type: Bullet: '  * '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  * '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  * '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Bullet: '  * '
 msgid ""
 "[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
 "expert]]"
 msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
 
 #. type: Plain text
 msgid ""

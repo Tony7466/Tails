@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-10-31 17:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,29 +21,35 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Shutting down Tails\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Apagar Tails\"]]\n"
 
 #. type: Plain text
 msgid "There are several ways of shutting down Tails:"
-msgstr ""
+msgstr "Hi ha diverses maneres d'apagar Tails:"
 
 #. type: Bullet: '- '
 msgid ""
 "By clicking on the system menu located in the upper right corner of the "
 "screen and choosing either:"
 msgstr ""
+"Fent clic al menú del sistema situat a la cantonada superior dreta de la "
+"pantalla i escollint:"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[!img lib/system-shutdown.png link=\"no\" class=\"symbolic\" alt=\"Shutdown "
 "icon\"]] to shutdown the computer or"
 msgstr ""
+"[[!img lib/system-shutdown.png link=\"no\" class=\"symbolic\" alt=\"icona d'"
+"apagar\"]] per apagar l'ordinador o"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[!img lib/view-refresh.png link=\"no\" class=\"symbolic\" alt=\"Restart icon"
 "\"]] to restart the computer."
 msgstr ""
+"[[!img lib/view-refresh.png link=\"no\" class=\"symbolic\" alt=\"icona de "
+"reiniciar\"]] per reiniciar l'ordinador."
 
 #. type: Plain text
 #, no-wrap
@@ -54,6 +60,8 @@ msgstr "  [[!img desktop/system.png link=\"no\"]]\n"
 msgid ""
 "- By physically removing the USB stick or DVD that Tails is running from."
 msgstr ""
+"- Traient físicament el llapis USB o el DVD des del qual s'està executant "
+"Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -66,6 +74,9 @@ msgid ""
 "  <p>Only physically remove the USB stick in case of emergency as doing\n"
 "  so can sometimes break the file system of the Persistent Storage.</p>\n"
 msgstr ""
+"  <p>Traieu físicament el llapis USB només en cas d'emergència ja que\n"
+"  de vegades pot trencar el sistema de fitxers de l'Emmagatzematge "
+"Persistent.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -75,6 +86,12 @@ msgid ""
 "  the Persistent Storage|persistent_storage/check]]\n"
 "  to fix it.</p>\n"
 msgstr ""
+"  <p>Si després d'eliminar físicament el llapis USB ja no podeu "
+"desbloquejar\n"
+"  l'Emmagatzematge Persistent, proveu de fer una [[comprovació del sistema "
+"de fitxers\n"
+"  de l'Emmagatzematge Persistent|persistent_storage/check]]\n"
+"  per solucionar-ho.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -89,3 +106,8 @@ msgid ""
 "to protect you from [[cold boot\n"
 "attacks|doc/advanced_topics/cold_boot_attacks]].\n"
 msgstr ""
+"Quan tanqueu Tails, totes les dades emmagatzemades a la memòria [[!"
+"wikipedia\n"
+"Random-access_memory desc=\"RAM\"]] s'esborren\n"
+"per protegir-vos d'[[atacs d'arrencada\n"
+"en fred|doc/advanced_topics/cold_boot_attacks]].\n"

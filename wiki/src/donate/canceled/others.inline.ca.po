@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-07-29 17:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-10-31 15:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -25,12 +25,14 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1>Other ways to donate</h1>\n"
-msgstr ""
+msgstr "<h1>Altres maneres de fer una donació</h1>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<p>One of the other ways to donate to Tails might be better for you:</p>\n"
 msgstr ""
+"<p>Una de les altres maneres de fer una donació a Tails podria resultar-vos "
+"millor:</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,8 +45,16 @@ msgid ""
 "  <li>[[Corporate matching programs|donate#corporate]]</li>\n"
 "</ul>\n"
 msgstr ""
+"<ul>\n"
+"  <li>[[Transferència bancària|donate#transfer]]</li>\n"
+"  <li>[[Efectiu|donate#post]]</li>\n"
+"  <li>[[Xec dels EUA|donate#post]]</li>\n"
+"  <li>[[Criptomonedes|donate#cryptos]]</li>\n"
+"  <li>[[Programes de concordança corporatius|donate#corporate]]</li>\n"
+"</ul>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<p>See our [[donation page|donate]] for more details.</p>\n"
 msgstr ""
+"<p>Consulteu la nostra [[pàgina de donació|donate]] per a més detalls.</p>\n"

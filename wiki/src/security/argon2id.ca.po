@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-30 16:11+0000\n"
+"PO-Revision-Date: 2023-10-31 15:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -26,7 +26,7 @@ msgstr "[[!meta date=\"Tue, 14 Jun 2023 12:34:56 -0000\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Weak cryptographic parameters in LUKS1\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Paràmetres criptogràfics febles a LUKS1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,6 +43,9 @@ msgid ""
 "The cryptographic parameters of LUKS from Tails 5.12 or earlier are weak "
 "against a state-sponsored attacker with physical access to your device."
 msgstr ""
+"Els paràmetres criptogràfics de LUKS de Tails 5.12 o anteriors són febles "
+"contra un atacant patrocinat per l'estat amb accés físic al vostre "
+"dispositiu."
 
 #. type: Plain text
 #, no-wrap
@@ -51,21 +54,27 @@ msgid ""
 "LUKS encrypted volumes unless you use a long passphrase of 5 random words or\n"
 "more.**\n"
 msgstr ""
+"**Us recomanem que canvieu la contrasenya del vostre Emmagatzematge "
+"Persistent i altres\n"
+"volums encriptats amb LUKS tret que utilitzeu una contrasenya llarga de cinc "
+"paraules aleatòries o\n"
+"més.**\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!toc levels=2]]\n"
-msgstr ""
+msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"understanding\">Understanding the weakness and its solution</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"understanding\">Entendre la debilitat i la seva solució</h1>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"race\">The arms race to protect from brute-force attacks</h2>\n"
 msgstr ""
+"<h2 id=\"race\">La carrera per protegir-se dels atacs de força bruta</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -74,12 +83,20 @@ msgid ""
 "until they guess your passphrase and unlock the encryption. This type of "
 "attack is called a *[[!wikipedia brute-force attack]]*."
 msgstr ""
+"A tota la tecnologia d'encriptatge que protegeix les dades d'un disc o una "
+"memòria USB amb una contrasenya o una frase de contrasenya, un atacant pot "
+"provar totes les combinacions possibles fins que endevini la vostra "
+"contrasenya i desbloquegi l'encriptatge. Aquest tipus d'atac s'anomena *[["
+"!wikipedia brute-force attack desc=\"atac de força bruta\"]]*."
 
 #. type: Plain text
 msgid ""
 "A strong password makes brute-force attacks slower and more expensive. The "
 "longer the passphrase, the more expensive the brute-force attack becomes."
 msgstr ""
+"Una contrasenya segura fa que els atacs de força bruta siguin més lents i "
+"més cars. Com més llarga sigui la contrasenya, més car serà l'atac de força "
+"bruta."
 
 #. type: Plain text
 msgid ""
@@ -88,6 +105,10 @@ msgid ""
 "complicated calculations on each passphrase before being able to try to "
 "unlock the encryption with the result of this calculation."
 msgstr ""
+"Alguns paràmetres criptogràfics també poden fer que cada suposició d'un atac "
+"de força bruta sigui més lenta i més cara, per exemple, en haver de fer "
+"alguns càlculs complicats a cada contrasenya abans de poder intentar "
+"desbloquejar l'encriptatge amb el resultat d'aquest càlcul."
 
 #. type: Plain text
 msgid ""
@@ -96,6 +117,11 @@ msgid ""
 "encryption fast and usable by users while making brute-force attacks as "
 "expensive as possible for attackers."
 msgstr ""
+"Amb els anys, els ordinadors es tornen més ràpids i més barats. Les "
+"tecnologies d'encriptatge actualitzen periòdicament els seus paràmetres per "
+"trobar un equilibri entre fer que l'encriptació sigui ràpida i utilitzable "
+"pels usuaris, alhora que fer que els atacs de força bruta siguin tan cars "
+"com sigui possible per als atacants."
 
 #. type: Plain text
 msgid ""
@@ -105,11 +131,16 @@ msgid ""
 "if it would take thousands of years even with the most powerful "
 "supercomputers."
 msgstr ""
+"Els paràmetres d'encriptatge forts *combinats* amb una contrasenya forta fan "
+"que els atacs de força bruta siguin tan lents i tan cars que siguin "
+"impossibles de fer a la pràctica. Per exemple, un atac de força bruta és "
+"impossible de fer a la pràctica si triguessin milers d'anys fins i tot amb "
+"els super-ordinadors més potents."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"comparison\">Strength of Argon2id compared to PBKDF2</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"comparison\">Força d'Argon2id en comparació amb PBKDF2</h2>\n"
 
 #. type: Plain text
 msgid ""

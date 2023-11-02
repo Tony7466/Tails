@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-06-13 14:17+0200\n"
-"PO-Revision-Date: 2023-07-29 17:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-01 11:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -35,36 +35,48 @@ msgid ""
 "}\n"
 "</style>\n"
 msgstr ""
+"<style>\n"
+"/* Mostra \"*Navegador Insegur*\" en comptes de \"aquest navegador\" en /doc/"
+"anonymous_internet/unsafe_browser i /misc/unsafe_browser_warning */\n"
+".doc {\n"
+"  display: inline-block;\n"
+"}\n"
+".warning {\n"
+"  display: none;\n"
+"}\n"
+"</style>\n"
 
 #. type: Plain text
 msgid "To sign in to a network using a captive portal:"
-msgstr ""
+msgstr "Per iniciar sessió a una xarxa mitjançant un portal captiu:"
 
 #. type: Bullet: '1. '
 msgid ""
 "Try visiting an innocent-looking website that is common in your location, "
 "for example, a search engine or news site:"
 msgstr ""
+"Proveu a visitar un lloc web d'aspecte innocent que sigui habitual a la "
+"vostra ubicació, per exemple, un motor de cerca o un lloc web de notícies:"
 
 #. type: Bullet: '   - '
 msgid "<a href=\"http://google.com/\" target=\"_blank\">Google</a>"
-msgstr ""
+msgstr "<a href=\"http://google.com/\" target=\"_blank\">Google</a>"
 
 #. type: Bullet: '   - '
 msgid "<a href=\"http://linkedin.com/\" target=\"_blank\">LinkedIn</a>"
-msgstr ""
+msgstr "<a href=\"http://linkedin.com/\" target=\"_blank\">LinkedIn</a>"
 
 #. type: Bullet: '   - '
 msgid "<a href=\"http://duckduckgo.com/\" target=\"_blank\"/>DuckDuckGo</a>"
-msgstr ""
+msgstr "<a href=\"http://duckduckgo.com/\" target=\"_blank\"/>DuckDuckGo</a>"
 
 #. type: Bullet: '   - '
 msgid "<a href=\"http://baidu.com/\" target=\"_blank\"/>Baidu</a>"
-msgstr ""
+msgstr "<a href=\"http://baidu.com/\" target=\"_blank\"/>Baidu</a>"
 
 #. type: Bullet: '1. '
 msgid "If you are redirected to a captive portal, sign in to the network."
-msgstr ""
+msgstr "Si se us redirigeix a un portal captiu, inicieu sessió a la xarxa."
 
 #. type: Plain text
 #, no-wrap
@@ -75,12 +87,19 @@ msgid ""
 "   <span class=\"doc\">the <i>Unsafe Browser</i></span>\n"
 "   and try connecting to the Tor network again.\n"
 msgstr ""
+"   Si no se us redirigeix a un portal captiu i el lloc web es carrega,\n"
+"   això vol dir que ja esteu connectat a Internet. Tanqueu\n"
+"   <span class=\"warning\">aquest navegador</span>\n"
+"   <span class=\"doc\">el <i>Navegador Insegur</i></span>\n"
+"   i torneu a provar de connectar-vos a la xarxa Tor.\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "After Tails is connected to Tor, close <span class=\"warning\">this browser."
 "</span> <span class=\"doc\">the <i>Unsafe Browser</i>.</span>"
 msgstr ""
+"Quan Tails estigui connectat a Tor, tanqueu <span class=\"warning\">aquest "
+"navegador.</span> <span class=\"doc\">el <i>Navegador Insegur</i>.</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -95,6 +114,12 @@ msgid ""
 "   If you keep the <i>Unsafe Browser</i> open, a very advanced network attacker\n"
 "   might use it to deanonymize you.</p>\n"
 msgstr ""
+"   <p>És especialment important que tanqueu el <i>Navegador Insegur</i> si\n"
+"   utilitzeu funcions d'accessibilitat com el teclat de pantalla o el lector "
+"de pantalla.\n"
+"   Si manteniu el <i>Navegador Insegur</i> obert, un atacant de xarxa molt "
+"avançat\n"
+"   podria utilitzar-lo per desanonimitzar-vos.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -105,3 +130,5 @@ msgstr "   </div>\n"
 #, no-wrap
 msgid "   You can use *Tor Browser* or any other application as usual.\n"
 msgstr ""
+"   Podeu utilitzar el *Navegador Tor* o qualsevol altra aplicació com de "
+"costum.\n"

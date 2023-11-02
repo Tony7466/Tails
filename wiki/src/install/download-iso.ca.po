@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-02 17:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,6 +21,7 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Download and verify (for DVDs and virtual machines)\"]]\n"
 msgstr ""
+"[[!meta title=\"Baixar i verificar (per a DVD i màquines virtuals)\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -83,23 +84,28 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 class=\"step\">Continue installing or upgrading Tails</h1>\n"
-msgstr ""
+msgstr "<h1 class=\"step\">Continueu instal·lant o actualitzant Tails</h1>\n"
 
 #. type: Plain text
 msgid "With this ISO image, you can either:"
-msgstr ""
+msgstr "Amb aquesta imatge ISO, podeu:"
 
 #. type: Plain text
 msgid ""
 "- [[Burn a Tails DVD|dvd]] - [[Use Tails in a virtual machine|doc/"
 "advanced_topics/virtualization]]"
 msgstr ""
+"- [[Enregistrar un DVD de Tails|dvd]]\n"
+"- [[Utilitzar Tails en una màquina virtual|doc/advanced_topics/"
+"virtualization]]"
 
 #. type: Plain text
 msgid ""
 "To install or upgrade Tails on a USB stick, download our [[USB image|"
 "download]] instead."
 msgstr ""
+"Per instal·lar o actualitzar Tails en un llapis USB, baixeu la nostra [["
+"imatge USB|download]]."
 
 #. type: Plain text
 #, no-wrap
