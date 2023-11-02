@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-09 07:47+0200\n"
 "PO-Revision-Date: 2023-11-02 23:12+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -124,7 +124,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "  <p>Congratulations on staying safe :)</p>\n"
-msgstr "  <p>Enhorabona per mantenir-vos segur</p>\n"
+msgstr "  <p>Enhorabona per mantenir-vos segur :)</p>\n"
 
 #. type: Plain text
 #, no-wrap
