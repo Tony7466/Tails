@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-10-01 16:15+0000\n"
-"PO-Revision-Date: 2023-11-02 19:35+0000\n"
+"PO-Revision-Date: 2023-11-02 21:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -34,7 +34,7 @@ msgid "[[!meta title=\"Tails testers mailing list\"]]\n"
 msgstr "[[!meta title=\"Llista de correu dels provadors de Tails\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
