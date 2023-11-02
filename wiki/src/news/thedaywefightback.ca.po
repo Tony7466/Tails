@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-10-01 16:15+0000\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-11-02 21:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Today we fight back\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Avui lluitem\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -39,6 +39,10 @@ msgid ""
 "asks legislators to oppose the FISA Improvements Act, support the USA "
 "Freedom Act, and enact protections for non-Americans."
 msgstr ""
+"\"El dia que lluitem\" és un dia de protesta contra la vigilància massiva. "
+"Demana als legisladors que s'oposin a la Llei de millores de la FISA, que "
+"donin suport a la Llei de llibertat dels EUA i que promulguin proteccions "
+"per als no nord-americans."
 
 #. type: Plain text
 #, no-wrap
