@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
 "PO-Revision-Date: 2023-11-02 22:57+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -78,12 +78,15 @@ msgstr ""
 #, no-wrap
 msgid "<h1 id=\"not-at-all\">Troubleshooting Tails not starting at all</h1>\n"
 msgstr ""
+"<h1 id=\"not-at-all\">Resolució de problemes quan Tails no s'inicia</h1>\n"
 
 #. type: Plain text
 msgid ""
 "Use this section if the computer does not start from the USB stick and the "
 "Boot Loader does not display:"
 msgstr ""
+"Utilitzeu aquesta secció si l'ordinador no s'inicia des del llapis USB i el "
+"carregador d'arrencada no es mostra:"
 
 #. type: Plain text
 #, no-wrap
