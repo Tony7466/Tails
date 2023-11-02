@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-01 11:11+0000\n"
+"PO-Revision-Date: 2023-11-02 21:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -22,16 +22,19 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Changing the passphrase of the Persistent Storage\"]]\n"
 msgstr ""
+"[[!meta title=\"Canviar la contrasenya de l'Emmagatzematge Persistent\"]]\n"
 
 #. type: Plain text
 msgid "To change the passphrase of your Persistent Storage:"
-msgstr ""
+msgstr "Per canviar la contrasenya del vostre Emmagatzematge Persistent:"
 
 #. type: Bullet: '1. '
 msgid ""
 "Choose **Applications**&nbsp;▸ **Tails**&nbsp;▸ **Persistent Storage** to "
 "open the Persistent Storage settings."
 msgstr ""
+"Trieu **Aplicacions**&nbsp;▸ **Tails**&nbsp;▸ **Emmagatzematge Persistent** "
+"per obrir la configuració de l'Emmagatzematge Persistent."
 
 #. type: Bullet: '1. '
 msgid "Click on the **Change Passphrase** button on the left of the title bar."
@@ -91,3 +94,5 @@ msgid ""
 "You can now restart Tails and try to unlock the Persistent Storage with the "
 "new passphrase."
 msgstr ""
+"Ara podeu reiniciar Tails i provar de desbloquejar l'Emmagatzematge "
+"Persistent amb la nova contrasenya."
