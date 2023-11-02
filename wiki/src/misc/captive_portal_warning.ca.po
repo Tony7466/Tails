@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-11-01 11:11+0000\n"
+"PO-Revision-Date: 2023-11-02 21:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Sign in to the network\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Iniciar sessió a la xarxa\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -46,12 +46,24 @@ msgid ""
 "}\n"
 "</style>\n"
 msgstr ""
+"<style>\n"
+"/* Display \"this browser\" instead of \"*Unsafe Browser*\" in /misc/"
+"captive_portal_warning */\n"
+".doc {\n"
+"  display: none !important;\n"
+"}\n"
+".warning {\n"
+"  display: inline-block !important;\n"
+"}\n"
+"</style>\n"
 
 #. type: Plain text
 msgid ""
 "You might have to sign in to this network before you can connect to the Tor "
 "network."
 msgstr ""
+"És possible que hàgiu d'iniciar sessió a aquesta xarxa abans de poder "
+"connectar-vos a la xarxa Tor."
 
 #. type: Plain text
 #, no-wrap
@@ -67,6 +79,8 @@ msgstr "<p class=\"big\">Aquest navegador no és anònim.</p>\n"
 #, no-wrap
 msgid "<p class=\"small\">Only use this browser to sign in to the network, then close it.</p>\n"
 msgstr ""
+"<p class=\"small\">Utilitzeu aquest navegador només per iniciar la sessió a "
+"la xarxa i a continuació tanqueu-lo.</p>\n"
 
 #. type: Plain text
 #, no-wrap
