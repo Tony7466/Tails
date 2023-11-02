@@ -73,13 +73,13 @@ for i in diff:
 
     a = i
     try:
-        pofile_old = polib.pofile(i.a_blob.data_stream.read().decode("utf-8"), encoding="utf-8", wrapwidth=79)
+        pofile_old = polib.pofile(i.a_blob.data_stream.read().decode("utf-8"), encoding="utf-8", wrapwidth=args.width)
     except OSError as e:
         logger.warning(f"{i.a_path}@{args.old_ref}: {e}")
         continue
 
     try:
-        pofile_new = polib.pofile(i.b_blob.data_stream.read().decode("utf-8"), encoding="utf-8", wrapwidth=79)
+        pofile_new = polib.pofile(i.b_blob.data_stream.read().decode("utf-8"), encoding="utf-8", wrapwidth=args.width)
     except OSError as e:
         logger.warning(f"{i.b_path}@{args.new_ref}: {e}")
         continue
