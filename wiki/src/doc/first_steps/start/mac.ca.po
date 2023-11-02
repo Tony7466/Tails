@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-02 22:57+0000\n"
+"PO-Revision-Date: 2023-11-02 22:58+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -95,11 +95,14 @@ msgid ""
 "('GNU GRUB') with Tails logo and 2 options: 'Tails' and 'Tails\n"
 "(Troubleshooting Mode)'.\"]]\n"
 msgstr ""
+"[[!img install/inc/screenshots/grub.png link=\"no\" alt=\"Pantalla negra\n"
+"('GNU GRUB') amb el logotip de Tails i dues opcions: 'Tails' i 'Tails\n"
+"(Troubleshooting Mode)'.\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"verify\">Verify your Tails USB stick</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"verify\">Verifiqueu el vostre llapis USB de Tails</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -114,7 +117,7 @@ msgstr "<div class=\"note\">\n"
 #. type: Plain text
 #, no-wrap
 msgid "<p>If you get the following error message in macOS:</p>\n"
-msgstr ""
+msgstr "<p>Si veieu el següent missatge d'error a macOS:</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -122,11 +125,16 @@ msgid ""
 "<p class=\"pre\">There may be a problem with this disk image. Are you sure you\n"
 "want to open it?</p>\n"
 msgstr ""
+"<p class=\"pre\">És possible que hi hagi un problema amb aquesta imatge del "
+"disc. Esteu segur\n"
+"de voler-la obrir?</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<p>Then, you have to [[install Tails using <i>balenaEtcher</i>|install/mac#etcher]].</p>\n"
 msgstr ""
+"<p>A continuació, heu d'[[instal·lar Tails usant <i>balenaEtcher</i>|install/"
+"mac#etcher]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -137,6 +145,8 @@ msgstr "</div>\n"
 #, no-wrap
 msgid "<h2 id=\"known-issues-not-at-all\">Check our list of known issues</h2>\n"
 msgstr ""
+"<h2 id=\"known-issues-not-at-all\">Consulteu la nostra llista de problemes "
+"coneguts</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -144,11 +154,16 @@ msgid ""
 "[[list of known issues about Tails not starting at all|support/"
 "known_issues#mac-not-at-all]]."
 msgstr ""
+"És possible que s'hagin reportat problemes similars per al vostre model de "
+"Mac a la nostra [[llista de problemes coneguts quan Tails no s'inicia|"
+"support/known_issues#mac-not-at-all]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"not-entirely\">Troubleshooting Tails not starting after the Boot Loader</h1>\n"
 msgstr ""
+"<h1 id=\"not-entirely\">Resolució de problemes quan Tails no s'inicia "
+"després del carregador d'arrencada</h1>\n"
 
 #. type: Plain text
 #, no-wrap
