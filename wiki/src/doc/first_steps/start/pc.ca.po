@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-02 23:11+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -84,12 +84,15 @@ msgstr "[[!inline pages=\"install/inc/steps/pc_boot_menu.inline.ca\" raw=\"yes\"
 #, no-wrap
 msgid "<h1 id=\"not-at-all\">Troubleshooting Tails not starting at all</h1>\n"
 msgstr ""
+"<h1 id=\"not-at-all\">Resolució de problemes quan Tails no s'inicia</h1>\n"
 
 #. type: Plain text
 msgid ""
 "Use this section if the computer does not start from the USB stick and the "
 "Boot Loader does not display:"
 msgstr ""
+"Utilitzeu aquesta secció si l'ordinador no s'inicia des del llapis USB i el "
+"Carregador d'Arrencada no es mostra:"
 
 #. type: Plain text
 #, no-wrap
@@ -98,11 +101,14 @@ msgid ""
 "('GNU GRUB') with Tails logo and 2 options: 'Tails' and 'Tails\n"
 "(Troubleshooting Mode)'.\"]]\n"
 msgstr ""
+"[[!img install/inc/screenshots/grub.png link=\"no\" alt=\"Pantalla negra\n"
+"('GNU GRUB') amb el logotip de Tails i dues opcions: 'Tails' i 'Tails\n"
+"(Troubleshooting Mode)'.\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"verify\">Verify your Tails USB stick</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"verify\">Verifiqueu el vostre llapis USB de Tails</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -213,6 +219,8 @@ msgstr ""
 #, no-wrap
 msgid "<h1 id=\"not-entirely\">Troubleshooting Tails not starting after the Boot Loader</h1>\n"
 msgstr ""
+"<h1 id=\"not-entirely\">Resolució de problemes quan Tails no s'inicia "
+"després del Carregador d'Arrencada</h1>\n"
 
 #. type: Plain text
 #, no-wrap
