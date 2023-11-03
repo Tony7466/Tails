@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-11-02 23:11+0000\n"
+"PO-Revision-Date: 2023-11-03 15:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Install Tails from Linux\"]]\n"
-msgstr "[[!meta title=\"Instal·leu Tails des de Linux\"]]\n"
+msgstr "[[!meta title=\"Instal·lar Tails des de Linux\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -91,7 +91,7 @@ msgstr "[[!inline pages=\"install/inc/steps/verify.inline.ca\" raw=\"yes\" sort=
 #, no-wrap
 msgid "<h1 id=\"install\" class=\"step\">Install Tails using <i>GNOME Disks</i></h1>\n"
 msgstr ""
-"<h1 id=\"install\" class=\"step\">Instal·leu Tails mitjançant <i>Discs de "
+"<h1 id=\"install\" class=\"step\">Instal·lar Tails mitjançant <i>Discs de "
 "GNOME</i></h1>\n"
 
 #. type: Plain text
@@ -110,8 +110,8 @@ msgid ""
 "If you are using the GNOME desktop environment, <span class=\"application"
 "\">GNOME Disks</span> should be installed by default."
 msgstr ""
-"Si utilitzeu l'entorn d'escriptori GNOME, els <span class=\"application\""
-">Discs de GNOME</span> haurien d'estar instal·lats per defecte."
+"Si utilitzeu l'entorn d'escriptori GNOME, l'aplicació <span class="
+"\"application\">Discs de GNOME</span> hauria d'estar instal·lada per defecte."
 
 #. type: Bullet: '   - '
 msgid ""
