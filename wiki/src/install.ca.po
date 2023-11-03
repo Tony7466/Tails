@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 15:01+0000\n"
-"PO-Revision-Date: 2023-11-03 12:17+0000\n"
+"PO-Revision-Date: 2023-11-03 13:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -72,11 +72,11 @@ msgstr "[[ [[!img install/inc/icons/expert.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "Terminal"
-msgstr ""
+msgstr "Terminal"
 
 #. type: Content of: <div><div><p>
 msgid "Debian or Ubuntu using the command line and GnuPG"
-msgstr ""
+msgstr "Debian o Ubuntu utilitzant la línia d'ordres i GnuPG"
 
 #. type: Content of: <div><div>
 msgid "|install/expert]]"
@@ -87,30 +87,34 @@ msgid ""
 "If you know someone you trust who uses Tails already, you can install your "
 "Tails by cloning their Tails:"
 msgstr ""
+"Si coneixeu algú de confiança que ja fa servir Tails, podeu instal·lar el "
+"vostre Tails clonant el seu Tails:"
 
 #. type: Content of: <div><ul><li>
 msgid "[[Install by cloning from another Tails on PC|install/clone/pc]]"
 msgstr ""
+"[[Instal·lar mitjançant la clonació des d'un altre Tails al PC|install/clone/"
+"pc]]"
 
 #. type: Content of: <div><ul><li>
 msgid "[[Install by cloning from another Tails on Mac|install/clone/mac]]"
-msgstr ""
+msgstr "[[Instal·lar clonant des d'un altre Tails a Mac|install/clone/mac]]"
 
 #. type: Content of: <h3>
 msgid "Other options:"
-msgstr ""
+msgstr "Altres opcions:"
 
 #. type: Content of: <ul><li>
 msgid "[[Download only (for USB sticks)|install/download]]"
-msgstr ""
+msgstr "[[Només baixada (per a llapis USB)|install/download]]"
 
 #. type: Content of: <ul><li>
 msgid "[[Burn a Tails DVD|install/dvd]]"
-msgstr ""
+msgstr "[[Gravar un DVD de Tails|install/dvd]]"
 
 #. type: Content of: <ul><li>
 msgid "[[Run Tails in a virtual machine|install/vm]]"
-msgstr ""
+msgstr "[[Executar Tails en una màquina virtual|install/vm]]"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -119,6 +123,11 @@ msgid ""
 "computers.  For now, it's impossible to make smartphone and tablet hardware "
 "work with Linux distributions like Tails."
 msgstr ""
+"<strong>Tails no funciona en telèfons intel·ligents o tauletes.</strong> El "
+"maquinari dels telèfons intel·ligents i les tauletes és molt diferent del "
+"maquinari dels ordinadors. De moment, és impossible fer que el maquinari de "
+"telèfons intel·ligents i tauletes funcioni amb distribucions de Linux com "
+"Tails."
 
 #~ msgid "<small>(Red Hat, Fedora, etc.)</small>"
 #~ msgstr "<small>(Red Hat, Fedora, usw.)</small>"
