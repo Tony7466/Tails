@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-11-29 17:12+0000\n"
-"PO-Revision-Date: 2023-11-03 09:57+0000\n"
+"PO-Revision-Date: 2023-11-03 09:58+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -67,7 +67,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "The tests will take place in Berlin (Wedding) in January on:"
-msgstr ""
+msgstr "Les proves tindran lloc a Berlín (Wedding) al gener el dia:"
 
 #. type: Plain text
 msgid "- Saturday 27 - Sunday 28 - Monday 29"
