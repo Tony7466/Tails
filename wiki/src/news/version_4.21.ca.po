@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-02 23:12+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-03 15:12+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.21 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.21\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -47,12 +47,16 @@ msgid ""
 "- Update *Tor Browser* to [10.5.4](https://blog.torproject.org/new-release-"
 "tor-browser-1054)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [10.5.4](https://blog."
+"torproject.org/new-release-tor-browser-1054)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [78.12](https://www.thunderbird.net/en-US/"
 "thunderbird/78.12.0/releasenotes/)"
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [78.12](https://www.thunderbird."
+"net/en-US/thunderbird/78.12.0/releasenotes/)"
 
 #. type: Plain text
 #, no-wrap
@@ -65,6 +69,9 @@ msgid ""
 "manual upgrade and choosing **Cancel** in the confirmation dialog.  ([[!"
 "tails_ticket 18494]])"
 msgstr ""
+"S'ha evitat que l'*Instal·lador de Tails* suprimeixi l'Emmagatzematge "
+"Persistent quan feu una actualització manual i trieu **Cancel·la** al diàleg "
+"de confirmació. ([[!tails_ticket 18494]])"
 
 #. type: Plain text
 msgid ""
@@ -102,6 +109,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.19 or later to 4.21."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.19 o "
+"posterior fins a la versió 4.21."
 
 #. type: Bullet: '- '
 msgid ""
@@ -153,6 +162,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.21 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.21 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -169,4 +180,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 4.22 is [[scheduled|contribute/calendar]] for September 7."
-msgstr ""
+msgstr "Tails 4.22 està [[programat|contribute/calendar]] per al 7 de setembre."
