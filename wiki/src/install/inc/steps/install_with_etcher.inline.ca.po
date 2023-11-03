@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-30 21:51+0000\n"
-"PO-Revision-Date: 2023-11-03 15:11+0000\n"
+"PO-Revision-Date: 2023-11-03 22:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -28,6 +28,9 @@ msgid ""
 "and choose <span class=\"application\">balenaEtcher</span> in <span class="
 "\"guilabel\">Applications</span>.  </p>"
 msgstr ""
+"<p class=\"mac upgrade-mac\"> Obriu <span class=\"application\">Finder</"
+"span> i trieu <span class=\"application\">balenaEtcher</span> a <span class="
+"\"guilabel\">Aplicacions</span>.  </p>"
 
 #. type: Plain text
 #, no-wrap
@@ -36,6 +39,9 @@ msgid ""
 "   Open the <span class=\"application\">balenaEtcher</span> download.\n"
 "   </p>\n"
 msgstr ""
+"   <p class=\"windows upgrade-windows\">\n"
+"   Obriu la baixada de <span class=\"application\">balenaEtcher</span>.\n"
+"   </p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,11 +49,13 @@ msgid ""
 "   At the security warning, confirm that you want to open\n"
 "   <span class=\"application\">balenaEtcher</span>.\n"
 msgstr ""
+"   A l'avís de seguretat, confirmeu que voleu obrir\n"
+"   <span class=\"application\">balenaEtcher</span>.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <span class=\"application\">balenaEtcher</span> starts.\n"
-msgstr ""
+msgstr "   S'inicia <span class=\"application\">balenaEtcher</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -56,6 +64,10 @@ msgid ""
 "   <p>If <i>balenaEtcher</i> does not start, restart Windows and try again.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <div class=\"bug windows upgrade-windows\">\n"
+"   <p>Si <i>balenaEtcher</i> no s'inicia, reinicieu Windows i torneu-ho a "
+"provar.</p>\n"
+"   </div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -75,6 +87,9 @@ msgstr ""
 #, no-wrap
 msgid "<h1 id=\"install\" class=\"step\">Install <span class=\"upgrade\">an intermediary</span> Tails using <em>balenaEtcher</em></h1>\n"
 msgstr ""
+"<h1 id=\"install\" class=\"step\">Instal·leu <span class=\"upgrade\">un</"
+"span> Tails <span class=\"upgrade\">intermediari</span> mitjançant "
+"<em>balenaEtcher</em></h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -92,6 +107,8 @@ msgid ""
 "Plug in the USB stick on which you want to install <span class=\"usb\">Tails."
 "</span> <span class=\"upgrade\">the intermediary Tails.</span>"
 msgstr ""
+"Connecteu el llapis USB on voleu instal·lar <span class=\"usb\">Tails.</"
+"span> <span class=\"upgrade\">el Tails intermediari.</span>"
 
 #. type: Plain text
 #, no-wrap
