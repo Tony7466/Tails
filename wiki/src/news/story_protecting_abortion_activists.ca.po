@@ -113,6 +113,8 @@ msgid ""
 "[[Read our full interview with Gabriela.|contribute/how/user_experience/"
 "interviews/gabriela]]"
 msgstr ""
+"[[Llegiu la nostra entrevista sencera amb la Gabriela.|contribute/how/"
+"user_experience/interviews/gabriela]]"
 
 #. type: Plain text
 msgid ""
