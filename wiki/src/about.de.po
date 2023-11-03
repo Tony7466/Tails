@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
 "PO-Revision-Date: 2023-11-03 03:11+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: translatenight <info@passt-so.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -104,10 +104,9 @@ msgid "See also:"
 msgstr "Lesen Sie auch:"
 
 #. type: Content of: <section><div><div><ul><li>
-#, fuzzy
-#| msgid "[[Warnings and limitations|doc/about/warning]]"
 msgid "[[Warnings: Tails is safe but not magic!|doc/about/warnings]]"
-msgstr "[[Warnungen und Einschränkungen|doc/about/warning]]"
+msgstr ""
+"[[Warnungen: Tails kann Sie schützen, aber nicht zaubern!|doc/about/warning]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Download and install Tails|install]]"
