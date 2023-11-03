@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-02 23:12+0000\n"
+"PO-Revision-Date: 2023-11-03 13:11+0000\n"
 "Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -139,7 +139,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Update the *Tor* client to 0.4.8.7."
-msgstr ""
+msgstr "- S'ha actualitzat el client *Tor* a la versió 0.4.8.7."
 
 #. type: Plain text
 msgid ""
@@ -151,7 +151,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Update the *Linux* kernel to 6.1.55."
-msgstr ""
+msgstr "- S'ha actualitzat el nucli de *Linux* a la versió 6.1.55."
 
 #. type: Plain text
 #, no-wrap
