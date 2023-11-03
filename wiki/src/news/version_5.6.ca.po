@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-02 23:12+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-03 13:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.6 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.6\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -48,12 +48,16 @@ msgid ""
 "- Update *Tor Browser* to [11.5.5](https://blog.torproject.org/new-release-"
 "tor-browser-1155)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [11.5.5](https://blog."
+"torproject.org/new-release-tor-browser-1155)."
 
 #. type: Bullet: '- '
 msgid ""
 "Update the *Linux* kernel to 5.10.149. This should improve the support for "
 "newer hardware: graphics, Wi-Fi, and so on."
 msgstr ""
+"S'ha actualitzat el nucli de *Linux* a la versió 5.10.149. Això hauria de "
+"millorar la compatibilitat amb el maquinari més nou: gràfics, Wi-Fi, etc."
 
 #. type: Plain text
 #, no-wrap
@@ -66,6 +70,9 @@ msgid ""
 "notes of the latest version, instead of pointing sometimes to a deprecated "
 "version. ([[!tails_ticket 17069]])"
 msgstr ""
+"Quan es requereix una actualització manual, Tails ara sempre apunta a les "
+"notes de llançament de la darrera versió, en lloc d'apuntar de vegades a una "
+"versió obsoleta. ([[!tails_ticket 17069]])"
 
 #. type: Plain text
 msgid ""
@@ -103,6 +110,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.6."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.6."
 
 #. type: Plain text
 #, no-wrap
@@ -172,6 +181,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.6 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.6 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -188,4 +199,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 5.7 is scheduled for November 22."
-msgstr ""
+msgstr "Tails 5.7 està previst per al 22 de novembre."
