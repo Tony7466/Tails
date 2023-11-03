@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-11-03 10:11+0000\n"
-"Last-Translator: retiolus <retiolus@protonmail.com>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -92,6 +92,8 @@ msgid ""
 "We accept donations in cash and people donating more than 50€ in Hamburg "
 "will get a Tails t-shirt!"
 msgstr ""
+"Acceptem donacions en efectiu i les persones que donin més de 50€ a Hamburg "
+"rebran una samarreta de Tails!"
 
 #. type: Plain text
 #, no-wrap
@@ -102,3 +104,5 @@ msgstr "[[!img t-shirt.jpg link=\"no\"]]\n"
 #, no-wrap
 msgid "<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=thanks\">Donate</a></div>\n"
 msgstr ""
+"<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=thanks\""
+">Feu una donació</a></div>\n"
