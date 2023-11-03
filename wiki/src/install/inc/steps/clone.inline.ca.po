@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-31 15:11+0000\n"
+"PO-Revision-Date: 2023-11-03 18:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -28,6 +28,10 @@ msgid ""
 "<h1 id=\"install\" class=\"step pc-clone mac-clone\">Install Tails by cloning</h1>\n"
 "<h1 id=\"upgrade\" class=\"step upgrade\">Upgrade your Tails by cloning</h1>\n"
 msgstr ""
+"<h1 id=\"install\" class=\"step pc-clone mac-clone\">Instal·lar Tails "
+"mitjançant la clonació</h1>\n"
+"<h1 id=\"upgrade\" class=\"step upgrade\">Actualitzar el vostre Tails "
+"mitjançant la clonació</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -57,12 +61,22 @@ msgid ""
 "  <span class=\"application\">Tails Cloner</span>.\n"
 "</p>\n"
 msgstr ""
+"<p class=\"upgrade\">\n"
+"   En aquest pas, actualitzareu el vostre Tails des\n"
+"   <span class=\"upgrade-clone\">de l'altre Tails</span>\n"
+"   <span class=\"upgrade-tails upgrade-os\">del Tails intermediari</span>\n"
+"   utilitzant el\n"
+"   <span class=\"application\">Clonador de Tails</span>.\n"
+"</p>\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "Plug <span class=\"pc-clone mac-clone\">the new</span> <span class=\"upgrade"
 "\">your Tails</span> USB stick into the computer."
 msgstr ""
+"Connecteu <span class=\"pc-clone mac-clone\">el nou</span> <span class="
+"\"upgrade\">el vostre</span> llapis USB <span class=\"upgrade\">de Tails</"
+"span> a l'ordinador."
 
 #. type: Plain text
 #, no-wrap
@@ -71,6 +85,9 @@ msgid ""
 "   <p>All the data on this USB stick will be lost.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <div class=\"caution pc-clone mac-clone\">\n"
+"   <p>Totes les dades d'aquest llapis USB es perdran.</p>\n"
+"   </div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -83,16 +100,27 @@ msgid ""
 "   </span>\n"
 "   to start <span class=\"application\">Tails Cloner</span>.\n"
 msgstr ""
+"1. Trieu\n"
+"    <span class=\"menuchoice\">\n"
+"      <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"      <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
+"      <span class=\"guimenuitem\">Clonador de Tails</span>\n"
+"    </span>\n"
+"    per iniciar el <span class=\"application\">Clonador de Tails</span>.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"pc-clone mac-clone\" alt=\"Tails Cloner: 'Clone the current Tails'\"]]\n"
 msgstr ""
+"   [[!img install/inc/screenshots/tails_installer.png link=\"no\" class=\"pc-"
+"clone mac-clone\" alt=\"Clonador de Tails: 'Clona el Tails actual'\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" class=\"upgrade\" alt=\"Tails Cloner: 'Clone the current Tails'\"]]\n"
 msgstr ""
+"   [[!img install/inc/screenshots/tails_installer_upgrade.png link=\"no\" "
+"class=\"upgrade\" alt=\"Clonador de Tails: 'Clona el Tails actual'\"]]\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -100,6 +128,9 @@ msgid ""
 "\"upgrade\">your</span> USB stick in the <span class=\"guilabel\">Target USB "
 "stick</span> menu."
 msgstr ""
+"Trieu <span class=\"pc-clone mac-clone\">el nou</span> <span class=\"upgrade"
+"\">el vostre</span> llapis USB al <span class=\"guilabel\">Llapis USB de "
+"destinació</span> menú."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -107,6 +138,9 @@ msgid ""
 "<b>Install</b> button.</span> <span class=\"upgrade\">upgrade, click on the "
 "<b>Upgrade</b> button.</span>"
 msgstr ""
+"Per iniciar <span class=\"pc-clone mac-clone\">la instal·lació, feu clic al "
+"botó <b>Instal·la</b>.</span> <span class=\"upgrade\">l'actualització, feu "
+"clic al botó <b>Actualitza</b>.</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -116,6 +150,12 @@ msgid ""
 "   <p class=\"upgrade-clone\">The Persistent Storage of the other Tails will not be copied.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <div class=\"note upgrade\">\n"
+"   <p>Es conservarà l'Emmagatzematge Persistent del vostre llapis USB "
+"Tails.</p>\n"
+"   <p class=\"upgrade-clone\">L'Emmagatzematge Persistent de l'altre Tails "
+"no es copiarà.</p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
 msgid "Read the warning message in the confirmation dialog."
@@ -133,6 +173,9 @@ msgid ""
 "   <span class=\"upgrade\">upgrade</span>\n"
 "   takes a few minutes.\n"
 msgstr ""
+"   <span class=\"pc-clone mac-clone\">La instal·lació</span>\n"
+"   <span class=\"upgrade\">L'actualització</span>\n"
+"   triga uns minuts.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -142,12 +185,18 @@ msgid ""
 "   while synchronizing data on disk.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <div class=\"bug\">\n"
+"   <p>La barra de progrés normalment es bloqueja durant un temps\n"
+"   mentre sincronitza les dades al disc.</p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "After the installation finishes, close <span class=\"application\">Tails "
 "Cloner</span>."
 msgstr ""
+"Un cop finalitzada la instal·lació, tanqueu el <span class=\"application\""
+">Clonador de Tails</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -165,11 +214,13 @@ msgstr "<div class=\"trophy upgrade\">\n"
 #, no-wrap
 msgid "<p>You are done upgrading Tails. You can now shutdown and restart on your Tails USB stick.</p>\n"
 msgstr ""
+"<p>Heu acabat d'actualitzar Tails. Ara podeu apagar i reiniciar el vostre "
+"llapis USB de Tails.</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<p>Thank you for staying safe!</p>\n"
-msgstr ""
+msgstr "<p>Gràcies per mantenir-vos segur!</p>\n"
 
 #, no-wrap
 #~ msgid "   <div class=\"step-image\">\n"
