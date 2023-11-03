@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-11-01 11:11+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-03 13:11+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgstr "[[!img install/inc/icons/linux.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: Content of: <div><div><p>
 msgid "any distribution"
