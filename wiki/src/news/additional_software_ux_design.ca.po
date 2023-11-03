@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-11-29 17:12+0000\n"
-"PO-Revision-Date: 2023-11-02 21:11+0000\n"
+"PO-Revision-Date: 2023-11-03 09:57+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -22,6 +22,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Berliners, come test new features with us (again) and get a T-shirt!\"]]\n"
 msgstr ""
+"[[!meta title=\"Berlinesos, veniu a provar noves funcions amb nosaltres (una "
+"altra vegada) i aconseguiu una samarreta!\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,18 +45,25 @@ msgid ""
 "We are working on making it much easier to **permanently install additional "
 "software in Tails**."
 msgstr ""
+"Estem treballant per fer que sigui molt més fàcil **instal·lar permanentment "
+"programari addicional a Tails**."
 
 #. type: Plain text
 msgid ""
 "We want to test our design with users to make sure that it is really easy to "
 "use."
 msgstr ""
+"Volem provar el nostre disseny amb els usuaris per assegurar-nos que és "
+"realment fàcil d'utilitzar."
 
 #. type: Plain text
 msgid ""
 "Don't be shy! It will be a great opportunity to contribute to world-class "
 "privacy software like Tails, even if you don't feel really tech-savvy."
 msgstr ""
+"No sigueu tímid! Serà una gran oportunitat per contribuir al programari de "
+"privadesa de classe mundial com Tails, fins i tot si no us sentiu realment "
+"coneixedors de la tecnologia."
 
 #. type: Plain text
 msgid "The tests will take place in Berlin (Wedding) in January on:"
