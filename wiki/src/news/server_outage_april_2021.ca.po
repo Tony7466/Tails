@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-05 16:18+0000\n"
-"PO-Revision-Date: 2023-11-02 23:11+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-03 08:29+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"About our website being offline last week-end\"]]\n"
 msgstr ""
+"[[!meta title=\"Sobre el nostre lloc web fora de línia el cap de setmana "
+"passat\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -37,6 +39,9 @@ msgid ""
 "As many of you noticed, our main server was offline from Friday April 30 "
 "19:09 UTC until Monday May 3 05:58 UTC."
 msgstr ""
+"Com molts de vosaltres heu notat, el nostre servidor principal estava fora "
+"de línia des del divendres 30 d'abril a les 19:09 UTC fins al dilluns 3 de "
+"maig a les 05:58 UTC."
 
 #. type: Plain text
 msgid ""
