@@ -3,34 +3,38 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2020-04-12 16:10+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-11-03 13:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Why is Tor slow?\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Per què Tor és lent?\"]]\n"
 
 #. type: Plain text
 msgid ""
 "Users often find that the Tor network is slow. This page describes some "
 "reasons that make Tor slow."
 msgstr ""
+"Els usuaris sovint troben que la xarxa Tor és lenta. Aquesta pàgina descriu "
+"alguns motius que fan que Tor sigui lent."
 
 #. type: Title =
 #, no-wrap
 msgid "Tor circuits lengthen the connections"
-msgstr ""
+msgstr "Els circuits Tor allarguen les connexions"
 
 #. type: Plain text
 msgid ""
@@ -38,17 +42,23 @@ msgid ""
 "connecting directly to the destination server, a connection is made between "
 "each relay of the circuit and this takes more time."
 msgstr ""
+"Tor proporciona l'anonimat mitjançant la construcció de circuits amb tres "
+"repetidors. Així, en comptes de connectar-se directament al servidor de "
+"destinació, es fa una connexió entre cada repetidor del circuit i això triga "
+"més temps."
 
 #. type: Plain text
 msgid ""
 "Furthermore, Tor tries to build circuits with relays in different countries "
 "which make connection travel more and appear slower."
 msgstr ""
+"A més, Tor intenta construir circuits amb repetidors en diferents països que "
+"fan que la connexió viatgi més i sembli més lenta."
 
 #. type: Title =
 #, no-wrap
 msgid "Quality of the relays"
-msgstr ""
+msgstr "Qualitat dels repetidors"
 
 #. type: Plain text
 msgid ""
