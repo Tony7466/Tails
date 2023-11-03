@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-31 15:12+0000\n"
+"PO-Revision-Date: 2023-11-03 15:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -47,9 +47,11 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"creating\">Creating a new backup Tails USB stick</h1>\n"
-msgstr "Erstellen Sie einen neuen USB-Stick\n"
+msgstr ""
+"<h1 id=\"creating\">Creació d'un nou llapis USB de Tails de còpia de "
+"seguretat</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -148,9 +150,9 @@ msgid "   </div>\n"
 msgstr "   </div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"updating\">Updating your backup</h1>\n"
-msgstr "Erstellen Sie einen neuen USB-Stick\n"
+msgstr "<h1 id=\"updating\">Actualització de la còpia de seguretat</h1>\n"
 
 #. type: Bullet: '1. '
 msgid "Start on your current Tails and unlock the Persistent Storage."
@@ -161,7 +163,7 @@ msgid "Plug in your backup Tails USB stick."
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
@@ -169,12 +171,12 @@ msgid ""
 "     <span class=\"guisubmenu\">System Tools</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Back Up Persistent Storage</span></span>.\n"
 msgstr ""
-"1. Wählen Sie in der Titelleiste\n"
+"1. Trieu\n"
 "   <span class=\"menuchoice\">\n"
-"     <span class=\"guimenu\">[[!img lib/open-menu.png alt=\"Menü\" class=\"symbolic\" link=\"no\"]]</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">[[!img lib/tab-new.png alt=\"Neuer Tab\" class=\"symbolic\" link=\"no\"]]</span>\n"
-"   </span>\n"
-"   um einen neuen Reiter zu öffnen.\n"
+"     <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"     <span class=\"guisubmenu\">Eines del sistema</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">Còpia de seguretat de l'Emmagatzematge "
+"Persistent</span></span>.\n"
 
 #. type: Plain text
 #, no-wrap
