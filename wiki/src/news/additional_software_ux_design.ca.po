@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-11-29 17:12+0000\n"
-"PO-Revision-Date: 2023-11-03 09:58+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-03 10:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -72,14 +72,17 @@ msgstr "Les proves tindran lloc a Berlín (Wedding) al gener el dia:"
 #. type: Plain text
 msgid "- Saturday 27 - Sunday 28 - Monday 29"
 msgstr ""
+"- Dissabte 27\n"
+"- Diumenge 28\n"
+"- Dilluns 29"
 
 #. type: Plain text
 msgid "Plan to stay with us for 1 hour."
-msgstr ""
+msgstr "Planifiqueu quedar-vos amb nosaltres durant 1 hora."
 
 #. type: Plain text
 msgid "We will give you a Tails T-shirt as a token of our thanks."
-msgstr ""
+msgstr "Us donarem una samarreta de Tails com a mostra del nostre agraïment."
 
 #. type: Plain text
 #, no-wrap
@@ -89,14 +92,17 @@ msgstr "[[!img 33c3/t-shirt.jpg link=\"no\"]]\n"
 #. type: Plain text
 msgid "Please, take this survey so we can organize our schedule:"
 msgstr ""
+"Si us plau, feu aquesta enquesta perquè puguem organitzar el nostre horari:"
 
 #. type: Plain text
 #, no-wrap
 msgid "<strike>https://survey.tails.boum.org/</strike> (We have enough people already!)\n"
-msgstr ""
+msgstr "<strike>https://survey.tails.boum.org/</strike> (Ja tenim prou gent!)\n"
 
 #. type: Plain text
 msgid ""
 "And if you can't come, maybe you can share this with 2-3 other people in "
 "Berlin?"
 msgstr ""
+"I si no podeu venir, potser podeu compartir això amb dues o tres persones "
+"més a Berlín?"
