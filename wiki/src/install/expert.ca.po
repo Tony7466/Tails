@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 17:10-0600\n"
-"PO-Revision-Date: 2023-11-03 13:11+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-03 15:12+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -313,9 +313,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"install\" class=\"step\">Install Tails using <span class=\"command\">dd</span></h1>\n"
-msgstr "Installieren Sie den <span class=\"application\">Tails Installer</span>\n"
+msgstr ""
+"<h1 id=\"install\" class=\"step\">Instal·lar Tails mitjançant <span class="
+"\"command\">dd</span></h1>\n"
 
 #. type: Plain text
 #, no-wrap
