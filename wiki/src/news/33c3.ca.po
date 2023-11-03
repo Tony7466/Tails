@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-11-03 10:11+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"Last-Translator: retiolus <retiolus@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -54,11 +54,14 @@ msgstr ""
 #. type: Plain text
 msgid "But today we are just writing to give you all a big thank you!"
 msgstr ""
+"Però avui només estem escrivint per a donar-vos les gràcies a tots vosaltres!"
 
 #. type: Plain text
 #, no-wrap
 msgid "**Since October 13, we have received $98 579 in donations.**\n"
 msgstr ""
+"**Des del 13 d'octubre, hem rebut 98 579 dòlars en donacions (aproximadament "
+"94 272 euros).**\n"
 
 #. type: Plain text
 msgid ""
@@ -67,6 +70,10 @@ msgid ""
 "the real value of Tails and why it is important for them to help us back and "
 "keep the project alive and independent."
 msgstr ""
+"Aquesta és la nostra primera campanya de donació i estem impressionats amb "
+"els resultats! És realment bo veure que la nostra comunitat d'usuaris entén "
+"el valor real de Tails i per què és important que ens ajudin a mantenir viu "
+"i independent el projecte."
 
 #. type: Plain text
 msgid ""
@@ -75,6 +82,10 @@ msgid ""
 "You are encouraged to pass by and meet us at the [Secure Desktops assembly]"
 "(https://events.ccc.de/congress/2016/wiki/Assembly:Secure_Desktops)."
 msgstr ""
+"A partir d'avui estarem presents en el [33è Congrés de Comunicació del Chaos "
+"a Hamburg](https://events.ccc.de/congress/2016/wiki/Main_Page). Us animem a "
+"passar-vos i conèixer-nos en el [Secure Desktops assembly](https://events.ccc"
+".de/congress/2016/wiki/Assembly:Secure_Desktops)."
 
 #. type: Plain text
 msgid ""
