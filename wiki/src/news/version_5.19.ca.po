@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
 "PO-Revision-Date: 2023-11-04 19:11+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "<h1 id=\"features\">Noves funcionalitats</h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h2>Closing a Tor circuit from <i>Onion Circuits</i></h2>\n"
-msgstr ""
+msgstr "<h2>Tancar un circuit Tor des de <i>Circuits Onion</i></h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -54,6 +54,9 @@ msgid ""
 "This can help replace a particularly slow Tor circuit or troubleshoot issues "
 "on the Tor network."
 msgstr ""
+"Ara podeu tancar un circuit Tor determinat des de la interfície *Circuits "
+"Onion*. Això pot ajudar a substituir un circuit Tor especialment lent o "
+"resoldre problemes a la xarxa Tor."
 
 #. type: Plain text
 #, no-wrap
@@ -62,7 +65,7 @@ msgstr "[[!img close_circuit.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid "To close a Tor circuit:"
-msgstr ""
+msgstr "Per tancar un circuit Tor:"
 
 #. type: Bullet: '1. '
 msgid "[[Connect to the Tor network.|doc/anonymous_internet/tor]]"
@@ -74,16 +77,21 @@ msgid ""
 "\"no\" class=\"symbolic\"]]&nbsp;▸ **Open Onion Circuits** in the top "
 "navigation bar."
 msgstr ""
+"Trieu [[!img lib/symbolic/tor-connected.png alt=\"Menú d'estat de Tor\" link="
+"\"no\" class=\"symbolic\"]]&nbsp;▸ **Obrir Circuits Onion** a la barra de "
+"navegació superior."
 
 #. type: Bullet: '1. '
 msgid ""
 "Right-click (on Mac, click with two fingers) on the circuit that you want to "
 "close."
 msgstr ""
+"Feu clic amb el botó dret (a Mac, feu clic amb dos dits) al circuit que "
+"voleu tancar."
 
 #. type: Bullet: '1. '
 msgid "Choose **Close this circuit** in the shortcut menu."
-msgstr ""
+msgstr "Trieu **Tanca aquest circuit** al menú de dreceres."
 
 #. type: Plain text
 #, no-wrap
@@ -91,6 +99,9 @@ msgid ""
 "   When you close a circuit that is being used by an application, your\n"
 "   application gets disconnected from this destination service.\n"
 msgstr ""
+"   Quan tanqueu un circuit que està sent utilitzat per una aplicació, la "
+"vostra \n"
+"   aplicació es desconnecta d'aquest servei de destinació.\n"
 
 #. type: Plain text
 #, no-wrap
