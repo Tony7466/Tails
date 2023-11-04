@@ -3,41 +3,45 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-05-09 15:09+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-11-04 18:00+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Bullet: '  - '
 msgid "[[Running Tails in a virtual machine|advanced_topics/virtualization]]"
 msgstr ""
+"[[Executar Tails en una màquina virtual|advanced_topics/virtualization]]"
 
 #. type: Bullet: '    - '
 msgid "[[*VirtualBox*|advanced_topics/virtualization/virtualbox]]"
-msgstr ""
+msgstr "[[*VirtualBox*|advanced_topics/virtualization/virtualbox]]"
 
 #. type: Bullet: '    - '
 msgid "[[*GNOME Boxes*|advanced_topics/virtualization/boxes]]"
-msgstr ""
+msgstr "[[*Màquines de GNOME*|advanced_topics/virtualization/boxes]]"
 
 #. type: Bullet: '    - '
 msgid "[[*virt-manager*|advanced_topics/virtualization/virt-manager]]"
-msgstr ""
+msgstr "[[*virt-manager*|advanced_topics/virtualization/virt-manager]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Modifying the boot options using the Boot Loader|advanced_topics/"
 "boot_options]]"
 msgstr ""
+"[[Modificació de les opcions d'arrencada mitjançant el carregador "
+"d'arrencada|advanced_topics/boot_options]]"
 
 #. type: Bullet: '  - '
 msgid ""
