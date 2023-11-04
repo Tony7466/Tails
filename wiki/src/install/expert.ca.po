@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 17:10-0600\n"
-"PO-Revision-Date: 2023-11-04 22:11+0000\n"
+"PO-Revision-Date: 2023-11-05 00:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -410,17 +410,21 @@ msgid ""
 "Execute the following commands to copy the USB image that you downloaded "
 "earlier to the USB stick."
 msgstr ""
+"Executeu les ordres següents per copiar la imatge USB que heu baixat "
+"anteriorment al llapis USB."
 
 #. type: Plain text
 #, no-wrap
 msgid "   Replace:\n"
-msgstr ""
+msgstr "   Substituïu:\n"
 
 #. type: Bullet: '   - '
 msgid ""
 "<span class=\"command-placeholder\">tails.img</span> with the path to the "
 "USB image"
 msgstr ""
+"<span class=\"command-placeholder\">tails.img</span> amb el camí a la imatge "
+"USB"
 
 #. type: Bullet: '   - '
 msgid ""
@@ -436,7 +440,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   You should get something like this:\n"
-msgstr ""
+msgstr "   Hauríeu d'obtenir alguna cosa com això:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -449,6 +453,8 @@ msgid ""
 "   If no error message is returned, Tails is being copied on the USB\n"
 "   stick. The copy takes some time, generally a few minutes.\n"
 msgstr ""
+"   Si no es retorna cap missatge d'error, Tails s'està copiant al llapis\n"
+"   USB. La còpia triga un temps, generalment uns minuts.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -457,6 +463,10 @@ msgid ""
 "   <p>If you get a <span class=\"guilabel\">Permission denied</span> error, try\n"
 "   adding <code>sudo</code> at the beginning of the command:</p>\n"
 msgstr ""
+"   <div class=\"note\">\n"
+"   <p>Si obteniu un error de <span class=\"guilabel\">Permís denegat</span>, "
+"proveu a\n"
+"   afegir <code>sudo</code> al principi de l'ordre:</p>\n"
 
 #. type: Plain text
 #, no-wrap
