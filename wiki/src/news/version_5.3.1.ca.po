@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-04 16:11+0000\n"
+"PO-Revision-Date: 2023-11-04 19:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.3.1 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.3.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,6 +43,8 @@ msgid ""
 "This release is an emergency release to fix a security vulnerability in the "
 "*Linux* kernel."
 msgstr ""
+"Aquesta versió és una versió d'emergència per solucionar una vulnerabilitat "
+"de seguretat al nucli de *Linux*."
 
 #. type: Plain text
 #, no-wrap
@@ -56,6 +58,10 @@ msgid ""
 "vulnerability that allows applications in Tails to gain administration "
 "privileges."
 msgstr ""
+"S'ha actualitzat el nucli de *Linux* a la versió 5.10.127-2, que soluciona "
+"[CVE-2022-34918](https://cve.mitre.org/cgi-bin/cvename."
+"cgi?name=CVE-2022-34918), una vulnerabilitat que permet a les aplicacions de "
+"Tails obtenir privilegis d'administració."
 
 #. type: Plain text
 #, no-wrap
@@ -64,6 +70,11 @@ msgid ""
 "  vulnerabilities in *Tor Browser*, they might then use CVE-2022-34918 to take\n"
 "  full control of your Tails and deanonymize you.\n"
 msgstr ""
+"  Per exemple, si un atacant pogués explotar una altra vulnerabilitat "
+"seguretat\n"
+"  desconeguda al *Navegador Tor*, llavors podria utilitzar CVE-2022-34918 "
+"per prendre\n"
+"  el control total del vostre Tails i desanonimitzar-vos.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -72,12 +83,19 @@ msgid ""
 "  such as a government or a hacking firm. We are not aware of this attack being\n"
 "  used in the wild.\n"
 msgstr ""
+"  Aquest atac és molt poc probable, però podria ser realitzat per un atacant "
+"fort,\n"
+"  com un govern o una empresa de pirateria informàtica. No som conscients "
+"que aquest atac\n"
+"  s'hagi utilitzat actualment.\n"
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [91.12.0](https://www.thunderbird.net/en-US/"
 "thunderbird/91.12.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [91.12.0](https://www."
+"thunderbird.net/en-US/thunderbird/91.12.0/releasenotes/)."
 
 #. type: Plain text
 #, no-wrap
@@ -120,6 +138,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.3.1."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.3.1."
 
 #. type: Plain text
 #, no-wrap
@@ -189,6 +209,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.3.1 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.3.1 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
