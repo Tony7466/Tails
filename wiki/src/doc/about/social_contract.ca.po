@@ -3,28 +3,29 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-11-04 19:12+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Social Contract\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Contracte Social\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Introducció"
 
 #. type: Plain text
 #, no-wrap
@@ -34,6 +35,12 @@ msgid ""
 "the Debian Social Contract and the Tor Social Contract. If you have any\n"
 "questions or comments, feel free to email: <tails-dev@boum.org>.\n"
 msgstr ""
+"El Contracte Social de Tails és un conjunt de compromisos que nosaltres, com "
+"a\n"
+"col·laboradors del projecte Tails, assumim. Aquesta obra es deriva del\n"
+"Contracte Social de Debian i del Contracte Social de Tor. Si teniu alguna\n"
+"pregunta o comentari, no dubteu a enviar un correu electrònic: <tails-"
+"dev@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
