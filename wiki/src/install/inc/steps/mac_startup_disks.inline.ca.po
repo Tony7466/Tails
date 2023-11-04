@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-02 10:29+0200\n"
-"PO-Revision-Date: 2023-11-03 15:11+0000\n"
+"PO-Revision-Date: 2023-11-04 19:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -24,23 +24,23 @@ msgstr "[[!meta robots=\"noindex\"]]"
 
 #. type: Content of: <ol><li><p>
 msgid "Make sure that you have installed Tails using either:"
-msgstr ""
+msgstr "Assegureu-vos que heu instal·lat Tails mitjançant:"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>balenaEtcher</i> from macOS|install/mac#etcher]]"
-msgstr ""
+msgstr "[[<i>balenaEtcher</i> des de macOS|install/mac#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>balenaEtcher</i> from Windows|install/windows#etcher]]"
-msgstr ""
+msgstr "[[<i>balenaEtcher</i> des de Windows|install/windows#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>GNOME Disks</i> from Linux|install/linux#install]]"
-msgstr ""
+msgstr "[[<i>Discs de GNOME</i> des de Linux|install/linux#install]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[the Linux command line|install/expert#install]]"
-msgstr ""
+msgstr "[[la línia d'ordres de Linux|install/expert#install]]"
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer."
@@ -208,6 +208,8 @@ msgid ""
 "If the computer starts on Tails, the Boot Loader appears and Tails starts "
 "automatically after 4 seconds."
 msgstr ""
+"Si l'ordinador s'inicia a Tails, apareixerà el Carregador d'Arrencada i "
+"Tails s'iniciarà automàticament després de 4 segons."
 
 #. type: Content of: <ol><li><p>
 msgid ""
@@ -226,6 +228,10 @@ msgid ""
 "you think you are experiencing hardware compatibility errors while starting "
 "Tails."
 msgstr ""
+"L'entrada <b>Mode de resolució de problemes</b> desactiva algunes funcions "
+"del nucli Linux i pot funcionar millor en alguns ordinadors. Podeu provar "
+"aquesta opció si creieu que esteu experimentant errors de compatibilitat de "
+"maquinari mentre inicieu Tails."
 
 #. type: Content of: <ol><ul><li><p>
 msgid ""
@@ -233,3 +239,6 @@ msgid ""
 "external hard disk|doc/advanced_topics/external_hard_disk]] and some "
 "[[problematic USB sticks|support/known_issues#problematic-usb-stick]]."
 msgstr ""
+"L'entrada <b>Disc dur extern</b> permet [[iniciar des d'un disc dur extern|"
+"doc/advanced_topics/external_hard_disk]] i alguns [[llapis USB problemàtics|"
+"support/known_issues#problematic-usb-stick]]."
