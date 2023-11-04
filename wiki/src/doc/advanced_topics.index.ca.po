@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-05-09 15:09+0000\n"
-"PO-Revision-Date: 2023-11-04 18:00+0000\n"
+"PO-Revision-Date: 2023-11-04 19:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -48,31 +48,36 @@ msgid ""
 "[[Starting Tails from an external hard disk or problematic USB stick|"
 "advanced_topics/external_hard_disk]]"
 msgstr ""
+"[[Iniciar Tails des d'un disc dur extern o un llapis USB problemàtic|"
+"advanced_topics/external_hard_disk]]"
 
 #. type: Bullet: '  - '
 msgid "[[Accessing the internal hard disk|advanced_topics/internal_hard_disk]]"
-msgstr ""
+msgstr "[[Accés al disc dur intern|advanced_topics/internal_hard_disk]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Protection against cold boot attacks|advanced_topics/cold_boot_attacks]]"
 msgstr ""
+"[[Protecció contra atacs d'arrencada en fred|advanced_topics/"
+"cold_boot_attacks]]"
 
 #. type: Bullet: '  - '
 msgid "[[Accessing resources on the local network|advanced_topics/lan]]"
-msgstr ""
+msgstr "[[Accés a recursos a la xarxa local|advanced_topics/lan]]"
 
 #. type: Bullet: '  - '
 msgid "[[Enabling a wireless device|advanced_topics/wireless_devices]]"
 msgstr ""
+"[[Activació d'un dispositiu sense fil|advanced_topics/wireless_devices]]"
 
 #. type: Bullet: '  - '
 msgid "[[Chatting with *Dino* and OMEMO|advanced_topics/dino]]"
-msgstr ""
+msgstr "[[Xat amb *Dino* i OMEMO|advanced_topics/dino]]"
 
 #. type: Bullet: '  - '
 msgid "[[Exchanging Monero with *Feather*|advanced_topics/feather]]"
-msgstr ""
+msgstr "[[Intercanviar Monero amb *Feather*|advanced_topics/feather]]"
 
 #, fuzzy
 #~ msgid ""
