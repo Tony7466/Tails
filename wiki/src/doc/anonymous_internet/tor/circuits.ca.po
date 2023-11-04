@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-04 19:11+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -121,10 +121,12 @@ msgid ""
 "Right-click (on Mac, click with two fingers) on the circuit that you want to "
 "close."
 msgstr ""
+"Feu clic amb el botó dret (a Mac, feu clic amb dos dits) al circuit que "
+"voleu tancar."
 
 #. type: Bullet: '1. '
 msgid "Choose **Close this circuit** in the shortcut menu."
-msgstr ""
+msgstr "Trieu **Tanca aquest circuit** al menú de dreceres."
 
 #. type: Plain text
 #, no-wrap
@@ -132,6 +134,9 @@ msgid ""
 "   When you close a circuit that is being used by an application, your\n"
 "   application gets disconnected from this destination service.\n"
 msgstr ""
+"   Quan tanqueu un circuit que està sent utilitzat per una aplicació, la "
+"vostra \n"
+"   aplicació es desconnecta d'aquest servei de destinació.\n"
 
 #. type: Plain text
 #, no-wrap
