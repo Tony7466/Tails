@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 17:10-0600\n"
-"PO-Revision-Date: 2023-11-03 15:12+0000\n"
+"PO-Revision-Date: 2023-11-04 22:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -344,6 +344,8 @@ msgstr ""
 #, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
 msgstr ""
+"   Retorna una llista dels dispositius d'emmagatzematge del sistema. Per "
+"exemple:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -363,7 +365,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Execute again the same command:"
-msgstr ""
+msgstr "Torneu a executar la mateixa ordre:"
 
 #. type: Plain text
 #, no-wrap
@@ -396,6 +398,12 @@ msgid ""
 "   <strong>you risk overwriting any hard disk on the system</strong>.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <div class=\"caution\">\n"
+"   <p>Si no esteu segur del nom del dispositiu, hauríeu de deixar de "
+"continuar o\n"
+"   <strong>correu el risc de sobreescriure qualsevol disc dur del "
+"sistema</strong>.</p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
 msgid ""
