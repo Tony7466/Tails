@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-10-22 09:27+0000\n"
+"PO-Revision-Date: 2023-11-04 12:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Resetting a USB stick using Linux\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Restablir un llapis USB utilitzant Linux\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -41,7 +41,7 @@ msgstr "<a id=\"disks\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Using <span class=\"application\">GNOME Disks</span>"
-msgstr ""
+msgstr "Utilitzant <span class=\"application\">Discs de GNOME</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -54,6 +54,9 @@ msgid ""
 "<strong>You might overwrite any hard disk on the computer.</strong> If at some\n"
 "point you are not sure about which device to choose, stop proceeding.\n"
 msgstr ""
+"<strong>Podeu sobreescriure qualsevol disc dur de l'ordinador.</strong> Si "
+"no esteu\n"
+"segur de quin dispositiu triar, millor no continueu.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -63,6 +66,7 @@ msgstr "</div>\n"
 #. type: Bullet: '1. '
 msgid "Make sure that the USB stick that you want to reset is unplugged."
 msgstr ""
+"Assegureu-vos que el llapis USB que voleu restablir estigui desconnectat."
 
 #. type: Plain text
 #, no-wrap
@@ -75,6 +79,13 @@ msgid ""
 "   </span>\n"
 "   to start <span class=\"application\">GNOME Disks</span>.\n"
 msgstr ""
+"1. Trieu\n"
+"    <span class=\"menuchoice\">\n"
+"      <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"      <span class=\"guisubmenu\">Utilitats</span>&nbsp;▸\n"
+"      <span class=\"guimenuitem\">Discs</span>\n"
+"    </span>\n"
+"    per iniciar <span class=\"application\">Discs de GNOME</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -82,10 +93,13 @@ msgid ""
 "   A list of all the storage devices on the computer appears in the left pane\n"
 "   of the window.\n"
 msgstr ""
+"   Al panell esquerre de la finestra apareix una llista de tots els "
+"dispositius\n"
+"   d'emmagatzematge de l'ordinador.\n"
 
 #. type: Bullet: '1. '
 msgid "Plug in the USB stick that you want to reset."
-msgstr ""
+msgstr "Connecteu el llapis USB que voleu restablir."
 
 #. type: Plain text
 #, no-wrap
@@ -93,12 +107,17 @@ msgid ""
 "   A new device appears in the list of storage devices. This new device\n"
 "   corresponds to the USB stick that you plugged in. Click on it.\n"
 msgstr ""
+"   Apareix un nou dispositiu a la llista de dispositius d'emmagatzematge. "
+"Aquest nou dispositiu\n"
+"   correspon al llapis USB que heu connectat. Feu-hi clic.\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "In the right pane of the window, verify that the device corresponds to the "
 "USB stick that you want to reset, its brand, its size, etc."
 msgstr ""
+"Al panell dret de la finestra, comproveu que el dispositiu correspon al "
+"llapis USB que voleu restablir, la seva marca, la seva mida, etc."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -106,10 +125,13 @@ msgid ""
 "menu.png alt=\"Menu\" class=symbolic link=no]]</span> button in the titlebar "
 "and choose <span class=\"guilabel\">Format Disk…</span>."
 msgstr ""
+"Per restablir el llapis USB, feu clic al botó <span class=\"guimenu\">[[!img "
+"lib/open-menu.png alt=\"Menú\" class=symbolic link=no]]</span> a la barra de "
+"títol i trieu <span class=\"guilabel\">Formata disc...</span>."
 
 #. type: Bullet: '1. '
 msgid "In the <span class=\"guilabel\">Format Disk</span> dialog:"
-msgstr ""
+msgstr "Al diàleg <span class=\"guilabel\">Formata el disc</span>:"
 
 #. type: Plain text
 #, no-wrap
@@ -118,6 +140,9 @@ msgid ""
 "   **Overwrite existing data with zeroes** in the\n"
 "   **Erase** menu.\n"
 msgstr ""
+"   1. Si voleu esborrar totes les dades de manera segura, trieu\n"
+"   **Sobreescriu les dades existents amb zeros** al\n"
+"   Menú **Esborra**.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -125,16 +150,20 @@ msgid ""
 "   2. Choose **Compatible with all systems and devices (MBR/DOS)**\n"
 "   in the **Partitioning** menu.\n"
 msgstr ""
+"   2. Trieu **Compatible amb tots els sistemes i dispositius (MBR/DOS)**\n"
+"   al menú de **Particions**.\n"
 
 #. type: Bullet: '   3. '
 msgid "Click on the **Format…** button."
-msgstr ""
+msgstr "Feu clic al botó **Formata...**."
 
 #. type: Bullet: '1. '
 msgid ""
 "In the confirmation dialog, click on the <span class=\"bold\">Format</span> "
 "button to confirm."
 msgstr ""
+"Al diàleg de confirmació, feu clic al botó <span class=\"bold\">Formata</"
+"span> per confirmar."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -142,17 +171,23 @@ msgid ""
 "<span class=\"guimenu\">[[!img lib/media-eject.png alt=\"Eject\" "
 "class=symbolic link=no]]</span> button in the titlebar."
 msgstr ""
+"Per assegurar-vos que tots els canvis s'escriuen al llapis USB, feu clic al "
+"botó <span class=\"guimenu\">[[!img lib/media-eject.png alt=\"Extreu\" "
+"class=symbolic link=no]]</span> de la barra de títol."
 
 #. type: Title =
 #, no-wrap
 msgid "Resetting a Tails USB stick from itself"
-msgstr ""
+msgstr "Restablir un llapis USB Tails des de si mateix"
 
 #. type: Plain text
 msgid ""
 "If Tails is your only Linux system, you can generally reset a Tails USB "
 "stick directly from that USB stick while running Tails."
 msgstr ""
+"Si Tails és el vostre únic sistema Linux, generalment podeu restablir un "
+"llapis USB de Tails directament des d'aquest llapis USB mentre feu servir "
+"Tails."
 
 #. type: Bullet: '1.  '
 msgid ""
@@ -161,12 +196,20 @@ msgid ""
 "instructions, see the documentation on [[using the <span class=\"application"
 "\">Boot Loader</span>|advanced_topics/boot_options]]."
 msgstr ""
+"Quan inicieu Tails, afegiu l'opció d'arrencada <span class=\"command\""
+">toram</span> al <span class=\"application\">Carregador d'Arrencada</span>. "
+"Per obtenir instruccions detallades, consulteu la documentació sobre com [["
+"usar el <span class=\"application\">Carregador d'Arrencada</span>|"
+"advanced_topics/boot_options]]."
 
 #. type: Bullet: '2.  '
 msgid ""
 "If Tails starts as usual, follow the instructions for [[resetting a USB "
 "stick using <span class=\"application\">GNOME Disks</span>|linux#disks]]."
 msgstr ""
+"Si Tails s'inicia com de costum, seguiu les instruccions per [[restablir un "
+"llapis USB mitjançant <span class=\"application\">Discs de "
+"GNOME</span>|linux#disks]]."
 
 #. type: Plain text
 #, no-wrap
@@ -175,6 +218,11 @@ msgid ""
 "    enough memory for this operation mode. Try with another computer, or find\n"
 "    another Linux system, such as another Tails USB stick, to do the reset from.\n"
 msgstr ""
+"    **Si el sistema no s'inicia**, vol dir que l'ordinador no té\n"
+"    memòria suficient per a aquest mode de funcionament. Proveu amb un altre "
+"ordinador o trobeu\n"
+"    un altre sistema Linux, com un altre llapis USB de Tails, per fer el "
+"restabliment.\n"
 
 #~ msgid ""
 #~ "In the popup window, choose <span class=\"guilabel\">Master Boot Record</"
