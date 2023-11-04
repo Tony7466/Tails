@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-30 21:51+0000\n"
-"PO-Revision-Date: 2023-11-04 19:11+0000\n"
+"PO-Revision-Date: 2023-11-05 00:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -151,10 +151,21 @@ msgid ""
 "   <span class=\"upgrade-mac\">[[download step|upgrade/mac#download]].</span></p>\n"
 "   </div>\n"
 msgstr ""
+"   <p>Si la imatge té un fitxer <mb extensió <i>.iso</i>,\n"
+"   no és la imatge correcta. Si us plau, torneu al\n"
+"   <span class=\"windows\">[[pas de baixada|windows#download]].</span>\n"
+"   <span class=\"mac\">[[pas de baixada|mac#download]].</span>\n"
+"   <span class=\"upgrade-windows\">[[pas de baixada|upgrade/"
+"windows#download]].</span>\n"
+"   <span class=\"upgrade-mac\">[[pas de baixada|upgrade/"
+"mac#download]].</span></p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
 msgid "Click the **Select target** button to select your USB stick."
 msgstr ""
+"Feu clic al botó **Selecciona un objectiu** per seleccionar el vostre llapis "
+"USB."
 
 #. type: Plain text
 #, no-wrap
@@ -165,12 +176,12 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Click <span class=\"bold\">Flash</span>."
-msgstr ""
+msgstr "Feu clic a <span class=\"bold\">Flash</span>."
 
 #. type: Plain text
 #, no-wrap
 msgid "   Enter your password if you are asked for it.\n"
-msgstr ""
+msgstr "   Introduïu la vostra contrasenya si us la demanen.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -183,6 +194,9 @@ msgid ""
 "   After installing Tails, <span class=\"application\">balenaEtcher</span> verifies the\n"
 "   installation.\n"
 msgstr ""
+"   Després d'instal·lar Tails, <span class=\"application\">balenaEtcher</"
+"span> verifica la\n"
+"   instal·lació.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -193,10 +207,15 @@ msgid ""
 "   stick.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <div class=\"bug\">\n"
+"   <p>Si la verificació de <span class=\"application\">balenaEtcher</span>\n"
+"   falla, proveu d'instal·lar de nou o proveu d'utilitzar un llapis USB "
+"diferent.</p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
 msgid "Close <span class=\"application\">balenaEtcher</span>."
-msgstr ""
+msgstr "Tanqueu <span class=\"application\">balenaEtcher</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -206,3 +225,8 @@ msgid ""
 "   click <span class=\"bold\">Eject</span> to eject the USB stick.\n"
 "   </p>\n"
 msgstr ""
+"   <p class=\"mac upgrade-mac\">\n"
+"   Si apareix una notificació sobre que el llapis USB no es pot llegir,\n"
+"   feu clic a <span class=\"bold\">Expulsa</span> per expulsar el llapis USB."
+"\n"
+"   </p>\n"
