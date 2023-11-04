@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-07-20 22:06+0000\n"
-"PO-Revision-Date: 2023-11-04 19:12+0000\n"
+"PO-Revision-Date: 2023-11-04 22:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -78,7 +78,7 @@ msgstr "[[la línia d'ordres de Linux|install/expert#install]]"
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer while leaving the USB stick plugged in."
-msgstr ""
+msgstr "Apagueu l'ordinador mentre deixeu el llapis USB connectat."
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer and plug in the Tails USB stick."
