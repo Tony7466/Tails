@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-31 15:11+0000\n"
+"PO-Revision-Date: 2023-11-04 12:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -48,6 +48,7 @@ msgstr "</div>\n"
 #. type: Bullet: '1.  '
 msgid "Make sure that the USB stick that you want to reset is unplugged."
 msgstr ""
+"Assegureu-vos que el llapis USB que voleu restablir estigui desconnectat."
 
 #. type: Bullet: '2.  '
 msgid "Start <span class=\"application\">Disk Utility</span>."
@@ -62,7 +63,7 @@ msgstr ""
 
 #. type: Bullet: '3.  '
 msgid "Plug in the USB stick that you want to reset."
-msgstr ""
+msgstr "Connecteu el llapis USB que voleu restablir."
 
 #. type: Plain text
 #, no-wrap
@@ -127,7 +128,7 @@ msgstr ""
 #. type: Title -
 #, no-wrap
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Resolució de problemes"
 
 #. type: Title -
 #, no-wrap
