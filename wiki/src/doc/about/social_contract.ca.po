@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
-"PO-Revision-Date: 2023-11-04 19:12+0000\n"
+"PO-Revision-Date: 2023-11-05 15:55+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -47,11 +47,15 @@ msgid ""
 "This is a promise from our contributors community to the rest of the world, "
 "affirming a commitment to our beliefs."
 msgstr ""
+"Aquesta és una promesa de la nostra comunitat de col·laboradors a la resta "
+"del món, que afirma un compromís amb les nostres creences."
 
 #. type: Title ##
 #, no-wrap
 msgid "1. By creating Tails we try to provide usable tools for anonymity and privacy"
 msgstr ""
+"1. En crear Tails, intentem oferir eines utilitzables per a l'anonimat i la "
+"privadesa"
 
 #. type: Plain text
 msgid ""
