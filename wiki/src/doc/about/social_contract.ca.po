@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
 "PO-Revision-Date: 2023-11-05 15:57+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -73,13 +73,16 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "2. Tails is and will remain Free Software"
-msgstr ""
+msgstr "2. Tails és i seguirà sent Programari Lliure"
 
 #. type: Plain text
 msgid ""
 "Equal access to information includes the free availability of our code and "
 "documentation as well as the transparency of our decision making processes."
 msgstr ""
+"L'accés igualitari a la informació inclou la disponibilitat gratuïta del "
+"nostre codi i documentació, així com la transparència dels nostres processos "
+"de presa de decisions."
 
 #. type: Plain text
 msgid ""
@@ -87,12 +90,17 @@ msgid ""
 "licensed in a manner consistent with the [Debian Free Software Guidelines]"
 "(https://www.debian.org/social_contract)."
 msgstr ""
+"Tots els components de Tails que creem nosaltres mateixos tenen i tindran "
+"una llicència coherent amb les [Directrius de Programari Lliure de "
+"Debian](https://www.debian.org/social_contract)."
 
 #. type: Plain text
 msgid ""
 "Tails will always be free to use, remix, adapt and distribute.  As the only "
 "exceptions to this rule, Tails includes:"
 msgstr ""
+"Tails sempre serà gratuït d'utilitzar, remesclar, adaptar i distribuir. Com "
+"a úniques excepcions a aquesta regla, Tails inclou:"
 
 #. type: Bullet: '- '
 msgid ""
