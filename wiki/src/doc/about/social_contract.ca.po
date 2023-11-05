@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
-"PO-Revision-Date: 2023-11-05 16:00+0000\n"
+"PO-Revision-Date: 2023-11-05 16:06+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -123,19 +123,24 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "3. We will give back to the Free Software community"
-msgstr ""
+msgstr "3. Retornarem a la comunitat de Programari Lliure"
 
 #. type: Plain text
 msgid ""
 "Tails is a privacy-oriented [Debian Derivative](https://wiki.debian.org/"
 "Derivatives)."
 msgstr ""
+"Tails és un [derivat de Debian](https://wiki.debian.org/Derivatives) "
+"orientat a la privadesa."
 
 #. type: Plain text
 msgid ""
 "We want usable security and privacy-oriented tools to become a standard for "
 "the Free Software community as a whole."
 msgstr ""
+"Volem que les eines de seguretat utilitzables i orientades a la privadesa es "
+"converteixin en un estàndard per a la comunitat de programari lliure en el "
+"seu conjunt."
 
 #. type: Plain text
 msgid ""
@@ -144,6 +149,10 @@ msgid ""
 "will benefit others and can be improved upon further by a wider audience of "
 "people."
 msgstr ""
+"Sempre que sigui possible, s'enviaran correccions d'errors, millores de "
+"codi, embalatge de Debian, així com treballs sobre problemes d'usabilitat. "
+"D'aquesta manera, les nostres modificacions beneficiaran els altres i es "
+"podran millorar encara més per un públic més ampli de persones."
 
 #. type: Title ##
 #, no-wrap
