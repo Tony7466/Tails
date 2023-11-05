@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
-"PO-Revision-Date: 2023-11-05 16:06+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-05 16:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -157,7 +157,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "4. We encourage participation and transparency"
-msgstr ""
+msgstr "4. Fomentem la participació i la transparència"
 
 #. type: Plain text
 msgid ""
