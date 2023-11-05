@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2023-11-05 14:11+0000\n"
+"PO-Revision-Date: 2023-11-05 23:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -28,7 +28,7 @@ msgstr "[[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]"
 
 #. type: Content of: <h1>
 msgid "Verify your download"
-msgstr "Verifiqueu la vostra baixada"
+msgstr "Verificar la baixada"
 
 #. type: Content of: <div>
 msgid "[[!img inc/infography/verify.png link=\"no\" alt=\"\"]]"
