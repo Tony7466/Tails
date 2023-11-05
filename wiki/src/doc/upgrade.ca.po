@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-05 14:11+0000\n"
+"PO-Revision-Date: 2023-11-05 16:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -444,40 +444,49 @@ msgid ""
 "cloning from another Tails|doc/upgrade/#clone]] (below)  - [[Burn a new "
 "Tails DVD|install/dvd]] - [[Upgrade your virtual machine|install/vm]]"
 msgstr ""
+"- [[Baixar i actualitzar|doc/upgrade/#download]] (a sota) \n"
+"- [[Actualitzar mitjançant la clonació des d'un altre Tails|doc/upgrade/"
+"#clone]] (a sota) \n"
+"- [[Enregistrar un nou DVD de Tails|install/dvd]] \n"
+"- [[Actualitzar la vostra màquina virtual|install/vm]]"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"download\">Download and upgrade</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"download\">Baixar i actualitzar</h2>\n"
 
 #. type: Plain text
 msgid "You need:"
-msgstr ""
+msgstr "Necessiteu:"
 
 #. type: Bullet: '- '
 msgid "Your Tails USB stick"
-msgstr ""
+msgstr "El vostre llapis USB de Tails"
 
 #. type: Bullet: '- '
 msgid ""
 "Another empty USB stick <small>(at least 8 GB)</small>&nbsp;[[!toggle id="
 "\"why_extra\" text=\"Why?\"]]"
 msgstr ""
+"Un altre llapis USB buit <small>(d'almenys 8 GB)</small>&nbsp;[[!toggle id="
+"\"why_extra\" text=\"Per què?\"]]"
 
 #. type: Bullet: '- '
 msgid ""
 "½ hour to download Tails (<small class=\"remove-extra-space\">[[!inline "
 "pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" sort=\"age\"]]</small>)"
 msgstr ""
+"Mitja hora per baixar Tails (<small class=\"remove-extra-space\">[[!inline "
+"pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" sort=\"age\"]]</small>)"
 
 #. type: Bullet: '- '
 msgid "½ hour to upgrade"
-msgstr ""
+msgstr "Mitja hora per actualitzar"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!toggleable id=\"why_extra\" text=\"\"\"\n"
-msgstr ""
+msgstr "[[!toggleable id=\"why_extra\" text=\"\"\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -488,10 +497,17 @@ msgid ""
 "intermediary Tails on another USB stick, from which to upgrade your\n"
 "Tails.</p>\n"
 msgstr ""
+"<span class=\"hide\">[[!toggle id=\"why_extra\" text=\"\"]]</span>\n"
+"<p>Actualment és impossible actualitzar manualment un llapis USB de Tails\n"
+"mentre està en funcionament. Aquest escenari requereix la creació d'un\n"
+"Tails intermediari en un altre llapis USB, des del qual actualitzar el "
+"vostre\n"
+"Tails.</p>\n"
 
 #. type: Plain text
 msgid "See our instructions on how to do a manual upgrade by:"
 msgstr ""
+"Consulteu les nostres instruccions sobre com fer una actualització manual:"
 
 #. type: Plain text
 msgid ""
@@ -501,6 +517,10 @@ msgid ""
 "convenient)  - [[Downloading and upgrading from Linux|upgrade/linux]] (more "
 "convenient)"
 msgstr ""
+"- [[Baixar i actualitzar des del vostre Tails|upgrade/tails]] (més segur)\n"
+"- [[Baixar i actualitzar des de Windows|upgrade/windows]] (més convenient)\n"
+"- [[Baixar i actualitzar des de macOS|upgrade/mac] ] (més convenient)\n"
+"- [[Baixar i actualitzar des de Linux|upgrade/linux]] (més convenient)"
 
 #. type: Plain text
 #, no-wrap
@@ -513,27 +533,35 @@ msgid ""
 "<p>Downloading and upgrading from Windows might be less secure if your\n"
 "Windows has viruses. But, it might be more convenient and faster.</p>\n"
 msgstr ""
+"<p>La baixada i l'actualització des de Windows poden ser menys segures si el "
+"vostre\n"
+"Windows té virus. Però, pot ser més còmode i ràpid.</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"clone\">Upgrade by cloning from another Tails</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"clone\">Actualitzar clonant des d'un altre Tails</h2>\n"
 
 #. type: Plain text
 msgid ""
 "If you know someone you trust who already did the upgrade, you can upgrade "
 "your Tails by cloning from their Tails."
 msgstr ""
+"Si coneixeu algú en qui confieu que ja va fer l'actualització, podeu "
+"actualitzar el vostre Tails clonant des del seu Tails."
 
 #. type: Plain text
 msgid ""
 "- Your Tails USB stick - Another up-to-date Tails (USB stick or DVD)  - ¼ "
 "hour to upgrade"
 msgstr ""
+"- El vostre llapis USB Tails\n"
+"- Un altre Tails actualitzat (llapis USB o DVD)\n"
+"- Un quart d'hora per actualitzar"
 
 #. type: Plain text
 msgid "- [[Cloning from another Tails|upgrade/clone]]"
-msgstr ""
+msgstr "- [[Clonar des d'un altre Tails|upgrade/clone]]"
 
 #~ msgid ""
 #~ "<p>We recommend you read the [[release notes|release_notes]] for the "
