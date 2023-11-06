@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-11-03 03:11+0000\n"
-"Last-Translator: translatenight <info@passt-so.de>\n"
+"PO-Revision-Date: 2023-11-06 17:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -660,10 +660,8 @@ msgid "[[Contact|about/contact]]"
 msgstr "[[sozialer Auftrag|doc/about/social_contract]]"
 
 #. type: Content of: <div>
-#, fuzzy
-#| msgid "[[Get Tails|install]]"
 msgid "[[Install Tails|install]]"
-msgstr "[[Tails herunterladen und installieren|install]]"
+msgstr "[[Tails installieren|install]]"
 
 #~ msgid ""
 #~ "[[Viewing the status and circuits of Tor|doc/anonymous_internet/"
