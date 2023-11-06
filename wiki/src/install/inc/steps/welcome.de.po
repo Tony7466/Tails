@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 10:54-0300\n"
-"PO-Revision-Date: 2023-10-10 13:12+0000\n"
+"PO-Revision-Date: 2023-11-06 17:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -40,13 +40,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"wi-fi\">Test your Wi-Fi</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"wi-fi\">Ihr WLAN testen</h2>\n"
 
 #. type: Plain text
 msgid ""
 "Problems with Wi-Fi are unfortunately quite common in Tails and Linux in "
 "general. To test if your Wi-Fi interface works in Tails:"
 msgstr ""
+"Probleme mit Wi-Fi sind in Tails und im Allgemeinen unter Linux leider recht "
+"häufig. Um zu testen, ob Ihre Wi-Fi-Schnittstelle in Tails funktioniert:"
 
 #. type: Bullet: '1. '
 msgid "Open the system menu in the top-right corner:"
