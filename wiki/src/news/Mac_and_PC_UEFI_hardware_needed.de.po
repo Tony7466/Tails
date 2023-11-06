@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2020-04-12 16:10+0200\n"
 "PO-Revision-Date: 2023-11-06 17:11+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -44,12 +44,18 @@ msgid ""
 "UEFI support, so quite a few recent PC's refuse to boot from a Tails USB "
 "stick."
 msgstr ""
+"Derzeit bietet Tails nur sehr eingeschränkte Unterstützung für Mac. Außerdem "
+"fehlt Tails die UEFI-Unterstützung, sodass einige neuere PCs sich weigern, "
+"von einem Tails USB-Stick zu starten."
 
 #. type: Plain text
 msgid ""
 "We will be working on this in the next few months. However, our testing and "
 "development possibilities are limited: we do not own the right hardware yet."
 msgstr ""
+"Wir werden in den nächsten Monaten daran arbeiten. Allerdings sind unsere "
+"Test- und Entwicklungsmöglichkeiten begrenzt: Wir besitzen die passende "
+"Hardware noch nicht."
 
 #. type: Plain text
 #, no-wrap
