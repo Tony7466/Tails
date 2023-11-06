@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-07-20 22:06+0000\n"
-"PO-Revision-Date: 2023-10-18 15:26+0000\n"
+"PO-Revision-Date: 2023-10-22 18:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -230,7 +230,7 @@ msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid "Switch on the computer."
-msgstr "Schalten Sie den Computer ein."
+msgstr "Enceneu l'ordinador."
 
 #. type: Content of: <ol><li><p>
 msgid ""

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-10-18 15:26+0000\n"
-"Last-Translator: retiolus <retiolus@protonmail.com>\n"
+"PO-Revision-Date: 2023-10-22 12:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgstr "[[Baixar i instal·lar Tails|install]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[System requirements and recommended hardware|doc/about/requirements]]"
-msgstr ""
+msgstr "[[Requisits del sistema i maquinari recomanat|doc/about/requirements]]"
 
 #
 #
@@ -154,11 +154,11 @@ msgstr "Fitxers que heu obert, encara que els hagueu suprimit"
 
 #. type: Content of: <section><div><ul><li>
 msgid "Passwords, even if you use a password manager"
-msgstr ""
+msgstr "Contrasenyes, fins i tot si utilitzeu un gestor de contrasenyes"
 
 #. type: Content of: <section><div><ul><li>
 msgid "All the devices and Wi-Fi networks that you used"
-msgstr ""
+msgstr "Tots els dispositius i xarxes Wi-Fi que heu utilitzat"
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -166,6 +166,9 @@ msgid ""
 "from the memory of the computer. The memory is entirely deleted when you "
 "shutdown Tails, erasing all possible traces."
 msgstr ""
+"Pel contrari, Tails mai escriu res al disc dur i només s'executa des de la "
+"memòria de l'ordinador. La memòria s'esborra completament quan tanqueu "
+"Tails, esborrant tots els rastres possibles."
 
 #
 #
@@ -176,10 +179,14 @@ msgid ""
 "\">Like a backpack, you can store your personal things in your Persistent "
 "Storage and use them in your tent.</i>"
 msgstr ""
+"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i class=\"metaphor\""
+">Com una motxilla, podeu emmagatzemar les vostres coses personals a "
+"l'Emmagatzematge Persistent i utilitzar-les a la vostra tenda de "
+"campanya.</i>"
 
 #. type: Content of: <section><div><h2>
 msgid "Persistent Storage"
-msgstr ""
+msgstr "Emmagatzematge Persistent"
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -187,21 +194,29 @@ msgid ""
 "encrypted Persistent Storage on the USB stick: your documents, your browser "
 "bookmarks, your emails, and even some additional software."
 msgstr ""
+"Podeu <strong>desar alguns dels vostres fitxers i configuracions</strong> en "
+"un Emmagatzematge Persistent encriptat al llapis USB: els vostres documents, "
+"les adreces d'interès del navegador, els vostres correus electrònics i fins "
+"i tot algun programari addicional."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "The Persistent Storage is optional and you always decide what is "
 "<i>persistent</i>. Everything else is <i>amnesic</i>."
 msgstr ""
+"L'Emmagatzematge Persistent és opcional i sempre decidiu què és "
+"<i>persistent</i>. Tota la resta és <i>amnèsica</i>."
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Persistent Storage|doc/persistent_storage]]"
-msgstr ""
+msgstr "[[Emmagatzematge Persistent|doc/persistent_storage]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid ""
 "[[Installing additional software|doc/persistent_storage/additional_software]]"
 msgstr ""
+"[[Instal·lació de programari addicional|doc/persistent_storage/"
+"additional_software]]"
 
 #. type: Content of: <section><div>
 msgid "[[!img toolbox.svg link=\"no\" alt=\"\"]]"
@@ -216,69 +231,79 @@ msgid ""
 "Tails includes a selection of applications to <strong>work on sensitive "
 "documents</strong> and <strong>communicate securely</strong>."
 msgstr ""
+"Tails inclou una selecció d'aplicacions per <strong>treballar amb documents "
+"sensibles</strong> i <strong>comunicar-se de manera segura</strong>."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "All the applications are ready-to-use and are configured with safe defaults "
 "to <strong>prevent mistakes</strong>."
 msgstr ""
+"Totes les aplicacions estan llestes per ser utilitzades i estan configurades "
+"amb valors predeterminats segurs per <strong>evitar errors</strong>."
 
 #. type: Content of: <section><div><p>
 msgid "Tails includes:"
-msgstr ""
+msgstr "Tails inclou:"
 
 #. type: Content of: <section><div><ul><li>
 msgid ""
 "<i>Tor Browser</i> with <i>uBlock</i>, a secure browser and an ad-blocker"
 msgstr ""
+"<i>Navegador Tor</i> amb <i>uBlock</i>, un navegador segur i un bloquejador "
+"d'anuncis"
 
 #. type: Content of: <section><div><ul><li>
 msgid "<i>Thunderbird</i>, for encrypted emails"
-msgstr ""
+msgstr "<i>Thunderbird</i>, per a correus electrònics encriptats"
 
 #. type: Content of: <section><div><ul><li>
 msgid "<i>KeePassXC</i>, to create and store strong passwords"
-msgstr ""
+msgstr "<i>KeePassXC</i>, per crear i emmagatzemar contrasenyes segures"
 
 #. type: Content of: <section><div><ul><li>
 msgid "<i>LibreOffice</i>, an office suite"
-msgstr ""
+msgstr "<i>LibreOffice</i>, una suite ofimàtica"
 
 #. type: Content of: <section><div><ul><li>
 msgid "<i>OnionShare</i>, to share files over Tor"
-msgstr ""
+msgstr "<i>OnionShare</i>, per compartir fitxers mitjançant Tor"
 
 #. type: Content of: <section><div><ul><li>
 msgid "<i>Metadata Cleaner</i>, to remove metadata from files"
-msgstr ""
+msgstr "<i>Netejador de metadades</i>, per eliminar metadades dels fitxers"
 
 #. type: Content of: <section><div><ul><li>
 msgid "and many more!"
-msgstr ""
+msgstr "i molts més!"
 
 #. type: Content of: <section><div><p>
 msgid "To prevent mistakes:"
-msgstr ""
+msgstr "Per evitar errors:"
 
 #. type: Content of: <section><div><ul><li>
 msgid ""
 "Applications are blocked automatically if they try to connect to the "
 "Internet without Tor."
 msgstr ""
+"Les aplicacions es bloquegen automàticament si intenten connectar-se a "
+"Internet sense Tor."
 
 #. type: Content of: <section><div><ul><li>
 msgid "Everything in the Persistent Storage is encrypted automatically."
-msgstr ""
+msgstr "Tot l'Emmagatzematge Persistent s'encripta automàticament."
 
 #. type: Content of: <section><div><ul><li>
 msgid ""
 "Tails does not write anything to the hard disk. All the memory is deleted "
 "when shutting down."
 msgstr ""
+"Tails no escriu res al disc dur. Tota la memòria s'elimina en apagar "
+"l'ordinador."
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Features and included software|doc/about/features]]"
-msgstr ""
+msgstr "[[Característiques i programari inclòs|doc/about/features]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Documentation|doc]]"
@@ -296,7 +321,7 @@ msgstr "[[!img relays.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Tor for everything"
-msgstr ""
+msgstr "Tor per tot"
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -305,36 +330,45 @@ msgid ""
 "relays</strong>. <i>Relays</i> are servers operated by different people and "
 "organizations around the world."
 msgstr ""
+"Tot el que feu a Internet des de Tails passa per la xarxa Tor. Tor encripta "
+"i anonimitza la vostra connexió <strong>passant-la a través de tres "
+"repetidors</strong>. <i>Els repetidors</i> són servidors operats per "
+"diferents persones i organitzacions d'arreu del món."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "A single relay never knows both where the encrypted connection is coming "
 "from and where it is going to:"
 msgstr ""
+"Un sol repetidor mai sap d'on ve la connexió encriptada i cap a on anirà:"
 
 #. type: Content of: <section><div><ul><li>
 msgid ""
 "The 1st relay only knows where you are coming from but not where you are "
 "going to."
-msgstr ""
+msgstr "El primer repetidor només sap d'on veniu però no cap a on aneu."
 
 #. type: Content of: <section><div><ul><li>
 msgid ""
 "This 3rd relay only knows where you are going to but not where you are "
 "coming from."
-msgstr ""
+msgstr "El tercer repetidor només sap on aneu però no d'on veniu."
 
 #. type: Content of: <section><div><ul><li>
 msgid ""
 "The connection to the final destination is encrypted whenever possible to "
 "prevent the 3rd relay from reading its content."
 msgstr ""
+"La connexió amb la destinació final s'encripta sempre que sigui possible per "
+"evitar que el tercer repetidor en llegeixi el contingut."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "This way, Tor is <strong>secure by design</strong> even if a few relays are "
 "malicious."
 msgstr ""
+"D'aquesta manera, Tor és <strong>segur per disseny</strong> fins i tot si "
+"alguns repetidors són maliciosos."
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -344,15 +378,22 @@ msgid ""
 "Internet Access, and so on. The huge diversity of people and organizations "
 "running Tor relays makes it more secure and more sustainable."
 msgstr ""
+"La xarxa Tor té més de 6&#8239;000 repetidors. Les organitzacions que "
+"gestionen els repetidors de Tor inclouen universitats com el MIT, grups "
+"d'activistes com Riseup, organitzacions sense ànim de lucre com Derechos "
+"Digitales, empreses d'allotjament d'Internet com Private Internet Access, "
+"etc. L'enorme diversitat de persones i organitzacions que fan servir els "
+"repetidors de Tor fa que la xarxa Tor sigui més segura i sostenible."
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Why does Tails use Tor?|doc/anonymous_internet/tor/why]]"
-msgstr ""
+msgstr "[[Per què Tails utilitza Tor?|doc/anonymous_internet/tor/why]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid ""
 "[[Browsing the web with Tor Browser|doc/anonymous_internet/Tor_Browser]]"
 msgstr ""
+"[[Navegant pel web amb el Navegador Tor|doc/anonymous_internet/Tor_Browser]]"
 
 #
 #
@@ -362,19 +403,23 @@ msgstr "[[!img walkie-talkie.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Avoid online surveillance and censorship"
-msgstr ""
+msgstr "Eviteu la vigilància i la censura en línia"
 
 #. type: Content of: <section><div><p>
 msgid ""
 "Tor prevents someone watching your Internet connection from learning "
 "<strong><i>what</i> you are doing on the Internet</strong>."
 msgstr ""
+"Tor impedeix que algú que vegi la vostra connexió a Internet aprengui "
+"<strong><i>què</i> esteu fent a Internet</strong>."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "You can avoid censorship because it is <strong>impossible for a censor to "
 "know</strong> which websites you are visiting."
 msgstr ""
+"Podeu evitar la censura perquè és <strong>impossible que un censor sàpiga</"
+"strong> quins llocs web esteu visitant."
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -382,10 +427,13 @@ msgid ""
 "example in some countries with heavy censorship, you can use <i>bridges</i> "
 "to hide that you are connected to the Tor network."
 msgstr ""
+"Si la connexió a Tor està bloquejada o és perillós utilitzar-la des d'on us "
+"trobeu, per exemple en alguns països amb una forta censura, podeu utilitzar "
+"<i>ponts</i> per ocultar que esteu connectat a la xarxa Tor."
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Connecting to the Tor network|doc/anonymous_internet/tor]]"
-msgstr ""
+msgstr "[[Connexió a la xarxa Tor|doc/anonymous_internet/tor]]"
 
 #. type: Content of: <section><div>
 msgid "[[!img footprints.svg link=\"no\" alt=\"\"]]"
@@ -393,7 +441,7 @@ msgstr "[[!img footprints.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Avoid tracking and change identity"
-msgstr ""
+msgstr "Eviteu el seguiment i canvieu la identitat"
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -401,12 +449,17 @@ msgid ""
 "<strong><i>where</i> and <i>who</i> you are</strong>, unless you tell them. "
 "You can visit websites <strong>anonymously or change your identity</strong>."
 msgstr ""
+"Tor també impedeix que els llocs web que visiteu aprenguin <strong><i>on</i> "
+"i <i>qui</i> sou</strong>, tret que els digueu. Podeu visitar llocs web "
+"<strong>de manera anònima o canviar la vostra identitat</strong>."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "Online trackers and advertisers won't be able to follow you around from one "
 "website to another anymore."
 msgstr ""
+"Els seguidors en línia i els anunciants ja no us podran seguir d'un lloc web "
+"a un altre."
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -416,10 +469,16 @@ msgid ""
 "Storage, keep your passwords in <i>KeePassXC</i>, have a dedicated email "
 "account in <i>Thunderbird</i>, etc."
 msgstr ""
+"Podeu publicar un blog o gestionar un compte de xarxes socials completament "
+"des de Tails. Si només hi accediu des de Tails, no es podrà relacionar amb "
+"vós. Podeu emmagatzemar documents i imatges relacionades amb aquesta "
+"identitat diferent al vostre Emmagatzematge Persistent, mantenir les vostres "
+"contrasenyes a <i>KeePassXC</i>, tenir un compte de correu electrònic "
+"dedicat a <i>Thunderbird</i>, etc."
 
 #. type: Content of: <h1>
 msgid "Software for freedom"
-msgstr ""
+msgstr "Programari per a la llibertat"
 
 #
 #
@@ -429,25 +488,27 @@ msgstr "[[!img blueprint.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Transparency to build trust"
-msgstr ""
+msgstr "Transparència per generar confiança"
 
 #. type: Content of: <section><div><p>
 msgid ""
 "All the code of our software is public to allow independent security "
 "researchers to verify that Tails really works the way it should."
 msgstr ""
+"Tot el codi del nostre programari és públic per permetre als investigadors "
+"de seguretat independents verificar que Tails realment funciona com hauria."
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Trusting Tails|doc/about/trust]]"
-msgstr ""
+msgstr "[[Confiar en Tails|doc/about/trust]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[License and source code distribution|doc/about/license]]"
-msgstr ""
+msgstr "[[Llicència i distribució del codi font|doc/about/license]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Design documents|contribute/design]]"
-msgstr ""
+msgstr "[[Documents de disseny|contribute/design]]"
 
 #
 #
@@ -457,17 +518,20 @@ msgstr "[[!img fire.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Top security for free"
-msgstr ""
+msgstr "Màxima seguretat gratuïta"
 
 #. type: Content of: <section><div><p>
 msgid ""
 "Nobody should have to pay to be safe while using a computer.  That is why we "
 "are giving out Tails for free and try to make it easy to use by anybody."
 msgstr ""
+"Ningú hauria d'haver de pagar per estar segur mentre utilitza un ordinador. "
+"És per això que oferim Tails gratuïtament i intentem que sigui fàcil "
+"d'utilitzar per a qualsevol persona."
 
 #. type: Content of: <section><div><p>
 msgid "We are a nonprofit and an open community."
-msgstr ""
+msgstr "Som una comunitat oberta i sense ànim de lucre."
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -475,18 +539,21 @@ msgid ""
 "support Internet freedom: Mozilla, Tor, DuckDuckGo, Freedom of the Press "
 "Foundation, AccessNow, etc."
 msgstr ""
+"El nostre treball es finança amb donacions de persones com vós i "
+"d'organitzacions que donen suport a la llibertat d'Internet: Mozilla, Tor, "
+"DuckDuckGo, Freedom of the Press Foundation, AccessNow, etc."
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Donate|donate]]"
-msgstr ""
+msgstr "[[Feu una donació|donate]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Sponsors|sponsors]]"
-msgstr ""
+msgstr "[[Patrocinadors|sponsors]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Social Contract|doc/about/social_contract]]"
-msgstr ""
+msgstr "[[Contracte Social|doc/about/social_contract]]"
 
 #
 #
@@ -496,47 +563,51 @@ msgstr "[[!img roots.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><h2>
 msgid "Sharing to be stronger"
-msgstr ""
+msgstr "Compartir per ser més forts"
 
 #. type: Content of: <section><div><p>
 msgid ""
 "Tails is built on solid foundations: the Tor network, the Debian operating "
 "system, the GNOME desktop environment, and all the tools included in Tails."
 msgstr ""
+"Tails està construït sobre bases sòlides: la xarxa Tor, el sistema operatiu "
+"Debian, l'entorn d'escriptori GNOME i totes les eines incloses a Tails."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "We share back our improvements with these projects so that many more people "
 "can benefit from our work."
 msgstr ""
+"Compartim les nostres millores amb aquests projectes perquè molta més gent "
+"pugui beneficiar-se del nostre treball."
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Relationship with upstream|contribute/relationship_with_upstream]]"
-msgstr ""
+msgstr "[[Relació amb upstream|contribute/relationship_with_upstream]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Contribute|contribute]]"
-msgstr ""
+msgstr "[[Contribuir|contribute]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "<a href=\"https://www.torproject.org/\">The Tor Project</a>"
-msgstr ""
+msgstr "<a href=\"https://www.torproject.org/\">El Projecte Tor</a>"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "<a href=\"https://debian.org/\">Debian GNU/Linux</a>"
-msgstr ""
+msgstr "<a href=\"https://debian.org/\">Debian GNU/Linux</a>"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "<a href=\"https://www.gnome.org/\">GNOME</a>"
-msgstr ""
+msgstr "<a href=\"https://www.gnome.org/\">GNOME</a>"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Contact|about/contact]]"
-msgstr ""
+msgstr "[[Contacte|about/contact]]"
 
 #. type: Content of: <div>
 msgid "[[Install Tails|install]]"
-msgstr ""
+msgstr "[[Instal·lar Tails|install]]"
 
 #~ msgid "[[!toc levels=2]]\n"
 #~ msgstr "[[!toc levels=2]]\n"

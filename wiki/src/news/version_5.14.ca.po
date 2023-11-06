@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-13 14:17+0200\n"
-"PO-Revision-Date: 2023-10-18 15:26+0000\n"
+"PO-Revision-Date: 2023-10-22 12:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.14\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.14\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -140,16 +140,19 @@ msgid ""
 "[[!img electrum.png link=\"no\" alt=\"Popup when starting Electrum with\n"
 "button to donate\"]]\n"
 msgstr ""
+"[[!img electrum.png link=\"no\" alt=\"Finestra emergent quan s'inicia "
+"Electrum amb\n"
+"un botó per fer una donació\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Included software"
-msgstr ""
+msgstr "Programari inclòs"
 
 #. type: Plain text
 msgid ""
@@ -201,6 +204,8 @@ msgid ""
 "For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
 "\"]]."
 msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"llistat de canvis\"]]."
 
 #. type: Bullet: '- '
 msgid ""
@@ -224,7 +229,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"get\">Get Tails 5.14</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"get\">Obtenir Tails 5.14</h1>\n"
 
 #. type: Title ##
 #, no-wrap
@@ -295,8 +300,8 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"

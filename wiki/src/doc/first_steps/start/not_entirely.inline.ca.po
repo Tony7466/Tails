@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:41-0600\n"
-"PO-Revision-Date: 2023-10-18 15:26+0000\n"
+"PO-Revision-Date: 2023-10-22 18:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -42,11 +42,11 @@ msgid "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline\" raw=\"
 msgstr "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline.ca\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"troubleshooting-mode\">Try the Troubleshooting Mode entry</h2>\n"
 msgstr ""
-"   Fehlerbehebung\n"
-"   ---------------\n"
+"<h2 id=\"troubleshooting-mode\">Proveu l'entrada del mode de resolució de "
+"problemes</h2>\n"
 
 #. type: Plain text
 msgid ""

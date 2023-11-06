@@ -2,6 +2,7 @@ const Main = imports.ui.main;
 const GLib = imports.gi.GLib;
 
 const ExtensionUtils = imports.misc.extensionUtils;
+const ByteArray = imports.byteArray;
 
 var settings;
 
@@ -14,7 +15,7 @@ function overrider(lbl) {
     if(out == null) {
         var desired = now.toLocaleString('en-US') + ' GMT';
     } else {
-        desired = out.toString().trim();
+        desired = ByteArray.toString(out).trim();
     }
 
     var t = lbl.get_text();
@@ -30,12 +31,12 @@ function enable() {
     var sA = Main.panel.statusArea;
     if (!sA) { sA = Main.panel._statusArea; }
 
-    if (!sA || !sA.dateMenu || !sA.dateMenu.actor) {
+    if (!sA || !sA.dateMenu) {
         print("Looks like Shell has changed where things live again; aborting.");
         return;
     }
 
-    sA.dateMenu.actor.first_child.get_children().forEach(function(w) {
+    sA.dateMenu.first_child.get_children().forEach(function(w) {
         // assume that the text label is the first StLabel we find.
         // This is dodgy behaviour but there's no reliable way to
         // work out which it is.
