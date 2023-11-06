@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2022-06-11 22:39+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-06 17:11+0000\n"
+"Last-Translator: gwave <gwave@secmail.pro>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -43,15 +43,14 @@ msgstr ""
 "besonders geeignet im Kontext von Tails ist, weil:\n"
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid ""
 "You can use your wallet from different devices and avoid losing bitcoins in "
 "a backup mistake or computer failure."
 msgstr ""
-"Ihr Wallet (Anm. Übers.: digitale Brieftasche) kann vollständig mithilfe "
-"eines Passworts, *Seed* genannt, wiederhergestellt werden. Somit können Sie "
-"Ihr Wallet von verschiedenen Geräten aus nutzen und verhindern, dass "
-"Bitcoins bei einem Backup-Fehler oder Computerproblem verloren gehen."
+"Ihr Wallet (digitale Brieftasche) kann vollständig mithilfe eines Passworts, "
+"\"Seed\" genannt, wiederhergestellt werden. Somit können Sie Ihr Wallet von "
+"verschiedenen Geräten aus nutzen und verhindern, dass Bitcoins bei einem "
+"Backup-Fehler oder einem Computerproblem verloren gehen."
 
 #. type: Bullet: '  - '
 #, fuzzy
