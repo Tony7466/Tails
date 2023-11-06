@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-10 10:12+0000\n"
+"PO-Revision-Date: 2023-11-06 15:26+0000\n"
 "Last-Translator: Deleted User <noreply+435@weblate.org>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -27,16 +27,12 @@ msgstr ""
 "Passwörter_verwalten]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Create_and_use_encrypted_volumes|encryption_and_privacy/"
-#| "encrypted_volumes]]"
 msgid ""
 "[[Creating and using *LUKS* encrypted volumes|encryption_and_privacy/"
 "encrypted_volumes]]"
 msgstr ""
-"[[!traillink Erstellen_und_Benutzen_verschlüsselter_Laufwerke|"
-"encryption_and_privacy/encrypted_volumes]]"
+"[[Erstellen und Verwenden von *LUKS* verschlüsselten "
+"Datenträgern|verschlüsselung_und_privatsphäre/verschlüsselte_volumes]]"
 
 #. type: Bullet: '  - '
 #, fuzzy
