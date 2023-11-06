@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-09-17 15:39+0000\n"
-"PO-Revision-Date: 2023-11-06 15:36+0000\n"
-"Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
+"PO-Revision-Date: 2023-11-06 17:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -36,8 +36,8 @@ msgstr ""
 #. type: Plain text
 msgid "We will do our best to make it easier for you to support our work."
 msgstr ""
-"Wir werden unser Bestes geben Ihnen es zuerleichtern unsere Arbeit zu "
-"unterstützen."
+"Wir werden unser Bestes tun, um es Ihnen leichter zu machen, unsere Arbeit "
+"zu unterstützen."
 
 #. type: Plain text
 #, no-wrap
