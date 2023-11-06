@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-26 14:50+0000\n"
-"PO-Revision-Date: 2023-03-26 10:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-06 17:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "There is no Wi-Fi option in the system menu:"
-msgstr ""
+msgstr "Es ist keine Wi-Fi-Option im Systemmenü vorhanden:"
 
 #. type: Plain text
 #, no-wrap
@@ -41,12 +41,16 @@ msgid ""
 "You receive the notification **Connection failed: Activation of network "
 "connection failed**."
 msgstr ""
+"Sie erhalten die Meldung: ,,Verbindung fehlgeschlagen: Aktivierung der "
+"Netzwerkverbindung fehlgeschlagen\"."
 
 #. type: Bullet: '* '
 msgid ""
 "The interface is disabled when starting Tails or when plugging in your USB "
 "Wi-Fi adapter:"
 msgstr ""
+"Die Schnittstelle ist deaktiviert, wenn Sie Tails starten oder Ihren USB-"
+"WLAN-Adapter anschließen:"
 
 #. type: Plain text
 #, no-wrap
