@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-07-13 12:09+0200\n"
-"PO-Revision-Date: 2022-06-14 08:08+0000\n"
+"PO-Revision-Date: 2023-11-06 17:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -50,7 +50,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Open the <span class=\"application\">Files</span> browser."
-msgstr ""
+msgstr "Öffnen Sie den <span class=\"application\">Datei</span>-Browser."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -58,6 +58,10 @@ msgid ""
 "you want to share and choose <span class=\"guilabel\">Share via OnionShare</"
 "span>.  <span class=\"application\">OnionShare</span> starts."
 msgstr ""
+"Klicken Sie mit der rechten Maustaste (auf dem Mac mit zwei Fingern) auf die "
+"Dateien oder Ordner, die Sie freigeben möchten, und wählen Sie <span class="
+"\"guilabel\">Freigeben über OnionShare</span>.\n"
+"<span class=\"application\">OnionShare</span> wird gestartet."
 
 #. type: Bullet: '1. '
 msgid "To share more files or folders, you can either:"
