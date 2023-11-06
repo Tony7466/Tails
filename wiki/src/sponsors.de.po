@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-09 12:39+0000\n"
 "PO-Revision-Date: 2023-11-06 17:11+0000\n"
-"Last-Translator: Stefan Leibfarth <stefan+translatetails@leibfarth.org>\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 "Diese Organisationen, Unternehmen und Individuen unterstützten Tails "
 "finanziell durch Spenden, Auszeichnungen oder Zuschüssen. Dank ihrer "
-"beachtlichen Unterstützung sind wir in der Lage Tails zu pflegen und zu "
+"beachtlichen Unterstützung sind wir in der Lage, Tails zu pflegen und zu "
 "verbessern. Vielen Dank!"
 
 #. type: Content of: <h1>
@@ -46,16 +46,12 @@ msgid "Becoming a sponsor"
 msgstr "Ein Sponsor werden"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Are you a company or organization and want to help Tails? [[Become a "
-#| "partner!|partners/become/]]"
 msgid ""
 "Are you a company or organization and want to help Tails? [[Become a "
 "sponsor!|sponsors/become]]"
 msgstr ""
-"Sind Sie ein Unternehmen oder eine Organisation und wollen uns helfen? "
-"[[Werden Sie ein Partner!|partners/become/]]"
+"Sind Sie ein Unternehmen oder eine Organisation und möchten Tails "
+"unterstützen? [[Werden Sie Sponsor!|sponsors/become]]"
 
 #. type: Content of: <p>
 msgid ""
