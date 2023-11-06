@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-10-10 10:12+0000\n"
+"PO-Revision-Date: 2023-11-06 17:11+0000\n"
 "Last-Translator: k3w b4fd <k3wqfo8bke6mgaijt7fyb4fd@systemli.org>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -29,31 +29,19 @@ msgid "[[Warnings: Tails is safe but not magic!|about/warnings]]"
 msgstr "[[Warnhinweise: Tails ist sicher aber keine Magie!|about/warning]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Protecting_your_identity_when_using_Tails|about/warnings/"
-#| "identity]]"
 msgid "[[Protecting your identity when using Tails|about/warnings/identity]]"
 msgstr ""
-"[[!traillink Schutz_Ihrer_Identität_bei_Verwendung_von_Tails|about/warnings/"
-"identity]]"
+"[[Schutz Ihrer Identität bei Verwendung von Tails|about/warnings/identity]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid "[[!traillink Limitations_of_the_Tor_network|about/warnings/tor]]"
 msgid "[[Limitations of the Tor network|about/warnings/tor]]"
-msgstr "[[!traillink Einschränkungen des Tor Netzwerks|about/warnings/tor]]"
+msgstr "[[Einschränkungen des Tor Netzwerks|about/warnings/tor]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Reducing_risks_when_using_untrusted_computers|about/warnings/"
-#| "computer]]"
 msgid ""
 "[[Reducing risks when using untrusted computers|about/warnings/computer]]"
 msgstr ""
-"[[!traillink "
-"Risikoverringerung_bei_Verwendung_nichtvertrauenswürdiger_Computer|about/"
+"[[Risikoverringerung bei Verwendung nichtvertrauenswürdiger Computer|about/"
 "warnings/computer]]"
 
 #. type: Bullet: '  - '
