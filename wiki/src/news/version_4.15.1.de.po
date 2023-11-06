@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
 "PO-Revision-Date: 2023-11-06 17:12+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "You should upgrade as soon as possible."
-msgstr ""
+msgstr "Ein Upgrade sollte so schnell wie möglich durchgeführt werden."
 
 #. type: Plain text
 #, no-wrap
