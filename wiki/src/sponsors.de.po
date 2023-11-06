@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-09 12:39+0000\n"
-"PO-Revision-Date: 2023-10-10 10:13+0000\n"
+"PO-Revision-Date: 2023-11-06 15:30+0000\n"
 "Last-Translator: Stefan Leibfarth <stefan+translatetails@leibfarth.org>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -31,20 +31,15 @@ msgstr ""
 "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "These organizations, companies and individuals provide financial support "
-#| "to Tails through grants or donations. Thanks to their substantial support "
-#| "we are able to maintain and improve Tails. Thank you!"
 msgid ""
 "These organizations, companies and individuals provided financial support to "
 "Tails through grants, awards, or donations. Thanks to their substantial "
 "support we are able to maintain and improve Tails. Thank you!"
 msgstr ""
-"Diese Organisationen, Unternehmen und Individuen unterstützen Tails "
-"finanziell durch Spenden oder Zuschüssen. Dank ihrer beachtlichen "
-"Unterstützung sind wir in der Lage Tails zu pflegen und zu verbessern. "
-"Vielen Dank!"
+"Diese Organisationen, Unternehmen und Individuen unterstützten Tails "
+"finanziell durch Spenden, Auszeichnungen oder Zuschüssen. Dank ihrer "
+"beachtlichen Unterstützung sind wir in der Lage Tails zu pflegen und zu "
+"verbessern. Vielen Dank!"
 
 #. type: Content of: <h1>
 #, fuzzy
