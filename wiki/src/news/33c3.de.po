@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-12 10:12+0000\n"
+"PO-Revision-Date: 2023-11-06 17:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Thank you and see you in Hamburg!\"]]\n"
-msgstr "[[!meta title=\"Danke und bis bald in Hamburg!\"]]\n"
+msgstr "[[!meta title=\"Danke, wir sehen uns in Hamburg!\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -45,10 +45,16 @@ msgid ""
 "what_we_do_with_your_money]], and that [[Mediapart is the first news "
 "organization to commit to support Tails every year|news/mediapart]]."
 msgstr ""
+"Als Teil unserer Spendenkampagne haben wir bereits erklärt[[warum wir "
+"Spenden benötigen|news/why_we_need_donations]], [[Was wir mit deinem Geld "
+"machen|news/what_we_do_with_your_money]] und, dass [[Mediapart die erste "
+"Nachrichtenorganisation ist welche Tails jedes Jahr unterstützt|news/"
+"mediapart]]."
 
 #. type: Plain text
 msgid "But today we are just writing to give you all a big thank you!"
 msgstr ""
+"Aber heute schreiben wir nur, um Ihnen allen ein großes Dankeschön zu sagen!"
 
 #. type: Plain text
 #, no-wrap
