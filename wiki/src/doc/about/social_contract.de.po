@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
-"PO-Revision-Date: 2023-11-06 15:29+0000\n"
-"Last-Translator: Manuel Schmidt <manuelcschmidt@gmail.com>\n"
+"PO-Revision-Date: 2023-11-06 17:12+0000\n"
+"Last-Translator: Reiner Unfug <maigatter@posteo.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -52,6 +52,8 @@ msgstr ""
 #, no-wrap
 msgid "1. By creating Tails we try to provide usable tools for anonymity and privacy"
 msgstr ""
+"1. Mit der Erstellung von Tails versuchen wir, brauchbare Werkzeuge für "
+"Anonymität und Privatsphäre bereitzustellen"
 
 #. type: Plain text
 msgid ""
@@ -60,6 +62,11 @@ msgid ""
 "standards and the tools we create, we provide means that empower all people "
 "to protect and advance these ideals."
 msgstr ""
+"Wir glauben, dass die Privatsphäre, der freie Austausch von Ideen und der "
+"gleichberechtigte Zugang zu Informationen wesentlich für freie und offene "
+"Gesellschaften sind. Durch unsere Community-Standards und die von uns "
+"erstellten Tools stellen wir Mittel zur Verfügung, die alle Menschen "
+"befähigen, diese Ideale zu schützen und voranzutreiben."
 
 #. type: Title ##
 #, no-wrap
