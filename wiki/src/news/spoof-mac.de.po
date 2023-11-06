@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-12-13 18:07+0000\n"
-"PO-Revision-Date: 2023-03-13 17:29+0000\n"
+"PO-Revision-Date: 2023-11-06 17:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -51,6 +51,9 @@ msgid ""
 "[[design|contribute/design/MAC_address]] and [[implementation|contribute/"
 "design/MAC_address#implementation]]."
 msgstr ""
+"Wenn Sie über Fähigkeiten im Bereich der Sicherheitsüberprüfung verfügen, "
+"können Sie gerne unsere [[design|contribute/design/MAC_address]] und "
+"[[Implementierung|contribute/design/MAC_address#implementation]] überprüfen."
 
 #. type: Plain text
 #, no-wrap
