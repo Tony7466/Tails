@@ -27,6 +27,33 @@ def get_language(pofile: Path) -> str:
     raise ValueError(f"Could not extract language from file {pofile}")
 
 
+def locale_to_mozilla(locale: str) -> str:
+    """
+    >>> locale_to_mozilla('ar_EG')
+    'ar-EG:EG'
+    >>> locale_to_mozilla('it')
+    Traceback (most recent call last):
+    ...
+    ValueError: country not specified in 'it'
+    >>> locale_to_mozilla('ar_EG:XX')
+    Traceback (most recent call last):
+    ...
+    ValueError: The input format is invalid; you can't both have underscores and colons
+    >>> locale_to_mozilla('ar:EG')
+    'ar:EG'
+    """
+    if ":" in locale:
+        if "_" in locale:
+            raise ValueError(
+                "The input format is invalid; you can't both have underscores and colons"
+            )
+        return locale
+    if "_" not in locale:
+        raise ValueError("country not specified in '%s'" % locale)
+    lang, country = locale.split("_")
+    return f"{lang}-{country.upper()}:{country.upper()}"
+
+
 class ValidLocales:
     def __init__(self):
         self.locales = self.parse_table(
@@ -86,13 +113,14 @@ class LocaleDescriptions:
         for lang in sorted(self.languages_not_found):
             locales = valid_locales.languages[lang]
             if len(locales) == 1:
-                details = ", ".join(valid_locales.locales[locales[0]])
-                suggested_add += f'{lang}="{locales[0]}"   # {details}\n'
+                locale = locales[0]
+                details = ", ".join(valid_locales.locales[locale])
+                suggested_add += f'{lang}="{locale_to_mozilla(locale)}"   # {details}\n'
             else:
                 others += f"{lang}: pick between\n"
                 for locale in locales:
                     details = ", ".join(valid_locales.locales[locale])
-                    others += f'  {lang}="{locale}"   # {details}\n'
+                    others += f'  {lang}="{locale_to_mozilla(locale)}"   # {details}\n'
 
         text = others
         text += (
