@@ -198,7 +198,7 @@ Then /^I can find the email I sent to myself in my inbox$/ do
                     .grabFocus
     @screen.paste(@subject)
     message = thunderbird_main.child(
-      "#{$config['Thunderbird']['address']},.*, #{@subject}, Unread",
+      "#{$config['Thunderbird']['address'].split('@').first},.*, #{@subject}, Unread",
       roleName: 'tree item'
     )
     # Let's clean up
