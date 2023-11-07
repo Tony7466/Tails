@@ -139,6 +139,9 @@ def get_parser():
     generate.set_defaults(mode="generate")
     suggest = sub.add_parser("suggest")
     suggest.set_defaults(mode="suggest")
+    doctest = sub.add_parser("doctest")
+    doctest.add_argument("-v", "--verbose", action="store_true", default=False)
+    doctest.set_defaults(mode="doctest")
 
     return p
 
@@ -165,6 +168,11 @@ def main():
         suggestion = helper.get_suggestions()
         print(suggestion, file=sys.stderr)
         sys.exit(1)
+
+    elif args.mode == "doctest":
+        import doctest
+
+        doctest.testmod(verbose=args.verbose)
 
 
 if __name__ == "__main__":
