@@ -90,10 +90,9 @@ class LocaleDescriptions:
                 yield f"{lang}-{sub}:{sub}"
             elif moz_locale in self.po_to_mozilla["map"]:
                 value = self.po_to_mozilla["map"][moz_locale]
-                if type(value) is str:
-                    yield value
-                else:
-                    yield from value
+                values = [value] if type(value) is str else value
+                for locale in values:
+                    yield locale_to_mozilla(locale)
             else:
                 if warnings:
                     print(
