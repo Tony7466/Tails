@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 01:40+0200\n"
-"PO-Revision-Date: 2023-11-05 23:12+0000\n"
+"PO-Revision-Date: 2023-11-08 00:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -43,6 +43,8 @@ msgid ""
 "This release is an emergency release to fix a critical vulnerability in the "
 "*Linux* kernel."
 msgstr ""
+"Aquesta versió és una versió d'emergència per solucionar una vulnerabilitat "
+"crítica al nucli de *Linux*."
 
 #. type: Plain text
 #, no-wrap
@@ -51,18 +53,21 @@ msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
 
 #. type: Plain text
 msgid "- Update the *Linux* kernel to 6.1.38."
-msgstr ""
+msgstr "- S'ha actualitzat el nucli de *Linux* a la versió 6.1.38."
 
 #. type: Plain text
 #, no-wrap
 msgid "  This updates fixes:\n"
-msgstr ""
+msgstr "  Aquesta actualització soluciona:\n"
 
 #. type: Bullet: '  * '
 msgid ""
 "[Downfall](https://downfall.page/) on Intel processors ([CVE-2022-40982]"
 "(https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40982))"
 msgstr ""
+"[Downfall](https://downfall.page/) als processadors Intel "
+"([CVE-2022-40982](https://cve.mitre.org/cgi-bin/cvename."
+"cgi?name=CVE-2022-40982))"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -70,6 +75,9 @@ msgid ""
 "sb-7005.html) on AMD processors ([CVE-2023-20569](https://cve.mitre.org/cgi-"
 "bin/cvename.cgi?name=CVE-2023-20569))"
 msgstr ""
+"[Inception](https://www.amd.com/en/resources/product-security/bulletin/amd-"
+"sb-7005.html) en processadors AMD ([CVE-2023-20569](https://cve. mitre.org/"
+"cgi-bin/cvename.cgi?name=CVE-2023-20569))"
 
 #. type: Plain text
 #, no-wrap
@@ -78,6 +86,12 @@ msgid ""
 "  access and steal data from another application in Tails, for example\n"
 "  passwords stored in *KeePassXC* or private keys stored in *Electrum*.\n"
 msgstr ""
+"  Aquestes vulnerabilitats podrien permetre que una aplicació maliciosa "
+"s'executés a Tails\n"
+"  per tal d'accedir i robar dades d'una altra aplicació a Tails, per "
+"exemple\n"
+"  contrasenyes emmagatzemades a *KeePassXC* o claus privades emmagatzemades "
+"a *Electrum*.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -86,6 +100,11 @@ msgid ""
 "  a government or a hacking firm. We are not aware of this attack being used in\n"
 "  the wild.\n"
 msgstr ""
+"  Aquest atac és poc probable, però podria ser realitzat per un atacant "
+"fort, com ara\n"
+"  un govern o una empresa de pirateria informàtica. No som conscients de "
+"l'ús d'aquest atac\n"
+"  a la realitat.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -128,6 +147,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.16.1."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior fins a la versió 5.16.1."
 
 #. type: Plain text
 #, no-wrap
@@ -197,6 +218,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.16.1 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu "
+"descarregar Tails 5.16.1 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
