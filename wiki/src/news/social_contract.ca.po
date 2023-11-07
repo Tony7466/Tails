@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2020-07-21 15:23+0000\n"
-"PO-Revision-Date: 2023-11-05 21:11+0000\n"
+"PO-Revision-Date: 2023-11-07 17:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Announcing the Tails Social Contract\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Anunciem el Contracte Social de Tails\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -45,17 +45,25 @@ msgid ""
 "code was and is meant as a guide to make our public spaces welcoming and "
 "friendly to every sentient being."
 msgstr ""
+"Vam escriure i adoptar un [[Codi de Conducta|contribute/working_together/"
+"code_of_conduct]] des del nostre primer hackfest públic a París el 2014. "
+"Aquest codi era i està pensat com una guia per fer que els nostres espais "
+"públics siguin acollidors i amigables per a tothom."
 
 #. type: Plain text
 msgid ""
 "We have since then worked on a [[Social Contract|doc/about/social_contract]] "
 "which we proudly present today!"
 msgstr ""
+"Des de llavors hem treballat en un [[Contracte Social|doc/about/"
+"social_contract]] que avui presentem amb orgull!"
 
 #. type: Plain text
 #, no-wrap
 msgid "<!-- Note for translators: Starting from here the content is a copy of the Social Contract. -->\n"
 msgstr ""
+"<!-- Note for translators: Starting from here the content is a copy of the "
+"Social Contract. -->\n"
 
 #. type: Plain text
 #, no-wrap
@@ -65,6 +73,12 @@ msgid ""
 "the Debian Social Contract and the Tor Social Contract. If you have any\n"
 "questions or comments, feel free to email: <tails-project@boum.org>.\n"
 msgstr ""
+"El Contracte Social de Tails és un conjunt de compromisos que com a\n"
+"col·laboradors del projecte Tails mantenim. Aquest treball es deriva del\n"
+"Contracte Social de Debian i el Contracte Social de Tor. Si teniu cap "
+"pregunta\n"
+"o comentari, no dubteu a enviar un correu electrònic a: <tails-project@boum."
+"org>.\n"
 
 #. type: Plain text
 msgid ""
@@ -97,7 +111,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "2. Tails is and will remain free software"
-msgstr ""
+msgstr "2. Tails és i seguirà sent Programari Lliure"
 
 #. type: Plain text
 msgid ""
