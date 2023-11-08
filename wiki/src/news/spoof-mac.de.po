@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-12-13 18:07+0000\n"
-"PO-Revision-Date: 2023-11-06 17:11+0000\n"
+"PO-Revision-Date: 2023-11-08 14:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -63,7 +63,7 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Title #
 #, no-wrap
 msgid "Background"
-msgstr ""
+msgstr "Hintergrund"
 
 #. type: Plain text
 msgid ""
@@ -78,6 +78,17 @@ msgid ""
 "something random at each boot, which is referred to as \"MAC address spoofing"
 "\"."
 msgstr ""
+"Jedes Netzwerkgerät (verkabelt, Wi-Fi/drahtlos, 3G/mobil) verfügt über eine "
+"[[!Wikipedia MAC-Adresse]], eine eindeutige Kennung, mit der es im lokalen "
+"Netzwerk adressiert wird. Das Senden einer eindeutigen Kennung auf diese "
+"Weise führt zu einigen potenziellen Datenschutzproblemen für Tails-Benutzer. "
+"Die geografische Standortverfolgung ist die Wichtigste: Die Beobachtung "
+"einer MAC-Adresse an einem bestimmten Ort und zu einer bestimmten Zeit "
+"bindet das entsprechende Gerät an denselben Ort und dieselbe Zeit. Wenn die "
+"tatsächliche Identität des Gerätebesitzers bekannt ist, können deren "
+"Bewegungen bestimmt werden. Um dies zu verhindern, kann man die MAC-Adresse "
+"bei jedem Start vorübergehend in etwas Zufälliges ändern, was als \"MAC"
+"-Adress-Spoofing\" bezeichnet wird."
 
 #. type: Title #
 #, no-wrap
