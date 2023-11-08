@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-08 14:16+0000\n"
-"Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
+"PO-Revision-Date: 2023-11-08 16:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -98,13 +98,15 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[About Tails|about]] for a quick overview"
-msgstr ""
+msgstr "[[Über Tails|about]] für einen schnellen Überblick"
 
 #. type: Bullet: '* '
 msgid ""
 "More details about the [[features and software|doc/about/features]] included "
 "in Tails"
 msgstr ""
+"Weitere Details zu den in Tails enthaltenen [[Funktionen und Software|doc/"
+"about/features]]"
 
 #. type: Bullet: '* '
 msgid ""
