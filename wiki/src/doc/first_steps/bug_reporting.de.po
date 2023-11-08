@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-03-13 17:30+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-08 15:49+0000\n"
+"Last-Translator: ti watanabe <ti.watanabe@gmx.de>\n"
 "Language-Team: Tails Language Team <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgid ""
 "how you did that."
 msgstr ""
 "Das Hauptziel einer Fehlerbeschreibung ist es, **den Entwicklern genau zu "
-"sagen wie der Fehler reproduziert werden kann**. Versuchen Sie also selbst "
+"sagen, wie der Fehler reproduziert werden kann**. Versuchen Sie also selbst, "
 "das Problem wiederherzustellen und beschreiben Sie, wie Sie das erreicht "
 "haben."
 
@@ -92,7 +92,7 @@ msgid ""
 "Write down the error messages, especially if they have numbers."
 msgstr ""
 "Falls das nicht möglich ist, versuchen Sie **detailliert zu beschreiben, was "
-"nicht funktionierte**. Schreiben Sie Fehlermeldungen auf, vor allem wenn "
+"nicht funktionierte**. Schreiben Sie die Fehlermeldungen auf, vor allem wenn "
 "diese Nummern haben."
 
 #. type: Bullet: '  - '
@@ -100,15 +100,15 @@ msgid ""
 "Write **clearly and be precise**. Say what you mean, and make sure it cannot "
 "be misinterpreted."
 msgstr ""
-"Schreiben Sie **klar und präzise**. Sagen Sie was Sie meinen und stellen Sie "
-"sicher, dass es nicht falsch verstanden werden kann."
+"Schreiben Sie **klar und präzise**. Sagen Sie, was Sie meinen und stellen "
+"Sie sicher, dass es nicht falsch verstanden werden kann."
 
 #. type: Bullet: '  - '
 msgid ""
 "Be ready to provide extra information if the developers need it. If they did "
 "not need it, they would not be asking for it."
 msgstr ""
-"Seien Sie bereit, zusätzliche Angaben zu machen, falls die Entwickler sie "
+"Seien Sie bereit, zusätzliche Angaben zu machen, falls die Entwickler diese "
 "brauchen. Andernfalls würden sie nicht danach fragen."
 
 #. type: Plain text
@@ -121,10 +121,9 @@ msgstr ""
 "von Simon Tatham nachlesen."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"whisperback\"></a>\n"
+#, no-wrap
 msgid "<h1 id=\"whisperback\">Use WhisperBack</h1>\n"
-msgstr "<a id=\"whisperback\"></a>\n"
+msgstr "<h1 id=\"whisperback\">benutze WhisperBack</h1>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -239,32 +238,39 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"debian\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"screenshot\">Take a screenshot</h2>\n"
-msgstr "<a id=\"debian\"></a>\n"
+msgstr "<h2 id=\"Bildschirmfoto\">erstelle ein Bildschirmfoto</h2>\n"
 
 #. type: Plain text
 msgid "It might be helpful to include a screenshot with your bug report."
 msgstr ""
+"Es könnte hilfreich sein, ein Bildschiormfoto zu Ihrem Fehlerbericht "
+"hinzuzufügen."
 
 #. type: Bullet: '- '
 msgid ""
 "To take a screenshot of the entire desktop, press <span "
 "class=\"keycap\">Print Screen</span>."
 msgstr ""
+"Um einen Bildschirmfoto des gesamten Desktops zu erstellen, drücken Sie "
+"<span class=\"keycap\">Drucken</span>."
 
 #. type: Bullet: '- '
 msgid ""
 "To take a screenshot of a single window, press <span class=\"keycap\">Alt + "
 "Print Screen</span>."
 msgstr ""
+"Um einen Screenshot eines einzelnen Fensters zu erstellen, drücken Sie <span "
+"class=\"keycap\">Alt + Drucken</span>."
 
 #. type: Bullet: '- '
 msgid ""
 "To take a screenshot of an area you select, press <span "
 "class=\"keycap\">Shift + Print Screen</span>."
 msgstr ""
+"Um ein Bildschirmfoto von einem ausgewählten Bereich zu erstellen, drücken "
+"Sie <span class=\"keycap\">Umschalttaste + Drucken</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -274,6 +280,12 @@ msgid ""
 "<span class=\"filename\">Home</span> folder. The file name will begin with the\n"
 "word <span class=\"filename\">Screenshot</span>.\n"
 msgstr ""
+"Das Bildschirmfoto wird automatisch im Ordner\n"
+"<span class=\"filename\">Bilder</span>-Ordner gespeichert, der sich in "
+"Ihrem\n"
+"<span class=\"filename\">Home</span>-Ordner befindet. Der Dateiname beginnt "
+"mit dem\n"
+"Wort <span class=\"filename\">Screenshot</span>.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
