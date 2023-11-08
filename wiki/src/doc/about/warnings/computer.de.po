@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-11-08 16:12+0000\n"
-"Last-Translator: k3w b4fd <k3wqfo8bke6mgaijt7fyb4fd@systemli.org>\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -175,7 +175,7 @@ msgstr ""
 
 #. type: Content of: <h2>
 msgid "No operating system can protect against BIOS and firmware attacks"
-msgstr "Kein Betriebssystem kann gegen BIOS oder Firmware Angriffe schützen."
+msgstr "Kein Betriebssystem kann gegen BIOS oder Firmware Angriffe schützen"
 
 #. type: Content of: <p>
 msgid ""
