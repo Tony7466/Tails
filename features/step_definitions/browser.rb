@@ -14,6 +14,27 @@ def save_page_as
   browser.child('Save As', roleName: 'file chooser')
 end
 
+def browser_url_entry
+  @torbrowser.child('Navigation', roleName: 'tool bar')
+    .child(roleName: 'entry')
+end
+
+def get_current_browser_url
+  browser_url_entry.text
+end
+
+def set_browser_url(url)
+  retry_action(10) do
+    browser_url_entry.grabFocus
+    @screen.press('ctrl', 'a')
+    @screen.press('backspace')
+    assert_empty(get_current_browser_url)
+    @screen.paste(url)
+    assert_equal(url, get_current_browser_url)
+    true
+  end
+end
+
 When /^I (?:try to )?start the Unsafe Browser$/ do
   # XXX:Bookworm: switch to "gio launch" and drop the whole
   # language_has_non_latin_input_source / switch_input_source system.
@@ -135,7 +156,7 @@ When /^I open the address "([^"]*)" in the (.* Browser)( without waiting)?$/ do 
   info = xul_application_info(browser_name)
   open_address = proc do
     step "I open a new tab in the #{browser_name}"
-    @screen.paste(address)
+    set_browser_url(address)
     @screen.press('Return')
   end
   recovery_on_failure = proc do
@@ -358,7 +379,7 @@ Then /^DuckDuckGo is the default search engine$/ do
     ddg_search_prompt = "DuckDuckGoSearchPrompt#{$language}.png"
   end
   step 'I open a new tab in the Tor Browser'
-  @screen.paste('a random search string')
+  set_browser_url('a random search string')
   @screen.wait(ddg_search_prompt, 20)
 end
 
@@ -396,9 +417,7 @@ Then /^Tor Browser's circuit view is working$/ do
   @torbrowser.child('Tor Circuit', roleName: 'push button').click
   nodes = @torbrowser.child('This browser', roleName: 'list item')
             .parent.children(roleName: 'list item')
-  url = @torbrowser.child('Navigation', roleName: 'tool bar')
-          .parent.child(roleName: 'entry').text
-  domain = URI.parse(url).host.split('.')[-2..-1].join('.')
+  domain = URI.parse(get_current_browser_url).host.split('.')[-2..-1].join('.')
   assert_equal('This browser', nodes.first.name)
   assert_equal(domain, nodes.last.name)
   assert_equal(5, nodes.size)
@@ -564,7 +583,5 @@ Then /^the Tor Browser restarts into a fresh session$/ do
     assert_not_equal(@old_tab_names, tabs.map { |tab| tab.name })
     true
   end
-  url = @torbrowser.child('Navigation', roleName: 'tool bar')
-          .parent.child(roleName: 'entry').text
-  assert_empty(url)
+  assert_empty(get_current_browser_url)
 end
