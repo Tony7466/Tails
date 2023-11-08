@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
 "PO-Revision-Date: 2023-11-08 15:47+0000\n"
-"Last-Translator: k3w b4fd <k3wqfo8bke6mgaijt7fyb4fd@systemli.org>\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -262,10 +262,8 @@ msgstr ""
 "Werbeblocker"
 
 #. type: Content of: <section><div><ul><li>
-#, fuzzy
-#| msgid "<i>Thunderbird</i> with <i>Enigmail</i>, for encrypted emails"
 msgid "<i>Thunderbird</i>, for encrypted emails"
-msgstr "<i>Thunderbird</i> mit <i>Enigmail</i> für verschlüsselte Emails"
+msgstr "<i>Thunderbird</i> mit <i>Enigmail</i> für verschlüsselte E-Mails"
 
 #. type: Content of: <section><div><ul><li>
 msgid "<i>KeePassXC</i>, to create and store strong passwords"
@@ -592,7 +590,7 @@ msgstr "[[Spenden|donate]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Sponsors|sponsors]]"
-msgstr ""
+msgstr "[[Sponsoren|sponsors]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Social Contract|doc/about/social_contract]]"
@@ -646,10 +644,8 @@ msgid "<a href=\"https://www.gnome.org/\">GNOME</a>"
 msgstr "<a href=\"https://www.gnome.org/\">GNOME</a>"
 
 #. type: Content of: <section><div><div><ul><li>
-#, fuzzy
-#| msgid "[[Social Contract|doc/about/social_contract]]"
 msgid "[[Contact|about/contact]]"
-msgstr "[[sozialer Auftrag|doc/about/social_contract]]"
+msgstr "[[Kontakt|about/contact]]"
 
 #. type: Content of: <div>
 msgid "[[Install Tails|install]]"
