@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-09 07:47+0200\n"
-"PO-Revision-Date: 2023-11-08 14:12+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-08 14:47+0000\n"
+"Last-Translator: Rose <rose@rosedev.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -68,6 +68,9 @@ msgid ""
 "After establishing a connection to a local network, the *Tor Connection* "
 "assistant appears to help you connect to the Tor network."
 msgstr ""
+"Nachdem eine Verbidung zu einem Lokalen Netzwerk hergestellt wurde, "
+"erscheint der Assistent für die *Tor-Verbindung* um dir zu helfen, dich mit "
+"dem Tor-Netzwerk zu verbinden."
 
 #. type: Plain text
 #, no-wrap
@@ -98,6 +101,8 @@ msgid ""
 "<div>\n"
 "  <p class=\"big\">You made it!</p>\n"
 msgstr ""
+"<div>\n"
+"  <p class=\"big\">Du hast es geschafft!</p>\n"
 
 #. type: Plain text
 #, no-wrap
