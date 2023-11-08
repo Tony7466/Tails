@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
 "PO-Revision-Date: 2023-11-08 15:53+0000\n"
-"Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -233,7 +233,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Changing the members of the groups B, C, or D"
-msgstr "Ändern der Mitglieder der Gruppen B, C oder D."
+msgstr "Ändern der Mitglieder der Gruppen B, C oder D"
 
 #. type: Plain text
 msgid "To add someone to a given group:"
