@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-08 15:08+0000\n"
+"PO-Revision-Date: 2023-11-08 16:11+0000\n"
 "Last-Translator: b0r1ngtranslate <bhutan_toiletry@aleeas.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -159,11 +159,11 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "Well integrated, especially for new Linux users."
-msgstr ""
+msgstr "Gut integriert, besonders für neue Linux-Benutzer."
 
 #. type: Bullet: '  - '
 msgid "Very well translated and documented."
-msgstr ""
+msgstr "Sehr gut übersetzt und dokumentiert."
 
 #. type: Bullet: '  - '
 msgid "Doing relatively good regarding accessibility features."
@@ -171,7 +171,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "Actively developed."
-msgstr ""
+msgstr "Aktiv entwickelt."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -244,6 +244,8 @@ msgid ""
 "For this reason, Tails does not work on Mac models that use the Apple M1 "
 "chip."
 msgstr ""
+"Aus diesem Grund funktioniert Tails nicht auf Mac-Modellen, die den Apple M1-"
+"Chip verwenden."
 
 #. type: Plain text
 msgid ""
@@ -261,11 +263,13 @@ msgstr "<a id=\"install_permanently\"></a>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"dedicated-stick\">Do I need a USB stick dedicated to Tails?</h2>\n"
-msgstr ""
+msgstr "Benötige ich einen USB-Stick speziell für Tails?\n"
 
 #. type: Plain text
 msgid "Yes. Tails requires a USB stick dedicated to only running Tails."
 msgstr ""
+"Ja. Tails erfordert einen USB-Stick, der nur zum Ausführen von Tails "
+"bestimmt ist."
 
 #. type: Plain text
 msgid ""
@@ -338,20 +342,25 @@ msgstr ""
 #, no-wrap
 msgid "<h2 id=\"preinstalled\">Can I buy a preinstalled Tails USB stick or DVD?</h2>\n"
 msgstr ""
+"Kann ich einen vorinstallierten USB-Stick oder eine DVD von Tails kaufen?\n"
 
 #. type: Plain text
 msgid "No, we don't sell preinstalled Tails devices."
-msgstr ""
+msgstr "Nein, wir verkaufen keine vorinstallierten Tails-Geräte."
 
 #. type: Plain text
 msgid "Selling preinstalled devices would in fact be a pretty bad idea:"
 msgstr ""
+"Vorinstallierte Geräte zu verkaufen wäre eigentlich eine ziemlich schlechte "
+"Idee:"
 
 #. type: Bullet: '* '
 msgid ""
 "If burned on a DVD, then this DVD would be outdated on the next release. "
 "This means after 6 weeks at most."
 msgstr ""
+"Wenn auf eine DVD gebrannt würde, wäre diese DVD bei der nächsten "
+"Veröffentlichung veraltet. Das heißt nach spätestens 6 Wochen."
 
 #. type: Bullet: '* '
 msgid ""
