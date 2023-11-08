@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
 "PO-Revision-Date: 2023-11-08 16:11+0000\n"
-"Last-Translator: translatenight <info@passt-so.de>\n"
+"Last-Translator: MichaelJ <jaggi.michael@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -275,7 +275,7 @@ msgstr "<i>OnionShare</i>, um Dateien über Tor teilen zu können"
 
 #. type: Content of: <section><div><ul><li>
 msgid "<i>Metadata Cleaner</i>, to remove metadata from files"
-msgstr ""
+msgstr "<i>Metadata Cleaner</i>, um Metadaten von Dateien zu entfernen"
 
 #. type: Content of: <section><div><ul><li>
 msgid "and many more!"
