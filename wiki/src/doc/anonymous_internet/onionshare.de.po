@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-07-13 12:09+0200\n"
-"PO-Revision-Date: 2023-11-08 14:11+0000\n"
+"PO-Revision-Date: 2023-11-08 16:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -80,10 +80,12 @@ msgid ""
 "Click the <span class=\"guilabel\">Add</span> button in <span class="
 "\"application\">OnionShare</span>."
 msgstr ""
+"Klicken Sie in <span class=\"application\">OnionShare</span> auf die "
+"Schaltfläche <span class=\"guilabel\">Hinzufügen</ span>."
 
 #. type: Bullet: '1. '
 msgid "Click <span class=\"guilabel\">Start Sharing</span>."
-msgstr ""
+msgstr "Klicken Sie auf <span class=\"guilabel\">Start Sharing</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -92,6 +94,9 @@ msgid ""
 "   <p>Starting to share the files can take up to several minutes.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <div class=\"bug\">\n"
+"   <p>Das Freigeben der Dateien kann bis zu mehreren Minuten dauern.</p>\n"
+"   </div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -99,6 +104,9 @@ msgid ""
 "   When the files are available for sharing, an onion address appears at\n"
 "   the bottom of <span class=\"application\">OnionShare</span>.\n"
 msgstr ""
+"   Wenn die Dateien zum Teilen verfügbar sind, wird eine .onion-Adresse im "
+"unteren Bereich von <span class=\"application\">OnionShare</span> angezeigt."
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -107,7 +115,7 @@ msgstr "   [[!img onionshare.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Bullet: '1. '
 msgid "Send this onion address to someone else, for example, by email."
-msgstr ""
+msgstr "Senden Sie diese Onion-Adresse z.B. per E-Mail an eine andere Person."
 
 #. type: Plain text
 #, no-wrap
@@ -121,6 +129,8 @@ msgid ""
 "<span class=\"application\">OnionShare</span> informs you when the files are "
 "being accessed."
 msgstr ""
+"<span class=\"application\">OnionShare</span> informiert Sie, wenn auf die "
+"Datei(en) zugegriffen wird."
 
 #. type: Plain text
 #, no-wrap
