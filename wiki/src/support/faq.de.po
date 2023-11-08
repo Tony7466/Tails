@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
 "PO-Revision-Date: 2023-11-08 15:08+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: Ben <benjamin.lederer@icloud.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr ""
 
 #. type: Bullet: '0. '
 msgid "The rapid development cycle of Ubuntu would be too fast for Tails."
-msgstr ""
+msgstr "Der schnelle Entwicklungszyklus von Ubuntu wäre zu schnell für Tails."
 
 #. type: Bullet: '0. '
 msgid ""
@@ -111,6 +111,8 @@ msgid ""
 "Ubuntu is led by a company that takes most of the important decisions and "
 "has the power to make them happen."
 msgstr ""
+"Ubuntu wird von einem Unternehmen geführt, das die meisten wichtigen "
+"Entscheidungen trifft und die Macht hat, sie umzusetzen."
 
 #. type: Bullet: '0. '
 msgid ""
