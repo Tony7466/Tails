@@ -28,7 +28,7 @@ Debian.
 
 [[!inline pages="page(security/*) and !security/*/*
 and !security/fixed and !security/fixed.* and !security/fixed/*
-and ! tagged(security/fixed) and currentlang()"
+and !tagged(security/fixed) and currentlang()"
 actions=no archive=yes feeds=no show=0 sort="-meta(date) age -path"]]
 
 # Fixed security vulnerabilities
