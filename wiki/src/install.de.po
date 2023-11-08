@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 15:01+0000\n"
-"PO-Revision-Date: 2023-11-08 14:11+0000\n"
+"PO-Revision-Date: 2023-11-08 16:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -60,7 +60,7 @@ msgstr "|install/mac]]"
 
 #. type: Content of: <div><div>
 msgid "[[ [[!img install/inc/icons/linux.png link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[ [[!img install/inc/icons/linux.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 #, fuzzy
@@ -74,7 +74,7 @@ msgstr "|install/linux]]"
 
 #. type: Content of: <div><div>
 msgid "[[ [[!img install/inc/icons/expert.png link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[ [[!img install/inc/icons/expert.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "Terminal"
