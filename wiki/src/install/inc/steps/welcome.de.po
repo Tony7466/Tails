@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 10:54-0300\n"
-"PO-Revision-Date: 2023-11-06 17:11+0000\n"
+"PO-Revision-Date: 2023-11-08 14:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -52,7 +52,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Open the system menu in the top-right corner:"
-msgstr ""
+msgstr "Klicken Sie auf das Systemmenü in der oberen rechten Ecke:"
 
 #. type: Plain text
 #, no-wrap
