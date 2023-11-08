@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-11-08 14:11+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"Last-Translator: translatenight <info@passt-so.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "&mdash; <strong>Roger Dingledine</strong>,"
 
 #. type: Content of: <div><section><blockquote>
 msgid "co-founder of the Tor Project"
-msgstr ""
+msgstr "Mitbegründer des Tor-Projekts"
 
 #. type: Content of: <div><section>
 #, fuzzy
@@ -103,9 +103,10 @@ msgid ""
 "dedicated operating system that enforces strong privacy- and security-"
 "protective defaults. That operating system is Tails.</em>"
 msgstr ""
-"<em>Eine der effektivsten Arten um das Tor Netzwerk zu nutzen ist, durch ein "
-"dezidiertes Betriebssystem, das starke Voreinstellungen für Privatsphäre und "
-"Sicherheit erzwingt. Dieses Betriebssystem ist Tails.</em>"
+"<em>Eine der sichersten Arten, das Tor-Netzwerk zu nutzen, ist im Rahmen "
+"eines dedizierten Betriebssystems, das von vornherein strikt auf "
+"Privatsphäre und Sicherheit eingestellt ist. Dieses Betriebssystem ist "
+"Tails.</em>"
 
 #. type: Content of: <div><section><blockquote>
 msgid "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
