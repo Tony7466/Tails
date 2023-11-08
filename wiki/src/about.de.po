@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
 "PO-Revision-Date: 2023-11-08 15:47+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: translatenight <info@passt-so.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -94,10 +94,10 @@ msgid ""
 "keyloggers."
 msgstr ""
 "Sie müssen sich keine Sorgen darüber machen, dass der Computer Viren hat, da "
-"Tails unabhängig vom anderen Betriebssystem arbeitet und niemals die "
-"Festplatte benutzt.  Dennoch kann Tails Sie nicht immer schützen, falls Sie "
-"es von einem Computer aus installieren, der Viren hat oder falls Sie es auf "
-"einem Computer mit schädlicher Hardware, wie Keylogger, verwenden."
+"Tails unabhängig vom fest installierten Betriebssystem arbeitet und niemals "
+"die Festplatte benutzt.  Dennoch kann Tails Sie nicht immer schützen, falls "
+"Sie es von einem Computer aus installieren, der Viren hat, oder falls Sie es "
+"auf einem Computer mit schädlicher Hardware (wie Keylogger) verwenden."
 
 #. type: Content of: <section><div><div><p>
 msgid "See also:"
@@ -128,34 +128,35 @@ msgid ""
 "</i>"
 msgstr ""
 "[[!img amnesia.svg link=\"no\" alt=\"\"]] <i class=\"metaphor\">Wie ein Zelt "
-"ist auch Tails vergesslich: es ist anfangs leer und hinterlässt keine "
+"ist auch Tails nichts Dauerhaftes: Es ist anfangs leer und hinterlässt keine "
 "Spuren, wenn Sie wieder abreisen.</i>"
 
 #. type: Content of: <section><div><h2>
 msgid "Amnesia"
-msgstr "Amnesia"
+msgstr "Keine Spuren"
 
 #. type: Content of: <section><div><p>
 msgid ""
 "Tails always starts from the same clean state and <strong>everything you do "
 "disappears</strong> automatically when you shut down Tails."
 msgstr ""
-"Tails startet immer in demselben Zustand und <strong>alles was Sie machen "
-"verschwindet</strong> automatisch, wenn Sie Tails herunterfahren."
+"Tails startet immer in demselben Zustand und <strong>alles, was Sie tun, "
+"verschwindet</strong> automatisch wieder, wenn Sie Tails herunterfahren."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "Without Tails, almost everything you do can leave traces on the computer:"
 msgstr ""
-"Ohne Tails kann alles was Sie auf dem Computer machen Spuren hinterlassen:"
+"Ohne Tails kann fast alles, was Sie auf dem Computer machen, Spuren "
+"hinterlassen:"
 
 #. type: Content of: <section><div><ul><li>
 msgid "Websites that you visited, even in private mode"
-msgstr "Webseiten die Sie besucht haben, sogar im privaten Modus"
+msgstr "Webseiten, die Sie besucht haben - sogar im privaten Modus"
 
 #. type: Content of: <section><div><ul><li>
 msgid "Files that you opened, even if you deleted them"
-msgstr "Dateien die Sie verwendet haben, sogar wenn Sie diese gelöscht haben"
+msgstr "Dateien, die Sie verwendet haben, sogar wenn Sie diese gelöscht haben"
 
 #. type: Content of: <section><div><ul><li>
 msgid "Passwords, even if you use a password manager"
@@ -163,7 +164,7 @@ msgstr "Passwörter, sogar wenn Sie einen Passwortmanager verwenden"
 
 #. type: Content of: <section><div><ul><li>
 msgid "All the devices and Wi-Fi networks that you used"
-msgstr "Alle Geräte und Wi-Fi Netzwerke, die Sie verwendet haben"
+msgstr "Alle Geräte und WLAN-Verbindungen, die Sie verwendet haben"
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -185,13 +186,13 @@ msgid ""
 "\">Like a backpack, you can store your personal things in your Persistent "
 "Storage and use them in your tent.</i>"
 msgstr ""
-"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i class=\"metaphor"
-"\">Wie ein Rucksack können Sie ihre persönlichen Sachen im beständigen "
-"Speicher speichern und sie in ihrem Zelt nutzen.</i>"
+"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i class=\"metaphor\""
+">Wie in einem Rucksack können Sie Ihre persönlichen Sachen im beständigen "
+"Speicher aufbewahren und sie in Ihrem Zelt nutzen.</i>"
 
 #. type: Content of: <section><div><h2>
 msgid "Persistent Storage"
-msgstr "Beständiger Speicher"
+msgstr "Der beständige Speicher"
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -200,8 +201,8 @@ msgid ""
 "bookmarks, your emails, and even some additional software."
 msgstr ""
 "Sie können <strong>ausgewählte Dateien und Einstellungen</strong> auf einem "
-"verschlüsseltem Speicher auf dem USB stick speichern: Ihre Dokumente, ihre "
-"Browser Lesezeichen, ihre Emails und sogar zusätzliche Software."
+"verschlüsseltem Speicher auf dem USB-Stick speichern: Ihre Dokumente, Ihre "
+"Browser-Lesezeichen, Ihre E-Mails und sogar zusätzliche Software."
 
 #. type: Content of: <section><div><p>
 msgid ""
@@ -209,7 +210,7 @@ msgid ""
 "<i>persistent</i>. Everything else is <i>amnesic</i>."
 msgstr ""
 "Der beständige Speicher ist optional und Sie können immer auswählen, was "
-"<i>beständig</i> ist. Alles andere ist <i>amnesic</i>."
+"darin<i>gespeichert wird</i>. Alles andere <i>verschwindet wieder</i>."
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Persistent Storage|doc/persistent_storage]]"
@@ -235,17 +236,16 @@ msgid ""
 "Tails includes a selection of applications to <strong>work on sensitive "
 "documents</strong> and <strong>communicate securely</strong>."
 msgstr ""
-"Tails beinhaltet eine Auswahl an Anwendungen um <strong>an sensiblen "
-"Dokumenten arbeiten</strong> und <strong>sicher kommunizieren</strong> zu "
-"können."
+"Tails beinhaltet eine Auswahl an Programmen, um <strong>an sensiblen "
+"Dokumenten arbeiten</strong> und <strong>sicher zu kommunizieren</strong> ."
 
 #. type: Content of: <section><div><p>
 msgid ""
 "All the applications are ready-to-use and are configured with safe defaults "
 "to <strong>prevent mistakes</strong>."
 msgstr ""
-"Alle Anwendungen sind gleich benutzbar und mit sicheren Voreinstellungen "
-"konfiguriert um <strong>Fehler zu vermeiden</strong>."
+"Alle Programme sind startklar und mit sicheren Voreinstellungen "
+"konfiguriert, um <strong>Fehler zu vermeiden</strong>."
 
 #. type: Content of: <section><div><p>
 msgid "Tails includes:"
