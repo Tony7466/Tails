@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-11-08 16:11+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: Bruckmandl <tails.translate@tannenzapfen.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -94,7 +94,7 @@ msgstr "</div>\n"
 #. type: Title =
 #, no-wrap
 msgid "Quick links to better understand Tails"
-msgstr ""
+msgstr "Informationen, um Tails besser zu verstehen"
 
 #. type: Bullet: '* '
 msgid "[[About Tails|about]] for a quick overview"
@@ -148,7 +148,7 @@ msgstr "[[!inline pages=\"press/media_appearances_2020\" raw=\"yes\" sort=\"age\
 
 #. type: Plain text
 msgid "Older media appearances"
-msgstr ""
+msgstr "Ältere Nachrichten"
 
 #. type: Bullet: '* '
 msgid "[[!toggle id=\"media_appearances_2019\" text=\"2019\"]]"
