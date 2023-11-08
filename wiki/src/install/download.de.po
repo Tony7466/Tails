@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-11-08 14:41+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"Last-Translator: Rose <rose@rosedev.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -88,23 +88,23 @@ msgstr ""
 
 #. type: Bullet: '  * '
 msgid "[[Upgrade from your Tails|upgrade/tails]]"
-msgstr ""
+msgstr "[[Von Tails aus upgraden|upgrade/tails]]"
 
 #. type: Bullet: '  * '
 msgid "[[Upgrade from Windows|upgrade/windows]]"
-msgstr ""
+msgstr "[[Von Windows aus upgraden|upgrade/windows]]"
 
 #. type: Bullet: '  * '
 msgid "[[Upgrade from macOS|upgrade/mac]]"
-msgstr ""
+msgstr "[[Von macOS aus upgraden|upgrade/mac]]"
 
 #. type: Bullet: '  * '
 msgid "[[Upgrade from Linux|upgrade/linux]]"
-msgstr ""
+msgstr "[[Von Linux upgraden|upgrade/linux]]"
 
 #. type: Plain text
 msgid "- Install a new Tails USB stick:"
-msgstr ""
+msgstr "- Einen neuen Tails USB-Stick aufsetzen:"
 
 #. type: Bullet: '  * '
 msgid "[[Install from Windows|install/windows]]"
