@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
 "PO-Revision-Date: 2023-11-08 15:47+0000\n"
-"Last-Translator: translatenight <info@passt-so.de>\n"
+"Last-Translator: Stefan Leibfarth <stefan+translatetails@leibfarth.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -105,8 +105,7 @@ msgstr "Lesen Sie auch:"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Warnings: Tails is safe but not magic!|doc/about/warnings]]"
-msgstr ""
-"[[Warnungen: Tails kann Sie schützen, aber nicht zaubern!|doc/about/warning]]"
+msgstr "[[Warnungen: Tails ist sicher, aber keine Magie!|doc/about/warning]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Download and install Tails|install]]"
@@ -252,13 +251,10 @@ msgid "Tails includes:"
 msgstr "Tails kommt mit:"
 
 #. type: Content of: <section><div><ul><li>
-#, fuzzy
-#| msgid ""
-#| "<i>Tor Browser</i> with <i>uBlock</i>, a secure browser with an ad-blocker"
 msgid ""
 "<i>Tor Browser</i> with <i>uBlock</i>, a secure browser and an ad-blocker"
 msgstr ""
-"<i>Tor Browser</i> mit <i>uBlock</i>, ein sicherer Browser mit einem "
+"<i>Tor Browser</i> mit <i>uBlock</i>, ein sicherer Browser und ein "
 "Werbeblocker"
 
 #. type: Content of: <section><div><ul><li>
