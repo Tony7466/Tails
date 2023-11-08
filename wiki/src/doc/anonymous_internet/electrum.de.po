@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-06 17:11+0000\n"
+"PO-Revision-Date: 2023-11-08 16:11+0000\n"
 "Last-Translator: gwave <gwave@secmail.pro>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -127,15 +127,18 @@ msgstr ""
 "anonym</a>.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>To make it harder to relate your different transactions, you should use\n"
 "a different receiving address for each transaction.\n"
 "<span class=\"application\">Electrum</span> automatically generates new\n"
 "addresses for you to use.</p>\n"
 msgstr ""
-"<p>Um es schwieriger zu machen, Ihre einzelnen Überweisungen in Beziehung zueinander zu bringen,\n"
-"sollten Sie für jede Transaktion verschiedene Empfangsadressen verwenden.</p>\n"
+"<p>Um es schwieriger zu machen, Ihre einzelnen Überweisungen in Beziehung "
+"zueinander zu bringen,\n"
+"sollten Sie für jede Transaktion verschiedene Empfangsadressen verwenden.\n"
+"<span class=\"application\">Electrum</span>generiert für Sie automatisch "
+"neue Adressen.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -164,21 +167,24 @@ msgstr ""
 "</span>.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>Do not blindly trust the bitcoin balance that <span class=\"application\">Electrum</span>\n"
 "displays as <em>unconfirmed</em>. Wait for transactions to be confirmed.</p>\n"
-msgstr "<p>Vertrauen Sie nicht blindlings dem Guthaben an Bitcoins, das <span class=\"application\">Electrum</span> anzeigt.</p>\n"
+msgstr ""
+"<p>Vertrauen Sie nicht blindlings dem Guthaben an Bitcoins, dass <span class="
+"\"application\">Electrum</span> Ihnen als <em> unbestätigt anzeigt.</em>. "
+"Warten Sie auf die Tranaktionsbestätigung.</p>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Recovering your wallet from its seed"
-msgstr ""
+msgstr "Stellen Sie ihr Wallet von seinem Seed wieder her"
 
 #. type: Title -
 #, no-wrap
 msgid "Backing up your seed"
-msgstr ""
+msgstr "Zurücksetzung des Seeds"
 
 #. type: Plain text
 #, no-wrap
