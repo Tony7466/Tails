@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2020-04-12 16:10+0200\n"
-"PO-Revision-Date: 2023-11-08 14:11+0000\n"
+"PO-Revision-Date: 2023-11-08 16:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -72,6 +72,8 @@ msgid ""
 "If you can afford it, please consider donating known-working hardware of the "
 "kind described below."
 msgstr ""
+"Wenn du es dir leisten kannst, dann erwäge doch bitte unten beschreibene "
+"bekanntermaßen funktionierende Hardware zu spenden."
 
 #. type: Plain text
 msgid ""
@@ -87,7 +89,7 @@ msgstr ""
 #. type: Title -
 #, no-wrap
 msgid "MacBook Pro or MacBook Air (2010 or later)"
-msgstr ""
+msgstr "MacBook Pro oder MacBook Air (2010 oder neuer)"
 
 #. type: Bullet: '* '
 msgid ""
@@ -125,7 +127,7 @@ msgstr ""
 #. type: Title -
 #, no-wrap
 msgid "When and how many"
-msgstr ""
+msgstr "Wann und wie viel"
 
 #. type: Plain text
 msgid ""
@@ -150,4 +152,4 @@ msgstr ""
 
 #. type: Plain text
 msgid "Thanks in advance!"
-msgstr ""
+msgstr "Danke im Vorraus!"
