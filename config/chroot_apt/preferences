@@ -23,26 +23,6 @@ Package: firmware-zd1211
 Pin: release o=Debian,n=sid
 Pin-Priority: 999
 
-Explanation: Arti (tails/tails#20016)
-Package: gcc-13-base
-Pin: release o=Debian,n=trixie
-Pin-Priority: 999
-
-Explanation: Arti (tails/tails#20016)
-Package: libllvm16
-Pin: release o=Debian,n=trixie
-Pin-Priority: 999
-
-Explanation: Arti (tails/tails#20016)
-Package: libstdc++6
-Pin: release o=Debian,n=trixie
-Pin-Priority: 999
-
-Explanation: Arti (tails/tails#20016)
-Package: libzstd1
-Pin: release o=Debian,n=trixie
-Pin-Priority: 999
-
 Explanation: #15477
 Package: src:live-boot
 Pin: origin deb.tails.boum.org
@@ -55,11 +35,6 @@ Pin-Priority: 999
 
 Package: onioncircuits
 Pin: release o=Debian,n=sid
-Pin-Priority: 999
-
-Explanation: Arti (tails/tails#20016)
-Package: src:rustc
-Pin: version 1.70.0+dfsg1-1
 Pin-Priority: 999
 
 Package: webext-ublock-origin-firefox
