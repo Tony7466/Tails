@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
-"PO-Revision-Date: 2023-11-08 15:51+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-08 15:53+0000\n"
+"Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -237,13 +237,15 @@ msgstr "Ändern der Mitglieder der Gruppen B, C oder D."
 
 #. type: Plain text
 msgid "To add someone to a given group:"
-msgstr ""
+msgstr "Um jemanden zu einer bestimmten Gruppe hinzufügen:"
 
 #. type: Bullet: '  - '
 msgid ""
 "Request someone from that group to send her share to the new person in the "
 "group."
 msgstr ""
+"Bitten Sie jemanden aus dieser Gruppe, ihre Freigabe an die neue Person in "
+"der Gruppe zu senden."
 
 #. type: Plain text
 msgid "To remove someone from a given group:"
