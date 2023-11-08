@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-09-18 06:11+0200\n"
-"PO-Revision-Date: 2023-11-08 14:11+0000\n"
+"PO-Revision-Date: 2023-11-08 16:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -87,6 +87,8 @@ msgid ""
 "- Build a public database to make it easy to consult or reuse previous "
 "answers."
 msgstr ""
+"- Erstellung einer öffentlichen Datenbank, um frühere Antworten einfach "
+"abrufen oder wiederverwenden zu können."
 
 #. type: Plain text
 #, no-wrap
@@ -98,13 +100,15 @@ msgstr ""
 
 #. type: Plain text
 msgid "Having a public mailing list also makes it:"
-msgstr ""
+msgstr "Eine öffentliche Mailingliste:"
 
 #. type: Bullet: '- '
 msgid ""
 "Complicated to make sure that both the list and the sender receive our "
 "answers."
 msgstr ""
+"Kompliziert sicherzustellen, dass sowohl die Liste als auch der Absender "
+"unsere Antworten erhalten."
 
 #. type: Bullet: '- '
 msgid ""
@@ -112,12 +116,18 @@ msgid ""
 "logs, as they are harder for the person reporting the error to share with us "
 "and also raises privacy concerns."
 msgstr ""
+"Es ist sensibel, weitere technische Informationen zu dem Problem "
+"anzufordern, z.B. Protokolle, da diese für die Person, die den Fehler "
+"meldet, schwieriger mit uns zu teilen sind und auch Datenschutzbedenken "
+"aufwerfen."
 
 #. type: Bullet: '- '
 msgid ""
 "Duplicate work between tails-support-private@boum.org and tails-support@boum."
 "org as people often write to both."
 msgstr ""
+"Doppelte Arbeit zwischen tails-support-private@boum.org und tails-support@"
+"boum.org, da häufig an beide Adressen geschrieben wird."
 
 #. type: Plain text
 msgid ""
@@ -132,3 +142,5 @@ msgid ""
 "See you on [[tails-support-private@boum.org|about/contact#tails-support-"
 "private]]!"
 msgstr ""
+"Wir sehen uns auf [[tails-support-private@boum.org|Über/Kontakt#tails-"
+"support-private]]!"
