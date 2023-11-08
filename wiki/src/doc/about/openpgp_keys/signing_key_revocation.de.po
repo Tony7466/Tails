@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
 "PO-Revision-Date: 2023-11-08 15:06+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -113,7 +113,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Cryptographic shares"
-msgstr ""
+msgstr "Kryptografische Freigaben"
 
 #. type: Plain text
 msgid ""
@@ -121,6 +121,9 @@ msgid ""
 "number of cryptographic shares, using for example Shamir's secret sharing "
 "scheme implemented by `gfshare`."
 msgstr ""
+"Wir generieren ein Widerrufszertifikat des Signaturschlüssels und teilen es "
+"in eine Reihe von kryptografischen Freigaben auf, wobei wir beispielsweise "
+"Shamirs geheimes Freigabeschema implementiert von \"gfshare\" verwenden."
 
 #. type: Plain text
 msgid ""
