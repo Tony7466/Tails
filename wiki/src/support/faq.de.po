@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-06 17:11+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-08 15:08+0000\n"
+"Last-Translator: b0r1ngtranslate <bhutan_toiletry@aleeas.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -80,11 +80,14 @@ msgid ""
 "upsilon.cc/~zack/blog/posts/2011/09/"
 "why_there_are_so_many_debian_derivatives/)  by Stefano Zacchiroli."
 msgstr ""
+"Lese auch den Artikel [Warum gibt es so viele Debian Derivate](http://upsilon"
+".cc/~zack/blog/posts/2011/09/why_there_are_so_many_debian_derivatives/)  by "
+"Stefano Zacchiroli."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"ubuntu\">Why isn't Tails based on Ubuntu?</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"ubuntu\">Warum basiert Tails nicht auf Ubuntu?</h2>\n"
 
 #. type: Plain text
 msgid "First, see the answer to the [[previous question|faq#debian]]."
@@ -92,7 +95,7 @@ msgstr ""
 
 #. type: Bullet: '0. '
 msgid "The rapid development cycle of Ubuntu would be too fast for Tails."
-msgstr ""
+msgstr "Der schnelle Entwicklungszyklus von Ubuntu wäre zu schnell für Tails."
 
 #. type: Bullet: '0. '
 msgid ""
@@ -108,6 +111,8 @@ msgid ""
 "Ubuntu is led by a company that takes most of the important decisions and "
 "has the power to make them happen."
 msgstr ""
+"Ubuntu wird von einem Unternehmen geführt, das die meisten wichtigen "
+"Entscheidungen trifft und die Macht hat, sie umzusetzen."
 
 #. type: Bullet: '0. '
 msgid ""
@@ -142,7 +147,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"gnome\">Why does Tails ship the GNOME Desktop?</h2>\n"
-msgstr ""
+msgstr "Warum liefert Tails den GNOME-Desktop aus?\n"
 
 #. type: Plain text
 msgid ""

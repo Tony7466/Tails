@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-08 14:11+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-08 15:12+0000\n"
+"Last-Translator: k3w b4fd <k3wqfo8bke6mgaijt7fyb4fd@systemli.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -92,8 +92,8 @@ msgid ""
 "If you worry that your Tails might be corrupted, do a [[manual upgrade|"
 "upgrade]] from a trusted operating system."
 msgstr ""
-"Wenn Sie befürchten, dass Tails beschädigt sein könnte, führen Sie ein "
-"[[manual upgrade|upgrade]] von einem vertrauenswürdigen Betriebssystem aus "
+"Wenn Sie befürchten, dass Tails beschädigt sein könnte, führen Sie ein [["
+"manual upgrade|upgrade]] von einem vertrauenswürdigen Betriebssystem aus "
 "durch."
 
 #. type: Content of: <div><p>
@@ -116,6 +116,12 @@ msgid ""
 "keyboard could be stored and accessed by someone else, even if you are using "
 "Tails."
 msgstr ""
+"Ihr Computer könnte kompromitiert sein, wenn seine physischen Komponenten "
+"verändert wurden.  Wenn beispielsweise ein Keylogger physisch auf Ihrem "
+"Computer installiert wurde, könnten Ihre Kennwörter, persönlichen "
+"Informationen und andere auf Ihrer Tastatur eingegebenen Daten gespeichert "
+"und von einer anderen Person abgerufen werden, selbst wenn Sie Tails "
+"verwenden."
 
 #. type: Content of: <p>
 msgid ""
@@ -169,7 +175,7 @@ msgstr ""
 
 #. type: Content of: <h2>
 msgid "No operating system can protect against BIOS and firmware attacks"
-msgstr ""
+msgstr "Kein Betriebssystem kann gegen BIOS oder Firmware Angriffe schützen."
 
 #. type: Content of: <p>
 msgid ""
