@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
-"PO-Revision-Date: 2019-10-28 15:21+0000\n"
-"Last-Translator: Claas A. <tails@m.caugner.de>\n"
+"PO-Revision-Date: 2023-11-08 14:57+0000\n"
+"Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -80,11 +80,11 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Groups"
-msgstr ""
+msgstr "Gruppen"
 
 #. type: Plain text
 msgid "We define four complementary groups of trusted people:"
-msgstr ""
+msgstr "Wir definieren vier komplementäre Gruppen vertrauenswürdiger Personen:"
 
 #. type: Bullet: '  - '
 msgid "Group A: people from the Board themselves"
@@ -92,21 +92,23 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "Group B"
-msgstr ""
+msgstr "Gruppe B"
 
 #. type: Bullet: '  - '
 msgid "Group C"
-msgstr ""
+msgstr "Gruppe C"
 
 #. type: Bullet: '  - '
 msgid "Group D"
-msgstr ""
+msgstr "Gruppe D"
 
 #. type: Plain text
 msgid ""
 "All these people should have an OpenPGP key and understand what a revocation "
 "certificate is."
 msgstr ""
+"Alle diese Personen sollten einen OpenPGP-Schlüssel haben und verstehen, was "
+"ein Widerrufszertifikat ist."
 
 #. type: Title =
 #, no-wrap
