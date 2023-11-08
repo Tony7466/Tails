@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-06 17:11+0000\n"
+"PO-Revision-Date: 2023-11-08 14:11+0000\n"
 "Last-Translator: Valentin Binotto <contribute.external@vlentin.com>\n"
 "Language-Team: Tails Translations <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -52,13 +52,12 @@ msgid "   [[!img doc/first_steps/desktop/system.png link=\"no\"]]\n"
 msgstr "   [[!img doc/first_steps/desktop/system.png link=\"no\"]]\n"
 
 #. type: Bullet: '   - '
-#, fuzzy
 msgid ""
 "If a wired connection is detected, Tails automatically connects to the "
 "network."
 msgstr ""
 "Wenn eine kabelgebundene Verbindung erkannt wird, verbindet sich Tails "
-"automatisch mit dieser."
+"automatisch mit diesem Netzwerk."
 
 #. type: Bullet: '   - '
 #, fuzzy
