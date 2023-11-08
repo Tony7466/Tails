@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 10:54-0300\n"
-"PO-Revision-Date: 2023-11-08 14:11+0000\n"
+"PO-Revision-Date: 2023-11-08 16:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -70,6 +70,9 @@ msgid ""
 "After establishing a connection to a local network, the *Tor Connection* "
 "assistant appears to help you connect to the Tor network."
 msgstr ""
+"Nachdem eine Verbidung zu einem Lokalen Netzwerk hergestellt wurde, "
+"erscheint der Assistent für die *Tor-Verbindung* um dir zu helfen, dich mit "
+"dem Tor-Netzwerk zu verbinden."
 
 #. type: Plain text
 #, no-wrap
@@ -107,11 +110,15 @@ msgid ""
 "<div>\n"
 "  <p class=\"big\">You made it!</p>\n"
 msgstr ""
+"<div>\n"
+"  <p class=\"big\">Sie haben es geschafft!</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p>You managed to start <span class=\"pc-clone mac-clone\">your new</span> Tails on your computer!</p>\n"
 msgstr ""
+"  <p>Du hast es geschafft <span class=\"pc-clone mac-clone\">dein neues</"
+"span> Tails auf deinem Computer zu starten!</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -159,12 +166,11 @@ msgstr "Einstellungen"
 
 #. type: Bullet: '  - '
 msgid "Additional software"
-msgstr "zusätzliche Programme"
+msgstr "Zusätzliche Programme"
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid "Encryption keys"
-msgstr "Ihre Schlüssel für Verschlüsselung"
+msgstr "Von Ihnen verwendete Verschlüsselungsschlüssel, Passwörter, ..."
 
 #. type: Plain text
 #, fuzzy
