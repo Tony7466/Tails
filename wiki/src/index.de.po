@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-07-27 18:28+0000\n"
-"PO-Revision-Date: 2023-11-06 17:11+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-08 14:03+0000\n"
+"Last-Translator: translatenight <info@passt-so.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -53,10 +53,8 @@ msgid "is a portable operating system"
 msgstr "ist ein tragbares Betriebssystem"
 
 #. type: Content of: <div><h1>
-#, fuzzy
-#| msgid "that protects your privacy"
 msgid "that protects against"
-msgstr "das ihre Privatsphäre schützt"
+msgstr "das Sie schützt gegen"
 
 #. type: Content of: <div><h1>
 #, fuzzy
