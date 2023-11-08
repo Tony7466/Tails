@@ -5,7 +5,6 @@
 
 [[!inline pages="page(security/*) and !security/*/*
 and !security/fixed and !security/fixed.* and !security/fixed/*
-and !security/audits and !security/audits.* and !security/audits/*
 and currentlang()"
 actions=no archive=yes feedonly=yes show=10 sort="-meta(date) age -path"]]
 
@@ -29,7 +28,6 @@ Debian.
 
 [[!inline pages="page(security/*) and !security/*/*
 and !security/fixed and !security/fixed.* and !security/fixed/*
-and !security/audits and !security/audits.* and !security/audits/*
 and ! tagged(security/fixed) and currentlang()"
 actions=no archive=yes feeds=no show=0 sort="-meta(date) age -path"]]
 
@@ -44,7 +42,3 @@ actions=no archive=yes feeds=no show=10 sort="-meta(date) age -path"]]
 
 [[!inline pages="page(security/*) and !security/*/* and tagged(security/fixed) and (security/Numerous_security_holes_in_* or security/known_security_vulnerabilities_in_*)"
 actions=no archive=yes feeds=no show=10 sort="-meta(date) age -path"]]
-
-# Security audits
-
-[[!inline pages="security/audits" raw="yes"]]
