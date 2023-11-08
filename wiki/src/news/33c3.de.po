@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-06 17:11+0000\n"
+"PO-Revision-Date: 2023-11-08 14:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -60,6 +60,7 @@ msgstr ""
 #, no-wrap
 msgid "**Since October 13, we have received $98 579 in donations.**\n"
 msgstr ""
+"**Seit Oktober dem 13. haben wir Spenden in Höhe von $98 579 erhalten.**\n"
 
 #. type: Plain text
 msgid ""
@@ -68,6 +69,10 @@ msgid ""
 "the real value of Tails and why it is important for them to help us back and "
 "keep the project alive and independent."
 msgstr ""
+"Dies ist unsere erste Spendenkampagne und wir sind total begeister von den "
+"Ergebnissen! Es fühlt sich wirklich gut an, dass unsere Nutzer-Community den "
+"wahren Wert von Tails versteht und auch warum es wichtig ist uns zu "
+"unterstützen und das Projekt unabhängig und am Leben zu erhalten."
 
 #. type: Plain text
 msgid ""
