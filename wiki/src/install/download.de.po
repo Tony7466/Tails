@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
 "PO-Revision-Date: 2023-11-08 16:12+0000\n"
-"Last-Translator: Rose <rose@rosedev.de>\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -83,8 +83,7 @@ msgstr "Mit diesem USB-Abbild, können Sie entweder:"
 
 #. type: Plain text
 msgid "- Upgrade your Tails USB stick and keep your Persistent Storage:"
-msgstr ""
-"- Deinen Tails USB-Stick Upgraden und deinen Dauerhaften Speicher behalten:"
+msgstr "- Ihre Tails USB-Stick upgraden und den dauerhaften Speicher behalten:"
 
 #. type: Bullet: '  * '
 msgid "[[Upgrade from your Tails|upgrade/tails]]"
@@ -112,11 +111,11 @@ msgstr ""
 
 #. type: Bullet: '  * '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Installation von macOS|install/mac]]"
 
 #. type: Bullet: '  * '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Installation von Linux|install/linux]]"
 
 #. type: Bullet: '  * '
 msgid ""
