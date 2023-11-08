@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-11-08 14:35+0000\n"
+"PO-Revision-Date: 2023-11-08 14:41+0000\n"
 "Last-Translator: Rose <rose@rosedev.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -84,6 +84,7 @@ msgstr "Mit diesem USB-Abbild, kannst du entweder:"
 #. type: Plain text
 msgid "- Upgrade your Tails USB stick and keep your Persistent Storage:"
 msgstr ""
+"- Deinen Tails USB-Stick Upgraden und deinen Dauerhaften Speicher behalten:"
 
 #. type: Bullet: '  * '
 msgid "[[Upgrade from your Tails|upgrade/tails]]"
