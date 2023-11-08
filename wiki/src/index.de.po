@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-07-27 18:28+0000\n"
-"PO-Revision-Date: 2023-11-08 14:03+0000\n"
+"PO-Revision-Date: 2023-11-08 14:11+0000\n"
 "Last-Translator: translatenight <info@passt-so.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -57,10 +57,8 @@ msgid "that protects against"
 msgstr "das Sie schützt gegen"
 
 #. type: Content of: <div><h1>
-#, fuzzy
-#| msgid "and helps you avoid censorship."
 msgid "surveillance and censorship."
-msgstr "und ihnen hilft Zensur zu umgehen."
+msgstr "Überwachung und Zensur."
 
 #. type: Content of: <section><div><section>
 msgid "[[!img city.svg link=\"no\" alt=\"\"]]"
