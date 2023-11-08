@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-06 17:11+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -131,6 +131,8 @@ msgstr ""
 #, no-wrap
 msgid "<div class=\"caution\"><p>All the data on this USB stick will be lost.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>Alle Daten auf dem USB Stick werden beim "
+"Installieren von Tails überschrieben.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
