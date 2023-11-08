@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-09 07:47+0200\n"
-"PO-Revision-Date: 2023-11-08 14:47+0000\n"
+"PO-Revision-Date: 2023-11-08 16:13+0000\n"
 "Last-Translator: Rose <rose@rosedev.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -108,6 +108,8 @@ msgstr ""
 #, no-wrap
 msgid "  <p>You managed to start <span class=\"pc-clone mac-clone\">your new</span> Tails on your computer!</p>\n"
 msgstr ""
+"  <p>Du hast es geschafft <span class=\"pc-clone mac-clone\">dein neues</"
+"span> Tails auf deinem Computer zu starten!</p>\n"
 
 #. type: Plain text
 #, no-wrap
