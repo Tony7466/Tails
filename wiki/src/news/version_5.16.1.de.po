@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 01:40+0200\n"
-"PO-Revision-Date: 2023-11-08 14:12+0000\n"
+"PO-Revision-Date: 2023-11-08 16:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -130,6 +130,8 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"So aktualisieren Sie Ihren Tails USB-Stick und behalten Ihren dauerhaften "
+"Speicher"
 
 #. type: Plain text
 #, markdown-text
@@ -150,16 +152,19 @@ msgid ""
 "automatic upgrade, please try to do a [[manual "
 "upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Wenn Sie kein automatisches Upgrade durchführen können oder wenn Tails nach "
+"einem automatischen Upgrade nicht gestartet werden kann, versuchen Sie "
+"bitte, ein [[manuelles Upgrade|doc/upgrade/#manual]] durchzuführen."
 
 #. type: Title ##
 #, markdown-text, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Tails auf einem neuen USB-Stick installieren"
 
 #. type: Plain text
 #, markdown-text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Befolgen Sie folgende Installationsanweisungen:"
 
 #. type: Bullet: '  - '
 #, markdown-text
@@ -169,12 +174,12 @@ msgstr ""
 #. type: Bullet: '  - '
 #, markdown-text
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Installation von macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 #, markdown-text
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Installation von Linux|install/linux]]"
 
 #. type: Bullet: '  - '
 #, markdown-text
