@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
 "PO-Revision-Date: 2023-11-08 16:11+0000\n"
-"Last-Translator: b0r1ngtranslate <bhutan_toiletry@aleeas.com>\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -147,7 +147,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"gnome\">Why does Tails ship the GNOME Desktop?</h2>\n"
-msgstr "Warum liefert Tails den GNOME-Desktop aus?\n"
+msgstr "<h2 id=\"gnome\">Warum liefert Tails den GNOME-Desktop aus?</h2>\n"
 
 #. type: Plain text
 msgid ""
