@@ -1,7 +1,3 @@
-#pagebody {
-  font-family: "Source Sans Pro Regular", "DejaVu Sans", "Verdana", sans-serif;
-}
-
 span.title {
   display: none;
 }
@@ -144,7 +140,8 @@ h3 {
 }
 
 .persona {
-  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
   color: var(--medium-purple);
   display: block;
 }
