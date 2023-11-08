@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
 "PO-Revision-Date: 2023-11-08 15:19+0000\n"
-"Last-Translator: k3w b4fd <k3wqfo8bke6mgaijt7fyb4fd@systemli.org>\n"
+"Last-Translator: Deleted User <noreply+435@weblate.org>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -118,10 +118,9 @@ msgid "  All the data on this USB stick or DVD will be lost when installing Tail
 msgstr "  Alle Daten auf dem USB Stick oder der DVD werden beim Installieren von Tails überschrieben.\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "- The possibility to start from a USB stick or a DVD reader."
 msgid "- The ability to start from a USB stick or a DVD reader."
-msgstr "- Die Möglichkeit von USB Stick oder DVD zu booten."
+msgstr ""
+"- Die Möglichkeit, von einem USB-Stick oder einem DVD-Lesegerät zu starten."
 
 #. type: Bullet: '- '
 msgid ""
