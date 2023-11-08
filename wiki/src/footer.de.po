@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-19 19:37+0000\n"
 "PO-Revision-Date: 2023-11-08 16:13+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: k3w b4fd <k3wqfo8bke6mgaijt7fyb4fd@systemli.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -116,7 +116,7 @@ msgstr ""
 
 #. type: Content of: <div><ul><li>
 msgid "[[Sponsors|sponsors]]"
-msgstr ""
+msgstr "[[Sponsoren|sponsors]]"
 
 #. type: Content of: <div><ul><li>
 msgid "[[Code of conduct|contribute/working_together/code_of_conduct]]"
