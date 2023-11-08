@@ -59,8 +59,8 @@ mv /etc/resolv.conf.orig /etc/resolv.conf
 # more after we're done compiling
 rm /etc/apt/sources.list.d/trixie.list
 apt update
-apt purge --yes rustc gcc-13-base libllvm16
-apt install --yes libstdc++6/bookworm libzstd1/bookworm
+apt install --purge --yes --allow-downgrades libstdc++6/bookworm libzstd1/bookworm
+apt purge --yes gcc-13-base
 
 addgroup --system --quiet arti
 adduser --system --quiet --no-create-home arti
