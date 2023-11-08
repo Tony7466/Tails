@@ -52,3 +52,9 @@ pref("intl.language_notification.shown", true);
 
 // Enable userChrome.css for UI customizations
 pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+
+// Hide warning when downloading files: "Be careful opening downloads"
+pref("browser.download.showTorWarning", false);
+
+// Hide bookmarks toolbar
+pref("browser.toolbars.bookmarks.visibility", "never");

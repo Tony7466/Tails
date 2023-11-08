@@ -117,11 +117,70 @@
 #   keys work exactly as for `response` for commands, but now for the
 #   events.
 #
-# `restrict-stream-events` (optional) is a boolean, and if set any
-# STREAM events sent to the client (after it has subscribed to them)
-# will be restricted to those belonging to the client itself. This
-# option only works for local clients and will be unset for remote
-# clients.
+# `tor-browser-mode` (optional) is a boolean, and should only ever be
+# set if the client is Tor Browser since it is highly dependent on its
+# particular implementation of control port communication and
+# stream/circuit tracking. The purpose of this option is to prevent
+# Tor Browser from learning anything about circuits or streams used by
+# other processes using Tor, so it only has that information about its
+# "own" circuits and streams (which is sufficient for its purposes,
+# e.g. the circuit view). To achieve this we do the following:
+#
+# * STREAM events: when one is received it is only accepted if its
+#   source address is the same as the client's, in which case we
+#   consider that stream to be "owned" by Tor Browser, otherwise it is
+#   dropped. We keep track of the id:s of these streams and drop them
+#   once we see the stream close.
+#
+# * CIRC events: we drop all such events with one exception (below)
+#   which makes Tor Browser fall back to polling with `getinfo
+#   circuit-status` (i.e. how it worked before Tor Browser 13). The
+#   reason we do this is very technical, and is detailed here:
+#
+#   - https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/42132
+#
+#   The exception mentioned above is that we allow all CIRC CLOSED
+#   events through after stripping all information except their ID (so
+#   we don't leak which nodes were used etc). This is required for Tor
+#   Browser to clear its internal tracking of circuits, otherwise it
+#   would keep outdated info indefinitely (which nodes the circuit
+#   consists of) and incorrectly reuse it in the future if the same
+#   circuit id is reused. (Implementation detail: this is much simpler
+#   than the ideal solution where we only let through CIRC CLOSED
+#   events for circuits Tor Browser owns, which would require tracking
+#   circuits like we do streams and also handling several racy
+#   situations. Since we strip information the only leak that remains
+#   is the timing of when circuits close.)
+#
+# * getinfo circuit-status: in the response we only include circuits
+#   that are used by the streams "owned" by Tor Browser.
+#
+# Below we describe in detail how all this comes together:
+#
+# 1. Tor Browser subscribes to both CIRC and STREAM events, filtered
+#    by onion-grater
+# 2. Let's say circuit n is built, so a "CIRC n BUILT" event is
+#    intercepted by onion-grater on its way to Tor Browser and dropped
+#    since it is not a "CIRC CLOSED" event
+# 3. Later Tor Browser makes some network request so tor opens a
+#    stream, which happens to be attached to circuit n, and a STREAM
+#    event is sent
+# 4. onion-grater determines that Tor Browser "owns" the STREAM event,
+#    so it forwards it to Tor Browser
+# 5. Tor Browser notices that circuit n which is referenced in the
+#    STREAM event is unknown, so it polls with `getinfo
+#    circuit-status`
+# 6. onion-grater intercepts `getinfo circuit-status` but will include
+#    circuit n since it is used by a stream owned by Tor Browser
+#    (which we learned in step 4)
+# 7. Tor Browser gets the response and now knows about circuit n so it
+#    accepts the STREAM event, and now it can display the circuit view
+#    for the corresponding browser tab
+# 8. Eventually, after Tor Browser is done with the stream and tor
+#    decides to close circuit n, a "CIRC n CLOSED" is issued,
+#    onion-grater forwards it to Tor Browser after dropping all
+#    identifying information from it, and Tor Browser stops tracking
+#    circuit n
 
 import argparse
 import fcntl
@@ -223,7 +282,7 @@ class FilteredControlPortProxySession:
         self.debug_log = handler.debug_log
         self.filter_name = handler.filter_name
         self.reconnect_controller = handler.connect_to_real_control_port
-        self.restrict_stream_events = handler.restrict_stream_events
+        self.tor_browser_mode = handler.tor_browser_mode
         self.request = handler.request
         self.server_address = handler.server_address
         self.wfile = handler.wfile
@@ -320,7 +379,7 @@ class FilteredControlPortProxySession:
     def is_my_stream(self, stream: stem.response.events.StreamEvent) -> bool:
         if self.client_pid is not None:
             # PID-based matching is racy and inherently insecure,
-            # so we don't restrict-stream-events for it
+            # so we don't allow tor-browser-modex
             return False
         if self.client_address[0] == stream.source_address:
             return True
@@ -352,22 +411,39 @@ class FilteredControlPortProxySession:
         return my_circuits
 
     def event_cb(self, event, event_rewriter=None):
-        if self.restrict_stream_events and \
-           isinstance(event, stem.response.events.StreamEvent) and \
-           not GLOBAL_ARGS.disable_filtering:
-            if event.id not in self.client_streams:
-                if event.status not in [stem.StreamStatus.NEW,
-                                        stem.StreamStatus.NEWRESOLVE]:
-                    return
-                if self.is_my_stream(event):
-                    self.client_streams.add(event.id)
+        if self.tor_browser_mode and not GLOBAL_ARGS.disable_filtering:
+            if isinstance(event, stem.response.events.StreamEvent):
+                if event.id not in self.client_streams:
+                    if event.status not in [stem.StreamStatus.NEW,
+                                            stem.StreamStatus.NEWRESOLVE]:
+                        return
+                    if self.is_my_stream(event):
+                        self.client_streams.add(event.id)
+                    else:
+                        self.debug_log('dropped restricted stream event: ' +
+                                       event.raw_content())
+                        return
+                elif event.status in [stem.StreamStatus.FAILED,
+                                      stem.StreamStatus.CLOSED]:
+                    self.client_streams.remove(event.id)
+            elif isinstance(event, stem.response.events.CircuitEvent):
+                if event.status == stem.CircStatus.CLOSED:
+                    old_event_raw_content = event.raw_content()
+                    # We let all CIRC CLOSED events through so Tor
+                    # Browser's iternal circuit tracking can clear its
+                    # info about this circuit, but we strip all
+                    # information to prevent potential leaks.
+                    event = stem.response.events.CircuitEvent.from_str(
+                        f"650 CIRC {event.id} {stem.CircStatus.CLOSED}\r\n"
+                    )
+                    self.debug_log_rewrite('received event',
+                                           old_event_raw_content,
+                                           event.raw_content())
                 else:
-                    self.debug_log('dropped restricted stream event: ' +
+                    self.debug_log('dropped restricted circuit event: ' +
                                    event.raw_content())
                     return
-            elif event.status in [stem.StreamStatus.FAILED,
-                                  stem.StreamStatus.CLOSED]:
-                self.client_streams.remove(event.id)
+
         raw_event_content = event.raw_content()
         if event_rewriter:
             new_raw_event_content = event_rewriter(raw_event_content)
@@ -545,10 +621,10 @@ class FilteredControlPortProxySession:
                             return self.rewrite_line([replacer], line)
                         args_rewriter = _args_rewriter
 
-                    if self.restrict_stream_events and cmd == 'GETINFO' and arg_str == 'circuit-status':
+                    if self.tor_browser_mode and cmd == 'GETINFO' and arg_str == 'circuit-status':
                         old_response_rewriter = response_rewriter
                         def _response_rewriter(ignored):
-                            new_lines = "250+circuit-status=\r\n"
+                            new_lines = ""
                             circuits = self.my_circuits()
                             # The _raw_content is the last raw CIRC
                             # event received for each circuit id, so
@@ -562,7 +638,9 @@ class FilteredControlPortProxySession:
                             # considered a single-line response which
                             # need no such termination.
                             if len(circuits) > 0:
-                                new_lines += ".\r\n"
+                                new_lines = "250+circuit-status=\r\n" + new_lines + ".\r\n"
+                            else:
+                                new_lines = "250-circuit-status=\r\n"
                             new_lines += "250 OK\r\n"
                             if old_response_rewriter:
                                 new_lines = old_response_rewriter(new_lines)
@@ -606,7 +684,7 @@ class FilteredControlPortProxyHandler(socketserver.StreamRequestHandler):
         self.controller = None
         self.filter_name = None
         self.filters = []
-        self.restrict_stream_events = False
+        self.tor_browser_mode = False
         self.server_address = self.server.server_address
         self.subscribed_event_listeners = []
         for filter_file in glob.glob('/etc/onion-grater.d/*.yml'):
@@ -691,8 +769,8 @@ class FilteredControlPortProxyHandler(socketserver.StreamRequestHandler):
         self.add_allowed_confs_commands(confs)
         events = matched_filter.get('events', {}) or {}
         self.add_allowed_events(events)
-        self.restrict_stream_events = bool(matched_filter.get(
-            'restrict-stream-events', False
+        self.tor_browser_mode = bool(matched_filter.get(
+            'tor-browser-mode', False
         ))
 
     def connect_to_real_control_port(self):
@@ -766,13 +844,13 @@ class FilteredControlPortProxyHandler(socketserver.StreamRequestHandler):
         remote_connection = not pid_based_connection and ipaddress.ip_address(
             client_host
         ) not in ipaddress.ip_network(LOCAL_VETH_NETWORK)
-        if self.restrict_stream_events and remote_connection:
+        if self.tor_browser_mode and remote_connection:
             self.debug_log(
-                "filter '{}' has `restrict-stream-events` set "
+                "filter '{}' has `tor-browser-mode` set "
                 "and we are remote so the option was disabled"
                 .format(self.filter_name)
             )
-            self.restrict_stream_events = False
+            self.tor_browser_mode = False
 
         if len(self.filters) == 0:
             status = 'no matching filter found, using an empty one'
@@ -784,7 +862,7 @@ class FilteredControlPortProxyHandler(socketserver.StreamRequestHandler):
             log(yaml.dump({
                 'commands': self.allowed_commands,
                 'events': self.allowed_events,
-                'restrict-stream-events': self.restrict_stream_events,
+                'tor-browser-mode': self.tor_browser_mode,
             }))
         disconnect_reason = "client quit"
         try:

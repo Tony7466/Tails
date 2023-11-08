@@ -40,8 +40,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-01-26 19:00+0000\n"
-"Last-Translator: emma peel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2023-10-18 04:12+0000\n"
+"Last-Translator: Frankie McEyes <mceyes@protonmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/tor/tails-gui/it/"
 ">\n"
 "Language: it\n"
@@ -50,7 +50,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.1\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -257,6 +257,14 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails ha bisogno di donazioni per mantenere tutti liberi e al sicuro "
+"online.\n"
+"\n"
+"Ogni contributo conta nella nostra lotta contro la sorveglianza e la "
+"censura!\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Come "
+"spendiamo i nostri soldi.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:101
 msgid ""
@@ -267,22 +275,28 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails protegge il tuo portafoglio.\n"
+"\n"
+"Aiutaci a mantenere sicuri i tuoi bitcoin!\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Come "
+"spendiamo i nostri soldi.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:112
 msgid "Donate Now"
-msgstr ""
+msgstr "Dona ora"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:113
 msgid "Later"
-msgstr ""
+msgstr "In seguito"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:123
 msgid "Opening Electrum with our donation address..."
-msgstr ""
+msgstr "Apertura di Electrum con il nostro indirizzo per le donazioni..."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:124
 msgid "Thank you for making the Internet a safer place!"
-msgstr ""
+msgstr "Grazie per rendere Internet un posto più sicuro!"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:157
 msgid "Persistence is disabled for Electrum"
@@ -456,10 +470,9 @@ msgstr ""
 msgid "no automatic upgrade is available from our website for this version"
 msgstr ""
 "non ci sono aggiornamenti automatici disponibili sul nostro sito per questa "
-"versione."
+"versione"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-#, fuzzy
 msgid "your device was not created using a USB image or Tails Cloner"
 msgstr ""
 "il tuo dispositivo non è stato creato usando un'immagine USB o installatore "
@@ -573,7 +586,7 @@ msgid "Upgrade later"
 msgstr "Aggiorna in seguito"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:518
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid ""
 "<b>You should do a manual upgrade to the latest version of {name}.</b>\n"
 "\n"
@@ -588,7 +601,8 @@ msgstr ""
 "\n"
 "Per ulteriori informazioni sulla nuova versione, visita {details_url}\n"
 "\n"
-"Non è possibile aggiornare automaticamente Tails a questa versione.\n"
+"Non è possibile aggiornare automaticamente Tails a questa versione: "
+"{explanation}.\n"
 "\n"
 "Per informazioni su come eseguire un aggiornamento manuale, visita "
 "{manual_upgrade_url}"
@@ -791,12 +805,10 @@ msgid "_Unsafe Browser"
 msgstr "_Browser non sicuro"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:347
-#, fuzzy
 msgid "Enabled (default)"
-msgstr "Disattivato (predefinito)"
+msgstr "Attivato (predefinito)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:349
-#, fuzzy
 msgid "Disabled"
 msgstr "Disabilita"
 
@@ -809,52 +821,46 @@ msgid "On"
 msgstr "On"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:404
-#, fuzzy
 msgid "Off"
-msgstr "Off"
+msgstr "Spento"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:406
 msgid "Off (default)"
 msgstr "Off (predefinito)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:159
-#, fuzzy
 msgid "Persistent Storage Still Locked"
-msgstr "Crea archiviazione persistente"
+msgstr "Archivio persistente ancora bloccato"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:160
-#, fuzzy
 msgid ""
 "Do you really want to start Tails without unlocking your Persistent Storage?"
-msgstr ""
-"Vuoi veramente riavviare Tails adesso?\\n\\nIl lavoro attuale verrà perso."
+msgstr "Vuoi davvero avviare Tails senza sbloccare l'archivio persistente?"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:162
-#, fuzzy
 msgid "Start Without Persistent Storage"
-msgstr "Crea archiviazione persistente"
+msgstr "Avvia senza archivio persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:101
-#, fuzzy
 msgid "Error unlocking Persistent Storage: {}"
-msgstr "_Volume persistente cifrato"
+msgstr "Errore durante lo sblocco dell'archivio persistente: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
-#, fuzzy
 msgid "Error upgrading Persistent Storage: {}"
-msgstr "_Volume persistente cifrato"
+msgstr "Errore nell'aggiornamento dell'archivio persistente: {}"
 
 #. Translators: Don't translate {features}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
-msgstr "Impossibile configurare l'archiviazione persistente"
+msgstr ""
+"Impossibile attivare alcune funzionalità dell'archivio persistente: "
+"{features}."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
-#, fuzzy
 msgid "Error activating Persistent Storage: {}"
-msgstr "Crea archiviazione persistente"
+msgstr "Errore nell'attivazione dell'archivio persistente: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:70
 msgid "Unlocking…"
@@ -864,7 +870,7 @@ msgstr "Sbloccaggio in corso…"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:135
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:505
 msgid "Unlock Encryption"
-msgstr ""
+msgstr "Sblocca la crittografia"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:113
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:41
@@ -876,26 +882,36 @@ msgid ""
 "Failed to upgrade the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
+"Impossibile aggiornare l'archivio persistente. Per favore, avvia Tails e "
+"invia un rapporto di errore."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:127
 msgid ""
 "Failed to unlock the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
+"Impossibile sbloccare l'archivio persistente. Per favore, avvia Tails e "
+"invia un rapporto di errore."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:133
 msgid ""
 "Failed to activate the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
+"Impossibile attivare l'archivio persistente. Per favore, avvia Tails e invia "
+"un rapporto di errore."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:143
 msgid "Upgrading the Persistent Storage. This may take a while…"
 msgstr ""
+"Aggiornamento dell'archivio persistente in corso. Questo potrebbe richiedere "
+"un po' di tempo…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:154
 msgid "Start Tails and open the Persistent Storage settings to find out more."
 msgstr ""
+"Avvia Tails e apri le impostazioni dell'archivio persistente per saperne di "
+"più."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:190
 msgid "_Language"
@@ -1071,9 +1087,8 @@ msgid "Removing %(file)s"
 msgstr "Cancellazione %(file)s in corso"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:964
-#, fuzzy
 msgid "Cloning Persistent Storage..."
-msgstr "Crea archiviazione persistente"
+msgstr "Clonazione dell'archivio persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1032
 #, python-format
@@ -1132,9 +1147,8 @@ msgstr "Installazione di Tails fallita!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-#, fuzzy
 msgid "Tails Cloner"
-msgstr "Installer di Tails"
+msgstr "Clonatore di Tails"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
@@ -1183,18 +1197,21 @@ msgid ""
 "Clone the current Persistent Storage\n"
 "Impossible to clone the Persistent Storage because it is locked."
 msgstr ""
+"Clone dell'archivio persistente\n"
+"Impossibile clonare l'archivio persistente perché è bloccato."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
-#, fuzzy
 msgid "Clone the current Persistent Storage"
-msgstr "Crea archiviazione persistente"
+msgstr "Clone dell'archivio persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:493
 msgid ""
 "Clone the current Persistent Storage\n"
 "You can only choose to reinstall when cloning the Persistent Storage."
 msgstr ""
+"Clone dell'archivio persistente.\n"
+"Puoi scegliere di reinstallare solo quando cloni l'archivio persistente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:531
 #, python-format
@@ -1527,9 +1544,8 @@ msgstr ""
 "persistente."
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:263
-#, fuzzy
 msgid "[package not available]"
-msgstr "[package not available]"
+msgstr "[pacchetto non disponibile]"
 
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:68
 msgid "Failed to synchronize the clock!"
@@ -1612,13 +1628,14 @@ msgid ""
 "Or do a manual upgrade.\n"
 "See {manual_upgrade_url}"
 msgstr ""
-"<b>Memoria insufficiente per verificare la disponibilità di aggiornamenti.</"
-"b>\n"
+"<b>Memoria insufficiente per controllare gli aggiornamenti.</b>\n"
 "\n"
-"Verificare che il sistema soddisfi i requisiti per l'esecuzione di Tails.\n"
+"Assicurati che questo sistema soddisfi i requisiti per eseguire Tails.\n"
 "Vedi file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
 "\n"
-"Oppure eseguire un aggiornamento manuale.\n"
+"Prova a riavviare Tails per controllare di nuovo gli aggiornamenti.\n"
+"\n"
+"Oppure esegui un aggiornamento manuale.\n"
 "Vedi {manual_upgrade_url}"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:76
@@ -1664,7 +1681,6 @@ msgid "_Use a bridge that you already know"
 msgstr "_Usa un bridge che conosci già"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:242
-#, fuzzy
 msgid ""
 "To save your bridge, <a href=\"doc/persistent_storage\">unlock your "
 "Persistent Storage</a>."
@@ -1673,7 +1689,6 @@ msgstr ""
 "tua archiviazione persistente</a>."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:249
-#, fuzzy
 msgid ""
 "To save your bridge, <a href=\"doc/persistent_storage\">create a Persistent "
 "Storage</a> on your Tails USB stick."
@@ -1699,31 +1714,37 @@ msgstr "Impossibile configurare l'archiviazione persistente"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:385
 msgid "Failed to detect a webcam. Maybe your webcam is too old."
 msgstr ""
+"Non è stato possibile rilevare una webcam. Forse la tua webcam è troppo "
+"vecchia."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:394
 msgid "Failed to scan QR code. Try with more light or closer to the camera."
 msgstr ""
+"Impossibile eseguire la scansione del codice QR. Prova con più luce o "
+"avvicina la fotocamera."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:401
 msgid "Invalid QR code. Try sending another email and scanning again."
 msgstr ""
+"Codice QR non valido. Prova a inviare un'altra email e a eseguire nuovamente "
+"la scansione."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:451
 msgid "Synchronizing the system's clock…"
-msgstr "Sincronizzazione dell'orologio di sistema..."
+msgstr "Sincronizzazione dell'orologio di sistema…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:500
 msgid "Connecting to Tor without bridges…"
-msgstr "Connessione a Tor senza usare bridge..."
+msgstr "Connessione a Tor senza usare bridge…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:507
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:531
 msgid "Connecting to Tor with default bridges…"
-msgstr "Connessione a Tor con bridge predefiniti..."
+msgstr "Connessione a Tor con bridge predefiniti…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:514
 msgid "Connecting to Tor with a custom bridge…"
-msgstr "Connessione a Tor con un bridge personalizzato..."
+msgstr "Connessione a Tor con un bridge personalizzato…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:622
 msgid "Connected to Tor successfully with bridges"
@@ -1740,9 +1761,8 @@ msgid "You can now browse the Internet anonymously and uncensored."
 msgstr "Ora puoi navigare in internet anonimamente e senza censure."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:707
-#, fuzzy
 msgid "This local network seems to be blocking access to Tor."
-msgstr "La tua rete locale sta bloccando l'accesso a Tor."
+msgstr "Questa rete locale sembra bloccare l'accesso a Tor."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:784
 msgid "Bridge address malformed"
@@ -1756,7 +1776,7 @@ msgstr ""
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1019
 #, python-brace-format
 msgid "Scanned {bridge_type} bridge: <b>{bridge_info}</b>."
-msgstr ""
+msgstr "Bridge {bridge_type} scansionato: <b>{bridge_info}</b>."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1110
 msgid "Are you sure you want to lose progress?"
@@ -1779,11 +1799,11 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1120
 msgid "Close and Lose Progress"
-msgstr ""
+msgstr "Chiudi e Perdi il Progresso"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1121
 msgid "Wait"
-msgstr ""
+msgstr "Aspetta"
 
 #: config/chroot_local-includes/usr/local/bin/thunderbird:41
 msgid "You need to migrate your OpenPGP keys"
@@ -1801,9 +1821,8 @@ msgstr ""
 "migrazione."
 
 #: config/chroot_local-includes/usr/local/bin/thunderbird:45
-#, fuzzy
 msgid "_Open Migration Instructions"
-msgstr "Apri istruzioni di migrazione"
+msgstr "_Istruzioni sulle Migrazioni Aperte"
 
 #: config/chroot_local-includes/usr/local/bin/thunderbird:46
 msgid "_Migrate Later"
@@ -1841,36 +1860,38 @@ msgid ""
 "\n"
 "Try again after closing some applications or rebooting."
 msgstr ""
+"Sono disponibili solo {available_memory} KiB di memoria, ne sono necessari "
+"almeno {required_memory} KiB.\n"
+"\n"
+"Prova nuovamente dopo aver chiuso alcune applicazioni o riavviato."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
-#, fuzzy
 msgid "Creating a partition for the Persistent Storage..."
-msgstr "Correzione dei permessi del volume persistente."
+msgstr "Creazione di una partizione per la Memoria Persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
 msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
 "few seconds."
 msgstr ""
+"Inizializzazione dell'encryption LUKS... Il computer potrebbe smettere di "
+"rispondere per alcuni secondi."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
-msgstr ""
+msgstr "Sblocco della cifratura..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
-#, fuzzy
 msgid "Formatting the file system..."
-msgstr "Verifica del filesystem in corso..."
+msgstr "Formattazione del file system..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:392
-#, fuzzy
 msgid "Activating the Persistent Storage..."
-msgstr "Crea archiviazione persistente"
+msgstr "Attivazione della Memoria Persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
-#, fuzzy
 msgid "Finishing setting up the Persistent Storage..."
-msgstr "Crea archiviazione persistente"
+msgstr "Completamento dell'impostazione della Memoria Persistente..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
@@ -1879,6 +1900,10 @@ msgid ""
 "doesn't work, restart Tails and try deleting the Persistent Storage without "
 "unlocking it."
 msgstr ""
+"Impossibile smontare la Memoria Persistente, un processo la sta ancora "
+"utilizzando. Per favore, chiudi tutte le applicazioni che potrebbero "
+"accedervi e prova nuovamente. Se ciò non funziona, riavvia Tails e prova a "
+"eliminare la Memoria Persistente senza sbloccarla."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/configuration/binding.py:406
 #, python-brace-format
@@ -1886,6 +1911,9 @@ msgid ""
 "Can't unmount target {target}, some process is still using it. Please close "
 "all applications that could be accessing the target and try again."
 msgstr ""
+"Impossibile smontare il target {target}, un processo lo sta ancora "
+"utilizzando. Per favore, chiudi tutte le applicazioni che potrebbero "
+"accedervi e prova nuovamente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
@@ -1893,59 +1921,53 @@ msgstr ""
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:181
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:378
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:25
-#, fuzzy
 msgid "Persistent Storage"
-msgstr "Crea archiviazione persistente"
+msgstr "Memoria Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:46
-#, fuzzy
 msgid "Failed to start the Persistent Storage service"
-msgstr "Impossibile configurare l'archiviazione persistente"
+msgstr "Impossibile avviare il servizio Memoria Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
 msgid "Could not find the WhisperBack application"
-msgstr ""
+msgstr "Impossibile trovare l'applicazione WhisperBack"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:82
-#, fuzzy
 msgid "Delete Data…"
-msgstr "Rimuovi"
+msgstr "Elimina Dati…"
 
 #. Translators: Don't translate {feature}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:88
 #, python-brace-format
 msgid "Delete {feature} data"
-msgstr ""
+msgstr "Elimina dati {feature}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:107
-#, fuzzy
 msgid "Activation failed"
-msgstr "Dotfiles"
+msgstr "Attivazione fallita"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:163
 msgid "Activation failed. Try again or delete data."
-msgstr ""
+msgstr "Attivazione fallita. Prova nuovamente o elimina i dati."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:165
 msgid "Activation failed. Try again."
-msgstr ""
+msgstr "Attivazione fallita. Prova nuovamente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:167
 msgid "The data of this feature is still saved."
-msgstr ""
+msgstr "I dati di questa funzione sono ancora salvati."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:268
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:273
-#, fuzzy
 msgid "Error activating feature {}"
-msgstr "Crea archiviazione persistente"
+msgstr "Errore nell'attivazione della funzione {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:311
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:316
-#, fuzzy
 msgid "Error deactivating feature {}"
-msgstr "Crea archiviazione persistente"
+msgstr "Errore nel disattivare la funzione {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:335
 msgid ""
@@ -1954,148 +1976,148 @@ msgid ""
 "\n"
 "If you cancel, the data will be restored when you turn this feature on again."
 msgstr ""
+"Eliminare tutti i dati della funzione {} che sono salvati nella Memoria "
+"Persistente?\n"
+"\n"
+"Se annulli, i dati saranno ripristinati quando riattivi questa funzione."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
-#, fuzzy
 msgid "_Delete Data"
-msgstr "Rimuovi"
+msgstr "_Elimina Dati"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:373
 msgid "Error deleting data of feature {}"
-msgstr ""
+msgstr "Errore nell'eliminazione dei dati della funzione {}"
 
 #. Translators: Don't translate {applications}, it's a placeholder
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:457
 #, python-brace-format
 msgid "Close {applications} to continue"
-msgstr ""
+msgstr "Chiudi {applications} per continuare"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:458
 msgid " and "
-msgstr ""
+msgstr " e "
 
 #. Translators: Don't translate {app} and {pid}, they
 #. are placeholders.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:469
 #, python-brace-format
 msgid "{app} (PID: {pid})"
-msgstr ""
+msgstr "{app} (PID: {pid})"
 
 #. Translators: Don't translate {app} and {pids}, they
 #. are placeholders.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:474
 #, python-brace-format
 msgid "{app} (PIDs: {pids})"
-msgstr ""
+msgstr "{app} (PIDs: {pids})"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:36
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:8
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:56
-#, fuzzy
 msgid "Change Passphrase"
 msgstr "Mostra passphrase"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:85
-#, fuzzy
 msgid "The current passphrase is incorrect"
 msgstr "La frase segreta non corrisponde"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:94
-#, fuzzy
 msgid "Changing the passphrase failed"
 msgstr "Mostra passphrase"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:41
 msgid "Weak"
-msgstr ""
+msgstr "Debole"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:44
 msgid "Fair"
-msgstr ""
+msgstr "Accettabile"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:47
 msgid "Good"
-msgstr ""
+msgstr "Buona"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:50
 msgid "Strong"
-msgstr ""
+msgstr "Forte"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:36
 msgid "You can send an error report to help solve the issue."
 msgstr ""
+"Puoi inviare un rapporto di errore per aiutare a risolvere il problema."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
-#, fuzzy
 msgid "_Send Error Report"
-msgstr "WhisperBack Error Reporting"
+msgstr "_Invia Rapporto di Errore"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:144
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:175
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:36
-#, fuzzy
 msgid "Delete Persistent Storage"
-msgstr "Crea archiviazione persistente"
+msgstr "Elimina Memoria Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:146
 msgid ""
 "Are you sure that you want to delete your Persistent Storage? This action "
 "cannot be undone."
 msgstr ""
+"Sei sicuro di voler eliminare la tua Memoria Persistente? Questa azione non "
+"può essere annullata."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:149
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:304
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:121
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:219
-#, fuzzy
 msgid "_Cancel"
-msgstr "Annulla"
+msgstr "_Annulla"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:150
-#, fuzzy
 msgid "_Delete Persistent Storage"
-msgstr "Crea archiviazione persistente"
+msgstr "_Elimina Memoria Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "Crea archiviazione persistente"
+msgstr "Eliminazione della Memoria Persistente in corso..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
 "To delete the Persistent Storage, restart Tails without unlocking the "
 "Persistent Storage and open the Persistent Storage settings again."
 msgstr ""
+"Per eliminare la Memoria Persistente, riavvia Tails senza sbloccare la "
+"Memoria Persistente e apri nuovamente le impostazioni della Memoria "
+"Persistente."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:181
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:189
 msgid ""
 "Sorry, you can't close this app until the ongoing operation has completed."
 msgstr ""
+"Spiacenti, non puoi chiudere questa applicazione finché l'operazione in "
+"corso non è completata."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
 msgid "Please wait"
-msgstr ""
+msgstr "Attendi per favore"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:216
-#, fuzzy
 msgid "Not enough memory to create Persistent Storage"
-msgstr "Crea archiviazione persistente"
+msgstr "Memoria insufficiente per creare la Memoria Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:221
-#, fuzzy
 msgid "Failed to create Persistent Storage"
-msgstr "Impossibile configurare l'archiviazione persistente"
+msgstr "Impossibile creare la Memoria Persistente"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:240
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:245
-#, fuzzy
 msgid "Error deleting Persistent Storage"
-msgstr "_Volume persistente cifrato"
+msgstr "Errore nell'eliminazione della Memoria Persistente"
 
 #. Translators: Don't translate {volume_label} or {volume_size},
 #. they are placeholders and will be replaced. They need
@@ -2250,7 +2272,7 @@ msgstr "Non un contenitore VeraCrypt"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:161
 #, python-format
 msgid "The file %s does not seem to be a VeraCrypt container."
-msgstr "Il file %s non sembra essere un container VeraCrypt"
+msgstr "Il file %s non sembra essere un container VeraCrypt."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:163
 msgid "Failed to add container"
@@ -2273,17 +2295,21 @@ msgstr "Scegli contenitore di file"
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "The Unsafe Browser was disabled in the Welcome Screen.\\n\\n"
 msgstr ""
+"Il Browser Non Sicuro è stato disabilitato nella Schermata di Benvenuto."
+"\\n\\n"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
 msgid ""
 "To use the Unsafe Browser, restart Tails and make sure that the Unsafe "
 "Browser is enabled in the additional settings of the Welcome Screen."
 msgstr ""
+"Per utilizzare il Browser Non Sicuro, riavvia Tails e assicurati che il "
+"Browser Non Sicuro sia abilitato nelle impostazioni aggiuntive della "
+"Schermata di Benvenuto."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:53
-#, fuzzy
 msgid "To use the Unsafe Browser, restart Tails."
-msgstr "Disattiva il browser non sicuro (predefinito)"
+msgstr "Per utilizzare il Browser Non Sicuro, riavvia Tails."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:56
 msgid "_Restart"
@@ -2444,7 +2470,7 @@ msgstr "Un errore è avvenuto durante la cifratura."
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:252
 #, python-format
 msgid "Unable to save %s."
-msgstr "Impossibile salvare %s"
+msgstr "Impossibile salvare %s."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:275
 #, python-format
@@ -2498,7 +2524,7 @@ msgstr "Questo non sembra essere un URL valido o una chiave OpenPGP."
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:60
 #, python-format
 msgid "Invalid contact email: %s"
-msgstr "Mail %s del contatto non valida."
+msgstr "Mail %s del contatto non valida"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:79
 #, python-format
@@ -2557,14 +2583,15 @@ msgid "Learn more about Tails"
 msgstr "Maggiori informazioni su Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:1
-#, fuzzy
 msgid "Back Up Persistent Storage"
-msgstr "Crea archiviazione persistente"
+msgstr "Effettua il backup della Memoria Persistente"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
 msgid ""
 "Make a backup of the Tails Persistent Storage to another Tails USB stick"
 msgstr ""
+"Esegui il Backup della Memoria Persistente di Tails su un'altro dispositivo "
+"USB Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:2
 msgid "Install, clone, upgrade Tails"
@@ -2603,18 +2630,16 @@ msgstr ""
 "persistente all'avvio di Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:1
-#, fuzzy
 msgid "WhisperBack Error Reporting"
-msgstr "WhisperBack Error Reporting"
+msgstr "Segnalazione errori di WhisperBack"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:2
 msgid "Send feedback via encrypted e-mail"
-msgstr "Invia un feedback attraverso una e-mail criptata."
+msgstr "Invia un feedback attraverso una e-mail cifrata"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:3
-#, fuzzy
 msgid "feedback;bug;report;tails;error;"
-msgstr "feedback;bug;report;tails;error;"
+msgstr "feedback;bug;report;tails;errore;"
 
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
 msgid "Tails specific tools"
@@ -2728,7 +2753,6 @@ msgstr ""
 "maggiore sicurezza."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:528
-#, fuzzy
 msgid ""
 "The Unsafe Browser allows you to sign in to a network using a captive "
 "portal.\n"
@@ -2744,23 +2768,26 @@ msgid ""
 "2022), after we fixed the security vulnerabilities that made us disable it "
 "by default in Tails 4.8 (June 2020)."
 msgstr ""
-"Il browser non sicuro ti permette di accedere ad una rete che richiede un "
-"captive portal.\n"
+"Il Browser Non Sicuro ti consente di accedere a una rete utilizzando un "
+"portale catturato.\n"
 "\n"
-"Un captive portal è una pagina web che viene mostrata prima dell'accesso a "
-"internet. I captive portal di solito richiedono di accedere alla rete o di "
-"inserire informazioni come l'indirizzo email.\n"
+"Un portale catturato è una pagina web che viene visualizzata prima di poter "
+"accedere a Internet. I portali catturati di solito richiedono di effettuare "
+"l'accesso alla rete o di inserire informazioni come un indirizzo email.\n"
 "\n"
-"Il browser non sicuro non è anonimo e può svelare la tua identità. Usalo "
-"solo per accedere alle reti."
+"Il Browser Non Sicuro non è anonimo e può deanonymizzarti. Usalo solo per "
+"accedere alle reti.\n"
+"\n"
+"Il Browser Non Sicuro è abilitato per impostazione predefinita a partire da "
+"Tails 5.8 (dicembre 2022), dopo aver risolto le vulnerabilità di sicurezza "
+"che ci avevano portato a disabilitarlo per impostazione predefinita in Tails "
+"4.8 (giugno 2020)."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:576
-#, fuzzy
 msgid "Enable the Unsafe Browser (default)"
 msgstr "Disattiva il browser non sicuro (predefinito)"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:622
-#, fuzzy
 msgid "Disable the Unsafe Browser"
 msgstr "Attiva il browser non sicuro"
 
@@ -2778,13 +2805,15 @@ msgid ""
 "Storage on your Tails USB stick: your documents, browser bookmarks, Wi-Fi "
 "passwords, and so on."
 msgstr ""
+"Puoi salvare alcuni dei tuoi file e configurazioni in una Memoria "
+"Persistente cifrata sulla tua chiavetta USB di Tails: i tuoi documenti, "
+"segnalibri del browser, password Wi-Fi e così via."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:225
-#, fuzzy
 msgid "Create and configure a Persistent Storage after starting Tails"
 msgstr ""
 "Per installarlo automaticamente dalla tua archiviazione persistente "
-"all'avvio di Tails."
+"all'avvio di Tails"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:279
 msgid "Language & Region"
@@ -2799,12 +2828,10 @@ msgid "Show Passphrase"
 msgstr "Mostra passphrase"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:470
-#, fuzzy
 msgid "_Passphrase"
-msgstr "Frase segreta:"
+msgstr "_Frase segreta"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:546
-#, fuzzy
 msgid ""
 "Your Persistent Storage is unlocked. Its content will be available until you "
 "shut down Tails."
@@ -2835,48 +2862,42 @@ msgid "_Start Tails"
 msgstr "_Avvia Tails"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:95
-#, fuzzy
 msgid "Current _Passphrase"
-msgstr "Frase segreta:"
+msgstr "_Frase segreta corrente"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:131
-#, fuzzy
 msgid "_New Passphrase"
-msgstr "Mostra passphrase"
+msgstr "_Nuova passphrase"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:179
-#, fuzzy
 msgid "_Confirm New Passphrase"
-msgstr "Mostra passphrase"
+msgstr "_Conferma nuova passphrase"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:215
-#, fuzzy
 msgid "_Show Passphrases"
-msgstr "Mostra passphrase"
+msgstr "_Mostra passphrase"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:253
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:301
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:161
-#, fuzzy
 msgid "The passphrases do not match"
 msgstr "La frase segreta non corrisponde"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:317
 msgid "Ch_ange"
-msgstr ""
+msgstr "_Cambia"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/deleted_view.ui.in:21
-#, fuzzy
 msgid "The Persistent Storage was successfully deleted."
-msgstr "Elimina archiviazione persistente e reinstalla"
+msgstr "L'archiviazione persistente è stata eliminata con successo."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/deleted_view.ui.in:32
 msgid "_Close"
-msgstr ""
+msgstr "_Chiudi"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:30
 msgid "Oh no! Something has gone wrong."
-msgstr ""
+msgstr "Oh no! Qualcosa è andato storto."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:45
 msgid ""
@@ -2885,11 +2906,14 @@ msgid ""
 "You can send an error report or check the output of the following commands "
 "to investigate:"
 msgstr ""
+"Il servizio Memoria Persistente è stato chiuso in modo imprevisto.\n"
+"\n"
+"Puoi inviare un rapporto di errore o controllare l'output dei seguenti "
+"comandi per indagare:"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:74
-#, fuzzy
 msgid "Send Error Report"
-msgstr "WhisperBack Error Reporting"
+msgstr "Invia un rapporto di errore"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:61
 msgid ""
@@ -2900,65 +2924,64 @@ msgid ""
 "<a href=\"doc/persistent_storage/backup\">Learn how to make a backup of your "
 "Persistent Storage.</a>"
 msgstr ""
+"La tua Memoria Persistente è sbloccata._x000D_\n"
+"_x000D_\n"
+"I suoi contenuti sono disponibili fino a quando non spegni Tails._x000D_\n"
+"_x000D_\n"
+"<a href=\"doc/persistent_storage/backup\">Scopri come effettuare il backup "
+"della tua Memoria Persistente.</a>"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:89
 msgid ""
 "Turn on the features of the Persistent Storage for the data that you want to "
 "save to your Tails USB stick."
 msgstr ""
+"Attiva le funzionalità della Memoria Persistente per i dati che desideri "
+"salvare sulla tua chiavetta USB di Tails."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:106
-#, fuzzy
 msgid "Personal Documents"
-msgstr "Dati personali"
+msgstr "Documenti Personali"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:134
-#, fuzzy
 msgid "Persistent Folder"
-msgstr "Elimina volume persistente"
+msgstr "Cartella Persistente"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:135
 msgid "A folder where you can save your documents."
-msgstr ""
+msgstr "Una cartella dove puoi salvare i tuoi documenti."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:160
-#, fuzzy
 msgid "Open Persistent Folder"
-msgstr "Elimina volume persistente"
+msgstr "Apri la Cartella Persistente"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:173
-#, fuzzy
 msgid "Activate Persistent Folder"
-msgstr "Crea archiviazione persistente"
+msgstr "Attiva la Cartella Persistente"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:200
-#, fuzzy
 msgid "System Settings"
-msgstr "Impostazioni predefinite"
+msgstr "Impostazioni di Sistema"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:228
-#, fuzzy
 msgid "Welcome Screen"
-msgstr "Schermata di benvenuto"
+msgstr "Schermata di Benvenuto"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:244
-#, fuzzy
 msgid "Activate Welcome Screen"
-msgstr "Schermata di benvenuto"
+msgstr "Attiva la Schermata di Benvenuto"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:257
-#, fuzzy
 msgid "Printers"
 msgstr "Stampanti"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:273
-#, fuzzy
 msgid "Activate Printers"
-msgstr "Stampanti"
+msgstr "Attiva le Stampanti"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:300
 msgid "Network"
-msgstr ""
+msgstr "Rete"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:328
 msgid "Network Connections"
@@ -2966,121 +2989,105 @@ msgstr "Connessioni di rete"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:329
 msgid "Save Wi-Fi passwords and mobile broadband configuration."
-msgstr ""
+msgstr "Salva le password Wi-Fi e la configurazione della banda larga mobile."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:345
-#, fuzzy
 msgid "Activate Network Connections"
-msgstr "Connessioni di rete"
+msgstr "Attiva le Connessioni di Rete"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:358
 msgid "Tor Bridge"
 msgstr "Bridge di Tor"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:374
-#, fuzzy
 msgid "Activate Tor Bridge"
-msgstr "Bridge di Tor"
+msgstr "Attiva il Bridge di Tor"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:401
 msgid "Applications"
-msgstr ""
+msgstr "Applicazioni"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:429
-#, fuzzy
 msgid "Tor Browser Bookmarks"
-msgstr "Segnalibri del browser"
+msgstr "Segnalibri del Browser Tor"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:445
-#, fuzzy
 msgid "Activate Tor Browser Bookmarks"
-msgstr "Segnalibri del browser"
+msgstr "Attiva i Segnalibri del Browser Tor"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:458
-#, fuzzy
 msgid "Electrum Bitcoin Wallet"
-msgstr "Configurazione e portafoglio bitcoin di Electrum"
+msgstr "Portafoglio Bitcoin Electrum"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:474
-#, fuzzy
 msgid "Activate Electrum Bitcoin Wallet"
-msgstr "Configurazione e portafoglio bitcoin di Electrum"
+msgstr "Attiva il Portafoglio Bitcoin Electrum"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:487
-#, fuzzy
 msgid "Thunderbird Email Client"
-msgstr "Thunderbird"
+msgstr "Client di Posta Thunderbird"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:503
 msgid "Activate Thunderbird Email Client"
-msgstr ""
+msgstr "Attiva il Client di Posta Thunderbird"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:516
 msgid "GnuPG"
 msgstr "GnuPG"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:517
-#, fuzzy
 msgid "OpenPGP keys outside of Thunderbird, including in Kleopatra."
-msgstr "Chiavi OpenPGP in GnuPG e Kleopatra"
+msgstr "Chiavi OpenPGP al di fuori di Thunderbird, incluso in Kleopatra."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:533
 msgid "Activate GnuPG"
-msgstr ""
+msgstr "Attiva GnuPG"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:546
 msgid "Pidgin Internet Messenger"
-msgstr ""
+msgstr "Messenger Internet Pidgin"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:562
 msgid "Activate Pidgin Internet Messenger"
-msgstr ""
+msgstr "Attiva il Messenger Internet Pidgin"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:575
 msgid "SSH Client"
 msgstr "Client SSH"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:591
-#, fuzzy
 msgid "Activate SSH Client"
-msgstr "Client SSH"
+msgstr "Attiva il Client SSH"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:618
-#, fuzzy
 msgid "Advanced Settings"
-msgstr "Impostazioni aggiuntive"
+msgstr "Impostazioni Avanzate"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:647
-#, fuzzy
 msgid "Install additional software automatically when starting Tails."
-msgstr ""
-"Puoi installare software aggiuntivo automaticamente dalla tua archiviazione "
-"persistente all'avvio di Tails."
+msgstr "Installa automaticamente software aggiuntivo all'avvio di Tails."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:672
-#, fuzzy
 msgid "Configure Additional Software"
-msgstr "Software aggiuntivo"
+msgstr "Configura Software Aggiuntivo"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:685
-#, fuzzy
 msgid "Activate Additional Software"
-msgstr "Software aggiuntivo"
+msgstr "Attiva il Software Aggiuntivo"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:698
-#, fuzzy
 msgid "Dotfiles"
-msgstr "Dotfiles"
+msgstr "File di Configurazione"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:699
-#, fuzzy
 msgid "Symlink every file in the Dotfiles folder into the Home folder."
-msgstr "Crea symlink per ogni file nella cartella Dotfiles nella Home"
+msgstr ""
+"Crea collegamenti simbolici per ogni file nella cartella dei File di "
+"Configurazione nella cartella Home."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:732
-#, fuzzy
 msgid "Activate Dotfiles"
-msgstr "Dotfiles"
+msgstr "Attiva i File di Configurazione"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:764
 msgid "Custom"
@@ -3091,15 +3098,16 @@ msgid ""
 "To add or remove custom features, modify /live/persistence/"
 "TailsData_unlocked/persistence.conf."
 msgstr ""
+"Per aggiungere o rimuovere funzionalità personalizzate, modifica /live/"
+"persistence/TailsData_unlocked/persistence.conf."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:825
-#, fuzzy
 msgid ""
 "<a href=\"doc/persistent_storage\">Learn more about the Persistent Storage.</"
 "a>"
 msgstr ""
-"Per salvare il bridge, <a href=\"doc/first_steps/persistence\">sblocca la "
-"tua archiviazione persistente</a>."
+"<a href=\"doc/persistent_storage\">Scopri di più sulla Memoria Persistente.</"
+"a>"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/locked_view.ui.in:52
 msgid ""
@@ -3111,20 +3119,29 @@ msgid ""
 "To delete your Persistent Storage, click <b>Delete</b> on the right of the "
 "title bar."
 msgstr ""
+"<b>La tua Memoria Persistente è bloccata.</b>\n"
+"\n"
+"Per usare o configurare la tua Memoria Persistente, sbloccala nella "
+"Schermata di Benvenuto all'avvio di Tails.\n"
+"\n"
+"Per eliminare la tua Memoria Persistente, clicca su <b>Elimina</b> sulla "
+"destra della barra del titolo."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:62
 msgid ""
 "Choose the passphrase that you will use to unlock the encryption of your "
 "Persistent Storage and all its data."
 msgstr ""
+"Scegli la passphrase che utilizzerai per sbloccare la cifratura della tua "
+"Memoria Persistente e tutti i suoi dati."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:82
 msgid "We recommend a long passphrase of 5 to 7 random words."
-msgstr ""
+msgstr "Consigliamo una passphrase lunga di 5-7 parole casuali."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:94
 msgid " For example:"
-msgstr ""
+msgstr " Per esempio:"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:186
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:46
@@ -3133,25 +3150,21 @@ msgstr "Frase segreta:"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:205
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:65
-#, fuzzy
 msgid "Confirm:"
-msgstr "Conferma"
+msgstr "Conferma:"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:325
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:185
-#, fuzzy
 msgid "_Show Passphrase"
-msgstr "Mostra passphrase"
+msgstr "_Mostra passphrase"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:375
-#, fuzzy
 msgid "_Back"
-msgstr "Indietro"
+msgstr "_Indietro"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:391
-#, fuzzy
 msgid "_Create Persistent Storage"
-msgstr "Crea archiviazione persistente"
+msgstr "_Crea archiviazione persistente"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:56
 msgid ""
@@ -3168,6 +3181,18 @@ msgid ""
 "<a href=\"doc/persistent_storage\">Learn more about the Persistent Storage.</"
 "a>"
 msgstr ""
+"Tutto ciò che fai scompare automaticamente quando spegni Tails._x000D_\n"
+"_x000D_\n"
+"Ma puoi salvare alcuni dei tuoi file e configurazioni in una Memoria "
+"Persistente cifrata sulla tua chiavetta USB di Tails, ad esempio:_x000D_\n"
+"_x000D_\n"
+"• I tuoi documenti_x000D_\n"
+"• Le password del Wi-Fi_x000D_\n"
+"• I segnalibri del tuo browser_x000D_\n"
+"• ..._x000D_\n"
+"_x000D_\n"
+"<a href=\"doc/persistent_storage\">Scopri di più sulla Memoria Persistente.</"
+"a>"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:92
 msgid ""
@@ -3176,26 +3201,29 @@ msgid ""
 "To be able to use Tails with a Persistent Storage, please follow our "
 "instructions on <a href=\"install\">installing Tails on a USB stick</a>."
 msgstr ""
+"Mi dispiace, è impossibile creare una Memoria Persistente su questo "
+"dispositivo.\n"
+"\n"
+"Per poter utilizzare Tails con una Memoria Persistente, segui le nostre "
+"istruzioni su <a href=\"install\">come installare Tails su una chiavetta "
+"USB</a>."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:137
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:232
 msgid "Co_ntinue"
-msgstr ""
+msgstr "_Continua"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:29
-#, fuzzy
 msgid "_Delete…"
-msgstr "Rimuovi"
+msgstr "_Elimina…"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:49
-#, fuzzy
 msgid "_Change Passphrase…"
-msgstr "Mostra passphrase"
+msgstr "_Cambia Passphrase…"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:66
-#, fuzzy
 msgid "_Restart Tails"
-msgstr "Riavvia Tails"
+msgstr "_Riavvia Tails"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:61
 msgid "File Containers"
@@ -3238,14 +3266,12 @@ msgid "Detach this volume"
 msgstr "Rimuovi questo volume"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:8
-#, fuzzy
 msgid "Choose Passphrase"
-msgstr "Mostra passphrase"
+msgstr "Scegli la Passphrase"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:30
-#, fuzzy
 msgid "Choose the passphrase for the cloned Persistent Storage."
-msgstr "Scegliere una frase segreta per proteggere il volume persistente"
+msgstr "Scegli la passphrase per la Memoria Persistente clonata."
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:281
 msgid "Target USB stick:"
@@ -3299,9 +3325,9 @@ msgid ""
 "If you want us to encrypt messages when we respond to you, add your key ID, "
 "a link to your key, or the key as a public key block:"
 msgstr ""
-"Per avere in risposta dei messaggi crittografati, aggiungere l'ID della "
-"propria chiave, un link alla propria chiave, oppure la chiave come blocco "
-"chiave pubblica."
+"Se volete che i messaggi vengano crittografati quando vi rispondiamo, "
+"aggiungete il vostro ID chiave, un link alla vostra chiave o la chiave come "
+"blocco di chiave pubblica:"
 
 #: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:308
 msgid "Summary"
@@ -3373,9 +3399,8 @@ msgstr ""
 "Tor</a>"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:157
-#, fuzzy
 msgid "Use a _default bridge"
-msgstr "Usa un bridge predefinito"
+msgstr "Utilizza un _bridge predefinito"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:180
 msgid "obfs4 (recommended)"
@@ -3391,47 +3416,40 @@ msgid "None"
 msgstr "Nessuno"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:240
-#, fuzzy
 msgid "_Ask for a Tor bridge by email"
-msgstr "• Ricevi bridge tramite email"
+msgstr "_Richiedi un bridge Tor tramite email"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:259
-#, fuzzy
 msgid ""
 "Send an empty email to <tt>bridges@torproject.org</tt> from a Gmail or "
 "Riseup email address with your phone and scan the QR code that is attached "
 "to the automatic reply."
 msgstr ""
-"Per richiedere un bridge, puoi inviare un'email vuota a\n"
-"<tt>bridges@torproject.org</tt> da un indirizzo Gmail o Riseup.\n"
-"\n"
-"Ad esempio, puoi inviare l'email dal telefono e digitare il bridge in "
-"Tails.\n"
+"Invia una email vuota a <tt>bridges@torproject.org</tt> da un indirizzo "
+"email Gmail o Riseup dal tuo telefono e scannerizza il codice QR allegato "
+"alla risposta automatica."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:272
 msgid "Scan _QR code"
-msgstr ""
+msgstr "Scansiona _QR code"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:373
-#, fuzzy
 msgid "_Enter a bridge that you already know"
-msgstr "Inserisci un bridge che conosci già"
+msgstr "_Inserisci un bridge che conosci già"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:399
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1040
-#, fuzzy
 msgid "Bridge"
-msgstr "Bridge di Tor"
+msgstr "Bridge"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:412
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1053
 msgid "obfs4 ..."
-msgstr ""
+msgstr "obfs4 ..."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:485
-#, fuzzy
 msgid "Save bridge to _Persistent Storage"
-msgstr "Salva il bridge nell'archiviazione persistente"
+msgstr "Salva bridge nella Memoria _Persistente"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:510
 msgid "Save bridge to Persistent Storage"
@@ -3457,9 +3475,8 @@ msgstr ""
 "Il tuo orologio e fuso orario devono essere giusti per connetterti a Tor."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:769
-#, fuzzy
 msgid "Fix _Clock"
-msgstr "Regola l'orologio"
+msgstr "Risolvere _Ora"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:807
 msgid "• Public network"
@@ -3474,9 +3491,8 @@ msgstr ""
 "eseguire l'accesso alla rete locale usando un browser non sicuro."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:840
-#, fuzzy
 msgid "Try _Signing in to the Network"
-msgstr "Prova ad accedere alla rete"
+msgstr "Prova a _Accedere alla Rete"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:879
 msgid "• Local proxy"
@@ -3495,40 +3511,32 @@ msgid "Configure a Local _Proxy"
 msgstr "Configura un _proxy locale"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:951
-#, fuzzy
 msgid "• Tor bridge by email"
-msgstr "• Ricevi bridge tramite email"
+msgstr "• Bridge Tor tramite email"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:971
-#, fuzzy
 msgid ""
 "Tor bridges are secret Tor relays. Use a bridge as your first Tor relay if "
 "connections to Tor are blocked, for example in some countries, by some "
 "public networks, or by some parental controls."
 msgstr ""
-"I bridge di Tor sono relay segreti di Tor. Usa un bridge come tuo primo "
-"relay se le connessoini a Tor vengono bloccate, ad esempio in alcune "
-"nazioni, in alcune reti pubbliche o da qualche controllo genitori.\n"
-"\n"
-"Scegli questa opzione se sai già che ti serve un bridge. Altrimenti, Tails "
-"autorileverà se te ne serve uno per connetterti a Tor dalla tua rete locale."
+"I ponti di Tor sono relay Tor segreti. Usa un ponte come tuo primo relay Tor "
+"se le connessioni a Tor sono bloccate, ad esempio in alcuni paesi, da alcune "
+"reti pubbliche o dai controlli parentali."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:991
-#, fuzzy
 msgid ""
 "To get a bridge, send an empty email to <tt>bridges@torproject.org</tt> from "
 "a Gmail or Riseup email address with your phone and scan the QR code that is "
 "attached to the automatic reply."
 msgstr ""
-"Per richiedere un bridge, puoi inviare un'email vuota a\n"
-"<tt>bridges@torproject.org</tt> da un indirizzo Gmail o Riseup.\n"
-"\n"
-"Ad esempio, puoi inviare l'email dal telefono e digitare il bridge in "
-"Tails.\n"
+"Per ottenere un ponte, invia un'email vuota a <tt>bridges@torproject.org</"
+"tt> da un indirizzo email Gmail o Riseup con il tuo telefono e scansiona il "
+"codice QR allegato alla risposta automatica."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1014
 msgid "Scan QR Code"
-msgstr ""
+msgstr "Scansiona QR code"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1145
 msgid ""
@@ -3615,7 +3623,6 @@ msgstr ""
 "parte di qualcuno che monitora la tua connessione internet."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1499
-#, fuzzy
 msgid ""
 "Tails will only connect to Tor after you configured a Tor bridge. Bridges "
 "are secret Tor relays that hide that you are connecting to Tor.\n"
@@ -3663,7 +3670,7 @@ msgstr "Apri impostazioni Wi-Fi"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1707
 msgid "Testing Internet access…"
-msgstr "Test di accesso a internet..."
+msgstr "Test di accesso a internet…"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1747
 msgid "You have access to the Internet"
@@ -3671,7 +3678,7 @@ msgstr "Hai accesso ad internet"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1781
 msgid "Testing access to Tor…"
-msgstr "Test di accesso a Tor..."
+msgstr "Test di accesso a Tor…"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1824
 msgid "You can connect to Tor"
@@ -3682,13 +3689,12 @@ msgid "Failed to connect to Tor without bridges."
 msgstr "Connessione a Tor senza l'utilizzo di bridge fallita."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1870
-#, fuzzy
 msgid "This local network is blocking access to Tor."
 msgstr "La tua rete locale sta bloccando l'accesso a Tor."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1902
 msgid "Connecting to Tor…"
-msgstr "Connessione a Tor..."
+msgstr "Connessione a Tor…"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2007
 msgid "Start Tor Browser"
@@ -3735,9 +3741,8 @@ msgid "Address"
 msgstr "Indirizzo"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2175
-#, fuzzy
 msgid "Username"
-msgstr "Username"
+msgstr "Nome utente"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2192
 msgid "IP address or hostname"

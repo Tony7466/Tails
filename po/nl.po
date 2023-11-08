@@ -42,8 +42,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-07-21 16:06+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-10-18 04:12+0000\n"
+"Last-Translator: LH <gewerkt04_beenmerg@icloud.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/tor/tails-gui/nl/"
 ">\n"
 "Language: nl\n"
@@ -51,7 +51,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.1\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -821,25 +821,25 @@ msgstr ""
 "Wil je echt Tails starten zonder je Persistent Storage te ontgrendelen?"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:162
-#, fuzzy
 msgid "Start Without Persistent Storage"
-msgstr "Doorgaan zonder Persistent Storage"
+msgstr "Start op zonder Persistent Storage"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:101
 msgid "Error unlocking Persistent Storage: {}"
 msgstr "Fout bij ontgrendelen Persistent Storage: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
-#, fuzzy
 msgid "Error upgrading Persistent Storage: {}"
-msgstr "Fout bij ontgrendelen Persistent Storage: {}"
+msgstr "Fout bij het upgraden Persistent Storage: {}"
 
 #. Translators: Don't translate {features}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
-msgstr "Mislukt om permanente opslag te configureren"
+msgstr ""
+"Mislukt om sommige functies van de permanente opslag te activeren: "
+"{features}."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
 msgid "Error activating Persistent Storage: {}"
@@ -861,12 +861,11 @@ msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Kan versleutelde opslag niet ontgrendelen met deze wachtwoordzin."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:122
-#, fuzzy
 msgid ""
 "Failed to upgrade the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
-"Permanent Storage is niet geactiveerd. Start Tails en stuur een foutrapport."
+"Permanent Storage is niet geupgrade. Start Tails en stuur een foutrapport."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:127
 msgid ""
@@ -888,11 +887,9 @@ msgid "Upgrading the Persistent Storage. This may take a while…"
 msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:154
-#, fuzzy
 msgid "Start Tails and open the Persistent Storage settings to find out more."
 msgstr ""
-"Het ontgrendelen van de Permanent Storage is mislukt. Start Tails en stuur "
-"een foutenrapport."
+"Start Tails op en open de Persisten Opslag instelling voor meer informatie."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:190
 msgid "_Language"
@@ -1063,9 +1060,8 @@ msgid "Removing %(file)s"
 msgstr "%(file)s verwijderen"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:964
-#, fuzzy
 msgid "Cloning Persistent Storage..."
-msgstr "Persistente Opslag"
+msgstr "Persistente Opslag klonen..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1032
 #, python-format
@@ -1178,9 +1174,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
-#, fuzzy
 msgid "Clone the current Persistent Storage"
-msgstr "Doorgaan zonder Persistent Storage"
+msgstr "Kloon de huidige Persistent Storage"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:493
 msgid ""
@@ -1834,9 +1829,8 @@ msgid ""
 msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
-#, fuzzy
 msgid "Creating a partition for the Persistent Storage..."
-msgstr "Rechten van het permanente volume corrigeren."
+msgstr "Creëer een volume voor de Persistente Opslag..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
 msgid ""
@@ -1849,19 +1843,16 @@ msgid "Unlocking the encryption..."
 msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
-#, fuzzy
 msgid "Formatting the file system..."
-msgstr "Bestandssysteem verifiëren..."
+msgstr "Bestandssysteem wordt geformatteerd..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:392
-#, fuzzy
 msgid "Activating the Persistent Storage..."
-msgstr "Fout bij activeren Persistent Storage: {}"
+msgstr "Persistent Storage wordt geactiveerd..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
-#, fuzzy
 msgid "Finishing setting up the Persistent Storage..."
-msgstr "Doorgaan zonder Persistent Storage"
+msgstr "Het opzetten van de Persistente Opslag voltooien..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
@@ -1897,9 +1888,8 @@ msgid "Could not find the WhisperBack application"
 msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:82
-#, fuzzy
 msgid "Delete Data…"
-msgstr "Verwijderen"
+msgstr "Verwijderen…"
 
 #. Translators: Don't translate {feature}, it's a placeholder
 #. and will be replaced.
@@ -1946,9 +1936,8 @@ msgid ""
 msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
-#, fuzzy
 msgid "_Delete Data"
-msgstr "Verwijderen"
+msgstr "_Verwijder Data"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:373
 msgid "Error deleting data of feature {}"
@@ -2015,9 +2004,8 @@ msgid "You can send an error report to help solve the issue."
 msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
-#, fuzzy
 msgid "_Send Error Report"
-msgstr "Stuur Foutrapport"
+msgstr "_Stuur Foutrapport"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:144
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:175
@@ -2040,14 +2028,12 @@ msgid "_Cancel"
 msgstr "_Annuleren"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:150
-#, fuzzy
 msgid "_Delete Persistent Storage"
-msgstr "Verwijder Permanente Opslag"
+msgstr "_Verwijder Permanente Opslag"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "Verwijder Permanente Opslag"
+msgstr "Permanente Opslag wordt verwijderd..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
@@ -2069,9 +2055,8 @@ msgid "Please wait"
 msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:216
-#, fuzzy
 msgid "Not enough memory to create Persistent Storage"
-msgstr "_Maak geen Persistente Opslag"
+msgstr "Niet genoeg geheugen om Persistente Opslag te maken"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:221
 #, fuzzy
@@ -2080,9 +2065,8 @@ msgstr "Mislukt om permanente opslag te configureren"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:240
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:245
-#, fuzzy
 msgid "Error deleting Persistent Storage"
-msgstr "Fout bij ontgrendelen Persistent Storage: {}"
+msgstr "Fout bij ontgrendelen Persistent Storage"
 
 #. Translators: Don't translate {volume_label} or {volume_size},
 #. they are placeholders and will be replaced. They need
@@ -2557,12 +2541,10 @@ msgid "Back Up Persistent Storage"
 msgstr "Persistente Opslag"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
-#, fuzzy
 msgid ""
 "Make a backup of the Tails Persistent Storage to another Tails USB stick"
 msgstr ""
-"Schakel de functies van de Persistente Storage in voor de gegevens die je "
-"wilt opslaan op je Tails-USB-stick."
+"Maak een back-up van de Persistente Storage naar een andere Tails-USB-stick"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:2
 msgid "Install, clone, upgrade Tails"
@@ -2780,10 +2762,8 @@ msgstr ""
 "browserfavorieten, Wi-Fi-wachtwoorden, enzovoort."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:225
-#, fuzzy
 msgid "Create and configure a Persistent Storage after starting Tails"
-msgstr ""
-"Je maakt en configureert je Persistente Opslag als je Tails hebt gestart."
+msgstr "Maak en configureer Persistente Opslag na het starten van Tails"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:279
 msgid "Language & Region"
@@ -2798,9 +2778,8 @@ msgid "Show Passphrase"
 msgstr "Wachtwoordzin tonen"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:470
-#, fuzzy
 msgid "_Passphrase"
-msgstr "Wachtwoordzin:"
+msgstr "_Wachtwoordzin"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:546
 #, fuzzy
@@ -3105,15 +3084,12 @@ msgstr ""
 "rechterkant van de titelbalk."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:62
-#, fuzzy
 msgid ""
 "Choose the passphrase that you will use to unlock the encryption of your "
 "Persistent Storage and all its data."
 msgstr ""
 "Kies de wachtwoordzin die je zal gebruiken om de encryptie van je "
-"Persistente Opslag en al zijn data te ontgrendelen.\n"
-"\n"
-"We raden een lange wachtwoordzin van vijf tot zeven willekeurige woorden aan."
+"Persistente Opslag en al zijn data te ontgrendelen."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:82
 msgid "We recommend a long passphrase of 5 to 7 random words."
@@ -3191,14 +3167,12 @@ msgid "Co_ntinue"
 msgstr "D_oorgaan"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:29
-#, fuzzy
 msgid "_Delete…"
-msgstr "Verwijderen"
+msgstr "_Verwijder…"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:49
-#, fuzzy
 msgid "_Change Passphrase…"
-msgstr "Verander Wachtwoordzin"
+msgstr "_Verander Wachtwoordzin…"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:66
 msgid "_Restart Tails"
@@ -3250,9 +3224,8 @@ msgid "Choose Passphrase"
 msgstr "Verander Wachtwoordzin"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:30
-#, fuzzy
 msgid "Choose the passphrase for the cloned Persistent Storage."
-msgstr "Kies een wachtwoordzin om het permanente volume te beschermen"
+msgstr "Kies een wachtwoordzin voor de gekopieerde Persistente Opslag."
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:281
 msgid "Target USB stick:"
