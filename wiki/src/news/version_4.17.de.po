@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-06 17:12+0000\n"
-"Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
+"PO-Revision-Date: 2023-11-08 14:05+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -49,6 +49,7 @@ msgstr ""
 #, no-wrap
 msgid "<h1 id=\"upgrades\">Reliability improvements to automatic upgrades</h1>\n"
 msgstr ""
+"<h1 id=\"upgrades\">Verbesserte Stabilität von automatischen Updates</h1>\n"
 
 #. type: Plain text
 msgid "- Repair automatically the file system used during upgrades."
