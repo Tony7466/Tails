@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
-"PO-Revision-Date: 2023-11-08 15:56+0000\n"
+"PO-Revision-Date: 2023-11-08 16:09+0000\n"
 "Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -263,15 +263,19 @@ msgid ""
 "becomes impossible for them to reassemble the revocation certificate with "
 "the previous set of shares."
 msgstr ""
+"Fordern Sie alle auf, ihre vorherige Freigabe zu löschen und verfolgen Sie "
+"dies. Sobald jeder in 2 Gruppen B, C oder D seine Freigabe gelöscht hat, "
+"kann er das Widerrufszertifikat nicht mehr mit dem vorherigen Satz von "
+"Freigaben zusammensetzen."
 
 #. type: Bullet: '  - '
 msgid "Let's hope that this doesn't happen very often :)"
-msgstr ""
+msgstr "Hoffen wir, dass dies nicht sehr oft vorkommt :)"
 
 #. type: Title =
 #, no-wrap
 msgid "Expiry"
-msgstr ""
+msgstr "Ablauf"
 
 #. type: Plain text
 msgid ""
