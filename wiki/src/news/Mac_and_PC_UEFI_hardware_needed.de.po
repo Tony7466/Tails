@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2020-04-12 16:10+0200\n"
 "PO-Revision-Date: 2023-11-08 16:11+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: b0r1ngtranslate <bhutan_toiletry@aleeas.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -99,11 +99,11 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "preferably with embedded DVD reader"
-msgstr ""
+msgstr "vorzugsweise mit integriertem DVD-Leser"
 
 #. type: Bullet: '* '
 msgid "preferably 13\""
-msgstr ""
+msgstr "am besten 13\""
 
 #. type: Title -
 #, no-wrap
@@ -118,7 +118,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "well supported by Debian Wheezy"
-msgstr ""
+msgstr "gut unterstützt von Debian Wheezy"
 
 #. type: Bullet: '* '
 msgid "preferably 13\" or less"
@@ -133,6 +133,7 @@ msgstr "Wann und wie viel"
 msgid ""
 "We need this hardware by the end of November but the sooner, the better."
 msgstr ""
+"Wir brauchen diese Hardware bis Ende November, aber je früher, desto besser."
 
 #. type: Plain text
 msgid ""
@@ -148,7 +149,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "Please send offers to <tails@boum.org>."
-msgstr ""
+msgstr "Bitte senden Sie Angebote an <tails@boum.org>."
 
 #. type: Plain text
 msgid "Thanks in advance!"
