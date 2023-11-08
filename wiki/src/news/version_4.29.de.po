@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-06 17:12+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-08 14:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -41,12 +41,12 @@ msgstr "[[!tag announce]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"features\">New features</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"features\">Neue Funktionen</h1>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"changes\">Aktualisierungen und Änderungen</h1>\n"
 
 #. type: Plain text
 msgid ""
