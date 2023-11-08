@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-07-13 12:09+0200\n"
 "PO-Revision-Date: 2023-11-08 16:12+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -123,6 +123,9 @@ msgid ""
 "   The other person can download the files by visiting the onion address\n"
 "   in <span class=\"application\">Tor Browser</span>.\n"
 msgstr ""
+"   Die andere Person kann die Dateien herunterladen, indem sie die Onion-"
+"Adresse im <span\n"
+"   class=\"application\">Tor Browser</span> aufruft.\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -138,6 +141,9 @@ msgid ""
 "   The files are not shared anymore as soon as you close\n"
 "   <span class=\"application\">OnionShare</span> or shut down Tails.\n"
 msgstr ""
+"   Die Dateien werden nicht mehr freigegeben, sobald Sie <span\n"
+"   class=\"application\">OnionShare</span> schließen oder Tails "
+"herunterfahren.\n"
 
 #. type: Plain text
 #, no-wrap
