@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
-"PO-Revision-Date: 2023-11-08 15:06+0000\n"
+"PO-Revision-Date: 2023-11-08 15:46+0000\n"
 "Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -130,6 +130,9 @@ msgid ""
 "The following combinations of people could get together and reassemble their "
 "shares to reconstruct a complete revocation certificate:"
 msgstr ""
+"Die folgenden Personenkombinationen könnten zusammenkommen und ihre Anteile "
+"wieder zusammensetzen, um ein vollständiges Widerrufszertifikat zu "
+"rekonstruieren:"
 
 #. type: Bullet: '  - '
 msgid "Three people from the Board: A{3}"
@@ -153,7 +156,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "We generate these shares:"
-msgstr ""
+msgstr "Wir generieren diese Freigaben:"
 
 #. type: Bullet: '  - '
 msgid "N shares, one for each person from the Board"
@@ -161,15 +164,15 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "1 share for people in group B"
-msgstr ""
+msgstr "1 Freigabe für Personen in Gruppe B"
 
 #. type: Bullet: '  - '
 msgid "1 share for people in group C"
-msgstr ""
+msgstr "1 Freigabe für Personen in Gruppe C"
 
 #. type: Bullet: '  - '
 msgid "1 share for people in group D"
-msgstr ""
+msgstr "1 Feigabe für Personen in Gruppe D"
 
 #. type: Title =
 #, no-wrap
@@ -203,7 +206,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Infrastructure"
-msgstr ""
+msgstr "Infrastruktur"
 
 #. type: Bullet: '  - '
 msgid "Everybody who owns a share is subscribed to a mailing list."
