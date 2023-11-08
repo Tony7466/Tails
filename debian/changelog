@@ -1,12 +1,8 @@
 tails (5.21) UNRELEASED; urgency=medium
 
-  [ intrigeri ]
   * Dummy entry for next release.
 
-  [ boyska ]
-  * Dummy entry for next release.
-
- -- boyska <boyska@riseup.net>  Tue, 03 Oct 2023 12:49:16 +0200
+ -- intrigeri <intrigeri@debian.org>  Tue, 31 Oct 2023 10:55:27 +0000
 
 tails (5.19) unstable; urgency=medium
 
