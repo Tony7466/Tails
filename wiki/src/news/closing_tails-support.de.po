@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-09-18 06:11+0200\n"
 "PO-Revision-Date: 2023-11-08 14:11+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -71,6 +71,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Build a community of people doing user support outside of our team."
 msgstr ""
+"- Aufbau einer Community von Personen, die außerhalb unseres Teams "
+"Benutzerunterstützung leisten."
 
 #. type: Plain text
 #, no-wrap
