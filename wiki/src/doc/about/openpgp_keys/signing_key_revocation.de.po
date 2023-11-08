@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
 "PO-Revision-Date: 2023-11-08 15:56+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -249,11 +249,12 @@ msgstr ""
 
 #. type: Plain text
 msgid "To remove someone from a given group:"
-msgstr ""
+msgstr "Um jemanden aus einer bestimmten Gruppe zu entfernen:"
 
 #. type: Bullet: '  - '
 msgid "Send new shares to everybody except to the person who is being removed."
 msgstr ""
+"Senden Sie neue Freigaben an alle außer an die Person, die entfernt wird."
 
 #. type: Bullet: '  - '
 msgid ""
