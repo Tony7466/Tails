@@ -3,49 +3,54 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-11-09 00:01+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Revocation of the Tails signing key\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Revocació de la clau de signatura de Tails\"]]\n"
 
 #. type: Plain text
 msgid ""
 "This document proposes a mechanism for the distribution and activation of "
 "the revocation certificate of the Tails signing key."
 msgstr ""
+"Aquest document proposa un mecanisme per a la distribució i activació del "
+"certificat de revocació de la clau de signatura de Tails."
 
 #. type: Title =
 #, no-wrap
 msgid "Goals"
-msgstr ""
+msgstr "Objectius"
 
 #. type: Plain text
 msgid "Covered by the current proposal:"
-msgstr ""
+msgstr "Coberta per la proposta actual:"
 
 #. type: Plain text
 msgid "- Prevent any single individual from revoking our signing key."
-msgstr ""
+msgstr "- Evitar que qualsevol persona revoqui la nostra clau de signatura."
 
 #. type: Bullet: '- '
 msgid ""
 "Allow a coalition of people from the Board to revoke our signing key in case "
 "most of the people from the Board become unavailable."
 msgstr ""
+"Permetre que una coalició de persones de la Junta revoqui la nostra clau de "
+"signatura en cas que la majoria de la gent de la Junta no estigui disponible."
 
 #. type: Bullet: '- '
 msgid ""
@@ -53,6 +58,9 @@ msgid ""
 "signing key in case everybody or almost everybody from the Board becomes "
 "unavailable."
 msgstr ""
+"Permetre que una coalició de persones, no necessàriament de la Junta, "
+"revoqui la nostra clau de signatura en cas que tots o gairebé tots de la "
+"Junta no estiguin disponibles."
 
 #. type: Bullet: '- '
 msgid ""
