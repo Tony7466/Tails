@@ -13,7 +13,11 @@ for param in "$@"; do
       mode=srcuris
       break
     ;;
-    check | update | autoclean | autoremove)
+    update)
+      mode=update
+      break
+    ;;
+    check | autoclean | autoremove)
       mode=noop
       break
     ;;
@@ -26,6 +30,12 @@ if [ "$mode" = unknown ]; then
   echo "E: requested operation follows:" "$@"                    >&2
   exit 1
 fi
+
+building_with_tagged_APT_snapshots() {
+  grep --recursive --quiet --silent --fixed-strings \
+	tagged.snapshots.deb.tails.boum.org \
+	/etc/apt/sources.list.d/
+}
 
 if [ "$mode" = binuris ]; then
   apt-get.real "$@" --print-uris|perl -ne 'if (/^'\''(.+)'\'' ([^_]+)_([^_]+)_/) { my ($url, $package, $version)=($1,$2,$3); $version =~ s/%3a/:/g; print "$package $version $url\n"; }' >> /debootstrap/$mode
@@ -41,6 +51,17 @@ elif [ "$mode" = srcuris ]; then
     echo "$s_v $uri" >> /debootstrap/$mode
   done < /debootstrap/$mode.tmp
   rm /debootstrap/$mode.tmp
+elif [ "$mode" = update ]; then
+  echo "command:" "$@" >> /debootstrap/noop
+  apt-get.real "$@"
+  RET=$?
+  if [ $RET -ne 0 ] && building_with_tagged_APT_snapshots ; then
+    echo "APT update failed."
+    echo "You may be experiencing a known issue,"
+    echo "that thankfully has a documented workaround:"
+    echo "see https://gitlab.tails.boum.org/tails/tails/-/issues/20009"
+  fi
+  exit $RET
 else
   # handle both noop and unknown here, each into its own file; unknown should be empty:
   echo "command:" "$@" >> /debootstrap/$mode
