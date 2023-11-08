@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
-"PO-Revision-Date: 2023-11-08 15:46+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"PO-Revision-Date: 2023-11-08 15:51+0000\n"
+"Last-Translator: Barnabas Steiner <barnabas.steiner@tutanota.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -210,24 +210,30 @@ msgstr "Infrastruktur"
 
 #. type: Bullet: '  - '
 msgid "Everybody who owns a share is subscribed to a mailing list."
-msgstr ""
+msgstr "Jeder, der eine Freigabe besitzt, hat eine Mailingliste abonniert."
 
 #. type: Bullet: '  - '
 msgid ""
 "This mailing list is hosted on a trusted server different from boum.org to "
 "be more resilient than our usual communication channels."
 msgstr ""
+"Diese Mailingliste wird auf einem vertrauenswürdigen Server gehostet, der "
+"sich von boum.org unterscheidet, um widerstandsfähiger als unsere üblichen "
+"Kommunikationskanäle zu sein."
 
 #. type: Bullet: '  - '
 msgid ""
 "Someone hosting the mailing list is part of group B, C, or D so they can "
 "ensure that the list keeps working even if it never used."
 msgstr ""
+"Jemand, der die Mailingliste hostet, gehört zur Gruppe B, C oder D, damit er "
+"sicherstellen kann, dass die Liste auch dann funktioniert, wenn sie nie "
+"verwendet wird."
 
 #. type: Title =
 #, no-wrap
 msgid "Changing the members of the groups B, C, or D"
-msgstr ""
+msgstr "Ändern der Mitglieder der Gruppen B, C oder D."
 
 #. type: Plain text
 msgid "To add someone to a given group:"
