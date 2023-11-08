@@ -35,8 +35,15 @@ actions=no archive=yes feeds=no show=0 sort="-meta(date) age -path"]]
 
 # Fixed security vulnerabilities
 
-[[!inline pages="page(security/*) and !security/*/* and tagged(security/fixed) and (currentlang() or security/Numerous_security_holes_in_* or security/known_security_vulnerabilities_in_*)"
-actions=no archive=yes feeds=no show=5 sort="-meta(date) age -path"]]
+## Vulnerabilities that were specific to Tails
+
+[[!inline pages="page(security/*) and !security/*/* and tagged(security/fixed) and currentlang() and !security/Numerous_security_holes_in_* and !security/known_security_vulnerabilities_in_*"
+actions=no archive=yes feeds=no show=10 sort="-meta(date) age -path"]]
+
+## Vulnerabilities that were affecting other applications included in Tails
+
+[[!inline pages="page(security/*) and !security/*/* and tagged(security/fixed) and (security/Numerous_security_holes_in_* or security/known_security_vulnerabilities_in_*)"
+actions=no archive=yes feeds=no show=10 sort="-meta(date) age -path"]]
 
 # Security audits
 
