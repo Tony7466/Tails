@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-29 07:10+0000\n"
 "PO-Revision-Date: 2023-11-08 16:12+0000\n"
-"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Last-Translator: Stefan Leibfarth <stefan+translatetails@leibfarth.org>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -276,7 +276,7 @@ msgstr "[[!inline pages=\"contribute/how/translate/tails-l10n.inline\" raw=\"yes
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"private-email-addresses\">Private email addresses</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"private-email-addresses\">Private E-Mail-Addressen</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -333,10 +333,11 @@ msgid "<h2 id=\"tails-accounting\">tails-accounting</h2>\n"
 msgstr "<h2 id=\"tails-accounting\">tails-accounting</h2>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "If you want to fund Tails, write to <tails-accounting@boum.org>.\n"
+#, no-wrap
 msgid "If you want to contact our accounting team, write to <tails-accounting@boum.org>.\n"
-msgstr "Wenn Sie Tails finanziell unterstützen möchten, schreiben Sie an <tails-accounting@boum.org>.\n"
+msgstr ""
+"Wenn Sie unser Buchhaltungsteam kontaktieren wollen, schreiben Sie an <tails-"
+"accounting@boum.org>.\n"
 
 #. type: Plain text
 msgid ""
