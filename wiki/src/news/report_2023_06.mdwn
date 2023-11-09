@@ -1,6 +1,6 @@
-[[!meta  title="Tails report for June 2023"]]
-[[!meta  date="Thu, 13 Jul 2023 10:26:18 -0300"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!meta title="Tails report for June 2023"]]
+[[!meta date="Thu, 13 Jul 2023 10:26:18 -0300"]]
+[[!pagetemplate template="news.tmpl"]]
 
 [[!toc]]
 
