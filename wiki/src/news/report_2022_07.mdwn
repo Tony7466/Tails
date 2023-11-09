@@ -1,6 +1,6 @@
-[[!meta  title="Tails report for July 2022"]]
-[[!meta  date="Tue, 16 Aug 2022 12:00:00 -0300"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!meta title="Tails report for July 2022"]]
+[[!meta date="Tue, 16 Aug 2022 12:00:00 -0300"]]
+[[!pagetemplate template="news.tmpl"]]
 
 [[!toc]]
 

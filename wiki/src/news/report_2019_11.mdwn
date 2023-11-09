@@ -1,6 +1,6 @@
-[[!meta  title="Tails report for November, 2019"]]
-[[!meta  date="Tue, 14 Dec 2019 12:34:56 +0000"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!meta title="Tails report for November, 2019"]]
+[[!meta date="Tue, 14 Dec 2019 12:34:56 +0000"]]
+[[!pagetemplate template="news.tmpl"]]
 
 [[!toc]]
 

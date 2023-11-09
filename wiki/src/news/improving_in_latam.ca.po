@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-06-06 13:11+0000\n"
+"POT-Creation-Date: 2023-11-09 21:58+0000\n"
 "PO-Revision-Date: 2023-11-08 16:13+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,9 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  title=\"Improving Tails for human rights defenders in Latin America\"]]\n"
-msgstr ""
-"[[!meta title=\"Millorem Tails per als defensors dels drets humans a "
-"Llatinoamèrica\"]]\n"
+msgstr "[[!meta title=\"Millorem Tails per als defensors dels drets humans a Llatinoamèrica\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -47,8 +45,8 @@ msgid ""
 "training and usability tests in Ecuador, Mexico, and Brazil. Our goals were "
 "to:"
 msgstr ""
-"Entre el 2021 i el 2023, Tails, [Tor](https://torproject.org/) i el ["
-"Projecte Guardian](https://guardianproject.info/) es van associar per "
+"Entre el 2021 i el 2023, Tails, [Tor](https://torproject.org/) i el "
+"[Projecte Guardian](https://guardianproject.info/) es van associar per "
 "organitzar proves de formació i usabilitat a l'Equador, Mèxic i el Brasil . "
 "Els nostres objectius eren:"
 
@@ -160,8 +158,8 @@ msgid ""
 "[Summary of findings](https://gitlab.tails.boum.org/tails/tails/-/"
 "issues/18074#note_210738)"
 msgstr ""
-"[Resum de les troballes](https://gitlab.tails.boum.org/tails/tails/-/issues/"
-"18074#note_210738)"
+"[Resum de les troballes](https://gitlab.tails.boum.org/tails/tails/-/"
+"issues/18074#note_210738)"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -189,8 +187,8 @@ msgid ""
 "first-time/rainbow_table_installation_2022_08_Sao_Paulo.fods?inline=false)"
 msgstr ""
 "[Descobriments detallats](https://gitlab.tails.boum.org/tails/ux/-/blob/"
-"master/first-time/rainbow_table_installation_2022_08_Sao_Paulo."
-"fods?inline=false)"
+"master/first-time/rainbow_table_installation_2022_08_Sao_Paulo.fods?"
+"inline=false)"
 
 #. type: Title ###
 #, no-wrap
@@ -248,8 +246,8 @@ msgid ""
 "[Summary of findings](https://lists.autistici.org/"
 "message/20221012.140611.7e58f067.en.html)"
 msgstr ""
-"[Resum de les troballes](https://lists.autistici.org/message/20221012.140611."
-"7e58f067.ca.html)"
+"[Resum de les troballes](https://lists.autistici.org/"
+"message/20221012.140611.7e58f067.ca.html)"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -257,8 +255,8 @@ msgid ""
 "network/rainbow_table_tor_connection_2022_08_Sao_Paulo.fods?inline=false)"
 msgstr ""
 "[Descobriments detallats](https://gitlab.tails.boum.org/tails/ux/-/raw/"
-"master/network/rainbow_table_tor_connection_2022_08_Sao_Paulo."
-"fods?inline=false)"
+"master/network/rainbow_table_tor_connection_2022_08_Sao_Paulo.fods?"
+"inline=false)"
 
 #. type: Title ###
 #, no-wrap
@@ -291,16 +289,16 @@ msgid ""
 "March 2023: Usability tests of the new Persistent Storage ([[!tails_ticket "
 "18648]])"
 msgstr ""
-"Març de 2023: proves d'usabilitat del nou Emmagatzematge Persistent ([["
-"!tails_ticket 18648]])"
+"Març de 2023: proves d'usabilitat del nou Emmagatzematge Persistent ([[!"
+"tails_ticket 18648]])"
 
 #. type: Bullet: '  * '
 msgid ""
 "[Summary of findings](https://lists.autistici.org/"
 "message/20230510.091842.23ed75ba.en.html)"
 msgstr ""
-"[Resum de les troballes](https://lists.autistici.org/message/20230510.091842."
-"23ed75ba.ca.html)"
+"[Resum de les troballes](https://lists.autistici.org/"
+"message/20230510.091842.23ed75ba.ca.html)"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -331,22 +329,23 @@ msgstr ""
 "i defensors dels drets humans."
 
 #. type: Plain text
+#, fuzzy
 msgid ""
 "The material used for these Tails workshops is available on our website in "
-"[English](https://tails.boum.org/contribute/how/promote/material/slides/"
+"[English](https://tails.net/contribute/how/promote/material/slides/"
 "Ciclo_Autodefensa_Digital_202204/Tails-English.odp), [Spanish](https://tails."
-"boum.org/contribute/how/promote/material/slides/"
-"Ciclo_Autodefensa_Digital_202204/Tails-Spanish.odp), and [Portuguese]"
-"(https://tails.boum.org/contribute/how/promote/material/slides/"
-"Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp)."
+"net/contribute/how/promote/material/slides/Ciclo_Autodefensa_Digital_202204/"
+"Tails-Spanish.odp), and [Portuguese](https://tails.net/contribute/how/"
+"promote/material/slides/Ciclo_Autodefensa_Digital_202204/Tails-Portuguese."
+"odp)."
 msgstr ""
 "El material utilitzat per a aquests tallers de Tails està disponible al "
 "nostre lloc web en [anglès](https://tails.boum.org/contribute/how/promote/"
 "material/slides/Ciclo_Autodefensa_Digital_202204/Tails-English.odp), "
 "[castellà]( https://tails.boum.org/contribute/how/promote/material/slides/"
-"Ciclo_Autodefensa_Digital_202204/Tails-Spanish.odp) i "
-"[portuguès](https://tails.boum.org/contribute/how/promote/ material/"
-"diapositives/Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp)."
+"Ciclo_Autodefensa_Digital_202204/Tails-Spanish.odp) i [portuguès](https://"
+"tails.boum.org/contribute/how/promote/ material/diapositives/"
+"Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp)."
 
 #. type: Plain text
 msgid ""
