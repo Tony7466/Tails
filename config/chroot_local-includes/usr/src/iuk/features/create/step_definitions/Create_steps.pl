@@ -332,16 +332,17 @@ fun squashfs_in_iuk_contains(:$iuk_in, :$squashfs_name, :$expected_file,
     my $orig_cwd = getcwd;
     my $tempdir = Path::Tiny->tempdir;
     chdir $tempdir;
+    $tempdir->child('squashfs-root')->mkpath;
     capturex(EXIT_ANY,
         # on overlayfs, deleted files are stored using character devices,
         # that one needs to be root to create
         'sudo',
-        'rdsquashfs', '--quiet', '--set-times',
+        'rdsquashfs', '--quiet', '--set-times', '--chown',
         '--unpack-root', $tempdir->child('squashfs-root'),
-        '--unpack-path', $expected_file,
+        '--unpack-path', "/",
         $iuk_in->mountpoint->child($squashfs_path),
     );
-    my $exists = $EXITVAL == 0 ? 1 : 0;
+    my $exists = $tempdir->child('squashfs-root', $expected_file)->exists;
     chdir $orig_cwd;
 
     # Ensure $tempdir can be cleaned up and the $expected_mtime test can access
