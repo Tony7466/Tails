@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-06 15:50+0000\n"
-"PO-Revision-Date: 2023-11-03 15:12+0000\n"
+"PO-Revision-Date: 2023-11-09 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -25,19 +25,21 @@ msgstr "<a id=\"broken-upgrades\"></a>\n"
 #. type: Bullet: '* '
 msgid "Automatic upgrades are broken from Tails 4.14 and earlier."
 msgstr ""
+"Les actualitzacions automàtiques estan trencades a partir de Tails 4.14 i "
+"anteriors."
 
 #. type: Plain text
 #, no-wrap
 msgid "  To upgrade from Tails 4.14 or earlier, you can either:\n"
-msgstr ""
+msgstr "  Per actualitzar des de Tails 4.14 o anterior, podeu:\n"
 
 #. type: Bullet: '  - '
 msgid "Do a [[manual upgrade|doc/upgrade#manual]]."
-msgstr ""
+msgstr "Fer una [[actualització manual|doc/upgrade#manual]]."
 
 #. type: Bullet: '  - '
 msgid "Fix the automatic upgrade from a terminal. To do so:"
-msgstr ""
+msgstr "Arreglar l'actualització automàtica des d'un terminal. Per fer-ho:"
 
 #. type: Bullet: '    1. '
 msgid ""
@@ -58,11 +60,16 @@ msgid ""
 "           | sudo tee --append /usr/local/etc/ssl/certs/tails.boum.org-CA.pem \\\n"
 "           && systemctl --user restart tails-upgrade-frontend\n"
 msgstr ""
+"           torsocks curl --silent https://tails.boum.org/isrg-root-x1-cross-"
+"signed.pem \\\n"
+"           | sudo tee --append /usr/local/etc/ssl/certs/tails.boum.org-"
+"CA.pem \\\n"
+"           && systemctl --user restart tails-upgrade-frontend\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "       <div class=\"note\">\n"
-msgstr ""
+msgstr "       <div class=\"note\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -71,11 +78,14 @@ msgid ""
 "       Copy and paste the entire block at once and make sure that it executes\n"
 "       as a single command.</p>\n"
 msgstr ""
+"       <p>Aquesta ordre és una única ordre que s'ajusta a diverses línies.\n"
+"       Copieu i enganxeu tot el bloc alhora i assegureu-vos que s'executa\n"
+"       com a comanda única.</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "       </div>\n"
-msgstr ""
+msgstr "       </div>\n"
 
 #. type: Bullet: '    1. '
 msgid ""
