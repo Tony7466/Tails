@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2022-12-22 12:06+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-09 17:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -36,12 +36,14 @@ msgid "[*GIMP*](https://www.gimp.org/), an image editor."
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "**<span class=\"application\">[GIMP](https://www.gimp.org/)</span>** is an advanced picture editor. You can use it to edit, enhance, and retouch photos and scans, create drawings, and make your own images."
+#, no-wrap
 msgid ""
 "    You can use *GIMP* to edit, enhance, and retouch photos and scans, create\n"
 "    drawings, and make your own images.\n"
-msgstr "**<span class=\"application\">[GIMP](https://www.gimp.org/)</span>** ist eine fortschrittliche Bildbearbeitung. Sie können sie zum Bearbeiten, Verbessern und Retuschieren von Fotos und Scans, zum Gestalten von Zeichnungen und Erstellen Ihrer eigenen Bilder verwenden."
+msgstr ""
+"    Sie können *GIMP* verwenden, um Fotos und Scans zu bearbeiten, zu "
+"verbessern und zu retuschieren,\n"
+"    Zeichnungen zu erstellen und Ihre eigenen Bilder zu machen.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -61,12 +63,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "**<span class=\"application\">[Inkscape](https://inkscape.org/)</span>** is vector-based drawing application.  You can use it to create a wide variety of graphics such as illustrations, icons, logos, diagrams, maps, and web graphics."
+#, no-wrap
 msgid ""
 "    You can use *Inkscape* to create a wide variety of graphics such as\n"
 "    illustrations, icons, logos, diagrams, maps, and web graphics.\n"
-msgstr "**<span class=\"application\">[Inkscape](https://inkscape.org/de/)</span>** ist eine vektorbasierte Zeichenanwendung. Sie können sie benutzen, um eine große Vielfalt an Grafiken wie Illustrationen, Symbole, Logos, Diagramme, Karten und Webgrafiken, zu erstellen."
+msgstr ""
+"    Sie können *Inkscape* verwenden, um eine Vielzahl von Grafiken wie\n"
+"    Illustrationen, Symbole, Logos, Diagramme, Karten und Webgrafiken zu "
+"erstellen.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
