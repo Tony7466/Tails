@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-03 15:11+0000\n"
+"PO-Revision-Date: 2023-11-09 22:16+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -29,15 +29,17 @@ msgid "[[!toc levels=1]]\n"
 msgstr "[[!toc levels=1]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<span class=\"application\">[Tor Browser](https://www.torproject.org)</span> is a web\n"
 "browser based on [Mozilla Firefox](https://www.mozilla.org/firefox/) but configured\n"
 "to protect your privacy.\n"
 msgstr ""
-"<span class=\"application\">[El Navegador Tor](https://www.torproject.org)</span> és un navegador\n"
-"web basat en [Mozilla Firefox](http://getfirefox.com) però configurat\n"
-"per a protegir la teva privacitat.\n"
+"El <span class=\"application\">[Navegador Tor](https://www.torproject.org)</"
+"span> és un\n"
+"navegador web basat en [Mozilla Firefox](https://www.mozilla.org/firefox/) "
+"però configurat\n"
+"per protegir la vostra privadesa.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -49,11 +51,15 @@ msgid ""
 "Sending your connections to websites through the Tor network is not enough "
 "to totally protect you while browsing the web:"
 msgstr ""
+"L'enviament de les vostres connexions a llocs web a través de la xarxa Tor "
+"no és suficient per protegir-vos totalment mentre navegueu per la web:"
 
 #. type: Bullet: '- '
 msgid ""
 "Cookies can be used to track and identify you across different websites."
 msgstr ""
+"Les galetes es poden utilitzar per fer un seguiment i identificar-vos a "
+"diferents llocs web."
 
 #. type: Bullet: '- '
 msgid ""
@@ -61,12 +67,18 @@ msgid ""
 "Browser in the past](https://arstechnica.com/information-technology/2013/08/"
 "attackers-wield-firefox-exploit-to-uncloak-anonymous-tor-users/)."
 msgstr ""
+"Les vulnerabilitats de seguretat de JavaScript s'han utilitzat per ["
+"desanonimitzar el navegador Tor en el passat](https://arstechnica.com/"
+"information-technology/2013/08/attackers-wield-firefox-exploit-to-uncloak-"
+"anonymous-tor-users /)."
 
 #. type: Plain text
 msgid ""
 "This is why *Tor Browser* integrates all kinds of security protections "
 "inside the browser as well."
 msgstr ""
+"És per això que el *Navegador Tor* també integra tot tipus de proteccions de "
+"seguretat dins del navegador."
 
 #. type: Plain text
 #, no-wrap
@@ -74,39 +86,46 @@ msgid ""
 "Some frequently asked questions about <span class=\"application\">Tor Browser</span> can be found in\n"
 "[[the FAQ|support/faq#browser]].\n"
 msgstr ""
+"Algunes preguntes freqüents sobre el <span class=\"application\">Navegador "
+"Tor</span> es poden trobar a\n"
+"[[les PMF|support/faq#browser]].\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"proxy\">Proxy server refusing connections</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"proxy\">Servidor intermediari que rebutja connexions</h1>\n"
 
 #. type: Plain text
 msgid ""
 "The following error message in *Tor Browser* means that Tails is not yet "
 "connected to the Tor network:"
 msgstr ""
+"El següent missatge d'error al *Navegador Tor* significa que Tails encara no "
+"està connectat a la xarxa Tor:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    The proxy server is refusing connections\n"
-msgstr ""
+msgstr "    El servidor intermediari rebutja les connexions\n"
 
 #. type: Plain text
 msgid "Make sure that you are:"
-msgstr ""
+msgstr "Assegureu-vos que esteu:"
 
 #. type: Bullet: '1. '
 msgid "[[Connected to a local network|anonymous_internet/networkmanager]]"
-msgstr ""
+msgstr "[[Connectat a una xarxa local|anonymous_internet/networkmanager]]"
 
 #. type: Bullet: '1. '
 msgid "[[Connected to the Tor network|anonymous_internet/tor]]"
-msgstr ""
+msgstr "[[Connectat a la xarxa Tor|anonymous_internet/tor]]"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"confinement\">AppArmor confinement, downloading, and uploading files</h1>\n"
 msgstr ""
+"<h1 id=\"confinement\">Confinament d'AppArmor, baixada i càrrega de "
+"fitxers</h1>\n"
 
 #. type: Plain text
 #, no-wrap
