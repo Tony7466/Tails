@@ -171,6 +171,7 @@ Given qr{^(an old|a new) ISO image whose filesystem.squashfs( does not|) contain
         run_as_root('chown', $owner, path($squashfs_tempdir, $file)) if defined($owner);
     }
     path($iso_tempdir, 'live')->mkpath();
+    systemx('sudo', 'chmod', '-R', 'go+rwX', $squashfs_tempdir);
     systemx(
         'gensquashfs', '--quiet', '--keep-time',
         '--pack-dir', $squashfs_tempdir,
