@@ -349,7 +349,7 @@ fun squashfs_in_iuk_contains(:$iuk_in, :$squashfs_name, :$expected_file,
     # the file it needs to
     my @gids = split(/ /, $GID);
     systemx(
-        qw{sudo chown -R}, "$UID:$gids[0]",
+        qw{sudo chmod -R go+rwX},
         $tempdir->child('squashfs-root')
     );
 
