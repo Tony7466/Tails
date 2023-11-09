@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-09 10:11+0000\n"
+"PO-Revision-Date: 2023-11-09 23:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -29,6 +29,8 @@ msgid ""
 "<span class=\"application\">Onion Circuits</span> displays information about\n"
 "the current Tor circuits and connections.\n"
 msgstr ""
+"<span class=\"application\">Circuits Onion</span> mostra informació sobre "
+"els circuits i connexions actuals de Tor\n"
 
 #. type: Plain text
 #, no-wrap
@@ -58,12 +60,19 @@ msgid ""
 "onion-circuits.png is in a position to identify you. You might prefer to leave it\n"
 "untranslated.-->\n"
 msgstr ""
+"<!-- Note for translators: the entry guard in use when you take the "
+"screenshot\n"
+"onion-circuits.png is in a position to identify you. You might prefer to "
+"leave it\n"
+"untranslated.-->\n"
 
 #. type: Plain text
 msgid ""
 "When you connect to a destination server, for example, when visiting a "
 "website, the connection appears in the list below the circuit it uses."
 msgstr ""
+"Quan us connecteu a un servidor de destinació, per exemple, quan visiteu un "
+"lloc web, la connexió apareix a la llista de sota del circuit que utilitza."
 
 #. type: Plain text
 msgid ""
