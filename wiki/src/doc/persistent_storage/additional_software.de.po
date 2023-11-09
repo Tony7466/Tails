@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2022-06-14 08:08+0000\n"
+"PO-Revision-Date: 2023-11-09 15:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -30,10 +30,9 @@ msgid "[[!toc levels=2]]\n"
 msgstr "[[!toc levels=2]]\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Which additional software can I install in Tails?\n"
+#, no-wrap
 msgid "Which additional software can I install in Tails?"
-msgstr "Welche zusätzliche Software kann ich in Tails installieren?\n"
+msgstr "Welche zusätzliche Software kann ich in Tails installieren?"
 
 #. type: Plain text
 msgid ""
