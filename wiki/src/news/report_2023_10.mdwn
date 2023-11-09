@@ -12,14 +12,14 @@ Highlights
   more sustainable.
 
 - Our annual fundraiser is
-  [live](https://tails.net/news/gift_of_privacy/index.en.html)! For this year's
+  [[live|news/gift_of_privacy]]! For this year's
   fundraiser, we are reflecting on a year in which progressive, liberatory
   movements battled intense online surveillance from powerful public and
   private actors alike. 
 
 As we enter 2024, make the gift of privacy. We welcome each contribution, no
-matter the size. And there are [many ways to
-contribute](https://tails.boum.org/donate/). Spread word! 
+matter the size. And there are [[many ways to
+contribute|donate]]). Spread word!
 
 And while we have you here, consider nominating Tails for support through
 [Proton's fundraiser](https://proton.me/blog/lifetime-fundraiser-survey-2023).
@@ -31,7 +31,7 @@ Nominations close on 13 November 2023!
 Releases
 ========
 
-Tails 5.18 was released on October 03, 2023, and Tails 5.19 was released on
+[[Tails 5.18|news/version_5.18]] was released on October 03, 2023, and [[Tails 5.19|news/version_5.19]] was released on
 October 31, 2023.
 
 - You have upgrades to Tor Browser, Thunderbird, and the Linux kernel.
