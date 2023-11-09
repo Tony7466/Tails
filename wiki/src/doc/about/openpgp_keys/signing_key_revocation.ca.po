@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
-"PO-Revision-Date: 2023-11-09 01:11+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-09 12:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -132,27 +132,35 @@ msgid ""
 "number of cryptographic shares, using for example Shamir's secret sharing "
 "scheme implemented by `gfshare`."
 msgstr ""
+"Generem un certificat de revocació de la clau de signatura i el dividim en "
+"una sèrie d'accions criptogràfiques, utilitzant, per exemple, l'esquema de "
+"compartició secreta de Shamir implementat per `gfshare`."
 
 #. type: Plain text
 msgid ""
 "The following combinations of people could get together and reassemble their "
 "shares to reconstruct a complete revocation certificate:"
 msgstr ""
+"Les següents combinacions de persones podrien reunir-se i reunir les seves "
+"accions per reconstruir un certificat de revocació complet:"
 
 #. type: Bullet: '  - '
 msgid "Three people from the Board: A{3}"
-msgstr ""
+msgstr "Tres persones de la Junta: A{3}"
 
 #. type: Bullet: '  - '
 msgid ""
 "Two people from the Board and one person not from the Board: A{2}+(B|C|D)"
 msgstr ""
+"Dues persones de la Junta i una persona de fora de la Junta: A{2}+(B|C|D)"
 
 #. type: Bullet: '  - '
 msgid ""
 "One person from the Board, and two people not from the Board but from two "
 "different groups: A+(B|C|D){2}"
 msgstr ""
+"Una persona de la Junta, i dues persones no de la Junta però de dos grups "
+"diferents: A+(B|C|D){2}"
 
 #. type: Bullet: '  - '
 msgid ""
