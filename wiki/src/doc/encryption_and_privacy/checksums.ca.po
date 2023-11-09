@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-01 16:20+0200\n"
-"PO-Revision-Date: 2023-11-04 22:11+0000\n"
+"PO-Revision-Date: 2023-11-09 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Calculating checksums using GtkHash\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Càlcul de sumes de verificació mitjançant GtkHash\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -30,10 +30,14 @@ msgid ""
 "useful to verify the integrity of a file, for example, if you downloaded it "
 "from the Internet."
 msgstr ""
+"[*GtkHash*](https://github.com/tristanheaven/gtkhash) us permet calcular [["
+"!wikipedia_ca checksum desc=\"sumes de verificació\"]]. Les sumes de "
+"verificació poden ser útils per verificar la integritat d'un fitxer, per "
+"exemple, si l'heu baixat d'Internet."
 
 #. type: Plain text
 msgid "To calculate the checksum of a file:"
-msgstr ""
+msgstr "Per calcular la suma de verificació d'un fitxer:"
 
 #. type: Bullet: '  1. '
 msgid "Open the <span class=\"application\">Files</span> browser."
@@ -44,18 +48,24 @@ msgid ""
 "Navigate to the folder containing the file that you want to calculate the "
 "checksum for."
 msgstr ""
+"Navegueu a la carpeta que conté el fitxer per al qual voleu calcular la suma "
+"de verificació."
 
 #. type: Bullet: '  1. '
 msgid ""
 "Right-click (on Mac, click with two fingers) on the file and choose <span "
 "class=\"guimenuitem\">Properties</span>."
 msgstr ""
+"Feu clic amb el botó dret (a Mac, feu clic amb dos dits) al fitxer i trieu "
+"<span class=\"guimenuitem\">Propietats</span>."
 
 #. type: Bullet: '  1. '
 msgid ""
 "In the <span class=\"guimenuitem\">Properties</span> dialog, click on the "
 "<span class=\"guilabel\">Digests</span> tab."
 msgstr ""
+"Al diàleg de <span class=\"guimenuitem\">Propietats</span>, feu clic a la "
+"pestanya <span class=\"guilabel\">Resums</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -68,13 +78,18 @@ msgid ""
 "class=\"guilabel\">Digests</span> tabbed section, select the check boxes "
 "corresponding to the checksums that you want to calculate."
 msgstr ""
+"A la columna <span class=\"guilabel\">Funció hash</span> de la secció de "
+"pestanyes <span class=\"guilabel\">Resums</span>, marqueu les caselles de "
+"verificació corresponents a les sumes de verificació que voleu calcular."
 
 #. type: Bullet: '  1. '
 msgid "Click on the <span class=\"bold\">Hash</span> button."
-msgstr ""
+msgstr "Feu clic al botó <span class=\"bold\">Hash</span>."
 
 #. type: Bullet: '  1. '
 msgid ""
 "The calculated checksums appear in the <span class=\"guilabel\">Digest</"
 "span> column."
 msgstr ""
+"Les sumes de verificació calculades apareixen a la columna <span class="
+"\"guilabel\">Resum</span>."
