@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-30 21:51+0000\n"
-"PO-Revision-Date: 2023-11-05 23:11+0000\n"
+"PO-Revision-Date: 2023-11-09 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -24,6 +24,8 @@ msgstr "[[!meta robots=\"noindex\"]]"
 #. type: Content of: <ol><li>
 msgid "Wait a few minutes. Some USB sticks need some rest after installing."
 msgstr ""
+"Espereu uns minuts. Alguns llapis USB necessiten una mica de descans després "
+"de la instal·lació."
 
 #. type: Content of: <ol><li><p>
 msgid "Make sure that you have installed Tails using either:"
@@ -49,19 +51,22 @@ msgstr "[[la línia d'ordres de Linux|install/expert#install]]"
 msgid ""
 "Make sure that you have [[verified your download of Tails|install/download]]."
 msgstr ""
+"Assegureu-vos que heu [[verificat la baixada de Tails|install/download]]."
 
 #. type: Content of: <ol><li><p>
 msgid "Make sure that you have <a href=\"#verify\">verified your download</a>."
-msgstr ""
+msgstr "Assegureu-vos que heu <a href=\"#verify\">verificat la baixada</a>."
 
 #. type: Content of: <ol><li><p>
 msgid "Try installing again on the same USB stick."
-msgstr ""
+msgstr "Proveu d'instal·lar de nou al mateix llapis USB."
 
 #. type: Content of: <ol><li><p>
 msgid "Try installing on a different USB stick."
-msgstr ""
+msgstr "Proveu d'instal·lar-lo en un llapis USB diferent."
 
 #. type: Content of: <ol><li><p>
 msgid "Try using the same USB stick to start on a different computer."
 msgstr ""
+"Proveu d'utilitzar el mateix llapis USB per començar en un ordinador "
+"diferent."
