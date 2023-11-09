@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
 "PO-Revision-Date: 2023-11-09 01:11+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -103,26 +103,28 @@ msgstr "Grup A: persones de la mateixa Junta"
 
 #. type: Bullet: '  - '
 msgid "Group B"
-msgstr ""
+msgstr "Grup B"
 
 #. type: Bullet: '  - '
 msgid "Group C"
-msgstr ""
+msgstr "Grup C"
 
 #. type: Bullet: '  - '
 msgid "Group D"
-msgstr ""
+msgstr "Grup D"
 
 #. type: Plain text
 msgid ""
 "All these people should have an OpenPGP key and understand what a revocation "
 "certificate is."
 msgstr ""
+"Totes aquestes persones haurien de tenir una clau OpenPGP i entendre què és "
+"un certificat de revocació."
 
 #. type: Title =
 #, no-wrap
 msgid "Cryptographic shares"
-msgstr ""
+msgstr "Accions criptogràfiques"
 
 #. type: Plain text
 msgid ""
