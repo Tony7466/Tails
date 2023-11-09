@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"PO-Revision-Date: 2023-11-09 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.27 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.27\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -47,18 +47,24 @@ msgid ""
 "- Update *Tor Browser* to [11.0.6](https://blog.torproject.org/new-release-"
 "tor-browser-1106)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [11.0.6](https://blog."
+"torproject.org/new-release-tor-browser-1106)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [91.5](https://www.thunderbird.net/en-US/"
 "thunderbird/91.5.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [91.5](https://www.thunderbird."
+"net/en-US/thunderbird/91.5.0/releasenotes/)."
 
 #. type: Bullet: '- '
 msgid ""
 "Update the *Linux* kernel to 5.10.92. This should improve the support for "
 "newer hardware: graphics, Wi-Fi, and so on."
 msgstr ""
+"S'ha actualitzat el nucli de *Linux* a la versió 5.10.92. Això hauria de "
+"millorar la compatibilitat amb el maquinari més nou: gràfics, Wi-Fi, etc."
 
 #. type: Plain text
 #, no-wrap
@@ -70,6 +76,9 @@ msgid ""
 "Fix connecting to a Wi-Fi network when choosing **Open Wi-Fi Settings** in "
 "the Tor Connection assistant. ([[!tails_ticket 18587]])"
 msgstr ""
+"S'ha solucionat la connexió a una xarxa Wi-Fi quan s'escull **Obre la "
+"configuració de Wi-Fi** a l'assistent de connexió de Tor. ([[!tails_ticket "
+"18587]])"
 
 #. type: Plain text
 msgid ""
@@ -140,6 +149,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.19 or later to 4.27."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.19 o "
+"posterior fins a la versió 4.27."
 
 #. type: Plain text
 #, no-wrap
@@ -201,6 +212,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.27 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.27 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -217,4 +230,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 4.28 is [[scheduled|contribute/calendar]] for March 8."
-msgstr ""
+msgstr "Tails 4.28 està [[programat|contribute/calendar]] per al 8 de març."
