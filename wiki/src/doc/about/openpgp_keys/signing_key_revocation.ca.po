@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
-"PO-Revision-Date: 2023-11-09 00:01+0000\n"
+"PO-Revision-Date: 2023-11-09 01:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -77,25 +77,29 @@ msgid ""
 "People not from the Board shouldn't know how the shares are spread and who "
 "has them."
 msgstr ""
+"La gent que no és de la Junta no hauria de saber com es distribueixen les "
+"accions i qui les té."
 
 #. type: Bullet: '- '
 msgid ""
 "People in possession of a share of the revocation certificate of the signing "
 "key should have instructions on how to use it if needed."
 msgstr ""
+"Les persones que tinguin una part del certificat de revocació de la clau de "
+"signatura haurien de tenir instruccions sobre com utilitzar-la si cal."
 
 #. type: Title =
 #, no-wrap
 msgid "Groups"
-msgstr ""
+msgstr "Grups"
 
 #. type: Plain text
 msgid "We define four complementary groups of trusted people:"
-msgstr ""
+msgstr "Definim quatre grups complementaris de persones de confiança:"
 
 #. type: Bullet: '  - '
 msgid "Group A: people from the Board themselves"
-msgstr ""
+msgstr "Grup A: persones de la mateixa Junta"
 
 #. type: Bullet: '  - '
 msgid "Group B"
