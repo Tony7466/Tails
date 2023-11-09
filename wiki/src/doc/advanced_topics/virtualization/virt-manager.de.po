@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-09 13:11+0000\n"
+"PO-Revision-Date: 2023-11-09 17:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -85,10 +85,9 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Terminology\n"
+#, no-wrap
 msgid "Terminology"
-msgstr "Begrifflichkeiten\n"
+msgstr "Begrifflichkeiten"
 
 #. type: Plain text
 #, no-wrap
@@ -175,10 +174,9 @@ msgid "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
 msgstr "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Running Tails from an ISO image\n"
+#, no-wrap
 msgid "Running Tails from an ISO image"
-msgstr "Tails von einem ISO-Image aus benutzen\n"
+msgstr "Tails von einem ISO-Image aus benutzen"
 
 #. type: Bullet: '1. '
 msgid ""
