@@ -152,14 +152,10 @@ Given qr{^(an old|a new) ISO image whose filesystem.squashfs( does not|) contain
     my $contains = $c->matches->[1] eq "" ? 1 : 0;
     my $file     = $c->matches->[2];
     my ($mtime, $owner);
-    if (defined $c->matches->[3]) {
-        if ($c->matches->[3] =~ m{\A[0-9]+\z}) {
-            $mtime = $c->matches->[3];
-        } elsif ($c->matches->[3] =~ m{\A[a-z-]+\z}) {
-            $owner = $c->matches->[3];
-        } else {
-            croak "Test suite implementation error";
-        }
+    if (defined $c->matches->[3] && $c->matches->[3] =~ m{\A[0-9]+\z}) {
+        $mtime = $c->matches->[3];
+    } elsif (defined $c->matches->[4] && $c->matches->[4] =~ m{\A[a-z-]+\z}) {
+        $owner = $c->matches->[4];
     }
 
     my $iso_basename = $generation eq 'old' ? 'old.iso' : 'new.iso';
@@ -460,14 +456,14 @@ Then qr{^the delete_files list is empty$}, fun ($c) {
 Then qr{^the saved IUK contains a SquashFS that contains file "([^"]+)"(?:| modified at ([0-9]+|SOURCE_DATE_EPOCH)| owned by ([a-z-]+))$}, fun ($c) {
     my $expected_file  = $c->matches->[0];
     my ($expected_mtime, $expected_owner);
-    if (defined $c->matches->[1]) {
-        if ($c->matches->[1] =~ m{\A(?:[0-9]+|SOURCE_DATE_EPOCH)\z}) {
-            $expected_mtime = $c->matches->[1];
-        } elsif ($c->matches->[1] =~ m{\A[a-z-]+\z}) {
-            $expected_owner = $c->matches->[1];
-        } else {
-            croak "Test suite implementation error";
-        }
+    if (defined $c->matches->[1] && $c->matches->[1] =~ m{\A[0-9]+\z}) {
+        $expected_mtime = $c->matches->[1];
+    } elsif (defined $c->matches->[1] && $c->matches->[1] eq "SOURCE_DATE_EPOCH") {
+        $expected_mtime = $c->matches->[1];
+    } elsif (defined $c->matches->[2] && $c->matches->[2] =~ m{\A[a-z-]+\z}) {
+        $expected_owner = $c->matches->[2];
+    } else {
+        croak "Test suite implementation error";
     }
 
     ok(squashfs_in_iuk_contains(
