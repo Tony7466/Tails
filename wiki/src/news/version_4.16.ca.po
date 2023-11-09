@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-05 23:11+0000\n"
+"PO-Revision-Date: 2023-11-09 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.16 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.16\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -52,22 +52,28 @@ msgid ""
 "- Update *Tor Browser* to [10.0.12](https://blog.torproject.org/new-release-"
 "tor-browser-10012)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [10.0.12](https://blog."
+"torproject.org/new-release-tor-browser-10012)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [78.7.0](https://www.thunderbird.net/en-US/"
 "thunderbird/78.7.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [78.7.0](https://www.thunderbird"
+".net/en-US/thunderbird/78.7.0/releasenotes/)."
 
 #. type: Bullet: '- '
 msgid ""
 "Update *Linux* to 5.10.13. This should improve the support for newer "
 "hardware (graphics, Wi-Fi, and so on)."
 msgstr ""
+"S'ha actualitzat *Linux* a la versió 5.10.13. Això hauria de millorar la "
+"compatibilitat amb el maquinari més nou (gràfics, Wi-Fi, etc.)."
 
 #. type: Plain text
 msgid "- Update *Tor* to 0.4.5.5."
-msgstr ""
+msgstr "- S'ha actualitzat *Tor* a la versió 0.4.5.5."
 
 #. type: Plain text
 #, no-wrap
@@ -80,6 +86,9 @@ msgid ""
 "upgrade to prevent canceling the download by mistake. ([[!tails_ticket "
 "18072]])"
 msgstr ""
+"S'ha deixat de seleccionar el botó **Cancel·la** de manera predeterminada "
+"quan es baixa una actualització per evitar cancel·lar la baixada per error. "
+"([[!tails_ticket 18072]])"
 
 #. type: Plain text
 msgid ""
@@ -129,6 +138,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.15 or later to 4.16."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.15 o "
+"posterior fins a la versió 4.16."
 
 #. type: Bullet: '- '
 msgid ""
@@ -180,6 +191,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.16 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.16 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -196,7 +209,7 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 4.17 is [[scheduled|contribute/calendar]] for March 23."
-msgstr ""
+msgstr "Tails 4.17 està [[programat|contribute/calendar]] per al 23 de març."
 
 #. type: Plain text
 #, no-wrap
@@ -205,3 +218,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.16\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.16\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"
