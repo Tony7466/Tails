@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-08 14:11+0000\n"
-"Last-Translator: Deleted User <noreply+288@weblate.org>\n"
+"PO-Revision-Date: 2023-11-09 17:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translation <tails-l10n@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -86,12 +86,14 @@ msgstr ""
 "Sicherheitsfeatures in den Browser eingebaut hat."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Some frequently asked questions about the browser can be found in [[the FAQ|support/faq#browser]]."
+#, no-wrap
 msgid ""
 "Some frequently asked questions about <span class=\"application\">Tor Browser</span> can be found in\n"
 "[[the FAQ|support/faq#browser]].\n"
-msgstr "Einige oft gestellte Fragen über den Browser können in [[den FAQ|support/faq#browser]] gefunden werden."
+msgstr ""
+"Einige häufig gestellte Fragen zum <span class=\"application\">Tor-Browser</"
+"span> finden Sie im\n"
+"[[FAQ|support/faq#browser]].\n"
 
 #. type: Plain text
 #, no-wrap
