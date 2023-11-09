@@ -64,7 +64,7 @@ find below a summary of all the issues and their fixes.
 <table>
 <tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>
 <tr><td>TLS-003</td><td>[[!tails_ticket 19546]]</td><td>Local privilege escalation in Persistent folder activation hook</td><td>High</td><td>Fixed</td><td>5.11</td></tr>
-<tr><td>TLS-004</td><td>[[!tails_ticket XXX]]</td><td>Symlink attack in Persistent folder deactivation hook</td><td>Low</td><td>Fixed</td><td>5.11</td></tr>
+<tr><td>TLS-004</td><td>[[!tails_ticket 19547]]</td><td>Symlink attack in Persistent folder deactivation hook</td><td>Low</td><td>Fixed</td><td>5.11</td></tr>
 <tr><td>TLS-005</td><td>[[!tails_ticket 19548]]</td><td>Local privilege escalation in GnuPG feature activation hook</td><td>High</td><td>Fixed</td><td>5.11</td></tr>
 </table>
 
