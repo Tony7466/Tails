@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-11-03 15:11+0000\n"
+"PO-Revision-Date: 2023-11-05 23:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -24,7 +24,7 @@ msgstr "[[!meta robots=\"noindex\"]]"
 
 #. type: Content of: <h2>
 msgid "You need"
-msgstr ""
+msgstr "Necessiteu"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/usb.png link=\"no\" alt=\"\"]]"
@@ -32,27 +32,27 @@ msgstr "[[!img install/inc/icons/usb.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "1 USB stick"
-msgstr ""
+msgstr "Un llapis USB"
 
 #. type: Content of: <div><div><p>
 msgid "Only for Tails!"
-msgstr ""
+msgstr "Només per a Tails!"
 
 #. type: Content of: <div><div><p>
 msgid "8 GB minimum"
-msgstr ""
+msgstr "d'almenys 8 GB"
 
 #. type: Content of: <div><div><p>
 msgid "Your Tails"
-msgstr ""
+msgstr "El vostre Tails"
 
 #. type: Content of: <div><div><p>
 msgid "All data will be lost!"
-msgstr ""
+msgstr "Es perdran totes les dades!"
 
 #. type: Content of: <div><div><p>
 msgid "[[!toggle id=\"why_extra\" text=\"Why?\"]]"
-msgstr ""
+msgstr "[[!toggle id=\"why_extra\" text=\"Per què?\"]]"
 
 #. type: Content of: <div><div><div>
 msgid ""
@@ -68,10 +68,14 @@ msgid ""
 "running from itself. This scenario requires creating an intermediary Tails "
 "on another USB stick, from which to upgrade your Tails."
 msgstr ""
+"Actualment és impossible actualitzar manualment un llapis USB de Tails "
+"mentre s'està executant. Aquest escenari requereix crear un Tails "
+"intermediari en un altre llapis USB, des del qual actualitzar el vostre "
+"Tails."
 
 #. type: Content of: <div><div><div>
 msgid "\"\"\"]]"
-msgstr ""
+msgstr "\"\"\"]]"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/windows.png link=\"no\" alt=\"\"]]"
@@ -79,11 +83,11 @@ msgstr "[[!img install/inc/icons/windows.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "Windows 7"
-msgstr ""
+msgstr "Windows 7"
 
 #. type: Content of: <div><div><p>
 msgid "or later"
-msgstr ""
+msgstr "o posterior"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/apple.png link=\"no\" alt=\"\"]]"
@@ -91,11 +95,11 @@ msgstr "[[!img install/inc/icons/apple.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "macOS 10.10"
-msgstr ""
+msgstr "macOS 10.10"
 
 #. type: Content of: <div><div><p>
 msgid "Yosemite"
-msgstr ""
+msgstr "Yosemite"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/linux.png link=\"no\" alt=\"\"]]"
@@ -107,7 +111,7 @@ msgstr "Linux"
 
 #. type: Content of: <div><div><p>
 msgid "any distribution"
-msgstr ""
+msgstr "qualsevol distribució"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/debian.png link=\"no\" alt=\"\"]]"
@@ -115,15 +119,15 @@ msgstr "[[!img install/inc/icons/debian.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "Debian"
-msgstr ""
+msgstr "Debian"
 
 #. type: Content of: <div><div><p>
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #. type: Content of: <div><div><p>
 msgid "or another derivative"
-msgstr ""
+msgstr "o algun altre derivat"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/tails.png link=\"no\" alt=\"\"]]"
@@ -131,11 +135,11 @@ msgstr "[[!img install/inc/icons/tails.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "another Tails"
-msgstr ""
+msgstr "un altre Tails"
 
 #. type: Content of: <div><div><p>
 msgid "USB stick or DVD"
-msgstr ""
+msgstr "un llapis USB o un DVD"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/laptop.png link=\"no\" alt=\"\"]]"
@@ -143,7 +147,7 @@ msgstr "[[!img install/inc/icons/laptop.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "2 GB of RAM"
-msgstr ""
+msgstr "2 GB de RAM"
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -151,20 +155,26 @@ msgid ""
 "windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d\">64-"
 "bit</a>"
 msgstr ""
+"<a href=\"https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-"
+"windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d\">64-"
+"bit (en anglès)</a>"
 
 #. type: Content of: <div><div><p>
 msgid "Intel processor"
-msgstr ""
+msgstr "Processador Intel"
 
 #. type: Content of: <div><div><p>
 msgid "not Apple M1 or M2"
-msgstr ""
+msgstr "no Apple M1 o M2"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "<a href=\"https://www.howtogeek.com/198615/how-to-check-if-your-linux-system-"
 "is-32-bit-or-64-bit/\">64-bit</a>"
 msgstr ""
+"<a href=\"https://www.howtogeek.com/198615/"
+"how-to-check-if-your-linux-system-is-32-bit-or-64-bit/\">64-bit (en "
+"anglès)</a>"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/phone.png link=\"no\" alt=\"\"]]"
@@ -172,15 +182,15 @@ msgstr "[[!img install/inc/icons/phone.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "a smartphone"
-msgstr ""
+msgstr "un telèfon intel·ligent"
 
 #. type: Content of: <div><div><p>
 msgid "or a printer"
-msgstr ""
+msgstr "o una impressora"
 
 #. type: Content of: <div><div><p>
 msgid "to follow the instructions"
-msgstr ""
+msgstr "per seguir les instruccions"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/clock.png link=\"no\" alt=\"\"]]"
@@ -188,15 +198,15 @@ msgstr "[[!img install/inc/icons/clock.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "1 hour in total"
-msgstr ""
+msgstr "una hora en total"
 
 #. type: Content of: <div><div><p>
 msgid "½ hour"
-msgstr ""
+msgstr "Mitja hora"
 
 #. type: Content of: <div><div><p>
 msgid "¼ hour"
-msgstr ""
+msgstr "Un quart d'hora"
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -208,17 +218,19 @@ msgstr ""
 
 #. type: Content of: <div><div><p>
 msgid "½ hour to install"
-msgstr ""
+msgstr "Mitja hora per instal·lar"
 
 #. type: Content of: <div><div><p>
 msgid "½ hour to upgrade"
-msgstr ""
+msgstr "Mitja hora per actualitzar"
 
 #. type: Content of: <p>
 msgid ""
 "[[!toggle id=\"requirements\" text=\"Detailed system requirements and "
 "recommended hardware.\"]]"
 msgstr ""
+"[[!toggle id=\"requirements\" text=\"Requisits detallats del sistema i "
+"maquinari recomanat.\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -232,7 +244,7 @@ msgstr ""
 
 #. type: Content of: <h2>
 msgid "Your steps"
-msgstr ""
+msgstr "Els vostres passos"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -256,7 +268,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Download the upgrade"
-msgstr ""
+msgstr "Baixar l'actualització"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -268,7 +280,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Verify your download"
-msgstr ""
+msgstr "Verificar la baixada"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -288,7 +300,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Restart on the other Tails"
-msgstr ""
+msgstr "Reiniciar a l'altre Tails"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -300,11 +312,11 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Download <i>balenaEtcher</i>"
-msgstr ""
+msgstr "Baixar <i>balenaEtcher</i>"
 
 #. type: Content of: <div><a><p>
 msgid "Install <i>balenaEtcher</i>"
-msgstr ""
+msgstr "Instal·lar <i>balenaEtcher</i>"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -316,15 +328,15 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Install Tails using <i>balenaEtcher</i>"
-msgstr ""
+msgstr "Instal·lar Tails utilitzant <i>balenaEtcher</i>"
 
 #. type: Content of: <div><a><p>
 msgid "Install Tails using <i>GNOME Disks</i>"
-msgstr ""
+msgstr "Instal·lar Tails utilitzant <i>Discs de GNOME</i>"
 
 #. type: Content of: <div><a><p>
 msgid "Install Tails using <span class=\"command\">dd</span>"
-msgstr ""
+msgstr "Instal·lar Tails utilitzant <span class=\"command\">dd</span>"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -336,7 +348,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Install intermediary using <i>balenaEtcher</i>"
-msgstr ""
+msgstr "Instal·lar l'intermediari utilitzant <i>balenaEtcher</i>"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -348,7 +360,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Install intermediary using <i>GNOME Disks</i>"
-msgstr ""
+msgstr "Instal·lar l'intermediari utilitzant <i>Discs de GNOME</i>"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -368,7 +380,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Restart on your Tails USB stick"
-msgstr ""
+msgstr "Reiniciar al vostre llapis USB de Tails"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -380,7 +392,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Restart on intermediary"
-msgstr ""
+msgstr "Reiniciar a l'intermediari"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -400,7 +412,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Install Tails by cloning"
-msgstr ""
+msgstr "Instal·lar Tails a partir de la clonació"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -412,7 +424,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Upgrade your Tails by cloning"
-msgstr ""
+msgstr "Actualitzar Tails a partir de la clonació"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -424,7 +436,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Restart on your new Tails"
-msgstr ""
+msgstr "Reiniciar al vostre nou Tails"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -436,7 +448,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Welcome to Tails!"
-msgstr ""
+msgstr "Us donem la benvinguda a Tails!"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -448,7 +460,7 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Welcome to your new Tails!"
-msgstr ""
+msgstr "Us donem la benvinguda al vostre nou Tails!"
 
 #. type: Content of: <div>
 msgid "</a>"

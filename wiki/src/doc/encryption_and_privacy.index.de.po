@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-10 10:12+0000\n"
+"PO-Revision-Date: 2023-11-08 14:11+0000\n"
 "Last-Translator: Deleted User <noreply+435@weblate.org>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -27,72 +27,48 @@ msgstr ""
 "Passwörter_verwalten]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Create_and_use_encrypted_volumes|encryption_and_privacy/"
-#| "encrypted_volumes]]"
 msgid ""
 "[[Creating and using *LUKS* encrypted volumes|encryption_and_privacy/"
 "encrypted_volumes]]"
 msgstr ""
-"[[!traillink Erstellen_und_Benutzen_verschlüsselter_Laufwerke|"
-"encryption_and_privacy/encrypted_volumes]]"
+"[[Erstellen und Verwenden von *LUKS* verschlüsselten "
+"Datenträgern|verschlüsselung_und_privatsphäre/verschlüsselte_volumes]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Create_and_use_encrypted_volumes|encryption_and_privacy/"
-#| "encrypted_volumes]]"
 msgid ""
 "[[Using *VeraCrypt* encrypted volumes|encryption_and_privacy/veracrypt]]"
 msgstr ""
-"[[!traillink Erstellen_und_Benutzen_verschlüsselter_Laufwerke|"
-"encryption_and_privacy/encrypted_volumes]]"
+"[[Verwendung von *VeraCrypt* verschlüsselten "
+"Datenträgern|verschlüsselung_und_privatsphäre/veracrypt]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Using_the_virtual_keyboard|encryption_and_privacy/"
-#| "virtual_keyboard]]"
 msgid ""
 "[[Encrypting text and files using *GnuPG* and *Kleopatra*|"
 "encryption_and_privacy/kleopatra]]"
 msgstr ""
-"[[!traillink Verwendung_der_Bildschirmtastatur|encryption_and_privacy/"
-"virtual_keyboard]]"
+"[[Verschlüsselung von Text und Dateien mit *GnuPG* und "
+"*Kleopatra*|verschlüsselung_und_privatsphäre/kleopatra]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Create_and_use_encrypted_volumes|encryption_and_privacy/"
-#| "encrypted_volumes]]"
 msgid ""
 "[[Securely deleting files and clean diskspace|encryption_and_privacy/"
 "secure_deletion]]"
 msgstr ""
-"[[!traillink Erstellen_und_Benutzen_verschlüsselter_Laufwerke|"
-"encryption_and_privacy/encrypted_volumes]]"
+"[[Dateien sicher löschen und Speicherplatz "
+"säubern|verschlüsselung_und_privatsphäre/sichere_löschung]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Using_the_virtual_keyboard|encryption_and_privacy/"
-#| "virtual_keyboard]]"
 msgid ""
 "[[Calculating checksums using *GtkHash*|encryption_and_privacy/checksums]]"
 msgstr ""
-"[[!traillink Verwendung_der_Bildschirmtastatur|encryption_and_privacy/"
-"virtual_keyboard]]"
+"[[Prüfsummenberechnung mit *GtkHash*|verschlüsselung_und_privatsphäre/"
+"prüfsummen]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Create_and_use_encrypted_volumes|encryption_and_privacy/"
-#| "encrypted_volumes]]"
 msgid "[[Using the screen keyboard|encryption_and_privacy/virtual_keyboard]]"
 msgstr ""
-"[[!traillink Erstellen_und_Benutzen_verschlüsselter_Laufwerke|"
-"encryption_and_privacy/encrypted_volumes]]"
+"[[Verwendung der Bildschirmtastatur|verschlüsselung_und_privatsphäre/"
+"virtuelle_tastatur]]"
 
 #, fuzzy, no-wrap
 #~| msgid ""

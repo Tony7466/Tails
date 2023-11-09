@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-11 14:19-0500\n"
-"PO-Revision-Date: 2023-10-10 10:13+0000\n"
+"PO-Revision-Date: 2023-11-06 17:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -31,7 +31,7 @@ msgstr "Aber Tor hat Grenzen, wenn Sie sich Sorgen machen über:"
 
 #. type: Content of: <ul><li>
 msgid "Hiding that you are using Tor and Tails"
-msgstr ""
+msgstr "Verbergen, dass Du Tor und Tails nutzt"
 
 #. type: Content of: <ul><li>
 msgid "Protecting your online communications from determined, skilled attackers"

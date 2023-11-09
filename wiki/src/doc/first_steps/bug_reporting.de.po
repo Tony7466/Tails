@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-03-13 17:30+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Language Team <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgid ""
 "how you did that."
 msgstr ""
 "Das Hauptziel einer Fehlerbeschreibung ist es, **den Entwicklern genau zu "
-"sagen wie der Fehler reproduziert werden kann**. Versuchen Sie also selbst "
+"sagen, wie der Fehler reproduziert werden kann**. Versuchen Sie also selbst, "
 "das Problem wiederherzustellen und beschreiben Sie, wie Sie das erreicht "
 "haben."
 
@@ -92,7 +92,7 @@ msgid ""
 "Write down the error messages, especially if they have numbers."
 msgstr ""
 "Falls das nicht möglich ist, versuchen Sie **detailliert zu beschreiben, was "
-"nicht funktionierte**. Schreiben Sie Fehlermeldungen auf, vor allem wenn "
+"nicht funktionierte**. Schreiben Sie die Fehlermeldungen auf, vor allem wenn "
 "diese Nummern haben."
 
 #. type: Bullet: '  - '
@@ -100,15 +100,15 @@ msgid ""
 "Write **clearly and be precise**. Say what you mean, and make sure it cannot "
 "be misinterpreted."
 msgstr ""
-"Schreiben Sie **klar und präzise**. Sagen Sie was Sie meinen und stellen Sie "
-"sicher, dass es nicht falsch verstanden werden kann."
+"Schreiben Sie **klar und präzise**. Sagen Sie, was Sie meinen und stellen "
+"Sie sicher, dass es nicht falsch verstanden werden kann."
 
 #. type: Bullet: '  - '
 msgid ""
 "Be ready to provide extra information if the developers need it. If they did "
 "not need it, they would not be asking for it."
 msgstr ""
-"Seien Sie bereit, zusätzliche Angaben zu machen, falls die Entwickler sie "
+"Seien Sie bereit, zusätzliche Angaben zu machen, falls die Entwickler diese "
 "brauchen. Andernfalls würden sie nicht danach fragen."
 
 #. type: Plain text
@@ -121,10 +121,9 @@ msgstr ""
 "von Simon Tatham nachlesen."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"whisperback\"></a>\n"
+#, no-wrap
 msgid "<h1 id=\"whisperback\">Use WhisperBack</h1>\n"
-msgstr "<a id=\"whisperback\"></a>\n"
+msgstr "<h1 id=\"whisperback\">benutze WhisperBack</h1>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -239,32 +238,39 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"debian\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"screenshot\">Take a screenshot</h2>\n"
-msgstr "<a id=\"debian\"></a>\n"
+msgstr "<h2 id=\"Bildschirmfoto\">erstelle ein Bildschirmfoto</h2>\n"
 
 #. type: Plain text
 msgid "It might be helpful to include a screenshot with your bug report."
 msgstr ""
+"Es könnte hilfreich sein, ein Bildschiormfoto zu Ihrem Fehlerbericht "
+"hinzuzufügen."
 
 #. type: Bullet: '- '
 msgid ""
 "To take a screenshot of the entire desktop, press <span "
 "class=\"keycap\">Print Screen</span>."
 msgstr ""
+"Um einen Bildschirmfoto des gesamten Desktops zu erstellen, drücken Sie "
+"<span class=\"keycap\">Drucken</span>."
 
 #. type: Bullet: '- '
 msgid ""
 "To take a screenshot of a single window, press <span class=\"keycap\">Alt + "
 "Print Screen</span>."
 msgstr ""
+"Um einen Screenshot eines einzelnen Fensters zu erstellen, drücken Sie <span "
+"class=\"keycap\">Alt + Drucken</span>."
 
 #. type: Bullet: '- '
 msgid ""
 "To take a screenshot of an area you select, press <span "
 "class=\"keycap\">Shift + Print Screen</span>."
 msgstr ""
+"Um ein Bildschirmfoto von einem ausgewählten Bereich zu erstellen, drücken "
+"Sie <span class=\"keycap\">Umschalttaste + Drucken</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -274,14 +280,21 @@ msgid ""
 "<span class=\"filename\">Home</span> folder. The file name will begin with the\n"
 "word <span class=\"filename\">Screenshot</span>.\n"
 msgstr ""
+"Das Bildschirmfoto wird automatisch im Ordner\n"
+"<span class=\"filename\">Bilder</span>-Ordner gespeichert, der sich in "
+"Ihrem\n"
+"<span class=\"filename\">Home</span>-Ordner befindet. Der Dateiname beginnt "
+"mit dem\n"
+"Wort <span class=\"filename\">Screenshot</span>.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "If you cannot use <span class=\"application\">WhisperBack</span>\n"
+#, no-wrap
 msgid ""
 "You can also take a screenshot using\n"
 "<span class=\"application\">GNOME Screenshot</span>.\n"
-msgstr "Falls Sie <span class=\"application\">WhisperBack</span> nicht benutzen können\n"
+msgstr ""
+"Sie können auch ein Bildschirmfoto erstellen mit\n"
+"<span class=\"application\">GNOME Screenshot</span>.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -309,6 +322,9 @@ msgid ""
 "You can upload the screenshot to an [encrypted Up1 host](https://github.com/"
 "Upload/Up1) such as the one available at:"
 msgstr ""
+"Sie können das Bildschirmfoto auf einen [verschlüsselten Up1-Host] "
+"(https://github.com/Upload/Up1) hochladen, der z. B. unter folgender Adresse "
+"verfügbar ist:"
 
 #. type: Plain text
 msgid "<https://share.riseup.net/>"
@@ -317,12 +333,13 @@ msgstr "<https://share.riseup.net/>"
 #. type: Plain text
 msgid "Make sure to include in your bug report a link to the screenshot."
 msgstr ""
+"Stellen Sie sicher, dass Sie in Ihrem Fehlerbericht einen Link zum "
+"Bildschirmfoto angeben."
 
 #. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Optional email address\n"
+#, no-wrap
 msgid "Optional email address"
-msgstr "Optionale E-Mail-Addresse\n"
+msgstr "Optionale E-Mail-Adresse"
 
 #. type: Plain text
 msgid ""
@@ -334,11 +351,11 @@ msgid ""
 msgstr ""
 "Wenn Sie uns eine E-Mail-Adresse angeben, ermöglichen Sie es uns, mit Ihnen "
 "in Kontakt zu treten, um das Problem zu klären. Dies wird für die "
-"überwiegende Mehrheit der Berichte die wir bekommen benötigt, da die meisten "
-"Berichte ohne Kontaktinformation unbrauchbar sind. Nehmen Sie jedoch zur "
-"Kenntnis, das dies auch eine Möglichkeit zur Überwachung bietet, z.B. von "
-"Ihrem E-Mail- oder Internetprovider, um zu bestätigen, dass Sie Tails "
-"benutzen."
+"überwiegende Mehrheit der Berichte, die wir bekommen, benötigt, da die "
+"meisten Berichte ohne Kontaktinformationen unbrauchbar sind. Nehmen Sie "
+"jedoch zur Kenntnis, dass dies auch eine Möglichkeit zur Überwachung bietet, "
+"z.B. von Ihrem E-Mail- oder Internetprovider, um zu bestätigen, dass Sie "
+"Tails benutzen."
 
 #. type: Title -
 #, fuzzy, no-wrap
@@ -352,7 +369,7 @@ msgid ""
 "You can either give:"
 msgstr ""
 "Sie können auch einen OpenPGP Schlüssel angeben, der zu der E-Mail-Adresse "
-"gehört. Sie können angeben:"
+"gehört. Sie können entweder angeben:"
 
 #. type: Bullet: '  - '
 msgid "a **key ID**, if the key is available on public key servers"
@@ -372,10 +389,9 @@ msgstr ""
 "abrufbar ist"
 
 #. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Send your report\n"
+#, no-wrap
 msgid "Send your report"
-msgstr "Versenden Sie ihre Fehlerbeschreibung\n"
+msgstr "Versenden Sie ihre Fehlerbeschreibung"
 
 #. type: Plain text
 msgid ""
@@ -390,8 +406,9 @@ msgid ""
 "Once your email has been sent correctly you will get the following\n"
 "notification: <span class=\"guilabel\">Your message has been sent</span>.\n"
 msgstr ""
-"Sobald Ihre E-Mail korrekt versandt wurde werden Sie folgenden\n"
-"Hinweis sehen: <span class=\"guilabel\">Ihre Nachricht wurde versandt</span>.\n"
+"Sobald Ihre E-Mail korrekt versandt wurde, werden Sie folgenden\n"
+"Hinweis sehen: <span class=\"guilabel\">Ihre Nachricht wurde versandt</span>."
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -418,10 +435,9 @@ msgstr ""
 "treffen (z.B. indem Sie Tor mit einem Wegwerf-E-Mail Account verwenden)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"no_internet_access\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"no-internet-access\">No Internet access</h2>\n"
-msgstr "<a id=\"no_internet_access\"></a>\n"
+msgstr "<h2 id=\"no-internet-access\">Kein Internetzugang</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -431,20 +447,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy
-#| msgid "WhisperBack won't be able to send your bug report."
 msgid ""
 "WhisperBack won't be able to send your bug report if you are not connected "
 "to the Internet."
-msgstr "WhisperBack wird Ihre Fehlerbeschreibung nicht versenden können."
+msgstr ""
+"WhisperBack ist nicht in der Lage, Ihren Fehlerbericht zu senden, wenn Sie "
+"nicht mit dem Internet verbunden sind."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The following steps can be used as an alternative method:"
 msgid ""
 "The following steps can be used as an alternative method to send your bug "
 "report:"
-msgstr "Die folgenden Schritte können Sie alternativ durchführen:"
+msgstr ""
+"Die folgenden Schritte können als alternative Methode zum Senden Ihres "
+"Fehlerberichts verwendet werden:"
 
 #. type: Bullet: '1. '
 msgid "In Tails, start WhisperBack"
@@ -453,11 +469,12 @@ msgstr "Starten Sie Whisperback in Tails"
 #. type: Bullet: '2. '
 msgid "In the bug report window, expand \"technical details to include\""
 msgstr ""
-"Im Fehlermeldungsfenster gehen Sie auf \"Technische Details zum Einbeziehen\""
+"Im Fehlerberichtsfenster erweitern Sie \"Technische Details, die enthalten "
+"sein sollen\""
 
 #. type: Bullet: '3. '
 msgid "Copy everything in the \"debugging info\" box"
-msgstr "Kopieren Sie alles in dem Feld \"Informationen zur Fehlersuche\""
+msgstr "Kopieren Sie alles im Feld \"Informationen zur Fehlersuche\""
 
 #. type: Bullet: '4. '
 #, fuzzy
@@ -473,21 +490,20 @@ msgstr "Speichern Sie das Dokument auf einem USB Stick"
 msgid "Boot into a system with Internet connection and send your report"
 msgstr ""
 "Starten Sie ein System, das eine Internetverbindung hat und versenden Sie "
-"ihre Fehlerbeschreibung"
+"Ihre Fehlerbeschreibung"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"does-not-start\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"does-not-start\">Tails does not start</h2>\n"
-msgstr "<a id=\"does-not-start\"></a>\n"
+msgstr "<h2 id=\"does-not-start\">Tails startet nicht</h2>\n"
 
 #. type: Plain text
 msgid ""
 "For troubleshooting instructions in case Tails fails to start, refer to our "
 "installation instructions on:"
 msgstr ""
-"Für Anweisungen zur Problembehebung für den Fall, dass Tails nicht startet, "
-"verweisen wir auf unsere Installationsanweisungen zum:"
+"Falls Tails nicht startet, finden Sie Hinweise zur Fehlerbehebung in unserer "
+"Installationsanleitung auf:"
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -544,12 +560,14 @@ msgid ""
 "Debian also distributes images (*Debian live*) that you can install on a USB "
 "stick using the same installation procedure as for installing Tails."
 msgstr ""
+"Debian vertreibt auch Images (*Debian live*), die Sie auf einem USB-Stick "
+"mit der gleichen Installationsprozedur wie bei der Installation von Tails "
+"installieren können."
 
 #. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Debian stable\n"
+#, no-wrap
 msgid "Debian stable"
-msgstr "Debian stable\n"
+msgstr "Debian stable"
 
 #. type: Plain text
 msgid ""
@@ -574,13 +592,12 @@ msgid ""
 msgstr ""
 "Laden Sie das Image `gnome+nonfree.iso` herunter, um die GNOME-"
 "Arbeitsumgebung und alle unfreie Firmware für bessere Hardwarekompatibilität "
-"zu haben."
+"zu erhalten."
 
 #. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Debian testing\n"
+#, no-wrap
 msgid "Debian testing"
-msgstr "Debian testing\n"
+msgstr "Debian testing"
 
 #. type: Plain text
 msgid "Images for the testing version of Debian are available on:"

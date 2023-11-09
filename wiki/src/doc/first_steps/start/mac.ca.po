@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-03 15:12+0000\n"
+"PO-Revision-Date: 2023-11-03 20:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -97,7 +97,7 @@ msgid ""
 msgstr ""
 "[[!img install/inc/screenshots/grub.png link=\"no\" alt=\"Pantalla negra\n"
 "('GNU GRUB') amb el logotip de Tails i dues opcions: 'Tails' i 'Tails\n"
-"(Troubleshooting Mode)'.\"]]\n"
+"(Mode de resolució de problemes)'.\"]]\n"
 
 #. type: Plain text
 #, no-wrap

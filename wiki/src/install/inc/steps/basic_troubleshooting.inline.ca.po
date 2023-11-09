@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-30 21:51+0000\n"
-"PO-Revision-Date: 2023-07-28 16:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-05 23:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -27,23 +27,23 @@ msgstr ""
 
 #. type: Content of: <ol><li><p>
 msgid "Make sure that you have installed Tails using either:"
-msgstr ""
+msgstr "Assegureu-vos d'haver instal·lat Tails mitjançant:"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>balenaEtcher</i> from Windows|install/windows#etcher]]"
-msgstr ""
+msgstr "[[<i>balenaEtcher</i> des de Windows|install/windows#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>balenaEtcher</i> from macOS|install/mac#etcher]]"
-msgstr ""
+msgstr "[[<i>balenaEtcher</i> des de macOS|install/mac#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>GNOME Disks</i> from Linux|install/linux#install]]"
-msgstr ""
+msgstr "[[<i>Discs de GNOME</i> des de Linux|install/linux#install]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[the Linux command line|install/expert#install]]"
-msgstr ""
+msgstr "[[la línia d'ordres de Linux|install/expert#install]]"
 
 #. type: Content of: <ol><li><p>
 msgid ""

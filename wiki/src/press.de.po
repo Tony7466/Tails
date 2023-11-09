@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-03-12 00:27+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-08 16:11+0000\n"
+"Last-Translator: Bruckmandl <tails.translate@tannenzapfen.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "[[!toc levels=1]]\n"
 #. type: Title =
 #, no-wrap
 msgid "Announcements and press releases"
-msgstr ""
+msgstr "Ankündigungen und Pressemeldungen"
 
 #. type: Plain text
 msgid ""
@@ -44,6 +44,9 @@ msgid ""
 "email or by RSS feed on [[Tails News|news]].  They are mainly meant for "
 "Tails users."
 msgstr ""
+"Die von uns veröffentlichten allgemeinen Ankündigungen sind entweder per E-"
+"Mail oder per RSS-Feed auf [[Tails News|news]] verfügbar. Sie sind "
+"hauptsächlich für Tails-Benutzer gedacht."
 
 #. type: Plain text
 msgid ""
@@ -52,12 +55,18 @@ msgid ""
 "press]] if you want to receive future press releases, or if you have a press "
 "inquiry."
 msgstr ""
+"Wir veröffentlichen manchmal Pressemitteilungen, die jedoch nicht auf der "
+"Website archiviert werden. Schreiben Sie uns eine E-Mail an [[tails-"
+"press@boum.org|about/contact#tails-press]], wenn Sie zukünftige "
+"Pressemitteilungen erhalten möchten oder eine Presseanfrage haben."
 
 #. type: Plain text
 msgid ""
 "You can also send press articles about Tails to this address, so we can add "
 "them to this page."
 msgstr ""
+"Sie können auch Presseartikel über Tails an diese Adresse senden, damit wir "
+"sie dieser Seite hinzufügen können."
 
 #. type: Plain text
 #, no-wrap
@@ -72,6 +81,10 @@ msgid ""
 "public key|doc/about/openpgp_keys#press]].\n"
 "</p>\n"
 msgstr ""
+"<p>\n"
+"Wir laden Sie ein, Ihre Presseanfagen mit  [[our OpenPGP\n"
+"public key|doc/about/openpgp_keys#press]] zu verschlüsseln.\n"
+"</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -81,17 +94,19 @@ msgstr "</div>\n"
 #. type: Title =
 #, no-wrap
 msgid "Quick links to better understand Tails"
-msgstr ""
+msgstr "Informationen, um Tails besser zu verstehen"
 
 #. type: Bullet: '* '
 msgid "[[About Tails|about]] for a quick overview"
-msgstr ""
+msgstr "[[Über Tails|about]] für einen schnellen Überblick"
 
 #. type: Bullet: '* '
 msgid ""
 "More details about the [[features and software|doc/about/features]] included "
 "in Tails"
 msgstr ""
+"Weitere Details zu den in Tails enthaltenen [[Funktionen und Software|doc/"
+"about/features]]"
 
 #. type: Bullet: '* '
 msgid ""
@@ -133,7 +148,7 @@ msgstr "[[!inline pages=\"press/media_appearances_2020\" raw=\"yes\" sort=\"age\
 
 #. type: Plain text
 msgid "Older media appearances"
-msgstr ""
+msgstr "Ältere Nachrichten"
 
 #. type: Bullet: '* '
 msgid "[[!toggle id=\"media_appearances_2019\" text=\"2019\"]]"

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-09 01:11+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -121,10 +121,12 @@ msgid ""
 "Right-click (on Mac, click with two fingers) on the circuit that you want to "
 "close."
 msgstr ""
+"Feu clic amb el botó dret (a Mac, feu clic amb dos dits) al circuit que "
+"voleu tancar."
 
 #. type: Bullet: '1. '
 msgid "Choose **Close this circuit** in the shortcut menu."
-msgstr ""
+msgstr "Trieu **Tanca aquest circuit** al menú de dreceres."
 
 #. type: Plain text
 #, no-wrap
@@ -132,6 +134,9 @@ msgid ""
 "   When you close a circuit that is being used by an application, your\n"
 "   application gets disconnected from this destination service.\n"
 msgstr ""
+"   Quan tanqueu un circuit que està sent utilitzat per una aplicació, la "
+"vostra\n"
+"   aplicació es desconnecta d'aquest servei de destinació.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -139,17 +144,23 @@ msgid ""
 "   For example, when you close a circuit while <i>Tor Browser</i> is\n"
 "   downloading a file, the download fails.\n"
 msgstr ""
+"   Per exemple, quan tanqueu un circuit mentre el <i>Navegador Tor</i> està\n"
+"   baixant un fitxer, la baixada falla.\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "If you connect to the same destination server again, Tor uses a different "
 "circuit to replace the circuit that you closed."
 msgstr ""
+"Si torneu a connectar-vos al mateix servidor de destinació, Tor utilitza un "
+"circuit diferent per substituir el circuit que heu tancat."
 
 #. type: Plain text
 #, no-wrap
 msgid "   For example, if you download the same file again, Tor uses a new circuit.\n"
 msgstr ""
+"   Per exemple, si torneu a baixar el mateix fitxer, Tor utilitza un circuit "
+"nou.\n"
 
 #~ msgid "[[!toc levels=1]]\n"
 #~ msgstr "[[!toc levels=1]]\n"
