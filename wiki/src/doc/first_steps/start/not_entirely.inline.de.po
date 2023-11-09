@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:41-0600\n"
-"PO-Revision-Date: 2023-11-09 13:11+0000\n"
+"PO-Revision-Date: 2023-11-09 17:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -42,30 +42,19 @@ msgid "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline\" raw=\"
 msgstr "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline.de\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "   Troubleshooting\n"
-#| "   ---------------\n"
+#, no-wrap
 msgid "<h2 id=\"troubleshooting-mode\">Try the Troubleshooting Mode entry</h2>\n"
 msgstr ""
-"   Fehlerbehebung\n"
-"   ---------------\n"
+"<h2 id=\"troubleshooting-mode\">Versuchen Sie den Eintrag des "
+"Fehlerbehebungsmodus</h2>\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "   1. In the <span class=\"guilabel\">Boot Tails</span> menu, choose the "
-#| "<span class=\"guilabel\">failsafe</span>\n"
-#| "   mode which might work better on some computers.\n"
 msgid ""
 "In the Boot Loader, choose the **Troubleshooting Mode** entry, which works "
 "better on some computers."
 msgstr ""
-"   1. Wählen Sie im Menü <span class=\"guilabel\">Boot Tails</span> die "
-"Option\n"
-"   <span class=\"guilabel\">failsafe</span> aus, welche auf manchen "
-"Computern besser\n"
-"   funktionieren kann.\n"
+"Im Boot-Loader wählen Sie den Eintrag **Troubleshooting-Modus**, der auf "
+"einigen Computern besser funktioniert."
 
 #. type: Plain text
 #, no-wrap
