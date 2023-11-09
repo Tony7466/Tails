@@ -12,15 +12,11 @@
 
 <!-- Inlined news -->
 
-<div>
 [[!inline pages="page(news/*) and !news/archive and !news/*/* and !news/discussion and (currentlang() or news/report_2* or news/test_*)" show="10" sort="-meta(date) age -path"]]
-</div>
 
 <!-- Feed buttons used by puppet-tails:manifests/website/rss2email.pp
 
-<div>
 [[!inline pages="page(news/*) and !news/archive and !news/*/* and !news/discussion and (currentlang() or news/report_2* or news/test_*) and tagged(announce)"
 show="10" feeds="yes" feedonly="yes" feedfile="emails" sort="-meta(date) age -path"]]
-</div>
 
 -->
