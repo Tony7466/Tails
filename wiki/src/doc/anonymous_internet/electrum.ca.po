@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-07 17:11+0000\n"
+"PO-Revision-Date: 2023-11-09 23:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Exchanging bitcoins using Electrum\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Intercanvi de bitcoins amb Electrum\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -33,24 +33,32 @@ msgid ""
 "[*Electrum*](https://electrum.org/) is a [[!wikipedia Bitcoin]] client that "
 "is particularly suited to the context of Tails because:"
 msgstr ""
+"[*Electrum*](https://electrum.org/) és un client de [[!wikipedia Bitcoin]] "
+"que s'adapta especialment al context de Tails perquè:"
 
 #. type: Bullet: '  - '
 msgid ""
 "You can use your wallet from different devices and avoid losing bitcoins in "
 "a backup mistake or computer failure."
 msgstr ""
+"Podeu utilitzar la vostra cartera des de diferents dispositius i evitar "
+"perdre bitcoins en un error de còpia de seguretat o un error informàtic."
 
 #. type: Bullet: '  - '
 msgid ""
 "Electrum does not download the blockchain, so there is no waiting time when "
 "starting."
 msgstr ""
+"Electrum no baixa la cadena de blocs, de manera que no hi ha temps d'espera "
+"a l'inici."
 
 #. type: Bullet: '  - '
 msgid ""
 "You can sign transactions from an offline working session for additional "
 "security."
 msgstr ""
+"Podeu signar transaccions des d'una sessió de treball fora de línia per "
+"obtenir més seguretat."
 
 #. type: Plain text
 #, no-wrap
@@ -62,12 +70,20 @@ msgid ""
 "  <span class=\"guimenuitem\">Electrum Bitcoin Wallet</span>\n"
 "</span>.\n"
 msgstr ""
+"Per iniciar <span class=\"application\">Electrum</span> trieu\n"
+"<span class=\"menuchoice\">\n"
+"   <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"   <span class=\"guisubmenu\">Internet</span>&nbsp;▸\n"
+"   <span class=\"guimenuitem\">Cartera Electrum Bitcoin</span>\n"
+"</span>.\n"
 
 #. type: Plain text
 msgid ""
 "To learn how to use *Electrum*, read the [*Electrum* documentation](https://"
 "electrum.readthedocs.io/)."
 msgstr ""
+"Per aprendre a utilitzar *Electrum*, llegiu la [documentació "
+"d'*Electrum*](https://electrum.readthedocs.io/) (en anglès)."
 
 #. type: Plain text
 msgid ""
@@ -75,6 +91,9 @@ msgid ""
 "Guide to Bitcoin That Won’t Leave You Frustrated](https://www.vpnmentor.com/"
 "blog/ultimate-guide-bitcoin/)."
 msgstr ""
+"Per obtenir una explicació de com funciona Bitcoin en termes senzills, "
+"llegiu [La guia detallada de Bitcoin que no us deixarà frustrat](https://www."
+"vpnmentor.com/blog/ultimate-guide-bitcoin/) (en anglès)."
 
 #. type: Plain text
 #, no-wrap
@@ -87,6 +106,9 @@ msgid ""
 "<p>Bitcoin is <a href=\"https://bitcoin.org/en/faq#is-bitcoin-anonymous\">not\n"
 "anonymous</a>.</p>\n"
 msgstr ""
+"<p>Bitcoin <a href=\"https://bitcoin.org/en/faq#is-bitcoin-anonymous\">no "
+"és\n"
+"anònim</a>.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -96,6 +118,11 @@ msgid ""
 "<span class=\"application\">Electrum</span> automatically generates new\n"
 "addresses for you to use.</p>\n"
 msgstr ""
+"<p>Per fer més difícil relacionar les vostres diferents transaccions, "
+"hauríeu d'utilitzar\n"
+"una adreça de recepció diferent per a cada transacció.\n"
+"<span class=\"application\">Electrum</span> genera automàticament adreces\n"
+"noves que podeu utilitzar.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -116,6 +143,12 @@ msgid ""
 "  <span class=\"guimenu\">Tools</span>&nbsp;▸\n"
 "  <span class=\"guimenuitem\">Preferences</span></span>.</p>\n"
 msgstr ""
+"<p><span class=\"application\">Electrum</span> utilitza <em>mBTC</em> com a\n"
+"unitat base predeterminada. 1 mBTC = 0,001 BTC. Per canviar la unitat base, "
+"seleccioneu\n"
+"<span class=\"menuchoice\">\n"
+"   <span class=\"guimenu\">Eines</span>&nbsp;▸\n"
+"   <span class=\"guimenuitem\">Preferències</span></span>.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -123,16 +156,20 @@ msgid ""
 "<p>Do not blindly trust the bitcoin balance that <span class=\"application\">Electrum</span>\n"
 "displays as <em>unconfirmed</em>. Wait for transactions to be confirmed.</p>\n"
 msgstr ""
+"<p>No confieu cegament en el saldo de bitcoins que <span class=\"application"
+"\">Electrum</span>\n"
+"mostra com a <em>no confirmat</em>. Espereu que es confirmin les "
+"transaccions.</p>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Recovering your wallet from its seed"
-msgstr ""
+msgstr "Recuperar la vostra cartera de la seva llavor"
 
 #. type: Title -
 #, no-wrap
 msgid "Backing up your seed"
-msgstr ""
+msgstr "Còpia de seguretat de la vostra llavor"
 
 #. type: Plain text
 #, no-wrap
@@ -142,10 +179,15 @@ msgid ""
 "when creating the wallet. But if you lose your seed, you\n"
 "lose your entire wallet.\n"
 msgstr ""
+"La vostra cartera es pot recuperar completament de la seva <em>llavor</em>: "
+"la\n"
+"cadena de paraules generada per <span class=\"application\">Electrum</span>\n"
+"en crear la cartera. Però si perdeu la vostra llavor, llavors\n"
+"perdreu tota la cartera.\n"
 
 #. type: Plain text
 msgid "That's why we recommend you both:"
-msgstr ""
+msgstr "Per això us recomanem que:"
 
 #. type: Bullet: '- '
 msgid ""
@@ -163,16 +205,18 @@ msgid ""
 "Backup your seed outside of Tails. For example, you can write it down on a "
 "piece of paper and keep it with you."
 msgstr ""
+"Feu una còpia de seguretat de la vostra llavor fora de Tails. Per exemple, "
+"podeu escriure-ho en un paper i guardar-lo amb vosaltres."
 
 #. type: Plain text
 #, no-wrap
 msgid "<a name=\"corrupted\"></a>\n"
-msgstr ""
+msgstr "<a name=\"corrupted\"></a>\n"
 
 #. type: Title -
 #, no-wrap
 msgid "Fixing a corrupted wallet"
-msgstr ""
+msgstr "Arreglar una cartera malmesa"
 
 #. type: Plain text
 #, no-wrap
@@ -181,18 +225,23 @@ msgid ""
 "minimized, maybe your <span class=\"application\">Electrum</span> folder\n"
 "is corrupted.\n"
 msgstr ""
+"Si <span class=\"application\">Electrum</span> no s'inicia o es manté\n"
+"minimitzat, potser la vostra carpeta d'<span class=\"application\""
+">Electrum</span>\n"
+"està malmesa.\n"
 
 #. type: Plain text
 msgid "To recover your wallet from its seed:"
-msgstr ""
+msgstr "Per recuperar la cartera de la seva llavor:"
 
 #. type: Bullet: '1. '
 msgid "Make sure that <span class=\"application\">Electrum</span> is closed."
 msgstr ""
+"Assegureu-vos que <span class=\"application\">Electrum</span> estigui tancat."
 
 #. type: Bullet: '1. '
 msgid "Open your <span class=\"filename\">Home</span> folder."
-msgstr ""
+msgstr "Obriu la vostra carpeta <span class=\"filename\">Home</span>."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -206,21 +255,23 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Open the <span class=\"filename\">.electrum</span> folder."
-msgstr ""
+msgstr "Obriu la carpeta <span class=\"filename\">.electrum</span>."
 
 #. type: Bullet: '1. '
 msgid "Delete the <span class=\"filename\">wallets</span> folder."
-msgstr ""
+msgstr "Suprimiu la carpeta <span class=\"filename\">carteres</span>."
 
 #. type: Bullet: '1. '
 msgid "Start <span class=\"application\">Electrum</span>."
-msgstr ""
+msgstr "Inicieu <span class=\"application\">Electrum</span>."
 
 #. type: Bullet: '1. '
 msgid ""
 "When creating a new wallet choose <span class=\"guilabel\">I already have a "
 "seed</span> and specify the seed of your wallet."
 msgstr ""
+"Quan creeu una cartera nova, trieu <span class=\"guilabel\">Ja tinc una "
+"llavor</span> i especifiqueu la llavor de la vostra cartera."
 
 #~ msgid "[[!meta title=\"Exchange bitcoins using Electrum\"]]\n"
 #~ msgstr "[[!meta title=\"Bitcoins mit Electrum austauschen\"]]\n"
