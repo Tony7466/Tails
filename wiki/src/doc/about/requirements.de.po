@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-11-08 16:11+0000\n"
+"PO-Revision-Date: 2023-11-09 17:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -50,33 +50,20 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid "<p>Tails might not work on:</p>\n"
 msgid "Tails might not work on:"
-msgstr "<p>Tails läuft möglicherweise nicht auf:</p>\n"
+msgstr "Tails läuft möglicherweise nicht auf:"
 
 #. type: Bullet: '  * '
 msgid "Some older computers, for example, if they don't have enough RAM."
 msgstr ""
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid ""
-#| "<ul>\n"
-#| "<li>Some older computers, for example, if they don't have enough\n"
-#| "RAM.</li>\n"
-#| "<li>Some newer computers, for example, if their [[graphics card is\n"
-#| "not compatible with Linux|support/known_issues/graphics]].</li>\n"
-#| "</ul>\n"
 msgid ""
 "Some newer computers, for example, if their [[graphics card is incompatible "
 "with Linux|support/known_issues/graphics]]."
 msgstr ""
-"<ul>\n"
-"<li>Älteren Computern, beispielsweise wenn sie nicht genug RAM haben.</li>\n"
-"<li>Manchen neuen Computern, beispielsweise wenn ihre [[Grafik Karte nicht\n"
-"kompatibel mit Linux|support/known_issues/graphics]] ist.</li>\n"
-"</ul>\n"
+"Einige neuere Computer, zum Beispiel, wenn ihre [[Grafikkarte nicht mit "
+"Linux kompatibel ist|support/known_issues/graphics]]."
 
 #. type: Bullet: '  * '
 msgid ""
@@ -103,10 +90,9 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Hardware requirements:"
+#, no-wrap
 msgid "Hardware requirements"
-msgstr "Hardware Voraussetzungen:"
+msgstr "Hardware Voraussetzungen"
 
 #. type: Plain text
 msgid "- A USB stick of 8 GB minimum or a recordable DVD."
