@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-09 17:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -174,10 +174,9 @@ msgid "- Physically destroy the device."
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Securely delete files\n"
+#, no-wrap
 msgid "<h1 id=\"files\">Securely deleting files</h1>\n"
-msgstr "Dateien sicher löschen\n"
+msgstr "<h1 id=\"files\">Dateien sicher löschen</h1>\n"
 
 #. type: Plain text
 #, no-wrap
