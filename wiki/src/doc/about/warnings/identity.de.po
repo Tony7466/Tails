@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-10 10:13+0000\n"
-"Last-Translator: k3w b4fd <k3wqfo8bke6mgaijt7fyb4fd@systemli.org>\n"
+"PO-Revision-Date: 2023-11-10 04:13+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "[[!meta title=\"Schütze deine Identität wenn Du Tails benutzt\"]]"
 
 #. type: Content of: <h1>
 msgid "Protecting your identity when using Tails"
-msgstr "Schutz Ihrer Identität bei der Verwendung von Tails"
+msgstr "Schützen Sie Ihre Identität, wenn Sie Tails nutzen"
 
 #. type: Content of: <div>
 msgid ""
@@ -35,23 +35,27 @@ msgstr ""
 
 #. type: Content of: <h2>
 msgid "Clean metadata from files before sharing them"
-msgstr ""
+msgstr "Löschen Sie die Metadaten von Dateien, bevor Sie diese teilen"
 
 #. type: Content of: <p>
 msgid "Many files contain hidden data, or metadata:"
-msgstr ""
+msgstr "Viele Dateien beinhalten versteckte Daten oder Metadaten:"
 
 #. type: Content of: <ul><li><p>
 msgid ""
 "JPEG and other image files often contain information about where a picture "
 "was taken and which camera was used."
 msgstr ""
+"JPEG und andere Bilddateiformate beinhalten oftmals Informationen darüber, "
+"wo ein Bild aufgenommen wurde und welche Kamera benutzt wurde."
 
 #. type: Content of: <ul><li><p>
 msgid ""
 "Office documents often contain information about their author, and the date "
 "and time the document was created."
 msgstr ""
+"Office-Dokumente beinhalten oftmals Informationen über den Autor, das Datum "
+"und die Uhrzeit, wann das Dokument erstellt wurde."
 
 #. type: Content of: <p>
 msgid ""

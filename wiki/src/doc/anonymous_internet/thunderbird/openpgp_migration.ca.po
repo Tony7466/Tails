@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-03-13 17:37+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-09 23:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -46,6 +46,9 @@ msgid ""
 "See also the official [OpenPGP in Thunderbird - HOWTO and FAQ](https://"
 "support.mozilla.org/kb/openpgp-thunderbird-howto-and-faq)."
 msgstr ""
+"Vegeu també la guia oficial d'[OpenPGP a Thunderbird - HOWTO i "
+"FAQ](https://support.mozilla.org/kb/openpgp-thunderbird-howto-and-faq) (en "
+"anglès)."
 
 #. type: Plain text
 #, no-wrap
@@ -59,25 +62,27 @@ msgstr ""
 
 #. type: Plain text
 msgid "From the desktop:"
-msgstr ""
+msgstr "Des de l'escriptori:"
 
 #. type: Bullet: '1. '
 msgid "Choose **Applications&nbsp;▸ Accessories&nbsp;▸ Kleopatra**."
-msgstr ""
+msgstr "Trieu **Aplicacions&nbsp;▸ Accessoris&nbsp;▸ Kleopatra**."
 
 #. type: Bullet: '1. '
 msgid "Select the private key that you want to migrate to *Thunderbird*."
-msgstr ""
+msgstr "Seleccioneu la clau privada que voleu migrar a *Thunderbird*."
 
 #. type: Bullet: '1. '
 msgid ""
 "Choose **File&nbsp;▸ Export Secret Keys…** and save this private key to your "
 "*Home* directory."
 msgstr ""
+"Trieu **Fitxer&nbsp;▸ Exporta claus secretes...** i deseu aquesta clau "
+"privada al vostre directori *Inici*."
 
 #. type: Bullet: '1. '
 msgid "Close *Kleopatra*."
-msgstr ""
+msgstr "Tanqueu *Kleopatra*."
 
 #. type: Plain text
 #, no-wrap
@@ -86,23 +91,27 @@ msgstr ""
 
 #. type: Plain text
 msgid "In *Thunderbird*:"
-msgstr ""
+msgstr "A *Thunderbird*:"
 
 #. type: Bullet: '1. '
 msgid ""
 "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" link=\"no"
 "\"]]&nbsp;▸ Account Settings**."
 msgstr ""
+"Trieu **[[!img lib/open-menu.png alt=\"Menú\" class=\"symbolic\" link=\"no\""
+"]]&nbsp;▸ Configuració del compte**."
 
 #. type: Bullet: '1. '
 msgid ""
 "In the left pane, identify the account that corresponds to the private key "
 "that you want to import and choose **End-to-End Encryption**."
 msgstr ""
+"Al panell esquerre, identifiqueu el compte que correspon a la clau privada "
+"que voleu importar i trieu **Encriptació d'extrem a extrem**."
 
 #. type: Bullet: '1. '
 msgid "In the right pane, click the **Add Key…** button."
-msgstr ""
+msgstr "Al panell dret, feu clic al botó **Afegeix una clau...**."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -121,12 +130,17 @@ msgid ""
 "In the next dialog, make sure that your private key is listed and that the "
 "option **Treat this key as a Personal Key** is selected."
 msgstr ""
+"Al diàleg següent, assegureu-vos que la vostra clau privada aparegui a la "
+"llista i que l'opció **Tracta aquesta clau com a clau personal** estigui "
+"seleccionada."
 
 #. type: Bullet: '1. '
 msgid ""
 "Click **Continue**, enter the passphrase for your private key (if any), and "
 "click **Continue** again."
 msgstr ""
+"Feu clic a **Continua**, introduïu la contrasenya de la vostra clau privada ("
+"si n'hi ha) i torneu a fer clic a **Continua**."
 
 #. type: Plain text
 #, no-wrap
@@ -134,10 +148,15 @@ msgid ""
 "   Your private key should now be listed in the **End-to-End\n"
 "   Encryption** settings of your account.\n"
 msgstr ""
+"   Ara la vostra clau privada hauria de figurar a la llista de configuració "
+"**d'encriptació\n"
+"   d'extrem a extrem** del vostre compte.\n"
 
 #. type: Bullet: '1. '
 msgid "Select your private key to enable OpenPGP encryption for this account."
 msgstr ""
+"Seleccioneu la vostra clau privada per activar l'encriptatge OpenPGP per a "
+"aquest compte."
 
 #. type: Plain text
 #, no-wrap
@@ -164,21 +183,27 @@ msgid ""
 "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" link=\"no"
 "\"]]&nbsp;▸ Settings**."
 msgstr ""
+"Trieu **[[!img lib/open-menu.png alt=\"Menú\" class=\"symbolic\" link=\"no\""
+"]]&nbsp;▸ Configuració**."
 
 #. type: Bullet: '1. '
 msgid "Choose **Privacy & Security**."
-msgstr ""
+msgstr "Trieu **Privadesa i seguretat**."
 
 #. type: Bullet: '1. '
 msgid ""
 "In the **Passwords** section, select the option **Use a Primary Password**."
 msgstr ""
+"A la secció **Contrasenyes**, seleccioneu l'opció **Utilitza una contrasenya "
+"principal**."
 
 #. type: Bullet: '1. '
 msgid ""
 "In the **Change Primary Password** dialog, enter your Primary Password and "
 "click **Ok**."
 msgstr ""
+"Al diàleg **Canvia la contrasenya principal**, introduïu la vostra "
+"contrasenya principal i feu clic a **D'acord**."
 
 #. type: Plain text
 #, no-wrap

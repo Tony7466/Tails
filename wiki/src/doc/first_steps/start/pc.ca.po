@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-03 15:11+0000\n"
+"PO-Revision-Date: 2023-11-03 20:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Starting Tails on PC\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Iniciar Tails al PC\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -41,6 +41,8 @@ msgid ""
 "This page describes the basic and advanced techniques to start Tails from a "
 "USB stick on PC."
 msgstr ""
+"Aquesta pàgina descriu les tècniques bàsiques i avançades per iniciar Tails "
+"des d'un llapis USB a l'ordinador."
 
 #. type: Plain text
 #, no-wrap
@@ -50,11 +52,11 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"windows-restart\">Starting from Windows 8 or 10</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"windows-restart\">Iniciar a partir de Windows 8 o 10</h1>\n"
 
 #. type: Plain text
 msgid "From Windows or the sign-in screen of Windows:"
-msgstr ""
+msgstr "Des de Windows o la pantalla d'inici de sessió de Windows:"
 
 #. type: Plain text
 #, no-wrap
@@ -69,11 +71,17 @@ msgid ""
 "on the Welcome Screen|install/windows#tails]].</p>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"next\">\n"
+"<p>Si apareix el Carregador d'Arrencada, podeu seguir les nostres [["
+"instruccions\n"
+"de la Pantalla de Benvinguda|install/windows#tails]].</p>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"boot-menu-key\">Starting with the Boot Menu key</h1>\n"
 msgstr ""
+"<h1 id=\"boot-menu-key\">Iniciar amb la tecla del Menú d'Arrencada</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -103,7 +111,7 @@ msgid ""
 msgstr ""
 "[[!img install/inc/screenshots/grub.png link=\"no\" alt=\"Pantalla negra\n"
 "('GNU GRUB') amb el logotip de Tails i dues opcions: 'Tails' i 'Tails\n"
-"(Troubleshooting Mode)'.\"]]\n"
+"(Mode de resolució de problemes)'.\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -123,17 +131,19 @@ msgstr "<div class=\"note\">\n"
 #. type: Plain text
 #, no-wrap
 msgid "<p>If you get the following error message in Windows:</p>\n"
-msgstr ""
+msgstr "<p>Si rebeu el missatge d'error següent a Windows:</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<p class=\"pre\">The disc image file is corrupted.</p>\n"
-msgstr ""
+msgstr "<p class=\"pre\">El fitxer d'imatge del disc està malmès.</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<p>Then, you have to [[install Tails using <i>balenaEtcher</i>|install/windows#etcher]].</p>\n"
 msgstr ""
+"<p>Llavors, heu d'[[instal·lar Tails amb <i>balenaEtcher</i>|install/"
+"windows#etcher]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -144,6 +154,8 @@ msgstr "</div>\n"
 #, no-wrap
 msgid "<h2 id=\"known-issues\">Check our list of known issues</h2>\n"
 msgstr ""
+"<h2 id=\"known-issues\">Consulteu la nostra llista de problemes coneguts</h2>"
+"\n"
 
 #. type: Plain text
 msgid ""
@@ -151,17 +163,24 @@ msgid ""
 "our [[list of known issues about Tails not starting at all|support/"
 "known_issues#pc-not-at-all]]."
 msgstr ""
+"És possible que ja s'hagin informat problemes similars per al vostre model "
+"d'ordinador a la nostra [[llista de problemes coneguts sobre Tails quan no "
+"s'inicia|support/known_issues#pc-not-at-all]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"bios-settings\">Edit the BIOS or UEFI settings (advanced users)</h2>\n"
 msgstr ""
+"<h2 id=\"bios-settings\">Editar la configuració de la BIOS o UEFI (usuaris "
+"avançats)</h2>\n"
 
 #. type: Plain text
 msgid ""
 "To learn how to edit the BIOS or UEFI settings, search for the user manual "
 "of the computer on the support website of the manufacturer."
 msgstr ""
+"Per saber com editar la configuració de la BIOS o UEFI, cerqueu el manual "
+"d'usuari de l'ordinador al lloc web d'assistència del fabricant."
 
 #. type: Plain text
 #, no-wrap
@@ -175,10 +194,15 @@ msgid ""
 "can revert the changes if they prevent the computer from starting on its usual\n"
 "operating system.</p>\n"
 msgstr ""
+"<p>Preneu nota dels canvis que apliqueu a la configuració de la BIOS o UEFI. "
+"D'aquesta manera,\n"
+"podeu revertir els canvis si impedeixen que l'ordinador s'iniciï amb el seu\n"
+"sistema operatiu habitual.</p>\n"
 
 #. type: Plain text
 msgid "In the BIOS or UEFI settings, try to apply the following changes:"
 msgstr ""
+"A la configuració de la BIOS o UEFI, proveu d'aplicar els canvis següents:"
 
 #. type: Bullet: '- '
 msgid ""
@@ -186,6 +210,9 @@ msgid ""
 "This option might be called **Boot Device List** or something similar, "
 "depending on the computer."
 msgstr ""
+"Assegureu-vos que la clau del Menú d'Arrencada estigui activada a les "
+"opcions de la BIOS o UEFI. Aquesta opció es pot anomenar **Llista de "
+"dispositius d'arrencada** o alguna cosa semblant, depenent de l'ordinador."
 
 #. type: Bullet: '- '
 msgid ""
@@ -193,14 +220,18 @@ msgid ""
 "**USB media**. Move this entry to the top of the list to force the computer "
 "to start from the USB stick before starting from the internal hard disk."
 msgstr ""
+"Editeu l'**Ordre d'arrencada**. És possible que vegeu una entrada per a **"
+"Dispositius extraïbles** o **Mitjans USB**. Moveu aquesta entrada a la part "
+"superior de la llista per forçar l'ordinador a arrencar des del llapis USB "
+"abans de començar des del disc dur intern."
 
 #. type: Plain text
 msgid "- Disable **Fast Boot**."
-msgstr ""
+msgstr "- Desactiveu **Arrencada ràpida (Fast Boot)**."
 
 #. type: Plain text
 msgid "- Enable **CSM Boot**."
-msgstr ""
+msgstr "- Activeu **Arrencada CSM (CSM Boot)**."
 
 #. type: Bullet: '- '
 msgid ""
@@ -208,12 +239,17 @@ msgid ""
 "anymore on its regular operating system if you disable UEFI completely or if "
 "you only enable Legacy boot."
 msgstr ""
+"Habiliteu **Arrencada heretada (Legacy Boot)**, a més de UEFI. És possible "
+"que l'ordinador ja no s'iniciï al seu sistema operatiu normal si desactiveu "
+"completament UEFI o si només activeu l'arrencada heretada."
 
 #. type: Bullet: '- '
 msgid ""
 "Try to upgrade the BIOS or UEFI. To do so, refer to the support website of "
 "the computer manufacturer."
 msgstr ""
+"Intenteu actualitzar la BIOS o UEFI. Per fer-ho, consulteu el lloc web "
+"d'assistència del fabricant de l'ordinador."
 
 #. type: Plain text
 #, no-wrap

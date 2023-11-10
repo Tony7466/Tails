@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-13 19:48+0000\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-09 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Security\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Seguretat\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -54,6 +54,9 @@ msgid ""
 "Since Tails is based on Debian, it takes advantage of all the work done by "
 "the Debian security team. As quoted from <https://www.debian.org/security/>:"
 msgstr ""
+"Com que Tails es basa en Debian, aprofita tot el treball realitzat per "
+"l'equip de seguretat de Debian. Com es cita a <https://www.debian.org/"
+"security/>:"
 
 #. type: Plain text
 #, no-wrap
@@ -65,6 +68,17 @@ msgid ""
 "also have a Security Audit team that reviews the archive looking for new or\n"
 "unfixed security bugs.\n"
 msgstr ""
+"> Debian es pren la seguretat molt seriosament. Gestionem tots els "
+"problemes\n"
+"de seguretat que se'ns posen en coneixement i ens assegurem que es "
+"corregeixen\n"
+"en un termini raonable. Molts avisos es coordinen amb altres venedors de "
+"programari\n"
+"lliure i es publiquen el mateix dia que es fa pública una vulnerabilitat i "
+"també tenim\n"
+"un equip d'Auditoria de seguretat que revisa l'arxiu buscant errors de "
+"seguretat\n"
+"nous o no solucionats.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -75,11 +89,17 @@ msgid ""
 "respect to various known security vulnerabilities, which could potentially affect\n"
 "Debian.\n"
 msgstr ""
+"> L'experiència ha demostrat que \"la seguretat a través de l'obscuritat\" "
+"no\n"
+"funciona. La divulgació pública permet solucions més ràpides i millors als\n"
+"problemes de seguretat. En aquest sentit, aquesta pàgina aborda l'estat de\n"
+"Debian pel que fa a diverses vulnerabilitats de seguretat conegudes, que\n"
+"podrien afectar Debian.\n"
 
 #. type: Title #
 #, no-wrap
 msgid "Current security vulnerabilities"
-msgstr ""
+msgstr "Vulnerabilitats de seguretat actuals"
 
 #. type: Plain text
 #, no-wrap
@@ -99,12 +119,12 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Fixed security vulnerabilities"
-msgstr ""
+msgstr "Vulnerabilitats de seguretat corregides"
 
 #. type: Plain text
 #, no-wrap
 msgid "<!-- Keep in sync with security/fixed.mdwn -->\n"
-msgstr ""
+msgstr "<!-- Keep in sync with security/fixed.mdwn -->\n"
 
 #. type: Plain text
 #, no-wrap
@@ -120,7 +140,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Security audits"
-msgstr ""
+msgstr "Auditories de seguretat"
 
 #. type: Plain text
 #, no-wrap

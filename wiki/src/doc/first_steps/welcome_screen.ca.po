@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-11-03 18:12+0000\n"
+"PO-Revision-Date: 2023-11-04 16:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,19 +21,23 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Welcome Screen\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Pantalla de Benvinguda\"]]\n"
 
 #. type: Plain text
 msgid ""
 "The Welcome Screen appears after the Boot Loader, but before the GNOME "
 "Desktop."
 msgstr ""
+"La Pantalla de Benvinguda apareix després del Carregador d'Arrencada, però "
+"abans de l'Escriptori de GNOME."
 
 #. type: Plain text
 msgid ""
 "You can use the Welcome Screen to specify startup options that alter some of "
 "the basic functioning of Tails."
 msgstr ""
+"Podeu utilitzar la Pantalla de Benvinguda per especificar opcions d'inici "
+"que alterin alguns dels funcionaments bàsics de Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -47,6 +51,8 @@ msgid ""
 "To start Tails without options, click on the\n"
 "<span class=\"bold\">Start Tails</span> button.\n"
 msgstr ""
+"Per iniciar Tails sense opcions, feu clic al\n"
+"botó <span class=\"bold\">Inicia Tails</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -60,6 +66,11 @@ msgid ""
 "turn on the [[Welcome Screen|persistent_storage/configure#welcome_screen]]\n"
 "feature of the Persistent Storage.</p>\n"
 msgstr ""
+"<p>Per emmagatzemar la configuració de la Pantalla de Benvinguda en "
+"diferents sessions de Tails,\n"
+"activeu la funció de [[Pantalla de Benvinguda|persistent_storage/"
+"configure#welcome_screen]]\n"
+"de l'Emmagatzematge Persistent.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -67,6 +78,9 @@ msgid ""
 "<p>With this feature turned on, unlock your Persistent Storage to\n"
 "restore your settings in the Welcome Screen.</p>\n"
 msgstr ""
+"<p>Amb aquesta funció activada, desbloquegeu el vostre Emmagatzematge "
+"Permanent\n"
+"per restaurar la vostra configuració a la Pantalla de Benvinguda.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -79,20 +93,22 @@ msgid "[[!toc levels=2]]\n"
 msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<a id=\"accessibility\"></a>\n"
-msgstr "<a id=\"persistence\"></a>\n"
+msgstr "<a id=\"accessibility\"></a>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Assistive technologies"
-msgstr ""
+msgstr "Tecnologies d'assistència"
 
 #. type: Plain text
 msgid ""
 "You can activate assistive technologies, like a screen reader or large text, "
 "from the universal access menu (the"
 msgstr ""
+"Podeu activar tecnologies d'assistència, com ara un lector de pantalla o "
+"text gran, des del menú d'accés universal (l'icona"
 
 #. type: Plain text
 #, no-wrap
@@ -103,23 +119,25 @@ msgstr ""
 
 #. type: Plain text
 msgid "icon which looks like a person) in the top bar."
-msgstr ""
+msgstr "que sembla una persona) a la barra superior."
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"locale\"></a>\n"
-msgstr ""
+msgstr "<a id=\"locale\"></a>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Language & region"
-msgstr ""
+msgstr "Llengua i regió"
 
 #. type: Plain text
 msgid ""
 "You can configure Tails depending on your language and location from the "
 "Welcome Screen."
 msgstr ""
+"Podeu configurar Tails en funció del vostre idioma i ubicació des de la "
+"Pantalla de Benvinguda."
 
 #. type: Plain text
 #, no-wrap
@@ -131,6 +149,8 @@ msgid ""
 "The <span class=\"guilabel\">Language</span> option allows you to change the "
 "main language of the interface."
 msgstr ""
+"L'opció <span class=\"guilabel\">Idioma</span> us permet canviar l'idioma "
+"principal de la interfície."
 
 #. type: Plain text
 #, no-wrap
@@ -138,6 +158,9 @@ msgid ""
 "  Text that is not translated yet will appear in English. You can [[help\n"
 "  to translate more text|contribute/how/translate]].\n"
 msgstr ""
+"  El text que encara no estigui traduït apareixerà en anglès. Podeu [["
+"ajudar\n"
+"  a traduir més text|contribute/how/translate]].\n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -145,6 +168,9 @@ msgid ""
 "change the layout of the keyboard. For example to switch to an *AZERTY* "
 "keyboard which is common in France."
 msgstr ""
+"L'opció <span class=\"guilabel\">Disposició del teclat</span> us permet "
+"canviar la disposició del teclat. Per exemple, per canviar a un teclat "
+"*AZERTY* que és comú a França."
 
 #. type: Plain text
 #, no-wrap
@@ -152,6 +178,8 @@ msgid ""
 "  You will still be able to switch between different keyboard layouts from the\n"
 "  desktop after starting Tails.\n"
 msgstr ""
+"  Encara podreu canviar entre diferents dissenys de teclat des de\n"
+"  l'escriptori després d'iniciar Tails.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -164,6 +192,9 @@ msgid ""
 "date and time format, first day of the week, measurement units, and default "
 "paper size according to the standards in use in a country."
 msgstr ""
+"L'opció <span class=\"guilabel\">Formats</span> us permet canviar el format "
+"de la data i l'hora, el primer dia de la setmana, les unitats de mesura i la "
+"mida del paper per defecte segons els estàndards que s'utilitzen en un país."
 
 #. type: Plain text
 #, no-wrap
@@ -171,6 +202,8 @@ msgid ""
 "  For example, the USA and the United Kingdom, two English-speaking countries,\n"
 "  have different standards:\n"
 msgstr ""
+"  Per exemple, els EUA i el Regne Unit, dos països de parla anglesa,\n"
+"  tenen diferents estàndards:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -183,6 +216,15 @@ msgid ""
 "  <tr><td>Paper size</td><td>Letter</td><td>A4</td></tr>\n"
 "  </table>\n"
 msgstr ""
+"  <table>\n"
+"  <tr><th></th><th>EUA</th><th>Regne Unit</th></tr>\n"
+"  <tr><td>Data i hora</td><td>3/17/2017 3:56 PM</td><td>17/03/2017 "
+"15:56</td></tr>\n"
+"  <tr><td>Primer dia de la setmana</td><td>Diumenge</td><td>Dilluns</td></tr>"
+"\n"
+"  <tr><td>Sistema d'unitats</td><td>Imperial</td><td>Mètric</td></tr>\n"
+"  <tr><td>Mida del paper</td><td>Carta</td><td>A4</td></tr>\n"
+"  </table>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -191,6 +233,10 @@ msgid ""
 "  than the main language. For example, to display a US calendar, with weeks\n"
 "  starting on Sunday, when the main language is Russian.\n"
 msgstr ""
+"  Amb aquesta opció també podeu mostrar el calendari en un idioma diferent\n"
+"  que la llengua principal. Per exemple, per mostrar un calendari dels EUA, "
+"amb setmanes\n"
+"  a partir de diumenge, quan l'idioma principal és el rus.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -198,9 +244,9 @@ msgid "  [[!img US_calendar_in_Russian.png link=\"no\" alt=\"\"]]\n"
 msgstr "  [[!img US_calendar_in_Russian.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<a id=\"persistent_storage\"></a>\n"
-msgstr "<a id=\"persistence\"></a>\n"
+msgstr "<a id=\"persistent_storage\"></a>\n"
 
 #. type: Title =
 #, no-wrap
@@ -212,6 +258,9 @@ msgid ""
 "You can save some of your files and configuration in an encrypted "
 "[[Persistent Storage|persistent_storage]] on your Tails USB stick."
 msgstr ""
+"Podeu desar alguns dels vostres fitxers i configuració en un [["
+"Emmagatzematge Persistent|persistent_storage]] encriptat al vostre llapis "
+"USB de Tails."
 
 #. type: Bullet: '- '
 msgid ""
@@ -219,6 +268,10 @@ msgid ""
 "**Create Persistent Storage** button to automatically start the Persistent "
 "Storage settings after you start Tails and the desktop appears."
 msgstr ""
+"Si no es detecta cap Emmagatzematge Persistent al llapis USB, podeu fer clic "
+"al botó **Crea l'Emmagatzematge Persistent** per iniciar automàticament la "
+"configuració d'Emmagatzematge Persistent després d'iniciar Tails i aparèixer "
+"l'escriptori."
 
 #. type: Plain text
 #, no-wrap
@@ -231,6 +284,9 @@ msgid ""
 "and click **Unlock Encryption** to unlock and activate your Persistent "
 "Storage."
 msgstr ""
+"Si es detecta un Emmagatzematge Persistent al llapis USB, introduïu la "
+"vostra contrasenya i feu clic a **Desbloqueja l'encriptació** per "
+"desbloquejar i activar l'Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
@@ -241,16 +297,18 @@ msgstr "  [[!img unlock_persistent_storage.png link=\"no\" alt=\"\"]]\n"
 msgid ""
 "See also our [[documentation on the Persistent Storage|persistent_storage]]."
 msgstr ""
+"Vegeu també la nostra [[documentació sobre l'Emmagatzematge "
+"Persistent|persistent_storage]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"additional\"></a>\n"
-msgstr ""
+msgstr "<a id=\"additional\"></a>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Additional settings"
-msgstr ""
+msgstr "Paràmetres addicionals"
 
 #. type: Plain text
 msgid ""
@@ -258,6 +316,9 @@ msgid ""
 "depending on your situation, you can change one of the following settings "
 "from the Welcome Screen."
 msgstr ""
+"Tails es configura amb cura per ser el més segur possible per defecte. Però, "
+"depenent de la vostra situació, podeu canviar una de les opcions següents "
+"des de la Pantalla de Benvinguda."
 
 #. type: Plain text
 #, no-wrap
@@ -267,7 +328,7 @@ msgstr "[[!img additional.png link=\"no\" alt=\"\"]]\n"
 #. type: Title -
 #, no-wrap
 msgid "Administration Password"
-msgstr ""
+msgstr "Contrasenya d'administració"
 
 #. type: Plain text
 #, no-wrap
@@ -276,17 +337,22 @@ msgid ""
 "able to perform administrative tasks like installing additional\n"
 "software or accessing the internal hard disks of the computer.\n"
 msgstr ""
+"Estableix una <span class=\"guilabel\">contrasenya d'administració</span>\n"
+"capaç de realitzar tasques administratives com instal·lar programari\n"
+"addicional o accedir als discs durs interns de l'ordinador.\n"
 
 #. type: Plain text
 msgid ""
 "See our documentation about [[the administration password and its security "
 "implications|administration_password]]."
 msgstr ""
+"Consulteu la nostra documentació sobre [[la contrasenya d'administració i "
+"les seves implicacions de seguretat|administration_password]]."
 
 #. type: Title -
 #, no-wrap
 msgid "MAC Address Anonymization"
-msgstr ""
+msgstr "Anonimat d'adreces MAC"
 
 #. type: Plain text
 #, no-wrap
@@ -294,21 +360,28 @@ msgid ""
 "Disable <span class=\"guilabel\">MAC Address Anonymization</span> to prevent\n"
 "connectivity problems with your network interfaces.\n"
 msgstr ""
+"Desactiveu l'<span class=\"guilabel\">Anonimat d'adreces MAC</span> per "
+"evitar\n"
+"problemes de connectivitat amb les vostres interfícies de xarxa.\n"
 
 #. type: Plain text
 msgid "See our documentation about [[MAC address anonymization|mac_spoofing]]."
 msgstr ""
+"Vegeu la nostra documentació sobre l'[[anonimització d'adreces "
+"MAC|mac_spoofing]]."
 
 #. type: Title -
 #, no-wrap
 msgid "Offline Mode"
-msgstr ""
+msgstr "Mode fora de línia"
 
 #. type: Plain text
 msgid ""
 "Turn on the **Offline Mode** if you want to work completely offline for "
 "increased security."
 msgstr ""
+"Activeu el **Mode fora de línia** si voleu treballar completament fora de "
+"línia per augmentar la seguretat."
 
 #. type: Title -
 #, no-wrap
@@ -317,13 +390,15 @@ msgstr "Navegador Insegur"
 
 #. type: Plain text
 msgid "Disable the ** *Unsafe Browser* **."
-msgstr ""
+msgstr "Desactiveu el ** *Navegador Insegur* **."
 
 #. type: Plain text
 msgid ""
 "See our documentation about [[the *Unsafe Browser* and its security "
 "implications|anonymous_internet/unsafe_browser]]."
 msgstr ""
+"Consulteu la nostra documentació sobre [[el *Navegador Insegur* i les seves "
+"implicacions de seguretat|anonymous_internet/unsafe_browser]]."
 
 #. type: Title =
 #, no-wrap
@@ -331,7 +406,7 @@ msgid "Keyboard shortcuts"
 msgstr "Dreceres de teclat"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<table>\n"
 "<tr><td><span class=\"keycap\">Alt+L</span></td><td><span class=\"guilabel\">Language</td></tr>\n"
@@ -345,15 +420,22 @@ msgid ""
 "</table>\n"
 msgstr ""
 "<table>\n"
-"<tr><td><span class=\"keycap\">Alt+L</span></td><td><span class=\"guilabel\">Sprache</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+K</span></td><td><span class=\"guilabel\">Tastaturbelegung</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+F</span></td><td><span class=\"guilabel\">Formate</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+P</span></td><td><span class=\"guilabel\">Verschlüsselte beständige Datenpartition</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+A</span></td><td><span class=\"guilabel\">Zusätzliche Einstellungen</td></tr>\n"
-"<tr><td><span class=\"keycap\">Strg+Shift+A</span></td><td><span class=\"guilabel\">Administrationspasswort</td></tr>\n"
-"<tr><td><span class=\"keycap\">Strg+Shift+M</span></td><td><span class=\"guilabel\">Manipulation der MAC-Adresse</td></tr>\n"
-"<tr><td><span class=\"keycap\">Strg+Shift+N</span></td><td><span class=\"guilabel\">Netzwerkverbindung</td></tr>\n"
-"<tr><td><span class=\"keycap\">Alt+S</td><td><span class=\"guilabel\">Tails starten</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+L</span></td><td><span class=\"guilabel\""
+">Idioma</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+K</span></td><td><span class=\"guilabel\""
+">Disposició del teclat</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+F</span></td><td><span class=\"guilabel\""
+">Formats</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+P</span></td><td><span class=\"guilabel\""
+">Emmagatzematge Persistent</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+A</span></td><td><span class=\"guilabel\""
+">Configuració addicional</td></tr>\n"
+"<tr><td><span class=\"keycap\">Ctrl+Maj+A</span></td><td><span class="
+"\"guilabel\">Contrasenya d'administració</td></tr>\n"
+"<tr><td><span class=\"keycap\">Ctrl+Maj+M</span></td><td><span class="
+"\"guilabel\">Anonimització de l'adreça MAC</td></tr>\n"
+"<tr><td><span class=\"keycap\">Alt+S</td><td><span class=\"guilabel\">Inicia "
+"Tails</td></tr>\n"
 "</table>\n"
 
 #, fuzzy

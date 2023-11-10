@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-18 05:40+0000\n"
-"PO-Revision-Date: 2023-11-03 18:11+0000\n"
+"PO-Revision-Date: 2023-11-05 00:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"JavaScript sometimes enabled in the Safest security level of Tor Browser\"]]\n"
 msgstr ""
-"[[!meta title=\"JavaScript de vegades és habilitat al nivell de seguretat "
+"[[!meta title=\"El JavaScript de vegades s'habilita al nivell de seguretat "
 "més segur del Navegador Tor\"]]\n"
 
 #. type: Plain text

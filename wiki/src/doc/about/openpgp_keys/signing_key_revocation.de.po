@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:10+0200\n"
-"PO-Revision-Date: 2019-10-28 15:21+0000\n"
-"Last-Translator: Claas A. <tails@m.caugner.de>\n"
+"PO-Revision-Date: 2023-11-10 04:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -80,11 +80,11 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Groups"
-msgstr ""
+msgstr "Gruppen"
 
 #. type: Plain text
 msgid "We define four complementary groups of trusted people:"
-msgstr ""
+msgstr "Wir definieren vier komplementäre Gruppen vertrauenswürdiger Personen:"
 
 #. type: Bullet: '  - '
 msgid "Group A: people from the Board themselves"
@@ -92,26 +92,28 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "Group B"
-msgstr ""
+msgstr "Gruppe B"
 
 #. type: Bullet: '  - '
 msgid "Group C"
-msgstr ""
+msgstr "Gruppe C"
 
 #. type: Bullet: '  - '
 msgid "Group D"
-msgstr ""
+msgstr "Gruppe D"
 
 #. type: Plain text
 msgid ""
 "All these people should have an OpenPGP key and understand what a revocation "
 "certificate is."
 msgstr ""
+"Alle diese Personen sollten einen OpenPGP-Schlüssel haben und verstehen, was "
+"ein Widerrufszertifikat ist."
 
 #. type: Title =
 #, no-wrap
 msgid "Cryptographic shares"
-msgstr ""
+msgstr "Kryptografische Freigaben"
 
 #. type: Plain text
 msgid ""
@@ -119,12 +121,18 @@ msgid ""
 "number of cryptographic shares, using for example Shamir's secret sharing "
 "scheme implemented by `gfshare`."
 msgstr ""
+"Wir generieren ein Widerrufszertifikat des Signaturschlüssels und teilen es "
+"in eine Reihe von kryptografischen Freigaben auf, wobei wir beispielsweise "
+"Shamirs geheimes Freigabeschema, implementiert von \"gfshare\", verwenden."
 
 #. type: Plain text
 msgid ""
 "The following combinations of people could get together and reassemble their "
 "shares to reconstruct a complete revocation certificate:"
 msgstr ""
+"Die folgenden Personenkombinationen könnten zusammenkommen und ihre Anteile "
+"wieder zusammensetzen, um ein vollständiges Widerrufszertifikat zu "
+"rekonstruieren:"
 
 #. type: Bullet: '  - '
 msgid "Three people from the Board: A{3}"
@@ -148,7 +156,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "We generate these shares:"
-msgstr ""
+msgstr "Wir generieren diese Freigaben:"
 
 #. type: Bullet: '  - '
 msgid "N shares, one for each person from the Board"
@@ -156,15 +164,15 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "1 share for people in group B"
-msgstr ""
+msgstr "1 Freigabe für Personen in Gruppe B"
 
 #. type: Bullet: '  - '
 msgid "1 share for people in group C"
-msgstr ""
+msgstr "1 Freigabe für Personen in Gruppe C"
 
 #. type: Bullet: '  - '
 msgid "1 share for people in group D"
-msgstr ""
+msgstr "1 Feigabe für Personen in Gruppe D"
 
 #. type: Title =
 #, no-wrap
@@ -198,46 +206,55 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Infrastructure"
-msgstr ""
+msgstr "Infrastruktur"
 
 #. type: Bullet: '  - '
 msgid "Everybody who owns a share is subscribed to a mailing list."
-msgstr ""
+msgstr "Jeder, der eine Freigabe besitzt, hat eine Mailingliste abonniert."
 
 #. type: Bullet: '  - '
 msgid ""
 "This mailing list is hosted on a trusted server different from boum.org to "
 "be more resilient than our usual communication channels."
 msgstr ""
+"Diese Mailingliste wird auf einem vertrauenswürdigen Server gehostet, der "
+"sich von boum.org unterscheidet, um widerstandsfähiger als unsere üblichen "
+"Kommunikationskanäle zu sein."
 
 #. type: Bullet: '  - '
 msgid ""
 "Someone hosting the mailing list is part of group B, C, or D so they can "
 "ensure that the list keeps working even if it never used."
 msgstr ""
+"Jemand, der die Mailingliste hostet, gehört zur Gruppe B, C oder D, damit er "
+"sicherstellen kann, dass die Liste auch dann funktioniert, wenn sie nie "
+"verwendet wird."
 
 #. type: Title =
 #, no-wrap
 msgid "Changing the members of the groups B, C, or D"
-msgstr ""
+msgstr "Ändern der Mitglieder der Gruppen B, C oder D"
 
 #. type: Plain text
 msgid "To add someone to a given group:"
-msgstr ""
+msgstr "Um jemanden zu einer bestimmten Gruppe hinzufügen:"
 
 #. type: Bullet: '  - '
 msgid ""
 "Request someone from that group to send her share to the new person in the "
 "group."
 msgstr ""
+"Bitten Sie jemanden aus dieser Gruppe, ihre Freigabe an die neue Person in "
+"der Gruppe zu senden."
 
 #. type: Plain text
 msgid "To remove someone from a given group:"
-msgstr ""
+msgstr "Um jemanden aus einer bestimmten Gruppe zu entfernen:"
 
 #. type: Bullet: '  - '
 msgid "Send new shares to everybody except to the person who is being removed."
 msgstr ""
+"Senden Sie neue Freigaben an alle außer an die Person, die entfernt wird."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -246,15 +263,19 @@ msgid ""
 "becomes impossible for them to reassemble the revocation certificate with "
 "the previous set of shares."
 msgstr ""
+"Fordern Sie alle auf, ihre vorherige Freigabe zu löschen und verfolgen Sie "
+"dies. Sobald jeder in 2 Gruppen B, C oder D seine Freigabe gelöscht hat, "
+"kann er das Widerrufszertifikat nicht mehr mit dem vorherigen Satz von "
+"Freigaben zusammensetzen."
 
 #. type: Bullet: '  - '
 msgid "Let's hope that this doesn't happen very often :)"
-msgstr ""
+msgstr "Hoffen wir, dass dies nicht sehr oft vorkommt :)"
 
 #. type: Title =
 #, no-wrap
 msgid "Expiry"
-msgstr ""
+msgstr "Ablauf"
 
 #. type: Plain text
 msgid ""
@@ -695,7 +716,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "Please tell us once you receive it."
-msgstr ""
+msgstr "Bitte sagen Sie uns einmal Bescheid, sobald Sie es erhalten."
 
 #. type: Plain text
 msgid ""

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails Translation\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2022-06-10 21:39+0000\n"
+"PO-Revision-Date: 2023-11-08 16:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translation <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -125,11 +125,11 @@ msgid ""
 "by Ilsur Aptukov from the Noun Project."
 msgstr ""
 "Das Tails Logo basiert auf [[USB|http://thenounproject.com/term/usb/23873/]] "
-"von Ilsur Aptukov vom Noun Project."
+"von Ilsur Aptukov aus dem Noun Projekt."
 
 #. type: Plain text
 msgid "- Debian logo: Copyright (c) 1999 Software in the Public Interest."
-msgstr ""
+msgstr "- Debian Logo: Copyright (c) 1999 Software in the Public Interest."
 
 #. type: Bullet: '- '
 msgid ""
@@ -137,6 +137,9 @@ msgid ""
 "is authorized to use it under certain conditions; licensed under Creative "
 "Commons Attribution 3.0 United States License."
 msgstr ""
+"Onion Logo: Eingetragenes Warenzeichen von The Tor Project, Inc.; das Tails "
+"Projekt ist berechtigt, es unter bestimmten Bedingungen zu nutzen; "
+"lizensiert unter Creative Commons Attribution 3.0 United States License."
 
 #. type: Plain text
 msgid ""
@@ -173,13 +176,15 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Icons from [[The Noun Project|http://thenounproject.com/]]:"
-msgstr "- Icons vom [[The Noun Project|http://thenounproject.com/]]:"
+msgstr "- Icons von [[The Noun Project|http://thenounproject.com/]]:"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Announcement|http://thenounproject.com/term/announcement/1186/]]: Creative "
 "Commons - Attribution, by Olivier Guin."
 msgstr ""
+"[[Ankündigung|http://thenounproject.com/term/announcement/1186/]]: Creative "
+"Commons - Namensnennung, von Olivier Guin."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -198,6 +203,8 @@ msgid ""
 "[[Loan|http://thenounproject.com/term/loan/19538/]]: Public Domain, by "
 "Rohith M S."
 msgstr ""
+"[[Darlehen|http://thenounproject.com/term/loan/19538/]]: Public Domain, von "
+"Rohith M S."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -228,6 +235,8 @@ msgid ""
 "[[Check Mark|https://thenounproject.com/term/check/4489/]]: Public Domain, "
 "by Julian Norton."
 msgstr ""
+"[[Check Mark|https://thenounproject.com/term/check/4489/]]: Public Domain, "
+"von Julian Norton."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -276,6 +285,8 @@ msgid ""
 "[[Laptop|https://thenounproject.com/term/laptop/6729]]: Public Domain, by "
 "Jean Yashu."
 msgstr ""
+"[[Laptop|https://thenounproject.com/term/laptop/6729]]: Public Domain, von "
+"Jean Yashu."
 
 #. type: Bullet: '  - '
 msgid ""

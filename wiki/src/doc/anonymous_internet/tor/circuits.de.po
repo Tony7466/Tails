@@ -6,15 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2016-06-01 16:36+0200\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"PO-Revision-Date: 2023-11-10 06:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -28,7 +30,8 @@ msgid ""
 "<span class=\"application\">Onion Circuits</span> displays information about\n"
 "the current Tor circuits and connections.\n"
 msgstr ""
-"<span class=\"application\">Onion Circuits</span> zeigt Informationen zu den aktuellen\n"
+"<span class=\"application\">Onion Circuits</span> zeigt Informationen zu den "
+"aktuellen\n"
 "Kanälen und Verbindungen von Tor an.\n"
 
 #. type: Plain text
@@ -102,10 +105,11 @@ msgid "The first relay, here **drk**, is called the *entry guard*."
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "The first relay or *entry guard*. If you configured a [[Tor bridge|first_steps/welcome_screen/bridge_mode]], your bridge is the first relay."
+#, no-wrap
 msgid "   If you configured a Tor bridge, your bridge is your entry guard.\n"
-msgstr "Dem ersten Relais oder dem *Entry Guard*. Wenn Sie eine [[Tor Bridge|first_steps/welcome_screen/bridge_mode]] konfiguriert haben, ist Ihre Bridge das erste Relais."
+msgstr ""
+"   Wenn Sie eine Tor-Brücke konfiguriert haben, ist Ihre Brücke Ihr Entry "
+"Guard.\n"
 
 #. type: Bullet: '2. '
 #, fuzzy

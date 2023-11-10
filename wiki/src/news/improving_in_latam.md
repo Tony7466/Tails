@@ -98,9 +98,9 @@ only, we conducted 8 workshops and trained 84 people on using Tails:
 journalists, activists, feminists, lawyers, and human rights defenders.
 
 The material used for these Tails workshops is available on our website in
-[English](https://tails.boum.org/contribute/how/promote/material/slides/Ciclo_Autodefensa_Digital_202204/Tails-English.odp),
-[Spanish](https://tails.boum.org/contribute/how/promote/material/slides/Ciclo_Autodefensa_Digital_202204/Tails-Spanish.odp), and
-[Portuguese](https://tails.boum.org/contribute/how/promote/material/slides/Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp).
+[English](https://tails.net/contribute/how/promote/material/slides/Ciclo_Autodefensa_Digital_202204/Tails-English.odp),
+[Spanish](https://tails.net/contribute/how/promote/material/slides/Ciclo_Autodefensa_Digital_202204/Tails-Spanish.odp), and
+[Portuguese](https://tails.net/contribute/how/promote/material/slides/Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp).
 
 Assistants to the workshops were able to start Tails on all their PC computers
 but had more frequent issues with Mac computers.

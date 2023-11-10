@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-07-27 18:28+0000\n"
-"PO-Revision-Date: 2023-11-02 23:11+0000\n"
+"POT-Creation-Date: 2023-11-09 02:41+0000\n"
+"PO-Revision-Date: 2023-11-04 16:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -24,7 +24,8 @@ msgstr "[[!meta title=\"Notícies\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
-msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
+msgstr ""
+"[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <p>
 msgid "Subscribe to our newsletter to receive the same news by email:"
@@ -39,31 +40,34 @@ msgid ""
 "button>"
 msgstr ""
 "<input aria-label=\"Email\" name=\"email\" value=\"\"/> <button aria-label="
-"\"Subscribe\" class=\"button\" type=\"submit\"><strong>Subscriu-"
-"me</strong></button>"
+"\"Subscribe\" class=\"button\" type=\"submit\"><strong>Subscriu-me</strong></"
+"button>"
 
 #. type: Content of: <form><p>
 msgid "[[Archive of all news|news/archive]]"
 msgstr "[[Arxiu de totes les notícies|news/archive]]"
 
-#. type: Content of: <div>
+#.  Inlined news 
+#.  Feed buttons used by puppet-tails:manifests/website/rss2email.pp
+#. [[!inline pages="page(news/*) and !news/archive and !news/*/* and !news/discussion and (currentlang() or news/report_2* or news/test_*) and tagged(announce)"
+#. show="10" feeds="yes" feedonly="yes" feedfile="emails" sort="-meta(date) age -path"]]
+#. type: Content of: outside any tag (error?)
 msgid ""
 "[[!inline pages=\"page(news/*) and !news/archive and !news/*/* and !news/"
 "discussion and (currentlang() or news/report_2* or news/test_*)\" show="
 "\"10\" sort=\"-meta(date) age -path\"]]"
 msgstr ""
 "[[!inline pages=\"page(news/*) and !news/archive and !news/*/* and !news/"
-"discussion and (currentlang() or news/report_2* or news/test_*)\" show=\"10\""
-" sort=\"-meta(date) age -path\"]]"
+"discussion and (currentlang() or news/report_2* or news/test_*)\" show="
+"\"10\" sort=\"-meta(date) age -path\"]]"
 
-#. type: Content of: <div>
-msgid ""
-"[[!inline pages=\"page(news/*) and !news/archive and !news/*/* and !news/"
-"discussion and (currentlang() or news/report_2* or news/test_*) and "
-"tagged(announce)\" show=\"10\" feeds=\"yes\" feedonly=\"yes\" feedfile="
-"\"emails\" sort=\"-meta(date) age -path\"]]"
-msgstr ""
-"[[!inline pages=\"page(news/*) and !news/archive and !news/*/* and !news/"
-"discussion and (currentlang() or news/report_2* or news/test_*) and "
-"tagged(announce)\" show=\"10\" feeds=\"yes\" feedonly=\"yes\" feedfile="
-"\"emails\" sort=\"-meta(date) age -path\"]]"
+#~ msgid ""
+#~ "[[!inline pages=\"page(news/*) and !news/archive and !news/*/* and !news/"
+#~ "discussion and (currentlang() or news/report_2* or news/test_*) and "
+#~ "tagged(announce)\" show=\"10\" feeds=\"yes\" feedonly=\"yes\" feedfile="
+#~ "\"emails\" sort=\"-meta(date) age -path\"]]"
+#~ msgstr ""
+#~ "[[!inline pages=\"page(news/*) and !news/archive and !news/*/* and !news/"
+#~ "discussion and (currentlang() or news/report_2* or news/test_*) and "
+#~ "tagged(announce)\" show=\"10\" feeds=\"yes\" feedonly=\"yes\" feedfile="
+#~ "\"emails\" sort=\"-meta(date) age -path\"]]"

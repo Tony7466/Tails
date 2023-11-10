@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-08-10 17:24+0000\n"
-"PO-Revision-Date: 2023-11-02 23:11+0000\n"
+"PO-Revision-Date: 2023-11-04 19:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -53,7 +53,7 @@ msgstr "servidor: `chat.disroot.org`"
 
 #. type: Bullet: '* '
 msgid "room: `tails`"
-msgstr "sala: tails"
+msgstr "sala: `tails`"
 
 #. type: Bullet: '* '
 msgid "Use TLS/SSL to connect!"
