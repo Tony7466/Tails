@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-10 23:36+0000\n"
+"PO-Revision-Date: 2023-11-10 23:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -47,7 +47,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Discussions"
-msgstr ""
+msgstr "Debats"
 
 #. type: Plain text
 msgid ""
@@ -55,6 +55,9 @@ msgid ""
 "of users and our super-short release cycle, it is a challenge to keep the "
 "project sustainable and maintainable in the mid/long term."
 msgstr ""
+"Vam parlar principalment del **creixement del projecte**: donat el nombre "
+"creixent d'usuaris i el nostre cicle de llançament súper curt, és un repte "
+"mantenir el projecte sostenible i mantenible a mitjà/llarg termini."
 
 #. type: Plain text
 msgid ""
@@ -63,6 +66,11 @@ msgid ""
 "Tails: the 1.0, 1.1 and 2.0 milestones are now pretty well defined, and we "
 "even were bold enough to draft goals for 3.0."
 msgstr ""
+"La nostra visió d'això es reflecteix primer en el nostre **full de ruta "
+"actualitzat**: ara tenim una millor visió del que volem centrar-nos per als "
+"propers llançaments importants de Tails: les fites 1.0, 1.1 i 2.0 ara estan "
+"força ben definides, i fins i tot vam ser prou atrevits per redactar "
+"objectius per a la 3.0."
 
 #. type: Plain text
 msgid ""
@@ -73,6 +81,12 @@ msgid ""
 "could benefit most from a few new dedicated contributors. We will publish "
 "targeted calls for help in the next few months."
 msgstr ""
+"Un altre aspecte clau sobre aquest tema és que hem de **facilitar la "
+"contribució** a Tails. Hem enumerat moltes millores que es podrien fer en "
+"aquesta direcció, especialment [al lloc web](https://labs.riseup.net/code/"
+"projects/tails/issues?query_id=115). També hem identificat àrees que podrien "
+"beneficiar-se més d'uns quants nous col·laboradors dedicats. Publicarem "
+"crides d'ajuda específiques en els propers mesos."
 
 #. type: Plain text
 msgid ""
@@ -80,6 +94,9 @@ msgid ""
 "contributors, to make more workload sharing possible, and to be able to "
 "provide better user support. In short:"
 msgstr ""
+"També hem **redissenyat els nostres canals de comunicació** per facilitar la "
+"participació de nous col·laboradors, per fer possible compartir més càrrega "
+"de treball i poder oferir un millor suport als usuaris. En resum:"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -88,6 +105,10 @@ msgid ""
 "private, encrypted one will receive bug reports, while a public one will be "
 "dedicated to user support."
 msgstr ""
+"Les nostres llistes de correu veuen molt trànsit aquests dies. Això pot "
+"dissuadir la gent de llegir-lo. Així doncs, crearem dues llistes de correu "
+"especialitzades: una privada, encriptada, rebrà informes d'errors, mentre "
+"que una de pública estarà dedicada al suport dels usuaris."
 
 #. type: Bullet: '  * '
 msgid ""
