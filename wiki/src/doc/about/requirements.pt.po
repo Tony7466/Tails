@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-15 18:59+0000\n"
+"POT-Creation-Date: 2023-11-10 17:08+0000\n"
 "PO-Revision-Date: 2023-08-18 23:37+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: \n"
@@ -118,8 +118,8 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "<span class=\"definition\">[[!wikipedia IBM_PC_compatible]]</span> but not "
-"<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span class="
-"\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
+"<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span "
+"class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 msgstr ""
 "<span class=\"definition\">[[!wikipedia_pt IBM_PC_compatível]]</span>, com "
 "exceção de <span class=\"definition\">[[!wikipedia_pt PowerPC]]</span> e "
@@ -127,9 +127,13 @@ msgstr ""
 "span>."
 
 #. type: Bullet: '  - '
+#, fuzzy
+#| msgid ""
+#| "Tails does not work on newer Mac computers with an [[!wikipedia "
+#| "Apple_silicon#M_series desc=\"Apple processors\"]] (M1 or M2)."
 msgid ""
 "Tails does not work on newer Mac computers with an [[!wikipedia "
-"Apple_silicon#M_series desc=\"Apple processors\"]] (M1 or M2)."
+"Apple_silicon#M_series desc=\"Apple processor\"]] (M1 or M2)."
 msgstr ""
 "Tails não funciona em computadores Mac mais novos com [[!wikipedia "
 "Apple_silicon#M_series desc=\"Processadores Apple\"]] (M1 ou M2)."
@@ -206,8 +210,8 @@ msgid ""
 msgstr ""
 "Se você vive em uma pate do mundo onde comprar laptops recondicionados não é "
 "comum, dê uma olhada no eBay e Amazon. A Amazon oferece a [Garantia Renovada "
-"Amazon](https://www.amazon.com/gp/help/customer/display."
-"html?nodeId=G4ZAA22U35N373NX) de 90 dias."
+"Amazon](https://www.amazon.com/gp/help/customer/display.html?"
+"nodeId=G4ZAA22U35N373NX) de 90 dias."
 
 #. type: Bullet: '- '
 msgid ""
@@ -215,8 +219,8 @@ msgid ""
 "with Linux and Tails like [ThinkPenguin](https://www.thinkpenguin.com/)."
 msgstr ""
 "Considere a possibilidade de comprar um laptop novo de fornecedores que "
-"garantam a compatibilidade com Linux e Tails, tais como "
-"[ThinkPenguin](https://www.thinkpenguin.com/)."
+"garantam a compatibilidade com Linux e Tails, tais como [ThinkPenguin]"
+"(https://www.thinkpenguin.com/)."
 
 #. type: Title ###
 #, no-wrap
@@ -263,9 +267,7 @@ msgstr "Extraia a lista de modelos de computadores:"
 #. type: Plain text
 #, no-wrap
 msgid "   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/dmidecode -s system-product-name\" > machines\n"
-msgstr ""
-"   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/"
-"dmidecode -s system-product-name\" > machines\n"
+msgstr "   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/dmidecode -s system-product-name\" > machines\n"
 
 #. type: Bullet: '4. '
 msgid "Sort and count identical models:"
