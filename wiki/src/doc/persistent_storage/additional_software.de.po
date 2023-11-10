@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-10 20:12+0000\n"
+"PO-Revision-Date: 2023-11-10 22:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -197,10 +197,9 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "To install additional software packages:"
+#, no-wrap
 msgid "Examples of additional useful software"
-msgstr "Für das Installieren zusätzlicher Softwarepakete:"
+msgstr "Beispiele für zusätzliche, nützliche Softwarepakete"
 
 #. type: Bullet: '- '
 msgid ""
