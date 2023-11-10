@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-10-26 18:12+0000\n"
-"PO-Revision-Date: 2023-11-10 04:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -230,10 +230,9 @@ msgid "<!--\n"
 msgstr "<!--\n"
 
 #. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Enable Bluetooth\n"
+#, no-wrap
 msgid "Enable Bluetooth"
-msgstr "Bluetooth aktivieren\n"
+msgstr "Bluetooth aktivieren"
 
 #. type: Plain text
 msgid ""
