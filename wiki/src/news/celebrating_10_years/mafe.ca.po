@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-10 23:31+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-10 23:33+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -147,6 +147,8 @@ msgid ""
 "Add sweet potatoes, tomatoes and ⅔ of the broth, making sure that the "
 "potatoes are *exactly* covered by the liquid."
 msgstr ""
+"Afegiu moniatos, tomàquets i dos terços del brou, procurant que els moniatos "
+"estiguin *exactament* coberts pel líquid."
 
 #. type: Bullet: '8.  '
 msgid ""
@@ -154,20 +156,25 @@ msgid ""
 "sweet potatoes are cooked. Stir regularly! This should take about 25 minutes "
 "(but it depends on the size of the potato pieces)."
 msgstr ""
+"Pugeu a foc fort, tapeu l'olla amb una tapa i deixeu-ho bullir fins que els "
+"moniatos estiguin cuits. Remeneu regularment! Això hauria de trigar uns 25 "
+"minuts (però depèn de la mida dels trossos de patata)."
 
 #. type: Bullet: '9.  '
 msgid ""
 "Add peanut butter and the rest of the broth, and stir it evenly in the "
 "mixture."
 msgstr ""
+"Afegiu la mantega de cacauet i la resta del brou i remeneu-ho uniformement a "
+"la barreja."
 
 #. type: Bullet: '10. '
 msgid "Decrease to low heat and stir regularly for another 20 minutes."
-msgstr ""
+msgstr "Baixeu a foc lent i remeneu regularment durant 20 minuts més."
 
 #. type: Bullet: '11. '
 msgid "Season with salt (and optionally more chili), and serve with rice!"
-msgstr ""
+msgstr "Salpebreu (i opcionalment més xili) i serviu-ho amb arròs!"
 
 #. type: Plain text
 msgid ""
