@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-05 00:11+0000\n"
+"PO-Revision-Date: 2023-11-10 23:36+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 2013 summit report\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Informe de la cimera de Tails 2013\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,6 +39,10 @@ msgid ""
 "developers yearly summit. This was a great opportunity to have crazy hacking "
 "sessions in person, as well as to discuss where we are heading to and how."
 msgstr ""
+"Un munt de persones han passat una dotzena de dies junts al juliol a la "
+"tercera cimera anual de desenvolupadors de Tails. Aquesta ha sigut una gran "
+"oportunitat per tenir sessions de pirateig boges en persona, així com per "
+"discutir cap a on ens dirigim i com."
 
 #. type: Title #
 #, no-wrap
