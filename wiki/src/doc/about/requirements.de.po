@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-15 18:59+0000\n"
+"POT-Creation-Date: 2023-11-10 17:08+0000\n"
 "PO-Revision-Date: 2023-11-09 17:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
@@ -119,18 +119,18 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "<span class=\"definition\">[[!wikipedia IBM_PC_compatible]]</span> but not "
-"<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span class="
-"\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
+"<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span "
+"class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 msgstr ""
 "<span class=\"definition\">[[!wikipedia_de IBM-PC-kompatibler_Computer]]</"
 "span> aber weder <span class=\"definition\">[[!wikipedia_de PowerPC]]</span> "
-"noch <span class=\"definition\">[[!wikipedia_de Arm-Architektur desc=\"ARM\""
-"]]</span>."
+"noch <span class=\"definition\">[[!wikipedia_de Arm-Architektur "
+"desc=\"ARM\"]]</span>."
 
 #. type: Bullet: '  - '
 msgid ""
 "Tails does not work on newer Mac computers with an [[!wikipedia "
-"Apple_silicon#M_series desc=\"Apple processors\"]] (M1 or M2)."
+"Apple_silicon#M_series desc=\"Apple processor\"]] (M1 or M2)."
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -138,8 +138,8 @@ msgid ""
 "Tails does not work on 32-bit computers since [[Tails 3.0|news/"
 "Tails_3.0_will_require_a_64-bit_processor]] (June 2017)."
 msgstr ""
-"Tails läuft nicht mehr auf 32-Bit Computern seit [[Tails 3.0|news/Tails_3."
-"0_will_require_a_64-bit_processor]] (Juni 2017)."
+"Tails läuft nicht mehr auf 32-Bit Computern seit [[Tails 3.0|news/"
+"Tails_3.0_will_require_a_64-bit_processor]] (Juni 2017)."
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -155,9 +155,7 @@ msgstr "- 2GB RAM um flüssig zu laufen."
 #. type: Plain text
 #, no-wrap
 msgid "  Tails can work with less than 2 GB RAM but might behave strangely or crash.\n"
-msgstr ""
-"  Tails kann auch mit weniger als 2 GB RAM funktionieren, aber es verhält "
-"sich dann vielleicht unerwarteten oder stürzt ab.\n"
+msgstr "  Tails kann auch mit weniger als 2 GB RAM funktionieren, aber es verhält sich dann vielleicht unerwarteten oder stürzt ab.\n"
 
 #. type: Title =
 #, no-wrap

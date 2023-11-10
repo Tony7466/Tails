@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian translation\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-15 18:59+0000\n"
+"POT-Creation-Date: 2023-11-10 17:08+0000\n"
 "PO-Revision-Date: 2023-10-01 15:12+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
@@ -111,17 +111,21 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid ""
 "<span class=\"definition\">[[!wikipedia IBM_PC_compatible]]</span> but not "
-"<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span class="
-"\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
+"<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span "
+"class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 msgstr ""
 "<span class=\"definition\">[[!wikipedia IBM_compatibile]]</span> ma non "
-"<span class=\"definition\">[[!wikipedia PowerPC]]</span> né <span class="
-"\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
+"<span class=\"definition\">[[!wikipedia PowerPC]]</span> né <span "
+"class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 
 #. type: Bullet: '  - '
+#, fuzzy
+#| msgid ""
+#| "Tails does not work on newer Mac computers with an [[!wikipedia "
+#| "Apple_silicon#M_series desc=\"Apple processors\"]] (M1 or M2)."
 msgid ""
 "Tails does not work on newer Mac computers with an [[!wikipedia "
-"Apple_silicon#M_series desc=\"Apple processors\"]] (M1 or M2)."
+"Apple_silicon#M_series desc=\"Apple processor\"]] (M1 or M2)."
 msgstr ""
 "Tails non funziona sui computer Mac più recenti con [[!wikipedia "
 "Apple_silicon#M_series desc=\"processori Apple\"]] (M1 o M2)."
@@ -253,9 +257,7 @@ msgstr "Estrai l'elenco dei modelli di computer:"
 #. type: Plain text
 #, no-wrap
 msgid "   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/dmidecode -s system-product-name\" > machines\n"
-msgstr ""
-"   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/"
-"dmidecode -s system-product-name\" > machines\n"
+msgstr "   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/dmidecode -s system-product-name\" > machines\n"
 
 #. type: Bullet: '4. '
 msgid "Sort and count identical models:"
@@ -278,9 +280,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   While analyzing the reports corresponding from each model, FT should:\n"
-msgstr ""
-"   Nell'analizzare i rapporti corrispondenti a ciascun modello, FT dovrebbe:"
-"\n"
+msgstr "   Nell'analizzare i rapporti corrispondenti a ciascun modello, FT dovrebbe:\n"
 
 #. type: Bullet: '   - '
 msgid "Check whether they were sent from the same email address, if any"
