@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-09 20:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translation <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -129,13 +129,7 @@ msgid "<h1 id=\"confinement\">AppArmor confinement, downloading, and uploading f
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<span class=\"application\">Tor Browser</span> in Tails is confined with\n"
-#| "[[!debwiki AppArmor]] to protect the system and your data from some\n"
-#| "types of attack against <span class=\"application\">Tor Browser</span>.\n"
-#| "As a consequence, it can only read and write to a limited number of\n"
-#| "folders.\n"
+#, no-wrap
 msgid ""
 "<span class=\"application\">Tor Browser</span> in Tails is confined with\n"
 "[[!debwiki AppArmor]] to protect the system and your data from some\n"
@@ -144,10 +138,13 @@ msgid ""
 "only read and write to a limited number of folders.\n"
 msgstr ""
 "<span class=\"application\">Tor Browser</span> ist in Tails mit\n"
-"[[!debwiki AppArmor]] eingeschränkt, um das System und Ihre Daten vor einigen\n"
-"Arten von Angriffen gegen den <span class=\"application\">Tor Browser</span> zu schützen.\n"
-"Eine Konsequenz davon ist, dass er nur auf eine beschränkte Anzahl von Ordnern lesen\n"
-"und schreiben kann.\n"
+"[[!debwiki AppArmor]] eingeschränkt, um das System und Ihre Daten vor "
+"einigen\n"
+"Arten von Angriffen gegen den <span class=\"application\">Tor Browser</span> "
+"zu schützen.\n"
+"Eine Konsequenz davon ist, dass der <span class=\"application\">Tor Browser</"
+"span>  in Tails nur auf eine beschränkte Anzahl von Ordnern lesen und "
+"schreiben kann.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -155,19 +152,15 @@ msgid "<div class=\"note\">\n"
 msgstr "<div class=\"note\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "This is why you might face <span class=\"guilabel\">Permission\n"
-#| "denied</span> errors, for example if you try to download files to the\n"
-#| "<span class=\"filename\">Home</span> folder.\n"
+#, no-wrap
 msgid ""
 "<p>This is why, for example, you might face <em>Permission\n"
 "denied</em> errors if you try to download files to the\n"
 "<em>Home</em> folder.</p>\n"
 msgstr ""
-"Dies ist der Grund, warum sie möglicherweise <span class=\"guilabel\">Zugriff\n"
-"verweigert</span> Fehlermeldungen erhalten, beispielsweise wenn Sie versuchen, Dateien in das\n"
-"<span class=\"filename\">Home</span>-Verzeichnis herunterzuladen.\n"
+"<p>Deshalb könnten Sie beispielsweise auf <em>Zugriff \n"
+"verweigert</em>-Fehler stoßen, wenn Sie versuchen, Dateien in den \n"
+"<em>Home</em>-Ordner herunterzuladen.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -198,16 +191,6 @@ msgstr ""
 "in diesen Ordner.\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "- If you have activated the <span\n"
-#| "class=\"guilabel\">[[Personal\n"
-#| "Data|doc/first_steps/persistence/configure#personal_data]]</span>\n"
-#| "persistence feature, then you can also use the <span\n"
-#| "class=\"filename\">Tor Browser</span> folder that is located in the\n"
-#| "<span class=\"filename\">Persistent</span> folder. In that case, the\n"
-#| "content of this folder is saved and remains available across separate\n"
-#| "working sessions.\n"
 msgid ""
 "- If you turned on the [[Persistent Folder|persistent_storage/"
 "configure#persistent_folder]] feature of the Persistent Storage, you can "
@@ -215,16 +198,12 @@ msgid ""
 "from *Tor Browser*. The content of the *Persistent/Tor Browser* folder is "
 "saved across different working sessions."
 msgstr ""
-"- Falls Sie die <span\n"
-"class=\"guilabel\">[[persönliche\n"
-"Daten|doc/first_steps/persistence/configure#personal_data]]</span>\n"
-"Funktion des verschlüsselten beständigen Speicherbereichs aktiviert haben,\n"
-"können Sie auch den <span class=\"filename\">Tor Browser</span>\n"
-"Ordner benutzen, der sich im <span class=\"filename\">Persistent</span>-"
-"Ordner\n"
-"befindet. In diesem Falle wird der Inhalt des Ordners gespeichert und bleibt "
-"über\n"
-"mehrere Arbeitssitzungen hinweg erhalten.\n"
+"- Wenn Sie die Funktion [[Dauerhafter Ordner|persistent_storage/"
+"configure#persistent_folder]] des Dauerhaften Speichers aktiviert haben, "
+"können Sie auch den Ordner Persistent/Tor Browser verwenden, um Dateien mit "
+"dem Tor Browser herunterzuladen und hochzuladen. Der Inhalt des Ordners "
+"Persistent/Tor Browser wird über verschiedene Arbeitssitzungen hinweg "
+"gespeichert."
 
 #. type: Plain text
 #, no-wrap
