@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-09 17:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -145,7 +145,7 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p><span class=\"application\">Electrum</span> uses <em>mBTC</em> as the\n"
 "default base unit. 1 mBTC = 0.001 BTC. To change the base unit, choose\n"
@@ -153,12 +153,12 @@ msgid ""
 "  <span class=\"guimenu\">Tools</span>&nbsp;▸\n"
 "  <span class=\"guimenuitem\">Preferences</span></span>.</p>\n"
 msgstr ""
-"Um <span class=\"application\">Electrum</span> zu starten wählen Sie\n"
+"<p><span class=\"application\">Electrum</span> verwendet <em>mBTC</em> als\n"
+"Standard-Basiseinheit. 1 mBTC = 0,001 BTC. Um die Basiseinheit zu ändern, "
+"wählen Sie\n"
 "<span class=\"menuchoice\">\n"
-"  <span class=\"guimenu\">Anwendungen</span>&nbsp;▸\n"
-"  <span class=\"guisubmenu\">Internet</span>&nbsp;▸\n"
-"  <span class=\"guimenuitem\">Electrum Bitcoin Wallet</span>\n"
-"</span>.\n"
+"  <span class=\"guimenu\">Werkzeuge</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Einstellungen</span></span>.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -194,23 +194,15 @@ msgid "That's why we recommend you both:"
 msgstr ""
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "<p>That's why we recommend that you activate the [[<span "
-#| "class=\"guilabel\">Bitcoin Client</span>\n"
-#| "persistence feature|doc/first_steps/persistence/configure/#bitcoin]] to\n"
-#| "store your bitcoin wallet and preferences across separate working\n"
-#| "sessions.</p>\n"
 msgid ""
 "Turn on the [[Electrum Bitcoin Wallet|persistent_storage/"
 "configure#electrum]] feature of the Persistent Storage to store your bitcoin "
 "wallet and preferences across separate working sessions."
 msgstr ""
-"<p>Dies ist der Grund, warum wir es Ihnen empfehlen, den [[beständigen "
-"Speicherbereich|doc/first_steps/persistence/configure/#bitcoin]]\n"
-"für den <span class=\"guilabel\">Bitcoin Client</span> zu aktivieren, um\n"
-"Ihr Wallet und Ihre Einstellungen über mehrere Arbeitssitzungen hinweg\n"
-"zu speichern. </p>\n"
+"Aktiviere die [[Electrum Bitcoin Wallet|persistent_storage/"
+"configure#electrum]] Funktion des Persistenzspeichers, um dein Bitcoin-"
+"Wallet und deine Einstellungen über verschiedene Arbeitssitzungen hinweg zu "
+"speichern."
 
 #. type: Bullet: '- '
 msgid ""
