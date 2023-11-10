@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-11-10 23:33+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -174,7 +174,7 @@ msgstr "Baixeu a foc lent i remeneu regularment durant 20 minuts més."
 
 #. type: Bullet: '11. '
 msgid "Season with salt (and optionally more chili), and serve with rice!"
-msgstr "Salpebreu (i opcionalment més xili) i serviu-ho amb arròs!"
+msgstr "Salpebreu (i opcionalment afegiu més xili) i serviu-ho amb arròs!"
 
 #. type: Plain text
 msgid ""
