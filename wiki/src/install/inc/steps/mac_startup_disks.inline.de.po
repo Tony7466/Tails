@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-02 10:29+0200\n"
-"PO-Revision-Date: 2023-11-10 20:11+0000\n"
+"PO-Revision-Date: 2023-11-10 22:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -162,16 +162,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <ol><li><p>
-#, fuzzy
-#| msgid ""
-#| "   [[!img install/inc/screenshots/mac_option_key.png class=\"mac mac-"
-#| "clone\" link=\"no\"]]\n"
 msgid ""
 "[[!img install/inc/screenshots/startup-security-utility.png link=\"no\" "
 "alt=\"Startup Security Utility\"]]"
 msgstr ""
-"   [[!img install/inc/screenshots/mac_option_key.png class=\"mac mac-clone\" "
-"link=\"no\"]]\n"
+"[[!img install/inc/screenshots/startup-security-utility.png link=\"no\" alt"
+"=\"Startup-Sicherheitseinstellungen\"]]"
 
 #. type: Content of: <ol><li><p>
 msgid "In the <em>Startup Security Utility</em>:"
