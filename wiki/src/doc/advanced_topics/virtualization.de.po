@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-05-13 10:54+0200\n"
-"PO-Revision-Date: 2023-11-10 04:11+0000\n"
+"PO-Revision-Date: 2023-11-10 22:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -238,10 +238,9 @@ msgid "<a id=\"software\"></a>\n"
 msgstr "<a id=\"software\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Virtualization solutions\n"
+#, no-wrap
 msgid "Virtualization solutions"
-msgstr "Lösungen zur Virtualisierung\n"
+msgstr "Lösungen zur Virtualisierung"
 
 #. type: Plain text
 #, fuzzy
