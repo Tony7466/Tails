@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-10 06:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -126,10 +126,9 @@ msgid "-->\n"
 msgstr "-->\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Security considerations for Windows and macOS\n"
+#, no-wrap
 msgid "Security considerations for Windows and macOS"
-msgstr "Sicherheitsbedenken für Windows und macOS\n"
+msgstr "Sicherheitsbedenken für Windows und macOS"
 
 #. type: Plain text
 msgid ""
@@ -143,13 +142,17 @@ msgstr ""
 "vertrauenswürdig ist."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Microsoft Windows and macOS being proprietary software, they cannot be considered trustworthy. Only run Tails in a virtual machine on Windows or macOS for testing purposes and do not rely on it for security."
+#, no-wrap
 msgid ""
 "<p>Microsoft Windows and macOS being proprietary software, they cannot be considered\n"
 "trustworthy. Only run Tails in a virtual machine on Windows or macOS for testing\n"
 "purposes and do not rely on it for security.</p>\n"
-msgstr "Microsoft Windows und macOS sind proprietäre Software, diese können nicht als vertrauenswürdig eingestuft werden. Betreiben Sie Tails in einer virtuellen Maschine unter Windows oder macOS nur für Testzwecke und vertrauen Sie bezüglich Sicherheit nicht darauf."
+msgstr ""
+"<p>Microsoft Windows und macOS sind proprietäre Software, diese können nicht "
+"als vertrauenswürdig\n"
+" eingestuft werden. Betreiben Sie Tails in einer virtuellen Maschine unter "
+"Windows oder macOS nur für Testzwecke\n"
+"und vertrauen Sie bezüglich Sicherheit nicht darauf.</p>\n"
 
 #. type: Title =
 #, no-wrap
