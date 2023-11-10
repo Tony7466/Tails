@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-09 17:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -191,23 +191,15 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "To store your OTR keys and preferences across separate working sessions,\n"
-#| "you can activate the [[<span class=\"guilabel\">Pidgin</span> "
-#| "persistence\n"
-#| "feature|doc/first_steps/persistence/configure/#pidgin]].\n"
 msgid ""
 "To store your OTR keys and preferences across separate working sessions, you "
 "can turn on the [[Pidgin Internet Messenger|persistent_storage/"
 "configure#pidgin]] feature of the Persistent Storage."
 msgstr ""
-"Um Ihre Schlüssel und Einstellungen für OTR über mehrere Arbeitssitzungen "
-"hinweg\n"
-"zu speichern, können Sie die Funktion für den [[beständigen Speicherbereich "
-"für \n"
-"<span class=\"guilabel\">Pidgin</span> |doc/first_steps/persistence/"
-"configure/#pidgin]] aktivieren.\n"
+"Um Ihre OTR-Schlüssel und Einstellungen über separate Arbeitssitzungen "
+"hinweg zu speichern, können Sie die [[Pidgin Internet Messenger|"
+"persistent_storage/configure#pidgin]] Funktion des Persistent Storage "
+"aktivieren."
 
 #. type: Plain text
 #, no-wrap
@@ -226,10 +218,9 @@ msgstr ""
 "die die Nachricht empfängt, wird durch eine Warnung benachrichtigt.\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "IRC servers blocking Tor\n"
+#, no-wrap
 msgid "IRC servers blocking Tor"
-msgstr "Tor blockierende IRC-Server\n"
+msgstr "Tor blockierende IRC-Server"
 
 #. type: Plain text
 msgid ""
@@ -260,10 +251,9 @@ msgstr ""
 "(https://gitlab.torproject.org/legacy/trac/-/wikis/doc/BlockingIrc)"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Adding support for another protocol\n"
+#, no-wrap
 msgid "Adding support for another protocol"
-msgstr "Unterstützung für weitere Protokolle hinzufügen\n"
+msgstr "Unterstützung für weitere Protokolle hinzufügen"
 
 #. type: Plain text
 #, no-wrap

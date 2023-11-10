@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-10 04:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -122,10 +122,8 @@ msgid "[[Running Tails in a virtual machine|install/vm]]"
 msgstr ""
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[Downloading without installing|install/download]]"
 msgid "Downloading without installing:"
-msgstr "[[Nur herunterladen ohne Installation|install/download]]"
+msgstr "Herunterladen ohne zu installieren:"
 
 #. type: Bullet: '    - '
 msgid "[[For USB sticks (USB image)|install/download]]"

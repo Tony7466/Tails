@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 10:54-0300\n"
-"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -131,9 +131,11 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"create-persistence\" class=\"step\">Create a Persistent Storage (optional)</h1>\n"
-msgstr "<h1 id=\"create-persistence\">Erstellen Sie einen verschlüsselten beständigen Speicherbereich (optional)</h1>\n"
+msgstr ""
+"<h1 id=\"create-persistence\" class=\"step\">Erstellen Sie einen "
+"verschlüsselten beständigen Speicherbereich (optional)</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -143,18 +145,17 @@ msgstr ""
 "persistence.png link=\"no\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "You can optionally create an encrypted Persistent Storage in the\n"
 "remaining free space on your\n"
 "<span class=\"clone\">new</span>\n"
 "Tails USB stick to store any of the following:\n"
 msgstr ""
-"Sie können optional einen *verschlüsselten beständigen Speicherbereich*\n"
-"in dem verbleibenden, freien Speicherplatz auf dem\n"
-"<span class=\"windows linux mac-usb\">endgültigen</span>\n"
+"Sie können optional einen verschlüsselten dauerhaften Speicher im\n"
+"verbleibenden freien Speicherplatz auf Ihrem\n"
 "<span class=\"clone\">neuen</span>\n"
-"USB-Stick mit Tails erstellen, um etwas von den folgenden Dingen zu sichern:\n"
+"Tails USB-Stick erstellen, um eines der Folgenden zu speichern:\n"
 
 #. type: Bullet: '  - '
 msgid "Personal files"
@@ -170,7 +171,7 @@ msgstr "Zusätzliche Programme"
 
 #. type: Bullet: '  - '
 msgid "Encryption keys"
-msgstr "Von Ihnen verwendete Verschlüsselungsschlüssel, Passwörter, ..."
+msgstr "Verschlüsselungsschlüssel"
 
 #. type: Plain text
 #, fuzzy

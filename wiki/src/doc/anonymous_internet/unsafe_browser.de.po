@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-08 16:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -80,10 +80,9 @@ msgid "Choose **Applications**&nbsp;▸ **Internet**&nbsp;▸ **Unsafe Browser**
 msgstr ""
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "[[!meta title=\"Logging in to captive portals\"]]\n"
+#, no-wrap
 msgid "Signing in to a network using a captive portal"
-msgstr "[[!meta title=\"Anmelden bei Captive Portals\"]]\n"
+msgstr "Anmeldung in einem Netzwerk über ein Captive Portal"
 
 #. type: Plain text
 #, no-wrap

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-11-09 15:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -122,13 +122,12 @@ msgid "Language & region"
 msgstr "Sprache & Region"
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "You can configure Tails depending on your language and location from the "
 "Welcome Screen."
 msgstr ""
-"Sie können mithilfe des <span class=\"application\">Tails\n"
-"Greeter</span> Tails entsprechend Ihrer Sprache und Region konfigurieren.\n"
+"Sie können Tails abhängig von Ihrer Sprache und Ihrem Standort vom "
+"Willkommensbildschirm aus konfigurieren."
 
 #. type: Plain text
 #, fuzzy, no-wrap

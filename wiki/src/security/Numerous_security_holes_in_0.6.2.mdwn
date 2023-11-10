@@ -13,8 +13,8 @@ in case you are still using an older version.
 
 # Incomplete "erase memory on shutdown" feature
 
-As an [[external audit
-demonstrated|security/audits/Blackhat_De-Anonymizing_Live_CDs]], the
+As an [external audit
+demonstrated](https://www.blackhat.com/html/bh-dc-11/bh-dc-11-archives.html#Case), the
 "erase memory on shutdown" feature, as implemented in Tails 0.6.2 and
 older, does not erase as much memory as it could. More specifically:
 

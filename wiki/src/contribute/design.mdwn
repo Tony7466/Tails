@@ -1381,10 +1381,6 @@ From the point of view of the local network administrator:
    For details, see our design documentation about
    [[non-Tor traffic|contribute/design/Tor_enforcement#non-tor-traffic]].
 
-# 4 Security analysis
-
-See [[the security audits of Tails|security/audits]].
-
 # 5 Bibliography
 
 - [Live CD Best

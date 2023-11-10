@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-10 04:12+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Language Team <tails@boum.org>\n"
 "Language: de\n"
@@ -150,10 +150,9 @@ msgstr ""
 "über Tor zukommen zu lassen."
 
 #. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Start WhisperBack\n"
+#, no-wrap
 msgid "Start WhisperBack"
-msgstr "Starten Sie WhisperBack\n"
+msgstr "Starten Sie WhisperBack"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -177,10 +176,9 @@ msgstr ""
 "  <span class=\"guimenuitem\">WhisperBack Error Reporting</span></span>.\n"
 
 #. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Write the report\n"
+#, no-wrap
 msgid "Write the report"
-msgstr "Schreiben Sie die Fehlerbeschreibung\n"
+msgstr "Schreiben Sie die Fehlerbeschreibung"
 
 #. type: Plain text
 msgid "WhisperBack lets you give plenty of useful information about your bug:"

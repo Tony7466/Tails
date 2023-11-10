@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-26 14:50+0000\n"
-"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"PO-Revision-Date: 2023-11-10 20:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -67,6 +67,12 @@ msgid ""
 "  carefully our [[documentation about MAC\n"
 "  address anonymization|first_steps/welcome_screen/mac_spoofing]] before doing so.\n"
 msgstr ""
+"  In diesem Fall können Sie die Anonymisierung der MAC-Adresse deaktivieren, "
+"um Ihre WLAN-Schnittstelle\n"
+"in Tails zum Funktionieren zu bringen. Das Deaktivieren der MAC-"
+"Adressanonymisierung hat Sicherheitsimplikationen, also lesen Sie\n"
+"unsere [[Dokumentation über die Anonymisierung von MAC-Adressen|first_steps/"
+"welcome_screen/mac_spoofing]] sorgfältig durch, bevor Sie dies tun.\n"
 
 #. type: Plain text
 msgid "To connect to the Internet, you can try to:"
@@ -98,7 +104,7 @@ msgstr "  [[!img no-wifi/usb-tethering.png link=\"no\" alt=\"\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "  See instructions for:\n"
-msgstr ""
+msgstr "  Siehe Anweisungen für:\n"
 
 #. type: Bullet: '  * '
 msgid "[iPhones or iPads](https://support.apple.com/en-us/HT204023)"

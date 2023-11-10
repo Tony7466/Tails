@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-10 06:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -583,11 +583,8 @@ msgstr ""
 "Arbeitsbesprechungen etc."
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[Document progress|contribute/working_together/document_progress]]"
 msgid "[[Code of conduct|contribute/working_together/code_of_conduct]]"
-msgstr ""
-"[[Fortschritte dokumentieren|contribute/working_together/document_progress]]"
+msgstr "[[Verhaltenskodex|contribute/working_together/code_of_conduct]]"
 
 #. type: Bullet: '  - '
 #, fuzzy

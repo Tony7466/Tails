@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-10 06:11+0000\n"
+"PO-Revision-Date: 2023-11-10 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -80,14 +80,12 @@ msgid "Throw your mouse pointer to the top-left hot corner."
 msgstr ""
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid ""
 "Press the <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link=\"no\" "
 "alt=\"\"]]) key on your keyboard."
 msgstr ""
-"Klicken Sie auf die Schaltfläche <span class=\"bold\">[[!img lib/network-"
-"wireless-encrypted.png alt=\"\" class=\"symbolic\" link=\"no\"]]</span>\n"
-"im Systemmenü, um den Bildschirm mit einem Passwort zu sperren.\n"
+"Drücken Sie die <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link="
+"\"no\" alt=\"\"]])-Taste auf Ihrer Tastatur."
 
 #. type: Plain text
 msgid ""
@@ -99,10 +97,9 @@ msgstr ""
 "beginnen."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"applications\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"applications\">Applications menu</h2>\n"
-msgstr "<a id=\"applications\"></a>\n"
+msgstr "<h2 id=\"applications\">Anwendungsmenü</h2>\n"
 
 #. type: Plain text
 #, no-wrap

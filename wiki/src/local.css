@@ -149,12 +149,8 @@ h3 {
 
 /* avoid super-long lines */
 .donate-button,
-p, ul, ol, h1, h2, h3, h4, h5, h6 {
+p, ul, ol, h1, h2, h3, h4, h5, h6, blockquote {
   max-width: 45em;
-}
-
-blockquote {
-  max-width: 42em;
 }
 
 li>p {
@@ -214,14 +210,14 @@ div#feedlink {
   padding: 0 1em 0 1em;
 }
 
-blockquote > p {
-  border-left: 2px solid var(--light-purple);
-  padding-left: 5px;
+blockquote {
+  border-left: 5px solid var(--light-purple);
   background: var(--background-gray);
+  padding: 10px 20px;
 }
 
-blockquote > p:hover {
-  background: var(--background-gray);
+blockquote p:last-child {
+  margin: 0;
 }
 
 /* Tables */
