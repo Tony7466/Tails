@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-10 23:42+0000\n"
+"PO-Revision-Date: 2023-11-10 23:44+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -234,6 +234,9 @@ msgid ""
 "Our **Jenkins instance** also had been taken care of: it is getting closer "
 "to something we can use and rely upon as part of our daily workflow."
 msgstr ""
+"La nostra **instància de Jenkins** també s'ha atès: s'està apropant a alguna "
+"cosa que podem utilitzar i en què podem confiar com a part del nostre flux "
+"de treball diari."
 
 #. type: Plain text
 msgid ""
@@ -241,6 +244,8 @@ msgid ""
 "the installation of Dasher and a first step towards the replacement of "
 "TrueCrypt."
 msgstr ""
+"Es van **fusionar moltes branques per al proper llançament 0.20**, inclosa "
+"la instal·lació de Dasher i un primer pas cap a la substitució de TrueCrypt."
 
 #. type: Plain text
 msgid ""
@@ -248,16 +253,19 @@ msgid ""
 "precise, as well as our explanation of the way random nicknames are "
 "generated for Pidgin accounts."
 msgstr ""
+"La **documentació de Pidgin i OTR** es va reescriure per ser més clara i "
+"precisa, així com la nostra explicació de com es generen els sobrenoms "
+"aleatoris per als comptes de Pidgin."
 
 #. type: Plain text
 msgid ""
 "More steps have also been done towards **not starting Iceweasel** on startup."
-msgstr ""
+msgstr "També s'han fet més passos per **no iniciar Iceweasel** a l'arrencada."
 
 #. type: Title #
 #, no-wrap
 msgid "At the end is the beginning"
-msgstr ""
+msgstr "Al final és el principi"
 
 #. type: Plain text
 msgid ""
@@ -266,3 +274,7 @@ msgid ""
 "*You* can perhaps make the difference, so do not hesitate [[joining the "
 "dance|contribute]]!"
 msgstr ""
+"Com podeu suposar, aquest cim va ser tan intens com els anteriors. Tails viu "
+"moments decisius, així que esperem que l'any vinent sigui força interessant. "
+"*Tu* potser pots marcar la diferència, així que no dubtis a [[unir-te al "
+"ball|contribute]]!"
