@@ -714,6 +714,9 @@ msgid ""
 "Last updated: 2016-08-20\n"
 "-->\n"
 msgstr ""
+"<!--\n"
+"Last updated: 2016-08-20\n"
+"-->\n"
 
 #. type: Plain text
 #, no-wrap
