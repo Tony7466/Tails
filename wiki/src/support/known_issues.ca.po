@@ -186,6 +186,9 @@ msgid ""
 "Last updated: 2020-12-18\n"
 "-->\n"
 msgstr ""
+"<!--\n"
+"Last updated: 2020-12-18\n"
+"-->\n"
 
 #. type: Plain text
 msgid "Does not start Tails 4.13."
