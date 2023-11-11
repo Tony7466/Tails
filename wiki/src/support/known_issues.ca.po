@@ -544,6 +544,8 @@ msgid ""
 "<span class=\"command\">rtl8723be.ant_sel=2 rtl8723be.fwlps=0 rtl8723be."
 "ips=0</span>"
 msgstr ""
+"<span class=\"command\">rtl8723be.ant_sel=2 rtl8723be.fwlps=0 rtl8723be."
+"ips=0</span>"
 
 #. type: Plain text
 #, no-wrap
