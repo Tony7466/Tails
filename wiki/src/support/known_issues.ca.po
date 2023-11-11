@@ -521,7 +521,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid "<span class=\"command\">rtl8723be.fwlps=0 rtl8723be.ips=0</span>"
-msgstr ""
+msgstr "<span class=\"command\">rtl8723be.fwlps=0 rtl8723be.ips=0</span>"
 
 #. type: Bullet: '- '
 msgid "<span class=\"command\">rtl8723be.ant_sel=1</span>"
