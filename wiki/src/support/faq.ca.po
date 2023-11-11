@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-03 22:11+0000\n"
+"PO-Revision-Date: 2023-11-11 08:33+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -890,6 +890,7 @@ msgstr ""
 #, no-wrap
 msgid "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
 msgstr ""
+"    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
 
 #. type: Plain text
 #, no-wrap
