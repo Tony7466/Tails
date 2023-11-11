@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-11-11 08:32+0000\n"
+"PO-Revision-Date: 2023-11-11 08:33+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -817,7 +817,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    intel_iommu=off\n"
-msgstr ""
+msgstr "    intel_iommu=off\n"
 
 #. type: Plain text
 msgid "This problem affects at least the following computers:"
