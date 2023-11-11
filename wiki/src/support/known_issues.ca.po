@@ -379,7 +379,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    acpi_rev_override=1\n"
-msgstr ""
+msgstr "    acpi_rev_override=1\n"
 
 #. type: Plain text
 #, no-wrap
