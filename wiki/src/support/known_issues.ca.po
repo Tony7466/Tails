@@ -611,7 +611,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    modprobe.blacklist=ideapad_laptop\n"
-msgstr ""
+msgstr "    modprobe.blacklist=ideapad_laptop\n"
 
 #. type: Plain text
 #, no-wrap
