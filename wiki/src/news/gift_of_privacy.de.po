@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-28 23:12+0000\n"
-"PO-Revision-Date: 2023-11-08 16:13+0000\n"
+"PO-Revision-Date: 2023-11-12 18:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "[[!meta title=\"Make the gift of privacy!\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Verschenke das Geschenk der Privatsphäre!\"]]\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap
