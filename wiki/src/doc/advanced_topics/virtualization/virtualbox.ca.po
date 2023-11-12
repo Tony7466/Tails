@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-09 23:11+0000\n"
+"PO-Revision-Date: 2023-11-12 18:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -66,6 +66,9 @@ msgid ""
 "<i>Open Source Edition</i>, though it does not\n"
 "allow use of a Persistent Storage.</p>\n"
 msgstr ""
+"<p>Per motius de seguretat, us recomanem que utilitzeu només l'edició\n"
+"<i>Open Source Edition</i>, encara que no\n"
+"permet l'ús d'un Emmagatzematge Persistent.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -102,6 +105,12 @@ msgid ""
 "<span class=\"application\">VirtualBox</span> you can access files of your\n"
 "host system from within the guest system.</p>\n"
 msgstr ""
+"<p>Amb la <a href=\"https://www.virtualbox.org/manual/ch04.html#"
+"sharedfolders\">\n"
+"funció de <span class=\"guilabel\">carpetes compartides</span></a> de\n"
+"<span class=\"application\">VirtualBox</span> podeu accedir als fitxers del "
+"vostre\n"
+"sistema amfitrió des del sistema convidat.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -110,6 +119,9 @@ msgid ""
 "internal hard disks|internal_hard_disk]]\n"
 "from Tails before using this feature.</p>\n"
 msgstr ""
+"<p>Assegureu-vos d'entendre les implicacions de seguretat de l'[[accés\n"
+"a discs durs interns|internal_hard_disk]]\n"
+"des de Tails abans d'utilitzar aquesta funció.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -119,7 +131,7 @@ msgstr "-->\n"
 #. type: Title =
 #, no-wrap
 msgid "Security considerations for Windows and macOS"
-msgstr ""
+msgstr "Consideracions de seguretat per a Windows i macOS"
 
 #. type: Plain text
 msgid ""
@@ -127,6 +139,9 @@ msgid ""
 "recommend to run Tails in a virtual machine only if the host operating "
 "system is trustworthy."
 msgstr ""
+"A les nostres [[advertències de seguretat sobre la "
+"virtualització|virtualization#security]] recomanem executar Tails en una "
+"màquina virtual només si el sistema operatiu amfitrió és fiable."
 
 #. type: Plain text
 #, no-wrap
@@ -135,6 +150,11 @@ msgid ""
 "trustworthy. Only run Tails in a virtual machine on Windows or macOS for testing\n"
 "purposes and do not rely on it for security.</p>\n"
 msgstr ""
+"<p>Com que Microsoft Windows i macOS són programari propietari, no es poden "
+"considerar\n"
+"fiables. Només executeu Tails en una màquina virtual a Windows o macOS per "
+"provar-lo\n"
+"i no hi confieu per a seguretat.</p>\n"
 
 #. type: Title =
 #, no-wrap
@@ -145,11 +165,12 @@ msgstr "Instal·lació"
 msgid ""
 "To install *VirtualBox* in Debian or Ubuntu, execute the following command:"
 msgstr ""
+"Per instal·lar *VirtualBox* a Debian o Ubuntu, executeu l'ordre següent:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    sudo apt install virtualbox\n"
-msgstr ""
+msgstr "    sudo apt install virtualbox\n"
 
 #. type: Plain text
 msgid ""
@@ -157,6 +178,9 @@ msgid ""
 "refer to the [VirtualBox documentation](https://www.virtualbox.org/wiki/End-"
 "user_documentation)."
 msgstr ""
+"Per obtenir instruccions sobre com instal·lar *VirtualBox* en altres "
+"sistemes operatius, consulteu la [documentació de VirtualBox](https://www."
+"virtualbox.org/wiki/End-user_documentation) (en anglès)."
 
 #. type: Title =
 #, no-wrap
@@ -173,59 +197,59 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Start *VirtualBox*."
-msgstr ""
+msgstr "Inicieu *VirtualBox*."
 
 #. type: Plain text
 msgid "To create a new virtual machine:"
-msgstr ""
+msgstr "Per crear una màquina virtual nova:"
 
 #. type: Bullet: '  1. '
 msgid "Choose **Machine**&nbsp;▸**New...**."
-msgstr ""
+msgstr "Trieu **Màquina**&nbsp;▸**Nou...**."
 
 #. type: Bullet: '  1. '
 msgid "In the **Name and operating system** screen:"
-msgstr ""
+msgstr "A la pantalla **Nom i sistema operatiu**:"
 
 #. type: Bullet: '     1. '
 msgid "Specify:"
-msgstr ""
+msgstr "Especifiqueu:"
 
 #. type: Bullet: '        - '
 msgid "A name of your choice"
-msgstr ""
+msgstr "Un nom que escolliu"
 
 #. type: Bullet: '        - '
 msgid "**Type**: **Linux**"
-msgstr ""
+msgstr "**Tipus**: **Linux**"
 
 #. type: Bullet: '        - '
 msgid "**Version**: **Other Linux (64 bit)**"
-msgstr ""
+msgstr "**Versió**: **Altres Linux (64 bit)**"
 
 #. type: Bullet: '     2. '
 msgid "Click **Next**."
-msgstr ""
+msgstr "Feu clic a **Següent**."
 
 #. type: Bullet: '  1. '
 msgid "In the **Memory size** screen:"
-msgstr ""
+msgstr "A la pantalla **Mida de la memòria**:"
 
 #. type: Bullet: '     1. '
 msgid "Allocate at least 2048 MB of RAM."
-msgstr ""
+msgstr "Assigneu almenys 2048 MB de RAM."
 
 #. type: Bullet: '  1. '
 msgid "In the **Hard drive** screen:"
-msgstr ""
+msgstr "A la pantalla **Disc dur**:"
 
 #. type: Bullet: '     1. '
 msgid "Choose **Do not add a virtual hard drive**."
-msgstr ""
+msgstr "Trieu **No afegiu un disc dur virtual**."
 
 #. type: Bullet: '     1. '
 msgid "Click **Create**."
-msgstr ""
+msgstr "Feu clic a **Crea**."
 
 #. type: Plain text
 #, no-wrap
@@ -233,38 +257,45 @@ msgid ""
 "     1. Click **Continue** in the warning dialog about creating a virtual\n"
 "\tmachine without a hard drive.\n"
 msgstr ""
+"     1. Feu clic a **Continua** al diàleg d'advertència sobre la creació "
+"d'una màquina\n"
+"\tvirtual sense disc dur.\n"
 
 #. type: Plain text
 msgid "To configure the virtual machine to start from an ISO image:"
-msgstr ""
+msgstr "Per configurar la màquina virtual perquè comenci des d'una imatge ISO:"
 
 #. type: Bullet: '  1. '
 msgid "Select the new virtual machine in the left pane."
-msgstr ""
+msgstr "Seleccioneu la nova màquina virtual al panell esquerre."
 
 #. type: Bullet: '  1. '
 msgid "Choose **Machine**&nbsp;▸ **Settings...**."
-msgstr ""
+msgstr "Trieu **Màquina**&nbsp;▸ **Configuració...**."
 
 #. type: Bullet: '  1. '
 msgid "Select **System** in the left pane."
-msgstr ""
+msgstr "Seleccioneu **Sistema** al panell esquerre."
 
 #. type: Bullet: '  1. '
 msgid ""
 "In the **Extended Features** section of the **Motherboard** tab, make sure "
 "that **Enable I/O APIC** is enabled."
 msgstr ""
+"A la secció **Funcions ampliades** de la pestanya **Placa base**, assegureu-"
+"vos que **Activa I/O APIC** estigui habilitat."
 
 #. type: Bullet: '  1. '
 msgid "Select **Storage** in the left pane."
-msgstr ""
+msgstr "Seleccioneu **Emmagatzematge** al panell esquerre."
 
 #. type: Bullet: '  1. '
 msgid ""
 "Select **Empty** below **Contoller IDE** in the **Storage Tree** selection "
 "list in the right pane."
 msgstr ""
+"Seleccioneu **Buit** a sota **Contoller IDE** a la llista de selecció **"
+"Arbre d'emmagatzematge** al panell dret."
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -272,26 +303,29 @@ msgid ""
 "virtual CD/DVD disk file...** to browse for the ISO image you want to start "
 "Tails from."
 msgstr ""
+"Feu clic a la icona de **CD** a la dreta de la finestra i seleccioneu **Tria "
+"un fitxer de disc de CD/DVD virtual...** per buscar la imatge ISO des de la "
+"qual voleu iniciar Tails."
 
 #. type: Bullet: '  1. '
 msgid "Check the **Live CD/DVD** option."
-msgstr ""
+msgstr "Comproveu l'opció **CD/DVD en directe**."
 
 #. type: Bullet: '  1. '
 msgid "Click **OK**."
-msgstr ""
+msgstr "Feu clic a **D'acord**."
 
 #. type: Plain text
 msgid "To start the new virtual machine:"
-msgstr ""
+msgstr "Per iniciar la nova màquina virtual:"
 
 #. type: Bullet: '  1. '
 msgid "Select the virtual machine in the left pane."
-msgstr ""
+msgstr "Seleccioneu la màquina virtual al panell esquerre."
 
 #. type: Bullet: '  1. '
 msgid "Click **Start**."
-msgstr ""
+msgstr "Feu clic a **Inicia**."
 
 #. type: Plain text
 #, no-wrap
@@ -304,6 +338,8 @@ msgid ""
 "<p><i>VirtualBox Guest Additions</i> has been removed since Tails 4.27. As a\n"
 "result:</p>\n"
 msgstr ""
+"<p><i>VirtualBox Guest Additions</i> s'ha eliminat des de Tails 4.27. Com a\n"
+"resultat:</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -317,6 +353,10 @@ msgid ""
 "<a href=\"https://www.virtualbox.org/manual/ch04.html#guestadd-intro\">shared clipboard</a>\n"
 "feature of <i>VirtualBox</i> is unavailable.</p></li>\n"
 msgstr ""
+"<li><p>La funció\n"
+"<a href=\"https://www.virtualbox.org/manual/ch04.html#guestadd-intro\">porta-"
+"retalls compartit</a>\n"
+"de <i>VirtualBox</i> no està disponible.</p></li>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -325,6 +365,11 @@ msgid ""
 "virtual machine window in the host OS. The screen resolution must be changed\n"
 "from inside Tails.</p>\n"
 msgstr ""
+"<li><p>La resolució de pantalla de Tails no es pot canviar modificant la "
+"mida de la\n"
+"finestra de la màquina virtual al sistema operatiu amfitrió. S'ha de canviar "
+"la resolució de la pantalla\n"
+"des de dins de Tails.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -332,6 +377,9 @@ msgid ""
 "<p>To change the screen resolution from inside Tails, choose\n"
 "<b>Applications&nbsp;▸ System Tools&nbsp;▸ Settings&nbsp;▸ Displays&nbsp;▸ Resolution</b>.</p>\n"
 msgstr ""
+"<p>Per canviar la resolució de la pantalla des de Tails, trieu\n"
+"<b>Aplicacions&nbsp;▸ Eines del sistema&nbsp;▸ Configuració&nbsp;▸ "
+"Pantalla&nbsp;▸ Resolució</b>.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -339,6 +387,9 @@ msgid ""
 "<p>You might also need to adjust the virtual machine window in the host OS to\n"
 "fit the new screen resolution.</p></li>\n"
 msgstr ""
+"<p>També potser haureu d'ajustar la finestra de la màquina virtual al "
+"sistema operatiu amfitrió per\n"
+"ajustar-se a la nova resolució de pantalla.</p></li>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -351,6 +402,9 @@ msgid ""
 "<p>We plan to add back <i>VirtualBox Guest Additions</i> in a future version\n"
 "of Tails. See [[!tails_ticket 18728]].</p>\n"
 msgstr ""
+"<p>Ens estem plantejant tornar a afegir <i>VirtualBox Guest Additions</i> en "
+"una versió futura\n"
+"de Tails. Vegeu [[!tails_ticket 18728]].</p>\n"
 
 #, fuzzy, no-wrap
 #~ msgid "<div class=\"note\">\n"
