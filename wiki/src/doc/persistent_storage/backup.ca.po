@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-04 16:11+0000\n"
+"PO-Revision-Date: 2023-11-12 22:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -22,6 +22,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Making a backup of your Persistent Storage\"]]\n"
 msgstr ""
+"[[!meta title=\"Fer una còpia de seguretat del vostre Emmagatzematge "
+"Persistent\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -40,6 +42,10 @@ msgid ""
 "see our [[instructions on rescuing the Persistent\n"
 "Storage of a broken Tails|rescue]].</p>\n"
 msgstr ""
+"<p>Si el vostre Tails està trencat i esteu intentant rescatar el vostre "
+"Emmagatzematge Persistent,\n"
+"consulteu les nostres [[instruccions sobre el rescat de\n"
+"l'Emmagatzematge Persistent d'un Tails trencat|rescue]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -59,19 +65,21 @@ msgid ""
 "your Tails is lost or damaged, you can replace it immediately with your "
 "backup Tails."
 msgstr ""
+"Us recomanem que creeu un altre Tails per emmagatzemar la vostra còpia de "
+"seguretat. D'aquesta manera, si el vostre Tails es perd o es fa malbé, podeu "
+"substituir-lo immediatament amb el vostre Tails de còpia de seguretat."
 
 #. type: Bullet: '1. '
 msgid "When starting Tails, unlock your Persistent Storage."
-msgstr ""
+msgstr "Quan inicieu Tails, desbloquegeu el vostre Emmagatzematge Persistent."
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid ""
 "Plug in the new USB stick on which you want to create your backup Tails USB "
 "stick."
 msgstr ""
-"Schließen Sie den alten USB-Stick mit Tails an, von welchem Sie Ihre Daten "
-"sichern möchten."
+"Connecteu el nou llapis USB en què voleu crear el vostre llapis USB Tails de "
+"còpia de seguretat."
 
 #. type: Bullet: '1. '
 msgid "Choose **Applications**&nbsp;▸ **Tails Cloner**."
@@ -130,7 +138,7 @@ msgstr "Feu clic a **Suprimeix totes les dades i instal·la** per confirmar."
 #. type: Plain text
 #, no-wrap
 msgid "   Cloning takes a few minutes.\n"
-msgstr ""
+msgstr "   La clonació triga uns minuts.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -143,6 +151,8 @@ msgid ""
 "   <p>The progress bar usually freezes for some time\n"
 "   while synchronizing data on disk.</p>\n"
 msgstr ""
+"   <p>La barra de progrés normalment es bloqueja durant un temps\n"
+"   mentre sincronitzeu les dades al disc.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -157,10 +167,11 @@ msgstr "<h1 id=\"updating\">Actualització de la còpia de seguretat</h1>\n"
 #. type: Bullet: '1. '
 msgid "Start on your current Tails and unlock the Persistent Storage."
 msgstr ""
+"Comenceu amb el Tails actual i desbloquegeu l'Emmagatzematge Persistent."
 
 #. type: Bullet: '1. '
 msgid "Plug in your backup Tails USB stick."
-msgstr ""
+msgstr "Connecteu el vostre llapis USB de Tails de còpia de seguretat."
 
 #. type: Plain text
 #, no-wrap
@@ -189,6 +200,9 @@ msgid ""
 "   <p>Each time you update your backup, only the files that have changed\n"
 "   are copied.</p>\n"
 msgstr ""
+"   <p>Cada vegada que actualitzeu la vostra còpia de seguretat, només els "
+"fitxers que han canviat\n"
+"   es copien.</p>\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -197,32 +211,40 @@ msgid ""
 "\">Tails Cloner</span>.  For detailed instructions, see how to [[manually "
 "upgrade from another Tails|upgrade/clone#upgrade]]."
 msgstr ""
+"Si la vostra còpia de seguretat de Tails té una versió obsoleta de Tails, us "
+"recomanem que l'actualitzeu clonant la vostra Tails actual amb el <span "
+"class=\"application\">Clonador de Tails</span>. Per obtenir instruccions "
+"detallades, vegeu com [[actualitzar manualment des d'un altre Tails|upgrade/"
+"clone#upgrade]]."
 
 #. type: Title =
 #, no-wrap
 msgid "Updating your backup Tails from a terminal"
-msgstr ""
+msgstr "Actualització de la còpia de seguretat de Tails des d'un terminal"
 
 #. type: Plain text
 msgid "If you prefer updating your backup Tails from a terminal:"
 msgstr ""
+"Si preferiu actualitzar la vostra còpia de seguretat de Tails des d'un "
+"terminal:"
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid ""
 "When starting Tails, unlock your Persistent Storage and [[set up an "
 "administration password|doc/first_steps/welcome_screen/"
 "administration_password]]."
 msgstr ""
-"Starten Sie Tails von dem neuen USB-Stick neu, aktivieren Sie den "
-"beständigen Speicherbereich und [[stellen Sie ein Administrationspasswort "
-"ein|startup_options/administration_password]]."
+"Quan inicieu Tails, desbloquegeu el vostre Emmagatzematge Persistent i [["
+"configureu una contrasenya d'administració|doc/first_steps/welcome_screen/"
+"administration_password]]."
 
 #. type: Bullet: '1. '
 msgid ""
 "Choose **Applications**&nbsp;▸ **Accessories**&nbsp;▸ **Files** to open the "
 "*Files* browser."
 msgstr ""
+"Trieu **Aplicacions**&nbsp;▸ **Accessoris**&nbsp;▸ **Fitxers** per obrir el "
+"navegador de *Fitxers*."
 
 #. type: Plain text
 #, no-wrap
@@ -231,13 +253,14 @@ msgid ""
 "   *Files* browser. Click on it and enter the\n"
 "   passphrase of your backup Tails to unlock the volume.\n"
 msgstr ""
+"   Apareix un nou volum encriptat a la barra lateral del\n"
+"   navegador de *Fitxers*. Cliqueu-hi i introduïu la\n"
+"   contrasenya de la vostra còpia de seguretat de Tails per desbloquejar el "
+"volum.\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid "Execute the following command in a *Root Terminal*:"
-msgstr ""
-"Führen Sie folgenden Befehl im Terminal aus, um die Berechtigungen Ihrer "
-"persönlichen Dateien zu reparieren:"
+msgstr "Executeu l'ordre següent en un *Terminal d'administrador*:"
 
 #. type: Plain text
 #, no-wrap
@@ -252,6 +275,8 @@ msgid ""
 "   When the command finishes, it displays a summary of the data that was\n"
 "   copied. For example:\n"
 msgstr ""
+"   Quan l'ordre finalitza, es mostra un resum de les dades que s'han\n"
+"   copiat. Per exemple:\n"
 
 #. type: Plain text
 #, no-wrap
