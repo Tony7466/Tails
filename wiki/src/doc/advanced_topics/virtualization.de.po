@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-05-13 10:54+0200\n"
-"PO-Revision-Date: 2023-11-10 22:11+0000\n"
+"PO-Revision-Date: 2023-11-12 16:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -288,20 +288,14 @@ msgstr ""
 "nicht aufgeführt.</p>\n"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "**<span class=\"application\">VirtualBox</span>** is available for Linux, "
-#| "Windows, and Mac. Its free software version does not include support for "
-#| "USB devices and does not allow to use a persistent volume."
 msgid ""
 "**<em>VirtualBox</em>** is available on Linux, Windows, and Mac. Its free "
 "software version does not include support for USB devices and does not allow "
 "use of a Persistent Storage."
 msgstr ""
-"**<span class=\"application\">VirtualBox</span>** ist für Linux, Windows und "
-"Mac verfügbar. Die Freie-Softwareversion davon enthält keine Unterstützung "
-"für USB-Geräte und erlaubt es nicht, einen beständigen Speicherbereich zu "
-"verwenden."
+"<em>VirtualBox</em> ist verfügbar für Linux, Windows und Mac. Die kostenlose "
+"Softwareversion beinhaltet keine Unterstützung für USB-Geräte und erlaubt "
+"nicht die Nutzung von persistentem Speicher."
 
 #. type: Plain text
 #, no-wrap
@@ -309,18 +303,13 @@ msgid "    [[See the corresponding documentation.|virtualbox]]\n"
 msgstr "    [[Lesen Sie die entsprechende Dokumentation.|virtualbox]]\n"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "**<span class=\"application\">GNOME Boxes</span>** is available for "
-#| "Linux. It has a simple user interface but does not allow to use a "
-#| "persistent volume."
 msgid ""
 "**<em>GNOME Boxes</em>** is available on Linux. It has a simple user "
 "interface but does not allow use of a Persistent Storage."
 msgstr ""
-"**<span class=\"application\">GNOME Boxen</span>** ist für Linux verfügbar. "
-"Es hat eine einfache Benutzungsoberfläche, erlaubt es aber nicht, einen "
-"beständigen Speicherbereich zu verwenden."
+"**<em>GNOME Boxes</em>** ist unter Linux verfügbar. Es verfügt über eine "
+"einfache Benutzeroberfläche, erlaubt jedoch nicht die Verwendung eines "
+"persistenten Speichers."
 
 #. type: Plain text
 #, no-wrap
@@ -328,18 +317,13 @@ msgid "    [[See the corresponding documentation.|boxes]]\n"
 msgstr "    [[Lesen Sie die entsprechende Dokumentation.|boxes]]\n"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "**<span class=\"application\">virt-manager</span>** is available for "
-#| "Linux. It has a more complex user interface and allows to use a "
-#| "persistent volume, either by:"
 msgid ""
 "**<em>virt-manager</em>** is available on Linux. It has a more complex user "
 "interface and allows use of a Persistent Storage, either by:"
 msgstr ""
-"**<span class=\"application\">virt-manager</span>** ist für Linux verfügbar. "
-"Es hat eine komplexere Benutzungsoberfläche und erlaubt es, einen "
-"beständigen Speicherbereich zu erstellen, entweder durch:"
+"**<em>virt-manager</em>** ist auf Linux verfügbar. Er verfügt über eine "
+"komplexere Benutzeroberfläche und ermöglicht die Verwendung eines "
+"permanenten Speichers, entweder durch:"
 
 #. type: Bullet: '    - '
 msgid "Starting Tails from a USB stick."
