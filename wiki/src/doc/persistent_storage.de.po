@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-04-19 10:22+0200\n"
-"PO-Revision-Date: 2023-11-09 17:12+0000\n"
+"PO-Revision-Date: 2023-11-12 18:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -19,9 +19,9 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!meta title=\"Persistent Storage\"]]\n"
-msgstr "[[!meta title=\"Verschlüsselter beständiger Speicherbereich\"]]\n"
+msgstr "[[!meta title=\"Beständiger Speicherbereich\"]]\n"
 
 #. type: Plain text
 msgid "Everything you do disappears automatically when you shut down Tails."
