@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-11-12 16:12+0000\n"
+"PO-Revision-Date: 2023-11-12 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -345,20 +345,14 @@ msgid "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline\" raw=\"
 msgstr "[[!inline pages=\"install/inc/steps/basic_troubleshooting.inline.de\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "   <div class=\"bug mac-dvd\">\n"
-#| "   <p>If your computer fails to start on the Tails DVD, then it might currently\n"
-#| "   be impossible to start Tails on your Mac model.</p>\n"
-#| "   </div>\n"
+#, no-wrap
 msgid ""
 "<p>If your computer still does not display the Boot Loader, it might currently be impossible to start Tails on your computer.</p>\n"
 "</li>\n"
 msgstr ""
-"   <div class=\"bug mac-dvd\">\n"
-"   <p>Wenn Ihr Computer beim Starten von der Tails-DVD fehlschlägt, ist es möglicherweise derzeit\n"
-"   unmöglich, Tails auf Ihrem Mac Modell zu starten.</p>\n"
-"   </div>\n"
+"<p>Wenn Ihr Computer immer noch den Boot-Loader nicht anzeigt, könnte es "
+"derzeit unmöglich sein, Tails auf Ihrem Computer zu starten.</p>\n"
+"</li>\n"
 
 #. type: Plain text
 #, no-wrap
