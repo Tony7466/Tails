@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-11-12 18:11+0000\n"
+"PO-Revision-Date: 2023-11-12 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -337,21 +337,19 @@ msgid "MAC Address Anonymization"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Disable <span class=\"guilabel\">MAC Address Spoofing</span> to prevent connectivity problems with your network interfaces."
+#, no-wrap
 msgid ""
 "Disable <span class=\"guilabel\">MAC Address Anonymization</span> to prevent\n"
 "connectivity problems with your network interfaces.\n"
-msgstr "Deaktivieren Sie die <span class=\"guilabel\">Manipulation der MAC-Adresse</span>, um Verbindungsprobleme mit Ihren Netzwerkschnittstellen zu verhindern."
+msgstr ""
+"Deaktivieren Sie die <span class=\"guilabel\">Anonymisierung der MAC-"
+"Adresse</span>, \n"
+"um Verbindungsprobleme mit Ihren Netzwerkschnittstellen zu verhindern.\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "  [[See our documentation about MAC address spoofing.|mac_spoofing]]\n"
 msgid "See our documentation about [[MAC address anonymization|mac_spoofing]]."
 msgstr ""
-"  [[Lesen Sie unsere Dokumentation zum Verschleiern der MAC-Adresse.|"
-"mac_spoofing]]\n"
+"Siehe unsere Dokumentation über [[MAC-Adressanonymisierung|mac_spoofing]]."
 
 #. type: Title -
 #, no-wrap
