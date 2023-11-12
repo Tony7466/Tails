@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-03-11 19:43+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-12 22:12+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Why is the time wrong?\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Per què és incorrecta l'hora?\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -30,28 +30,38 @@ msgid ""
 "United Kingdom, or in the past if you are east of the UK. The minutes should "
 "be accurate."
 msgstr ""
+"Quan s'inicia Tails, la zona horària del sistema s'estableix a GMT ("
+"Greenwich Mean Time). Aquesta zona horària pot ser d'unes quantes hores en "
+"el futur si esteu a l'oest del Regne Unit, o en el passat si esteu a l'est "
+"del Regne Unit. Els minuts han de ser exactes."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img gmt.png link=\"no\" alt=\"Time displayed with 'GMT' indication in top navigation bar\"]]\n"
 msgstr ""
+"[[!img gmt.png link=\"no\" alt=\"L'hora es mostra amb la indicació 'GMT' a "
+"la barra de navegació superior\"]]\n"
 
 #. type: Plain text
 msgid ""
 "We do this for anonymity reasons: if some application reveals your actual "
 "time zone, it might help identifying who you are."
 msgstr ""
+"Ho fem per raons d'anonimat: si alguna aplicació revela la vostra zona "
+"horària real, pot ajudar a identificar qui sou."
 
 #. type: Plain text
 msgid ""
 "Having all Tails users set to the same time zone makes it more difficult to "
 "distinguish you amongst all the other Tails users."
 msgstr ""
+"Tenir tots els usuaris de Tails configurats a la mateixa zona horària fa que "
+"sigui més difícil distingir-vos entre tots els altres usuaris de Tails."
 
 #. type: Title =
 #, no-wrap
 msgid "Displaying the time in your local time zone"
-msgstr ""
+msgstr "Mostrar l'hora a la vostra zona horària local"
 
 #. type: Plain text
 msgid ""
@@ -59,11 +69,16 @@ msgid ""
 "and time zone|doc/anonymous_internet/tor/troubleshoot]] of your computer, "
 "the time is displayed in your time zone instead of in GMT."
 msgstr ""
+"Si la connexió a Tor mitjançant un pont falla i heu d'[[establir el rellotge "
+"i la zona horària|doc/anonymous_internet/tor/troubleshoot]] del vostre "
+"ordinador, l'hora es mostrarà a la vostra zona horària en lloc de GMT."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img local.png link=\"no\" alt=\"Time displayed without 'GMT' indication in top navigation bar\"]]\n"
 msgstr ""
+"[[!img local.png link=\"no\" alt=\"L'hora es mostra sense la indicació 'GMT' "
+"a la barra de navegació superior\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -77,6 +92,11 @@ msgid ""
 "way of changing the time zone of the time displayed in the top navigation\n"
 "bar.</p>\n"
 msgstr ""
+"<p>Arreglar el rellotge quan Tails no es connecta a Tor és actualment l'"
+"única\n"
+"manera de canviar la zona horària de l'hora que es mostra a la barra de "
+"navegació\n"
+"superior.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -85,6 +105,9 @@ msgid ""
 "([[!tails_ticket 10819]]) from the desktop and store it in the Persistent\n"
 "Storage ([[!tails_ticket 12094]]).</p>\n"
 msgstr ""
+"<p>En el futur, volem fer possible canviar aquesta zona horària\n"
+"([[!tails_ticket 10819]]) des de l'escriptori i emmagatzemar-la a\n"
+"l'Emmagatzematge Persistent ([[!tails_ticket 12094]]).</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -94,7 +117,7 @@ msgstr "</div>\n"
 #. type: Title =
 #, no-wrap
 msgid "Time used by applications"
-msgstr ""
+msgstr "Temps utilitzat per les aplicacions"
 
 #. type: Plain text
 msgid ""
@@ -102,6 +125,9 @@ msgid ""
 "bar, the internal time used by all applications in Tails is still in GMT to "
 "protect your anonymity."
 msgstr ""
+"Fins i tot si l'hora es mostra a la vostra zona horària local a la barra de "
+"navegació superior, l'hora interna utilitzada per totes les aplicacions de "
+"Tails encara és GMT per protegir el vostre anonimat."
 
 #. type: Plain text
 msgid ""
@@ -109,3 +135,6 @@ msgid ""
 "*Pidgin* is always in GMT to avoid leaking your time zone to the people you "
 "write to."
 msgstr ""
+"Per exemple, l'hora d'enviament de correus electrònics a *Thunderbird* o "
+"missatges a *Pidgin* sempre és GMT per evitar filtrar la vostra zona horària "
+"a les persones a les quals escriviu."
