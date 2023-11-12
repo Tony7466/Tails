@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-10 04:13+0000\n"
+"PO-Revision-Date: 2023-11-12 18:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Warnings: Tails is safe but not magic!\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Warnungen: Tails ist sicher, aber nicht magisch!\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
