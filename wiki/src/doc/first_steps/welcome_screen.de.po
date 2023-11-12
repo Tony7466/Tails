@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-11-10 20:11+0000\n"
+"PO-Revision-Date: 2023-11-12 16:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -284,22 +284,19 @@ msgid "<a id=\"additional\"></a>\n"
 msgstr "<a id=\"additional\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Additional settings"
-msgstr "Zusätzliche Einstellungen\n"
+msgstr "Zusätzliche Einstellungen"
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "Tails is configured with care to be as safe as possible by default. But, "
 "depending on your situation, you can change one of the following settings "
 "from the Welcome Screen."
 msgstr ""
-"Tails ist mit Sorgfalt so konfiguriert, dass es standardmäßig so sicher wie "
-"möglich ist.\n"
-"Jedoch können Sie abhängig von Ihrer Situation die jeweiligen der folgenden "
-"Einstellungen\n"
-"aus dem <span class=\"application\">Tails Greeter</span> aus anpassen.\n"
+"Tails ist standardmäßig so konfiguriert, dass es so sicher wie möglich ist. "
+"Je nach Ihrer Situation können Sie jedoch eine der folgenden Einstellungen "
+"auf dem Begrüßungsbildschirm ändern."
 
 #. type: Plain text
 #, fuzzy, no-wrap
