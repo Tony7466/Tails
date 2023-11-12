@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-10-22 09:27+0000\n"
+"PO-Revision-Date: 2023-11-12 22:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Using VeraCrypt encrypted volumes\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Utilització de volums encriptats amb VeraCrypt\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -31,7 +31,7 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Title =
 #, no-wrap
 msgid "Introduction to <span class=\"application\">VeraCrypt</span>"
-msgstr ""
+msgstr "Introducció a <span class=\"application\">VeraCrypt</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -39,11 +39,16 @@ msgid ""
 "<span class=\"application\">[VeraCrypt](https://www.veracrypt.fr/)</span> is a\n"
 "disk encryption tool that works on Windows, macOS, and Linux.\n"
 msgstr ""
+"<span class=\"application\">[VeraCrypt](https://www.veracrypt.fr/)</span> és "
+"una\n"
+"eina d'encriptatge de disc que funciona a Windows, macOS i Linux.\n"
 
 #. type: Title -
 #, no-wrap
 msgid "Comparison between <span class=\"application\">LUKS</span> and <span class=\"application\">VeraCrypt</span>"
 msgstr ""
+"Comparació entre <span class=\"application\">LUKS</span> i <span class="
+"\"application\">VeraCrypt</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -53,6 +58,12 @@ msgid ""
 "standard for disk encryption in Linux. [[See our documentation about\n"
 "<span class=\"application\">LUKS</span>.|encrypted_volumes]]\n"
 msgstr ""
+"També podeu crear i obrir volums encriptats amb <span class=\"application\""
+">LUKS</span>\n"
+"a Tails. <span class=\"application\">LUKS</span> és\n"
+"l'estàndard per a l'encriptatge de disc a Linux. [[Vegeu la nostra "
+"documentació sobre\n"
+"<span class=\"application\">LUKS</span>.|encrypted_volumes]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -68,6 +79,10 @@ msgid ""
 "outside of Tails. See the step-by-step guides by Security-in-a-Box on\n"
 "[VeraCrypt for Windows](https://securityinabox.org/en/tools/veracrypt/).\n"
 msgstr ""
+"Per crear nous volums de <span class=\"application\">VeraCrypt</span>, feu-"
+"ho\n"
+"fora de Tails. Consulteu les guies pas a pas de Security-in-a-Box sobre\n"
+"[VeraCrypt per a Windows](https://securityinabox.org/en/tools/veracrypt/).\n"
 
 #. type: Plain text
 #, no-wrap
@@ -77,7 +92,7 @@ msgstr "<a id=\"container-vs-partition\"></a>\n"
 #. type: Title -
 #, no-wrap
 msgid "Difference between file containers and partitions"
-msgstr ""
+msgstr "Diferència entre contenidors de fitxers i particions"
 
 #. type: Plain text
 #, no-wrap
@@ -85,11 +100,14 @@ msgid ""
 "With <span class=\"application\">VeraCrypt</span> you can store your files\n"
 "encrypted in two different kinds of *volumes*:\n"
 msgstr ""
+"Amb <span class=\"application\">VeraCrypt</span> podeu emmagatzemar els "
+"vostres fitxers\n"
+"encriptats en dos tipus diferents de *volums*:\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h3>File containers</h3>\n"
-msgstr ""
+msgstr "<h3>Contenidors de fitxers</h3>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -110,11 +128,17 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<p>Un contenidor de fitxers és un únic fitxer gran dins del qual podeu "
+"emmagatzemar\n"
+"diversos fitxers encriptats, una mica com un fitxer ZIP.</p>\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h3>Partitions or drives</h3>\n"
-msgstr ""
+msgstr "<h3>Particions o unitats</h3>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -131,6 +155,14 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<p>Normalment, les unitats (llapis USB i discs durs) tenen una única "
+"partició\n"
+"de la seva mida total. D'aquesta manera, podeu encriptar un llapis USB "
+"sencer, per exemple.\n"
+"Però, les unitats també es poden dividir en diverses particions.\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -140,7 +172,7 @@ msgstr "<a id=\"parameters\"></a>\n"
 #. type: Title -
 #, no-wrap
 msgid "Unlocking parameters"
-msgstr ""
+msgstr "Paràmetres de desbloqueig"
 
 #. type: Plain text
 #, no-wrap
@@ -149,10 +181,15 @@ msgid ""
 "the following parameters, depending on the options that were selected when the\n"
 "volume was created:\n"
 msgstr ""
+"Per desbloquejar un volum <span class=\"application\">VeraCrypt</span>, "
+"potser necessiteu\n"
+"els paràmetres següents, depenent de les opcions que es van seleccionar en "
+"el moment\n"
+"en que es va crear el volum:\n"
 
 #. type: Plain text
 msgid "- **Passphrase**"
-msgstr ""
+msgstr "- **Contrasenya**"
 
 #. type: Bullet: '- '
 msgid ""
@@ -160,6 +197,9 @@ msgid ""
 "\"application\">VeraCrypt</span> volume can be unlocked using a particular "
 "file or set of files."
 msgstr ""
+"**Fitxers clau**: en lloc de la contrasenya o a més d'ella, es pot "
+"desbloquejar un volum <span class=\"application\">VeraCrypt</span> "
+"mitjançant un fitxer o un conjunt de fitxers concrets."
 
 #. type: Plain text
 #, no-wrap
@@ -167,12 +207,16 @@ msgid ""
 "  [See the <span class=\"application\">VeraCrypt</span> documentation on\n"
 "  keyfiles.](https://www.veracrypt.fr/en/Keyfiles.html)\n"
 msgstr ""
+"  [Vegeu la documentació de <span class=\"application\">VeraCrypt</span>\n"
+"  sobre els fitxers clau.](https://www.veracrypt.fr/en/Keyfiles.html)\n"
 
 #. type: Bullet: '- '
 msgid ""
 "**PIM**: a number that is needed if it was specified when creating the <span "
 "class=\"application\">VeraCrypt</span> volume."
 msgstr ""
+"**PIM**: un número que es necessita si s'ha especificat en crear el volum "
+"<span class=\"application\">VeraCrypt</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -180,12 +224,17 @@ msgid ""
 "  [See the <span class=\"application\">VeraCrypt</span> documentation on\n"
 "  PIM.](https://www.veracrypt.fr/en/Personal%20Iterations%20Multiplier%20\\(PIM\\).html)\n"
 msgstr ""
+"  [Vegeu la documentació de <span class=\"application\">VeraCrypt</span>\n"
+"  sobre el PIM.](https://www.veracrypt.fr/en/"
+"Personal%20Iterations%20Multiplier%20\\(PIM\\).html) (en anglès)\n"
 
 #. type: Bullet: '- '
 msgid ""
 "**Hidden volume**: if you want to unlock the hidden volume inside the <span "
 "class=\"application\">VeraCrypt</span> volume."
 msgstr ""
+"**Volum ocult**: si voleu desbloquejar el volum ocult dins del volum <span "
+"class=\"application\">VeraCrypt</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -193,12 +242,17 @@ msgid ""
 "  [See the <span class=\"application\">VeraCrypt</span> documentation on hidden\n"
 "  volumes.](https://www.veracrypt.fr/en/Hidden%20Volume.html)\n"
 msgstr ""
+"  [Vegeu la documentació de <span class=\"application\">VeraCrypt</span> "
+"sobre volums\n"
+"  ocults.](https://www.veracrypt.fr/en/Hidden%20Volume.html) (en anglès)\n"
 
 #. type: Plain text
 msgid ""
 "- **System volume**: if you want to unlock an encrypted Windows system "
 "partition."
 msgstr ""
+"- **Volum del sistema**: si voleu desbloquejar una partició del sistema "
+"Windows encriptada."
 
 #. type: Plain text
 #, no-wrap
@@ -206,11 +260,15 @@ msgid ""
 "  [See the <span class=\"application\">VeraCrypt</span> documentation on\n"
 "  encrypting a Windows system partition.](https://www.veracrypt.fr/en/System%20Encryption.html)\n"
 msgstr ""
+"  [Vegeu la documentació de <span class=\"application\">VeraCrypt</span> "
+"sobre\n"
+"  encriptar una partició del sistema de Windows.](https://www.veracrypt.fr/"
+"en/System%20Encryption.html) (en anglès)\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Using a file container"
-msgstr ""
+msgstr "Utilitzar un contenidor de fitxers"
 
 #. type: Plain text
 #, no-wrap
@@ -225,7 +283,7 @@ msgstr "<a id=\"container-files\"></a>\n"
 #. type: Title -
 #, no-wrap
 msgid "Unlocking a file container without keyfiles"
-msgstr ""
+msgstr "Desbloqueig d'un contenidor de fitxers sense fitxers clau"
 
 #. type: Plain text
 #, no-wrap
@@ -236,6 +294,12 @@ msgid ""
 "     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
 "     <span class=\"guisubmenuitem\">Unlock VeraCrypt Volumes</span></span>.\n"
 msgstr ""
+"1. Trieu\n"
+"   <span class=\"menuchoice\">\n"
+"     <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"     <span class=\"guisubmenu\">Utilitats</span>&nbsp;▸\n"
+"     <span class=\"guisubmenuitem\">Desbloquejar volums "
+"VeraCrypt</span></span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -247,23 +311,30 @@ msgid ""
 "Click <span class=\"bold\">Add</span> and choose the file container that you "
 "want to unlock."
 msgstr ""
+"Feu clic a <span class=\"bold\">Afegeix</span> i trieu el contenidor de "
+"fitxers que voleu desbloquejar."
 
 #. type: Bullet: '1. '
 msgid ""
 "Enter the parameters to unlock the volume. For more information, see the "
 "[[Unlocking parameters|veracrypt#parameters]] section above."
 msgstr ""
+"Introduïu els paràmetres per desbloquejar el volum. Per obtenir més "
+"informació, consulteu la secció de [[desbloqueig de "
+"paràmetres|veracrypt#parameters]] anterior."
 
 #. type: Plain text
 #, no-wrap
 msgid "   Click <span class=\"bold\">Unlock</span>.\n"
-msgstr ""
+msgstr "   Feu clic a <span class=\"bold\">Desbloqueja</span>.\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "<span class=\"application\">Unlock VeraCrypt Volumes</span> unlocks your "
 "volume."
 msgstr ""
+"<span class=\"application\">Desbloqueig de volums de VeraCrypt</span> "
+"desbloqueja el vostre volum."
 
 #. type: Plain text
 #, no-wrap
@@ -272,22 +343,29 @@ msgid ""
 "   password), click on <span class=\"bold\">Unlock</span> to try\n"
 "   unlocking again.\n"
 msgstr ""
+"   Si el desbloqueig del volum falla (per exemple, si heu escrit malament "
+"la\n"
+"   contrasenya), feu clic a <span class=\"bold\">Desbloqueja</span> per "
+"provar\n"
+"   de desbloquejar de nou.\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "Click <span class=\"bold\">Open</span> to open the volume in the <span class="
 "\"application\">Files</span> browser."
 msgstr ""
+"Feu clic a <span class=\"bold\">Obre</span> per obrir el volum al navegador "
+"de <span class=\"application\">Fitxers</span>."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<a id=\"container-disks\"></a>\n"
-msgstr "<a id=\"container-files\"></a>\n"
+msgstr "<a id=\"container-disks\"></a>\n"
 
 #. type: Title -
 #, no-wrap
 msgid "Unlocking a file container with keyfiles"
-msgstr ""
+msgstr "Desbloqueig d'un contenidor de fitxers amb fitxers clau"
 
 #. type: Plain text
 #, no-wrap
@@ -299,16 +377,26 @@ msgid ""
 "     <span class=\"guisubmenuitem\">Disks</span></span>\n"
 "   to start the <span class=\"application\">Disks</span> utility.\n"
 msgstr ""
+"1. Trieu\n"
+"   <span class=\"menuchoice\">\n"
+"     <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"     <span class=\"guisubmenu\">Utilitats</span>&nbsp;▸\n"
+"     <span class=\"guisubmenuitem\">Discs</span></span>\n"
+"   per iniciar la utilitat <span class=\"application\">Discs</span>.\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "Choose **[[!img lib/open-menu.png alt=\"\" class=symbolic link=\"no\"]]&nbsp;"
 "▸ Attach Disk Image&hellip;** from the top navigation bar."
 msgstr ""
+"Trieu **[[!img lib/open-menu.png alt=\"\" class=symbolic link=\"no\"]]&nbsp;▸"
+" Adjunta la imatge de disc&hellip;** a la barra de navegació superior."
 
 #. type: Bullet: '1. '
 msgid "In the <span class=\"bold\">Select Disk Image to Attach</span> dialog:"
 msgstr ""
+"Al diàleg <span class=\"bold\">Selecciona la imatge de disc per "
+"adjuntar</span>:"
 
 #. type: Bullet: '   - '
 msgid ""
@@ -316,6 +404,9 @@ msgid ""
 "check box in the bottom-left corner if you want to modify the content of the "
 "file container."
 msgstr ""
+"Desmarqueu la casella de selecció <span class=\"guilabel\">Configura el "
+"dispositiu de bucle només de lectura</span> a l'extrem inferior esquerre si "
+"voleu modificar el contingut del contenidor del fitxer."
 
 #. type: Plain text
 #, no-wrap
@@ -327,6 +418,8 @@ msgid ""
 "Choose <span class=\"guilabel\">All Files</span> in the file filter in the "
 "bottom-right corner."
 msgstr ""
+"Trieu <span class=\"guilabel\">Tots els fitxers</span> al filtre de fitxers "
+"a l'extrem inferior dret."
 
 #. type: Plain text
 #, no-wrap
@@ -337,16 +430,21 @@ msgstr "     [[!img all-files.png link=\"no\" alt=\"\"]]\n"
 msgid ""
 "Navigate to the folder containing the file container that you want to open."
 msgstr ""
+"Navegueu a la carpeta que conté el contenidor de fitxers que voleu obrir."
 
 #. type: Bullet: '   - '
 msgid "Select the file container and click <span class=\"bold\">Attach</span>."
 msgstr ""
+"Seleccioneu el contenidor del fitxer i feu clic a <span class=\"bold\""
+">Adjunta</span>."
 
 #. type: Bullet: '1. '
 msgid ""
 "In the left pane, select the new <span class=\"guilabel\">Loop Device</span> "
 "that corresponds to your file container."
 msgstr ""
+"Al panell esquerre, seleccioneu el nou <span class=\"guilabel\">Dispositiu "
+"de bucle</span> que correspongui al vostre contenidor de fitxers."
 
 #. type: Plain text
 #, no-wrap
@@ -354,6 +452,8 @@ msgid ""
 "   In the right pane, it should have an\n"
 "   <span class=\"guilabel\">Encrypted?</span> label.\n"
 msgstr ""
+"   Al panell dret, hauria d'apareixer\n"
+"   una etiqueta que digui <span class=\"guilabel\">Encriptat?</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -366,6 +466,9 @@ msgid ""
 "encrypted partition\" class=\"symbolic\" link=\"no\"]]</span> button in the "
 "right pane."
 msgstr ""
+"Feu clic al botó <span class=\"bold\">[[!img lib/unlock.png alt=\"Desbloqueja"
+" la partició encriptada seleccionada\" class=\"symbolic\" link=\"no\"]]</"
+"span> al panell dret."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -373,6 +476,9 @@ msgid ""
 "has a <span class=\"guilabel\">FAT</span> or <span class=\"guilabel\">NTFS</"
 "span> content."
 msgstr ""
+"Seleccioneu el sistema de fitxers que apareix a sota del volum desbloquejat. "
+"Probablement té un contingut <span class=\"guilabel\">FAT</span> o <span "
+"class=\"guilabel\">NTFS</span>."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -380,6 +486,9 @@ msgid ""
 "\"Mount selected partition\" class=\"symbolic\" link=\"no\"]]</span> button "
 "to mount the volume."
 msgstr ""
+"Feu clic al botó <span class=\"bold\">[[!img lib/media-playback-start.png "
+"alt=\"Munta la partició seleccionada\" class=\"symbolic\" link=\"no\"]]</"
+"span> per muntar el volum."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -387,15 +496,18 @@ msgid ""
 "right pane to open the volume in the <span class=\"application\">Files</"
 "span> browser."
 msgstr ""
+"Feu clic a l'enllaç <span class=\"filename\">*/media/amnesia/*</span> del "
+"panell dret per obrir el volum al navegador de <span class=\"application\""
+">Fitxers</span>."
 
 #. type: Title -
 #, no-wrap
 msgid "Closing a file container"
-msgstr ""
+msgstr "Tancar un contenidor de fitxers"
 
 #. type: Plain text
 msgid "You can either:"
-msgstr ""
+msgstr "Podeu:"
 
 #. type: Bullet: '- '
 msgid ""
@@ -404,6 +516,10 @@ msgid ""
 "class=\"symbolic\" link=\"no\"]]</span> button on the label of the volume "
 "corresponding to your file container."
 msgstr ""
+"A la barra lateral del navegador de <span class=\"application\">Fitxers</"
+"span>, feu clic a <span class=\"bold\">[[!img lib/media-eject.png alt="
+"\"Expulsa\" class=\" simbòlic\" link=\"no\"]]</span> a l'etiqueta del volum "
+"corresponent al contenidor del vostre fitxer."
 
 #. type: Plain text
 #, no-wrap
@@ -417,26 +533,30 @@ msgid ""
 "\" alt=\"\"]]</span> button in the line that corresponds to your file "
 "container."
 msgstr ""
+"A <span class=\"application\">Desbloqueig de volums de VeraCrypt</span>, feu "
+"clic a <span class=\"bold\">[[!img lib/window-close.png class=\"symbolic\" "
+"link=\"no\" alt =\"\"]]</span> a la línia que correspon al contenidor del "
+"vostre fitxer."
 
 #. type: Title =
 #, no-wrap
 msgid "Using a partition or drive"
-msgstr ""
+msgstr "Utilitzar una partició o unitat"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img partition-icon.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img partition-icon.png link=\"no\"]]\n"
+msgstr "[[!img partition-icon.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<a id=\"partition-files\"></a>\n"
-msgstr "<a id=\"container-files\"></a>\n"
+msgstr "<a id=\"partition-files\"></a>\n"
 
 #. type: Title -
 #, no-wrap
 msgid "Unlocking a partition or drive without keyfiles"
-msgstr ""
+msgstr "Desbloqueig d'una partició o unitat sense fitxers clau"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -444,6 +564,9 @@ msgid ""
 "administration password|doc/first_steps/welcome_screen/"
 "administration_password]] when starting Tails."
 msgstr ""
+"Si la vostra partició o unitat es troba en un disc dur intern, [[configureu "
+"una contrasenya d'administració|doc/first_steps/welcome_screen/"
+"administration_password]] quan inicieu Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -451,12 +574,16 @@ msgid ""
 "   Otherwise, plug in the USB stick or the hard disk that you want to\n"
 "   unlock.\n"
 msgstr ""
+"   En cas contrari, connecteu el llapis USB o el disc dur que vulgueu\n"
+"   desbloquejar.\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "In the list of partitions, click <span class=\"bold\">Unlock</span> in the "
 "line that corresponds to your USB stick or hard disk."
 msgstr ""
+"A la llista de particions, feu clic a <span class=\"bold\">Desbloqueja</"
+"span> a la línia que correspon al vostre llapis USB o disc dur."
 
 #. type: Plain text
 #, no-wrap
@@ -464,20 +591,22 @@ msgid "   [[!img unlock-veracrypt-volumes-with-partition.png link=\"no\" alt=\"\
 msgstr "   [[!img unlock-veracrypt-volumes-with-partition.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<a id=\"partition-disks\"></a>\n"
-msgstr "<a id=\"parameters\"></a>\n"
+msgstr "<a id=\"partition-disks\"></a>\n"
 
 #. type: Title -
 #, no-wrap
 msgid "Unlocking a partition or drive with keyfiles"
-msgstr ""
+msgstr "Desbloqueig d'una partició o unitat amb fitxers clau"
 
 #. type: Bullet: '1. '
 msgid ""
 "In the left pane, select the drive that corresponds to your USB stick or "
 "hard disk."
 msgstr ""
+"Al panell esquerre, seleccioneu la unitat que correspon al vostre llapis USB "
+"o disc dur."
 
 #. type: Plain text
 #, no-wrap
@@ -489,16 +618,20 @@ msgid ""
 "In the right pane, select the partition that corresponds to your *VeraCrypt* "
 "volume."
 msgstr ""
+"Al panell dret, seleccioneu la partició que correspon al vostre volum "
+"*VeraCrypt*."
 
 #. type: Plain text
 #, no-wrap
 msgid "   It should have an <span class=\"guilabel\">Encrypted?</span> label.\n"
 msgstr ""
+"   Hauria de tenir una etiqueta de <span class=\"guilabel\""
+">Encriptat?</span>.\n"
 
 #. type: Title -
 #, no-wrap
 msgid "Closing a partition or drive"
-msgstr ""
+msgstr "Tancar una partició o unitat"
 
 #. type: Bullet: '- '
 msgid ""
@@ -507,6 +640,10 @@ msgid ""
 "class=\"symbolic\" link=\"no\"]]</span> button on the label of the volume "
 "corresponding to your partition."
 msgstr ""
+"A la barra lateral del navegador de <span class=\"application\">Fitxers</"
+"span>, feu clic a <span class=\"bold\">[[!img lib/media-eject.png alt="
+"\"Expulsa\" class=\" simbòlic\" link=\"no\"]]</span> a l'etiqueta del volum "
+"corresponent a la vostra partició."
 
 #. type: Plain text
 #, no-wrap
@@ -520,6 +657,10 @@ msgid ""
 "\" alt=\"\"]]</span> button in the line that corresponds to your USB stick "
 "or hard disk."
 msgstr ""
+"A <span class=\"application\">Desbloqueig de volums de VeraCrypt</span>, feu "
+"clic a <span class=\"bold\">[[!img lib/window-close.png class=\"symbolic\" "
+"link=\"no\" alt =\"\"]]</span> a la línia que correspon al vostre llapis USB "
+"o disc dur."
 
 #, fuzzy, no-wrap
 #~ msgid "     [[!img disks-menu.png link=\"no\" alt=\"\"]]\n"
