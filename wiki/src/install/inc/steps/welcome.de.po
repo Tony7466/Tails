@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 10:54-0300\n"
-"PO-Revision-Date: 2023-11-12 16:11+0000\n"
+"PO-Revision-Date: 2023-11-12 18:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -340,20 +340,17 @@ msgid "Click <span class=\"bold\">Save</span>."
 msgstr "Klicken Sie auf <span class=\"bold\">Speichern</span>."
 
 #. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Restart and activate the persistent storage\n"
+#, no-wrap
 msgid "Restart and unlock the Persistent Storage"
-msgstr "Starten Sie neu und aktivieren Sie den beständigen Speicherbereich\n"
+msgstr "Starten Sie neu und aktivieren Sie den beständigen Speicherbereich"
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid ""
 "Shut down the computer and restart on your <span class=\"clone\">new</span> "
 "Tails USB stick."
 msgstr ""
-"Fahren Sie den Computer herunter und starten Sie mit dem <span class="
-"\"windows linux mac-usb\">endgültigen</span> <span class=\"clone\">neuen</"
-"span> USB-Stick mit Tails neu."
+"Schalten Sie den Computer aus und starten Sie neu auf Ihrem <span class="
+"\"clone\">neuen</span> Tails USB-Stick."
 
 #. type: Bullet: '1. '
 msgid "In the Welcome Screen:"
