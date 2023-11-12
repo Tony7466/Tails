@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-27 09:15+0000\n"
-"PO-Revision-Date: 2023-10-12 10:12+0000\n"
+"PO-Revision-Date: 2023-11-12 18:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -19,10 +19,8 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Content of: <div>
-#, fuzzy
-#| msgid "[[!meta title=\"Welcome to Tails!\"]]"
 msgid "[[!meta title=\"Dear Tails user,\"]]"
-msgstr "[[!meta title=\"Willkommen bei Tails!\"]]"
+msgstr "[[!meta title=\"Lieber Tails-Nutzer,\"]]"
 
 #. [[!inline pages="home/donate.inline" raw="yes" sort="age"]]
 #. type: Content of: outside any tag (error?)
