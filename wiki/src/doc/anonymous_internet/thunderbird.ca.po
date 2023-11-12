@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-12 16:12+0000\n"
+"PO-Revision-Date: 2023-11-12 18:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -612,7 +612,7 @@ msgid ""
 "click **Continue** again."
 msgstr ""
 "Feu clic a **Continua**, introduïu la contrasenya de la vostra clau privada ("
-"si n'hi ha) i torneu a fer clic a **Continua**."
+"si en teniu) i torneu a fer clic a **Continua**."
 
 #. type: Plain text
 #, no-wrap
@@ -620,8 +620,8 @@ msgid ""
 "   Your private key should now be listed in the **End-to-End\n"
 "   Encryption** settings of your account.\n"
 msgstr ""
-"   Ara la vostra clau privada hauria de figurar a la llista de configuració "
-"**d'encriptació\n"
+"   Ara la vostra clau privada hauria de figurar a la configuració d'**"
+"Encriptació\n"
 "   d'extrem a extrem** del vostre compte.\n"
 
 #. type: Bullet: '1. '
