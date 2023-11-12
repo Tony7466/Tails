@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-10 17:08+0000\n"
-"PO-Revision-Date: 2023-11-09 17:11+0000\n"
+"PO-Revision-Date: 2023-11-12 18:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -19,10 +19,9 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!meta title=\"System requirements\"]]\n"
+#, no-wrap
 msgid "[[!meta title=\"System requirements and recommended hardware\"]]\n"
-msgstr "[[!meta title=\"Systemvoraussetzungen\"]]\n"
+msgstr "[[!meta title=\"Systemanforderungen und empfohlene Hardware\"]]\n"
 
 #. type: Title =
 #, no-wrap
