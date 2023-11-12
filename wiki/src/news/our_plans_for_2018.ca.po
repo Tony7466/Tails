@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:09+0200\n"
-"PO-Revision-Date: 2023-11-05 00:11+0000\n"
+"PO-Revision-Date: 2023-11-12 22:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Our plans for 2018\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Els nostres plans per al 2018\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -45,11 +45,15 @@ msgid ""
 "what_we_accomplished_in_2017]]. Today we are sharing with you some of our "
 "plans for the next years:"
 msgstr ""
+"Com a part de la nostra campanya de donació actual, recentment hem explicat "
+"[[per què necessitem donacions|many_hands_make_tails]] i [[què hem "
+"aconseguit aquest any|what_we_accomplished_in_2017]]. Avui compartim amb "
+"vosaltres alguns dels nostres plans per als propers anys:"
 
 #. type: Title ###
 #, no-wrap
 msgid "Applications and features"
-msgstr ""
+msgstr "Aplicacions i funcionalitats"
 
 #. type: Bullet: '- '
 msgid ""
@@ -58,6 +62,10 @@ msgid ""
 "5688]], [[!tails_blueprint tails_server desc=\"Blueprint\"]]).  (Planned for "
 "early 2018.)"
 msgstr ""
+"**Tails Server**: executar els serveis onion des de Tails (sales de xat "
+"VoIP, eines de col·laboració, servidors web, servidors de missatgeria, etc.) "
+"([[!tails_ticket 5688]], [[!tails_blueprint tails_server desc=\"Blueprint\""
+"]]). (Previst per a principis de 2018)"
 
 #. type: Bullet: '- '
 msgid ""
@@ -65,6 +73,10 @@ msgid ""
 "volumes ([[!tails_ticket 11684]], [[!tails_ticket 6337]], [[!tails_blueprint "
 "veracrypt desc=\"Blueprint\"]]). (Planned for late 2018.)"
 msgstr ""
+"**Compatibilitat amb VeraCrypt a GNOME**: utilitats gràfiques per muntar "
+"volums VeraCrypt ([[!tails_ticket 11684]], [[!tails_ticket 6337]], [["
+"!tails_blueprint veracrypt desc=\"Blueprint\"]]). (Previst per a finals de "
+"2018)"
 
 #. type: Bullet: '- '
 msgid ""
@@ -73,11 +85,16 @@ msgid ""
 "tails_ticket 14568]], [[!tails_blueprint additional_software_packages desc="
 "\"Blueprint\"]]). (Planned for late 2018.)"
 msgstr ""
+"**Interfície gràfica per a la funció persistent de Paquets Addicionals**: "
+"permet als usuaris personalitzar quines aplicacions estan disponibles al seu "
+"Tails ([[!tails_ticket 14568]], [[!tails_blueprint "
+"additional_software_packages desc=\"Blueprint\"]]). (Previst per a finals de "
+"2018)"
 
 #. type: Title ###
 #, no-wrap
 msgid "User research and support"
-msgstr ""
+msgstr "Recerca i suport als usuaris"
 
 #. type: Bullet: '- '
 msgid ""
@@ -85,6 +102,10 @@ msgid ""
 "our user base at large ([[!tails_ticket 9803]], [[!tails_blueprint "
 "RT_for_help_desk desc=\"Blueprint\"]])"
 msgstr ""
+"**Potenciar el nostre servei d'assistència amb un rastrejador de "
+"sol·licituds** per saber millor com ajudar la nostra base d'usuaris en "
+"general ([[!tails_ticket 9803]], [[!tails_blueprint RT_for_help_desk desc="
+"\"Blueprint\"]])"
 
 #. type: Bullet: '- '
 msgid ""
@@ -94,11 +115,16 @@ msgid ""
 "website translated into more languages ([[!tails_ticket 10034]]). (Planned "
 "for late 2018.)"
 msgstr ""
+"**Plataforma de traducció web** Hem rebut una subvenció del fons Lush "
+"Digital per configurar una plataforma de traducció per al nostre lloc web. "
+"Aquesta plataforma facilitarà als traductors la traducció de la nostra "
+"documentació i la traducció del nostre lloc web a més idiomes ([["
+"!tails_ticket 10034]]). (Previst per a finals de 2018)"
 
 #. type: Title ###
 #, no-wrap
 msgid "Better adoption"
-msgstr ""
+msgstr "Millor adopció"
 
 #. type: Bullet: '- '
 msgid ""
@@ -106,32 +132,43 @@ msgid ""
 "future of *Tails Installer*, the installation on Windows and macOS, and "
 "automatic upgrades ([[!tails_ticket 11679]])"
 msgstr ""
+"**Repensar el procés d'instal·lació i actualització** en profunditat i "
+"reflexionar sobre el futur de *Tails Installer*, la instal·lació a Windows i "
+"macOS i les actualitzacions automàtiques ([[!tails_ticket 11679]])"
 
 #. type: Bullet: '- '
 msgid "**Give some love to our troubleshooting documentation**:"
 msgstr ""
+"**Donar una mica d'amor a la nostra documentació de resolució de problemes**:"
 
 #. type: Bullet: '  - '
 msgid ""
 "Our [[known issues page|support/known_issues]] ([[!tails_ticket 11665]])"
 msgstr ""
+"La nostra [[pàgina de problemes coneguts|support/known_issues]] ([["
+"!tails_ticket 11665]])"
 
 #. type: Bullet: '  - '
 msgid ""
 "Computers with unsupported Wi-Fi devices, very common on Mac ([[!"
 "tails_ticket 11683]])"
 msgstr ""
+"Ordinadors amb dispositius Wi-Fi no compatibles, molt habituals a Mac ([["
+"!tails_ticket 11683]])"
 
 #. type: Title ###
 #, no-wrap
 msgid "Resistance to remote exploitation"
-msgstr ""
+msgstr "Resistència a l'explotació remota"
 
 #. type: Bullet: '- '
 msgid ""
 "**Persistent Tor state** to have persistent entry guards ([[!tails_ticket "
 "5462]], [[!tails_blueprint persistent_Tor_state desc=\"Blueprint\"]])"
 msgstr ""
+"**Estat persistent de Tor** per tenir guàrdies d'entrada persistents ([["
+"!tails_ticket 5462]], [[!tails_blueprint persistent_Tor_state desc="
+"\"Blueprint\"]])"
 
 #. type: Bullet: '- '
 msgid ""
@@ -139,10 +176,13 @@ msgid ""
 "tails_ticket 7675]], [[!tails_blueprint randomness_seeding desc=\"Blueprint"
 "\"]])"
 msgstr ""
+"**Llavor persistent per al generador de números aleatoris** per tenir una "
+"criptografia més forta ([[!tails_ticket 7675]], [[!tails_blueprint "
+"randomness_seeding desc=\"Blueprint\"]])"
 
 #. type: Bullet: '- '
 msgid "**Have critical parts of Tails audited** ([[!tails_ticket 14508]])"
-msgstr ""
+msgstr "**Auditar les parts crítiques de Tails** ([[!tails_ticket 14508]])"
 
 #. type: Plain text
 msgid ""
@@ -150,14 +190,19 @@ msgid ""
 "making them a reality will require lots of work, time, and money; on top of "
 "all the day-to-day work that we do to simply keep Tails alive."
 msgstr ""
+"Tots aquests són elements que considerem importants i que volem prioritzar. "
+"Però fer-los realitat requerirà molta feina, temps i diners; a més de tota "
+"la feina del dia a dia que fem per mantenir Tails viu."
 
 #. type: Plain text
 msgid ""
 "If you want us to get there faster, please take one minute to make a "
 "donation."
-msgstr ""
+msgstr "Si voleu que hi arribem més ràpid, preneu un minut per fer una donació."
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=ourplans2018\">Donate</a></div>\n"
 msgstr ""
+"<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r="
+"ourplans2018\">Feu una donació</a></div>\n"
