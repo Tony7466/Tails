@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-10 22:11+0000\n"
+"PO-Revision-Date: 2023-11-12 16:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -284,14 +284,14 @@ msgid "<h1 id=\"privacy\">Enhanced privacy</h1>\n"
 msgstr "<h1 id=\"privacy\">Verbesserter Datenschutz</h1>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<span class=\"application\">Thunderbird</span> in Tails is configured\n"
 "for additional privacy and anonymity.\n"
 msgstr ""
-"<span class=\"application\">Thunderbird</span> in Tails enthält die\n"
-"<span class=\"application\">[TorBirdy](https://trac.torproject.org/projects/tor/wiki/torbirdy)</span>-Erweiterung\n"
-"für zusätzliche Privatsphäre und Anonymität.\n"
+"<span class=\"application\">Thunderbird</span> in Tails ist für zusätzliche "
+"\n"
+"Privatsphäre und Anonymität konfiguriert.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -329,13 +329,13 @@ msgid "<div class=\"note\">\n"
 msgstr "<div class=\"note\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>Emails and feeds in HTML format are displayed in plain text by\n"
 "default and can become harder to read.</p>\n"
 msgstr ""
-"<p>Das Senden von E-Mails im HTML-Format wird durch <span class=\"application\">TorBirdy</span> deaktiviert. Empfangene E-Mails\n"
-"im HTML-Format werden als Klartext angezeigt und können schwerer zu lesen sein.</p>\n"
+"<p>Emails und Feeds im HTML-Format werden standardmäßig als Klartext \n"
+"angezeigt und können dadurch schwerer lesbar sein.</p>\n"
 
 #. type: Plain text
 msgid ""
