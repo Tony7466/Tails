@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-19 19:37+0000\n"
-"PO-Revision-Date: 2023-11-10 20:12+0000\n"
+"PO-Revision-Date: 2023-11-12 18:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Content of: <div><h5>
 msgid "Tails"
-msgstr ""
+msgstr "Tails"
 
 #. type: Content of: <div><ul><li>
 msgid "[[Home|index]]"
