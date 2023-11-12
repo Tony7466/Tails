@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 17:10-0600\n"
-"PO-Revision-Date: 2023-11-10 22:11+0000\n"
+"PO-Revision-Date: 2023-11-12 16:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -434,7 +434,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   You should get something like this:\n"
-msgstr ""
+msgstr "   Sie sollten etwas wie folgt erhalten:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -447,6 +447,9 @@ msgid ""
 "   If no error message is returned, Tails is being copied on the USB\n"
 "   stick. The copy takes some time, generally a few minutes.\n"
 msgstr ""
+"   Wenn keine Fehlermeldung angezeigt wird, wird Tails auf den USB-Stick\n"
+"     kopiert. Das Kopieren benötigt einige Zeit, in der Regel ein paar "
+"Minuten.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -455,6 +458,10 @@ msgid ""
 "   <p>If you get a <span class=\"guilabel\">Permission denied</span> error, try\n"
 "   adding <code>sudo</code> at the beginning of the command:</p>\n"
 msgstr ""
+"   <div class=\"note\">\n"
+"     <p>Wenn Sie eine <span class=\"guilabel\">Permission denied</span> "
+"Fehlermeldung erhalten, versuchen Sie\n"
+"     <code>sudo</code> vor den Beginn des Befehls hinzuzufügen:</p>\n"
 
 #. type: Plain text
 #, no-wrap
