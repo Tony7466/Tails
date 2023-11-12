@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-09 20:11+0000\n"
+"PO-Revision-Date: 2023-11-12 16:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -255,15 +255,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"install_permanently\"></a>\n"
+#, no-wrap
 msgid "<h1 id=\"installation\">Installation</h1>\n"
-msgstr "<a id=\"install_permanently\"></a>\n"
+msgstr "<h1 id=\"installation\">Installation</h1>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"dedicated-stick\">Do I need a USB stick dedicated to Tails?</h2>\n"
-msgstr "Benötige ich einen USB-Stick speziell für Tails?\n"
+msgstr ""
+"<h2 id=\"dedicated-stick\">Benötige ich einen USB-Stick speziell für "
+"Tails?</h2>\n"
 
 #. type: Plain text
 msgid "Yes. Tails requires a USB stick dedicated to only running Tails."
