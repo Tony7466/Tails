@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-05 00:11+0000\n"
+"PO-Revision-Date: 2023-11-12 22:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -22,6 +22,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Call for help: improve the infrastructure behind Tails\"]]\n"
 msgstr ""
+"[[!meta title=\"Crit d'ajuda: milloreu la infraestructura darrere de Tails\""
+"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,16 +41,21 @@ msgid ""
 "ten seconds somewhere in the world. And also, every six weeks, there is a "
 "Firefox security update and we subsequently release a new version of Tails."
 msgstr ""
+"Tails és cada cop més popular: darrerament algú inicia Tails cada deu segons "
+"en algun lloc del món. I també, cada sis setmanes, hi ha una actualització "
+"de seguretat de Firefox i posteriorment publiquem una nova versió de Tails."
 
 #. type: Plain text
 msgid ""
 "Because of that amount of users and such a short release cycle, it is a "
 "challenge to keep Tails alive and getting better."
 msgstr ""
+"A causa d'aquesta quantitat d'usuaris i d'un cicle de llançament tan curt, "
+"és un repte mantenir Tails viu i poder millorar."
 
 #. type: Plain text
 msgid "We needs more hands!"
-msgstr ""
+msgstr "Necessitem més mans!"
 
 #. type: Plain text
 msgid ""
@@ -56,6 +63,9 @@ msgid ""
 "identified some areas that could benefit the most from new dedicated "
 "contributors."
 msgstr ""
+"Entre les coses que sabem que hauríem de fer en els propers anys, hem "
+"identificat algunes àrees que podrien beneficiar-se més dels nous col·"
+"laboradors dedicats."
 
 #. type: Plain text
 msgid ""
@@ -63,11 +73,14 @@ msgid ""
 "if you are a system administrator, a software developer, or anything in "
 "between, we need you! Please read on."
 msgstr ""
+"Avui parlem de **millorar la infraestructura darrere de Tails**. Per tant, "
+"si sou un administrador de sistemes, un desenvolupador de programari o "
+"qualsevol altra cosa relacionada, us necessitem! Si us plau, seguiu llegint."
 
 #. type: Title =
 #, no-wrap
 msgid "What is the mission?"
-msgstr ""
+msgstr "Quina és la missió?"
 
 #. type: Plain text
 msgid ""
@@ -76,14 +89,20 @@ msgid ""
 "development and operations of Tails. We aim at making the life of Tails "
 "contributors easier, and to improve the quality of our releases."
 msgstr ""
+"Els [[administradors de sistemes|contribute/working_together/roles/"
+"sysadmins]] de Tails configuren i mantenen la infraestructura que admet el "
+"desenvolupament i les operacions de Tails. El nostre objectiu és facilitar "
+"la vida dels col·laboradors de Tails i millorar la qualitat dels nostres "
+"llançaments."
 
 #. type: Plain text
 msgid "Our main tools are: Debian, Puppet, Git and Jenkins."
-msgstr ""
+msgstr "Les nostres eines principals són: Debian, Puppet, Git i Jenkins."
 
 #. type: Plain text
 msgid "The most important, and larger pieces on our roadmap currently are:"
 msgstr ""
+"Les peces més importants i més grans del nostre full de ruta actualment són:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -92,6 +111,11 @@ msgid ""
 "soon as possible. Everything we merge should go through an automated test "
 "suite, and our Debian packages should be automatically built from Git tags."
 msgstr ""
+"Integració contínua: volem reduir dràsticament la quantitat de treball "
+"necessària per preparar un llançament de Tails; també volem detectar les "
+"regressions el més aviat possible. Tot el que fusionem hauria de passar per "
+"una suite de proves automatitzada i els nostres paquets de Debian s'haurien "
+"de crear automàticament a partir d'etiquetes Git."
 
 #. type: Bullet: '* '
 msgid ""
@@ -99,23 +123,30 @@ msgid ""
 "freeze our release branch; this is also a first and important milestone on "
 "our way towards reproducible builds."
 msgstr ""
+"Repositori APT congelable: hem de congelar el nostre dipòsit APT quan "
+"congelem la nostra branca de llançament; aquesta també és una primera i "
+"important fita en el nostre camí cap a construccions reproductibles."
 
 #. type: Plain text
 msgid ""
 "Exciting, uh? Needless to say, we also have plenty of smaller tasks on our "
 "plate :)"
 msgstr ""
+"Emocionant, eh? No cal dir que també tenim pendents moltes més tasques "
+"petites"
 
 #. type: Title =
 #, no-wrap
 msgid "How can I help?"
-msgstr ""
+msgstr "Com podeu ajudar?"
 
 #. type: Plain text
 msgid ""
 "There are many ways to give us a hand in this area.  [[Read more about it|"
 "contribute/how/sysadmin]]!"
 msgstr ""
+"Hi ha moltes maneres de donar-nos un cop de mà en aquest àmbit. [[Llegiu-ne "
+"més|contribute/how/sysadmin]]!"
 
 #. type: Plain text
 #, no-wrap
@@ -130,6 +161,11 @@ msgid ""
 "lacks the information you need to resolve it, don't hesitate asking us for "
 "clarification first."
 msgstr ""
+"Quan us poseu en contacte amb nosaltres, si us plau, adjunteu un pedaç, o "
+"els vostres plans, per a un tiquet marcat amb *Easy*: d'aquesta manera, "
+"podreu posar-vos ràpidament al dia i ens acostumarem a treballar junts. Això "
+"sí, si el tiquet en el qual voleu treballar no té la informació necessària "
+"per resoldre'l, no dubteu en demanar-nos abans aclariments."
 
 #. type: Plain text
 #, no-wrap
