@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-11-10 20:11+0000\n"
+"PO-Revision-Date: 2023-11-12 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -293,10 +293,9 @@ msgid "<h1 id=\"not-entirely\">Tails not starting entirely</h1>\n"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"mac\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"mac-not-entirely\">Mac</h2>\n"
-msgstr "<a id=\"mac\"></a>\n"
+msgstr "<h2 id=\"mac-not-entirely\">Mac</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -355,10 +354,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"pny\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"pc-not-entirely\">PC</h2>\n"
-msgstr "<a id=\"pny\"></a>\n"
+msgstr "<h2 id=\"pc-not-entirely\">PC</h2>\n"
 
 #. type: Plain text
 #, no-wrap
