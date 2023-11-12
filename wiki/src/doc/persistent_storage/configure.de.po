@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-10 20:11+0000\n"
+"PO-Revision-Date: 2023-11-12 16:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -261,17 +261,14 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "When the Tor Bridge feature is turned on, the last [[Tor bridge|doc/"
 "anonymous_internet/tor]] that you used to connect to Tor successfully is "
 "saved in the Persistent Storage."
 msgstr ""
-"Wenn diese Funktion aktiviert ist, werden die Konfigurationen und E-Mails, "
-"die vom\n"
-"[[<span class=\"application\">Thunderbird</span> E-Mail-Client|doc/"
-"anonymous_internet/thunderbird]]\n"
-"lokal gespeichert werden, im beständigen Speicherbereich gesichert.\n"
+"Wenn die Tor-Bridge-Funktion aktiviert ist, wird die letzte [[Tor-Brücke|doc/"
+"anonymous_internet/tor]], die Sie erfolgreich verwendet haben, um eine "
+"Verbindung zu Tor herzustellen, im Persistent Storage gespeichert."
 
 #. type: Title =
 #, no-wrap
@@ -763,15 +760,15 @@ msgstr ""
 "dotfiles</span> in der <span class=\"application\">Dateiverwaltung</span>."
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid ""
 "Click on the <span class=\"guimenu\">[[!img lib/pan-down.png alt=\"menu "
 "toggle\" class=\"symbolic\" link=\"no\"]]</span> button in the title bar and "
 "choose <span class=\"guilabel\">Show Hidden Files</span>."
 msgstr ""
-"Wählen Sie <span class=\"menuchoice\"> <span class=\"guimenu\">[[!img lib/"
-"open-menu.png alt=\"Menü\" class=symbolic link=\"no\"]]</span>&nbsp;▸ <span "
-"class=\"guisubmenu\">Verborgene Dateien anzeigen</span>."
+"Klicken Sie auf den <span class=\"guimenu\">[[!img lib/pan-down.png alt="
+"\"Menü umschalten\" class=\"symbolic\" link=\"no\"]]</span> Knopf in der "
+"Titelleiste und wählen Sie <span class=\"guilabel\">Versteckte Dateien "
+"anzeigen</span>."
 
 #. type: Bullet: '1. '
 msgid ""
