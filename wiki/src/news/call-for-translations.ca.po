@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2019-11-06 08:52+0000\n"
-"PO-Revision-Date: 2023-11-05 00:12+0000\n"
+"PO-Revision-Date: 2023-11-12 22:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Translate Tails: Help wanted\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Traduïu Tails: Es necessita ajuda\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -37,6 +37,8 @@ msgid ""
 "We are happy to announce the launch of our [translation platform](https://"
 "translate.tails.boum.org/)."
 msgstr ""
+"Ens complau anunciar el llançament de la nostra [plataforma de "
+"traducció](https://translate.tails.boum.org/)."
 
 #. type: Plain text
 msgid ""
@@ -47,6 +49,12 @@ msgid ""
 "more users at risk around the world to understand and use Tails, updating "
 "and translating the documentation into more languages is welcome and needed."
 msgstr ""
+"Tails és una eina nova que té com a objectiu ajudar les persones a preservar "
+"la seva privadesa i l'anonimat en línia. Ve amb un [lloc web i "
+"documentació](https://tails.net) que actualment està traduït a 6 idiomes a "
+"més de l'anglès: farsi, francès, alemany, italià, portuguès i espanyol. Per "
+"ajudar més usuaris en risc a tot el món a entendre i utilitzar Tails, és "
+"benvingut i necessari actualitzar i traduir la documentació a més idiomes."
 
 #. type: Plain text
 msgid ""
@@ -58,6 +66,13 @@ msgid ""
 "[[documentation for translators|/contribute/how/translate/"
 "with_translation_platform/]]."
 msgstr ""
+"És per això que hem fet un gran esforç per crear una manera més fàcil de "
+"traduir la documentació: donem la benvinguda a la nostra nova [plataforma de "
+"traducció](https://translate.tails.boum.org/). Després de [crear un "
+"compte](https://translate.tails.boum.org/accounts/register/) podeu començar "
+"a suggerir traduccions immediatament! Per obtenir més detalls sobre com "
+"començar, assegureu-vos de llegir la nostra [[documentació per a traductors|/"
+"contribute/how/translate/with_translation_platform/]]."
 
 #. type: Plain text
 msgid ""
@@ -66,6 +81,10 @@ msgid ""
 "our user base: Arabic, Farsi, French, German, Hindi, Indonesian, Italian, "
 "Portuguese, Russian, Simplified Chinese, Spanish, and Turkish."
 msgstr ""
+"Estem buscant específicament traduccions per a un conjunt de [[llengües|/"
+"contribute/how/translate/#tier-1-languages]] que considerem valuoses per a "
+"la nostra base d'usuaris: àrab, farsi, francès, alemany, hindi, indonesi, "
+"italià, portuguès, rus, xinès simplificat, espanyol i turc."
 
 #. type: Plain text
 msgid ""
@@ -73,7 +92,10 @@ msgid ""
 "with_translation_platform#getting-help]] if you have further questions or "
 "experience technical problems."
 msgstr ""
+"Consulteu la secció [[Obtenir ajuda|/contribute/how/translate/"
+"with_translation_platform#getting-help]] si teniu més preguntes o teniu "
+"problemes tècnics."
 
 #. type: Plain text
 msgid "Thank you for your contribution!"
-msgstr ""
+msgstr "Gràcies per la vostra contribució!"
