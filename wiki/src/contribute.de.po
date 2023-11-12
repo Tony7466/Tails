@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-10 20:11+0000\n"
+"PO-Revision-Date: 2023-11-12 16:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -378,10 +378,9 @@ msgid "<a id=\"reference-documents\"></a>\n"
 msgstr "<a id=\"reference-documents\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Reference documents\n"
+#, no-wrap
 msgid "Reference documents"
-msgstr "Referenzdokumente\n"
+msgstr "Referenzdokumente"
 
 #. type: Bullet: '  - '
 msgid "[[Mission and values|contribute/mission]]"
@@ -421,10 +420,9 @@ msgid "<a id=\"tools\"></a>\n"
 msgstr "<a id=\"tools\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Tools for contributors\n"
+#, no-wrap
 msgid "Tools for contributors"
-msgstr "Werkzeuge für Beitragende\n"
+msgstr "Werkzeuge für Beitragende"
 
 #. type: Bullet: '  - '
 msgid "Source code: [[Git repositories|contribute/git]]"
