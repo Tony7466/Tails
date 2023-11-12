@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-10 17:08+0000\n"
-"PO-Revision-Date: 2023-11-02 21:11+0000\n"
+"PO-Revision-Date: 2023-11-12 16:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -122,7 +122,6 @@ msgstr ""
 "\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid ""
 "Tails does not work on newer Mac computers with an [[!wikipedia "
 "Apple_silicon#M_series desc=\"Apple processor\"]] (M1 or M2)."
