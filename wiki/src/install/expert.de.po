@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 17:10-0600\n"
-"PO-Revision-Date: 2023-11-12 16:12+0000\n"
+"PO-Revision-Date: 2023-11-12 18:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -22,6 +22,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Install Tails from Debian or Ubuntu using the command line and GnuPG\"]]\n"
 msgstr ""
+"[[!meta title=\"Tails von Debian oder Ubuntu über die Kommandozeile und "
+"GnuPG installieren\"]]\n"
 
 #. type: Plain text
 #, no-wrap
