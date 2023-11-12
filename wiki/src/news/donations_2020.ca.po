@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-03-09 02:52+0000\n"
-"PO-Revision-Date: 2023-11-05 00:12+0000\n"
+"PO-Revision-Date: 2023-11-12 22:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Results of the 2020 donation campaign\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Resultats de la campanya de donacions 2020\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,6 +42,8 @@ msgid ""
 "Thank you so much, on behalf of our entire team, to everyone who donated "
 "during our end-of-year campaign!"
 msgstr ""
+"Moltes gràcies, en nom de tot el nostre equip, a tots els que heu fet "
+"donacions durant la nostra campanya de final d'any!"
 
 #. type: Plain text
 msgid ""
@@ -50,22 +52,30 @@ msgid ""
 "more sustainability for Tails and ultimately better tools for you and all "
 "our users."
 msgstr ""
+"Hem recaptat 132&#8239;750 de 2&#8239;799 donants. Això suposa un 40% més "
+"que l'any passat i un 30% del nostre pressupost anual. Aquests excel·lents "
+"números signifiquen més sostenibilitat per a Tails i, en definitiva, millors "
+"eines per a tots els nostres usuaris."
 
 #. type: Plain text
 msgid "Here is what we did since October with your help:"
-msgstr ""
+msgstr "Aquí teniu el que hem fet des d'octubre amb la vostra ajuda:"
 
 #. type: Bullet: '- '
 msgid ""
 "From the number of automatic upgrades, we know that Tails was used 20% more "
 "in 2020 than in 2019. It's our biggest increase since 2016."
 msgstr ""
+"Pel nombre d'actualitzacions automàtiques, sabem que Tails s'ha utilitzat un "
+"20% més el 2020 que el 2019. És el nostre augment més gran des del 2016."
 
 #. type: Bullet: '- '
 msgid ""
 "**We designed and tested usability improvements to the Persistent Storage "
 "and the connection to Tor.**"
 msgstr ""
+"**Hem dissenyat i provat millores d'usabilitat a l'Emmagatzematge Persistent "
+"i a la connexió a Tor.**"
 
 #. type: Plain text
 #, no-wrap
@@ -75,6 +85,11 @@ msgid ""
 "  less technical users and people experiencing heavy online censorship,\n"
 "  for example in Asia.\n"
 msgstr ""
+"  Sabem per enquestes anteriors i investigacions d'usabilitat que aquests "
+"són dos\n"
+"  aspectes crítics per millorar la usabilitat de Tails, especialment per a\n"
+"  usuaris menys tècnics i persones que pateixen una forta censura en línia,\n"
+"  per exemple a Àsia.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -85,6 +100,12 @@ msgid ""
 "  Persistent-Storage-redesign desc=\"Persistent Storage\"]] and the\n"
 "  [[!tails_blueprint network_connection desc=\"connection to Tor\"]].\n"
 msgstr ""
+"  Les vostres donacions ens ajudaran a implementar tantes d'aquestes "
+"millores com\n"
+"  sigui possible durant el 2021. Ja podeu fer una ullada als nous dissenys\n"
+"  dels nostres plànols de l'[[!tails_blueprint\n"
+"  Persistent-Storage-redesign desc=\"Emmagatzematge Persistent\"]] i la\n"
+"  [[!tails_blueprint network_connection desc=\"connexió a Tor\"]].\n"
 
 #. type: Plain text
 #, no-wrap
@@ -96,6 +117,14 @@ msgid ""
 "  prototyping</a> with people in Greece, Mexico, Italy, Uganda, Germany,\n"
 "  Ireland, and Malaysia!\n"
 msgstr ""
+"  Abans de llançar els canvis sempre provem la usabilitat de les principals "
+"funcions\n"
+"  amb els usuaris. Aquesta vegada va ser especialment emocionant perquè "
+"nosaltres\n"
+"  vam provar el nostre disseny de forma remota utilitzant <a href=\"https"
+"://simplysecure.org/blog/formative-testing\">paper\n"
+"  prototipat</a> amb persones de Grècia, Mèxic, Itàlia, Uganda, Alemanya,\n"
+"  Irlanda i Malàisia!\n"
 
 #. type: Bullet: '- '
 msgid ""
@@ -104,6 +133,11 @@ msgid ""
 "verification_extension_deprecation]] with similar JavaScript code that runs "
 "[[directly on the download page|install/download]]."
 msgstr ""
+"**Hem simplificat el procediment de verificació a la nostra pàgina de "
+"baixada** [[substituint l'extensió *Tails "
+"Verification*|verification_extension_deprecation]] per un codi de JavaScript "
+"similar que s'executa [[directament a la pàgina de baixada|install/"
+"download]]."
 
 #. type: Plain text
 #, no-wrap
@@ -112,11 +146,17 @@ msgid ""
 "  downloads are verified and secure now than with the verification\n"
 "  extension.\n"
 msgstr ""
+"  Aquesta senzilla millora de la usabilitat va tenir un impacte enorme i un "
+"60% més\n"
+"  de les baixades estan verificades i segures ara que amb la verificació\n"
+"  feta per l'extensió.\n"
 
 #. type: Plain text
 msgid ""
 "- **We automated the most time-consuming parts of our release process.**"
 msgstr ""
+"- **Hem automatitzat les parts que més temps consumeixen del nostre procés "
+"de llançament.**"
 
 #. type: Plain text
 #, no-wrap
@@ -124,6 +164,9 @@ msgid ""
 "  We estimate that we divided roughly by 2 the amount of time, work, and\n"
 "  stress needed for us to publish a new version of Tails.\n"
 msgstr ""
+"  Calculem que hem dividit aproximadament a la meitat la quantitat de temps, "
+"treball i\n"
+"  l'estrès necessari perquè puguem publicar una nova versió de Tails.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -132,10 +175,15 @@ msgid ""
 "  security vulnerability and more time available for us to work on new\n"
 "  features and improvements.\n"
 msgstr ""
+"  Per als usuaris, això significa un temps de resposta més ràpid en cas "
+"d'una important\n"
+"  vulnerabilitat de seguretat i més temps disponible per treballar en les "
+"noves\n"
+"  característiques i millores.\n"
 
 #. type: Plain text
 msgid "- **We hired a new core developer, boyska.**"
-msgstr ""
+msgstr "- **Hem contractat un nou desenvolupador bàsic, Boyska.**"
 
 #. type: Plain text
 #, no-wrap
@@ -144,6 +192,10 @@ msgid ""
 "  operating systems and software development, and also in the social\n"
 "  implications of technology, Free Software, and privacy.\n"
 msgstr ""
+"  boyska té una gran experiència en els aspectes tècnics de\n"
+"  desenvolupament de sistemes operatius i programari, i també en les "
+"implicacions\n"
+"  socials de la tecnologia, el Programari Lliure i la privadesa.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -151,7 +203,9 @@ msgid ""
 "  boyska will be key to bringing more improvements to Tails more\n"
 "  quickly.\n"
 msgstr ""
+"  boyska serà clau per aportar millores a Tails més\n"
+"  ràpidament.\n"
 
 #. type: Plain text
 msgid "Thanks again for supporting Tails!"
-msgstr ""
+msgstr "Gràcies de nou per donar suport a Tails!"
