@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"PO-Revision-Date: 2023-11-12 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -275,10 +275,9 @@ msgid "`modprobe.blacklist=radeon`"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"radeon-r5\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"radeon-r9\">AMD Radeon R9</h2>\n"
-msgstr "<a id=\"$ANCHOR\"></a>\n"
+msgstr "<h2 id=\"radeon-r9\">AMD Radeon R9</h2>\n"
 
 #. type: Plain text
 #, no-wrap
