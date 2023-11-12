@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-12 16:11+0000\n"
+"PO-Revision-Date: 2023-11-12 20:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -343,7 +343,8 @@ msgstr ""
 #, no-wrap
 msgid "<h2 id=\"preinstalled\">Can I buy a preinstalled Tails USB stick or DVD?</h2>\n"
 msgstr ""
-"Kann ich einen vorinstallierten USB-Stick oder eine DVD von Tails kaufen?\n"
+"<h2 id=\"preinstalled\">Kann ich einen vorinstallierten USB-Stick oder eine "
+"DVD von Tails kaufen?</h2>\n"
 
 #. type: Plain text
 msgid "No, we don't sell preinstalled Tails devices."
