@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-11-12 16:11+0000\n"
+"PO-Revision-Date: 2023-11-12 18:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -310,25 +310,26 @@ msgid "Administration Password"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Set an <span class=\"guilabel\">Administration Password</span> to be able to perform administrative tasks like installing additional software or accessing the internal hard disks of the computer."
+#, no-wrap
 msgid ""
 "Set an <span class=\"guilabel\">Administration Password</span> to be\n"
 "able to perform administrative tasks like installing additional\n"
 "software or accessing the internal hard disks of the computer.\n"
-msgstr "Richten Sie ein <span class=\"guilabel\">Administrationspasswort</span> ein, um in der Lage zu sein, administrative Aufgaben wie die Installation von zusätzlicher Software oder den Zugriff auf die internen Laufwerke des Computers, durchzuführen."
+msgstr ""
+"Richten Sie ein <span class=\"guilabel\">Administrationspasswort</span> ein, "
+"\n"
+"um in der Lage zu sein, administrative Aufgaben wie die Installation von "
+"zusätzlicher \n"
+"Software oder den Zugriff auf die internen Laufwerke des Computers, "
+"durchzuführen.\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "  [[See our documentation about the administration password.|"
-#| "administration_password]]\n"
 msgid ""
 "See our documentation about [[the administration password and its security "
 "implications|administration_password]]."
 msgstr ""
-"  [[Lesen Sie die Dokumentation zum Administrationspasswort.|"
-"administration_password]]\n"
+"Siehe unsere Dokumentation über [[das Administrationspasswort und dessen "
+"Sicherheitsimplikationen|administration_password]]."
 
 #. type: Title -
 #, no-wrap
