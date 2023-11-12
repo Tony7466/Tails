@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-12 16:11+0000\n"
+"PO-Revision-Date: 2023-11-12 18:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -1010,6 +1010,12 @@ msgid ""
 "\t               -0.02Ƀ  banking fees\n"
 "\t             -107.04€  banking fees\n"
 msgstr ""
+"\t- Costos de manteniment\n"
+"\t          -15428,92$   administració\n"
+"\t            -2545,39€  administració\n"
+"\t            -911,73$   comissions bancàries\n"
+"\t               -0,02Ƀ  comissions bancàries\n"
+"\t             -107,04€  comissions bancàries\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1018,6 +1024,9 @@ msgid ""
 "\t             -190.17€  office supplies\n"
 "\t             -108.29€  T-shirts\n"
 msgstr ""
+"\t- Diversos\n"
+"\t             -190,17€  material d'oficina\n"
+"\t             -108,29€  samarretes\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1029,6 +1038,12 @@ msgid ""
 "\t               -0.02Ƀ\n"
 "\t          -168883.98€\n"
 msgstr ""
+"\t- Impostos\n"
+"\t            -6371,36€  IVA\n"
+"\t--------------------\n"
+"\t          -23026,79$\n"
+"\t               -0.02Ƀ\n"
+"\t          -168883,98€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1039,6 +1054,11 @@ msgid ""
 "\t                3.69Ƀ\n"
 "\t          -147573.26€\n"
 msgstr ""
+"\tTotal:\n"
+"\t--------------------\n"
+"\t          298957,65$\n"
+"\t                3,69Ƀ\n"
+"\t          -147573,26€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1048,7 +1068,7 @@ msgstr "<a id=\"2017\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Income statement for 2017"
-msgstr ""
+msgstr "Compte de resultats del 2017"
 
 #. type: Plain text
 #, no-wrap
@@ -1059,6 +1079,11 @@ msgid ""
 "\t             2045.81€  cash\n"
 "\t               24.33Ƀ  bitcoins\n"
 msgstr ""
+"\t- Donacions\n"
+"\t           23579,15$   via Riseup Labs\n"
+"\t             8246,82€  via CCT\n"
+"\t             2045,81€  cash\n"
+"\t               24,33Ƀ  bitcoins\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1067,6 +1092,9 @@ msgid ""
 "\t            $1000.00   ExpressVPN\n"
 "\t                0.10Ƀ  I2P\n"
 msgstr ""
+"\t- Patrocinadors\n"
+"\t            1000,00$   ExpressVPN\n"
+"\t                0,10Ƀ  I2P\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1074,6 +1102,8 @@ msgid ""
 "\t- Restricted funds (funder deliverables)\n"
 "\t            11000.00€  Lush\n"
 msgstr ""
+"\t- Fons restringits (entregables del finançador)\n"
+"\t            11000,00€  Lush\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1085,6 +1115,12 @@ msgid ""
 "\t               24.43Ƀ\n"
 "\t            22564.98€\n"
 msgstr ""
+"\t- Samarretes\n"
+"\t             1272,35€  samarretes\n"
+"\t--------------------\n"
+"\t           24579,15$\n"
+"\t               24,43Ƀ\n"
+"\t            22564,98€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1095,6 +1131,11 @@ msgid ""
 "\t             -544.32€  Internet hosting\n"
 "\t           $-4380.00   Internet hosting\n"
 msgstr ""
+"\t- Infraestructura\n"
+"\t            -2706,56€  maquinari\n"
+"\t           -1586,97$   maquinari\n"
+"\t             -544,32€  allotjament a Internet\n"
+"\t           -4380,00$   allotjament a Internet\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1109,6 +1150,15 @@ msgid ""
 "\t             -586.61€  tickets to events\n"
 "\t              -44.95€  misc\n"
 msgstr ""
+"\t- Viatges i reunions\n"
+"\t            -9449,31€  viatges\n"
+"\t           -1720,26$   viatges\n"
+"\t            -4388,97€  menjar i begudes\n"
+"\t              $41,58   menjar i begudes\n"
+"\t            -382,07$   allotjament\n"
+"\t            -2032,33€  allotjament\n"
+"\t             -586,61€  tiquets a esdeveniments\n"
+"\t              -44,95€  diversos\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1117,6 +1167,9 @@ msgid ""
 "\t          -108079.77€  subcontracting\n"
 "\t           $-2205.00   subcontracting\n"
 msgstr ""
+"\t- Subcontractació\n"
+"\t          -108079,77€  subcontractació\n"
+"\t           -2205,00$   subcontractació\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1128,6 +1181,12 @@ msgid ""
 "\t               -0.18Ƀ  banking fees\n"
 "\t              -18.00€  banking fees\n"
 msgstr ""
+"\t- Costos de manteniment\n"
+"\t          -13000,96$   administració\n"
+"\t            -3672,65€  administració\n"
+"\t           -3901,12$   comissions bancàries\n"
+"\t               -0,18Ƀ  comissions bancàries\n"
+"\t              -18,00€  comissions bancàries\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1136,6 +1195,9 @@ msgid ""
 "\t            -3279.64€  T-shirts\n"
 "\t             -163.57€  office supplies\n"
 msgstr ""
+"\t- Diversos\n"
+"\t            -3279,64€  samarretes\n"
+"\t             -163,57€  material d'oficina\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1147,6 +1209,12 @@ msgid ""
 "\t               -0.18Ƀ\n"
 "\t          -154322.32€\n"
 msgstr ""
+"\t- Impostos\n"
+"\t           -19334,81€  IVA\n"
+"\t--------------------\n"
+"\t          -27217,96$\n"
+"\t               -0,18Ƀ\n"
+"\t          -154322,32€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1157,6 +1225,11 @@ msgid ""
 "\t           $-2638.81\n"
 "\t               24.26Ƀ\n"
 msgstr ""
+"\tTotal:\n"
+"\t--------------------\n"
+"\t          -131757,34€\n"
+"\t           -2638,81$\n"
+"\t               24,26Ƀ\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1166,7 +1239,7 @@ msgstr "<a id=\"2016\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Income statement for 2016"
-msgstr ""
+msgstr "Compte de resultats del 2016"
 
 #. type: Plain text
 #, no-wrap
@@ -1178,6 +1251,12 @@ msgid ""
 "\t              784.00€  cash\n"
 "\t               72.35Ƀ  bitcoins\n"
 msgstr ""
+"\t- Donacions\n"
+"\t           21908,52$   via Riseup Labs\n"
+"\t            7586,00$   via Freedom of the Press Foundation\n"
+"\t            13709,76€  via Zwiebelfreunde\n"
+"\t              784,00€  cash\n"
+"\t               72,35Ƀ  bitcoins\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1187,6 +1266,10 @@ msgid ""
 "\t           $77000.00   Mozilla Open Source Support\n"
 "\t            $5000.00   Google Summer of Code\n"
 msgstr ""
+"\t- Fons restringits (entregables del finançador)\n"
+"\t          208000,00$   Open Technology Fund\n"
+"\t           77000,00$   Mozilla Open Source Support\n"
+"\t            5000,00$   Google Summer of Code\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1194,6 +1277,8 @@ msgid ""
 "\t- Sponsors\n"
 "\t             2000.00€  Mediapart\n"
 msgstr ""
+"\t- Patrocinadors\n"
+"\t             2000,00€  Mediapart\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1205,6 +1290,12 @@ msgid ""
 "\t               72.35Ƀ\n"
 "\t            16674.23€\n"
 msgstr ""
+"\t- Samarretes\n"
+"\t              180,47€  samarretes\n"
+"\t--------------------\n"
+"\t          319494,52$\n"
+"\t               72,35Ƀ\n"
+"\t            16674,23€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1214,6 +1305,10 @@ msgid ""
 "\t            -2081.40€  hardware\n"
 "\t             -900.00€  Internet hosting\n"
 msgstr ""
+"\t- Infraestructura\n"
+"\t           $-2351.70   maquinari\n"
+"\t            -2081.40€  maquinari\n"
+"\t             -900.00€  allotjament a Internet\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1225,6 +1320,12 @@ msgid ""
 "\t             $-25.75   food and drinks\n"
 "\t            -2577.00€  hosting\n"
 msgstr ""
+"\t- Viatges i reunions\n"
+"\t            -7566,00€  viatges\n"
+"\t            -526,74$   viatges\n"
+"\t            -3789,61€  menjar i begudes\n"
+"\t             -25,75$   menjar i begudes\n"
+"\t            -2577,00€  allotjament\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1233,6 +1334,9 @@ msgid ""
 "\t          -128135.54€  subcontracting\n"
 "\t           $-5945.00   subcontracting\n"
 msgstr ""
+"\t- Subcontractació\n"
+"\t          -128135,54€  subcontractació\n"
+"\t           -5945,00$   subcontractació\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1243,6 +1347,11 @@ msgid ""
 "\t              -21.00€  banking fees\n"
 "\t            $-170.00   banking fees\n"
 msgstr ""
+"\t- Costos de manteniment\n"
+"\t            -8038,03€  administració\n"
+"\t           -5324,73$   administració\n"
+"\t              -21,00€  comissions bancàries\n"
+"\t            -170,00$   comissions bancàries\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1251,6 +1360,9 @@ msgid ""
 "\t             -115.43€  non stored purchases\n"
 "\t              -30.00€  communication\n"
 msgstr ""
+"\t- Diversos\n"
+"\t             -115,43€  compres no emmagatzemades\n"
+"\t              -30,00€  comunicació\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1262,6 +1374,12 @@ msgid ""
 "\t          $-51887.92\n"
 "\t          -165288.03€\n"
 msgstr ""
+"\t- Impostos\n"
+"\t           -12034,02€  IVA\n"
+"\t          -37544,00$   impostos sobre la renda\n"
+"\t--------------------\n"
+"\t          -51887,92$\n"
+"\t          -165288,03€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1272,6 +1390,11 @@ msgid ""
 "\t               72.35Ƀ\n"
 "\t          -148613.80€\n"
 msgstr ""
+"\tTotal:\n"
+"\t--------------------\n"
+"\t          268406,60$\n"
+"\t               72,35Ƀ\n"
+"\t          -148613,80€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1281,7 +1404,7 @@ msgstr "<a id=\"2015\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Income statement for 2015"
-msgstr ""
+msgstr "Compte de resultats del 2015"
 
 #. type: Plain text
 #, no-wrap
@@ -1294,6 +1417,13 @@ msgid ""
 "\t              557.05€  cash\n"
 "\t               31.00Ƀ  bitcoins\n"
 msgstr ""
+"\t- Donacions\n"
+"\t           35000,00$   via Riseup Labs\n"
+"\t            8599,00$   via Freedom of the Press Foundation\n"
+"\t             6995,74€  via Zwiebelfreunde\n"
+"\t              47,70$   cash\n"
+"\t              557,05€  cash\n"
+"\t               31,00Ƀ  bitcoins\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1301,6 +1431,8 @@ msgid ""
 "\t- Restricted funds (funder deliverables)\n"
 "\t            70000.00€  Hivos\n"
 msgstr ""
+"\t- Fons restringits (entregables del finançador)\n"
+"\t            70000,00€  Hivos\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1312,6 +1444,12 @@ msgid ""
 "\t               31.00Ƀ\n"
 "\t            77552.79€\n"
 msgstr ""
+"\t- Diversos\n"
+"\t            1000,00$   venta de maquinari antic\n"
+"\t--------------------\n"
+"\t           44646,70$\n"
+"\t               31,00Ƀ\n"
+"\t            77552,79€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1322,6 +1460,11 @@ msgid ""
 "\t             -900.00€  Internet hosting\n"
 "\t            $-160.00   SSL certificates\n"
 msgstr ""
+"\t- Infraestructura\n"
+"\t            -787,23$   maquinari\n"
+"\t             -775,41€  maquinari\n"
+"\t             -900,00€  allotjament a Internet\n"
+"\t            -160,00$   certificats SSL\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1331,6 +1474,10 @@ msgid ""
 "\t            -8155.21€  food and drinks\n"
 "\t             -988.00€  hosting\n"
 msgstr ""
+"\t- Viatges i reunions\n"
+"\t            -9279,73€  viatges\n"
+"\t            -8155,21€  menjar i begudes\n"
+"\t             -988,00€  allotjament\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1339,6 +1486,9 @@ msgid ""
 "\t          -146365.22€  subcontracting\n"
 "\t           $-4860.00   subcontracting\n"
 msgstr ""
+"\t- Subcontractació\n"
+"\t          -146365,22€  subcontractació\n"
+"\t           -4860,00$   subcontractació\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1349,6 +1499,11 @@ msgid ""
 "\t             $-85.00   banking fees\n"
 "\t             -106.41€  banking fees\n"
 msgstr ""
+"\t- Costos de manteniment\n"
+"\t           -2179,95$   administració\n"
+"\t            -3849,79€  administració\n"
+"\t             -85,00$   comissions bancàries\n"
+"\t             -106,41€  comissions bancàries\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1363,6 +1518,15 @@ msgid ""
 "\t          -174611.30€\n"
 "\t               -8.85Ƀ  lost bitcoins\n"
 msgstr ""
+"\t- Diversos\n"
+"\t            -4151,64€  bitcoins perduts\n"
+"\t               -8,85Ƀ  bitcoins perduts\n"
+"\t            -702.77$   impostos per renda\n"
+"\t              -39,90€  material de promoció\n"
+"\t--------------------\n"
+"\t           -8774,95$\n"
+"\t          -174611,30€\n"
+"\t               -8,85Ƀ  bitcoins perduts\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1373,6 +1537,11 @@ msgid ""
 "\t           -97058.51€\n"
 "\t               22.15Ƀ\n"
 msgstr ""
+"\tTotal:\n"
+"\t--------------------\n"
+"\t           35871,75$\n"
+"\t           -97058,51€\n"
+"\t               22,15Ƀ\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1382,7 +1551,7 @@ msgstr "<a id=\"2014\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Income statement for 2014"
-msgstr ""
+msgstr "Compte de resultats del 2014"
 
 #. type: Plain text
 #, no-wrap
@@ -1393,6 +1562,11 @@ msgid ""
 "\t             7150.19€  via Zwiebelfreunde\n"
 "\t              803.50€  misc\n"
 msgstr ""
+"\t- Donacions\n"
+"\t           33376,83$   via Freedom of the Press Foundation\n"
+"\t               71,67Ƀ  via bitcoin\n"
+"\t             7150,19€  via Zwiebelfreunde\n"
+"\t              803,50€  diversos\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1405,6 +1579,13 @@ msgid ""
 "\t           $25800.00   OpenITP\n"
 "\t            $5000.00   Tor\n"
 msgstr ""
+"\t- Fons restringits (entregables del finançador)\n"
+"\t           50000,00$   Access Now\n"
+"\t             5000,00€  FFIS\n"
+"\t            70000,00€  Hivos\n"
+"\t           34884,00$   NDI\n"
+"\t           25800,00$   OpenITP\n"
+"\t            5000,00$   Tor\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1416,6 +1597,12 @@ msgid ""
 "\t               71.67Ƀ\n"
 "\t            82953.69€\n"
 msgstr ""
+"\t- Diversos\n"
+"\t            3775,00$   inversió inversa\n"
+"\t--------------------\n"
+"\t          152835,83$\n"
+"\t               71,67Ƀ\n"
+"\t            82953,69€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1426,6 +1613,11 @@ msgid ""
 "\t             -630.00€  Internet hosting\n"
 "\t            $-160.00   SSL certificates\n"
 msgstr ""
+"\t- Infraestructura\n"
+"\t           -7856,38$   maquinari\n"
+"\t             -897,84€  maquinari\n"
+"\t             -630,00€  allotjament a Internet\n"
+"\t            -160,00$   certificats SSL\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1437,6 +1629,12 @@ msgid ""
 "\t            $-400.00   guests\n"
 "\t             -330.30€  guests\n"
 msgstr ""
+"\t- Viatges i reunions\n"
+"\t            -4907,08€  viatges\n"
+"\t            -3724,35€  allotjament\n"
+"\t            -4112,27€  menjar i begudes\n"
+"\t            -400,00$   convidats\n"
+"\t             -330,30€  convidats\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1445,6 +1643,9 @@ msgid ""
 "\t          $-53414.00   subcontracting\n"
 "\t           -20131.85€  subcontracting\n"
 msgstr ""
+"\t- Subcontractació\n"
+"\t          -53414,00$   subcontractació\n"
+"\t           -20131,85€  subcontractació\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1455,6 +1656,11 @@ msgid ""
 "\t           $-3707.33   administration\n"
 "\t            -5439.61€  administration\n"
 msgstr ""
+"\t- Costos de manteniment\n"
+"\t            -568,53$   comissions bancàries\n"
+"\t             -174,53€  comissions bancàries\n"
+"\t           -3707,33$   administració\n"
+"\t            -5439,61€  administració\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1467,6 +1673,13 @@ msgid ""
 "\t          $-66106.24\n"
 "\t           -40847.00€\n"
 msgstr ""
+"\t- Diversos\n"
+"\t              -65,00€  adhesius\n"
+"\t             -414,17€  compres no emmagatzemades\n"
+"\t              -20,00€  comunicació\n"
+"\t--------------------\n"
+"\t          -66106,24$\n"
+"\t           -40847,00€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1477,11 +1690,16 @@ msgid ""
 "\t               71.67Ƀ\n"
 "\t            42106.69€\n"
 msgstr ""
+"\tTotal:\n"
+"\t--------------------\n"
+"\t           86729,59$\n"
+"\t               71,67Ƀ\n"
+"\t            42106,69€\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Income statement for 2013"
-msgstr ""
+msgstr "Compte de resultats del 2013"
 
 #. type: Plain text
 #, no-wrap
@@ -1496,6 +1714,15 @@ msgid ""
 "\t               29.58Ƀ\n"
 "\t              330.00€\n"
 msgstr ""
+"\tIngressos:\n"
+"\t           21000,00$   NDI\n"
+"\t           20000,00$   Tor (programa de recompenses)\n"
+"\t               29,58Ƀ  bitcoin\n"
+"\t              330,00€  impostos\n"
+"\t--------------------\n"
+"\t           41000,00$\n"
+"\t               29,58Ƀ\n"
+"\t              330,00€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1512,6 +1739,17 @@ msgid ""
 "\t          $-39194.69\n"
 "\t            -3290.65€\n"
 msgstr ""
+"\tDespeses:\n"
+"\t              -60,00€  comissions bancàries\n"
+"\t          -17000,00$   recompenses\n"
+"\t           -1194,69$   maquinari\n"
+"\t             -499,65€  maquinari\n"
+"\t             -390,00€  allotjament\n"
+"\t            -2341,00€  reunió\n"
+"\t          -21000,00$   treball\n"
+"\t--------------------\n"
+"\t          -39194,69$\n"
+"\t            -3290,65€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1522,11 +1760,16 @@ msgid ""
 "\t               29.58Ƀ\n"
 "\t            -2960.65€\n"
 msgstr ""
+"\tTotal:\n"
+"\t--------------------\n"
+"\t            1805,31$\n"
+"\t               29,58Ƀ\n"
+"\t            -2960,65€\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Income statement for 2012"
-msgstr ""
+msgstr "Compte de resultats del 2012"
 
 #. type: Plain text
 #, no-wrap
@@ -1536,6 +1779,10 @@ msgid ""
 "\t--------------------\n"
 "\t              137.30€\n"
 msgstr ""
+"\tIngressos:\n"
+"\t              137,30€  IVA\n"
+"\t--------------------\n"
+"\t              137,30€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1550,6 +1797,15 @@ msgid ""
 "\t           $-4289.71\n"
 "\t            -4285.18€\n"
 msgstr ""
+"\tDespeses:\n"
+"\t           -3810,71$   maquinari\n"
+"\t             -856,79€  maquinari\n"
+"\t             -300,00€  allotjament\n"
+"\t            -3128,39€  reunió\n"
+"\t            -479,00$   certificats SSL\n"
+"\t--------------------\n"
+"\t           -4289,71$\n"
+"\t            -4285,18€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1559,17 +1815,23 @@ msgid ""
 "\t           $-4289.71\n"
 "\t            -4147.88€\n"
 msgstr ""
+"\tTotal:\n"
+"\t--------------------\n"
+"\t           -4289,71$\n"
+"\t            -4147,88€\n"
 
 #. type: Plain text
 msgid ""
 "In addition, one developer was paid full-time by the Tor Project, and NDI "
 "sponsored 40 days of development work."
 msgstr ""
+"A més, un desenvolupador va rebre un pagament a temps complet pel Projecte "
+"Tor i NDI va patrocinar 40 dies de treball de desenvolupament."
 
 #. type: Title =
 #, no-wrap
 msgid "Income statement for 2011"
-msgstr ""
+msgstr "Compte de resultats del 2011"
 
 #. type: Plain text
 #, no-wrap
@@ -1579,6 +1841,10 @@ msgid ""
 "\t--------------------\n"
 "\t             7500.00€\n"
 msgstr ""
+"\tIngressos:\n"
+"\t             7500,00€  Tor\n"
+"\t--------------------\n"
+"\t             7500,00€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1591,6 +1857,13 @@ msgid ""
 "\t            $-555.00\n"
 "\t            -4238.32€\n"
 msgstr ""
+"\tDespeses:\n"
+"\t            -555,00$   maquinari\n"
+"\t            -1075,00€  allotjament\n"
+"\t            -3163,32€  reunió\n"
+"\t--------------------\n"
+"\t            -555,00$\n"
+"\t            -4238,32€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1600,11 +1873,15 @@ msgid ""
 "\t            $-555.00\n"
 "\t             3261.68€\n"
 msgstr ""
+"\tTotal:\n"
+"\t--------------------\n"
+"\t            -555,00$\n"
+"\t             3261,68€\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Income statement for 2010"
-msgstr ""
+msgstr "Compte de resultats del 2010"
 
 #. type: Plain text
 #, no-wrap
@@ -1614,6 +1891,10 @@ msgid ""
 "\t--------------------\n"
 "\t            $8500.00\n"
 msgstr ""
+"\tIngressos:\n"
+"\t            8500,00$   Tor\n"
+"\t--------------------\n"
+"\t            8500,00$\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1623,6 +1904,10 @@ msgid ""
 "\t--------------------\n"
 "\t            -2025.00€\n"
 msgstr ""
+"\tDespeses:\n"
+"\t            -2025,00€  maquinari\n"
+"\t--------------------\n"
+"\t            -2025,00€\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1632,6 +1917,10 @@ msgid ""
 "\t            $8500.00\n"
 "\t            -2025.00€\n"
 msgstr ""
+"\tTotal:\n"
+"\t--------------------\n"
+"\t            8500,00$\n"
+"\t            -2025,00€\n"
 
 #, fuzzy
 #~ msgid ""
