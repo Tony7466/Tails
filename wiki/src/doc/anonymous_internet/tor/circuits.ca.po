@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-12 16:11+0000\n"
+"PO-Revision-Date: 2023-11-12 22:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Managing the circuits of Tor\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Gestió dels circuits de Tor\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -41,17 +41,26 @@ msgid ""
 "class=\"symbolic\"]]) in the top-right corner and choose **Open Onion\n"
 "Circuits**.\n"
 msgstr ""
+"Per obrir **Circuits Onion**, feu clic a\n"
+"la icona d'estat de Tor ([[!img lib/symbolic/tor-disconnected.png alt=\"Menú "
+"d'estat de Tor\" link=\"no\" class=\"symbolic\"]]\n"
+"o [[!img lib/symbolic/tor-connected.png alt=\"Menú d'estat de Tor\" link=\"no"
+"\"\n"
+"class=\"symbolic\"]]) a l'extrem superior dret i trieu **Obre els Circuits\n"
+"Onion**.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"view\">Understanding Tor circuits</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"view\">Entendre els circuits Tor</h1>\n"
 
 #. type: Plain text
 msgid ""
 "If Tails is already [[connected to the Tor network|doc/anonymous_internet/"
 "tor]], a list of Tor circuits appears in the left pane of *Onion Circuits*."
 msgstr ""
+"Si Tails ja està [[connectat a la xarxa Tor|doc/anonymous_internet/tor]], "
+"apareixerà una llista de circuits Tor al panell esquerre de *Circuits Onion*."
 
 #. type: Plain text
 #, no-wrap
@@ -79,6 +88,8 @@ msgid ""
 "Click on a circuit to display the technical details about each relay in the "
 "right pane."
 msgstr ""
+"Feu clic a un circuit per mostrar els detalls tècnics de cada repetidor al "
+"panell dret."
 
 #. type: Plain text
 #, no-wrap
@@ -91,23 +102,29 @@ msgid ""
 "connection to **tails.net** goes through the 3 relays **drk**, **kicka**, "
 "and **Quetzalcoatl**."
 msgstr ""
+"Cada circuit Tor està format per 3 repetidors de Tor. A l'exemple anterior, "
+"la connexió a **tails.net** passa pels 3 repetidors **drk**, **kicka** i "
+"**Quetzalcoatl**."
 
 #. type: Bullet: '1. '
 msgid "The first relay, here **drk**, is called the *entry guard*."
-msgstr ""
+msgstr "El primer repetidor, aquí **drk**, s'anomena *guarda d'entrada*."
 
 #. type: Plain text
 #, no-wrap
 msgid "   If you configured a Tor bridge, your bridge is your entry guard.\n"
 msgstr ""
+"   Si heu configurat un pont de Tor, el vostre pont és el vostre guàrdia "
+"d'entrada.\n"
 
 #. type: Bullet: '2. '
 msgid "The second relay, here **kicka**, is called the *middle relay*."
-msgstr ""
+msgstr "El segon repetidor, aquí **kicka**, s'anomena *relleu mitjà*."
 
 #. type: Bullet: '3. '
 msgid "The third relay, here **Quetzalcoatl**, is called the *exit node*."
 msgstr ""
+"El tercer repetidor, aquí **Quetzalcoatl**, s'anomena *node de sortida*."
 
 #. type: Plain text
 #, no-wrap
@@ -117,13 +134,15 @@ msgstr "[[!img doc/anonymous_internet/tor/tor.svg link=\"no\" alt=\"Esquema d'un
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"change\">Closing and replacing a Tor circuit</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"change\">Tancar i substituir un circuit Tor</h1>\n"
 
 #. type: Plain text
 msgid ""
 "You can close a given Tor circuit to help replace a particularly slow Tor "
 "circuit or troubleshoot issues on the Tor network. To do so:"
 msgstr ""
+"Podeu tancar un circuit Tor determinat per ajudar a substituir un circuit "
+"Tor especialment lent o resoldre problemes a la xarxa Tor. Per fer-ho:"
 
 #. type: Bullet: '1. '
 msgid ""
