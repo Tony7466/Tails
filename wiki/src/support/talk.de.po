@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-29 07:10+0000\n"
-"PO-Revision-Date: 2023-11-10 04:11+0000\n"
+"PO-Revision-Date: 2023-11-12 18:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -19,10 +19,8 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Content of: <div>
-#, fuzzy
-#| msgid "[[!meta title=\"Get in touch with us\"]]"
 msgid "[[!meta title=\"Write to our help desk\"]]"
-msgstr "[[!meta title=\"Kontakt mit uns aufnehmen\"]]"
+msgstr "[[!meta title=\"Schreiben Sie an unseren HelpDesk\"]]"
 
 #. type: Content of: <div><h3>
 msgid "Email"
