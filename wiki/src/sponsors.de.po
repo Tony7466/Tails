@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-09 12:39+0000\n"
-"PO-Revision-Date: 2023-11-10 04:12+0000\n"
+"PO-Revision-Date: 2023-11-12 16:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -216,12 +216,12 @@ msgid "James Seibel - $1 000"
 msgstr "ExpressVPN - $1.000"
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 msgid ""
 "<a href=\"https://jamesseibel.com/\" target=\"_blank\">[[!img seibel.png "
 "link=\"no\" alt=\"\"]]</a>"
-msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
+msgstr ""
+"<a href=\"https://jamesseibel.com/\" target=\"_blank\">[[!img seibel.png "
+"link=\"no\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
