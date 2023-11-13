@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"PO-Revision-Date: 2023-11-13 23:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.19 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.19\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -44,6 +44,10 @@ msgid ""
 "beta1]] and [[4.19~rc1|test_4.19-rc1]]. We made a lot of progress but didn't "
 "feel confident enough to release it today."
 msgstr ""
+"La setmana passada vam treballar molt dur per preparar-nos per publicar el "
+"treball sobre la connexió a Tor que us hem estat mostrant a [[4."
+"19~beta1|test_4.19-beta1]] i [[4.19~rc1|test_4.19-rc1 ]]. Hem avançat molt, "
+"però no ens hem sentit prou segurs com per publicar-lo avui."
 
 #. type: Plain text
 msgid ""
@@ -51,6 +55,9 @@ msgid ""
 "4.20. We will publish an updated rc2 in the coming days with even more "
 "improvements on the connection to Tor."
 msgstr ""
+"Per tant, estem llançant la versió 4.19 com a actualització regular i "
+"llançarem aquesta feina a la 4.20. Publicarem un rc2 actualitzat en els "
+"propers dies amb encara més millores en la connexió a Tor."
 
 #. type: Plain text
 #, no-wrap
@@ -62,6 +69,8 @@ msgid ""
 "Stop pinning the TLS certificate of our website when doing automatic "
 "upgrades."
 msgstr ""
+"S'ha deixat de fixar el certificat TLS del nostre lloc web quan es fan "
+"actualitzacions automàtiques."
 
 #. type: Plain text
 #, no-wrap
@@ -72,6 +81,15 @@ msgid ""
 "  of a security feature: the pinning of the TLS certificate of our website when\n"
 "  doing automatic upgrades.\n"
 msgstr ""
+"  Recentment hem trencat les actualitzacions automàtiques dues vegades; una "
+"vegada al desembre a\n"
+"  la versió [[4.14|news/version_4.15#broken-upgrades]] i de nou durant uns "
+"quants dies el\n"
+"  [[!tails_ticket 18324 desc=\"15 de maig\"]]. Aquestes dues vegades, va ser "
+"conseqüència\n"
+"  d'una funció de seguretat: la fixació del certificat TLS del nostre lloc "
+"web quan\n"
+"  es feien actualitzacions automàtiques.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -80,6 +98,11 @@ msgid ""
 "  feature was not worth it if it makes us break automatic upgrades that often.\n"
 "  ([[!tails_ticket 18324]])\n"
 msgstr ""
+"  Vam eliminar aquesta funció perquè els problemes recents ens han demostrat "
+"que\n"
+"  la funció no val la pena si ens fa trencar les actualitzacions "
+"automàtiques amb tanta freqüència.\n"
+"  ([[!tails_ticket 18324]])\n"
 
 #. type: Plain text
 #, no-wrap
@@ -87,12 +110,17 @@ msgid ""
 "  Our upgrades are still as strongly authenticated as they are signed using\n"
 "  OpenPGP by our team.\n"
 msgstr ""
+"  Les nostres actualitzacions encara estan tan fortament autenticades ja que "
+"estan signades amb\n"
+"  OpenPGP pel nostre equip.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Add visual feedback when typing an administration password with <span class="
 "\"code\">sudo</span> in a terminal:"
 msgstr ""
+"S'han afegit comentaris visuals quan s'escriu una contrasenya "
+"d'administració amb <span class=\"code\">sudo</span> en un terminal:"
 
 #. type: Plain text
 #, no-wrap
@@ -100,18 +128,24 @@ msgid ""
 "      amnesia@amnesia:~$ sudo -i\n"
 "      [sudo] password for amnesia: ******** \n"
 msgstr ""
+"      amnesia@amnesia:~$ sudo -i\n"
+"      [sudo] password for amnesia: ******** \n"
 
 #. type: Plain text
 msgid ""
 "- Update *Tor Browser* to [10.0.17](https://blog.torproject.org/new-release-"
 "tor-browser-10017)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [10.0.17](https://blog."
+"torproject.org/new-release-tor-browser-10017)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [78.10.0](https://www.thunderbird.net/en-US/"
 "thunderbird/78.10.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [78.10.0](https://www."
+"thunderbird.net/en-US/thunderbird/78.10.0/releasenotes/)."
 
 #. type: Plain text
 msgid ""
@@ -176,6 +210,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.14 or later to 4.19."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.14 o "
+"posterior fins a la versió 4.19."
 
 #. type: Bullet: '- '
 msgid ""
@@ -227,6 +263,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.19 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.19 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -243,4 +281,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 4.20 is [[scheduled|contribute/calendar]] for July 13."
-msgstr ""
+msgstr "Tails 4.20 està [[programat|contribute/calendar]] per al 13 de juliol."
