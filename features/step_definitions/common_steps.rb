@@ -1200,11 +1200,11 @@ Given /^Tails is fooled to think that version (.+) was initially installed$/ do 
 end
 
 Then /^Tails is running version (.+)$/ do |version|
+  running_version = $vm.file_content('/etc/os-release')
+                    .match(/^VERSION="([0-9]+)"$/)[1]
   assert_equal(
     version,
-    $vm.execute_successfully(
-      ". /etc/os-release && echo ${VERSION}"
-    ).stdout.chomp,
+    running_version,
     "The version doesn't match /etc/os-release"
   )
 end
