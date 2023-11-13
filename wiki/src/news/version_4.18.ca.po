@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-05 23:11+0000\n"
+"PO-Revision-Date: 2023-11-13 23:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -55,6 +55,8 @@ msgid ""
 "- Remove \"Synchronizing the system's clock\" notification when connecting "
 "to Tor network"
 msgstr ""
+"- S'ha eliminat la notificació \"S'està sincronitzant el rellotge del "
+"sistema\" quan es realitza la connexió a la xarxa Tor"
 
 #. type: Plain text
 #, no-wrap
@@ -63,6 +65,12 @@ msgid ""
 "  users to take and it was unclear. It might have given users the impression\n"
 "  that they should alter their UTC clock settings. ([[!tails_ticket 7439]])\n"
 msgstr ""
+"  Hem eliminat aquesta notificació perquè no recomanava cap acció "
+"específica\n"
+"  a prendre per als usuaris i no era clara. Podria haver donat la impressió "
+"als usuaris\n"
+"  que haurien d'alterar la configuració del rellotge UTC. ([[!tails_ticket "
+"7439]])\n"
 
 #. type: Plain text
 #, no-wrap
@@ -71,7 +79,7 @@ msgstr "  [[!img version_4.18/time-sync.png link=\"no\"]]\n"
 
 #. type: Plain text
 msgid "- Remove Poedit"
-msgstr ""
+msgstr "- S'ha eliminat Poedit"
 
 #. type: Plain text
 #, no-wrap
@@ -80,33 +88,45 @@ msgid ""
 "  so Poedit isn't as necessary. To install Poedit in Tails, see our guide on\n"
 "  Additional Software. ([[!tails_ticket 18236]])\n"
 msgstr ""
+"  Ara fem servir Weblate per proporcionar text traduït per a Tails i el lloc "
+"web de Tails,\n"
+"  així que Poedit no és tan necessari. Per instal·lar Poedit a Tails, "
+"consulteu la nostra guia\n"
+"  de Programari Addicional. ([[!tails_ticket 18236]])\n"
 
 #. type: Plain text
 msgid ""
 "- Update *Tor Browser* to [10.0.16](https://blog.torproject.org/new-release-"
 "tor-browser-10016)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [10.0.16](https://blog."
+"torproject.org/new-release-tor-browser-10016)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [78.9.0-1](https://www.thunderbird.net/en-US/"
 "thunderbird/78.9.1/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [78.9.0-1](https://www."
+"thunderbird.net/en-US/thunderbird/78.9.1/releasenotes/)."
 
 #. type: Plain text
 msgid ""
 "- Update some Intel and Linux firmware packages. This should improve support "
 "for newer hardware (graphics, Wi-Fi, and so on)."
 msgstr ""
+"- S'han actualitzat alguns paquets de microprogramari Intel i Linux. Això "
+"hauria de millorar la compatibilitat amb el maquinari més nou (gràfics, Wi-"
+"Fi, etc.)."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"upgrades\">Fixed problems</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"upgrades\">Problemes solucionats</h1>\n"
 
 #. type: Plain text
 msgid "- Use more reliable Debian repositories"
-msgstr ""
+msgstr "- S'utilitzen repositoris de Debian més fiables"
 
 #. type: Plain text
 #, no-wrap
@@ -115,12 +135,21 @@ msgid ""
 "  the Additional Software feature.\n"
 "  We left other Tails and Tor Project APT onion sources as is. ([[!tails_ticket 17993]])\n"
 msgstr ""
+"  Tails ara es connecta als repositoris APT de Debian utilitzant la seva "
+"adreça HTTPS en lloc de la seva adreça .onion per augmentar la fiabilitat "
+"amb\n"
+"  la funció de Programari Addicional.\n"
+"  Hem deixat altres fonts APT onion de Tails i Tor Project tal com estaven. "
+"([[!tails_ticket 17993]])\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Display an error message when the Upgrader fails to download the signing "
 "key.  This has been a silent error since 4.14. ([[!tails_ticket 18238]])"
 msgstr ""
+"Es mostra un missatge d'error quan l'actualitzador no baixa la clau de "
+"signatura. Aquest ha estat un error silenciós des de la versió 4.14. ([["
+"!tails_ticket 18238]])"
 
 #. type: Plain text
 msgid ""
@@ -170,6 +199,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.14 or later to 4.18."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.14 o "
+"posterior fins a la versió 4.18."
 
 #. type: Bullet: '- '
 msgid ""
@@ -221,6 +252,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.18 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.18 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -237,7 +270,7 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 4.19 is [[scheduled|contribute/calendar]] for June 1."
-msgstr ""
+msgstr "Tails 4.19 està [[programat|contribute/calendar]] per a l'1 de juny."
 
 #. type: Plain text
 #, no-wrap
@@ -246,3 +279,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.17\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.17\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"
