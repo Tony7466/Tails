@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-10-01 16:15+0000\n"
-"PO-Revision-Date: 2023-11-05 00:11+0000\n"
+"PO-Revision-Date: 2023-11-13 15:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -27,6 +27,8 @@ msgstr "[[!meta date=\"Mon, 22 Nov 2009 11:20:24 +0000\"]]\n"
 #, no-wrap
 msgid "[[!meta title=\"Use of cleartext swap partitions on local hard disks\"]]\n"
 msgstr ""
+"[[!meta title=\"Ús de particions d'intercanvi de text clar als discs durs "
+"locals\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -44,22 +46,29 @@ msgid ""
 "lists.debian.org/debian-live/2009/09/msg00125.html)  that makes it use any "
 "cleartext swap partition found on local hard disks."
 msgstr ""
+"Almenys fins a la seva versió 1.157.4-1, `live-initramfs` té un "
+"[error](http://lists.debian.org/debian-live/2009/09/msg00125.html) que fa "
+"que utilitzi qualsevol partició de text clar d'intercanvi que es troba als "
+"discs durs locals."
 
 #. type: Title #
 #, no-wrap
 msgid "Impact"
-msgstr ""
+msgstr "Impacte"
 
 #. type: Plain text
 msgid ""
 "Any kind of information about the user's activities can be stored on the "
 "local hard disks of the computers being used with affected amnesia systems."
 msgstr ""
+"Qualsevol tipus d'informació sobre les activitats de l'usuari es pot "
+"emmagatzemar als discs durs locals dels ordinadors que s'utilitzen amb "
+"sistemes d'amnèsia afectats."
 
 #. type: Title #
 #, no-wrap
 msgid "Mitigation of passed effects"
-msgstr ""
+msgstr "Mitigació dels efectes passats"
 
 #. type: Plain text
 msgid ""
@@ -67,31 +76,41 @@ msgid ""
 "cleartext Linux swap partition present on computers having been used with "
 "affected amnesia systems."
 msgstr ""
+"Es recomana esborrar de manera segura, utilitzant un programa com `shred`, "
+"qualsevol partició d'intercanvi de Linux de text clar present als ordinadors "
+"que s'hagi utilitzat amb sistemes d'amnèsia afectats."
 
 #. type: Title #
 #, no-wrap
 msgid "Solution"
-msgstr ""
+msgstr "Solució"
 
 #. type: Plain text
 msgid ""
 "We fixed this hole on 20091006 (commit 00c1ff633e8958d0233) by installing a "
 "custom fixed `live-initramfs` package into built images."
 msgstr ""
+"Hem corregit aquest forat al 20091006 (commit 00c1ff633e8958d0233) instal·"
+"lant un paquet personalitzat `live-initramfs` a les imatges integrades."
 
 #. type: Plain text
 msgid ""
 "The relevant patch was then [integrated](http://lists.debian.org/debian-"
 "live/2009/10/msg00124.html)  in upstream's Git."
 msgstr ""
+"El pedaç rellevant es va [integrar](http://lists.debian.org/debian-live/2009/"
+"10/msg00124.html) al Git d'amunt."
 
 #. type: Title #
 #, no-wrap
 msgid "Affected versions"
-msgstr ""
+msgstr "Versions afectades"
 
 #. type: Plain text
 msgid ""
 "Releases 0.2-20090815 and 0.2-20090816 are affected, as well as any custom "
 "image built from Git before commit 00c1ff633e8958d0233."
 msgstr ""
+"Les versions 0.2-20090815 i 0.2-20090816 es veuen afectades, així com "
+"qualsevol imatge personalitzada creada des de Git abans de la confirmació "
+"00c1ff633e8958d0233."
