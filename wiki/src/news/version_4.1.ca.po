@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-12 22:12+0000\n"
+"PO-Revision-Date: 2023-11-13 23:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.1 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,6 +42,9 @@ msgid ""
 "This release fixes [[many security vulnerabilities|security/"
 "Numerous_security_holes_in_4.0]]. You should upgrade as soon as possible."
 msgstr ""
+"Aquesta versió corregeix [[moltes vulnerabilitats de seguretat|security/"
+"Numerous_security_holes_in_4.0]]. Hauríeu d'actualitzar el més aviat "
+"possible."
 
 #. type: Plain text
 #, no-wrap
@@ -51,7 +54,7 @@ msgstr "[[!toc levels=1]]\n"
 #. type: Title #
 #, no-wrap
 msgid "Changes and upgrades"
-msgstr ""
+msgstr "Canvis i actualitzacions"
 
 #. type: Bullet: '- '
 msgid ""
@@ -59,6 +62,9 @@ msgid ""
 "zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion/>, as the "
 "default OpenPGP keyserver."
 msgstr ""
+"S'utilitza <https://keys.openpgp.org/>, també disponible a "
+"<http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion/>, "
+"com a servidor de claus per defecte d'OpenPGP."
 
 #. type: Plain text
 #, no-wrap
@@ -73,6 +79,11 @@ msgid ""
 "  configuration and adapt\n"
 "  your Tails to this change.</p>\n"
 msgstr ""
+"  <p>Si teniu claus GnuPG emmagatzemades a l'Emmagatzematge Persistent des "
+"d'abans de Tails\n"
+"  4.1, hauríeu d'actualitzar\n"
+"  la configuració del vostre servidor de claus OpenPGP\n"
+"  i adaptar el vostre Tails a aquest canvi.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -81,11 +92,12 @@ msgstr "  </div>\n"
 
 #. type: Plain text
 msgid "- Update *Tor Browser* to 9.0.2."
-msgstr ""
+msgstr "- S'ha actualitzat el *Navegador Tor* a la versió 9.0.2."
 
 #. type: Plain text
 msgid "- Update *Thunderbird* to from 60.9.0 to 68.2.2."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* de la versió 60.9.0 a la versió 68.2.2."
 
 #. type: Bullet: '- '
 msgid ""
@@ -93,6 +105,9 @@ msgid ""
 "thunderbird#torbirdy]] with custom settings and patches in *Thunderbird* "
 "that provide equivalent privacy."
 msgstr ""
+"S'ha substituït l'[[*extensió TorBirdy*|doc/anonymous_internet/"
+"thunderbird#torbirdy]] per configuracions personalitzades i pedaços a "
+"*Thunderbird* que proporcionen una privadesa equivalent."
 
 #. type: Bullet: '- '
 msgid ""
@@ -100,12 +115,18 @@ msgid ""
 "changelog), which has a simplified setup wizard that automatically creates "
 "an OpenPGP key for new email accounts."
 msgstr ""
+"S'ha actualitzat *Enigmail* a la versió [2.1.3](https://enigmail.net/index."
+"php/en/download/changelog), que té un assistent de configuració simplificat "
+"que crea automàticament una clau OpenPGP per a comptes de correu electrònic "
+"nous."
 
 #. type: Bullet: '- '
 msgid ""
 "Update *Linux* to 5.3.9. This should improve the support for newer hardware "
 "(graphics, Wi-Fi, etc.)."
 msgstr ""
+"S'ha actualitzat *Linux* a la versió 5.3.9. Això hauria de millorar la "
+"compatibilitat amb el maquinari més nou (gràfics, Wi-Fi, etc.)."
 
 #. type: Title #
 #, no-wrap
@@ -117,12 +138,16 @@ msgid ""
 "Add back the **Show Passphrase** check box in *Tails Greeter*.  ([[!"
 "tails_ticket 17177]])"
 msgstr ""
+"S'ha tornat a afegir la casella de selecció **Mostra la contrasenya** a *"
+"Tails Greeter*. ([[!tails_ticket 17177]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Fix the display of the troubleshooting error when GDM fails to start.  ([[!"
 "tails_ticket 17200]])"
 msgstr ""
+"S'ha corregit la visualització de l'error de resolució de problemes quan GDM "
+"no s'inicia. ([[!tails_ticket 17200]])"
 
 #. type: Plain text
 #, no-wrap
@@ -136,12 +161,17 @@ msgid ""
 "click with two fingers) in a folder in the *Files* browser.  ([[!"
 "tails_ticket 17186]])"
 msgstr ""
+"S'ha tornat a afegir l'opció **Obrir al terminal** quan feu clic amb el botó "
+"dret (a Mac, feu clic amb dos dits) en una carpeta del navegador de *Fitxers*"
+". ([[!tails_ticket 17186]])"
 
 #. type: Plain text
 msgid ""
 "- Make the installation of additional software more reliable. ([[!"
 "tails_ticket 17203]])"
 msgstr ""
+"- S'ha fet que la instal·lació de Programari Addicional sigui més fiable. ([["
+"!tails_ticket 17203]])"
 
 #. type: Plain text
 msgid ""
@@ -184,6 +214,7 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from 4.0 to 4.1."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles de 4.0 a la versió 4.1."
 
 #. type: Bullet: '- '
 msgid ""
@@ -232,6 +263,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can directly "
 "download Tails 4.1:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"directament Tails 4.1:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -257,3 +290,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.1\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.1\">fer una "
+"donació</a> només és una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"
