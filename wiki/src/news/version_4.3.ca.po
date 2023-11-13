@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-12 22:12+0000\n"
+"PO-Revision-Date: 2023-11-13 23:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.3 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.3\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,6 +42,9 @@ msgid ""
 "This release fixes [[many security vulnerabilities|security/"
 "Numerous_security_holes_in_4.2.2]]. You should upgrade as soon as possible."
 msgstr ""
+"Aquesta versió corregeix [[moltes vulnerabilitats de seguretat|security/"
+"Numerous_security_holes_in_4.2.2]]. Hauríeu d'actualitzar el més aviat "
+"possible."
 
 #. type: Plain text
 #, no-wrap
@@ -58,6 +61,8 @@ msgid ""
 "We included the `trezor` package, which provides a command line tool to use "
 "a Trezor hardware wallet for cryptocurrencies."
 msgstr ""
+"Hem inclòs el paquet `trezor`, que proporciona una eina de línia d'ordres "
+"per utilitzar una cartera de maquinari Trezor per a criptomonedes."
 
 #. type: Title #
 #, no-wrap
@@ -69,26 +74,32 @@ msgid ""
 "- Update *Tor Browser* to [9.0.5](https://blog.torproject.org/new-release-"
 "tor-browser-905)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [9.0.5](https://blog."
+"torproject.org/new-release-tor-browser-905)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [68.4.1](https://www.mozilla.org/en-US/"
 "thunderbird/1.2.3/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [68.4.1](https://www.mozilla."
+"org/en-US/thunderbird/1.2.3/releasenotes/)."
 
 #. type: Bullet: '- '
 msgid ""
 "Update *Linux* to 5.4.13. This should improve the support for newer hardware "
 "(graphics, Wi-Fi, etc.)."
 msgstr ""
+"S'ha actualitzat *Linux* a la versió 5.4.13. Això hauria de millorar la "
+"compatibilitat amb el maquinari més nou (gràfics, Wi-Fi, etc.)."
 
 #. type: Plain text
 msgid "- Update *Tor* to 0.4.2.6."
-msgstr ""
+msgstr "- S'ha actualitzat *Tor* a la versió 0.4.2.6."
 
 #. type: Plain text
 msgid "- Update the *VirtualBox Guest Additions* to 6.1.2."
-msgstr ""
+msgstr "- S'ha actualitzat *VirtualBox Guest Additions* a la versió 6.1.2."
 
 #. type: Title #
 #, no-wrap
@@ -100,6 +111,8 @@ msgid ""
 "Fix the progress bar and prevent closing the window while an upgrade is "
 "being applied. ([[!tails_ticket 16603]])"
 msgstr ""
+"S'ha arreglat la barra de progrés i s'evita que es tanqui la finestra mentre "
+"s'aplica una actualització. ([[!tails_ticket 16603]])"
 
 #. type: Plain text
 #, no-wrap
@@ -147,6 +160,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from 4.2 and 4.2.2 to 4.3."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles de les versions 4.2 i "
+"4.2.2 a la 4.3."
 
 #. type: Bullet: '- '
 msgid ""
@@ -195,6 +210,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can directly "
 "download Tails 4.3:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"directament Tails 4.3:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -211,7 +228,7 @@ msgstr "Què ve?"
 
 #. type: Plain text
 msgid "Tails 4.4 is [[scheduled|contribute/calendar]] for March 10."
-msgstr ""
+msgstr "Tails 4.4 està [[programat|contribute/calendar]] per al 10 de març."
 
 #. type: Plain text
 #, no-wrap
@@ -220,3 +237,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.3\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.3\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"
