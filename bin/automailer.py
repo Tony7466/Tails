@@ -64,14 +64,15 @@ def get_attachments(msg) -> List[str]:
     attachments: List[str] = []
 
     if "x-attach" in msg:
-        for fpath in msg["x-attach"].split(","):
-            fpath = fpath.strip()
-            if not fpath:
-                continue
-            if not os.path.exists(fpath):
-                print(f"Skipping attachemt '{fpath}': not found", file=sys.stderr)
-                continue
-            attachments.append(fpath)
+        for attachment_list in msg.get_all('x-attach'):
+            for fpath in attachment_list.split(","):
+                fpath = fpath.strip()
+                if not fpath:
+                    continue
+                if not os.path.exists(fpath):
+                    print(f"Skipping attachemt '{fpath}': not found", file=sys.stderr)
+                    continue
+                attachments.append(fpath)
 
     return attachments
 
