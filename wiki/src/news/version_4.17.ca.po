@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-05 23:11+0000\n"
+"PO-Revision-Date: 2023-11-13 23:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -42,15 +42,21 @@ msgid ""
 "This release fixes known security vulnerabilities. You should upgrade as "
 "soon as possible."
 msgstr ""
+"Aquesta versió corregeix vulnerabilitats de seguretat conegudes. Hauríeu "
+"d'actualitzar el més aviat possible."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"upgrades\">Reliability improvements to automatic upgrades</h1>\n"
 msgstr ""
+"<h1 id=\"upgrades\">Millores de fiabilitat a les actualitzacions "
+"automàtiques</h1>\n"
 
 #. type: Plain text
 msgid "- Repair automatically the file system used during upgrades."
 msgstr ""
+"- Es repara automàticament el sistema de fitxers utilitzat durant les "
+"actualitzacions."
 
 #. type: Plain text
 #, no-wrap
@@ -58,43 +64,55 @@ msgid ""
 "  Automatic upgrades were sometimes failing even after doing a manual upgrade\n"
 "  because of an unclean file system. ([[!tails_ticket 17902]])\n"
 msgstr ""
+"  Les actualitzacions automàtiques de vegades fallaven fins i tot després de "
+"fer una actualització manual\n"
+"  a causa d'un sistema de fitxers impur. ([[!tails_ticket 17902]])\n"
 
 #. type: Plain text
 msgid "- Resume automatically when the download of an upgrade fails."
-msgstr ""
+msgstr "- Es reprèn automàticament quan falla la baixada d'una actualització."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"changes\">Other changes and updates</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"changes\">Altres canvis i actualitzacions</h1>\n"
 
 #. type: Plain text
 msgid ""
 "- Update *Tor Browser* to [10.0.14](https://blog.torproject.org/new-release-"
 "tor-browser-10014)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [10.0.14](https://blog."
+"torproject.org/new-release-tor-browser-10014)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [78.8.0](https://www.thunderbird.net/en-US/"
 "thunderbird/78.8.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [78.8.0](https://www.thunderbird"
+".net/en-US/thunderbird/78.8.0/releasenotes/)."
 
 #. type: Plain text
 msgid "- Update *Tor* to 0.4.5.7."
-msgstr ""
+msgstr "- S'ha actualitzat *Tor* a la versió 0.4.5.7."
 
 #. type: Plain text
 msgid ""
 "- Update *GRUB* to [2.04-16](https://www.debian.org/security/2020-GRUB-UEFI-"
 "SecureBoot/)."
 msgstr ""
+"- S'ha actualitzat *GRUB* a la versió [2.04-16](https://www.debian.org/"
+"security/2020-GRUB-UEFI-SecureBoot/)."
 
 #. type: Bullet: '- '
 msgid ""
 "Update some firmware packages. This should improve the support for some Wi-"
 "Fi interfaces, especially Intel, Broadcom, and Cypress interfaces."
 msgstr ""
+"S'han actualitzat alguns paquets de microprogramari. Això hauria de millorar "
+"la compatibilitat amb algunes interfícies Wi-Fi, especialment les "
+"interfícies Intel, Broadcom i Cypress."
 
 #. type: Plain text
 #, no-wrap
@@ -106,11 +124,15 @@ msgid ""
 "- Improve the error message when starting the *Unsafe Browser* while "
 "offline. ([[!tails_ticket 12251]])"
 msgstr ""
+"- S'ha millorat el missatge d'error en iniciar el *Navegador Insegur* sense "
+"connexió. ([[!tails_ticket 12251]])"
 
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img unsafe.png link=\"no\" alt=\"New error message: You are not connected to a local network yet.\"]]\n"
 msgstr ""
+"  [[!img unsafe.png link=\"no\" alt=\"Nou missatge d'error: encara no esteu "
+"connectat a una xarxa local.\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -160,6 +182,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.14 or later to 4.17."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.14 o "
+"posterior fins a la versió 4.17."
 
 #. type: Bullet: '- '
 msgid ""
@@ -211,6 +235,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.17 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.17 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -227,7 +253,7 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 4.18 is [[scheduled|contribute/calendar]] for April 20."
-msgstr ""
+msgstr "Tails 4.18 està [[programat|contribute/calendar]] per al 20 d'abril."
 
 #. type: Plain text
 #, no-wrap
@@ -236,3 +262,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.17\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.17\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"
