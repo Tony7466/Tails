@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-04-12 16:10+0200\n"
-"PO-Revision-Date: 2023-10-10 10:13+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "[[!meta date=\"Sat, 22 Dec 2018 19:00:00 +0000\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Our plans for 2019\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Unsere Pläne für 2019\"]]\n"
 
 #. type: Plain text
 #, no-wrap

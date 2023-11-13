@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-10-27 09:15+0000\n"
-"PO-Revision-Date: 2022-12-24 08:17+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"POT-Creation-Date: 2023-11-08 14:41+0000\n"
+"PO-Revision-Date: 2023-11-09 17:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Donate to fight surveillance and censorship\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Spenden Sie, um Überwachung und Zensur zu bekämpfen\"]]"
 
 #.  See upstream patch: https://ikiwiki.info/todo/support_Twitter_cards/ 
 #. type: Content of: outside any tag (error?)
@@ -45,13 +45,15 @@ msgstr "[[!img godzilla.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><h2>
 msgid "Tails is their strongest protection"
-msgstr ""
+msgstr "Tails ist ihr bester Schutz"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "At Tails, we build a liberating operating system that puts people in control "
 "of their digital lives."
 msgstr ""
+"Tails entwickelt ein Betriebssystem, das Menschen die Freiheit gibt, ihr "
+"digitales Leben selbst zu bestimmen."
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -60,6 +62,11 @@ msgid ""
 "has become an invaluable ally for those on the front lines of truth-seeking "
 "and progressive political advocacy:"
 msgstr ""
+"Im Jahr 2023 hat Tails täglich das Leben von etwa 25.000 Menschen berührt "
+"und wird eine beeindruckende Zahl von 10 Millionen Nutzungen übertreffen. Im "
+"Laufe der Jahre hat sich Tails zu einem unschätzbaren Verbündeten für "
+"diejenigen an vorderster Front der Wahrheitssuche und progressiven "
+"politischen Advocacy entwickelt:"
 
 #. type: Content of: <div><div><ul><li><p>
 msgid ""
@@ -68,6 +75,11 @@ msgid ""
 "journalists from PODER and Serendipia used Tails to investigate the "
 "systematic espionage of feminists and LGBTQIA+ groups by the Mexican army."
 msgstr ""
+"<b>Investigativjournalisten</b> haben Tails verwendet, um Korruption und "
+"Unrecht sicher aufzudecken, ohne Angst vor Repressalien. Zum Beispiel "
+"verwendeten Journalisten von PODER und Serendipia Tails, um die "
+"systematische Spionage von Feministinnen und LGBTQIA+-Gruppen durch die "
+"mexikanische Armee zu untersuchen."
 
 #. type: Content of: <div><div><ul><li><p>
 msgid ""
@@ -76,6 +88,11 @@ msgid ""
 "activists in Brazil have used Tails to protect their work and personal data "
 "from intrusive law enforcement and boyfriends alike."
 msgstr ""
+"<b>Aktivisten</b> haben Tails verwendet, um sich zu organisieren und "
+"miteinander zu kommunizieren, selbst in repressiven Regimen. Zum Beispiel "
+"haben reproduktive Menschenrechts-Aktivistinnen in Brasilien Tails "
+"verwendet, um ihre Arbeit und ihre persönlichen Daten vor neugieriger "
+"Strafverfolgung und auch vor Freundinnen und Freunden zu schützen."
 
 #. type: Content of: <div><div><ul><li><p>
 msgid ""
@@ -85,6 +102,11 @@ msgid ""
 "surveillance programs orchestrated by the NSA and the Five Eyes intelligence "
 "alliance."
 msgstr ""
+"<b>Whistleblower</b> haben Tails verwendet, um Missstände aufzudecken, ohne "
+"ihre Identitäten preiszugeben oder ihre Quellen zu gefährden. Zum Beispiel "
+"verwendeten Edward Snowden und seine Mitarbeiter Tails, um die massiven "
+"globalen Überwachungsprogramme der NSA und des Fünf-Augen-"
+"Nachrichtendienstbündnisses aufzudecken."
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -92,12 +114,18 @@ msgid ""
 "above our weight thanks to your support, and we continue to need your "
 "support every year."
 msgstr ""
+"Tails ist gemeinnützig und wird mit einem relativ kleinen Budget betrieben. "
+"Dank Ihrer Unterstützung haben wir unsere Möglichkeiten übertroffen, und wir "
+"benötigen Ihre Unterstützung auch weiterhin jedes Jahr."
 
 #. type: Content of: <div><div><p>
 msgid ""
 "By donating to Tails, you can help us to continue developing and improving "
 "Tails, and to make it more accessible to people who need it most."
 msgstr ""
+"Indem Sie an Tails spenden, können Sie uns helfen, Tails weiterhin zu "
+"entwickeln und zu verbessern und es für Menschen, die es am dringendsten "
+"brauchen, zugänglicher zu machen."
 
 #.  HTML Variables for PayPal Payments Standard:
 #.        https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/ 
@@ -106,23 +134,6 @@ msgstr ""
 #.  For recurring donations only. 
 #.  For one-time donation only. 
 #. type: Content of: <div><div><div><form>
-#, fuzzy
-#| msgid ""
-#| "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\" "
-#| "id=\"cmd\"/> <input type=\"hidden\" name=\"business\" "
-#| "value=\"tailsriseuplabs@riseup.net\" id=\"business\"/> <input "
-#| "type=\"hidden\" name=\"currency_code\" value=\"USD\" id=\"currency_code\"/"
-#| "> <input type=\"hidden\" name=\"item_name\" value=\"Donation to Tails\"/> "
-#| "<input type=\"hidden\" name=\"no_note\" value=\"1\"/> <input "
-#| "type=\"hidden\" name=\"return\" class=\"return-url\" value=\"https://"
-#| "tails.boum.org/donate/thanks\"/> <input type=\"hidden\" "
-#| "name=\"cancel_return\" class=\"return-url\" value=\"https://tails.boum."
-#| "org/donate/canceled\"/> <input name=\"lc\" type=\"hidden\" value=\"US\"/> "
-#| "<input type=\"hidden\" name=\"a3\" value=\"5\" id=\"a3\"/> <input "
-#| "type=\"hidden\" name=\"t3\" value=\"M\" id=\"t3\"/> <input "
-#| "type=\"hidden\" name=\"p3\" value=\"1\"/> <input type=\"hidden\" "
-#| "name=\"src\" value=\"1\"/> <input type=\"hidden\" name=\"amount\" "
-#| "value=\"5\" id=\"amount\"/>"
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\" "
 "id=\"cmd\"/> <input type=\"hidden\" name=\"business\" "
@@ -140,20 +151,20 @@ msgid ""
 "name=\"src\" value=\"1\"/> <input type=\"hidden\" name=\"amount\" "
 "value=\"5\" id=\"amount\"/>"
 msgstr ""
-"<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\" "
-"id=\"cmd\"/> <input type=\"hidden\" name=\"business\" "
-"value=\"tailsriseuplabs@riseup.net\" id=\"business\"/> <input "
-"type=\"hidden\" name=\"currency_code\" value=\"USD\" id=\"currency_code\"/> "
-"<input type=\"hidden\" name=\"item_name\" value=\"Donation to Tails\"/> "
-"<input type=\"hidden\" name=\"no_note\" value=\"1\"/> <input type=\"hidden\" "
-"name=\"return\" class=\"return-url\" value=\"https://tails.boum.org/donate/"
-"thanks/index.de.html\"/> <input type=\"hidden\" name=\"cancel_return\" "
-"class=\"return-url\" value=\"https://tails.boum.org/donate/canceled/index.de."
-"html\"/> <input name=\"lc\" type=\"hidden\" value=\"DE\"/> <input "
-"type=\"hidden\" name=\"a3\" value=\"5\" id=\"a3\"/> <input type=\"hidden\" "
-"name=\"t3\" value=\"M\" id=\"t3\"/> <input type=\"hidden\" name=\"p3\" "
-"value=\"1\"/> <input type=\"hidden\" name=\"src\" value=\"1\"/> <input "
-"type=\"hidden\" name=\"amount\" value=\"5\" id=\"amount\"/>"
+"<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\" id=\"cmd"
+"\"/> <input type=\"hidden\" name=\"business\" value=\"tailsriseuplabs@riseup."
+"net\" id=\"business\"/> <input type=\"hidden\" name=\"currency_code\" value="
+"\"USD\" id=\"currency_code\"/> <input type=\"hidden\" name=\"item_name\" "
+"value=\"Spende an Tails\"/> <input type=\"hidden\" name=\"custom\" id="
+"\"custom\"/> <input type=\"hidden\" name=\"no_note\" value=\"1\"/> <input "
+"type=\"hidden\" name=\"return\" value=\"https://tails.net/donate/thanks/\" "
+"class=\"return-url\"/> <input type=\"hidden\" name=\"cancel_return\" value="
+"\"https://tails.net/donate/canceled/\" class=\"return-url\"/> <input type="
+"\"hidden\" name=\"lc\" value=\"US\"/> <input type=\"hidden\" name=\"a3\" "
+"value=\"5\" id=\"a3\"/> <input type=\"hidden\" name=\"t3\" value=\"M\" id="
+"\"t3\"/> <input type=\"hidden\" name=\"p3\" value=\"1\"/> <input type="
+"\"hidden\" name=\"src\" value=\"1\"/> <input type=\"hidden\" name=\"amount\" "
+"value=\"5\" id=\"amount\"/>"
 
 #. type: Content of: <div><div><div><form><div><div>
 msgid ""
@@ -224,17 +235,13 @@ msgstr ""
 "<span>Anderer</span>"
 
 #. type: Content of: <div><div><div><form><div><label><div>
-#, fuzzy
-#| msgid ""
-#| "<span class=\"input-group-addon\">$</span> <input type=\"text\" "
-#| "pattern=\"\\d+\" class=\"form-control\" id=\"other-dollar\"/>"
 msgid ""
 "<span class=\"input-group-addon\">$</span> <input type=\"text\" "
 "pattern=\"\\d+\" class=\"form-control\" id=\"other-dollar\" "
 "placeholder=\"Other\"/>"
 msgstr ""
-"<span class=\"input-group-addon\">$</span> <input type=\"text\" "
-"pattern=\"\\d+\" class=\"form-control\" id=\"other-dollar\"/>"
+"<span class=\"input-group-addon\">$</span> <input type=\"text\" pattern=\"\\d"
+"+\" class=\"form-control\" id=\"other-dollar\" placeholder=\"Other\"/>"
 
 #. type: Content of: <div><div><div><form><div>
 msgid "</label>"
@@ -294,27 +301,16 @@ msgstr ""
 "<span>Anderer</span>"
 
 #. type: Content of: <div><div><div><form><div><label><div>
-#, fuzzy
-#| msgid ""
-#| "<input type=\"text\" pattern=\"\\d+\" class=\"form-control text-right\" "
-#| "id=\"other-euro\"/> <span class=\"input-group-addon\">€</span>"
 msgid ""
 "<input type=\"text\" pattern=\"\\d+\" class=\"form-control text-right\" "
 "id=\"other-euro\" placeholder=\"Other\"/> <span class=\"input-group-"
 "addon\">€</span>"
 msgstr ""
-"<input type=\"text\" pattern=\"\\d+\" class=\"form-control text-right\" "
-"id=\"other-euro\"/> <span class=\"input-group-addon\">€</span>"
+"<input type=\"text\" pattern=\"\\d+\" class=\"form-control text-right\" id"
+"=\"other-euro\" placeholder=\"Other\"/> <span class=\"input-group-addon\""
+">€</span>"
 
 #. type: Content of: <div><div><div><form><div>
-#, fuzzy
-#| msgid ""
-#| "<label class=\"btn btn-lg btn-primary\" id=\"one-time\"> <input "
-#| "type=\"radio\" autocomplete=\"off\"/> One-time </label> <label "
-#| "class=\"btn btn-lg btn-primary active\" id=\"monthly\"> <input "
-#| "type=\"radio\" autocomplete=\"off\"/> Monthly </label> <label class=\"btn "
-#| "btn-lg btn-primary\" id=\"yearly\"> <input type=\"radio\" "
-#| "autocomplete=\"off\" checked/> Yearly </label>"
 msgid ""
 "<label class=\"col-sm-4 col-xs-12\"><input type=\"radio\" name=\"frequency\" "
 "id=\"one-time\"/>One-time</label> <label class=\"col-sm-4 col-xs-12\"><input "
@@ -322,12 +318,11 @@ msgid ""
 "class=\"col-sm-4 col-xs-12\"><input type=\"radio\" name=\"frequency\" "
 "id=\"yearly\"/>Yearly</label>"
 msgstr ""
-"<label class=\"btn btn-lg btn-primary\" id=\"one-time\"> <input "
-"type=\"radio\" autocomplete=\"off\"/> Einmalig </label> <label class=\"btn "
-"btn-lg btn-primary active\" id=\"monthly\"> <input type=\"radio\" "
-"autocomplete=\"off\"/> Monatlich </label> <label class=\"btn btn-lg btn-"
-"primary\" id=\"yearly\"> <input type=\"radio\" autocomplete=\"off\" checked/"
-"> Jährlich </label>"
+"<label class=\"col-sm-4 col-xs-12\"><input type=\"radio\" name=\"frequency\" "
+"id=\"one-time\"/>Einmalig</label> <label class=\"col-sm-4 col-xs-12\"><input "
+"type=\"radio\" name=\"frequency\" id=\"monthly\"/>Monatlich</label> <label "
+"class=\"col-sm-4 col-xs-12\"><input type=\"radio\" name=\"frequency\" id="
+"\"yearly\"/>Jährlich</label>"
 
 #. type: Content of: <div><div><div><div><p>
 msgid ""
@@ -344,10 +339,14 @@ msgid ""
 "<label> <input type=\"checkbox\" id=\"opt-in\"/>I want to receive a "
 "newsletter 2&ndash;3 times a year.  </label>"
 msgstr ""
+"<label> <input type=\"checkbox\" id=\"opt-in\"/>Ich möchte den Newsletter "
+"ca. 2&ndash;3 Mal im Jahr empfangen.  </label>"
 
 #. type: Content of: <div><div><div><div><form><p>
 msgid "We will use the email address provided in the PayPal form."
 msgstr ""
+"Wir werden die E-Mail-Adresse verwenden, die Sie im PayPal-Formular "
+"angegeben haben."
 
 #. type: Content of: <div><div><div><form><div>
 msgid ""
@@ -390,11 +389,13 @@ msgstr ""
 #. type: Content of: <div><div><div><p>
 msgid "If you need a donation receipt, contact us at"
 msgstr ""
+"Wenn Sie eine Spendenquittung benötigen, kontaktieren Sie uns bitte unter"
 
 #. type: Content of: <div><div><div><p>
 msgid ""
 "<a href=\"mailto:tails-fundraising@boum.org\">tails-fundraising@boum.org</a>."
 msgstr ""
+"<a href=\"mailto:tails-fundraising@boum.org\">tails-fundraising@boum.org</a>."
 
 #. type: Content of: <div><div><div><div>
 msgid "\"\"\"]]"
@@ -411,29 +412,6 @@ msgstr "Wiederkehrende Spenden"
 #.  Note for translators: adapt the URLs to return to the page in your language. 
 #.  Note for translators: adapt the value of 'lc' to your language. 
 #. type: Content of: <div><div><div><div><form>
-#, fuzzy
-#| msgid ""
-#| "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\"/> "
-#| "<input type=\"hidden\" name=\"business\" value=\"tailsriseuplabs@riseup."
-#| "net\"/> <input type=\"hidden\" name=\"currency_code\" value=\"USD\" "
-#| "id=\"currency_code\"/> <input type=\"hidden\" name=\"item_name\" "
-#| "value=\"Donation to Tails\"/> <input type=\"hidden\" name=\"no_note\" "
-#| "value=\"1\"/> <input type=\"hidden\" name=\"return\" class=\"return-url\" "
-#| "value=\"https://tails.boum.org/donate/thanks\"/> <input type=\"hidden\" "
-#| "name=\"cancel_return\" class=\"return-url\" value=\"https://tails.boum."
-#| "org/donate/canceled\"/> <input name=\"lc\" type=\"hidden\" value=\"US\"/> "
-#| "<input type=\"hidden\" name=\"src\" value=\"1\"/> <input type=\"hidden\" "
-#| "name=\"p3\" value=\"1\"/> <input type=\"radio\" name=\"a3\" value=\"5\" "
-#| "id=\"sub5\" checked=\"checked\"/><label for=\"sub5\">$5</label> <input "
-#| "type=\"radio\" name=\"a3\" value=\"10\" id=\"sub10\"/><label "
-#| "for=\"sub10\">$10</label> <input type=\"radio\" name=\"a3\" value=\"20\" "
-#| "id=\"sub20\"/><label for=\"sub20\">$20</label> <input type=\"radio\" "
-#| "name=\"a3\" value=\"50\" id=\"sub50\"/><label for=\"sub50\">$50</label> "
-#| "<input type=\"radio\" name=\"a3\" value=\"100\" id=\"sub100\"/><label "
-#| "for=\"sub100\">$100</label> <input type=\"radio\" name=\"a3\" "
-#| "value=\"250\" id=\"sub250\"/><label for=\"sub250\">$250</label> <input "
-#| "type=\"radio\" name=\"a3\" value=\"500\" id=\"sub500\"/><label "
-#| "for=\"sub500\">$500</label>"
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\"/> <input "
 "type=\"hidden\" name=\"business\" value=\"tailsriseuplabs@riseup.net\"/> "
@@ -454,33 +432,22 @@ msgid ""
 msgstr ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\"/> <input "
 "type=\"hidden\" name=\"business\" value=\"tailsriseuplabs@riseup.net\"/> "
-"<input type=\"hidden\" name=\"currency_code\" value=\"USD\" "
-"id=\"currency_code\"/> <input type=\"hidden\" name=\"item_name\" "
-"value=\"Donation to Tails\"/> <input type=\"hidden\" name=\"no_note\" "
-"value=\"1\"/> <input type=\"hidden\" name=\"return\" class=\"return-url\" "
-"value=\"https://tails.boum.org/donate/thanks/index.de.html\"/> <input "
-"type=\"hidden\" name=\"cancel_return\" class=\"return-url\" value=\"https://"
-"tails.boum.org/donate/canceled/index.de.html\"/> <input name=\"lc\" "
-"type=\"hidden\" value=\"DE\"/> <input type=\"hidden\" name=\"src\" "
-"value=\"1\"/> <input type=\"hidden\" name=\"p3\" value=\"1\"/> <input "
-"type=\"radio\" name=\"a3\" value=\"5\" id=\"sub5\" checked=\"checked\"/"
-"><label for=\"sub5\">$5</label> <input type=\"radio\" name=\"a3\" "
-"value=\"10\" id=\"sub10\"/><label for=\"sub10\">$10</label> <input "
-"type=\"radio\" name=\"a3\" value=\"20\" id=\"sub20\"/><label "
-"for=\"sub20\">$20</label> <input type=\"radio\" name=\"a3\" value=\"50\" "
-"id=\"sub50\"/><label for=\"sub50\">$50</label> <input type=\"radio\" "
-"name=\"a3\" value=\"100\" id=\"sub100\"/><label for=\"sub100\">$100</label> "
-"<input type=\"radio\" name=\"a3\" value=\"250\" id=\"sub250\"/><label "
-"for=\"sub250\">$250</label> <input type=\"radio\" name=\"a3\" value=\"500\" "
-"id=\"sub500\"/><label for=\"sub500\">$500</label>"
+"<input type=\"hidden\" name=\"currency_code\" value=\"USD\" id="
+"\"currency_code\"/> <input type=\"hidden\" name=\"item_name\" value="
+"\"Donation to Tails\"/> <input type=\"hidden\" name=\"no_note\" value=\"1\"/"
+"> <input type=\"hidden\" name=\"return\" value=\"https://tails.net/donate/"
+"thanks/\" class=\"return-url\"/> <input type=\"hidden\" name=\"cancel_return"
+"\" value=\"https://tails.net/donate/canceled/\" class=\"return-url\"/> "
+"<input type=\"hidden\" name=\"lc\" value=\"US\"/> <input type=\"hidden\" "
+"name=\"src\" value=\"1\"/> <input type=\"hidden\" name=\"p3\" value=\"1\"/> "
+"<label for=\"sub5\"><input type=\"radio\" name=\"a3\" value=\"5\" id=\"sub5\""
+" checked=\"checked\"/>$5</label> <label for=\"sub10\"><input type=\"radio\" "
+"name=\"a3\" value=\"10\" id=\"sub10\"/>$10</label> <label for=\"sub25\""
+"><input type=\"radio\" name=\"a3\" value=\"25\" id=\"sub25\"/>$25</label> "
+"<label for=\"sub50\"><input type=\"radio\" name=\"a3\" value=\"50\" id="
+"\"sub50\"/>$50</label>"
 
 #. type: Content of: <div><div><div><div><form>
-#, fuzzy
-#| msgid ""
-#| "<input type=\"radio\" name=\"t3\" value=\"M\" id=\"sub_m\" "
-#| "checked=\"checked\"/><label for=\"sub_m\">Monthly</label> <input "
-#| "type=\"radio\" name=\"t3\" value=\"Y\" id=\"sub_y\"/><label "
-#| "for=\"sub_y\">Yearly</label>"
 msgid ""
 "<label for=\"sub100\"><input type=\"radio\" name=\"a3\" value=\"100\" "
 "id=\"sub100\"/>$100</label> <label for=\"sub150\"><input type=\"radio\" "
@@ -488,28 +455,21 @@ msgid ""
 "for=\"sub500\"><input type=\"radio\" name=\"a3\" value=\"500\" id=\"sub500\"/"
 ">$200</label>"
 msgstr ""
-"<input type=\"radio\" name=\"t3\" value=\"M\" id=\"sub_m\" "
-"checked=\"checked\"/><label for=\"sub_m\">Monatlich</label> <input "
-"type=\"radio\" name=\"t3\" value=\"Y\" id=\"sub_y\"/><label "
-"for=\"sub_y\">Jährlich</label>"
+"<label for=\"sub100\"><input type=\"radio\" name=\"a3\" value=\"100\" id="
+"\"sub100\"/>$100</label> <label for=\"sub150\"><input type=\"radio\" name="
+"\"a3\" value=\"150\" id=\"sub150\"/>$150</label> <label for=\"sub500\""
+"><input type=\"radio\" name=\"a3\" value=\"500\" id=\"sub500\"/>$200</label>"
 
 #. type: Content of: <div><div><div><div><form>
-#, fuzzy
-#| msgid ""
-#| "<input type=\"radio\" name=\"t3\" value=\"M\" id=\"sub_m\" "
-#| "checked=\"checked\"/><label for=\"sub_m\">Monthly</label> <input "
-#| "type=\"radio\" name=\"t3\" value=\"Y\" id=\"sub_y\"/><label "
-#| "for=\"sub_y\">Yearly</label>"
 msgid ""
 "<label for=\"sub_m\"><input type=\"radio\" name=\"t3\" value=\"M\" "
 "id=\"sub_m\" checked=\"checked\"/>Monthly</label> <label "
 "for=\"sub_y\"><input type=\"radio\" name=\"t3\" value=\"Y\" id=\"sub_y\"/"
 ">Yearly</label>"
 msgstr ""
-"<input type=\"radio\" name=\"t3\" value=\"M\" id=\"sub_m\" "
-"checked=\"checked\"/><label for=\"sub_m\">Monatlich</label> <input "
-"type=\"radio\" name=\"t3\" value=\"Y\" id=\"sub_y\"/><label "
-"for=\"sub_y\">Jährlich</label>"
+"<label for=\"sub_m\"><input type=\"radio\" name=\"t3\" value=\"M\" id=\"sub_m"
+"\" checked=\"checked\"/>Monatlich</label> <label for=\"sub_y\"><input type="
+"\"radio\" name=\"t3\" value=\"Y\" id=\"sub_y\"/>Jährlich</label>"
 
 #. type: Content of: <div><div><div><div><form>
 msgid ""
@@ -518,50 +478,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <div><div><div><div><form>
-#, fuzzy
-#| msgid "<input type=\"submit\" value=\"Donate\"/>"
 msgid "<input type=\"submit\" value=\"Donate (recurring)\"/>"
-msgstr "<input type=\"submit\" value=\"Spenden\"/>"
+msgstr "<input type=\"submit\" value=\"Spenden (wiederkehrend)\"/>"
 
 #. type: Content of: <div><div><div><div><h4>
 msgid "One-time donation"
 msgstr "Einmalige Spende"
 
 #. type: Content of: <div><div><div><div><p>
-#, fuzzy
-#| msgid ""
-#| "Monthly and yearly donations require a [[!img paypal-inline.png "
-#| "link=\"no\" class=\"paypal-inline\" alt=\"PayPal\"]] account."
 msgid ""
 "Does not require a [[!img paypal-inline.png link=\"no\" class=\"paypal-"
 "inline\" alt=\"PayPal\"]] account."
 msgstr ""
-"Monatliche und jährliche Spenden benötigen ein [[!img paypal-inline.png "
-"link=\"no\" class=\"paypal-inline\" alt=\"PayPal\"]]-Konto."
+"Benötigen kein [[!img paypal-inline.png link=\"no\" class=\"paypal-inline\" "
+"alt=\"PayPal\"]]-Konto."
 
 #.  Note for translators: adapt the URLs to return to the page in your language. 
 #.  Note for translators: adapt the value of 'lc' to your language. 
 #. type: Content of: <div><div><div><div><form>
-#, fuzzy
-#| msgid ""
-#| "<input type=\"hidden\" name=\"cmd\" value=\"_donations\"/> <input "
-#| "type=\"hidden\" name='business' value=\"tailsriseuplabs@riseup.net\"/> "
-#| "<input type=\"hidden\" name=\"currency_code\" value=\"USD\" "
-#| "id=\"currency_code\"/> <input type=\"hidden\" name=\"item_name\" "
-#| "value=\"Donation to Tails\"/> <input type=\"hidden\" name=\"no_note\" "
-#| "value=\"1\"/> <input type=\"hidden\" name=\"return\" class=\"return-url\" "
-#| "value=\"https://tails.boum.org/donate/thanks\"/> <input type=\"hidden\" "
-#| "name=\"cancel_return\" class=\"return-url\" value=\"https://tails.boum."
-#| "org/donate/canceled\"/> <input name=\"lc\" type=\"hidden\" value=\"US\"/> "
-#| "<input type=\"radio\" name=\"amount\" value=\"5\" id=\"pp_5\" "
-#| "checked=\"checked\"/><label for=\"pp_5\">$5</label> <input type=\"radio\" "
-#| "name=\"amount\" value=\"10\" id=\"pp_10\"/><label for=\"pp_10\">$10</"
-#| "label> <input type=\"radio\" name=\"amount\" value=\"20\" id=\"pp_20\"/"
-#| "><label for=\"pp_20\">$20</label> <input type=\"radio\" name=\"amount\" "
-#| "value=\"50\" id=\"pp_50\"/><label for=\"pp_50\">$50</label> <input "
-#| "type=\"radio\" name=\"amount\" value=\"100\" id=\"pp_100\"/><label "
-#| "for=\"pp_100\">$100</label> <input type=\"radio\" name=\"amount\" "
-#| "value=\"\" id=\"pp_cust\"/><label for=\"pp_cust\">Custom amount</label>"
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_donations\"/> <input "
 "type=\"hidden\" name='business' value=\"tailsriseuplabs@riseup.net\"/> "
@@ -579,32 +513,22 @@ msgid ""
 "id=\"pp_25\"/>$25</label> <label for=\"pp_50\"><input type=\"radio\" "
 "name=\"amount\" value=\"50\" id=\"pp_50\"/>$50</label>"
 msgstr ""
-"<input type=\"hidden\" name=\"cmd\" value=\"_donations\"/> <input "
-"type=\"hidden\" name='business' value=\"tailsriseuplabs@riseup.net\"/> "
-"<input type=\"hidden\" name=\"currency_code\" value=\"USD\" "
-"id=\"currency_code\"/> <input type=\"hidden\" name=\"item_name\" "
-"value=\"Donation to Tails\"/> <input type=\"hidden\" name=\"no_note\" "
-"value=\"1\"/> <input type=\"hidden\" name=\"return\" class=\"return-url\" "
-"value=\"https://tails.boum.org/donate/thanks/index.de.html\"/> <input "
-"type=\"hidden\" name=\"cancel_return\" class=\"return-url\" value=\"https://"
-"tails.boum.org/donate/canceled/index.de.html\"/> <input name=\"lc\" "
-"type=\"hidden\" value=\"DE\"/> <input type=\"radio\" name=\"amount\" "
-"value=\"5\" id=\"pp_5\" checked=\"checked\"/><label for=\"pp_5\">$5</label> "
-"<input type=\"radio\" name=\"amount\" value=\"10\" id=\"pp_10\"/><label "
-"for=\"pp_10\">$10</label> <input type=\"radio\" name=\"amount\" value=\"20\" "
-"id=\"pp_20\"/><label for=\"pp_20\">$20</label> <input type=\"radio\" "
-"name=\"amount\" value=\"50\" id=\"pp_50\"/><label for=\"pp_50\">$50</label> "
-"<input type=\"radio\" name=\"amount\" value=\"100\" id=\"pp_100\"/><label "
-"for=\"pp_100\">$100</label> <input type=\"radio\" name=\"amount\" value=\"\" "
-"id=\"pp_cust\"/><label for=\"pp_cust\">Anderer Betrag</label>"
+"<input type=\"hidden\" name=\"cmd\" value=\"_donations\"/> <input type="
+"\"hidden\" name='business' value=\"tailsriseuplabs@riseup.net\"/> <input "
+"type=\"hidden\" name=\"currency_code\" value=\"USD\" id=\"currency_code\"/> "
+"<input type=\"hidden\" name=\"item_name\" value=\"Donation to Tails\"/> "
+"<input type=\"hidden\" name=\"no_note\" value=\"1\"/> <input type=\"hidden\" "
+"name=\"return\" value=\"https://tails.net/donate/thanks/\" class=\"return-"
+"url\"/> <input type=\"hidden\" name=\"cancel_return\" value=\"https://tails."
+"net/donate/canceled/\" class=\"return-url\"/> <input type=\"hidden\" name="
+"\"lc\" value=\"US\"/> <label for=\"pp_5\"><input type=\"radio\" name=\"amount"
+"\" value=\"5\" id=\"pp_5\" checked=\"checked\"/>$5</label> <label for=\"pp_10"
+"\"><input type=\"radio\" name=\"amount\" value=\"10\" id=\"pp_10\"/>$10</"
+"label> <label for=\"pp_25\"><input type=\"radio\" name=\"amount\" value=\"25"
+"\" id=\"pp_25\"/>$25</label> <label for=\"pp_50\"><input type=\"radio\" name="
+"\"amount\" value=\"50\" id=\"pp_50\"/>$50</label>"
 
 #. type: Content of: <div><div><div><div><form>
-#, fuzzy
-#| msgid ""
-#| "<input type=\"radio\" name=\"t3\" value=\"M\" id=\"sub_m\" "
-#| "checked=\"checked\"/><label for=\"sub_m\">Monthly</label> <input "
-#| "type=\"radio\" name=\"t3\" value=\"Y\" id=\"sub_y\"/><label "
-#| "for=\"sub_y\">Yearly</label>"
 msgid ""
 "<label for=\"pp_100\"><input type=\"radio\" name=\"amount\" value=\"100\" "
 "id=\"pp_100\"/>$100</label> <label for=\"pp_150\"><input type=\"radio\" "
@@ -613,16 +537,16 @@ msgid ""
 "id=\"pp_200\"/>$200</label> <label for=\"pp_cust\"><input type=\"radio\" "
 "name=\"amount\" value=\"\" id=\"pp_cust\"/>Custom amount</label>"
 msgstr ""
-"<input type=\"radio\" name=\"t3\" value=\"M\" id=\"sub_m\" "
-"checked=\"checked\"/><label for=\"sub_m\">Monatlich</label> <input "
-"type=\"radio\" name=\"t3\" value=\"Y\" id=\"sub_y\"/><label "
-"for=\"sub_y\">Jährlich</label>"
+"<label for=\"pp_100\"><input type=\"radio\" name=\"amount\" value=\"100\" id="
+"\"pp_100\"/>$100</label> <label for=\"pp_150\"><input type=\"radio\" name="
+"\"amount\" value=\"150\" id=\"pp_150\"/>$150</label> <label for=\"pp_200\""
+"><input type=\"radio\" name=\"amount\" value=\"200\" id=\"pp_200\"/>$200</"
+"label> <label for=\"pp_cust\"><input type=\"radio\" name=\"amount\" value=\""
+"\" id=\"pp_cust\"/>Betrag festlegen</label>"
 
 #. type: Content of: <div><div><div><div><form>
-#, fuzzy
-#| msgid "<input type=\"submit\" value=\"Donate\"/>"
 msgid "<input type=\"submit\" value=\"Donate (one-time)\"/>"
-msgstr "<input type=\"submit\" value=\"Spenden\"/>"
+msgstr "<input type=\"submit\" value=\"Spenden (einmalig)\"/>"
 
 #. type: Content of: <div><div><div><div><p>
 msgid ""
@@ -640,22 +564,19 @@ msgstr ""
 
 #. type: Content of: <div><div><h4>
 msgid "Become a sponsor"
-msgstr ""
+msgstr "Werden Sie Sponsor"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "All donations, grants, and awards of more than $1&#8239;000 appear in our "
 "[[list of sponsors|sponsors]]."
 msgstr ""
+"Alle Spenden, Zuschüsse und Auszeichnungen von mehr als 10.000 US-Dollar "
+"werden in unserer [[Sponsorenliste|sponsors]] veröffentlicht."
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid ""
-#| "Meet our [[partners|partners]] or [[become a partner|partners/become]]!"
 msgid "Come talk to us and [[become a sponsor|sponsors/become]] yourself!"
-msgstr ""
-"Lerne unsere [[Partner|partners]] kennen oder [[werden selbst ein Partner|"
-"partners/become]]!"
+msgstr "Sprechen Sie uns an und [[werden Sie Sponsor|partners/become]]!"
 
 #. type: Content of: <div><div><div><h3>
 msgid "Other ways to donate"
@@ -666,17 +587,14 @@ msgid "Bitcoin"
 msgstr "Bitcoin"
 
 #. type: Content of: <div><div><div><div><div><p>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"bitcoin:1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2\">[[!img "
-#| "bitcoin-1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2.png link=\"no\"]]</a>"
 msgid ""
 "<a href=\"bitcoin:1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2\">[[!img "
 "bitcoin-1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2.png link=\"no\" "
 "alt=\"bitcoin:1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2\"]]</a>"
 msgstr ""
-"<a href=\"bitcoin:1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2\">[[!img "
-"bitcoin-1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2.png link=\"no\"]]</a>"
+"<a href=\"bitcoin:1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2\">[[!img bitcoin-"
+"1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2.png link=\"no\" alt=\"bitcoin:"
+"1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2\"]]</a>"
 
 #. type: Content of: <div><div><div><div><div><p>
 msgid "<strong>1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</strong>"
@@ -688,14 +606,17 @@ msgid ""
 "bitcoin-bc1qjg53lww9jrm506dj0g0szmk4pxt6f55x8dncuv.png link=\"no\" "
 "alt=\"bitcoin:bc1qjg53lww9jrm506dj0g0szmk4pxt6f55x8dncuv\"]]</a>"
 msgstr ""
+"<a href=\"bitcoin:bc1qjg53lww9jrm506dj0g0szmk4pxt6f55x8dncuv\">[[!img "
+"bitcoin-bc1qjg53lww9jrm506dj0g0szmk4pxt6f55x8dncuv.png link=\"no\" alt="
+"\"bitcoin:bc1qjg53lww9jrm506dj0g0szmk4pxt6f55x8dncuv\"]]</a>"
 
 #. type: Content of: <div><div><div><div><div><p>
 msgid "<strong>bc1qjg53lww9jrm506dj0g0szmk4pxt6f55x8dncuv</strong>"
-msgstr ""
+msgstr "<strong>bc1qjg53lww9jrm506dj0g0szmk4pxt6f55x8dncuv</strong>"
 
 #. type: Content of: <div><div><div><div><h4>
 msgid "Monero"
-msgstr ""
+msgstr "Monero"
 
 #. type: Content of: <div><div><div><div><p>
 msgid ""
@@ -707,7 +628,7 @@ msgstr ""
 
 #. type: Content of: <div><div><div><div><h4>
 msgid "Ethereum"
-msgstr ""
+msgstr "Ethereum"
 
 #. type: Content of: <div><div><div><div><p>
 msgid "<strong>0xD6A73051933ab97C38cEFf2abB2f9E06F3a3ed78</strong>"
@@ -718,20 +639,20 @@ msgid ""
 "<a id=\"other-cryptos\"></a> [[!toggle id=\"other-cryptos\" text=\"Other "
 "cryptocurrencies\"]] [[!toggleable id=\"other-cryptos\" text=\"\"\""
 msgstr ""
+"<a id=\"other-cryptos\"></a> [[!toggle id=\"other-cryptos\" text=\"Andere "
+"Cryptowährungen\"]] [[!toggleable id=\"other-cryptos\" text=\"\"\""
 
 #. type: Content of: <div><div><div><div><h4>
-#, fuzzy
-#| msgid "Bitcoin"
 msgid "Bitcoin Cash"
-msgstr "Bitcoin"
+msgstr "Bitcoin Cash"
 
 #. type: Content of: <div><div><div><div><p>
 msgid "<strong>qrzav77wkhd942nyqvya34mya3fqxzx90ypjge0njh</strong>"
-msgstr ""
+msgstr "<strong>qrzav77wkhd942nyqvya34mya3fqxzx90ypjge0njh</strong>"
 
 #. type: Content of: <div><div><div><div><h4>
 msgid "Ethereum Classic"
-msgstr ""
+msgstr "Ethereum Classic"
 
 #. type: Content of: <div><div><div><div><p>
 msgid "<strong>0x86359F8b44188c105E198DdA3c0421AC60729195</strong>"
@@ -751,12 +672,17 @@ msgid ""
 "work, installing the software in a secure place, monitoring their value and "
 "trading them, etc."
 msgstr ""
+"Die Unterstützung weiterer Kryptowährungen bedeutet mehr Arbeit für uns: Wir "
+"müssen lernen, wie sie funktionieren, die Software an einem sicheren Ort "
+"installieren, ihren Wert überwachen und sie handeln, usw."
 
 #. type: Content of: <div><div><div><div><p>
 msgid ""
 "To make a good use of our time, we focus on the cryptocurrencies that are "
 "the easiest for us to accept and the most popular."
 msgstr ""
+"Um unsere Zeit gut zu nutzen, konzentrieren wir uns auf Kryptowährungen, die "
+"für uns am einfachsten zu akzeptieren und am beliebtesten sind."
 
 #. type: Content of: <div><div><div><div><p>
 msgid ""
@@ -765,55 +691,53 @@ msgid ""
 "other cryptocurrencies gain real popularity before spending more time on "
 "them."
 msgstr ""
+"Bisher machen Kryptowährungen außer Bitcoin, Ethereum und Monero weniger als "
+"1% unserer Kryptowährungsspenden aus. Wir wollen, dass andere "
+"Kryptowährungen erst echte Popularität erlangen, bevor wir mehr Zeit für sie "
+"aufwenden."
 
 #. type: Content of: <div><div><div><div><h4>
-#, fuzzy
-#| msgid "US check"
 msgid "Cash and US checks"
-msgstr "US Scheck"
+msgstr "Bar und US Schecks"
 
 #. type: Content of: <div><div><div><div><p>
 msgid "You can send us cash in any currency and US checks by post:"
-msgstr ""
+msgstr "Sie können uns Bargeld in jeder Währung und US-Schecks per Post senden:"
 
 #. type: Content of: <div><div><div><div><p>
 msgid "Riseup Labs"
 msgstr "Riseup Labs"
 
 #. type: Content of: <div><div><div><div><p>
-#, fuzzy
-#| msgid "PO Box 4282"
 msgid "PO Box 3027"
-msgstr "PO Box 4282"
+msgstr "PO Box 3027"
 
 #. type: Content of: <div><div><div><div><p>
-#, fuzzy
-#| msgid "Seattle, WA 98194"
 msgid "Lacey, WA 98509"
-msgstr "Seattle, WA 98194"
+msgstr "Lacey, WA 98509"
 
 #. type: Content of: <div><div><div><div><p>
 msgid "Please add a note that your donation is for Tails."
-msgstr ""
+msgstr "Bitte geben Sie bei Ihrer Spende an, dass diese für Tails ist."
 
 #. type: Content of: <div><div><div><div><p>
 msgid "Checks should be made payable to Riseup Labs."
-msgstr ""
+msgstr "Schecks sollten an Riseup Labs ausgestellt werden."
 
 #. type: Content of: <div><div><h4>
 msgid "Bank transfer"
 msgstr "Banküberweisung"
 
 #. type: Content of: <div><div><h5>
-#, fuzzy
-#| msgid "German bank account (preferred):"
 msgid "German bank account (preferred)"
-msgstr "Deutsches Bankkonto (bevorzugt):"
+msgstr "Deutsches Bankkonto (bevorzugt)"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "These instructions also work with <a href=\"https://wise.com/\">Wise</a>."
 msgstr ""
+"Diese Anweisungen funktionieren auch mit <a href=\"https://wise.com/\""
+">Wise</a>."
 
 #. type: Content of: <div><div><div><p>
 msgid "<em>Account holder</em>: Center for Cultivation of Technology gGmbH"
@@ -836,13 +760,8 @@ msgid "<em>Bank address</em>: Christstrasse 9, 44789, Bochum, Germany"
 msgstr "<em>Adresse der Bank</em>: Christstrasse 9, 44789, Bochum, Germany"
 
 #. type: Content of: <div><div><div><p>
-#, fuzzy
-#| msgid ""
-#| "<strong>Please make sure to mention the purpose of transfer.</strong>"
 msgid "Please make sure to mention the purpose of transfer:"
-msgstr ""
-"<strong>Bitte achte darauf, bei der Überweisung den Verwendungszweck "
-"anzugeben.</strong>"
+msgstr "Bitte achte darauf, bei der Überweisung den Verwendungszweck anzugeben:"
 
 #. type: Content of: <div><div><div><p>
 msgid "<em>Purpose of transfer</em>: TAILS-R43NGFR9"
@@ -868,84 +787,94 @@ msgstr ""
 
 #. type: Content of: <div><div><h4>
 msgid "Corporate matching donation programs"
-msgstr ""
+msgstr "Unternehmensbezogene Spendenmatching-Programme"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "Search for <strong>Riseup Labs</strong> and donate to <strong>Tails via "
 "Riseup Labs</strong>."
 msgstr ""
+"Suchen Sie nach <strong>Riseup Labs</strong> und spenden Sie an "
+"<strong>Tails über Riseup Labs</strong>."
 
 #. type: Content of: <div><div><p>
 msgid ""
 "If you cannot specify that your donation to Riseup Labs is for Tails, please "
-"let us know so we can attribute your donation to Tails specifically.  Riseup "
-"Labs is a 501(c)(3) nonprofit in the USA."
+"let us know so we can attribute your donation to Tails specifically.  "
+"Liberate (aka Riseup Labs) is a 501(c)(3) nonprofit in the USA."
 msgstr ""
+"Wenn Sie nicht angeben können, dass Ihre Spende an Riseup Labs für Tails "
+"ist, teilen Sie uns dies bitte mit, damit wir Ihre Spende Tails spezifisch "
+"zuordnen können. Liberate (auch bekannt als Riseup Labs) ist eine 501(c)(3) "
+"gemeinnützige Organisation in den USA."
 
 #. type: Content of: <div><div><h4>
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "If you have any question or problem regarding your donation, our fundraising "
 "team is here to help you:"
 msgstr ""
+"Wenn Sie Fragen oder Probleme mit Ihrer Spende haben, steht Ihnen unser "
+"Fundraising-Team gerne zur Verfügung:"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "<a href=\"mailto:tails-fundraising@boum.org\">tails-fundraising@boum.org</a> "
 "([[OpenPGP key|tails-fundraising.key]])"
 msgstr ""
+"<a href=\"mailto:tails-fundraising@boum.org\">tails-fundraising@boum.org</a> "
+"([[OpenPGP key|tails-fundraising.key]])"
 
 #. type: Content of: <div><div><h3>
 msgid "Where our money comes from"
-msgstr ""
+msgstr "Woher unser Geld kommt"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Passionate people like you"
-msgstr ""
+msgstr "Menschen mit Herzblut wie Sie"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(69%)"
-msgstr ""
+msgstr "(69%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Entities related to the US government"
-msgstr ""
+msgstr "US-Regierungsnahe Organisationen"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(20%)"
-msgstr ""
+msgstr "(20%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li>
 msgid "like the US Department of State and Internews"
-msgstr ""
+msgstr "wie das US-Außenministerium und Internews"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Foundations & NGOs"
-msgstr ""
+msgstr "Stiftungen und Nichtregierungsorganisationen"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(6%)"
-msgstr ""
+msgstr "(6%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li>
 msgid "like Tor and RIPE NCC"
-msgstr ""
+msgstr "wie Tor und RIPE NCC"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Private companies"
-msgstr ""
+msgstr "Privatunternehmen"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(5%)"
-msgstr ""
+msgstr "(5%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li>
 msgid "like ProtonMail and ThinkPenguin"
-msgstr ""
+msgstr "wie ProtonMail und ThinkPenguin"
 
 #. type: Content of: <div><div><h3>
 msgid "How we spend our money"
@@ -953,11 +882,11 @@ msgstr "Wie wir unser Geld verwenden"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Releases, maintenance, and infrastructure"
-msgstr ""
+msgstr "Veröffentlichungen, Wartung und Infrastruktur"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(38%)"
-msgstr ""
+msgstr "(38%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><p>
 msgid ""
@@ -966,14 +895,18 @@ msgid ""
 "versions of the underlying software, keeping our website and development "
 "infrastructure secure and reliable, etc."
 msgstr ""
+"Tails ist eine endlose Arbeit an Updates und Wartung: Jede 4. Woche wird "
+"eine neue Version veröffentlicht, um Sicherheitslücken zu schließen, sich an "
+"neue Versionen der zugrundeliegenden Software anzupassen und unsere Website "
+"und Entwicklungsinfrastruktur sicher und zuverlässig zu halten, usw."
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "New features and major improvements"
-msgstr ""
+msgstr "Neue Funktionen und wesentliche Verbesserungen"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(26%)"
-msgstr ""
+msgstr "(26%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><p>
 msgid ""
@@ -981,14 +914,17 @@ msgid ""
 "issues in the <i>Tor Connection</i> assistant, and redesigned the "
 "<i>Persistent Storage</i>."
 msgstr ""
+"Im Jahr 2022 haben wir die Installationsanweisungen umstrukturiert, viele "
+"Usability-Probleme im <i>Tor-Verbindungsassistenten</i> behoben und den "
+"<i>Persistent Storage</i> neu gestaltet."
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "User experience, documentation, and support"
-msgstr ""
+msgstr "Benutzererfahrung, Dokumentation und Support"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(19%)"
-msgstr ""
+msgstr "(19%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><p>
 msgid ""
@@ -996,20 +932,27 @@ msgid ""
 "use it. We work hard to understand our users, make it easy to use Tails, and "
 "help them make informed security decisions."
 msgstr ""
+"Selbst die sicherste Software ist wertlos, wenn die Menschen, die sie "
+"brauchen, sie nicht benutzen können. Wir arbeiten hart daran, unsere Nutzer "
+"zu verstehen, Tails einfach zu benutzen zu machen und ihnen zu helfen, "
+"fundierte Sicherheitsentscheidungen zu treffen."
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "Administration and fundraising"
-msgstr ""
+msgstr "Verwaltung und Mittelbeschaffung"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
 msgid "(17%)"
-msgstr ""
+msgstr "(17%)"
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><p>
 msgid ""
 "We make the most of the money that we receive because we prefer spending our "
 "time improving Tails for our users."
 msgstr ""
+"Wir nutzen das Geld, das wir erhalten, möglichst effektiv, weil wir es "
+"vorziehen, unsere Zeit damit zu verbringen, Tails für unsere Nutzer zu "
+"verbessern."
 
 #. type: Content of: <div><div><h3>
 msgid "Recommended by"

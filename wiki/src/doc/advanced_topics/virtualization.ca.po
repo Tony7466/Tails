@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-05-13 10:54+0200\n"
-"PO-Revision-Date: 2023-10-22 09:27+0000\n"
+"PO-Revision-Date: 2023-11-12 20:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Running Tails in a virtual machine\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Executar Tails en una màquina virtual\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -34,6 +34,9 @@ msgid ""
 "your computer every time. This is possible using [[!wikipedia "
 "Virtual_machine desc=\"virtual machines\"]]."
 msgstr ""
+"De vegades és convenient poder executar Tails sense haver de reiniciar "
+"l'ordinador cada vegada. Això és possible utilitzant [[!wikipedia "
+"Virtual_machine desc=\"màquines virtuals\"]]."
 
 #. type: Plain text
 msgid ""
@@ -42,6 +45,10 @@ msgid ""
 "computer and its operating system, called a *guest*, which appears in a "
 "window on the *host* operating system."
 msgstr ""
+"Amb les màquines virtuals, és possible executar Tails dins d'un sistema "
+"operatiu *amfitrió* (Linux, Windows o macOS). Una màquina virtual emula un "
+"ordinador real i el seu sistema operatiu, anomenat *convidat*, que apareix "
+"en una finestra del sistema operatiu *amfitrió*."
 
 #. type: Plain text
 msgid ""
@@ -49,12 +56,18 @@ msgid ""
 "from your usual operating system, and you can use both Tails and your usual "
 "operating system in parallel, without the need to restart the computer."
 msgstr ""
+"Quan executeu Tails en una màquina virtual, podeu utilitzar la majoria de "
+"les funcions de Tails des del vostre sistema operatiu habitual, i podeu "
+"utilitzar tant Tails com el vostre sistema operatiu habitual en paral·lel, "
+"sense necessitat de reiniciar l'ordinador."
 
 #. type: Plain text
 msgid ""
 "This is how Tails looks when run in a virtual machine on Debian using *GNOME "
 "Boxes*:"
 msgstr ""
+"Així es veu Tails quan s'executa en una màquina virtual a Debian mitjançant *"
+"Màquines de GNOME*:"
 
 #. type: Plain text
 #, no-wrap
@@ -72,6 +85,8 @@ msgid ""
 "<p>We do not currently provide a solution for running a virtual machine\n"
 "inside a Tails host.</p>\n"
 msgstr ""
+"<p>Actualment no oferim cap solució per executar una màquina virtual\n"
+"dins d'un amfitrió de Tails.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -81,12 +96,12 @@ msgstr "</div>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"security\"></a>\n"
-msgstr ""
+msgstr "<a id=\"security\"></a>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Security considerations"
-msgstr ""
+msgstr "Consideracions de seguretat"
 
 #. type: Plain text
 #, no-wrap
@@ -99,17 +114,24 @@ msgid ""
 "Depending on the host operating system and your security needs, running "
 "Tails in a virtual machine might be dangerous."
 msgstr ""
+"L'execució de Tails dins d'una màquina virtual té diverses implicacions de "
+"seguretat. Depenent del sistema operatiu amfitrió i de les vostres "
+"necessitats de seguretat, executar Tails en una màquina virtual pot ser "
+"perillós."
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"trustworthy\"></a>\n"
-msgstr ""
+msgstr "<a id=\"trustworthy\"></a>\n"
 
 #. type: Bullet: '  - '
 msgid ""
 "Both the host operating system and the [[virtualization software|"
 "virtualization#software]] are able to monitor what you are doing in Tails."
 msgstr ""
+"Tant el sistema operatiu amfitrió com el [[programari de "
+"virtualització|virtualization#software]] són capaços de supervisar el que "
+"esteu fent a Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -118,6 +140,10 @@ msgid ""
 "    keylogger or other malware, then it can break the security features\n"
 "    of Tails.\n"
 msgstr ""
+"    Si el sistema operatiu amfitrió està compromès amb un programari\n"
+"    enregistrador de tecles o un altre programari maliciós, llavors podria "
+"trencar les funcions de seguretat\n"
+"    de Tails.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -130,16 +156,19 @@ msgid ""
 "    Only run Tails in a virtual machine if both the host operating\n"
 "    system and the virtualization software are trustworthy.\n"
 msgstr ""
+"    Només executeu Tails en una màquina virtual si tant el sistema operatiu "
+"amfitrió\n"
+"    com el programari de virtualització són fiables.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "    </div>\n"
-msgstr ""
+msgstr "    </div>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"traces\"></a>\n"
-msgstr ""
+msgstr "<a id=\"traces\"></a>\n"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -147,6 +176,9 @@ msgid ""
 "For example, host operating systems usually use swapping (or *paging*) which "
 "copies part of the RAM to the hard disk."
 msgstr ""
+"És probable que es deixin rastres de la vostra sessió de Tails al disc dur "
+"local. Per exemple, els sistemes operatius amfitrió solen utilitzar "
+"l'intercanvi (o *paging*) que copia part de la memòria RAM al disc dur."
 
 #. type: Plain text
 #, no-wrap
@@ -154,11 +186,16 @@ msgid ""
 "    Only run Tails in a virtual machine if leaving traces on the hard disk\n"
 "    is not a concern for you.\n"
 msgstr ""
+"    Només executeu Tails en una màquina virtual si deixar rastres al disc "
+"dur\n"
+"    no és una preocupació.\n"
 
 #. type: Plain text
 msgid ""
 "This is why Tails warns you when it is running inside a virtual machine."
 msgstr ""
+"És per això que Tails us avisa quan s'està executant dins d'una màquina "
+"virtual."
 
 #. type: Plain text
 msgid ""
@@ -168,6 +205,11 @@ msgid ""
 "anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails "
 "when run in a virtual machine."
 msgstr ""
+"La màquina virtual Tails no modifica el comportament del sistema operatiu "
+"amfitrió i el trànsit de xarxa de l'amfitrió no s'anonimitza. L'adreça MAC "
+"de l'ordinador no es modifica amb la funció [[Anonimat de l'adreça MAC|"
+"first_steps/welcome_screen/mac_spoofing]] de Tails quan s'executa en una "
+"màquina virtual."
 
 #. type: Plain text
 #, no-wrap
@@ -177,7 +219,7 @@ msgstr "<a id=\"software\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Virtualization solutions"
-msgstr ""
+msgstr "Solucions de virtualització"
 
 #. type: Plain text
 msgid ""
@@ -185,6 +227,9 @@ msgid ""
 "software installed on the host operating system.  Different virtualization "
 "software exists for Linux, Windows, and macOS."
 msgstr ""
+"Per executar Tails dins d'una màquina virtual, cal que tingueu instal·lat el "
+"programari de virtualització al sistema operatiu amfitrió. Existeixen "
+"diferents programes de virtualització per a Linux, Windows i macOS."
 
 #. type: Plain text
 #, no-wrap
@@ -194,6 +239,12 @@ msgid ""
 "[[previous warning|virtualization#trustworthy]] and our statement about\n"
 "[[free software and public scrutiny|about/trust#free_software]].</p>\n"
 msgstr ""
+"<p>La llista següent inclou només programari lliure, ja que creiem que\n"
+"aquesta és una condició necessària perquè el programari sigui fiable. "
+"Consulteu\n"
+"l'[[advertència anterior|virtualization#trustworthy]] i la nostra declaració "
+"sobre el\n"
+"[[programari lliure i el control públic|about/trust#free_software]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -202,6 +253,10 @@ msgid ""
 "class=\"application\">VMWare</span> but are not listed here on\n"
 "purpose.</p>\n"
 msgstr ""
+"<p>Existen solucions de programari de virtualització propietàries com ara <"
+"span\n"
+"class=\"application\">VMWare</span> però no s'enumeren aquí a\n"
+"propòsit.</p>\n"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -209,40 +264,50 @@ msgid ""
 "software version does not include support for USB devices and does not allow "
 "use of a Persistent Storage."
 msgstr ""
+"**<em>VirtualBox</em>** està disponible a Linux, Windows i Mac. La seva "
+"versió de programari lliure no inclou suport per a dispositius USB i no "
+"permet l'ús d'un Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
 msgid "    [[See the corresponding documentation.|virtualbox]]\n"
-msgstr ""
+msgstr "    [[Vegeu la documentació corresponent.|virtualbox]]\n"
 
 #. type: Bullet: '  - '
 msgid ""
 "**<em>GNOME Boxes</em>** is available on Linux. It has a simple user "
 "interface but does not allow use of a Persistent Storage."
 msgstr ""
+"**<em>Màquines de GNOME</em>** està disponible a Linux. Té una interfície "
+"d'usuari senzilla però no permet l'ús d'un Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
 msgid "    [[See the corresponding documentation.|boxes]]\n"
-msgstr ""
+msgstr "    [[Veure la documentació corresponent.|boxes]]\n"
 
 #. type: Bullet: '  - '
 msgid ""
 "**<em>virt-manager</em>** is available on Linux. It has a more complex user "
 "interface and allows use of a Persistent Storage, either by:"
 msgstr ""
+"**<em>virt-manager</em>** està disponible a Linux. Té una interfície "
+"d'usuari més complexa i permet l'ús d'un Emmagatzematge Persistent, ja sigui "
+"per:"
 
 #. type: Bullet: '    - '
 msgid "Starting Tails from a USB stick."
-msgstr ""
+msgstr "Iniciar Tails des d'un llapis USB."
 
 #. type: Bullet: '    - '
 msgid ""
 "Creating a virtual USB storage volume saved as a single file on the host "
 "operating system."
 msgstr ""
+"Crear un volum d'emmagatzematge USB virtual desat com a fitxer únic al "
+"sistema operatiu amfitrió."
 
 #. type: Plain text
 #, no-wrap
 msgid "    [[See the corresponding documentation.|virt-manager]]\n"
-msgstr ""
+msgstr "    [[Vegeu la documentació corresponent.|virt-manager]]\n"

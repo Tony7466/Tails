@@ -1,6 +1,6 @@
-[[!meta  title="Tails report for June 2023"]]
-[[!meta  date="Thu, 13 Jul 2023 10:26:18 -0300"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!meta title="Tails report for June 2023"]]
+[[!meta date="Thu, 13 Jul 2023 10:26:18 -0300"]]
+[[!pagetemplate template="news.tmpl"]]
 
 [[!toc]]
 
@@ -26,7 +26,7 @@ Highlights
 Releases
 ========
 
-[Tails 5.14 was released on 16 June 2023](https://tails.boum.org/news/version_5.14/index.en.html).
+[[Tails 5.14 was released on 16 June 2023|news/version_5.14]]:
 
 - Tails 5.14 automatically converts your Persistent Storage to use LUKS2
   encryption with Argon2id. 

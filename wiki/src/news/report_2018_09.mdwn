@@ -186,8 +186,8 @@ Past events
 Translation
 ===========
 
-- Someone started [[translating our website in
-  Catalan|contribute/how/translate/team/ca]].
+- Someone started translating our website in
+  Catalan.
 
 ## All the website
 

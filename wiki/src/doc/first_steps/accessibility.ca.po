@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-10-20 12:26+0000\n"
+"PO-Revision-Date: 2023-11-03 18:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -29,26 +29,33 @@ msgid ""
 "with various impairments and special needs, and to interact with common "
 "assistive devices."
 msgstr ""
+"Tails i l'escriptori GNOME inclouen tecnologies d'assistència per ajudar els "
+"usuaris amb diversitats funcionals i necessitats especials i per interactuar "
+"amb els dispositius d'assistència habituals."
 
 #. type: Title =
 #, no-wrap
 msgid "Universal access menu"
-msgstr ""
+msgstr "Menú d'accés universal"
 
 #. type: Plain text
 msgid ""
 "You can activate most of these technologies from the universal access menu "
 "(the"
 msgstr ""
+"Podeu activar la majoria d'aquestes tecnologies des del menú d'accés "
+"universal (l'icona"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img lib/preferences-desktop-accessibility.png alt=\"Universal Access\" class=\"symbolic\" link=\"no\"]]\n"
 msgstr ""
+"[[!img lib/preferences-desktop-accessibility.png alt=\"Accés Universal\" "
+"class=\"symbolic\" link=\"no\"]]\n"
 
 #. type: Plain text
 msgid "icon which looks like a person) in the top bar:"
-msgstr ""
+msgstr "que sembla una persona) a la barra superior:"
 
 #. type: Plain text
 #, no-wrap
@@ -58,6 +65,12 @@ msgid ""
 "by default): High Contrast, Zoom, Large Text, Screen Reader, Screen Keyboard,\n"
 "Visual Alters, Sticky Keys, Slow Keys, Bounce Keys, and Mouse Keys\"]]\n"
 msgstr ""
+"[[!img desktop/accessibility.png link=\"no\"\n"
+"alt=\"Menú d'Accés Universal amb les següents opcions (desactivades\n"
+"per defecte): alt contrast, zoom, text gran, lector de pantalla, teclat de "
+"pantalla,\n"
+"canvis visuals, tecles adhesives, tecles lentes, tecles de rebot i tecles "
+"del ratolí\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -65,11 +78,14 @@ msgid ""
 "access documentation](https://help.gnome.org/users/gnome-help/stable/a11y."
 "html)."
 msgstr ""
+"Aquestes tecnologies es documenten amb més detall a la [documentació d'accés "
+"universal de GNOME](https://help.gnome.org/users/gnome-help/stable/a11y.html."
+"ca)."
 
 #. type: Title =
 #, no-wrap
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Dreceres de teclat"
 
 #. type: Plain text
 #, no-wrap
@@ -79,41 +95,53 @@ msgid ""
 "<tr><td>Turn zoom on or off</td><td>Alt+Super+8</td></tr>\n"
 "</table>\n"
 msgstr ""
+"<table>\n"
+"<tr><td>Activar o desactivar el lector de "
+"pantalla</td><td>Alt+Super+S</td></tr>\n"
+"<tr><td>Activar o desactivar el zoom</td><td>Alt+Super+8</td></tr>\n"
+"</table>\n"
 
 #. type: Plain text
 msgid "To access the universal access menu using the keyboard:"
-msgstr ""
+msgstr "Per accedir al menú d'accés universal mitjançant el teclat:"
 
 #. type: Bullet: '1. '
 msgid ""
 "Press <span class=\"keycap\">Ctrl+Alt+Tab</span> to move the keyboard focus "
 "to the top bar."
 msgstr ""
+"Premeu <span class=\"keycap\">Ctrl+Alt+Tab</span> per moure el focus del "
+"teclat a la barra superior."
 
 #. type: Bullet: '1. '
 msgid "Use the arrow keys on the keyboard to select the universal access menu."
 msgstr ""
+"Utilitzeu les tecles de fletxa del teclat per seleccionar el menú d'accés "
+"universal."
 
 #. type: Bullet: '1. '
 msgid "Press <span class=\"bold\">Enter</span> to open the menu."
-msgstr ""
+msgstr "Premeu <span class=\"bold\">Retorn</span> per obrir el menú."
 
 #. type: Bullet: '1. '
 msgid "Use the up and down arrow keys to select items in the menu."
 msgstr ""
+"Utilitzeu les tecles de fletxa amunt i avall per seleccionar els elements "
+"del menú."
 
 #. type: Bullet: '1. '
 msgid "Press <span class=\"bold\">Space</span> to toggle the selected item."
 msgstr ""
+"Premeu <span class=\"bold\">Espai</span> per canviar l'element seleccionat."
 
 #. type: Bullet: '1. '
 msgid "Press <span class=\"bold\">Esc</span> to close the menu."
-msgstr ""
+msgstr "Premeu <span class=\"bold\">Esc</span> per tancar el menú."
 
 #. type: Title =
 #, no-wrap
 msgid "Screen reader"
-msgstr ""
+msgstr "Lector de pantalla"
 
 #. type: Plain text
 #, no-wrap
@@ -121,6 +149,9 @@ msgid ""
 "To hear screen elements spoken to you, you can activate the\n"
 "<span class=\"guilabel\">Screen Reader</span> accessibility feature.\n"
 msgstr ""
+"Per escoltar els elements de la pantalla que us parlen, podeu activar\n"
+"la funció d'accessibilitat de <span class=\"guilabel\">Lector de "
+"pantalla</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -129,6 +160,10 @@ msgid ""
 "class=\"application\">Orca</span> Screen Reader\n"
 "documentation](https://help.gnome.org/users/orca/stable/).\n"
 msgstr ""
+"Per obtenir una documentació més detallada, consulteu el document oficial "
+"del lector de pantalla [<span\n"
+"class=\"application\">Orca</span>](https://help.gnome.org/users/orca/stable/"
+").\n"
 
 #. type: Plain text
 #, no-wrap
@@ -138,7 +173,7 @@ msgstr "<div class=\"bug\">\n"
 #. type: Plain text
 #, no-wrap
 msgid "<p>The screen reader takes around 10 seconds to start.</p>\n"
-msgstr ""
+msgstr "<p>El lector de pantalla triga uns 10 segons en arrencar.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -151,11 +186,14 @@ msgid ""
 "<p>The screen reader does not work with the <span class=\"application\">Unsafe\n"
 "Browser</span>.</p>\n"
 msgstr ""
+"<p>El lector de pantalla no funciona amb el <span class=\"application\">"
+"Navegador\n"
+"Insegur</span>.</p>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Screen keyboard"
-msgstr ""
+msgstr "Teclat de pantalla"
 
 #. type: Plain text
 #, no-wrap
@@ -163,6 +201,8 @@ msgid ""
 "If you prefer a pointing device over the keyboard, you can activate the\n"
 "<span class=\"guilabel\">Screen Keyboard</span> accessibility feature.\n"
 msgstr ""
+"Si preferiu un punter al teclat, podeu activar la funció d'accessibilitat\n"
+"del <span class=\"guilabel\">Teclat de pantalla</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -170,11 +210,17 @@ msgid ""
 "For more detailed documentation refer to the official\n"
 "[<span class=\"application\">GNOME</span> Screen Keyboard documentation](https://help.gnome.org/users/gnome-help/stable/keyboard-osk.html.en).\n"
 msgstr ""
+"Per obtenir una documentació més detallada, consulteu la documentació "
+"oficial del teclat de pantalla de\n"
+"[<span class=\"application\">GNOME</span>](https://help.gnome.org/users/"
+"gnome-help/stable/keyboard-osk.html.en) (en anglès).\n"
 
 #. type: Title =
 #, no-wrap
 msgid "<span class=\"application\">Dasher</span> graphical text entry application"
 msgstr ""
+"Aplicació d'introducció de text gràfic <span class=\"application\""
+">Dasher</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -184,6 +230,12 @@ msgid ""
 "class=\"application\">[Dasher](http://www.inference.phy.cam.ac.uk/dasher/)</span> graphical predictive text\n"
 "entry application.\n"
 msgstr ""
+"Si utilitzeu un ordinador amb una sola mà (amb joystick, pantalla tàctil,\n"
+"o el ratolí) o sense mans (amb el ratolí de cap o el rastrejador d'ulls), "
+"podeu utilitzar l'aplicació <span\n"
+"class=\"application\">[Dasher](http://www.inference.phy.cam.ac.uk/dasher/)</"
+"span> de text gràfic d'entrada\n"
+"predictiu.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -194,3 +246,8 @@ msgid ""
 "  <span class=\"guisubmenu\">Universal Access</span>&nbsp;▸\n"
 "  <span class=\"guimenuitem\">Dasher</span></span>.\n"
 msgstr ""
+"<span class=\"application\">Dasher</span> està disponible a\n"
+"<span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Accés universal</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Dasher</span></span>.\n"

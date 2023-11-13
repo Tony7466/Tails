@@ -1,13 +1,7 @@
-[[!meta title="Security"]]
+[[!meta title="Security advisories"]]
 [[!meta stylesheet="hide-breadcrumbs" rel="stylesheet" title=""]]
 
 [[!toc levels=3]]
-
-[[!inline pages="page(security/*) and !security/*/*
-and !security/fixed and !security/fixed.* and !security/fixed/*
-and !security/audits and !security/audits.* and !security/audits/*
-and currentlang()"
-actions=no archive=yes feedonly=yes show=10 sort="-meta(date) age -path"]]
 
 Since Tails is based on Debian, it takes advantage of all the work done by the
 Debian security team. As quoted from <https://www.debian.org/security/>:
@@ -29,17 +23,24 @@ Debian.
 
 [[!inline pages="page(security/*) and !security/*/*
 and !security/fixed and !security/fixed.* and !security/fixed/*
-and !security/audits and !security/audits.* and !security/audits/*
-and ! tagged(security/fixed) and currentlang()"
+and !tagged(security/fixed) and currentlang()"
 actions=no archive=yes feeds=no show=0 sort="-meta(date) age -path"]]
 
 # Fixed security vulnerabilities
 
-<!-- Keep in sync with security/fixed.mdwn -->
+[[!inline pages="page(security/*) and !security/*/* and tagged(security/fixed) and currentlang() and !security/Numerous_security_holes_in_* and !security/known_security_vulnerabilities_in_*"
+actions=no archive=yes feeds=no show=10 sort="-meta(date) age -path"]]
 
-[[!inline pages="page(security/*) and !security/*/* and tagged(security/fixed) and (currentlang() or security/Numerous_security_holes_in_* or security/known_security_vulnerabilities_in_*)"
-actions=no archive=yes feeds=no show=5 sort="-meta(date) age -path"]]
+## Other vulnerabilities solved in included applications
 
-# Security audits
+[[!inline pages="page(security/*) and !security/*/* and tagged(security/fixed) and (security/Numerous_security_holes_in_* or security/known_security_vulnerabilities_in_*)"
+actions=no archive=yes feeds=no show=10 sort="-meta(date) age -path"]]
 
-[[!inline pages="security/audits" raw="yes"]]
+<!-- Feed buttons used by config/chroot_local-includes/usr/local/bin/tails-security-check
+
+[[!inline pages="page(security/*) and !security/*/*
+and !security/fixed and !security/fixed.* and !security/fixed/*
+and currentlang()"
+actions=no archive=yes feedonly=yes show=10 sort="-meta(date) age -path"]]
+
+-->

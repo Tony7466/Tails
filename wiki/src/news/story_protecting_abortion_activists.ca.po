@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-20 12:27+0000\n"
+"PO-Revision-Date: 2023-11-05 00:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -22,6 +22,7 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Protecting abortion activists in Brazil\"]]\n"
 msgstr ""
+"[[!meta title=\"Protegint els activistes de l'avortament al Brasil\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,6 +43,8 @@ msgstr "[[!tag announce]]\n"
 #, no-wrap
 msgid "[[!img contribute/how/user_experience/interviews/gabriela.jpg link=\"no\" alt=\"Afro-Brazilian handmade jewelry that hides a Tails USB stick\"]]\n"
 msgstr ""
+"[[!img contribute/how/user_experience/interviews/gabriela.jpg link=\"no\" "
+"alt=\"Joieria artesanal afrobrasilera que amaga un llapis USB de Tails\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -49,12 +52,17 @@ msgid ""
 "people fighting for social change there. We trained 34 people on Tails: "
 "activists, journalists, feminists, and human rights defenders."
 msgstr ""
+"A l'agost, vam viatjar al Brasil per aprendre a millorar Tails per a moltes "
+"persones que hi lluiten pel canvi social. Vam formar 34 persones sobre Tails:"
+" activistes, periodistes, feministes i defensores dels drets humans."
 
 #. type: Plain text
 msgid ""
 "We also met Gabriela, a feminist hacker who has been training low-income "
 "women from the Bahia region on using Tails."
 msgstr ""
+"També vam conèixer la Gabriela, una hacker feminista que ha estat formant "
+"dones de baixos ingressos de la regió de Bahia sobre l'ús de Tails."
 
 #. type: Plain text
 msgid ""
@@ -62,6 +70,9 @@ msgid ""
 "privacy technology and presenting Tails as a *patuá*, a type of Brazilian "
 "protection amulet that hides the USB stick in jewelry."
 msgstr ""
+"Gabriela va presentar Tails a aquestes dones barrejant la cultura local i la "
+"tecnologia de privadesa i presentant Tails com una *patuá*, un tipus "
+"d'amulet de protecció brasiler que amaga el llapis USB a les joies."
 
 #. type: Plain text
 msgid ""
@@ -70,6 +81,10 @@ msgid ""
 "Tails is useful for them to work on reproductive rights but also to protect "
 "their personal data from intrusive boyfriends."
 msgstr ""
+"Aquestes dones no tenien ordinadors propis i feien servir els ordinadors a "
+"la feina, a la universitat o els ordinadors dels seus marits i parelles. "
+"Tails els és útil per treballar en els drets reproductius, però també per "
+"protegir les seves dades personals de les seves parelles intrusives."
 
 #. type: Plain text
 msgid ""
@@ -77,6 +92,9 @@ msgid ""
 "of privacy tools like Tails because a single mistake can compromise an "
 "entire organization and get them in trouble with the police."
 msgstr ""
+"Les dones que treballen en drets reproductius entenen molt fàcilment la "
+"importància de les eines de privadesa com Tails perquè un sol error pot "
+"comprometre tota una organització i posar-los en problemes amb la policia."
 
 #. type: Plain text
 msgid ""
@@ -85,12 +103,18 @@ msgid ""
 "their phones, but in their Tails amulet, and the police couldn't find any "
 "evidence about their work."
 msgstr ""
+"Algunes d'elles van tenir una redada polical a casa després de ser "
+"denunciades pel seu treball sobre l'avortament. Tota la informació sobre els "
+"seus pacients no era als seus telèfons, sinó a l'amulet de Tails, i la "
+"policia no va poder trobar cap prova sobre la seva feina."
 
 #. type: Plain text
 msgid ""
 "[[Read our full interview with Gabriela.|contribute/how/user_experience/"
 "interviews/gabriela]]"
 msgstr ""
+"[[Llegiu la nostra entrevista completa amb la Gabriela.|contribute/how/"
+"user_experience/interviews/gabriela]]"
 
 #. type: Plain text
 msgid ""
@@ -99,12 +123,18 @@ msgid ""
 "more reproductive rights activists who are already using Tails or want to "
 "learn how to use it."
 msgstr ""
+"Com que l'accés a l'avortament segur continua sent problemàtic a massa "
+"països del món, estem molt interessats a posar-nos en contacte amb més "
+"activistes dels drets reproductius que ja estan utilitzant Tails o volen "
+"aprendre a utilitzar-lo."
 
 #. type: Plain text
 #, no-wrap
 msgid "Get in touch with us at [[tails@boum.org]] (<a href=\"https://tails.net/tails-email.key\">OpenPGP key</a>).\n"
 msgstr ""
+"Poseu-vos en contacte amb nosaltres a [[tails@boum.org]] (<a href=\"https"
+"://tails.net/tails-email.key\">clau OpenPGP</a>).\n"
 
 #. type: Plain text
 msgid "[[**Donate now to keep more women safe.**|donate]]"
-msgstr ""
+msgstr "[[**Feu una donació ara per mantenir més dones segures.**|donate]]"

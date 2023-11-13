@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-15 18:33+0000\n"
-"PO-Revision-Date: 2023-10-22 09:27+0000\n"
+"PO-Revision-Date: 2023-11-09 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Accessing resources on the local network\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Accés a recursos a la xarxa local\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -32,11 +32,18 @@ msgid ""
 "LAN for Local Area Network. In technical terms, this refers to the set of IP "
 "addresses defined in [RFC1918](https://tools.ietf.org/html/rfc1918)."
 msgstr ""
+"El terme \"xarxa local\" aquí fa referència al conjunt d'ordinadors i "
+"dispositius als quals es pot accedir directament des del vostre ordinador "
+"sense passar per Internet. Per exemple, el vostre encaminador domèstic "
+"(router), la vostra impressora de xarxa o la intranet de la vostra empresa "
+"és molt probable que estiguin a la vostra xarxa local, també anomenada LAN o "
+"Local Area Network, en anglès. En termes tècnics, es refereix al conjunt "
+"d'adreces IP definides a [RFC1918](https://tools.ietf.org/html/rfc1918)."
 
 #. type: Title =
 #, no-wrap
 msgid "Security considerations"
-msgstr ""
+msgstr "Consideracions de seguretat"
 
 #. type: Plain text
 msgid ""
@@ -44,6 +51,9 @@ msgid ""
 "Tails, for example to exchange documents with someone on the same local "
 "network without going through the Internet."
 msgstr ""
+"L'accés als recursos de la xarxa local pot ser útil en el context de Tails, "
+"per exemple per intercanviar documents amb algú de la mateixa xarxa local "
+"sense passar per Internet."
 
 #. type: Plain text
 #, no-wrap
@@ -56,6 +66,16 @@ msgid ""
 "could reveal where you are. This is why <span class=\"application\">Tor Browser</span> is prevented from\n"
 "accessing the local network in Tails.\n"
 msgstr ""
+"Però una aplicació que es pot connectar tant a recursos d'Internet\n"
+"(passant per Tor) com a recursos de la xarxa local (sense passar per Tor)\n"
+"podria trencar el vostre anonimat. Per exemple, si un lloc web\n"
+"que visiteu de manera anònima utilitzant el <span class=\"application\""
+">Navegador Tor</span> també\n"
+"pogués connectar-se a altres pàgines web específiques de la vostra xarxa "
+"local,\n"
+"llavors aquesta informació podria revelar on sou. És per això que el <span "
+"class=\"application\">Navegador Tor</span>\n"
+"no pot accedir a la xarxa local a Tails.\n"
 
 #. type: Plain text
 msgid ""
@@ -63,6 +83,9 @@ msgid ""
 "from such attacks and explains how to access some types of resources on the "
 "local network."
 msgstr ""
+"Aquesta pàgina descriu algunes de les mesures de seguretat integrades a "
+"Tails per protegir-vos d'aquests atacs i s'explica com accedir a alguns "
+"tipus de recursos a la xarxa local."
 
 #. type: Plain text
 #, no-wrap
@@ -75,6 +98,8 @@ msgid ""
 "<p>Connections made to the local network are not anonymous and do not go\n"
 "through Tor.</p>\n"
 msgstr ""
+"<p>Les connexions fetes a la xarxa local no són anònimes i no passen\n"
+"a través de Tor.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -89,7 +114,7 @@ msgstr "<a id=\"browser\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Browsing web pages on the local network"
-msgstr ""
+msgstr "Navegació de pàgines web a la xarxa local"
 
 #. type: Plain text
 #, no-wrap
@@ -99,6 +124,12 @@ msgid ""
 "location from the content of other web pages that might be specific to your local\n"
 "network.\n"
 msgstr ""
+"És impossible accedir a pàgines web a la xarxa local mitjançant el <span "
+"class=\"application\">Navegador\n"
+"Tor</span>. Això evita que els llocs web a Internet dedueixin la vostra\n"
+"ubicació a partir del contingut d'altres pàgines web que poden ser "
+"específiques de la vostra xarxa\n"
+"local.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -106,6 +137,9 @@ msgid ""
 "To access web pages on the local network, use the [[<span class=\"application\">Unsafe\n"
 "Browser</span>|anonymous_internet/unsafe_browser]] instead.\n"
 msgstr ""
+"Per accedir a pàgines web a la xarxa local, utilitzeu el [[<span class="
+"\"application\">Navegador\n"
+"Insegur</span>|anonymous_internet/unsafe_browser]].\n"
 
 #. type: Plain text
 #, no-wrap
@@ -115,7 +149,7 @@ msgstr "<a id=\"http\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Downloading files from web pages on the local network"
-msgstr ""
+msgstr "Baixar fitxers de pàgines web a la xarxa local"
 
 #. type: Plain text
 #, no-wrap
@@ -125,6 +159,11 @@ msgid ""
 "the local network at <span class=\"filename\">http://192.168.1.40/document.pdf</span>\n"
 "execute the following command:\n"
 msgstr ""
+"Per baixar fitxers de pàgines web a la xarxa local, podeu utilitzar el\n"
+"l'ordre `curl`. Per exemple, per baixar un document disponible a\n"
+"la xarxa local a <span class=\"filename\">http://192.168.1.40/document."
+"pdf</span>\n"
+"executeu l'ordre següent:\n"
 
 #. type: Plain text
 #, no-wrap

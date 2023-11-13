@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-10-18 17:18-0500\n"
-"PO-Revision-Date: 2023-10-18 15:26+0000\n"
+"PO-Revision-Date: 2023-11-04 16:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Thank you!\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Gràcies!\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -38,22 +38,27 @@ msgstr ""
 msgid ""
 "[[!img thanks.png link=\"no\" alt=\"Tails protects the most vulnerable\"]]"
 msgstr ""
+"[[!img thanks.png link=\"no\" alt=\"Tails protegeix els més vulnerables\"]]"
 
 #. type: Content of: <div><div><h1>
 msgid "You make the Internet a safer place"
-msgstr ""
+msgstr "Feu d'Internet un lloc més segur"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "Your generous donation will keep safe the people who need it the most and "
 "protect freedom in the digital age."
 msgstr ""
+"La vostra generosa donació protegirà les persones que més ho necessiten i "
+"protegirà la llibertat en l'era digital."
 
 #. type: Content of: <div><div><p>
 msgid ""
 "Most Internet tools fund themselves by spying on their users. At Tails, we "
 "do things differently and we couldn't do it without you."
 msgstr ""
+"La majoria de les eines d'Internet es financen espiant els seus usuaris. A "
+"Tails, fem les coses de manera diferent i sense tu no podríem fer-ho."
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -61,16 +66,23 @@ msgid ""
 "fundraising@boum.org\">tails-fundraising@boum.org</a> ([[OpenPGP key|tails-"
 "fundraising.key]])."
 msgstr ""
+"Si necessiteu un rebut de donació, poseu-vos en contacte amb nosaltres a <a "
+"href=\"mailto:tails-fundraising@boum.org\">tails-fundraising@boum.org</a> ([["
+"Clau OpenPGP|tails-fundraising.key]])."
 
 #. type: Content of: <div><div><p>
 msgid "Your donation will appear as made to Riseup Labs, our fiscal sponsor."
 msgstr ""
+"La vostra donació apareixerà tal com s'ha fet a Riseup Labs, el nostre "
+"patrocinador fiscal."
 
 #. type: Content of: <div><div><blockquote><p><em>
 msgid ""
 "<em>We train human-rights activists and journalists to use Tails if they are "
 "gonna be looking deep into shady business."
 msgstr ""
+"<em>Entrenem i ensenyem a activistes i periodistes pels drets humans a "
+"utilitzar Tails si investiguen a fons negocis ombrívols."
 
 #. type: Content of: <div><div><blockquote><p>
 msgid ""
@@ -78,28 +90,33 @@ msgid ""
 "private companies are together behind some of the most violent stuff that we "
 "see here.</em>"
 msgstr ""
+"Mèxic és un lloc perillós per investigar temes quan el crim organitzat i les "
+"empreses privades estan junts darrere d'algunes de les coses més violentes "
+"que veiem aquí.</em>"
 
 #. type: Content of: <div><div><blockquote>
 msgid "&mdash; <strong>Digital security trainer, Mexico</strong>"
-msgstr ""
+msgstr "&mdash; <strong>Formador de seguretat digital, Mèxic</strong>"
 
 #. type: Content of: <div><div><blockquote><p><em>
 msgid ""
 "<em>I always have a Tails USB stick handy, especially when traveling.  "
 "Pakistan really isn't the safest place for journalists."
 msgstr ""
+"<em>Sempre tinc a mà un llapis USB de Tails, sobretot quan viatjo. El "
+"Pakistan no és realment el lloc més segur per als periodistes."
 
 #. type: Content of: <div><div><blockquote><p>
 msgid "Thanks Tails for an amazing tool!</em>"
-msgstr ""
+msgstr "Gràcies Tails per una eina tan increïble!</em>"
 
 #. type: Content of: <div><div><blockquote>
 msgid "&mdash; <strong>Freelance journalist, Pakistan</strong>"
-msgstr ""
+msgstr "&mdash; <strong>Periodista independent, Pakistan</strong>"
 
 #. type: Content of: <h1>
 msgid "Help us spread the word"
-msgstr ""
+msgstr "Ajuda'ns a difondre la veu"
 
 #.  Tweet intent generator: https://tech.cymi.org/tweet-intents 
 #. type: Content of: <div><a>
@@ -119,10 +136,12 @@ msgid ""
 "I donate to @Tails_live because nobody should have to pay to be safe while "
 "using computers."
 msgstr ""
+"Faig donacions a @Tails_live perquè ningú hauria de pagar per estar segur "
+"mentre utilitza ordinadors."
 
 #. type: Content of: <div><a><p>
 msgid "Tweet"
-msgstr ""
+msgstr "Tweet"
 
 #. type: Content of: <div><a>
 msgid ""
@@ -143,6 +162,8 @@ msgid ""
 "I proudly support @Tails_live to keep safe activists, journalists, and "
 "domestic violence survivors."
 msgstr ""
+"Dono suport a @Tails_live amb orgull per mantenir segurs els activistes, els "
+"periodistes i els supervivents de violència domèstica."
 
 #. type: Content of: <div><a>
 msgid ""
@@ -154,11 +175,11 @@ msgstr ""
 
 #. type: Content of: <div><a><p>
 msgid "Follow us"
-msgstr ""
+msgstr "Segueix-nos"
 
 #. type: Content of: <div>
 msgid "</a>"
-msgstr ""
+msgstr "</a>"
 
 #~ msgid "[[!img love.png link=\"no\" class=\"smiley\"]]"
 #~ msgstr "[[!img love.png link=\"no\" class=\"smiley\"]]"
