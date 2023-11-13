@@ -20,7 +20,7 @@ from gi.repository import Gdk, GdkPixbuf, Gtk, GLib, Pango  # noqa: E402
 log = getLogger("dialogs")
 
 
-def get_build_year():
+def get_release_year():
     return tailslib.release.get_release_date().year
 
 def get_time_dialog(initial_tz: Optional[str] = None):
@@ -89,7 +89,7 @@ def get_time_dialog(initial_tz: Optional[str] = None):
     builder.get_object("minute").set_value(now.minute)
     builder.get_object("day").set_range(1, 31)
     builder.get_object("day").set_value(now.day)
-    min_year = get_build_year()
+    min_year = get_release_year()
     max_year = max(now.year, min_year + 10)
     builder.get_object("year").set_range(min_year, max_year)
     builder.get_object("year").set_value(now.year)
