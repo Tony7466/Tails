@@ -11,7 +11,7 @@ from gi import require_version
 require_version('Gtk', '3.0')
 from gi.repository import GLib, Gtk, GdkPixbuf
 
-from tailslib.release import VERSION_DATA, get_release_date
+from tailslib.release import VERSION_DATA
 
 class AboutTails(Gtk.AboutDialog):
     """A simple class showing the dialog"""
@@ -46,9 +46,7 @@ class AboutTails(Gtk.AboutDialog):
                         VERSION_DATA["TAILS_GIT_BASE_SHORT_ID"],
                     )
 
-                comment = _("Build from %s on %s") % (built_name, get_release_date())
-            else:
-                comment = _("Build from %s") % (built_name)
+            comment = _("Build from %s") % (built_name)
 
             if "TAILS_GIT_TAG" in VERSION_DATA:
                 tag = VERSION_DATA["TAILS_GIT_TAG"].replace("~", "-")
