@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-09-18 06:11+0200\n"
-"PO-Revision-Date: 2023-11-05 00:11+0000\n"
+"PO-Revision-Date: 2023-11-13 14:48+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -32,6 +32,8 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #, no-wrap
 msgid "[[!meta title=\"Police raid at Zwiebelfreunde: Donor data compromised\"]]\n"
 msgstr ""
+"[[!meta title=\"Incursió policial a Zwiebelfreunde: dades dels donants "
+"compromeses\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -45,6 +47,11 @@ msgid ""
 "(_Friends of onions_ in German) is a nonprofit organization that supports "
 "privacy and anonymity projects and operates several Tor exit nodes."
 msgstr ""
+"El 20 de juny de 2018, la policia alemanya va escorcollar les cases dels "
+"membres de la junta del nostre antic patrocinador fiscal Zwiebelfreunde en "
+"una incursió coordinada. Zwiebelfreunde (_Amics de les cebes_ en alemany) és "
+"una organització sense ànim de lucre que dóna suport a projectes de "
+"privadesa i anonimat i opera diversos nodes de sortida de Tor."
 
 #. type: Plain text
 msgid ""
@@ -54,6 +61,12 @@ msgid ""
 "at Riseup, a privacy-friendly email provider to which Zwiebelfreunde "
 "facilitates donations."
 msgstr ""
+"No se'ls acusa de cap delicte, sinó que se'ls considera testimonis en un cas:"
+" els operadors d'un lloc web anònim que cridaven a protestar contra la "
+"convenció del partit d'extrema dreta AfD (Alternativa per a Alemanya) van "
+"utilitzar una adreça de correu electrònic a Riseup, un correu electrònic "
+"respectuós amb la privadesa, proveïdor al qual Zwiebelfreunde facilita les "
+"donacions."
 
 #. type: Plain text
 msgid ""
