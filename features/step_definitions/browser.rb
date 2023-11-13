@@ -19,10 +19,10 @@ def browser_url_entry
   # non-English we have to use a less efficient and (potentially) less
   # future-proof way to find the URL entry.
   if $language.empty?  # English
-    @torbrowser.child('Navigation', roleName: 'tool bar')
+    browser.child('Navigation', roleName: 'tool bar')
       .child(roleName: 'entry')
   else
-    @torbrowser.children(roleName: 'tool bar')
+    browser.children(roleName: 'tool bar')
       .find { |n| n.child?(roleName: 'entry', retry: false) }
       .child(roleName: 'entry')
   end
