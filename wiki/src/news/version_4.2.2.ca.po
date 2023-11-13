@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-12 22:12+0000\n"
+"PO-Revision-Date: 2023-11-13 23:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.2.2 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.2.2\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,6 +42,8 @@ msgid ""
 "This release is an emergency release to fix a critical security "
 "vulnerability in *Tor Browser*."
 msgstr ""
+"Aquesta versió és una versió d'emergència per solucionar una vulnerabilitat "
+"de seguretat crítica al *Navegador Tor*."
 
 #. type: Plain text
 #, no-wrap
@@ -51,13 +53,15 @@ msgstr "[[!toc levels=1]]\n"
 #. type: Title #
 #, no-wrap
 msgid "Updates"
-msgstr ""
+msgstr "Actualitzacions"
 
 #. type: Bullet: '- '
 msgid ""
 "Update *Tor Browser* to [9.0.4](https://blog.torproject.org/new-release-tor-"
 "browser-904)."
 msgstr ""
+"S'ha actualitzat el *Navegador Tor* a la versió [9.0.4](https://blog."
+"torproject.org/new-release-tor-browser-904)."
 
 #. type: Plain text
 #, no-wrap
@@ -65,6 +69,8 @@ msgid ""
 "  This fixes a [[!mfsa 2020-03 desc=\"critical vulnerability\"]]\n"
 "  in the JavaScript JIT compiler of *Firefox* and *Tor Browser*.\n"
 msgstr ""
+"  Això corregeix una [[!mfsa 2020-03 desc=\"vulnerabilitat crítica\"]]\n"
+"  al compilador de JavaScript JIT de *Firefox* i del *Navegador Tor*.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -72,6 +78,9 @@ msgid ""
 "  Mozilla is aware of targeted attacks in the wild abusing this\n"
 "  vulnerability.\n"
 msgstr ""
+"  Mozilla és conscient d'atacs dirigits, usats actualment, que abusen d'"
+"aquesta\n"
+"  vulnerabilitat.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -80,6 +89,11 @@ msgid ""
 "  level|doc/anonymous_internet/Tor_Browser#security-level]] of *Tor\n"
 "  Browser*. The *safer* and *safest* security levels are not affected.\n"
 msgstr ""
+"  Aquesta vulnerabilitat només afecta al [[nivell *estàndard*\n"
+"  de seguretat|doc/anonymous_internet/Tor_Browser#security-level]] del *"
+"Navegador\n"
+"  Tor*. Els nivells de seguretat *més segur* i *màxima seguretat* no es "
+"veuen afectats.\n"
 
 #. type: Title #
 #, no-wrap
@@ -91,6 +105,8 @@ msgid ""
 "Avoid a 2-minutes delay when restarting after doing an automatic upgrade. "
 "([[!tails_ticket 17026]])"
 msgstr ""
+"S'evita un retard de dos minuts en reiniciar després de fer una "
+"actualització automàtica. ([[!tails_ticket 17026]])"
 
 #. type: Plain text
 msgid ""
@@ -133,6 +149,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from 4.2 to 4.2.2."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles de la versió 4.2 a la 4."
+"2.2."
 
 #. type: Plain text
 #, no-wrap
@@ -140,6 +158,9 @@ msgid ""
 "  Users of Tails 4.0, 4.1, and 4.1.1 have to upgrade to 4.2 first and\n"
 "  then to 4.2.2.\n"
 msgstr ""
+"  Els usuaris de Tails 4.0, 4.1 i 4.1.1 primer han d'actualitzar a la versió "
+"4.2 i\n"
+"  després a la 4.2.2.\n"
 
 #. type: Bullet: '- '
 msgid ""
@@ -188,6 +209,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can directly "
 "download Tails 4.2.2:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"directament Tails 4.2.2:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -204,7 +227,7 @@ msgstr "Què ve?"
 
 #. type: Plain text
 msgid "Tails 4.3 is [[scheduled|contribute/calendar]] for February 11."
-msgstr ""
+msgstr "Tails 4.3 està [[programat|contribute/calendar]] per a l'11 de febrer."
 
 #. type: Plain text
 #, no-wrap
@@ -213,3 +236,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.2.2\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.2.2\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"
