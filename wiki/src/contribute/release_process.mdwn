@@ -92,7 +92,7 @@ Packages
 
 To release Tails you'll need some packages installed:
 
-* `oathtool gitlab-cli j2cli jq tidy libnotify-bin mktorrent podman python3-bs4 python3-debian python3-git python3-gitlab python3-jinja2 python3-html2text python3-sh python3-voluptuous transmission-cli moreutils wl-clipboard rename`
+* `oathtool gitlab-cli j2cli jq tidy libnotify-bin mktorrent podman pwgen python3-bs4 python3-debian python3-git python3-gitlab python3-jinja2 python3-html2text python3-sh python3-voluptuous transmission-cli moreutils wl-clipboard rename`
   - Note: if the Debian version you are running does not include all required
     Go packages, such as [[!debpts podman]], you should be able to install
     them from a more recent Debian release with APT pinning.
@@ -398,23 +398,17 @@ If `lint_po` complains:
 * send a note to <tails-l10n@boum.org> [public] so that they get in touch with
   whoever can fix them.
 
-Check if the previous commit added a PO file for a new locale:
 
-    (
-     headcommit=$(git show-ref HEAD)
-     git ls-files po/ |
-     while read f
-     do
-       git log '--pretty=format:%H' --diff-filter=A --decorate=short | head -n1 | grep -qw "${headcommit}" && echo $f
-     done
-    )
+Regenerate the localization list:
 
-Then check the `git log --stat` manually as well: shell snippet above does not
-spot new PO files that Git believes have been renamed from removed ones.
+    ./bin/locale-descriptions generate > config/chroot_local-includes/usr/share/tails/browser-localization/descriptions
 
-If any locale was added, add it to
-`config/chroot_local-includes/usr/share/tails/browser-localization/descriptions`
-(in the `MOZILLA_LOCALE:LOCATION` format).
+Take a look at error lines that are suggesting you to add more languages to `po/po-to-mozilla.toml`. Copy-paste everything into a new issue (title: `Update mozilla locale descriptions`, content: `https://tails.net/contribute/release_process/update_locale_descriptions/` ) and move on.
+
+Manually inspect the diffs:
+
+    git diff config/chroot_local-includes/usr/share/tails/browser-localization/descriptions
+
 
 # If preparing a final release
 
@@ -978,7 +972,7 @@ may start. Remeber to encrypt and sign your email!
     ./bin/automailer.py <<EOF
     To: tails-board@boum.org, tails-manual-testers@boum.org
     Subject: Testing Tails ${VERSION:?}
-    X-Attach: $(ls -1 "$ISOS/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.packages" "$ISOS/tails-amd64-${VERSION:?}/"tails-amd64-${VERSION:?}.{iso,img}.sig "$ISOS/tails-amd64-${VERSION:?}".{iso,img}.torrent | tr '\n' ,)
+    X-Attach: $(/bin/ls -1 "$ISOS/tails-amd64-${VERSION:?}/tails-amd64-${VERSION:?}.packages" "$ISOS/tails-amd64-${VERSION:?}/"tails-amd64-${VERSION:?}.{iso,img}.sig "$ISOS/tails-amd64-${VERSION:?}".{iso,img}.torrent | tr '\n' ,)
 
     You can now download the images, verify them using the attached signatures, and start testing:
 
@@ -1179,7 +1173,7 @@ The download step takes a few minutes.
 
 If this verification succeeds, good!
 
-Otherwise, see the next sections
+Otherwise, see the next sections.
 
 ### If it fails with `urllib.error.HTTPError: HTTP Error 404: Not Found`
 
@@ -1352,10 +1346,10 @@ Check if the upgrades file looks good:
     cd "${MASTER_CHECKOUT:?}" || err "Cannot change directory"
     for version in ${TEST_IUK_SOURCE_VERSIONS:?}; do
         echo "Upgrade from ${version}"
-        udf="wiki/src/upgrade/v2/Tails/${version}/amd64/${DIST:?}/upgrades.yml"
+        udf="wiki/src/upgrade/v2/Tails/${version}/amd64/test/upgrades.yml"
         grep --quiet --fixed-strings "to_${VERSION}.iuk" "$udf" || err "No IUK mentioned in $udf"
         grep --quiet --fixed-strings -- "-${VERSION}.iso" "$udf" || err "No ISO mentioned in $udf"
-        cat "wiki/src/upgrade/v2/Tails/${version}/amd64/${DIST:?}/upgrades.yml"
+        cat "wiki/src/upgrade/v2/Tails/${version}/amd64/test/upgrades.yml"
     done
     )
 
@@ -1565,12 +1559,13 @@ export VERSION ISOS PREVIOUS_STABLE_VERSION
 Public testing
 ==============
 
+## If you're publishing a RC
+
 1. Using [[!tails_gitlab desc="`check-mirrors`" tails/check-mirrors]],
    choose a fast mirror that already has the
    tentative ISO and USB images. E.g. <https://mirrors.edge.kernel.org/tails/> or
    <https://mirrors.wikimedia.org/tails/> are reliable and have plenty
    of bandwidth:
-
         
         (
             success=false
@@ -1590,13 +1585,11 @@ Public testing
             done
         )
 
-## If you're publishing a RC
+2. Emailed <tails-testers@boum.org> to ask them to test the tentative images:
 
-Email <tails-testers@boum.org> to ask them to test the tentative images:
-
- - Point them to the up-to-date mirror you've found previously.
- - This is a public list, don't point to the pad.
- - Make a deadline clear: until when is feedback useful?
+   - Point them to the up-to-date mirror you've found previously.
+   - This is a public list, don't point to the pad.
+   - Make a deadline clear: until when is feedback useful?
 
 ```sh
 [ "${DIST:?}" = alpha ] && ./bin/automailer.py <<EOF
@@ -2225,7 +2218,7 @@ Check that you are indeed preparing a final release:
           - Monday, XXX: build images, start testing
           - Tuesday, XXX: releasing
 
-         @testers, please let me know how much time you'll have for manual QA 
+         @testers, please let the RM know how much time you'll have for manual QA
          from Monday 17:00 to Tuesday 11:00 (Europe/Berlin)
          EOF
 

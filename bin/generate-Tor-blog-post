@@ -53,7 +53,7 @@ html_body() {
     echo '<p>For support and feedback, visit the <a href="https://tails.net/support/">Support section</a> on the Tails website.</p>'
 }
 
-BODY=$(html_body | html2markdown) j2 --import-env '' \
+BODY=$(html_body | html2markdown | perl -pE 's{^[#]}{##}') j2 --import-env '' \
     config/release_management/templates/Tor_blog_post.md.jinja \
     > "$MARKDOWN_TMPFILE"
 

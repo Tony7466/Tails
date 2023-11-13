@@ -86,7 +86,15 @@ end
 When /^I enter my email credentials into the autoconfiguration wizard$/ do
   address = $config['Thunderbird']['address']
   name = address.split('@').first
+  hostname = address.split('@').last
   password = $config['Thunderbird']['password']
+
+  # These tricks are needed because on Jenkins, the hostname of the test email
+  # server resolves to a RFC 1918 address (sysadmin#18044), which tor would not allow
+  # connecting to, and the firewall leak checker would make a fuss
+  # out of it.
+  allow_connecting_to_possibly_rfc1918_host(hostname)
+
   thunderbird_wizard.child('Your full name', roleName: 'entry').grabFocus
   @screen.paste(name)
   thunderbird_wizard.child('Email address',
@@ -190,7 +198,7 @@ Then /^I can find the email I sent to myself in my inbox$/ do
                     .grabFocus
     @screen.paste(@subject)
     message = thunderbird_main.child(
-      "#{$config['Thunderbird']['address']},.*, #{@subject}, Unread",
+      "#{$config['Thunderbird']['address'].split('@').first},.*, #{@subject}, Unread",
       roleName: 'tree item'
     )
     # Let's clean up

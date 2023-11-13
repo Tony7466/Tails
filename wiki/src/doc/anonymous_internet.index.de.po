@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-10 10:12+0000\n"
-"Last-Translator: Jan Schroeder <schroeder.jan@protonmail.com>\n"
+"POT-Creation-Date: 2023-10-31 09:58+0100\n"
+"PO-Revision-Date: 2023-11-10 04:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgid "[[Why is Tor slow?|anonymous_internet/tor/slow]]"
 msgstr ""
 
 #. type: Bullet: '  - '
-msgid "[[Viewing the circuits of Tor|anonymous_internet/tor/circuits]]"
+msgid "[[Managing the circuits of Tor|anonymous_internet/tor/circuits]]"
 msgstr ""
 
 #. type: Title ###

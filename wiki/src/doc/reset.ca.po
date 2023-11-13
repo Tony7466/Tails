@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-01-30 12:40+0000\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-03 15:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Uninstalling Tails or resetting a USB stick\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Desinstal·lar Tails o restablir un llapis USB\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -35,11 +35,13 @@ msgid ""
 "[[Instructions for Linux with GNOME: Ubuntu, Debian, Tails, etc.|reset/"
 "linux]]"
 msgstr ""
+"[[Instruccions per a Linux amb GNOME: Ubuntu, Debian, Tails, etc.|reset/"
+"linux]]"
 
 #. type: Bullet: '  - '
 msgid "[[Instructions for Windows|reset/windows]]"
-msgstr ""
+msgstr "[[Instruccions per a Windows|reset/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Instructions for macOS|reset/mac]]"
-msgstr ""
+msgstr "[[Instruccions per a macOS|reset/mac]]"

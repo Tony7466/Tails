@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-19 21:26+0000\n"
+"PO-Revision-Date: 2023-11-04 14:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,25 +21,30 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Deleting the Persistent Storage\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Eliminació de l'Emmagatzematge Persistent\"]]\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "Start Tails from the USB stick on which you want to delete the Persistent "
 "Storage."
 msgstr ""
+"Inicieu Tails des del llapis USB en què voleu suprimir l'Emmagatzematge "
+"Persistent."
 
 #. type: Bullet: '1. '
 msgid "In the Welcome Screen, keep the Persistent Storage locked."
 msgstr ""
+"A la Pantalla de Benvinguda, mantingueu l'Emmagatzematge Persistent "
+"bloquejat."
 
 #. type: Bullet: '1. '
 msgid "Choose **Applications**&nbsp;▸ **Tails**&nbsp;▸ **Persistent Storage**."
 msgstr ""
+"Trieu **Aplicacions**&nbsp;▸ **Tails**&nbsp;▸ **Emmagatzematge Persistent**."
 
 #. type: Bullet: '1. '
 msgid "Click **Delete** in the right of the title bar."
-msgstr ""
+msgstr "Feu clic a **Suprimeix** a la dreta de la barra de títol."
 
 #. type: Plain text
 #, no-wrap
@@ -62,6 +67,11 @@ msgid ""
 "recovering files from an old Persistent Storage using advanced [[data\n"
 "recovery techniques|encryption_and_privacy/secure_deletion#why]].</p>\n"
 msgstr ""
+"<p>Aquesta tècnica és ràpida, però pot ser que no impedeixi a un atacant "
+"fort\n"
+"recuperar fitxers d'un antic Emmagatzematge Persistent utilitzant [["
+"tècniques avançades\n"
+"de recuperació de dades|encryption_and_privacy/secure_deletion#why]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -70,6 +80,10 @@ msgid ""
 "delete the entire USB stick|encryption_and_privacy/secure_deletion#device]],\n"
 "which is a much slower operation.</p>\n"
 msgstr ""
+"<p>Per suprimir de manera segura l'Emmagatzematge Persistent, heu de [["
+"suprimir de manera segura\n"
+"tot el llapis USB|encryption_and_privacy/secure_deletion#device]],\n"
+"que és una operació molt més lenta.</p>\n"
 
 #. type: Plain text
 #, no-wrap

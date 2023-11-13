@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-03-12 16:27+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"POT-Creation-Date: 2023-11-10 17:08+0000\n"
+"PO-Revision-Date: 2023-11-12 18:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -19,10 +19,9 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!meta title=\"System requirements\"]]\n"
+#, no-wrap
 msgid "[[!meta title=\"System requirements and recommended hardware\"]]\n"
-msgstr "[[!meta title=\"Systemvoraussetzungen\"]]\n"
+msgstr "[[!meta title=\"Systemanforderungen und empfohlene Hardware\"]]\n"
 
 #. type: Title =
 #, no-wrap
@@ -50,33 +49,20 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid "<p>Tails might not work on:</p>\n"
 msgid "Tails might not work on:"
-msgstr "<p>Tails läuft möglicherweise nicht auf:</p>\n"
+msgstr "Tails läuft möglicherweise nicht auf:"
 
 #. type: Bullet: '  * '
 msgid "Some older computers, for example, if they don't have enough RAM."
 msgstr ""
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid ""
-#| "<ul>\n"
-#| "<li>Some older computers, for example, if they don't have enough\n"
-#| "RAM.</li>\n"
-#| "<li>Some newer computers, for example, if their [[graphics card is\n"
-#| "not compatible with Linux|support/known_issues/graphics]].</li>\n"
-#| "</ul>\n"
 msgid ""
 "Some newer computers, for example, if their [[graphics card is incompatible "
 "with Linux|support/known_issues/graphics]]."
 msgstr ""
-"<ul>\n"
-"<li>Älteren Computern, beispielsweise wenn sie nicht genug RAM haben.</li>\n"
-"<li>Manchen neuen Computern, beispielsweise wenn ihre [[Grafik Karte nicht\n"
-"kompatibel mit Linux|support/known_issues/graphics]] ist.</li>\n"
-"</ul>\n"
+"Einige neuere Computer, zum Beispiel, wenn ihre [[Grafikkarte nicht mit "
+"Linux kompatibel ist|support/known_issues/graphics]]."
 
 #. type: Bullet: '  * '
 msgid ""
@@ -103,10 +89,9 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Hardware requirements:"
+#, no-wrap
 msgid "Hardware requirements"
-msgstr "Hardware Voraussetzungen:"
+msgstr "Hardware Voraussetzungen"
 
 #. type: Plain text
 msgid "- A USB stick of 8 GB minimum or a recordable DVD."
@@ -118,28 +103,33 @@ msgid "  All the data on this USB stick or DVD will be lost when installing Tail
 msgstr "  Alle Daten auf dem USB Stick oder der DVD werden beim Installieren von Tails überschrieben.\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "- The possibility to start from a USB stick or a DVD reader."
 msgid "- The ability to start from a USB stick or a DVD reader."
-msgstr "- Die Möglichkeit von USB Stick oder DVD zu booten."
+msgstr ""
+"- Die Möglichkeit, von einem USB-Stick oder einem DVD-Lesegerät zu starten."
 
 #. type: Bullet: '- '
 msgid ""
 "A 64-bit <span class=\"definition\">[[!wikipedia x86-64]]</span> compatible "
 "processor:"
 msgstr ""
+"Ein 64-bit <span class=\"definition\">[[!wikipedia_de X64]]</span> "
+"kompatibler Prozessor:"
 
 #. type: Bullet: '  - '
 msgid ""
 "<span class=\"definition\">[[!wikipedia IBM_PC_compatible]]</span> but not "
-"<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span class="
-"\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
+"<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span "
+"class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 msgstr ""
+"<span class=\"definition\">[[!wikipedia_de IBM-PC-kompatibler_Computer]]</"
+"span> aber weder <span class=\"definition\">[[!wikipedia_de PowerPC]]</span> "
+"noch <span class=\"definition\">[[!wikipedia_de Arm-Architektur "
+"desc=\"ARM\"]]</span>."
 
 #. type: Bullet: '  - '
 msgid ""
 "Tails does not work on newer Mac computers with an [[!wikipedia "
-"Apple_silicon#M_series desc=\"Apple processors\"]] (M1 or M2)."
+"Apple_silicon#M_series desc=\"Apple processor\"]] (M1 or M2)."
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -147,6 +137,8 @@ msgid ""
 "Tails does not work on 32-bit computers since [[Tails 3.0|news/"
 "Tails_3.0_will_require_a_64-bit_processor]] (June 2017)."
 msgstr ""
+"Tails läuft nicht mehr auf 32-Bit Computern seit [[Tails 3.0|news/"
+"Tails_3.0_will_require_a_64-bit_processor]] (Juni 2017)."
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -157,13 +149,12 @@ msgstr ""
 
 #. type: Plain text
 msgid "- 2 GB of RAM to work smoothly."
-msgstr ""
+msgstr "- 2GB RAM um flüssig zu laufen."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "**2 GB of RAM** to work smoothly. Tails is known to work with less memory but you might experience strange behaviours or crashes."
+#, no-wrap
 msgid "  Tails can work with less than 2 GB RAM but might behave strangely or crash.\n"
-msgstr "**2GB RAM**, um sauber zu arbeiten. Notfalls läuft es auch mit weniger Arbeitsspeicher, allerdings kann es dann zu unerwarteten Störungen oder Systemabstürzen kommen."
+msgstr "  Tails kann auch mit weniger als 2 GB RAM funktionieren, aber es verhält sich dann vielleicht unerwarteten oder stürzt ab.\n"
 
 #. type: Title =
 #, no-wrap

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 12:11+0000\n"
+"PO-Revision-Date: 2023-10-31 17:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -33,7 +33,7 @@ msgid ""
 "or operating system, cannot protect you from everything—even if they pretend "
 "to."
 msgstr ""
-"Tails és més segur que qualsevol sistema operatiu normal. Però Tails, o "
+"Tails és més segur que qualsevol sistema operatiu habitual. Però Tails, o "
 "qualsevol programari o sistema operatiu, no us poden protegir de tot, fins i "
 "tot si ho pretenen."
 
@@ -132,7 +132,7 @@ msgstr ""
 
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"https://ssd.eff.org/\">EFF: Surveillance Self-Defense</a>"
-msgstr "<a href=\"https://ssd.eff.org/\">EFF: Autodefensa de vigilància</a>"
+msgstr "<a href=\"https://ssd.eff.org/\">EFF: Surveillance Self-Defense</a>"
 
 #. type: Content of: <div><ul><li>
 msgid ""

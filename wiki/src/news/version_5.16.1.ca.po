@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 01:40+0200\n"
-"PO-Revision-Date: 2023-10-22 12:12+0000\n"
+"PO-Revision-Date: 2023-11-08 16:13+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -43,6 +43,8 @@ msgid ""
 "This release is an emergency release to fix a critical vulnerability in the "
 "*Linux* kernel."
 msgstr ""
+"Aquesta versió és una versió d'emergència per solucionar una vulnerabilitat "
+"crítica al nucli de *Linux*."
 
 #. type: Plain text
 #, no-wrap
@@ -51,18 +53,21 @@ msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
 
 #. type: Plain text
 msgid "- Update the *Linux* kernel to 6.1.38."
-msgstr ""
+msgstr "- S'ha actualitzat el nucli de *Linux* a la versió 6.1.38."
 
 #. type: Plain text
 #, no-wrap
 msgid "  This updates fixes:\n"
-msgstr ""
+msgstr "  Aquesta actualització soluciona:\n"
 
 #. type: Bullet: '  * '
 msgid ""
 "[Downfall](https://downfall.page/) on Intel processors ([CVE-2022-40982]"
 "(https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40982))"
 msgstr ""
+"[Downfall](https://downfall.page/) als processadors Intel "
+"([CVE-2022-40982](https://cve.mitre.org/cgi-bin/cvename."
+"cgi?name=CVE-2022-40982))"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -70,6 +75,9 @@ msgid ""
 "sb-7005.html) on AMD processors ([CVE-2023-20569](https://cve.mitre.org/cgi-"
 "bin/cvename.cgi?name=CVE-2023-20569))"
 msgstr ""
+"[Inception](https://www.amd.com/en/resources/product-security/bulletin/amd-"
+"sb-7005.html) en processadors AMD ([CVE-2023-20569](https://cve. mitre.org/"
+"cgi-bin/cvename.cgi?name=CVE-2023-20569))"
 
 #. type: Plain text
 #, no-wrap
@@ -78,6 +86,12 @@ msgid ""
 "  access and steal data from another application in Tails, for example\n"
 "  passwords stored in *KeePassXC* or private keys stored in *Electrum*.\n"
 msgstr ""
+"  Aquestes vulnerabilitats podrien permetre que una aplicació maliciosa "
+"s'executés a Tails\n"
+"  per tal d'accedir i robar dades d'una altra aplicació a Tails, per "
+"exemple\n"
+"  contrasenyes emmagatzemades a *KeePassXC* o claus privades emmagatzemades "
+"a *Electrum*.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -86,11 +100,16 @@ msgid ""
 "  a government or a hacking firm. We are not aware of this attack being used in\n"
 "  the wild.\n"
 msgstr ""
+"  Aquest atac és poc probable, però podria ser realitzat per un atacant "
+"fort, com ara\n"
+"  un govern o una empresa de pirateria informàtica. No som conscients de "
+"l'ús d'aquest atac\n"
+"  a la realitat.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -103,7 +122,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"issues\">Known issues</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
 
 #. type: Plain text
 msgid "None specific to this release."
@@ -111,7 +130,7 @@ msgstr "Cap específic d'aquesta versió."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
 
 #. type: Plain text
 #, no-wrap
@@ -122,10 +141,14 @@ msgstr "<h1 id=\"get\">Obtenir Tails 5.16.1</h1>\n"
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.16.1."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior fins a la versió 5.16.1."
 
 #. type: Plain text
 #, no-wrap
@@ -133,39 +156,47 @@ msgid ""
 "  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
 "  automatic upgrades by doing a manual upgrade to the latest version.\n"
 msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per instal·lar Tails en un nou llapis USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
 "expert]]"
 msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
 
 #. type: Plain text
 #, no-wrap
@@ -173,17 +204,22 @@ msgid ""
 "<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Per només baixar"
 
 #. type: Plain text
 msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.16.1 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu "
+"descarregar Tails 5.16.1 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"

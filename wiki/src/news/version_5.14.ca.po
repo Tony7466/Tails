@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-13 14:17+0200\n"
-"PO-Revision-Date: 2023-10-22 12:12+0000\n"
+"PO-Revision-Date: 2023-11-08 23:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -46,12 +46,12 @@ msgstr "<h1 id=\"features\">Noves funcionalitats</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "Automatic migration to LUKS2 and Argon2id"
-msgstr ""
+msgstr "Migració automàtica a LUKS2 i Argon2id"
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"caution\">\n"
-msgstr ""
+msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -60,6 +60,9 @@ msgid ""
 "weak against a state-sponsored attacker with physical access to your\n"
 "device.</p>\n"
 msgstr ""
+"<p>Els paràmetres criptogràfics de LUKS de Tails 5.12 o anteriors són\n"
+"febles contra un atacant patrocinat per l'estat amb accés físic al vostre\n"
+"dispositiu.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -71,6 +74,9 @@ msgid ""
 "To use stronger encryption parameters, Tails 5.14 automatically converts "
 "your Persistent Storage to use LUKS2 encryption with Argon2id."
 msgstr ""
+"Per utilitzar paràmetres d'encriptatge més forts, Tails 5.14 converteix "
+"automàticament el vostre Emmagatzematge Persistent per utilitzar "
+"l'encriptatge LUKS2 amb Argon2id."
 
 #. type: Plain text
 msgid ""
@@ -78,21 +84,29 @@ msgid ""
 "other LUKS encrypted volumes unless you use a long passphrase of 5 random "
 "words or more."
 msgstr ""
+"Tot i així, us recomanem que canvieu la contrasenya del vostre "
+"Emmagatzematge Persistent i d'altres volums xifrats de LUKS tret que "
+"utilitzeu una contrasenya llarga de 5 paraules aleatòries o més."
 
 #. type: Plain text
 msgid "[[Read our security advisory and upgrade guide.|security/argon2id]]"
 msgstr ""
+"[[Llegiu la nostra guia de recomanacions de seguretat i actualització.|"
+"security/argon2id]]"
 
 #. type: Title ##
 #, no-wrap
 msgid "Full backups from Tails Installer"
-msgstr ""
+msgstr "Còpies de seguretat completes de l'Instal·lador de Tails"
 
 #. type: Plain text
 msgid ""
 "You can now do a backup of your Persistent Storage from *Tails Installer* by "
 "cloning your Persistent Storage to your backup Tails entirely."
 msgstr ""
+"Ara podeu fer una còpia de seguretat del vostre Emmagatzematge Persistent "
+"des de l'*Instal·lador de Tails* clonant completament el vostre "
+"Emmagatzematge Persistent a la vostra còpia de seguretat de Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -104,28 +118,35 @@ msgid ""
 "You can still use the backup utility to go faster while [[updating your "
 "backup|doc/persistent_storage/backup#updating]]."
 msgstr ""
+"Encara podeu utilitzar la utilitat de còpia de seguretat per anar més ràpid "
+"mentre [[actualitzeu la vostra còpia de seguretat|doc/persistent_storage/"
+"backup#updating]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "Captive portal detection"
-msgstr ""
+msgstr "Detecció de portals captius"
 
 #. type: Plain text
 msgid ""
 "Tails now detects if you have to sign in to the network using a captive "
 "portal if you choose to connect to Tor automatically."
 msgstr ""
+"Tails ara detecta si heu d'iniciar sessió a la xarxa mitjançant un portal "
+"captiu si trieu connectar-vos a Tor automàticament."
 
 #. type: Plain text
 msgid ""
 "The error screen appears more quickly and recommends you try to sign in to "
 "the network as the first option."
 msgstr ""
+"La pantalla d'error apareix més ràpidament i us recomana que intenteu "
+"iniciar la sessió a la xarxa com a primera opció."
 
 #. type: Title ##
 #, no-wrap
 msgid "Incentive to donate from *Electrum*"
-msgstr ""
+msgstr "Incentiu per donar des d'*Electrum*"
 
 #. type: Plain text
 msgid ""
@@ -133,6 +154,10 @@ msgid ""
 "Bitcoin are key to the survival of our project, so we integrated a way to "
 "donate from *Electrum* in Tails."
 msgstr ""
+"Moltes persones utilitzen Tails per assegurar la seva cartera de Bitcoin i "
+"les donacions en Bitcoin són clau per a la supervivència del nostre "
+"projecte, de manera que hem integrat una manera de fer donacions a Tails des "
+"d'*Electrum*."
 
 #. type: Plain text
 #, no-wrap
@@ -159,17 +184,21 @@ msgid ""
 "- Update *Tor Browser* to [12.0.7](https://blog.torproject.org/new-release-"
 "tor-browser-1207)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.0.7](https://blog."
+"torproject.org/new-release-tor-browser-1207)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Usability improvements to the Persistent Storage"
-msgstr ""
+msgstr "S'ha millorat la usabilitat a l'Emmagatzematge Persistent"
 
 #. type: Bullet: '- '
 msgid ""
 "Change the button to create a Persistent Storage from the Welcome Screen to "
 "be a switch. ([[!tails_ticket 19673]])"
 msgstr ""
+"S'ha canviat el botó de crear un Emmagatzematge Persistent des de la "
+"Pantalla de Benvinguda per un interruptor. ([[!tails_ticket 19673]])"
 
 #. type: Plain text
 #, no-wrap
@@ -182,6 +211,9 @@ msgid ""
 "mention *Kleopatra* in the *GnuPG* feature. ([[!tails_ticket 19642]] and [[!"
 "tails_ticket 19675]])"
 msgstr ""
+"S'ha tornat a afegir la descripció d'algunes de les funcions de "
+"l'Emmagatzematge Persistent i s'esmenta *Kleopatra* a la funció *GnuPG*. ([["
+"!tails_ticket 19642]] i [[!tails_ticket 19675]])"
 
 #. type: Plain text
 #, no-wrap
@@ -193,11 +225,13 @@ msgid ""
 "Hide the duplicated *Persistent* bookmark in the *Files* browser.  ([[!"
 "tails_ticket 19646]])"
 msgstr ""
+"S'ha amagat el marcador *Persistent* duplicat al navegador de *Fitxers*. ([["
+"!tails_ticket 19646]])"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -212,11 +246,13 @@ msgid ""
 "Avoid restarting the desktop environment when creating a Persistent Storage. "
 "([[!tails_ticket 19667]])"
 msgstr ""
+"S'ha evitat haver de reiniciar l'entorn d'escriptori quan es crea un "
+"Emmagatzematge Persistent. ([[!tails_ticket 19667]])"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"issues\">Known issues</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
 
 #. type: Plain text
 msgid "None specific to this release."
@@ -224,7 +260,7 @@ msgstr "Cap específic d'aquesta versió."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
 
 #. type: Plain text
 #, no-wrap
@@ -235,10 +271,14 @@ msgstr "<h1 id=\"get\">Obtenir Tails 5.14</h1>\n"
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.14."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.14."
 
 #. type: Plain text
 #, no-wrap
@@ -246,39 +286,47 @@ msgid ""
 "  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
 "  automatic upgrades by doing a manual upgrade to the latest version.\n"
 msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per instal·lar Tails en un nou llapis USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
 "expert]]"
 msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
 
 #. type: Plain text
 #, no-wrap
@@ -286,17 +334,22 @@ msgid ""
 "<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Per només baixar"
 
 #. type: Plain text
 msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.14 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu "
+"descarregar Tails 5.14 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"

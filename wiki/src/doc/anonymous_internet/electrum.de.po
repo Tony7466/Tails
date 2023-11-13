@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2022-06-11 22:39+0000\n"
+"PO-Revision-Date: 2023-11-12 18:11+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!meta title=\"Exchanging bitcoins using Electrum\"]]\n"
 msgstr "[[!meta title=\"Bitcoins mit Electrum austauschen\"]]\n"
 
@@ -29,29 +29,22 @@ msgid "[[!toc levels=2]]\n"
 msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[<span class=\"application\">Electrum</span>](https://electrum.org/) is a "
-#| "[[!wikipedia Bitcoin]] client that is\n"
-#| "particularly suited to the context of Tails because:\n"
 msgid ""
 "[*Electrum*](https://electrum.org/) is a [[!wikipedia Bitcoin]] client that "
 "is particularly suited to the context of Tails because:"
 msgstr ""
-"[<span class=\"application\">Electrum</span>](https://electrum.org/) ist ein "
-"[[!wikipedia_de Bitcoin]]-Client, der\n"
-"besonders geeignet im Kontext von Tails ist, weil:\n"
+"[*Electrum*](https://electrum.org/) ist ein [[!wikipedia_de Bitcoin]]-"
+"Client, der besonders geeignet im Kontext von Tails ist, weil:"
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid ""
 "You can use your wallet from different devices and avoid losing bitcoins in "
 "a backup mistake or computer failure."
 msgstr ""
-"Ihr Wallet (Anm. Übers.: digitale Brieftasche) kann vollständig mithilfe "
-"eines Passworts, *Seed* genannt, wiederhergestellt werden. Somit können Sie "
-"Ihr Wallet von verschiedenen Geräten aus nutzen und verhindern, dass "
-"Bitcoins bei einem Backup-Fehler oder Computerproblem verloren gehen."
+"Ihr Wallet (digitale Brieftasche) kann vollständig mithilfe eines Passworts, "
+"\"Seed\" genannt, wiederhergestellt werden. Somit können Sie Ihr Wallet von "
+"verschiedenen Geräten aus nutzen und verhindern, dass Bitcoins bei einem "
+"Backup-Fehler oder einem Computerproblem verloren gehen."
 
 #. type: Bullet: '  - '
 #, fuzzy
@@ -128,15 +121,18 @@ msgstr ""
 "anonym</a>.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>To make it harder to relate your different transactions, you should use\n"
 "a different receiving address for each transaction.\n"
 "<span class=\"application\">Electrum</span> automatically generates new\n"
 "addresses for you to use.</p>\n"
 msgstr ""
-"<p>Um es schwieriger zu machen, Ihre einzelnen Überweisungen in Beziehung zueinander zu bringen,\n"
-"sollten Sie für jede Transaktion verschiedene Empfangsadressen verwenden.</p>\n"
+"<p>Um es schwieriger zu machen, Ihre einzelnen Überweisungen in Beziehung "
+"zueinander zu bringen,\n"
+"sollten Sie für jede Transaktion verschiedene Empfangsadressen verwenden.\n"
+"<span class=\"application\">Electrum</span>generiert für Sie automatisch "
+"neue Adressen.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -149,7 +145,7 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p><span class=\"application\">Electrum</span> uses <em>mBTC</em> as the\n"
 "default base unit. 1 mBTC = 0.001 BTC. To change the base unit, choose\n"
@@ -157,29 +153,32 @@ msgid ""
 "  <span class=\"guimenu\">Tools</span>&nbsp;▸\n"
 "  <span class=\"guimenuitem\">Preferences</span></span>.</p>\n"
 msgstr ""
-"Um <span class=\"application\">Electrum</span> zu starten wählen Sie\n"
+"<p><span class=\"application\">Electrum</span> verwendet <em>mBTC</em> als\n"
+"Standard-Basiseinheit. 1 mBTC = 0,001 BTC. Um die Basiseinheit zu ändern, "
+"wählen Sie\n"
 "<span class=\"menuchoice\">\n"
-"  <span class=\"guimenu\">Anwendungen</span>&nbsp;▸\n"
-"  <span class=\"guisubmenu\">Internet</span>&nbsp;▸\n"
-"  <span class=\"guimenuitem\">Electrum Bitcoin Wallet</span>\n"
-"</span>.\n"
+"  <span class=\"guimenu\">Werkzeuge</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Einstellungen</span></span>.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>Do not blindly trust the bitcoin balance that <span class=\"application\">Electrum</span>\n"
 "displays as <em>unconfirmed</em>. Wait for transactions to be confirmed.</p>\n"
-msgstr "<p>Vertrauen Sie nicht blindlings dem Guthaben an Bitcoins, das <span class=\"application\">Electrum</span> anzeigt.</p>\n"
+msgstr ""
+"<p>Vertrauen Sie nicht blindlings dem Guthaben an Bitcoins, dass <span class="
+"\"application\">Electrum</span> Ihnen als <em> unbestätigt anzeigt.</em>. "
+"Warten Sie auf die Tranaktionsbestätigung.</p>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Recovering your wallet from its seed"
-msgstr ""
+msgstr "Stellen Sie ihr Wallet von seinem Seed wieder her"
 
 #. type: Title -
 #, no-wrap
 msgid "Backing up your seed"
-msgstr ""
+msgstr "Zurücksetzung des Seeds"
 
 #. type: Plain text
 #, no-wrap
@@ -195,23 +194,15 @@ msgid "That's why we recommend you both:"
 msgstr ""
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "<p>That's why we recommend that you activate the [[<span "
-#| "class=\"guilabel\">Bitcoin Client</span>\n"
-#| "persistence feature|doc/first_steps/persistence/configure/#bitcoin]] to\n"
-#| "store your bitcoin wallet and preferences across separate working\n"
-#| "sessions.</p>\n"
 msgid ""
 "Turn on the [[Electrum Bitcoin Wallet|persistent_storage/"
 "configure#electrum]] feature of the Persistent Storage to store your bitcoin "
 "wallet and preferences across separate working sessions."
 msgstr ""
-"<p>Dies ist der Grund, warum wir es Ihnen empfehlen, den [[beständigen "
-"Speicherbereich|doc/first_steps/persistence/configure/#bitcoin]]\n"
-"für den <span class=\"guilabel\">Bitcoin Client</span> zu aktivieren, um\n"
-"Ihr Wallet und Ihre Einstellungen über mehrere Arbeitssitzungen hinweg\n"
-"zu speichern. </p>\n"
+"Aktiviere die [[Electrum Bitcoin Wallet|persistent_storage/"
+"configure#electrum]] Funktion des Persistenzspeichers, um dein Bitcoin-"
+"Wallet und deine Einstellungen über verschiedene Arbeitssitzungen hinweg zu "
+"speichern."
 
 #. type: Bullet: '- '
 msgid ""
@@ -255,6 +246,10 @@ msgid ""
 "toggle\" class=\"symbolic\" link=\"no\"]]</span> button in the title bar and "
 "choose <span class=\"guilabel\">Show Hidden Files</span>."
 msgstr ""
+"Klicken Sie auf den <span class=\"guimenu\">[[!img lib/pan-down.png alt="
+"\"Menü umschalten\" class=\"symbolic\" link=\"no\"]]</span> Knopf in der "
+"Titelleiste und wählen Sie <span class=\"guilabel\">Versteckte Dateien "
+"anzeigen</span>."
 
 #. type: Bullet: '1. '
 msgid "Open the <span class=\"filename\">.electrum</span> folder."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-10-18 13:26+0000\n"
+"PO-Revision-Date: 2023-10-31 21:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -40,14 +40,18 @@ msgid ""
 "anonymity is reduce the number of places in your operational activity where "
 "you can make mistakes. Tor and Tails still do precisely that.</em>"
 msgstr ""
+"<em>Si observeu com s'han descobert els denunciants posteriors al 2013, és "
+"evident que el més important que podeu fer per mantenir l'anonimat és reduir "
+"el nombre de llocs de la vostra activitat operativa on podeu cometre errors. "
+"Tor i Tails fan precisament això.</em>"
 
 #. type: Content of: <div><section><blockquote><a>
 msgid "&mdash; <strong>Edward Snowden</strong>,"
-msgstr ""
+msgstr "&mdash; <strong>Edward Snowden</strong>,"
 
 #. type: Content of: <div><section><blockquote>
 msgid "NSA whistleblower </a>"
-msgstr ""
+msgstr "denunciant de la NSA </a>"
 
 #. type: Content of: <div><section>
 msgid ""
@@ -63,14 +67,17 @@ msgid ""
 "do so with an unwavering commitment to their Social Contract. Tails is a "
 "favorite companion tool of Tor.</em>"
 msgstr ""
+"<em>Tails amplia les proteccions de Tor a tot un sistema operatiu, i ho fa "
+"amb un compromís infranquejable amb el seu Contracte Social. Tails és una de "
+"les eines preferides de Tor.</em>"
 
 #. type: Content of: <div><section><blockquote>
 msgid "&mdash; <strong>Roger Dingledine</strong>,"
-msgstr ""
+msgstr "&mdash; <strong>Roger Dingledine</strong>,"
 
 #. type: Content of: <div><section><blockquote>
 msgid "co-founder of the Tor Project"
-msgstr ""
+msgstr "cofundador del Projecte Tor"
 
 #. type: Content of: <div><section>
 msgid ""
@@ -83,6 +90,8 @@ msgid ""
 "<a href=\"https://www.eff.org/deeplinks/2014/10/7-privacy-tools-essential-"
 "making-citizenfour\">"
 msgstr ""
+"<a href=\"https://www.eff.org/deeplinks/2014/10/7-privacy-tools-essential-"
+"making-citizenfour\">"
 
 #. type: Content of: <div><section><blockquote><a><p>
 msgid ""
@@ -90,10 +99,14 @@ msgid ""
 "dedicated operating system that enforces strong privacy- and security-"
 "protective defaults. That operating system is Tails.</em>"
 msgstr ""
+"<em>Una de les maneres més sòlides d'utilitzar la xarxa Tor és a través d'un "
+"sistema operatiu dedicat que imposi uns forts valors predeterminats de "
+"protecció de la privadesa i la seguretat. Aquest sistema operatiu és "
+"Tails.</em>"
 
 #. type: Content of: <div><section><blockquote>
 msgid "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
-msgstr ""
+msgstr "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
 
 #. type: Content of: <div><section>
 msgid ""

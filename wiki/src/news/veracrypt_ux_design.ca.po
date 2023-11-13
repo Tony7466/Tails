@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-11-29 17:12+0000\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-11-05 00:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -22,6 +22,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Berliners, come test new features with us and get a T-shirt!\"]]\n"
 msgstr ""
+"[[!meta title=\"Berlinesos, veniu a provar noves funcions amb nosaltres i "
+"aconseguiu una samarreta!\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -41,12 +43,17 @@ msgstr "[[!tag announce]]\n"
 #. type: Plain text
 msgid "We are working on making it much easier to use VeraCrypt in Tails."
 msgstr ""
+"Estem treballant per fer que sigui molt més fàcil utilitzar VeraCrypt a "
+"Tails."
 
 #. type: Plain text
 msgid ""
 "We want to test our design with users to make sure that it is really easy to "
 "use. We are looking for users of either VeraCrypt, Tails, or both."
 msgstr ""
+"Volem provar el nostre disseny amb els usuaris per assegurar-nos que és "
+"realment fàcil d'utilitzar. Estem buscant usuaris de VeraCrypt, Tails o tots "
+"dos."
 
 #. type: Plain text
 msgid ""
@@ -54,16 +61,22 @@ msgid ""
 "privacy software like Tails, even if you have little or no knowledge of "
 "Tails or VeraCrypt."
 msgstr ""
+"No sigueu tímids! Serà una gran oportunitat per contribuir a un programari "
+"de privadesa de classe mundial com és Tails, fins i tot si no coneixeu Tails "
+"o VeraCrypt."
 
 #. type: Plain text
 msgid ""
 "The tests will take place in Berlin (Wedding) on Friday 8, Saturday 9, and "
 "Sunday 10 of December in the afternoon. Plan to stay with us for 1 hour."
 msgstr ""
+"Les proves tindran lloc a Berlín (Wedding) el divendres 8, el dissabte 9 i "
+"el diumenge 10 de desembre a la tarda. Planifiqueu quedar-vos amb nosaltres "
+"durant 1 hora."
 
 #. type: Plain text
 msgid "We will give you a Tails T-shirt as a token of our thanks."
-msgstr ""
+msgstr "Us donarem una samarreta de Tails com a mostra del nostre agraïment."
 
 #. type: Plain text
 #, no-wrap
@@ -73,6 +86,7 @@ msgstr "[[!img 33c3/t-shirt.jpg link=\"no\"]]\n"
 #. type: Plain text
 msgid "Please, take this survey so we can organize our schedule:"
 msgstr ""
+"Si us plau, feu aquesta enquesta perquè puguem organitzar el nostre horari:"
 
 #. type: Plain text
 #, no-wrap
@@ -80,9 +94,13 @@ msgid ""
 "<strike>https://survey.tails.boum.org/</strike> (We have\n"
 "enough people already!)\n"
 msgstr ""
+"<strike>https://survey.tails.boum.org/</strike> (tenim\n"
+"prou gent ja!)\n"
 
 #. type: Plain text
 msgid ""
 "And if you can't come, maybe you can forward this to 2-3 other people in "
 "Berlin?"
 msgstr ""
+"I si no podeu venir, potser podeu reenviar això a dues o tres persones més a "
+"Berlín?"

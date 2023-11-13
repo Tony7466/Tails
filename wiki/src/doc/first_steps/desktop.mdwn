@@ -163,8 +163,8 @@ folders and storage media.
 
 <h2 id="tor-status">Tor status and circuits</h2>
 
-The Tor status icon and *Onion
-Circuits* allow you to view the status of Tor.
+The Tor status icon ([[!img lib/symbolic/tor-disconnected.png alt="Tor status menu" link="no" class="symbolic"]] or [[!img lib/symbolic/tor-connected.png alt="Tor status menu" link="no" class="symbolic"]]) provides a shortcut to *Onion
+Circuits*, which allows you to manage the Tor circuits being used by Tails.
 
 [[!img tor-status.png link="no" alt=""]]
 

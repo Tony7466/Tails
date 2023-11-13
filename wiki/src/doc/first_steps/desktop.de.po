@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-03-10 12:27+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"POT-Creation-Date: 2023-10-31 09:58+0100\n"
+"PO-Revision-Date: 2023-11-12 20:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -63,10 +63,9 @@ msgid "the <span class=\"guimenu\">Places</span> menu"
 msgstr "das <span class=\"guimenu\">Orte</span>-Menü"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"activities\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"activities\">Activities overview</h2>\n"
-msgstr "<a id=\"activities\"></a>\n"
+msgstr "<h2 id=\"activities\">Übersicht der Aktivitäten</h2>\n"
 
 #. type: Plain text
 msgid "To access your windows and applications you can either:"
@@ -81,14 +80,12 @@ msgid "Throw your mouse pointer to the top-left hot corner."
 msgstr ""
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid ""
 "Press the <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link=\"no\" "
 "alt=\"\"]]) key on your keyboard."
 msgstr ""
-"Klicken Sie auf die Schaltfläche <span class=\"bold\">[[!img lib/network-"
-"wireless-encrypted.png alt=\"\" class=\"symbolic\" link=\"no\"]]</span>\n"
-"im Systemmenü, um den Bildschirm mit einem Passwort zu sperren.\n"
+"Drücken Sie die <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link="
+"\"no\" alt=\"\"]])-Taste auf Ihrer Tastatur."
 
 #. type: Plain text
 msgid ""
@@ -100,10 +97,9 @@ msgstr ""
 "beginnen."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"applications\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"applications\">Applications menu</h2>\n"
-msgstr "<a id=\"applications\"></a>\n"
+msgstr "<h2 id=\"applications\">Anwendungsmenü</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -222,16 +218,15 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<p>To learn about the many keyboard shortcuts in GNOME,\n"
 "open the <i>Settings</i> utility and choose\n"
 "<b>Keyboard Shortcuts</b>.</p>\n"
 msgstr ""
-"<p>Um mehr über die zahlreichen Tastaturkürzel in GNOME zu lernen, klicken Sie\n"
-"in den <span class=\"guilabel\">Systemeinstellungen</span> auf\n"
-"<span class=\"guilabel\">Tastatur</span> und öffnen Sie den Reiter\n"
-"<span class=\"guilabel\">Tastaturkürzel</span>.</p>\n"
+"<p>Um mehr über die vielen Tastenkürzel in GNOME zu erfahren,\n"
+"öffnen Sie das <i>Einstellungen</i>-Dienstprogramm und wählen\n"
+"<b>Tastenkürzel</b>.</p>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -270,10 +265,9 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"favorites\"></a>\n"
+#, no-wrap
 msgid "<h3 id=\"favorites\">Favorites submenu</h3>\n"
-msgstr "<a id=\"favorites\"></a>\n"
+msgstr "<h3 id=\"favorites\">Untermenü Favoriten</h3>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -505,10 +499,9 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"places\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"places\">Places menu</h2>\n"
-msgstr "<a id=\"places\"></a>\n"
+msgstr "<h2 id=\"places\">Places Menü</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -533,7 +526,11 @@ msgstr "Status und Kanäle von Tor\n"
 
 #. type: Plain text
 msgid ""
-"The Tor status icon and *Onion Circuits* allow you to view the status of Tor."
+"The Tor status icon ([[!img lib/symbolic/tor-disconnected.png alt=\"Tor "
+"status menu\" link=\"no\" class=\"symbolic\"]] or [[!img lib/symbolic/tor-"
+"connected.png alt=\"Tor status menu\" link=\"no\" class=\"symbolic\"]]) "
+"provides a shortcut to *Onion Circuits*, which allows you to manage the Tor "
+"circuits being used by Tails."
 msgstr ""
 
 #. type: Plain text

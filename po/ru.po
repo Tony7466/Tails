@@ -47,8 +47,9 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-09-06 08:05+0000\n"
-"Last-Translator: xXx <xxx_xxx_xxxxxxxxx@mail.ru>\n"
+"PO-Revision-Date: 2023-11-05 18:33+0000\n"
+"Last-Translator: \"Bucket B. Bucketman\" <healtheries_deceptions@simplelogin."
+"com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/tor/tails-gui/ru/"
 ">\n"
 "Language: ru\n"
@@ -58,7 +59,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -132,7 +133,7 @@ msgstr ""
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:224
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:242
 msgid "Create Persistent Storage"
-msgstr "Создание постоянного хранилища"
+msgstr "Создать Постоянное хранилище"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:86
 msgid "Creating your persistent storage failed."
@@ -324,7 +325,7 @@ msgstr ""
 "При перезагрузке Tails все данные Electrum будут потеряны, включая ваш "
 "кошелек Bitcoin.\n"
 "Настоятельно рекомендуется запускать Electrum только при активной функции "
-"сохранения."
+"его сохранения в Постоянном хранилище."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:160
 msgid "Do you want to start Electrum anyway?"
@@ -474,10 +475,10 @@ msgid ""
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/"
 "upgrade/error/check.en.html"
 msgstr ""
-"<b>Ошибка проверки обновлений, на нашем сайте.</b>\n"
+"<b>Невозможно определить, доступно ли обновление с нашего сайта.</b>\n"
 "\n"
-"Проверьте соединение с сетью и перезапустите Tails. После, еще раз проверьте "
-"обновления.\n"
+"Проверьте интернет-соединение и перезапустите Tails, чтобы попробовать "
+"вновь.\n"
 "\n"
 "Если проблема не устранена, тогда перейдите по ссылке file:///usr/share/doc/"
 "tails/website/doc/upgrade/error/check.en.html"
@@ -487,10 +488,9 @@ msgid "no automatic upgrade is available from our website for this version"
 msgstr "для этой версии недоступно автоматическое обновление с нашего сайта"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-#, fuzzy
 msgid "your device was not created using a USB image or Tails Cloner"
 msgstr ""
-"ваше устройство не было создано с помощью USB-образа или инсталлятора Tails"
+"ваше устройство не было создано с помощью USB-образа или Клонировщика Tails"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
 msgid "Tails was started from a DVD or a read-only device"
@@ -624,7 +624,7 @@ msgstr "Доступна новая версия"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:609
 msgid "Downloading upgrade"
-msgstr "Идет загрузка обновления"
+msgstr "Идёт загрузка обновления"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:611
 #, perl-brace-format
@@ -638,7 +638,7 @@ msgid ""
 "persists, go to file:///usr/share/doc/tails/website/doc/upgrade/error/"
 "download.en.html"
 msgstr ""
-"<b>Обновление не может быть загружено.</b>\\n\\nПроверьте сеть, и "
+"<b>Обновление не может быть загружено.</b>\\n\\nПроверьте сеть и "
 "перезапустите Tails, чтобы попытаться обновить еще раз.\\n\\nЕсли проблема "
 "сохранится, смотрите file:///usr/share/doc/tails/website/doc/upgrade/error/"
 "download.en.html"
@@ -809,7 +809,7 @@ msgstr "_Интернет-соединение"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:323
 msgid "Obsolete"
-msgstr "Устаревшее"
+msgstr "Устарело"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:338
 msgid "_Unsafe Browser"
@@ -1151,9 +1151,8 @@ msgstr "Ошибка установки Tails!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-#, fuzzy
 msgid "Tails Cloner"
-msgstr "Установщик Tails"
+msgstr "Клонировщик Tails"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
@@ -1852,7 +1851,7 @@ msgstr "Статус Tor"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:46
 msgid "Open Onion Circuits"
-msgstr "Открытые схемы луковицы"
+msgstr "Открыть цепочки Tor"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:315
 #, python-brace-format
@@ -2081,9 +2080,8 @@ msgid "_Delete Persistent Storage"
 msgstr "_Удалить Постоянное хранилище"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "Удаление вашего Постоянного хранилища"
+msgstr "Удаление вашего Постоянного хранилища..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
@@ -2565,7 +2563,7 @@ msgid ""
 "Configure which files and application configuration are saved between "
 "working sessions"
 msgstr ""
-"Настройте какие файли и конфигурации приложений будут сохранены между "
+"Настройте, какие файлы и конфигурации приложений будут сохранены между "
 "рабочими сессиями"
 
 #: ../config/chroot_local-includes/usr/share/applications/root-terminal.desktop.in.h:1
@@ -2602,7 +2600,7 @@ msgstr "Установить, дублировать, обновить Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tca.desktop.in.h:2
 msgid "Connect Tails to the Tor network"
-msgstr "Подключить Tails к сети Сеть Tor"
+msgstr "Подключить Tails к сети Tor"
 
 #: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:1
 msgid "Tor Browser"
@@ -2614,7 +2612,7 @@ msgstr "Анонимный веб-браузер"
 
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:2
 msgid "Browse the World Wide Web without anonymity"
-msgstr "Работа в интернете без соблюдения анонимности"
+msgstr "Просматривайте Всемирную Сеть без анонимности"
 
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:3
 msgid "Unsafe Web Browser"
@@ -2622,7 +2620,7 @@ msgstr "Небезопасный браузер"
 
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
 msgid "Mount VeraCrypt encrypted file containers and devices"
-msgstr "Зашифрованные контейнеры файлов и устройства Mount VeraCrypt"
+msgstr "Монтируйте зашифрованные файловые контейнеры и устройства VeraCrypt"
 
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:2
 msgid ""

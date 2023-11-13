@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-07-29 17:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-09 10:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -30,12 +30,19 @@ msgid ""
 "spying on the content of other tabs and steal the passwords of other "
 "websites."
 msgstr ""
+"S'ha descobert una vulnerabilitat de seguretat al mecanisme de sandboxing de "
+"*Firefox* i del *Navegador Tor*. Aquesta vulnerabilitat permet que un lloc "
+"web maliciós salti part del confinament construït a *Firefox*, la qual cosa "
+"significa possiblement espiar el contingut d'altres pestanyes i robar les "
+"contrasenyes d'altres llocs web."
 
 #. type: Plain text
 msgid ""
 "After *Tor Browser* has been compromised, the only reliable solution is to "
 "restart Tails."
 msgstr ""
+"Després que el *Navegador Tor* s'hagi compromès, l'única solució fiable és "
+"reiniciar Tails."
 
 #. type: Plain text
 msgid ""
@@ -46,20 +53,28 @@ msgid ""
 "files in the *Tor Browser* and *Persistent/Tor Browser* folders but not "
 "anywhere else."
 msgstr ""
+"Com que el *Navegador Tor* a Tails està [[confinat amb *AppArmor*|doc/"
+"anonymous_internet/Tor_Browser#confinement]], només les dades a les quals es "
+"pot accedir el *Navegador Tor* poden estar compromeses, però no les altres "
+"aplicacions ni els altres fitxers. Per exemple, un *Navegador Tor* compromès "
+"pot accedir als vostres fitxers a les carpetes *Navegador Tor* i *Persistent/"
+"Navegador Tor*, però no en cap altre lloc."
 
 #. type: Plain text
 msgid "For example, without restarting Tails:"
-msgstr ""
+msgstr "Per exemple, sense reiniciar Tails:"
 
 #. type: Plain text
 msgid "- It is unsafe to:"
-msgstr ""
+msgstr "- No és segur:"
 
 #. type: Bullet: '  - '
 msgid ""
 "Log in to a website and also visit an untrusted website.  Your password on "
 "the first website might be stolen by the untrusted website."
 msgstr ""
+"Iniciar sessió en un lloc web i també visitar un lloc web no fiable. La "
+"vostra contrasenya del primer lloc web pot ser robada pel lloc web no fiable."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -67,10 +82,13 @@ msgid ""
 "*Persistent/Tor Browser* folder. The untrusted website might access these "
 "files."
 msgstr ""
+"Visitar un lloc web no fiable si teniu informació confidencial emmagatzemada "
+"a la vostra carpeta *Persistent/Navegador Tor*. El lloc web no fiable pot "
+"accedir a aquests fitxers."
 
 #. type: Plain text
 msgid "- It is safe to:"
-msgstr ""
+msgstr "- És segur:"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -78,8 +96,13 @@ msgid ""
 "information stored in your *Tor Browser* and *Persistent/Tor Browser* "
 "folders."
 msgstr ""
+"Visiteu llocs web no fiables, sense iniciar sessió, si no teniu informació "
+"sensible emmagatzemada a les carpetes *Navegador Tor* i *Persistent/"
+"Navegador Tor*."
 
 #. type: Bullet: '  - '
 msgid ""
 "Log in to several trusted websites without visiting any untrusted websites."
 msgstr ""
+"Iniciar sessió en diversos llocs web de confiança sense visitar cap lloc web "
+"no fiable."

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-07-02 11:34+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-12 18:14+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -19,14 +19,18 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!meta title=\"Making a backup of your Persistent Storage\"]]\n"
-msgstr "[[!meta title=\"Beständige Daten händisch auf einen neuen USB-Stick kopieren\"]]\n"
+msgstr ""
+"[[!meta title=\"Erstellen einer Sicherungskopie Ihres dauerhaften Speichers\""
+"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<!-- XXX: These instructions should be kept in sync with rescue.mdwn -->\n"
 msgstr ""
+"<!-- XXX: Diese Anweisungen sollten mit rescue.mdwn synchronisiert werden -->"
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -47,9 +51,10 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"creating\">Creating a new backup Tails USB stick</h1>\n"
-msgstr "Erstellen Sie einen neuen USB-Stick\n"
+msgstr ""
+"<h1 id=\"creating\">Erstellen eines neuen Backup-Tails-USB-Sticks</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -59,11 +64,8 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid "When starting Tails, unlock your Persistent Storage."
-msgstr ""
-"[[!meta title=\"Beständige Daten händisch auf einen neuen USB-Stick "
-"kopieren\"]]\n"
+msgstr "Beim Starten von Tails entsperren Sie Ihren Persistenzspeicher."
 
 #. type: Bullet: '1. '
 #, fuzzy
@@ -129,10 +131,9 @@ msgid "   Cloning takes a few minutes.\n"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<div class=\"bug\">\n"
+#, no-wrap
 msgid "   <div class=\"bug\">\n"
-msgstr "<div class=\"bug\">\n"
+msgstr "   <div class=\"bug\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -147,9 +148,9 @@ msgid "   </div>\n"
 msgstr "   </div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"updating\">Updating your backup</h1>\n"
-msgstr "Erstellen Sie einen neuen USB-Stick\n"
+msgstr "<h1 id=\"updating\">Ihr Backup aktualisieren</h1>\n"
 
 #. type: Bullet: '1. '
 msgid "Start on your current Tails and unlock the Persistent Storage."
@@ -160,7 +161,7 @@ msgid "Plug in your backup Tails USB stick."
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
@@ -171,10 +172,9 @@ msgstr ""
 "1. Wählen Sie\n"
 "   <span class=\"menuchoice\">\n"
 "     <span class=\"guimenu\">Anwendungen</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Hilfsprogramme</span>&nbsp;▸\n"
-"     <span class=\"guimenuitem\">Laufwerke</span>\n"
-"   </span>\n"
-"   um <span class=\"application\">GNOME Laufwerke</span> zu starten.\n"
+"     <span class=\"guisubmenu\">Systemwerkzeuge</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">Persistente Speicherung "
+"sichern</span></span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -238,10 +238,11 @@ msgstr ""
 "persönlichen Dateien zu reparieren:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<p class=\"pre command root\">rsync -PaSHAXv --del /live/persistence/TailsData_unlocked/ /media/amnesia/TailsData/</p>\n"
+#, no-wrap
 msgid "       rsync -PaSHAXv --del /live/persistence/TailsData_unlocked/ /media/amnesia/TailsData\n"
-msgstr "<p class=\"pre command root\">rsync -PaSHAXv --del /live/persistence/TailsData_unlocked/ /media/amnesia/TailsData/</p>\n"
+msgstr ""
+"       rsync -PaSHAXv --del /live/persistence/TailsData_unlocked/ /media/"
+"amnesia/TailsData\n"
 
 #. type: Plain text
 #, no-wrap
@@ -251,20 +252,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<pre>\n"
-#| "sent 32.32M bytes  received 1.69K bytes  21.55M bytes/sec\n"
-#| "total size is 32.30M  speedup is 1.00\n"
-#| "</pre>\n"
+#, no-wrap
 msgid ""
 "       sent 32.32M bytes  received 1.69K bytes  21.55M bytes/sec\n"
 "       total size is 32.30M  speedup is 1.00\n"
 msgstr ""
-"<pre>\n"
-"sent 32.32M bytes  received 1.69K bytes  21.55M bytes/sec\n"
-"total size is 32.30M  speedup is 1.00\n"
-"</pre>\n"
+"       sent 32.32M bytes  received 1.69K bytes  21.55M bytes/sec\n"
+"       total size is 32.30M  speedup is 1.00\n"
 
 #, fuzzy
 #~ msgid "Create a new Tails to store your backup"

@@ -3,24 +3,28 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-01-30 12:40+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-11-03 15:11+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 msgid ""
 "To uninstall Tails from a USB stick, and use it for something else, you have "
 "to reset it."
 msgstr ""
+"Per desinstal·lar Tails d'un llapis USB i utilitzar-lo per a una altra cosa, "
+"l'heu de reinicialitzar."
 
 #. type: Plain text
 #, no-wrap
@@ -31,3 +35,12 @@ msgid ""
 "[[securely clean all the available disk space|encryption_and_privacy/secure_deletion#usb_and_ssd]]\n"
 "afterwards.\n"
 msgstr ""
+"**El contingut del llapis USB es perdrà durant l'operació,** però un "
+"atacant\n"
+"potser encara pot veure que Tails s'ha instal·lat en aquest llapis USB fent "
+"servir\n"
+"[[tècniques de recuperació de dades|encryption_and_privacy/secure_deletion]] "
+"tret que\n"
+"[[netegeu de forma segura tot l'espai disponible en disc|"
+"encryption_and_privacy/secure_deletion#usb_and_ssd]]\n"
+"després.\n"

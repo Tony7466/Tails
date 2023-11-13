@@ -1,6 +1,6 @@
-[[!meta  title="Tails report for February, 2019"]]
-[[!meta  date="Sun, 10 Mar 2019 09:00:00 +0000"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!meta title="Tails report for February, 2019"]]
+[[!meta date="Sun, 10 Mar 2019 09:00:00 +0000"]]
+[[!pagetemplate template="news.tmpl"]]
 
 Here is a summary of what happened in Tails land in February, 2019.
 
