@@ -77,9 +77,17 @@ def get_attachments(msg) -> List[str]:
     return attachments
 
 
+def markdown_to_html(body: str) -> str:
+    # Having import inside a function is a simple way of having optional dependencies
+    import markdown
+    html = markdown.markdown(body)
+    return html
+
+
 def mailer_thunderbird(body: str):
     msg, body = parse(body)
     spec = []
+    html = msg.get('Content-Type', 'text/plain') == 'text/html'
     for key in ["to", "cc", "subject"]:
         if key in msg:
             spec.append(f"{key}='{msg[key]}'")
@@ -87,12 +95,15 @@ def mailer_thunderbird(body: str):
     if attachments:
         spec.append("attachment='%s'" % ",".join(attachments))
 
+    if html:
+        body = markdown_to_html(body)
+
     thunderbird_cmd = read_config().get('thunderbird_cmd', ['thunderbird'])
     with tempfile.TemporaryDirectory() as tmpdir:
         fpath = Path(tmpdir) / "email.eml"
         with fpath.open("w") as fp:
             fp.write(body)
-        spec.append("format=text")
+        spec.append("format=%s" % ("html" if html else "text"))
         spec.append(f"message={fpath}")
         cmdline = thunderbird_cmd + ["-compose", ",".join(spec)]
         subprocess.check_output(cmdline)
