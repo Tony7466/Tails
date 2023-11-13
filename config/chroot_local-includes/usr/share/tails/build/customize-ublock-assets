@@ -1,0 +1,45 @@
+#!/usr/bin/python3
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Customize uBlock blocklists")
+    parser.add_argument(
+        "--input-file",
+        type=str,
+        action="store",
+        required=True,
+        help="Input uBlock assets.json file",
+    )
+    parser.add_argument(
+        "--output-file",
+        type=str,
+        action="store",
+        required=True,
+        help="Output uBlock assets.json file",
+    )
+    args = parser.parse_args()
+
+    with Path(args.input_file).open(encoding="utf-8") as input_fd:
+        orig_assets = json.load(input_fd)
+
+    # Filter out per-region/language additional blocklists (tails#20022),
+    # so that all Tails users share a unique uBlock fingerprint.
+    new_assets = {
+        k: v for (k, v) in orig_assets.items() if v.get("group", "none") != "regions"
+    }
+
+    if len(new_assets) >= len(orig_assets):
+        print("Failed to filter out assets", file=sys.stderr)
+        sys.exit(1)
+
+    with Path(args.output_file).open("w", encoding="utf8") as output_fd:
+        json.dump(new_assets, output_fd, indent="\t", ensure_ascii=False)
+
+
+if __name__ == "__main__":
+    main()
