@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-11-16 11:13+0100\n"
-"PO-Revision-Date: 2023-11-05 00:12+0000\n"
+"PO-Revision-Date: 2023-11-13 15:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -25,7 +25,7 @@ msgstr "[[!meta date=\"Wed, 11 Nov 2020 21:15:09 +0000\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"JavaScript vulnerability in Tor Browser\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Vulnerabilitat de JavaScript al Navegador Tor\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,6 +43,9 @@ msgid ""
 "mfsa2020-49/)  was discovered in the JavaScript engine of *Firefox* and *Tor "
 "Browser*."
 msgstr ""
+"Es va descobrir una [vulnerabilitat crítica](https://www.mozilla.org/en-US/"
+"security/advisories/mfsa2020-49/) al motor de JavaScript de *Firefox* i del *"
+"Navegador Tor*."
 
 #. type: Plain text
 msgid ""
@@ -50,6 +53,10 @@ msgid ""
 "level of *Tor Browser*|doc/anonymous_internet/Tor_Browser#security-level]] "
 "to *Safer* or *Safest*."
 msgstr ""
+"Fins a Tails 4.13 (17 de novembre), recomanem a tots els usuaris que "
+"estableixin el [[nivell de seguretat del *Navegador Tor*|doc/"
+"anonymous_internet/Tor_Browser#security-level]] a *Més segur* o *Seguretat "
+"màxima*."
 
 #. type: Plain text
 msgid ""
@@ -57,10 +64,14 @@ msgid ""
 "Cybersecurity Contest](http://www.tianfucup.com/). The details of the "
 "vulnerability were not disclosed."
 msgstr ""
+"Aquesta vulnerabilitat es va descobrir durant el [Concurs Internacional de "
+"Ciberseguretat de la Copa Tianfu 2020](http://www.tianfucup.com/). No es van "
+"revelar els detalls de la vulnerabilitat."
 
 #. type: Plain text
 msgid "We are not aware of any use of this vulnerability against actual users."
 msgstr ""
+"No som conscients de cap ús d'aquesta vulnerabilitat contra usuaris reals."
 
 #. type: Plain text
 #, no-wrap
@@ -69,28 +80,40 @@ msgid ""
 "because the feature of JavaScript that is affected, the *[[!wikipedia\n"
 "just-in-time compilation]]*, is disabled at these security levels.\n"
 msgstr ""
+"Els nivells de seguretat *Més segur* o *El més segur* del *Navegador Tor* no "
+"es veuen afectats\n"
+"perquè la característica de JavaScript que es veu afectada, la *[[!"
+"wikipedia\n"
+"just-in-time compilation desc=\"compilació just-in-time\"]]*, està "
+"desactivada en aquests nivells de seguretat.\n"
 
 #. type: Plain text
 msgid ""
 "Mozilla fixed this vulnerability in *Firefox* 78.4.1 and Tor fixed this "
 "vulnerability in *Tor Browser* 10.0.4."
 msgstr ""
+"Mozilla va solucionar aquesta vulnerabilitat a *Firefox* 78.4.1 i Tor la va "
+"solucionar al *Navegador Tor* 10.0.4."
 
 #. type: Plain text
 msgid "We decided not to release an emergency upgrade of Tails because:"
-msgstr ""
+msgstr "Vam decidir no publicar una actualització d'emergència de Tails perquè:"
 
 #. type: Bullet: '- '
 msgid ""
 "Tails 4.13 is already scheduled for November 17 and will fix this "
 "vulnerability."
 msgstr ""
+"Tails 4.13 ja està programat per al 17 de novembre i solucionarà aquesta "
+"vulnerabilitat."
 
 #. type: Bullet: '- '
 msgid ""
 "Our main release manager left the team recently and we have very limited "
 "staffpower right now."
 msgstr ""
+"El nostre director de llançament principal va deixar l'equip recentment i "
+"ara tenim un personal molt limitat."
 
 #. type: Bullet: '- '
 msgid ""
@@ -98,3 +121,6 @@ msgid ""
 "exploit, and we are not aware of any use of this vulnerability against "
 "actual users."
 msgstr ""
+"Els detalls de la vulnerabilitat no es van revelar, cosa que dificultava "
+"l'explotació, i no som conscients de cap ús d'aquesta vulnerabilitat contra "
+"usuaris reals."
