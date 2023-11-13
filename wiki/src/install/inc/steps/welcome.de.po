@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 10:54-0300\n"
-"PO-Revision-Date: 2023-10-10 13:12+0000\n"
+"PO-Revision-Date: 2023-11-12 18:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -40,17 +40,19 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"wi-fi\">Test your Wi-Fi</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"wi-fi\">Ihr WLAN testen</h2>\n"
 
 #. type: Plain text
 msgid ""
 "Problems with Wi-Fi are unfortunately quite common in Tails and Linux in "
 "general. To test if your Wi-Fi interface works in Tails:"
 msgstr ""
+"Probleme mit Wi-Fi sind in Tails und im Allgemeinen unter Linux leider recht "
+"häufig. Um zu testen, ob Ihre Wi-Fi-Schnittstelle in Tails funktioniert:"
 
 #. type: Bullet: '1. '
 msgid "Open the system menu in the top-right corner:"
-msgstr ""
+msgstr "Klicken Sie auf das Systemmenü in der oberen rechten Ecke:"
 
 #. type: Plain text
 #, no-wrap
@@ -68,6 +70,9 @@ msgid ""
 "After establishing a connection to a local network, the *Tor Connection* "
 "assistant appears to help you connect to the Tor network."
 msgstr ""
+"Nachdem eine Verbidung zu einem Lokalen Netzwerk hergestellt wurde, "
+"erscheint der Assistent für die *Tor-Verbindung* um dir zu helfen, dich mit "
+"dem Tor-Netzwerk zu verbinden."
 
 #. type: Plain text
 #, no-wrap
@@ -105,11 +110,15 @@ msgid ""
 "<div>\n"
 "  <p class=\"big\">You made it!</p>\n"
 msgstr ""
+"<div>\n"
+"  <p class=\"big\">Sie haben es geschafft!</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p>You managed to start <span class=\"pc-clone mac-clone\">your new</span> Tails on your computer!</p>\n"
 msgstr ""
+"  <p>Du hast es geschafft <span class=\"pc-clone mac-clone\">dein neues</"
+"span> Tails auf deinem Computer zu starten!</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -122,9 +131,11 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"create-persistence\" class=\"step\">Create a Persistent Storage (optional)</h1>\n"
-msgstr "<h1 id=\"create-persistence\">Erstellen Sie einen verschlüsselten beständigen Speicherbereich (optional)</h1>\n"
+msgstr ""
+"<h1 id=\"create-persistence\" class=\"step\">Erstellen Sie einen "
+"verschlüsselten beständigen Speicherbereich (optional)</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -134,18 +145,17 @@ msgstr ""
 "persistence.png link=\"no\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "You can optionally create an encrypted Persistent Storage in the\n"
 "remaining free space on your\n"
 "<span class=\"clone\">new</span>\n"
 "Tails USB stick to store any of the following:\n"
 msgstr ""
-"Sie können optional einen *verschlüsselten beständigen Speicherbereich*\n"
-"in dem verbleibenden, freien Speicherplatz auf dem\n"
-"<span class=\"windows linux mac-usb\">endgültigen</span>\n"
+"Sie können optional einen verschlüsselten dauerhaften Speicher im\n"
+"verbleibenden freien Speicherplatz auf Ihrem\n"
 "<span class=\"clone\">neuen</span>\n"
-"USB-Stick mit Tails erstellen, um etwas von den folgenden Dingen zu sichern:\n"
+"Tails USB-Stick erstellen, um eines der Folgenden zu speichern:\n"
 
 #. type: Bullet: '  - '
 msgid "Personal files"
@@ -157,12 +167,11 @@ msgstr "Einstellungen"
 
 #. type: Bullet: '  - '
 msgid "Additional software"
-msgstr "zusätzliche Programme"
+msgstr "Zusätzliche Programme"
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid "Encryption keys"
-msgstr "Ihre Schlüssel für Verschlüsselung"
+msgstr "Verschlüsselungsschlüssel"
 
 #. type: Plain text
 #, fuzzy
@@ -232,9 +241,9 @@ msgstr ""
 "Informationen umzugehen oder keine Spuren zu hinterlassen.</p>\n"
 
 #. type: Title -
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Create the Persistent Storage"
-msgstr "Erstellen Sie den beständigen Speicherbereich\n"
+msgstr "Erstellen Sie den beständigen Speicherbereich"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -331,20 +340,17 @@ msgid "Click <span class=\"bold\">Save</span>."
 msgstr "Klicken Sie auf <span class=\"bold\">Speichern</span>."
 
 #. type: Title -
-#, fuzzy, no-wrap
-#| msgid "Restart and activate the persistent storage\n"
+#, no-wrap
 msgid "Restart and unlock the Persistent Storage"
-msgstr "Starten Sie neu und aktivieren Sie den beständigen Speicherbereich\n"
+msgstr "Starten Sie neu und aktivieren Sie den beständigen Speicherbereich"
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid ""
 "Shut down the computer and restart on your <span class=\"clone\">new</span> "
 "Tails USB stick."
 msgstr ""
-"Fahren Sie den Computer herunter und starten Sie mit dem <span class="
-"\"windows linux mac-usb\">endgültigen</span> <span class=\"clone\">neuen</"
-"span> USB-Stick mit Tails neu."
+"Schalten Sie den Computer aus und starten Sie neu auf Ihrem <span class="
+"\"clone\">neuen</span> Tails USB-Stick."
 
 #. type: Bullet: '1. '
 msgid "In the Welcome Screen:"

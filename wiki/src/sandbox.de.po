@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2022-12-20 01:06+0000\n"
-"Last-Translator: Hefee <hefee@debian.org>\n"
+"PO-Revision-Date: 2023-11-10 22:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: None\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -85,10 +85,8 @@ msgid "And another.."
 msgstr "Und noch einer ..."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Bulleted list"
 msgid "Bulleted list:"
-msgstr "Einfache Aufzählung"
+msgstr "Aufzählungsliste:"
 
 #. type: Bullet: '* '
 msgid "*item*"
@@ -112,7 +110,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "Internal:"
-msgstr ""
+msgstr "Intern:"
 
 #. type: Bullet: '* '
 msgid "<http://tails.net/bla>"
@@ -148,10 +146,8 @@ msgid "Heading level 2"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Another."
 msgid "Another test!"
-msgstr "Noch einer."
+msgstr "Ein anderer Text!"
 
 #, no-wrap
 #~ msgid ""

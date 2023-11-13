@@ -398,23 +398,17 @@ If `lint_po` complains:
 * send a note to <tails-l10n@boum.org> [public] so that they get in touch with
   whoever can fix them.
 
-Check if the previous commit added a PO file for a new locale:
 
-    (
-     headcommit=$(git show-ref HEAD)
-     git ls-files po/ |
-     while read f
-     do
-       git log '--pretty=format:%H' --diff-filter=A --decorate=short | head -n1 | grep -qw "${headcommit}" && echo $f
-     done
-    )
+Regenerate the localization list:
 
-Then check the `git log --stat` manually as well: shell snippet above does not
-spot new PO files that Git believes have been renamed from removed ones.
+    ./bin/locale-descriptions generate > config/chroot_local-includes/usr/share/tails/browser-localization/descriptions
 
-If any locale was added, add it to
-`config/chroot_local-includes/usr/share/tails/browser-localization/descriptions`
-(in the `MOZILLA_LOCALE:LOCATION` format).
+Take a look at error lines that are suggesting you to add more languages to `po/po-to-mozilla.toml`. Copy-paste everything into a new issue (title: `Update mozilla locale descriptions`, content: `https://tails.net/contribute/release_process/update_locale_descriptions/` ) and move on.
+
+Manually inspect the diffs:
+
+    git diff config/chroot_local-includes/usr/share/tails/browser-localization/descriptions
+
 
 # If preparing a final release
 
@@ -2224,7 +2218,7 @@ Check that you are indeed preparing a final release:
           - Monday, XXX: build images, start testing
           - Tuesday, XXX: releasing
 
-         @testers, please let me know how much time you'll have for manual QA 
+         @testers, please let the RM know how much time you'll have for manual QA
          from Monday 17:00 to Tuesday 11:00 (Europe/Berlin)
          EOF
 

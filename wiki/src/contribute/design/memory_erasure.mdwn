@@ -123,8 +123,8 @@ available for Tails.
 #### Obsolete approaches
 
 The initial implementation of the Tails memory erasure feature
-suffered from flaws that were demonstrated by [[external
-audit|security/audits/Blackhat_De-Anonymizing_Live_CDs]]. In short, it
+suffered from flaws that were demonstrated by [external
+audit](https://www.blackhat.com/html/bh-dc-11/bh-dc-11-archives.html#Case). In short, it
 only erased free memory and let data in the union filesystem read-write branch in
 recoverable state.
 

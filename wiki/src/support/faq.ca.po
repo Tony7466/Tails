@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-10-22 09:27+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"POT-Creation-Date: 2023-10-31 09:58+0100\n"
+"PO-Revision-Date: 2023-11-11 10:11+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Frequently asked questions\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Preguntes més freqüents\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -30,6 +30,12 @@ msgid ""
 "[[documentation|doc]].  - For questions related to Tor, see also to the [Tor "
 "support pages](https://support.torproject.org/)."
 msgstr ""
+"- Per a problemes de compatibilitat de maquinari, consulteu els nostres [["
+"problemes coneguts|support/known_issues]].\n"
+"- Per saber què podeu fer amb Tails, consulteu la nostra "
+"[[documentació|doc]].\n"
+"- Per a preguntes relacionades amb Tor, consulteu també les [pàgines "
+"d'assistència de Tor](https://support.torproject.org/) (en anglès)."
 
 #. type: Plain text
 #, no-wrap
@@ -44,18 +50,22 @@ msgstr "<h1 id=\"project\">Projecte Tails</h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"tor\">What is the relationship between Tor and Tails?</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"tor\">Quina relació hi ha entre Tor i Tails?</h2>\n"
 
 #. type: Plain text
 msgid ""
 "See our explanation about [[why does Tails use Tor|doc/anonymous_internet/"
 "tor/why#relationship]]."
 msgstr ""
+"Vegeu la nostra explicació sobre [[per què Tails utilitza Tor|doc/"
+"anonymous_internet/tor/why#relationship]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"debian\">Why is Tails based on Debian and not on another distribution?</h2>\n"
 msgstr ""
+"<h2 id=\"debian\">Per què Tails es basa en Debian i no en una altra "
+"distribució?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -616,6 +626,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+msgid ""
+"Still, you can close a given circuit and trigger Tor to create a new one "
+"using the [[New Circuit for this Site|doc/anonymous_internet/Tor_Browser]] "
+"button of *Tor Browser* or the [[*Onion Circuits*|doc/anonymous_internet/tor/"
+"circuits]] utility."
+msgstr ""
+
+#. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"dns\">How does the DNS resolution work in Tails?</h2>\n"
 msgstr ""
@@ -872,6 +890,7 @@ msgstr ""
 #, no-wrap
 msgid "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
 msgstr ""
+"    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
 
 #. type: Plain text
 #, no-wrap

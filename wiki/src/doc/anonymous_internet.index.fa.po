@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-01-27 18:26+0100\n"
+"POT-Creation-Date: 2023-10-31 09:58+0100\n"
 "PO-Revision-Date: 2015-10-25 17:46+0000\n"
 "Last-Translator: sprint5 <translation5@451f.org>\n"
 "Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/"
@@ -72,7 +72,7 @@ msgstr "[[!traillink چرا_تور_کند_است؟|anonymous_internet/why_tor_is
 
 #. type: Bullet: '  - '
 #, fuzzy
-msgid "[[Viewing the circuits of Tor|anonymous_internet/tor/circuits]]"
+msgid "[[Managing the circuits of Tor|anonymous_internet/tor/circuits]]"
 msgstr ""
 "[[!traillink وب‌گردی_با_<span_class=\"application\">مرورگر_تور</span>|"
 "anonymous_internet/tor_browser]]"

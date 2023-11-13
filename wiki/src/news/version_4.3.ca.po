@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-10-22 12:11+0000\n"
+"PO-Revision-Date: 2023-11-12 22:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -51,7 +51,7 @@ msgstr "[[!toc levels=1]]\n"
 #. type: Title #
 #, no-wrap
 msgid "New features"
-msgstr ""
+msgstr "Noves funcionalitats"
 
 #. type: Bullet: '- '
 msgid ""
@@ -62,7 +62,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Changes and updates"
-msgstr ""
+msgstr "Canvis i actualitzacions"
 
 #. type: Plain text
 msgid ""
@@ -130,7 +130,7 @@ msgstr "Cap específic d'aquesta versió."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
 
 #. type: Title #
 #, no-wrap
@@ -141,6 +141,8 @@ msgstr "Obtenir Tails 4.3"
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from 4.2 and 4.2.2 to 4.3."
@@ -151,37 +153,42 @@ msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per instal·lar Tails en un nou llapis USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"caution\"><p>All the data on this USB stick will be lost.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>Totes les dades d'aquest llapis USB es "
+"perdran.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Per només baixar"
 
 #. type: Plain text
 msgid ""
@@ -200,7 +207,7 @@ msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
 #. type: Title #
 #, no-wrap
 msgid "What's coming up?"
-msgstr ""
+msgstr "Què ve?"
 
 #. type: Plain text
 msgid "Tails 4.4 is [[scheduled|contribute/calendar]] for March 10."

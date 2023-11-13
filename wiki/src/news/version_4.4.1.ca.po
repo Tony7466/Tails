@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-10-22 12:11+0000\n"
+"PO-Revision-Date: 2023-11-09 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.4.1 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.4.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,10 +42,12 @@ msgid ""
 "This release is an emergency release to fix security vulnerabilities in *Tor "
 "Browser* and *Tor*."
 msgstr ""
+"Aquesta versió és una versió d'emergència per solucionar vulnerabilitats de "
+"seguretat al *Navegador Tor* i a *Tor*."
 
 #. type: Plain text
 msgid "You should upgrade as soon as possible."
-msgstr ""
+msgstr "Hauríeu d'actualitzar el més aviat possible."
 
 #. type: Plain text
 #, no-wrap
@@ -64,6 +66,10 @@ msgid ""
 "the *Safest* security level of Tor Browser|news/"
 "javascript_sometimes_enabled_in_safest]]."
 msgstr ""
+"S'ha actualitzat el *Navegador Tor* a la versió [9.0.7](https://blog."
+"torproject.org/new-release-tor-browser-907), cosa que impedeix que [[el "
+"JavaScript de vegades s'habiliti al nivell de seguretat *Més segur* del "
+"Navegador Tor|news/javascript_sometimes_enabled_in_safest]]."
 
 #. type: Bullet: '- '
 msgid ""
@@ -74,12 +80,21 @@ msgid ""
 "disrupting its operations for several seconds or minutes, and create "
 "patterns that could aid in traffic analysis."
 msgstr ""
+"S'ha actualitzat *Tor* a la versió [0.4.2.7](https://blog.torproject.org/new-"
+"releases-03510-0419-0427), que soluciona TROVE-2020-002, una vulnerabilitat "
+"important de denegació de servei que afecta tant els repetidors de Tor com "
+"els clients. Utilitzant aquesta vulnerabilitat, un atacant podria fer que "
+"Tor consumís una gran quantitat de CPU, interrompent les seves operacions "
+"durant uns quants segons o minuts, i crear patrons que podrien ajudar en "
+"l'anàlisi del trànsit."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [68.6.0](https://www.thunderbird.net/en-US/"
 "thunderbird/68.6.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [68.6.0](https://www.thunderbird"
+".net/en-US/thunderbird/68.6.0/releasenotes/)."
 
 #. type: Plain text
 #, no-wrap
@@ -97,7 +112,7 @@ msgstr "Cap específic d'aquesta versió."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
 
 #. type: Title #
 #, no-wrap
@@ -108,54 +123,65 @@ msgstr "Obtenir Tails 4.4.1"
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid ""
 "- Automatic upgrades are available from 4.2, 4.2.2, 4.3, and 4.4 to 4.4.1."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de les versions "
+"4.2, 4.2.2, 4.3 i 4.4 a la versió 4.4.1."
 
 #. type: Bullet: '- '
 msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per instal·lar Tails en un nou llapis USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"caution\"><p>All the data on this USB stick will be lost.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>Totes les dades d'aquest llapis USB es "
+"perdran.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Per només baixar"
 
 #. type: Plain text
 msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.4.1 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.4.1 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -168,11 +194,11 @@ msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
 #. type: Title #
 #, no-wrap
 msgid "What's coming up?"
-msgstr ""
+msgstr "Què ve?"
 
 #. type: Plain text
 msgid "Tails 4.5 is [[scheduled|contribute/calendar]] for April 7."
-msgstr ""
+msgstr "Tails 4.5 està [[programat|contribute/calendar]] per al 7 d'abril."
 
 #. type: Plain text
 #, no-wrap
@@ -181,3 +207,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.4.1\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.4.1\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"

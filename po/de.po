@@ -43,8 +43,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-07-27 10:04+0000\n"
-"Last-Translator: Pepe Nietnagel <asozial+weblate23@mailbox.org>\n"
+"PO-Revision-Date: 2023-11-12 12:00+0000\n"
+"Last-Translator: curtisb <curtisbaltimore@protonmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/tor/tails-gui/de/"
 ">\n"
 "Language: de\n"
@@ -52,7 +52,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -472,10 +472,9 @@ msgstr ""
 "Webseite zur Verfügung"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-#, fuzzy
 msgid "your device was not created using a USB image or Tails Cloner"
 msgstr ""
-"Dein Gerät wurde nicht mit einem USB-Image- oder Tails-Installer erstellt"
+"dein Gerät wurde nicht mit einem USB-Image- oder Tails-Installer erstellt"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
 msgid "Tails was started from a DVD or a read-only device"
@@ -836,9 +835,8 @@ msgid "Off (default)"
 msgstr "Aus (Standard)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:159
-#, fuzzy
 msgid "Persistent Storage Still Locked"
-msgstr "Beständiger Datenspeicher nicht entsperrt"
+msgstr "Beständiger Datenspeicher weiterhin gesperrt"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:160
 msgid ""
@@ -848,25 +846,25 @@ msgstr ""
 "entsperren?"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:162
-#, fuzzy
 msgid "Start Without Persistent Storage"
-msgstr "Weiter ohne beständigen Datenspeicher"
+msgstr "Start ohne beständigen Datenspeicher"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:101
 msgid "Error unlocking Persistent Storage: {}"
 msgstr "Fehler beim Entsperren des beständigen Datenspeichers: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
-#, fuzzy
 msgid "Error upgrading Persistent Storage: {}"
-msgstr "Fehler beim Entsperren des beständigen Datenspeichers: {}"
+msgstr "Fehler beim Aktualisieren des beständigen Datenspeichers: {}"
 
 #. Translators: Don't translate {features}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
-msgstr "Konfiguration des beständigen Datenspeichers ist fehlgeschlagen"
+msgstr ""
+"Konfiguration des beständigen Speicherbereichs ist fehlgeschlagen: "
+"{features}."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
 msgid "Error activating Persistent Storage: {}"
@@ -890,12 +888,11 @@ msgstr ""
 "werden."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:122
-#, fuzzy
 msgid ""
 "Failed to upgrade the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
-"Der beständige Datenspeicher konnte nicht aktiviert werden. Bitte starte "
+"Der beständige Datenspeicher konnte nicht aktualisiert werden. Bitte starte "
 "Tails und sende einen Fehlerbericht."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:127
@@ -919,11 +916,10 @@ msgid "Upgrading the Persistent Storage. This may take a while…"
 msgstr "Upgrade des Beständigen Datenspeichers. Dies kann eine Weile dauern…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:154
-#, fuzzy
 msgid "Start Tails and open the Persistent Storage settings to find out more."
 msgstr ""
-"Der beständige Datenspeicher konnte nicht entsperrt werden. Bitte starte "
-"Tails und sende einen Fehlerbericht."
+"Starte Tails öffne die Einstellungen des beständigen Datenspeichers, um mehr "
+"herauszufinden."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:190
 msgid "_Language"
@@ -1095,9 +1091,8 @@ msgid "Removing %(file)s"
 msgstr "Entferne %(file)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:964
-#, fuzzy
 msgid "Cloning Persistent Storage..."
-msgstr "Beständiger Datenspeicher"
+msgstr "Beständiger Datenspeicher…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1032
 #, python-format
@@ -1156,9 +1151,8 @@ msgstr "Tails-Installation fehlgeschlagen!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-#, fuzzy
 msgid "Tails Cloner"
-msgstr "Tails-Installationsprogramm"
+msgstr "Tails-Kloner"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
@@ -1212,9 +1206,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
-#, fuzzy
 msgid "Clone the current Persistent Storage"
-msgstr "Weiter ohne beständigen Datenspeicher"
+msgstr "Klone den beständigen Datenspeicher"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:493
 msgid ""
@@ -1918,6 +1911,11 @@ msgid ""
 "doesn't work, restart Tails and try deleting the Persistent Storage without "
 "unlocking it."
 msgstr ""
+"Der beständige Datenspeicher kann nicht ausgehängt werden, da er noch von "
+"einem Prozess verwendet wird. Bitte schließe alle Anwendungen, die darauf "
+"zugreifen könnten, und versuche es erneut. Wenn das nicht funktioniert, "
+"starte Tails neu und versuche, den beständigen Datenspeicher zu löschen, "
+"ohne ihn zu entsperren."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/configuration/binding.py:406
 #, python-brace-format
@@ -1925,6 +1923,9 @@ msgid ""
 "Can't unmount target {target}, some process is still using it. Please close "
 "all applications that could be accessing the target and try again."
 msgstr ""
+"Das Ziel {target} kann nicht ausgehängt werden, da es noch von einem Prozess "
+"verwendet wird. Bitte schließen Sie alle Anwendungen, die auf das Ziel "
+"zugreifen könnten, und versuche es erneut."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
@@ -1936,25 +1937,24 @@ msgid "Persistent Storage"
 msgstr "Beständiger Datenspeicher"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:46
-#, fuzzy
 msgid "Failed to start the Persistent Storage service"
-msgstr "Konfiguration des beständigen Datenspeichers ist fehlgeschlagen"
+msgstr ""
+"Start des Dienstes für den beständigen Datenspeicher ist fehlgeschlagen"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
 msgid "Could not find the WhisperBack application"
 msgstr "Konnte WhisperBack-Anwendung nicht finden"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:82
-#, fuzzy
 msgid "Delete Data…"
-msgstr "Entfernen"
+msgstr "Daten entfernen…"
 
 #. Translators: Don't translate {feature}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:88
 #, python-brace-format
 msgid "Delete {feature} data"
-msgstr ""
+msgstr "Lösche {feature} Daten"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:107
 msgid "Activation failed"
@@ -1962,27 +1962,25 @@ msgstr "Aktivierung fehlgeschlagen"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:163
 msgid "Activation failed. Try again or delete data."
-msgstr ""
+msgstr "Aktivierung fehlgeschlagen. Versuche es erneut oder lösche die Daten."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:165
 msgid "Activation failed. Try again."
-msgstr ""
+msgstr "Aktivierung fehlgeschlagen. Versuche es erneut."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:167
 msgid "The data of this feature is still saved."
-msgstr ""
+msgstr "Die Daten dieser Funktion werden weiterhin gespeichert."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:268
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:273
-#, fuzzy
 msgid "Error activating feature {}"
-msgstr "Fehler beim Aktivieren des beständigen Datenspeichers: {}"
+msgstr "Fehler beim Aktivieren der Funktion: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:311
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:316
-#, fuzzy
 msgid "Error deactivating feature {}"
-msgstr "Fehler beim Aktivieren des beständigen Datenspeichers: {}"
+msgstr "Fehler bei der Deaktivierung der Funktion: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:335
 msgid ""
@@ -1991,6 +1989,11 @@ msgid ""
 "\n"
 "If you cancel, the data will be restored when you turn this feature on again."
 msgstr ""
+"Alle Daten der Funktion {}, die im beständigen Datenspeicher gespeichert "
+"sind, löschen?\n"
+"\n"
+"Wenn du den Vorgang abbrichst, werden die Daten wiederhergestellt, wenn du "
+"diese Funktion wieder einschaltest."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
 msgid "_Delete Data"
@@ -1998,17 +2001,17 @@ msgstr "_Daten löschen"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:373
 msgid "Error deleting data of feature {}"
-msgstr ""
+msgstr "Fehler beim Löschen von Daten der Funktion {}"
 
 #. Translators: Don't translate {applications}, it's a placeholder
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:457
 #, python-brace-format
 msgid "Close {applications} to continue"
-msgstr ""
+msgstr "Schliesse {applications} um fortzufahren"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:458
 msgid " and "
-msgstr ""
+msgstr " und "
 
 #. Translators: Don't translate {app} and {pid}, they
 #. are placeholders.
@@ -2031,9 +2034,8 @@ msgid "Change Passphrase"
 msgstr "Passphrase ändern"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:85
-#, fuzzy
 msgid "The current passphrase is incorrect"
-msgstr "Passphrasen stimmen nicht überein"
+msgstr "Die aktuelle Passphrase ist falsch"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:94
 msgid "Changing the passphrase failed"
@@ -2092,15 +2094,17 @@ msgid "_Delete Persistent Storage"
 msgstr "_Beständigen Datenspeicher löschen"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "Beständiger Datenspeicher wird gelöscht"
+msgstr "Beständiger Datenspeicher wird gelöscht…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
 "To delete the Persistent Storage, restart Tails without unlocking the "
 "Persistent Storage and open the Persistent Storage settings again."
 msgstr ""
+"Um den beständigen Datenspeicher zu löschen, starte Tails neu, ohne den "
+"beständigen Datenspeicher zu entsperren und öffne die Einstellungen des "
+"beständigen Datenspeichers erneut."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:181
 msgid "_OK"
@@ -2110,6 +2114,8 @@ msgstr "_OK"
 msgid ""
 "Sorry, you can't close this app until the ongoing operation has completed."
 msgstr ""
+"Du kannst diese Anwendung leider nicht schließen, bevor der laufende Vorgang "
+"abgeschlossen ist."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
 msgid "Please wait"
@@ -2599,17 +2605,15 @@ msgid "Learn more about Tails"
 msgstr "Mehr über Tails erfahren"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:1
-#, fuzzy
 msgid "Back Up Persistent Storage"
-msgstr "Beständiger Datenspeicher"
+msgstr "Sicherung des beständigen Datenspeichers"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
-#, fuzzy
 msgid ""
 "Make a backup of the Tails Persistent Storage to another Tails USB stick"
 msgstr ""
 "Aktiviere die Funktionen des beständigen Datenspeichers für die Daten, die "
-"du auf deinem Tails-USB-Stick speichern möchtest."
+"du auf deinem Tails-USB-Stick speichern möchtest"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:2
 msgid "Install, clone, upgrade Tails"
@@ -2831,11 +2835,10 @@ msgstr ""
 "weiter."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:225
-#, fuzzy
 msgid "Create and configure a Persistent Storage after starting Tails"
 msgstr ""
 "Du kannst deinen beständigen Datenspeicher nach dem Start von Tails "
-"erstellen und konfigurieren."
+"erstellen und konfigurieren"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:279
 msgid "Language & Region"
@@ -3656,7 +3659,6 @@ msgstr ""
 "jemanden, der deine Internetverbindung überwacht, verdächtig aussehen könnte."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1499
-#, fuzzy
 msgid ""
 "Tails will only connect to Tor after you configured a Tor bridge. Bridges "
 "are secret Tor relays that hide that you are connecting to Tor.\n"
@@ -3676,7 +3678,7 @@ msgstr ""
 "Arten von Tor-Brücken mit Tor zu verbinden.\n"
 "\n"
 "Du musst extra konfigurieren, wenn du noch keine Tor-Brücken kennst, wenn du "
-"dich von einem öffentlichen Wi-Fi-Netzwerk aus verbindest oder wenn du dich "
+"dich von einem öffentlichen Wi-Fi-Netzwerk aus verbindest, oder wenn du dich "
 "in der östlichen Hemisphäre befindest."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1544

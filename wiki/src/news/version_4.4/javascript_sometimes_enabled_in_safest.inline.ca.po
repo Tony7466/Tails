@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-11-05 23:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -28,18 +28,25 @@ msgid ""
 "*Safest* [[security level of *Tor Browser*|doc/anonymous_internet/"
 "Tor_Browser#security-level]] in some situations."
 msgstr ""
+"Tor és conscient d'un problema tècnic que permet l'execució de JavaScript al "
+"[[nivell de seguretat més segur del *Navegador Tor*|doc/anonymous_internet/"
+"Tor_Browser#security-level]] en algunes situacions."
 
 #. type: Plain text
 msgid ""
 "Until then, do the following to completely disable JavaScript instead of "
 "setting the security level:"
 msgstr ""
+"Fins aleshores, feu el següent per desactivar completament el JavaScript en "
+"lloc d'establir el nivell de seguretat:"
 
 #. type: Bullet: '1. '
 msgid ""
 "Open the address <span class=\"command\">about:config</span> in *Tor "
 "Browser*."
 msgstr ""
+"Obriu l'adreça <span class=\"command\">about:config</span> al *Navegador "
+"Tor*."
 
 #. type: Plain text
 #, no-wrap
@@ -48,16 +55,20 @@ msgstr "   [[!img news/version_3.13.2/about-config.png link=\"no\"]]\n"
 
 #. type: Bullet: '1. '
 msgid "Click the **I accept the risk!** button."
-msgstr ""
+msgstr "Feu clic al botó **Accepto el risc!**."
 
 #. type: Bullet: '1. '
 msgid ""
 "At the top of the page, search for <span class=\"command\">javascript."
 "enabled</span>."
 msgstr ""
+"A la part superior de la pàgina, cerqueu <span class=\"command\">javascript."
+"enabled</span>."
 
 #. type: Bullet: '1. '
 msgid ""
 "Double-click on the **javascript.enabled** line in the results to set its "
 "value to **false**."
 msgstr ""
+"Feu doble clic a la línia **javascript.enabled** als resultats per establir-"
+"ne el valor a **false**."

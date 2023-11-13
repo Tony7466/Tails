@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-09-17 15:39+0000\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-03 15:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Thanks for your feedback!\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Gràcies pels vostres comentaris!\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -36,7 +36,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "We will do our best to make it easier for you to support our work."
-msgstr ""
+msgstr "Farem tot el possible per facilitar-vos el suport a la nostra feina."
 
 #. type: Plain text
 #, no-wrap

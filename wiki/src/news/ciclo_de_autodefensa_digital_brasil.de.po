@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-03-10 12:30+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-12 18:13+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -21,11 +21,12 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Ciclo de Autodefesa Digital no Brasil\"]]\n"
 msgstr ""
+"[[!meta title=\"Zyklus der digitalen Selbstverteidigung in Brasilien\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta date=\"Wed, 08 Feb 2022 20:00:00 -0000\"]]\n"
-msgstr ""
+msgstr "[[!meta date=\"Wed, 08 Feb 2022 20:00:00 -0000\"]]\n"
 
 #. type: Plain text
 #, no-wrap

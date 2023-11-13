@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-07-28 16:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"Last-Translator: translatenight <info@passt-so.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -44,11 +44,10 @@ msgid ""
 "anonymity is reduce the number of places in your operational activity where "
 "you can make mistakes. Tor and Tails still do precisely that.</em>"
 msgstr ""
-"<em>Wenn Sie sich ansehen, wie Whistleblower nach 2013 entdeckt wurden, wird "
-"klar dass das absolut wichtigste was Sie tun können um Ihre Anonymität zu "
-"bewahren ist, die Quellen möglicher Fehler in ihren operativen Aktivitäten "
-"wo Sie Fehler machen können zu reduzieren. Tor und Tails tun genau das nach "
-"wie vor.</em>"
+"<em>Wenn Sie sich ansehen, wie Whistleblower nach 2013 enttarnt wurden, wird "
+"klar, dass das absolut Wichtigste zur Wahrung Ihrer Anonymität ist, die "
+"Anzahl möglicher Fehlerquellen bei Ihren operativen Aktivitäten zu "
+"reduzieren. Tor und Tails tun genau das - nach wie vor.</em>"
 
 #. type: Content of: <div><section><blockquote><a>
 msgid "&mdash; <strong>Edward Snowden</strong>,"
@@ -56,7 +55,7 @@ msgstr "&mdash; <strong>Edward Snowden</strong>,"
 
 #. type: Content of: <div><section><blockquote>
 msgid "NSA whistleblower </a>"
-msgstr ""
+msgstr "NSA Whistleblower </a>"
 
 #. type: Content of: <div><section>
 #, fuzzy
@@ -73,6 +72,9 @@ msgid ""
 "do so with an unwavering commitment to their Social Contract. Tails is a "
 "favorite companion tool of Tor.</em>"
 msgstr ""
+"<em>Der Schutz, den Tor bereitstellt, wird von Tails auf ein komplettes "
+"Betriebssystem ausgeweitet. Und zwar mit einem aufrechten Bekenntnis zur "
+"gesellschaftlichen Verantwortung. Tor sieht Tails gern an seiner Seite.</em>"
 
 #. type: Content of: <div><section><blockquote>
 msgid "&mdash; <strong>Roger Dingledine</strong>,"
@@ -80,7 +82,7 @@ msgstr "&mdash; <strong>Roger Dingledine</strong>,"
 
 #. type: Content of: <div><section><blockquote>
 msgid "co-founder of the Tor Project"
-msgstr ""
+msgstr "Mitbegründer des Tor-Projekts"
 
 #. type: Content of: <div><section>
 #, fuzzy
@@ -101,9 +103,10 @@ msgid ""
 "dedicated operating system that enforces strong privacy- and security-"
 "protective defaults. That operating system is Tails.</em>"
 msgstr ""
-"<em>Eine der effektivsten Arten um das Tor Netzwerk zu nutzen ist, durch ein "
-"dezidiertes Betriebssystem, das starke Voreinstellungen für Privatsphäre und "
-"Sicherheit erzwingt. Dieses Betriebssystem ist Tails.</em>"
+"<em>Eine der sichersten Arten, das Tor-Netzwerk zu nutzen, ist im Rahmen "
+"eines dedizierten Betriebssystems, das von vornherein strikt auf "
+"Privatsphäre und Sicherheit eingestellt ist. Dieses Betriebssystem ist "
+"Tails.</em>"
 
 #. type: Content of: <div><section><blockquote>
 msgid "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"

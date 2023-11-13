@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-10-22 12:11+0000\n"
+"PO-Revision-Date: 2023-11-13 00:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.13 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.13\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,6 +42,9 @@ msgid ""
 "This release fixes [[many security vulnerabilities|security/"
 "Numerous_security_holes_in_4.12]]. You should upgrade as soon as possible."
 msgstr ""
+"Aquesta versió corregeix [[moltes vulnerabilitats de seguretat|security/"
+"Numerous_security_holes_in_4.12]]. Hauríeu d'actualitzar el més aviat "
+"possible."
 
 #. type: Plain text
 #, no-wrap
@@ -58,6 +61,8 @@ msgid ""
 "- Update *Tor Browser* to [10.0.5](https://blog.torproject.org/new-release-"
 "tor-browser-1005)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [10.0.5](https://blog."
+"torproject.org/new-release-tor-browser-1005)."
 
 #. type: Plain text
 #, no-wrap
@@ -71,6 +76,8 @@ msgid ""
 "- Update *Thunderbird* from 68.12 to [78.4.2](https://www.thunderbird.net/en-"
 "US/thunderbird/78.4.2/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* de la versió 68.12 a la [78.4.2](https://www"
+".thunderbird.net/en-US/thunderbird/78.4.2/releasenotes/)."
 
 #. type: Plain text
 #, no-wrap
@@ -78,6 +85,9 @@ msgid ""
 "  *Thunderbird* 78 replaces the *Enigmail* extension with built-in support for\n"
 "  OpenPGP encryption.\n"
 msgstr ""
+"  *Thunderbird* 78 substitueix l'extensió *Enigmail* amb suport integrat "
+"per\n"
+"  a l'encriptatge OpenPGP.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -86,12 +96,18 @@ msgid ""
 "  migrate from *Enigmail* to *Thunderbird*\n"
 "  78|doc/anonymous_internet/thunderbird/openpgp_migration]].\n"
 msgstr ""
+"  Si heu utilitzat *Enigmail* abans de Tails 4.13, seguiu les nostres [["
+"instruccions per a\n"
+"  migrar d'*Enigmail* a *Thunderbird*\n"
+"  78|doc/anonymous_internet/thunderbird/openpgp_migration]].\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Add a button to restart Tails at the end of creating the Persistent "
 "Storage.  ([[!tails_ticket 16384]])"
 msgstr ""
+"S'ha afegit un botó per reiniciar Tails al final de crear l'Emmagatzematge "
+"Persistent. ([[!tails_ticket 16384]])"
 
 #. type: Bullet: '- '
 msgid ""
@@ -99,12 +115,17 @@ msgid ""
 "Screen. This reduces the size of the download by 5%. ([[!tails_ticket "
 "17139]])"
 msgstr ""
+"S'han inclòs només les traduccions dels idiomes disponibles a la Pantalla de "
+"Benvinguda. Això redueix la mida de la baixada en un 5%. ([[!tails_ticket "
+"17139]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Make the root directory of the Persistent Storage only readable by the "
 "`root` user. ([[!tails_ticket 7465]])"
 msgstr ""
+"S'ha fet que el directori arrel de l'Emmagatzematge Persistent només sigui "
+"llegible per l'usuari `administrador`. ([[!tails_ticket 7465]])"
 
 #. type: Plain text
 #, no-wrap
@@ -114,17 +135,24 @@ msgid ""
 "  */live/persistence/TailsData_unlocked/dotfiles folder* in the *Files*\n"
 "  browser.\n"
 msgstr ""
+"  Els usuaris de la funció Dotfiles de l'Emmagatzematge Persistent poden "
+"triar\n"
+"  **Llocs&nbsp;▸ Dotfiles** per obrir la carpeta\n"
+"  */live/persistence/TailsData_unlocked/dotfiles* al navegador de\n"
+"  *Fitxers*.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Enable TCP timestamps. This might increase stability on slower Internet "
 "connections. ([[!tails_ticket 17491]])"
 msgstr ""
+"S'han activat les marques de temps TCP. Això pot augmentar l'estabilitat en "
+"connexions a Internet més lentes. ([[!tails_ticket 17491]])"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
 
 #. type: Bullet: '- '
 msgid ""
@@ -132,10 +160,15 @@ msgid ""
 "Danish, French, Hebrew, Macedonian, Simplified Chinese, and Turkish.  ([[!"
 "tails_ticket 17982]])"
 msgstr ""
+"S'ha corregit el botó **Actualitza** de l'*Instal·lador de Tails* quan es fa "
+"servir el croat, el danès, el francès, l'hebreu, el macedoni, el xinès "
+"simplificat i el turc. ([[!tails_ticket 17982]])"
 
 #. type: Plain text
 msgid "- Allow raising the sound volume above 100%. ([[!tails_ticket 17322]])"
 msgstr ""
+"- S'ha permès augmentar el volum del so per sobre del 100%. ([[!tails_ticket "
+"17322]])"
 
 #. type: Plain text
 msgid ""
@@ -148,7 +181,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"issues\">Known issues</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
 
 #. type: Plain text
 msgid "None specific to this release."
@@ -156,7 +189,7 @@ msgstr "Cap específic d'aquesta versió."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
 
 #. type: Plain text
 #, no-wrap
@@ -167,37 +200,44 @@ msgstr "<h1 id=\"get\">Obtenir Tails 4.13</h1>\n"
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.2 or later to 4.13."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.2 o "
+"posterior a la versió 4.13."
 
 #. type: Bullet: '- '
 msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per instal·lar Tails en un nou llapis USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Plain text
 #, no-wrap
@@ -205,17 +245,22 @@ msgid ""
 "<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Per només baixar"
 
 #. type: Plain text
 msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.13 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.13 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -233,6 +278,7 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 #. type: Plain text
 msgid "Tails 4.14 is [[scheduled|contribute/calendar]] for December 15."
 msgstr ""
+"Tails 4.14 està [[programat|contribute/calendar]] per al 15 de desembre."
 
 #. type: Plain text
 #, no-wrap
@@ -241,3 +287,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.13\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.13\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 18:11+0000\n"
+"POT-Creation-Date: 2023-10-31 09:58+0100\n"
+"PO-Revision-Date: 2023-11-05 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Introduction to GNOME and the Tails desktop\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Introducció a GNOME i a l'Escriptori de Tails\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -29,6 +29,9 @@ msgid ""
 "This page describes some important features of the desktop in the context of "
 "Tails."
 msgstr ""
+"L'entorn d'escriptori utilitzat a Tails és [GNOME](https://www.gnome.org). "
+"Aquesta pàgina descriu algunes característiques importants de l'escriptori "
+"en el context de Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -38,24 +41,25 @@ msgstr "[[!toc levels=3]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"top-navigation-bar\">Top navigation bar</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"top-navigation-bar\">Barra de navegació superior</h1>\n"
 
 #. type: Plain text
 msgid ""
 "In the upper left corner of the screen there is one button and three menus:"
 msgstr ""
+"A la cantonada superior esquerra de la pantalla hi ha un botó i tres menús:"
 
 #. type: Bullet: '  - '
 msgid "the <b>Activities</b> button"
-msgstr ""
+msgstr "el botó <b>Activitats</b>"
 
 #. type: Bullet: '  - '
 msgid "the <span class=\"guimenu\">Applications</span> menu"
-msgstr ""
+msgstr "el menú <span class=\"guimenu\">Aplicacions</span>"
 
 #. type: Bullet: '  - '
 msgid "the <span class=\"guimenu\">Places</span> menu"
-msgstr ""
+msgstr "el menú <span class=\"guimenu\">Llocs</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -64,27 +68,32 @@ msgstr "<h2 id=\"activities\">Visió general de les activitats</h2>\n"
 
 #. type: Plain text
 msgid "To access your windows and applications you can either:"
-msgstr ""
+msgstr "Per accedir a les vostres finestres i aplicacions podeu:"
 
 #. type: Bullet: '  - '
 msgid "Click on the <b>Activities</b> button."
-msgstr ""
+msgstr "Fer clic al botó <b>Activitats</b>."
 
 #. type: Bullet: '  - '
 msgid "Throw your mouse pointer to the top-left hot corner."
-msgstr ""
+msgstr "Llençar el punter del ratolí a la cantonada superior esquerra."
 
 #. type: Bullet: '  - '
 msgid ""
 "Press the <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link=\"no\" "
 "alt=\"\"]]) key on your keyboard."
 msgstr ""
+"Premeu la tecla <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link="
+"\"no\" alt=\"\"]]) del teclat."
 
 #. type: Plain text
 msgid ""
 "You can see your windows and applications in the overview. You can also "
 "start typing to search your applications, files, and folders."
 msgstr ""
+"Podeu veure les vostres finestres i aplicacions a la visió general. També "
+"podeu començar a escriure per cercar les vostres aplicacions, fitxers i "
+"carpetes."
 
 #. type: Plain text
 #, no-wrap
@@ -97,11 +106,14 @@ msgid ""
 "The <span class=\"guimenu\">Applications</span> menu provides shortcuts to the\n"
 "[[included software|about/features]] and to GNOME configuration utilities.\n"
 msgstr ""
+"El menú <span class=\"guimenu\">Aplicacions</span> ofereix dreceres a\n"
+"[[programari inclòs|about/features]] i a les utilitats de configuració de "
+"GNOME.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img applications.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img applications.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -114,9 +126,9 @@ msgid "<div class=\"icon\">\n"
 msgstr "<div class=\"icon\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img lib/apps/help-browser.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img help-browser.png link=no]]\n"
+msgstr "[[!img lib/apps/help-browser.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -129,6 +141,14 @@ msgid ""
 "  </div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"  <span class=\"guimenuitem\">Ajuda</span>: per accedir a l'<span class="
+"\"application\">Ajuda de l'Escriptori de GNOME</span> trieu\n"
+"  <span class=\"menuchoice\">\n"
+"    <span class=\"guisubmenu\">Utilitats</span>&nbsp;▸\n"
+"    <span class=\"guimenuitem\">Ajuda</span></span>\n"
+"  </div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -145,6 +165,13 @@ msgid ""
 "  </div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"  <b>Paràmetres</b>:\n"
+"  per canviar diversos paràmetres del sistema, com ara el teclat, el ratolí "
+"i el touchpad,\n"
+"  o pantalles, trieu <b>Eines del sistema&nbsp;▸ Paràmetres</b>.\n"
+"  </div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -158,6 +185,10 @@ msgid ""
 "Tails. Only the settings that you saved in the [[Persistent\n"
 "Storage|persistent_storage]] are restored when you restart Tails.</p>\n"
 msgstr ""
+"<p>Per defecte, qualsevol configuració que canvieu a Tails es perd quan "
+"tanqueu\n"
+"Tails. Només la configuració que heu desat a l'[[Emmagatzematge\n"
+"Persistent|persistent_storage]] es restaura quan reinicieu Tails.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -176,11 +207,14 @@ msgid ""
 "open the <i>Settings</i> utility and choose\n"
 "<b>Keyboard Shortcuts</b>.</p>\n"
 msgstr ""
+"<p>Per obtenir informació sobre les nombroses dreceres de teclat de GNOME,\n"
+"obriu la utilitat <i>Configuració</i> i trieu\n"
+"<b>Dreceres del teclat</b>.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img lib/apps/help-about.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img help-browser.png link=no]]\n"
+msgstr "[[!img lib/apps/help-about.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -194,6 +228,14 @@ msgid ""
 "  </div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"  <span class=\"guimenuitem\">Quant a Tails</span>:\n"
+"  per conèixer la versió de Tails que esteu executant actualment, trieu\n"
+"  <span class=\"menuchoice\">\n"
+"    <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
+"    <span class=\"guimenuitem\">Quant a Tails</span></span>\n"
+"  </div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -206,11 +248,13 @@ msgid ""
 "In the <span class=\"guisubmenu\">Favorites</span> submenu, a few\n"
 "shortcuts allow you to launch the most frequently used applications:\n"
 msgstr ""
+"Al submenú <span class=\"guisubmenu\">Preferits</span>, algunes\n"
+"de les dreceres us permeten llançar les aplicacions més utilitzades:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img lib/apps/tor-browser.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img help-browser.png link=no]]\n"
+msgstr "[[!img lib/apps/tor-browser.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -221,6 +265,13 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Navegador Tor</strong> per navegar pel web de manera anònima i sense "
+"censura<br/>\n"
+"[[Consulteu la nostra documentació sobre la navegació per la web amb el "
+"<i>Navegador Tor</i>|anonymous_internet/Tor_Browser]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -236,14 +287,20 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Connexió Tor</strong> per connectar-se a la xarxa Tor<br/>\n"
+"[[Consulteu la nostra documentació sobre la connexió a Tor|"
+"anonymous_internet/tor]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img lib/apps/persistent_storage.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img lib/apps/persistent_storage.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "<strong>Persistent Storage</strong> to create and configure a Persistent Storage on your Tails USB stick<br/>\n"
@@ -251,31 +308,37 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><strong>Home</strong>: Verknüpfung zum Ordner\n"
-"des Standardkontos</div>\n"
+"<div class=\"text\">\n"
+"<strong>Emmagatzematge Persistent</strong> per crear i configurar un "
+"Emmagatzematge Persistent al vostre llapis USB de Tails<br/>\n"
+"[[Vegeu la nostra documentació sobre l'Emmagatzematge "
+"Persistent|persistent_storage]]\n"
+"</div>\n"
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img lib/apps/tails-help.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img seahorse.png link=no]]\n"
+msgstr "[[!img lib/apps/tails-help.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "<strong>Tails documentation</strong> to open an offline version of the Tails website and documentation, embeded in Tails<br/>\n"
 "</div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><strong>Home</strong>: Verknüpfung zum Ordner\n"
-"des Standardkontos</div>\n"
+"<div class=\"text\">\n"
+"<strong>Documentació de Tails</strong> per obrir una versió fora de línia "
+"del lloc web i de la documentació de Tails, incrustats a Tails<br/>\n"
+"</div>\n"
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img lib/apps/whisperback.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img seahorse.png link=no]]\n"
+msgstr "[[!img lib/apps/whisperback.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -286,22 +349,31 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Informe d'errors de WhisperBack</strong> per informar de problemes "
+"sobre Tails al nostre equip<br/>\n"
+"[[Consulteu la nostra documentació sobre com informar d'un "
+"error|bug_reporting]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img lib/apps/tails-installer.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img gnome-terminal.png link=no]]\n"
+msgstr "[[!img lib/apps/tails-installer.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "<strong>Tails Cloner</strong> to clone Tails to another USB stick<br/>\n"
 "</div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><strong>Home</strong>: Verknüpfung zum Ordner\n"
-"des Standardkontos</div>\n"
+"<div class=\"text\">\n"
+"<strong>Clonador de Tails</strong> per clonar Tails a un altre llapis USB<br/"
+">\n"
+"</div>\n"
 "</div>\n"
 
 #. type: Plain text
@@ -317,11 +389,18 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"Client de correu electrònic <div class=\"text\"><strong>Thunderbird</"
+"strong><br />\n"
+"[[Consulteu la nostra documentació sobre l'enviament per correu electrònic i "
+"la lectura de notícies amb <i>Thunderbird</i>|anonymous_internet/"
+"thunderbird]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img lib/apps/keepassxc.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img seahorse.png link=no]]\n"
+msgstr "[[!img lib/apps/keepassxc.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -332,6 +411,12 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Gestor de contrasenyes de KeePassXC</strong><br/>\n"
+"[[Consulteu la nostra documentació sobre la gestió de contrasenyes amb "
+"<i>KeePassXC</i>|encryption_and_privacy/manage_passwords]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -347,6 +432,12 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Pidgin Internet Messenger</strong><br/>\n"
+"[[Vegeu la nostra documentació sobre xatejar amb <i>Pidgin</i> i OTR|"
+"anonymous_internet/pidgin]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -359,11 +450,14 @@ msgid ""
 "The <span class=\"guimenu\">Places</span> menu provides direct access to different\n"
 "folders and storage media.\n"
 msgstr ""
+"El menú <span class=\"guimenu\">Llocs</span> ofereix accés directe a "
+"diferents\n"
+"carpetes i suports d'emmagatzematge.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img places.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img places.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -372,19 +466,30 @@ msgstr "<h2 id=\"tor-status\">Estat de Tor i circuits</h2>\n"
 
 #. type: Plain text
 msgid ""
-"The Tor status icon and *Onion Circuits* allow you to view the status of Tor."
+"The Tor status icon ([[!img lib/symbolic/tor-disconnected.png alt=\"Tor "
+"status menu\" link=\"no\" class=\"symbolic\"]] or [[!img lib/symbolic/tor-"
+"connected.png alt=\"Tor status menu\" link=\"no\" class=\"symbolic\"]]) "
+"provides a shortcut to *Onion Circuits*, which allows you to manage the Tor "
+"circuits being used by Tails."
 msgstr ""
+"La icona d'estat de Tor ([[!img lib/symbolic/tor-disconnected.png alt=\"Menú "
+"d'estat de Tor\" link=\"no\" class=\"symbolic\"]] o [[!img lib/symbolic/tor-"
+"connected.png alt=\"Menú d'estat de Tor\" link=\"no\" class=\"symbolic\"]]) "
+"proporciona una drecera a *Circuits Onion*, que us permet gestionar els "
+"circuits Tor que utilitza Tails."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img tor-status.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img tor-status.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
 "[[See our documentation on *Onion Circuits*.|anonymous_internet/tor/"
 "circuits]]"
 msgstr ""
+"[[Consulteu la nostra documentació sobre *Circuits Onion*.|"
+"anonymous_internet/tor/circuits]]"
 
 #. type: Plain text
 #, no-wrap
@@ -396,15 +501,19 @@ msgid ""
 "The universal access menu allows you to activate the screen reader, screen "
 "keyboard, large text display, and other accessibility technologies."
 msgstr ""
+"El menú d'accés universal us permet activar el lector de pantalla, el teclat "
+"de pantalla, la visualització de text gran i altres tecnologies "
+"d'accessibilitat."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img accessibility.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img accessibility.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid "[[See our documentation on accessibility.|accessibility]]"
 msgstr ""
+"[[Consulteu la nostra documentació sobre accessibilitat.|accessibility]]"
 
 #. type: Plain text
 #, no-wrap
@@ -416,11 +525,13 @@ msgid ""
 "The keyboard layout menu allow you to change the keyboard layout and input "
 "method for non-Latin scripts."
 msgstr ""
+"El menú de disseny del teclat us permet canviar la disposició del teclat i "
+"el mètode d'entrada per a escriptures no llatines."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img keyboard.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img keyboard.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -433,26 +544,32 @@ msgid ""
 "you to manage your settings, connect to a Wi-Fi network, and restart your "
 "computer."
 msgstr ""
+"A l'extrem superior dret de la barra de navegació superior, el menú del "
+"sistema us permet gestionar la vostra configuració, connectar-vos a una "
+"xarxa Wi-Fi i reiniciar l'ordinador."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img system.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img system.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h3 id=\"networking\">Networking</h3>\n"
-msgstr ""
+msgstr "<h3 id=\"networking\">Gestió de xarxes</h3>\n"
 
 #. type: Plain text
 msgid "From the system menu, you can choose which Wi-Fi network to connect to."
 msgstr ""
+"Al menú del sistema, podeu triar a quina xarxa Wi-Fi voleu connectar-vos."
 
 #. type: Plain text
 msgid ""
 "See also the documentation on [[connecting to a network|anonymous_internet/"
 "networkmanager]]."
 msgstr ""
+"Vegeu també la documentació sobre [[com connectar-se a una xarxa|"
+"anonymous_internet/networkmanager]]."
 
 #. type: Plain text
 #, no-wrap
@@ -462,6 +579,8 @@ msgstr "<h3 id=\"screen-locker\">Bloqueig de pantalla</h3>\n"
 #. type: Plain text
 msgid "Click on **Lock screen** to lock your screen with a password."
 msgstr ""
+"Feu clic a **Pantalla de bloqueig** per bloquejar la pantalla amb una "
+"contrasenya."
 
 #. type: Bullet: '- '
 msgid ""
@@ -469,6 +588,9 @@ msgid ""
 "administration_password]] when starting Tails, you can unlock your screen "
 "with your administration password."
 msgstr ""
+"Si configureu una [[contrasenya d'administració|first_steps/welcome_screen/"
+"administration_password]] quan inicieu Tails, podeu desbloquejar la pantalla "
+"amb la vostra contrasenya d'administració."
 
 #. type: Plain text
 #, no-wrap
@@ -478,11 +600,19 @@ msgid ""
 "  administration password. To disable this behavior, execute the following\n"
 "  command in a terminal:</p>\n"
 msgstr ""
+"  <div class=\"tip\">\n"
+"  <p>La pantalla es bloquejarà automàticament després d'un temps si heu "
+"configurat una\n"
+"  contrasenya d'administració. Per desactivar aquest comportament, executeu "
+"la següent\n"
+"  comanda en una terminal:</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
 msgstr ""
+"  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-"
+"enabled false</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -494,11 +624,13 @@ msgid ""
 "Otherwise, you can set up a password to unlock your screen when locking your "
 "screen for the first time."
 msgstr ""
+"En cas contrari, podeu configurar una contrasenya per desbloquejar la "
+"pantalla quan bloquegeu la pantalla per primera vegada."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "  [[!img screen-locker.png link=\"no\" alt=\"\"]]\n"
-msgstr "  [[!img screen-locker.png alt=\"\" link=\"no\"]]\n"
+msgstr "  [[!img screen-locker.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -507,19 +639,23 @@ msgstr "<h3 id=\"suspend\">Suspèn</h3>\n"
 
 #. type: Plain text
 msgid "Click **Suspend** to suspend your computer."
-msgstr ""
+msgstr "Feu clic a **Suspèn** per suspendre l'ordinador."
 
 #. type: Plain text
 msgid ""
 "While suspended, your computer is not computing anymore but is still powered "
 "on, like if it was standing still but still alive."
 msgstr ""
+"Mentre està suspès, l'ordinador ja no està en funcionament, però encara està "
+"encès, com si estigués parat però encara viu."
 
 #. type: Plain text
 msgid ""
 "To resume from suspend and go back to the Tails desktop, push the power "
 "button of your computer."
 msgstr ""
+"Per reprendre des de la suspensió i tornar a l'escriptori de Tails, premeu "
+"el botó d'engegada de l'ordinador."
 
 #. type: Plain text
 #, no-wrap
@@ -532,6 +668,8 @@ msgid ""
 "<p>If you remove your Tails USB stick while suspended, your computer will not\n"
 "shut down immediately and will only shut down when resuming.</p>\n"
 msgstr ""
+"<p>Si traieu el llapis USB de Tails mentre està suspès, l'ordinador no\n"
+"s'apagarà immediatament i només s'apagarà quan es reprengui.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -541,11 +679,18 @@ msgid ""
 "attack|doc/advanced_topics/cold_boot_attacks]] can compromise your Tails while\n"
 "suspended.</p>\n"
 msgstr ""
+"<p>Un atacant amb accés físic al vostre ordinador i capaç de trobar\n"
+"la contrasenya de bloqueig de pantalla o configurar una [[arrencada en\n"
+"fred|doc/advanced_topics/cold_boot_attacks]] pot comprometre el vostre Tails "
+"mentre\n"
+"es troba suspès.</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<p>For more security, [[shut down Tails|doc/first_steps/shutdown]] entirely.</p>\n"
 msgstr ""
+"<p>Per a més seguretat, [[apagueu Tails|doc/first_steps/shutdown]] "
+"completament.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -565,7 +710,7 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "<strong>Report an error</strong> to report problems about Tails to our team<br/>\n"
@@ -573,24 +718,29 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><strong>Home</strong>: Verknüpfung zum Ordner\n"
-"des Standardkontos</div>\n"
+"<div class=\"text\">\n"
+"<strong>Informa d'un error</strong> per informar de problemes sobre Tails al "
+"nostre equip<br/>\n"
+"[[Consulteu la nostra documentació sobre com informar d'un "
+"error|bug_reporting]]\n"
+"</div>\n"
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img user-trash.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img seahorse.png link=no]]\n"
+msgstr "[[!img user-trash.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<div class=\"text\"><strong>Trash</strong>, where the \"deleted\" files are\n"
 "moved</div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><strong>Home</strong>: Verknüpfung zum Ordner\n"
-"des Standardkontos</div>\n"
+"<div class=\"text\"><strong>Paperera</strong>, on es troben els fitxers "
+"\"suprimits\".\n"
+"</div>\n"
 "</div>\n"
 
 #. type: Plain text
@@ -601,11 +751,17 @@ msgid ""
 "-->\n"
 "<h1 id=\"files\">The <span class=\"application\">Files</span> browser</h1>\n"
 msgstr ""
+"<!-- XXX: Opting to use #files instead of #nautilus because #files is "
+"linked\n"
+"          to from wiki/src/doc/advanced_topics/internal_hard_disk.mdwn\n"
+"-->\n"
+"<h1 id=\"files\">El navegador de <span class=\"application\""
+">Fitxers</span></h1>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img nautilus.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img seahorse.png link=no]]\n"
+msgstr "[[!img nautilus.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -613,6 +769,8 @@ msgid ""
 "To open the <span class=\"application\">Files</span> browser, you can\n"
 "either:\n"
 msgstr ""
+"Per obrir el navegador de <span class=\"application\">Fitxers</span>, podeu "
+"fer-ho:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -622,42 +780,53 @@ msgid ""
 "    <span class=\"guisubmenu\">Accessories</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">Files</span></span>.\n"
 msgstr ""
+"- Trieu <span class=\"menuchoice\">\n"
+"    <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"    <span class=\"guisubmenu\">Accessoris</span>&nbsp;▸\n"
+"    <span class=\"guimenuitem\">Fitxers</span></span>.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Open one of the shortcuts from the <span class=\"guimenu\">Places</span> "
 "menu."
 msgstr ""
+"Obriu una de les dreceres del menú <span class=\"guimenu\">Llocs</span>."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img lib/apps/files.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img lib/apps/files.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid "To connect to a remote SFTP (SSH File Transfer Protocol) server:"
 msgstr ""
+"Per connectar-se a un servidor SFTP (SSH File Transfer Protocol, en anglès) "
+"remot:"
 
 #. type: Bullet: '1. '
 msgid ""
 "Choose <span class=\"guilabel\">Other Locations</span> in the sidebar of the "
 "<span class=\"application\">Files</span> browser."
 msgstr ""
+"Trieu <span class=\"guilabel\">Altres ubicacions</span> a la barra lateral "
+"del navegador de <span class=\"application\">Fitxers</span>."
 
 #. type: Bullet: '1. '
 msgid ""
 "Specify an SFTP server in <span class=\"guilabel\">Connect to Server</span> "
 "at the bottom of the right pane. For example:"
 msgstr ""
+"Especifiqueu un servidor SFTP a <span class=\"guilabel\">Connexió al "
+"servidor</span> a la part inferior del panell dret. Per exemple:"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">ssh://user@example.com/</p>\n"
-msgstr ""
+msgstr "   <p class=\"pre command\">ssh://user@example.com/</p>\n"
 
 #. type: Bullet: '1. '
 msgid "Click <span class=\"bold\">Connect</span>."
-msgstr ""
+msgstr "Feu clic a <span class=\"bold\">Connecta</span>."
 
 #, fuzzy, no-wrap
 #~ msgid "[[!img lib/apps/tails-persistence-setup.png link=no]]\n"
