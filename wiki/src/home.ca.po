@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-27 09:15+0000\n"
-"PO-Revision-Date: 2023-10-22 12:11+0000\n"
+"PO-Revision-Date: 2023-11-03 15:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -19,13 +19,11 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Content of: <div>
-#, fuzzy
 msgid "[[!meta title=\"Dear Tails user,\"]]"
-msgstr "[[!meta title=\"Us donem la benvinguda a Tails!\"]]"
+msgstr "[[!meta title=\"Estimat usuari de Tails,\"]]"
 
 #. [[!inline pages="home/donate.inline" raw="yes" sort="age"]]
 #. type: Content of: outside any tag (error?)
-#, fuzzy
 msgid ""
 "[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
@@ -36,8 +34,8 @@ msgstr ""
 "[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-"robots=\"noindex\"]] [[!meta script=\"home\"]] [[!inline pages=\"home/donate."
-"inline\" raw=\"yes\" sort=\"age\"]]"
+"robots=\"noindex\"]] [[!meta script=\"home\"]] [[!inline pages=\"home/year-"
+"end.inline\" raw=\"yes\" sort=\"age\"]]"
 
 #. type: Content of: <div>
 msgid "<a href=\"https://check.torproject.org/\">Tor check</a>"
@@ -48,6 +46,9 @@ msgid ""
 "The cryptographic parameters of LUKS from Tails 5.12 or earlier are weak "
 "against a state-sponsored attacker with physical access to your device."
 msgstr ""
+"Els paràmetres criptogràfics de LUKS de Tails 5.12 o anteriors són febles "
+"contra un atacant patrocinat per l'estat amb accés físic al vostre "
+"dispositiu."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -55,10 +56,15 @@ msgid ""
 "and other LUKS encrypted volumes unless you use a long passphrase of 5 "
 "random words or more.</strong>"
 msgstr ""
+"<strong>Us recomanem que canvieu la contrasenya del vostre Emmagatzematge "
+"Persistent i d'altres volums encriptats de LUKS tret que utilitzeu una "
+"contrasenya llarga de 5 paraules aleatòries o més.</strong>"
 
 #. type: Content of: <div><p>
 msgid "[[Read our security advisory and upgrade guide.|security/argon2id]]"
 msgstr ""
+"[[Llegiu la nostra guia de recomanacions de seguretat i actualització.|"
+"security/argon2id]]"
 
 #. type: Content of: <div>
 msgid "[[!inline pages=\"news\" raw=\"yes\" sort=\"age\"]]"

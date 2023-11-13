@@ -8,26 +8,28 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2020-12-25 13:44+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2023-11-12 20:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Known issues with graphics cards\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Bekannte Probleme mit Grafikkarten\"]]\n"
 
 #. type: Plain text
 msgid ""
 "- For other hardware compatibility issues, refer to our [[known issues|"
 "support/known_issues]]."
 msgstr ""
+"- Für andere Hardwarekompatibilitätsprobleme, siehe unsere [[bekannten "
+"Probleme|support/known_issues]]."
 
 #. type: Plain text
 #, no-wrap
@@ -241,10 +243,9 @@ msgid "-->\n"
 msgstr "-->\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"radeon-r5\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"radeon-hd\">AMD Radeon HD</h2>\n"
-msgstr "<a id=\"$ANCHOR\"></a>\n"
+msgstr "<h2 id=\"radeon-hd\">AMD Radeon HD</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -274,10 +275,9 @@ msgid "`modprobe.blacklist=radeon`"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"radeon-r5\"></a>\n"
+#, no-wrap
 msgid "<h2 id=\"radeon-r9\">AMD Radeon R9</h2>\n"
-msgstr "<a id=\"$ANCHOR\"></a>\n"
+msgstr "<h2 id=\"radeon-r9\">AMD Radeon R9</h2>\n"
 
 #. type: Plain text
 #, no-wrap

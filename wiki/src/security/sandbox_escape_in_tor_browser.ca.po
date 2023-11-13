@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-05 00:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -26,6 +26,7 @@ msgstr "[[!meta date=\"Thu, 20 Jun 2019 12:34:57 +0200\"]]\n"
 #, no-wrap
 msgid "[[!meta title=\"Critical security vulnerability in Tails 3.14.1\"]]\n"
 msgstr ""
+"[[!meta title=\"Vulnerabilitat de seguretat crítica a Tails 3.14.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -46,6 +47,8 @@ msgstr "<div class=\"caution\">\n"
 #, no-wrap
 msgid "<p>Tor Browser in Tails 3.14.1 and earlier is unsafe to use in most cases.</p>\n"
 msgstr ""
+"<p>El Navegador Tor a Tails 3.14.1 i anteriors no és segur d'utilitzar en la "
+"majoria dels casos.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -53,6 +56,9 @@ msgid ""
 "<p>We <b>strongly</b> encourage you to\n"
 "[[upgrade to Tails 3.14.2|news/version_3.14.2]] as soon as possible.</p>\n"
 msgstr ""
+"<p>Us recomanem <b>entimament</b> que\n"
+"[[actualitzeu a Tails 3.14.2|news/version_3.14.2]] tan aviat com sigui "
+"possible.</p>\n"
 
 #. type: Plain text
 #, no-wrap

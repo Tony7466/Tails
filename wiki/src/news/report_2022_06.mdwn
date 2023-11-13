@@ -1,6 +1,6 @@
-[[!meta  title="Tails report for June 2022"]]
-[[!meta  date="Mon, 11 Jul 2022 09:21:12 +0200"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!meta title="Tails report for June 2022"]]
+[[!meta date="Mon, 11 Jul 2022 09:21:12 +0200"]]
+[[!pagetemplate template="news.tmpl"]]
 
 Here are a few highlights about what we did in May, among many other things:
 

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-05-29 20:01+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-12 20:11+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -30,14 +30,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "You can use the Welcome Screen to specify startup options that alter some of "
 "the basic functioning of Tails."
 msgstr ""
-"Beim Starten von Tails können Sie Optionen auswählen, um einige grundlegende "
-"Funktionen zu verändern. Die zwei Möglichkeiten um Startoptionen anzugeben "
-"sind folgende:"
+"Sie können den Willkommensbildschirm verwenden, um Startoptionen "
+"festzulegen, die die grundlegende Funktionsweise von Tails verändern."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -124,13 +122,12 @@ msgid "Language & region"
 msgstr "Sprache & Region"
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "You can configure Tails depending on your language and location from the "
 "Welcome Screen."
 msgstr ""
-"Sie können mithilfe des <span class=\"application\">Tails\n"
-"Greeter</span> Tails entsprechend Ihrer Sprache und Region konfigurieren.\n"
+"Sie können Tails abhängig von Ihrer Sprache und Ihrem Standort vom "
+"Willkommensbildschirm aus konfigurieren."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -244,7 +241,7 @@ msgstr "<a id=\"persistence\"></a>\n"
 #. type: Title =
 #, no-wrap
 msgid "Persistent Storage"
-msgstr "Beständiger Speicher"
+msgstr "Der beständige Speicher"
 
 #. type: Plain text
 msgid ""
@@ -287,22 +284,19 @@ msgid "<a id=\"additional\"></a>\n"
 msgstr "<a id=\"additional\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Additional settings"
-msgstr "Zusätzliche Einstellungen\n"
+msgstr "Zusätzliche Einstellungen"
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "Tails is configured with care to be as safe as possible by default. But, "
 "depending on your situation, you can change one of the following settings "
 "from the Welcome Screen."
 msgstr ""
-"Tails ist mit Sorgfalt so konfiguriert, dass es standardmäßig so sicher wie "
-"möglich ist.\n"
-"Jedoch können Sie abhängig von Ihrer Situation die jeweiligen der folgenden "
-"Einstellungen\n"
-"aus dem <span class=\"application\">Tails Greeter</span> aus anpassen.\n"
+"Tails ist standardmäßig so konfiguriert, dass es so sicher wie möglich ist. "
+"Je nach Ihrer Situation können Sie jedoch eine der folgenden Einstellungen "
+"auf dem Begrüßungsbildschirm ändern."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -316,25 +310,26 @@ msgid "Administration Password"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Set an <span class=\"guilabel\">Administration Password</span> to be able to perform administrative tasks like installing additional software or accessing the internal hard disks of the computer."
+#, no-wrap
 msgid ""
 "Set an <span class=\"guilabel\">Administration Password</span> to be\n"
 "able to perform administrative tasks like installing additional\n"
 "software or accessing the internal hard disks of the computer.\n"
-msgstr "Richten Sie ein <span class=\"guilabel\">Administrationspasswort</span> ein, um in der Lage zu sein, administrative Aufgaben wie die Installation von zusätzlicher Software oder den Zugriff auf die internen Laufwerke des Computers, durchzuführen."
+msgstr ""
+"Richten Sie ein <span class=\"guilabel\">Administrationspasswort</span> ein, "
+"\n"
+"um in der Lage zu sein, administrative Aufgaben wie die Installation von "
+"zusätzlicher \n"
+"Software oder den Zugriff auf die internen Laufwerke des Computers, "
+"durchzuführen.\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "  [[See our documentation about the administration password.|"
-#| "administration_password]]\n"
 msgid ""
 "See our documentation about [[the administration password and its security "
 "implications|administration_password]]."
 msgstr ""
-"  [[Lesen Sie die Dokumentation zum Administrationspasswort.|"
-"administration_password]]\n"
+"Siehe unsere Dokumentation über [[das Administrationspasswort und dessen "
+"Sicherheitsimplikationen|administration_password]]."
 
 #. type: Title -
 #, no-wrap
@@ -342,21 +337,19 @@ msgid "MAC Address Anonymization"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Disable <span class=\"guilabel\">MAC Address Spoofing</span> to prevent connectivity problems with your network interfaces."
+#, no-wrap
 msgid ""
 "Disable <span class=\"guilabel\">MAC Address Anonymization</span> to prevent\n"
 "connectivity problems with your network interfaces.\n"
-msgstr "Deaktivieren Sie die <span class=\"guilabel\">Manipulation der MAC-Adresse</span>, um Verbindungsprobleme mit Ihren Netzwerkschnittstellen zu verhindern."
+msgstr ""
+"Deaktivieren Sie die <span class=\"guilabel\">Anonymisierung der MAC-"
+"Adresse</span>, \n"
+"um Verbindungsprobleme mit Ihren Netzwerkschnittstellen zu verhindern.\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "  [[See our documentation about MAC address spoofing.|mac_spoofing]]\n"
 msgid "See our documentation about [[MAC address anonymization|mac_spoofing]]."
 msgstr ""
-"  [[Lesen Sie unsere Dokumentation zum Verschleiern der MAC-Adresse.|"
-"mac_spoofing]]\n"
+"Siehe unsere Dokumentation über [[MAC-Adressanonymisierung|mac_spoofing]]."
 
 #. type: Title -
 #, no-wrap

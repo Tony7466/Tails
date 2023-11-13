@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-06-06 13:11+0000\n"
+"POT-Creation-Date: 2023-11-09 21:58+0000\n"
 "PO-Revision-Date: 2023-07-24 17:37+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,9 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  title=\"Improving Tails for human rights defenders in Latin America\"]]\n"
-msgstr ""
-"[[!meta  title=\"Améliorer Tails pour les personnes défendant les droits "
-"humains en Amérique latine\"]]\n"
+msgstr "[[!meta  title=\"Améliorer Tails pour les personnes défendant les droits humains en Amérique latine\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -69,7 +67,8 @@ msgstr ""
 
 #. type: Bullet: '- '
 msgid "Improve the usability of our tools based on their feedback."
-msgstr "Améliorer l'utilisabilité de nos outils en se basant sur leurs retours."
+msgstr ""
+"Améliorer l'utilisabilité de nos outils en se basant sur leurs retours."
 
 #. type: Title =
 #, no-wrap
@@ -287,12 +286,12 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "The material used for these Tails workshops is available on our website in "
-"[English](https://tails.boum.org/contribute/how/promote/material/slides/"
+"[English](https://tails.net/contribute/how/promote/material/slides/"
 "Ciclo_Autodefensa_Digital_202204/Tails-English.odp), [Spanish](https://tails."
-"boum.org/contribute/how/promote/material/slides/"
-"Ciclo_Autodefensa_Digital_202204/Tails-Spanish.odp), and [Portuguese]"
-"(https://tails.boum.org/contribute/how/promote/material/slides/"
-"Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp)."
+"net/contribute/how/promote/material/slides/Ciclo_Autodefensa_Digital_202204/"
+"Tails-Spanish.odp), and [Portuguese](https://tails.net/contribute/how/"
+"promote/material/slides/Ciclo_Autodefensa_Digital_202204/Tails-Portuguese."
+"odp)."
 msgstr ""
 
 #. type: Plain text

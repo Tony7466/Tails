@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2022-07-04 10:07+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2023-11-09 17:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -32,8 +32,8 @@ msgid ""
 "Since Tails 4.13 (November 2020), *Thunderbird* 78 replaces the *Enigmail* "
 "extension with built-in support for OpenPGP encryption."
 msgstr ""
-"Seit Tails 4.13 (November 2020) ersetzt Thunderbird 78 mit der eingebauten "
-"Unterstützung für OpenPGP Verschlüsselung das Enigmail Plug-in."
+"Seit Tails 4.13 (November 2020) ersetzt Thunderbird 78 das Enigmail Plug-in "
+"durch seine eingebaute Unterstützung für OpenPGP-Verschlüsselung."
 
 #. type: Plain text
 msgid ""
@@ -52,7 +52,7 @@ msgid ""
 "support.mozilla.org/kb/openpgp-thunderbird-howto-and-faq)."
 msgstr ""
 "Mehr zu lesen gibt es auch im offiziellen [OpenPGP in Thunderbird -HOWTO und "
-"FAQ](https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq)"
+"FAQ](https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq)."
 
 #. type: Plain text
 #, no-wrap
@@ -74,11 +74,9 @@ msgid "Choose **Applications&nbsp;▸ Accessories&nbsp;▸ Kleopatra**."
 msgstr ""
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid "Select the public keys that you want to migrate to *Thunderbird*."
 msgid "Select the private key that you want to migrate to *Thunderbird*."
 msgstr ""
-"Die Öffentlichen Schlüssel, die du zu *Thunderbird* übertragen möchtest, "
+"Die privaten Schlüssel, die du zu *Thunderbird* übertragen möchtest, "
 "auswählen."
 
 #. type: Bullet: '1. '

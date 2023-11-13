@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-25 15:41-0600\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-11-12 22:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -200,7 +200,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Under the hood"
-msgstr ""
+msgstr "Sota el capó"
 
 #. type: Plain text
 msgid ""
@@ -247,7 +247,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Help us fight surveillance and censorship"
-msgstr ""
+msgstr "Ajudeu-nos a lluitar contra la vigilància i la censura"
 
 #. type: Plain text
 #, no-wrap
@@ -261,6 +261,10 @@ msgid ""
 "ones.  Because they help us plan our work, they are the most valuable for "
 "the sustainability of Tails."
 msgstr ""
+"Tot el nostre treball és possible gràcies a les donacions de persones com "
+"tu. Agraïm especialment les donacions mensuals i anuals, fins i tot les més "
+"petites. Com que ens ajuden a planificar la nostra feina, són les més "
+"valuoses per a la sostenibilitat de Tails."
 
 #. type: Plain text
 msgid ""

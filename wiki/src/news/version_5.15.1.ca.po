@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-30 17:35+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-08 16:13+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -48,6 +48,8 @@ msgid ""
 "- Update *Tor Browser* to [12.5](https://blog.torproject.org/new-release-tor-"
 "browser-125)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.5](https://blog."
+"torproject.org/new-release-tor-browser-125)."
 
 #. type: Plain text
 #, no-wrap
@@ -55,6 +57,10 @@ msgid ""
 "  [Tor Browser 12.5](https://blog.torproject.org/new-release-tor-browser-125)\n"
 "  has a new circuit view and better information about onion services.\n"
 msgstr ""
+"  El [Navegador Tor 12.5](https://blog.torproject.org/new-release-tor-"
+"browser-125)\n"
+"  té una nova vista de circuit i una millor informació sobre els serveis "
+"d'onion.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -64,7 +70,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Support onion service authentication in *Tor Browser*."
-msgstr ""
+msgstr "- S'admet l'autenticació del servei d'onion al *Navegador Tor*."
 
 #. type: Plain text
 #, no-wrap
@@ -72,6 +78,9 @@ msgid ""
 "  For example, onion service authentication is used by *OnionShare* outside of\n"
 "  Tails.\n"
 msgstr ""
+"  Per exemple, *OnionShare* utilitza l'autenticació del servei d'onion fora "
+"de\n"
+"  Tails.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -82,7 +91,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Display the version of Tails in the Boot Loader"
-msgstr ""
+msgstr "- Es mostra la versió de Tails al carregador d'arrencada"
 
 #. type: Plain text
 #, no-wrap
@@ -101,6 +110,8 @@ msgid ""
 "- Fix the search of some languages and keyboard layouts. ([[!tails_ticket "
 "19200]])"
 msgstr ""
+"- S'ha arreglat la cerca d'alguns idiomes i dissenys de teclat. ([["
+"!tails_ticket 19200]])"
 
 #. type: Plain text
 #, no-wrap
@@ -111,7 +122,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Make the upgrade of the Persistent Storage more reliable:"
-msgstr ""
+msgstr "- L'actualització de l'Emmagatzematge Persistent ara és més fiable:"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -119,6 +130,9 @@ msgid ""
 "displayed every time in Tails 5.14 when Tails failed to upgrade one of the "
 "cryptographic parameters. ([[!tails_ticket 19734]])"
 msgstr ""
+"En alguns sistemes, el missatge \"*S'està actualitzant l'Emmagatzematge "
+"Persistent*\" es mostrava cada vegada a Tails 5.14 quan fallava en "
+"actualitzar un dels paràmetres criptogràfics. ([[!tails_ticket 19734]])"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -126,24 +140,33 @@ msgid ""
 "with the error message \"*Upgrade of persistent storage failed*\".  ([[!"
 "tails_ticket 19728]])"
 msgstr ""
+"En alguns llapis USB, l'actualització de l'Emmagatzematge Persistent era "
+"massa lenta i fallava amb el missatge d'error \"*S'ha produït un error en "
+"actualitzar l'Emmagatzematge Persistent*\". ([[!tails_ticket 19728]])"
 
 #. type: Plain text
 msgid ""
 "- Fix opening documentation links from *Tails Installer*. ([[!tails_ticket "
 "19870]])"
 msgstr ""
+"- S'ha arreglat l'obertura d'enllaços de documentació des de l'*Instal·lador "
+"de Tails*. ([[!tails_ticket 19870]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Prevent *Tor Browser* to access information about other Tor circuits.  ([[!"
 "tails_ticket 19740]])"
 msgstr ""
+"S'ha impedit que el *Navegador Tor* accedeixi a informació sobre altres "
+"circuits Tor. ([[!tails_ticket 19740]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Make the error when scanning the QR code of a bridge more consistent.  ([[!"
 "tails_ticket 19737]])"
 msgstr ""
+"S'ha fet que l'error en escanejar el codi QR d'un pont sigui més coherent. "
+"([[!tails_ticket 19737]])"
 
 #. type: Plain text
 msgid ""
@@ -164,6 +187,9 @@ msgid ""
 "If you encounter this bug, please [[send us a *WhisperBack* report|doc/"
 "first_steps/bug_reporting/#whisperback]]."
 msgstr ""
+"[[!tails_ticket 19728]] afectava la versió 5.14, i encara podria ser "
+"present. Si trobeu aquest error, si us plau, [[envieu-nos un *informe de "
+"WhisperBack*|doc/first_steps/bug_reporting/#whisperback]]."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
@@ -184,6 +210,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.15.1."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.15.1."
 
 #. type: Plain text
 #, no-wrap
@@ -253,6 +281,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.15.1 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu "
+"descarregar Tails 5.15.1 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"

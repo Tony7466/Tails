@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-03-11 11:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -19,8 +19,7 @@ msgstr ""
 "X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!meta title=\"MAC address spoofing\"]]\n"
+#, no-wrap
 msgid "[[!meta title=\"MAC address anonymization\"]]\n"
 msgstr "[[!meta title=\"Verschleiern der MAC-Adresse\"]]\n"
 
@@ -396,18 +395,12 @@ msgid "Disable MAC address anonymization"
 msgstr "Verschleiern der MAC-Adresse deaktivieren"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can disable MAC address spoofing from [[<span "
-#| "class=\"application\">Tails\n"
-#| "Greeter</span>|welcome_screen]]:\n"
 msgid ""
 "You can disable MAC address anonymization from the [[Welcome Screen|"
 "welcome_screen]]:"
 msgstr ""
-"Sie können das Verschleiern Ihrer MAC-Adresse in [[<span "
-"class=\"application\">Tails\n"
-"Greeter</span>|welcome_screen]] deaktivieren:\n"
+"Sie können die MAC-Adressanonymisierung im "
+"[[Willkommensbildschirm|welcome_screen]] deaktivieren:"
 
 #. type: Bullet: '1. '
 #, fuzzy

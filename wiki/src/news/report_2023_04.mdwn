@@ -1,6 +1,6 @@
-[[!meta  title="Tails report for April 2023"]]
-[[!meta  date="Mon, 15 May 2023 15:32:51 +0000"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!meta title="Tails report for April 2023"]]
+[[!meta date="Mon, 15 May 2023 15:32:51 +0000"]]
+[[!pagetemplate template="news.tmpl"]]
 
 [[!toc]]
 

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-26 10:54-0300\n"
-"PO-Revision-Date: 2023-10-22 18:11+0000\n"
+"PO-Revision-Date: 2023-11-05 23:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -27,6 +27,8 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #, no-wrap
 msgid "<h1 id=\"new\" class=\"pc-clone mac-clone\">Welcome to your new Tails!</h1>\n"
 msgstr ""
+"<h1 id=\"new\" class=\"pc-clone mac-clone\">Us donem la benvinguda al vostre "
+"nou Tails!</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -38,17 +40,19 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"wi-fi\">Test your Wi-Fi</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"wi-fi\">Proveu la vostra Wi-Fi</h2>\n"
 
 #. type: Plain text
 msgid ""
 "Problems with Wi-Fi are unfortunately quite common in Tails and Linux in "
 "general. To test if your Wi-Fi interface works in Tails:"
 msgstr ""
+"Malauradament, els problemes amb la Wi-Fi són força comuns a Tails i Linux "
+"en general. Per provar si la vostra interfície Wi-Fi funciona a Tails:"
 
 #. type: Bullet: '1. '
 msgid "Open the system menu in the top-right corner:"
-msgstr ""
+msgstr "Obriu el menú del sistema a l'extrem superior dret:"
 
 #. type: Plain text
 #, no-wrap
@@ -60,12 +64,16 @@ msgid ""
 "Choose <span class=\"guilabel\">Wi-Fi Not Connected</span> and then <span "
 "class=\"guilabel\">Select Network</span>."
 msgstr ""
+"Trieu <span class=\"guilabel\">Wi-Fi no connectada</span> i després <span "
+"class=\"guilabel\">Selecciona la xarxa</span>."
 
 #. type: Bullet: '1. '
 msgid ""
 "After establishing a connection to a local network, the *Tor Connection* "
 "assistant appears to help you connect to the Tor network."
 msgstr ""
+"Després d'establir una connexió a una xarxa local, apareix l'assistent de *"
+"Connexió Tor* per ajudar-vos a connectar a la xarxa Tor."
 
 #. type: Plain text
 #, no-wrap
@@ -103,16 +111,20 @@ msgid ""
 "<div>\n"
 "  <p class=\"big\">You made it!</p>\n"
 msgstr ""
+"<div>\n"
+"  <p class=\"big\">Ho heu aconseguit!</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p>You managed to start <span class=\"pc-clone mac-clone\">your new</span> Tails on your computer!</p>\n"
 msgstr ""
+"  <p>Heu aconseguit iniciar <span class=\"pc-clone mac-clone\">el vostre "
+"nou</span> Tails a l'ordinador!</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <p>Congratulations for staying safe :)</p>\n"
-msgstr ""
+msgstr "  <p>Enhorabona per mantenir-vos segur</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -120,9 +132,11 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h1 id=\"create-persistence\" class=\"step\">Create a Persistent Storage (optional)</h1>\n"
-msgstr "<h1 id=\"create-persistence\">Erstellen Sie einen verschlüsselten beständigen Speicherbereich (optional)</h1>\n"
+msgstr ""
+"<h1 id=\"create-persistence\" class=\"step\">Crear un Emmagatzematge "
+"Persistent (opcional)</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -139,34 +153,38 @@ msgid ""
 "<span class=\"clone\">new</span>\n"
 "Tails USB stick to store any of the following:\n"
 msgstr ""
+"Opcionalment, podeu crear un Emmagatzematge Persistent encriptat a\n"
+"l'espai lliure restant del vostre\n"
+"<span class=\"clone\">nou</span>\n"
+"llapis USB de Tails per emmagatzemar:\n"
 
 #. type: Bullet: '  - '
 msgid "Personal files"
-msgstr ""
+msgstr "Fitxers personals"
 
 #. type: Bullet: '  - '
 msgid "Some settings"
-msgstr ""
+msgstr "Alguns paràmetres"
 
 #. type: Bullet: '  - '
 msgid "Additional software"
-msgstr "Programari addicional"
+msgstr "Programari Addicional"
 
 #. type: Bullet: '  - '
 msgid "Encryption keys"
-msgstr ""
+msgstr "Claus d'encriptatge"
 
 #. type: Plain text
 msgid "The data in the Persistent Storage:"
-msgstr ""
+msgstr "Les dades a l'Emmagatzematge Persistent:"
 
 #. type: Bullet: '  - '
 msgid "Remains available across separate working sessions."
-msgstr ""
+msgstr "Continuen disponibles en sessions de treball separades."
 
 #. type: Bullet: '  - '
 msgid "Is encrypted using a passphrase of your choice."
-msgstr ""
+msgstr "S'encripten amb una contrasenya que escolliu."
 
 #. type: Plain text
 #, no-wrap
@@ -180,6 +198,10 @@ msgid ""
 "your USB stick can know that there is a Persistent Storage on it. Take into consideration\n"
 "that you can be forced or tricked to give out its passphrase.</p>\n"
 msgstr ""
+"<p>L'Emmagatzematge Persistent no està amagat. Un atacant en possessió\n"
+"del vostre llapis USB pot saber que hi ha un Emmagatzematge Persistent. Cal "
+"tenir en compte\n"
+"que podeu ser forçats o enganyats per donar la vostra contrasenya.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -193,6 +215,10 @@ msgid ""
 "unlock the Persistent Storage from other operating systems. But, doing\n"
 "so might compromise the security provided by Tails.</p>\n"
 msgstr ""
+"<p>És possible\n"
+"desbloquejar l'Emmagatzematge Persistent des d'altres sistemes operatius. "
+"Però fer-ho\n"
+"podria comprometre la seguretat proporcionada per Tails.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -201,6 +227,10 @@ msgid ""
 "system. Or, the contents of files might be indexed by the other operating\n"
 "system.</p>\n"
 msgstr ""
+"<p>Per exemple, les imatges de miniatura poden ser creades i desades per "
+"l'altre sistema\n"
+"operatiu. O el contingut dels fitxers pot ser indexat per l'altre sistema\n"
+"operatiu.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -208,11 +238,13 @@ msgid ""
 "<p>Other operating systems should probably not be trusted to handle\n"
 "sensitive information or leave no trace.</p>\n"
 msgstr ""
+"<p>Probablement no s'hauria de confiar que altres sistemes operatius\n"
+"s'encarreguin de la informació sensible o de no deixar rastre.</p>\n"
 
 #. type: Title -
 #, no-wrap
 msgid "Create the Persistent Storage"
-msgstr ""
+msgstr "Crear l'Emmagatzematge Persistent"
 
 #. type: Plain text
 #, no-wrap
@@ -223,6 +255,12 @@ msgid ""
 "     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Configure persistent volume</span></span>.\n"
 msgstr ""
+"1. Trieu\n"
+"   <span class=\"menuchoice\">\n"
+"     <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"     <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">Configura el volum persistent</span></span>."
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -231,6 +269,11 @@ msgid ""
 "<span class=\"guilabel\">Passphrase</span> and <span class=\"guilabel\">Verify\n"
 "Passphrase</span> text boxes.\n"
 msgstr ""
+"1. Especifiqueu una contrasenya de la vostra elecció a les dues caixes de "
+"text\n"
+"<span class=\"guilabel\">Contrasenya</span> i <span class=\"guilabel\">"
+"Verifica\n"
+"la contrasenya</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -240,14 +283,21 @@ msgid ""
 "   <a href=\"https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/\">See this article about memorizable and secure passphrases.</a></p>\n"
 "   </div>\n"
 msgstr ""
+"   <div class=\"tip\">\n"
+"   <p>Us recomanem que escolliu una frase de contrasenya llarga de cinc a "
+"set paraules aleatòries.\n"
+"   <a href=\"https://theintercept.com/2015/03/26/"
+"passphrases-can-memorize-attackers-cant-guess/\">Consulteu aquest article en "
+"anglès sobre contrasenyes fàcils de memoritzar i segures.</a></p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
 msgid "Click on the <span class=\"guilabel\">Create</span> button."
-msgstr ""
+msgstr "Feu clic al botó <span class=\"guilabel\">Crea</span>."
 
 #. type: Bullet: '2. '
 msgid "Wait for the creation to finish."
-msgstr ""
+msgstr "Espereu que acabi la creació."
 
 #. type: Bullet: '3. '
 msgid ""
@@ -255,6 +305,9 @@ msgid ""
 "corresponds to a set of files or settings that can be saved in the "
 "Persistent Storage."
 msgstr ""
+"Apareix la llista de funcions de l'Emmagatzematge Persistent. Cada "
+"característica correspon a un conjunt de fitxers o configuracions que es "
+"poden desar a l'Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
@@ -263,25 +316,30 @@ msgid ""
 "   Data feature for the time being. You\n"
 "   can turn on more features later on according to your needs.\n"
 msgstr ""
+"   Us recomanem que només activeu l'opció de Dades\n"
+"   Personals, de moment. Podeu\n"
+"   activar més funcions més endavant segons les vostres necessitats.\n"
 
 #. type: Bullet: '4. '
 msgid "Click <span class=\"bold\">Save</span>."
-msgstr ""
+msgstr "Feu clic a <span class=\"bold\">Desa</span>."
 
 #. type: Title -
 #, no-wrap
 msgid "Restart and unlock the Persistent Storage"
-msgstr ""
+msgstr "Reinicieu i desbloquegeu l'Emmagatzematge Persistent"
 
 #. type: Bullet: '1. '
 msgid ""
 "Shut down the computer and restart on your <span class=\"clone\">new</span> "
 "Tails USB stick."
 msgstr ""
+"Apagueu l'ordinador i reinicieu el vostre <span class=\"clone\">nou</span> "
+"llapis USB de Tails."
 
 #. type: Bullet: '1. '
 msgid "In the Welcome Screen:"
-msgstr ""
+msgstr "A la Pantalla de Benvinguda:"
 
 #. type: Plain text
 #, no-wrap
@@ -295,6 +353,8 @@ msgid ""
 "Select your language and keyboard layout in the <span class=\"guilabel"
 "\">Language & Region</span> section."
 msgstr ""
+"Seleccioneu l'idioma i la disposició del teclat a la secció <span class="
+"\"guilabel\">Idioma i regió</span>."
 
 #. type: Bullet: '   - '
 msgid ""
@@ -302,6 +362,9 @@ msgid ""
 "click **Unlock** to unlock the Persistent Storage for the current working "
 "session."
 msgstr ""
+"A la secció **Emmagatzematge Persistent encriptat**, introduïu la vostra "
+"contrasenya i feu clic a **Desbloqueja** per desbloquejar l'Emmagatzematge "
+"Persistent per a la sessió de treball actual."
 
 #. type: Bullet: '   - '
 msgid "Click <span class=\"bold\">Start Tails</span>."
@@ -309,7 +372,7 @@ msgstr "Feu clic a <span class=\"bold\">Inicia Tails</span>."
 
 #. type: Bullet: '1. '
 msgid "After 15&ndash;30 seconds, the Tails desktop appears."
-msgstr ""
+msgstr "Després de 15&ndash;30 segons, apareix l'escriptori de Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -321,6 +384,13 @@ msgid ""
 "  <span class=\"guimenu\">Places</span>&nbsp;▸\n"
 "  <span class=\"guimenuitem\">Persistent</span></span>.\n"
 msgstr ""
+"1. Ara podeu desar els vostres fitxers personals i documents de treball a "
+"la\n"
+"carpeta <span class=\"guilabel\">Persistent</span>. Per obrir\n"
+"la carpeta <span class=\"guilabel\">Persistent</span> trieu\n"
+"<span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Llocs</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Persistent</span></span>.\n"
 
 #, no-wrap
 #~ msgid "<div class=\"trophy\">\n"

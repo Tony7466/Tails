@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-05-25 18:59-0500\n"
-"PO-Revision-Date: 2023-10-20 20:26+0000\n"
+"PO-Revision-Date: 2023-11-03 18:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Uncensored and anonymous Internet\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Internet anònim i sense censura\"]]\n"
 
 #. type: Plain text
 #, no-wrap

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-10-01 16:15+0000\n"
-"PO-Revision-Date: 2023-10-20 12:26+0000\n"
+"PO-Revision-Date: 2023-11-05 00:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Crowd-funding campaign for Tails\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Campanya de finançament col·lectiu per a Tails\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -47,10 +47,16 @@ msgid ""
 "[RedPhone and TextSecure](https://whispersystems.org/), and the encrypted "
 "email platform [LEAP](https://leap.se/)."
 msgstr ""
+"La Freedom of the Press Foundation va llançar una [campanya per donar suport "
+"a les eines d'encriptació per als periodistes](https://pressfreedomfoundation"
+".org/) que durarà dos mesos. La campanya està recaptant fons per a Tails, "
+"[Tor](https://torproject.org/), les eines de comunicació mòbil encriptades ["
+"RedPhone i TextSecure](https://whispersystems.org/) i la plataforma de "
+"correu electrònic encriptat [LEAP ](https://leap.se/)."
 
 #. type: Plain text
 msgid "<https://pressfreedomfoundation.org/>"
-msgstr ""
+msgstr "<https://pressfreedomfoundation.org/>"
 
 #. type: Plain text
 msgid ""
@@ -61,3 +67,10 @@ msgid ""
 "can also [donate by check](https://pressfreedomfoundation.org/donation-"
 "information)."
 msgstr ""
+"Feu difusió i ajudeu a que la campanya sigui un èxit. Aquesta és una manera "
+"fàcil de fer donacions per donar suport a les eines d'encriptatge de codi "
+"obert que poden protegir millor les comunicacions dels periodistes i les "
+"seves fonts. La vostra donació serà [deduïble "
+"d'impostos](https://pressfreedomfoundation.org/donation-information). També "
+"podeu [donar amb xec](https://pressfreedomfoundation.org/donation-"
+"information)."

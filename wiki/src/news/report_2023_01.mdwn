@@ -1,6 +1,6 @@
-[[!meta  title="Tails report for January 2023"]]
-[[!meta  date="Wed, 15 Feb 2023 17:47:25 +0000"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!meta title="Tails report for January 2023"]]
+[[!meta date="Wed, 15 Feb 2023 17:47:25 +0000"]]
+[[!pagetemplate template="news.tmpl"]]
 
 [[!toc]]
 
