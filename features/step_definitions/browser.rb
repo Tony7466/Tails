@@ -15,8 +15,17 @@ def save_page_as
 end
 
 def browser_url_entry
-  @torbrowser.child('Navigation', roleName: 'tool bar')
-    .child(roleName: 'entry')
+  # Unfortunately the Dogtail nodes' names are also translated, so for
+  # non-English we have to use a less efficient and (potentially) less
+  # future-proof way to find the URL entry.
+  if $language.empty?  # English
+    @torbrowser.child('Navigation', roleName: 'tool bar')
+      .child(roleName: 'entry')
+  else
+    @torbrowser.children(roleName: 'tool bar')
+      .find { |n| n.child?(roleName: 'entry', retry: false) }
+      .child(roleName: 'entry')
+  end
 end
 
 def get_current_browser_url
