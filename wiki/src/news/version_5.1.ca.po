@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-14 12:13+0000\n"
+"PO-Revision-Date: 2023-11-14 22:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -77,11 +77,14 @@ msgid ""
 "The *Tor Connection* assistant now automatically fixes the computer clock if "
 "you choose to connect to Tor automatically."
 msgstr ""
+"L'assistent de *Connexió Tor* ara corregeix automàticament el rellotge de "
+"l'ordinador si trieu connectar-vos a Tor automàticament."
 
 #. type: Plain text
 #, no-wrap
 msgid "  This makes is much easier for people in Asia to circumvent censorship.\n"
 msgstr ""
+"  Això fa que sigui molt més fàcil per a la gent a Àsia eludir la censura.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -92,6 +95,14 @@ msgid ""
 "  exception to our policy of only making Internet connections through the Tor\n"
 "  network.\n"
 msgstr ""
+"  Tails aprèn l'hora actual connectant-se a la detecció del portal captiu "
+"del\n"
+"  servei de [Fedora](https://getfedora.org/), que és utilitzat per la "
+"majoria de distribucions\n"
+"  Linux. Aquesta connexió no passa per la xarxa Tor i és una\n"
+"  excepció a la nostra política de fer connexions a Internet només a través "
+"de la xarxa\n"
+"  Tor.\n"
 
 #. type: Plain text
 #, no-wrap
