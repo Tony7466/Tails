@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-08 16:13+0000\n"
+"PO-Revision-Date: 2023-11-14 10:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.5 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.5\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -48,6 +48,8 @@ msgid ""
 "- Update *Thunderbird* to [102.3.0](https://www.thunderbird.net/en-US/"
 "thunderbird/102.3.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [102.3.0](https://www."
+"thunderbird.net/en-US/thunderbird/102.3.0/releasenotes/)."
 
 #. type: Plain text
 #, no-wrap
@@ -56,6 +58,11 @@ msgid ""
 "folder icons, and address\n"
 "book](https://blog.thunderbird.net/2022/06/thunderbird-102-released-a-serious-upgrade-to-your-communication/).\n"
 msgstr ""
+"  *Thunderbird* 102 és una actualització important amb [molts canvis a la "
+"navegació,\n"
+"a les icones de carpetes i al llibre\n"
+"d'adreces](https://blog.thunderbird.net/2022/06/"
+"thunderbird-102-released-a-serious-upgrade-to-your-communication/).\n"
 
 #. type: Plain text
 #, no-wrap
@@ -65,17 +72,27 @@ msgid ""
 "  encrypted or not. If encryption is impossible, a key assistant helps you\n"
 "  solve key issues.\n"
 msgstr ""
+"  *Thunderbird* 102 també inclou importants millores d'usabilitat a la\n"
+"  funció OpenPGP. Quan redacteu un correu electrònic, ara podeu veure si\n"
+"  s'encriptarà o no. Si l'encriptatge és impossible, un assistent de claus "
+"us ajudarà\n"
+"  a resoldre problemes amb les claus.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img thunderbird_102.png link=\"no\" alt=\"Thunderbird composer window with encryption turned on and notification about a missing key and how to resolve the issue.\"]]\n"
 msgstr ""
+"  [[!img thunderbird_102.png link=\"no\" alt=\"Finestra del compositor de "
+"Thunderbird amb l'encriptatge activat i una notificació sobre una clau que "
+"falta i com resoldre el problema.\"]]\n"
 
 #. type: Plain text
 msgid ""
 "- Update *Tor Browser* to [11.5.4](https://blog.torproject.org/new-release-"
 "tor-browser-1154)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [11.5.4](https://blog."
+"torproject.org/new-release-tor-browser-1154)."
 
 #. type: Bullet: '- '
 msgid ""
