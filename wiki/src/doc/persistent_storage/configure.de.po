@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-12 20:11+0000\n"
+"PO-Revision-Date: 2023-11-14 14:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -421,23 +421,22 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "When the Pidgin Internet Messenger feature is turned on, all the "
 "configuration files of the [[*Pidgin* internet messenger|doc/"
 "anonymous_internet/pidgin]] are saved in the Persistent Storage:"
 msgstr ""
-"Wenn diese Funktion aktiviert ist, werden alle Konfigurationsdateien des\n"
-"[[<span class=\"application\">Pidgin</span> Internet-Messengers|doc/"
-"anonymous_internet/pidgin]]\n"
-"im beständigen Speicherbereich gesichert:\n"
+"Wenn die Pidgin Internet Messenger-Funktion aktiviert ist, werden alle "
+"Konfigurationsdateien des [[*Pidgin*-Internetmessengers|doc/"
+"anonymous_internet/pidgin]] im Persistent Storage gespeichert:"
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "- The configuration of your accounts, contacts, and chats - Your OTR "
 "encryption keys and keyring"
-msgstr "Die Konfiguration Ihrer Accounts, Kontakte sowie Chats."
+msgstr ""
+"- Die Konfiguration Ihrer Konten, Kontakte und Chats - Ihre OTR-"
+"Verschlüsselungsschlüssel und Schlüsselbund"
 
 #. type: Plain text
 #, fuzzy

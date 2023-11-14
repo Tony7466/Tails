@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-12 20:11+0000\n"
+"PO-Revision-Date: 2023-11-14 14:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -376,10 +376,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"browser\"></a>\n"
+#, no-wrap
 msgid "<h1 id=\"browser\">Web browser</h1>\n"
-msgstr "<a id=\"browser\"></a>\n"
+msgstr "<h1 id=\"browser\">Web Browser</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -478,11 +477,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "The [[<span class=\"guilabel\">New Identity</span> feature of\n"
-#| "<span class=\"application\">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new-identity]]\n"
-#| "is limited to the browser.\n"
+#, no-wrap
 msgid ""
 "<div class=\"next\">\n"
 "  <ul>\n"
@@ -490,9 +485,12 @@ msgid ""
 "  </ul>\n"
 "</div>\n"
 msgstr ""
-"Die [[<span class=\"guilabel\">New Identity</span> Funktion des\n"
-"<span class=\"application\"> Tor Browsers</span>|doc/anonymous_internet/Tor_Browser#new-identity]]\n"
-"ist auf den Browser beschränkt.\n"
+"<div class=\"next\">\n"
+"  <ul>\n"
+"    <li>[[Im Internet surfen mit <span class=\"application\">Tor "
+"Browser</span>|doc/anonymous_internet/Tor_browser]]</li>\n"
+"  </ul>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
