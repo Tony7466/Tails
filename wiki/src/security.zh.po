@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-06-13 19:48+0000\n"
+"POT-Creation-Date: 2023-11-14 10:03+0000\n"
 "PO-Revision-Date: 2018-07-02 07:11+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta title=\"Security\"]]\n"
+msgid "[[!meta title=\"Security advisories\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -32,20 +32,6 @@ msgstr ""
 #, no-wrap
 msgid "[[!toc levels=3]]\n"
 msgstr "[[!toc levels=3]]\n"
-
-#. type: Plain text
-#, fuzzy, no-wrap
-msgid ""
-"[[!inline pages=\"page(security/*) and !security/*/*\n"
-"and !security/fixed and !security/fixed.* and !security/fixed/*\n"
-"and !security/audits and !security/audits.* and !security/audits/*\n"
-"and currentlang()\"\n"
-"actions=no archive=yes feedonly=yes show=10 sort=\"-meta(date) age -path\"]]\n"
-msgstr ""
-"[[!inline pages=\"page(security/*) and ! tagged(security/probable)\n"
-"and !security/audits and !security/audits.* and !security/audits/*\n"
-"and ! tagged(security/fixed) and currentlang() and created_after(security/Numerous_security_holes_in_1.2)\"\n"
-"actions=no archive=yes feeds=no show=0 sort=\"-meta(date) age -path\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -84,8 +70,7 @@ msgstr ""
 msgid ""
 "[[!inline pages=\"page(security/*) and !security/*/*\n"
 "and !security/fixed and !security/fixed.* and !security/fixed/*\n"
-"and !security/audits and !security/audits.* and !security/audits/*\n"
-"and ! tagged(security/fixed) and currentlang()\"\n"
+"and !tagged(security/fixed) and currentlang()\"\n"
 "actions=no archive=yes feeds=no show=0 sort=\"-meta(date) age -path\"]]\n"
 msgstr ""
 "[[!inline pages=\"page(security/*) and ! tagged(security/probable)\n"
@@ -99,28 +84,61 @@ msgid "Fixed security vulnerabilities"
 msgstr ""
 
 #. type: Plain text
+#, fuzzy, no-wrap
+msgid ""
+"[[!inline pages=\"page(security/*) and !security/*/* and tagged(security/fixed) and currentlang() and !security/Numerous_security_holes_in_* and !security/known_security_vulnerabilities_in_*\"\n"
+"actions=no archive=yes feeds=no show=10 sort=\"-meta(date) age -path\"]]\n"
+msgstr ""
+"[[!inline pages=\"page(security/*) and tagged(security/fixed) and (currentlang() or security/Numerous_security_holes_in_0* or security/Numerous_security_holes_in_1*)\"\n"
+"actions=no archive=yes feeds=no show=0 sort=\"-meta(date) age -path\"]]\n"
+
+#. type: Title ##
 #, no-wrap
-msgid "<!-- Keep in sync with security/fixed.mdwn -->\n"
+msgid "Other vulnerabilities solved in included applications"
 msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid ""
-"[[!inline pages=\"page(security/*) and !security/*/* and tagged(security/fixed) and (currentlang() or security/Numerous_security_holes_in_* or security/known_security_vulnerabilities_in_*)\"\n"
-"actions=no archive=yes feeds=no show=5 sort=\"-meta(date) age -path\"]]\n"
+"[[!inline pages=\"page(security/*) and !security/*/* and tagged(security/fixed) and (security/Numerous_security_holes_in_* or security/known_security_vulnerabilities_in_*)\"\n"
+"actions=no archive=yes feeds=no show=10 sort=\"-meta(date) age -path\"]]\n"
 msgstr ""
 "[[!inline pages=\"page(security/*) and tagged(security/fixed) and (currentlang() or security/Numerous_security_holes_in_0* or security/Numerous_security_holes_in_1*)\"\n"
 "actions=no archive=yes feeds=no show=0 sort=\"-meta(date) age -path\"]]\n"
 
-#. type: Title #
+#. type: Plain text
 #, no-wrap
-msgid "Security audits"
+msgid "<!-- Feed buttons used by config/chroot_local-includes/usr/local/bin/tails-security-check\n"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!inline pages=\"security/audits\" raw=\"yes\"]]\n"
+#, fuzzy, no-wrap
+msgid ""
+"[[!inline pages=\"page(security/*) and !security/*/*\n"
+"and !security/fixed and !security/fixed.* and !security/fixed/*\n"
+"and currentlang()\"\n"
+"actions=no archive=yes feedonly=yes show=10 sort=\"-meta(date) age -path\"]]\n"
 msgstr ""
+"[[!inline pages=\"page(security/*) and !security/audits and !security/audits.* and !security/audits/* and currentlang()\"\n"
+"actions=no archive=yes feedonly=yes show=10 sort=\"-meta(date) age -path\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "-->\n"
+msgstr ""
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "[[!inline pages=\"page(security/*) and !security/*/*\n"
+#~ "and !security/fixed and !security/fixed.* and !security/fixed/*\n"
+#~ "and !security/audits and !security/audits.* and !security/audits/*\n"
+#~ "and currentlang()\"\n"
+#~ "actions=no archive=yes feedonly=yes show=10 sort=\"-meta(date) age -path\"]]\n"
+#~ msgstr ""
+#~ "[[!inline pages=\"page(security/*) and ! tagged(security/probable)\n"
+#~ "and !security/audits and !security/audits.* and !security/audits/*\n"
+#~ "and ! tagged(security/fixed) and currentlang() and created_after(security/Numerous_security_holes_in_1.2)\"\n"
+#~ "actions=no archive=yes feeds=no show=0 sort=\"-meta(date) age -path\"]]\n"
 
 #~ msgid "Current holes"
 #~ msgstr "Derzeitige Lücken"
@@ -158,17 +176,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Uns bekannte Audits von Tails sind unter der Rubrik [[Audits|security/"
 #~ "audits]] zu finden."
-
-#~ msgid ""
-#~ "[[!inline pages=\"page(security/*) and !security/audits and !security/"
-#~ "audits.* and !security/audits/* and currentlang()\"\n"
-#~ "actions=no archive=yes feedonly=yes show=10 sort=\"-meta(date) age -path"
-#~ "\"]]\n"
-#~ msgstr ""
-#~ "[[!inline pages=\"page(security/*) and !security/audits and !security/"
-#~ "audits.* and !security/audits/* and currentlang()\"\n"
-#~ "actions=no archive=yes feedonly=yes show=10 sort=\"-meta(date) age -path"
-#~ "\"]]\n"
 
 #~ msgid ""
 #~ "[[!inline pages=\"page(security/*) and ! tagged(security/probable)\n"
