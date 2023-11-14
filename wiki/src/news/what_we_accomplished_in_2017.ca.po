@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-13 15:11+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-14 12:13+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -164,6 +164,9 @@ msgid ""
 "Keeping Tails successful also implies quite a bit of **administration** to "
 "raise funds, do accounting, organize work, write reports, etc."
 msgstr ""
+"Mantenir l'èxit de Tails també implica bastanta **administració** per "
+"recaptar fons, fer comptabilitat, organitzar el treball, escriure informes, "
+"etc."
 
 #. type: Plain text
 msgid ""
@@ -182,6 +185,7 @@ msgstr ""
 #. type: Plain text
 msgid "If you like our work, please take one minute to keep Tails alive."
 msgstr ""
+"Si us agrada la nostra feina, preneu-vos un minut per mantenir Tails viu."
 
 #. type: Plain text
 #, no-wrap
