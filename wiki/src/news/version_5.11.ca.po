@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-08 16:13+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-14 10:11+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.11 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.11\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -48,6 +48,8 @@ msgid ""
 "Tails now uses the [`zram` Linux kernel module](https://en.wikipedia.org/"
 "wiki/Zram) to extend the capacity of the computer's memory."
 msgstr ""
+"Tails ara utilitza el [mòdul `zram` del nucli de Linux](https://en.wikipedia."
+"org/wiki/Zram) per ampliar la capacitat de la memòria de l'ordinador."
 
 #. type: Plain text
 #, no-wrap
@@ -56,6 +58,10 @@ msgid ""
 "  Tails will handle more load before freezing and become slow more\n"
 "  progressively.\n"
 msgstr ""
+"  Podeu executar més aplicacions o utilitzar la vostra sessió durant "
+"períodes de temps més llargs.\n"
+"  Tails suportarà més càrrega abans de congelar-se i tornar-se més lent\n"
+"  progressivament.\n"
 
 #. type: Bullet: '- '
 msgid ""
@@ -63,6 +69,10 @@ msgid ""
 "configured this feature to allow unlimited screencasts. See [[screenshot and "
 "screencast|doc/sensitive_documents/screenshot_and_screencast]]."
 msgstr ""
+"Podeu fer gravacions de pantalla mitjançant la funció integrada de GNOME. "
+"Hem configurat aquesta funció per permetre projeccions de pantalla il·"
+"limitades. Vegeu [[captura i enregistrament de pantalla|doc/"
+"sensitive_documents/screenshot_and_screencast]]."
 
 #. type: Plain text
 #, no-wrap
@@ -74,16 +84,21 @@ msgid ""
 "- Update *Tor Browser* to [12.0.4](https://blog.torproject.org/new-release-"
 "tor-browser-1204)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.0.4](https://blog."
+"torproject.org/new-release-tor-browser-1204)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [102.9.0](https://www.thunderbird.net/en-US/"
 "thunderbird/102.9.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [102.9.0](https://www."
+"thunderbird.net/en-US/thunderbird/102.9.0/releasenotes/)."
 
 #. type: Plain text
 msgid "- Redesigned the unlocking section of the Welcome Screen."
 msgstr ""
+"- S'ha redissenyat la secció de desbloqueig de la Pantalla de Benvinguda."
 
 #. type: Plain text
 #, no-wrap
@@ -146,6 +161,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.11."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior fins a la versió 5.11."
 
 #. type: Plain text
 #, no-wrap
@@ -215,6 +232,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.11 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.11 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -231,4 +250,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 5.12 is [[scheduled|contribute/calendar]] for April 18."
-msgstr ""
+msgstr "Tails 5.12 està [[programat|contribute/calendar]] per al 18 d'abril."
