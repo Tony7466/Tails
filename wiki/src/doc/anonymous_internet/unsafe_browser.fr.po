@@ -77,7 +77,6 @@ msgid "To start the *Unsafe Browser*:"
 msgstr "Pour démarrer le *Navigateur non sécurisé* :"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Applications**&nbsp;▸ **Internet**&nbsp;▸ **Unsafe Browser**."
 msgid "Choose **Applications**&nbsp;▸ **Internet**&nbsp;▸ **Unsafe Browser**."

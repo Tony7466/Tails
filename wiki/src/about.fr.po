@@ -58,8 +58,6 @@ msgstr ""
 "Pour utiliser Tails, éteignez l'ordinateur et démarrez-le sur votre clé USB "
 "Tails à la place de Windows, macOS ou Linux."
 
-#
-#
 #. type: Content of: <section><div><p>
 msgid ""
 "You can temporarily <strong>turn your own computer into a secure machine</"
@@ -71,24 +69,23 @@ msgstr ""
 "sécurité en utilisant l'ordinateur d'une autre personne</strong>."
 
 #. type: Content of: <section><div><p>
-#, fuzzy
 #| msgid ""
-#| "Tails is a [[!inline pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" sort="
-#| "\"age\"]] download and takes ½ hour to install. Tails can be installed on "
-#| "any USB stick of 8 GB minimum.  Tails works on most computers less than "
-#| "10 years old.  You can start again on the other operating system after "
-#| "you shut down Tails."
+#| "Tails is a [[!inline pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" "
+#| "sort=\"age\"]] download and takes ½ hour to install. Tails can be "
+#| "installed on any USB stick of 8 GB minimum.  Tails works on most "
+#| "computers less than 10 years old.  You can start again on the other "
+#| "operating system after you shut down Tails."
 msgid ""
-"Tails is a [[!inline pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" sort="
-"\"age\"]] download and takes ½ hour to install. Tails can be installed on "
-"any USB stick of 8 GB minimum.  Tails works on most computers less than 10 "
-"years old.  You can start again on the other operating system after you shut "
-"down Tails."
+"Tails is a [[!inline pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" "
+"sort=\"age\"]] download and takes ½ hour to install. Tails can be installed "
+"on any USB stick of 8 GB minimum.  Tails works on most computers less than "
+"10 years old.  You can start again on the other operating system after you "
+"shut down Tails."
 msgstr ""
-"Tails s'installe en ½ heure, après un téléchargement de [[!inline pages="
-"\"inc/stable_amd64_iso_size\" raw=\"yes\" sort=\"age\"]]. Tails peut être "
-"installé sur n'importe quelle clé USB d'au moins 8 Go. Tails fonctionne sur "
-"la plupart des ordinateurs de moins de 10 ans. Une fois Tails éteint, "
+"Tails s'installe en ½ heure, après un téléchargement de [[!inline "
+"pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" sort=\"age\"]]. Tails peut "
+"être installé sur n'importe quelle clé USB d'au moins 8 Go. Tails fonctionne "
+"sur la plupart des ordinateurs de moins de 10 ans. Une fois Tails éteint, "
 "l'ordinateur peut redémarrer sur le système d'exploitation habituel."
 
 #. type: Content of: <section><div><p>
@@ -124,9 +121,6 @@ msgstr "[[Télécharger et installer Tails|install]]"
 msgid "[[System requirements and recommended hardware|doc/about/requirements]]"
 msgstr "[[Configuration requise|doc/about/requirements]]"
 
-#
-#
-#
 #. type: Content of: <section><div>
 msgid ""
 "[[!img amnesia.svg link=\"no\" alt=\"\"]] <i class=\"metaphor\">Like a tent, "
@@ -185,18 +179,16 @@ msgstr ""
 "intégralement lors de l'extinction de Tails, supprimant ainsi toutes les "
 "traces possibles."
 
-#
-#
-#
 #. type: Content of: <section><div>
 msgid ""
-"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i class=\"metaphor"
-"\">Like a backpack, you can store your personal things in your Persistent "
-"Storage and use them in your tent.</i>"
+"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i "
+"class=\"metaphor\">Like a backpack, you can store your personal things in "
+"your Persistent Storage and use them in your tent.</i>"
 msgstr ""
-"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i class=\"metaphor"
-"\">Comme avec un sac à dos, vous pouvez stocker vos affaires personnelles "
-"dans le stockage persistant et les utiliser dans votre tente.</i>"
+"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i "
+"class=\"metaphor\">Comme avec un sac à dos, vous pouvez stocker vos affaires "
+"personnelles dans le stockage persistant et les utiliser dans votre tente.</"
+"i>"
 
 #. type: Content of: <section><div><h2>
 msgid "Persistent Storage"
@@ -330,8 +322,6 @@ msgstr "[[Documentation|doc]]"
 msgid "Leave no trace on the Internet"
 msgstr "Ne pas laisser de trace sur Internet"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img relays.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img relays.svg link=\"no\" alt=\"\"]]"
@@ -418,8 +408,6 @@ msgstr ""
 "[[Naviguer sur le web avec le Navigateur Tor|doc/anonymous_internet/"
 "Tor_Browser]]"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img walkie-talkie.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img walkie-talkie.svg link=\"no\" alt=\"\"]]"
@@ -506,8 +494,6 @@ msgstr ""
 msgid "Software for freedom"
 msgstr "Des logiciels pour la liberté"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img blueprint.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img blueprint.svg link=\"no\" alt=\"\"]]"
@@ -537,8 +523,6 @@ msgstr "[[Licence et distribution du code source|doc/about/license]]"
 msgid "[[Design documents|contribute/design]]"
 msgstr "[[Documents de conception|contribute/design]] (en anglais)"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img fire.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img fire.svg link=\"no\" alt=\"\"]]"
@@ -584,8 +568,6 @@ msgstr "[[Sponsors|sponsors]]"
 msgid "[[Social Contract|doc/about/social_contract]]"
 msgstr "[[Contrat social|doc/about/social_contract]]"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img roots.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img roots.svg link=\"no\" alt=\"\"]]"
@@ -881,14 +863,14 @@ msgstr "[[Installer Tails|install]]"
 
 #~ msgid ""
 #~ "[[Encrypt your USB sticks or external hard-disks|doc/"
-#~ "encryption_and_privacy/encrypted_volumes]] using <span class=\"definition"
-#~ "\">[[!wikipedia Linux_Unified_Key_Setup desc=\"LUKS\"]]</span>, the Linux "
-#~ "standard for disk-encryption."
+#~ "encryption_and_privacy/encrypted_volumes]] using <span "
+#~ "class=\"definition\">[[!wikipedia Linux_Unified_Key_Setup "
+#~ "desc=\"LUKS\"]]</span>, the Linux standard for disk-encryption."
 #~ msgstr ""
 #~ "[[Chiffrez votre clé USB ou votre disque dur externe|doc/"
-#~ "encryption_and_privacy/encrypted_volumes]] avec <span class=\"definition"
-#~ "\">[[!wikipedia_fr LUKS]]</span>, le standard de Linux en matière de "
-#~ "chiffrement de volume."
+#~ "encryption_and_privacy/encrypted_volumes]] avec <span "
+#~ "class=\"definition\">[[!wikipedia_fr LUKS]]</span>, le standard de Linux "
+#~ "en matière de chiffrement de volume."
 
 #~ msgid ""
 #~ "Automatically use HTTPS to encrypt all your communications to a number of "
@@ -903,23 +885,23 @@ msgstr "[[Installer Tails|install]]"
 
 #~ msgid ""
 #~ "Encrypt and sign your emails and documents using the *de facto* standard "
-#~ "<span class=\"definition\">[[!wikipedia Pretty_Good_Privacy#OpenPGP desc="
-#~ "\"OpenPGP\"]]</span> either from Tails email client, text editor or file "
-#~ "browser."
+#~ "<span class=\"definition\">[[!wikipedia Pretty_Good_Privacy#OpenPGP "
+#~ "desc=\"OpenPGP\"]]</span> either from Tails email client, text editor or "
+#~ "file browser."
 #~ msgstr ""
 #~ "Chiffrez et signez vos emails et documents depuis le client mail de "
 #~ "Tails, l'éditeur de texte ou le navigateur de fichiers grâce au standard "
 #~ "*de facto* <span class=\"definition\">[[!wikipedia_fr OpenPGP]]</span>."
 
 #~ msgid ""
-#~ "Protect your instant messaging conversations using <span class="
-#~ "\"definition\">[[!wikipedia Off-the-Record_Messaging desc=\"OTR\"]]</"
-#~ "span>, a cryptographic tool that provides encryption, authentication and "
-#~ "deniability."
+#~ "Protect your instant messaging conversations using <span "
+#~ "class=\"definition\">[[!wikipedia Off-the-Record_Messaging "
+#~ "desc=\"OTR\"]]</span>, a cryptographic tool that provides encryption, "
+#~ "authentication and deniability."
 #~ msgstr ""
 #~ "Protégez vos conversations par messagerie instantanée en utilisant <span "
-#~ "class=\"definition\">[[!wikipedia_fr Off-the-Record Messaging desc=\"OTR"
-#~ "\"]]</span>, un outil cryptographique qui fournit chiffrement, "
+#~ "class=\"definition\">[[!wikipedia_fr Off-the-Record Messaging "
+#~ "desc=\"OTR\"]]</span>, un outil cryptographique qui fournit chiffrement, "
 #~ "authentification ainsi que la possibilité du déni plausible."
 
 #~ msgid ""

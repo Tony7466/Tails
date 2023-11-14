@@ -70,7 +70,6 @@ msgstr ""
 "administration_password]] au démarrage de Tails."
 
 #. type: Bullet: '    1. '
-#, fuzzy
 #| msgid ""
 #| "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</"
 #| "span>&nbsp;▸ <span class=\"guisubmenu\">System Tools</span>&nbsp;▸ <span "
@@ -335,7 +334,7 @@ msgstr ""
 "first_steps/welcome_screen/administration_password]]."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose <span class=\"menuchoice\">\n"
 #| "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
@@ -640,7 +639,7 @@ msgid "Checking your list of additional software"
 msgstr "Vérifier votre liste de logiciels supplémentaires"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To see which packages are installed automatically\n"
 #| "every time you start Tails, choose <span class=\"menuchoice\">\n"
@@ -708,7 +707,6 @@ msgstr ""
 "En utilisant <span class=\"application\">Logiciels supplémentaires</span> :"
 
 #. type: Bullet: '    1. '
-#, fuzzy
 #| msgid ""
 #| "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</"
 #| "span>&nbsp;▸ <span class=\"guisubmenu\">System Tools</span>&nbsp;▸ <span "
@@ -784,7 +782,6 @@ msgstr ""
 "pouvez libérer de la place dans votre stockage persistant :"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</"
 #| "span>&nbsp;▸ <span class=\"guisubmenu\">System Tools</span>&nbsp;▸ <span "

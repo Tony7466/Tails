@@ -114,7 +114,6 @@ msgstr ""
 "2017."
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "Our yearly expenses equal 230.000 € on average since 2015 - which is a "
 #| "very small budget compared to the multi billionaire companies and "

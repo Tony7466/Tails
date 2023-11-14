@@ -21,9 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Resetting a USB stick using macOS\"]]\n"
-msgstr ""
-"[[!meta title=\" Einen USB-Stick oder eine SD-Karte unter macOS "
-"zurücksetzen\"]]\n"
+msgstr "[[!meta title=\" Einen USB-Stick oder eine SD-Karte unter macOS zurücksetzen\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -41,10 +39,8 @@ msgid ""
 "<p><strong>You might overwrite any hard disk on the computer.</strong> If at some\n"
 "point you are not sure about which device to choose, stop proceeding.</p>\n"
 msgstr ""
-"<p><strong>Sie könnten jegliche Festplatten des Computers überschreiben.</"
-"strong> Falls Sie\n"
-"sich an irgendeinem Punkt unsicher darüber sind, welches Medium Sie wählen "
-"sollen, brechen Sie den Vorgang ab.</p>\n"
+"<p><strong>Sie könnten jegliche Festplatten des Computers überschreiben.</strong> Falls Sie\n"
+"sich an irgendeinem Punkt unsicher darüber sind, welches Medium Sie wählen sollen, brechen Sie den Vorgang ab.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -108,8 +104,7 @@ msgid ""
 "    Erase</span> button on the bottom right\n"
 msgstr ""
 "    a. Wenn es einen <span class=\"guilabel\">Löschen</span>-Reiter\n"
-"    im rechten Fensterbereich gibt, klicken Sie darauf und dann auf den "
-"<span class=\"bold\">\n"
+"    im rechten Fensterbereich gibt, klicken Sie darauf und dann auf den <span class=\"bold\">\n"
 "    Löschen</span>-Knopf unten rechts\n"
 
 #. type: Plain text
@@ -175,7 +170,7 @@ msgstr ""
 "möchten."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Open <span class=\"application\">Terminal</span> from\n"
 #| "   <span class=\"menuchoice\">\n"
@@ -207,9 +202,7 @@ msgstr "       diskutil list\n"
 #. type: Plain text
 #, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
-msgstr ""
-"   Es wird eine Liste der Speichermedien des Systems ausgegeben. Zum "
-"Beispiel:\n"
+msgstr "   Es wird eine Liste der Speichermedien des Systems ausgegeben. Zum Beispiel:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -250,10 +243,8 @@ msgid ""
 "   Your USB stick appears as a new device in the list. Check\n"
 "   that its size corresponds to the size of your USB stick.\n"
 msgstr ""
-"   Ihr USB-Stick erscheint als neues Speichermedium in der Liste. Stellen "
-"Sie\n"
-"   sicher, dass die Größe der Speicherkapazität Ihres USB-Sticks entspricht."
-"\n"
+"   Ihr USB-Stick erscheint als neues Speichermedium in der Liste. Stellen Sie\n"
+"   sicher, dass die Größe der Speicherkapazität Ihres USB-Sticks entspricht.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -291,10 +282,8 @@ msgid ""
 "   </div>\n"
 msgstr ""
 "   <div class=\"caution\">\n"
-"   <p>Falls Sie sich bezüglich des Gerätenamens nicht sicher sind, sollten "
-"Sie das Vorgehen abbrechen oder\n"
-"   <strong>Sie riskieren, dass jegliche Festplatten des Systems "
-"überschrieben werden</strong>.</p>\n"
+"   <p>Falls Sie sich bezüglich des Gerätenamens nicht sicher sind, sollten Sie das Vorgehen abbrechen oder\n"
+"   <strong>Sie riskieren, dass jegliche Festplatten des Systems überschrieben werden</strong>.</p>\n"
 "   </div>\n"
 
 #. type: Bullet: '1. '

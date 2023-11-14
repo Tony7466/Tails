@@ -54,7 +54,7 @@ msgstr ""
 "diagrammi di flusso"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To start <span class=\"application\">LibreOffice</span> choose\n"
 #| "<span class=\"menuchoice\">\n"

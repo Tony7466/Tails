@@ -53,7 +53,7 @@ msgstr ""
 "présentons nos projets pour 2020."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "But first, we are pleased that the donation campaign has been pretty successful so far. We received\n"
 #| "around 50&#8239;000 € already, which is 69% more than last year.\n"

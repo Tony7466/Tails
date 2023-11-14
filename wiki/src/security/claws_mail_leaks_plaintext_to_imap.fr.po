@@ -98,7 +98,7 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To know if you are using IMAP or POP, choose <span class=\"menuchoice\">\n"
 #| "<span class=\"guimenu\">Configuration</span>&nbsp;▸\n"
@@ -230,7 +230,7 @@ msgstr ""
 "à vos activités sur Tails. Pour ce faire :"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose **File**&nbsp;▸ **Add mailbox**&nbsp;▸ **MH&hellip;** to\n"
 #| "create a local mailbox where to download your emails.\n"
@@ -260,7 +260,7 @@ msgid "   [[!img claws_mail_leaks_plaintext_to_imap/add_mailbox.png link=\"no\"]
 msgstr "   [[!img claws_mail_leaks_plaintext_to_imap/add_mailbox.png link=\"no\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose **Configuration**&nbsp;▸ **Edit accounts&hellip;**, select\n"
 #| "your IMAP account in the list of accounts, and click **Delete** to\n"
@@ -353,7 +353,7 @@ msgstr ""
 "lieux de ceux du serveur. Pour cela :"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose **Add mailbox**&nbsp;▸ **MH&hellip;** to create a local\n"
 #| "mailbox where to save your drafts and queued emails.\n"
@@ -365,7 +365,7 @@ msgstr ""
 "boîte aux lettres locale où vos brouillons et messages en instance d'envoi seront enregistrés.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose **Configuration**&nbsp;▸ **Edit accounts&hellip;**, select\n"
 #| "your IMAP account in the list of accounts, and click **Edit** to edit\n"

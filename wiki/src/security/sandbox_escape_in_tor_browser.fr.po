@@ -48,7 +48,7 @@ msgid "<p>Tor Browser in Tails 3.14.1 and earlier is unsafe to use in most cases
 msgstr "<p>Dans Tails 3.14.1 et les versions précédentes, le Navigateur Tor n'est pas sûr dans la plupart des cas.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "<p>We <b>strongly</b> encourage you to\n"
 #| "[[upgrade to Tails 3.14.2|news/version_3.14.2]] as soon as possible.</p>\n"

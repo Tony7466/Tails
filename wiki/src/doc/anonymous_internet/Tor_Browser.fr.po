@@ -599,7 +599,7 @@ msgid "<h1 id=\"new-identity\"><span class=\"guilabel\">New Identity</span> feat
 msgstr "<h1 id=\"new-identity\">Fonctionnalité <span class=\"guilabel\">Nouvelle identité</span></h1>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To switch to a new identity, choose\n"
 #| "<span class=\"menuchoice\">\n"
@@ -837,12 +837,10 @@ msgstr ""
 #~ msgstr "<a id=\"javascript\"></a>\n"
 
 #, fuzzy
-#~| msgid "Security level\n"
 #~ msgid "Security level"
 #~ msgstr "Niveau de sécurité\n"
 
 #, fuzzy
-#~| msgid "Tor circuit\n"
 #~ msgid "Tor circuit"
 #~ msgstr "Circuit Tor\n"
 

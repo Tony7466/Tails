@@ -145,7 +145,6 @@ msgstr ""
 "können."
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "From anonymized statistics on our website we know that Tails is used by "
 #| "around 18 000 people every day. **If each of them gave 12€, the price of "

@@ -88,7 +88,6 @@ msgstr ""
 "de sécurité."
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "Making Tails costs us around 200&#8239;000€ each year. This is a really "
 #| "small number given all the work done, and many of us still do a lot of "
@@ -184,7 +183,7 @@ msgstr ""
 "simplement parce qu'elles n'ont pas d'argent."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "Last year we received 1&#8239;167\n"
 #| "donations for a total of 101&#8239;644€. <b>This year, we aim for 120&#8239;000€\n"

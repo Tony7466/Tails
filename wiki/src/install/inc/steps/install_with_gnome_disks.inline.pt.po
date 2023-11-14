@@ -31,7 +31,7 @@ msgstr ""
 "<span class=\"application\">Discos</span>)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "   <div class=\"linux\">\n"
 #| "     For example, you can press the <span class=\"keycap\">Super</span> key,\n"
