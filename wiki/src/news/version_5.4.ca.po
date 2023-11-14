@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-08 16:13+0000\n"
+"PO-Revision-Date: 2023-11-14 09:05+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.4 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.4\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -48,12 +48,16 @@ msgid ""
 "Harden several aspects of our *Linux* kernel. ([[!tails_ticket 18302]], [[!"
 "tails_ticket 18858]], and [[!tails_ticket 18886]])"
 msgstr ""
+"S'han endurit diversos aspectes del nostre nucli *Linux*. ([[!tails_ticket "
+"18302]], [[!tails_ticket 18858]] i [[!tails_ticket 18886]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Disable HTTPS-only mode in the *Unsafe Browser* to make it easier to sign in "
 "to Wi-Fi networks."
 msgstr ""
+"Desactiveu el mode només HTTPS al *Navegador Insegur* per facilitar la "
+"sessió a les xarxes Wi-Fi."
 
 #. type: Plain text
 msgid ""
