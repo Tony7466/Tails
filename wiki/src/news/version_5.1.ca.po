@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
 "PO-Revision-Date: 2023-11-15 00:13+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -152,6 +152,8 @@ msgid ""
 "The last screen of the *Tor Connection* assistant makes it clear whether you "
 "are connected using Tor bridges or not."
 msgstr ""
+"L'última pantalla de l'assistent de *Connexió Tor* deixa clar si us esteu "
+"connectat mitjançant ponts de Tor o no."
 
 #. type: Plain text
 #, no-wrap
