@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-13 23:12+0000\n"
+"PO-Revision-Date: 2023-11-14 12:13+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.9 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.9\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,6 +42,9 @@ msgid ""
 "This release fixes [[many security vulnerabilities|security/"
 "Numerous_security_holes_in_4.8]]. You should upgrade as soon as possible."
 msgstr ""
+"Aquesta versió corregeix [[moltes vulnerabilitats de seguretat|security/"
+"Numerous_security_holes_in_4.8]]. Hauríeu d'actualitzar el més aviat "
+"possible."
 
 #. type: Plain text
 #, no-wrap
@@ -58,18 +61,24 @@ msgid ""
 "- Update *Tor Browser* to [9.5.3](https://blog.torproject.org/new-release-"
 "tor-browser-953)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [9.5.3](https://blog."
+"torproject.org/new-release-tor-browser-953)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [68.10.0](https://www.thunderbird.net/en-US/"
 "thunderbird/68.10.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [68.10.0](https://www."
+"thunderbird.net/en-US/thunderbird/68.10.0/releasenotes/)."
 
 #. type: Bullet: '- '
 msgid ""
 "Update *Linux* to 5.7.6. This should improve the support for newer hardware "
 "(graphics, Wi-Fi, etc.)."
 msgstr ""
+"S'ha actualitzat *Linux* a la versió 5.7.6. Això hauria de millorar la "
+"compatibilitat amb el maquinari més nou (gràfics, Wi-Fi, etc.)."
 
 #. type: Title #
 #, no-wrap
@@ -84,18 +93,27 @@ msgid ""
 "first_steps/welcome_screen/administration_password]].  ([[!tails_ticket "
 "17792]])"
 msgstr ""
+"S'han permès caràcters diferents de <span class=\"code\">A&ndash;Z</span>, "
+"<span class=\"code\">a&ndash;z</span>, <span class=\"code\">1&ndash;9</"
+"span>, i <span class=\"code\">_@%+=:,./-</span> a la [[contrasenya "
+"d'administració|doc/first_steps/welcome_screen/administration_password]]. ([["
+"!tails_ticket 17792]])"
 
 #. type: Bullet: '* '
 msgid ""
 "Apply the keyboard layout that is automatically selected when you change the "
 "language in the Welcome Screen. ([[!tails_ticket 17794]])"
 msgstr ""
+"S'aplica la disposició del teclat que es selecciona automàticament quan "
+"canvieu l'idioma a la Pantalla de Benvinguda. ([[!tails_ticket 17794]])"
 
 #. type: Bullet: '* '
 msgid ""
 "Fix starting Tails with the <span class=\"code\">toram</span> boot option.  "
 "([[!tails_ticket 17800]])"
 msgstr ""
+"S'ha arreglat l'inici de Tails amb l'opció d'arrencada <span class=\"code\""
+">toram</span>. ([[!tails_ticket 17800]])"
 
 #. type: Plain text
 msgid ""
@@ -120,6 +138,8 @@ msgid ""
 "USB Wi-Fi adapters with Atheros AR9271 hardware do not work with Linux "
 "5.7.6. ([[!tails_ticket 17834]])"
 msgstr ""
+"Els adaptadors Wi-Fi USB amb maquinari Atheros AR9271 no funcionen amb Linux "
+"5.7.6. ([[!tails_ticket 17834]])"
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
@@ -140,6 +160,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.2 or later to 4.9."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.2 o "
+"posterior a la versió 4.9."
 
 #. type: Bullet: '- '
 msgid ""
@@ -191,6 +213,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.9 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.9 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -207,7 +231,7 @@ msgstr "Què ve?"
 
 #. type: Plain text
 msgid "Tails 4.10 is [[scheduled|contribute/calendar]] for August 25."
-msgstr ""
+msgstr "Tails 4.10 està [[programat|contribute/calendar]] per al 25 d'agost."
 
 #. type: Plain text
 #, no-wrap
@@ -216,3 +240,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.9\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.9\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"
