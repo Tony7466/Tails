@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-08 16:13+0000\n"
+"PO-Revision-Date: 2023-11-14 09:27+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.11 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.11\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -48,6 +48,8 @@ msgid ""
 "Tails now uses the [`zram` Linux kernel module](https://en.wikipedia.org/"
 "wiki/Zram) to extend the capacity of the computer's memory."
 msgstr ""
+"Tails ara utilitza el [mòdul `zram` del nucli de Linux](https://en.wikipedia."
+"org/wiki/Zram) per ampliar la capacitat de la memòria de l'ordinador."
 
 #. type: Plain text
 #, no-wrap
@@ -56,6 +58,10 @@ msgid ""
 "  Tails will handle more load before freezing and become slow more\n"
 "  progressively.\n"
 msgstr ""
+"  Podeu executar més aplicacions o utilitzar la vostra sessió durant "
+"períodes de temps més llargs.\n"
+"  Tails suportarà més càrrega abans de congelar-se i tornar-se més lent\n"
+"  progressivament.\n"
 
 #. type: Bullet: '- '
 msgid ""
@@ -63,6 +69,10 @@ msgid ""
 "configured this feature to allow unlimited screencasts. See [[screenshot and "
 "screencast|doc/sensitive_documents/screenshot_and_screencast]]."
 msgstr ""
+"Podeu gravar captures de pantalla mitjançant la funció integrada de GNOME. "
+"Hem configurat aquesta funció per permetre projeccions de pantalla il·"
+"limitades. Vegeu [[captura i enregistrament de pantalla|doc/"
+"sensitive_documents/screenshot_and_screencast]]."
 
 #. type: Plain text
 #, no-wrap
