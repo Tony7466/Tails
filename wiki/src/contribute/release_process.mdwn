@@ -478,7 +478,7 @@ Update other base branches
    handled as any other topic branch forked off `devel`: its base branch is set
    to `devel`):
 
-        if git describe feature/bookworm >/dev/null 2>&1; then
+        if git describe origin/feature/bookworm >/dev/null 2>&1; then
            git checkout feature/bookworm && \
            git pull && \
            git merge devel
