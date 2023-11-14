@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-14 11:32+0000\n"
+"PO-Revision-Date: 2023-11-14 12:13+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -176,6 +176,9 @@ msgid ""
 "Keeping Tails successful also implies quite a bit of **administration** to "
 "raise funds, do accounting, organize work, write reports, etc."
 msgstr ""
+"Mantenir l'èxit de Tails també implica bastanta **administració** per "
+"recaptar fons, fer comptabilitat, organitzar el treball, escriure informes, "
+"etc."
 
 #. type: Bullet: '- '
 msgid ""
@@ -183,12 +186,19 @@ msgid ""
 "worked on the prototype of a web translation platform to allow more "
 "translators to contribute and more diverse people to use Tails."
 msgstr ""
+"Des del 2015, hem afegit traduccions al farsi i a l'italià al nostre lloc "
+"web i hem treballat en el prototip d'una plataforma de traducció web per "
+"permetre que més traductors contribueixin i més persones diverses utilitzin "
+"Tails."
 
 #. type: Plain text
 msgid "If you like our work, please take one minute to keep Tails alive."
 msgstr ""
+"Si us agrada la nostra feina, preneu-vos un minut per mantenir Tails viu."
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=what2017\">Donate</a></div>\n"
 msgstr ""
+"<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=what2017\""
+">Feu una donació</a></div>\n"
