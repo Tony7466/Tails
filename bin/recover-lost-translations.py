@@ -17,7 +17,7 @@ def recover_from_old(e_old, e_new):
     if not e_old.translated():
         return False
 
-    if e_new.translated():
+    if e_new.translated() or e_new.obsolete:
         return False
 
     return True
