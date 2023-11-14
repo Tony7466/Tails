@@ -1,4 +1,4 @@
-tails (5.19.1) UNRELEASED; urgency=medium
+tails (5.19.1) unstable; urgency=medium
 
   * Upgrade tor to 0.4.8.9 (tails/tails!1285)
 
@@ -36,7 +36,7 @@ tails (5.19.1) UNRELEASED; urgency=medium
       - Use clearer grep --recursive instead of rgrep
       - Help the RM when we FTBFS during release process due to an unused APT source
 
- -- Tails developers <tails@boum.org>  Mon, 13 Nov 2023 14:09:43 +0000
+ -- Tails developers <tails@boum.org>  Tue, 14 Nov 2023 11:55:39 +0100
 
 tails (5.19) unstable; urgency=medium
 
