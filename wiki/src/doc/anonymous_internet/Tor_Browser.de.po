@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-12 20:11+0000\n"
+"PO-Revision-Date: 2023-11-14 14:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translation <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -480,19 +480,23 @@ msgstr ""
 "<span class=\"application\">Tor Browser</span> Designdokument beziehen</a>.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"security_slider\"></a>\n"
+#, no-wrap
 msgid "<h1 id=\"security-level\">Security level</h1>\n"
-msgstr "<a id=\"security_slider\"></a>\n"
+msgstr "<h1 id=\"security-level\">Sicherheitsstufe</h1>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "You can use the security slider of *Torbutton* to disable browser features as a trade-off between security and usability. For example, you can use the security slider to disable JavaScript completely."
+#, no-wrap
 msgid ""
 "You can change the security level of <span class=\"application\">Tor Browser</span>\n"
 "to disable browser features as a trade-off between security and usability.\n"
 "For example, you can set the security level to *Safest* to disable JavaScript completely.\n"
-msgstr "Sie können den Schieberegler von *Torbutton* benutzen, um Browserfunktionen als Kompromiss zwischen Sicherheit und Benutzbarkeit zu deaktivieren. Beispielsweise können Sie den Schieberegler benutzen, um JavaScript vollständig zu deaktivieren."
+msgstr ""
+"Sie können das Sicherheitslevel des <span class=\"application\">Tor "
+"Browsers</span>\n"
+"ändern, um Browserfunktionen als Kompromiss zwischen Sicherheit und "
+"Benutzerfreundlichkeit zu deaktivieren.\n"
+"Zum Beispiel können Sie das Sicherheitslevel auf *Am sichersten* setzen, um "
+"JavaScript komplett zu deaktivieren.\n"
 
 #. type: Plain text
 msgid ""
@@ -501,14 +505,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "To change the value of the security slider, click on the [[!img torbutton.png link=no class=symbolic alt=\"green onion\"]] button and choose **Privacy and Security Settings**."
+#, no-wrap
 msgid ""
 "To change the security level, click on the [[!img security-level.png\n"
 "class=\"symbolic\" link=\"no\"]] icon on the right of the address bar\n"
 "and choose\n"
 "<span class=\"guilabel\">Advanced Security Settings&hellip;</span>.\n"
-msgstr "Um den Wert des Sicherheitsreglers zu ändern klicken Sie auf die [[!img torbutton.png link=no class=symbolic alt=\"grüne Zwiebel\"]] Schaltfläche und wählen Sie **Privatsphäre- und Sicherheits-Einstellungen**."
+msgstr ""
+"Um das Sicherheitslevel zu ändern, klicken Sie auf das [[!img security-level."
+"png\n"
+"class=\"symbolic\" link=\"no\"]] Symbol rechts in der Adressleiste\n"
+"und wählen Sie\n"
+"<span class=\"guilabel\">Erweiterte Sicherheitseinstellungen&hellip;</span>."
+"\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -535,14 +544,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<a id=\"circuit-view\"></a>\n"
-#| "<a id=\"new_circuit\"></a>\n"
+#, no-wrap
 msgid "<h1 id=\"circuit-view\">Tor circuit</h1>\n"
-msgstr ""
-"<a id=\"circuit-view\"></a>\n"
-"<a id=\"new_circuit\"></a>\n"
+msgstr "<h1 id=\"circuit-view\">Tor Verbindungen</h1>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -582,10 +586,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<span class=\"guilabel\">New Identity</span> feature\n"
+#, no-wrap
 msgid "<h1 id=\"new-identity\"><span class=\"guilabel\">New Identity</span> feature</h1>\n"
-msgstr "<span class=\"guilabel\">Neue Identität</span>-Funktion\n"
+msgstr ""
+"<h1 id=\"new-identity\"><span class=\"guilabel\">Neue "
+"Identität</span>-Funktion</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -597,12 +602,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "The <span class=\"guilabel\">New Identity</span> feature of *Tor Browser*:\n"
+#, no-wrap
 msgid ""
 "The New Identity feature of\n"
 "<i>Tor Browser</i>:\n"
-msgstr "Die <span class=\"guilabel\">Neue Identität</span> Funktion des *Tor Browsers*:\n"
+msgstr ""
+"Die neue Identitätsfunktion des\n"
+"<i>Tor Browsers</i>:\n"
 
 #. type: Bullet: '  - '
 msgid "Closes all open tabs."
@@ -629,19 +635,16 @@ msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<p>This feature is not enough to strongly [[separate contextual identities|about/warning#identities]]\n"
-#| "in the context of Tails as the connections outside of\n"
-#| "<span class=\"application\">Tor Browser</span> are not restarted.</p>\n"
+#, no-wrap
 msgid ""
 "<p>This feature is not enough to strongly [[separate contextual identities|about/warnings/identity#contextual]]\n"
 "as the Tor circuits used ouside of\n"
 "<i>Tor Browser</i> are not changed.</p>\n"
 msgstr ""
-"<p>Diese Funktion ist für die starke Trennung von [[Identitäten für verschiedene Kontexte|about/warning#identities]]\n"
-"im Kontext von Tails nicht ausreichend, da die Verbindungen außerhalb des\n"
-"<span class=\"application\">Tor Browsers</span> nicht neu gestartet werden.</p>\n"
+"<p>Diese Funktion ist nicht ausreichend, um [[kontextbezogene Identitäten "
+"stark zu trennen|about/warnings/identity#contextual]]\n"
+"da die außerhalb des\n"
+"<i>Tor Browsers</i> verwendeten Tor-Schaltkreise nicht geändert werden.</p>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -663,10 +666,11 @@ msgstr ""
 "identity)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "NoScript to have even more control over JavaScript\n"
+#, no-wrap
 msgid "<h1 id=\"noscript\">NoScript to have even more control over JavaScript</h1>\n"
-msgstr "NoScript um noch mehr Kontrolle über JavaScript zu haben\n"
+msgstr ""
+"<h1 id=\"noscript\">NoScript um noch mehr Kontrolle über JavaScript zu "
+"haben</h1>\n"
 
 #. type: Plain text
 #, no-wrap
