@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-14 22:12+0000\n"
+"PO-Revision-Date: 2023-11-14 22:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -107,7 +107,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "  <div class=\"next\">\n"
-msgstr ""
+msgstr "  <div class=\"next\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -116,6 +116,12 @@ msgid ""
 "  synchronization in our [[design documentation about non-Tor\n"
 "  traffic|contribute/design/Tor_enforcement#non-tor-traffic]].</p>\n"
 msgstr ""
+"  <p>Podeu obtenir més informació sobre la nostra avaluació de seguretat d'"
+"aquesta\n"
+"  sincronització de l'hora a la nostra [[documentació de disseny sobre "
+"trànsit\n"
+"  que no passa per Tor|contribute/design/Tor_enforcement#non-tor-"
+"traffic]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -127,6 +133,8 @@ msgid ""
 "The time displayed in the top navigation uses the time zone selected when "
 "fixing the clock in the *Tor Connection* assistant."
 msgstr ""
+"L'hora que es mostra a la navegació superior utilitza la zona horària "
+"seleccionada en arreglar el rellotge a l'assistent de *Connexió Tor*."
 
 #. type: Plain text
 #, no-wrap
@@ -135,6 +143,9 @@ msgid ""
 "  everybody from the desktop ([[!tails_ticket 10819]]) and store it in the\n"
 "  Persistent Storage ([[!tails_ticket 12094]]).\n"
 msgstr ""
+"  En el futur, farem possible canviar la zona horària que es mostra per a\n"
+"  tothom des de l'escriptori ([[!tails_ticket 10819]]) i desar-la a\n"
+"  l'Emmagatzematge Persistent ([[!tails_ticket 12094]]).\n"
 
 #. type: Bullet: '- '
 msgid ""
