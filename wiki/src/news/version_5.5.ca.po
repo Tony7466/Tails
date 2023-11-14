@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-14 10:11+0000\n"
+"PO-Revision-Date: 2023-11-14 12:13+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -99,12 +99,16 @@ msgid ""
 "Update the *Linux* kernel to 5.10.140. This should improve the support for "
 "newer hardware: graphics, Wi-Fi, and so on."
 msgstr ""
+"S'ha actualitzat el nucli de *Linux* a la versió 5.10.140. Això hauria de "
+"millorar la compatibilitat amb el maquinari més nou: gràfics, Wi-Fi, etc."
 
 #. type: Plain text
 msgid ""
 "- Make the `wget` command line utility use a different Tor circuit every "
 "time."
 msgstr ""
+"- S'ha fet que la utilitat de línia d'ordres `wget` utilitzi un circuit Tor "
+"diferent cada vegada."
 
 #. type: Plain text
 #, no-wrap
@@ -116,10 +120,14 @@ msgid ""
 "Always ask to configure a screen locking password when pressing Ctrl+L and "
 "no administration pasword was set. ([[!tails_ticket 19090]])"
 msgstr ""
+"Es demana sempre que configureu una contrasenya de bloqueig de pantalla quan "
+"premeu Ctrl+L i no s'ha establert cap contrasenya d'administració. ([["
+"!tails_ticket 19090]])"
 
 #. type: Plain text
 msgid "- Add standard fields to `/etc/os-release`. ([[!tails_ticket 12372]])"
 msgstr ""
+"- S'han afegit camps estàndard a `/etc/os-release`. ([[!tails_ticket 12372]])"
 
 #. type: Plain text
 #, no-wrap
@@ -149,6 +157,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.5."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.5."
 
 #. type: Plain text
 #, no-wrap
@@ -218,6 +228,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.5 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.5 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -234,4 +246,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 5.6 is [[scheduled|contribute/calendar]] for October 25."
-msgstr ""
+msgstr "Tails 5.6 està [[programat|contribute/calendar]] per al 25 d'octubre."
