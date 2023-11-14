@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-14 23:29+0000\n"
+"PO-Revision-Date: 2023-11-14 23:31+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -88,6 +88,10 @@ msgid ""
 "and developers from a malicious build of our ISO image. This effort was paid "
 "for by the Mozilla Open Source Support award which we received in 2016."
 msgstr ""
+"Aviat oferirem una versió reproduïble de la imatge ISO per protegir els "
+"usuaris i desenvolupadors d'una compilació maliciosa de la nostra imatge "
+"ISO. Aquest esforç s'ha vist recompensat amb el premi Mozilla Open Source "
+"Support que vam rebre el 2016."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -97,20 +101,28 @@ msgid ""
 "downloading via the website with JavaScript enabled, when using our Download "
 "And Verify Extension and when Tails is updated."
 msgstr ""
+"Ens vam comprometre a treballar per fer que tots els nostres miralls "
+"utilitzin **HTTPS** i estem orgullosos d'anunciar que el nostre grup de "
+"miralls ara conté més de 40 miralls actius i ràpids. Tots serveixen els "
+"nostres fitxers mitjançant una connexió TLS encriptada quan es baixen a "
+"través del lloc web amb el JavaScript habilitat, quan s'utilitza la nostra "
+"extensió de baixada i verificació i quan s'actualitza Tails."
 
 #. type: Plain text
 msgid "- **Community**"
-msgstr ""
+msgstr "- **Comunitat**"
 
 #. type: Bullet: '  - '
 msgid ""
 "We published our **[[Social contract|/doc/about/social_contract]]**, the "
 "guiding principles that reflect the commitment to our ideals."
 msgstr ""
+"Vam publicar el nostre **[[Contracte Social|/doc/about/social_contract]]**, "
+"els principis rectors que reflecteixen el compromís amb els nostres ideals."
 
 #. type: Plain text
 msgid "- **Fundraising**"
-msgstr ""
+msgstr "- **Recaptació de fons**"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -118,6 +130,9 @@ msgid ""
 "presenting our past and present sponsors and hopefully inciting more "
 "companies and individuals to make substantial donations."
 msgstr ""
+"**Tenir fonts d'ingressos més fiables i estables**: vam crear una pàgina que "
+"presentava els nostres patrocinadors passats i actuals i esperem que incitem "
+"més empreses i persones a fer donacions substancials."
 
 #. type: Plain text
 msgid ""
