@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-14 10:19+0000\n"
+"PO-Revision-Date: 2023-11-14 10:27+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -73,6 +73,14 @@ msgid ""
 "unpredictable, they are hard to fund through grants and we instead usually "
 "rely on donations."
 msgstr ""
+"Fins i tot sense crear res de nou a Tails, publicar els nostres "
+"**llançaments** cada sis setmanes suposa molta feina, ja que també implica "
+"solucionar els problemes trobats en versions anteriors, documentar els "
+"canvis, migrar a versions més noves de Debian, GNOME i del Navegador Tor i "
+"assegurar-se que els **fonaments** de Tails segueixen sent rellevants. Com "
+"que el calendari d'emissions d'emergència és imprevisible, és difícil "
+"finançar-les mitjançant subvencions i, en canvi, normalment confiem en "
+"donacions."
 
 #. type: Bullet: '- '
 msgid ""
@@ -80,36 +88,43 @@ msgid ""
 "almost exclusively covered by grants or developed by volunteers. Since 2015, "
 "new features that were not funded by grants included:"
 msgstr ""
+"El desenvolupament de **funcions noves** no és la part més important del "
+"nostre pressupost. Estan cobertes gairebé exclusivament per subvencions o "
+"desenvolupades per voluntaris. Des del 2015, les novetats que no s'han "
+"finançat amb subvencions inclouen:"
 
 #. type: Bullet: '  - '
 msgid "Integrating the *Electrum* Bitcoin client."
-msgstr ""
+msgstr "Integració del client *Electrum* Bitcoin."
 
 #. type: Bullet: '  - '
 msgid "Replacing *Vidalia* with *Onion Circuits*."
-msgstr ""
+msgstr "Substituir *Vidalia* per *Onion Circuits*."
 
 #. type: Bullet: '  - '
 msgid "Continue working on a new version of *Tails Greeter*."
-msgstr ""
+msgstr "Continuar treballant en una nova versió de *Tails Greeter*."
 
 #. type: Bullet: '  - '
 msgid ""
 "Mentoring a Google Summer of Code on *Tails Server* to allow running onion "
 "services from Tails (websites, collaboration tools, etc.)."
 msgstr ""
+"Mentoratge d'un Google Summer of Code al *Tails Server* per permetre "
+"l'execució de serveis onion des de Tails (llocs web, eines de col·laboració, "
+"etc.)."
 
 #. type: Bullet: '  - '
 msgid "Adding an offline mode that disables all networking."
-msgstr ""
+msgstr "Afegir un mode fora de línia que desactiva totes les xarxes."
 
 #. type: Bullet: '  - '
 msgid "Adding support for `obfs4` Tor bridges."
-msgstr ""
+msgstr "Afegir suport per als ponts de Tor `obfs4`."
 
 #. type: Bullet: '  - '
 msgid "Writing numerous additions to our website and documentation."
-msgstr ""
+msgstr "Escriure nombroses addicions al nostre lloc web i a la documentació."
 
 #. type: Bullet: '- '
 msgid ""
@@ -117,6 +132,9 @@ msgid ""
 "request costs us 6€ on average to proceed. In 2016 our help desk was paid "
 "entirely out of donations."
 msgstr ""
+"El nostre **taulell d'ajuda** ajuda centenars d'usuaris de Tails cada mes. "
+"Cada sol·licitud d'usuari ens costa 6€ de mitjana per continuar. L'any 2016 "
+"el nostre servei d'ajuda es va pagar íntegrament amb donacions."
 
 #. type: Bullet: '- '
 msgid ""
