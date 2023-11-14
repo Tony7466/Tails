@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-05 00:11+0000\n"
+"PO-Revision-Date: 2023-11-14 10:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"What we do with your money\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Què fem amb els vostres diners\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,10 +43,13 @@ msgid ""
 "In our last post we explained [[why we need donations]]. Today we're telling "
 "you more about how we use these donations."
 msgstr ""
+"A la nostra última publicació vam explicar [[per què necessitem donacions|"
+"why we need donations]]. Avui us expliquem més sobre com fem servir aquestes "
+"donacions."
 
 #. type: Plain text
 msgid "In 2015, we spent around 184 000€, distributed as follows:"
-msgstr ""
+msgstr "L'any 2015 vam gastar uns 184 000€, distribuïts de la següent manera:"
 
 #. type: Plain text
 #, no-wrap
@@ -55,6 +58,10 @@ msgid ""
 "foundations: 25%, New features: 23%, Help desk: 16%, Infrastructure: 13%,\n"
 "Administration: 12%, Meetings: 10%\"]]\n"
 msgstr ""
+"[[!img expenses.png link=\"no\" class=\"top-margin center\" alt=\"Versió i\n"
+"fonaments: 25%, Noves funcions: 23%, Servei d'ajuda: 16%, Infraestructura: "
+"13%,\n"
+"Administració: 12%, Reunions: 10%\"]]\n"
 
 #. type: Bullet: '- '
 msgid ""
