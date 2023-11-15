@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-14 14:13+0000\n"
+"PO-Revision-Date: 2023-11-15 09:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -655,10 +655,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "What is the relationship between Tor and Tails?\n"
+#, no-wrap
 msgid "<h2 id=\"dns\">How does the DNS resolution work in Tails?</h2>\n"
-msgstr "Was ist der Zusammenhang zwischen Tor und Tails?\n"
+msgstr "<h2 id=\"dns\">Wie funktioniert die DNS-Auflösung in Tails?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -921,10 +920,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "What is the relationship between Tor and Tails?\n"
+#, no-wrap
 msgid "<h2 id=\"monero\">How can I use Monero in Tails?</h2>\n"
-msgstr "Was ist der Zusammenhang zwischen Tor und Tails?\n"
+msgstr "<h2 id=\"monero\">Wie kann ich Monero in Tails verwenden?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -941,10 +939,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "What is the relationship between Tor and Tails?\n"
+#, no-wrap
 msgid "<h2 id=\"voip\">Can I do voice or video calls from Tails?</h2>\n"
-msgstr "Was ist der Zusammenhang zwischen Tor und Tails?\n"
+msgstr ""
+"<h2 id=\"voip\">Kann ich von Tails aus Sprach- oder Videoanrufe tätigen?</h2>"
+"\n"
 
 #. type: Plain text
 msgid "Not yet."
