@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-02 10:29+0200\n"
-"PO-Revision-Date: 2023-11-10 22:11+0000\n"
+"PO-Revision-Date: 2023-11-15 11:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -25,6 +25,8 @@ msgstr "[[!meta robots=\"noindex\"]]"
 #. type: Content of: <ol><li><p>
 msgid "Make sure that you have installed Tails using either:"
 msgstr ""
+"Vergewissern Sie sich, dass Sie Tails mit einer der folgenden Methoden "
+"installiert haben:"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>balenaEtcher</i> from macOS|install/mac#etcher]]"
