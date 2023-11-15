@@ -127,7 +127,7 @@ msgstr ""
 "le compte `root`. ([[!tails_ticket 7465]])"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "  Users of the Dotfiles feature of the Persistent Storage can choose\n"
 #| "  **Places&nbsp;▸ Dotfiles** to open the\n"
@@ -175,11 +175,11 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
-"\"]]."
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
 msgstr ""
-"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog desc="
-"\"liste des changements\"]]."
+"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog "
+"desc=\"liste des changements\"]]."
 
 #. type: Plain text
 #, no-wrap
@@ -203,8 +203,7 @@ msgstr "<h1 id=\"get\">Obtenir Tails 4.13</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr ""
-"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+msgstr "Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.2 or later to 4.13."

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-09 21:58+0000\n"
-"PO-Revision-Date: 2023-11-12 18:14+0000\n"
+"PO-Revision-Date: 2023-11-15 11:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -28,7 +28,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"Tue, 06 Jun 2023 14:00:00 +0000\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"Tue, 06 Jun 2023 14:00:00 +0000\"]]\n"
 
 #. type: Plain text
 #, no-wrap

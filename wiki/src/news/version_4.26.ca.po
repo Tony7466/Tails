@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-08 16:12+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-15 00:14+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are broken from Tails 4.14 and earlier."
 msgstr ""
-"- Les actualitzacions automàtiques es trenquen des de Tails 4.14 i anteriors."
+"- Les actualitzacions automàtiques estan trencades des de Tails 4.14 i "
+"anteriors."
 
 #. type: Plain text
 #, no-wrap

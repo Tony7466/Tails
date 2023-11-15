@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-11-12 18:11+0000\n"
+"PO-Revision-Date: 2023-11-15 11:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -23,10 +23,8 @@ msgid "[[Removing metadata from files|sensitive_documents/metadata]]"
 msgstr "[[Metadaten aus Dateien entfernen|sensitive_documents/metadata]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Office_suite|sensitive_documents/office_suite]]"
 msgid "[[Office suite|sensitive_documents/office_suite]]"
-msgstr "[[!traillink Office-Paket|sensitive_documents/office_suite]]"
+msgstr "[[Office Suite|sensitive_documents/office_suite]]"
 
 #. type: Bullet: '  - '
 #, fuzzy

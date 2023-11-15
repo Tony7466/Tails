@@ -147,7 +147,6 @@ msgid "- In 2017, we published seven Tails **releases**."
 msgstr "- En 2017, nous avons publié sept **versions** de Tails."
 
 #. type: Bullet: '- '
-#, fuzzy
 #| msgid ""
 #| "We answered 122 bug reports on average each month through our *help desk* "
 #| "and helped many people being safer online. Each user request costs us 6€ "

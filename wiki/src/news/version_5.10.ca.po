@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-08 16:13+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-15 00:13+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.10 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.10\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -48,23 +48,31 @@ msgid ""
 "- Update *Tor Browser* to [12.0.3](https://blog.torproject.org/new-release-"
 "tor-browser-1203)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.0.3](https://blog."
+"torproject.org/new-release-tor-browser-1203)."
 
 #. type: Plain text
 msgid ""
 "- Ask for confirmation when starting without unlocking the Persistent "
 "Storage."
 msgstr ""
+"- Es demana confirmació quan s'inicia sense desbloquejar l'Emmagatzematge "
+"Persistent."
 
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img unlock.png link=\"no\" alt=\"Do you really want to start Tails without unlocking your Persistent Storage?\"]]\n"
 msgstr ""
+"  [[!img unlock.png link=\"no\" alt=\"Voleu iniciar Tails sense desbloquejar "
+"el vostre Emmagatzematge Persistent?\"]]\n"
 
 #. type: Plain text
 msgid ""
 "- Update our [[documentation on the Persistent Storage|doc/"
 "persistent_storage]]."
 msgstr ""
+"- Hem actualitzat la nostra [[documentació sobre l'Emmagatzematge Persistent|"
+"doc/persistent_storage]]."
 
 #. type: Plain text
 #, no-wrap
@@ -76,12 +84,16 @@ msgid ""
 "- Avoid crashing when the download of an upgrade is stopped and resumed. ([[!"
 "tails_ticket 18435]])"
 msgstr ""
+"- S'evita el bloqueig quan la baixada d'una actualització s'atura i es "
+"reprèn. ([[!tails_ticket 18435]])"
 
 #. type: Plain text
 msgid ""
 "- Solve a possible privilege escalation through a symlink attack. ([[!"
 "tails_ticket 19424]])"
 msgstr ""
+"- Es resol una possible escalada de privilegis mitjançant un atac d'enllaç "
+"simbòlic. ([[!tails_ticket 19424]])"
 
 #. type: Plain text
 #, no-wrap
@@ -91,23 +103,36 @@ msgid ""
 "  to reading arbitrary files on the system. It might have been possible to use\n"
 "  this as part of an exploit chain to gain root privileges.\n"
 msgstr ""
+"  Dennis Brinkrolf va descobrir que un adversari que pogués córrer "
+"arbitràriament\n"
+"  codi com a usuari d'amnèsia a Tails 5.9, podria haver augmentat els seus "
+"privilegis\n"
+"  per llegir fitxers arbitraris al sistema. Podria haver estat possible "
+"utilitzar\n"
+"  això com a part d'una cadena d'explotació per obtenir privilegis "
+"d'administrador.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2>Persistent Storage</h2>\n"
-msgstr ""
+msgstr "<h2>Emmagatzematge Persistent</h2>\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Avoid opening the Persistent Storage settings each time after login.  ([[!"
 "tails_ticket 19410]])"
 msgstr ""
+"S'evita obrir la configuració de l'Emmagatzematge Persistent cada cop "
+"després d'iniciar sessió. ([[!tails_ticket 19410]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Solve some cases of failure to activate the Persistent Storage by bumping "
 "the unlocking timeout to 120 seconds. ([[!tails_ticket 19432]])"
 msgstr ""
+"Es resolen alguns casos de fallada per activar l'Emmagatzematge Persistent "
+"augmentant el temps d'espera de desbloqueig a 120 segons. ([[!tails_ticket "
+"19432]])"
 
 #. type: Plain text
 msgid ""
@@ -163,6 +188,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.10."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.10."
 
 #. type: Plain text
 #, no-wrap
@@ -232,6 +259,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.10 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.10 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -248,4 +277,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 5.11 is [[scheduled|contribute/calendar]] for March 14."
-msgstr ""
+msgstr "Tails 5.11 està [[programat|contribute/calendar]] per al 14 de març."

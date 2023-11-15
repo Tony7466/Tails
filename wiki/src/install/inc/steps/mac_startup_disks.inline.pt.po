@@ -155,7 +155,6 @@ msgid "To open <em>Startup Security Utility</em>:"
 msgstr "Para abrir o <em>Utilitário de segurança de inicialização</em>:"
 
 #. type: Content of: <ol><li><ol><li><p>
-#, fuzzy
 #| msgid ""
 #| "Turn on your Mac, then press and hold <strong>Command(⌘)+R</strong> "
 #| "immediately after you see the Apple logo. Your Mac starts up from <a "
@@ -171,7 +170,6 @@ msgstr ""
 "macOS</a>."
 
 #. type: Content of: <ol><li><ol><li><p>
-#, fuzzy
 #| msgid ""
 #| "When you see the macOS <em>Utilities</em> window, choose "
 #| "<strong>Utilities&nbsp;▸ Startup Security Utility</strong> from the menu "
@@ -304,10 +302,6 @@ msgstr ""
 "[[pendrives USB problemáticos|support/known_issues#problematic-usb-stick]]."
 
 #, fuzzy
-#~| msgid ""
-#~| "[[!toggleable id=\"report-toggle-1\" text=\"\"\" <span class=\"hide\">[[!"
-#~| "toggle id=\"report-toggle-1\" text=\"\"]]</span> [[!inline "
-#~| "pages=\"install/inc/steps/reporting.inline\" raw=\"yes\"]] \"\"\"]]"
 #~ msgid ""
 #~ "[[!toggleable id=\"report-toggle-1\" text=\"\"\" <span class=\"hide\">[[!"
 #~ "toggle id=\"report-toggle-1\" text=\"\"]]</span>"
@@ -317,10 +311,6 @@ msgstr ""
 #~ "pages=\"install/inc/steps/reporting.inline.pt\" raw=\"yes\"]] \"\"\"]]"
 
 #, fuzzy
-#~| msgid ""
-#~| "[[!toggleable id=\"report-toggle\" text=\"\"\" <span class=\"hide\">[[!"
-#~| "toggle id=\"report-toggle\" text=\"\"]]</span> [[!inline pages=\"install/"
-#~| "inc/steps/reporting.inline\" raw=\"yes\"]] \"\"\"]]"
 #~ msgid ""
 #~ "[[!toggleable id=\"report-toggle\" text=\"\"\" <span class=\"hide\">[[!"
 #~ "toggle id=\"report-toggle\" text=\"\"]]</span>"

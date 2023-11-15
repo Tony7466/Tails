@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-10-26 18:12+0000\n"
-"PO-Revision-Date: 2023-11-12 18:11+0000\n"
+"PO-Revision-Date: 2023-11-15 11:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -28,19 +28,14 @@ msgid "When Tails starts, Wi-Fi, WWAN, and WiMAX devices are enabled."
 msgstr "Beim Start von Tails werden W-LAN-, WWAN- und WiMAX-Geräte aktiviert."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "But all other kinds of wireless devices such as GPS and FM devices are "
-#| "disabled by default. If you want to use such a device, you need to enable "
-#| "it first."
 msgid ""
 "But all other kinds of wireless devices such as Bluetooth, GPS and FM "
 "devices are disabled by default. If you want to use such a device, you need "
 "to enable it first."
 msgstr ""
-"Aber alle anderen drahtlosen Geräte, beispielsweise GPS- und FM-Geräte, sind "
-"standardmäßig deaktiviert. Wenn sie ein solches Gerät benutzen möchten, "
-"müssen Sie es zuerst aktivieren."
+"Aber alle anderen drahtlosen Geräte, beispielsweise Bluetooth, GPS- und FM-"
+"Geräte, sind standardmäßig deaktiviert. Wenn sie ein solches Gerät benutzen "
+"möchten, müssen Sie es zuerst aktivieren."
 
 #. type: Plain text
 #, no-wrap

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-03-26 10:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1>Other ways to donate</h1>\n"
-msgstr ""
+msgstr "<h1>Andere Möglichkeiten zu spenden</h1>\n"
 
 #. type: Plain text
 #, no-wrap

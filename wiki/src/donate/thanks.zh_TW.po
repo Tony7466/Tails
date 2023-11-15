@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2022-10-18 17:18-0500\n"
+"POT-Creation-Date: 2023-11-14 10:03+0000\n"
 "PO-Revision-Date: 2022-12-24 08:17+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: Tails Chinese translators <jxt@twngo.xyz>\n"
@@ -89,7 +89,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <div><div><blockquote><p>
-msgid "Thanks Tails for an amazing tool!</em>"
+msgid "Thanks for an amazing tool!</em>"
 msgstr ""
 
 #. type: Content of: <div><div><blockquote>

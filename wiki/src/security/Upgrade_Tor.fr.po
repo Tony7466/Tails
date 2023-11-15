@@ -85,7 +85,6 @@ msgstr ""
 "effectuées sont perdues au redémarrage.)"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "To upgrade Tor, start a *Root Terminal* from the "
 #| "*Applications* → *Accessories* menu, and type the following command in "
@@ -103,7 +102,6 @@ msgid "\tapt-get update && apt-get install tor && service tor start\n"
 msgstr "\tapt-get update && apt-get install tor && service tor start\n"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "... then type *Enter*, and wait until the upgrade is completed, which may "
 #| "take a few minutes. At this time, the Vidalia icon on the top right of "

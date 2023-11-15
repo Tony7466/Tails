@@ -58,8 +58,6 @@ msgstr ""
 "Para usar Tails, apaga la computadora e inicia en tu memoria USB en lugar de "
 "iniciar con Windows, macOS o Linux."
 
-#
-#
 #. type: Content of: <section><div><p>
 msgid ""
 "You can temporarily <strong>turn your own computer into a secure machine</"
@@ -71,22 +69,21 @@ msgstr ""
 "computadora de otra persona</strong>."
 
 #. type: Content of: <section><div><p>
-#, fuzzy
 #| msgid ""
-#| "Tails is a [[!inline pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" sort="
-#| "\"age\"]] download and takes ½ hour to install. Tails can be installed on "
-#| "any USB stick of 8 GB minimum.  Tails works on most computers less than "
-#| "10 years old.  You can start again on the other operating system after "
-#| "you shut down Tails."
+#| "Tails is a [[!inline pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" "
+#| "sort=\"age\"]] download and takes ½ hour to install. Tails can be "
+#| "installed on any USB stick of 8 GB minimum.  Tails works on most "
+#| "computers less than 10 years old.  You can start again on the other "
+#| "operating system after you shut down Tails."
 msgid ""
-"Tails is a [[!inline pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" sort="
-"\"age\"]] download and takes ½ hour to install. Tails can be installed on "
-"any USB stick of 8 GB minimum.  Tails works on most computers less than 10 "
-"years old.  You can start again on the other operating system after you shut "
-"down Tails."
+"Tails is a [[!inline pages=\"inc/stable_amd64_iso_size\" raw=\"yes\" "
+"sort=\"age\"]] download and takes ½ hour to install. Tails can be installed "
+"on any USB stick of 8 GB minimum.  Tails works on most computers less than "
+"10 years old.  You can start again on the other operating system after you "
+"shut down Tails."
 msgstr ""
-"Tails es una descarga de [[!inline pages=\"inc/stable_amd64_iso_size\" raw="
-"\"yes\" sort=\"age\"]] y toma ½ hora para instalar. Tails puede ser "
+"Tails es una descarga de [[!inline pages=\"inc/stable_amd64_iso_size\" "
+"raw=\"yes\" sort=\"age\"]] y toma ½ hora para instalar. Tails puede ser "
 "instalado en una memoria USB de al menos 8 GB.   Tails funciona en la "
 "mayoría de las computadoras de menos de 10 años.  Puedes comenzar de nuevo "
 "en el otro sistema operativo después de apagar Tails."
@@ -123,9 +120,6 @@ msgstr "[[Descargar e instalar Tails|install]]"
 msgid "[[System requirements and recommended hardware|doc/about/requirements]]"
 msgstr "[[Requisitos del sistema|doc/about/requirements]]"
 
-#
-#
-#
 #. type: Content of: <section><div>
 msgid ""
 "[[!img amnesia.svg link=\"no\" alt=\"\"]] <i class=\"metaphor\">Like a tent, "
@@ -179,18 +173,15 @@ msgstr ""
 "ejecuta desde la memoria de la computadora. La memoria se elimina por "
 "completo cuando apagas Tails, borrando todos los rastros posibles."
 
-#
-#
-#
 #. type: Content of: <section><div>
 msgid ""
-"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i class=\"metaphor"
-"\">Like a backpack, you can store your personal things in your Persistent "
-"Storage and use them in your tent.</i>"
+"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i "
+"class=\"metaphor\">Like a backpack, you can store your personal things in "
+"your Persistent Storage and use them in your tent.</i>"
 msgstr ""
-"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i class=\"metaphor"
-"\">Como una mochila, puedes almacenar tus cosas personales en su "
-"Almacenamiento Persistente y usarlas en tu tienda de campaña.</i>"
+"[[!img persistent-storage.svg link=\"no\" alt=\"\"]] <i "
+"class=\"metaphor\">Como una mochila, puedes almacenar tus cosas personales "
+"en su Almacenamiento Persistente y usarlas en tu tienda de campaña.</i>"
 
 #. type: Content of: <section><div><h2>
 msgid "Persistent Storage"
@@ -319,8 +310,6 @@ msgstr "[[Documentación|doc]]"
 msgid "Leave no trace on the Internet"
 msgstr "No deja rastro en internet"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img relays.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img relays.svg link=\"no\" alt=\"\"]]"
@@ -409,8 +398,6 @@ msgid ""
 msgstr ""
 "[[Navegar la red con el Navegador Tor|doc/anonymous_internet/Tor_Browser]]"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img walkie-talkie.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img walkie-talkie.svg link=\"no\" alt=\"\"]]"
@@ -495,8 +482,6 @@ msgstr ""
 msgid "Software for freedom"
 msgstr "Software para la libertad"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img blueprint.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img blueprint.svg link=\"no\" alt=\"\"]]"
@@ -526,8 +511,6 @@ msgstr "[[Licencia y distribución de código fuente|doc/about/license]]"
 msgid "[[Design documents|contribute/design]]"
 msgstr "[[Documentos de diseño|contribute/design]]"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img fire.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img fire.svg link=\"no\" alt=\"\"]]"
@@ -571,8 +554,6 @@ msgstr "[[Patrocinadores|sponsors]]"
 msgid "[[Social Contract|doc/about/social_contract]]"
 msgstr "[[Contrato Social|doc/about/social_contract]]"
 
-#
-#
 #. type: Content of: <section><div>
 msgid "[[!img roots.svg link=\"no\" alt=\"\"]]"
 msgstr "[[!img roots.svg link=\"no\" alt=\"\"]]"
@@ -861,24 +842,24 @@ msgstr "[[Instalar Tails|install]]"
 
 #~ msgid ""
 #~ "[[Encrypt your USB sticks or external hard-disks|doc/"
-#~ "encryption_and_privacy/encrypted_volumes]] using <span class=\"definition"
-#~ "\">[[!wikipedia Linux_Unified_Key_Setup desc=\"LUKS\"]]</span>, the Linux "
-#~ "standard for disk-encryption."
+#~ "encryption_and_privacy/encrypted_volumes]] using <span "
+#~ "class=\"definition\">[[!wikipedia Linux_Unified_Key_Setup "
+#~ "desc=\"LUKS\"]]</span>, the Linux standard for disk-encryption."
 #~ msgstr ""
 #~ "[[Cifra tu memoria USB o disco duro externo|doc/encryption_and_privacy/"
 #~ "encrypted_volumes]] usando <span class=\"definition\">[[!wikipedia_es "
 #~ "LUKS]]</span>, el estándar de Linux para cifrar discos."
 
 #~ msgid ""
-#~ "Protect your instant messaging conversations using <span class="
-#~ "\"definition\">[[!wikipedia Off-the-Record_Messaging desc=\"OTR\"]]</"
-#~ "span>, a cryptographic tool that provides encryption, authentication and "
-#~ "deniability."
+#~ "Protect your instant messaging conversations using <span "
+#~ "class=\"definition\">[[!wikipedia Off-the-Record_Messaging "
+#~ "desc=\"OTR\"]]</span>, a cryptographic tool that provides encryption, "
+#~ "authentication and deniability."
 #~ msgstr ""
-#~ "Protege tus conversaciones de mensajería instantánea usando <span class="
-#~ "\"definition\">[[!wikipedia_es Off-the-Record_Messaging desc=\"OTR\"]]</"
-#~ "span>, una herramienta criptográfica para cifrar, autentificar, y que "
-#~ "permite la negación plausible."
+#~ "Protege tus conversaciones de mensajería instantánea usando <span "
+#~ "class=\"definition\">[[!wikipedia_es Off-the-Record_Messaging "
+#~ "desc=\"OTR\"]]</span>, una herramienta criptográfica para cifrar, "
+#~ "autentificar, y que permite la negación plausible."
 
 #~ msgid ""
 #~ "[[Securely delete your files|doc/encryption_and_privacy/secure_deletion]] "

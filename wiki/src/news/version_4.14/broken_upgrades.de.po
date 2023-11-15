@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-06 15:50+0000\n"
-"PO-Revision-Date: 2023-11-12 18:13+0000\n"
+"PO-Revision-Date: 2023-11-15 11:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -24,7 +24,7 @@ msgstr "<a id=\"broken-upgrades\"></a>\n"
 
 #. type: Bullet: '* '
 msgid "Automatic upgrades are broken from Tails 4.14 and earlier."
-msgstr ""
+msgstr "Automatische Upgrades sind ab Tails 4.14 und früher nicht mehr möglich."
 
 #. type: Plain text
 #, no-wrap

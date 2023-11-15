@@ -167,7 +167,7 @@ msgid "Plug in your backup Tails USB stick."
 msgstr "Inserisci la tua chiavetta USB Tails di backup."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose\n"
 #| "   <span class=\"menuchoice\">\n"
@@ -312,7 +312,6 @@ msgstr ""
 #~ msgstr "Arresta e disinserisci la tua chiavetta USB Tails di uso corrente."
 
 #, fuzzy
-#~| msgid "Start on your current Tails and unlock the Persistent Storage."
 #~ msgid ""
 #~ "Restart on your backup Tails and [[create a Persistent Storage|"
 #~ "persistent_storage/create]] on it."
@@ -331,9 +330,6 @@ msgstr ""
 #~ "   </div>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "When the Persistent Storage settings shows the list of possible "
-#~| "features, click **Save** and exit."
 #~ msgid ""
 #~ "Close the Persistent Storage settings after creation, when the list of "
 #~ "possible features is displayed."
@@ -342,10 +338,6 @@ msgstr ""
 #~ "funzioni possibili, clicca su **Salva** ed esci.."
 
 #, fuzzy, no-wrap
-#~| msgid ""
-#~| "   The backup process described below overrides the configuration of the\n"
-#~| "   Persistent Storage. So, it does not matter which features you turn on\n"
-#~| "   when creating the Persistent Storage.\n"
 #~ msgid ""
 #~ "   The backup process described below overrides the configuration of the\n"
 #~ "   Persistent Storage. So, it does not matter which features you turn on\n"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-05-09 15:09+0000\n"
-"PO-Revision-Date: 2023-11-10 04:11+0000\n"
+"PO-Revision-Date: 2023-11-15 11:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #. type: Bullet: '    - '
 msgid "[[*VirtualBox*|advanced_topics/virtualization/virtualbox]]"
-msgstr ""
+msgstr "[[*VirtualBox*|advanced_topics/virtualization/virtualbox]]"
 
 #. type: Bullet: '    - '
 msgid "[[*GNOME Boxes*|advanced_topics/virtualization/boxes]]"

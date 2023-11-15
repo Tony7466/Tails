@@ -106,7 +106,6 @@ msgid "In *Thunderbird*:"
 msgstr "Dans *Thunderbird* :"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
 #| "link=\"no\"]]&nbsp;▸ Account Settings**."
@@ -126,7 +125,6 @@ msgstr ""
 "importer la clé privée et choisir **Chiffrement de bout en bout**."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid "In the right pane, click the **Add Key…** button."
 msgid "In the right pane, click the **Add Key…** button."
 msgstr ""
@@ -291,7 +289,6 @@ msgid "<h2 id=\"import-public\">Import the public keys in <em>Thunderbird</em></
 msgstr "<h2 id=\"import-public\">Importer les clés publiques dans <em>Thunderbird</em></h2>\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
 #| "link=\"no\"]]&nbsp;▸ Tools&nbsp;▸ OpenPGP Key Manager**."
@@ -303,7 +300,6 @@ msgstr ""
 "link=\"no\"]]&nbsp;▸ Outils&nbsp;▸ Gestionnaire de clés OpenPGP**."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "In the **OpenPGP Key Manager**, choose **File&nbsp;▸ Import Public "
 #| "Key(s)  From File.**"
@@ -383,7 +379,6 @@ msgstr ""
 "désactiver la fonction GnuPG de votre stockage persistant :"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid "Choose **Applications&nbsp;▸ Persistent Storage**."
 msgid "Choose **Applications&nbsp;▸ Persistent Storage**."
 msgstr "Choisir **Applications&nbsp;▸ Stockage persistant**."

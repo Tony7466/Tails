@@ -129,7 +129,7 @@ msgid "[[!img lib/apps/help-browser.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img lib/apps/help-browser.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "<div class=\"text\">\n"
 #| "  <span class=\"guimenuitem\">Help</span>: to access the <span class=\"application\">GNOME Desktop Help</span> choose\n"
@@ -161,7 +161,7 @@ msgid "[[!img lib/apps/preferences-system.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img lib/apps/preferences-system.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "<div class=\"text\">\n"
 #| "  <b>Settings</b>:\n"
@@ -224,7 +224,7 @@ msgid "[[!img lib/apps/help-about.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img lib/apps/help-about.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "<div class=\"text\">\n"
 #| "  <span class=\"guimenuitem\">About Tails</span>:\n"
@@ -768,7 +768,7 @@ msgstr ""
 "au choix :\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "- Choose <span class=\"menuchoice\">\n"
 #| "    <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
@@ -990,10 +990,6 @@ msgstr "Cliquez sur <span class=\"bold\">Se connecter</span>."
 #~ "</div>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "The Tor status icon and <span class=\"application\">Onion\n"
-#~| "Circuits</span> allow you to view the status of Tor.\n"
-#~| "[[See the corresponding documentation.|anonymous_internet/tor_status]]\n"
 #~ msgid ""
 #~ "The Tor status icon and <span class=\"application\">Onion\n"
 #~ "Circuits</span> allow you to view the status of Tor.\n"
@@ -1028,7 +1024,6 @@ msgstr "Cliquez sur <span class=\"bold\">Se connecter</span>."
 #~ "</div>\n"
 
 #, fuzzy
-#~| msgid "<a id=\"empty-trash\"></a>\n"
 #~ msgid "<h2 id=\"empty-trash\">Emptying the trash</h2>\n"
 #~ msgstr "<a id=\"empty-trash\"></a>\n"
 
@@ -1044,9 +1039,6 @@ msgstr "Cliquez sur <span class=\"bold\">Se connecter</span>."
 #~ "de gauche pour l'ouvrir."
 
 #, fuzzy
-#~| msgid ""
-#~| "   To empty the trash of the persistent volume, open the\n"
-#~| "   <span class=\"filename\">Persistent</span> folder.\n"
 #~ msgid ""
 #~ "   To empty the trash of the Persistent Storage, open the\n"
 #~ "   *Persistent* folder.\n"
@@ -1162,17 +1154,12 @@ msgstr "Cliquez sur <span class=\"bold\">Se connecter</span>."
 #~ msgstr "Gérer les fichiers avec Nautilus\n"
 
 #, fuzzy
-#~| msgid "Nautilus is GNOME's file manager, FTP, SFTP client and more."
 #~ msgid "Nautilus is GNOME's file manager, SFTP client, and more."
 #~ msgstr ""
 #~ "Nautilus est le gestionnaire de fichiers de GNOME, un client FTP, SFTP et "
 #~ "plus encore."
 
 #, fuzzy
-#~| msgid ""
-#~| "To manage local files, follow links on the desktop or from the "
-#~| "**Places** menu at top left corner of the screen. To move files or "
-#~| "folders, you can drag them from one window and drop them to another."
 #~ msgid ""
 #~ "To manage local files, follow links on the desktop or from the **Places** "
 #~ "menu at the top left corner of the screen. To move files or folders, you "

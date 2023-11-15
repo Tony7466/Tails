@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-30 21:51+0000\n"
-"PO-Revision-Date: 2022-12-22 14:06+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -24,10 +24,14 @@ msgstr "[[!meta robots=\"noindex\"]]"
 #. type: Content of: <ol><li>
 msgid "Wait a few minutes. Some USB sticks need some rest after installing."
 msgstr ""
+"Warten Sie einige Minuten. Einige USB-Sticks benötigen nach der Installation "
+"eine gewisse Ruhezeit."
 
 #. type: Content of: <ol><li><p>
 msgid "Make sure that you have installed Tails using either:"
 msgstr ""
+"Vergewissern Sie sich, dass Sie Tails mit einer der folgenden Methoden "
+"installiert haben:"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>balenaEtcher</i> from Windows|install/windows#etcher]]"

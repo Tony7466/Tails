@@ -268,7 +268,7 @@ msgid "Unlocking a file container without keyfiles"
 msgstr "Déverrouiller un fichier conteneur sans fichiers clés"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose\n"
 #| "   <span class=\"menuchoice\">\n"
@@ -353,7 +353,7 @@ msgid "Unlocking a file container with keyfiles"
 msgstr "Déverrouiller un fichier conteneur avec fichiers clés"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose\n"
 #| "   <span class=\"menuchoice\">\n"
@@ -377,7 +377,6 @@ msgstr ""
 "   pour démarrer l'utilitaire <span class=\"application\">Disques</span>.\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **[[!img lib/open-menu.png alt=\"\" class=symbolic "
 #| "link=\"no\"]]&nbsp;▸ Attach Disk Image&hellip;** from the top navigation "
@@ -663,11 +662,6 @@ msgstr ""
 "à votre clé USB ou disque dur."
 
 #, fuzzy, no-wrap
-#~| msgid ""
-#~| "1. Choose <span class=menuchoice\">\n"
-#~| "     <span class=\"guimenu\">Disks</span>&nbsp;▸\n"
-#~| "     <span class=\"guimenuitem\">Attach Disk Image&hellip;</span></span> from the\n"
-#~| "     top navigation bar.\n"
 #~ msgid ""
 #~ "1. Choose <span class=menuchoice\">\n"
 #~ "     <span class=\"guimenu\">Disks</span>&nbsp;▸\n"
@@ -701,11 +695,6 @@ msgstr ""
 #~ msgstr "  <div class=\"bug\">\n"
 
 #, fuzzy, no-wrap
-#~| msgid ""
-#~| "  <p>Due to <a href=\"https://gitlab.com/cryptsetup/cryptsetup/issues/532\">an\n"
-#~| "  issue in <em>cryptsetup</em></a>, it is currently impossible to open\n"
-#~| "  <em>VeraCrypt</em> volumes with a passphrase of more than 64 characters.\n"
-#~| "  ([[!tails_ticket 17474]])</p>\n"
 #~ msgid ""
 #~ "  <p>Due to <a href=\"https://gitlab.com/cryptsetup/cryptsetup/issues/532\">an\n"
 #~ "  issue in <em>cryptsetup</em></a>, it is currently impossible to open\n"

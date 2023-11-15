@@ -108,7 +108,7 @@ msgstr ""
 "tails_ticket 19200]])"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "  [[!img language.png link=\"no\" alt=\"Searching for 'esp' now returns 'Español'\"]]\n"
 msgid "  [[!img language.png link=\"no\" alt=\"Searching for 'esp' now returns 'Español'\"]]\n"
 msgstr "  [[!img language.png link=\"no\" alt=\"Faire une recherche de 'esp' retourne maintenant 'Español'\"]]\n"
@@ -158,8 +158,8 @@ msgid ""
 "Make the error when scanning the QR code of a bridge more consistent.  ([[!"
 "tails_ticket 19737]])"
 msgstr ""
-"Rend l'erreur lors du scan du code QR d'un bridge plus compréhensible. ([["
-"!tails_ticket 19737]])"
+"Rend l'erreur lors du scan du code QR d'un bridge plus compréhensible. ([[!"
+"tails_ticket 19737]])"
 
 #. type: Plain text
 msgid ""
@@ -197,8 +197,7 @@ msgstr "<h1 id=\"get\">Obtenir Tails 5.15.1</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr ""
-"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+msgstr "Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.15.1."

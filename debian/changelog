@@ -2,7 +2,47 @@ tails (5.21) UNRELEASED; urgency=medium
 
   * Dummy entry for next release.
 
- -- intrigeri <intrigeri@debian.org>  Tue, 31 Oct 2023 10:55:27 +0000
+ -- groente <groente@kalette.nomennesc.io>  Wed, 15 Nov 2023 15:49:24 +0100
+
+tails (5.19.1) unstable; urgency=medium
+
+  * Upgrade tor to 0.4.8.9 (tails/tails!1285)
+
+    Closes issues:
+      - Upgrade to tor 0.4.8.9 (tails/tails#20031)
+
+    Commits:
+      - Upgrade tor to 0.4.8.9 (refs: tails/tails#20031)
+
+  * upgrade to tor 0.4.8.8 (tails/tails!1281)
+
+    Closes issues:
+      - Upgrade to tor 0.4.8.8 (tails/tails#20018)
+
+    Commits:
+      - upgrade to tor 0.4.8.8
+
+  * Test suite: adapt to subtle UI change in Thunderbird 115.4.1 (tails/tails!1271)
+
+    Closes issues:
+      - Thunderbird test fails: can't find received test email in the UI while it's
+        there (tails/tails#20008)
+
+    Commits:
+      - Test suite: adapt to subtle UI change in Thunderbird 115.4.1
+
+  * Help the RM when we FTBFS during release process due to an unused APT source
+    (tails/tails!1269)
+
+    Closes issues:
+      - FTBFS during release process when an unused APT source is configured
+        (tails/tails#20009)
+
+    Commits:
+      - Use clearer grep --recursive instead of rgrep
+      - Help the RM when we FTBFS during release process due to an unused APT source
+
+ -- Tails developers <tails@boum.org>  Tue, 14 Nov 2023 11:55:39 +0100
 
 tails (5.19) unstable; urgency=medium
 

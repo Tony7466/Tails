@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-07-20 22:06+0000\n"
-"PO-Revision-Date: 2023-11-09 17:11+0000\n"
+"PO-Revision-Date: 2023-11-15 11:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -26,6 +26,9 @@ msgid ""
 "Most computers do not start on the Tails USB stick automatically but you can "
 "press a Boot Menu key to display a list of possible devices to start from."
 msgstr ""
+"Die meisten Computer starten nicht automatisch auf dem Tails-USB-Stick, aber "
+"Sie können eine Boot-Menü-Taste drücken, um eine Liste der möglichen Geräte "
+"anzuzeigen, von denen aus gestartet werden kann."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -59,6 +62,8 @@ msgstr ""
 #. type: Content of: <ol><li><p>
 msgid "Make sure that you have installed Tails using either:"
 msgstr ""
+"Vergewissern Sie sich, dass Sie Tails mit einer der folgenden Methoden "
+"installiert haben:"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>balenaEtcher</i> from Windows|install/windows#etcher]]"

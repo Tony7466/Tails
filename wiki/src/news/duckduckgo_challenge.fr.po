@@ -58,7 +58,6 @@ msgstr ""
 "</blockquote>\n"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "Through our end-of-year donation campaign we managed to raise "
 #| "~103&thinsp;000€, which is nearly half of our yearly budget for core work "
@@ -115,7 +114,6 @@ msgstr ""
 "tails-live)."
 
 #. type: Plain text
-#, fuzzy
 #| msgid "♥ Thank you! ♥"
 msgid "♥ Thank you! ♥"
 msgstr "♥ Merci ! ♥"

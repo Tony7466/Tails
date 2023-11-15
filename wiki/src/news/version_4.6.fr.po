@@ -105,7 +105,7 @@ msgstr ""
 "tails_ticket 16719]])"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "  [[!img japanese.png link=\"no\" alt=\"Keyboard menu&nbsp;▸ Japanese (Mozc)&nbsp;▸ Katakana\"]]\n"
 msgid "  [[!img japanese.png link=\"no\" alt=\"Keyboard menu&nbsp;▸ Japanese (Mozc)&nbsp;▸ Katakana\"]]\n"
 msgstr "  [[!img japanese.png link=\"no\" alt=\"Keyboard menu&nbsp;▸ Japanese (Mozc)&nbsp;▸ Katakana\"]]\n"
@@ -137,8 +137,7 @@ msgstr "Obtenir Tails 4.6"
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr ""
-"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+msgstr "Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.2 or later to 4.6."
