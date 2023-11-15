@@ -1,27 +1,16 @@
-[[!meta title="Tails 5.16.1"]]
-[[!meta date="Tue, 15 Aug 2023 12:34:56 +0000"]]
+[[!meta title="Tails 5.19.1"]]
+[[!meta date="Wed, 15 Nov 2023 14:00:00 +0000"]]
 [[!pagetemplate template="news.tmpl"]]
 [[!tag announce]]
 
-This release is an emergency release to fix a critical vulnerability in the
-*Linux* kernel.
+This release is an emergency release to fix an important security vulnerability
+in Tor.
 
 <h1 id="changes">Changes and updates</h1>
 
-- Update the *Linux* kernel to 6.1.38.
+- Update the *Tor* client to 0.4.8.9, which fixes the TROVE-2023-006 vulnerability.
 
-  This update fixes:
-
-  * [Downfall](https://downfall.page/) on Intel processors ([CVE-2022-40982](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40982))
-  * [Inception](https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7005.html) on AMD processors ([CVE-2023-20569](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20569))
-
-  These vulnerabilities could allow a malicious application running in Tails to
-  access and steal data from another application in Tails, for example
-  passwords stored in *KeePassXC* or private keys stored in *Electrum*.
-
-  This attack is unlikely, but could be performed by a strong attacker, such as
-  a government or a hacking firm. We are not aware of this attack being used in
-  the wild.
+[[!inline pages="news/version_5.19.1/TROVE-2023-006.inline" raw="yes" sort="age"]]
 
 <h1 id="fixes">Fixed problems</h1>
 
@@ -33,11 +22,11 @@ None specific to this release.
 
 See the list of [[long-standing issues|support/known_issues]].
 
-<h1 id="get">Get Tails 5.16.1</h1>
+<h1 id="get">Get Tails 5.19.1</h1>
 
-## To upgrade your Tails USB stick and keep your persistent storage
+## To upgrade your Tails USB stick and keep your Persistent Storage
 
-- Automatic upgrades are available from Tails 5.0 or later to 5.16.1.
+- Automatic upgrades are available from Tails 5.0 or later to 5.19.1.
 
   You can [[reduce the size of the download|doc/upgrade#reduce]] of future
   automatic upgrades by doing a manual upgrade to the latest version.
@@ -60,7 +49,7 @@ you install instead of upgrading.</p></div>
 ## To download only
 
 If you don't need installation or upgrade instructions, you can download
-Tails 5.16.1 directly:
+Tails 5.19.1 directly:
 
   - [[For USB sticks (USB image)|install/download]]
   - [[For DVDs and virtual machines (ISO image)|install/download-iso]]
