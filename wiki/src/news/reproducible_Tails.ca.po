@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-15 17:01+0000\n"
+"PO-Revision-Date: 2023-11-15 21:15+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Have your cake and eat it, too!\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tingueu el vostre pastís i mengeu-lo també!\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -41,7 +41,7 @@ msgstr "[[!tag announce]]\n"
 #. type: Title =
 #, no-wrap
 msgid "Reproducible Tails builds"
-msgstr ""
+msgstr "Compilacions reproductibles de Tails"
 
 #. type: Plain text
 msgid ""
@@ -50,11 +50,16 @@ msgid ""
 "2017 and with the release of Tails 3.3 we are proud to present one of the "
 "world's first reproducible ISO images of a Linux operating system."
 msgstr ""
+"Hem rebut el premi Mozilla Open Source Support per tal que les imatges ISO "
+"de Tails es creïn de manera reproductible. Aquest projecte estava al nostre "
+"full de ruta per al 2017 i amb el llançament de Tails 3.3 estem orgullosos "
+"de presentar una de les primeres imatges ISO reproduïbles del món d'un "
+"sistema operatiu Linux."
 
 #. type: Title =
 #, no-wrap
 msgid "From source code to binary code"
-msgstr ""
+msgstr "Del codi font al codi binari"
 
 #. type: Plain text
 msgid ""
@@ -66,6 +71,13 @@ msgid ""
 "cooked or baked? The recipe will even describe the expected outcome: how the "
 "meal should look and taste like."
 msgstr ""
+"Quan escrivim programari, ho fem utilitzant llenguatges de programació que "
+"un humà pot llegir i entendre. Això s'anomena _codi font_. Un pot imaginar "
+"el codi font molt semblant a una recepta molt precisa. Aquesta recepta "
+"descriu un procediment exacte: quins ingredients i quina quantitat "
+"d'ingredients necessiteu? Com s'han de barrejar a quina temperatura s'han de "
+"cuinar o coure? La recepta fins i tot descriurà el resultat esperat: com "
+"hauria de ser l'aspecte i el gust del menjar."
 
 #. type: Plain text
 msgid ""
@@ -76,6 +88,12 @@ msgid ""
 "The result of *our* cooking process is a Tails ISO image which users "
 "download and install onto a USB stick."
 msgstr ""
+"Quan generem una imatge ISO de Tails, el nostre codi font i els paquets de "
+"Debian que incloem s'agrupen en una imatge ISO binària, de la mateixa manera "
+"que quan es barregen els ingredients de la recepta, s'obté el menjar. Les "
+"quantitats i ingredients d'aquest àpat no es poden modificar fàcilment amb "
+"enginyeria inversa. El resultat del *nostre* procés de cuina és una imatge "
+"ISO de Tails que els usuaris baixen i instal·len en un llapis USB."
 
 #. type: Plain text
 msgid ""
@@ -88,6 +106,15 @@ msgid ""
 "indeed the meal that you've ordered, and not a meal which has been poisoned "
 "or exchanged by an evil waiter (such as a download mirror)."
 msgstr ""
+"Nosaltres, cuiners i ajudants de la cuina (desenvolupadors i col·laboradors "
+"de Tails), us proporcionem, als nostres usuaris, diversos mitjans per "
+"verificar que aquesta imatge ISO és realment la que volem que baixeu, ja "
+"sigui utilitzant el nostre complement de Firefox que fa aquesta verificació "
+"automàtica o mitjançant la nostra signatura OpenPGP. Ambdós mètodes de "
+"verificació simplement us diuen que la imatge ISO és la imatge que volem que "
+"baixeu: que el menjar que rebeu és realment el menjar que heu demanat i no "
+"un menjar que hagi estat enverinat o intercanviat per un mal cambrer (com "
+"ara un mirall de baixada)."
 
 #. type: Plain text
 msgid ""
@@ -99,11 +126,19 @@ msgid ""
 "could a malicious entity have compromised our build machines? That's what "
 "reproducible builds help verify and protect against."
 msgstr ""
+"Tanmateix, fins i tot amb mètodes de verificació tan sofisticats, encara és "
+"impossible remuntar l'àpat a la recepta: el menjar conté només els "
+"ingredients que se suposa que ha de contenir? O el personal no autoritzat "
+"podria haver entrat a la cuina a la nit i després enverinar els ingredients "
+"i fer coure el forn a 50 graus més alt del que es mostra? En altres "
+"paraules, una entitat maliciosa podria haver compromès les nostres màquines "
+"de construcció? Això és el que ajuden a verificar i protegir les "
+"compilacions reproduïbles."
 
 #. type: Title =
 #, no-wrap
 msgid "What's a reproducible build?"
-msgstr ""
+msgstr "Què és una construcció reproduïble?"
 
 #. type: Plain text
 #, no-wrap
