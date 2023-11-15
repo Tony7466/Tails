@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-15 21:15+0000\n"
+"PO-Revision-Date: 2023-11-15 21:59+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -147,12 +147,19 @@ msgid ""
 "> a verifiable path from human readable source code to the binary code used\n"
 "> by computers. *(quoted from https://reproducible-builds.org/)*\n"
 msgstr ""
+"> Les compilacions reproduïbles són un conjunt de pràctiques de "
+"desenvolupament de programari que creen\n"
+"> una ruta verificable des del codi font llegible per l'home fins al codi "
+"binari utilitzat\n"
+"> pels ordinadors. *(citat de https://reproducible-builds.org/)*\n"
 
 #. type: Plain text
 msgid ""
 "In other words, with reproducible builds, each cooking process of the same "
 "recipe is exactly repeatable."
 msgstr ""
+"En altres paraules, amb versions reproduïbles, cada procés de cocció de la "
+"mateixa recepta és exactament repetible."
 
 #. type: Plain text
 msgid ""
@@ -161,6 +168,10 @@ msgid ""
 "from the same source code and Debian packages, and to ensure that they all "
 "result in exactly the same ISO image."
 msgstr ""
+"A Tails hem treballat durant un any per implementar aquest conjunt de "
+"pràctiques. Això fa que ara sigui possible comparar imatges ISO creades per "
+"diverses parts des del mateix codi font i paquets de Debian, i assegurar-se "
+"que totes resultin exactament la mateixa imatge ISO."
 
 #. type: Plain text
 msgid ""
@@ -168,17 +179,22 @@ msgid ""
 "compare that we all cooked the same meal and only once we're sure about "
 "that, we will deliver it to you."
 msgstr ""
+"O, de nou, utilitzant la nostra metàfora de la cuina: molts de nosaltres "
+"cuinarem el menjar, comparem que tots hem cuinat el mateix menjar i només un "
+"cop estiguem segurs, us el lliurarem."
 
 #. type: Plain text
 msgid ""
 "We all can thus gain confidence that no broken oven has introduced malicious "
 "code or failures: or we would notice it before delivering the meal."
 msgstr ""
+"D'aquesta manera, tots podem guanyar confiança que cap forn trencat ha "
+"introduït codi maliciós o errors: o ho notaríem abans de lliurar el menjar."
 
 #. type: Title =
 #, no-wrap
 msgid "What does this mean for you as a user?"
-msgstr ""
+msgstr "Què significa això per als usuaris?"
 
 #. type: Plain text
 msgid ""
@@ -189,6 +205,12 @@ msgid ""
 "only takes one knowledgeable person to build Tails and compare with the ISO "
 "image the Tails project distributes to uncover some kinds of backdoors."
 msgstr ""
+"Això no canvia res en la manera de baixar i instal·lar Tails, i no cal que "
+"feu verificacions addicionals. Simplement ajuda a confiar que la imatge ISO "
+"de Tails que distribuïm prové de fet del codi font i dels paquets de Debian "
+"dels quals està pensat. Amb Tails reproduïbles, només cal una persona "
+"experta per construir Tails i comparar-la amb la imatge ISO que distribueix "
+"el projecte Tails per descobrir alguns tipus de portes del darrere."
 
 #. type: Plain text
 msgid ""
@@ -196,11 +218,14 @@ msgid ""
 "incremental upgrades. And you are benefiting from this improvement without "
 "even noticing :)"
 msgstr ""
+"I, per cert, ara no només les nostres imatges ISO són reproduïbles, sinó "
+"també les nostres actualitzacions incrementals. I us beneficieu d'aquesta "
+"millora sense ni adonar-vos-en"
 
 #. type: Title =
 #, no-wrap
 msgid "Thank you"
-msgstr ""
+msgstr "Gràcies"
 
 #. type: Plain text
 msgid ""
@@ -209,11 +234,16 @@ msgid ""
 "thank all members of our community who helped us test this process. You "
 "giving us a hand is much appreciated!"
 msgstr ""
+"A més del suport de Mozilla Open Source Support i la comunitat Reproducible "
+"Builds que ens va proporcionar ajuda crítica on la necessitàvem molt, també "
+"ens agradaria donar les gràcies a tots els membres de la nostra comunitat "
+"que ens van ajudar a provar aquest procés. El vostre cop de mà és molt "
+"agraït!"
 
 #. type: Title =
 #, no-wrap
 msgid "Technical implementation"
-msgstr ""
+msgstr "Implementació tècnica"
 
 #. type: Plain text
 msgid ""
@@ -222,23 +252,32 @@ msgid ""
 "lists.reproducible-builds.org/pipermail/rb-general/2017-October/000656."
 "html)  about how we did it."
 msgstr ""
+"Si esteu interessats en els detalls tècnics de la nostra implementació, us "
+"convidem a llegir el nostre [informe a la comunitat Reproducible "
+"Builds](https://lists.reproducible-builds.org/pipermail/rb-general/"
+"2017-October/000656 .html) sobre com ho hem fet."
 
 #. type: Plain text
 msgid ""
 "We've also published technical [[instructions to verify|/contribute/build/"
 "reproducible/#verify-iso]] one's own [[build|/contribute/build/]]."
 msgstr ""
+"També hem publicat [[instruccions tècniques per verificar|/contribute/build/"
+"reproducible/#verify-iso]] la pròpia [[compilació|/contribute/build/]]."
 
 #. type: Title =
 #, no-wrap
 msgid "Help us make Tails even better"
-msgstr ""
+msgstr "Ajudeu-nos a fer que Tails sigui encara millor"
 
 #. type: Plain text
 msgid ""
 "Tails is a self organized free software project. We depend on partnerships, "
 "grants and most importantly on donations by individuals like you."
 msgstr ""
+"Tails és un projecte de programari lliure auto-organitzat. Depenem de col·"
+"laboracions, subvencions i, el més important, de les donacions de persones "
+"com tu."
 
 #. type: Plain text
 #, no-wrap
@@ -247,6 +286,10 @@ msgid ""
 "future? <div class=\"donate-button\"><a\n"
 "href=\"https://tails.net/donate/?r=fromrb\">Donate today!</a></div>\n"
 msgstr ""
+"Tindreu cura de donar-nos un cop de mà per fer que Tails cuini encara "
+"millors pastissos\n"
+"en un futur? <div class=\"donate-button\"><a\n"
+"href=\"https://tails.net/donate/?r=fromrb\">Feu una donació avui!</a></div>\n"
 
 #. type: Title =
 #, no-wrap
@@ -259,7 +302,10 @@ msgid ""
 "our case last-minute issues were discovered and should be fixed in the next "
 "Tails release:"
 msgstr ""
+"Qualsevol procés de construcció reproduïble és reproduïble... fins que es "
+"demostri el contrari. En el nostre cas, es van descobrir problemes d'última "
+"hora i s'haurien de solucionar en la propera versió de Tails:"
 
 #. type: Bullet: ' - '
 msgid "[[!tails_ticket 14933]]"
-msgstr ""
+msgstr "[[!tails_ticket 14933]]"
