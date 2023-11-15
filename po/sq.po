@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-07-25 17:05+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-11-03 20:33+0000\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <https://hosted.weblate.org/projects/tor/tails-gui/"
 "sq/>\n"
 "Language: sq\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -228,6 +228,13 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails ka nevojë për dhurime, që të mbajë këdo të lirë dhe të parrezik në "
+"internet.\n"
+"\n"
+"Çdo thërrime ndihmon në betejën tonë kundër survejimit dhe censurimit!\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Si i "
+"shpenzojmë paratë.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:101
 msgid ""
@@ -238,22 +245,28 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails mbron kuletën tuaj.\n"
+"\n"
+"Ndihmonani t’i mbajmë të parrezik bitkoinët tuaj!\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Si i "
+"shpenzojmë paratë.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:112
 msgid "Donate Now"
-msgstr ""
+msgstr "Dhuroni Tani"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:113
 msgid "Later"
-msgstr ""
+msgstr "Më vonë"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:123
 msgid "Opening Electrum with our donation address..."
-msgstr ""
+msgstr "Po hapet Electrum me adresën tonë të dhurimeve..."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:124
 msgid "Thank you for making the Internet a safer place!"
-msgstr ""
+msgstr "Faleminderit që e bëni Internetin një vend më të sigurt!"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:157
 msgid "Persistence is disabled for Electrum"
@@ -422,10 +435,8 @@ msgid "no automatic upgrade is available from our website for this version"
 msgstr "për këtë version s’ka të gatshëm përmirësim automatik nga sajti ynë"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-#, fuzzy
 msgid "your device was not created using a USB image or Tails Cloner"
-msgstr ""
-"pajisja juaj s’qe krijuar duke përdorur një pamje USB ose Instaluesin e Tails"
+msgstr "pajisja s’qe krijuar duke përdorur një pamje USB ose Klonuesin Tails"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
 msgid "Tails was started from a DVD or a read-only device"
@@ -774,9 +785,8 @@ msgid "Off (default)"
 msgstr "Off (parazgjedhje)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:159
-#, fuzzy
 msgid "Persistent Storage Still Locked"
-msgstr "Depozitë e Qëndrueshme Jo e Shkyçur"
+msgstr "Depozitë e Qëndrueshme Ende e Kyçur"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:160
 msgid ""
@@ -785,25 +795,25 @@ msgstr ""
 "Doni vërtet të rinisni Tails-in pa shkyçur Depozitën tuaj të Qëndrueshme?"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:162
-#, fuzzy
 msgid "Start Without Persistent Storage"
-msgstr "Vazhdo Pa Depozitë të Qëndrueshme"
+msgstr "Nisjani Pa Depozitë të Qëndrueshme"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:101
 msgid "Error unlocking Persistent Storage: {}"
 msgstr "Gabim në shkyçje Depozite të Qëndrueshme: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
-#, fuzzy
 msgid "Error upgrading Persistent Storage: {}"
-msgstr "Gabim në shkyçje Depozite të Qëndrueshme: {}"
+msgstr "Gabim në përmirësim Depozite të Qëndrueshme: {}"
 
 #. Translators: Don't translate {features}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
-msgstr "S’u arrit të formësohej Depozita juaj e Përhershme"
+msgstr ""
+"S’u arrit të aktivizoheshin disa veçori të Depozitës së Qëndrueshme: "
+"{features}."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
 msgid "Error activating Persistent Storage: {}"
@@ -817,7 +827,7 @@ msgstr "Po shkyçet…"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:135
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:505
 msgid "Unlock Encryption"
-msgstr ""
+msgstr "Shkyçni Fshehtëzimin"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:113
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:41
@@ -825,12 +835,11 @@ msgid "Cannot unlock encrypted storage with this passphrase."
 msgstr "Me këtë frazëkalim nuk shkyçet dot depozitë e fshehtëzuar."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:122
-#, fuzzy
 msgid ""
 "Failed to upgrade the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
-"S’u arrit të aktivizohet Depozite të Qëndrueshme. Ju lutemi, nisni Tails dhe "
+"S’u arrit të përmirësohet Depozitë e Qëndrueshme. Ju lutemi, nisni Tails dhe "
 "dërgoni një njoftim gabimi."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:127
@@ -851,14 +860,13 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:143
 msgid "Upgrading the Persistent Storage. This may take a while…"
-msgstr ""
+msgstr "Po përditësohet Depozitë e Qëndrueshme. Kjo mund zgjasë ca…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:154
-#, fuzzy
 msgid "Start Tails and open the Persistent Storage settings to find out more."
 msgstr ""
-"S’u arrit të shkyçet Depozite të Qëndrueshme. Ju lutemi, nisni Tails dhe "
-"dërgoni një njoftim gabimi."
+"Nisni Tails dhe hapni rregullimet e Depozitës së Qëndrueshme, për të mësuar "
+"më tepër."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:190
 msgid "_Language"
@@ -1031,9 +1039,8 @@ msgid "Removing %(file)s"
 msgstr "Po hiqet %(file)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:964
-#, fuzzy
 msgid "Cloning Persistent Storage..."
-msgstr "Depozitë e Qëndrueshme"
+msgstr "Po klonohet Depozitë e Qëndrueshme…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1032
 #, python-format
@@ -1092,9 +1099,8 @@ msgstr "Instalimi i Tails dështoi!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-#, fuzzy
 msgid "Tails Cloner"
-msgstr "Instalues Tails"
+msgstr "Klonues Tails"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
@@ -1143,18 +1149,21 @@ msgid ""
 "Clone the current Persistent Storage\n"
 "Impossible to clone the Persistent Storage because it is locked."
 msgstr ""
+"Klononi Depozitën e tanishme të Qëndrueshme\n"
+"E pamundur të klonohet Depozita e Qëndrueshme, ngaqë është e kyçur."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
-#, fuzzy
 msgid "Clone the current Persistent Storage"
-msgstr "Vazhdo Pa Depozitë të Qëndrueshme"
+msgstr "Klono Depozitën e tanishme të Qëndrueshme"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:493
 msgid ""
 "Clone the current Persistent Storage\n"
 "You can only choose to reinstall when cloning the Persistent Storage."
 msgstr ""
+"Klononi Depozitën e tanishme të Qëndrueshme\n"
+"Kur klonohet Depozita e Qëndrueshme, mund të zgjidhni vetëm riinstalimin."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:531
 #, python-format
@@ -1507,7 +1516,7 @@ msgstr "Kyçës Ekrani"
 
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:131
 msgid "Set up a password to unlock the screen."
-msgstr "Që të shkyçet ekrani, ujdisni një fjalëkalim"
+msgstr "Që të shkyçet ekrani, ujdisni një fjalëkalim."
 
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:149
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2227
@@ -1806,36 +1815,38 @@ msgid ""
 "\n"
 "Try again after closing some applications or rebooting."
 msgstr ""
+"Vetëm {available_memory} KiB kujtesë e lirë, duhen të paktën "
+"{required_memory} KiB.\n"
+"\n"
+"Riprovoni pas mbylljes së disa aplikacioneve, ose pas rinisjes."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
-#, fuzzy
 msgid "Creating a partition for the Persistent Storage..."
-msgstr "Po ndreqen leje të vëllimit të qëndrueshëm."
+msgstr "Po krijohet një pjesë për Depozitën e Qëndrueshme…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
 msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
 "few seconds."
 msgstr ""
+"Po gatitet fshtehtëzimi me LUKS… Kompjuteri mund të reshtë së përgjigjuri, "
+"për pak sekonda."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
-msgstr ""
+msgstr "Po shkyçet fshehtëzimi…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
-#, fuzzy
 msgid "Formatting the file system..."
-msgstr "Po verifikohet sistem kartelash…"
+msgstr "Po formatohet sistemi i kartelave…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:392
-#, fuzzy
 msgid "Activating the Persistent Storage..."
-msgstr "Gabim në aktivizim Depozite të Qëndrueshme: {}"
+msgstr "Po aktivizohet Depozita e Qëndrueshme…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
-#, fuzzy
 msgid "Finishing setting up the Persistent Storage..."
-msgstr "Vazhdo Pa Depozitë të Qëndrueshme"
+msgstr "Po përfundohet ujdisja e Depozitës së Qëndrueshme…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
@@ -1844,6 +1855,10 @@ msgid ""
 "doesn't work, restart Tails and try deleting the Persistent Storage without "
 "unlocking it."
 msgstr ""
+"S’mund të bëhet çmontimi i Depozitës së Qëndrueshme, është duke u përdorur "
+"ende nga ndonjë proces. Ju lutemi, mbyllni krejt aplikacionet që mund të "
+"jenë duke e përdorur dhe riprovoni. Nëse kjo s’funksionon, rinisni Tails dhe "
+"provoni ta fshini Depozitën e Qëndrueshme pa e shkyçur."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/configuration/binding.py:406
 #, python-brace-format
@@ -1851,6 +1866,9 @@ msgid ""
 "Can't unmount target {target}, some process is still using it. Please close "
 "all applications that could be accessing the target and try again."
 msgstr ""
+"S’çmontohet dot objektivi {target}, është duke u përdorur ende nga ndonjë "
+"proces. Ju lutemi, mbyllni krejt aplikacionet që mund të jenë duke e "
+"përdorur dhe riprovoni."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
@@ -1862,54 +1880,49 @@ msgid "Persistent Storage"
 msgstr "Depozitë e Qëndrueshme"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:46
-#, fuzzy
 msgid "Failed to start the Persistent Storage service"
-msgstr "S’u arrit të formësohej Depozita juaj e Përhershme"
+msgstr "S’u arrit të nisej shërbimi Depozitë e Qëndrueshme"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
 msgid "Could not find the WhisperBack application"
-msgstr ""
+msgstr "S’u gjet dot aplikacioni WhisperBack"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:82
-#, fuzzy
 msgid "Delete Data…"
-msgstr "Fshije"
+msgstr "Fshini të Dhëna…"
 
 #. Translators: Don't translate {feature}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:88
 #, python-brace-format
 msgid "Delete {feature} data"
-msgstr ""
+msgstr "Fshi të dhëna {feature}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:107
-#, fuzzy
 msgid "Activation failed"
-msgstr "Aktivizoni Dotfiles"
+msgstr "Aktivizimi dështoi"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:163
 msgid "Activation failed. Try again or delete data."
-msgstr ""
+msgstr "Aktivizimi dështoi. Riprovoni, ose fshini të dhëna."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:165
 msgid "Activation failed. Try again."
-msgstr ""
+msgstr "Aktivizimi dështoi. Ju lutemi, riprovoni."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:167
 msgid "The data of this feature is still saved."
-msgstr ""
+msgstr "Të dhënat e kësaj veçorie janë ende të ruajtura."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:268
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:273
-#, fuzzy
 msgid "Error activating feature {}"
-msgstr "Gabim në aktivizim Depozite të Qëndrueshme: {}"
+msgstr "Gabim gjatë aktivizimit të veçorisë {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:311
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:316
-#, fuzzy
 msgid "Error deactivating feature {}"
-msgstr "Gabim në aktivizim Depozite të Qëndrueshme: {}"
+msgstr "Gabim gjatë çaktivizimit të veçorisë {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:335
 msgid ""
@@ -1918,39 +1931,43 @@ msgid ""
 "\n"
 "If you cancel, the data will be restored when you turn this feature on again."
 msgstr ""
+"Të fshihen krejt të dhënat e veçorisë {} që janë ruajtur te Depozita e "
+"Qëndrueshme?\n"
+"\n"
+"Nëse e anuloni, të dhënat do të rikthehen, kur ta aktivizoni sërish këtë "
+"veçori."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
-#, fuzzy
 msgid "_Delete Data"
-msgstr "Fshije"
+msgstr "_Fshini të Dhëna"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:373
 msgid "Error deleting data of feature {}"
-msgstr ""
+msgstr "Gabim në fshirje të dhënash veçorie {}"
 
 #. Translators: Don't translate {applications}, it's a placeholder
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:457
 #, python-brace-format
 msgid "Close {applications} to continue"
-msgstr ""
+msgstr "Që të vazhdohet, mbyllni {applications}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:458
 msgid " and "
-msgstr ""
+msgstr " dhe "
 
 #. Translators: Don't translate {app} and {pid}, they
 #. are placeholders.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:469
 #, python-brace-format
 msgid "{app} (PID: {pid})"
-msgstr ""
+msgstr "{app} (PID: {pid})"
 
 #. Translators: Don't translate {app} and {pids}, they
 #. are placeholders.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:474
 #, python-brace-format
 msgid "{app} (PIDs: {pids})"
-msgstr ""
+msgstr "{app} (PIDs: {pids})"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:36
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:8
@@ -1959,39 +1976,37 @@ msgid "Change Passphrase"
 msgstr "Ndryshoni Frazëkalimin"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:85
-#, fuzzy
 msgid "The current passphrase is incorrect"
-msgstr "Frazëkalimet s’përputhen"
+msgstr "Frazëkalimi i tanishëm është i pasaktë"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:94
-#, fuzzy
 msgid "Changing the passphrase failed"
-msgstr "Ndryshoni Frazëkalimin"
+msgstr "Ndryshimi i frazëkalimit dështoi"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:41
 msgid "Weak"
-msgstr ""
+msgstr "I dobët"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:44
 msgid "Fair"
-msgstr ""
+msgstr "Çka"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:47
 msgid "Good"
-msgstr ""
+msgstr "I mirë"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:50
 msgid "Strong"
-msgstr ""
+msgstr "I fortë"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:36
 msgid "You can send an error report to help solve the issue."
 msgstr ""
+"Që të ndihmoni të zgjidhet ky problem, mund të dërgoni një njoftim gabimi."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
-#, fuzzy
 msgid "_Send Error Report"
-msgstr "Dërgoni Njoftim Gabimi"
+msgstr "_Dërgoni Njoftim Gabimi"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:144
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:175
@@ -2004,6 +2019,8 @@ msgid ""
 "Are you sure that you want to delete your Persistent Storage? This action "
 "cannot be undone."
 msgstr ""
+"Jeni i sigurt se doni të fshihet Depozita juaj e Qëndrueshme? Ky veprim "
+"s’mund të zhbëhet."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:149
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
@@ -2014,49 +2031,48 @@ msgid "_Cancel"
 msgstr "_Anuloje"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:150
-#, fuzzy
 msgid "_Delete Persistent Storage"
-msgstr "Fshije Depozitën e Qëndrueshme"
+msgstr "_Fshi Depozitën e Qëndrueshme"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "Fshije Depozitën e Qëndrueshme"
+msgstr "Po fshihet Depozita juaj e Qëmdrueshme…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
 "To delete the Persistent Storage, restart Tails without unlocking the "
 "Persistent Storage and open the Persistent Storage settings again."
 msgstr ""
+"Që të fshihet Depozita e Qëndrueshme, rinisni Tails pa shkyçur Depozitën e "
+"Qëndrueshme dhe hapni sërish rregullimet për Depozitë të Qëndrueshme."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:181
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:189
 msgid ""
 "Sorry, you can't close this app until the ongoing operation has completed."
 msgstr ""
+"Na ndjeni, s’mund të mbyllni këtë aplikacion, para se të jetë plotësuar "
+"veprimi që po kryhet."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
 msgid "Please wait"
-msgstr ""
+msgstr "Ju lutemi, pritni"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:216
-#, fuzzy
 msgid "Not enough memory to create Persistent Storage"
-msgstr "Mos _Krijo Depozitë të Qëndrueshme"
+msgstr "S’ka kujtesë të mjaftueshme për krijim Depozite të Qëndrueshme"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:221
-#, fuzzy
 msgid "Failed to create Persistent Storage"
-msgstr "S’u arrit të formësohej Depozita juaj e Përhershme"
+msgstr "S’u arrit të krijohej Depozitë e Qëndrueshme"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:240
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:245
-#, fuzzy
 msgid "Error deleting Persistent Storage"
-msgstr "Gabim në shkyçje Depozite të Qëndrueshme: {}"
+msgstr "Gabim në fshirje Depozite të Qëndrueshme"
 
 #. Translators: Don't translate {volume_label} or {volume_size},
 #. they are placeholders and will be replaced. They need
@@ -2453,7 +2469,7 @@ msgstr "Zhvilluesit e Tails <tails@boum.org>"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:343
 msgid "translator-credits"
-msgstr ""
+msgstr "kredite përkthyesi"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:376
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
@@ -2524,17 +2540,15 @@ msgid "Learn more about Tails"
 msgstr "Mësoni më tepër mbi Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:1
-#, fuzzy
 msgid "Back Up Persistent Storage"
-msgstr "Depozitë e Qëndrueshme"
+msgstr "Kopjeruani Depozitë të Qëndrueshme"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
-#, fuzzy
 msgid ""
 "Make a backup of the Tails Persistent Storage to another Tails USB stick"
 msgstr ""
-"Aktivizoni veçoritë e Depozitës së Qëndrueshme për të dhënat që doni të "
-"ruani te diskthi juaj USB Tails."
+"Bëni te një tjetër diskth USB Tails një kopjeruajtje të Depozitës së "
+"Qëndrueshme Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:2
 msgid "Install, clone, upgrade Tails"
@@ -2752,11 +2766,8 @@ msgstr ""
 "faqerojtësit e shfletuesit, fjalëkalimet për Wi-Fi, e me radhë."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:225
-#, fuzzy
 msgid "Create and configure a Persistent Storage after starting Tails"
-msgstr ""
-"Do të krijoni dhe formësoni Depozitën tuaj të Qëndrueshme, pas nisjes së "
-"Tails."
+msgstr "Krijoni dhe formësoni një Depozitë të Qëndrueshme, pas nisjes së Tails"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:279
 msgid "Language & Region"
@@ -2771,17 +2782,16 @@ msgid "Show Passphrase"
 msgstr "Shfaq Frazëkalimin"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:470
-#, fuzzy
 msgid "_Passphrase"
-msgstr "Frazëkalim:"
+msgstr "_Frazëkalim"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:546
-#, fuzzy
 msgid ""
 "Your Persistent Storage is unlocked. Its content will be available until you "
 "shut down Tails."
 msgstr ""
-"Depozita juaj e qëndrueshme është e shkyçur. Që të rikyçet, rinisni Tails."
+"Depozita juaj e Qëndrueshme është shkyçur. Lënda e saj do të jetë e "
+"përdorshme deri sa të fikni Tails."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:583
 msgid "_Additional Settings"
@@ -2895,7 +2905,7 @@ msgstr "Dosje <i>Persistent</i>"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:135
 msgid "A folder where you can save your documents."
-msgstr ""
+msgstr "Një dosje ku mund të ruani dokumentet tuaj."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:160
 msgid "Open Persistent Folder"
@@ -2910,18 +2920,16 @@ msgid "System Settings"
 msgstr "Rregullime Sistemi"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:228
-#, fuzzy
 msgid "Welcome Screen"
-msgstr "Aktivizoni Skenë Mirëseardhjeje"
+msgstr "Skena e Mirëseardhjes"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:244
 msgid "Activate Welcome Screen"
 msgstr "Aktivizoni Skenë Mirëseardhjeje"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:257
-#, fuzzy
 msgid "Printers"
-msgstr "Aktivizoni Shtypës"
+msgstr "Shtypës"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:273
 msgid "Activate Printers"
@@ -2956,9 +2964,8 @@ msgid "Applications"
 msgstr "Aplikacione"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:429
-#, fuzzy
 msgid "Tor Browser Bookmarks"
-msgstr "Aktivizoni Faqerojtës Shfletuesi Tor"
+msgstr "Faqerojtës Shfletuesi Tor"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:445
 msgid "Activate Tor Browser Bookmarks"
@@ -2985,9 +2992,8 @@ msgid "GnuPG"
 msgstr "GnuPG"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:517
-#, fuzzy
 msgid "OpenPGP keys outside of Thunderbird, including in Kleopatra."
-msgstr "Kyçe OpenPGP jashtë Thunderbird-i."
+msgstr "Kyçe OpenPGP jashtë Thunderbird-i, përfshi në Kleopatra."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:533
 msgid "Activate GnuPG"
@@ -3077,23 +3083,20 @@ msgstr ""
 "djathtë të shtyllës së titullit."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:62
-#, fuzzy
 msgid ""
 "Choose the passphrase that you will use to unlock the encryption of your "
 "Persistent Storage and all its data."
 msgstr ""
 "Zgjidhni frazëkalimin që doni të përdoret për të shkyçur fshehtëzimin e "
-"Depos suaj të Qëndrueshme dhe krejt të dhënave të saj.\n"
-"\n"
-"Rekomandojmë një frazëkalim të gjatë, prej 5 deri në 7 fjalë kuturu."
+"Depos suaj të Qëndrueshme dhe krejt të dhënave të saj."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:82
 msgid "We recommend a long passphrase of 5 to 7 random words."
-msgstr ""
+msgstr "Rekomandojmë një frazëkalim të gjatë, prej 5 deri në 7 fjalë kuturu."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:94
 msgid " For example:"
-msgstr ""
+msgstr " Për shembull:"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:186
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:46
@@ -3166,14 +3169,12 @@ msgid "Co_ntinue"
 msgstr "_Vazhdo"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:29
-#, fuzzy
 msgid "_Delete…"
-msgstr "Fshije"
+msgstr "_Fshini…"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:49
-#, fuzzy
 msgid "_Change Passphrase…"
-msgstr "Ndryshoni Frazëkalimin"
+msgstr "_Ndryshoni Frazëkalimin…"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:66
 msgid "_Restart Tails"
@@ -3220,14 +3221,12 @@ msgid "Detach this volume"
 msgstr "Shqite këtë vëllim"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:8
-#, fuzzy
 msgid "Choose Passphrase"
-msgstr "Ndryshoni Frazëkalimin"
+msgstr "Zgjidhni Frazëkalim"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:30
-#, fuzzy
 msgid "Choose the passphrase for the cloned Persistent Storage."
-msgstr "Përzgjidhni një frazëkalim për të mbrojtur vëllimin e qëndrueshëm"
+msgstr "Zgjidhni frazëkalimin për Depozitën e Qëndrueshme të klonuar."
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:281
 msgid "Target USB stick:"
@@ -3580,7 +3579,6 @@ msgstr ""
 "dukej i dyshimtë për dikë që mbikëqyr lidhjen tuaj Internetore."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1499
-#, fuzzy
 msgid ""
 "Tails will only connect to Tor after you configured a Tor bridge. Bridges "
 "are secret Tor relays that hide that you are connecting to Tor.\n"

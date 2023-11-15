@@ -47,8 +47,9 @@ msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-08-05 08:03+0000\n"
-"Last-Translator: ff98sha <ff98sha@gmail.com>\n"
+"PO-Revision-Date: 2023-11-05 04:34+0000\n"
+"Last-Translator: \"White Night(SZTU)\" <127086499+WhiteNight-SZTU@users."
+"noreply.github.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/tor/"
 "tails-gui/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -56,7 +57,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -444,9 +445,8 @@ msgid "no automatic upgrade is available from our website for this version"
 msgstr "对此版本我们的网站没有自动升级可用"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-#, fuzzy
 msgid "your device was not created using a USB image or Tails Cloner"
-msgstr "您的设备上没有创建 USB 镜像或 Tails 安装程序"
+msgstr "您的设备未使用 USB 镜像或 Tails 安装程序创建"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
 msgid "Tails was started from a DVD or a read-only device"
@@ -1083,7 +1083,6 @@ msgstr "Tails 安装失败！"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-#, fuzzy
 msgid "Tails Cloner"
 msgstr "Tails 安装程序"
 
@@ -1970,9 +1969,8 @@ msgid "_Delete Persistent Storage"
 msgstr "删除持久存储(_D)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "正在删除您的持久存储"
+msgstr "正在删除您的持久存储..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
