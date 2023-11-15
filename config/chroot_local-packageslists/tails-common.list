@@ -161,6 +161,7 @@ nautilus-wipe
 nautilus-gtkhash
 network-manager
 network-manager-gnome
+wireguard-tools
 ntfs-3g
 onionshare
 libreoffice-calc
