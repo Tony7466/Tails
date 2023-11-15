@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-15 23:06+0000\n"
+"PO-Revision-Date: 2023-11-15 23:13+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -148,11 +148,13 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid "Run this command in a <span class=\"application\">Root Terminal</span>:"
 msgstr ""
+"Executeu l'ordre següent en un <span class=\"application\">Terminal "
+"d'administrador</span>:"
 
 #. type: Plain text
 #, no-wrap
 msgid "       apt-get purge i2p\n"
-msgstr ""
+msgstr "       apt-get purge i2p\n"
 
 #. type: Plain text
 msgid ""
@@ -160,12 +162,15 @@ msgid ""
 "disable JavaScript globally [[with NoScript|doc/anonymous_internet/"
 "Tor_Browser#noscript]] in the Tor Browser."
 msgstr ""
+"Tanmateix, si realment necessiteu utilitzar I2P a Tails 1.1: abans d'iniciar "
+"I2P, desactiveu el JavaScript globalment [[amb NoScript|doc/"
+"anonymous_internet/Tor_Browser#noscript]] al navegador Tor."
 
 #. type: Title =
 #, no-wrap
 msgid "Credits"
-msgstr ""
+msgstr "Crèdits"
 
 #. type: Plain text
 msgid "This security hole was reported to us by Exodus Intelligence."
-msgstr ""
+msgstr "Exodus Intelligence ens va informar d'aquest forat de seguretat."
