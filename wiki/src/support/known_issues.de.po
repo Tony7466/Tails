@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-11-15 09:13+0000\n"
+"PO-Revision-Date: 2023-11-15 11:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -30,6 +30,10 @@ msgid ""
 "- For issues with graphics cards, see our [[known issues with graphics cards|"
 "known_issues/graphics]]."
 msgstr ""
+"- Um zu erfahren, was Sie mit Tails machen können, schauen Sie in unsere "
+"[[Dokumentation|doc]].  - Für allgemeinere Fragen zu Tails, schauen Sie in "
+"unsere [[FAQ|support/faq]].  - Bei Problemen mit Grafikkarten, sehen Sie "
+"unsere [[bekannten Probleme mit Grafikkarten|known_issues/graphics]]."
 
 #. type: Plain text
 #, no-wrap
@@ -992,10 +996,9 @@ msgid "    pcie_port_pm=off\n"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"wi-fi\"></a>\n"
+#, no-wrap
 msgid "<h1 id=\"misc\">Other issues</h1>\n"
-msgstr "<a id=\"wi-fi\"></a>\n"
+msgstr "<h1 id=\"misc\">Andere Themen</h1>\n"
 
 #. type: Plain text
 #, no-wrap
