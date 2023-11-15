@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-14 17:13+0000\n"
+"PO-Revision-Date: 2023-11-15 09:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -556,21 +556,24 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "To install additional software packages:"
+#, no-wrap
 msgid "Checking your list of additional software"
-msgstr "Für das Installieren zusätzlicher Softwarepakete:"
+msgstr "Überprüfen der Liste der zusätzlichen Software"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</span>&nbsp;▸ <span class=\"guisubmenu\">System Tools</span>&nbsp;▸ <span class=\"guimenuitem\">Synaptic Package Manager</span></span>."
+#, no-wrap
 msgid ""
 "To see which packages are installed automatically\n"
 "every time you start Tails, choose <span class=\"menuchoice\">\n"
 "   <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
 "   <span class=\"guisubmenu\">System Tools</span>&nbsp;▸\n"
 "   <span class=\"guimenuitem\">Additional Software</span></span>.\n"
-msgstr "Wählen Sie <span class=\"menuchoice\"> <span class=\"guimenu\">Anwendung</span>&nbsp;▸ <span class=\"guisubmenu\">Systemprogramme</span>&nbsp;▸ <span class=\"guimenuitem\">Synaptic Paket Manager</span></span>."
+msgstr ""
+"Um zu sehen, welche Pakete automatisch mit dem Tails start installiert "
+"werden, wählen Sie <span class=\"menuchoice\">\n"
+"   <span class=\"guimenu\">Anwendungen</span>&nbsp;▸\n"
+"   <span class=\"guisubmenu\">Systemwerkzeuge</span>&nbsp;▸\n"
+"   <span class=\"guimenuitem\">Zusätzliche Software</span></span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -588,10 +591,9 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "To install additional software packages:"
+#, no-wrap
 msgid "Removing additional software"
-msgstr "Für das Installieren zusätzlicher Softwarepakete:"
+msgstr "Entfernen von zusätzlicher Software"
 
 #. type: Plain text
 msgid "When you installed the package, if you chose:"
@@ -676,20 +678,17 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</"
-#| "span>&nbsp;▸ <span class=\"guisubmenu\">System Tools</span>&nbsp;▸ <span "
-#| "class=\"guimenuitem\">Synaptic Package Manager</span></span>."
 msgid ""
 "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</"
 "span>&nbsp;▸ <span class=\"guisubmenu\">System Tools</span>&nbsp;▸ <span "
 "class=\"guimenuitem\">Root Terminal</span> </span> to open a <span "
 "class=\"application\">Root Terminal</span>."
 msgstr ""
-"Wählen Sie <span class=\"menuchoice\"> <span class=\"guimenu\">Anwendung</"
-"span>&nbsp;▸ <span class=\"guisubmenu\">Systemprogramme</span>&nbsp;▸ <span "
-"class=\"guimenuitem\">Synaptic Paket Manager</span></span>."
+"Wählen Sie <span class=\"menuchoice\"> <span class=\"guimenu\""
+">Anwendungen</span>&nbsp;▸ <span class=\"guisubmenu\""
+">Systemwerkzeuge</span>&nbsp;▸ <span class=\"guimenuitem\">Root-Terminal</"
+"span> </span>, um ein <span class=\"application\">Root-Terminal</span> zu "
+"öffnen."
 
 #. type: Bullet: '1. '
 msgid "Execute the following command:"
