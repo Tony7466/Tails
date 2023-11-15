@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-15 09:13+0000\n"
+"PO-Revision-Date: 2023-11-15 11:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -1093,14 +1093,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "There is no <span class=\"guilabel\">New Identity</span> button for Tails as a\n"
-#| "whole.\n"
+#, no-wrap
 msgid "<h2 id=\"new-identity\">Where is the <span class=\"guilabel\">New Identity</span> button?</h2>\n"
 msgstr ""
-"Es gibt keinen <span class=\"guilabel\">New Identity</span> Schalter für Tails als\n"
-"ganzes.\n"
+"<h2 id=\"new-identity\">Wo ist der <span class=\"guilabel\">Neue "
+"Identität</span>-Knopf?</h2>\n"
 
 #. type: Plain text
 #, no-wrap
