@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-10-27 09:15+0000\n"
+"POT-Creation-Date: 2023-11-15 14:41+0100\n"
 "PO-Revision-Date: 2023-08-01 15:22+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,33 +51,30 @@ msgid "<a href=\"https://check.torproject.org/\">Tor check</a>"
 msgstr ""
 "<a href=\"https://check.torproject.org/?lang=pt_PT\">Verificação de Tor</a>"
 
-#. type: Content of: <div><p>
-msgid ""
-"The cryptographic parameters of LUKS from Tails 5.12 or earlier are weak "
-"against a state-sponsored attacker with physical access to your device."
-msgstr ""
-"Os parâmetros criptográficos do LUKS nas versões 5.12 e anteriores do Tails "
-"são considerados fracos contra atacantes com muitos recursos (por exemplo, "
-"Estados-nação) e acesso físico ao seu dispositivo."
-
-#. type: Content of: <div><p>
-msgid ""
-"<strong>We recommend you change the passphrase of your Persistent Storage "
-"and other LUKS encrypted volumes unless you use a long passphrase of 5 "
-"random words or more.</strong>"
-msgstr ""
-"<strong>Recomendamos que você altere a senha do seu Armazenamento "
-"Persistente e outros dispositivos criptografados com LUKS, a menos que você "
-"já use uma senha longa com 5 ou mais palavras aleatórias.</strong>"
-
-#. type: Content of: <div><p>
-msgid "[[Read our security advisory and upgrade guide.|security/argon2id]]"
-msgstr ""
-"[[Leia nosso aviso de segurança e guia de atualização.|security/argon2id]]"
-
 #. type: Content of: <div>
 msgid "[[!inline pages=\"news\" raw=\"yes\" sort=\"age\"]]"
 msgstr "[[!inline pages=\"news.pt\" raw=\"yes\" sort=\"age\"]]"
+
+#~ msgid ""
+#~ "The cryptographic parameters of LUKS from Tails 5.12 or earlier are weak "
+#~ "against a state-sponsored attacker with physical access to your device."
+#~ msgstr ""
+#~ "Os parâmetros criptográficos do LUKS nas versões 5.12 e anteriores do "
+#~ "Tails são considerados fracos contra atacantes com muitos recursos (por "
+#~ "exemplo, Estados-nação) e acesso físico ao seu dispositivo."
+
+#~ msgid ""
+#~ "<strong>We recommend you change the passphrase of your Persistent Storage "
+#~ "and other LUKS encrypted volumes unless you use a long passphrase of 5 "
+#~ "random words or more.</strong>"
+#~ msgstr ""
+#~ "<strong>Recomendamos que você altere a senha do seu Armazenamento "
+#~ "Persistente e outros dispositivos criptografados com LUKS, a menos que "
+#~ "você já use uma senha longa com 5 ou mais palavras aleatórias.</strong>"
+
+#~ msgid "[[Read our security advisory and upgrade guide.|security/argon2id]]"
+#~ msgstr ""
+#~ "[[Leia nosso aviso de segurança e guia de atualização.|security/argon2id]]"
 
 #~ msgid ""
 #~ "<a id=\"tor_check\" href=\"https://check.torproject.org/\"> [[!img lib/"
