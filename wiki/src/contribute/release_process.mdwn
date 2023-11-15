@@ -942,10 +942,7 @@ Then:
 Initialize the website release branch
 -------------------------------------
 
-From now on, we don't want to push new commits on `$RELEASE_BRANCH`
-until the new release is out. Otherwise, this would break its build
-and the build of every branch based on it, which would effectively
-block other development work. So the final steps towards publishing
+The final steps towards publishing
 the release will be done in a new, dedicated branch.
 
     if [ "${DIST:?}" = alpha ]; then
