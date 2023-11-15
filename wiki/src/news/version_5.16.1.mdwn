@@ -10,12 +10,12 @@ This release is an emergency release to fix a critical vulnerability in the
 
 - Update the *Linux* kernel to 6.1.38.
 
-  This updates fixes:
+  This update fixes:
 
   * [Downfall](https://downfall.page/) on Intel processors ([CVE-2022-40982](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40982))
   * [Inception](https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7005.html) on AMD processors ([CVE-2023-20569](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20569))
 
-  These vulnerability could allow a malicious application running in Tails to
+  These vulnerabilities could allow a malicious application running in Tails to
   access and steal data from another application in Tails, for example
   passwords stored in *KeePassXC* or private keys stored in *Electrum*.
 
