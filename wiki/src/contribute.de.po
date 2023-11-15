@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-14 14:13+0000\n"
+"PO-Revision-Date: 2023-11-15 09:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -384,7 +384,7 @@ msgstr "Referenzdokumente"
 
 #. type: Bullet: '  - '
 msgid "[[Mission and values|contribute/mission]]"
-msgstr "[[Ziele und Werte|contribute/mission]]"
+msgstr "[[Mission und Werte|contribute/mission]]"
 
 #. type: Bullet: '  - '
 msgid "[[Design documents|contribute/design]]"
@@ -576,11 +576,8 @@ msgid "[[Code of conduct|contribute/working_together/code_of_conduct]]"
 msgstr "[[Verhaltenskodex|contribute/working_together/code_of_conduct]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[Document progress|contribute/working_together/document_progress]]"
 msgid "[[Social contract|doc/about/social_contract]]"
-msgstr ""
-"[[Fortschritte dokumentieren|contribute/working_together/document_progress]]"
+msgstr "[[Gesellschaftsvertrag|doc/about/social_contract]]"
 
 #. type: Bullet: '  - '
 #, fuzzy
