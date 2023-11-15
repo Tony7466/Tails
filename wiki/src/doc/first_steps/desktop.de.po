@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-14 14:13+0000\n"
+"PO-Revision-Date: 2023-11-15 09:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -681,10 +681,9 @@ msgid "  [[!img screen-locker.png link=\"no\" alt=\"\"]]\n"
 msgstr "  [[!img screen-locker.png alt=\"\" link=\"no\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"system\"></a>\n"
+#, no-wrap
 msgid "<h3 id=\"suspend\">Suspend</h3>\n"
-msgstr "<a id=\"system\"></a>\n"
+msgstr "<h3 id=\"suspend\">Aussetzen</h3>\n"
 
 #. type: Plain text
 msgid "Click **Suspend** to suspend your computer."
@@ -729,24 +728,20 @@ msgid "<p>For more security, [[shut down Tails|doc/first_steps/shutdown]] entire
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<a id=\"shortcuts\"></a>\n"
+#, no-wrap
 msgid "<h1 id=\"shortcuts\">Desktop shortcuts</h1>\n"
-msgstr "<a id=\"shortcuts\"></a>\n"
+msgstr "<h1 id=\"shortcuts\">Desktop-Verknüpfungen</h1>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\"><strong>Tails documentation</strong>: open a local copy of\n"
-#| "Tails website and documentation</div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "<strong>Tails documentation</strong> to open an offline version of the Tails website and documentation, embeded in Tails<br/>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><strong>Tails-Dokumentation</strong>: Eine lokale Kopie der\n"
-"Tails Website und Dokumentation öffnen</div>\n"
+"<div class=\"text\">\n"
+"<strong>Tails-Dokumentation</strong> zum Öffnen einer Offline-Version der "
+"Tails-Website und Dokumentation, eingebettet in Tails<br/>\n"
 "</div>\n"
 
 #. type: Plain text
@@ -807,32 +802,35 @@ msgid "[[!img nautilus.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img nautilus.png link=no]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "To open the <span class=\"application\">Files</span> browser, you can\n"
 "either:\n"
-msgstr "das <span class=\"guimenu\">Anwendungen</span>-Menü"
+msgstr ""
+"Um den <span class=\"application\">Datei</span>-Browser zu öffnen, können "
+"Sie\n"
+"entweder:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "- Choose <span class=\"menuchoice\">\n"
 "    <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
 "    <span class=\"guisubmenu\">Accessories</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">Files</span></span>.\n"
 msgstr ""
-"  - <span class=\"menuchoice\">\n"
-"      <span class=\"guisubmenu\">Anwendungen</span>&nbsp;▸\n"
-"      <span class=\"guimenuitem\">Aktivitäten-Übersicht</span></span> auswählen.\n"
-"  - Ihren Mauszeiger in die aktive Ecke oben links bewegen.\n"
-"  - Die Windows-Taste auf Ihrer Tastatur drücken.\n"
+"- Wählen Sie <span class=\"menuchoice\">\n"
+"    <span class=\"guimenu\">Anwendungen</span>&nbsp;▸\n"
+"    <span class=\"guisubmenu\">Zubehör</span>&nbsp;▸\n"
+"    <span class=\"guimenuitem\">Dateien</span></span>.\n"
 
 #. type: Bullet: '- '
-#, fuzzy
 msgid ""
 "Open one of the shortcuts from the <span class=\"guimenu\">Places</span> "
 "menu."
-msgstr "das <span class=\"guimenu\">Orte</span>-Menü"
+msgstr ""
+"Öffnen Sie eine der Verknüpfungen aus dem Menü <span class=\"guimenu\""
+">Orte</span>."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -844,20 +842,20 @@ msgid "To connect to a remote SFTP (SSH File Transfer Protocol) server:"
 msgstr ""
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid ""
 "Choose <span class=\"guilabel\">Other Locations</span> in the sidebar of the "
 "<span class=\"application\">Files</span> browser."
-msgstr "das <span class=\"guimenu\">Anwendungen</span>-Menü"
+msgstr ""
+"Wählen Sie <span class=\"guilabel\">Andere Speicherorte</span> in der "
+"Seitenleiste des <span class=\"application\">Datei</span>-Browsers."
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid ""
 "Specify an SFTP server in <span class=\"guilabel\">Connect to Server</span> "
 "at the bottom of the right pane. For example:"
 msgstr ""
-"Um sich mit einem FTP- oder SFTP-Server zu verbinden, wählen Sie\n"
-"<span class=\"guilabel\">Mit Server verbinden</span></span>.\n"
+"Geben Sie einen SFTP-Server unter <span class=\"guilabel\">Verbinden mit "
+"Server</span> unten im rechten Fensterbereich an. Zum Beispiel:"
 
 #. type: Plain text
 #, no-wrap
@@ -865,9 +863,8 @@ msgid "   <p class=\"pre command\">ssh://user@example.com/</p>\n"
 msgstr ""
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid "Click <span class=\"bold\">Connect</span>."
-msgstr "das <span class=\"guimenu\">Orte</span>-Menü"
+msgstr "Klicken Sie auf <span class=\"bold\">Verbinden</span>."
 
 #, fuzzy
 #~| msgid ""
