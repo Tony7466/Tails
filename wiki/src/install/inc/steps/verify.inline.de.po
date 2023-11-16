@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -31,10 +31,8 @@ msgid "Verify your download"
 msgstr "Überprüfen Sie Ihren Download"
 
 #. type: Content of: <div>
-#, fuzzy
-#| msgid "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
 msgid "[[!img inc/infography/verify.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img install/inc/screenshots/verifying_in_tails.png link=\"no\"]]"
+msgstr "[[!img inc/infography/verify.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div>
 #, fuzzy
