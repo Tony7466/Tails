@@ -144,13 +144,6 @@ class WhisperBackUI(object):
         self.close_application()
         return False
 
-    def cb_show_about(self, widget, data=None):
-        """Callback function to show the "about" dialog
-
-        """
-        self.show_about_dialog()
-        return False
-
     def cb_enter_gpgkeyblock(self, widget, data=None):
         """Callback function to show the gpg publick key block input dialog
 

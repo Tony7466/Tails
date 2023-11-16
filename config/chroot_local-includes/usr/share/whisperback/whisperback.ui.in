@@ -462,7 +462,9 @@ Otherwise, we won't be able to troubleshoot and solve it.</property>
                       <object class="GtkLabel" id="labelMail">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="label" translatable="yes">Email address (if you want an answer from us)</property>
+                        <property name="label" translatable="yes">&lt;b&gt;Email address&lt;/b&gt;
+So we can answer you or ask for more details.</property>
+                        <property name="use-markup">True</property>
                         <property name="xalign">0</property>
                       </object>
                       <packing>
@@ -517,7 +519,7 @@ Otherwise, we won't be able to troubleshoot and solve it.</property>
                       <object class="GtkLabel" id="labelExpectations">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="label" translatable="yes">Please know that we are not able to reply to every bug report.</property>
+                        <property name="label" translatable="yes">Even if we are not able to reply to every report, we analyze all reports to improve Tails.</property>
                         <property name="xalign">0</property>
                       </object>
                       <packing>
@@ -705,43 +707,13 @@ Otherwise, we won't be able to troubleshoot and solve it.</property>
             <property name="homogeneous">True</property>
             <property name="layout-style">end</property>
             <child>
-              <object class="GtkButton" id="buttonAbout">
-                <property name="label">gtk-about</property>
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="use-stock">True</property>
-                <signal name="clicked" handler="cb_show_about" swapped="no"/>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">False</property>
-                <property name="position">0</property>
-                <property name="secondary">True</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkButton" id="buttonCancel">
-                <property name="label">gtk-quit</property>
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="use-stock">True</property>
-                <signal name="clicked" handler="cb_close_application" swapped="no"/>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">False</property>
-                <property name="position">1</property>
-              </packing>
-            </child>
-            <child>
               <object class="GtkButton" id="buttonSend">
-                <property name="label" translatable="yes">Send</property>
+                <property name="label" translatable="yes">_Send</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
                 <property name="image">iconSend</property>
+                <property name="use-underline">True</property>
                 <signal name="clicked" handler="cb_send_message" swapped="no"/>
               </object>
               <packing>
