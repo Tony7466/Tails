@@ -117,8 +117,6 @@ class WhisperBackUI(object):
         for textview in [self.messageGoal, self.messageProblem, self.messageSteps]:
             textview.get_buffer().create_tag(family="Monospace")
 
-        self.main_window.maximize()
-
         self.main_window.show()
 
         # Launches the backend
