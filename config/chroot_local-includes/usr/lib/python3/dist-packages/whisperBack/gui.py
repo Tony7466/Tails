@@ -26,12 +26,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 ########################################################################
 
-__version__ = '1.8.4'
-LOCALEDIR = "locale/"
-PACKAGE = "whisperback"
-
 import logging
 import os
+from typing import Optional
 
 # Import these because we need the exception they raise
 import smtplib
@@ -50,6 +47,11 @@ import whisperBack.exceptions
 import whisperBack.whisperback
 import whisperBack.utils
 
+
+__version__ = '1.8.4'
+LOCALEDIR = "locale/"
+PACKAGE = "whisperback"
+
 LOG = logging.getLogger(__name__)
 
 # pylint: disable=R0902
@@ -59,7 +61,7 @@ class WhisperBackUI(object):
 
     """
 
-    def __init__(self, debugging_info: str):
+    def __init__(self, debugging_info: str, prefill: Optional[dict]):
         """Constructor of the class, which creates the main window
 
         This is where the main window will be created and filled with the
@@ -100,6 +102,7 @@ class WhisperBackUI(object):
         self.include_appended_details = \
             builder.get_object("checkbuttonIncludeAppendedInfo")
         self.send_button = builder.get_object("buttonSend")
+        self.prefill = prefill
 
         try:
             self.main_window.set_icon_from_file(os.path.join(
@@ -107,6 +110,10 @@ class WhisperBackUI(object):
         except GObject.GError as e:
             print(e)
 
+        if self.prefill is not None:
+            if 'summary' in self.prefill:
+                self.subject.set_text(self.prefill['summary'])
+                self.subject.set_sensitive(False)
         for textview in [self.messageGoal, self.messageProblem, self.messageSteps]:
             textview.get_buffer().create_tag(family="Monospace")
 

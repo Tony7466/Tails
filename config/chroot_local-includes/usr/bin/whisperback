@@ -28,6 +28,7 @@ import sys
 import logging
 import logging.config
 import gi
+import json
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
@@ -36,6 +37,15 @@ from tailslib import LIVE_USER_UID
 if os.getuid() != LIVE_USER_UID:
     print("Not running as amnesia, aborting", file=sys.stderr)
     sys.exit(1)
+
+if len(sys.argv) > 2:
+    print("Too many arguments", file=sys.stderr)
+    sys.exit(2)
+if len(sys.argv) > 1:
+    prefill = json.load(open(sys.argv[1]))
+    os.unlink(sys.argv[1])
+else:
+    prefill = None
 
 logging.config.fileConfig('/usr/share/whisperback/logging.conf')
 # Set loglevel if debug is found in kernel command line
@@ -46,7 +56,8 @@ if "debug" in CMDLINE.split():
 
 debugging_info = sys.stdin.read()
 
+
 import whisperBack
 
-ui = whisperBack.WhisperBackUI(debugging_info)
+ui = whisperBack.WhisperBackUI(debugging_info=debugging_info, prefill=prefill)
 Gtk.main()
