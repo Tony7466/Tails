@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -46,6 +46,8 @@ msgid ""
 "Open the address <span class=\"command\">about:config</span> in *Tor "
 "Browser*."
 msgstr ""
+"Öffnen Sie die Adresse <span class=\"command\">about:config</span> im *Tor "
+"Browser*."
 
 #. type: Plain text
 #, no-wrap
