@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-10-03 09:22+0000\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 09:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -39,6 +39,8 @@ msgid ""
 "Donations from passionate people like you are our most valuable source of "
 "funding because they guarantee our independence."
 msgstr ""
+"Spenden von engagierten Menschen wie Ihnen sind unsere wichtigste "
+"Finanzierungsquelle, denn sie garantieren unsere Unabhängigkeit."
 
 #. type: Content of: <a><p>
 #, fuzzy
