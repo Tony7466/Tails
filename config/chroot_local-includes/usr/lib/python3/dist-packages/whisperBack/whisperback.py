@@ -30,6 +30,7 @@ import logging
 import os
 import re
 import threading
+from typing import Optional
 
 import gi
 from gi.repository import GLib
@@ -85,7 +86,7 @@ class WhisperBack:
     # pylint: disable=W0212
     contact_gpgkey = property(lambda self: self._contact_gpgkey, set_contact_gpgkey)
 
-    def __init__(self, debugging_info:str, subject="", message=""):
+    def __init__(self, debugging_info:str, prefill: Optional[dict], subject="", message=""):
         """Initialize a feedback object with the given contents
 
         @param subject The topic of the feedback
@@ -117,6 +118,7 @@ class WhisperBack:
             self.mail_prepended_info()
         )
         self.appended_data = self.__get_debug_info(debugging_info)
+        self.prefill = prefill
 
         # Initialize other variables
         self.subject = subject
@@ -288,7 +290,15 @@ class WhisperBack:
                 body += "OpenPGP-Key: %s\n" % self.contact_gpgkey
             else:
                 body += "OpenPGP-Key: included below\n"
-        body += "%s\n%s\n\n" % (self.prepended_data, self.message)
+        prefill_info = ""
+        prefill_hidden = ""
+        if self.prefill:
+            prefill_info = "Prefill: %s\n" % ','.join(self.prefill)
+            prefill_hidden = self.prefill.get('hidden_msg', '') + "\n\n"
+        body += (
+                f"{self.prepended_data.rstrip()}\n"
+                f"{prefill_info}{prefill_hidden}"
+                f"{self.message}\n\n")
         if self.contact_gpgkey and len(self.contact_gpgkey.splitlines()) > 1:
             body += "%s\n\n" % self.contact_gpgkey
         body += "%s\n" % self.appended_data

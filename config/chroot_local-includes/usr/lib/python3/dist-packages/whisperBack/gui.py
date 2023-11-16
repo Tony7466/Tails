@@ -123,7 +123,7 @@ class WhisperBackUI(object):
 
         # Launches the backend
         try:
-            self.backend = whisperBack.whisperback.WhisperBack(debugging_info=debugging_info)
+            self.backend = whisperBack.whisperback.WhisperBack(debugging_info=debugging_info, prefill=prefill)
         except whisperBack.exceptions.MisconfigurationException as e:
             self.show_exception_dialog(
                 _("Unable to load a valid configuration."), e,
