@@ -4,6 +4,8 @@
 *.pot~
 *.pyc
 *.swp
+\#*\#
+*.ui.in~
 **/__pycache__
 **/.mypy_cache
 /*.apt-sources
