@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-07-20 22:06+0000\n"
-"PO-Revision-Date: 2023-11-16 09:13+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid "The following screenshot is an example of a Boot Menu:"
-msgstr ""
+msgstr "Der folgende Screenshot ist ein Beispiel für ein Boot-Menü:"
 
 #. type: Content of: <p>
 msgid "[[!img install/inc/screenshots/boot_menu.png link=\"no\" alt=\"\"]]"
