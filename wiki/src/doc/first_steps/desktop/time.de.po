@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -52,6 +52,8 @@ msgid ""
 "We do this for anonymity reasons: if some application reveals your actual "
 "time zone, it might help identifying who you are."
 msgstr ""
+"Wir tun dies aus Gründen der Anonymität: Wenn eine Anwendung Ihre "
+"tatsächliche Zeitzone preisgibt, könnte dies helfen, Sie zu identifizieren."
 
 #. type: Plain text
 #, markdown-text
