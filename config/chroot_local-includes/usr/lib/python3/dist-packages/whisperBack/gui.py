@@ -87,7 +87,9 @@ class WhisperBackUI(object):
         self.gpg_ok = builder.get_object("buttonGpgOk")
         self.gpg_cancel = builder.get_object("buttonGpgClose")
         self.subject = builder.get_object("entrySubject")
-        self.message = builder.get_object("textviewMessage")
+        self.messageGoal = builder.get_object("textviewGoal")
+        self.messageProblem = builder.get_object("textviewProblem")
+        self.messageSteps = builder.get_object("textviewSteps")
         self.contact_email = builder.get_object("entryMail")
         self.contact_gpg_keyblock = builder.get_object("buttonGPGKeyBlock")
         self.prepended_details = \
@@ -105,20 +107,8 @@ class WhisperBackUI(object):
         except GObject.GError as e:
             print(e)
 
-        underline = lambda str: str + "\n" + len(str) * '-'
-
-        # pylint: disable=C0301
-        self.message.get_buffer().insert_with_tags(
-            self.message.get_buffer().get_start_iter(),
-            underline(_("Name of the affected software"))
-            + "\n"*4
-            + underline(_("Exact steps to reproduce the error"))
-            + "\n"*4
-            + underline(_("Actual result and description of the error"))
-            + "\n"*4
-            + underline(_("Desired result"))
-            + "\n"*4,
-            self.message.get_buffer().create_tag(family="Monospace"))
+        for textview in [self.messageGoal, self.messageProblem, self.messageSteps]:
+            textview.get_buffer().create_tag(family="Monospace")
 
         self.main_window.maximize()
 
@@ -175,10 +165,23 @@ class WhisperBackUI(object):
         self.main_window.set_sensitive(False)
 
         self.backend.subject = self.subject.get_text()
-        message_text = self.message.get_buffer().get_text(
-                               self.message.get_buffer().get_start_iter(),
-                               self.message.get_buffer().get_end_iter(),
-                               include_hidden_chars=False)
+        titles = [
+                "What were you trying to achieve?",
+                "What happened instead?",
+                "What did you do that triggered this error?"
+                ]
+        parts = []
+        for message in [self.messageGoal, self.messageProblem, self.messageSteps]:
+            parts.append(message.get_buffer().get_text(
+                               message.get_buffer().get_start_iter(),
+                               message.get_buffer().get_end_iter(),
+                               include_hidden_chars=False))
+        message_text = ""
+        for title, part in zip(titles, parts):
+            message_text += title + "\n" + "-" * len(title) + "\n\n"
+            message_text += f"{part}\n\n"
+        message_text += "\n\n\n"
+
         self.backend.message = whisperBack.utils.wrap_text(message_text)
         if self.contact_email.get_text():
             try:
