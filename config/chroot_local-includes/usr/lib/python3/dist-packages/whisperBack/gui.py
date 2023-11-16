@@ -67,7 +67,7 @@ class WhisperBackUI(object):
         """
 
         builder = Gtk.Builder()
-        builder.set_translation_domain('whisperback')
+        builder.set_translation_domain('tails')
         builder.add_from_file(os.path.join(whisperBack.utils.get_datadir(),
                                           "whisperback.ui"))
         builder.connect_signals(self)
