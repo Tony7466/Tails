@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-30 21:51+0000\n"
-"PO-Revision-Date: 2023-11-16 09:13+0000\n"
+"PO-Revision-Date: 2023-11-16 16:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -50,6 +50,8 @@ msgid ""
 "   At the security warning, confirm that you want to open\n"
 "   <span class=\"application\">balenaEtcher</span>.\n"
 msgstr ""
+"   Bestätigen Sie bei der Sicherheitswarnung, dass Sie\n"
+"    <span class=\"application\">balenaEtcher</span> öffnen möchten.\n"
 
 #. type: Plain text
 #, no-wrap
