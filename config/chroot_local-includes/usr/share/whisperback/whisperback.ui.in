@@ -528,7 +528,12 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="indent">-10</property>
-                                    <property name="cursor_visible">False</property>
+                                    <property name="cursor-visible">False</property>
+                                    <child internal-child="accessible">
+                                      <object class="AtkObject" id="textviewPrependedInfo-atkobject">
+                                        <property name="AtkObject::accessible-name" translatable="yes">textHeaders</property>
+                                      </object>
+                                    </child>
                                   </object>
                                 </child>
                               </object>
@@ -576,7 +581,12 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
                                     <property name="editable">False</property>
                                     <property name="wrap_mode">char</property>
                                     <property name="indent">-10</property>
-                                    <property name="cursor_visible">False</property>
+                                    <property name="cursor-visible">False</property>
+                                    <child internal-child="accessible">
+                                      <object class="AtkObject" id="textviewAppendedInfo-atkobject">
+                                        <property name="AtkObject::accessible-name" translatable="yes">textAppendedInfo</property>
+                                      </object>
+                                    </child>
                                   </object>
                                 </child>
                               </object>
