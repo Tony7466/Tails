@@ -42,8 +42,9 @@ import whisperBack.utils
 
 LOG = logging.getLogger(__name__)
 
+
 # pylint: disable=R0902
-class WhisperBack(object):
+class WhisperBack:
     """
     This class contains the backend which actually sends the feedback
     """
@@ -84,7 +85,7 @@ class WhisperBack(object):
     # pylint: disable=W0212
     contact_gpgkey = property(lambda self: self._contact_gpgkey, set_contact_gpgkey)
 
-    def __init__(self, subject="", message=""):
+    def __init__(self, debugging_info:str, subject="", message=""):
         """Initialize a feedback object with the given contents
 
         @param subject The topic of the feedback
@@ -115,7 +116,7 @@ class WhisperBack(object):
         self.prepended_data = whisperBack.utils.sanitize_hardware_info(
             self.mail_prepended_info()
         )
-        self.appended_data = self.__get_debug_info(self.mail_appended_info())
+        self.appended_data = self.__get_debug_info(debugging_info)
 
         # Initialize other variables
         self.subject = subject

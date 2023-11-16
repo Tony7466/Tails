@@ -59,7 +59,7 @@ class WhisperBackUI(object):
 
     """
 
-    def __init__(self):
+    def __init__(self, debugging_info: str):
         """Constructor of the class, which creates the main window
 
         This is where the main window will be created and filled with the
@@ -126,7 +126,7 @@ class WhisperBackUI(object):
 
         # Launches the backend
         try:
-            self.backend = whisperBack.whisperback.WhisperBack()
+            self.backend = whisperBack.whisperback.WhisperBack(debugging_info=debugging_info)
         except whisperBack.exceptions.MisconfigurationException as e:
             self.show_exception_dialog(
                 _("Unable to load a valid configuration."), e,
