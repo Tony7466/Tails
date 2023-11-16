@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-02-07 14:49+0000\n"
-"PO-Revision-Date: 2023-11-16 11:13+0000\n"
+"PO-Revision-Date: 2023-11-16 13:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -33,7 +33,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[Unlocking and using the Persistent Storage|persistent_storage/use]]"
-msgstr ""
+msgstr "[[Persistenten Speicher entsperren und nutzen|persistent_storage/use]]"
 
 #. type: Bullet: '  - '
 msgid ""
