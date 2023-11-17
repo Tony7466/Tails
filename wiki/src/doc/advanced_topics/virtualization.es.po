@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2021-05-13 10:54+0200\n"
+"POT-Creation-Date: 2023-11-17 18:41+0000\n"
 "PO-Revision-Date: 2023-03-09 14:28+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/"
@@ -35,8 +35,8 @@ msgid ""
 "Virtual_machine desc=\"virtual machines\"]]."
 msgstr ""
 "A veces es conveniente poder usar Tails sin tener que reiniciar tu ordenador "
-"cada vez. Esto se puede hacer usando [[!wikipedia_es Máquina_virtual desc="
-"\"máquinas virtuales\"]]."
+"cada vez. Esto se puede hacer usando [[!wikipedia_es Máquina_virtual "
+"desc=\"máquinas virtuales\"]]."
 
 #. type: Plain text
 msgid ""
@@ -109,14 +109,13 @@ msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "Running Tails inside a virtual machine has various security implications. Depending on the host operating system and your security needs, running Tails in a virtual machine might be dangerous."
 msgid ""
-"Running Tails inside a virtual machine has various security implications. "
-"Depending on the host operating system and your security needs, running "
-"Tails in a virtual machine might be dangerous."
-msgstr ""
-"Usar Tails dentro de una máquina virtual tiene varias implicaciones de "
-"seguridad. Dependiendo del sistema operativo anfitrión y tus necesidades de "
-"seguridad, usar Tails en una máquina virtual puede ser peligroso."
+"<p>Running Tails inside a virtual machine has various security\n"
+"implications. Depending on the host operating system and your security\n"
+"needs, running Tails in a virtual machine might be dangerous.</p>\n"
+msgstr "Usar Tails dentro de una máquina virtual tiene varias implicaciones de seguridad. Dependiendo del sistema operativo anfitrión y tus necesidades de seguridad, usar Tails en una máquina virtual puede ser peligroso."
 
 #. type: Plain text
 #, no-wrap
@@ -149,10 +148,13 @@ msgid "    <div class=\"caution\">\n"
 msgstr "    <div class=\"caution\">\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "    Only run Tails in a virtual machine if both the host operating\n"
+#| "    system and the virtualization software are trustworthy.\n"
 msgid ""
-"    Only run Tails in a virtual machine if both the host operating\n"
-"    system and the virtualization software are trustworthy.\n"
+"    <p>Only run Tails in a virtual machine if both the host operating\n"
+"    system and the virtualization software are trustworthy.</p>\n"
 msgstr ""
 "    Usa Tails en una máquina virtual sólo si confías en el sistema operativo\n"
 "    anfitrión y en el software de virtualización.\n"
@@ -178,10 +180,13 @@ msgstr ""
 "intercambio (o *paginado*) que copia parte de la RAM al disco duro."
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "    Only run Tails in a virtual machine if leaving traces on the hard disk\n"
+#| "    is not a concern for you.\n"
 msgid ""
-"    Only run Tails in a virtual machine if leaving traces on the hard disk\n"
-"    is not a concern for you.\n"
+"    <p>Only run Tails in a virtual machine if leaving traces on the hard disk\n"
+"    is not a concern for you.</p>\n"
 msgstr ""
 "    Usa Tails en una máquina virtual sólo si dejar huellas en tu disco duro\n"
 "    no es un problema para ti.\n"
@@ -193,18 +198,15 @@ msgstr ""
 "Por eso es que Tails te advierte que estás corriendo en una máquina virtual."
 
 #. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "The Tails virtual machine does not modify the behaviour of the host operating system and the network traffic of the host is not anonymized. The MAC address of the computer is not modified by the [[MAC address anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails when run in a virtual machine."
 msgid ""
-"The Tails virtual machine does not modify the behaviour of the host "
-"operating system and the network traffic of the host is not anonymized. The "
-"MAC address of the computer is not modified by the [[MAC address "
-"anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails "
-"when run in a virtual machine."
-msgstr ""
-"La máquina virtual de Tails no modifica el comportamiento del sistema "
-"operativo anfitrión y el tráfico de red no es anonimizado. La dirección MAC "
-"del ordenador no se modifica con la funcionalidad de [[anonimización de "
-"dirección MAC|first_steps/welcome_screen/mac_spoofing]] de Tails cuando lo "
-"usas desde una máquina virtual."
+"<p>The Tails virtual machine does not modify the behaviour of the host\n"
+"operating system and the network traffic of the host is not anonymized. The MAC\n"
+"address of the computer is not modified by the [[MAC address\n"
+"anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails\n"
+"when run in a virtual machine.</p>\n"
+msgstr "La máquina virtual de Tails no modifica el comportamiento del sistema operativo anfitrión y el tráfico de red no es anonimizado. La dirección MAC del ordenador no se modifica con la funcionalidad de [[anonimización de dirección MAC|first_steps/welcome_screen/mac_spoofing]] de Tails cuando lo usas desde una máquina virtual."
 
 #. type: Plain text
 #, no-wrap
