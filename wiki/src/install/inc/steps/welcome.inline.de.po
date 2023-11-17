@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-09 07:47+0200\n"
-"PO-Revision-Date: 2023-11-08 16:13+0000\n"
+"PO-Revision-Date: 2023-11-16 11:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -34,6 +34,8 @@ msgstr ""
 #, no-wrap
 msgid "<div class=\"step-image pc-clone mac-clone\">[[!img install/inc/infography/tails.png link=\"no\" alt=\"\"]]</div>\n"
 msgstr ""
+"<div class=\"step-image pc-clone mac-clone\">[[!img install/inc/infography/"
+"tails.png link=\"no\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
 #, no-wrap

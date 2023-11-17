@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-07-20 22:06+0000\n"
-"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -38,10 +38,15 @@ msgid ""
 "restart]].  Starting Tails from Windows is easier than using the Boot Menu "
 "key."
 msgstr ""
+"Wenn Windows 8, 10 oder 11 <span class=\"linux upgrade-linux\">auch</span> "
+"auf dem Computer installiert ist, können Sie stattdessen die [[Anleitung zum "
+"Starten von Tails aus Windows 8 oder 10|doc/first_steps/start/pc#windows-"
+"restart]] verwenden.  Tails von Windows aus zu starten ist einfacher als die "
+"Verwendung der Boot-Menü-Taste."
 
 #. type: Content of: <p>
 msgid "The following screenshot is an example of a Boot Menu:"
-msgstr ""
+msgstr "Der folgende Screenshot ist ein Beispiel für ein Boot-Menü:"
 
 #. type: Content of: <p>
 msgid "[[!img install/inc/screenshots/boot_menu.png link=\"no\" alt=\"\"]]"
@@ -67,11 +72,11 @@ msgstr ""
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>balenaEtcher</i> from Windows|install/windows#etcher]]"
-msgstr ""
+msgstr "[[<i>balenaEtcher</i> von Windows|install/windows#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>balenaEtcher</i> from macOS|install/mac#etcher]]"
-msgstr ""
+msgstr "[[<i>balenaEtcher</i> von macOS|install/mac#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>GNOME Disks</i> from Linux|install/linux#install]]"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-07-13 00:13+0000\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 09:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -37,6 +37,8 @@ msgid ""
 "To learn how to install and use *Dino* in Tails, see [this tutorial](https://"
 "t-hinrichs.net/DinoTails/DinoTails_recent.html)."
 msgstr ""
+"Um zu erfahren, wie man *Dino* in Tails installiert und benutzt, siehe ["
+"diese Anleitung] (https://t-hinrichs.net/DinoTails/DinoTails_recent.html)."
 
 #. type: Plain text
 #, no-wrap
@@ -51,7 +53,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "</div>\n"
-msgstr ""
+msgstr "</div>\n"
 
 #. type: Plain text
 msgid ""
