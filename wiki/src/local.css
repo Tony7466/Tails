@@ -953,7 +953,8 @@ div.bug > *:first-child, div.caution > *:first-child, div.next > *:first-child, 
   margin-top: 0;
 }
 
-div.bug > *:last-child, div.caution > *:last-child, div.next > *:last-child, div.note > *:last-child, div.tip > *:last-child, div.trophy > *:last-child {
+div.bug > *:last-child, div.caution > *:last-child, div.next > *:last-child, div.note > *:last-child, div.tip > *:last-child, div.trophy > *:last-child,
+div.bug > *:only-child, div.caution > *:only-child, div.next > *:only-child, div.note > *:only-child, div.tip > *:only-child, div.trophy > *:only-child {
   margin-bottom: 1.5em;
 }
 
