@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-17 18:41+0000\n"
-"PO-Revision-Date: 2023-11-18 07:16+0000\n"
+"PO-Revision-Date: 2023-11-18 10:16+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -110,13 +110,17 @@ msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Running Tails inside a virtual machine has various security implications. Depending on the host operating system and your security needs, running Tails in a virtual machine might be dangerous."
+#, no-wrap
 msgid ""
 "<p>Running Tails inside a virtual machine has various security\n"
 "implications. Depending on the host operating system and your security\n"
 "needs, running Tails in a virtual machine might be dangerous.</p>\n"
-msgstr "Die Benutzung von Tails in einer virtuellen Maschine hat verschiedene Konsequenzen für die Sicherheit. Abhängig von Ihrem Hostbetriebssystem und Ihren Sicherheitsanforderungen könnte die Benutzung von Tails in einer virtuellen Maschine gefährlich sein."
+msgstr ""
+"<p>Die Benutzung von Tails in einer virtuellen Maschine hat verschiedene "
+"Konsequenzen \n"
+"für die Sicherheit. Abhängig von Ihrem Hostbetriebssystem und Ihren \n"
+"Sicherheitsanforderungen könnte die Benutzung von Tails in einer virtuellen "
+"Maschine gefährlich sein.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -149,16 +153,14 @@ msgid "    <div class=\"caution\">\n"
 msgstr "    <div class=\"caution\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "    Only run Tails in a virtual machine if both the host operating\n"
-#| "    system and the virtualization software are trustworthy.\n"
+#, no-wrap
 msgid ""
 "    <p>Only run Tails in a virtual machine if both the host operating\n"
 "    system and the virtualization software are trustworthy.</p>\n"
 msgstr ""
-"    Führen Sie Tails nur in einer virtuellen Maschine aus, wenn sowohl das Hostbetriebssystem\n"
-"    als auch die Virtualisierungssoftware vertrauenswürdig sind.\n"
+"    <p>Führen Sie Tails nur in einer virtuellen Maschine aus, wenn sowohl "
+"das Hostbetriebssystem\n"
+"    als auch die Virtualisierungssoftware vertrauenswürdig sind.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -182,16 +184,14 @@ msgstr ""
 "auf die Festplatte kopiert werden."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "    Only run Tails in a virtual machine if leaving traces on the hard disk\n"
-#| "    is not a concern for you.\n"
+#, no-wrap
 msgid ""
 "    <p>Only run Tails in a virtual machine if leaving traces on the hard disk\n"
 "    is not a concern for you.</p>\n"
 msgstr ""
-"    Benutzen Sie Tails nur in einer virtuellen Maschine, wenn das Hinterlassen von Spuren\n"
-"    auf der Festplatte kein Problem für Sie ist.\n"
+"    <p>Benutzen Sie Tails nur in einer virtuellen Maschine, wenn das "
+"Hinterlassen von Spuren\n"
+"    auf der Festplatte kein Problem für Sie ist.</p>\n"
 
 #. type: Plain text
 msgid ""
