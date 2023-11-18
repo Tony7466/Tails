@@ -123,6 +123,10 @@
   background: var(--medium-light-green);
 }
 
+.twitter-button:hover {
+  background: var(--medium-dark-green);
+}
+
 @media (max-width: 986px) {
 #twitter {
   justify-content: space-evenly;

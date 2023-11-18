@@ -8,9 +8,13 @@
 }
 
 #tor-check a {
-  background: var(--light-green) url('home/onion.png') no-repeat 20px !important;
+  background: var(--medium-light-green) url('home/onion.png') no-repeat 20px !important;
   padding-left: 60px;
   padding-right: 30px !important;
+}
+
+#tor-check a:hover {
+  background-color: var(--medium-dark-green) !important;
 }
 
 /* Random message box */

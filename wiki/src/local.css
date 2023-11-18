@@ -7,10 +7,9 @@
   --background-purple: #f3edf9;
 
   /* Green */
-  --dark-green: #276426;
-  --medium-dark-green: #3b833a;
-  --medium-light-green: #53b351; /* buttons */
-  --light-green: #73d171;
+  --dark-green: #3b833a;
+  --medium-dark-green: #53b351;
+  --medium-light-green: #73d171; /* buttons */
   --background-green: #a8ffa0;
 
   /* Gray */
@@ -317,7 +316,7 @@ button, input, textarea {
 }
 
 input:focus, textarea:focus {
-  outline: 2px solid var(--light-green);
+  outline: 2px solid var(--medium-light-green);
 }
 
 /* Layout */
@@ -421,6 +420,10 @@ label[for="searchbox"]{
   height: 28px;
 }
 
+#donate a:hover {
+  background: var(--medium-dark-green);
+}
+
 #donate {
   margin: 10px auto 0 auto;
 }
@@ -505,7 +508,7 @@ label[for="searchbox"]{
 
 .topbar a:hover {
   text-decoration: none;
-  border-bottom: 5px solid var(--medium-light-green) !important;
+  border-bottom: 5px solid var(--medium-dark-green) !important;
 }
 
 .topbar .selflink {
@@ -800,6 +803,10 @@ div.blocks img {
   display: inline-block;
   cursor: pointer;
   margin-bottom: 1.5em;
+}
+
+.button:hover {
+  background: var(--medium-dark-green) !important;
 }
 
 .cfa {
