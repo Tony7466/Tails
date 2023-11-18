@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-11-18 18:11+0000\n"
-"PO-Revision-Date: 2023-11-05 23:11+0000\n"
+"PO-Revision-Date: 2023-11-18 21:16+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -72,15 +72,15 @@ msgstr ""
 "[[!img install/inc/screenshots/choose_an_option.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <ol><li><div><p>
-#, fuzzy
 msgid ""
 "If the <strong>Choose an option</strong> screen or the <strong>Use a device</"
 "strong> option don't appear, refer to the [[instructions on starting Tails "
 "using the Boot Menu key|doc/first_steps/start/pc#boot-menu-key]]."
 msgstr ""
-"Si la pantalla <strong>Trieu una opció</strong> no apareix, consulteu les "
-"[[instruccions per iniciar Tails amb la tecla del Menú d'Arrencada|doc/"
-"first_steps/start/pc#boot-menu-key]]."
+"Si la pantalla <strong>Trieu una opció</strong> o l'opció <strong>Utilitza "
+"un dispositiu</strong> no apareixen, consulteu les [[instruccions per "
+"iniciar Tails amb la tecla del Menú d'Arrencada|doc/first_steps/start/pc"
+"#boot-menu-key]]."
 
 #. type: Content of: <ol><li><p>
 msgid ""
