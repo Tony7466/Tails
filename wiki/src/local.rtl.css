@@ -11,7 +11,8 @@ html[dir="rtl"] div.trail span.trailarrow {
 }
 
 html[dir="rtl"] #search-and-donate {
-    right: calc(100% - 245px);
+    right: unset;
+    left: 0;
 }
 
 html[dir="rtl"] #searchform button {
