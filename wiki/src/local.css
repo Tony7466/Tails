@@ -383,8 +383,7 @@ header.title { /* override style.css */
 #searchform input {
   background: white;
   padding: 6px;
-  border-top-left-radius: 0.5em;
-  border-bottom-left-radius: 0.5em;
+  border-radius: 0.5em 0 0 0.5em;
   font-size: 13px;
   color: black;
   width: 140px;
@@ -394,8 +393,7 @@ header.title { /* override style.css */
   background: var(--medium-light-green) url(lib/search.png) no-repeat center;
   width: 40px;
   border: 0;
-  border-top-right-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
+  border-radius: 0 0.5em 0.5em 0;
   box-shadow: 1px 1px 1px black, 1px 1px 4px var(--dark-gray), inset 1px 1px 1px var(--background-green);
   cursor: pointer;
 }
