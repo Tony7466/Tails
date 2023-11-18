@@ -1,12 +1,12 @@
-#scenarios {
+#scenarios, #scenarios .block {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 35px;
 }
 
-#scenarios div {
-  width: 200px;
+#scenarios .block div {
+  width: 205px;
   text-align: center;
   padding: 0 !important;
   margin-bottom: 0;
