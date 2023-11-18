@@ -22,7 +22,7 @@
   padding: 1em 2em 1em 2em !important;
   background: var(--background-gray) !important;
   border: 1px solid var(--light-gray) !important;
-  border-radius: 0.5em;
+  border-radius: 5px;
   box-sizing: border-box;
   box-shadow: 1px 1px 5px var(--medium-light-gray);
   color: black !important;
@@ -49,7 +49,7 @@
   background: var(--medium-light-green);
   color: black !important;
   font-weight: bold;
-  border-radius: 0.5em;
+  border-radius: 5px;
   padding: 0.5em 0.25em;
   text-align: center;
   box-shadow: 1px 1px 5px var(--medium-dark-gray);
