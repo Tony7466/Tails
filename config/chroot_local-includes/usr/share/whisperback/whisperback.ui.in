@@ -499,7 +499,7 @@ So we can answer you or ask for more details.</property>
                         </child>
                         <child>
                           <object class="GtkButton" id="buttonGPGKeyBlock">
-                            <property name="label" translatable="yes">optional PGP key</property>
+                            <property name="label" translatable="yes">Optional PGP Key…</property>
                             <property name="use-action-appearance">False</property>
                             <property name="visible">True</property>
                             <property name="can-focus">True</property>
