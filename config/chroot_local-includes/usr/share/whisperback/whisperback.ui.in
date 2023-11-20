@@ -304,6 +304,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
                       <object class="GtkLabel" id="labelSubject">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
+                        <property name="margin-top">12</property>
                         <property name="ypad">5</property>
                         <property name="label" translatable="yes">Summary</property>
                         <property name="xalign">0</property>
@@ -333,6 +334,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
                       <object class="GtkLabel" id="labelMessage">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
+                        <property name="margin-top">12</property>
                         <property name="ypad">5</property>
                         <property name="label" translatable="yes">&lt;b&gt;What were you trying to achieve?&lt;/b&gt;</property>
                         <property name="use-markup">True</property>
@@ -370,6 +372,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
                       <object class="GtkLabel" id="labelMessage1">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
+                        <property name="margin-top">12</property>
                         <property name="ypad">5</property>
                         <property name="label" translatable="yes">&lt;b&gt;What happened instead?&lt;/b&gt;
 Describe the error with as many details as possible.</property>
@@ -408,6 +411,7 @@ Describe the error with as many details as possible.</property>
                       <object class="GtkLabel" id="labelMessage2">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
+                        <property name="margin-top">12</property>
                         <property name="ypad">5</property>
                         <property name="label" translatable="yes">&lt;b&gt;What did you do that triggered this error?&lt;/b&gt;
 Describe the exact steps that caused the error, so we can try to make it happen again.
@@ -462,6 +466,7 @@ Otherwise, we won't be able to troubleshoot and solve it.</property>
                       <object class="GtkLabel" id="labelMail">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
+                        <property name="margin-top">12</property>
                         <property name="label" translatable="yes">&lt;b&gt;Email address&lt;/b&gt;
 So we can answer you or ask for more details.</property>
                         <property name="use-markup">True</property>
