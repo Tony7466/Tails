@@ -38,7 +38,8 @@ import socket
 import gi
 from gi.repository import GObject
 gi.require_version('GdkPixbuf', '2.0')
-from gi.repository import GdkPixbuf
+gi.require_version("Gdk", "3.0")
+from gi.repository import GdkPixbuf, Gdk
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
@@ -53,6 +54,7 @@ LOCALEDIR = "locale/"
 PACKAGE = "whisperback"
 
 LOG = logging.getLogger(__name__)
+CSS_FILE = '/usr/share/whisperback/style.css'
 
 # pylint: disable=R0902
 class WhisperBackUI(object):
@@ -67,6 +69,15 @@ class WhisperBackUI(object):
         This is where the main window will be created and filled with the
         widgets we want.
         """
+
+        # Load custom CSS
+        css_provider = Gtk.CssProvider()
+        css_provider.load_from_path(CSS_FILE)
+        Gtk.StyleContext.add_provider_for_screen(
+            Gdk.Screen.get_default(),
+            css_provider,
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION,
+        )
 
         builder = Gtk.Builder()
         builder.set_translation_domain('tails')
