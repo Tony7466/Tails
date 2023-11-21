@@ -8,7 +8,7 @@ Dear {FIRSTNAME},
 
 At the end of every year, we ask our supporters and well wishers to make a
 contribution towards our mission. As we enter the last month for 2023, we are
-[reflecting](https://tails.net/news/gift_of_privacy/index.en.html) on a year in
+[reflecting](https://tails.net/news/gift_of_privacy/) on a year in
 which progressive, liberatory movements battled intense online surveillance
 from powerful public and private actors alike.
 
@@ -16,7 +16,7 @@ Unfortunately, Tails' mission is more important now than ever before.
 
 You are reading this because you have donated to Tails in the past. And you're
 also reading this because we'd love [your renewed and continued
-support](https://tails.net/donate/index.en.html) for Tails to scale greater
+support](https://tails.net/donate/) for Tails to scale greater
 heights in 2024!
 
 Improvements to the Persistent Storage
@@ -27,22 +27,22 @@ Improvements to the Persistent Storage
 In March 2023, we partnered with [Radically Open
 Security](https://www.radicallyopensecurity.com/) to conduct a comprehensive
 pen-test of our major improvements for Persistent Storage, Unsafe Browser, and
-the Wayland integration in [Tails 5.8](https://tails.net/news/version_5.8). Tails performed exceptionally well in the
+the Wayland integration in [Tails 5.8](https://tails.net/news/version_5.8/). Tails performed exceptionally well in the
 test, demonstrating our dedication to robust security measures. You can find
-the full results [here](https://tails.net/news/audit_by_ROS/index.en.html).
+the full results [here](https://tails.net/news/audit_by_ROS/).
 
 ### Enhanced backup
 
-<img src="https://tails.net/doc/persistent_storage/backup/clone.png"/>
+<img src="https://tails.net/doc/persistent_storage/backup/clone.png" alt=""/>
 
-[Tails 5.14](https://tails.net/news/version_5.14) introduced a new and improved backup method for the Persistent Storage.
+[Tails 5.14](https://tails.net/news/version_5.14/) introduced a new and improved backup method for the Persistent Storage.
 Users can now create a complete backup of their Persistent Storage by cloning
 it to a full backup Tails installation. This ensures that your valuable data is
 not lost in case of accidental deletion or hardware failure.
 
 ### Data deletion
 
-<img src="https://tails.net/news/version_5.12/delete-data.png"/>
+<img src="https://tails.net/news/version_5.12/delete-data.png" alt=""/>
 
 In case you'd like to delete some data from your Persistent Storage, [Tails 5.12](https://tails.net/news/version_5.12) and later
 provides a straightforward way. Simply click the **Delete Data** button after
@@ -51,13 +51,13 @@ data.
 
 ### Stronger encryption
 
-In [Tails 5.14](https://tails.net/news/version_5.14), we adopted LUKS2 with Argon2id as the default encryption algorithm for all new Persistent Storage and LUKS-encrypted volumes. This upgrade provides significantly stronger protection against brute-force attacks
+In [Tails 5.14](https://tails.net/news/version_5.14/), we adopted LUKS2 with Argon2id as the default encryption algorithm for all new Persistent Storage and LUKS-encrypted volumes. This upgrade provides significantly stronger protection against brute-force attacks
 compared to the previous PBKDF2 algorithm.
 
 Our likely next big feature
 ===========================
 
-[[!img walkie-talkie.png link="no" alt=""]]
+<img src="https://tails.net/newsletter/2023-11/walkie-talkie.png" alt=""/>
 
 In our last newsletter, we asked for your help to shape the future of Tails in
 the form of a survey about upcoming features.
@@ -78,7 +78,7 @@ independent journalists who investigate state surveillance, online crime,
 sexual violence, and so on.
 
 **One tool stood out as the top priority for our users:
-[Signal](https://signal.org).**
+[Signal](https://signal.org/).**
 
 Signal in Tails would help journalists, activists and whistleblowers communicate more easily with their collaborators but also handle hazardous material and sensitive communications more safely.
 
@@ -102,7 +102,7 @@ exit country.
 What we're reading
 ==================
 
-[[!img ami-du-peuple.jpg link="no" alt=""]]
+<img src="https://tails.net/newsletter/2023-11/ami-du-peuple.jpg" alt=""/>
 
 *A copy of <a href="https://en.wikipedia.org/wiki/L%27Ami_du_peuple">L'Ami
 du peuple</a> stained with the blood of Marat*
