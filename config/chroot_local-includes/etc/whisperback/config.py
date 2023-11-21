@@ -7,11 +7,8 @@
 # IMPORTS
 
 # Custom imports
-import os
 import subprocess
 import random
-import re
-import locale
 import gettext
 
 # DOCUMENTATION

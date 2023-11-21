@@ -101,7 +101,6 @@ class WhisperBack:
         self.to_fingerprint = None
         self.from_address = None
         self.mail_prepended_info = lambda: ""
-        self.mail_appended_info = lambda: ""
         self.mail_subject = None
         self.smtp_host = None
         self.smtp_port = None
