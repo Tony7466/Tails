@@ -113,7 +113,6 @@ class WhisperBackUI(object):
         self.include_appended_details = \
             builder.get_object("checkbuttonIncludeAppendedInfo")
         self.send_button = builder.get_object("buttonSend")
-        self.prefill = prefill
 
         try:
             self.main_window.set_icon_from_file(os.path.join(
@@ -121,9 +120,9 @@ class WhisperBackUI(object):
         except GObject.GError as e:
             print(e)
 
-        if self.prefill is not None:
-            if 'summary' in self.prefill:
-                self.subject.set_text(self.prefill['summary'])
+        if prefill is not None:
+            if 'summary' in prefill:
+                self.subject.set_text(prefill['summary'])
                 self.subject.set_sensitive(False)
         for textview in [self.messageGoal, self.messageProblem, self.messageSteps]:
             textview.get_buffer().create_tag(family="Monospace")
