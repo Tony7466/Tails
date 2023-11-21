@@ -589,6 +589,7 @@ So we can answer you or ask for more details.</property>
                                   <object class="GtkTextView" id="textviewPrependedInfo">
                                     <property name="visible">True</property>
                                     <property name="can-focus">True</property>
+                                    <property name="editable">False</property>
                                     <property name="indent">-10</property>
                                     <property name="cursor-visible">False</property>
                                     <child internal-child="accessible">
