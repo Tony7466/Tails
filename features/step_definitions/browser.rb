@@ -43,12 +43,18 @@ def set_browser_url(url)
   end
   retry_action(10) do
     @screen.press('ctrl', 'a')
-    _, selection_length = browser_url_entry.get_text_selection_range
-    assert_equal(get_current_browser_url.length, selection_length)
+    try_for(3) do
+      _, selection_length = browser_url_entry.get_text_selection_range
+      get_current_browser_url.length == selection_length
+    end
     @screen.press('backspace')
-    assert_empty(get_current_browser_url)
+    try_for(3) do
+      get_current_browser_url.empty?
+    end
     @screen.paste(url)
-    assert_equal(url, get_current_browser_url)
+    try_for(3) do
+      get_current_browser_url == url
+    end
     true
   end
 end
