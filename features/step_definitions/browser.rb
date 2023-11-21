@@ -33,8 +33,15 @@ def get_current_browser_url
 end
 
 def set_browser_url(url)
+  browser_url_entry.grabFocus
+  try_for(10) do
+    focused = browser.focused_child
+    # Just matching against any entry could be racy if some other
+    # entry had focus when calling this step, but address bar is
+    # probably the only entry inside a tool bar.
+    focused.roleName == 'entry' && focused.parent.parent.roleName == 'tool bar'
+  end
   retry_action(10) do
-    browser_url_entry.grabFocus
     @screen.press('ctrl', 'a')
     @screen.press('backspace')
     assert_empty(get_current_browser_url)
@@ -146,17 +153,6 @@ When /^I open a new tab in the (.*)$/ do |browser_name|
   retry_action(2) do
     @screen.click(info[:new_tab_button_image])
     @screen.wait(info[:address_bar_image], 15)
-  end
-  # Focus the address bar since that is what we want to interact with
-  # after this step
-  @screen.click(info[:address_bar_image])
-  browser = Dogtail::Application.new('Firefox')
-  try_for(10) do
-    focused = browser.focused_child
-    # Just matching against any entry could be racy if some other
-    # entry had focus when calling this step, but address bar is
-    # probably the only entry inside a tool bar.
-    focused.roleName == 'entry' && focused.parent.parent.roleName == 'tool bar'
   end
 end
 
