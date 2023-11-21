@@ -86,7 +86,7 @@ class WhisperBack:
     # pylint: disable=W0212
     contact_gpgkey = property(lambda self: self._contact_gpgkey, set_contact_gpgkey)
 
-    def __init__(self, debugging_info:str, prefill: Optional[dict], subject="", message=""):
+    def __init__(self, debugging_info:str, bug_specific_text: Optional[str], subject="", message=""):
         """Initialize a feedback object with the given contents
 
         @param subject The topic of the feedback
@@ -116,8 +116,8 @@ class WhisperBack:
         self.prepended_data = whisperBack.utils.sanitize_hardware_info(
             self.mail_prepended_info()
         )
+        self.bug_specific_text = bug_specific_text
         self.appended_data = self.__get_debug_info(debugging_info)
-        self.prefill = prefill
 
         # Initialize other variables
         self.subject = subject
@@ -289,15 +289,14 @@ class WhisperBack:
                 body += "OpenPGP-Key: %s\n" % self.contact_gpgkey
             else:
                 body += "OpenPGP-Key: included below\n"
-        prefill_info = ""
-        prefill_hidden = ""
-        if self.prefill:
-            prefill_info = "Prefill: %s\n" % ','.join(self.prefill)
-            prefill_hidden = self.prefill.get('hidden_msg', '') + "\n\n"
+        if self.bug_specific_text is None:
+            prefill_extra = ""
+        else:
+            prefill_extra = f"Bug-specific details: {self.bug_specific_text}\n"
         body += (
                 f"{self.prepended_data.rstrip()}\n"
-                f"{prefill_info}{prefill_hidden}"
-                f"{self.message}\n\n")
+                f"{prefill_extra}"
+                f"\n{self.message}\n\n")
         if self.contact_gpgkey and len(self.contact_gpgkey.splitlines()) > 1:
             body += "%s\n\n" % self.contact_gpgkey
         body += "%s\n" % self.appended_data

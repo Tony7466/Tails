@@ -109,6 +109,10 @@ class WhisperBackUI(object):
             builder.get_object("textviewPrependedInfo")
         self.include_prepended_details = \
             builder.get_object("checkbuttonIncludePrependedInfo")
+        self.include_bug_specific_details = \
+            builder.get_object("checkbuttonIncludePrefill")
+        self.bug_specific_details = builder.get_object("textviewPrefill")
+        self.bug_specific_details_frame = builder.get_object("framePrefill")
         self.appended_details = builder.get_object("textviewAppendedInfo")
         self.include_appended_details = \
             builder.get_object("checkbuttonIncludeAppendedInfo")
@@ -120,10 +124,15 @@ class WhisperBackUI(object):
         except GObject.GError as e:
             print(e)
 
+        bug_specific_text = None
         if prefill is not None:
             if 'summary' in prefill:
                 self.subject.set_text(prefill['summary'])
-                self.subject.set_sensitive(False)
+            if 'details' in prefill:
+                bug_specific_text = prefill['details']
+                self.bug_specific_details.get_buffer().set_text(bug_specific_text)
+                self.bug_specific_details_frame.set_visible(True)
+
         for textview in [self.messageGoal, self.messageProblem, self.messageSteps]:
             textview.get_buffer().create_tag(family="Monospace")
 
@@ -131,7 +140,10 @@ class WhisperBackUI(object):
 
         # Launches the backend
         try:
-            self.backend = whisperBack.whisperback.WhisperBack(debugging_info=debugging_info, prefill=prefill)
+            self.backend = whisperBack.whisperback.WhisperBack(
+                    debugging_info=debugging_info,
+                    bug_specific_text=bug_specific_text,
+                    )
         except whisperBack.exceptions.MisconfigurationException as e:
             self.show_exception_dialog(
                 _("Unable to load a valid configuration."), e,
@@ -202,6 +214,8 @@ class WhisperBackUI(object):
 
         if not self.include_prepended_details.get_active():
             self.backend.prepended_data = ""
+        if not self.include_bug_specific_details.get_active():
+            self.backend.bug_specific_text = ""
         if not self.include_appended_details.get_active():
             self.backend.appended_data = ""
 

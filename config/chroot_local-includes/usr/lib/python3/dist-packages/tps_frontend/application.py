@@ -82,7 +82,7 @@ class Application(Gtk.Application):
                 "summary": error_summary,
                 }
         if error_report_msg is not None:
-            prefill_data['hidden_msg'] = error_report_msg
+            prefill_data['details'] = error_report_msg
         prefill_tmp = tempfile.NamedTemporaryFile(mode='w', delete=False)
         json.dump(prefill_data, prefill_tmp.file)
         # noinspection PyArgumentList

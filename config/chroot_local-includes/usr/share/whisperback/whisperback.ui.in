@@ -638,8 +638,8 @@ So we can answer you or ask for more details.</property>
                                 <child>
                                   <object class="GtkTextView" id="textviewPrefill">
                                     <property name="visible">True</property>
-                                    <property name="sensitive">False</property>
                                     <property name="can-focus">True</property>
+                                    <property name="editable">False</property>
                                     <property name="indent">-10</property>
                                     <property name="cursor-visible">False</property>
                                     <child internal-child="accessible">
@@ -654,7 +654,7 @@ So we can answer you or ask for more details.</property>
                           </object>
                         </child>
                         <child type="label">
-                          <object class="GtkCheckButton" id="checkbuttonIncludePrefillInfo">
+                          <object class="GtkCheckButton" id="checkbuttonIncludePrefill">
                             <property name="label" translatable="yes">information for the bug being reported</property>
                             <property name="use-action-appearance">False</property>
                             <property name="visible">True</property>
