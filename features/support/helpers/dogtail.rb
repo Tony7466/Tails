@@ -302,6 +302,12 @@ module Dogtail
     def parent
       Node.new("#{@var}.parent", **@opts)
     end
+
+    def get_text_selection_range(**kwargs)
+      # Assumes there is only one text selection
+      run("#{@var}.queryText().getSelection(0)").stdout.chomp
+        .match(/\((\d+), (\d+)\)/).captures.map { |s| s.to_i }
+    end
   end
 
   class Node < Application
