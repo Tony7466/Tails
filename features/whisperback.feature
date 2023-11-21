@@ -5,12 +5,12 @@ Feature: I can report a bug with WhisperBack
   I want to send a complete bug report to the Tails team
 
   # Anti-test: tails-debugging-info is not available to amnesia
-  Scenario: tails-debugging-info fails
+  Scenario: The amnesia user cannot run tails-debugging-info as root
     Given I have started Tails from DVD without network and logged in
     Then running "sudo /usr/local/sbin/tails-debugging-info" as user "amnesia" fails
 
 
-  Scenario: Whisperback window opens
+  Scenario: WhisperBack starts and has debugging information
     Given I have started Tails from DVD without network and logged in
-    When I start "Whisperback" via GNOME Activities Overview
-    Then Whisperback has debugging info
+    When I start "WhisperBack" via GNOME Activities Overview
+    Then WhisperBack has debugging information

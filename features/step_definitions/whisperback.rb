@@ -2,10 +2,10 @@ def whisperback
   Dogtail::Application.new('whisperback')
 end
 
-Then(/^Whisperback has debugging info$/) do
+Then(/^WhisperBack has debugging information$/) do
   matching = whisperback.children(roleName: 'text', showingOnly: false).select do |x|
     x&.text&.slice(1, 50)&.include?('=== content of /proc/cmdline ===')
   end
   assert(!matching.empty?,
-         'Could not find debugging info in whisperback window')
+         'Could not find debugging info in the WhisperBack window')
 end
