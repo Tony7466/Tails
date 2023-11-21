@@ -89,7 +89,7 @@ def should_show_donation_message() -> bool:
 
 
 def show_donation_message():
-    # To test the donation message, execute `ELECTRUM_DONATION_MESSAGE=1 electrum`
+    # To test the donation message, execute `ELECTRUM_DONATION_MESSAGE=1 electrum` with a Persistent Storage and a wallet
     if random.randint(0, 1) == 0:
         # In half of the cases, display a message with benevolent incentive
         text = _('End this year by giving the gift of privacy.\n\n'
