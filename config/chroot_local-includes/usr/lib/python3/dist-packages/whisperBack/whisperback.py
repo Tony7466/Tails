@@ -110,7 +110,7 @@ class WhisperBack:
         self.socks_host = None
         self.socks_port = None
 
-        # Load the python configuration file "config.py" from diffrents locations
+        # Load the python configuration file "config.py"
         # XXX: this is an absolute path, bad !
         self.__load_conf(os.path.join("/", "etc", "whisperback", "config.py"))
         self.__check_conf()
