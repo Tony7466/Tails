@@ -302,7 +302,7 @@ class Service(DBusObject, ServiceUsingJobs):
         for feature in [f for f in self.features if f.IsEnabled]:
             try:
                 feature.do_activate(None, non_blocking=True)
-            except Exception as e:
+            except Exception:
                 logger.exception("Failed to activate feature")
                 failed_feature_names.append(feature.translatable_name)
             finally:
