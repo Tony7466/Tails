@@ -7,9 +7,9 @@
 # IMPORTS
 
 # Custom imports
-import subprocess
-import random
 import gettext
+import random
+import subprocess
 
 # DOCUMENTATION
 
