@@ -17,7 +17,7 @@ import subprocess
 def _(string):
     try:
         encoded = gettext.translation("tails", "/usr/share/locale").lgettext(string)
-        string = encoded.decode('utf-8')
+        string = encoded.decode("utf-8")
     except IOError:
         pass
     finally:
@@ -90,10 +90,11 @@ def mail_prepended_info():
             explaining the error
     """
     try:
-        tails_version_process = subprocess.Popen("tails-version",
-                                                 stdout=subprocess.PIPE)
+        tails_version_process = subprocess.Popen(
+            "tails-version", stdout=subprocess.PIPE
+        )
         tails_version_process.wait()
-        tails_version = tails_version_process.stdout.read().decode('utf-8')
+        tails_version = tails_version_process.stdout.read().decode("utf-8")
     except OSError:
         tails_version = "tails-version command not found"
     except subprocess.CalledProcessError:

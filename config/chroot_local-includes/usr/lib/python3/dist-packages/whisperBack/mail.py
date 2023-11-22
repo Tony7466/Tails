@@ -33,8 +33,15 @@ LOG = logging.getLogger(__name__)
 
 
 # pylint: disable=R0913
-def send_message (from_address, to_address, message, host="localhost",
-                  port=25, socks_host="127.0.0.1", socks_port=9050):
+def send_message(
+    from_address,
+    to_address,
+    message,
+    host="localhost",
+    port=25,
+    socks_host="127.0.0.1",
+    socks_port=9050,
+):
     """Sends a mail
 
     Send the message via our own SMTP server, but don't include the

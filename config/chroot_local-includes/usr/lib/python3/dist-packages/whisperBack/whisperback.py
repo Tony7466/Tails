@@ -57,7 +57,6 @@ class WhisperBack:
         if whisperBack.utils.is_valid_email(email):
             self._contact_email = email
         else:
-
             # XXX use a better exception
             raise ValueError(_("Invalid contact email: %s" % email))
 
@@ -86,7 +85,13 @@ class WhisperBack:
     # pylint: disable=W0212
     contact_gpgkey = property(lambda self: self._contact_gpgkey, set_contact_gpgkey)
 
-    def __init__(self, debugging_info:str, bug_specific_text: Optional[str], subject="", message=""):
+    def __init__(
+        self,
+        debugging_info: str,
+        bug_specific_text: Optional[str],
+        subject="",
+        message="",
+    ):
         """Initialize a feedback object with the given contents
 
         @param subject The topic of the feedback
@@ -167,7 +172,6 @@ class WhisperBack:
                 result += "\n======= content of {} =======\n".format(debug_info["key"])
             if type(debug_info["content"]) is list:
                 for line in debug_info["content"]:
-
                     if isinstance(line, dict):
                         result += self.__get_debug_info(
                             json.dumps([line]), prefix + "> "
@@ -245,6 +249,7 @@ class WhisperBack:
         @param polling_freq       (optional) the interal between polling
                                   iterations (in ms).
         """
+
         # pylint: disable=C0111
         def save_exception(func, args):
             try:
@@ -294,9 +299,10 @@ class WhisperBack:
         else:
             prefill_extra = f"Bug-specific details: {self.bug_specific_text}\n"
         body += (
-                f"{self.prepended_data.rstrip()}\n"
-                f"{prefill_extra}"
-                f"\n{self.message}\n\n")
+            f"{self.prepended_data.rstrip()}\n"
+            f"{prefill_extra}"
+            f"\n{self.message}\n\n"
+        )
         if self.contact_gpgkey and len(self.contact_gpgkey.splitlines()) > 1:
             body += "%s\n\n" % self.contact_gpgkey
         body += "%s\n" % self.appended_data
