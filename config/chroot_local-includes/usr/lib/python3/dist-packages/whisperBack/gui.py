@@ -34,7 +34,7 @@ LOG = logging.getLogger(__name__)
 CSS_FILE = '/usr/share/whisperback/style.css'
 
 # pylint: disable=R0902
-class WhisperBackUI(object):
+class WhisperBackUI:
     """
     This class provides a window containing the GTK+ user interface.
 
