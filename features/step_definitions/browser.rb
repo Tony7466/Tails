@@ -8,8 +8,8 @@ def save_page_as
     roleName:    'push button'
   ).press
   browser.child(
-    name:        'Save page as\u2026',
-    roleName:    'push button'
+    name:     'Save page as\u2026',
+    roleName: 'push button'
   ).press
   browser.child('Save As', roleName: 'file chooser')
 end
@@ -18,13 +18,13 @@ def browser_url_entry
   # Unfortunately the Dogtail nodes' names are also translated, so for
   # non-English we have to use a less efficient and (potentially) less
   # future-proof way to find the URL entry.
-  if $language.empty?  # English
+  if $language.empty? # English
     browser.child('Navigation', roleName: 'tool bar')
-      .child(roleName: 'entry')
+           .child(roleName: 'entry')
   else
     browser.children(roleName: 'tool bar')
-      .find { |n| n.child?(roleName: 'entry', retry: false) }
-      .child(roleName: 'entry')
+           .find { |n| n.child?(roleName: 'entry', retry: false) }
+           .child(roleName: 'entry')
   end
 end
 
@@ -296,8 +296,8 @@ When /^I download some file in the Tor Browser$/ do
   # "frame" and sometimes with "dialog", so we deliberately do not
   # specify the roleName.
   button = @torbrowser
-             .child("Opening #{@some_file}")
-             .button('Save File')
+           .child("Opening #{@some_file}")
+           .button('Save File')
   try_for(10) { button.sensitive }
   button.press
   @torbrowser
@@ -434,7 +434,7 @@ end
 Then /^Tor Browser's circuit view is working$/ do
   @torbrowser.child('Tor Circuit', roleName: 'push button').click
   nodes = @torbrowser.child('This browser', roleName: 'list item')
-            .parent.children(roleName: 'list item')
+                     .parent.children(roleName: 'list item')
   domain = URI.parse(get_current_browser_url).host.split('.')[-2..-1].join('.')
   assert_equal('This browser', nodes.first.name)
   assert_equal(domain, nodes.last.name)
@@ -580,8 +580,8 @@ end
 When /^I request a new identity in Tor Browser$/ do
   # Each tab (and only them) has its own 'document web' node
   @old_tab_names = @torbrowser
-                     .children(roleName: 'document web', showingOnly: false)
-                     .map { |tab| tab.name }
+                   .children(roleName: 'document web', showingOnly: false)
+                   .map { |tab| tab.name }
   @torbrowser.child('New Identity', roleName: 'push button').press
   @torbrowser.child('Restart Tor Browser', roleName: 'push button').press
 end
