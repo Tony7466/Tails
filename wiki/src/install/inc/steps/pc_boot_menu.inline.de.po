@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-07-20 22:06+0000\n"
-"PO-Revision-Date: 2023-11-16 13:13+0000\n"
+"PO-Revision-Date: 2023-11-22 11:16+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -50,7 +50,7 @@ msgstr "Der folgende Screenshot ist ein Beispiel für ein Boot-Menü:"
 
 #. type: Content of: <p>
 msgid "[[!img install/inc/screenshots/boot_menu.png link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img install/inc/screenshots/boot_menu.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <p>
 msgid ""
@@ -80,11 +80,11 @@ msgstr "[[<i>balenaEtcher</i> von macOS|install/mac#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>GNOME Disks</i> from Linux|install/linux#install]]"
-msgstr ""
+msgstr "[[<i>GNOME Disks</i> von Linux|install/linux#install]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[the Linux command line|install/expert#install]]"
-msgstr ""
+msgstr "[[die Linux-Kommandozeile|install/expert#install]]"
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer while leaving the USB stick plugged in."
