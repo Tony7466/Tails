@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-02 10:29+0200\n"
-"PO-Revision-Date: 2023-11-16 09:13+0000\n"
+"PO-Revision-Date: 2023-11-22 11:16+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -38,11 +38,11 @@ msgstr "[[<i>balenaEtcher</i> von Windows|install/windows#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[<i>GNOME Disks</i> from Linux|install/linux#install]]"
-msgstr ""
+msgstr "[[<i>GNOME Disks</i> von Linux|install/linux#install]]"
 
 #. type: Content of: <ol><li><ul><li>
 msgid "[[the Linux command line|install/expert#install]]"
-msgstr ""
+msgstr "[[die Linux-Kommandozeile|install/expert#install]]"
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer."
