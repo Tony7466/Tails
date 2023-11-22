@@ -29,7 +29,6 @@ import whisperBack.whisperback
 import whisperBack.utils
 
 
-LOCALEDIR = "locale/"
 PACKAGE = "whisperback"
 
 LOG = logging.getLogger(__name__)
