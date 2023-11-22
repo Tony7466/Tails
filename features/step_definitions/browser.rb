@@ -435,7 +435,7 @@ Then /^Tor Browser's circuit view is working$/ do
   @torbrowser.child('Tor Circuit', roleName: 'push button').click
   nodes = @torbrowser.child('This browser', roleName: 'list item')
                      .parent.children(roleName: 'list item')
-  domain = URI.parse(get_current_browser_url).host.split('.')[-2..-1].join('.')
+  domain = URI.parse(get_current_browser_url).host.split('.')[-2..].join('.')
   assert_equal('This browser', nodes.first.name)
   assert_equal(domain, nodes.last.name)
   assert_equal(5, nodes.size)
@@ -581,7 +581,7 @@ When /^I request a new identity in Tor Browser$/ do
   # Each tab (and only them) has its own 'document web' node
   @old_tab_names = @torbrowser
                    .children(roleName: 'document web', showingOnly: false)
-                   .map { |tab| tab.name }
+                   .map(&:name)
   @torbrowser.child('New Identity', roleName: 'push button').press
   @torbrowser.child('Restart Tor Browser', roleName: 'push button').press
 end
@@ -592,13 +592,13 @@ Then /^the Tor Browser restarts into a fresh session$/ do
     tabs = @torbrowser.children(roleName: 'document web', showingOnly: false)
     assert_equal(1, tabs.size)
     only_tab = tabs.first
-    assert_equal("New Tab", only_tab.name)
+    assert_equal('New Tab', only_tab.name)
     # Since Tor Browser 13.0, requesting a New Identity restarts and
     # loads about:tor and not the start page. This link always exists on
     # the about:tor page in Tails as part of the info box explaining
     # that Tor Browser is not managing tor.
     only_tab.child('Test your connection', roleName: 'link')
-    assert_not_equal(@old_tab_names, tabs.map { |tab| tab.name })
+    assert_not_equal(@old_tab_names, tabs.map(&:name))
     true
   end
   assert_empty(get_current_browser_url)
