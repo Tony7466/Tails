@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 ########################################################################
 # WhisperBack - Send feedback in an encrypted mail
 # Copyright (C) 2009-2018 Tails developers <tails@boum.org>
