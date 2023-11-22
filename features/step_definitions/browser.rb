@@ -41,6 +41,11 @@ def set_browser_url(url)
     # probably the only entry inside a tool bar.
     focused.roleName == 'entry' && focused.parent.parent.roleName == 'tool bar'
   end
+  # We're retrying to workaround #19237.
+  #
+  # Dogtail's .text= would be a simpler and more robust workaround,
+  # but we can't use it yet due to
+  # https://bugzilla.mozilla.org/show_bug.cgi?id=1861026
   retry_action(10) do
     @screen.press('ctrl', 'a')
     try_for(3) do
