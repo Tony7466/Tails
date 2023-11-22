@@ -1,5 +1,4 @@
 import contextlib
-import logging
 import os
 import threading
 from pathlib import Path
@@ -689,7 +688,7 @@ class Service(DBusObject, ServiceUsingJobs):
             try:
                 feature.refresh_state(emit_properties_changed_signal=True)
             except Exception as e:
-                if exceptions: logging.exception("Failed to refresh state of feature")
+                if exceptions: logger.exception("Failed to refresh state of feature")
                 exceptions.append(e)
         if exceptions:
             raise exceptions[0]
