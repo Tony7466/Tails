@@ -538,11 +538,6 @@ So we can answer you or ask for more details.</property>
                                     <property name="editable">False</property>
                                     <property name="indent">-10</property>
                                     <property name="cursor-visible">False</property>
-                                    <child internal-child="accessible">
-                                      <object class="AtkObject" id="textviewPrependedInfo-atkobject">
-                                        <property name="AtkObject::accessible-name" translatable="yes">textHeaders</property>
-                                      </object>
-                                    </child>
                                   </object>
                                 </child>
                               </object>
@@ -588,11 +583,6 @@ So we can answer you or ask for more details.</property>
                                     <property name="editable">False</property>
                                     <property name="indent">-10</property>
                                     <property name="cursor-visible">False</property>
-                                    <child internal-child="accessible">
-                                      <object class="AtkObject" id="textviewPrefill-atkobject">
-                                        <property name="AtkObject::accessible-name" translatable="yes">textHeaders</property>
-                                      </object>
-                                    </child>
                                   </object>
                                 </child>
                               </object>
@@ -641,11 +631,6 @@ So we can answer you or ask for more details.</property>
                                     <property name="wrap-mode">char</property>
                                     <property name="indent">-10</property>
                                     <property name="cursor-visible">False</property>
-                                    <child internal-child="accessible">
-                                      <object class="AtkObject" id="textviewAppendedInfo-atkobject">
-                                        <property name="AtkObject::accessible-name" translatable="yes">textAppendedInfo</property>
-                                      </object>
-                                    </child>
                                   </object>
                                 </child>
                               </object>
