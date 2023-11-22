@@ -655,7 +655,7 @@ So we can answer you or ask for more details.</property>
                         </child>
                         <child type="label">
                           <object class="GtkCheckButton" id="checkbuttonIncludePrefill">
-                            <property name="label" translatable="yes">information for the bug being reported</property>
+                            <property name="label" translatable="yes">information about the bug being reported</property>
                             <property name="use-action-appearance">False</property>
                             <property name="visible">True</property>
                             <property name="can-focus">True</property>
