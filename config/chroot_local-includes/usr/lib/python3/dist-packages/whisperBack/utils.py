@@ -22,11 +22,11 @@
 
 """
 
+import locale
 import logging
 import os
 import re
 import urllib.parse
-import locale
 from textwrap import TextWrapper
 
 LOG = logging.getLogger(__name__)

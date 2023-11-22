@@ -4,28 +4,27 @@
 
 import logging
 import os
-from typing import Optional
-
 # Import these because we need the exception they raise
 import smtplib
 import socket
+from typing import Optional
 
 # GIR imports
 import gi
+
 from gi.repository import GObject
 
 gi.require_version("GdkPixbuf", "2.0")
 gi.require_version("Gdk", "3.0")
-from gi.repository import GdkPixbuf, Gdk
+from gi.repository import Gdk, GdkPixbuf
 
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
 # Import our modules
 import whisperBack.exceptions
-import whisperBack.whisperback
 import whisperBack.utils
-
+import whisperBack.whisperback
 
 LOG = logging.getLogger(__name__)
 CSS_FILE = "/usr/share/whisperback/style.css"

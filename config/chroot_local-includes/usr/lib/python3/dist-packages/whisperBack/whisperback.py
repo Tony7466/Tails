@@ -31,12 +31,13 @@ import threading
 from typing import Optional
 
 import gi
+
 from gi.repository import GLib
 
+import whisperBack.encryption
 # Import our modules
 import whisperBack.exceptions
 import whisperBack.mail
-import whisperBack.encryption
 import whisperBack.utils
 
 LOG = logging.getLogger(__name__)

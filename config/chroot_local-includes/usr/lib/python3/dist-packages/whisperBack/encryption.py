@@ -27,9 +27,10 @@ import email.mime.application
 import email.mime.base
 import email.mime.multipart
 import email.mime.text
-import gnupg
 import logging
 import os.path
+
+import gnupg
 
 import whisperBack.exceptions
 
