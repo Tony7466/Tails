@@ -4,28 +4,6 @@
 
 """
 
-########################################################################
-__licence__ = """
-WhisperBack - Send feedback in an encrypted mail
-Copyright (C) 2009-2018 Tails developers <tails@boum.org>
-
-This file is part of WhisperBack
-
-WhisperBack is  free software; you can redistribute  it and/or modify
-it under the  terms of the GNU General Public  License as published by
-the Free Software Foundation; either  version 3 of the License, or (at
-your option) any later version.
-
-This program  is distributed in the  hope that it will  be useful, but
-WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of
-MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU
-General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-"""
-########################################################################
-
 import logging
 import os
 from typing import Optional
@@ -49,7 +27,6 @@ import whisperBack.whisperback
 import whisperBack.utils
 
 
-__version__ = '1.8.4'
 LOCALEDIR = "locale/"
 PACKAGE = "whisperback"
 
@@ -349,30 +326,6 @@ Do you want to save the bug report to a file?") % self.backend.to_address
         self.main_window.set_sensitive(True)
         widget.hide()
         return False
-
-    def show_about_dialog(self):
-        """Shows an "about" dialog for the program
-
-        """
-
-        LOG.debug("Show about dialog")
-        about_dialog = Gtk.AboutDialog()
-        about_dialog.set_transient_for(self.main_window)
-        about_dialog.set_version(__version__)
-        about_dialog.set_name(_("WhisperBack"))
-        about_dialog.set_comments(_("Send feedback in an encrypted mail."))
-        about_dialog.set_license(__licence__)
-        about_dialog.set_copyright(
-            _("Copyright © 2009-2018 Tails developers (tails@boum.org)"))
-        about_dialog.set_authors([_("Tails developers <tails@boum.org>")])
-        about_dialog.set_translator_credits(_("translator-credits"))
-        about_dialog.set_website("https://tails.net/")
-        try:
-            about_dialog.set_logo(GdkPixbuf.Pixbuf.new_from_file(os.path.join(
-                                  whisperBack.utils.get_pixmapdir(), "whisperback.svg")))
-        except GObject.GError as e:
-            print(e)
-        about_dialog.show()
 
     def show_gpg_dialog(self):
         """Show a text entry dialog to let the user enter a GPG public key block
