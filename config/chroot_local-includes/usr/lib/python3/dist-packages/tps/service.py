@@ -690,7 +690,7 @@ class Service(DBusObject, ServiceUsingJobs):
                 feature.refresh_state(emit_properties_changed_signal=True)
             except Exception as e:
                 if exceptions: logging.exception(e)
-                exceptions.append(exceptions)
+                exceptions.append(e)
         if exceptions:
             raise exceptions[0]
 
