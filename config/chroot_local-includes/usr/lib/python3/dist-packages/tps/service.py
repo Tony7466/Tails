@@ -303,7 +303,7 @@ class Service(DBusObject, ServiceUsingJobs):
             try:
                 feature.do_activate(None, non_blocking=True)
             except Exception as e:
-                logger.exception(e)
+                logger.exception("Failed to activate feature")
                 failed_feature_names.append(feature.translatable_name)
             finally:
                 feature.refresh_state(emit_properties_changed_signal=True)
@@ -689,7 +689,7 @@ class Service(DBusObject, ServiceUsingJobs):
             try:
                 feature.refresh_state(emit_properties_changed_signal=True)
             except Exception as e:
-                if exceptions: logging.exception(e)
+                if exceptions: logging.exception("Failed to refresh state of feature")
                 exceptions.append(e)
         if exceptions:
             raise exceptions[0]
