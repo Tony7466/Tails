@@ -265,7 +265,7 @@ class Service(DBusObject, ServiceUsingJobs):
         if self.state != State.UNLOCKED:
             msg = "Can't activate features when state is '%s'" % \
                   self.state.name
-            return FailedPreconditionError(msg)
+            raise FailedPreconditionError(msg)
 
         partition = TPSPartition.find()
         if not partition:
