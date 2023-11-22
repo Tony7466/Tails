@@ -27,9 +27,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-10-04 14:10+0000\n"
-"Last-Translator: emma peel <emmapeel@torproject.org>\n"
+"POT-Creation-Date: 2023-11-22 15:53+0100\n"
+"PO-Revision-Date: 2023-11-22 13:15+0000\n"
+"Last-Translator: emma peel <emma.peel@riseup.net>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/tor/tails-gui/"
 "id/>\n"
 "Language: id\n"
@@ -37,7 +37,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -576,7 +576,7 @@ msgid ""
 "download.en.html"
 msgstr ""
 "<b>Pemutakhiran tidak bisa diunduh.</b>\\n\\nPeriksa sambungan jaringan "
-"Anda, dan  mulai ulang Tails untuk mencoba memutakhirkannya lagi.\\n\\nJika "
+"Anda, dan mulai ulang Tails untuk mencoba memutakhirkannya lagi.\\n\\nJika "
 "masalah masih tetap ada, baca file:///usr/share/doc/tails/website/doc/"
 "upgrade/error/download.en.html"
 
@@ -654,11 +654,11 @@ msgstr "Memulai kembali nanti"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:782
 msgid "Error while restarting the system"
-msgstr "Error selagi restart  sistem"
+msgstr "Error selagi restart sistem"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:783
 msgid "Failed to restart the system"
-msgstr "gagal untuk restart  sistem"
+msgstr "gagal untuk restart sistem"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:796
 msgid "Error while shutting down the network"
@@ -703,7 +703,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:863
 msgid "Error while installing the upgrade"
-msgstr "Error selagi instal  upgrade"
+msgstr "Error selagi instal upgrade"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:32
 msgid "Additional Settings"
@@ -967,7 +967,7 @@ msgstr ""
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:684
 #, python-format
 msgid "Unable to mount device: %(message)s"
-msgstr "Tidak dapat/gagal ke  mount device: %(message)s"
+msgstr "Tidak dapat/gagal ke mount device: %(message)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:689
 msgid "No mount points found"
@@ -1755,7 +1755,7 @@ msgid ""
 "in support for OpenPGP encryption. To continue using your OpenPGP keys in "
 "<i>Thunderbird</i>, follow our migration instructions."
 msgstr ""
-"<i>Thunderbird</i>78 sekarang menggantikan  ekstensi <i>Enigmail</i> dengan "
+"<i>Thunderbird</i>78 sekarang menggantikan ekstensi <i>Enigmail</i> dengan "
 "dukungan bawaan untuk enkripsi OpenPGP. untuk terus menggunakan kunci "
 "OpenPGP Anda di <i>Thunderbird</i>, ikuti instruksi migrasi kami."
 
@@ -2151,7 +2151,7 @@ msgid ""
 "Couldn't lock volume {volume_name}:\n"
 "{error_message}"
 msgstr ""
-"Tidak dapat mengunci volume  {volume_name}:\n"
+"Tidak dapat mengunci volume {volume_name}:\n"
 "{error_message}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:352
