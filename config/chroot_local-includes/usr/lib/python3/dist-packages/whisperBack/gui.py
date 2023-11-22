@@ -29,8 +29,6 @@ import whisperBack.whisperback
 import whisperBack.utils
 
 
-PACKAGE = "whisperback"
-
 LOG = logging.getLogger(__name__)
 CSS_FILE = "/usr/share/whisperback/style.css"
 
