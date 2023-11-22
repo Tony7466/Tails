@@ -18,6 +18,7 @@ Lint/InheritException:
 Naming/AccessorMethodName:
   Exclude:
     - 'features/scripts/vm-execute'
+    - 'features/step_definitions/browser.rb'
     - 'features/step_definitions/ssh.rb'
     - 'features/support/helpers/vm_helper.rb'
 
