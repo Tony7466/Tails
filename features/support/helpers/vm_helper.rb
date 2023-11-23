@@ -73,6 +73,9 @@ end
 class VM
   attr_reader :domain, :domain_name, :display, :vmnet, :storage
 
+  # XXX: giving up on a few worst offenders for now
+  # rubocop:disable Metrics/AbcSize
+  # rubocop:disable Metrics/MethodLength
   def initialize(virt, xml_path, vmnet, storage, x_display)
     @virt = virt
     @xml_path = xml_path
@@ -116,6 +119,8 @@ class VM
     destroy_and_undefine
     raise e
   end
+  # rubocop:enable Metrics/AbcSize
+  # rubocop:enable Metrics/MethodLength
 
   def domain_xml
     REXML::Document.new(@domain.xml_desc)

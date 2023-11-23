@@ -287,6 +287,7 @@ end
 # be the *second* After hook matching @product listed in this file --
 # hooks added dynamically via add_after_scenario_hook() are supposed to
 # truly be last.
+# rubocop:disable Metrics/BlockNesting
 After('@product') do |scenario|
   # we want this to always exist, even if it's empty
   FileUtils.touch("#{ARTIFACTS_DIR}/skipped.txt")
@@ -436,6 +437,7 @@ After('@product') do |scenario|
   # have failed scenarios tagged @check_tor_leaks).
   $vm&.power_off
 end
+# rubocop:enable Metrics/BlockNesting
 
 Before('@product', '@check_tor_leaks') do |scenario|
   @tor_leaks_sniffer = Sniffer.new(sanitize_filename(scenario.name), $vmnet)

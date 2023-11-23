@@ -75,7 +75,8 @@ def run_command(*args, **kwargs)
   Process.wait Kernel.spawn(*args, **kwargs)
   return if $CHILD_STATUS.exitstatus.zero?
 
-  raise CommandError.new("command #{args}, #{kwargs} failed with exit status %<status>s",
+  raise CommandError.new("command #{args}, #{kwargs} failed " \
+                         'with exit status %<status>s',
                          status: $CHILD_STATUS.exitstatus)
 end
 
@@ -414,7 +415,8 @@ task merge_base_branch: ['parse_build_options', 'setup_environment'] do
 
   branch = git_helper('git_current_branch')
   base_branch = git_helper('base_branch')
-  source_date_faketime = `date --utc --date="$(dpkg-parsechangelog --show-field=Date)" '+%Y-%m-%d %H:%M:%S'`.chomp
+  source_date_faketime = `date --utc --date="$(dpkg-parsechangelog --show-field=Date)" \
+                               '+%Y-%m-%d %H:%M:%S'`.chomp
   next if releasing? || branch == base_branch
 
   commit_before_merge = git_helper('git_current_commit')
@@ -584,6 +586,7 @@ end
 
 # XXX: giving up on a few worst offenders for now
 # rubocop:disable Metrics/AbcSize
+# rubocop:disable Metrics/CyclomaticComplexity
 # rubocop:disable Metrics/MethodLength
 def clean_up_builder_vms
   libvirt = Libvirt.open('qemu:///system')
@@ -653,6 +656,7 @@ ensure
   libvirt.close
 end
 # rubocop:enable Metrics/AbcSize
+# rubocop:enable Metrics/CyclomaticComplexity
 # rubocop:enable Metrics/MethodLength
 
 desc 'Remove all libvirt volumes named tails-builder-* (run at your own risk!)'
@@ -743,7 +747,9 @@ namespace :basebox do
       time needed for downloading around 250 MiB of Debian packages.
 
     END_OF_MESSAGE
-    run_command("#{VAGRANT_PATH}/definitions/tails-builder/generate-tails-builder-box.sh")
+    run_command(
+      "#{VAGRANT_PATH}/definitions/tails-builder/generate-tails-builder-box.sh"
+    )
     box_dir = Dir.pwd
     # Let's use an absolute path since run_vagrant changes the working
     # directory but File.delete doesn't
