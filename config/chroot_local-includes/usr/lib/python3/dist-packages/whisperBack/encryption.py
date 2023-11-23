@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 ########################################################################
 # WhisperBack - Send feedback in an encrypted mail
 # Copyright (C) 2009-2018 Tails developers <tails@boum.org>
@@ -29,19 +27,20 @@ import email.mime.application
 import email.mime.base
 import email.mime.multipart
 import email.mime.text
-import gnupg
 import logging
 import os.path
+
+import gnupg
 
 import whisperBack.exceptions
 
 LOG = logging.getLogger(__name__)
 
 
-class Encryption ():
+class Encryption:
     """Some tools for encryption"""
 
-    def __init__ (self, keyring=None):
+    def __init__(self, keyring=None):
         """Initialize the encryption mechanism"""
 
         if not (keyring and os.path.exists(keyring)):
@@ -63,28 +62,32 @@ class Encryption ():
         LOG.debug("Encrypting MIME message")
         assert isinstance(message, email.mime.base.MIMEBase)
 
-        crypt = self._gpg.encrypt(message.as_string(), to_fingerprints, always_trust=True)
+        crypt = self._gpg.encrypt(
+            message.as_string(), to_fingerprints, always_trust=True
+        )
         if not crypt.ok:
             raise whisperBack.exceptions.EncryptionException(crypt.status)
 
         enc = email.mime.application.MIMEApplication(
-                _data=str(crypt),
-                _subtype='octet-stream; name="encrypted.asc"',
-                _encoder=email.encoders.encode_7or8bit)
-        enc['Content-Description'] = 'OpenPGP encrypted message'
-        enc.set_charset('us-ascii')
+            _data=str(crypt),
+            _subtype='octet-stream; name="encrypted.asc"',
+            _encoder=email.encoders.encode_7or8bit,
+        )
+        enc["Content-Description"] = "OpenPGP encrypted message"
+        enc.set_charset("us-ascii")
 
         control = email.mime.application.MIMEApplication(
-                _data='Version: 1\n',
-                _subtype='pgp-encrypted',
-                _encoder=email.encoders.encode_7or8bit)
-        control.set_charset('us-ascii')
+            _data="Version: 1\n",
+            _subtype="pgp-encrypted",
+            _encoder=email.encoders.encode_7or8bit,
+        )
+        control.set_charset("us-ascii")
 
         encmsg = email.mime.multipart.MIMEMultipart(
-                'encrypted',
-                protocol='application/pgp-encrypted')
+            "encrypted", protocol="application/pgp-encrypted"
+        )
         encmsg.attach(control)
         encmsg.attach(enc)
-        encmsg['Content-Disposition'] = 'inline'
+        encmsg["Content-Disposition"] = "inline"
 
         return encmsg
