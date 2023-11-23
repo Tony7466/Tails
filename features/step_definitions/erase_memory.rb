@@ -3,7 +3,9 @@ def udev_watchdog_monitored_device
   udev_watchdog_cmd = '/usr/local/sbin/udev-watchdog'
 
   # The regex below looks for a line like the following:
-  # /usr/local/sbin/udev-watchdog /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0 cd
+  # /usr/local/sbin/udev-watchdog \
+  #     /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0 \
+  #     cd
   # We're only interested in the device itself, not in the type
   ps_output_scan = ps_output.scan(
     /^#{Regexp.escape(udev_watchdog_cmd)}\s(\S+)\s(?:cd|disk)$/

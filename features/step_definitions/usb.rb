@@ -8,7 +8,7 @@ end
 # Returns a mapping from the source of a binding to its destination
 # for all bindings of all pre-configured tps features that the running
 # Tails is aware of.
-def get_tps_bindings(skip_links = false)
+def get_tps_bindings(skip_links: false)
   # Python script that prints all persistence configuration lines (one per
   # line) in the form: <mount_point>\t<comma-separated-list-of-options>
   script = [
@@ -48,7 +48,7 @@ def tps_bindings
 end
 
 def tps_bind_mounts
-  get_tps_bindings(true)
+  get_tps_bindings(skip_links: true)
 end
 
 def tps_features
@@ -56,13 +56,13 @@ def tps_features
   JSON.parse(c.stdout.chomp)
 end
 
-def tps_feature_is_enabled(feature, reload = true)
+def tps_feature_is_enabled(feature, reload: true)
   tps_reload if reload
   c = $vm.execute("/usr/local/lib/tpscli is-enabled #{feature}")
   c.success?
 end
 
-def tps_feature_is_active(feature, reload = true)
+def tps_feature_is_active(feature, reload: true)
   tps_reload if reload
   c = $vm.execute("/usr/local/lib/tpscli is-active #{feature}")
   c.success?
@@ -142,7 +142,8 @@ end
 
 When /^I start Tails Installer$/ do
   @installer_log_path = '/tmp/tails-installer.log'
-  command = "/usr/local/bin/tails-installer --verbose  2>&1 | tee #{@installer_log_path} | logger -t tails-installer"
+  command = '/usr/local/bin/tails-installer --verbose  2>&1 ' \
+            "| tee #{@installer_log_path} | logger -t tails-installer"
   step "I run \"#{command}\" in GNOME Terminal"
   @installer = Dogtail::Application.new('tails-installer')
   @installer.child('Tails Cloner', roleName: 'frame')
@@ -202,10 +203,12 @@ When /^I (install|reinstall|upgrade) Tails( with Persistent Storage)? (?:to|on) 
   end
   if tps_is_created
     assert(sensitive,
-           "Couldn't find clone Persistent Storage check button (even though a Persistent Storage exists)")
+           "Couldn't find clone Persistent Storage check button " \
+           '(even though a Persistent Storage exists)')
   else
     assert(!sensitive,
-           'Found clone Persistent Storage check button (even though no Persistent Storage exists)')
+           'Found clone Persistent Storage check button ' \
+           '(even though no Persistent Storage exists)')
   end
 
   if with_persistence
@@ -591,7 +594,8 @@ Then /^a Tails persistence partition with LUKS version 2 and argon2id exists on 
 end
 
 Then /^the Tails persistence partition on USB drive "([^"]+)" still has LUKS version 1$/ do |name|
-  step "a Tails persistence partition exists with LUKS version 1 on USB drive \"#{name}\""
+  step 'a Tails persistence partition exists with LUKS version 1 ' \
+       "on USB drive \"#{name}\""
 end
 
 Then /^a Tails persistence partition exists( with LUKS version 1)? on USB drive "([^"]+)"$/ do |luks1, name|
@@ -670,7 +674,7 @@ Given /^I enable persistence( with the changed passphrase)?$/ do |with_changed_p
 
   # Figure out which language is set now that the Persistent Storage is
   # unlocked
-  $language, $lang_code = get_greeter_language
+  $language, $lang_code = greeter_language
 end
 
 Given /^I enable persistence but something goes wrong during the LUKS header upgrade$/ do
@@ -686,7 +690,7 @@ Given /^I enable persistence but something goes wrong during the LUKS header upg
   assert $vm.file_exist?('/tmp/luks-header-erased'), 'LUKS header was not erased'
 end
 
-def get_greeter_language
+def greeter_language
   english_label = 'English - United States'
   german_label = 'Deutsch - Deutschland (German - Germany)'
   try_for(30) do
@@ -1524,15 +1528,16 @@ Given /^I set all Greeter options to non-default values$/ do
   sleep 2
   step 'I disable MAC spoofing in Tails Greeter'
   sleep 2
-  # Administration password needs to be done last because its image has blue background (selected)
-  # while the others have no such background.
+  # Administration password needs to be done last because its image
+  # has blue background (selected) while the others have no such background.
   step 'I set an administration password'
   sleep 2
 
-  # We should change language, too, but we'll not: in fact, changing the language would change labels in the
-  # UI, so we would need to keep images (see #19420) in both languages, making the test suite harder to
-  # maintain.
-  # The "I log in to a new session" step can change language at the very last moment, which is a good
+  # We should change language, too, but we won't: in fact, changing
+  # the language would change labels in the UI, so we would need to
+  # keep images (see #19420) in both languages, making the test suite
+  # harder to maintain. The "I log in to a new session" step can
+  # change language at the very last moment, which is a good
   # workaround to the problem.
 end
 
@@ -1577,7 +1582,7 @@ Then /^all Greeter options are set to (non-)?default values$/ do |non_default|
 end
 
 Then /^(no )?persistent Greeter options were restored$/ do |no|
-  $language, $lang_code = get_greeter_language
+  $language, $lang_code = greeter_language
   # Our Dogtail wrapper code automatically translates strings to $language
   settings_restored = greeter
                       .child?('Settings were loaded from the persistent storage.',
@@ -1590,7 +1595,9 @@ Then /^(no )?persistent Greeter options were restored$/ do |no|
 end
 
 Then /^the Tails Persistent Storage behave tests pass$/ do
-  $vm.execute_successfully('/usr/lib/python3/dist-packages/tps/configuration/behave-tests/run-tests.sh')
+  $vm.execute_successfully(
+    '/usr/lib/python3/dist-packages/tps/configuration/behave-tests/run-tests.sh'
+  )
 end
 
 When /^I give the Persistent Storage on drive "([^"]+)" its own UUID$/ do |name|
@@ -1663,7 +1670,8 @@ end
 
 Then /^the Welcome Screen tells me that the Persistent Folder feature couldn't be activated$/ do
   try_for(60) do
-    greeter.child?('Failed to activate some features of the Persistent Storage: Persistent Folder.\n.*',
+    greeter.child?('Failed to activate some features of the Persistent Storage: ' \
+                   'Persistent Folder.\n.*',
                    roleName: 'label')
   end
 end

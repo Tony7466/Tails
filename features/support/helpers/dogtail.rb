@@ -41,7 +41,8 @@ module Dogtail
 
       init = []
       if @opts[:user] == LIVE_USER
-        cmd = 'dbus-send --print-reply=literal --session --dest=org.a11y.Bus /org/a11y/bus org.a11y.Bus.GetAddress'
+        cmd = 'dbus-send --print-reply=literal --session ' \
+              '--dest=org.a11y.Bus /org/a11y/bus org.a11y.Bus.GetAddress'
         c = RemoteShell::ShellCommand.new($vm, cmd, user:      @opts[:user],
                                                     debug_log: false)
         if c.returncode != 0
@@ -79,14 +80,16 @@ module Dogtail
         c = RemoteShell::PythonCommand.new($vm, init, user:      @opts[:user],
                                                       debug_log: false)
         if c.failure?
-          msg = "The Dogtail init script raised: #{c.exception}\nSTDOUT:\n#{c.stdout}\nSTDERR:\n#{c.stderr}\n"
+          msg = 'The Dogtail init script raised: ' \
+                "#{c.exception}\nSTDOUT:\n#{c.stdout}\nSTDERR:\n#{c.stderr}\n"
           raise Failure, msg
         end
       end
       code = code.join("\n") if code.instance_of?(Array)
       c = RemoteShell::PythonCommand.new($vm, code, user: @opts[:user])
       if c.failure?
-        msg = "The Dogtail init script raised: #{c.exception}\nSTDOUT:\n#{c.stdout.strip}\nSTDERR:\n#{c.stderr.strip}\n"
+        msg = 'The Dogtail init script raised: ' \
+              "#{c.exception}\nSTDOUT:\n#{c.stdout.strip}\nSTDERR:\n#{c.stderr.strip}\n"
         raise Failure, msg
       end
 
@@ -307,12 +310,14 @@ module Dogtail
 
     def get_text_selection_range(**_kwargs)
       # Assumes there is only one text selection
-      run("#{@var}.queryText().getSelection(0)").stdout.chomp
-                                                .match(/\((\d+), (\d+)\)/).captures.map(&:to_i)
+      run("#{@var}.queryText().getSelection(0)")
+        .stdout.chomp
+        .match(/\((\d+), (\d+)\)/).captures.map(&:to_i)
     end
   end
 
   class Node < Application
+    # rubocop:disable Lint/MissingSuper
     def initialize(expr, **opts)
       @expr = expr
       @opts = opts
@@ -321,6 +326,7 @@ module Dogtail
       @var = "node#{@@node_counter += 1}"
       run("#{@var} = #{@find_code}")
     end
+    # rubocop:enable Lint/MissingSuper
 
     def call_tree_node_method(method, *args, **kwargs)
       args_str = self.class.args_to_s(*args, **kwargs)

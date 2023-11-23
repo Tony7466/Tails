@@ -230,8 +230,9 @@ Then /^Tor is (not )?confined with Seccomp$/ do |not_confined|
   sandbox_status = $vm.execute_successfully(
     '/usr/local/lib/tor_variable get --type=conf Sandbox'
   ).stdout.to_i
+  sandbox_status_str = sandbox_status == 1 ? 'enabled' : 'disabled'
   assert_equal(expected_sandbox_status, sandbox_status,
-               "Tor says that the sandbox is #{sandbox_status == 1 ? 'enabled' : 'disabled'}")
+               "Tor says that the sandbox is #{sandbox_status_str}")
   # tor's Seccomp status will always be 2 (filter mode), even with
   # "Sandbox 0", but let's still make sure that is the case.
   seccomp_status = get_seccomp_status('tor')

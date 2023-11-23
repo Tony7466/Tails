@@ -141,10 +141,8 @@ module RemoteShell
 
     def to_s
       "Return status: #{@returncode}\n" \
-        "STDOUT:\n" +
-        @stdout +
-        "STDERR:\n" +
-        @stderr
+        "STDOUT:\n#{@stdout}" \
+        "STDERR:\n#{@stderr}"
     end
   end
 
@@ -155,10 +153,10 @@ module RemoteShell
       opts[:env] ||= {}
       show_code = code.chomp
       if show_code["\n"]
-        show_code = "\n" +
-                    show_code.lines
-                             .map { |l| ' ' * 4 + l.chomp }
-                             .join("\n")
+        indented_lines = show_code.lines
+                                  .map { |l| ' ' * 4 + l.chomp }
+                                  .join("\n")
+        show_code = "\n#{indented_lines}"
       end
 
       if opts[:debug_log]
@@ -193,10 +191,8 @@ module RemoteShell
 
     def to_s
       "Exception: #{@exception}\n" \
-        "STDOUT:\n" +
-        @stdout +
-        "STDERR:\n" +
-        @stderr
+        "STDOUT:\n#{@stdout}" \
+        "STDERR:\n#{@stderr}"
     end
   end
 

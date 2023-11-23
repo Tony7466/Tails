@@ -234,7 +234,8 @@ Given /^I start Tails from (.+?) drive "(.+?)"( with network unplugged)?( and I 
   step 'the computer boots Tails'
   if do_login
     step 'I enable persistence' if persistence_on
-    step 'I enable persistence with the changed passphrase' if persistence_with_changed_passphrase
+    step 'I enable persistence with the changed passphrase' \
+      if persistence_with_changed_passphrase
     step 'I set an administration password' if admin_password
     step 'I log in to a new session'
     step 'the Additional Software installation service has started'
@@ -532,7 +533,8 @@ Given /^the Tails desktop is ready$/ do
   )
   # Optimize upgrade check: avoid 30 second sleep
   $vm.execute_successfully(
-    'sed -i "s/^ExecStart=.*$/& --no-wait/" /usr/lib/systemd/user/tails-upgrade-frontend.service'
+    'sed -i "s/^ExecStart=.*$/& --no-wait/" ' \
+    '/usr/lib/systemd/user/tails-upgrade-frontend.service'
   )
   $vm.execute_successfully('systemctl --user daemon-reload', user: LIVE_USER)
 end
@@ -549,7 +551,8 @@ When /^I see the "(.+)" notification(?: after at most (\d+) seconds)?$/ do |titl
 end
 
 Given /^Tor is ready$/ do
-  # deprecated: please choose between "I successfully configure Tor" and "I wait until Tor is ready"
+  # deprecated: please choose between "I successfully configure Tor"
+  # and "I wait until Tor is ready"
   step 'I successfully configure Tor'
 end
 
@@ -875,8 +878,8 @@ When /^I copy "([^"]+)" to "([^"]+)" as user "([^"]+)"$/ do |source, destination
   assert(c.success?, "Failed to copy file:\n#{c.stdout}\n#{c.stderr}")
 end
 
-def is_persistence_active?(app)
-  conf = get_tps_bindings(true)[app.to_s]
+def persistence_active?(app)
+  conf = get_tps_bindings(skip_links: true)[app.to_s]
   c = $vm.execute("findmnt --noheadings --output SOURCE --target '#{conf}'")
   c.success? && (c.stdout.chomp != 'overlay')
 end
@@ -884,9 +887,9 @@ end
 Then /^persistence for "([^"]+)" is (|not )active$/ do |app, active|
   case active
   when ''
-    assert(is_persistence_active?(app), 'Persistence should be active.')
+    assert(persistence_active?(app), 'Persistence should be active.')
   when 'not '
-    assert(!is_persistence_active?(app), 'Persistence should not be active.')
+    assert(!persistence_active?(app), 'Persistence should not be active.')
   end
 end
 

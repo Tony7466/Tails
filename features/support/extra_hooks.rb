@@ -67,11 +67,12 @@ unless $at_exit_print_artifacts_dir_patching_done
       pending:   'pending',
       skipped:   'skipped',
     }.freeze
+    private_constant :STATUS_STR
 
     # Support printing the step status. For the original function body,
     # see https://salsa.debian.org/ruby-team/cucumber/-/blob/9899bc47c0eac62b623208f5e8032ec7285fe257/lib/cucumber/formatter/console.rb#L33-44
     alias old_format_step format_step
-    def format_step(keyword, step_match, status, source_indent, print_status = false)
+    def format_step(keyword, step_match, status, source_indent, print_status: false)
       comment = if source_indent
                   c = "# #{step_match.location}".indent(source_indent)
                   format_string(c, :comment)
@@ -190,8 +191,8 @@ module ExtraFormatters
     end
 
     # Recursively print the exception and all previous exceptions
-    def print_exception(e, status, indent)
-      super(e, status, indent)
+    def print_exception(exc, status, indent)
+      super(exc, status, indent)
       if e.cause
         cause = Cucumber::Formatter::BacktraceFilter.new(e.cause.dup).exception
         print_exception(cause, status, indent)

@@ -54,7 +54,8 @@ def prepare_veracrypt_volume(type, with_keyfile)
 end
 
 def create_veracrypt_volume(block_device, keyfile)
-  tcplay_create_cmd = "tcplay --create --device='#{block_device}' --weak-keys --insecure-erase"
+  tcplay_create_cmd = "tcplay --create --device='#{block_device}' " \
+                      '--weak-keys --insecure-erase'
   tcplay_create_cmd += ' --hidden' if @veracrypt_is_hidden
   tcplay_create_cmd += " --keyfile='#{keyfile}'" if @veracrypt_needs_keyfile
   debug_log "tcplay create command: #{tcplay_create_cmd}"
@@ -296,11 +297,12 @@ end
 
 When /^I open this VeraCrypt volume in GNOME Files$/ do
   $vm.spawn('nautilus /media/amnesia/*', user: LIVE_USER)
+  volume_size_in_nautilus = veracrypt_volume_size_in_nautilus(
+    isHidden: @veracrypt_is_hidden,
+    needsPim: @veracrypt_needs_pim
+  )
   Dogtail::Application.new('org.gnome.Nautilus').window(
-    veracrypt_volume_size_in_nautilus(
-      isHidden: @veracrypt_is_hidden,
-      needsPim: @veracrypt_needs_pim
-    ) + ' Volume'
+    "#{volume_size_in_nautilus} Volume"
   )
 end
 

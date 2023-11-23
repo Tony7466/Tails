@@ -73,6 +73,8 @@ TAILS_BUILD_MANIFEST = TAILS_ISO.sub(/\.iso/, '.build-manifest')
 OLD_TAILS_ISO = ENV['OLD_TAILS_ISO'] || TAILS_ISO
 OLD_TAILS_IMG = OLD_TAILS_ISO.sub(/\.iso/, '.img')
 TIME_AT_START = Time.now
+# rubocop:disable Lint/ConstantDefinitionInBlock
+# rubocop:disable Style/StringConcatenation
 loop do
   ARTIFACTS_DIR = $config['TMPDIR'] + '/run-' +
                   sanitize_filename(TIME_AT_START.to_s) + '-' +
@@ -88,6 +90,8 @@ loop do
     break
   end
 end
+# rubocop:enable Lint/ConstantDefinitionInBlock
+# rubocop:enable Style/StringConcatenation
 OPENCV_IMAGE_PATH = "#{Dir.pwd}/features/images/".freeze
 OPENCV_MIN_SIMILARITY = 0.9
 

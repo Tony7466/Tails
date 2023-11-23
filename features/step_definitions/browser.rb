@@ -97,8 +97,10 @@ When(/^I kill the ((?:Tor|Unsafe) Browser)$/) do |browser|
     $vm.execute("pgrep --full --exact '#{info[:cmd_regex]}'").failure?
   end
 
-  # ugly fix to #18568; in my local testing, 3 seconds are always needed. Let's add some more.
-  # a better solution would be to wait until GNOME "received" the fact that Tor Browser has gone away.
+  # Ugly fix to #18568; in my local testing, 3 seconds are always needed.
+  # Let's add some more.
+  # A better solution would be to wait until GNOME "received" the fact
+  # that the browser has gone away.
   sleep 5
 end
 

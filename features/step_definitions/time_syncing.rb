@@ -43,7 +43,9 @@ When /^I bump the (hardware clock's|system) time with "([^"]+)"$/ do |clock_type
 end
 
 When /^I allow time sync before Tor connects to work again$/ do
-  $vm.execute_successfully('mv /etc/tails-get-network-time.conf.bak /etc/tails-get-network-time.conf')
+  $vm.execute_successfully(
+    'mv /etc/tails-get-network-time.conf.bak /etc/tails-get-network-time.conf'
+  )
 end
 
 When /^I make sure time sync before Tor connects (fails|times out|indicates a captive portal|uses a fake connectivity check service)$/ do |failure_mode|
@@ -62,7 +64,9 @@ When /^I make sure time sync before Tor connects (fails|times out|indicates a ca
     url = "#{@web_server_url}/#{endpoint}"
   end
 
-  $vm.execute_successfully('cp /etc/tails-get-network-time.conf /etc/tails-get-network-time.conf.bak')
+  $vm.execute_successfully(
+    'cp /etc/tails-get-network-time.conf /etc/tails-get-network-time.conf.bak'
+  )
   $vm.file_overwrite(
     '/etc/tails-get-network-time.conf',
     ["url=#{url}", 'debug=true']
@@ -197,8 +201,10 @@ end
 Then /^the fake connectivity check service has received a new HTTP request$/ do\
   @captured_request_headers ||= []
   headers = []
-  try_for(10,
-          msg: 'The fake connectivity check service has not received a new HTTP request') do
+  try_for(
+    10,
+    msg: 'The fake connectivity check service has not received a new HTTP request'
+  ) do
     # List the files in the fake connectivity check service's headers
     headers = Dir.glob("#{@lan_web_server_headers_dir}/*")
 

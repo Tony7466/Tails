@@ -64,6 +64,12 @@ Naming/MethodName:
     - \A(doubleClick|roleName)\z
     # Stay close to OpenCV's API
     - \AmatchTemplate\z
+    # Stay close to Dogtail's API
+    - \AchildLabelled\z
+    - \AchildNamed\z
+    - \AmenuItem\z
+    - \AdoActionNamed\z
+    - \AgrabFocus\z
 
 Naming/MethodParameterName:
   AllowedNames:
