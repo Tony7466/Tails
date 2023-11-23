@@ -249,13 +249,12 @@ msgid "Choose **Minimize** or **Maximize**."
 msgstr "Choisir **Réduire** ou **Restaurer**."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Welcome Screen and Tor Connection don't fit on 800×600 ([[!tails_ticket 19324]])"
 msgid "Welcome Screen and Tor Connection don't fit on 800×600 ([[!tails_ticket 19324]])"
 msgstr "L'Écran de bienvenue et la Connexion à Tor ne rentrent pas en 800x600 ([[!tails_ticket 19324]])"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "The top of the Welcome Screen and some button of the Tor Connection "
 #| "assistant are cut out on small displays (800×600), like virtual machines."
@@ -320,8 +319,7 @@ msgstr "<h1 id=\"get\">Obtenir Tails 5.9</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr ""
-"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+msgstr "Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.9."

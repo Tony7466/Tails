@@ -45,7 +45,6 @@ msgstr ""
 "le fichier, avec une ligne de commande par exemple.\n"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "Instead, they simply remove the file's entry from the file system "
 #| "directory, because this requires less work and is therefore faster. The "
@@ -203,7 +202,7 @@ msgid "Confirm."
 msgstr "Confirmez."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "  1. The deletion will start. It can last from a few seconds to several minutes,\n"
 #| "  according to the size of the files. Be patient…\n"
@@ -273,7 +272,6 @@ msgstr ""
 "class=\"guimenuitem\">Écraser l'espace disque disponible</span>."
 
 #. type: Bullet: '  1. '
-#, fuzzy
 #| msgid ""
 #| "The cleaning starts. It can last from a few minutes to a few hours, "
 #| "according to the size of the available diskspace. Be patient…"
@@ -336,7 +334,6 @@ msgstr ""
 "correspond à votre périphérique : sa marque, sa taille, etc."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Click on the <span class=\"guimenu\">[[!img lib/open-menu.png "
 #| "alt=\"Menu\" class=\"symbolic\" link=\"no\"]]</span> button in the "
@@ -387,7 +384,6 @@ msgstr ""
 "class=\"guilabel\">Partitionnement</span>."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid "Click <span class=\"bold\">Format…</span>."
 msgid "Click <span class=\"bold\">Format…</span>."
 msgstr "Cliquez sur <span class=\"bold\">Formater…</span>."
@@ -460,9 +456,6 @@ msgstr ""
 #~ "seul fichier, sur une clé USB ou un SSD (Solid-State Disk).</p>\n"
 
 #, fuzzy, no-wrap
-#~| msgid ""
-#~| "<p class=\"quoted-from\">Quoted from [[!wikipedia Secure_file_deletion\n"
-#~| "desc=\"Wikipedia: %s\"]].</p>\n"
 #~ msgid "*Quoted from [[!wikipedia Data_erasure desc=\"Wikipedia: %s\"]].*\n"
 #~ msgstr ""
 #~ "<p class=\"quoted-from\">Source [[!wikipedia_fr Rémanence_des_données\n"
@@ -591,11 +584,6 @@ msgstr ""
 #~ msgstr "Voir le [[!tails_ticket 5323]]."
 
 #, fuzzy
-#~| msgid ""
-#~| "  1. Open the <span class=\"application\">Nautilus</span> file browser, "
-#~| "either\n"
-#~| "  from the <span class=\"guimenu\">Places</span> menu or the <span\n"
-#~| "  class=\"guilabel\">Computer</span> icon on the desktop.\n"
 #~ msgid ""
 #~ "  1. Open the <span class=\"application\">Nautilus</span> file browser, "
 #~ "either\n"

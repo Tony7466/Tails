@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-12 22:12+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-15 00:14+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.7 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.7\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,6 +42,9 @@ msgid ""
 "This release fixes [[many security vulnerabilities|security/"
 "Numerous_security_holes_in_4.6]]. You should upgrade as soon as possible."
 msgstr ""
+"Aquesta versió corregeix [[moltes vulnerabilitats de seguretat|security/"
+"Numerous_security_holes_in_4.6]]. Hauríeu d'actualitzar el més aviat "
+"possible."
 
 #. type: Plain text
 #, no-wrap
@@ -58,12 +61,16 @@ msgid ""
 "- Update *Tor Browser* to [9.5](https://blog.torproject.org/new-release-tor-"
 "browser-95)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [9.5](https://blog."
+"torproject.org/new-release-tor-browser-95)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [68.8.0](https://www.thunderbird.net/en-US/"
 "thunderbird/68.8.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [68.8.0](https://www.thunderbird"
+".net/en-US/thunderbird/68.8.0/releasenotes/)."
 
 #. type: Title #
 #, no-wrap
@@ -75,6 +82,8 @@ msgid ""
 "- Make the installation of Additional Software more robust. ([[!tails_ticket "
 "17278]])"
 msgstr ""
+"- S'ha fet que la instal·lació de Programari Addicional sigui més robusta. "
+"([[!tails_ticket 17278]])"
 
 #. type: Bullet: '- '
 msgid ""
@@ -82,11 +91,17 @@ msgid ""
 "VeraCrypt volume: *Wrong passphrase or parameters* instead of *Error "
 "unlocking volume*. ([[!tails_ticket 17668]])"
 msgstr ""
+"S'ha aclarit el missatge d'error quan s'introdueix una contrasenya "
+"incorrecta per desbloquejar un volum VeraCrypt: *Contrasenya o paràmetres "
+"incorrectes* en lloc de *S'ha produït un error en desbloquejar el volum*. ([["
+"!tails_ticket 17668]])"
 
 #. type: Plain text
 msgid ""
 "- Clean up confusing comments in `/etc/tor/torrc`. ([[!tails_ticket 17706]])"
 msgstr ""
+"- S'han netejat els comentaris confusos a `/etc/tor/torrc`. ([[!tails_ticket "
+"17706]])"
 
 #. type: Plain text
 msgid ""
@@ -129,6 +144,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.2 or later to 4.7."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.2 o "
+"posterior a la versió 4.7."
 
 #. type: Bullet: '- '
 msgid ""
@@ -177,6 +194,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.7 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.7 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -193,7 +212,7 @@ msgstr "Què ve?"
 
 #. type: Plain text
 msgid "Tails 4.8 is [[scheduled|contribute/calendar]] for June 30."
-msgstr ""
+msgstr "Tails 4.8 està [[programat|contribute/calendar]] per al 30 de juny."
 
 #. type: Plain text
 #, no-wrap
@@ -202,3 +221,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.7\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.7\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-10 15:03+0000\n"
+"POT-Creation-Date: 2023-11-14 10:04+0000\n"
 "PO-Revision-Date: 2023-10-31 21:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,11 +101,17 @@ msgid ""
 msgstr ""
 "<em>Una de les maneres més sòlides d'utilitzar la xarxa Tor és a través d'un "
 "sistema operatiu dedicat que imposi uns forts valors predeterminats de "
-"protecció de la privadesa i la seguretat. Aquest sistema operatiu és "
-"Tails.</em>"
+"protecció de la privadesa i la seguretat. Aquest sistema operatiu és Tails.</"
+"em>"
+
+#. type: Content of: <div><section><blockquote><a>
+#, fuzzy
+msgid "&mdash; <strong>EFF</strong>,"
+msgstr "&mdash; <strong>Edward Snowden</strong>,"
 
 #. type: Content of: <div><section><blockquote>
-msgid "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
+#, fuzzy
+msgid "Electronic Frontier Foundation </a>"
 msgstr "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
 
 #. type: Content of: <div><section>
@@ -113,8 +119,8 @@ msgid ""
 "[[!img accessnow.png link=\"https://accessnow.org/\" alt=\"Access Now\"]] [[!"
 "img riseup.png link=\"https://riseup.net/\" alt=\"Riseup\"]]"
 msgstr ""
-"[[!img accessnow.png link=\"https://accessnow.org/\" alt=\"Access Now\"]] [["
-"!img riseup.png link=\"https://riseup.net/\" alt=\"Riseup\"]]"
+"[[!img accessnow.png link=\"https://accessnow.org/\" alt=\"Access Now\"]] [[!"
+"img riseup.png link=\"https://riseup.net/\" alt=\"Riseup\"]]"
 
 #~ msgid ""
 #~ "document.addEventListener('DOMContentLoaded', function() { document.title "

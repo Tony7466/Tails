@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-10 10:12+0000\n"
+"PO-Revision-Date: 2023-11-15 11:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -23,10 +23,8 @@ msgid "Starting Tails"
 msgstr "Tails starten"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid "[[!traillink Start_Tails|first_steps/start]]"
 msgid "[[On PC|first_steps/start/pc]]"
-msgstr "[[!traillink Tails_starten|first_steps/start]]"
+msgstr "[[Auf dem PC|first_steps/start/pc]]"
 
 #. type: Bullet: '    - '
 #, fuzzy

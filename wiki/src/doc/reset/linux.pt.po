@@ -69,7 +69,7 @@ msgstr ""
 "desconectado."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose\n"
 #| "   <span class=\"menuchoice\">\n"
@@ -126,7 +126,6 @@ msgstr ""
 "pendrive USB que você quer resetar (marca, tamanho, etc)."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "To reset the USB stick, click on the <span class=\"guimenu\">[[!img lib/"
 #| "open-menu.png alt=\"Menu\" class=symbolic link=no]]</span> button in the "
@@ -165,7 +164,6 @@ msgstr ""
 "   no menu de **Particionamento**\n"
 
 #. type: Bullet: '   3. '
-#, fuzzy
 #| msgid "Click on the **Format…** button."
 msgid "Click on the **Format…** button."
 msgstr "Clique no botão **Formatar...**."
@@ -235,9 +233,6 @@ msgstr ""
 "    resetar a partir dele.\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "To reset the device, click on the <span class=\"bold\">Format Drive</"
-#~| "span> button."
 #~ msgid "    Then click on the <span class=\"bold\">Format…</span> button.\n"
 #~ msgstr ""
 #~ "Para resetar o dispositivo, clique no botão <span class=\"bold\">Formatar "

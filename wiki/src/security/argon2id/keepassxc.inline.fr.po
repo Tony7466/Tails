@@ -24,13 +24,11 @@ msgid "[[!tag security/fixed]]\n"
 msgstr "[[!tag security/fixed]]\n"
 
 #. type: Bullet: '   1. '
-#, fuzzy
 #| msgid "Choose **Applications**&nbsp;▸ **KeePassXC**."
 msgid "Choose **Applications**&nbsp;▸ **KeePassXC**."
 msgstr "Choisir **Applications**&nbsp;▸ **KeePassXC**."
 
 #. type: Bullet: '   1. '
-#, fuzzy
 #| msgid "Choose **Tools**&nbsp;▸ **Password Generator**."
 msgid "Choose **Tools**&nbsp;▸ **Password Generator**."
 msgstr "Choisir **Outils**&nbsp;▸ **Générateur de mot de passe**."

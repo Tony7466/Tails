@@ -24,7 +24,6 @@ msgid "[[!meta title=\"Configuring the Persistent Storage\"]]\n"
 msgstr "[[!meta title=\"Configurando o Armazenamento Persistente\"]]\n"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "To configure the Persistent Storage, choose **Applications**&nbsp;▸ "
 #| "**Tails**&nbsp;▸ **Persistent Storage**."
@@ -76,7 +75,7 @@ msgstr ""
 "como persistentes.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "<p>We are often asked to implement new features of the Persistent Storage: Tor\n"
 #| "Browser preferences, Tor configuration, desktop background, mouse and touchpad\n"
@@ -144,7 +143,7 @@ msgstr ""
 "de trabalho na pasta <span class=\"filename\">Persistent</span>.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To open the <span class=\"filename\">Persistent</span> folder, choose\n"
 #| "<span class=\"menuchoice\">\n"
@@ -661,7 +660,7 @@ msgstr ""
 "TailsData_unlocked/dotfiles*:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "    /live/persistence/TailsData_unlocked/dotfiles\n"
 #| "    ├── file_a\n"
@@ -692,7 +691,7 @@ msgid "Produces the following result in */home/amnesia*:"
 msgstr "Produz o seguinte resultado em */home/amnesia*:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "    /home/amnesia\n"
 #| "    ├── file_a → /live/persistence/TailsData_unlocked/dotfiles/file_a\n"
@@ -795,7 +794,6 @@ msgid "Turn on the *Dotfiles* feature and restart Tails."
 msgstr "Ative as funcionalidades *Dotfiles* e reinicie o Tails."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Settings** to "
 #| "open the *Settings* utility."
@@ -815,7 +813,6 @@ msgid "Configure your displays."
 msgstr "Configure seus monitores."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Places**&nbsp;▸ **Dotfiles** to open the <span "
 #| "class=\"filename\">/live/persistence/TailsData_unlocked/dotfiles</span> "
@@ -877,7 +874,6 @@ msgid "  For example:\n"
 msgstr "  Por exemplo:\n"
 
 #. type: Bullet: '  - '
-#, fuzzy
 #| msgid ""
 #| "If you turn off the Persistent Folder feature, the documents saved in "
 #| "**Places** &nbsp;▸ **Persistent** are not available anymore."
@@ -931,11 +927,6 @@ msgstr ""
 #~ msgstr "<!-- Remove after #8447. -->\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>If you turn off a feature, it will be\n"
-#~| "unavailable after restarting Tails but the\n"
-#~| "corresponding files\n"
-#~| "are still saved in the Persistent Storage.</p>\n"
 #~ msgid ""
 #~ "If you turn off a feature, it is unavailable after restarting Tails but "
 #~ "the corresponding data is still saved on the USB stick."
@@ -946,15 +937,11 @@ msgstr ""
 #~ "ainda estarão salvos no armazenamento persistente</p>\n"
 
 #, fuzzy
-#~| msgid "<p>To delete the files corresponding to a feature:</p>\n"
 #~ msgid "To delete the data corresponding to a feature:"
 #~ msgstr ""
 #~ "<p>Para apagar os arquivos correspondentes a uma funcionalidade:</p>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "For example, having the following files in */live/persistence/"
-#~| "TailsData_unlocked/dotfiles*:"
 #~ msgid ""
 #~ "In the *Files* browser, navigate to */live/persistence/"
 #~ "TailsData_unlocked*."
@@ -966,9 +953,6 @@ msgstr ""
 #~ msgstr "Abra as <span class=\"application\">Configurações</span>."
 
 #, fuzzy
-#~| msgid ""
-#~| "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Devices</"
-#~| "span>&nbsp;▸ <span class=\"guisubmenu\">Displays</span></span>."
 #~ msgid ""
 #~ "Choose <span class=\"menuchoice\"> <span class=\"guisubmenu\">Displays</"
 #~ "span></span>."
@@ -1376,14 +1360,12 @@ msgstr ""
 #~ "first_steps/persistence/backup]]"
 
 #, fuzzy
-#~| msgid "[[Delete the persistent volume|first_steps/persistence/delete]]"
 #~ msgid ""
 #~ "[[Rescuing your Persistent Storage from a broken Tails|first_steps/"
 #~ "persistence/rescue]]"
 #~ msgstr "[[Apague o volume persistente|first_steps/persistence/delete]]"
 
 #, fuzzy
-#~| msgid "[[Delete the persistent volume|first_steps/persistence/delete]]"
 #~ msgid "[[Deleting the Persistent Storage|first_steps/persistence/delete]]"
 #~ msgstr "[[Apague o volume persistente|first_steps/persistence/delete]]"
 
@@ -1391,7 +1373,6 @@ msgstr ""
 #~ msgstr "[[!toc levels=1]]\n"
 
 #, fuzzy
-#~| msgid "Enable the persistent volume\n"
 #~ msgid "Unlocking the Persistent Storage"
 #~ msgstr "Habilite o volume persistente\n"
 
@@ -1410,18 +1391,12 @@ msgstr ""
 #~ "change_passphrase]]"
 
 #, fuzzy
-#~| msgid "[[Delete the persistent volume|first_steps/persistence/delete]]"
 #~ msgid ""
 #~ "[[Check the file system of the persistent volume|first_steps/persistence/"
 #~ "check_file_system]]"
 #~ msgstr "[[Apague o volume persistente|first_steps/persistence/delete]]"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>It is only possible to create a persistent volume if the device, USB "
-#~| "stick or\n"
-#~| "SD card, was installed using <span class=\"application\">Tails "
-#~| "Installer</span>.</p>\n"
 #~ msgid ""
 #~ "<p>It is only possible to create a persistent volume if the USB stick\n"
 #~ "was installed using <span class=\"application\">Tails Installer</span>.</"
@@ -1433,9 +1408,6 @@ msgstr ""
 #~ "Installer</span>.</p>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>This requires a USB stick or SD card of <strong>at least 8 GB</"
-#~| "strong>.</p>\n"
 #~ msgid ""
 #~ "<p>This requires a USB stick of <strong>at least 8 GB</strong>.</p>\n"
 #~ msgstr ""
@@ -1481,14 +1453,6 @@ msgstr ""
 #~ "inutilizável.\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "When this feature is activated, all the files in the <span\n"
-#~| "class=\"filename\">/live/persistence/TailsData_unlocked/dotfiles</span> "
-#~| "folder\n"
-#~| "are linked in the <span class=\"filename\">Home Folder</span> (files in\n"
-#~| "subfolders of <span class=\"filename\">dotfiles</span> are also linked\n"
-#~| "in the corresponding subfolder of your <span class=\"filename\">Home\n"
-#~| "Folder</span>).\n"
 #~ msgid ""
 #~ "When this feature is activated, all the files in the <span\n"
 #~ "class=\"filename\">/live/persistence/TailsData_unlocked/dotfiles</span> "
@@ -1606,9 +1570,6 @@ msgstr ""
 #~ "esteja desconectado/a."
 
 #, fuzzy
-#~| msgid ""
-#~| "If you activate this feature, it is recommended to activate the\n"
-#~| "<span class=\"guilabel\">APT Lists</span> feature as well.\n"
 #~ msgid ""
 #~ "If you activate the <span class=\"guilabel\">APT Packages</span> "
 #~ "persistence feature,\n"
@@ -1731,12 +1692,6 @@ msgstr ""
 #~ "</div>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "When this feature is activated, the configuration and emails stored "
-#~| "locally by\n"
-#~| "the <span class=\"application\">Claws Mail</span> email client are saved "
-#~| "in the\n"
-#~| "persistent volume.\n"
 #~ msgid ""
 #~ "When this feature is activated, the configuration and emails stored\n"
 #~ "locally by the\n"
@@ -1780,17 +1735,6 @@ msgstr ""
 #~ "class=\"filename\">.claws-mail/Mail</span>.</p>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "For advanced users, to access the internal content of the persistent "
-#~| "volume\n"
-#~| "choose\n"
-#~| "<span class=\"menuchoice\">\n"
-#~| "  <span class=\"guimenu\">Places</span>&nbsp;▸\n"
-#~| "  <span class=\"guimenuitem\">Computer</span></span>, and open the "
-#~| "folders\n"
-#~| "  <span class=\"filename\">live</span>&nbsp;▸\n"
-#~| "  <span class=\"filename\">persistent</span>&nbsp;▸\n"
-#~| "  <span class=\"filename\">TailsData_unlocked</span>.\n"
 #~ msgid ""
 #~ "For advanced users to access the internal content of the Persistent "
 #~ "Storage, choose **Places**&nbsp;▸ **Computer** and open the folders "
@@ -1808,15 +1752,6 @@ msgstr ""
 #~ "  <span class=\"filename\">TailsData_unlocked</span>.\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "To open the <span class=\"filename\">Persistent</span> folder and access "
-#~| "you\n"
-#~| "personal files and working documents, choose \n"
-#~| "<span class=\"menuchoice\">\n"
-#~| "  <span class=\"guimenu\">Places</span>&nbsp;▸\n"
-#~| "  <span class=\"guimenuitem\">Home Folder</span></span>, and open the "
-#~| "<span\n"
-#~| "  class=\"guilabel\">Persistent</span> folder.\n"
 #~ msgid ""
 #~ "To open the <span class=\"filename\">Persistent</span> folder and access "
 #~ "your\n"

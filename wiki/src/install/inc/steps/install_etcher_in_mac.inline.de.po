@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-12 20:11+0000\n"
+"PO-Revision-Date: 2023-11-15 11:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -26,13 +26,12 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #, no-wrap
 msgid "<h1 id=\"etcher\" class=\"step\">Install <em>balenaEtcher</em></h1>\n"
 msgstr ""
+"<h1 id=\"etcher\" class=\"step\">Installiere <em>balenaEtcher</em></h1>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no\" alt=\"\"]]</div>\n"
-msgstr ""
-"<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no"
-"\" alt=\"\"]]</div>\n"
+msgstr "<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -105,7 +104,7 @@ msgid "Make sure that your USB stick is unplugged."
 msgstr "Stellen Sie sicher, dass der erste USB-Stick nicht angeschlossen ist."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Open <span class=\"application\">Terminal</span> from\n"
 #| "   <span class=\"menuchoice\">\n"
@@ -137,9 +136,7 @@ msgstr "   <p class=\"pre command\">diskutil list</p>\n"
 #. type: Plain text
 #, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
-msgstr ""
-"   Es wird eine Liste der Speichermedien des Systems ausgegeben. Zum "
-"Beispiel:\n"
+msgstr "   Es wird eine Liste der Speichermedien des Systems ausgegeben. Zum Beispiel:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -175,10 +172,8 @@ msgid ""
 "   Your USB stick appears as a new device in the list. Check\n"
 "   that its size corresponds to the size of your USB stick.\n"
 msgstr ""
-"   Ihr USB-Stick erscheint als neues Speichermedium in der Liste. Stellen "
-"Sie\n"
-"   sicher, dass die Größe der Speicherkapazität Ihres USB-Sticks entspricht."
-"\n"
+"   Ihr USB-Stick erscheint als neues Speichermedium in der Liste. Stellen Sie\n"
+"   sicher, dass die Größe der Speicherkapazität Ihres USB-Sticks entspricht.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -226,10 +221,8 @@ msgid ""
 "   </div>\n"
 msgstr ""
 "   <div class=\"caution\">\n"
-"   <p>Falls Sie sich bezüglich des Gerätenamens nicht sicher sind, sollten "
-"Sie das Vorgehen abbrechen oder\n"
-"   <strong>Sie riskieren, dass jegliche Festplatten des Systems "
-"überschrieben werden</strong>.</p>\n"
+"   <p>Falls Sie sich bezüglich des Gerätenamens nicht sicher sind, sollten Sie das Vorgehen abbrechen oder\n"
+"   <strong>Sie riskieren, dass jegliche Festplatten des Systems überschrieben werden</strong>.</p>\n"
 "   </div>\n"
 
 #. type: Bullet: '1. '
@@ -265,11 +258,9 @@ msgid ""
 "     </div>\n"
 msgstr ""
 "     <div class=\"tip\">\n"
-"       <p>Falls Sie sich über den Pfad zum ISO-Image unsicher sind, können "
-"Sie\n"
+"       <p>Falls Sie sich über den Pfad zum ISO-Image unsicher sind, können Sie\n"
 "       den richtigen Pfad per Drag and Drop des Symbols des ISO-Abbilds vom\n"
-"       <span class=\"application\">Finder</span> in das <span class="
-"\"application\">\n"
+"       <span class=\"application\">Finder</span> in das <span class=\"application\">\n"
 "       Terminal</span> einfügen.</p>\n"
 "       </div>\n"
 
@@ -289,25 +280,18 @@ msgid ""
 "     </div>\n"
 msgstr ""
 "     <div class=\"tip\">\n"
-"       <p>Sie können versuchen, <span class=\"code\">r</span> vor <span "
-"class=\"code\">disk</span> einzugeben, um die Installation zu "
-"beschleunigen.</p>\n"
+"       <p>Sie können versuchen, <span class=\"code\">r</span> vor <span class=\"code\">disk</span> einzugeben, um die Installation zu beschleunigen.</p>\n"
 "       </div>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
-msgstr ""
-"   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-"
-"placeholder\">device</span></p>\n"
+msgstr "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
-msgstr ""
-"   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails."
-"img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && "
-"sync</p>\n"
+msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -317,9 +301,7 @@ msgstr "   Sie sollten etwas wie folgt erhalten:\n"
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.12.img of=/dev/rdisk9 bs=16m && sync</p>\n"
-msgstr ""
-"   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.0.iso of=/"
-"dev/rdisk9 bs=16m && sync</p>\n"
+msgstr "   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.0.iso of=/dev/rdisk9 bs=16m && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -328,8 +310,7 @@ msgid ""
 "   stick. The copy takes some time, generally a few minutes.\n"
 msgstr ""
 "   Wenn keine Fehlermeldung angezeigt wird, wird Tails auf den USB-Stick\n"
-"     kopiert. Das Kopieren benötigt einige Zeit, in der Regel ein paar "
-"Minuten.\n"
+"     kopiert. Das Kopieren benötigt einige Zeit, in der Regel ein paar Minuten.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -339,17 +320,13 @@ msgid ""
 "   adding <code>sudo</code> at the beginning of the command:</p>\n"
 msgstr ""
 "   <div class=\"note\">\n"
-"     <p>Wenn Sie eine <span class=\"guilabel\">Permission denied</span> "
-"Fehlermeldung erhalten, versuchen Sie\n"
+"     <p>Wenn Sie eine <span class=\"guilabel\">Permission denied</span> Fehlermeldung erhalten, versuchen Sie\n"
 "     <code>sudo</code> vor den Beginn des Befehls hinzuzufügen:</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
-msgstr ""
-"   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\""
-">tails.img</span> of=<span class=\"command-placeholder\">device</span> "
-"bs=16m && sync</p>\n"
+msgstr "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -357,17 +334,13 @@ msgid ""
 "   <p>If you get an <span class=\"guilabel\">invalid number ‘16m’</span> error, try\n"
 "   using <code>16M</code> instead:</p>\n"
 msgstr ""
-"   <p>Falls Sie die Fehlermeldung <span class=\"guilabel\">invalid number "
-"‘16m’</span> erhalten, versuchen\n"
+"   <p>Falls Sie die Fehlermeldung <span class=\"guilabel\">invalid number ‘16m’</span> erhalten, versuchen\n"
 "     Sie es stattdessen mit <code>16M</code>:</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
-msgstr ""
-"   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails."
-"img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && "
-"sync</p>\n"
+msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -377,9 +350,7 @@ msgstr "   </div>\n"
 #. type: Plain text
 #, no-wrap
 msgid "   The installation is complete once the command prompt reappeared.\n"
-msgstr ""
-"   Die Installation ist abgeschlossen, sobald die Eingabeaufforderung wieder "
-"erscheint.\n"
+msgstr "   Die Installation ist abgeschlossen, sobald die Eingabeaufforderung wieder erscheint.\n"
 
 #, no-wrap
 #~ msgid "<div class=\"hidden-step-1\"></div>\n"

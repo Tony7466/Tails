@@ -508,7 +508,6 @@ msgstr ""
 "démocratie"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "2013-10-30: [Tails : confidentialité et anonymat, pour tous et "
 #| "partout — L'utilisabilité et de la maintenabilité, fonctionnalités "
@@ -588,7 +587,6 @@ msgid "Books, booklets, and guide"
 msgstr "Livres, brochures et guides"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "2021-09: [Tails: Conectándonos a internet de manera segura y anónima]"
 #| "(https://milpadigital.org/milpadigital-59) in Milpa Digital #59 by "
@@ -602,7 +600,6 @@ msgstr ""
 "CódigoSur."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "2017-09: [Guide d'autodéfense numérique](https://guide.boum.org/) has "
 #| "several sections based on Tails (in French)."
@@ -638,7 +635,6 @@ msgstr ""
 "tor-und-tails) 200p (en allemand)."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "2015-06: [L’informatique : se défendre et attaquer](https://infokiosques."
 #| "net/spip.php?article1045) (in French)."
@@ -716,7 +712,6 @@ msgid "[CryptoParty handbook](https://www.cryptoparty.in/tails)."
 msgstr "[CryptoParty handbook](https://www.cryptoparty.in/tails) (en anglais)."
 
 #, fuzzy
-#~| msgid "[Tor overview](https://www.torproject.org/about/overview.html.en)"
 #~ msgid ""
 #~ "[Tor overview](https://2019.www.torproject.org/about/overview.html.en)"
 #~ msgstr ""

@@ -121,7 +121,6 @@ msgstr ""
 "está usando Tails."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "Try to keep your computer in a safe location. Hardware alterations are "
 #| "more likely on public computers, in internet cafés or libraries, and on "

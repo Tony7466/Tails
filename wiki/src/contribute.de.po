@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-12 16:11+0000\n"
+"PO-Revision-Date: 2023-11-15 09:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -384,7 +384,7 @@ msgstr "Referenzdokumente"
 
 #. type: Bullet: '  - '
 msgid "[[Mission and values|contribute/mission]]"
-msgstr "[[Ziele und Werte|contribute/mission]]"
+msgstr "[[Mission und Werte|contribute/mission]]"
 
 #. type: Bullet: '  - '
 msgid "[[Design documents|contribute/design]]"
@@ -503,10 +503,9 @@ msgid "<a id=\"release-cycle\"></a>\n"
 msgstr "<a id=\"release-cycle\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Release cycle\n"
+#, no-wrap
 msgid "Release cycle"
-msgstr "Veröffentlichungszyklus\n"
+msgstr "Veröffentlichungszyklus"
 
 #. type: Bullet: '  - '
 msgid "[[Release schedule|contribute/release_schedule]]"
@@ -541,10 +540,9 @@ msgid "<a id=\"upstream\"></a>\n"
 msgstr "<a id=\"upstream\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Relationship with upstream\n"
+#, no-wrap
 msgid "Relationship with upstream and derivatives"
-msgstr "Verhältnis zum Upstream\n"
+msgstr "Beziehung zu Upstream und Derivaten"
 
 #. type: Bullet: '  - '
 msgid "[[Relationship with upstream|contribute/relationship_with_upstream]]"
@@ -565,31 +563,21 @@ msgid "<a id=\"collective-process\"></a>\n"
 msgstr "<a id=\"collective-process\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Collective process\n"
+#, no-wrap
 msgid "Collective process"
-msgstr "Kollektive Prozesse\n"
+msgstr "Kollektive Prozesse"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[Calendar|contribute/calendar]] of releases, meetings, working sessions, "
-#| "etc."
 msgid "[[Calendar|contribute/calendar]] of releases"
-msgstr ""
-"[[Kalender|contribute/calendar]] der Veröffentlichungen, Treffen, "
-"Arbeitsbesprechungen etc."
+msgstr "[[Kalender|contribute/calendar]] der Veröffentlichungen"
 
 #. type: Bullet: '  - '
 msgid "[[Code of conduct|contribute/working_together/code_of_conduct]]"
 msgstr "[[Verhaltenskodex|contribute/working_together/code_of_conduct]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[Document progress|contribute/working_together/document_progress]]"
 msgid "[[Social contract|doc/about/social_contract]]"
-msgstr ""
-"[[Fortschritte dokumentieren|contribute/working_together/document_progress]]"
+msgstr "[[Gesellschaftsvertrag|doc/about/social_contract]]"
 
 #. type: Bullet: '  - '
 #, fuzzy

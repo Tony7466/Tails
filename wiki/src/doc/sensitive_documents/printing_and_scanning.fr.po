@@ -29,7 +29,7 @@ msgid "Printing"
 msgstr "Imprimer"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To configure a printer or manage your printing jobs choose\n"
 #| "<span class=\"menuchoice\">\n"
@@ -91,7 +91,6 @@ msgstr ""
 "simple-scan), un outil pour scanner à la fois des documents et des photos."
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "To start *Document Scanner*, choose **Applications**&nbsp;▸ "
 #| "**Utilities**&nbsp;▸ **Document Scanner**."
@@ -103,12 +102,6 @@ msgstr ""
 "**Utilitaires**&nbsp;▸ **Numériseur de documents**."
 
 #, fuzzy, no-wrap
-#~| msgid ""
-#~| "To start <span class=\"application\">Simple Scan</span> choose\n"
-#~| "<span class=\"menuchoice\">\n"
-#~| "  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#~| "  <span class=\"guisubmenu\">Graphics</span>&nbsp;▸\n"
-#~| "  <span class=\"guimenuitem\">Simple Scan</span></span>.\n"
 #~ msgid ""
 #~ "To start <span class=\"application\">Simple Scan</span> choose\n"
 #~ "<span class=\"menuchoice\">\n"

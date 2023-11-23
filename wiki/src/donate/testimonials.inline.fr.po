@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-10 15:03+0000\n"
+"POT-Creation-Date: 2023-11-14 10:04+0000\n"
 "PO-Revision-Date: 2021-05-10 18:23+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,8 +108,17 @@ msgstr ""
 "Tails.</em>"
 
 #
+#. type: Content of: <div><section><blockquote><a>
+#, fuzzy
+#| msgid "&mdash; <strong>Edward Snowden</strong>,"
+msgid "&mdash; <strong>EFF</strong>,"
+msgstr "&mdash; <strong>Edward Snowden</strong>,"
+
+#
 #. type: Content of: <div><section><blockquote>
-msgid "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
+#, fuzzy
+#| msgid "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
+msgid "Electronic Frontier Foundation </a>"
 msgstr "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
 
 #. type: Content of: <div><section>
@@ -205,8 +214,8 @@ msgstr ""
 #~ msgstr "[[Apprendre comment Tails fonctionne|about]]"
 
 #~ msgid ""
-#~ "[[Get Tails [[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort="
-#~ "\"age\"]]|install]]"
+#~ "[[Get Tails [[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" "
+#~ "sort=\"age\"]]|install]]"
 #~ msgstr ""
 #~ "[[Obtenir Tails [[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" "
 #~ "sort=\"age\"]]|install]]"
@@ -216,12 +225,12 @@ msgstr ""
 
 #~ msgid ""
 #~ "[[!inline pages=\"page(news/*) and !news/*/* and !news/discussion and "
-#~ "(currentlang() or news/report_2* or news/test_*)\" show=\"3\" feeds=\"no"
-#~ "\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
+#~ "(currentlang() or news/report_2* or news/test_*)\" show=\"3\" "
+#~ "feeds=\"no\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
 #~ msgstr ""
 #~ "[[!inline pages=\"page(news/*) and !news/*/* and !news/discussion and "
-#~ "(currentlang() or news/report_2* or news/test_*)\" show=\"3\" feeds=\"no"
-#~ "\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
+#~ "(currentlang() or news/report_2* or news/test_*)\" show=\"3\" "
+#~ "feeds=\"no\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
 
 #~ msgid "Who uses Tails"
 #~ msgstr "Qui utilise Tails"
@@ -278,8 +287,8 @@ msgstr ""
 #~| "meta stylesheet=\"staging/home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 #~| "robots=\"noindex\"]]"
 #~ msgid ""
-#~ "[[!meta title=\"Home\"]] [[!meta stylesheet=\"staging/home\" rel="
-#~ "\"stylesheet\" title=\"\"]] [[!meta robots=\"noindex\"]]"
+#~ "[[!meta title=\"Home\"]] [[!meta stylesheet=\"staging/home\" "
+#~ "rel=\"stylesheet\" title=\"\"]] [[!meta robots=\"noindex\"]]"
 #~ msgstr ""
 #~ "[[!pagetemplate template=\"topbar.tmpl\"]] [[!meta title=\"Home\"]] [[!"
 #~ "meta stylesheet=\"staging/home\" rel=\"stylesheet\" title=\"\"]] [[!meta "

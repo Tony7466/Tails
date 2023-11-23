@@ -164,7 +164,6 @@ msgid "Modifying your network settings"
 msgstr "Modificando suas configurações de rede"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "To modify your network settings, for example, to configure whether or not "
 #| "to automatically connect to a Wi-Fi network, choose **Applications&nbsp;▸ "

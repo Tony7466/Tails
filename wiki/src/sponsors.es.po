@@ -118,7 +118,6 @@ msgid "$10&#8239;000 – $49&#8239;999"
 msgstr "$10&#8239;000 – $49&#8239;999"
 
 #. type: Attribute 'title' of: <div><p>
-#, fuzzy
 #| msgid "Nym - 10 000€"
 msgid "Nym - 10 000€"
 msgstr "Nym - 10 000€"
@@ -360,7 +359,6 @@ msgid "Anonymous donation - 24 ethereums = 85 909€"
 msgstr "Donación anónima - 1 433€"
 
 #. type: Attribute 'title' of: <div><p>
-#, fuzzy
 #| msgid "RIPE NCC - 50 000€"
 msgid "RIPE NCC - 50 000€"
 msgstr "RIPE NCC - 50 000€"
@@ -390,7 +388,6 @@ msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img aspiration.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
-#, fuzzy
 #| msgid "Anonymous donation - 2 000€"
 msgid "Anonymous donation - 2 000€"
 msgstr "Donación anónima - 2 000€"
@@ -432,7 +429,6 @@ msgid "2020"
 msgstr "2020"
 
 #. type: Attribute 'title' of: <div><p>
-#, fuzzy
 #| msgid "Anonymous donation - 50 000€"
 msgid "Anonymous donation - 50 000€"
 msgstr "Donación anónima - 50 000€"
@@ -444,7 +440,6 @@ msgid "Anonymous donation - 2.11 bitcoins = 34 694€"
 msgstr "Donación anónima - 0.1 btc"
 
 #. type: Attribute 'title' of: <div><p>
-#, fuzzy
 #| msgid "ISC - 9 448€"
 msgid "ISC - 9 448€"
 msgstr "ISC - 9 448€"
@@ -580,7 +575,6 @@ msgid "A Google employee (with matching donation) - $12 000"
 msgstr "Un empleado de Google (con donación igualada por la empresa) - $12 000"
 
 #. type: Attribute 'title' of: <div><p>
-#, fuzzy
 #| msgid "An individual - 7 533€"
 msgid "An individual - 7 533€"
 msgstr "Una persona - 7 533€"
@@ -984,17 +978,14 @@ msgid "Tor - 8 500€"
 msgstr "Tor - 8 500€"
 
 #, fuzzy
-#~| msgid "An individual - 2 000€"
 #~ msgid "An individual - 2 000â¬"
 #~ msgstr "Una persona - 2.000€"
 
 #, fuzzy
-#~| msgid "An individual - 2 000€"
 #~ msgid "An individual - 3 000â¬"
 #~ msgstr "Una persona - 2.000€"
 
 #, fuzzy
-#~| msgid "An individual - 1 000€"
 #~ msgid "An individual - 1 000â¬"
 #~ msgstr "Una persona - 1.000€"
 
@@ -1002,9 +993,6 @@ msgstr "Tor - 8 500€"
 #~ msgstr "Donación anónima - 300 moneros"
 
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://torproject.org/\">[[!img tor.png link=\"no\" "
-#~| "alt=\"\"]]</a>"
 #~ msgid ""
 #~ "<a href=\"https://protonmail.com/\">[[!img protonmail.png link=\"no\" "
 #~ "alt=\"\"]]</a>"
@@ -1027,9 +1015,6 @@ msgstr "Tor - 8 500€"
 #~ "alt=\"\"]]</a>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://handshake.org/\" target=\"_blank\">[[!img handshake."
-#~| "png link=\"no\" alt=\"\"]]</a>"
 #~ msgid ""
 #~ "<a href=\"https://www.seanvegezzi.com/\" target=\"_blank\">[[!img svkh."
 #~ "png link=\"no\" alt=\"\"]]</a>"
@@ -1041,9 +1026,6 @@ msgstr "Tor - 8 500€"
 #~ msgstr "Donación anónima - 20 moneros"
 
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\" alt=\"Tor "
-#~| "logo\"]]</a>"
 #~ msgid ""
 #~ "<a href=\"https://wordable.io/\" target=\"_blank\">[[!img wordable.jpg "
 #~ "link=\"no\" alt=\"\"]]</a>"
@@ -1052,9 +1034,6 @@ msgstr "Tor - 8 500€"
 #~ "de Tor\"]]</a>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://cooltechzone.com/\" target=\"_blank\">[[!img "
-#~| "cooltechzone.png link=\"no\" alt=\"Best VPN zone 2019 logo\"]]</a>"
 #~ msgid ""
 #~ "<a href=\"https://loginlockdown.com/\" target=\"_blank\">[[!img "
 #~ "loginlockdown.png link=\"no\" alt=\"\"]]</a>"
@@ -1063,9 +1042,6 @@ msgstr "Tor - 8 500€"
 #~ "cooltechzone.png link=\"no\" alt=\"Best VPN zone 2019 logo\"]]</a>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://thebestvpn.com/\" target=\"_blank\">[[!img bestvpn.png "
-#~| "link=\"no\" alt=\"The Best VPN logo\"]]</a>"
 #~ msgid ""
 #~ "<a href=\"https://www.domains4bitcoins.com/\" target=\"_blank\">[[!img "
 #~ "domains4bitcoins.png link=\"no\" alt=\"\"]]</a>"
@@ -1098,9 +1074,6 @@ msgstr "Tor - 8 500€"
 #~ msgstr "Tor - Patrocinio de viajes y alquiler de servidores"
 
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://cooltechzone.com/\" target=\"_blank\">[[!img "
-#~| "cooltechzone.png link=\"no\" alt=\"Best VPN zone 2019 logo\"]]</a>"
 #~ msgid ""
 #~ "<a href=\"https://cooltechzone.com/\" target=\"_blank\">[[!img "
 #~ "cooltechzone.png link=\"no\" alt=\"\"]]</a>"
@@ -1113,9 +1086,6 @@ msgstr "Tor - 8 500€"
 #~ "[[!img gsoc.png link=\"no\"  alt=\"logo de Counterpart International\"]]"
 
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://deeponion.org/\">[[!img deeponion.png link=\"no\" "
-#~| "alt=\"DeepOnion logo\"]]</a>"
 #~ msgid ""
 #~ "<a href=\"https://deeponion.org/\" target=\"_blank\">[[!img deeponion.png "
 #~ "link=\"no\" alt=\"DeepOnion logo\"]]</a>"

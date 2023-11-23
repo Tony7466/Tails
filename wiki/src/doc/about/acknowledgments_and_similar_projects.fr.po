@@ -70,7 +70,6 @@ msgstr ""
 "une source d'inspiration."
 
 #. type: Bullet: '  - '
-#, fuzzy
 #| msgid ""
 #| "Some ideas (in particular the improvements to the [[contribute/design/"
 #| "memory_erasure]] procedure) were borrowed from [Liberté Linux](https://"
@@ -187,7 +186,6 @@ msgstr ""
 "[JonDo Live-CD](https://anonymous-proxy-servers.net/en/jondo-live-cd.html)"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "[Liberté Linux](https://dee.su/liberte)"
 msgid "[Liberté Linux](https://dee.su/liberte)"
 msgstr "[Liberté Linux](https://dee.su/liberte)"

@@ -371,7 +371,6 @@ msgid "To fix this:"
 msgstr "Pour le corriger :"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Terminal** to open "
 #| "a terminal."
@@ -823,7 +822,6 @@ msgid "- In Tails, unlock your Persistent Storage:"
 msgstr "- Dans Tails, déverrouiller votre stockage persistant :"
 
 #. type: Bullet: '  1. '
-#, fuzzy
 #| msgid "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks**."
 msgid "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks**."
 msgstr "Choisir **Applications**&nbsp;▸ **Utilitaires**&nbsp;▸ **Disques**."
@@ -882,7 +880,6 @@ msgid "- Navigate to the content of your Persistent Storage:"
 msgstr "- Naviguez vers le contenu de votre stockage persistant :"
 
 #. type: Bullet: '  1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Root Terminal** "
 #| "to open a terminal with administration rights."
@@ -956,13 +953,12 @@ msgid "Choose **Minimize** or **Maximize**."
 msgstr "Choisir **Réduire** ou **Restaurer**."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Welcome Screen and Tor Connection don't fit on 800×600 ([[!tails_ticket 19324]])"
 msgid "Welcome Screen and Tor Connection don't fit on 800×600 ([[!tails_ticket 19324]])"
 msgstr "L'Écran de bienvenue et la Connexion à Tor ne rentrent pas en 800x600 ([[!tails_ticket 19324]])"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "The top of the Welcome Screen and some button of the Tor Connection "
 #| "assistant are cut out on small displays (800×600), like virtual machines."
@@ -1043,8 +1039,7 @@ msgstr "<h1 id=\"get\">Obtenir Tails 5.8</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr ""
-"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+msgstr "Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.8."

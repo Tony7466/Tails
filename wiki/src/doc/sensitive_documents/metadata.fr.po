@@ -174,7 +174,6 @@ msgstr ""
 "- Fichiers archives, comme .zip et .tar"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "To open *Metadata Cleaner* choose **Applications**&nbsp;▸ **Accessories** "
 #| "&nbsp;▸ **Metadata Cleaner**."

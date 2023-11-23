@@ -51,7 +51,6 @@ msgstr ""
 "alt=\"\" class=\"symbolic\" link=\"no\"]]</span>."
 
 #. type: Content of: <ol><li><p>
-#, fuzzy
 #| msgid ""
 #| "Press and hold the <strong>Shift</strong> key while you choose "
 #| "<strong>Power</strong>&nbsp;▸ <strong>Restart</strong>."

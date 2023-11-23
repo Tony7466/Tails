@@ -456,7 +456,6 @@ msgid "        i915.force_probe=MODEL\n"
 msgstr "        i915.force_probe=MODÈLE\n"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "… replacing *MODEL* with the 4 characters you see after `8086:` on the "
 #| "error message."
@@ -1492,17 +1491,14 @@ msgstr ""
 #~ msgstr "AMD Radeon R9"
 
 #, fuzzy
-#~| msgid "AMD Radeon R9"
 #~ msgid "AMD Radeon RX 400 family"
 #~ msgstr "AMD Radeon R9"
 
 #, fuzzy
-#~| msgid "<a id=\"vmware\"></a>\n"
 #~ msgid "<a id=\"amd-vega\"></a>\n"
 #~ msgstr "<a id=\"vmware\"></a>\n"
 
 #, fuzzy
-#~| msgid "AMD Radeon R9"
 #~ msgid "AMD Renoir family"
 #~ msgstr "AMD Radeon R9"
 

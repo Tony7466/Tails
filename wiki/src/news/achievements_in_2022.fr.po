@@ -477,7 +477,6 @@ msgstr ""
 "domaine simple, beau et de confiance :"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "🎉 ✨ ***tails.net*** ✨ 🎉"
 msgid "🎉 ✨ ***tails.net*** ✨ 🎉"
 msgstr "🎉 ✨ ***tails.net*** ✨ 🎉"

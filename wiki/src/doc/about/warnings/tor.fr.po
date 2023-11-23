@@ -252,7 +252,6 @@ msgstr ""
 "ils n'utilisent pas trois relais indépendants."
 
 #. type: Content of: <div><p>
-#, fuzzy
 #| msgid ""
 #| "End-to-end correlation attacks have been studied in research papers, but "
 #| "we don't know of any actual use to deanonymize Tor users. For an example, "

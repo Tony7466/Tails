@@ -147,7 +147,7 @@ msgstr ""
 "de trabajo en la carpeta <span class=\"filename\">Persistent</span>.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To open the <span class=\"filename\">Persistent</span> folder, choose\n"
 #| "<span class=\"menuchoice\">\n"
@@ -731,7 +731,7 @@ msgstr ""
 "TailsData_unlocked/dotfiles*:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "    /live/persistence/TailsData_unlocked/dotfiles\n"
 #| "    ├── file_a\n"
@@ -762,7 +762,7 @@ msgid "Produces the following result in */home/amnesia*:"
 msgstr "Produce el siguiente resultado en */home/amnesia*:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "    /home/amnesia\n"
 #| "    ├── file_a → /live/persistence/TailsData_unlocked/dotfiles/file_a\n"
@@ -863,7 +863,6 @@ msgid "Configure your displays."
 msgstr "Configura tus pantallas."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Places**&nbsp;▸ **Dotfiles** to open the <span "
 #| "class=\"filename\">/live/persistence/TailsData_unlocked/dotfiles</span> "
@@ -975,11 +974,6 @@ msgstr ""
 #~ msgstr "<!-- Remove after #8447. -->\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>If you turn off a feature, it will be\n"
-#~| "unavailable after restarting Tails but the\n"
-#~| "corresponding files\n"
-#~| "are still saved in the Persistent Storage.</p>\n"
 #~ msgid ""
 #~ "If you turn off a feature, it is unavailable after restarting Tails but "
 #~ "the corresponding data is still saved on the USB stick."
@@ -990,15 +984,11 @@ msgstr ""
 #~ "permanecerán en el Almacenamiento Persistente.</p>\n"
 
 #, fuzzy
-#~| msgid "<p>To delete the files corresponding to a feature:</p>\n"
 #~ msgid "To delete the data corresponding to a feature:"
 #~ msgstr ""
 #~ "<p>Para eliminar los archivos correspondientes a una funcionalidad:</p>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "For example, having the following files in */live/persistence/"
-#~| "TailsData_unlocked/dotfiles*:"
 #~ msgid ""
 #~ "In the *Files* browser, navigate to */live/persistence/"
 #~ "TailsData_unlocked*."
@@ -1010,9 +1000,6 @@ msgstr ""
 #~ msgstr "Abre la <span class=\"application\">Configuración</span>."
 
 #, fuzzy
-#~| msgid ""
-#~| "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Devices</"
-#~| "span>&nbsp;▸ <span class=\"guisubmenu\">Displays</span></span>."
 #~ msgid ""
 #~ "Choose <span class=\"menuchoice\"> <span class=\"guisubmenu\">Displays</"
 #~ "span></span>."
@@ -1157,33 +1144,6 @@ msgstr ""
 #~ msgstr "<div class=\"bug\" id=\"deselect\">\n"
 
 #, fuzzy, no-wrap
-#~| msgid ""
-#~| "<ol>\n"
-#~| "  <li>\n"
-#~| "    Start Tails and set an\n"
-#~| "    [[administration password|doc/first_steps/welcome_screen/administration_password]].\n"
-#~| "  </li>\n"
-#~| "  <li>\n"
-#~| "    Choose\n"
-#~| "    <span class=\"menuchoice\">\n"
-#~| "      <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#~| "      <span class=\"guisubmenu\">System Tools</span>&nbsp;▸\n"
-#~| "      <span class=\"guimenuitem\">Root Terminal</span>\n"
-#~| "    </span>\n"
-#~| "    to open a terminal with administration rights.\n"
-#~| "  </li>\n"
-#~| "  <li>\n"
-#~| "    Execute the <span class=\"code\">nautilus</span> command to open the file\n"
-#~| "    browser with administration rights.\n"
-#~| "  </li>\n"
-#~| "  <li>\n"
-#~| "    In the file browser, navigate to <span class=\"filename\">\n"
-#~| "    /live/persistence/TailsData_unlocked</span>.\n"
-#~| "  </li>\n"
-#~| "  <li>\n"
-#~| "    Delete the [[folder corresponding to the feature|doc/first_steps/persistence/backup#feature_files]].\n"
-#~| "  </li>\n"
-#~| "</ol>\n"
 #~ msgid ""
 #~ "<ol>\n"
 #~ "  <li>\n"
@@ -1443,12 +1403,6 @@ msgstr ""
 #~ msgstr "la configuración de los programas que uses"
 
 #, fuzzy
-#~| msgid ""
-#~| "As you can see in the previous example, empty folders are ignored. This "
-#~| "feature\n"
-#~| "only links files, and not folders, from the persistent volume into the "
-#~| "<span\n"
-#~| "class=\"filename\">Home</span> folder.\n"
 #~ msgid ""
 #~ "As in the previous example, empty folders are ignored. The Dotfiles "
 #~ "feature only links files, and not folders, from the Persistent Storage "
@@ -1461,14 +1415,6 @@ msgstr ""
 #~ "class=\"filename\">Home</span>.\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "Only features that are listed here can currently be made persistent. "
-#~| "Some other features have been asked and accepted, but are waiting to be "
-#~| "implemented: browser extensions, [[!tails_ticket 7148 "
-#~| "desc=\"wallpaper\"]], [[!tails_ticket 7246 desc=\"default sound "
-#~| "card\"]], [[!tails_ticket 5979 desc=\"mouse and touchpad settings\"]], "
-#~| "etc. See the [[corresponding tickets|https://redmine.tails.boum.org/code/"
-#~| "projects/tails/issues?query_id=122]] for more details."
 #~ msgid ""
 #~ "<p>Only the features that are listed below can currently be made\n"
 #~ "persistent. We are often asked to implement new features to the\n"
@@ -1749,17 +1695,6 @@ msgstr ""
 #~ msgstr "Iniciar el asistente de volumen persistente\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "For advanced users, to access the internal content of the persistent "
-#~| "volume\n"
-#~| "choose\n"
-#~| "<span class=\"menuchoice\">\n"
-#~| "  <span class=\"guimenu\">Places</span>&nbsp;▸\n"
-#~| "  <span class=\"guimenuitem\">Computer</span></span>, and open the "
-#~| "folders\n"
-#~| "  <span class=\"filename\">live</span>&nbsp;▸\n"
-#~| "  <span class=\"filename\">persistence</span>&nbsp;▸\n"
-#~| "  <span class=\"filename\">TailsData_unlocked</span>.\n"
 #~ msgid ""
 #~ "For advanced users to access the internal content of the Persistent "
 #~ "Storage, choose **Places**&nbsp;▸ **Computer** and open the folders "
