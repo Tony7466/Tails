@@ -15,6 +15,9 @@ Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
 
+Layout/LineLength:
+  Max: 88
+
 Lint/SuppressedException:
   AllowComments: true
 
