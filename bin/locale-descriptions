@@ -1,4 +1,13 @@
 #!/usr/bin/python3
+"""
+This script helps the RM to maintain config/chroot_local-includes/usr/share/tails/browser-localization/descriptions
+
+It does so in two ways:
+ - the 'generate' subcommand will generate content for the
+   descriptions file, based on information in po/po-to-mozilla.toml
+ - the 'suggest' subcommand will help the RM adding more lines
+   to po/po-to-mozilla.toml
+"""
 
 import sys
 from pathlib import Path
@@ -20,6 +29,12 @@ MAPFILE = "po/po-to-mozilla.toml"
 
 
 def get_language(pofile: Path) -> str:
+    """
+    Get language name associated with the pofile.
+
+    Please note that this might be a language name (ie: `it` for Italian)
+    or a full locale (ie: `pt_BR` for Brazilian Portuguese).
+    """
     for line in pofile.open():
         match = LANGUAGE_RE.match(line)
         if match is not None:
@@ -55,6 +70,9 @@ def locale_to_mozilla(locale: str) -> str:
 
 
 class ValidLocales:
+    """
+    This class fetches a list of all possible locale.
+    """
     def __init__(self):
         self.locales = self.parse_table(
             requests.get("https://lh.2xlibre.net/locales/").text
@@ -86,14 +104,17 @@ class LocaleDescriptions:
             moz_locale = get_language(po)
 
             if "_" in moz_locale:
+                # See contribute/release_process/update_locale_descriptions#with-underscore
                 lang, sub = moz_locale.split("_", maxsplit=1)
                 yield f"{lang}-{sub}:{sub}"
             elif moz_locale in self.po_to_mozilla["map"]:
+                # We've already met this, and encoded it in po-to-mozilla.toml
                 value = self.po_to_mozilla["map"][moz_locale]
                 values = [value] if type(value) is str else value
                 for locale in values:
                     yield locale_to_mozilla(locale)
             else:
+                # It's probably a new language
                 if warnings:
                     print(
                         f"Could not find {moz_locale} (from {po}), "
@@ -104,6 +125,9 @@ class LocaleDescriptions:
                 self.languages_not_found.add(moz_locale)
 
     def get_suggestions(self):
+        """
+        This encodes contribute/release_process/update_locale_descriptions#no-underscore
+        """
         if not self.languages_not_found:
             return
         valid_locales = ValidLocales()
@@ -112,10 +136,13 @@ class LocaleDescriptions:
         for lang in sorted(self.languages_not_found):
             locales = valid_locales.languages[lang]
             if len(locales) == 1:
+                # If there is a single locale for this language, then it's a no-brainer
                 locale = locales[0]
                 details = ", ".join(valid_locales.locales[locale])
                 suggested_add += f'{lang}="{locale_to_mozilla(locale)}"   # {details}\n'
             else:
+                # Otherwise, the RM must manually follow the process detailed in 
+                # in contribute/release_process/update_locale_descriptions.mdwn
                 others += f"{lang}: pick between\n"
                 for locale in locales:
                     details = ", ".join(valid_locales.locales[locale])
