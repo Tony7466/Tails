@@ -28,6 +28,7 @@ Style/Documentation:
     - 'spec/**/*'
     - 'test/**/*'
     - 'Rakefile'
+    - 'bin/custom-apt-cruft-check'
     - 'features/support/extra_hooks.rb'
     - 'features/support/helpers/chatbot_helper.rb'
     - 'features/support/helpers/display_helper.rb'
