@@ -8,7 +8,7 @@ from tailsgreeter.ui.popover import Popover, Union
 if TYPE_CHECKING:
     from tailsgreeter.ui.main_window import GreeterMainWindow
 
-gi.require_version('Gtk', '3.0')
+gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
 
@@ -17,6 +17,7 @@ SETTING_UI_FILE = "setting.ui"
 
 class GreeterSetting(object):
     """Base class of all settings in the greeter"""
+
     @property
     def id(self) -> str:
         return str()
@@ -49,7 +50,7 @@ class GreeterSetting(object):
         self.title_label.set_label(self.title)
 
         # Strip the underscore which marks the mnemonic
-        setting_name = self.title.replace('_', '', 1)
+        setting_name = self.title.replace("_", "", 1)
         # This is a hack to make the listboxrow usable in the Test Suite:
         # We configure a tooltip text which allows us to use it through
         # AT-SPI, but we set has_tooltip to false to not display that

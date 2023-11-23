@@ -8,14 +8,13 @@ from tailsgreeter.settings.formats import FormatsSetting
 from tailsgreeter.settings.keyboard import KeyboardSetting
 from tailsgreeter.settings.language import LanguageSetting
 
-gi.require_version('AccountsService', '1.0')
+gi.require_version("AccountsService", "1.0")
 from gi.repository import AccountsService
 
 
 class LocalisationSettings(object):
-    """Controller for localisation settings
+    """Controller for localisation settings"""
 
-    """
     def __init__(self, usermanager_loaded_cb: Callable):
         self._usermanager_loaded_cb = usermanager_loaded_cb
 
@@ -26,7 +25,8 @@ class LocalisationSettings(object):
 
         self._actusermanager = AccountsService.UserManager.get_default()
         self._actusermanager_loadedid = self._actusermanager.connect(
-            "notify::is-loaded",  self.__on_usermanager_loaded)
+            "notify::is-loaded", self.__on_usermanager_loaded
+        )
 
         self.language = LanguageSetting(locales)
         self.keyboard = KeyboardSetting()
@@ -38,8 +38,8 @@ class LocalisationSettings(object):
 
     @staticmethod
     def _get_locales() -> [str]:
-        with open(tailsgreeter.config.supported_locales_path, 'r') as f:
-            return [line.rstrip('\n') for line in f.readlines()]
+        with open(tailsgreeter.config.supported_locales_path, "r") as f:
+            return [line.rstrip("\n") for line in f.readlines()]
 
     def __on_usermanager_loaded(self, manager, pspec, data=None):
         logging.debug("Received AccountsManager signal is-loaded")

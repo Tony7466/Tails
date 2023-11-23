@@ -19,8 +19,7 @@ from gi.repository import Gio
 objects = []
 
 
-def connect_socket(family: socket.AddressFamily,
-                   address: str) -> int:
+def connect_socket(family: socket.AddressFamily, address: str) -> int:
     s = socket.socket(family=family, type=socket.SOCK_STREAM)
     objects.append(s)
     fd = s.fileno()

@@ -34,12 +34,12 @@ def get_time_dialog(initial_tz: Optional[str] = None):
     builder.add_from_file(tca.config.data_path + "time-dialog.ui")
     time_dialog = builder.get_object("dialog")  # noqa: N806
     if initial_tz:
-        builder.get_object('listbox_tz_label_value').set_text(initial_tz)
-    popover = TimezonePopover(builder, builder.get_object('listbox_tz_label_value'))
-    DEFAULT_TIMEZONE = 'UTC (Greenwich time)'
+        builder.get_object("listbox_tz_label_value").set_text(initial_tz)
+    popover = TimezonePopover(builder, builder.get_object("listbox_tz_label_value"))
+    DEFAULT_TIMEZONE = "UTC (Greenwich time)"
 
     def get_tz_name(_=None):
-        return builder.get_object('listbox_tz_label_value').get_text()
+        return builder.get_object("listbox_tz_label_value").get_text()
         # return tz_model.get_value(select_tz.get_active_iter(), 0)
 
     def get_date(_=None):
@@ -51,17 +51,17 @@ def get_time_dialog(initial_tz: Optional[str] = None):
         naive_dt = datetime.datetime(**spec)
         tz_name = get_tz_name()
         if tz_name == DEFAULT_TIMEZONE:
-            tz_name = 'UTC'
+            tz_name = "UTC"
         tz = pytz.timezone(tz_name)
         aware_dt = tz.localize(naive_dt)
         return aware_dt
 
     def cb_listbox_tz_clicked(*args):
-
         def on_close(popover, tzpopover):
             if tzpopover.value_changed_by_user:
-                builder.get_object('listbox_tz_label_value').set_text(tzpopover.value)
+                builder.get_object("listbox_tz_label_value").set_text(tzpopover.value)
             check_input_valid()
+
         popover.popover.open(on_close, popover)
 
     time_dialog.get_date = get_date
@@ -73,6 +73,7 @@ def get_time_dialog(initial_tz: Optional[str] = None):
 
         Let Apply be sensitive accordingly
         """
+
         def is_valid():
             if not time_dialog.get_tz_name():
                 return False
@@ -114,7 +115,7 @@ def get_time_dialog(initial_tz: Optional[str] = None):
         "clicked", lambda *_: time_dialog.response(Gtk.ResponseType.APPLY)
     )
 
-    builder.get_object('listbox_tz').connect("row-activated", cb_listbox_tz_clicked)
+    builder.get_object("listbox_tz").connect("row-activated", cb_listbox_tz_clicked)
 
     return time_dialog
 
@@ -179,7 +180,7 @@ class TimezonePopover:
         store = self.treestore_filtered
         first_item_iter: Gtk.TreeIter = store.get_iter_first()
 
-        if first_item_iter is None: # store is empty
+        if first_item_iter is None:  # store is empty
             return
 
         # Right now, this is always true. But if we add UTC again,
@@ -187,11 +188,8 @@ class TimezonePopover:
         if store.iter_has_child(first_item_iter):
             first_item_iter = store.iter_nth_child(first_item_iter, 0)
 
-
         first_item_path: Gtk.TreePath = store.get_path(first_item_iter)
-        self.treeview.row_activated(
-            first_item_path, self.treeview.get_column(0)
-        )
+        self.treeview.row_activated(first_item_path, self.treeview.get_column(0))
 
     def cb_searchentry_search_changed(self, searchentry, user_data=None):
         self.treestore_filtered.refilter()
@@ -217,7 +215,7 @@ class TimezonePopover:
         self.popover.close(Gtk.ResponseType.YES)
 
     def cb_liststore_filtered_visible_func(self, model, treeiter, searchentry):
-        search_query = searchentry.get_text().replace(' ', '_').lower()
+        search_query = searchentry.get_text().replace(" ", "_").lower()
         value = model.get_value(treeiter, 0)
 
         def matcher(v: str):

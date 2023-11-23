@@ -17,17 +17,19 @@ def _get_proxy():
     bus = Gio.DBusConnection.new_sync(
         socket_connection,
         None,
-        Gio.DBusConnectionFlags.NONE |
-        Gio.DBusConnectionFlags.MESSAGE_BUS_CONNECTION,
+        Gio.DBusConnectionFlags.NONE | Gio.DBusConnectionFlags.MESSAGE_BUS_CONNECTION,
         None,
         None,
     )  # type: Gio.DBusConnection
 
     return Gio.DBusProxy.new_sync(
-        bus, Gio.DBusProxyFlags.NONE, None,
+        bus,
+        Gio.DBusProxyFlags.NONE,
+        None,
         TPS_DBUS_SERVICE_NAME,
         TPS_DBUS_ROOT_OBJECT_PATH,
-        TPS_DBUS_SERVICE_INTERFACE, None,
+        TPS_DBUS_SERVICE_INTERFACE,
+        None,
     )  # type: Gio.DBusProxy
 
 

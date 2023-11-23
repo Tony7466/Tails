@@ -1,7 +1,7 @@
 import gi
 from typing import Callable, Union
 
-gi.require_version('Gtk', '3.0')
+gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
 
@@ -27,7 +27,7 @@ class Popover(object):
     def open(self, closed_cb: Callable, user_data=None):
         self.closed_cb = closed_cb
         self.closed_cb_user_data = user_data
-        self.closed_signal_handler = self.widget.connect('closed', self.on_closed)
+        self.closed_signal_handler = self.widget.connect("closed", self.on_closed)
         self.widget.set_visible(True)
         if self.opened_cb:
             self.opened_cb(self, self.opened_cb_user_data)
