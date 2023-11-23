@@ -414,6 +414,10 @@ Then(/^the screen keyboard works in Tor Browser$/) do
   end
   step 'I start the Tor Browser'
   step 'I open a new tab in the Tor Browser'
+  # When opening a new tab the address bar's entry is focused which
+  # should show the OSK, but it doesn't. Dogtail's .grabFocus doesn't
+  # trigger it either.
+  @screen.click(xul_application_info('Tor Browser')[:address_bar_image])
   @screen.wait('ScreenKeyboard.png', 20)
   @screen.wait_any(osk_key_images, 20).click
   @screen.wait(browser_bar_x, 20)
