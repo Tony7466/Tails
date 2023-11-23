@@ -35,7 +35,6 @@ import gi
 from gi.repository import GLib
 
 import whisperBack.encryption
-# Import our modules
 import whisperBack.exceptions
 import whisperBack.mail
 import whisperBack.utils
