@@ -70,7 +70,7 @@ International](https://www.amnesty.org/) and [OCCRP](https://www.occrp.org/),
 digital security trainers who support human rights defenders in Afghanistan,
 Syria, and Uganda, environmental activists from [Les Soulèvements de la
 Terre](https://lessoulevementsdelaterre.org/) who are criminalized by their
-government, organizations who create safe whistleblowing platforms like [Secure
+government, organizations that create safe whistleblowing platforms like [Secure
 Drop](https://securedrop.org/) and [MexicoLeaks](https://mexicoleaks.mx/),
 independent journalists who investigate state surveillance, online crime,
 sexual violence, and so on.
@@ -93,7 +93,7 @@ alternatives for those who really can't afford to register with a phone number.
 
 Having another browser that uses a VPN instead of Tor would also be very useful
 in Tails as a way of working around the limitations of the Tor network. VPNs
-have higher speed and lower latency, are not blocked as much as Tor by websites,
+have higher speed and lower latency, are not blocked by websites as much as Tor is,
 support videoconferencing tools, have fewer CAPTCHAs, and allow choosing your
 exit country.
 
@@ -104,8 +104,24 @@ What we're reading
 
 *<a href="https://www.mountholyokenews.com/campus-life/2023/10/30/letter-to-the-editors-highlighting-the-history-of-palestinian-liberatory-art-and-its-censorship">Humanity is the Key</a>, mural by Palestinian-American muralist Chris Gazaleh*
 
-We stand in solidarity with the resistance of Palestinians against Israeli apartheid, colonial theft of lands, and genocidal violence. Violent and necropolitical technologies deployed by the global state-military complex instrumentalize Israel's occupation of Palestine. [Read about Elbit Systems](https://www.wrmea.org/2019-august-september/elbit-systems-bringing-israeli-apartheid-to-the-u.s.-mexican-border.html), the Israeli weapons manufacturer digitizing borders from occupied Palestine to [Mexico](https://theintercept.com/2019/08/25/border-patrol-israel-elbit-surveillance/).
+- We stand in solidarity with the resistance of Palestinians against Israeli
+  apartheid, colonial theft of lands, and genocidal violence. Violent and
+  necropolitical technologies deployed by the global state-military complex
+  instrumentalize Israel's occupation of Palestine. [Read about Elbit
+  Systems](https://www.wrmea.org/2019-august-september/elbit-systems-bringing-israeli-apartheid-to-the-u.s.-mexican-border.html),
+  the Israeli weapons manufacturer digitizing borders from occupied Palestine
+  to [Mexico](https://theintercept.com/2019/08/25/border-patrol-israel-elbit-surveillance/).
 
-The Internet is shaped by many competing forces, but none as brutish as those wielded by authoritarian governments. The Indian government has taken it upon itself to develop a playbook for repressive regimes. Here's a [series of stories](https://www.dailydot.com/modis-internet/) showcasing how pervasive this power is. Nineteen Eighty-Four, hold my beer.
+- The Internet is shaped by many competing forces, but none as brutish as those
+  wielded by authoritarian governments. The Indian government has taken it upon
+  itself to develop a playbook for repressive regimes. Here's a [series of
+  stories](https://www.dailydot.com/modis-internet/) showcasing how pervasive
+  this power is. Nineteen Eighty-Four, hold my beer.
 
-In our last newsletter, we wrote about the Online Safety Bill (OSB) in the United Kingdom. As was the case with the OSB, and is with many other policy proposals, they all seek to weaken encryption to protect children from exploitation and abuse online. Wondering who benefits from this narrative, I found an answer [here](https://balkaninsight.com/2023/09/25/who-benefits-inside-the-eus-fight-over-scanning-for-child-sex-content/). Spoiler: it's not the children.
+- In our last newsletter, we wrote about the Online Safety Bill (OSB) in the
+  United Kingdom. As was the case with the OSB, and is with many other policy
+  proposals, they all seek to weaken encryption to protect children from
+  exploitation and abuse online. Wondering who benefits from this narrative, I
+  found an answer
+  [here](https://balkaninsight.com/2023/09/25/who-benefits-inside-the-eus-fight-over-scanning-for-child-sex-content/).
+  Spoiler: it's not the children.
