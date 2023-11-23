@@ -41,8 +41,8 @@ def click_gnome_shell_notification_button(title)
   # so Dogtail is unable to click it directly. We let it grab focus
   # and activate it via the keyboard instead.
   Dogtail::Application.new('gnome-shell')
-    .child(title, roleName: 'push button')
-    .grabFocus
+                      .child(title, roleName: 'push button')
+                      .grabFocus
   @screen.press('Return')
 end
 

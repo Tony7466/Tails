@@ -42,7 +42,8 @@ module Dogtail
       init = []
       if @opts[:user] == LIVE_USER
         cmd = 'dbus-send --print-reply=literal --session --dest=org.a11y.Bus /org/a11y/bus org.a11y.Bus.GetAddress'
-        c = RemoteShell::ShellCommand.new($vm, cmd, user: @opts[:user], debug_log: false)
+        c = RemoteShell::ShellCommand.new($vm, cmd, user:      @opts[:user],
+                                                    debug_log: false)
         if c.returncode != 0
           raise Failure, "dbus-send exited with exit code #{c.returncode}"
         end
@@ -65,7 +66,7 @@ module Dogtail
       code = [
         "#{@var} = #{@find_code}",
       ]
-      run(code, init: init)
+      run(code, init:)
     end
 
     def to_s
@@ -75,7 +76,8 @@ module Dogtail
     def run(code, init: nil)
       if init
         init = init.join("\n") if init.instance_of?(Array)
-        c = RemoteShell::PythonCommand.new($vm, init, user: @opts[:user], debug_log: false)
+        c = RemoteShell::PythonCommand.new($vm, init, user:      @opts[:user],
+                                                      debug_log: false)
         if c.failure?
           msg = "The Dogtail init script raised: #{c.exception}\nSTDOUT:\n#{c.stdout}\nSTDERR:\n#{c.stderr}\n"
           raise Failure, msg
@@ -161,7 +163,7 @@ module Dogtail
       end
       findChildren_opts = ''
       unless findChildren_opts_hash.empty?
-        findChildren_opts = ', ' + self.class.args_to_s(**findChildren_opts_hash)
+        findChildren_opts = ", #{self.class.args_to_s(**findChildren_opts_hash)}"
       end
       predicate_opts = self.class.args_to_s(*args, **kwargs)
       nodes_var = "nodes#{@@node_counter += 1}"
@@ -303,10 +305,10 @@ module Dogtail
       Node.new("#{@var}.parent", **@opts)
     end
 
-    def get_text_selection_range(**kwargs)
+    def get_text_selection_range(**_kwargs)
       # Assumes there is only one text selection
       run("#{@var}.queryText().getSelection(0)").stdout.chomp
-        .match(/\((\d+), (\d+)\)/).captures.map { |s| s.to_i }
+                                                .match(/\((\d+), (\d+)\)/).captures.map(&:to_i)
     end
   end
 
@@ -365,7 +367,7 @@ module Dogtail
     end
 
     def position
-      get_field('position')[1...-1].split(', ').map { |str| str.to_i }
+      get_field('position')[1...-1].split(', ').map(&:to_i)
     end
   end
 end

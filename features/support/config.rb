@@ -3,7 +3,7 @@ require 'resolv'
 require 'yaml'
 require "#{Dir.pwd}/features/support/helpers/misc_helpers.rb"
 
-TRUE_VALUES = ['1', 'y', 'yes', 'true']
+TRUE_VALUES = ['1', 'y', 'yes', 'true'].freeze
 def config_bool(name)
   value = $config[name]
 

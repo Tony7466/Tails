@@ -57,7 +57,7 @@ module RemoteShell
           next
         end
         if line_init != '['
-          line_init = '[' + line_init
+          line_init = "[#{line_init}"
         end
         line = line_init + socket.readline("\n").chomp("\n")
         response_id, status, *rest = JSON.parse(line)
@@ -205,7 +205,7 @@ module RemoteShell
   class File
     def self.open(vm, mode, path, *args, **opts)
       debug_log("opening file #{path} in '#{mode}' mode")
-      ret = RemoteShell.communicate(vm, 'file_' + mode, path, *args, **opts)
+      ret = RemoteShell.communicate(vm, "file_#{mode}", path, *args, **opts)
       if ret.size != 1
         raise ServerFailure, "expected 1 value but got #{ret.size}"
       end

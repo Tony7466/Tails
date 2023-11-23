@@ -46,7 +46,7 @@ def post_snapshot_restore_hook(snapshot_name, num_try)
       raise 'Failed to restore snapshot'
     end
 
-    debug_log(scenario_indent + 'Failed to restore snapshot, retrying...',
+    debug_log("#{scenario_indent}Failed to restore snapshot, retrying...",
               color: :yellow, timestamp: false)
     reach_checkpoint(snapshot_name, num_try + 1)
     return
@@ -103,7 +103,7 @@ end
 Given /^I (temporarily )?create an? (\d+) ([[:alpha:]]+) (?:([[:alpha:]]+) )?disk named "([^"]+)"$/ do |temporary, size, unit, type, name|
   type ||= 'qcow2'
   begin
-    $vm.storage.create_new_disk(name, size: size, unit: unit, type: type)
+    $vm.storage.create_new_disk(name, size:, unit:, type:)
   rescue NoSpaceLeftError => e
     cmd = "du -ah \"#{$config['TMPDIR']}\" | sort -hr | head -n20"
     info_log("#{cmd}\n" + `#{cmd}`)
@@ -771,8 +771,8 @@ end
 
 def open_gnome_menu(name)
   Dogtail::Application.new('gnome-shell')
-    .child(name, roleName: 'menu')
-    .grabFocus
+                      .child(name, roleName: 'menu')
+                      .grabFocus
   @screen.press('Return')
 end
 
@@ -871,7 +871,7 @@ When /^the file "([^"]+)" has the content "([^"]+)"$/ do |file, content|
 end
 
 When /^I copy "([^"]+)" to "([^"]+)" as user "([^"]+)"$/ do |source, destination, user|
-  c = $vm.execute("cp \"#{source}\" \"#{destination}\"", user: user)
+  c = $vm.execute("cp \"#{source}\" \"#{destination}\"", user:)
   assert(c.success?, "Failed to copy file:\n#{c.stdout}\n#{c.stderr}")
 end
 
@@ -938,7 +938,7 @@ Given /^I start "([^"]+)" via GNOME Activities Overview$/ do |app_name|
   # our search sometimes returns no results at all.
   sleep 2
   # Type the rest of the search query
-  @screen.type(app_name[1..-1])
+  @screen.type(app_name[1..])
   sleep 4
   @screen.press('ctrl', 'Return')
   if language_has_non_latin_input_source($language)
@@ -1099,8 +1099,8 @@ When /^AppArmor has (not )?denied "([^"]+)" from opening "([^"]+)"$/ do |anti_te
          "'I monitor the AppArmor log of ...' step")
   audit_line_regex = format(
     'apparmor="DENIED" operation="open" profile="%<profile>s" name="%<file>s"',
-    profile: profile,
-    file:    file
+    profile:,
+    file:
   )
   begin
     try_for(10, delay: 1) do
@@ -1380,7 +1380,8 @@ def save_qrcode(str)
   qrencode_output_file = Tempfile.create('qrcode', $config['TMPDIR'])
   qrencode_output_file.close
   output_file = "#{qrencode_output_file.path}.jpg"
-  cmd_helper(['qrencode', '-o', qrencode_output_file.path, '--size=5', '--margin=5', str])
+  cmd_helper(['qrencode', '-o', qrencode_output_file.path, '--size=5', '--margin=5',
+              str,])
   assert(File.exist?(qrencode_output_file.path))
   cmd_helper(['convert', qrencode_output_file.path, output_file])
   assert(File.exist?(output_file))
@@ -1426,6 +1427,6 @@ Given /^I write (|an old version of )the Tails (ISO|USB) image to disk "([^"]+)"
 end
 
 Then /^running "([^"]+)" as user "([^"]+)" succeeds$/ do |command, user|
-  c = $vm.execute(command, user: user)
+  c = $vm.execute(command, user:)
   assert(c.success?, "Failed to run command:\n#{c.stdout}\n#{c.stderr}")
 end

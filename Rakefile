@@ -84,7 +84,7 @@ def capture_command(*args, **kwargs)
   if proc_status.exitstatus != 0
     raise CommandError.new("command #{args}, #{kwargs} failed with exit status " \
                            '%<status>s: %<stderr>s',
-                           stderr: stderr, status: proc_status.exitstatus)
+                           stderr:, status: proc_status.exitstatus)
   end
   [stdout, stderr]
 end
@@ -441,8 +441,7 @@ task merge_base_branch: ['parse_build_options', 'setup_environment'] do
 
   ENV['GIT_COMMIT'] = git_helper('git_current_commit')
   ENV['FEATURE_BRANCH_GIT_COMMIT'] = commit_before_merge
-  ENV['TAILS_BUILD_OPTIONS'] = (ENV['TAILS_BUILD_OPTIONS'] || '') + \
-                               ' nomergebasebranch'
+  ENV['TAILS_BUILD_OPTIONS'] = "#{ENV['TAILS_BUILD_OPTIONS'] || ''} nomergebasebranch"
   Kernel.exec('rake', *ARGV)
 end
 

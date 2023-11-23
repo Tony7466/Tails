@@ -97,8 +97,7 @@ Then /^the firewall is configured to only allow the (.+) users? to connect direc
       if action.name == 'ACCEPT'
         # nil == 0.0.0.0/0 according to iptables-xml
         assert(destination == '0.0.0.0/0' || destination.nil?,
-               "The following rule has an unexpected destination:\n" +
-               rule.to_s)
+               "The following rule has an unexpected destination:\n#{rule}")
         state_cond = try_xml_element_text(rule, 'conditions/state/state')
         next if state_cond == 'ESTABLISHED'
 
@@ -135,7 +134,8 @@ Then /^the firewall's NAT rules only redirect traffic for the Unsafe Browser, To
   dns_port = '53'
   tor_dns_port = '5353'
   ip4tables_chains('nat') do |name, _, rules|
-    if name == 'OUTPUT'
+    case name
+    when 'OUTPUT'
       good_rules = rules.select do |rule|
         redirect = rule.get_elements('actions/*').all? do |action|
           action.name == 'REDIRECT'
@@ -157,7 +157,7 @@ Then /^the firewall's NAT rules only redirect traffic for the Unsafe Browser, To
       assert(bad_rules.empty?,
              "The NAT table's OUTPUT chain contains some unexpected " \
              "rules:\n#{bad_rules}")
-    elsif name == 'POSTROUTING'
+    when 'POSTROUTING'
       assert_equal(1, rules.size)
       rule = rules.first
       source = try_xml_element_text(rule, 'conditions/match/s')
@@ -209,9 +209,7 @@ end
 
 When /^I open an untorified (TCP|UDP|ICMP) connection to (\S*)(?: on port (\d+))?$/ do |proto, host, port|
   assert(!firewall_has_dropped_packet_to?(proto, host, port),
-         "A #{proto} packet to #{host}" +
-         (port.nil? ? '' : ":#{port}") +
-         ' has already been dropped by the firewall')
+         "A #{proto} packet to #{host}#{port.nil? ? '' : ":#{port}"} has already been dropped by the firewall")
   @conn_proto = proto
   @conn_host = host
   @conn_port = port
@@ -228,7 +226,7 @@ When /^I open an untorified (TCP|UDP|ICMP) connection to (\S*)(?: on port (\d+))
     cmd = "ping -c 5 #{host}"
     user = 'root'
   end
-  @conn_res = $vm.execute(cmd, user: user)
+  @conn_res = $vm.execute(cmd, user:)
 end
 
 Then /^the untorified connection fails$/ do
@@ -247,9 +245,7 @@ end
 
 Then /^the untorified connection is logged as dropped by the firewall$/ do
   assert(firewall_has_dropped_packet_to?(@conn_proto, @conn_host, @conn_port),
-         "No #{@conn_proto} packet to #{@conn_host}" +
-         (@conn_port.nil? ? '' : ":#{@conn_port}") +
-         ' was dropped by the firewall')
+         "No #{@conn_proto} packet to #{@conn_host}#{@conn_port.nil? ? '' : ":#{@conn_port}"} was dropped by the firewall")
 end
 
 When /^the system DNS is(?: still)? using the local DNS resolver$/ do
@@ -258,8 +254,7 @@ When /^the system DNS is(?: still)? using the local DNS resolver$/ do
     !line.start_with?('#') && !/^nameserver\s+127\.0\.0\.1$/.match(line)
   end
   assert_empty(bad_lines,
-               "The following bad lines were found in /etc/resolv.conf:\n" +
-               bad_lines.join("\n"))
+               "The following bad lines were found in /etc/resolv.conf:\n#{bad_lines.join("\n")}")
 end
 
 STREAM_ISOLATION_INFO = {
@@ -390,10 +385,10 @@ Then /^the Tor Connection Assistant connects to Tor$/ do
     else
       done = tor_connection_assistant.child?(
         'Connected to Tor successfully', roleName: 'label',
-        retry: false
+                                         retry:    false
       ) || tor_connection_assistant.child?(
         'Connected to Tor successfully with bridges', roleName: 'label',
-        retry: false
+                                                      retry:    false
       )
     end
     done
@@ -438,7 +433,7 @@ def tca_configure(mode, connect: true, &block)
     # @allowed_dns_queries is already initialized, and the corresponding add_extra_allowed_hosts have already been
     # called
     unless @allowed_dns_queries && !@allowed_dns_queries.empty?
-      @allowed_dns_queries = [CONNECTIVITY_CHECK_HOSTNAME + '.']
+      @allowed_dns_queries = ["#{CONNECTIVITY_CHECK_HOSTNAME}."]
       Resolv.getaddresses(CONNECTIVITY_CHECK_HOSTNAME).each do |ip|
         add_extra_allowed_host(ip, 80)
       end
@@ -520,27 +515,27 @@ def chutney_bridges(bridge_type, chutney_tag: nil)
       # picked randomly so an already used port is not picked --
       # Chutney already has issues with that for OrPort selection.
       pt_re = /Registered server transport '#{bridge_type}' at '[^']*:(\d+)'/
-      File.open(bridge_dir + '/notice.log') do |f|
+      File.open("#{bridge_dir}/notice.log") do |f|
         pt_lines = f.grep(pt_re)
         port = pt_lines.last.match(pt_re)[1]
       end
       if bridge_type == 'obfs4'
-        File.open(bridge_dir + '/pt_state/obfs4_bridgeline.txt') do |f|
+        File.open("#{bridge_dir}/pt_state/obfs4_bridgeline.txt") do |f|
           extra = f.readlines.last.chomp.sub(/^.* cert=/, 'cert=')
         end
       end
     end
-    File.open(bridge_dir + '/fingerprint') do |f|
+    File.open("#{bridge_dir}/fingerprint") do |f|
       fingerprint = f.read.chomp.split.last
     end
-    bridge_line = bridge_type + ' ' + address + ':' + port
-    [fingerprint, extra].each { |e| bridge_line += ' ' + e.to_s if e }
+    bridge_line = "#{bridge_type} #{address}:#{port}"
+    [fingerprint, extra].each { |e| bridge_line += " #{e}" if e }
     {
       type:        bridge_type,
-      address:     address,
+      address:,
       port:        port.to_i,
-      fingerprint: fingerprint,
-      extra:       extra,
+      fingerprint:,
+      extra:,
       line:        bridge_line,
     }
   end
@@ -570,7 +565,7 @@ def setup_qrcode_bridges_on_webcam(bridges)
   $vm.execute_successfully('modprobe v4l2loopback')
   qrcode_image = save_qrcode(
     '[' + \
-    bridges.map { |bridge| "'" + bridge[:line] + "'" }
+    bridges.map { |bridge| "'#{bridge[:line]}'" }
       .join(', ') + \
     ']'
   )
@@ -595,7 +590,7 @@ When /^I configure (?:some|the) (persistent )?(\w+) bridges (from a QR code )?in
 
   # XXX: giving up on a few worst offenders for now
   # rubocop:disable Metrics/BlockLength
-  tca_configure(config_mode, connect: connect) do
+  tca_configure(config_mode, connect:) do
     @user_wants_pluggable_transports = bridge_type != 'bridge'
     debug_log('user_wants_pluggable_transports = '\
               "#{@user_wants_pluggable_transports}")
@@ -899,7 +894,7 @@ Then /^all Internet traffic has only flowed through (Tor|the \w+ bridges)( or (?
       # connectivity check service
       allowed_hosts << { address: $vmnet.bridge_ip_addr, port: 53 }
       allowed_hosts += CONNECTIVITY_CHECK_ALLOWED_NODES
-      allowed_dns_queries = [CONNECTIVITY_CHECK_HOSTNAME + '.']
+      allowed_dns_queries = ["#{CONNECTIVITY_CHECK_HOSTNAME}."]
     end
 
   else
@@ -947,7 +942,7 @@ Given /^the Tor network( and default bridges)? (?:is|are) (un)?blocked$/ do |def
                                   port)
     unless unblock
       $vm.file_append('/etc/NetworkManager/dispatcher.d/00-firewall.sh',
-                      command + "\n")
+                      "#{command}\n")
     end
   end
   if unblock
@@ -975,13 +970,13 @@ Then /^Tor is configured to use the default bridges$/ do
 
   not_default = current_bridges - default_bridges
   not_default_text = not_default.to_a.join("\n")
-  assert(not_default.empty?, "Some current bridges are not default ones:\n#{not_default_text}")
+  assert(not_default.empty?,
+         "Some current bridges are not default ones:\n#{not_default_text}")
 end
 
 Then /^Tor is using the same configuration as before$/ do
   assert(@tor_success_configs.size >= 2,
-         'We need at least two configs to compare but have only ' +
-         @tor_success_configs.size.to_s)
+         "We need at least two configs to compare but have only #{@tor_success_configs.size}")
   assert_equal(
     @tor_success_configs[-2],
     @tor_success_configs[-1]

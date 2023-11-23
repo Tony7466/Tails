@@ -110,12 +110,12 @@ def save_failure_artifact(desc, path)
 end
 
 def record_scenario_skipped(scenario)
-  destfile = ARTIFACTS_DIR + '/skipped.txt'
+  destfile = "#{ARTIFACTS_DIR}/skipped.txt"
   File.open(destfile, 'a') { |f| f.write("#{scenario.location}\n") }
 end
 
 def _save_vm_file_content(file:, destfile:, desc:)
-  destfile = $config['TMPDIR'] + '/' + destfile
+  destfile = "#{$config['TMPDIR']}/#{destfile}"
   File.open(destfile, 'w') { |f| f.write($vm.file_content(file)) }
   save_failure_artifact(desc, destfile)
 rescue StandardError => e
@@ -153,8 +153,8 @@ end
 
 def save_vm_file_content(file, desc: nil)
   _save_vm_file_content(
-    file:     file,
-    destfile: 'artifact.file_content_' + file.gsub('/', '_').sub(/^_/, ''),
+    file:,
+    destfile: "artifact.file_content_#{file.gsub('/', '_').sub(/^_/, '')}",
     desc:     desc || "Content of #{file}"
   )
 end
@@ -171,7 +171,7 @@ end
 # snapshot, it will not remain after the snapshot is loaded.
 def add_extra_allowed_host(ipaddr, port)
   @extra_allowed_hosts ||= []
-  @extra_allowed_hosts << { address: ipaddr, port: port }
+  @extra_allowed_hosts << { address: ipaddr, port: }
 end
 
 def add_dns_to_extra_allowed_host
@@ -289,7 +289,7 @@ end
 # truly be last.
 After('@product') do |scenario|
   # we want this to always exist, even if it's empty
-  FileUtils.touch(ARTIFACTS_DIR + '/skipped.txt')
+  FileUtils.touch("#{ARTIFACTS_DIR}/skipped.txt")
 
   if @video_capture_pid
     # We can be incredibly fast at detecting errors sometimes, so the
@@ -321,7 +321,9 @@ After('@product') do |scenario|
     elsif scenario.exception.is_a?(TestSuiteRuntimeError)
       info_log("Scenario must be retried: #{scenario.name}")
       record_scenario_skipped(scenario)
-    elsif [TorBootstrapFailure, TimeSyncingError].any? { |c| scenario.exception.is_a?(c) }
+    elsif [TorBootstrapFailure, TimeSyncingError].any? do |c|
+            scenario.exception.is_a?(c)
+          end
       save_tor_journal
       save_failure_artifact('Tor logs', "#{$config['TMPDIR']}/log.tor")
       if File.exist?("#{$config['TMPDIR']}/chutney-data")

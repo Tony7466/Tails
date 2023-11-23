@@ -193,21 +193,24 @@ When /^I (install|reinstall|upgrade) Tails( with Persistent Storage)? (?:to|on) 
   # "Clone the current Persistent Storage (requires reinstall)".
   begin
     clone_persistence_button = @installer
-                                 .child('Clone the current Persistent Storage.*',
-                                        roleName: 'check box',
-                                        retry:    false)
+                               .child('Clone the current Persistent Storage.*',
+                                      roleName: 'check box',
+                                      retry:    false)
     sensitive = clone_persistence_button.sensitive
   rescue Dogtail::Failure
     sensitive = false
   end
   if tps_is_created
-    assert(sensitive, "Couldn't find clone Persistent Storage check button (even though a Persistent Storage exists)")
+    assert(sensitive,
+           "Couldn't find clone Persistent Storage check button (even though a Persistent Storage exists)")
   else
-    assert(!sensitive, 'Found clone Persistent Storage check button (even though no Persistent Storage exists)')
+    assert(!sensitive,
+           'Found clone Persistent Storage check button (even though no Persistent Storage exists)')
   end
 
   if with_persistence
-    assert(sensitive, "Can't clone with Persistent Storage: Clone button is not sensitive")
+    assert(sensitive,
+           "Can't clone with Persistent Storage: Clone button is not sensitive")
     clone_persistence_button.click
   end
 
@@ -258,8 +261,7 @@ When /^I (install|reinstall|upgrade) Tails( with Persistent Storage)? (?:to|on) 
       true
     end
   rescue StandardError => e
-    debug_log("Tails Installer debug log:\n" +
-              $vm.file_content(@installer_log_path))
+    debug_log("Tails Installer debug log:\n#{$vm.file_content(@installer_log_path)}")
     raise e
   end
 end
@@ -508,7 +510,7 @@ end
 
 def tails_is_installed_helper(name, tails_root, loader)
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
   check_disk_integrity(name, disk_dev, 'gpt')
   check_part_integrity(name, part_dev, 'filesystem', 'vfat',
                        part_label: 'Tails', part_type: ESP_GUID)
@@ -1059,7 +1061,7 @@ Then /^only the expected files are present on the persistence partition on USB d
     end
     assert_not_nil(partition, "Could not find the 'TailsData' partition " \
                               "on disk '#{disk_handle}'")
-    luks_mapping = File.basename(partition) + '_unlocked'
+    luks_mapping = "#{File.basename(partition)}_unlocked"
     g.cryptsetup_open(partition, @persistence_password, luks_mapping)
     luks_dev = "/dev/mapper/#{luks_mapping}"
     mount_point = '/'
@@ -1073,8 +1075,7 @@ Then /^only the expected files are present on the persistence partition on USB d
              "Could not find expected file in persistent directory #{dir}")
       assert(
         g.exists("/#{dir}/XXX_gone") != 1,
-        'Found file that should not have persisted in persistent directory ' +
-        dir
+        "Found file that should not have persisted in persistent directory #{dir}"
       )
     end
     g.umount(mount_point)
@@ -1203,7 +1204,7 @@ Given /^the file system changes introduced in version (.+) are (not )?present(?:
       path += "var/lib/#{chroot_browser}/chroot/" if chroot_browser
       path += change[:path]
     when :medium
-      path = '/lib/live/mount/medium/' + change[:path]
+      path = "/lib/live/mount/medium/#{change[:path]}"
     else
       raise "Unknown filesystem '#{change[:filesystem]}'"
     end
@@ -1300,7 +1301,7 @@ Given /^Tails is fooled to think a (.+) SquashFS delta is installed$/ do |versio
   new_squash = "#{version}.squashfs"
   $vm.execute_successfully("mount -o remount,rw #{medium}")
   $vm.execute_successfully("touch #{live}/#{new_squash}")
-  $vm.file_append("#{live}/Tails.module", new_squash + "\n")
+  $vm.file_append("#{live}/Tails.module", "#{new_squash}\n")
   $vm.execute_successfully("mount -o remount,ro #{medium}")
   assert_equal(
     old_squashes + [new_squash],
@@ -1368,7 +1369,7 @@ end
 Then /^the label of the system partition on "([^"]+)" is "([^"]+)"$/ do |name, label|
   assert($vm.running?)
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
   check_disk_integrity(name, disk_dev, 'gpt')
   check_part_integrity(name, part_dev, 'filesystem', 'vfat', part_label: label)
 end
@@ -1376,7 +1377,7 @@ end
 Then /^the system partition on "([^"]+)" is an EFI system partition$/ do |name|
   assert($vm.running?)
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
   check_disk_integrity(name, disk_dev, 'gpt')
   check_part_integrity(name, part_dev, 'filesystem', 'vfat',
                        part_type: ESP_GUID)
@@ -1387,7 +1388,7 @@ Then /^the FAT filesystem on the system partition on "([^"]+)" is at least (\d+)
   wanted_size = convert_to_bytes(size.to_i, unit)
 
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
 
   udisks_info = $vm.execute_successfully(
     "udisksctl info --block-device #{part_dev}"
@@ -1412,7 +1413,7 @@ end
 
 Then /^the UUID of the FAT filesystem on the system partition on "([^"]+)" was randomized$/ do |name|
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
 
   # Get the UUID from the block area:
   udisks_info = $vm.execute_successfully(
@@ -1429,7 +1430,7 @@ end
 
 Then /^the label of the FAT filesystem on the system partition on "([^"]+)" is "([^"]+)"$/ do |name, label|
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
 
   # Get FS label from the block area:
   udisks_info = $vm.execute_successfully(
@@ -1446,7 +1447,7 @@ end
 
 Then /^the system partition on "([^"]+)" has the expected flags$/ do |name|
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
 
   # Look at the flags from the partition area:
   udisks_info = $vm.execute_successfully(
@@ -1470,8 +1471,7 @@ Given /^I install a Tails USB image to the (\d+) MiB disk with GNOME Disks$/ do 
     convert_to_bytes(size_in_MiB_of_destination_disk.to_i, 'MiB'),
     'GB'
   ).round(1).to_s
-  debug_log('Expected size of destination disk: ' +
-            size_in_GB_of_destination_disk)
+  debug_log("Expected size of destination disk: #{size_in_GB_of_destination_disk}")
 
   step 'I start "Disks" via GNOME Activities Overview'
   disks = gnome_disks_app

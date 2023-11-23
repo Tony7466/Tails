@@ -22,7 +22,9 @@ end
 
 Then /^no experimental APT suite is enabled for deb[.]torproject[.]org$/ do
   # apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd.onion == deb.torproject.org
-  assert_no_match(/apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd[.]onion.*experimental/, apt_sources)
+  assert_no_match(
+    /apow7mjfryruh65chtdydfmqfpj5btws7nbocgtaovhvezgccyjazpqd[.]onion.*experimental/, apt_sources
+  )
 end
 
 Then /^if releasing, the tagged Tails APT source is enabled$/ do

@@ -15,7 +15,7 @@ def assert_all_keys_are_valid_for_n_months(type, months)
   cmd  = type == :OpenPGP ? 'gpg'     : 'apt-key adv'
   user = type == :OpenPGP ? LIVE_USER : 'root'
   keys = $vm.execute_successfully(
-    "#{cmd} --batch --with-colons --fingerprint --list-key", user: user
+    "#{cmd} --batch --with-colons --fingerprint --list-key", user:
   ).stdout
             .scan(/^fpr:::::::::([A-Z0-9]+):$/)
             .flatten
@@ -68,7 +68,7 @@ def key_valid_for_n_months?(type, fingerprint, months)
   list_options = '--list-options show-unusable-subkeys'
 
   key_description = $vm.execute_successfully(
-    "#{cmd} --batch  #{list_options} --list-key #{fingerprint}", user: user
+    "#{cmd} --batch  #{list_options} --list-key #{fingerprint}", user:
   ).stdout.split("\n")
 
   masterkey = key_description.grep(/^pub\b/)
@@ -231,8 +231,7 @@ Then /^Tor is (not )?confined with Seccomp$/ do |not_confined|
     '/usr/local/lib/tor_variable get --type=conf Sandbox'
   ).stdout.to_i
   assert_equal(expected_sandbox_status, sandbox_status,
-               'Tor says that the sandbox is ' +
-               (sandbox_status == 1 ? 'enabled' : 'disabled'))
+               "Tor says that the sandbox is #{sandbox_status == 1 ? 'enabled' : 'disabled'}")
   # tor's Seccomp status will always be 2 (filter mode), even with
   # "Sandbox 0", but let's still make sure that is the case.
   seccomp_status = get_seccomp_status('tor')

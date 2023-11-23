@@ -247,7 +247,7 @@ def save_tor_journal
     )
     file.write("Tor Journal\n")
     file.write("===========\n")
-    file.write($vm.file_content('/tmp/tor.journal') + "\n")
+    file.write("#{$vm.file_content('/tmp/tor.journal')}\n")
   end
 end
 
@@ -384,15 +384,15 @@ end
 
 def pause(message = 'Paused')
   notify_user(message)
-  STDERR.puts
+  $stderr.puts
   warn message
   # Ring the ASCII bell for a helpful notification in most terminal
   # emulators.
-  STDOUT.write "\a"
-  STDERR.puts
+  $stdout.write "\a"
+  $stderr.puts
   loop do
     warn 'Return/q: Continue; d: Debugging REPL'
-    c = STDIN.getch
+    c = $stdin.getch
     case c
     when 'q', "\r", 3.chr # Ctrl+C => 3
       return
@@ -506,7 +506,8 @@ def drop_markup(str)
 end
 
 # We discard unused keyword parameters by adding `**_` to the definition
-def translate(str, translation_domain: nil, drop_accelerator: true, drop_markup: true, **_)
+def translate(str, translation_domain: nil, drop_accelerator: true, drop_markup: true,
+              **_)
   rv = if $lang_code.empty? || translation_domain.nil? || translation_domain.empty?
          str
        else
@@ -515,7 +516,7 @@ def translate(str, translation_domain: nil, drop_accelerator: true, drop_markup:
          # quotes can't be escaped.
          cmd = "gettext '#{translation_domain}' \"#{str}\""
          env = { 'LANGUAGE' => $lang_code }
-         $vm.execute_successfully(cmd, env: env).stdout
+         $vm.execute_successfully(cmd, env:).stdout
        end
   if drop_accelerator
     assert(str.count('_') <= 1, 'translate() are supposed to drop the ' \

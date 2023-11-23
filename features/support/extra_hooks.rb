@@ -66,14 +66,14 @@ unless $at_exit_print_artifacts_dir_patching_done
       undefined: 'undefined',
       pending:   'pending',
       skipped:   'skipped',
-    }
+    }.freeze
 
     # Support printing the step status. For the original function body,
     # see https://salsa.debian.org/ruby-team/cucumber/-/blob/9899bc47c0eac62b623208f5e8032ec7285fe257/lib/cucumber/formatter/console.rb#L33-44
     alias old_format_step format_step
     def format_step(keyword, step_match, status, source_indent, print_status = false)
       comment = if source_indent
-                  c = ('# ' + step_match.location.to_s).indent(source_indent)
+                  c = "# #{step_match.location}".indent(source_indent)
                   format_string(c, :comment)
                 else
                   ''
@@ -118,13 +118,13 @@ end
 def log_step_succeeded(message, **options)
   options[:color] = :green unless options.key?(:color)
   options[:timestamp] = false unless options.key?(:timestamp)
-  debug_log(STEP_INDENT + message + ' (passed)', **options)
+  debug_log("#{STEP_INDENT}#{message} (passed)", **options)
 end
 
 def log_step_failed(message, **options)
   options[:color] = :red unless options.key?(:color)
   options[:timestamp] = false unless options.key?(:timestamp)
-  debug_log(STEP_INDENT + message + ' (failed)', **options)
+  debug_log("#{STEP_INDENT}#{message} (failed)", **options)
 end
 
 def log_substep(message, **options)
@@ -183,7 +183,8 @@ module ExtraFormatters
       return if @hide_this_step
 
       source_indent = nil unless @options[:source]
-      name_to_report = format_step(keyword, step_match, status, source_indent, print_status: true)
+      name_to_report = format_step(keyword, step_match, status, source_indent,
+                                   print_status: true)
       @io.puts(name_to_report.indent(@scenario_indent + 2))
       print_messages
     end
@@ -199,15 +200,13 @@ module ExtraFormatters
   end
 end
 
-module Cucumber::Cli
-  class Options
-    BUILTIN_FORMATS['pretty_debug'] =
-      [
-        'ExtraFormatters::PrettyDebug',
-        'Prints the feature with debugging information - in colours.',
-      ]
-    BUILTIN_FORMATS['debug'] = BUILTIN_FORMATS['pretty_debug']
-  end
+class Cucumber::Cli::Options
+  BUILTIN_FORMATS['pretty_debug'] =
+    [
+      'ExtraFormatters::PrettyDebug',
+      'Prints the feature with debugging information - in colours.',
+    ]
+  BUILTIN_FORMATS['debug'] = BUILTIN_FORMATS['pretty_debug']
 end
 
 AfterConfiguration do |config|

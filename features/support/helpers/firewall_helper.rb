@@ -88,10 +88,10 @@ def pcap_connections_helper(pcap_file, **opts)
     packet_info = {
       mac_saddr:    eth_packet.eth_saddr,
       mac_daddr:    eth_packet.eth_daddr,
-      protocol:     protocol,
-      sport:        sport,
-      dport:        dport,
-      dns_question: dns_question,
+      protocol:,
+      sport:,
+      dport:,
+      dns_question:,
     }
 
     begin
