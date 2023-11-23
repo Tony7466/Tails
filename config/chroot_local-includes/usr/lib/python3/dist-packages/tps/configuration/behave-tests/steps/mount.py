@@ -265,9 +265,9 @@ def step_impl(context: TestContext, binding_operand: str):
 @then("binding activation fails with OSError {errno_name}")
 def step_impl(context: TestContext, errno_name: str):
     assert isinstance(context.binding_exception, OSError)
-    assert context.binding_exception.errno == eval(
+    assert context.binding_exception.errno == eval(  # nosec blacklist
         f"errno.{errno_name}"
-    )  # nosec blacklist
+    )
     # Unset the exception so that it doesn't affect other scenarios
     context.binding_exception = None
 
