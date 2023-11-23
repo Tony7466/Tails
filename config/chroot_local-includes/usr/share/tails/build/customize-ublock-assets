@@ -46,21 +46,23 @@ def main():
     # "cdnURLs" and "contentURL". The remaining strings look like
     # local relative paths, which seem innocuous in the context of
     # tails#20022, so we leave them alone.
-    for (blocklist, properties) in new_assets.items():
-        for url_list in ["cdnURLs", "contentURL"]:
-            if url_list in new_assets[blocklist]:
-                # contentURL is either a URL (string) or a list of URLs;
-                # let's merge both cases into a single one.
-                # cdnURLs is always a list so far, but let's be ready
-                # in case it can be a string as well.
-                if isinstance(new_assets[blocklist][url_list], str):
-                    new_assets[blocklist][url_list] = [new_assets[blocklist][url_list]]
+    for blocklist in new_assets:
+        for url_list in {"cdnURLs", "contentURL"}:
+            if url_list not in new_assets[blocklist]:
+                continue
 
-                new_assets[blocklist][url_list] = [
-                    url
-                    for url in new_assets[blocklist][url_list]
-                    if not url.startswith("http")
-                ]
+            # contentURL is either a URL (string) or a list of URLs;
+            # let's merge both cases into a single one.
+            # cdnURLs is always a list so far, but let's be ready
+            # in case it can be a string as well.
+            if isinstance(new_assets[blocklist][url_list], str):
+                new_assets[blocklist][url_list] = [new_assets[blocklist][url_list]]
+
+            new_assets[blocklist][url_list] = [
+                url
+                for url in new_assets[blocklist][url_list]
+                if not url.startswith("http")
+            ]
 
     with Path(args.output_file).open("w", encoding="utf8") as output_fd:
         json.dump(new_assets, output_fd, indent="\t", ensure_ascii=False)
