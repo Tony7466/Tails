@@ -26,7 +26,7 @@ Metrics/AbcSize:
 
 Metrics/BlockLength:
   Max: 40
-  ExcludedMethods:
+  AllowedMethods:
     # Rake
     - 'namespace'
     - 'task'
@@ -55,7 +55,7 @@ Naming/BlockParameterName:
     - size_in_MiB_of_destination_disk
 
 Naming/MethodName:
-  IgnoredPatterns:
+  AllowedPatterns:
     # Cucumber
     - \A(After|Before)Feature\z
     # Case matters: bit vs. byte
@@ -130,7 +130,7 @@ Style/IfUnlessModifier:
 
 Style/MethodCallWithArgsParentheses:
   Enabled: true
-  IgnoredMethods:
+  AllowedMethods:
     - abort
     - assert
     - basename
