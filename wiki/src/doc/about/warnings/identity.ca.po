@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-10-22 12:11+0000\n"
+"PO-Revision-Date: 2023-11-02 23:12+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Protecting your identity when using Tails\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Protegir la vostra identitat quan feu servir Tails\"]]"
 
 #. type: Content of: <h1>
 msgid "Protecting your identity when using Tails"
@@ -35,23 +35,27 @@ msgstr ""
 
 #. type: Content of: <h2>
 msgid "Clean metadata from files before sharing them"
-msgstr ""
+msgstr "Netegeu les metadades dels fitxers abans de compartir-los"
 
 #. type: Content of: <p>
 msgid "Many files contain hidden data, or metadata:"
-msgstr ""
+msgstr "Molts fitxers contenen dades o metadades ocultes:"
 
 #. type: Content of: <ul><li><p>
 msgid ""
 "JPEG and other image files often contain information about where a picture "
 "was taken and which camera was used."
 msgstr ""
+"JPEG i altres fitxers d'imatge sovint contenen informació sobre on s'ha "
+"realitzat una imatge i quina càmera s'ha utilitzat."
 
 #. type: Content of: <ul><li><p>
 msgid ""
 "Office documents often contain information about their author, and the date "
 "and time the document was created."
 msgstr ""
+"Els documents d'Office sovint contenen informació sobre el seu autor, la "
+"data i l'hora de creació del document."
 
 #. type: Content of: <p>
 msgid ""
@@ -59,6 +63,9 @@ msgid ""
 "sensitive_documents/metadata]], a tool to remove metadata in a wide range of "
 "file formats."
 msgstr ""
+"Per ajudar-vos a netejar les metadades, Tails inclou un [[<i>Netejador de "
+"metadades</i>|doc/sensitive_documents/metadata]], una eina per eliminar "
+"metadades en una àmplia gamma de formats de fitxer."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -68,16 +75,23 @@ msgid ""
 "in-guatemala\">NPR: Betrayed by metadata, John McAfee admits he's really in "
 "Guatemala</a>."
 msgstr ""
+"Les metadades s'han utilitzat en el passat per localitzar persones a partir "
+"de les imatges que van fer. Per obtenir un exemple, vegeu <a href=\"https"
+"://www.npr.org/sections/thetwo-way/2012/12/04/166487197/betrayed-by-metadata-"
+"john-mcafee-admits-hes-really-in-guatemala\">NPR: Traït per les metadades, "
+"John McAfee admet que és realment a Guatemala</a>."
 
 #. type: Content of: <h2>
 msgid "Use Tails sessions for only one purpose at a time"
-msgstr ""
+msgstr "Utilitzeu les sessions de Tails només per a un propòsit alhora"
 
 #. type: Content of: <p>
 msgid ""
 "If you use Tails sessions for more than one purpose at a time, an adversary "
 "could link your different activities together."
 msgstr ""
+"Si feu servir les sessions de Tails per a més d'un propòsit alhora, un "
+"adversari podria enllaçar les vostres diferents activitats."
 
 #. type: Content of: <p>
 msgid ""
@@ -86,6 +100,10 @@ msgid ""
 "by the same person. This is because websites can tell when 2 accounts are "
 "using the same Tor circuit."
 msgstr ""
+"Per exemple, si inicieu sessió a diferents comptes al mateix lloc web en una "
+"única sessió de Tails, el lloc web podria determinar que els comptes són "
+"utilitzats per la mateixa persona. Això es deu al fet que els llocs web "
+"poden dir quan dos comptes utilitzen el mateix circuit Tor."
 
 #. type: Content of: <p>
 msgid ""
@@ -93,12 +111,18 @@ msgid ""
 "Tails, restart Tails between different activities. For example, restart "
 "Tails between checking your work email and your whistleblowing email."
 msgstr ""
+"Per evitar que un adversari enllaci les vostres activitats mentre feu servir "
+"Tails, reinicieu Tails entre diferents activitats. Per exemple, reinicieu "
+"Tails entre comprovar el correu electrònic de la feina i el correu "
+"electrònic de denúncia."
 
 #. type: Content of: <div><p>
 msgid ""
 "We are not aware of any such attacks to deanonymize people online who used "
 "Tails for different purposes at a time."
 msgstr ""
+"No tenim coneixement d'aquests atacs per desanonimitzar persones en línia "
+"que utilitzin Tails amb diferents finalitats alhora."
 
 #. type: Content of: <p>
 msgid ""
@@ -108,3 +132,8 @@ msgid ""
 "use one Tails USB stick for your activism work and another one for your "
 "journalism work."
 msgstr ""
+"Si us preocupa que els fitxers del vostre [[Emmagatzematge Persistent|doc/"
+"persistent_storage]] es puguin utilitzar per enllaçar les vostres "
+"activitats, penseu a utilitzar un llapis USB de Tails diferent per a cada "
+"activitat. Per exemple, utilitzeu un llapis USB de Tails per al vostre "
+"treball d'activisme i un altre per al vostre treball de periodisme."

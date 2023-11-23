@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-07-28 16:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"POT-Creation-Date: 2023-11-14 10:04+0000\n"
+"PO-Revision-Date: 2023-11-15 09:13+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -22,16 +22,12 @@ msgid "[[!meta robots=\"noindex\"]]"
 msgstr "[[!meta robots=\"noindex\"]]"
 
 #. type: Content of: <div><section>
-#, fuzzy
-#| msgid ""
-#| "[[!img snowden.png link=\"https://twitter.com/Snowden/"
-#| "status/1165395796520554496\" alt=\"Edward Snowden\"]]"
 msgid ""
 "<a href=\"https://twitter.com/Snowden/status/1165395796520554496\">[[!img "
 "snowden.png alt=\"Edward Snowden\" link=\"no\"]]</a>"
 msgstr ""
-"[[!img snowden.png link=\"https://twitter.com/Snowden/"
-"status/1165395796520554496\" alt=\"Edward Snowden\"]]"
+"<a href=\"https://twitter.com/Snowden/status/1165395796520554496\">[[!img "
+"snowden.png alt=\"Edward Snowden\" link=\"no\"]]</a>"
 
 #. type: Content of: <div><section><blockquote><a>
 msgid "<a href=\"https://twitter.com/Snowden/status/1165395796520554496\">"
@@ -44,11 +40,10 @@ msgid ""
 "anonymity is reduce the number of places in your operational activity where "
 "you can make mistakes. Tor and Tails still do precisely that.</em>"
 msgstr ""
-"<em>Wenn Sie sich ansehen, wie Whistleblower nach 2013 entdeckt wurden, wird "
-"klar dass das absolut wichtigste was Sie tun können um Ihre Anonymität zu "
-"bewahren ist, die Quellen möglicher Fehler in ihren operativen Aktivitäten "
-"wo Sie Fehler machen können zu reduzieren. Tor und Tails tun genau das nach "
-"wie vor.</em>"
+"<em>Wenn Sie sich ansehen, wie Whistleblower nach 2013 enttarnt wurden, wird "
+"klar, dass das absolut Wichtigste zur Wahrung Ihrer Anonymität ist, die "
+"Anzahl möglicher Fehlerquellen bei Ihren operativen Aktivitäten zu "
+"reduzieren. Tor und Tails tun genau das - nach wie vor.</em>"
 
 #. type: Content of: <div><section><blockquote><a>
 msgid "&mdash; <strong>Edward Snowden</strong>,"
@@ -56,16 +51,15 @@ msgstr "&mdash; <strong>Edward Snowden</strong>,"
 
 #. type: Content of: <div><section><blockquote>
 msgid "NSA whistleblower </a>"
-msgstr ""
+msgstr "NSA Whistleblower </a>"
 
 #. type: Content of: <div><section>
-#, fuzzy
-#| msgid ""
-#| "[[!img tor.png link=\"https://www.torproject.org/\" alt=\"Tor Project\"]]"
 msgid ""
 "<a href=\"https://www.torproject.org/\">[[!img tor.png alt=\"Tor Project\" "
 "link=\"no\"]]</a>"
-msgstr "[[!img tor.png link=\"https://torproject.org/\" alt=\"Tor Project\"]]"
+msgstr ""
+"<a href=\"https://www.torproject.org/\">[[!img tor.png alt=\"Tor Project\" "
+"link=\"no\"]]</a>"
 
 #. type: Content of: <div><section><blockquote><p>
 msgid ""
@@ -73,6 +67,9 @@ msgid ""
 "do so with an unwavering commitment to their Social Contract. Tails is a "
 "favorite companion tool of Tor.</em>"
 msgstr ""
+"<em>Der Schutz, den Tor bereitstellt, wird von Tails auf ein komplettes "
+"Betriebssystem ausgeweitet. Und zwar mit einem aufrechten Bekenntnis zur "
+"gesellschaftlichen Verantwortung. Tor sieht Tails gern an seiner Seite.</em>"
 
 #. type: Content of: <div><section><blockquote>
 msgid "&mdash; <strong>Roger Dingledine</strong>,"
@@ -80,20 +77,21 @@ msgstr "&mdash; <strong>Roger Dingledine</strong>,"
 
 #. type: Content of: <div><section><blockquote>
 msgid "co-founder of the Tor Project"
-msgstr ""
+msgstr "Mitbegründer des Tor-Projekts"
 
 #. type: Content of: <div><section>
-#, fuzzy
-#| msgid "[[!img eff.png link=\"https://www.eff.org/\" alt=\"EFF\"]]"
 msgid ""
 "<a href=\"https://www.eff.org/\">[[!img eff.png alt=\"EFF\" link=\"no\"]]</a>"
-msgstr "[[!img eff.png link=\"https://www.eff.org/\" alt=\"EFF\"]]"
+msgstr ""
+"<a href=\"https://www.eff.org/\">[[!img eff.png alt=\"EFF\" link=\"no\"]]</a>"
 
 #. type: Content of: <div><section><blockquote><a>
 msgid ""
 "<a href=\"https://www.eff.org/deeplinks/2014/10/7-privacy-tools-essential-"
 "making-citizenfour\">"
 msgstr ""
+"<a href=\"https://www.eff.org/deeplinks/2014/10/7-privacy-tools-essential-"
+"making-citizenfour\">"
 
 #. type: Content of: <div><section><blockquote><a><p>
 msgid ""
@@ -101,13 +99,18 @@ msgid ""
 "dedicated operating system that enforces strong privacy- and security-"
 "protective defaults. That operating system is Tails.</em>"
 msgstr ""
-"<em>Eine der effektivsten Arten um das Tor Netzwerk zu nutzen ist, durch ein "
-"dezidiertes Betriebssystem, das starke Voreinstellungen für Privatsphäre und "
-"Sicherheit erzwingt. Dieses Betriebssystem ist Tails.</em>"
+"<em>Eine der sichersten Arten, das Tor-Netzwerk zu nutzen, ist im Rahmen "
+"eines dedizierten Betriebssystems, das von vornherein strikt auf "
+"Privatsphäre und Sicherheit eingestellt ist. Dieses Betriebssystem ist Tails."
+"</em>"
+
+#. type: Content of: <div><section><blockquote><a>
+msgid "&mdash; <strong>EFF</strong>,"
+msgstr "&mdash; <strong>EFF</strong>,"
 
 #. type: Content of: <div><section><blockquote>
-msgid "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
-msgstr "&mdash; <strong>Electronic Frontier Foundation</strong> </a>"
+msgid "Electronic Frontier Foundation </a>"
+msgstr "Electronic Frontier Foundation </a>"
 
 #. type: Content of: <div><section>
 msgid ""
@@ -201,23 +204,23 @@ msgstr ""
 #~ msgstr "[[Lernen Sie wie Tails funktioniert|about]]"
 
 #~ msgid ""
-#~ "[[Get Tails [[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort="
-#~ "\"age\"]]|install]]"
+#~ "[[Get Tails [[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" "
+#~ "sort=\"age\"]]|install]]"
 #~ msgstr ""
-#~ "[[Tails herunterladen [[!inline pages=\"inc/stable_amd64_version\" raw="
-#~ "\"yes\" sort=\"age\"]]|install]]"
+#~ "[[Tails herunterladen [[!inline pages=\"inc/stable_amd64_version\" "
+#~ "raw=\"yes\" sort=\"age\"]]|install]]"
 
 #~ msgid "News"
 #~ msgstr "Neuigkeiten"
 
 #~ msgid ""
 #~ "[[!inline pages=\"page(news/*) and !news/*/* and !news/discussion and "
-#~ "(currentlang() or news/report_2* or news/test_*)\" show=\"3\" feeds=\"no"
-#~ "\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
+#~ "(currentlang() or news/report_2* or news/test_*)\" show=\"3\" "
+#~ "feeds=\"no\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
 #~ msgstr ""
 #~ "[[!inline pages=\"page(news/*) and !news/*/* and !news/discussion and "
-#~ "(currentlang() or news/report_2* or news/test_*)\" show=\"3\" feeds=\"no"
-#~ "\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
+#~ "(currentlang() or news/report_2* or news/test_*)\" show=\"3\" "
+#~ "feeds=\"no\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
 
 #~ msgid "Who uses Tails"
 #~ msgstr "Wer Tails benutzt"
@@ -275,8 +278,8 @@ msgstr ""
 #~| "meta stylesheet=\"staging/home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 #~| "robots=\"noindex\"]]"
 #~ msgid ""
-#~ "[[!meta title=\"Home\"]] [[!meta stylesheet=\"staging/home\" rel="
-#~ "\"stylesheet\" title=\"\"]] [[!meta robots=\"noindex\"]]"
+#~ "[[!meta title=\"Home\"]] [[!meta stylesheet=\"staging/home\" "
+#~ "rel=\"stylesheet\" title=\"\"]] [[!meta robots=\"noindex\"]]"
 #~ msgstr ""
 #~ "[[!pagetemplate template=\"topbar.tmpl\"]] [[!meta title=\"Home\"]] [[!"
 #~ "meta stylesheet=\"staging/home\" rel=\"stylesheet\" title=\"\"]] [[!meta "

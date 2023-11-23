@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-10-22 12:12+0000\n"
+"PO-Revision-Date: 2023-11-15 00:13+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.1 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -44,6 +44,9 @@ msgid ""
 "*Firefox* and *Tor Browser* announced on [[May 24|security/"
 "prototype_pollution]]."
 msgstr ""
+"Aquesta versió corregeix la vulnerabilitat de seguretat del motor de "
+"JavaScript de *Firefox* i el *Navegador Tor* anunciada el [[24 de maig|"
+"security/prototype_pollution]]."
 
 #. type: Plain text
 msgid ""
@@ -51,6 +54,9 @@ msgid ""
 "release of *Tor Browser* [11.0.14](https://blog.torproject.org/new-release-"
 "tor-browser-11014/)."
 msgstr ""
+"Aquesta versió s'ha retardat del 31 de maig al 5 de juny a causa d'un retard "
+"en el llançament del *Navegador Tor* [11.0.14](https://blog.torproject.org/"
+"new-release-tor-browser-11014/)."
 
 #. type: Plain text
 #, no-wrap
@@ -60,22 +66,25 @@ msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "Tor Connection assistant"
-msgstr ""
+msgstr "Assistent de Connexió Tor"
 
 #. type: Plain text
 msgid "Tails 5.1 includes many improvements to the Tor Connection assistant:"
-msgstr ""
+msgstr "Tails 5.1 inclou moltes millores a l'assistent de Connexió Tor:"
 
 #. type: Bullet: '- '
 msgid ""
 "The *Tor Connection* assistant now automatically fixes the computer clock if "
 "you choose to connect to Tor automatically."
 msgstr ""
+"L'assistent de *Connexió Tor* ara corregeix automàticament el rellotge de "
+"l'ordinador si trieu connectar-vos a Tor automàticament."
 
 #. type: Plain text
 #, no-wrap
 msgid "  This makes is much easier for people in Asia to circumvent censorship.\n"
 msgstr ""
+"  Això fa que sigui molt més fàcil per a la gent a Àsia eludir la censura.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -86,11 +95,19 @@ msgid ""
 "  exception to our policy of only making Internet connections through the Tor\n"
 "  network.\n"
 msgstr ""
+"  Tails determina l'hora actual connectant-se al servei de detecció del "
+"portal\n"
+"  captiu de [Fedora](https://getfedora.org/), que és utilitzat per la "
+"majoria de distribucions\n"
+"  Linux. Aquesta connexió no passa per la xarxa Tor i és una\n"
+"  excepció a la nostra política de fer connexions a Internet només a través "
+"de la xarxa\n"
+"  Tor.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  <div class=\"next\">\n"
-msgstr ""
+msgstr "  <div class=\"next\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -99,6 +116,12 @@ msgid ""
 "  synchronization in our [[design documentation about non-Tor\n"
 "  traffic|contribute/design/Tor_enforcement#non-tor-traffic]].</p>\n"
 msgstr ""
+"  <p>Podeu obtenir més informació sobre la nostra avaluació de seguretat d'"
+"aquesta\n"
+"  sincronització de l'hora a la nostra [[documentació de disseny sobre "
+"trànsit\n"
+"  que no passa per Tor|contribute/design/Tor_enforcement#non-tor-"
+"traffic]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -110,6 +133,8 @@ msgid ""
 "The time displayed in the top navigation uses the time zone selected when "
 "fixing the clock in the *Tor Connection* assistant."
 msgstr ""
+"L'hora que es mostra a la navegació superior utilitza la zona horària "
+"seleccionada en arreglar el rellotge a l'assistent de *Connexió Tor*."
 
 #. type: Plain text
 #, no-wrap
@@ -118,12 +143,17 @@ msgid ""
 "  everybody from the desktop ([[!tails_ticket 10819]]) and store it in the\n"
 "  Persistent Storage ([[!tails_ticket 12094]]).\n"
 msgstr ""
+"  En un futur, farem possible canviar la zona horària que es mostra per a\n"
+"  tothom des de l'escriptori ([[!tails_ticket 10819]]) i desar-la a\n"
+"  l'Emmagatzematge Persistent ([[!tails_ticket 12094]]).\n"
 
 #. type: Bullet: '- '
 msgid ""
 "The last screen of the *Tor Connection* assistant makes it clear whether you "
 "are connected using Tor bridges or not."
 msgstr ""
+"L'última pantalla de l'assistent de *Connexió Tor* deixa clar si us esteu "
+"connectat mitjançant ponts de Tor o no."
 
 #. type: Plain text
 #, no-wrap
@@ -161,7 +191,7 @@ msgstr "  [[!img confirmation.png link=\"no\" alt=\"\"]]\n"
 #. type: Title ##
 #, no-wrap
 msgid "Kleopatra"
-msgstr ""
+msgstr "Kleopatra"
 
 #. type: Plain text
 msgid "- Associate OpenPGP files with *Kleopatra* in the *Files* browser."
@@ -211,7 +241,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
 
 #. type: Bullet: '- '
 msgid ""
@@ -260,7 +290,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"issues\">Known issues</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
 
 #. type: Plain text
 msgid "None specific to this release."
@@ -268,7 +298,7 @@ msgstr "Cap específic d'aquesta versió."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
 
 #. type: Plain text
 #, no-wrap
@@ -279,6 +309,8 @@ msgstr "<h1 id=\"get\">Obtenir Tails 5.1</h1>\n"
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0."
@@ -290,39 +322,47 @@ msgid ""
 "  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
 "  automatic upgrades by doing a manual upgrade to the latest version.\n"
 msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per instal·lar Tails en un nou llapis USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
 "expert]]"
 msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
 
 #. type: Plain text
 #, no-wrap
@@ -330,11 +370,14 @@ msgid ""
 "<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Per només baixar"
 
 #. type: Plain text
 msgid ""

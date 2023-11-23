@@ -3,23 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-09 07:47+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-11-13 23:12+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Opening your Persistent Storage from another operating system\"]]\n"
 msgstr ""
+"[[!meta title=\"Obrir l'Emmagatzematge Persistent des d'un altre sistema "
+"operatiu\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -28,12 +32,18 @@ msgid ""
 "thumbnails of images or automatically index the content of the files in the "
 "Persistent Storage."
 msgstr ""
+"Obrir el vostre Emmagatzematge Persistent des d'un altre sistema operatiu "
+"pot comprometre la vostra seguretat. Per exemple, l'altre sistema operatiu "
+"pot crear miniatures d'imatges o indexar automàticament el contingut dels "
+"fitxers a l'Emmagatzematge Persistent."
 
 #. type: Plain text
 msgid ""
 "There are currently no easy tools to open a Persistent Storage from Windows "
 "or macOS anyway, so there is no risk of doing so by mistake."
 msgstr ""
+"Actualment no hi ha eines fàcils per obrir l'Emmagatzematge Persistent des "
+"de Windows o macOS, de manera que no hi ha risc de fer-ho per error."
 
 #. type: Plain text
 msgid ""
@@ -43,6 +53,11 @@ msgid ""
 "to open and create LUKS encrypted volumes, like the Persistent Storage, by "
 "default."
 msgstr ""
+"Si connecteu el vostre llapis USB de Tails a un altre Linux, probablement se "
+"us demanarà que introduïu automàticament la contrasenya del vostre "
+"Emmagatzematge Persistent, per exemple a Debian o Ubuntu. Les distribucions "
+"de Linux generalment inclouen utilitats per obrir i crear volums encriptats "
+"amb LUKS, com ara l'Emmagatzematge Persistent, de manera predeterminada."
 
 #. type: Plain text
 msgid ""
@@ -50,6 +65,9 @@ msgid ""
 "system, store these files instead on a separate USB stick or external hard "
 "disk. You can:"
 msgstr ""
+"Per intercanviar fitxers entre el vostre Emmagatzematge Persistent i un "
+"altre sistema operatiu, emmagatzemeu aquests fitxers en un llapis USB o disc "
+"dur extern separat. Podeu:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -57,6 +75,9 @@ msgid ""
 "veracrypt]] to store multiple files in a kind of encrypted folder or "
 "partition. *VeraCrypt* works on Windows, macOS, and Linux."
 msgstr ""
+"[[Crear un volum encriptat amb *VeraCrypt*|encryption_and_privacy/veracrypt]]"
+" per emmagatzemar diversos fitxers en una mena de carpeta o partició "
+"encriptada. *VeraCrypt* funciona a Windows, macOS i Linux."
 
 #. type: Bullet: '* '
 msgid ""
@@ -64,15 +85,22 @@ msgid ""
 "encrypted_volumes]] to use an encrypted USB stick between Tails and another "
 "Linux system."
 msgstr ""
+"[[Crear una partició encriptada amb LUKS|doc/encryption_and_privacy/"
+"encrypted_volumes]] per utilitzar un llapis USB encriptat entre Tails i un "
+"altre sistema Linux."
 
 #. type: Bullet: '* '
 msgid ""
 "[[Encrypt files using *Kleopatra*|encryption_and_privacy/kleopatra]].  "
 "*Kleopatra* works on Windows and Linux, but not macOS."
 msgstr ""
+"[[Encriptar fitxers amb *Kleopatra*|encryption_and_privacy/kleopatra]]. "
+"*Kleopatra* funciona a Windows i Linux, però no a macOS."
 
 #. type: Bullet: '* '
 msgid ""
 "[[Delete securely the files|encryption_and_privacy/secure_deletion]] that "
 "you might have stored unencrypted."
 msgstr ""
+"[[Elimineu de manera segura els fitxers|encryption_and_privacy/"
+"secure_deletion]] que podríeu haver emmagatzemat sense encriptar."

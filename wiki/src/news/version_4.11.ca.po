@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-10-22 12:12+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-15 00:14+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -43,22 +43,28 @@ msgid ""
 "This release fixes [[many security vulnerabilities|security/"
 "Numerous_security_holes_in_4.10]]. You should upgrade as soon as possible."
 msgstr ""
+"Aquesta versió corregeix [[moltes vulnerabilitats de seguretat|security/"
+"Numerous_security_holes_in_4.10]]. Hauríeu d'actualitzar el més aviat "
+"possible."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!toc levels=1]]\n"
-msgstr ""
+msgstr "[[!toc levels=1]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "New features"
-msgstr ""
+msgstr "Noves funcionalitats"
 
 #. type: Bullet: '- '
 msgid ""
 "We added a new feature of the Persistent Storage to save the settings from "
 "the Welcome Screen: language, keyboard, and additional settings."
 msgstr ""
+"Hem afegit una nova funció de l'Emmagatzematge Persistent per desar la "
+"configuració de la Pantalla de Benvinguda: idioma, teclat i paràmetres "
+"addicionals."
 
 #. type: Plain text
 #, no-wrap
@@ -66,46 +72,61 @@ msgid ""
 "  To restore your settings when starting Tails, unlock your Persistent Storage\n"
 "  in the Welcome Screen.\n"
 msgstr ""
+"  Per restaurar la configuració quan inicieu Tails, desbloquegeu "
+"l'Emmagatzematge Persistent\n"
+"  a la Pantalla de Benvinguda.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img version_4.11/welcome_screen.png link=\"no\" alt=\"new Welcome Screen feature in the Persistent Storage settings\"]]\n"
 msgstr ""
+"  [[!img version_4.11/welcome_screen.png link=\"no\" alt=\"nova funció de la "
+"Pantalla de Benvinguda a la configuració de l'Emmagatzematge Persistent\"]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "Changes and updates"
-msgstr ""
+msgstr "Canvis i actualitzacions"
 
 #. type: Plain text
 msgid ""
 "- Update *Tor Browser* to [10.0](https://blog.torproject.org/new-release-tor-"
 "browser-100)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [10.0](https://blog."
+"torproject.org/new-release-tor-browser-100)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [68.12](https://www.thunderbird.net/en-US/"
 "thunderbird/68.12.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [68.12](https://www.thunderbird."
+"net/en-US/thunderbird/68.12.0/releasenotes/)."
 
 #. type: Bullet: '- '
 msgid ""
 "Update *Linux* to 5.7.17. This should improve the support for newer hardware "
 "(graphics, Wi-Fi, etc.)."
 msgstr ""
+"S'ha actualitzat *Linux* a la versió 5.7.17. Això hauria de millorar la "
+"compatibilitat amb el maquinari més nou (gràfics, Wi-Fi, etc.)."
 
 #. type: Plain text
 msgid ""
 "- Configure *KeePassXC* to use the new default location *Passwords.kdbx*. "
 "([[!tails_ticket 17286]])"
 msgstr ""
+"- S'ha configurat *KeePassXC* per utilitzar la nova ubicació predeterminada "
+"*Passwords.kdbx*. ([[!tails_ticket 17286]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Update <span class=\"code\">python3-trezor</span> to 0.12.2 to add "
 "compatibility with the new Trezor Model T."
 msgstr ""
+"S'ha actualitzat <span class=\"code\">python3-trezor</span> a la versió "
+"0.12.2 per afegir compatibilitat amb el nou Trezor Model T."
 
 #. type: Title #
 #, no-wrap
@@ -117,6 +138,8 @@ msgid ""
 "Disable the feature to **Turn on Wi-Fi Hotspot** in the Wi-Fi settings "
 "because it doesn't work in Tails. ([[!tails_ticket 17887]])"
 msgstr ""
+"S'ha desactivat la funció per **Activar Wi-Fi Hotspot** a la configuració de "
+"Wi-Fi perquè no funciona a Tails. ([[!tails_ticket 17887]])"
 
 #. type: Plain text
 msgid ""
@@ -142,7 +165,7 @@ msgstr "Cap específic d'aquesta versió."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
 
 #. type: Title #
 #, no-wrap
@@ -153,37 +176,44 @@ msgstr "Obtenir Tails 4.11"
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.2 or later to 4.11."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.2 o "
+"posterior a la versió 4.11."
 
 #. type: Bullet: '- '
 msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per instal·lar Tails en un nou llapis USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Plain text
 #, no-wrap
@@ -191,17 +221,22 @@ msgid ""
 "<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Per només baixar"
 
 #. type: Plain text
 msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.11 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.11 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -214,11 +249,11 @@ msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
 #. type: Title #
 #, no-wrap
 msgid "What's coming up?"
-msgstr ""
+msgstr "Què ve?"
 
 #. type: Plain text
 msgid "Tails 4.12 is [[scheduled|contribute/calendar]] for October 20."
-msgstr ""
+msgstr "Tails 4.12 està [[programat|contribute/calendar]] per al 20 d'octubre."
 
 #. type: Plain text
 #, no-wrap
@@ -227,3 +262,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.11\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.11\">fer una "
+"donació</a> només és una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"

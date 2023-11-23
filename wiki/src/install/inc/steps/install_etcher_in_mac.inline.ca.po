@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-11-08 00:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -26,6 +26,7 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #, no-wrap
 msgid "<h1 id=\"etcher\" class=\"step\">Install <em>balenaEtcher</em></h1>\n"
 msgstr ""
+"<h1 id=\"etcher\" class=\"step\">Instal·lar <em>balenaEtcher</em></h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -38,21 +39,28 @@ msgid ""
 "<p class=\"upgrade\">In the following steps, you will install an intermediary Tails using the Tails USB\n"
 "image that you downloaded earlier.</p>\n"
 msgstr ""
+"<p class=\"upgrade\">En els passos següents, instal·lareu un Tails "
+"intermediari mitjançant la imatge USB\n"
+"de Tails que heu baixat abans.</p>\n"
 
 #. type: Bullet: '1. '
 msgid "Click on the following button to download <em>balenaEtcher</em>:"
-msgstr ""
+msgstr "Feu clic al botó següent per baixar <em>balenaEtcher</em>:"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\">Download balenaEtcher for macOS</a>\n"
 msgstr ""
+"   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\""
+">Baixeu balenaEtcher per a macOS</a>\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "Open the <span class=\"application\">balenaEtcher</span> download (DMG disk "
 "image)."
 msgstr ""
+"Obriu la baixada de <span class=\"application\">balenaEtcher</span> (imatge "
+"de disc DMG)."
 
 #. type: Plain text
 #, no-wrap
@@ -67,12 +75,17 @@ msgid ""
 "class=\"application\">balenaEtcher</span> icon onto the <span class="
 "\"guilabel\">Applications</span> icon."
 msgstr ""
+"Per instal·lar <span class=\"application\">balenaEtcher</span>, arrossegueu "
+"la icona <span class=\"application\">balenaEtcher</span> a la icona <span "
+"class=\"guilabel\">Aplicacions</span>."
 
 #. type: Bullet: '1. '
 msgid ""
 "Close the installation window of <span class=\"application\">balenaEtcher</"
 "span>."
 msgstr ""
+"Tanqueu la finestra d'instal·lació de <span class=\"application\""
+">balenaEtcher</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -80,6 +93,9 @@ msgid ""
 "   Optionally, eject the <span class=\"application\">balenaEtcher</span> disk image\n"
 "   from the desktop.\n"
 msgstr ""
+"   Opcionalment, expulseu la imatge de disc <span class=\"application\""
+">balenaEtcher</span>\n"
+"   des de l'escriptori.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -95,15 +111,19 @@ msgid ""
 "also [[!toggle id=\"dd\" text=\"install Tails using `dd` on the command\n"
 "line\"]].\n"
 msgstr ""
+"En lloc d'instal·lar <span class=\"application\">balenaEtcher</span>, podeu\n"
+"també [[!toggle id=\"dd\" text=\"instal·lar Tails utilitzant `dd` a la "
+"línia\n"
+"d'ordres\"]].\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!toggleable id=\"dd\" text=\"\"\"\n"
-msgstr ""
+msgstr "[[!toggleable id=\"dd\" text=\"\"\"\n"
 
 #. type: Bullet: '1. '
 msgid "Make sure that your USB stick is unplugged."
-msgstr ""
+msgstr "Assegureu-vos que el vostre llapis USB estigui desconnectat."
 
 #. type: Plain text
 #, no-wrap
@@ -114,20 +134,27 @@ msgid ""
 "     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
 msgstr ""
+"1. Obriu el <span class=\"application\">Terminal</span> des de\n"
+"   <span class=\"menuchoice\">\n"
+"     <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"     <span class=\"guisubmenu\">Utilitats</span>&nbsp;▸\n"
+"     <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
 
 #. type: Bullet: '1. '
 msgid "Execute the following command:"
-msgstr ""
+msgstr "Executeu l'ordre següent:"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">diskutil list</p>\n"
-msgstr ""
+msgstr "   <p class=\"pre command\">diskutil list</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
 msgstr ""
+"   Retorna una llista dels dispositius d'emmagatzematge del sistema. Per "
+"exemple:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -140,14 +167,21 @@ msgid ""
 "    3:                      EFI              134.1 GB  disk0s3\n"
 "    4:     Microsoft Basic Data BOOTCAMP     115.5 GB  disk0s4</p>\n"
 msgstr ""
+"   <p class=\"pre command-output\">/dev/disk0\n"
+"    #:                     TYPE NAME         SIZE      IDENTIFIER\n"
+"    0:    GUID_partition_scheme             *500.1 GB  disk0\n"
+"    1:                      EFI              209.7 MB  disk0s1\n"
+"    2:                Apple_HFS MacDrive     250.0 GB  disk0s2\n"
+"    3:                      EFI              134.1 GB  disk0s3\n"
+"    4:     Microsoft Basic Data BOOTCAMP     115.5 GB  disk0s4</p>\n"
 
 #. type: Bullet: '1. '
 msgid "Plug your USB stick into the computer."
-msgstr ""
+msgstr "Connecteu el vostre llapis USB a l'ordinador."
 
 #. type: Bullet: '1. '
 msgid "Execute again the same command:"
-msgstr ""
+msgstr "Torneu a executar la mateixa ordre:"
 
 #. type: Plain text
 #, no-wrap
@@ -155,6 +189,8 @@ msgid ""
 "   Your USB stick appears as a new device in the list. Check\n"
 "   that its size corresponds to the size of your USB stick.\n"
 msgstr ""
+"   El vostre llapis USB apareix com a dispositiu nou a la llista. Comproveu\n"
+"   que la seva mida correspongui a la mida del vostre llapis USB.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -171,6 +207,17 @@ msgid ""
 "    0:   FDisk_partition_scheme             *8.0 GB    disk1\n"
 "    1:                Apple_HFS Untitled 1   8.0 GB    disk1s1</p>\n"
 msgstr ""
+"   <p class=\"pre command-output\">/dev/disk0\n"
+"    #:                     TYPE NAME         SIZE      IDENTIFIER\n"
+"    0:    GUID_partition_scheme             &lowast;500.1 GB  disk0\n"
+"    1:                      EFI              209.7 MB  disk0s1\n"
+"    2:                Apple_HFS MacDrive     250.0 GB  disk0s2\n"
+"    3:                      EFI              134.1 GB  disk0s3\n"
+"    4:     Microsoft Basic Data BOOTCAMP     115.5 GB  disk0s4\n"
+"  /dev/disk1\n"
+"    #:                     TYPE NAME         SIZE      IDENTIFIER\n"
+"    0:   FDisk_partition_scheme             *8.0 GB    disk1\n"
+"    1:                Apple_HFS Untitled 1   8.0 GB    disk1s1</p>\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -178,6 +225,9 @@ msgid ""
 "stick is 8.0 GB and its device name is <span class=\"code\">/dev/disk1</"
 "span>.  Yours might be different."
 msgstr ""
+"Preneu nota del *nom del dispositiu* del vostre llapis USB. En aquest "
+"exemple, el llapis USB té 8,0 GB i el nom del dispositiu és <span class="
+"\"code\">/dev/disk1</span>. El vostre pot ser diferent."
 
 #. type: Plain text
 #, no-wrap
@@ -187,23 +237,32 @@ msgid ""
 "   <strong>you risk overwriting any hard disk on the system</strong>.</p>\n"
 "   </div>\n"
 msgstr ""
+"   <div class=\"caution\">\n"
+"   <p>Si no esteu segur del nom del dispositiu, millor no continueu o\n"
+"   <strong>correu el risc de sobreescriure qualsevol disc dur del "
+"sistema</strong>.</p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "Execute the following commands to copy the USB image that you downloaded "
 "earlier to the USB stick."
 msgstr ""
+"Executeu les ordres següents per copiar la imatge USB que heu baixat "
+"anteriorment al llapis USB."
 
 #. type: Plain text
 #, no-wrap
 msgid "   Replace:\n"
-msgstr ""
+msgstr "   Substituïu:\n"
 
 #. type: Bullet: '   - '
 msgid ""
 "<span class=\"command-placeholder\">tails.img</span> with the path to the "
 "USB image"
 msgstr ""
+"<span class=\"command-placeholder\">tails.img</span> amb el camí a la imatge "
+"USB"
 
 #. type: Plain text
 #, no-wrap
@@ -215,12 +274,22 @@ msgid ""
 "     Terminal</span>.</p>\n"
 "     </div>\n"
 msgstr ""
+"     <div class=\"tip\">\n"
+"     <p>Si no esteu segur de la ruta a la imatge USB, podeu inserir el\n"
+"     camí correcte arrossegant i deixant anar la icona de la imatge USB des "
+"de el\n"
+"     <span class=\"application\">Cercador</span> a la <span class="
+"\"application\">\n"
+"     Terminal</span>.</p>\n"
+"     </div>\n"
 
 #. type: Bullet: '   - '
 msgid ""
 "<span class=\"command-placeholder\">device</span> with the device name found "
 "in step 6"
 msgstr ""
+"<span class=\"command-placeholder\">dispositiu</span> amb el nom del "
+"dispositiu que es troba al pas 6"
 
 #. type: Plain text
 #, no-wrap
@@ -229,26 +298,37 @@ msgid ""
 "     <p>You can try adding <span class=\"code\">r</span> before <span class=\"code\">disk</span> to make the installation faster.</p>\n"
 "     </div>\n"
 msgstr ""
+"     <div class=\"tip\">\n"
+"     <p>Podeu provar d'afegir <span class=\"code\">r</span> abans del <span "
+"class=\"code\">disc</span> per fer la instal·lació més ràpida.</p>\n"
+"     </div>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
 msgstr ""
+"   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-"
+"placeholder\">dispositiu</span></p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
 msgstr ""
+"   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails."
+"img</span> of=<span class=\"command-placeholder\">dispositiu</span> bs=16m "
+"&& sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   You should get something like this:\n"
-msgstr ""
+msgstr "   Hauríeu d'obtenir alguna cosa com això:\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.12.img of=/dev/rdisk9 bs=16m && sync</p>\n"
 msgstr ""
+"   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.12.img of=/"
+"dev/rdisk9 bs=16m && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -256,6 +336,8 @@ msgid ""
 "   If no error message is returned, Tails is being copied on the USB\n"
 "   stick. The copy takes some time, generally a few minutes.\n"
 msgstr ""
+"   Si no es retorna cap missatge d'error, Tails s'està copiant al llapis\n"
+"   USB. La còpia triga un temps, generalment uns minuts.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -264,11 +346,18 @@ msgid ""
 "   <p>If you get a <span class=\"guilabel\">Permission denied</span> error, try\n"
 "   adding <code>sudo</code> at the beginning of the command:</p>\n"
 msgstr ""
+"   <div class=\"note\">\n"
+"   <p>Si obteniu un error de <span class=\"guilabel\">Permís denegat</span>, "
+"proveu\n"
+"   d'afegir <code>sudo</code> al principi de l'ordre:</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
 msgstr ""
+"   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\""
+">tails.img</span> of=<span class=\"command-placeholder\">dispositiu</span> "
+"bs=16m && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -276,11 +365,17 @@ msgid ""
 "   <p>If you get an <span class=\"guilabel\">invalid number ‘16m’</span> error, try\n"
 "   using <code>16M</code> instead:</p>\n"
 msgstr ""
+"   <p>Si obteniu un error de <span class=\"guilabel\">invalid number '16m'</"
+"span>, proveu\n"
+"   d'utilitzar <code>16M</code>:</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
 msgstr ""
+"   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails."
+"img</span> of=<span class=\"command-placeholder\">dispositiu</span> bs=16M "
+"&& sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -291,6 +386,8 @@ msgstr "   </div>\n"
 #, no-wrap
 msgid "   The installation is complete once the command prompt reappeared.\n"
 msgstr ""
+"   La instal·lació s'ha completat un cop ha tornat a aparèixer l'indicador "
+"d'ordres.\n"
 
 #, no-wrap
 #~ msgid "<div class=\"hidden-step-1\"></div>\n"

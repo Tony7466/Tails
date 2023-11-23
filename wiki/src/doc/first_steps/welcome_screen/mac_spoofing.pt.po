@@ -34,7 +34,6 @@ msgid "What is a MAC address?"
 msgstr "O que é um endereço MAC?"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "Every network interface — wired or Wi-Fi — has a [[!wikipedia MAC "
 #| "address]], which is a serial number assigned to each interface at the "
@@ -250,7 +249,6 @@ msgstr ""
 "rede."
 
 #. type: Bullet: '- '
-#, fuzzy
 #| msgid ""
 #| "**Using a public computer**, for example in an Internet café or a "
 #| "library.  This computer is regularly used on this local network, and its "
@@ -407,13 +405,6 @@ msgstr ""
 "identificado pelo seu Provedor de Serviços de Internet."
 
 #, fuzzy
-#~| msgid ""
-#~| "2. As explained in our documentation on [[network\n"
-#~| "fingerprint|about/fingerprint]], someone observing the traffic coming "
-#~| "out of\n"
-#~| "your computer on the local network can probably see that you are using "
-#~| "Tails. In\n"
-#~| "that case, your MAC address can **identify you as a Tails user**.\n"
 #~ msgid ""
 #~ "2. As explained in our documentation on [[network\n"
 #~ "fingerprint|anonymous_internet/tor/hide]], someone observing the traffic "
@@ -430,10 +421,6 @@ msgstr ""
 #~ "Tails**.\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "In the <span class=\"guilabel\">MAC address spoofing</span> section, "
-#~| "deselect the <span class=\"guilabel\">Spoof all MAC addresses</span> "
-#~| "option."
 #~ msgid ""
 #~ "When the <span class=\"guilabel\">Additional Settings</span> dialog "
 #~ "appears, click on <span class=\"guilabel\">MAC Address Spoofing</span>."

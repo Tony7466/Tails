@@ -83,6 +83,12 @@ check-translatable-live-website-urls:
     - apt-get -qy install python3-polib
     - ./bin/check-translatable-live-website-urls po/tails.pot
 
+check-locale-descriptions:
+  script:
+    - apt-get -qy install python3 python3-requests python3-toml python3-bs4
+    - echo 'If this fails, look at https://tails.net/contribute/release_process/update_locale_descriptions/'
+    - ./bin/locale-descriptions suggest
+
 rubocop:
   image: debian:bookworm
   script:
@@ -141,9 +147,10 @@ test-persistent-storage-config-file:
 
 test-python-doctest:
   script:
-    - apt-get -qy install python3 python3-sh
+    - apt-get -qy install python3 python3-sh python3-toml python3-requests python3-bs4
     - config/chroot_local-includes/usr/local/lib/tails-gdm-error-message doctest --verbose
     - env PYTHONPATH=config/chroot_local-includes/usr/lib/python3/dist-packages python3 config/chroot_local-includes/usr/local/bin/tails-documentation --doctest
+    - ./bin/locale-descriptions doctest
 
 test-tca:
   rules:

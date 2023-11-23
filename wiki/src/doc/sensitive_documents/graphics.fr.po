@@ -78,7 +78,7 @@ msgstr ""
 "    des [tutoriels](https://inkscape.org/learn/tutorials/) traduits dans de nombreuses langues.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "These applications can be started from the\n"
 #| "<span class=\"menuchoice\">\n"

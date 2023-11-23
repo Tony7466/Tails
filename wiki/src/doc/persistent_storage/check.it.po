@@ -47,7 +47,7 @@ msgstr ""
 "administration_password]] ."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose\n"
 #| "   <span class=\"menuchoice\">\n"
@@ -140,7 +140,7 @@ msgid "Check the file system using the terminal"
 msgstr "Controllare il file system utilizzando il terminale"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Choose\n"
 #| "    <span class=\"menuchoice\">\n"

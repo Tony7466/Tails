@@ -33,8 +33,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-10-26 17:03+0000\n"
+"POT-Creation-Date: 2023-11-22 15:53+0100\n"
+"PO-Revision-Date: 2023-10-30 06:03+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/tor/tails-gui/el/"
 ">\n"
@@ -43,7 +43,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -126,8 +126,7 @@ msgstr "Η δημιουργία μόνιμου αποθηκευτικού χώρ
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:95
 #, python-brace-format
 msgid "You could install {packages} automatically when starting Tails"
-msgstr ""
-"Θα μπορούσατε να εγκαταστήσετε {packages} αυτόματα ξεκινώντας το Tails."
+msgstr "Θα μπορούσατε να εγκαταστήσετε {packages} αυτόματα ξεκινώντας το Tails"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:98
 msgid "To do so, you need to run Tails from a USB stick."
@@ -174,7 +173,7 @@ msgstr ", "
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:38
 msgid "The check for upgrades of your additional software failed"
-msgstr "Ο έλεγχος για αναβαθμίσεις για τα πρόσθετα λογισμικά σας απέτυχε."
+msgstr "Ο έλεγχος για αναβαθμίσεις για τα πρόσθετα λογισμικά σας απέτυχε"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:40
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:48
@@ -187,7 +186,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:47
 msgid "The upgrade of your additional software failed"
-msgstr "Η αναβάθμιση του πρόσθετού σας λογισμικού απέτυχε."
+msgstr "Η αναβάθμιση του πρόσθετου λογισμικού απέτυχε"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:112
 msgid "Installing your additional software from persistent storage..."
@@ -200,11 +199,11 @@ msgstr "Αυτό μπορεί να πάρει μερικά λεπτά."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:127
 msgid "The installation of your additional software failed"
-msgstr "Η εγκατάσταση του πρόσθετου λογισμικού απέτυχε."
+msgstr "Η εγκατάσταση του πρόσθετου λογισμικού απέτυχε"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:142
 msgid "Additional software installed successfully"
-msgstr "Το πρόσθετο λογισμικό εγκαταστάθηκε επιτυχώς."
+msgstr "Το πρόσθετο λογισμικό εγκαταστάθηκε επιτυχώς"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:1
@@ -287,7 +286,7 @@ msgstr "Αργότερα"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:123
 msgid "Opening Electrum with our donation address..."
-msgstr ""
+msgstr "Ανοίγοντας το Electrum με τη διεύθυνση δωρεάς μας..."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:124
 msgid "Thank you for making the Internet a safer place!"
@@ -464,11 +463,9 @@ msgstr ""
 "αυτήν την έκδοση"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-#, fuzzy
 msgid "your device was not created using a USB image or Tails Cloner"
 msgstr ""
-"η συσκευή σας δε δημιουργήθηκε χρησιμοποιώντας μια USB image ή το πρόγραμμα "
-"εγκατάστασης Tails"
+"η συσκευή σας δε δημιουργήθηκε με μια εικόνα USB ή το πρόγραμμα εγκατάστασης"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
 msgid "Tails was started from a DVD or a read-only device"
@@ -1143,9 +1140,8 @@ msgstr "Η εγκατάσταση του Tails απέτυχε!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-#, fuzzy
 msgid "Tails Cloner"
-msgstr "Πρόγραμμα εγκατάστασης Tails"
+msgstr "Πρόγραμμα αντιγραφής Tails"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
@@ -1194,6 +1190,8 @@ msgid ""
 "Clone the current Persistent Storage\n"
 "Impossible to clone the Persistent Storage because it is locked."
 msgstr ""
+"Κλωνοποίηση τρέχων μόνιμου αποθηκευτικού χώρου\n"
+"Αδύνατη η κλωνοποίηση του αποθηκευτικού χώρου, είναι κλειδωμένο."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
@@ -1205,6 +1203,9 @@ msgid ""
 "Clone the current Persistent Storage\n"
 "You can only choose to reinstall when cloning the Persistent Storage."
 msgstr ""
+"Κλωνοποίηση τρέχων μόνιμου αποθηκευτικού χώρου\n"
+"Μπορείτε να επιλέξετε επανεγκατάσταση μόνο όταν κλωνοποιείτε τον "
+"αποθηκευτικό χώρο."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:531
 #, python-format
@@ -1318,7 +1319,7 @@ msgid ""
 "ISO to the root of your drive (ie: C:\\)"
 msgstr ""
 "Αδυναμία χρήσης του επιλεγμένου αρχείου. Μπορεί να έχετε καλύτερη τύχη αν "
-"μετακινήσετε το ISO στη ρίζα του δίσκου σας (π.χ.: C:\\)."
+"μετακινήσετε το ISO στη ρίζα του δίσκου σας (π.χ.: C:\\)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:772
 #, python-format
@@ -1732,20 +1733,20 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:451
 msgid "Synchronizing the system's clock…"
-msgstr "Συγχρονισμός του ρολογιού συστήματος..."
+msgstr "Συγχρονισμός του ρολογιού συστήματος…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:500
 msgid "Connecting to Tor without bridges…"
-msgstr "Σύνδεση στο Tor χωρίς τη χρήση γεφυρών..."
+msgstr "Σύνδεση στο Tor χωρίς τη χρήση γεφυρών…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:507
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:531
 msgid "Connecting to Tor with default bridges…"
-msgstr "Σύνδεση στο Tor με χρήση προεπιλεγμένων γεφυρών..."
+msgstr "Σύνδεση στο Tor με χρήση προεπιλεγμένων γεφυρών…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:514
 msgid "Connecting to Tor with a custom bridge…"
-msgstr "Σύνδεση στο Tor με χρήση προσαρμοσμένης γέφυρας..."
+msgstr "Σύνδεση στο Tor με χρήση προσαρμοσμένης γέφυρας…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:622
 msgid "Connected to Tor successfully with bridges"
@@ -1861,36 +1862,38 @@ msgid ""
 "\n"
 "Try again after closing some applications or rebooting."
 msgstr ""
+"Διατίθεται μόνο {available_memory} KiB μνήμης, χρειάζεται τουλάχιστον "
+"{required_memory} KiB.\n"
+"\n"
+"Δοκιμάστε ξανά μετά το κλείσιμο ορισμένων εφαρμογών ή κάντε επανεκκίνηση."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
-#, fuzzy
 msgid "Creating a partition for the Persistent Storage..."
-msgstr "Διόρθωση δικαιωμάτων του μόνιμου τομέα."
+msgstr "Δημιουργία διαμερίσματος για τον Μόνιμο αποθηκευτικό χώρο..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
 msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
 "few seconds."
 msgstr ""
+"Εκκίνηση της κρυπτογράφησης LUKS... Ο υπολογιστής ενδέχεται να σταματήσει να "
+"ανταποκρίνεται για μερικά δευτερόλεπτα."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
-msgstr ""
+msgstr "Ξεκλείδωμα της κρυπτογράφησης..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
-#, fuzzy
 msgid "Formatting the file system..."
-msgstr "Έλεγχος συστήματος αρχείων..."
+msgstr "Μορφοποίηση συστήματος αρχείων..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:392
-#, fuzzy
 msgid "Activating the Persistent Storage..."
-msgstr "Σφάλμα ενεργοποίησης μόνιμου αποθηκευτικού χώρου: {}"
+msgstr "Ενεργοποίηση μόνιμου αποθηκευτικού χώρου..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
-#, fuzzy
 msgid "Finishing setting up the Persistent Storage..."
-msgstr "Συνέχεια χωρίς το μόνιμο αποθηκευτικό χώρο"
+msgstr "Ολοκλήρωση της ρύθμισης μόνιμου αποθηκευτικού χώρου..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
@@ -1899,6 +1902,11 @@ msgid ""
 "doesn't work, restart Tails and try deleting the Persistent Storage without "
 "unlocking it."
 msgstr ""
+"Δεν είναι δυνατή η αποπροσάρτηση του Μόνιμου αποθηκευτικού χώρου, κάποια "
+"διαδικασία εξακολουθεί να το χρησιμοποιεί. Παρακαλούμε κλείστε τις εφαρμογές "
+"που θα μπορούσαν να έχουν πρόσβαση και δοκιμάστε ξανά. Εάν αυτό δε "
+"λειτουργήσει, επανεκκινήστε το Tails και δοκιμάστε να διαγράψετε τον Μόνιμο "
+"αποθηκευτικό χώρο χωρίς να τον ξεκλειδώσετε."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/configuration/binding.py:406
 #, python-brace-format
@@ -1906,6 +1914,9 @@ msgid ""
 "Can't unmount target {target}, some process is still using it. Please close "
 "all applications that could be accessing the target and try again."
 msgstr ""
+"Δεν είναι δυνατή η αποπροσάρτηση του στόχου {target}, κάποια διαδικασία "
+"εξακολουθεί να το χρησιμοποιεί. Παρακαλούμε κλείστε τις εφαρμογές που θα "
+"μπορούσαν να έχουν πρόσβαση στο στόχο και δοκιμάστε ξανά."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
@@ -1917,13 +1928,12 @@ msgid "Persistent Storage"
 msgstr "Μόνιμος αποθηκευτικός χώρος"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:46
-#, fuzzy
 msgid "Failed to start the Persistent Storage service"
-msgstr "Αποτυχία παραμετροποίησης του Μόνιμου αποθηκευτικού χώρου σας"
+msgstr "Αποτυχία εκκίνησης της υπηρεσίας Μόνιμης αποθήκευσης"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
 msgid "Could not find the WhisperBack application"
-msgstr ""
+msgstr "Δεν ήταν δυνατή η εύρεση της εφαρμογής WhisperBack"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:82
 msgid "Delete Data…"
@@ -1934,7 +1944,7 @@ msgstr "Διαγραφή δεδομένων…"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:88
 #, python-brace-format
 msgid "Delete {feature} data"
-msgstr ""
+msgstr "Διαγραφή δεδομένων {feature}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:107
 msgid "Activation failed"
@@ -1942,27 +1952,25 @@ msgstr "Αποτυχία ενεργοποίησης"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:163
 msgid "Activation failed. Try again or delete data."
-msgstr ""
+msgstr "Η ενεργοποίηση απέτυχε. Δοκιμάστε ξανά ή διαγράψτε δεδομένα."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:165
 msgid "Activation failed. Try again."
-msgstr ""
+msgstr "Η ενεργοποίηση απέτυχε. Προσπαθήστε ξανά."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:167
 msgid "The data of this feature is still saved."
-msgstr ""
+msgstr "Τα δεδομένα αυτής της δυνατότητας εξακολουθούν να είναι αποθηκευμένα."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:268
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:273
-#, fuzzy
 msgid "Error activating feature {}"
-msgstr "Σφάλμα ενεργοποίησης μόνιμου αποθηκευτικού χώρου: {}"
+msgstr "Σφάλμα ενεργοποίησης λειτουργίας: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:311
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:316
-#, fuzzy
 msgid "Error deactivating feature {}"
-msgstr "Σφάλμα ενεργοποίησης μόνιμου αποθηκευτικού χώρου: {}"
+msgstr "Σφάλμα απενεργοποίησης λειτουργίας {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:335
 msgid ""
@@ -1971,6 +1979,11 @@ msgid ""
 "\n"
 "If you cancel, the data will be restored when you turn this feature on again."
 msgstr ""
+"Διαγραφή δεδομένων δυνατότητας {} που είναι αποθηκευμένα στη Μόνιμη "
+"αποθήκευση;\n"
+"\n"
+"Εάν κάνετε ακύρωση, τα δεδομένα θα αποκατασταθούν όταν ενεργοποιήσετε ξανά "
+"αυτήν τη λειτουργία."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
 msgid "_Delete Data"
@@ -1978,13 +1991,13 @@ msgstr "_Διαγραφή δεδομένων"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:373
 msgid "Error deleting data of feature {}"
-msgstr ""
+msgstr "Σφάλμα κατά τη διαγραφή δεδομένων της δυνατότητας {}"
 
 #. Translators: Don't translate {applications}, it's a placeholder
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:457
 #, python-brace-format
 msgid "Close {applications} to continue"
-msgstr ""
+msgstr "Κλείστε {applications} για να συνεχίσετε"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:458
 msgid " and "
@@ -1995,14 +2008,14 @@ msgstr " και "
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:469
 #, python-brace-format
 msgid "{app} (PID: {pid})"
-msgstr ""
+msgstr "{app} (PID: {pid})"
 
 #. Translators: Don't translate {app} and {pids}, they
 #. are placeholders.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:474
 #, python-brace-format
 msgid "{app} (PIDs: {pids})"
-msgstr ""
+msgstr "{app} (PIDs: {pids})"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:36
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:8
@@ -2011,14 +2024,12 @@ msgid "Change Passphrase"
 msgstr "Αλλαγή φράσης πρόσβασης"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:85
-#, fuzzy
 msgid "The current passphrase is incorrect"
-msgstr "Οι φράσεις πρόσβασης δε συμφωνούν"
+msgstr "Η τρέχουσα φράση πρόσβασης είναι λανθασμένη"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:94
-#, fuzzy
 msgid "Changing the passphrase failed"
-msgstr "Αλλαγή φράσης πρόσβασης"
+msgstr "Η αλλαγή της φράσης πρόσβασης απέτυχε"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:41
 msgid "Weak"
@@ -2039,11 +2050,12 @@ msgstr "Δυνατό"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:36
 msgid "You can send an error report to help solve the issue."
 msgstr ""
+"Μπορείτε να στείλετε αναφορά σφάλματος για να βοηθήσετε στην επίλυση του "
+"προβλήματος."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
-#, fuzzy
 msgid "_Send Error Report"
-msgstr "Υποβολή αναφοράς σφάλματος"
+msgstr "_Αποστολή αναφοράς σφάλματος"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:144
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:175
@@ -2056,6 +2068,8 @@ msgid ""
 "Are you sure that you want to delete your Persistent Storage? This action "
 "cannot be undone."
 msgstr ""
+"Είστε βέβαιοι ότι θέλετε να διαγράψετε το μόνιμο αποθηκευτικό χώρο; Αυτή η "
+"πράξη δε μπορεί να αναιρεθεί."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:149
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
@@ -2066,20 +2080,20 @@ msgid "_Cancel"
 msgstr "_Ακύρωση"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:150
-#, fuzzy
 msgid "_Delete Persistent Storage"
-msgstr "Διαγραφή μόνιμου αποθηκευτικού χώρου"
+msgstr "_Διαγραφή μόνιμου αποθηκευτικού χώρου"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
-#, fuzzy
 msgid "Deleting your Persistent Storage..."
-msgstr "Διαγραφή μόνιμου αποθηκευτικού χώρου"
+msgstr "Διαγραφή μόνιμου αποθηκευτικού χώρου..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177
 msgid ""
 "To delete the Persistent Storage, restart Tails without unlocking the "
 "Persistent Storage and open the Persistent Storage settings again."
 msgstr ""
+"Για να διαγράψετε το Μόνιμο αποθηκευτικό χώρο, επανεκκινήστε το Tails χωρίς "
+"να τον ξεκλειδώσετε και ανοίξτε ξανά τις ρυθμίσεις του."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:181
 msgid "_OK"
@@ -2089,26 +2103,25 @@ msgstr "_Εντάξει"
 msgid ""
 "Sorry, you can't close this app until the ongoing operation has completed."
 msgstr ""
+"Λυπούμαστε, δεν μπορείτε να κλείσετε αυτήν την εφαρμογή μέχρι να ολοκληρωθεί "
+"η τρέχουσα λειτουργία."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
 msgid "Please wait"
 msgstr "Παρακαλούμε περιμένετε"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:216
-#, fuzzy
 msgid "Not enough memory to create Persistent Storage"
-msgstr "Να μην _δημιουργηθεί μόνιμος αποθηκευτικός χώρος"
+msgstr "Δεν υπάρχει αρκετή μνήμη για δημιουργία Μόνιμου αποθηκευτικού χώρου"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:221
-#, fuzzy
 msgid "Failed to create Persistent Storage"
-msgstr "Αποτυχία παραμετροποίησης του Μόνιμου αποθηκευτικού χώρου σας"
+msgstr "Αποτυχία δημιουργίας Μόνιμου αποθηκευτικού χώρου"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:240
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:245
-#, fuzzy
 msgid "Error deleting Persistent Storage"
-msgstr "Σφάλμα κατά το ξεκλείδωμα του μόνιμου αποθηκευτικού χώρου: {}"
+msgstr "Σφάλμα διαγραφής μόνιμου αποθηκευτικού χώρου"
 
 #. Translators: Don't translate {volume_label} or {volume_size},
 #. they are placeholders and will be replaced. They need
@@ -2211,15 +2224,15 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:352
 msgid "Locking the volume failed"
-msgstr "Το κλείδωμα του τομέα απέτυχε."
+msgstr "Το κλείδωμα του τομέα απέτυχε"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:83
 msgid "No file containers added"
-msgstr "Δεν προστέθηκαν χώροι για αρχεία."
+msgstr "Δεν προστέθηκαν χώροι για αρχεία"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:98
 msgid "No VeraCrypt devices detected"
-msgstr "Δεν εντοπίστηκαν συσκευές VeraCrypt."
+msgstr "Δεν εντοπίστηκαν συσκευές VeraCrypt"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:40
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
@@ -2228,7 +2241,7 @@ msgstr "Ξεκλείδωμα τομέων VeraCrypt"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:114
 msgid "Container already added"
-msgstr "Ο χώρος προστέθηκε ήδη."
+msgstr "Ο χώρος προστέθηκε ήδη"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:115
 #, python-format
@@ -2423,7 +2436,7 @@ msgstr "Η διεύθυνση email επικοινωνίας δεν μοιάζε
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:205
 msgid "Unable to send the mail: SMTP error."
-msgstr "Δεν είναι δυνατόν να σταλεί το mail: σφάλμα SMTP"
+msgstr "Δεν είναι δυνατόν να σταλεί το mail: σφάλμα SMTP."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:207
 msgid "Unable to connect to the server."
@@ -2455,12 +2468,12 @@ msgstr "Το μήνυμα σας έχει σταλεί."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:232
 msgid "An error occured during encryption."
-msgstr "Προέκυψε ένα σφάλμα κατά την κρυπτογράφηση"
+msgstr "Προέκυψε ένα σφάλμα κατά την κρυπτογράφηση."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:252
 #, python-format
 msgid "Unable to save %s."
-msgstr "Αδύνατη η αποθήκευση %s"
+msgstr "Αδύνατη η αποθήκευση %s."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:275
 #, python-format
@@ -2575,17 +2588,15 @@ msgid "Learn more about Tails"
 msgstr "Μάθετε περισσότερα σχετικά με Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:1
-#, fuzzy
 msgid "Back Up Persistent Storage"
-msgstr "Μόνιμος αποθηκευτικός χώρος"
+msgstr "Αντίγραφο ασφαλείας μόνιμου χώρου αποθήκευσης"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
-#, fuzzy
 msgid ""
 "Make a backup of the Tails Persistent Storage to another Tails USB stick"
 msgstr ""
-"Ενεργοποιήστε τη δυνατότητα του Μόνιμου αποθηκευτικού χώρου για τα δεδομένα "
-"που θέλετε να αποθηκεύσετε στη συσκευή USB Tails."
+"Δημιουργήστε αντίγραφο ασφαλείας του μόνιμου αποθηκευτικού χώρου Tails σε "
+"άλλη συσκευή USB Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:2
 msgid "Install, clone, upgrade Tails"
@@ -2622,7 +2633,7 @@ msgid ""
 "when starting Tails"
 msgstr ""
 "Ρυθμίστε το πρόσθετο λογισμικό, που εγκαταστάθηκε από το μόνιμο αποθηκευτικό "
-"χώρο κατά την εκκίνηση του Tails."
+"χώρο κατά την εκκίνηση του Tails"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:1
 msgid "WhisperBack Error Reporting"
@@ -2630,8 +2641,7 @@ msgstr "Σφάλμα αναφοράς WhisperBack"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:2
 msgid "Send feedback via encrypted e-mail"
-msgstr ""
-"Αποστολή σχόλιων μέσω κρυπτογραφημένου μηνύματος ηλεκτρονικού ταχυδρομίου."
+msgstr "Αποστολή σχόλιων μέσω κρυπτογραφημένου email"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:3
 msgid "feedback;bug;report;tails;error;"
@@ -2806,11 +2816,10 @@ msgstr ""
 "σελιδοδείκτες, κωδικοί πρόσβασης Wi-Fi κτλ."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:225
-#, fuzzy
 msgid "Create and configure a Persistent Storage after starting Tails"
 msgstr ""
-"Μπορείτε να δημιουργήσετε και να ρυθμίσετε τον αποθηκευτικό χώρος σας μετά "
-"την εκκίνηση του Tails."
+"Δημιουργήστε και διαμορφώστε ένα μόνιμο χώρο αποθήκευσης μετά την εκκίνηση "
+"του Tails"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:279
 msgid "Language & Region"
@@ -2829,13 +2838,12 @@ msgid "_Passphrase"
 msgstr "_Συνθηματικό"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:546
-#, fuzzy
 msgid ""
 "Your Persistent Storage is unlocked. Its content will be available until you "
 "shut down Tails."
 msgstr ""
-"Ο μόνιμος αποθηκευτικός χώρος σας είναι ξεκλειδωμένος. Επανεκκινήστε το "
-"Tails για να το ξανακλειδώσετε."
+"Ο μόνιμος αποθηκευτικός χώρος σας είναι ξεκλειδωμένος. Το περιεχόμενό του θα "
+"είναι διαθέσιμο μέχρι να κλείσετε το Tails."
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:583
 msgid "_Additional Settings"
@@ -2950,7 +2958,7 @@ msgstr "Μόνιμος Φάκελος"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:135
 msgid "A folder where you can save your documents."
-msgstr ""
+msgstr "Ένας φάκελος όπου μπορείτε να αποθηκεύσετε τα έγγραφά σας."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:160
 msgid "Open Persistent Folder"
@@ -3009,9 +3017,8 @@ msgid "Applications"
 msgstr "Εφαρμογές"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:429
-#, fuzzy
 msgid "Tor Browser Bookmarks"
-msgstr "Ενεργοποίηση Σελιδοδεικτών Tor Browser"
+msgstr "Σελιδοδείκτες του Tor Browser"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:445
 msgid "Activate Tor Browser Bookmarks"
@@ -3038,9 +3045,9 @@ msgid "GnuPG"
 msgstr "GnuPG"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:517
-#, fuzzy
 msgid "OpenPGP keys outside of Thunderbird, including in Kleopatra."
-msgstr "Κλειδιά OpenPGP εκτός του Thunderbird."
+msgstr ""
+"Κλειδιά OpenPGP εκτός του Thunderbird, συμπεριλαμβανομένου του Kleopatra."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:533
 msgid "Activate GnuPG"
@@ -3131,19 +3138,16 @@ msgstr ""
 "δεξιά της γραμμής τίτλου."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:62
-#, fuzzy
 msgid ""
 "Choose the passphrase that you will use to unlock the encryption of your "
 "Persistent Storage and all its data."
 msgstr ""
-"Επιλέξτε τη φράση πρόσβασης που θα χρησιμοποιήσετε για ξεκλείδωμα της "
-"κρυπτογράφησης του αποθηκευτικού χώρου σας και όλων των δεδομένων του.\n"
-"\n"
-"Προτείνουμε τη χρήση φράσης πρόσβασης με τουλάχιστον 5 με 7 τυχαίες λέξεις."
+"Επιλέξτε τη φράση πρόσβασης που θα χρησιμοποιήσετε για να ξεκλειδώσετε την "
+"κρυπτογράφηση της Μόνιμης Αποθήκευσης και όλων των δεδομένων της."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:82
 msgid "We recommend a long passphrase of 5 to 7 random words."
-msgstr ""
+msgstr "Συνιστούμε μια μεγάλη φράση πρόσβασης από 5 έως 7 τυχαίες λέξεις."
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:94
 msgid " For example:"
@@ -3252,8 +3256,8 @@ msgid ""
 "This application is not affiliated with or endorsed by the VeraCrypt project "
 "or IDRIX."
 msgstr ""
-"Αυτή η εφαρμογή δεν συνεργάζεται ούτε αναγνωρίζεται από το πρότζεκτ "
-"VeraCrypt ή το IDRIX,"
+"Αυτή η εφαρμογή δε συνεργάζεται ούτε αναγνωρίζεται από το VeraCrypt ή το "
+"IDRIX."
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:29
 msgid "_Open"
@@ -3276,9 +3280,9 @@ msgid "Choose Passphrase"
 msgstr "Επιλογή φράσης πρόσβασης"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:30
-#, fuzzy
 msgid "Choose the passphrase for the cloned Persistent Storage."
-msgstr "Επιλέξτε μια συνθηματική φράση για την προστασία του μόνιμου τομέα"
+msgstr ""
+"Επιλέξτε τη φράση πρόσβασης για τον κλώνο του μόνιμου αποθηκευτικού χώρου."
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:281
 msgid "Target USB stick:"
@@ -3335,7 +3339,7 @@ msgid ""
 "a link to your key, or the key as a public key block:"
 msgstr ""
 "Αν θέλετε να κρυπτογραφούμε τα μηνύματά μας όταν σας απαντάμε, προσθέστε την "
-"ID σας, ένα σύνδεσμο στην ID σας, ή την ID σας σαν ένα δημόσιο ID block."
+"ID σας, ένα σύνδεσμο στην ID σας, ή την ID σας σαν ένα δημόσιο ID block:"
 
 #: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:308
 msgid "Summary"
@@ -3638,7 +3642,6 @@ msgstr ""
 "φαίνεται ύποπτη σε κάποιον που παρακολουθεί τη σύνδεσή σας στο Διαδίκτυο."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1499
-#, fuzzy
 msgid ""
 "Tails will only connect to Tor after you configured a Tor bridge. Bridges "
 "are secret Tor relays that hide that you are connecting to Tor.\n"
@@ -3650,16 +3653,14 @@ msgid ""
 "yet, if you connect from a public Wi-Fi network, or if you are in the "
 "Eastern Hemisphere."
 msgstr ""
-"To Tails θα συνδεθεί στο Tor μόνο αφού ρυθμίσετε μια γέφυρα Tor. Οι γέφυρες "
-"είναι μυστικοί αναμεταδότες του Tor που αποκρύπτουν το ότι συνδέεστε στο "
-"Tor.\n"
+"Το Tails θα συνδεθεί στο Tor μόνο αφού διαμορφώσετε μια γέφυρα Tor. Οι "
+"γέφυρες είναι μυστικά ρελέ Tor που κρύβουν ότι συνδέεστε στο Tor.\n"
 "\n"
-"Η ομάδα μας κάνει το καλύτερ για να σας βοηθήσει να συνδεθείτε στο Tor "
-"χρησιμοποιώντας τους πιο διακριτικούς τύπους γεφυρών Tor. \n"
+"Η ομάδα μας κάνει ό,τι μπορεί για να σας βοηθήσει να συνδεθείτε στο Tor "
+"χρησιμοποιώντας τους πιο διακριτικούς τύπους γεφυρών Tor.\n"
 "\n"
-"Θα χρειαστεί να κάνετε μερική έξτρα παραμετροποίηση αν δεν ήδη γνωρίζετε "
-"κάποιες γέφυρες Tor. Αν συνδέεστε δημόσιο δίκτυο Wi-Fi, ή αν είστε στο "
-"Ανατολικό Ημισφαίριο."
+"Θα πρέπει να κάνετε επιπλέον διαμόρφωση εάν δε γνωρίζετε γέφυρες Tor, εάν "
+"συνδέεστε από δημόσιο δίκτυο Wi-Fi ή εάν βρίσκεστε στο ανατολικό ημισφαίριο."
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1544
 msgid ""
@@ -3687,7 +3688,7 @@ msgstr "Άνοιγμα ρυθμίσεων Wi-Fi"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1707
 msgid "Testing Internet access…"
-msgstr "Έλεγχος πρόσβασης στο Διαδίκτυο..."
+msgstr "Έλεγχος πρόσβασης στο Διαδίκτυο…"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1747
 msgid "You have access to the Internet"
@@ -3695,7 +3696,7 @@ msgstr "Έχετε πρόσβαση στο Διαδίκτυο"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1781
 msgid "Testing access to Tor…"
-msgstr "Έλεγχος πρόσβασης στο Tor..."
+msgstr "Έλεγχος πρόσβασης στο Tor…"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1824
 msgid "You can connect to Tor"
@@ -3711,7 +3712,7 @@ msgstr "Το τοπικό σας δίκτυο εμποδίζει την πρόσ
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1902
 msgid "Connecting to Tor…"
-msgstr "Σύνδεση στο Tor..."
+msgstr "Σύνδεση στο Tor…"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2007
 msgid "Start Tor Browser"

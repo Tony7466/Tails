@@ -145,7 +145,7 @@ msgid "Start WhisperBack"
 msgstr "Inicia WhisperBack"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To start <span class=\"application\">WhisperBack</span>, choose\n"
 #| "<span class=\"menuchoice\">\n"
@@ -278,7 +278,7 @@ msgid ""
 msgstr "Si no puedes usar <span class=\"application\">GNOME Screenshot</span>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To start <span class=\"application\">GNOME Screenshot</span>, choose\n"
 #| "<span class=\"menuchoice\">\n"
@@ -595,7 +595,6 @@ msgstr ""
 #~ msgstr "<a id=\"special_cases\"></a>\n"
 
 #, fuzzy
-#~| msgid "No internet access"
 #~ msgid "No Internet access"
 #~ msgstr "Sin acceso a Internet"
 

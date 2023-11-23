@@ -199,7 +199,6 @@ msgid "To create a new virtual machine:"
 msgstr "Pour créer une nouvelle machine virtuelle :"
 
 #. type: Bullet: '  1. '
-#, fuzzy
 #| msgid "Choose **Machine**&nbsp;▸**New...**."
 msgid "Choose **Machine**&nbsp;▸**New...**."
 msgstr "Choisir **Machine**&nbsp;▸**Nouvelle...**."
@@ -267,7 +266,6 @@ msgid "Select the new virtual machine in the left pane."
 msgstr "Sélectionner la machine virtuelle dans la partie gauche."
 
 #. type: Bullet: '  1. '
-#, fuzzy
 #| msgid "Choose **Machine**&nbsp;▸ **Settings...**."
 msgid "Choose **Machine**&nbsp;▸ **Settings...**."
 msgstr "Choisir **Machine**&nbsp;▸ **Paramètres...**."
@@ -368,7 +366,7 @@ msgstr ""
 "modifiée depuis Tails.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "<p>To change the screen resolution from inside Tails, choose\n"
 #| "<b>Applications&nbsp;▸ System Tools&nbsp;▸ Settings&nbsp;▸ Displays&nbsp;▸ Resolution</b>.</p>\n"
@@ -410,9 +408,6 @@ msgstr ""
 #~ "span>&nbsp;▸ <span class=\"guimenuitem\">Nouvelle...</span></span>."
 
 #, fuzzy
-#~| msgid ""
-#~| "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Machine</"
-#~| "span>&nbsp;▸ <span class=\"guimenuitem\">Settings...</span></span>."
 #~ msgid ""
 #~ "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Machine</"
 #~ "span>&nbsp;▸ <span class=\"guimenuitem\">Settings...</span></span>."

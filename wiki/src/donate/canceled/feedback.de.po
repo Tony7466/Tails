@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-09-17 15:39+0000\n"
-"PO-Revision-Date: 2022-12-24 08:17+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-12 18:13+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Thanks for your feedback!\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Danke für Ihr Feedback!\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -36,6 +36,8 @@ msgstr ""
 #. type: Plain text
 msgid "We will do our best to make it easier for you to support our work."
 msgstr ""
+"Wir werden unser Bestes tun, um es Ihnen leichter zu machen, unsere Arbeit "
+"zu unterstützen."
 
 #. type: Plain text
 #, no-wrap

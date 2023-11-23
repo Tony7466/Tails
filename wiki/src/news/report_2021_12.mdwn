@@ -1,6 +1,6 @@
-[[!meta  title="Tails report for December 2021"]]
-[[!meta  date="Mon, 10 Jan 2022 12:34:56 +0000"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!meta title="Tails report for December 2021"]]
+[[!meta date="Mon, 10 Jan 2022 12:34:56 +0000"]]
+[[!pagetemplate template="news.tmpl"]]
 
 [[!toc]]
 

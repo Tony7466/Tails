@@ -1,4 +1,6 @@
 from logging import getLogger
+import tempfile
+import json
 from gi.repository import Gdk, Gio, GLib, Gtk
 
 from tps_frontend import _, DBUS_SERVICE_NAME, DBUS_ROOT_OBJECT_PATH, \
@@ -62,7 +64,9 @@ class Application(Gtk.Application):
         dialog.run()
         return
 
-    def launch_whisperback(self):
+    def launch_whisperback(self,
+                           error_summary="PersistentStorage",
+                           error_report_msg=None):
         # Get the WhisperBack app
         # noinspection PyArgumentList
         apps = [a for a in Gio.AppInfo.get_all()
@@ -73,8 +77,16 @@ class Application(Gtk.Application):
                                _("Could not find the WhisperBack application"),
                                with_send_report_button=False)
         app = apps[0]  # type: Gtk.AppInfo
+
+        prefill_data = {
+                "summary": error_summary,
+                }
+        if error_report_msg is not None:
+            prefill_data['details'] = error_report_msg
+        prefill_tmp = tempfile.NamedTemporaryFile(mode='w', delete=False)
+        json.dump(prefill_data, prefill_tmp.file)
         # noinspection PyArgumentList
         display = Gdk.Display.get_default()  # type: Gdk.Display
         launch_context = display.get_app_launch_context()  # type: Gdk.AppLaunchContext
         launch_context.set_timestamp(Gtk.get_current_event_time())
-        app.launch(None, launch_context)
+        app.launch([Gio.File.new_for_path(prefill_tmp.name)], launch_context)

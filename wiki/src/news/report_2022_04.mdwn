@@ -1,6 +1,6 @@
 [[!meta title="Tails report for April 2022"]]
 [[!meta date="Tue, 17 May 2022 12:34:56 +0000"]]
-[[!pagetemplate  template="news.tmpl"]]
+[[!pagetemplate template="news.tmpl"]]
 
 - Disoj, our new Project Manager, started working with us.
 

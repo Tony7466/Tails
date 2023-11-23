@@ -1,4 +1,4 @@
-[[!meta  title="Tails report for November, 2016"]]
+[[!meta title="Tails report for November, 2016"]]
 [[!meta date="Fri, 09 Dec 2016 12:34:56 +0000"]]
 [[!pagetemplate template="news.tmpl"]]
 

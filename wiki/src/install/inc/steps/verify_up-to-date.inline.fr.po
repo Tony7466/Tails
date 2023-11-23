@@ -48,7 +48,6 @@ msgstr ""
 "est à jour :\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose <span class=\"menuchoice\"> <span class=\"guimenu\">Applications</"
 #| "span>&nbsp;▸ <span class=\"guisubmenu\">Tails</span>&nbsp;▸ <span "
@@ -91,15 +90,6 @@ msgstr ""
 "   apparaît avec les instructions de mise à jour. Appliquez les mises à jour comme demandé.\n"
 
 #, fuzzy, no-wrap
-#~| msgid ""
-#~| "   <div class=\"bug\">\n"
-#~| "   <p>If at some point it is impossible to do automatic upgrades, then\n"
-#~| "   we recommend you\n"
-#~| "   <span class=\"install-clone\">[[choose a different installation method|install]].</span>\n"
-#~| "   <span class=\"mac-clone\">[[choose a different installation method|install/mac]].</span>\n"
-#~| "   <span class=\"upgrade-clone\">[[upgrade from Tails instead|upgrade/tails]].</span>\n"
-#~| "   </p>\n"
-#~| "   </div>\n"
 #~ msgid ""
 #~ "   <div class=\"bug\">\n"
 #~ "   <p>If at some point it is impossible to do automatic upgrades, then\n"

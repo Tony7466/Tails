@@ -127,7 +127,6 @@ msgstr ""
 "用者的最佳利益，且維持完全的獨立作為回報。"
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "From anonymized statistics on our website we know that Tails is used by "
 "around 18 000 people every day. **If each of them gave 12€, the price of a "

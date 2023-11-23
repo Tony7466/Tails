@@ -1,1 +1,4 @@
-[[!map pages="tagged(security/fixed)"]]
+[[!meta title="pages tagged security/fixed"]]
+
+[[!inline pages="tagged(security/fixed)" actions="no" archive="yes"
+feedshow=10]]

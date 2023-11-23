@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-01-25 11:39+0000\n"
-"Last-Translator: emma peel <emma.peel@riseup.net>\n"
+"POT-Creation-Date: 2023-11-22 15:53+0100\n"
+"PO-Revision-Date: 2023-11-09 00:36+0000\n"
+"Last-Translator: Jan Sauchyk <theonlymoby@protonmail.com>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/tor/tails-gui/"
 "be/>\n"
 "Language: be\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -29,16 +29,20 @@ msgid ""
 "{details} Please check your list of additional software or read the system "
 "log to understand the problem."
 msgstr ""
+"{details} Калі ласка, праглядзіце спіс дадатковых праграм або прачытайце "
+"сістэмный часопіс, каб зразумець праблему."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:198
 msgid ""
 "Please check your list of additional software or read the system log to "
 "understand the problem."
 msgstr ""
+"Калі ласка, праглядзіце спіс дадатковых праграм або прачытайце сістэмный "
+"часопіс, каб зразумець праблему."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:202
 msgid "Show Log"
-msgstr ""
+msgstr "Паказаць часопіс"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:202
 msgid "Configure"
@@ -50,73 +54,78 @@ msgstr "Наладзіць"
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:72
 #, python-brace-format
 msgid "Add {packages} to your additional software?"
-msgstr ""
+msgstr "Дадаць {packages} да дадатковых праграм?"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:43
 msgid ""
 "To install it automatically from your persistent storage when starting Tails."
 msgstr ""
+"Каб усталяваць гэта аўтаматычна з вашага пастаяннага захоўвання пры запуску "
+"Tails."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:45
 msgid "Install Every Time"
-msgstr ""
+msgstr "Усталёўваць Кожны Раз"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:46
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:78
 msgid "Install Only Once"
-msgstr ""
+msgstr "Усталяваць Толькі Адзін Раз"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:53
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:84
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:151
 msgid "The configuration of your additional software failed."
-msgstr ""
+msgstr "Не атрымалася наладзіць вашы дадатковыя праграмы."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:74
 msgid ""
 "To install it automatically when starting Tails, you can create a persistent "
 "storage and activate the <b>Additional Software</b> feature."
 msgstr ""
+"Каб усталёўваць гэта аўтаматычна пры запуску Tails, можаце зрабіць "
+"пастаяннае захоўванне і актываваць асаблівасць <b>Дадатковыя Праграмы</b>."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:77
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:224
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:242
 msgid "Create Persistent Storage"
-msgstr ""
+msgstr "Зрабіць Пастаяннае Захоўванне"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:86
 msgid "Creating your persistent storage failed."
-msgstr ""
+msgstr "Не атрымалася зрабіць ваша пастаяннае захоўванне."
 
 #. Translators: Don't translate {packages}, it's a placeholder and
 #. will be replaced.
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:95
 #, python-brace-format
 msgid "You could install {packages} automatically when starting Tails"
-msgstr ""
+msgstr "Вы можаце ўсталяваць {packages} аўтаматычна пры запуску Tails"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:98
+#, fuzzy
 msgid "To do so, you need to run Tails from a USB stick."
-msgstr ""
+msgstr "Каб гэта зрабіць, вам патрэбна запусціць Tails з USB назапашвальніка."
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:138
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
-msgstr ""
+msgstr "Выдаліць {packages} з спісу вашых дадатковых праграм?"
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:142
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
-msgstr ""
+msgstr "Гэта спыніць усталяванне {packages} аўтаматычна."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:144
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:168
 msgid "Remove"
-msgstr "Прыбраць"
+msgstr "Выдаліць"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:145
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
@@ -126,14 +135,14 @@ msgstr "Прыбраць"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:344
 #, fuzzy
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "Адмяніць"
 
 #. Translators: Don't translate {beginning} or {last}, they are
 #. placeholders and will be replaced.
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:165
 #, python-brace-format
 msgid "{beginning} and {last}"
-msgstr ""
+msgstr "{beginning} і {last}"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:166
 msgid ", "
@@ -141,7 +150,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:38
 msgid "The check for upgrades of your additional software failed"
-msgstr ""
+msgstr "Не атрымалася праверка абнаўленняў вашых даступных праграм"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:40
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:48
@@ -149,58 +158,70 @@ msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr ""
+"Калі ласка, праверце падключэнне да сеткі, перазапусціце Tails або "
+"прачытайце сістэмный часопіс, каб зразумець праблему."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:47
 msgid "The upgrade of your additional software failed"
-msgstr ""
+msgstr "Не атрымалася абнавіць вашы дадатковыя праграмы"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:112
 msgid "Installing your additional software from persistent storage..."
-msgstr ""
+msgstr "Усталёўваем вашы дадатковыя праграмы з пастаяннага захоўвання..."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:114
+#, fuzzy
 msgid "This can take several minutes."
-msgstr ""
+msgstr "Гэта можа заняць некалькі хвілін."
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:127
 msgid "The installation of your additional software failed"
-msgstr ""
+msgstr "Не атрымалася усталяваць вашы дадатковыя праграмы"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:142
 msgid "Additional software installed successfully"
-msgstr ""
+msgstr "Дадатковыя праграмы паспяхова ўсталяваны"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:646
 msgid "Additional Software"
-msgstr ""
+msgstr "Дадатковыя Праграмы"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:51
 msgid ""
 "You can install additional software automatically from your persistent "
 "storage when starting Tails."
 msgstr ""
+"Вы можаце ўсталяваць дадатковыя праграмы аўтаматычна з вашага пастаяннага "
+"захоўвання пры запуску Tails."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:77
 msgid ""
 "The following software is installed automatically from your persistent "
 "storage when starting Tails."
 msgstr ""
+"Наступныя праграмы ўсталёўваюцца аўтаматычна з вашага пастаяннага захоўвання "
+"пры запуску Tails."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:185
+#, fuzzy
 msgid ""
 "To add more, install some software using <a href=\"synaptic."
 "desktop\">Synaptic Package Manager</a> or <a href=\"org.gnome.Terminal."
 "desktop\">APT on the command line</a>."
 msgstr ""
+"Каб дадаць больш, усталюйце некаторыя праграмы выкарыстоўваючы <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> або <a href=\"org."
+"gnome.Terminal.desktop\">apt ў камандным радку."
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:154
 msgid "_Create persistent storage"
-msgstr ""
+msgstr "_Зрабіць пастаяннае захоўванне"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:94
+#, fuzzy
 msgid ""
 "Tails needs donations to keep everybody free and safe online.\n"
 "\n"
@@ -209,6 +230,12 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails мае патрэбу ў ахвяраваннях каб захоўваць вольнасць і бяспеку кожнага.\n"
+"\n"
+"Кожная кропля дапамагае ў нашай барацьбе супраць назірання і цэнзуры\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Як "
+"мы трацім нашы грошы.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:101
 msgid ""
@@ -219,14 +246,20 @@ msgid ""
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
 "we spend our money.</a>"
 msgstr ""
+"Tails бароніць ваш гаманец.\n"
+"\n"
+"Дапамагае трымаць вашы біткоіны ў забяспячэнні!\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Як "
+"мы трацім нашы грошы.</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:112
 msgid "Donate Now"
-msgstr ""
+msgstr "Ахвяруйце Зараз"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:113
 msgid "Later"
-msgstr ""
+msgstr "Потым"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:123
 msgid "Opening Electrum with our donation address..."

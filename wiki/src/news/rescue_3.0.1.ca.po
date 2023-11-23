@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-09-18 06:11+0200\n"
-"PO-Revision-Date: 2023-10-20 12:26+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-15 00:14+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"How to repair Tails 3.0.1\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Com reparar Tails 3.0.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -45,6 +45,9 @@ msgid ""
 "If Tails 3.0.1 is working fine for you, please ignore this message!\n"
 "</div>\n"
 msgstr ""
+"<div class=\"note\">\n"
+"Si Tails 3.0.1 us funciona bé, ignoreu aquest missatge!\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -53,13 +56,19 @@ msgid ""
 "tails_ticket 13426 desc=\"Tor does not work\"]] which makes most Internet "
 "activity impossible."
 msgstr ""
+"Si heu actualitzat Tails 3.0 a 3.0.1 amb una **actualització automàtica**, "
+"probablement tingueu problemes, un dels més greus és que [[!tails_ticket "
+"13426 desc=\"Tor no funciona\"]] que fa que la majoria d'activitat a "
+"Internet sigui impossible."
 
 #. type: Plain text
 msgid ""
 "If you are affected you can repair your Tails 3.0.1 by doing a [[manual "
 "upgrade|doc/upgrade#manual]] to 3.0.1."
 msgstr ""
+"Si esteu afectat, podeu reparar el vostre Tails 3.0.1 fent una [["
+"actualització manual|doc/upgrade#manual]] a 3.0.1."
 
 #. type: Plain text
 msgid "Sorry for the inconvenience!"
-msgstr ""
+msgstr "Disculpeu les molèsties!"

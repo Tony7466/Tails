@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-10-22 12:12+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-15 00:14+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -82,6 +82,11 @@ msgid ""
 "because *Metadata Cleaner* also uses *MAT* in the background to do the actual\n"
 "cleaning.\n"
 msgstr ""
+"El *Netejador de Metadades* funciona amb els mateixos formats de fitxer i és "
+"tan segur com *MAT*\n"
+"perquè el *Netejador de Metadades* també utilitza *MAT* en segon pla per fer "
+"la neteja\n"
+"dels fitxers.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -93,36 +98,44 @@ msgid ""
 "- Update *Tor Browser* to [11.5.8](https://blog.torproject.org/new-release-"
 "tor-browser-1158)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [11.5.8](https://blog."
+"torproject.org/new-release-tor-browser-1158)."
 
 #. type: Plain text
 msgid "- Update *tor* to 0.4.7.11."
-msgstr ""
+msgstr "- S'ha actualitzat *Tor* a la versió 0.4.7.11."
 
 #. type: Plain text
 msgid ""
 "- Remove `pdf-redact-tools`, which was broken. ([[!tails_ticket 19250]])"
 msgstr ""
+"- S'ha eliminat `pdf-redact-tools`, que estava trencat. ([[!tails_ticket "
+"19250]])"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
 
 #. type: Plain text
 msgid "We fixed 2 small usability issues in *Tor Connection*:"
-msgstr ""
+msgstr "Hem solucionat dos petits problemes d'usabilitat a la *Connexió Tor*:"
 
 #. type: Plain text
 msgid ""
 "- Explain better how to use the *Unsafe Browser* to sign in to a local "
 "network. ([[!tails_ticket 19168]])"
 msgstr ""
+"- S'ha explicat millor com utilitzar el *Navegador Insegur* per iniciar la "
+"sessió a una xarxa local. ([[!tails_ticket 19168]])"
 
 #. type: Plain text
 msgid ""
 "- Remove the *(easier)* and *(safer)* comments in the first screen. ([[!"
 "tails_ticket 19166]])"
 msgstr ""
+"- S'han eliminats els comentaris *(més fàcil)* i *(més segur)* a la primera "
+"pantalla. ([[!tails_ticket 19166]])"
 
 #. type: Plain text
 msgid ""
@@ -135,12 +148,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"issues\">Known issues</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Progress bar of Tor Connection getting stuck around 50%"
-msgstr ""
+msgstr "La barra de progrés de Connexió Tor s'encalla al voltant del 50%"
 
 #. type: Plain text
 msgid ""
@@ -148,18 +161,23 @@ msgid ""
 "sometimes gets stuck halfway through and becomes extremely slow. ([[!"
 "tails_ticket 19173]])"
 msgstr ""
+"Quan s'utilitza un pont de Tor `obfs4` personalitzat, la barra de progrés de "
+"*Connexió Tor* de vegades s'encalla a la meitat i es torna extremadament "
+"lenta. ([[!tails_ticket 19173]])"
 
 #. type: Plain text
 msgid "To fix this, you can either:"
-msgstr ""
+msgstr "Per solucionar-ho, podeu:"
 
 #. type: Plain text
 msgid "- Close and reopen *Tor Connection* to speed up the initial connection."
 msgstr ""
+"- Tancar i tornar a obrir la *Connexió de Tor* per accelerar la connexió "
+"inicial."
 
 #. type: Plain text
 msgid "- Try a different `obfs4` bridge."
-msgstr ""
+msgstr "- Provar un pont `obfs4` diferent."
 
 #. type: Plain text
 #, no-wrap
@@ -167,10 +185,12 @@ msgid ""
 "  We believe that this issue should not happen with an up-to-date bridge\n"
 "  running `obfs4proxy` version 0.0.12 or later.\n"
 msgstr ""
+"  Creiem que aquest problema no hauria de passar amb un pont actualitzat\n"
+"  executant `obfs4proxy` versió 0.0.12 o posterior.\n"
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
 
 #. type: Plain text
 #, no-wrap
@@ -181,10 +201,14 @@ msgstr "<h1 id=\"get\">Obtenir Tails 5.7</h1>\n"
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
 msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.7."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.7."
 
 #. type: Plain text
 #, no-wrap
@@ -192,39 +216,47 @@ msgid ""
 "  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
 "  automatic upgrades by doing a manual upgrade to the latest version.\n"
 msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per instal·lar Tails en un nou llapis USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
 "expert]]"
 msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
 
 #. type: Plain text
 #, no-wrap
@@ -232,17 +264,22 @@ msgid ""
 "<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Per només baixar"
 
 #. type: Plain text
 msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.7 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.7 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -259,4 +296,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 5.8 is [[scheduled|contribute/calendar]] for December 20."
-msgstr ""
+msgstr "Tails 5.8 està [[programat|contribute/calendar]] per al 20 de desembre."

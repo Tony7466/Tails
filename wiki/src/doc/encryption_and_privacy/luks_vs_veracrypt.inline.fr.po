@@ -43,7 +43,7 @@ msgstr ""
 "Tails et Linux."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "<table>\n"
 #| "<tr><th></th><th class=\"w30\"><span class=\"application\">LUKS</span></th><th class=\"w30\"><span class=\"application\">VeraCrypt</span></th></tr>\n"

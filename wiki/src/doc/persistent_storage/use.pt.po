@@ -58,7 +58,6 @@ msgstr ""
 "Persistente ficarão disponíveis automaticamente. Por exemplo:"
 
 #. type: Bullet: '   - '
-#, fuzzy
 #| msgid ""
 #| "Your personal files in the *Persistent* folder are accessible from "
 #| "**Places**&nbsp;▸ **Persistent**, if the [[Persistent Folder|"

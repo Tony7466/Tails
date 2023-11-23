@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-10-27 09:15+0000\n"
+"POT-Creation-Date: 2023-11-08 14:41+0000\n"
 "PO-Revision-Date: 2023-08-01 15:22+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: \n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "[[!meta title=\"Donate to fight surveillance and censorship\"]]"
 msgstr "[[!meta title=\"Doe para lutar contra a vigilância e a censura \"]]"
 
-#.  See upstream patch: https://ikiwiki.info/todo/support_Twitter_cards/ 
+#.  See upstream patch: https://ikiwiki.info/todo/support_Twitter_cards/
 #. type: Content of: outside any tag (error?)
 msgid ""
 "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]] [[!meta "
@@ -106,11 +106,13 @@ msgid ""
 msgstr ""
 
 #.  HTML Variables for PayPal Payments Standard:
-#.        https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/ 
-#.  Note for translators: adapt the URLs to return to the page in your language. 
-#.  Note for translators: adapt the value of 'lc' to your language. 
-#.  For recurring donations only. 
-#.  For one-time donation only. 
+#.        https://developer.paypal.com/docs/classic/paypal-payments-
+#. standard/integration-guide/Appx_websitestandard_htmlvariables/
+#.  Note for translators: adapt the URLs to return to the page in your
+#. language.
+#.  Note for translators: adapt the value of 'lc' to your language.
+#.  For recurring donations only.
+#.  For one-time donation only.
 #. type: Content of: <div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\" "
@@ -244,7 +246,6 @@ msgstr ""
 "class=\"btn btn-amount btn-lg btn-primary col-md-3 col-xs-6 other\">"
 
 #. type: Content of: <div><div><div><form><div><label><div>
-#, fuzzy
 #| msgid ""
 #| "<input type=\"text\" pattern=\"\\d+\" class=\"form-control text-right\" "
 #| "id=\"other-euro\" placeholder=\"Other\"/> <span class=\"input-group-"
@@ -351,8 +352,9 @@ msgstr "Doe em dólares"
 msgid "Recurring donation"
 msgstr "Doação recorrente"
 
-#.  Note for translators: adapt the URLs to return to the page in your language. 
-#.  Note for translators: adapt the value of 'lc' to your language. 
+#.  Note for translators: adapt the URLs to return to the page in your
+#. language.
+#.  Note for translators: adapt the value of 'lc' to your language.
 #. type: Content of: <div><div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\"/> <input "
@@ -439,8 +441,9 @@ msgstr ""
 "Não necessita de uma conta [[!img paypal-inline.png link=\"no\" "
 "class=\"paypal-inline\" alt=\"PayPal\"]]."
 
-#.  Note for translators: adapt the URLs to return to the page in your language. 
-#.  Note for translators: adapt the value of 'lc' to your language. 
+#.  Note for translators: adapt the URLs to return to the page in your
+#. language.
+#.  Note for translators: adapt the value of 'lc' to your language.
 #. type: Content of: <div><div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_donations\"/> <input "
@@ -752,10 +755,15 @@ msgstr ""
 "Labs</strong>."
 
 #. type: Content of: <div><div><p>
+#, fuzzy
+#| msgid ""
+#| "If you cannot specify that your donation to Riseup Labs is for Tails, "
+#| "please let us know so we can attribute your donation to Tails "
+#| "specifically.  Riseup Labs is a 501(c)(3) nonprofit in the USA."
 msgid ""
 "If you cannot specify that your donation to Riseup Labs is for Tails, please "
-"let us know so we can attribute your donation to Tails specifically.  Riseup "
-"Labs is a 501(c)(3) nonprofit in the USA."
+"let us know so we can attribute your donation to Tails specifically.  "
+"Liberate (aka Riseup Labs) is a 501(c)(3) nonprofit in the USA."
 msgstr ""
 "Caso não seja possível especificar que a sua doação feita para Riseup Labs "
 "deve ser destinada para o Tails, por favor nos informe para que possamos "
@@ -897,7 +905,6 @@ msgstr ""
 "do Tails e ajudá-los a tomarem decisões de segurança de forma consciente."
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
-#, fuzzy
 #| msgid "Administration and fundraising"
 msgid "Administration and fundraising"
 msgstr "Administração e captação"
@@ -987,23 +994,6 @@ msgstr ""
 #~ msgstr "(4%)"
 
 #, fuzzy
-#~| msgid ""
-#~| "<label class=\"btn btn-amount btn-lg btn-primary col-md-3 col-xs-6 5 "
-#~| "active\"> <input type=\"radio\" autocomplete=\"off\" value=\"5\"/>5€ </"
-#~| "label> <label class=\"btn btn-amount btn-lg btn-primary col-md-3 col-"
-#~| "xs-6 10\"> <input type=\"radio\" autocomplete=\"off\" value=\"10\"/>10€ "
-#~| "</label> <label class=\"btn btn-amount btn-lg btn-primary col-md-3 col-"
-#~| "xs-6 25\"> <input type=\"radio\" autocomplete=\"off\" value=\"25\"/>25€ "
-#~| "</label> <label class=\"btn btn-amount btn-lg btn-primary col-md-3 col-"
-#~| "xs-6 50\"> <input type=\"radio\" autocomplete=\"off\" value=\"50\"/>50€ "
-#~| "</label> <label class=\"btn btn-amount btn-lg btn-primary col-md-3 col-"
-#~| "xs-6 100\"> <input type=\"radio\" autocomplete=\"off\" value=\"100\"/"
-#~| ">100€ </label> <label class=\"btn btn-amount btn-lg btn-primary col-md-3 "
-#~| "col-xs-6 150\"> <input type=\"radio\" autocomplete=\"off\" value=\"150\"/"
-#~| ">150€ </label> <label class=\"btn btn-amount btn-lg btn-primary col-md-3 "
-#~| "col-xs-6 200\"> <input type=\"radio\" autocomplete=\"off\" value=\"200\"/"
-#~| ">200€ </label> <label class=\"btn btn-amount btn-lg btn-primary col-md-3 "
-#~| "col-xs-6 other\">"
 #~ msgid ""
 #~ "<label class=\"btn btn-amount btn-lg btn-primary col-md-3 col-xs-6 5 "
 #~ "active\"> <input type=\"radio\" autocomplete=\"off\" value=\"5\"/>5â¬ </"
@@ -1115,9 +1105,6 @@ msgstr ""
 #~ "strong>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"bitcoin:3QirvVRntoascPfTgNTUQvKxfKwPah5FNK\">[[!img "
-#~| "bitcoin-3QirvVRntoascPfTgNTUQvKxfKwPah5FNK.png link=\"no\"]]</a>"
 #~ msgid ""
 #~ "<a href=\"bitcoin:3QirvVRntoascPfTgNTUQvKxfKwPah5FNK\">[[!img "
 #~ "bitcoin-3QirvVRntoascPfTgNTUQvKxfKwPah5FNK.png link=\"no\" "
@@ -1136,9 +1123,6 @@ msgstr ""
 #~ msgstr "<input type=\"radio\" name=\"frequency\" id=\"yearly\"/>Yearly"
 
 #, fuzzy
-#~| msgid ""
-#~| "This year, please consider making a donation to protect and sustain "
-#~| "Tails."
 #~ msgid "Donate today to protect and sustain Tails!"
 #~ msgstr ""
 #~ "Neste ano, por favor reflita sobre a possibilidade de fazer uma doação "

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-03-16 10:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20,13 +20,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Troubleshooting connecting to Tor\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Fehlerbehebung bei der Verbindung zu Tor\"]]\n"
 
 #. type: Plain text
 msgid ""
 "The sections below summarize the most common problems when [[connecting to "
 "Tor|tor]]."
 msgstr ""
+"Die folgenden Abschnitte fassen die häufigsten Probleme bei der [[Verbindung "
+"zu Tor|tor]] zusammen."
 
 #. type: Plain text
 #, no-wrap

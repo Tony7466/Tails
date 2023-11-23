@@ -33,9 +33,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-10-19 04:01+0000\n"
-"Last-Translator: Isizaki mei <anonymous.colt330@aleeas.com>\n"
+"POT-Creation-Date: 2023-11-22 15:53+0100\n"
+"PO-Revision-Date: 2023-10-30 06:03+0000\n"
+"Last-Translator: fiz exica <statue_cheddar.0u@icloud.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/tor/tails-gui/"
 "ja/>\n"
 "Language: ja\n"
@@ -43,7 +43,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -53,16 +53,16 @@ msgid ""
 "{details} Please check your list of additional software or read the system "
 "log to understand the problem."
 msgstr ""
-"{details} 追加ソフトウェアのリストを確認して、またはシステムログを参照して、"
-"より問題を理解して下さい。"
+"{details} 問題を理解するには、追加ソフトウェアのリストを確認するか、システム"
+"ログを参照して下さい。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:198
 msgid ""
 "Please check your list of additional software or read the system log to "
 "understand the problem."
 msgstr ""
-"追加ソフトウェアのリストを確認して、またはシステムログを参照して、より問題を"
-"理解して下さい。"
+"問題を理解するには、追加ソフトウェアのリストを確認するか、システムログを参照"
+"して下さい。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:202
 msgid "Show Log"
@@ -78,12 +78,12 @@ msgstr "設定"
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:72
 #, python-brace-format
 msgid "Add {packages} to your additional software?"
-msgstr "追加したソフトウェアに {packages} を加えますか？"
+msgstr "追加ソフトウェアに {packages} を加えますか？"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:43
 msgid ""
 "To install it automatically from your persistent storage when starting Tails."
-msgstr "Tails を起動する時に、永続的ストレージから自動的にインストールする。"
+msgstr "Tailsの起動時に、永続ストレージから自動的にインストールする。"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:45
 msgid "Install Every Time"
@@ -92,7 +92,7 @@ msgstr "毎回インストールする"
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:46
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:78
 msgid "Install Only Once"
-msgstr "1回だけインストールする"
+msgstr "一度だけインストールする"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:53
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:84
@@ -105,8 +105,8 @@ msgid ""
 "To install it automatically when starting Tails, you can create a persistent "
 "storage and activate the <b>Additional Software</b> feature."
 msgstr ""
-"Tails を起動する時に自動的にインストールするには、永続的ストレージを作成して"
-"<b>追加ソフトウェア</b>の機能を有効できます。"
+"Tailsの起動時に自動的にインストールするには、永続ストレージを作成して<b>追加"
+"ソフトウェア</b>を有効にします。"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:77
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:224
@@ -123,25 +123,25 @@ msgstr "永続ストレージの作成に失敗しました。"
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:95
 #, python-brace-format
 msgid "You could install {packages} automatically when starting Tails"
-msgstr "Tails を起動する時に {packages} を自動的にインストールできます"
+msgstr "Tailsの起動時に {packages} を自動的にインストールできます"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:98
 msgid "To do so, you need to run Tails from a USB stick."
-msgstr "そのためには、USB スティックから Tails を実行する必要があります。"
+msgstr "そのためには、USBメモリからTailsを起動する必要があります。"
 
 #. Translators: Don't translate {packages}, it's a placeholder and will be
 #. replaced.
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:138
 #, python-brace-format
 msgid "Remove {packages} from your additional software?"
-msgstr "追加したソフトウェアから {packages} を外しますか?"
+msgstr "追加ソフトウェアから {packages} を削除しますか?"
 
 #. Translators: Don't translate {packages}, it's a placeholder
 #. and will be replaced.
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:142
 #, python-brace-format
 msgid "This will stop installing {packages} automatically."
-msgstr "これは {packages} の自動的インストールを停止します。"
+msgstr "これは {packages} の自動インストールを停止します。"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:144
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:168
@@ -170,7 +170,7 @@ msgstr ", "
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:38
 msgid "The check for upgrades of your additional software failed"
-msgstr "追加ソフトのバージョンアップのチェックに失敗しました"
+msgstr "追加ソフトウェアのアップデートの確認に失敗しました"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:40
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:48
@@ -178,8 +178,8 @@ msgid ""
 "Please check your network connection, restart Tails, or read the system log "
 "to understand the problem."
 msgstr ""
-"問題を理解するには、ネットワーク接続を確認するか、Tails を再起動するか、シス"
-"テム ログを読んでください。"
+"問題を理解するには、ネットワーク接続を確認するか、Tailsを再起動するか、システ"
+"ムログを確認してください。"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:47
 msgid "The upgrade of your additional software failed"
@@ -191,7 +191,7 @@ msgstr "永続ストレージから追加ソフトウェアをインストール
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:114
 msgid "This can take several minutes."
-msgstr "これは数分かかります。"
+msgstr "これには数分かかります。"
 
 #: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:127
 msgid "The installation of your additional software failed"
@@ -212,16 +212,15 @@ msgid ""
 "You can install additional software automatically from your persistent "
 "storage when starting Tails."
 msgstr ""
-"Tails を起動するときに、永続的ストレージから追加ソフトウェアをインストールで"
-"きます。"
+"Tailsの起動時に、永続ストレージから追加ソフトウェアをインストールできます。"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:77
 msgid ""
 "The following software is installed automatically from your persistent "
 "storage when starting Tails."
 msgstr ""
-"Tails を起動するときに、以下のソフトウェアは自動的に永続的ストレージからイン"
-"ストールされます。"
+"Tailsの起動時に、以下のソフトウェアが自動的に永続ストレージからインストールさ"
+"れます。"
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:185
@@ -236,7 +235,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:154
 msgid "_Create persistent storage"
-msgstr "永続的ストレージの作成 (_C)"
+msgstr "永続ストレージの作成 (_C)"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:94
 msgid ""
@@ -252,8 +251,8 @@ msgstr ""
 "\n"
 "監視や検閲と闘うために、できる限りのご協力をお願いします！\n"
 "\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">お金"
-"の使い方</a>"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">寄付"
+"金の使い道</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:101
 msgid ""
@@ -268,8 +267,8 @@ msgstr ""
 "\n"
 "あなたのビットコインの安全確保にご協力ください！\n"
 "\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">お金"
-"の使い方</a>"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">寄付"
+"金の使い道</a>"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:112
 msgid "Donate Now"
@@ -281,15 +280,15 @@ msgstr "また後で"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:123
 msgid "Opening Electrum with our donation address..."
-msgstr "寄付先のアドレスでエレクトラムを開く..."
+msgstr "寄付先のアドレスをElectrumで開いています..."
 
 #: config/chroot_local-includes/usr/local/bin/electrum:124
 msgid "Thank you for making the Internet a safer place!"
-msgstr "インターネットをより安全な場所にしてくれてありがとうございます！"
+msgstr "安全なインターネットの開発へのご協力ありがとうございます！"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:157
 msgid "Persistence is disabled for Electrum"
-msgstr "Electrum の保存機能が無効です"
+msgstr "Electrumの永続機能が無効です"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:159
 msgid ""
@@ -298,14 +297,14 @@ msgid ""
 "It is strongly recommended to only run Electrum when its persistence feature "
 "is activated."
 msgstr ""
-"Tails を再起動すると、すべてのビットコインウォレットを含む Electrum のデータ"
-"が失われます。\n"
-"永続化の機能がオンになっている場合にのみ、Electrum を実行することを強くお勧め"
+"Tailsを再起動すると、すべてのビットコインウォレットを含むElectrumのデータが失"
+"われます。\n"
+"永続化の機能がオンになっている場合にのみ、Electrumを実行することを強くお勧め"
 "します。"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:160
 msgid "Do you want to start Electrum anyway?"
-msgstr "それでも Electrum を起動しますか?"
+msgstr "それでもElectrumを起動しますか?"
 
 #: config/chroot_local-includes/usr/local/bin/electrum:163
 msgid "_Launch"
@@ -397,7 +396,7 @@ msgid ""
 "For debugging information, execute the following command: sudo tails-"
 "debugging-info"
 msgstr ""
-"デバッグ情報を見るために、このコマンドを実行してください: sudo tails-"
+"デバッグ情報を見るために、次のコマンドを実行してください: sudo tails-"
 "debugging-info"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:289
@@ -408,15 +407,15 @@ msgid ""
 "again.\\n\\nIf the problem persists, go to file:///usr/share/doc/tails/"
 "website/doc/upgrade/error/check.en.html"
 msgstr ""
-"<b>署名キーの更新中にエラーが発生しました。</b>\\n\\n<b>これにより、当社の "
-"ウェブサイトからアップグレードを利用できるかどうかを判断できません。</"
-"b>\\n\\nネットワーク接続を確認して、Tails を再起動してください。 もう一度アッ"
-"プグレードしてみてください。\\n\\n問題が解決しない場合は、file:///usr/share/"
-"doc/tails/website/doc/upgrade/error/check.en.html にアクセスしてください"
+"<b>署名鍵の更新中にエラーが発生しました。</b>\\n\\n<b>これにより、公式のウェ"
+"ブサイトからアップグレードを利用できるかどうかを判断できません。</b>\\n\\n"
+"ネットワーク接続を確認して、Tailsを再起動してから、もう一度アップグレードして"
+"みてください。\\n\\n問題が解決しない場合は、file:///usr/share/doc/tails/"
+"website/doc/upgrade/error/check.en.html にアクセスしてください"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:303
 msgid "Error while downloading the signing key"
-msgstr "署名鍵をダウンロードしている間にエラーが発生しました"
+msgstr "署名鍵をダウンロードしている際にエラーが発生しました"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:314
 msgid "Error while updating the signing key"
@@ -424,7 +423,7 @@ msgstr "署名鍵の更新中にエラーが発生しました"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:341
 msgid "Error while checking for upgrades"
-msgstr "アップグレードのチェック中にエラー"
+msgstr "アップグレードのチェック中にエラーが発生しました"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:343
 msgid ""
@@ -436,14 +435,13 @@ msgid ""
 "If the problem persists, go to file:///usr/share/doc/tails/website/doc/"
 "upgrade/error/check.en.html"
 msgstr ""
-"<b>アップグレードが Tor のウェブサイトから入手可能か判断できませんでした。</"
-"b>\n"
+"<b>アップグレードがTorのウェブサイトから可能か判断できませんでした。</b>\n"
 "\n"
-"ネットワーク接続を確認してから Tails を再起動して、もう一度アップグレードを試"
-"してください。\n"
+"ネットワーク接続を確認してからTailsを再起動して、もう一度アップグレードを試し"
+"てください。\n"
 "\n"
-"問題が続く場合は、 file:///usr/share/doc/tails/website/doc/upgrade/error/"
-"check.en.html をご覧ください。"
+"問題が解決しない場合は、 file:///usr/share/doc/tails/website/doc/upgrade/"
+"error/check.en.html をご覧ください"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:358
 msgid "no automatic upgrade is available from our website for this version"
@@ -453,15 +451,15 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
 msgid "your device was not created using a USB image or Tails Cloner"
-msgstr "デバイスがUSBイメージまたはTails Clonerで作成されていません"
+msgstr "このデバイスはUSBイメージまたはTails Clonerで作成されていません"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:369
 msgid "Tails was started from a DVD or a read-only device"
-msgstr "Tails は DVD または読み取り専用のデバイスから起動しました"
+msgstr "TailsはDVDまたは読み取り専用のデバイスから起動しました"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:374
 msgid "there is not enough free space on the Tails system partition"
-msgstr "Tails のシステムパーティション上に十分な空き容量がありません"
+msgstr "Tailsのシステムパーティション上に十分な空き容量がありません"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:379
 msgid "not enough memory is available on this system"
@@ -474,12 +472,12 @@ msgstr "理由「{reason}」のため説明が利用できません。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:407
 msgid "The system is up-to-date"
-msgstr "システムは最新版です"
+msgstr "システムは最新です"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:412
 msgid "This version of Tails is outdated, and may have security issues."
 msgstr ""
-"このバージョンの Tails は古く、セキュリティ上の問題がある場合があります。"
+"このバージョンのTailsは古く、セキュリティ上の問題がある可能性があります。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:442
 #, perl-brace-format
@@ -487,7 +485,7 @@ msgid ""
 "The available incremental upgrade requires {space_needed} of free space on "
 "Tails system partition,  but only {free_space} is available."
 msgstr ""
-"利用できる定期アップグレードは Tails のシステムパーティション上に "
+"利用できる定期アップグレードはTailsのシステムパーティション上に "
 "{space_needed} の空き容量が必要ですが、 {free_space} しか空き容量がありませ"
 "ん。"
 
@@ -497,8 +495,8 @@ msgid ""
 "The available incremental upgrade requires {memory_needed} of free memory, "
 "but only {free_memory} is available."
 msgstr ""
-"利用できる逐次的アップグレードは {memory_needed} のメモリ空き容量が必要です"
-"が、{free_memory} しかメモリ空き容量がありません。"
+"利用できる定期アップグレードは {memory_needed} のメモリ空き容量が必要ですが、"
+"{free_memory} しかメモリ空き容量がありません。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:465
 msgid ""
@@ -506,20 +504,20 @@ msgid ""
 "This should not happen. Please report a bug."
 msgstr ""
 "利用可能なアップグレードを見つけている間に問題が発生しました。\n"
-"通常は発生しないエラーです。バグを報告してください。"
+"これは通常は発生しないエラーです。バグを報告してください。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:468
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:487
 msgid "Error while detecting available upgrades"
-msgstr "利用可能なアップグレードの検索中にエラー"
+msgstr "利用可能なアップグレードの確認中にエラーが発生しました"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:483
 msgid ""
 "An incremental upgrade is available, but no full upgrade is.\n"
 "This should not happen. Please report a bug."
 msgstr ""
-"逐次的アップグレードが利用できますが、完全なアップグレードはありません。\n"
-"これは本来起こりえません。バグを報告してください。"
+"定期アップグレードが利用できますが、完全なアップグレードはありません。\n"
+"これは通常は発生しないエラーです。バグを報告してください。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:496
 #, perl-brace-format
@@ -538,11 +536,11 @@ msgid ""
 msgstr ""
 "<b>{name} {version} にアップグレードするべきです。</b>\n"
 "\n"
-"この新バージョンについての詳細は、{details_url} を開いてください。\n"
+"この新しいバージョンについての詳細は、{details_url} を開いてください。\n"
 "\n"
 "アップグレード中は開いているアプリケーションをすべて閉じることが推奨されま"
 "す。\n"
-"アップグレードのダウンロードには、数分から2、3時間程度の長い時間がかかる場合"
+"アップグレードのダウンロードには、数分から2〜3時間程度の長い時間がかかる場合"
 "があります。\n"
 "\n"
 "ダウンロードサイズ: {size}\n"
@@ -551,7 +549,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:509
 msgid "Upgrade available"
-msgstr "アップグレード利用可能"
+msgstr "アップグレードが利用可能"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:510
 msgid "Upgrade now"
@@ -575,13 +573,12 @@ msgid ""
 msgstr ""
 "<b>{name}の最新バージョンへの手動アップグレードを行う必要があります。</b>。\n"
 "\n"
-"この新バージョンの詳細については、{details_url}にアクセスしてください。\n"
+"この新しいバージョンの詳細については、{details_url}にアクセスしてください。\n"
 "\n"
-"この新しいバージョンへのTailsの自動アップグレードを行うことは不可能です："
+"この新しいバージョンへのTailsの自動アップグレードを行うことはできません："
 "{explanation}。\n"
 "\n"
-"手動アップグレードの方法については、{manual_upgrade_url}にアクセスしてくださ"
-"い。"
+"手動アップグレードの方法については、{manual_upgrade_url}を閲覧してください.。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:528
 msgid "New version available"
@@ -605,13 +602,13 @@ msgid ""
 msgstr ""
 "<b>アップグレードをダウンロードできませんでした。</b>\\n\\nネットワーク接続を"
 "確認してからTailsを再起動して、もう一度アップグレードをお試しください。\\n\\n"
-"問題が続く場合は、 file:///usr/share/doc/tails/website/doc/upgrade/error/"
-"download.en.html を開いてください"
+"問題が解決しない場合は、 file:///usr/share/doc/tails/website/doc/upgrade/"
+"error/download.en.html を確認してください"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:711
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:726
 msgid "Error while downloading the upgrade"
-msgstr "アップグレードのダウンロード中にエラー"
+msgstr "アップグレードのダウンロード中にエラーが発生しました"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:721
 #, perl-brace-format
@@ -619,16 +616,16 @@ msgid ""
 "Output file '{output_file}' does not exist, but tails-iuk-get-target-file "
 "did not complain. Please report a bug."
 msgstr ""
-"出力ファイル 「{output_file}」 は存在しませんが、 tails-iuk-get-target-file "
-"はエラーを出しませんでした。バグを報告してください。"
+"出力ファイル「{output_file}」は存在しませんが、 tails-iuk-get-target-file で"
+"はエラーが発生しませんでした。バグを報告してください。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:737
 msgid "Error while creating temporary downloading directory"
-msgstr "一時的ダウンロード用ディレクトリの作成中にエラー"
+msgstr "一時的なダウンロード用ディレクトリの作成中にエラーが発生しました"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:740
 msgid "Failed to create temporary download directory"
-msgstr "ダウンロード用一時ディレクトリの作成に失敗しました"
+msgstr "一時的なダウンロード用ディレクトリの作成に失敗しました"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:752
 msgid ""
@@ -640,9 +637,9 @@ msgid ""
 msgstr ""
 "アップグレードは正常にインストールされました。\n"
 "\n"
-"アップデートの適用中はネットワークが無効化されます。\n"
+"アップデート中はネットワーク接続が無効化されます。\n"
 "\n"
-"作業を保存しすべてのアプリケーションを終了してください。"
+"作業を保存し、すべてのアプリケーションを終了してください。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:757
 msgid "Upgrade successfully downloaded"
@@ -650,7 +647,7 @@ msgstr "アップグレードは正常にダウンロードされました"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:758
 msgid "Apply upgrade"
-msgstr "アップグレード適用"
+msgstr "アップグレードを適用"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:765
 msgid ""
@@ -661,16 +658,16 @@ msgid ""
 "\n"
 "Do you want to restart now?"
 msgstr ""
-"<b>Tails デバイスは正常にアップグレードされました。</b>\n"
+"<b>このTailsデバイスは正常にアップグレードされました。</b>\n"
 "\n"
 "いくつかのセキュリティ機能が一時的に無効になりました。\n"
-"できるだけ早く新しいバージョンの Tails を再起動する必要があります。\n"
+"できるだけ早く新しいバージョンのTailsで再起動をする必要があります。\n"
 "\n"
 "今すぐ再起動しますか?"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:770
 msgid "Restart Tails"
-msgstr "Tails を再起動"
+msgstr "Tailsを再起動"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:771
 msgid "Restart now"
@@ -714,9 +711,9 @@ msgid ""
 "\n"
 "For security reasons, the network connection is now disabled."
 msgstr ""
-"<b>Tails デバイスをアップグレードしています...</b>\n"
+"<b>Tailsデバイスをアップグレードしています...</b>\n"
 "\n"
-"セキュリティのため、現在、ネットワーク接続は無効化されています。"
+"セキュリティのため、現在ネットワーク接続は無効化されています。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:853
 msgid ""
@@ -725,10 +722,10 @@ msgid ""
 "instructions at file:///usr/share/doc/tails/website/doc/upgrade/error/"
 "install.en.html"
 msgstr ""
-"<b>アップグレードのインストール中にエラーが発生しました。</b>\\n\\nTails デバ"
-"イスは修復が必要であり、再起動できない恐れがあります。\\n\\nfile:///usr/"
-"share/doc/tails/website/doc/upgrade/error/install.en.html の指示に従ってくだ"
-"さい。"
+"<b>アップグレードのインストール中にエラーが発生しました。</b>\\n\\nこのTails"
+"デバイスは修復が必要であり、再起動できない恐れがあります。\\n\\nfile:///usr/"
+"share/doc/tails/website/doc/upgrade/error/install.en.html を閲覧し指示に従っ"
+"てください。"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:863
 msgid "Error while installing the upgrade"
@@ -736,7 +733,7 @@ msgstr "アップグレードのインストール中にエラーが発生しま
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:32
 msgid "Additional Settings"
-msgstr "追加の設定"
+msgstr "追加設定"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:46
 msgid "Add"
@@ -748,20 +745,20 @@ msgstr "戻る"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:63
 msgid "_Administration Password"
-msgstr "管理パスワード (_A)"
+msgstr "管理者パスワード (_A)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:186
 msgid "_MAC Address Anonymization"
-msgstr "_MAC アドレスの匿名化"
+msgstr "_MACアドレスの匿名化"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:249
 msgid "_Offline Mode"
-msgstr "_オフライン モード"
+msgstr "_オフラインモード"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:258
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:413
 msgid "Enable networking (default)"
-msgstr "ネットワークを有効にする (標準)"
+msgstr "ネットワークを有効にする (既定)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:260
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:459
@@ -778,11 +775,11 @@ msgstr "廃止"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:338
 msgid "_Unsafe Browser"
-msgstr "安全でないブラウザー (_U)"
+msgstr "安全でないブラウザ (_U)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:347
 msgid "Enabled (default)"
-msgstr "無効 (既定)"
+msgstr "有効 (既定)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:349
 msgid "Disabled"
@@ -806,20 +803,20 @@ msgstr "オフ (既定)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:159
 msgid "Persistent Storage Still Locked"
-msgstr "永続的ストレージはまだロックされています"
+msgstr "永続ストレージはまだロックされています"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:160
 msgid ""
 "Do you really want to start Tails without unlocking your Persistent Storage?"
-msgstr "永続ストレージのロックを解除せずに Tails を開始してもよろしいですか?"
+msgstr "永続ストレージのロックを解除せずにTailsを開始してもよろしいですか?"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:162
 msgid "Start Without Persistent Storage"
-msgstr "永続ストレージなしで始める"
+msgstr "永続ストレージなしで開始"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:101
 msgid "Error unlocking Persistent Storage: {}"
-msgstr "暗号化された永続的ストレージ: {}"
+msgstr "暗号化された永続ストレージ: {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
 msgid "Error upgrading Persistent Storage: {}"
@@ -830,11 +827,11 @@ msgstr "永続ストレージのアップグレードエラー： {}"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
 #, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
-msgstr "永続ストレージの一部の機能のアクティブ化に失敗しました。: {features}"
+msgstr "永続ストレージの一部の機能のアクティベートに失敗しました: {features}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
 msgid "Error activating Persistent Storage: {}"
-msgstr "永続ストレージのアクティブ化エラー：{}"
+msgstr "永続ストレージのアクティベートエラー：{}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:70
 msgid "Unlocking…"
@@ -864,20 +861,20 @@ msgid ""
 "Failed to unlock the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
-"永続ストレージのロックを解除できませんでした。 Tails を起動して、エラー レ"
-"ポートを送信してください。"
+"永続ストレージのロックを解除できませんでした。 Tailsを起動してエラーレポート"
+"を送信してください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:133
 msgid ""
 "Failed to activate the Persistent Storage. Please start Tails and send an "
 "error report."
 msgstr ""
-"永続ストレージのアクティブ化に失敗しました。 Tails を起動して、エラー レポー"
-"トを送信してください。"
+"永続ストレージのアクティベートに失敗しました。 Tailsを起動してエラーレポート"
+"を送信してください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:143
 msgid "Upgrading the Persistent Storage. This may take a while…"
-msgstr "永続ストレージのアップグレード。しばらく時間がかかるかもしれません…"
+msgstr "永続ストレージのアップグレード中。しばらく時間がかかります…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/persistent_storage.py:154
 msgid "Start Tails and open the Persistent Storage settings to find out more."
@@ -949,12 +946,12 @@ msgstr "%(outfile)sを%(infile)sにコピーできません: %(message)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:536
 msgid "Removing existing Tails system"
-msgstr "既存の Tails システムを削除中"
+msgstr "既存のTailsシステムを削除中"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:546
 #, python-format
 msgid "Unable to remove file from previous Tails system: %(message)s"
-msgstr "既存の Tails システムのファイルを削除できません: %(message)s"
+msgstr "既存のTailsシステムのファイルを削除できません: %(message)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:553
 #, python-format
@@ -964,18 +961,18 @@ msgstr "%(file)sをchmodできません: %(message)s"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:560
 #, python-format
 msgid "Unable to remove directory from previous Tails system: %(message)s"
-msgstr "既存の Tails システムのディレクトリを削除できません: %(message)s"
+msgstr "既存のTailsシステムのディレクトリを削除できません: %(message)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:608
 #, python-format
 msgid "Cannot find device %s"
-msgstr "デバイス %s が見つかれません"
+msgstr "デバイス %s が見つかりません"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:658
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:905
 msgid "Unknown filesystem.  Your device may need to be reformatted."
 msgstr ""
-"不明なファイルシステムです。デバイスを再フォーマットが必要な場合があります。"
+"不明なファイルシステムです。デバイスの再フォーマットが必要な場合があります。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:661
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:908
@@ -986,7 +983,7 @@ msgstr "サポートしていないファイルシステム: %s"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:679
 #, python-format
 msgid "Unknown GLib exception while trying to mount device: %(message)s"
-msgstr "デバイスのマウントを試行中不明なGLib例外: %(message)s"
+msgstr "デバイスのマウントを試行中に不明なGLib例外: %(message)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:684
 #, python-format
@@ -1015,7 +1012,7 @@ msgstr "「%(device)s」上の「%(udi)s」をマウント解除中"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:724
 #, python-format
 msgid "Mount %s exists after unmounting"
-msgstr "アンマウント後 %s の実体をマウント"
+msgstr "アンマウント後 %s をマウント"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:761
 #, python-format
@@ -1051,7 +1048,7 @@ msgstr "%(file)sを削除中"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:964
 msgid "Cloning Persistent Storage..."
-msgstr "永続ストレージのクローニング..."
+msgstr "永続ストレージを複製中..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1032
 #, python-format
@@ -1060,7 +1057,7 @@ msgstr "%s はすでに起動可能です"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1052
 msgid "Unable to find partition"
-msgstr "パーティションを見つけられません"
+msgstr "パーティションが見つかりません"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1071
 #, python-format
@@ -1075,7 +1072,7 @@ msgstr "%sから抽出されたMBRを読み込み中"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1138
 #, python-format
 msgid "Could not read the extracted MBR from %(path)s"
-msgstr "%(path)sから抽出されたMBRを読み込めなかった"
+msgstr "%(path)sから抽出されたMBRを読み込めませんでした"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1151
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1152
@@ -1085,19 +1082,19 @@ msgstr "%sのマスターブートレコードをリセット中"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1157
 msgid "Drive is a loopback, skipping MBR reset"
-msgstr "ドライブがループバックです。MBRリセットをスキップします"
+msgstr "ドライブがループバックしました。MBRリセットをスキップします"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1161
 msgid "Synchronizing data on disk..."
-msgstr "ディスク上のデータを同期化中..."
+msgstr "ディスク上のデータを同期中..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:150
 msgid ""
 "Error: Cannot set the label or obtain the UUID of your device.  Unable to "
 "continue."
 msgstr ""
-"エラー: ファイルシステムのラベルを設定できないか、デバイスの UUID を取得でき"
-"ません。そのため処理を継続できません。"
+"エラー: ファイルシステムのラベルを設定できないか、デバイスのUUIDを取得できま"
+"せん。処理を継続できません。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:186
 #, python-format
@@ -1106,7 +1103,7 @@ msgstr "インストールが完了しました! (%s)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:191
 msgid "Tails installation failed!"
-msgstr "Tails のインストールに失敗しました!"
+msgstr "Tailsのインストールに失敗しました!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
@@ -1116,7 +1113,7 @@ msgstr "Tails Cloner"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
 msgid "Clone the current Tails"
-msgstr "現在の Tails を複製"
+msgstr "現在のTailsを複製"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:346
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:200
@@ -1149,32 +1146,32 @@ msgstr "%(size)s%(vendor)s%(model)sデバイス（%(device)s）"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:431
 msgid "No ISO image selected"
-msgstr "ISO イメージが選択されていません"
+msgstr "ISOイメージが選択されていません"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:432
 msgid "Please select a Tails ISO image."
-msgstr "Tails ISO イメージを選択してください。"
+msgstr "Tails ISOイメージを選択してください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:488
 msgid ""
 "Clone the current Persistent Storage\n"
 "Impossible to clone the Persistent Storage because it is locked."
 msgstr ""
-"現在の永続ストレージをクローンする\n"
-"永続ストレージがロックされているため、永続ストレージをクローンできません。"
+"現在の永続ストレージを複製する\n"
+"永続ストレージがロックされているため、永続ストレージを複製できません。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:491
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
 msgid "Clone the current Persistent Storage"
-msgstr "現在の永続ストレージのクローンを作成する"
+msgstr "現在の永続ストレージのコピーを作成する"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:493
 msgid ""
 "Clone the current Persistent Storage\n"
 "You can only choose to reinstall when cloning the Persistent Storage."
 msgstr ""
-"現在の永続ストレージのクローン\n"
-"再インストールを選択できるのは、永続ストレージをクローンする場合のみです。"
+"現在の永続ストレージのコピー\n"
+"再インストールを選択できるのは、永続ストレージを複製する場合のみです。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:531
 #, python-format
@@ -1183,9 +1180,9 @@ msgid ""
 "manufacturer and Tails will fail to start from it. Please try installing on "
 "a different model."
 msgstr ""
-"\"%(pretty_name)s\"というUSBメモリーがメーカーにより取り外しができないように"
-"設定されたので、Tailsインストールは開始できません。USBメモリーの別モデルでイ"
-"ンストールして下さい。"
+"\"%(pretty_name)s\"というUSBメモリがメーカーにより取り外しができないように設"
+"定されたので、Tailsインストールを開始できません。別モデルのUSBメモリでインス"
+"トールして下さい。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:541
 #, python-format
@@ -1193,8 +1190,8 @@ msgid ""
 "The device \"%(pretty_name)s\" is too small to install Tails (at least "
 "%(size)s GB is required)."
 msgstr ""
-"デバイス \"%(pretty_name)s\" は記憶領域が小さすぎるため、 Tails をインストー"
-"ルすることができません（少なくとも %(size)s GB 必要です）。"
+"デバイス \"%(pretty_name)s\" は記憶領域が小さすぎるため、 Tailsをインストール"
+"することができません（少なくとも %(size)s GB 必要です）。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:554
 #, python-format
@@ -1203,22 +1200,22 @@ msgid ""
 "downloaded Tails ISO image:\n"
 "%(dl_url)s"
 msgstr ""
-"デバイス「%(pretty_name)s」をこの Tails からアップグレードするには、Tails "
-"ISO イメージをダウンロードして使用する必要があります:\n"
+"デバイス「%(pretty_name)s」をこのTailsからアップグレードするには、Tails ISOイ"
+"メージをダウンロードして使用する必要があります:\n"
 "%(dl_url)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:574
 msgid "No device suitable to install Tails could be found"
-msgstr "Talis を設置するのに適した装置が見つかりませんでした"
+msgstr "Tailsをインストールするためのデバイスが見つかりませんでした"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:576
 #, python-format
 msgid "Please plug a USB flash drive or SD card of at least %0.1f GB."
-msgstr "%0.1f GB 以上の USB メモリーや SD カードを差し込んでください。"
+msgstr "%0.1f GB以上のUSBメモリやSDカードを挿入してください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:588
 msgid "An error happened while installing Tails"
-msgstr "Tails のインストール中にエラーが発生しました"
+msgstr "Tailsのインストール中にエラーが発生しました"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:640
 msgid "Installation complete!"
@@ -1241,11 +1238,11 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"この USB メモリにある永続的ストレージは失われます。"
+"このUSBメモリにある永続ストレージは失われます。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:711
 msgid "Delete Persistent Storage and Reinstall"
-msgstr "永続的なストレージを削除して再インストール"
+msgstr "永続ストレージを削除して再インストール"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:713
 msgid ""
@@ -1255,7 +1252,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"USB スティックからすべてのデータ失われます。"
+"このUSBメモリ上のすべてのデータが失われます。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:714
 msgid "Delete All Data and Install"
@@ -1268,23 +1265,23 @@ msgstr "%(description)s%(delete_message)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:719
 msgid "Confirm the target USB stick"
-msgstr "目標USBスティックを確認する"
+msgstr "ターゲットUSBメモリを確認する"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:760
 msgid ""
 "The selected file is unreadable. Please fix its permissions or select "
 "another file."
 msgstr ""
-"選択されたファイルは読み込めません。パーミッションを修正するか、ほかのファイ"
-"ルを選択してください。"
+"選択されたファイルは読み込めません。権限を修正するか、他のファイルを選択して"
+"ください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:766
 msgid ""
 "Unable to use the selected file.  You may have better luck if you move your "
 "ISO to the root of your drive (ie: C:\\)"
 msgstr ""
-"選択したファイルは使用できません。 ISO をドライブのルート (例: C:\\) に移動す"
-"ると、うまくいく可能性があります。"
+"選択したファイルは使用できません。 ISOをドライブのルート (例: C:\\) に移動す"
+"ると、成功する可能性があります。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:772
 #, python-format
@@ -1293,12 +1290,12 @@ msgstr "%(filename)sが選択されました"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:31
 msgid "Unable to find Tails on ISO"
-msgstr "ISO 上で Tails を見つけられません"
+msgstr "ISO上でTailsが見つかりませんでした"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:37
 #, python-format
 msgid "Could not guess underlying block device: %s"
-msgstr "根底のブロック・デバイスを当てることができません：%s"
+msgstr "根底のブロックデバイスを当てることができません：%s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:52
 #, python-format
@@ -1362,7 +1359,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/keepassxc:28
 msgid "Rename"
-msgstr "名前を変更"
+msgstr "名称変更"
 
 #: config/chroot_local-includes/usr/local/bin/keepassxc:30
 msgid "Keep current name"
@@ -1370,7 +1367,7 @@ msgstr "名前を変更しない"
 
 #: config/chroot_local-includes/usr/local/bin/replace-su-with-sudo:19
 msgid "su is disabled. Please use sudo instead."
-msgstr "su は無効になっています。代わりに sudo を使ってください。"
+msgstr "su は無効になっています。代わりに sudo を使用してください。"
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:221
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:77
@@ -1388,16 +1385,16 @@ msgid ""
 "The device Tails is running from cannot be found. Maybe you used the 'toram' "
 "option?"
 msgstr ""
-"Tails が動作しているデバイスを発見出来ませんでした。もしかして 'toram' オプ"
-"ションを使ってはいませんか？"
+"Tailsが動作しているデバイスが見つかりませんでした。'toram' オプションを使用し"
+"ていませんか？"
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:251
 msgid ""
 "The drive Tails is running from cannot be found. Maybe you used the 'toram' "
 "option?"
 msgstr ""
-"Tails が動作しているドライブを発見出来ませんでした。もしかして 'toram' オプ"
-"ションを使ってはいませんか？"
+"Tailsが動作しているドライブが見つかりませんでした。'toram' オプションを使用し"
+"ていませんか？"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:78
 msgid "Lock screen"
@@ -1405,7 +1402,7 @@ msgstr "ロック画面"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:82
 msgid "Suspend"
-msgstr "中断する"
+msgstr "中断"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:86
 msgid "Restart"
@@ -1424,7 +1421,7 @@ msgstr "Tails"
 #: config/chroot_local-includes/usr/local/bin/tails-about:25
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
 msgid "About Tails"
-msgstr "Tails について"
+msgstr "Tailsについて"
 
 #: config/chroot_local-includes/usr/local/bin/tails-about:36
 #, python-format
@@ -1450,8 +1447,8 @@ msgid ""
 "Remove {package} from your additional software? This will stop installing "
 "the package automatically."
 msgstr ""
-"追加したソフトウェアから {package} を外しますか？これはパッケージの自動的イン"
-"ストールを停止します。"
+"追加ソフトウェアから {package} を削除しますか？この操作はパッケージの自動的イ"
+"ンストールを停止します。"
 
 #. Translators: Don't translate {pkg}, it's a placeholder and will be replaced.
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:111
@@ -1467,7 +1464,7 @@ msgstr "追加ソフトウェア設定の読み込みに失敗しました"
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:166
 #, python-brace-format
 msgid "Stop installing {package} automatically"
-msgstr "{package} の自動的インストールを停止する"
+msgstr "{package} の自動インストールを停止する"
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:192
 msgid ""
@@ -1475,9 +1472,9 @@ msgid ""
 "Package Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the "
 "command line</a>."
 msgstr ""
-"そうするには、<a href=\"synaptic.desktop\">Synapticパッケージ・マネージャー</"
-"a>、あるいは<a href=\"org.gnome.Terminal.desktop\">APTでコマンドラインから</"
-"a>ソフトウェアをインストールして下さい。"
+"他のソフトウェアを追加するには、<a href=\"synaptic.desktop\">Synapticパッケー"
+"ジマネージャー</a>または<a href=\"org.gnome.Terminal.desktop\">APTでコマンド"
+"ラインから</a>インストールして下さい。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:201
 msgid ""
@@ -1485,10 +1482,10 @@ msgid ""
 "some software using <a href=\"synaptic.desktop\">Synaptic Package Manager</"
 "a> or <a href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
 msgstr ""
-"そうするには、Tails を起動する時に永続的ストレージをアンロックして <a "
-"href=\"synaptic.desktop\">Synaptic パッケージ・マネージャー</a>で、あるいは"
-"<a href=\"org.gnome.Terminal.desktop\">コマンドラインから ATP で</a>ソフト"
-"ウェアをインストールして下さい。"
+"これをするには、Tailsの起動時に永続ストレージをロック解除して <a "
+"href=\"synaptic.desktop\">Synaptic パッケージマネージャー</a>または<a "
+"href=\"org.gnome.Terminal.desktop\">APT でコマンドラインから</a>ソフトウェア"
+"をインストールして下さい。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:211
 msgid ""
@@ -1496,20 +1493,20 @@ msgid ""
 "href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a href=\"org."
 "gnome.Terminal.desktop\">APT on the command line</a>."
 msgstr ""
-"そうするには、Tailsを起動する時に固定記憶域を作成して<a href=\"synaptic."
-"desktop\">Synapticパッケージ・マネージャー</a>で、あるいは<a href=\"org."
-"gnome.Terminal.desktop\">コマンドラインからATPで</a>ソフトウェアをインストー"
-"ルして下さい。"
+"これをするには、Tailsを起動する時に永続ストレージを作成して<a "
+"href=\"synaptic.desktop\">Synapticパッケージマネージャー</a>または<a "
+"href=\"org.gnome.Terminal.desktop\">APT でコマンドラインから</a>ソフトウェア"
+"をインストールして下さい。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:219
 msgid "To do so, install Tails on a USB stick and create a persistent storage."
 msgstr ""
-"そのためには、Tails を USB スティックにインストールし、永続ストレージを作成し"
+"これにはTailsをUSBメモリにインストールし、永続ストレージを作成する必要があり"
 "ます。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:263
 msgid "[package not available]"
-msgstr "[パッケージがありません]"
+msgstr "[パッケージが利用できません]"
 
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:68
 msgid "Failed to synchronize the clock!"
@@ -1525,7 +1522,7 @@ msgstr "スクリーンロッカー"
 
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:131
 msgid "Set up a password to unlock the screen."
-msgstr "画面をアンロックするためのパスワードを設定してください。"
+msgstr "画面をロック解除するためのパスワードを設定してください。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:149
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2227
@@ -1539,7 +1536,7 @@ msgstr "確認"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:121
 msgid "This version of Tails has known security issues:"
-msgstr "このバージョンの Tails には、既知のセキュリティ問題が存在します:"
+msgstr "このバージョンのTailsには、既知のセキュリティ問題が存在します:"
 
 #: config/chroot_local-includes/usr/local/bin/tails-security-check:132
 msgid "Known security issues"
@@ -1557,9 +1554,9 @@ msgid ""
 "is temporarily disabled.\n"
 "You might prefer to restart Tails and disable MAC address anonymization."
 msgstr ""
-"ネットワーク カード ${nic_name} (${nic}) の MAC アドレスの匿名化に失敗しまし"
-"たため、現在無効化されています。\n"
-"Tails を再起動し MAC アドレスの匿名化を無効化することを推奨します。"
+"ネットワーク カード ${nic_name} (${nic}) のMACアドレスの匿名化に失敗したた"
+"め、現在無効化されています。\n"
+"Tailsを再起動し、MACアドレスの匿名化を無効にすることを推奨します。"
 
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:66
 msgid "All networking disabled"
@@ -1572,9 +1569,9 @@ msgid ""
 "error recovery also failed so all networking is disabled.\n"
 "You might prefer to restart Tails and disable MAC address anonymization."
 msgstr ""
-"ネットワーク カード ${nic_name} (${nic}) のMAC アドレスの匿名化に失敗しまし"
-"た。エラー回復にも失敗したためすべてのネットワークが無効化されています。\n"
-"Tails を再起動し MAC アドレスの匿名化を無効にしたほうがいいかもしれません。"
+"ネットワークカード ${nic_name} (${nic}) のMACアドレスの匿名化に失敗しました。"
+"エラー回復にも失敗したため、すべてのネットワークが無効化されています。\n"
+"Tailsを再起動し、MACアドレスの匿名化を無効にしたほうがよいかもしれません。"
 
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:36
 #, python-brace-format
@@ -1612,7 +1609,7 @@ msgstr "警告: 仮想マシンを検出しました!"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:23
 msgid "Warning: non-free virtual machine detected!"
-msgstr "警告:フリーソフトではない仮想マシンを検出!"
+msgstr "警告: フリーソフトではない仮想マシンを検出しました!"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:25
 msgid ""
@@ -1621,8 +1618,8 @@ msgid ""
 "trustworthy, for both the host operating system and the virtualization "
 "software."
 msgstr ""
-"ホストオペレーティングシステムと仮想化ソフトウェアのどちらも、Tails で行って"
-"いることを監視できます。ホストオペレーティングシステムと仮想化ソフトウェアに"
+"ホストオペレーティングシステムと仮想化ソフトウェアのどちらも、Tailsで行ってい"
+"ることを監視できます。ホストオペレーティングシステムと仮想化ソフトウェアに"
 "は、フリーソフトのみが信頼されます。"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:38
@@ -1636,7 +1633,7 @@ msgstr "詳細情報"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/config.py:9
 #: ../config/chroot_local-includes/usr/share/applications/tca.desktop.in.h:1
 msgid "Tor Connection"
-msgstr "Tor 接続"
+msgstr "Tor Connection"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:200
 msgid "_Use a bridge that you already know"
@@ -1647,16 +1644,16 @@ msgid ""
 "To save your bridge, <a href=\"doc/persistent_storage\">unlock your "
 "Persistent Storage</a>."
 msgstr ""
-"ブリッジを保存するには、<a href=\"doc/first_steps/persistence\">永続的スト"
-"レージのロックを解除</a>してください。"
+"ブリッジを保存するには、<a href=\"doc/first_steps/persistence\">永続ストレー"
+"ジのロックを解除</a>してください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:249
 msgid ""
 "To save your bridge, <a href=\"doc/persistent_storage\">create a Persistent "
 "Storage</a> on your Tails USB stick."
 msgstr ""
-"ブリッジを保存するには、Tails USB スティックに<a href=\"doc/"
-"persistent_storage\">永続ストレージを作成</a>してください。"
+"ブリッジを保存するには、Tails USBメモリに<a href=\"doc/persistent_storage\">"
+"永続ストレージを作成</a>してください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:269
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:781
@@ -1667,23 +1664,22 @@ msgstr "無効: {exception}"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:281
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:794
 msgid "You need to configure an obfs4 bridge to hide that you are using Tor"
-msgstr ""
-"Tor を使用していることを隠すには obfs4 ブリッジを構成する必要があります"
+msgstr "Torを使用していることを隠すには、obfs4ブリッジを構成する必要があります"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:334
 msgid "Failed to configure your Persistent Storage"
-msgstr "永続的ストレージの構成に失敗しました"
+msgstr "永続ストレージの構成に失敗しました"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:385
 msgid "Failed to detect a webcam. Maybe your webcam is too old."
 msgstr ""
-"ウェブカメラの検出に失敗しました。ウェブカメラが古すぎるのかもしれません。"
+"ウェブカメラの検出に失敗しました。ウェブカメラが古すぎる可能性があります。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:394
 msgid "Failed to scan QR code. Try with more light or closer to the camera."
 msgstr ""
-"QR コードのスキャンに失敗しました。もっと明るくするか、カメラに近づけて試して"
-"みてください。"
+"QRコードのスキャンに失敗しました。周辺を明るくするか、カメラに近づけて再度試"
+"してみてください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:401
 msgid "Invalid QR code. Try sending another email and scanning again."
@@ -1696,36 +1692,35 @@ msgstr "システム時計を同期しています…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:500
 msgid "Connecting to Tor without bridges…"
-msgstr "ブリッジなしで Tor に接続しています…"
+msgstr "ブリッジなしでTorに接続しています…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:507
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:531
 msgid "Connecting to Tor with default bridges…"
-msgstr "デフォルトのブリッジを使って Tor に接続しています…"
+msgstr "デフォルトのブリッジを使ってTorに接続しています…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:514
 msgid "Connecting to Tor with a custom bridge…"
-msgstr "カスタムブリッジを使って Tor に接続しています…"
+msgstr "カスタムブリッジを使ってTorに接続しています…"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:622
 msgid "Connected to Tor successfully with bridges"
-msgstr "ブリッジ経由で正常に Tor に接続しました"
+msgstr "ブリッジ経由で正常にTorに接続されました"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:624
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1960
 msgid "Connected to Tor successfully"
-msgstr "Tor に正常に接続されました"
+msgstr "Torに正常に接続されました"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:628
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1985
 msgid "You can now browse the Internet anonymously and uncensored."
-msgstr "匿名かつ検閲されていないインターネットを閲覧することができます。"
+msgstr "匿名かつ検閲されずにインターネットを閲覧することができます。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:707
 msgid "This local network seems to be blocking access to Tor."
 msgstr ""
-"あなたのローカル ネットワークは Tor にアクセスすることをブロックしているよう"
-"です。"
+"あなたのローカルネットワークはTorに接続することをブロックしているようです。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:784
 msgid "Bridge address malformed"
@@ -1733,7 +1728,7 @@ msgstr "ブリッジのアドレスが不正です"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:802
 msgid "Setting a bridge is needed if you want to hide that you are using Tor"
-msgstr "Tor を使用していることを隠したい場合はブリッジを設定する必要があります"
+msgstr "Torを使用していることを隠したい場合はブリッジを設定する必要があります"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1019
 #, python-brace-format
@@ -1752,14 +1747,14 @@ msgid ""
 "If connecting to Tor fails, you will have to wait again until the end of the "
 "progress bar to be able to troubleshoot your connection."
 msgstr ""
-"Tails は Tor 接続アシスタントを閉じても Tor に接続し続けます。\n"
+"TailsはTor接続アシスタントを閉じてもTorに接続し続けます。\n"
 "\n"
-"Tor の接続に失敗した場合は、接続に関するトラブルシューティングを行うために、"
-"進行バーが 100% になるまで待つ必要があります。"
+"Torの接続に失敗した場合は、接続に関するトラブルシューティングを行うために、進"
+"行バーが100%になるまで待つ必要があります。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1120
 msgid "Close and Lose Progress"
-msgstr "終了して経過を削除する"
+msgstr "終了して進捗を破棄する"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1121
 msgid "Wait"
@@ -1775,9 +1770,9 @@ msgid ""
 "in support for OpenPGP encryption. To continue using your OpenPGP keys in "
 "<i>Thunderbird</i>, follow our migration instructions."
 msgstr ""
-"<i>Thunderbird</i> 78 は OpenPGP 暗号化の対応を内蔵しており、<i>Enigmail</i> "
-"拡張機能を置き換えます。<i>Thunderbird</i>でご利用の OpenPGP キーの使用を継続"
-"する場合、退避方法の説明をご覧ください。"
+"<i>Thunderbird</i> 78はOpenPGP暗号化の機能を内蔵しており、<i>Enigmail</i> 拡"
+"張機能を置き換えます。<i>Thunderbird</i>で使用中のOpenPGPの鍵の使用を継続する"
+"場合、退避方法の説明をご覧ください。"
 
 #: config/chroot_local-includes/usr/local/bin/thunderbird:45
 msgid "_Open Migration Instructions"
@@ -1789,27 +1784,27 @@ msgstr "後で退避 (_M)"
 
 #: config/chroot_local-includes/usr/bin/tor-browser:49
 msgid "Tor is not ready"
-msgstr "Tor は準備できていません"
+msgstr "Torは準備できていません"
 
 #: config/chroot_local-includes/usr/bin/tor-browser:50
 msgid "Tor is not ready. Start Tor Browser anyway?"
-msgstr "Tor は準備できていません。このまま Tor Browser を起動しますか?"
+msgstr "Torは準備できていません。このままTor Browserを起動しますか?"
 
 #: config/chroot_local-includes/usr/bin/tor-browser:51
 msgid "Start Tor Browser Offline"
-msgstr "Tor Browser オフラインを開始"
+msgstr "Tor Browserをオフラインで開始"
 
 #: config/chroot_local-includes/usr/bin/tor-browser:52
 msgid "Open Tor Connection"
-msgstr "Tor 接続を開く"
+msgstr "Tor Connectionを開く"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:37
 msgid "Tor Status"
-msgstr "Tor の状態"
+msgstr "Torの状態"
 
 #: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:46
 msgid "Open Onion Circuits"
-msgstr "Onion 回線を開きます"
+msgstr "Onion Circuitsを開きます"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:315
 #, python-brace-format
@@ -1822,34 +1817,34 @@ msgstr ""
 "使用可能なメモリは{available_memory}ibだけです。少なくとも{required_memory}"
 "KiBが必要です。\n"
 "\n"
-"いくつかのアプリケーションを終了するか、再起動してから再試行してください。"
+"いくつかのアプリケーションを終了するか、再起動してから再度試行してください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
 msgid "Creating a partition for the Persistent Storage..."
-msgstr "永続ストレージ用パーティションの作成..."
+msgstr "永続ストレージ用パーティションの作成中..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
 msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
 "few seconds."
 msgstr ""
-"LUKS暗号化の初期化... コンピューターが数秒間反応しなくなることがあります。"
+"LUKS暗号化の初期化中... コンピュータが数秒間応答しなくなる場合があります。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
-msgstr "暗号化の解除..."
+msgstr "暗号化の解除中..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
 msgid "Formatting the file system..."
-msgstr "ファイルシステムのフォーマット..."
+msgstr "ファイルシステムのフォーマット中..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:392
 msgid "Activating the Persistent Storage..."
-msgstr "永続ストレージを有効にする..."
+msgstr "永続ストレージを有効にしています..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
 msgid "Finishing setting up the Persistent Storage..."
-msgstr "永続ストレージのセットアップを終了する..."
+msgstr "永続ストレージのセットアップを終了中..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
@@ -1907,11 +1902,12 @@ msgstr "アクティベーションに失敗しました"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:163
 msgid "Activation failed. Try again or delete data."
 msgstr ""
-"アクティベーションに失敗しました。再試行するか、データを削除してください。"
+"アクティベーションに失敗しました。再試行するか、データを削除してみてくださ"
+"い。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:165
 msgid "Activation failed. Try again."
-msgstr "アクティベーションに失敗しました。もう一度お試しください。"
+msgstr "有効化に失敗しました。もう一度お試しください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:167
 msgid "The data of this feature is still saved."
@@ -1920,7 +1916,7 @@ msgstr "この機能のデータはまだ保存されています。"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:268
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:273
 msgid "Error activating feature {}"
-msgstr "エラー起動機能 {}"
+msgstr "機能の有効化エラー {}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:311
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:316
@@ -1936,7 +1932,7 @@ msgid ""
 msgstr ""
 "永続ストレージに保存されている{}機能のデータをすべて削除しますか？\n"
 "\n"
-"キャンセルすると、この機能を再度オンにしたときにデータが復元されます。"
+"キャンセルすると、この機能を再度有効にしたときに元のデータが復元されます。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
 msgid "_Delete Data"
@@ -1944,7 +1940,7 @@ msgstr "_データを削除"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:373
 msgid "Error deleting data of feature {}"
-msgstr "特徴{}のデータ削除エラー"
+msgstr "{}機能のデータ削除エラー"
 
 #. Translators: Don't translate {applications}, it's a placeholder
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:457
@@ -1974,7 +1970,7 @@ msgstr "{app} (PIDs: {pids})"
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:8
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:56
 msgid "Change Passphrase"
-msgstr "パスフレーズを変更する"
+msgstr "パスフレーズを変更"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:85
 msgid "The current passphrase is incorrect"
@@ -2042,7 +2038,7 @@ msgid ""
 "Persistent Storage and open the Persistent Storage settings again."
 msgstr ""
 "永続ストレージを削除するには、永続ストレージのロックを解除せずにTailsを再起動"
-"し、永続ストレージ設定を再度開きます。"
+"し、永続ストレージの設定を再度開きます。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:181
 msgid "_OK"
@@ -2052,8 +2048,8 @@ msgstr "_OK"
 msgid ""
 "Sorry, you can't close this app until the ongoing operation has completed."
 msgstr ""
-"申し訳ありませんが、進行中の操作が完了するまで、このアプリを閉じることはでき"
-"ません。"
+"申し訳ありませんが、進行中の操作が完了するまでこのアプリを閉じることはできま"
+"せん。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
 msgid "Please wait"
@@ -2137,11 +2133,11 @@ msgstr "{volume_name} – {drive_name}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:234
 msgid "Wrong passphrase or parameters"
-msgstr "パスフレーズやパラメーターが間違っています"
+msgstr "パスフレーズかパラメーターが間違っています"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:236
 msgid "Error unlocking volume"
-msgstr "ボリュームのロック解除が失敗しました"
+msgstr "ボリュームのロック解除に失敗しました"
 
 #. Translators: Don't translate {volume_name} or {error_message},
 #. they are placeholder and will be replaced.  They need
@@ -2157,7 +2153,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:343
 msgid "One or more applications are keeping the volume busy."
-msgstr "1 つ以上のアプリケーションがボリュームをビジー状態にしています。"
+msgstr "ひとつ以上のアプリケーションがボリュームをビジー状態にしています。"
 
 #. Translators: Don't translate {volume_name} or {error_message},
 #. they are placeholder and will be replaced. They need
@@ -2168,7 +2164,7 @@ msgid ""
 "Couldn't lock volume {volume_name}:\n"
 "{error_message}"
 msgstr ""
-"ボリュームのロックができませんでした {volume_name}:\n"
+"ボリュームをロックできませんでした {volume_name}:\n"
 "{error_message}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:352
@@ -2181,25 +2177,25 @@ msgstr "ファイルコンテナーは追加されませんでした"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:98
 msgid "No VeraCrypt devices detected"
-msgstr "VeraCrypt デバイスを検知できませんでした"
+msgstr "VeraCryptデバイスを検出できませんでした"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:40
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
 msgid "Unlock VeraCrypt Volumes"
-msgstr "VeraCrypt ボリュームのロックを解除"
+msgstr "VeraCryptボリュームのロックを解除"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:114
 msgid "Container already added"
-msgstr "コンテナーはすでに追加されました"
+msgstr "コンテナは既に追加されています"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:115
 #, python-format
 msgid "The file container %s should already be listed."
-msgstr "ファイルコンテナー %s はすでにリストに追加されたようです。"
+msgstr "ファイルコンテナ %s はすでにリストに追加されています。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:131
 msgid "Container opened read-only"
-msgstr "コンテナーは読み取り専用で開かれました"
+msgstr "コンテナは読み取り専用で開かれました"
 
 #. Translators: Don't translate {path}, it's a placeholder  and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:133
@@ -2210,27 +2206,27 @@ msgid ""
 "container.\n"
 "{error_message}"
 msgstr ""
-"ファイルコンテナー {path} はライト・アクセスで開くことができませんでした。代"
+"ファイルコンテナ {path} を書き込み可能な状態で開くことができませんでした。代"
 "わりに読み取り専用で開かれました。コンテナのコンテンツは修正することができま"
 "せん。\n"
 "{error_message}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:138
 msgid "Error opening file"
-msgstr "ファイルオープン中のエラー"
+msgstr "ファイルを開くエラー"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:160
 msgid "Not a VeraCrypt container"
-msgstr "VeraCrypt コンテナーではありません"
+msgstr "VeraCryptコンテナではありません"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:161
 #, python-format
 msgid "The file %s does not seem to be a VeraCrypt container."
-msgstr "ファイル %s は VeraCrypt コンテナーではないようです。"
+msgstr "ファイル %s は VeraCryptコンテナではありません。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:163
 msgid "Failed to add container"
-msgstr "コンテナーの追加に失敗しました"
+msgstr "コンテナの追加に失敗しました"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:164
 #, python-format
@@ -2238,29 +2234,29 @@ msgid ""
 "Could not add file container %s: Timeout while waiting for loop setup.\n"
 "Please try using the <i>Disks</i> application instead."
 msgstr ""
-"ファイルコンテナー %s を追加できませんでした: ループセットアップ待ち中にタイ"
-"ムアウトしました。\n"
+"ファイルコンテナ %s を追加できませんでした: ループセットアップ待ち中にタイム"
+"アウトしました。\n"
 "<i>Disks</i>アプリケーションを使用してください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:209
 msgid "Choose File Container"
-msgstr "ファイルコンテナーを選択"
+msgstr "ファイルコンテナを選択"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:48
 msgid "The Unsafe Browser was disabled in the Welcome Screen.\\n\\n"
-msgstr "ようこそ画面で安全でないブラウザを無効にしました。\\n\\n"
+msgstr "ウェルカムスクリーンで安全でないブラウザを無効にしました。\\n\\n"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:51
 msgid ""
 "To use the Unsafe Browser, restart Tails and make sure that the Unsafe "
 "Browser is enabled in the additional settings of the Welcome Screen."
 msgstr ""
-"安全ではないブラウザーを使用するには、Tails を再起動し、ようこそ画面の追加設"
-"定で Unsafe Browser が有効になっていることを確認します。"
+"安全でないブラウザを使用するには、Tailsを再起動し、ウェルカムスクリーンの追加"
+"設定で、安全でないブラウザが有効になっていることを確認してください。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:53
 msgid "To use the Unsafe Browser, restart Tails."
-msgstr "Unsafe Browserを使用するには、Tailsを再起動してください。"
+msgstr "安全でないブラウザを使用するには、Tailsを再起動してください。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:56
 msgid "_Restart"
@@ -2271,7 +2267,8 @@ msgid ""
 "Do you really want to restart Tails now?\\n\\nAll your current work will be "
 "lost."
 msgstr ""
-"今すぐ Tails を再起動してよろしいですか?\\n\\nすべての作業は失われます。"
+"今すぐTailsを再起動してよろしいですか?\\n\\nすべての保存されていない作業は失"
+"われます。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:59
 msgid "Restart Now"
@@ -2283,37 +2280,37 @@ msgstr "システムの再起動に失敗しました。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:74
 msgid "Starting the Unsafe Browser..."
-msgstr "安全でないブラウザーを起動中..."
+msgstr "安全でないブラウザを起動中..."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:75
 msgid "This may take a while, so please be patient."
-msgstr "しばらくかかる場合があるので、お待ちください。"
+msgstr "時間がかかる場合があるので、お待ちください。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:81
 msgid "Shutting down the Unsafe Browser..."
-msgstr "安全でないブラウザーをシャットダウンしています..."
+msgstr "安全でないブラウザを閉じています..."
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:82
 msgid ""
 "This may take a while, and you may not restart the Unsafe Browser until it "
 "is properly shut down."
 msgstr ""
-"しばらく時間がかかる恐れがあり、適切にシャットダウンされるまで、安全でないブ"
-"ラウザーを再起動できません。"
+"しばらく時間がかかる可能性があり、適切にシャットダウンされるまで、安全でない"
+"ブラウザを再起動できません。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:95
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:512
 msgid "Unsafe Browser"
-msgstr "安全でないブラウザー"
+msgstr "安全でないブラウザ"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:110
 msgid ""
 "Another Unsafe Browser is currently running, or being cleaned up. Please "
 "retry in a while."
 msgstr ""
-"別の安全でないブラウザーが起動中か、クリーンアップされています。少ししてから"
-"もう一度お試しください。"
+"別の安全でないブラウザが起動中か、クリーンアップされています。少ししてからも"
+"う一度お試しください。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:117
 msgid "Failed to setup chroot."
@@ -2321,7 +2318,7 @@ msgstr "chroot のセットアップに失敗しました。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:123
 msgid "Failed to configure browser."
-msgstr "ブラウザーの設定に失敗しました。"
+msgstr "ブラウザの設定に失敗しました。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:125
 msgid ""
@@ -2329,12 +2326,13 @@ msgid ""
 "Unsafe Browser, you first need to connect to a Wi-Fi, wired, or mobile "
 "network."
 msgstr ""
-"まだローカルネットワークに接続していません。\\n\\n安全ではないブラウザーを開"
-"始するには、Wi-Fi、有線接続、モバイルネットワークに接続する必要があります。"
+"まだローカルネットワークに接続していません。\\n\\n安全でないブラウザを開始す"
+"るには、Wi-Fi、有線接続、もしくはモバイルネットワークに接続する必要がありま"
+"す。"
 
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:155
 msgid "Failed to run browser."
-msgstr "ブラウザーを起動できませんでした。"
+msgstr "ブラウザを起動できませんでした。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:40
 #, python-format
@@ -2346,7 +2344,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:113
 msgid "Name of the affected software"
-msgstr "影響するソフトウェア名"
+msgstr "影響するソフトウェアの名前"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:115
 msgid "Exact steps to reproduce the error"
@@ -2358,7 +2356,7 @@ msgstr "実際の結果とエラーの詳細"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:119
 msgid "Desired result"
-msgstr "望まれる結果"
+msgstr "本来望まれる結果"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:132
 msgid "Unable to load a valid configuration."
@@ -2374,15 +2372,15 @@ msgstr "メール送信"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:172
 msgid "This could take a while..."
-msgstr "これは時間がかかります..."
+msgstr "これには時間がかかります..."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:188
 msgid "The contact email address doesn't seem valid."
-msgstr "連絡先メールアドレスが有効なものではないようです。"
+msgstr "連絡先のメールアドレスが有効ではありません。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:205
 msgid "Unable to send the mail: SMTP error."
-msgstr "メールを送信出来ません: SMTP エラー。"
+msgstr "メールを送信出来ません: SMTPエラー。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:207
 msgid "Unable to connect to the server."
@@ -2406,11 +2404,11 @@ msgstr ""
 "ネットワークの問題で、バグレポートを送信できませんでした。ネットワークに再接"
 "続して、もう一度送信をクリックしてみてください。\n"
 "\n"
-"うまくいかない場合は、バグレポートを保存するように指示されます。"
+"うまくいかない場合は、バグレポートを保存してください。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:225
 msgid "Your message has been sent."
-msgstr "メッセージは送信されました。"
+msgstr "メッセージを送信しました。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:232
 msgid "An error occured during encryption."
@@ -2438,7 +2436,7 @@ msgstr ""
 "\n"
 "回避策として、バグレポートをUSBドライブにファイルとして保存し、他のシステムを"
 "使ってあなたのメールアカウントから%sで私たちに送信してみることができます。た"
-"だし、この場合、あなた自身がさらなる対策を講じない限り、あなたのバグレポート"
+"だしこの場合、あなたが自身でさらなる対策を講じない限り、あなたのバグレポート"
 "は匿名化されません（例えば、使い捨てのメールアカウントでTorを使用するな"
 "ど）。\n"
 "\n"
@@ -2460,7 +2458,7 @@ msgstr "Copyright © 2009-2018 Tails developers (tails@boum.org)"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:342
 msgid "Tails developers <tails@boum.org>"
-msgstr "Tails デベロッパー <tails@boum.org>"
+msgstr "Tails developers <tails@boum.org>"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:343
 msgid "translator-credits"
@@ -2468,35 +2466,35 @@ msgstr "翻訳者のクレジット"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:376
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
-msgstr "これは有効な URL または OpenPGP 鍵ではないようです。"
+msgstr "これは有効なURLまたは OpenPGP鍵ではないようです。"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:60
 #, python-format
 msgid "Invalid contact email: %s"
-msgstr "無効な問い合わせ電子メール: %s"
+msgstr "無効な問い合わせメール: %s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:79
 #, python-format
 msgid "Invalid contact OpenPGP key: %s"
-msgstr "無効な問い合わせ OpenPGP 鍵: %s"
+msgstr "無効な問い合わせOpenPGP鍵: %s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:81
 msgid "Invalid contact OpenPGP public key block"
-msgstr "無効な問い合わせ OpenPGP 公開鍵ブロック"
+msgstr "無効な問い合わせOpenPGP公開鍵ブロック"
 
 #: config/chroot_local-includes/usr/local/bin/tca:14
 msgid "You turned on Offline Mode in the Welcome Screen."
-msgstr "ようこそ画面でオフライン モードにしました。"
+msgstr "ウェルカムスクリーンでオフラインモードにしました。"
 
 #: config/chroot_local-includes/usr/local/bin/tca:15
 msgid "It is impossible to connect to Tor in Offline Mode."
-msgstr "オフライン モードでは Tor に接続することはできまん。"
+msgstr "オフラインモードではTorに接続することはできまん。"
 
 #: config/chroot_local-includes/usr/local/bin/tca:16
 msgid "To connect to Tor and the Internet, restart Tails without Offline Mode."
 msgstr ""
-"Tor とインターネットに接続するには、オフライン モードを無効にして Tails を再"
-"起動します。"
+"Torとインターネットに接続するには、オフラインモードを無効にしてTailsを再起動"
+"してください。"
 
 #: ../config/chroot_local-includes/etc/skel/Desktop/Report_an_error.desktop.in.h:1
 msgid "Report an error"
@@ -2505,7 +2503,7 @@ msgstr "エラーを報告"
 #: ../config/chroot_local-includes/etc/skel/Desktop/tails-documentation.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
 msgid "Tails documentation"
-msgstr "Tails ドキュメント"
+msgstr "Tailsドキュメント"
 
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.PersistentStorage.desktop.in.h:2
 msgid ""
@@ -2515,7 +2513,7 @@ msgstr "作業セッション間で保持するファイルとアプリケーシ
 
 #: ../config/chroot_local-includes/usr/share/applications/root-terminal.desktop.in.h:1
 msgid "Root Terminal"
-msgstr "ルートターミナル"
+msgstr "Rootターミナル"
 
 #: ../config/chroot_local-includes/usr/share/applications/root-terminal.desktop.in.h:2
 msgid "Opens a terminal as the root user, using gksu to ask for the password"
@@ -2523,28 +2521,28 @@ msgstr "root ユーザーとして端末を開き、gksu を使用してパス�
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
 msgid "Learn how to use Tails"
-msgstr "Tails の使い方を知る"
+msgstr "Tailsの使い方を知る"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
 msgid "Learn more about Tails"
-msgstr "Tails について詳しく知る"
+msgstr "Tailsについて詳しく知る"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:1
 msgid "Back Up Persistent Storage"
-msgstr "永続ストレージをバックアップする"
+msgstr "永続ストレージをバックアップ"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
 msgid ""
 "Make a backup of the Tails Persistent Storage to another Tails USB stick"
-msgstr "Tails 永続ストレージのバックアップを別のTails USBスティックに作成する"
+msgstr "Tailsの永続ストレージのバックアップを別のTails USBメモリに作成する"
 
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:2
 msgid "Install, clone, upgrade Tails"
-msgstr "Tails をインストール、クローン、アップグレード"
+msgstr "Tailsをインストール、複製、アップグレード"
 
 #: ../config/chroot_local-includes/usr/share/applications/tca.desktop.in.h:2
 msgid "Connect Tails to the Tor network"
-msgstr "Tails から Tor ネットワークに接続"
+msgstr "TailsからTorネットワークに接続"
 
 #: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:1
 msgid "Tor Browser"
@@ -2552,34 +2550,34 @@ msgstr "Tor Browser"
 
 #: ../config/chroot_local-includes/usr/share/applications/tor-browser.desktop.in.h:2
 msgid "Anonymous Web Browser"
-msgstr "匿名ウェブブラウザー"
+msgstr "匿名ウェブブラウザ"
 
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:2
 msgid "Browse the World Wide Web without anonymity"
-msgstr "匿名性なしでワールドワイドウェブをブラウズする"
+msgstr "匿名ではない状態でウェブを閲覧する"
 
 #: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:3
 msgid "Unsafe Web Browser"
-msgstr "安全でないウェブブラウザー"
+msgstr "安全でないウェブブラウザ"
 
 #: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
 msgid "Mount VeraCrypt encrypted file containers and devices"
-msgstr "VeraCrypt で暗号化されたファイルコンテナーとデバイスをマウントする"
+msgstr "VeraCryptで暗号化されたファイルコンテナとデバイスをマウントする"
 
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:2
 msgid ""
 "Configure the additional software installed from your persistent storage "
 "when starting Tails"
 msgstr ""
-"Tails 起動時に固定記憶域からインストールされた追加ソフトウェアを構成する"
+"Tails起動時に永続ストレージからインストールされた追加ソフトウェアを構成する"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:1
 msgid "WhisperBack Error Reporting"
-msgstr "WhisperBack エラー報告"
+msgstr "WhisperBackエラー報告"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:2
 msgid "Send feedback via encrypted e-mail"
-msgstr "暗号化されたメールでフィードバックを送信する"
+msgstr "暗号化されたメールでフィードバックを送信"
 
 #: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:3
 msgid "feedback;bug;report;tails;error;"
@@ -2587,28 +2585,28 @@ msgstr "フィードバック;バグ;報告;tails;エラー;"
 
 #: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
 msgid "Tails specific tools"
-msgstr "Tails 専用ツール"
+msgstr "Tails専用ツール"
 
 #: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.root-terminal.policy.in.h:1
 msgid "To start a Root Terminal, you need to authenticate."
-msgstr "Root Terminal を開始するには認証をする必要があります。"
+msgstr "Rootターミナルを開始するには認証する必要があります。"
 
 #: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.AdditionalSoftware.policy.in.h:1
 msgid "Remove an additional software package"
-msgstr "追加ソフトウェアパッケージを取り除く"
+msgstr "追加ソフトウェアパッケージを削除"
 
 #: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.AdditionalSoftware.policy.in.h:2
 msgid ""
 "Authentication is required to remove a package from your additional software "
 "($(command_line))"
 msgstr ""
-"追加ソフトウェアからパッケージを外すには認証が必要です ($(command_line))"
+"追加ソフトウェアからパッケージを削除するには認証が必要です ($(command_line))"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:743
 msgid "Administration Password"
-msgstr "管理パスワード"
+msgstr "管理者パスワード"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:34
 msgid ""
@@ -2616,25 +2614,25 @@ msgid ""
 "tasks. Otherwise, the administration password is disabled for better "
 "security."
 msgstr ""
-"管理タスクを実行する必要がある場合は、管理パスワードを設定します。それ以外の"
-"場合は、管理パスワードを無効にしてセキュリティを強化します。"
+"管理タスクを実行する必要がある場合は、管理者パスワードを設定します。それ以外"
+"の場合は、管理者パスワードを無効にしてセキュリティを強化します。"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:69
 msgid "Enter an administration password"
-msgstr "管理パスワードを入力してください"
+msgstr "管理者パスワードを入力"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:107
 msgid "Confirm your administration password"
-msgstr "管理パスワードを確認する"
+msgstr "管理者パスワードを確認"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:124
 msgid "Disable"
-msgstr "無効する"
+msgstr "無効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:154
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:747
 msgid "MAC Address Anonymization"
-msgstr "MAC アドレスの匿名化"
+msgstr "MACアドレスの匿名化"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:170
 msgid ""
@@ -2643,18 +2641,18 @@ msgid ""
 "generally safer as it helps you hide your geographical location. But it "
 "might also create connectivity problems or look suspicious."
 msgstr ""
-"MAC アドレスの匿名化はローカルネットワークからネットワークインターフェース "
+"MACアドレスの匿名化は、ローカルネットワークからネットワークインターフェース "
 "(Wi-Fi または有線) のシリアル番号を隠します。MAC アドレスの匿名化は、地理的な"
-"場所を隠すのに役立つため、通常は安全です。しかし、接続に問題が発生したり、不"
-"審に見える可能性もあります。"
+"場所を隠すのに役立つため、通常は安全になります。しかし、接続に問題が発生した"
+"場合など、不審に見える可能性もあります。"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:212
 msgid "Anonymize all MAC addresses (default)"
-msgstr "すべての MAC アドレスを匿名化 (デフォルト)"
+msgstr "すべてのMACアドレスを匿名化 (既定)"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:258
 msgid "Don't anonymize MAC addresses"
-msgstr "MAC アドレスを匿名化しない"
+msgstr "MACアドレスを匿名化しない"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:311
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:751
@@ -2672,26 +2670,25 @@ msgid ""
 "If you want to work offline, enable the Offline Mode in the additional "
 "settings."
 msgstr ""
-"この追加の設定は Tails 4.19 (June 2021) は置き換えられ、デスクトップに結合さ"
-"れた Tor 接続アシスタントに変わりました。\n"
+"この追加設定は Tails 4.19 (June 2021) は置き換えられ、デスクトップに結合され"
+"たTor接続アシスタントに変わりました。\n"
 "\n"
-"Tails を起動したとき、Tor に接続する際に Tor ブリッジを使用するか尋ねられま"
-"す。\n"
+"Tailsを起動したとき、Torに接続する際にTorブリッジを使用するか尋ねられます。\n"
 "\n"
 "オフラインで作業をする場合は、追加の設定からオフラインモードを有効にすること"
 "ができます。"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:357
 msgid "Offline Mode"
-msgstr "オフライン モード"
+msgstr "オフラインモード"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:373
 msgid ""
 "If you want to work completely offline, you can disable all networking for "
 "increased security."
 msgstr ""
-"完全にオフラインで作業したい場合は、追加のセキュリティのためにすべてのネット"
-"ワークを無効化することができます。"
+"完全にオフラインで作業したい場合は、セキュリティのためにすべてのネットワーク"
+"接続を無効化することができます。"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:528
 msgid ""
@@ -2709,35 +2706,35 @@ msgid ""
 "2022), after we fixed the security vulnerabilities that made us disable it "
 "by default in Tails 4.8 (June 2020)."
 msgstr ""
-"Unsafe Browserを使用すると、キャプティブポータルを使用してネットワークにサイ"
-"ンインすることができます。\n"
+"安全でないブラウザを使用すると、キャプティブポータルを使用してネットワークに"
+"サインインすることができます。\n"
 "\n"
-"キャプティブポータルとは、インターネットにアクセスする前に表示されるウェブ"
-"ページのことです。キャプティブポータルでは通常、ネットワークにログインする"
-"か、電子メールアドレスなどの情報を入力する必要があります。\n"
+"キャプティブポータル(Web認証)とは、インターネットにアクセスする前に表示される"
+"ウェブページのことです。キャプティブポータルでは通常、ネットワークにログイン"
+"するか、メールアドレスなどの情報を入力する必要があります。\n"
 "\n"
-"Unsafe Browserは匿名ではないので、匿名化を解除することができます。ネットワー"
-"クへのサインインにのみ使用してください。\n"
+"安全でないブラウザは匿名化を解除し、匿名ではなくなります。そのため、ネット"
+"ワークへのサインインにのみ使用してください。\n"
 "\n"
-"Unsafe Browserは、Tails 4.8（2020年6月）でデフォルトで無効にしたセキュリティ"
-"脆弱性を修正した後、Tails 5.8（2022年12月）より再びデフォルトで有効になってい"
-"ます。"
+"安全でないブラウザは、脆弱性のためにTails 4.8 (2020年6月) からデフォルトで無"
+"効でしたが、脆弱性を修正した為、Tails 5.8 (2022年12月) より再びデフォルトで有"
+"効になっています。"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:576
 msgid "Enable the Unsafe Browser (default)"
-msgstr "安全でないブラウザーを有効にする（デフォルト）"
+msgstr "安全でないブラウザを有効にする（既定）"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:622
 msgid "Disable the Unsafe Browser"
-msgstr "安全でないブラウザーを無効化する"
+msgstr "安全でないブラウザを無効化する"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:101
 msgid "Settings were loaded from the persistent storage."
-msgstr "永続的ストレージから設定が読み込まれました。"
+msgstr "永続ストレージから設定が読み込まれました。"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:153
 msgid "Welcome to Tails!"
-msgstr "Tails へようこそ!"
+msgstr "Tailsへようこそ!"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:199
 msgid ""
@@ -2745,8 +2742,9 @@ msgid ""
 "Storage on your Tails USB stick: your documents, browser bookmarks, Wi-Fi "
 "passwords, and so on."
 msgstr ""
-"ファイルと設定の一部を Tails USB スティックの暗号化された永続ストレージに保存"
-"できます: ドキュメント、ブラウザーのブックマーク、Wi-Fi パスワードなどです。"
+"ファイルと設定の一部をTailsのUSBメモリの暗号化された永続ストレージに保存でき"
+"ます。例えばドキュメント、ブラウザのブックマーク、Wi-Fiパスワードなどを永続的"
+"に保存できます。"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:225
 msgid "Create and configure a Persistent Storage after starting Tails"
@@ -2762,7 +2760,7 @@ msgstr "デフォルト設定"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:417
 msgid "Show Passphrase"
-msgstr "パスフレーズの表示"
+msgstr "パスフレーズを表示"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:470
 msgid "_Passphrase"
@@ -2778,7 +2776,7 @@ msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:583
 msgid "_Additional Settings"
-msgstr "追加の設定 (_A)"
+msgstr "追加設定 (_A)"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:666
 msgid "Add an additional setting"
@@ -2789,16 +2787,16 @@ msgid ""
 "The default settings are safe in most situations. To add a custom setting, "
 "press the \"+\" button below."
 msgstr ""
-"デフォルト設定は大抵の場合安全です。カスタム設定を追加するのに、下の\"+\"ボタ"
-"ンを押して下さい。"
+"既定の設定はほとんどの場合で安全です。カスタム設定を追加するには、下の\"+\"ボ"
+"タンを押して下さい。"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:759
 msgid "Shutdown"
-msgstr "停止"
+msgstr "シャットダウン"
 
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:770
 msgid "_Start Tails"
-msgstr "Tails を起動 (_S)"
+msgstr "Tailsを起動 (_S)"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:95
 msgid "Current _Passphrase"
@@ -2810,7 +2808,7 @@ msgstr "_新しいパスフレーズ"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:179
 msgid "_Confirm New Passphrase"
-msgstr "_新しいパスフレーズを確認する"
+msgstr "_新しいパスフレーズを確認"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:215
 msgid "_Show Passphrases"
@@ -2836,7 +2834,7 @@ msgstr "_閉じる"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:30
 msgid "Oh no! Something has gone wrong."
-msgstr "何か問題が発生しました。"
+msgstr "おっと！、何らかの問題が発生しました。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:45
 msgid ""
@@ -2845,14 +2843,14 @@ msgid ""
 "You can send an error report or check the output of the following commands "
 "to investigate:"
 msgstr ""
-"永続ストレージ サービスが予期せず終了しました。\n"
+"永続ストレージサービスが予期せず終了しました。\n"
 "\n"
-"エラー レポートを送信するか、次のコマンドの出力を確認して調査することができま"
+"エラー レポートを送信するか、次のコマンドで出力を確認して調査することができま"
 "す。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:74
 msgid "Send Error Report"
-msgstr "エラーレポートを送信する"
+msgstr "エラーレポートを送信"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:61
 msgid ""
@@ -2865,25 +2863,24 @@ msgid ""
 msgstr ""
 "永続ストレージのロックが解除されました。\n"
 "\n"
-"そのコンテンツは、Tails をシャットダウンするまで利用できます。\n"
+"これらのコンテンツは、Tails をシャットダウンするまで利用できます。\n"
 "\n"
 "<a href=\"doc/persistent_storage/backup\">永続ストレージのバックアップを作成"
-"する方法を学びます。</a>"
+"する方法を学ぶ。</a>"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:89
 msgid ""
 "Turn on the features of the Persistent Storage for the data that you want to "
 "save to your Tails USB stick."
-msgstr ""
-"Tails USB スティックに保存するデータの永続ストレージの機能をオンにします。"
+msgstr "TailsのUSBメモリに保存するデータの永続ストレージの機能をオンにします。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:106
 msgid "Personal Documents"
-msgstr "個人文書"
+msgstr "個人用ドキュメント"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:134
 msgid "Persistent Folder"
-msgstr "永続フォルダー"
+msgstr "永続フォルダ"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:135
 msgid "A folder where you can save your documents."
@@ -2891,7 +2888,7 @@ msgstr "ドキュメントを保存できるフォルダ。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:160
 msgid "Open Persistent Folder"
-msgstr "永続フォルダーを開く"
+msgstr "永続フォルダを開く"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:173
 msgid "Activate Persistent Folder"
@@ -2903,11 +2900,11 @@ msgstr "システム設定"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:228
 msgid "Welcome Screen"
-msgstr "ようこそ画面"
+msgstr "ウェルカムスクリーン"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:244
 msgid "Activate Welcome Screen"
-msgstr "ようこそ画面を有効にする"
+msgstr "ウェルカムスクリーンを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:257
 msgid "Printers"
@@ -2927,19 +2924,19 @@ msgstr "ネットワーク接続"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:329
 msgid "Save Wi-Fi passwords and mobile broadband configuration."
-msgstr "Wi-Fi パスワードとモバイル ブロードバンド構成を保存します。"
+msgstr "Wi-Fiパスワードとモバイルブロードバンド構成を保存します。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:345
 msgid "Activate Network Connections"
-msgstr "ネットワーク接続を有効にする"
+msgstr "ネットワーク接続を有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:358
 msgid "Tor Bridge"
-msgstr "Tor ブリッジ"
+msgstr "Torブリッジ"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:374
 msgid "Activate Tor Bridge"
-msgstr "Tor ブリッジを有効にする"
+msgstr "Torブリッジを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:401
 msgid "Applications"
@@ -2951,23 +2948,23 @@ msgstr "Tor Browserのブックマーク"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:445
 msgid "Activate Tor Browser Bookmarks"
-msgstr "Tor Browserのブックマークを有効化する"
+msgstr "Tor Browserのブックマークを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:458
 msgid "Electrum Bitcoin Wallet"
-msgstr "Electrum Bitcoin ウォレット"
+msgstr "Electrumビットコインウォレット"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:474
 msgid "Activate Electrum Bitcoin Wallet"
-msgstr "Electrum Bitcoin ウォレットを有効にする"
+msgstr "Electrumビットコインウォレットを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:487
 msgid "Thunderbird Email Client"
-msgstr "Thunderbird メールクライアント"
+msgstr "Thunderbirdメールクライアント"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:503
 msgid "Activate Thunderbird Email Client"
-msgstr "Thunderbird メール クライアントを有効にする"
+msgstr "Thunderbirdメール クライアントを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:516
 msgid "GnuPG"
@@ -2975,27 +2972,27 @@ msgstr "GnuPG"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:517
 msgid "OpenPGP keys outside of Thunderbird, including in Kleopatra."
-msgstr "Kleopatraを含む、Thunderbird以外のOpenPGPキー。"
+msgstr "Thunderbird以外の、Kleopatraを含むOpenPGPの鍵。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:533
 msgid "Activate GnuPG"
-msgstr "GnuPG を有効にする"
+msgstr "GnuPGを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:546
 msgid "Pidgin Internet Messenger"
-msgstr "Pidgin インターネットメッセンジャー"
+msgstr "Pidginインターネットメッセンジャー"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:562
 msgid "Activate Pidgin Internet Messenger"
-msgstr "Pidginインターネットメッセンジャーをアクティベートする"
+msgstr "Pidginインターネットメッセンジャーを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:575
 msgid "SSH Client"
-msgstr "SSH クライアント"
+msgstr "SSHクライアント"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:591
 msgid "Activate SSH Client"
-msgstr "SSH クライアントを有効にする"
+msgstr "SSHクライアントを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:618
 msgid "Advanced Settings"
@@ -3003,29 +3000,29 @@ msgstr "高度な設定"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:647
 msgid "Install additional software automatically when starting Tails."
-msgstr "Tails起動時に自動的に追加ソフトをインストールする。"
+msgstr "Tails起動時に自動的に追加ソフトウェアをインストールします。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:672
 msgid "Configure Additional Software"
-msgstr "追加のソフトウェアを構成する"
+msgstr "追加ソフトウェアを設定する"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:685
 msgid "Activate Additional Software"
-msgstr "追加のソフトウェアを有効にする"
+msgstr "追加ソフトウェアを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:698
 msgid "Dotfiles"
-msgstr "ドットファイル"
+msgstr "Dotfiles"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:699
 msgid "Symlink every file in the Dotfiles folder into the Home folder."
 msgstr ""
-"Dotfiles フォルダー内のすべてのファイルをホーム フォルダーにシンボリック リン"
-"クする。"
+"Dotfilesフォルダ内のすべてのファイルをホームフォルダにシンボリックリンクしま"
+"す。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:732
 msgid "Activate Dotfiles"
-msgstr "ドットファイルを有効にする"
+msgstr "Dotfilesを有効化"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:764
 msgid "Custom"
@@ -3058,11 +3055,11 @@ msgid ""
 msgstr ""
 "<b>永続ストレージはロックされています。</b>\n"
 "\n"
-"永続ストレージを使用または構成するには、Tails の起動時にようこそ画面でロック"
-"を解除します。\n"
+"永続ストレージを使用または構成するには、Tailsの起動時にウェルカムスクリーンで"
+"ロックを解除します。\n"
 "\n"
-"永続ストレージを削除するには、タイトル バーの右側にある [<b>削除</b>] をク"
-"リックしてください。"
+"永続ストレージを削除するには、タイトルバーの右側にある [<b>削除</b>] をクリッ"
+"クしてください。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:62
 msgid ""
@@ -3088,7 +3085,7 @@ msgstr "パスフレーズ:"
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:205
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:65
 msgid "Confirm:"
-msgstr "確認："
+msgstr "確認:"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:325
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:185
@@ -3101,7 +3098,7 @@ msgstr "_戻る"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:391
 msgid "_Create Persistent Storage"
-msgstr "_永続ストレージの作成"
+msgstr "_永続ストレージを作成"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:56
 msgid ""
@@ -3121,12 +3118,12 @@ msgstr ""
 "Tailsをシャットダウンすると、あなたが行ったことはすべて自動的に消えてしまいま"
 "す。\n"
 "\n"
-"しかし、例えばTailsのUSBメモリにある暗号化されたPersistent Storageにファイル"
-"や設定の一部を保存することは可能です。\n"
+"しかし、例えばTailsのUSBメモリにある暗号化された永続ストレージにファイルや設"
+"定の一部を保存することは可能です。\n"
 "\n"
-"・あなたのドキュメント\n"
-"・あなたのWi-Fiパスワード\n"
-"・お使いのブラウザーのブックマーク\n"
+"・ファイルやドキュメント\n"
+"・Wi-Fiパスワード\n"
+"・ブラウザーのブックマーク\n"
 "・...\n"
 "\n"
 "<a href=\"doc/persistent_storage\">永続ストレージの詳細をご覧ください。</a>"
@@ -3140,13 +3137,13 @@ msgid ""
 msgstr ""
 "このデバイスに永続ストレージを作成することはできません。\n"
 "\n"
-"永続ストレージで Tails を使用できるようにするには、<a href=\"install\">Tails "
-"を USB スティックにインストールする</a> を参照してください。"
+"永続ストレージをTailsで使用できるようにするには、<a href=\"install\">Tailsを"
+"USBメモリにインストールする</a> を参照してください。"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:137
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:232
 msgid "Co_ntinue"
-msgstr "Co_ntinue"
+msgstr "続_行"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:29
 msgid "_Delete…"
@@ -3154,15 +3151,15 @@ msgstr "_削除…"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:49
 msgid "_Change Passphrase…"
-msgstr "_パスフレーズを変更する…"
+msgstr "_パスフレーズを変更…"
 
 #: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:66
 msgid "_Restart Tails"
-msgstr "_Tails を再起動"
+msgstr "_Tailsを再起動"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:61
 msgid "File Containers"
-msgstr "ファイルコンテナー"
+msgstr "ファイルコンテナ"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:80
 msgid "_Add"
@@ -3170,7 +3167,7 @@ msgstr "追加 (_A)"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:86
 msgid "Add a file container"
-msgstr "ファイルコンテナーを追加する"
+msgstr "ファイルコンテナを追加"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:103
 msgid "Partitions and Drives"
@@ -3181,8 +3178,8 @@ msgid ""
 "This application is not affiliated with or endorsed by the VeraCrypt project "
 "or IDRIX."
 msgstr ""
-"このアプリケーションは VeraCrypt プロジェクトや IDRIX と関連がありません。そ"
-"れらによって承認されるもありません。"
+"このアプリケーションはVeraCryptプロジェクトやIDRIXと関連がありません。それら"
+"によって承認されるもありません。"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:29
 msgid "_Open"
@@ -3190,7 +3187,7 @@ msgstr "開く (_O)"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:38
 msgid "Lock this volume"
-msgstr "ボリュームをロックする"
+msgstr "ボリュームをロック"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:52
 msgid "_Unlock"
@@ -3198,19 +3195,19 @@ msgstr "ロック解除 (_U)"
 
 #: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:61
 msgid "Detach this volume"
-msgstr "ボリュームを取り外す"
+msgstr "ボリュームを取り出す"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:8
 msgid "Choose Passphrase"
-msgstr "パスフレーズを選択する"
+msgstr "パスフレーズを選択"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:30
 msgid "Choose the passphrase for the cloned Persistent Storage."
-msgstr "クローン化された永続ストレージのパスフレーズを選択します。"
+msgstr "複製された永続ストレージのパスフレーズを選択します。"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:281
 msgid "Target USB stick:"
-msgstr "ターゲット USB スティック:"
+msgstr "ターゲットUSBメモリ:"
 
 #: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:357
 msgid "Reinstall (delete all data)"
@@ -3239,33 +3236,29 @@ msgid ""
 "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
 msgstr ""
 "WhisperBack - 暗号化されたメールでフィードバックを送信します。\n"
-"著作権 (C) 2009-2018 Tails デベロッパー <tails@boum.org> \n"
+"Copyright (C) 2009-2018 Tails developers <tails@boum.org> \n"
 "\n"
-"本プログラムはフリーソフトウェアであり、再配布や改変が可能です。\n"
-"によって発行されたGNU一般公衆利用許諾書の条項の下で、それを使用することができ"
-"ます。\n"
-"フリーソフトウェアファウンデーション; バージョン3のライセンス、または(当時)\n"
-"また、それ以降のバージョンも選択可能です。\n"
+"本プログラムはフリーソフトウェアであり、\n"
+"フリーソフトウェア財団が発行したGNU General Public Licenseの条件の下で、\n"
+"ライセンスのバージョン3、または(オプションで)それ以降のバージョンで、\n"
+"再配布と改変、もしくはその両方が可能です。\n"
 "\n"
-"本プログラムは、有用であることを期待して配布していますが\n"
-"本製品は、いかなる保証もなく、また、暗黙の保証もなく、使用することができま"
-"す。\n"
-"マーチャンダビリティまたは特定目的への適合性（FITNESS FOR A PARTICULAR "
-"PURPOSE）。  GNUをご覧ください。\n"
-"詳しくは、GNU General Public Licenseをご覧ください。\n"
+"本プログラムは、有用であることを期待して配布していますが、\n"
+"本製品はいかなる保証もなく、商品性または特定の目的への適合性への暗黙の保証も"
+"ありません。\n"
+"詳細については、GNU General Public Licenseを参照してください。\n"
 "\n"
-"あなたはGNU General Public Licenseのコピーを受け取ったはずです。\n"
-"をこのプログラムとともにご覧ください。 そうでない場合は、<http://www.gnu.org/"
-"licenses/>を参照してください。\n"
+"あなたはこのプログラムとともにGNU General Public Licenseのコピーを受け取った"
+"はずです。\n"
+"そうでない場合は、<http://www.gnu.org/licenses/>を参照してください。\n"
 
 #: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:122
 msgid ""
 "If you want us to encrypt messages when we respond to you, add your key ID, "
 "a link to your key, or the key as a public key block:"
 msgstr ""
-"あなたに返信するときに私達にメッセージを暗号化して欲しければ、あなたのキー "
-"ID か、あなたのキーへのリンクか、公開鍵ブロックとしてのキーを追加してくださ"
-"い:"
+"私たちがあなたに返信をする際にメッセージを暗号化して欲しい場合、あなたの鍵ID"
+"か、あなたの鍵へのリンクか、公開鍵ブロックとしての鍵を追加してください:"
 
 #: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:308
 msgid "Summary"
@@ -3286,11 +3279,11 @@ msgstr "バグレポートのガイドラインをお読みください。"
 
 #: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:416
 msgid "Email address (if you want an answer from us)"
-msgstr "メールアドレス（返事をもらいたい場合）"
+msgstr "メールアドレス（返事が欲しい場合）"
 
 #: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:445
 msgid "optional PGP key"
-msgstr "任意の PGP 鍵"
+msgstr "任意のPGP鍵"
 
 #: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:470
 msgid "Please know that we are not able to reply to every bug report."
@@ -3315,27 +3308,27 @@ msgstr "送信"
 
 #: ../config/chroot_local-includes/usr/local/share/mime/packages/unlock-veracrypt-volumes.xml.in.h:1
 msgid "TrueCrypt/VeraCrypt container"
-msgstr "TrueCrypt/VeraCrypt コンテナー"
+msgstr "TrueCrypt/VeraCryptコンテナ"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:82
 msgid "Configure a Tor bridge"
-msgstr "Tor ブリッジを構成"
+msgstr "Torブリッジを構成"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:106
 msgid ""
 "Bridges are secret Tor relays. Use a bridge as your first Tor relay if "
 "accessing Tor is blocked from where you are."
 msgstr ""
-"ブリッジは秘密の Tor リレーです。あなたがいる場所で Tor のアクセスがブロック"
-"されている場合、最初の Tor リレーとしてブリッジを使用します。"
+"ブリッジは秘密のTorリレーです。あなたがいる場所でTorのアクセスがブロックされ"
+"ている場合、最初のTorリレーとしてブリッジを使用します。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:122
 msgid "<a href=\"doc/anonymous_internet/tor\">Learn more about Tor bridges</a>"
-msgstr "<a href=\"doc/anonymous_internet/tor\">Tor ブリッジについて学ぶ</a>"
+msgstr "<a href=\"doc/anonymous_internet/tor\">Torブリッジについて学ぶ</a>"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:157
 msgid "Use a _default bridge"
-msgstr "標準のブリッジを使う (_D)"
+msgstr "標準のブリッジを使用する (_D)"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:180
 msgid "obfs4 (recommended)"
@@ -3352,7 +3345,7 @@ msgstr "なし"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:240
 msgid "_Ask for a Tor bridge by email"
-msgstr "_Tor ブリッジをメールで依頼する"
+msgstr "_Torブリッジをメールで依頼する"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:259
 msgid ""
@@ -3365,7 +3358,7 @@ msgstr ""
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:272
 msgid "Scan _QR code"
-msgstr "スキャン_QRコード"
+msgstr "QRコード_をスキャン"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:373
 msgid "_Enter a bridge that you already know"
@@ -3387,25 +3380,25 @@ msgstr "ブリッジを _永続ストレージに保存"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:510
 msgid "Save bridge to Persistent Storage"
-msgstr "永続的なストレージにブリッジを保存"
+msgstr "永続ストレージにブリッジを保存"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:650
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1158
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1556
 msgid "_Connect to Tor"
-msgstr "Tor に接続 (_C)"
+msgstr "Torに接続 (_C)"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:692
 msgid "Error connecting to Tor"
-msgstr "Torへの接続エラー"
+msgstr "Torの接続エラー"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:736
 msgid "• Wrong clock"
-msgstr "• 時間が間違っています"
+msgstr "• 時間が不正確です"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:756
 msgid "Your clock and time zone need to be correct to connect to Tor."
-msgstr "Tor に接続するには、時計とタイムゾーンが正しい必要があります。"
+msgstr "Torに接続するには、時計とタイムゾーンが正しい必要があります。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:769
 msgid "Fix _Clock"
@@ -3420,8 +3413,8 @@ msgid ""
 "If you are in a shop, hotel, or airport, you might need to sign in to the "
 "local network using the Unsafe Browser."
 msgstr ""
-"お店、ホテル、または空港にいる場合は、安全でないブラウザーを使用してローカル "
-"ネットワークにサインインする必要がある場合があります。"
+"お店、ホテル、または空港などにいる場合は、安全でないブラウザを使用してローカ"
+"ルネットワークにサインインする必要がある場合があります。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:840
 msgid "Try _Signing in to the Network"
@@ -3429,23 +3422,23 @@ msgstr "ネットワークへのサインインを試す (_S)"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:879
 msgid "• Local proxy"
-msgstr "• ローカル プロキシ"
+msgstr "• ローカルプロキシ"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:899
 msgid ""
 "If you are on a corporate or university network, you might need to configure "
 "a local proxy."
 msgstr ""
-"会社または大学のネットワークを使用している場合、ローカル プロキシを構成する必"
-"要もある場合があります。"
+"会社または大学のネットワークを使用している場合、ローカルプロキシも構成する必"
+"要がある場合があります。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:912
 msgid "Configure a Local _Proxy"
-msgstr "ローカル プロキシを構成 (_P)"
+msgstr "ローカルプロキシを構成 (_P)"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:951
 msgid "• Tor bridge by email"
-msgstr "• メールでのTor ブリッジのご案内"
+msgstr "• メールからのTorブリッジ"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:971
 msgid ""
@@ -3453,7 +3446,7 @@ msgid ""
 "connections to Tor are blocked, for example in some countries, by some "
 "public networks, or by some parental controls."
 msgstr ""
-"Tor ブリッジは秘密の Tor リレーです。国や公共ネットワーク、ペアレンタルコント"
+"Torブリッジは秘密のTorリレーです。国や公共ネットワーク、ペアレンタルコント"
 "ロールなどでTorへの接続がブロックされている場合、最初のTorリレーとしてブリッ"
 "ジを使用します。"
 
@@ -3463,7 +3456,7 @@ msgid ""
 "a Gmail or Riseup email address with your phone and scan the QR code that is "
 "attached to the automatic reply."
 msgstr ""
-"ブリッジの入手方法は、GmailまたはRiseupのメールアドレスから"
+"ブリッジを使用するには、GmailまたはRiseupのメールアドレスから"
 "<tt>bridges@torproject.org</tt>宛にスマホで空メールを送り、自動返信に添付され"
 "ているQRコードを読み取ってください。"
 
@@ -3476,16 +3469,16 @@ msgid ""
 "<a href=\"doc/anonymous_internet/tor/troubleshoot\">Troubleshooting "
 "connecting to Tor</a>"
 msgstr ""
-"<a href=\"doc/anonymous_internet/tor/troubleshoot\">Tor の接続に関するトラブ"
-"ルシューティング</a>"
+"<a href=\"doc/anonymous_internet/tor/troubleshoot\">Torの接続に関するトラブル"
+"シューティング</a>"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1191
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1599
 msgid ""
 "Everything you do on the Internet from Tails goes through the Tor network."
 msgstr ""
-"Tails から行うインターネット上の行動はすべて Tor ネットワークを経由して行われ"
-"ます。"
+"Tailsから行うインターネット上の行動はすべてTorネットワークを経由して行われま"
+"す。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1205
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1614
@@ -3494,8 +3487,8 @@ msgid ""
 "Tor relays are servers operated by different organizations and volunteers "
 "around the world."
 msgstr ""
-"Tor は 3 つのリレーを経由して暗号化と匿名化をおこないます。\n"
-"Tor リレーは世界中の異なる組織、ボランティアによって稼働されています。"
+"Torは3つのリレーを経由して暗号化と匿名化をおこないます。\n"
+"Torリレーは世界中の様々な組織やボランティアによって運営されています。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1241
 msgid "<b>Connect to Tor _automatically</b>"
@@ -3506,8 +3499,8 @@ msgid ""
 "We recommend connecting to Tor automatically if you are on a public Wi-Fi "
 "network or if many people in your country use Tor to circumvent censorship."
 msgstr ""
-"公共 Wi-Fi を使用する場合や、多くの人が検閲を回避するために Tor を使用してい"
-"る場合は、自動的に Tor に接続することをおすすめします。"
+"公共のWi-Fiを使用する場合や、多くの人が検閲を回避するためにTorを使用している"
+"場合は、自動的にTorに接続することをお勧めします。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1309
 msgid ""
@@ -3516,10 +3509,10 @@ msgid ""
 "Someone monitoring your Internet connection could identify these attempts as "
 "coming from a Tails user."
 msgstr ""
-"Tails は Tor に接続が成功するまで様々な手段を試みます。\n"
+"TailsはTorへ接続が成功するまで、様々な手段を試みます。\n"
 "\n"
-"インターネット接続を監視している人が、これらの行為が Tails ユーザーからのもの"
-"であると特定することができます。"
+"インターネット接続を監視している人からは、これらの行為がTailsユーザーからのも"
+"のであると特定することができます。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1343
 msgid "Configure a Tor _bridge"
@@ -3535,25 +3528,25 @@ msgid ""
 "Tails will autodetect whether you need a bridge to connect to Tor from your "
 "local network."
 msgstr ""
-"Tor ブリッジは秘密の Tor リレーです。Tor が国、公共のネットワーク、ペアレンタ"
-"ルコントロールなどでブロックされている場合、ブリッジを使用して最初の Tor リ"
-"レーとして利用することができます。\n"
+"Torブリッジは秘密のTorリレーです。Torが国、公共のネットワーク、ペアレンタルコ"
+"ントロールなどでブロックされている場合、ブリッジを使用して最初のTorリレーとし"
+"て利用することができます。\n"
 "\n"
 "すでにブリッジを知っている場合は、このオプションを選択してください。それ以外"
-"の場合は、Tails がローカルネットワークから Tor に接続するときにブリッジが必要"
-"か自動的に検出します。"
+"の場合は、TailsがローカルネットワークからTorに接続するときにブリッジが必要か"
+"自動的に検出します。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1431
 msgid "<b>_Hide to my local network that I'm connecting to Tor</b>"
-msgstr "<b>_Torに接続していることを自分のローカルネットワークに隠す</b>"
+msgstr "<b>_Torに接続していることを自分のローカルネットワークから隠す</b>"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1481
 msgid ""
 "You might need to go unnoticed if using Tor could look suspicious to someone "
 "who monitors your Internet connection."
 msgstr ""
-"インターネット接続を監視している人に Tor を使用していることが不審に思われる可"
-"能性がある場合は、気づかれないようにする必要性があるかもしれません。"
+"インターネット接続を監視している人に、Torを使用していることが不審に思われる可"
+"能性がある場合は、気づかれないように隠す必要性があるかもしれません。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1499
 msgid ""
@@ -3570,19 +3563,19 @@ msgstr ""
 "TailsはTorブリッジを設定した後でないとTorに接続しません。ブリッジはあなたが"
 "Torに接続していることを隠す秘密のTorリレーです。\n"
 "\n"
-"私たちのチームは、あなたが最も目立たないタイプのTorブリッジを使ってTorに接続"
+"私たちのチームは、あなたが最も目立たないようにTorブリッジを使用してTorに接続"
 "できるよう最善を尽くしています。\n"
 "\n"
-"Torブリッジをまだ知らない場合や、公衆Wi-Fiネットワークから接続する場合、東半"
-"球（特に中国）にいる場合は、追加設定が必要です。"
+"Torブリッジをまだ知らない場合や、公共のWi-Fiから接続する場合、東半球(特に中"
+"国) にいる場合は、追加設定が必要です。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1544
 msgid ""
 "<a href=\"doc/anonymous_internet/tor\">Learn more about how Tails connects "
 "to Tor</a>"
 msgstr ""
-"<a href=\"doc/anonymous_internet/tor\">Tails がどのように Tor に接続するか学"
-"ぶ</a>"
+"<a href=\"doc/anonymous_internet/tor\">Tails がどのようにTorに接続するか学ぶ"
+"</a>"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1629
 msgid "Connect to a local network"
@@ -3593,12 +3586,12 @@ msgid ""
 "You are not connected to a local network yet. To be able to connect to the "
 "Tor network, you first need to connect to a Wi-Fi, wire, or mobile network."
 msgstr ""
-"ローカルネットワークに接続していません。Tor ネットワークに接続するには、最初"
-"に Wi-Fi や有線、モバイルネットワークに接続する必要があります。"
+"ローカルネットワークに接続していません。Torネットワークに接続するには、最初に"
+"Wi-Fiや有線LAN、モバイルネットワークに接続する必要があります。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1658
 msgid "Open Wi-Fi settings"
-msgstr "Wi-Fi 設定を開く"
+msgstr "Wi-Fi設定を開く"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1707
 msgid "Testing Internet access…"
@@ -3610,15 +3603,15 @@ msgstr "インターネットにアクセスできます"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1781
 msgid "Testing access to Tor…"
-msgstr "Tor への接続を確認中…"
+msgstr "Torへの接続を確認中…"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1824
 msgid "You can connect to Tor"
-msgstr "Tor にアクセスすることができます"
+msgstr "Torにアクセスすることができます"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1854
 msgid "Failed to connect to Tor without bridges."
-msgstr "ブリッジを使用しないで Tor に接続することに失敗しました。"
+msgstr "ブリッジなしでTorに接続できませんでした。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1870
 msgid "This local network is blocking access to Tor."
@@ -3626,27 +3619,27 @@ msgstr "このローカルネットワークはTorへのアクセスをブロッ
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1902
 msgid "Connecting to Tor…"
-msgstr "Tor に接続中…"
+msgstr "Torに接続中…"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2007
 msgid "Start Tor Browser"
-msgstr "Tor Browser を起動"
+msgstr "Tor Browserを起動"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2026
 msgid "Open Network Monitor"
-msgstr "ネットワーク モニターを開く"
+msgstr "ネットワークモニタを開く"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2039
 msgid "View Tor Circuits"
-msgstr "Tor 回線を見る"
+msgstr "Tor経路を表示"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2053
 msgid "Reset Tor Connection"
-msgstr "Tor 接続をリセット"
+msgstr "Tor Connectionをリセット"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2093
 msgid "Configure a Local Proxy"
-msgstr "ローカル プロキシを構成"
+msgstr "ローカルプロキシを構成"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2119
 msgid "Proxy Type"
@@ -3678,7 +3671,7 @@ msgstr "ユーザー名"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2192
 msgid "IP address or hostname"
-msgstr "IP アドレスまたはホスト名"
+msgstr "IPアドレスまたはホスト名"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2210
 msgid "Port"
@@ -3690,7 +3683,7 @@ msgstr "プロキシ設定を保存 (_S)"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:7
 msgid "Tor Connection - Fix Clock"
-msgstr "Tor 接続 - 時計を修正"
+msgstr "Tor Connection - 時計を修正"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:76
 msgid ""
@@ -3698,9 +3691,9 @@ msgid ""
 "never be sent over the network and will only be used to fix your clock and "
 "connect to Tor."
 msgstr ""
-"あなたのタイムゾーンは識別に利用されたり、あなたがどこにいるのかを見つけるた"
-"めに利用されることはありません。タイムゾーンはネットワーク上に送信されること"
-"はなく、時間を修正して Tor に接続するために使用されます。"
+"あなたのタイムゾーンは識別や追跡に利用されることはありません。タイムゾーンは"
+"ネットワーク上に送信されることはなく、時計を修正してTorに接続するために使用さ"
+"れます。"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:142
 msgid "Time zone"
@@ -3720,51 +3713,51 @@ msgstr "日付"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:311
 msgid "January"
-msgstr "1 月"
+msgstr "1月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:312
 msgid "February"
-msgstr "2 月"
+msgstr "2月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:313
 msgid "March"
-msgstr "3 月"
+msgstr "3月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:314
 msgid "April"
-msgstr "4 月"
+msgstr "4月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:315
 msgid "May"
-msgstr "5 月"
+msgstr "5月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:316
 msgid "June"
-msgstr "6 月"
+msgstr "6月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:317
 msgid "July"
-msgstr "7 月"
+msgstr "7月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:318
 msgid "August"
-msgstr "8 月"
+msgstr "8月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:319
 msgid "September"
-msgstr "9 月"
+msgstr "9月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:320
 msgid "October"
-msgstr "10 月"
+msgstr "10月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:321
 msgid "November"
-msgstr "11 月"
+msgstr "11月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:322
 msgid "December"
-msgstr "12 月"
+msgstr "12月"
 
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:368
 msgid "Clock"

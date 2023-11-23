@@ -34,8 +34,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-10-25 01:19+0000\n"
+"POT-Creation-Date: 2023-11-22 15:53+0100\n"
+"PO-Revision-Date: 2023-11-09 03:33+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/tor/tails-gui/tr/"
 ">\n"
@@ -44,7 +44,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.1.1-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -1684,7 +1684,7 @@ msgstr "Kalıcı depolama biriminiz yapılandırılamadı"
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:385
 msgid "Failed to detect a webcam. Maybe your webcam is too old."
 msgstr ""
-"Bir internet kamerası algılanamadı. Kullandığınız kamera çok eski olabilir."
+"Bir İnternet kamerası algılanamadı. Kullandığınız kamera çok eski olabilir."
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:394
 msgid "Failed to scan QR code. Try with more light or closer to the camera."

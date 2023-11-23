@@ -78,7 +78,6 @@ msgid "To start the *Unsafe Browser*:"
 msgstr "Para iniciar o *Navegador não-confiável*:"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Applications**&nbsp;▸ **Internet**&nbsp;▸ **Unsafe Browser**."
 msgid "Choose **Applications**&nbsp;▸ **Internet**&nbsp;▸ **Unsafe Browser**."
@@ -148,14 +147,6 @@ msgstr "[[!inline pages=\"doc/anonymous_internet/unsafe_browser/signing_in.inlin
 #~ msgstr "[[!inline pages=\"doc/anonymous_internet/unsafe_browser/chroot.inline.pt\" raw=\"yes\" sort=\"age\"]]\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "Tails includes an <span class=\"application\">Unsafe Browser</span> for "
-#~| "this\n"
-#~| "purpose, and it can be started via the menu\n"
-#~| "<span class=\"menuchoice\">\n"
-#~| "  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#~| "  <span class=\"guisubmenu\">Internet</span>&nbsp;▸\n"
-#~| "  <span class=\"guimenuitem\">Unsafe Web Browser</span></span>.\n"
 #~ msgid ""
 #~ "To start the <span class=\"application\">Unsafe Browser</span>, choose\n"
 #~ "<span class=\"menuchoice\">\n"
@@ -172,10 +163,6 @@ msgstr "[[!inline pages=\"doc/anonymous_internet/unsafe_browser/signing_in.inlin
 #~ "  <span class=\"guimenuitem\">Navegação Insegura</span></span>.\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "The <span class=\"application\">Unsafe Browser</span> has a red and "
-#~| "yellow theme\n"
-#~| "to differentiate it from the [[Tor Browser|Tor_Browser]].\n"
 #~ msgid ""
 #~ "The <span class=\"application\">Unsafe Browser</span> has a red theme to\n"
 #~ "differentiate it from [[<span class=\"application\">Tor Browser</span>|"
@@ -189,9 +176,6 @@ msgstr "[[!inline pages=\"doc/anonymous_internet/unsafe_browser/signing_in.inlin
 #~ msgstr "<div class=\"caution\">\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p><strong>The <span class=\"application\">Unsafe Browser</span> is not\n"
-#~| "anonymous</strong>. Use it only to log in to captive portals.</p>\n"
 #~ msgid ""
 #~ "<p><strong>The <span class=\"application\">Unsafe Browser</span> is not\n"
 #~ "anonymous</strong>. Use it only to log in to captive portals or to\n"
@@ -206,10 +190,6 @@ msgstr "[[!inline pages=\"doc/anonymous_internet/unsafe_browser/signing_in.inlin
 #~ msgstr "Recomendações de segurança:"
 
 #, fuzzy
-#~| msgid ""
-#~| "Do not run this browser at the same time as the normal, anonymous web "
-#~| "browser. This makes it easy to not mistake one browser for the other, "
-#~| "which could have catastrophic consequences."
 #~ msgid ""
 #~ "Do not run this browser at the same time as the anonymous [[<span "
 #~ "class=\"application\">Tor Browser</span>|Tor_Browser]]. This makes it "
@@ -257,10 +237,6 @@ msgstr "[[!inline pages=\"doc/anonymous_internet/unsafe_browser/signing_in.inlin
 #~ "lembrete visual."
 
 #, fuzzy
-#~| msgid ""
-#~| "The <span class=\"application\">Unsafe Browser</span> has a red and "
-#~| "yellow theme\n"
-#~| "to differentiate it from the [[Tor Browser|Tor_Browser]].\n"
 #~ msgid ""
 #~ "<p>As a consequence, if you download files using the <span\n"
 #~ "class=\"application\">Unsafe Browser</span> it is not possible to access\n"

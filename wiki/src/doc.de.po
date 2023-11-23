@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-03-11 11:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-14 14:13+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -122,10 +122,8 @@ msgid "[[Running Tails in a virtual machine|install/vm]]"
 msgstr ""
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[Downloading without installing|install/download]]"
 msgid "Downloading without installing:"
-msgstr "[[Nur herunterladen ohne Installation|install/download]]"
+msgstr "Herunterladen ohne zu installieren:"
 
 #. type: Bullet: '    - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -183,12 +181,13 @@ msgstr "Erste Schritte mit Tails"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/first_steps.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/first_steps.index.de\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/first_steps.index.de\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "Persistent Storage"
-msgstr ""
+msgstr "Der beständige Speicher"
 
 #. type: Plain text
 #, no-wrap
@@ -205,7 +204,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/anonymous_internet.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/anonymous_internet.index.de\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/anonymous_internet.index.de\" raw=\"yes\" sort=\"age\""
+"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -215,7 +216,9 @@ msgstr "Verschlüsselung und Privatsphäre"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/encryption_and_privacy.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/encryption_and_privacy.index.de\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/encryption_and_privacy.index.de\" raw=\"yes\" sort="
+"\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -225,7 +228,9 @@ msgstr "Mit sensiblen Dokumenten arbeiten"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/sensitive_documents.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/sensitive_documents.index.de\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/sensitive_documents.index.de\" raw=\"yes\" sort=\"age\""
+"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -235,7 +240,8 @@ msgstr "Fortgeschrittene Themen"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/advanced_topics.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/advanced_topics.index.de\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/advanced_topics.index.de\" raw=\"yes\" sort=\"age\"]]\n"
 
 #, no-wrap
 #~ msgid "    [[!traillink Mac|reset/mac]]\n"

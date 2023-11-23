@@ -6,15 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-09-07 14:15+0200\n"
-"PO-Revision-Date: 2016-08-22 16:30-0000\n"
-"Last-Translator: Tails translators <tails@boum.org>\n"
+"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -22,16 +24,13 @@ msgid "[[!meta title=\"Error while checking for upgrades\"]]\n"
 msgstr "[[!meta title=\"Fehler bei der Suche nach Aktualisierungen\"]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Tails could not determine whether an upgrade is available from our "
-#| "website."
 msgid ""
 "Tails could not determine whether an upgrade is available from our website.  "
 "This is most likely caused by a network connection problem."
 msgstr ""
 "Tails konnte nicht über unsere Website feststellen, ob eine Aktualisierung "
-"verfügbar ist."
+"verfügbar ist.  Dies ist höchstwahrscheinlich auf ein Problem mit der "
+"Netzwerkverbindung zurückzuführen."
 
 #. type: Plain text
 msgid "To solve it:"

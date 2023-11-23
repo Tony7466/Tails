@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2022-06-10 19:40+0000\n"
+"PO-Revision-Date: 2023-11-15 11:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -20,13 +20,16 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Exchanging Monero using Feather\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Monero tauschen mit Feather\"]]\n"
 
 #. type: Plain text
 msgid ""
 "[*Feather*](https://featherwallet.org/) is a Monero wallet with a graphical "
 "interface similar to that of [[*Electrum*|doc/anonymous_internet/electrum]]."
 msgstr ""
+"[*Feather*](https://featherwallet.org/) ist ein Monero-Wallet mit einer "
+"grafischen Benutzeroberfläche, die ähnlich ist wie [[*Electrum*|doc/"
+"anonymous_internet/electrum]]."
 
 #. type: Plain text
 msgid ""

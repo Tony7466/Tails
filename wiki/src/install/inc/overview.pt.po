@@ -56,11 +56,11 @@ msgstr "[[!toggle id=\"why_extra\" text=\"Por quê?\"]]"
 
 #. type: Content of: <div><div><div>
 msgid ""
-"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" text="
-"\"X\"]]"
+"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
+"text=\"X\"]]"
 msgstr ""
-"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" text="
-"\"X\"]]"
+"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
+"text=\"X\"]]"
 
 #. type: Content of: <div><div><div><p>
 msgid ""
@@ -200,13 +200,11 @@ msgid "1 hour in total"
 msgstr "1 hora no total"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
 #| msgid "½ hour"
 msgid "½ hour"
 msgstr "½ hora"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
 #| msgid "¼ hour"
 msgid "¼ hour"
 msgstr "¼ de hora"
@@ -220,13 +218,11 @@ msgstr ""
 "para baixar"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
 #| msgid "½ hour to install"
 msgid "½ hour to install"
 msgstr "½ hora para instalar"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
 #| msgid "½ hour to upgrade"
 msgid "½ hour to upgrade"
 msgstr "½ hora para atualizar"
@@ -475,10 +471,6 @@ msgstr "</a>"
 #~ msgstr "outro computador,"
 
 #, fuzzy
-#~| msgid ""
-#~| "<span class=\"windows linux mac expert upgrade-tails upgrade-os\">1½ "
-#~| "hours in total</span> <span class=\"install-clone mac-clone\">½ hour</"
-#~| "span> <span class=\"upgrade-clone\">¼ hour</span>"
 #~ msgid ""
 #~ "<span class=\"windows linux mac expert upgrade-tails upgrade-os\">1 hour "
 #~ "in total</span> <span class=\"install-clone mac-clone\">½ hour</span> "
@@ -504,42 +496,35 @@ msgstr "</a>"
 #~ msgstr "<small>Todos os dados serão apagados!</small>"
 
 #, fuzzy
-#~| msgid ""
-#~| "[[!img install/inc/infography/download-and-verify.png link=\"no\" alt="
-#~| "\"USB image downloaded and verified\"]]"
 #~ msgid ""
 #~ "[[!img install/inc/infography/download.png link=\"no\" alt=\"USB image "
 #~ "downloaded\"]]"
 #~ msgstr ""
-#~ "[[!img install/inc/infography/download-and-verify.png link=\"no\" alt="
-#~ "\"Imagem USB baixada e verificada\"]]"
+#~ "[[!img install/inc/infography/download-and-verify.png link=\"no\" "
+#~ "alt=\"Imagem USB baixada e verificada\"]]"
 
 #, fuzzy
-#~| msgid ""
-#~| "[[!img install/inc/infography/download-and-verify.png link=\"no\" alt="
-#~| "\"USB image downloaded and verified\"]]"
 #~ msgid ""
 #~ "[[!img install/inc/infography/verify.png link=\"no\" alt=\"USB image "
 #~ "verified\"]]"
 #~ msgstr ""
-#~ "[[!img install/inc/infography/download-and-verify.png link=\"no\" alt="
-#~ "\"Imagem USB baixada e verificada\"]]"
+#~ "[[!img install/inc/infography/download-and-verify.png link=\"no\" "
+#~ "alt=\"Imagem USB baixada e verificada\"]]"
 
 #~ msgid ""
-#~ "[[!img install/inc/infography/restart-on-other-tails.png link=\"no\" alt="
-#~ "\"Computer restarted on USB stick on the left\"]]"
+#~ "[[!img install/inc/infography/restart-on-other-tails.png link=\"no\" "
+#~ "alt=\"Computer restarted on USB stick on the left\"]]"
 #~ msgstr ""
-#~ "[[!img install/inc/infography/restart-on-other-tails.png link=\"no\" alt="
-#~ "\"Computador reiniciado no pendrive USB, à esquerda\"]]"
+#~ "[[!img install/inc/infography/restart-on-other-tails.png link=\"no\" "
+#~ "alt=\"Computador reiniciado no pendrive USB, à esquerda\"]]"
 
 #~ msgid "Restart"
 #~ msgstr "Reinicie"
 
 #, fuzzy
-#~| msgid "[[!img install/inc/infography/restart.png link=\"no\" alt=\"\"]]"
 #~ msgid ""
-#~ "[[!img install/inc/infography/install-etcher.png link=\"no\" alt="
-#~ "\"balenaEtcher downloaded\"]]"
+#~ "[[!img install/inc/infography/install-etcher.png link=\"no\" "
+#~ "alt=\"balenaEtcher downloaded\"]]"
 #~ msgstr "[[!img install/inc/infography/restart.png link=\"no\" alt=\"\"]]"
 
 #~ msgid ""
@@ -550,11 +535,11 @@ msgstr "</a>"
 #~ "USB instalada em pendrive USB\"]]"
 
 #~ msgid ""
-#~ "[[!img install/inc/infography/install-upgrade-usb.png link=\"no\" alt="
-#~ "\"USB image installed on USB stick on the left\"]]"
+#~ "[[!img install/inc/infography/install-upgrade-usb.png link=\"no\" "
+#~ "alt=\"USB image installed on USB stick on the left\"]]"
 #~ msgstr ""
-#~ "[[!img install/inc/infography/install-upgrade-usb.png link=\"no\" alt="
-#~ "\"Imagem USB instalada em pendrive USB, à esquerda\"]]"
+#~ "[[!img install/inc/infography/install-upgrade-usb.png link=\"no\" "
+#~ "alt=\"Imagem USB instalada em pendrive USB, à esquerda\"]]"
 
 #~ msgid "Install intermediary"
 #~ msgstr "Instalar intermediário"
@@ -567,27 +552,23 @@ msgstr "</a>"
 #~ "instalado num pendrive USB\"]]"
 
 #, fuzzy
-#~| msgid ""
-#~| "<span class=\"install-clone mac-clone\">Install</span> <span class="
-#~| "\"upgrade\">Upgrade</span>"
 #~ msgid ""
-#~ "<span class=\"install-clone mac-clone\">Install Tails</span> <span class="
-#~ "\"upgrade\">Upgrade Tails</span>"
+#~ "<span class=\"install-clone mac-clone\">Install Tails</span> <span "
+#~ "class=\"upgrade\">Upgrade Tails</span>"
 #~ msgstr ""
-#~ "<span class=\"install-clone mac-clone\">Instale</span> <span class="
-#~ "\"upgrade\">Atualize</span>"
+#~ "<span class=\"install-clone mac-clone\">Instale</span> <span "
+#~ "class=\"upgrade\">Atualize</span>"
 
 #, fuzzy
-#~| msgid "Your Tails"
 #~ msgid "Tails"
 #~ msgstr "Seu Tails"
 
 #~ msgid ""
-#~ "[[!img install/inc/infography/create-persistence.png link=\"no\" alt="
-#~ "\"Encryption configured on USB stick\"]]"
+#~ "[[!img install/inc/infography/create-persistence.png link=\"no\" "
+#~ "alt=\"Encryption configured on USB stick\"]]"
 #~ msgstr ""
-#~ "[[!img install/inc/infography/create-persistence.png link=\"no\" alt="
-#~ "\"Criptografia configurada em pendrive USB\"]]"
+#~ "[[!img install/inc/infography/create-persistence.png link=\"no\" "
+#~ "alt=\"Criptografia configurada em pendrive USB\"]]"
 
 #~ msgid "Configure"
 #~ msgstr "Configure"

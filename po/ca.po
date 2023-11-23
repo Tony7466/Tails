@@ -26,8 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-10-21 23:00+0000\n"
+"POT-Creation-Date: 2023-11-22 15:53+0100\n"
+"PO-Revision-Date: 2023-11-03 15:34+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/tor/tails-gui/ca/"
 ">\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -1534,7 +1534,7 @@ msgstr "[paquet no disponible]"
 
 #: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:68
 msgid "Failed to synchronize the clock!"
-msgstr "S'ha produït un error en sincronitzar el rellotge."
+msgstr "S'ha produït un error en sincronitzar el rellotge!"
 
 #: config/chroot_local-includes/usr/local/bin/tails-screen-locker:110
 msgid "Lock Screen"
@@ -1631,7 +1631,7 @@ msgstr "S'ha produït un error:"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:21
 msgid "Warning: virtual machine detected!"
-msgstr "Avís: s'ha detectat una màquina virtual."
+msgstr "Avís: s'ha detectat una màquina virtual!"
 
 #: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:23
 msgid "Warning: non-free virtual machine detected!"
@@ -2497,7 +2497,7 @@ msgstr "Desenvolupadors de Tails <tails@boum.org>"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:343
 msgid "translator-credits"
-msgstr "Crèdits de traducció"
+msgstr "Victor Dargallo"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:376
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
@@ -2545,8 +2545,8 @@ msgid ""
 "Configure which files and application configuration are saved between "
 "working sessions"
 msgstr ""
-"Configureu quins fitxers i configuració d'aplicacions es desen entre "
-"sessions de treball"
+"Configureu quins fitxers i paràmetres d'aplicacions es desen entre sessions "
+"de treball"
 
 #: ../config/chroot_local-includes/usr/share/applications/root-terminal.desktop.in.h:1
 msgid "Root Terminal"

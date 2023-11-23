@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-07-29 23:22+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Starting Tails on Mac\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails auf einem Mac starten\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -83,6 +83,10 @@ msgid ""
 "('GNU GRUB') with Tails logo and 2 options: 'Tails' and 'Tails\n"
 "(Troubleshooting Mode)'.\"]]\n"
 msgstr ""
+"[[!img install/inc/screenshots/grub.png link=\"no\" alt=\"Schwarzer "
+"Bildschirm\n"
+"('GNU GRUB') mit Tails-Logo und 2 Optionen: 'Tails' und 'Tails\n"
+"(Fehlerbehebungsmodus)'.\"]]\n"
 
 #. type: Plain text
 #, no-wrap

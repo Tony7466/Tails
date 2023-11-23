@@ -29,7 +29,6 @@ msgid "Taking a screenshot"
 msgstr "Prendre une capture d'écran"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "To take a screenshot of the entire screen, part of the screen, or a "
 #| "single window choose **Applications**&nbsp;▸ **Screenshot**."
@@ -41,7 +40,6 @@ msgstr ""
 "ou d'une seule fenêtre choisir **Applications**&nbsp;▸ **Capture d'écran**."
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "You can also press the **PrtScn** key of the keyboard to take a "
 #| "screenshot of the entire screen instantaneously. The screenshot is saved "
@@ -84,7 +82,6 @@ msgstr ""
 "pour arrêter la capture vidéo de l’écran."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid "The video is saved in **Places**&nbsp;▸ **Videos**."
 msgid "The video is saved in **Places**&nbsp;▸ **Videos**."
 msgstr "La vidéo est sauvegardée dans **Emplacements**&nbsp;▸ **Vidéos**."

@@ -124,7 +124,6 @@ msgstr ""
 "Tails."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "Try to keep your computer in a safe location. Hardware alterations are "
 #| "more likely on public computers, in internet cafés or libraries, and on "
@@ -176,7 +175,6 @@ msgstr ""
 "KeyGrabber forensic keylogger getting started</a>(en anglais)."
 
 #. type: Content of: <div><p>
-#, fuzzy
 #| msgid ""
 #| "Other hardware alterations are much more complicated and expensive to "
 #| "install. For an example, see <a href=\"https://arstechnica.com/tech-"

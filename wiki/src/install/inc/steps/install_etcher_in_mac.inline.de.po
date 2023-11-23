@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-03-26 10:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -26,12 +26,12 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #, no-wrap
 msgid "<h1 id=\"etcher\" class=\"step\">Install <em>balenaEtcher</em></h1>\n"
 msgstr ""
+"<h1 id=\"etcher\" class=\"step\">Installiere <em>balenaEtcher</em></h1>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<div class=\"step-image\">[[!img install/inc/infography/os-mac.png link=\"no\" alt=\"\"]]</div>\n"
+#, no-wrap
 msgid "<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no\" alt=\"\"]]</div>\n"
-msgstr "<div class=\"step-image\">[[!img install/inc/infography/os-mac.png link=\"no\" alt=\"\"]]</div>\n"
+msgstr "<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -104,7 +104,7 @@ msgid "Make sure that your USB stick is unplugged."
 msgstr "Stellen Sie sicher, dass der erste USB-Stick nicht angeschlossen ist."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Open <span class=\"application\">Terminal</span> from\n"
 #| "   <span class=\"menuchoice\">\n"
@@ -134,12 +134,12 @@ msgid "   <p class=\"pre command\">diskutil list</p>\n"
 msgstr "   <p class=\"pre command\">diskutil list</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
-msgstr "     Es wird eine Liste der Speichermedien des Systems ausgegeben. Zum Beispiel:\n"
+msgstr "   Es wird eine Liste der Speichermedien des Systems ausgegeben. Zum Beispiel:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "   <p class=\"pre command-output\">/dev/disk0\n"
 "    #:                     TYPE NAME         SIZE      IDENTIFIER\n"
@@ -149,7 +149,7 @@ msgid ""
 "    3:                      EFI              134.1 GB  disk0s3\n"
 "    4:     Microsoft Basic Data BOOTCAMP     115.5 GB  disk0s4</p>\n"
 msgstr ""
-"     <p class=\"pre command-output\">/dev/disk0\n"
+"   <p class=\"pre command-output\">/dev/disk0\n"
 "      #:                     TYPE NAME         SIZE      IDENTIFIER\n"
 "      0:    GUID_partition_scheme             *500.1 GB  disk0\n"
 "      1:                      EFI              209.7 MB  disk0s1\n"
@@ -167,16 +167,16 @@ msgid "Execute again the same command:"
 msgstr "Führen Sie den Befehl erneut aus:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "   Your USB stick appears as a new device in the list. Check\n"
 "   that its size corresponds to the size of your USB stick.\n"
 msgstr ""
-"     Ihr USB-Stick erscheint als neues Speichermedium in der Liste. Stellen Sie\n"
-"     sicher, dass die Größe der Speicherkapazität Ihres USB-Sticks entspricht.\n"
+"   Ihr USB-Stick erscheint als neues Speichermedium in der Liste. Stellen Sie\n"
+"   sicher, dass die Größe der Speicherkapazität Ihres USB-Sticks entspricht.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "   <p class=\"pre command-output\">/dev/disk0\n"
 "    #:                     TYPE NAME         SIZE      IDENTIFIER\n"
@@ -190,7 +190,7 @@ msgid ""
 "    0:   FDisk_partition_scheme             *8.0 GB    disk1\n"
 "    1:                Apple_HFS Untitled 1   8.0 GB    disk1s1</p>\n"
 msgstr ""
-"     <p class=\"pre command-output\">/dev/disk0\n"
+"   <p class=\"pre command-output\">/dev/disk0\n"
 "      #:                     TYPE NAME         SIZE      IDENTIFIER\n"
 "      0:    GUID_partition_scheme             &lowast;500.1 GB  disk0\n"
 "      1:                      EFI              209.7 MB  disk0s1\n"
@@ -213,31 +213,30 @@ msgstr ""
 "dev/disk1</span>. Ihrer weicht möglicherweise ab."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "   <div class=\"caution\">\n"
 "   <p>If you are unsure about the device name, you should stop proceeding or\n"
 "   <strong>you risk overwriting any hard disk on the system</strong>.</p>\n"
 "   </div>\n"
 msgstr ""
-"     <div class=\"caution\">\n"
-"     <p>Falls Sie sich bezüglich des Gerätenamens nicht sicher sind, sollten Sie das Vorgehen abbrechen oder\n"
-"     <strong>Sie riskieren, dass jegliche Festplatten des Systems überschrieben werden</strong>.</p>\n"
-"     </div>\n"
+"   <div class=\"caution\">\n"
+"   <p>Falls Sie sich bezüglich des Gerätenamens nicht sicher sind, sollten Sie das Vorgehen abbrechen oder\n"
+"   <strong>Sie riskieren, dass jegliche Festplatten des Systems überschrieben werden</strong>.</p>\n"
+"   </div>\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
 msgid ""
 "Execute the following commands to copy the USB image that you downloaded "
 "earlier to the USB stick."
 msgstr ""
-"  1. Führen Sie folgenden Befehl aus, um das ISO-Abbild, das Sie zuvor\n"
-"          heruntergeladen haben, auf den USB-Stick zu kopieren.\n"
+"Führen Sie die folgenden Befehle aus, um das zuvor heruntergeladene USB-"
+"Image auf den USB-Stick zu kopieren."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   Replace:\n"
-msgstr "     Ersetzen Sie:\n"
+msgstr "   Ersetzen Sie:\n"
 
 #. type: Bullet: '   - '
 #, fuzzy
@@ -249,7 +248,7 @@ msgstr ""
 "Abbild"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "     <div class=\"tip\">\n"
 "     <p>If you are unsure about the path to the USB image, you can insert the\n"
@@ -258,7 +257,7 @@ msgid ""
 "     Terminal</span>.</p>\n"
 "     </div>\n"
 msgstr ""
-"       <div class=\"tip\">\n"
+"     <div class=\"tip\">\n"
 "       <p>Falls Sie sich über den Pfad zum ISO-Image unsicher sind, können Sie\n"
 "       den richtigen Pfad per Drag and Drop des Symbols des ISO-Abbilds vom\n"
 "       <span class=\"application\">Finder</span> in das <span class=\"application\">\n"
@@ -274,74 +273,74 @@ msgstr ""
 "Sie in Schritt 6 herausgefunden haben"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "     <div class=\"tip\">\n"
 "     <p>You can try adding <span class=\"code\">r</span> before <span class=\"code\">disk</span> to make the installation faster.</p>\n"
 "     </div>\n"
 msgstr ""
-"       <div class=\"tip\">\n"
+"     <div class=\"tip\">\n"
 "       <p>Sie können versuchen, <span class=\"code\">r</span> vor <span class=\"code\">disk</span> einzugeben, um die Installation zu beschleunigen.</p>\n"
 "       </div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
-msgstr "     <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
+msgstr "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
-msgstr "     <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.iso</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
+msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   You should get something like this:\n"
-msgstr "     Sie sollten etwas wie folgt erhalten:\n"
+msgstr "   Sie sollten etwas wie folgt erhalten:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.12.img of=/dev/rdisk9 bs=16m && sync</p>\n"
-msgstr "     <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.0.iso of=/dev/rdisk9 bs=16m && sync</p>\n"
+msgstr "   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.0.iso of=/dev/rdisk9 bs=16m && sync</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "   If no error message is returned, Tails is being copied on the USB\n"
 "   stick. The copy takes some time, generally a few minutes.\n"
 msgstr ""
-"     Wenn keine Fehlermeldung angezeigt wird, wird Tails auf den USB-Stick\n"
+"   Wenn keine Fehlermeldung angezeigt wird, wird Tails auf den USB-Stick\n"
 "     kopiert. Das Kopieren benötigt einige Zeit, in der Regel ein paar Minuten.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "   <div class=\"note\">\n"
 "   <p>If you get a <span class=\"guilabel\">Permission denied</span> error, try\n"
 "   adding <code>sudo</code> at the beginning of the command:</p>\n"
 msgstr ""
-"     <div class=\"tip\">\n"
+"   <div class=\"note\">\n"
 "     <p>Wenn Sie eine <span class=\"guilabel\">Permission denied</span> Fehlermeldung erhalten, versuchen Sie\n"
 "     <code>sudo</code> vor den Beginn des Befehls hinzuzufügen:</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
-msgstr "     <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.iso</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
+msgstr "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "   <p>If you get an <span class=\"guilabel\">invalid number ‘16m’</span> error, try\n"
 "   using <code>16M</code> instead:</p>\n"
 msgstr ""
-"     <p>Falls Sie die Fehlermeldung <span class=\"guilabel\">invalid number ‘16m’</span> erhalten, versuchen\n"
+"   <p>Falls Sie die Fehlermeldung <span class=\"guilabel\">invalid number ‘16m’</span> erhalten, versuchen\n"
 "     Sie es stattdessen mit <code>16M</code>:</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
-msgstr "     <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.iso</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
+msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -349,9 +348,9 @@ msgid "   </div>\n"
 msgstr "   </div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   The installation is complete once the command prompt reappeared.\n"
-msgstr "     Die Installation ist abgeschlossen, sobald die Eingabeaufforderung wieder erscheint.\n"
+msgstr "   Die Installation ist abgeschlossen, sobald die Eingabeaufforderung wieder erscheint.\n"
 
 #, no-wrap
 #~ msgid "<div class=\"hidden-step-1\"></div>\n"

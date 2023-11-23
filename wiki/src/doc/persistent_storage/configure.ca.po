@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 09:27+0000\n"
+"PO-Revision-Date: 2023-11-12 16:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,13 +21,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Configuring the Persistent Storage\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Configuració de l'Emmagatzematge Persistent\"]]\n"
 
 #. type: Plain text
 msgid ""
 "To configure the Persistent Storage, choose **Applications**&nbsp;▸ "
 "**Tails**&nbsp;▸ **Persistent Storage**."
 msgstr ""
+"Per configurar l'Emmagatzematge Persistent, trieu **Aplicacions**&nbsp;▸ "
+"**Tails**&nbsp;▸ **Emmagatzematge Persistent**."
 
 #. type: Plain text
 msgid ""
@@ -35,6 +37,10 @@ msgid ""
 "the Persistent Storage is stored to the USB stick immediately. You don't "
 "have to restart Tails anymore after enabling a new feature."
 msgstr ""
+"Des de Tails 5.8 (desembre de 2022), les vostres dades corresponents a cada "
+"funció de l'Emmagatzematge Persistent s'emmagatzemen al llapis USB "
+"immediatament. Ja no cal que reinicieu Tails després d'habilitar una funció "
+"nova."
 
 #. type: Plain text
 msgid ""
@@ -42,6 +48,9 @@ msgid ""
 "Persistent Storage, your current bookmarks are saved in the Persistent "
 "Storage immediately."
 msgstr ""
+"Per exemple, quan activeu la funció d'adreces d'interès del Navegador Tor de "
+"l'Emmagatzematge Persistent, les vostres adreces d'interès actuals es "
+"desaran immediatament a l'Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
@@ -59,6 +68,8 @@ msgid ""
 "<p>Only the features that are listed below can currently be made\n"
 "persistent.</p>\n"
 msgstr ""
+"<p>Actualment només es poden fer persistents les funcions que\n"
+"s'enumeren a continuació.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -69,6 +80,15 @@ msgid ""
 "groups/tails/-/issues?scope=all&utf8=✓&state=opened&label_name%5B%5D=C%3APersistence\n"
 "desc=\"list of issues about the Persistent Storage in our GitLab\"]].<p>\n"
 msgstr ""
+"<p>Sovint se'ns demana que implementem noves funcions de l'Emmagatzematge "
+"Persistent:\n"
+"preferències del Navegador Tor, configuració de Tor, fons d'escriptori, "
+"preferències del ratolí i\n"
+"touchpad, etc. Vegeu la [[!tails_gitlab\n"
+"groups/tails/-/issues?scope=all&utf8=✓&state=opened&label_name%5B%5D=C%"
+"3APersistence\n"
+"desc=\"llista de problemes sobre l'Emmagatzematge Persistent al nostre "
+"GitLab\"]].<p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -78,7 +98,7 @@ msgstr "</div>\n"
 #. type: Title =
 #, no-wrap
 msgid "Personal Documents"
-msgstr ""
+msgstr "Documents Personals"
 
 #. type: Plain text
 #, no-wrap
@@ -101,6 +121,8 @@ msgid ""
 "<div class=\"text\"><h2>Persistent Folder</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Carpeta Persistent</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -108,6 +130,9 @@ msgid ""
 "When the Persistent Folder feature is turned on, you can save your personal files and working\n"
 "documents in the <span class=\"filename\">Persistent</span> folder.\n"
 msgstr ""
+"Quan la funció Carpeta Persistent està activada, podeu desar els vostres "
+"fitxers personals i treballar\n"
+"documents a la carpeta <span class=\"filename\">Persistent</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -117,6 +142,10 @@ msgid ""
 "  <span class=\"guimenu\">Places</span>&nbsp;▸\n"
 "  <span class=\"guimenuitem\">Persistent</span></span>.\n"
 msgstr ""
+"Per obrir la carpeta <span class=\"filename\">Persistent</span>, trieu\n"
+"<span class=\"menuchoice\">\n"
+"   <span class=\"guimenu\">Llocs</span>&nbsp;▸\n"
+"   <span class=\"guimenuitem\">Persistent</span></span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -126,11 +155,18 @@ msgid ""
 "folder. To upload a file, you must copy it to the *Persistent/Tor Browser*\n"
 "folder first.\n"
 msgstr ""
+"El *Navegador Tor* només pot accedir a la subcarpeta *Navegador Tor* de la "
+"carpeta\n"
+"*Persistent*. Només podeu desar les vostres baixades a la carpeta *"
+"Persistent/Navegador Tor*.\n"
+"Per carregar un fitxer, heu de copiar-lo a la carpeta *Persistent/Navegador "
+"Tor*\n"
+"primer.\n"
 
 #. type: Title =
 #, no-wrap
 msgid "System Settings"
-msgstr ""
+msgstr "Paràmetres del sistema"
 
 #. type: Plain text
 #, no-wrap
@@ -148,6 +184,8 @@ msgid ""
 "<div class=\"text\"><h2>Welcome Screen</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Pantalla de Benvinguda</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -155,12 +193,17 @@ msgid ""
 "[[Welcome Screen|doc/first_steps/welcome_screen]] are saved in the "
 "Persistent Storage: language, keyboard, and additional settings."
 msgstr ""
+"Quan la funció de Pantalla de Benvinguda està activada, la configuració de "
+"la [[Pantalla de Benvinguda|doc/first_steps/welcome_screen]] es desa a "
+"l'Emmagatzematge Persistent: idioma, teclat i paràmetres addicionals."
 
 #. type: Plain text
 msgid ""
 "To restore your settings when starting Tails, unlock your Persistent Storage "
 "in the Welcome Screen."
 msgstr ""
+"Per restaurar la configuració quan inicieu Tails, desbloquegeu "
+"l'Emmagatzematge Persistent a la Pantalla de Benvinguda."
 
 #. type: Plain text
 #, no-wrap
@@ -178,6 +221,8 @@ msgid ""
 "<div class=\"text\"><h2>Printers</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Impressores</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -185,11 +230,14 @@ msgid ""
 "doc/sensitive_documents/printing_and_scanning]] is saved in the Persistent "
 "Storage."
 msgstr ""
+"Quan la funció Impressores està activada, la [[configuració de les "
+"impressores|doc/sensitive_documents/printing_and_scanning]] es desa a "
+"l'Emmagatzematge Persistent."
 
 #. type: Title =
 #, no-wrap
 msgid "Network"
-msgstr ""
+msgstr "Xarxa"
 
 #. type: Plain text
 #, no-wrap
@@ -207,6 +255,8 @@ msgid ""
 "<div class=\"text\"><h2>Network Connections</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Connexions de Xarxa</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -214,6 +264,9 @@ msgid ""
 "networks and configuration of wired networks|doc/anonymous_internet/"
 "networkmanager]] are saved in the Persistent Storage."
 msgstr ""
+"Quan la funció Connexions de Xarxa està activada, la [[contrasenya per a "
+"xarxes Wi-Fi i configuració de xarxes cablejades|doc/anonymous_internet/"
+"networkmanager]] es desa a l'Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
@@ -231,6 +284,8 @@ msgid ""
 "<div class=\"text\"><h2>Tor Bridge</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Pont de Tor</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -238,11 +293,14 @@ msgid ""
 "anonymous_internet/tor]] that you used to connect to Tor successfully is "
 "saved in the Persistent Storage."
 msgstr ""
+"Quan la funció Pont de Tor està activada, l'últim [[Pont de Tor|doc/"
+"anonymous_internet/tor]] que heu utilitzat per connectar-vos amb Tor "
+"correctament es desa a l'Emmagatzematge Persistent."
 
 #. type: Title =
 #, no-wrap
 msgid "Applications"
-msgstr ""
+msgstr "Aplicacions"
 
 #. type: Plain text
 #, no-wrap
@@ -260,6 +318,8 @@ msgid ""
 "<div class=\"text\"><h2>Tor Browser Bookmarks</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Adreces d'interès del Navegador Tor</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -267,6 +327,9 @@ msgid ""
 "bookmarks in [[*Tor Browser*|doc/anonymous_internet/Tor_Browser]] are saved "
 "in the Persistent Storage."
 msgstr ""
+"Quan la funció d'adreces d'interès del Navegador Tor està activada, els "
+"canvis a les adreces d'interès al [[*Navegadir Tor*|doc/anonymous_internet/"
+"Tor_Browser]] es guarden a l'Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
@@ -284,6 +347,8 @@ msgid ""
 "<div class=\"text\"><h2>Electrum Bitcoin Wallet</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Cartera Electrum Bitcoin</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -291,6 +356,9 @@ msgid ""
 "and preferences of the [[*Electrum* bitcoin client|anonymous_internet/"
 "electrum]] are saved in the Persistent Storage."
 msgstr ""
+"Quan la funció Cartera Electrum Bitcoin està activada, la cartera bitcoin i "
+"les preferències del [[client de bitcoin *Electrum*|anonymous_internet/"
+"electrum]] es guarden a l'Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
@@ -308,6 +376,8 @@ msgid ""
 "<div class=\"text\"><h2>Thunderbird Email Client</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Client de correu electrònic Thunderbird</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -315,6 +385,10 @@ msgid ""
 "and OpenPGP keys in the [[*Thunderbird* email client|doc/anonymous_internet/"
 "thunderbird]] are saved in the Persistent Storage."
 msgstr ""
+"Quan la funció del client de correu electrònic Thunderbird està activada, el "
+"correu electrònic, els canals i les claus OpenPGP del [[client de correu "
+"electrònic *Thunderbird*|doc/anonymous_internet/thunderbird]] es guarden a "
+"l'Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
@@ -332,6 +406,8 @@ msgid ""
 "<div class=\"text\"><h2>GnuPG</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>GnuPG</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -339,6 +415,9 @@ msgid ""
 "import in *GnuPG* and [[*Kleopatra*|doc/encryption_and_privacy/kleopatra]] "
 "are saved in the Persistent Storage."
 msgstr ""
+"Quan la funció GnuPG està activada, les claus OpenPGP que creeu o importeu a "
+"*GnuPG* i [[*Kleopatra*|doc/encryption_and_privacy/kleopatra]] es guarden a "
+"l'Emmagatzematge Persistent."
 
 #. type: Plain text
 #, no-wrap
@@ -348,6 +427,12 @@ msgid ""
 "feature anymore if you only use OpenPGP encryption in\n"
 "<em>Thunderbird</em>.</p>\n"
 msgstr ""
+"<p>Des de Tails 4.13 (novembre de 2020), <em>Thunderbird</em> utilitza el "
+"seu propi anell de claus OpenPGP,\n"
+"diferent del clauer utilitzat per <em>GnuPG</em> i <em>Kleopatra</em>. No "
+"cal que habiliteu la funció GnuPG\n"
+"si només feu servir l'encriptatge OpenPGP a\n"
+"<em>Thunderbird</em>.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -365,6 +450,8 @@ msgid ""
 "<div class=\"text\"><h2>Pidgin Internet Messenger</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Missatgeria d'Internet Pidgin</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -372,18 +459,25 @@ msgid ""
 "configuration files of the [[*Pidgin* internet messenger|doc/"
 "anonymous_internet/pidgin]] are saved in the Persistent Storage:"
 msgstr ""
+"Quan la funció Missatgeria d'Internet Pidgin està activada, tots els fitxers "
+"de configuració de la [[missatgeria d'Internet *Pidgin*|doc/"
+"anonymous_internet/pidgin]] es guarden a l'Emmagatzematge Persistent:"
 
 #. type: Plain text
 msgid ""
 "- The configuration of your accounts, contacts, and chats - Your OTR "
 "encryption keys and keyring"
 msgstr ""
+"- La configuració dels vostres comptes, contactes i xats\n"
+"- Les vostres claus d'encriptació OTR i l'anell de claus"
 
 #. type: Plain text
 msgid ""
 "The content of the discussions is not saved, unless you configure *Pidgin* "
 "to do so."
 msgstr ""
+"El contingut de les discussions no es desa, tret que configureu *Pidgin* per "
+"fer-ho."
 
 #. type: Plain text
 msgid ""
@@ -391,6 +485,9 @@ msgid ""
 "*Pidgin*. You don't need to manually edit or overwrite the configuration "
 "files."
 msgstr ""
+"Totes les opcions de configuració estan disponibles des de la interfície "
+"gràfica de *Pidgin*. No cal que editeu ni sobreescrigueu manualment els "
+"fitxers de configuració."
 
 #. type: Plain text
 #, no-wrap
@@ -408,30 +505,35 @@ msgid ""
 "<div class=\"text\"><h2>SSH Client</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Client SSH</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
 "When the SSH Client feature is turned on, all the files related to the "
 "Secure Shell (SSH) client are saved in the Persistent Storage:"
 msgstr ""
+"Quan la funció de client SSH està activada, tots els fitxers relacionats amb "
+"el client Secure Shell (SSH) es guarden a l'Emmagatzematge Persistent:"
 
 #. type: Bullet: '  - '
 msgid "The SSH keys that you create or import"
-msgstr ""
+msgstr "Les claus SSH que creeu o importeu"
 
 #. type: Bullet: '  - '
 msgid "The public keys of the hosts you connect to"
-msgstr ""
+msgstr "Les claus públiques dels amfitrions als quals us connecteu"
 
 #. type: Bullet: '  - '
 msgid ""
 "The SSH configuration file in <span class=\"filename\">~/.ssh/config</span>"
 msgstr ""
+"El fitxer de configuració SSH a <span class=\"filename\">~/.ssh/config</span>"
 
 #. type: Title =
 #, no-wrap
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Paràmetres avançats"
 
 #. type: Plain text
 #, no-wrap
@@ -449,6 +551,8 @@ msgid ""
 "<div class=\"text\"><h2>Additional Software</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Programari Addicional</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -456,6 +560,9 @@ msgid ""
 "software|additional_software]] of your choice is automatically installed "
 "every time you start Tails."
 msgstr ""
+"Quan la funció de Programari Addicional està activada, una llista de [["
+"programari addicional|additional_software]] que escolliu s'instal·la "
+"automàticament cada vegada que inicieu Tails."
 
 #. type: Plain text
 msgid ""
@@ -463,6 +570,9 @@ msgid ""
 "They are automatically upgraded for security after a network connection is "
 "established."
 msgstr ""
+"Els paquets de programari corresponents s'emmagatzemen a l'Emmagatzematge "
+"Persistent. S'actualitzen automàticament per seguretat després d'establir "
+"una connexió de xarxa."
 
 #. type: Plain text
 #, no-wrap
@@ -476,6 +586,11 @@ msgid ""
 "Installing additional packages might break the security built in Tails,\n"
 "so [[be careful with what you install|additional_software#warning]].</p>\n"
 msgstr ""
+"<p>Els paquets inclosos a Tails s'han provat acuradament per garantir la "
+"seguretat.\n"
+"La instal·lació de paquets addicionals pot trencar la seguretat integrada a "
+"Tails,\n"
+"així que [[compte amb el que instal·leu|additional_software#warning]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -493,16 +608,21 @@ msgid ""
 "<div class=\"text\"><h2>Dotfiles</h2></div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\"><h2>Dotfiles</h2></div>\n"
+"</div>\n"
 
 #. type: Plain text
 msgid "When the Dotfiles feature is turned on:"
-msgstr ""
+msgstr "Quan la funció Dotfiles està activada:"
 
 #. type: Bullet: '- '
 msgid ""
 "All the files in the */live/persistence/TailsData_unlocked/dotfiles* folder "
 "are linked in the *Home* folder using Linux symbolic links."
 msgstr ""
+"Tots els fitxers de la carpeta */live/persistence/TailsData_unlocked/"
+"dotfiles* estan enllaçats a la carpeta *Home* mitjançant enllaços simbòlics "
+"de Linux."
 
 #. type: Bullet: '- '
 msgid ""
@@ -510,6 +630,9 @@ msgid ""
 "dotfiles* are also linked in the corresponding subfolder of the *Home* "
 "folder using Linux symbolic links."
 msgstr ""
+"Tots els fitxers de les subcarpetes de */live/persistence/TailsData_unlocked/"
+"dotfiles* també estan enllaçats a la subcarpeta corresponent de la carpeta "
+"*Home* mitjançant enllaços simbòlics de Linux."
 
 #. type: Bullet: '- '
 msgid ""
@@ -517,12 +640,17 @@ msgid ""
 "**Places** menu in the top navigation bar to access the */live/persistence/"
 "TailsData_unlocked/dotfiles* folder."
 msgstr ""
+"Es proporciona una drecera al panell esquerre del navegador de *Fitxers* i "
+"al menú **Llocs** de la barra de navegació superior per accedir a la carpeta "
+"*/live/persistence/TailsData_unlocked/dotfiles*."
 
 #. type: Plain text
 msgid ""
 "For example, having the following files in */live/persistence/"
 "TailsData_unlocked/dotfiles*:"
 msgstr ""
+"Per exemple, tenir els fitxers següents a */live/persistence/"
+"TailsData_unlocked/dotfiles*:"
 
 #. type: Plain text
 #, no-wrap
@@ -535,10 +663,17 @@ msgid ""
 "    │       └── file_c\n"
 "    └── emptyfolder\n"
 msgstr ""
+"    /live/persistence/TailsData_unlocked/dotfiles\n"
+"    ├── fitxer_a\n"
+"    ├── carpeta\n"
+"    │   ├── fitxer_b\n"
+"    │   └── subcarpeta\n"
+"    │       └── fitxer_c\n"
+"    └── carpeta_buida\n"
 
 #. type: Plain text
 msgid "Produces the following result in */home/amnesia*:"
-msgstr ""
+msgstr "Produeix el resultat següent a */home/amnesia*:"
 
 #. type: Plain text
 #, no-wrap
@@ -550,6 +685,14 @@ msgid ""
 "        └── subfolder\n"
 "            └── file_c → /live/persistence/TailsData_unlocked/dotfiles/folder/subfolder/file_c\n"
 msgstr ""
+"    /home/amnesia\n"
+"    ├── fitxer_a → /live/persistence/TailsData_unlocked/dotfiles/fitxer_a\n"
+"    └── carpeta\n"
+"        ├── fitxer_b → /live/persistence/TailsData_unlocked/dotfiles/carpeta/"
+"fitxer_b\n"
+"        └── subcarpeta\n"
+"            └── fitxer_c → /live/persistence/TailsData_unlocked/dotfiles/"
+"carpeta/subcarpeta/fitxer_c\n"
 
 #. type: Plain text
 #, no-wrap
@@ -558,6 +701,11 @@ msgid ""
 "the Persistent Storage. Accordingly, empty folders are ignored, as shown in\n"
 "the above example.</p>\n"
 msgstr ""
+"<p>La funció Dotfiles només enllaça fitxers específics, i no carpetes "
+"senceres de\n"
+"l'Emmagatzematge Persistent. En conseqüència, les carpetes buides s'ignoren, "
+"tal com es mostra a\n"
+"l'exemple anterior.</p>\n"
 
 #. type: Plain text
 msgid ""
@@ -566,6 +714,11 @@ msgid ""
 "reason.  The Dotfiles feature of the Persistent Storage makes it easy to "
 "persist such \"*dotfiles*\", for example *~/.gitconfig* or *~/.bashrc*."
 msgstr ""
+"A Tails i Linux en general, el nom dels fitxers de configuració sovint "
+"comença amb un punt i de vegades s'anomenen [[!wikipedia dotfiles]] per "
+"aquest motiu. La funció Dotfiles de l'Emmagatzematge Persistent facilita la "
+"conservació d'aquests \"*dotfiles*\", per exemple *~/.gitconfig* o *~/."
+"bashrc*."
 
 #. type: Plain text
 #, no-wrap
@@ -573,6 +726,8 @@ msgid ""
 "<p>Be careful if you use the Dotfiles feature to overwrite the default\n"
 "settings.</p>\n"
 msgstr ""
+"<p>Aneu amb compte si feu servir la funció Dotfiles per sobreescriure la\n"
+"configuració predeterminada.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -580,6 +735,10 @@ msgid ""
 "<p>The programs included in Tails are carefully configured with security in\n"
 "mind. You can weaken your security if you change the defaults.</p>\n"
 msgstr ""
+"<p>Els programes inclosos a Tails es configuren acuradament tenint en "
+"compte\n"
+"la seguretat. Podeu debilitar la vostra seguretat si canvieu els valors "
+"predeterminats.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -588,6 +747,11 @@ msgid ""
 "Tails user from another. In some cases, changing the default settings can break\n"
 "your anonymity.</p>\n"
 msgstr ""
+"<p>L'anonimat de Tor i Tails depèn de fer més difícil distingir un usuari "
+"de\n"
+"Tails d'un altre usuari diferent de Tails. En alguns casos, canviar la "
+"configuració\n"
+"predeterminada pot trencar el vostre anonimat.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -595,9 +759,9 @@ msgid "<a id=\"displays\"></a>\n"
 msgstr "<a id=\"displays\"></a>\n"
 
 #. type: Title ###
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Save the configuration of your displays"
-msgstr "Die Einstellungen der Programme, die Sie nutzen"
+msgstr "Deseu la configuració de les vostres pantalles"
 
 #. type: Plain text
 #, no-wrap
@@ -606,24 +770,29 @@ msgid ""
 "projector), you can save the configuration of your displays using the\n"
 "<span class=\"guilabel\">Dotfiles</span> feature.\n"
 msgstr ""
+"Si teniu més d'una pantalla (per exemple, dos monitors o un\n"
+"projector), podeu desar la configuració de les vostres pantalles amb la\n"
+"funció <span class=\"guilabel\">Dotfiles</span>.\n"
 
 #. type: Bullet: '1. '
 msgid "Turn on the *Dotfiles* feature and restart Tails."
-msgstr ""
+msgstr "Activeu la funció *Dotfiles* i reinicieu Tails."
 
 #. type: Bullet: '1. '
 msgid ""
 "Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Settings** to open "
 "the *Settings* utility."
 msgstr ""
+"Trieu **Aplicacions**&nbsp;▸ **Eines del sistema**&nbsp;▸ **Configuració** "
+"per obrir la utilitat *Configuració*."
 
 #. type: Bullet: '1. '
 msgid "Choose **Displays** in the *Settings* utility."
-msgstr ""
+msgstr "Trieu **Pantalles** a la utilitat *Configuració*."
 
 #. type: Bullet: '1. '
 msgid "Configure your displays."
-msgstr ""
+msgstr "Configureu els vostres dispositius."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -631,6 +800,9 @@ msgid ""
 "live/persistence/TailsData_unlocked/dotfiles</span> folder in the <span "
 "class=\"application\">Files</span> browser."
 msgstr ""
+"Trieu **Llocs**&nbsp;▸ **Dotfiles** per obrir la carpeta <span class="
+"\"filename\">/live/persistence/TailsData_unlocked/dotfiles</span> al "
+"navegador de <span class=\"application\">Fitxers</span>."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -638,12 +810,17 @@ msgid ""
 "toggle\" class=\"symbolic\" link=\"no\"]]</span> button in the title bar and "
 "choose <span class=\"guilabel\">Show Hidden Files</span>."
 msgstr ""
+"Feu clic al botó <span class=\"guimenu\">[[!img lib/pan-down.png alt=\"obre "
+"menú\" class=\"symbolic\" link=\"no\"]]</span> a la barra de títol i trieu "
+"<span class=\"guilabel\">Mostra els fitxers ocults</span>."
 
 #. type: Bullet: '1. '
 msgid ""
 "Create a folder called <span class=\"filename\">.config</span> (<span class="
 "\"filename\">config</span> preceded by a dot)."
 msgstr ""
+"Creeu una carpeta anomenada <span class=\"filename\">.config</span> (<span "
+"class=\"filename\">config</span> precedida d'un punt)."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -651,45 +828,54 @@ msgid ""
 "<span class=\"filename\">Home</span> folder to <span class=\"filename\">/"
 "live/persistence/TailsData_unlocked/dotfiles/.config</span>."
 msgstr ""
+"Copieu el fitxer <span class=\"filename\">.config/monitors.xml</span> de la "
+"vostra carpeta <span class=\"filename\">Home</span> a <span class=\"filename"
+"\">/live/persistence/TailsData_unlocked/dotfiles/.config</span>."
 
 #. type: Title =
 #, no-wrap
 msgid "Deleting the data corresponding to a feature"
-msgstr ""
+msgstr "Eliminació de les dades corresponents a una funció"
 
 #. type: Plain text
 msgid "When you turn off a feature of the Persistent Storage:"
-msgstr ""
+msgstr "Quan desactiveu una funció de l'Emmagatzematge Persistent:"
 
 #. type: Plain text
 msgid "- The data of the feature is not available anymore in Tails."
-msgstr ""
+msgstr "- Les dades de la funció ja no estan disponibles a Tails."
 
 #. type: Plain text
 #, no-wrap
 msgid "  For example:\n"
-msgstr ""
+msgstr "  Per exemple:\n"
 
 #. type: Bullet: '  - '
 msgid ""
 "If you turn off the Persistent Folder feature, the documents saved in "
 "**Places** &nbsp;▸ **Persistent** are not available anymore."
 msgstr ""
+"Si desactiveu la funció Carpeta persistent, els documents desats a **Llocs** "
+"&nbsp;▸ **Persistent** ja no estaran disponibles."
 
 #. type: Bullet: '  - '
 msgid ""
 "If you turn off the Electrum Bitcoin Wallet feature, the wallet used by "
 "*Electrum* is not available anymore."
 msgstr ""
+"Si desactiveu la funció Cartera Electrum Bitcoin, la cartera utilitzada per "
+"*Electrum* ja no està disponible."
 
 #. type: Plain text
 msgid "- The data of the feature is still saved in the USB stick."
-msgstr ""
+msgstr "- Les dades de la funció encara es desen al llapis USB."
 
 #. type: Plain text
 #, no-wrap
 msgid "  A **Delete Data** button appears in the setting of the feature.\n"
 msgstr ""
+"  Apareix un botó de **Suprimeix les dades** a la configuració de la funció."
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -701,12 +887,16 @@ msgid ""
 "Click the **Delete Data** button to delete the corresponding data from the "
 "USB stick."
 msgstr ""
+"Feu clic al botó **Suprimeix les dades** per eliminar les dades "
+"corresponents del llapis USB."
 
 #. type: Bullet: '  * '
 msgid ""
 "Turn on the feature again to restore the data and make it available in Tails "
 "again."
 msgstr ""
+"Torneu a activar la funció per restaurar les dades i tornar-les a fer "
+"disponibles a Tails."
 
 #, no-wrap
 #~ msgid "[[!inline pages=\"doc/first_steps/persistence.caution\" raw=\"yes\" sort=\"age\"]]\n"

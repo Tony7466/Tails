@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-29 07:10+0000\n"
-"PO-Revision-Date: 2023-10-21 15:26+0000\n"
+"PO-Revision-Date: 2023-11-13 17:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Write to our help desk\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Escriviu al nostre servei d'ajuda\"]]"
 
 #. type: Content of: <div><h3>
 msgid "Email"
-msgstr ""
+msgstr "Correu electrònic"
 
 #. type: Content of: <div>
 msgid "[[!img lib/email.png link=no]]"
@@ -32,21 +32,24 @@ msgstr "[[!img lib/email.png link=no]]"
 
 #. type: Content of: <div><p>
 msgid "You can write to our help desk by email:"
-msgstr ""
+msgstr "Podeu escriure al nostre servei d'assistència per correu electrònic:"
 
 #. type: Content of: <div><p>
 msgid "[[tails-support-private@boum.org|about/contact#tails-support-private]]"
-msgstr ""
+msgstr "[[tails-support-private@boum.org|about/contact#tails-support-private]]"
 
 #. type: Content of: <div><p>
 msgid ""
 "Encrypting your emails with our [[OpenPGP key|doc/about/"
 "openpgp_keys#support]] is the only way to achieve end-to-end encryption."
 msgstr ""
+"Encriptar els vostres correus electrònics amb la nostra [[clau OpenPGP|doc/"
+"about/openpgp_keys#support]] és l'única manera d'aconseguir un encriptatge "
+"d'extrem a extrem."
 
 #. type: Content of: <div><h3>
 msgid "Chat"
-msgstr ""
+msgstr "Xat"
 
 #. type: Content of: <div>
 msgid "[[!img lib/chat.png link=no]]"
@@ -55,18 +58,20 @@ msgstr "[[!img lib/chat.png link=no]]"
 #. type: Content of: <div><p>
 msgid "Join our XMPP chat room to talk to contributors and users."
 msgstr ""
+"Uniu-vos a la nostra sala de xat XMPP per parlar amb col·laboradors i "
+"usuaris."
 
 #. type: Content of: <div><ul><li>
 msgid "server: <code>chat.disroot.org</code>"
-msgstr ""
+msgstr "servidor: <code>chat.disroot.org</code>"
 
 #. type: Content of: <div><ul><li>
 msgid "room: <code>tails</code>"
-msgstr ""
+msgstr "sala: <code>tails</code>"
 
 #. type: Content of: <div><ul><li>
 msgid "use TLS/SSL to connect!"
-msgstr ""
+msgstr "utilitzeu TLS/SSL per connectar-vos!"
 
 #, fuzzy
 #~ msgid ""

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-07 22:25+0000\n"
-"PO-Revision-Date: 2023-10-30 17:35+0000\n"
+"PO-Revision-Date: 2023-11-15 00:14+0000\n"
 "Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -48,23 +48,29 @@ msgid ""
 "- Update *Tor Browser* to [12.5.2](https://blog.torproject.org/new-release-"
 "tor-browser-1252/)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.5.2](https://blog."
+"torproject.org/new-release-tor-browser-1252/)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [102.14.0](https://www.thunderbird.net/en-US/"
 "thunderbird/102.14.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [102.14.0](https://www."
+"thunderbird.net/en-US/thunderbird/102.14.0/releasenotes/)."
 
 #. type: Bullet: '- '
 msgid ""
 "Display the passphrase recommendation for the Persistent Storage in small "
 "caps only."
 msgstr ""
+"Es mostra la recomanació de contrasenya per a l'Emmagatzematge Persistent "
+"només en minúscules."
 
 #. type: Plain text
 #, no-wrap
 msgid "  Capitalizing each word is more cumbersom and not more secure.\n"
-msgstr ""
+msgstr "  Posar en majúscula cada paraula és més complicat i no és més segur.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -76,6 +82,8 @@ msgid ""
 "- Fix some failures while unlocking the Persistent Storage. ([[!tails_ticket "
 "19728]])"
 msgstr ""
+"- S'han solucionat alguns errors de desbloqueig de l'Emmagatzematge "
+"Persistent. ([[!tails_ticket 19728]])"
 
 #. type: Plain text
 #, no-wrap
@@ -84,6 +92,12 @@ msgid ""
 "  was taking too long and made *unlocking* the Persistent Storage fail. We\n"
 "  allowed the *upgrade* to take more time before reporting a failure.\n"
 msgstr ""
+"  De vegades, *actualitzar* els paràmetres criptogràfics de l'Emmagatzematge "
+"Persistent\n"
+"  trigava massa i feia que el *desbloqueig* de l'Emmagatzematge Persistent "
+"fallés. Hem\n"
+"  permès que l'*actualització* trigui més temps abans d'informar d'un error."
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -92,12 +106,17 @@ msgid ""
 "  [[*WhisperBack*|doc/first_steps/bug_reporting]] if you have problems\n"
 "  unlocking your Persistent Storage.\n"
 msgstr ""
+"  Si us plau, seguiu informant d'errors utilitzant\n"
+"  [[*WhisperBack*|doc/first_steps/bug_reporting]] si teniu problemes\n"
+"  desbloquejant el vostre Emmagatzematge Persistent.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Fix the circuit view of *Tor Browser* that was sometimes not displayed.  ([[!"
 "tails_ticket 19897]])"
 msgstr ""
+"S'ha corregit la vista del circuit del *Navegador Tor* que de vegades no es "
+"mostrava. ([[!tails_ticket 19897]])"
 
 #. type: Plain text
 msgid ""
@@ -131,6 +150,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.16."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior fins a la versió 5.16."
 
 #. type: Plain text
 #, no-wrap
@@ -200,6 +221,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.16 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.16 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"

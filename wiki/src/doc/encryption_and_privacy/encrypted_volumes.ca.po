@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-10-22 18:11+0000\n"
+"PO-Revision-Date: 2023-11-13 23:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Creating and using LUKS encrypted volumes\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Creació i ús de volums encriptats amb LUKS\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,6 +32,7 @@ msgstr "[[!toc levels=2]]\n"
 #, no-wrap
 msgid "<h1 id=\"luks\">Introduction to <span class=\"application\">LUKS</span></h1>\n"
 msgstr ""
+"<h1 id=\"luks\">Introducció a <span class=\"application\">LUKS</span></h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -45,6 +46,9 @@ msgid ""
 "with Tails encrypted is to use the [[Persistent\n"
 "Storage|persistent_storage]].</p>\n"
 msgstr ""
+"<p>La manera més senzilla de portar els documents que voleu utilitzar\n"
+"amb Tails encriptats és utilitzar l'[[Emmagatzematge\n"
+"Persistent|persistent_storage]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -60,21 +64,32 @@ msgid ""
 "<span class=\"application\">LUKS</span> is the standard for disk\n"
 "encryption in Linux.\n"
 msgstr ""
+"Podeu crear altres volums encriptats utilitzant\n"
+"<span class=\"application\">LUKS</span> per encriptar, per exemple, un "
+"altre\n"
+"llapis USB o un disc dur extern.\n"
+"<span class=\"application\">LUKS</span> és l'estàndard per a l'encriptatge "
+"de disc\n"
+"a Linux.\n"
 
 #. type: Bullet: '  - '
 msgid ""
 "<span class=\"application\">GNOME Disks</span> allows you to create "
 "encrypted volumes."
 msgstr ""
+"<span class=\"application\">Discs de GNOME</span> us permet crear volums "
+"encriptats."
 
 #. type: Bullet: '  - '
 msgid "The GNOME desktop allows you to open encrypted volumes."
-msgstr ""
+msgstr "L'escriptori de GNOME us permet obrir volums encriptats."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"comparison\">Comparison between <span class=\"application\">LUKS</span> and <span class=\"application\">VeraCrypt</span></h2>\n"
 msgstr ""
+"<h2 id=\"comparison\">Comparació entre <span class=\"application\">LUKS</"
+"span> i <span class=\"application\">VeraCrypt</span></h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -84,6 +99,12 @@ msgid ""
 "encryption tool for Windows, macOS, and Linux. [[See our documentation\n"
 "about <span class=\"application\">VeraCrypt</span>.|veracrypt]]\n"
 msgstr ""
+"També podeu obrir volums encriptats amb <span class=\"application\""
+">VeraCrypt</span>\n"
+"a Tails. <span class=\"application\">VeraCrypt</span> és una eina "
+"d'encriptatge de\n"
+"discs per a Windows, macOS i Linux. [[Vegeu la nostra documentació\n"
+"sobre <span class=\"application\">VeraCrypt</span>.|veracrypt]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -102,6 +123,8 @@ msgid ""
 "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks** to open *GNOME "
 "Disks*."
 msgstr ""
+"Trieu **Aplicacions**&nbsp;▸ **Utilitats**&nbsp;▸ **Discs** per obrir *Discs "
+"de GNOME*."
 
 #. type: Plain text
 #, no-wrap
@@ -116,14 +139,19 @@ msgid ""
 "<span class=\"application\">Disks</span> lists all the current storage\n"
 "devices on the left side of the screen.\n"
 msgstr ""
+"<span class=\"application\">Discs</span> enumera tots els dispositius d'"
+"emmagatzematge\n"
+"a la part esquerra de la pantalla.\n"
 
 #. type: Bullet: '  1. '
 msgid "Plug in the external storage device that you want to use."
-msgstr ""
+msgstr "Connecteu el dispositiu d'emmagatzematge extern que voleu utilitzar."
 
 #. type: Bullet: '  1. '
 msgid "A new device appears in the list of storage devices. Click on it:"
 msgstr ""
+"Apareix un dispositiu nou a la llista de dispositius d'emmagatzematge. "
+"Cliqueu-lo:"
 
 #. type: Plain text
 #, no-wrap
@@ -136,6 +164,9 @@ msgid ""
 "  1. Check that the description of the device on the right side of the screen\n"
 "  corresponds to your device: its brand, its size, etc.\n"
 msgstr ""
+"  1. Comproveu que la descripció del dispositiu a la part dreta de la "
+"pantalla\n"
+"  correspon al vostre dispositiu: la seva marca, la seva mida, etc.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -148,10 +179,13 @@ msgid ""
 "\" link=\"no\"]] button in the titlebar and choose **Format Disk…** to erase "
 "all the existing partitions on the device."
 msgstr ""
+"Feu clic al botó [[!img lib/view-more.png alt=\"Opcions d'unitat\" class="
+"\"symbolic\" link=\"no\"]] a la barra de títol i trieu **Formata disc...** "
+"per esborrar totes les particions existents al dispositiu."
 
 #. type: Bullet: '  1. '
 msgid "In the <span class=\"guilabel\">Format Disk</span> dialog:"
-msgstr ""
+msgstr "Al diàleg <span class=\"guilabel\">Formata el disc</span>:"
 
 #. type: Bullet: '     - '
 msgid ""
@@ -159,23 +193,32 @@ msgid ""
 "\"guilabel\">Overwrite existing data with zeroes</span> in the <span class="
 "\"guilabel\">Erase</span> menu."
 msgstr ""
+"Si voleu esborrar totes les dades del dispositiu de manera segura, trieu "
+"<span class=\"guilabel\">Sobreescriu les dades existents amb zeros</span> al "
+"menú <span class=\"guilabel\">Esborra</span>."
 
 #. type: Bullet: '     - '
 msgid ""
 "Choose <span class=\"guilabel\">Compatible with all systems and devices (MBR/"
 "DOS)</span> in the <span class=\"guilabel\">Partitioning</span> menu."
 msgstr ""
+"Trieu <span class=\"guilabel\">Compatible amb tots els sistemes i "
+"dispositius (MBR/DOS)</span> al menú <span class=\"guilabel\""
+">Particions</span>."
 
 #. type: Plain text
 #, no-wrap
 msgid "     Then click <span class=\"bold\">Format…</span>.\n"
 msgstr ""
+"     A continuació, feu clic a <span class=\"bold\">Formata...</span>.\n"
 
 #. type: Bullet: '  1. '
 msgid ""
 "In the confirmation dialog, make sure that the device is correct. Click "
 "<span class=\"bold\">Format</span> to confirm."
 msgstr ""
+"Al diàleg de confirmació, assegureu-vos que el dispositiu sigui correcte. "
+"Feu clic a <span class=\"bold\">Formata</span> per confirmar."
 
 #. type: Plain text
 #, no-wrap
@@ -187,11 +230,13 @@ msgid ""
 "Now the schema of the partitions in the middle of the screen shows an empty "
 "device:"
 msgstr ""
+"Ara l'esquema de les particions al centre de la pantalla mostra un "
+"dispositiu buit:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img empty_device.png link=no alt=\"Free Space 123 GB\"]]\n"
-msgstr "[[!img places_secret.png link=no alt=\"Places&nbsp;▸ secret\"]]\n"
+msgstr "[[!img empty_device.png link=no alt=\"Espai lliure 123 GB\"]]\n"
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -199,6 +244,9 @@ msgid ""
 "partition\" class=\"symbolic\" link=\"no\"]]</span> button to create a new "
 "partition on the device."
 msgstr ""
+"Feu clic al botó <span class=\"guimenu\">[[!img lib/list-add.png alt=\"Crea "
+"una partició\" class=\"symbolic\" link=\"no\"]]</span> per crear una "
+"partició nova al dispositiu."
 
 #. type: Plain text
 #, no-wrap
@@ -206,25 +254,31 @@ msgid ""
 "  1. Configure the various settings of your new partition in the\n"
 "  partition creation assistant:\n"
 msgstr ""
+"  1. Configureu els diferents paràmetres de la vostra nova partició a\n"
+"  l'assistent de creació de particions:\n"
 
 #. type: Bullet: '     - '
 msgid "In the <span class=\"guilabel\">Create Partition</span> screen:"
-msgstr ""
+msgstr "A la pantalla <span class=\"guilabel\">Crea una partició</span>:"
 
 #. type: Bullet: '       - '
 msgid ""
 "<span class=\"guilabel\">Partition Size</span>: you can create a partition "
 "on the whole device or only on part of it."
 msgstr ""
+"<span class=\"guilabel\">Mida de la partició</span>: podeu crear una "
+"partició a tot el dispositiu o només a una part."
 
 #. type: Plain text
 #, no-wrap
 msgid "         In the example below, we are creating a partition of 4.0 GB on a device of 8.1 GB.\n"
 msgstr ""
+"         A l'exemple següent, estem creant una partició de 4,0 GB en un "
+"dispositiu de 8,1 GB.\n"
 
 #. type: Bullet: '     - '
 msgid "In the <span class=\"guilabel\">Format Volume</span> screen:"
-msgstr ""
+msgstr "A la pantalla <span class=\"guilabel\">Formata volum</span>:"
 
 #. type: Bullet: '       - '
 msgid ""
@@ -232,12 +286,17 @@ msgid ""
 "partition.  This name remains invisible until the partition is open but can "
 "help you to identify it during use."
 msgstr ""
+"<span class=\"guilabel\">Nom del volum</span>: podeu donar un nom a la "
+"partició. Aquest nom roman invisible fins que la partició està oberta, però "
+"us pot ajudar a identificar-la durant l'ús."
 
 #. type: Bullet: '       - '
 msgid ""
 "<span class=\"guilabel\">Erase</span>: you can choose to securely erase all "
 "data on the partition."
 msgstr ""
+"<span class=\"guilabel\">Esborra</span>: podeu escollir esborrar de manera "
+"segura totes les dades de la partició."
 
 #. type: Plain text
 #, no-wrap
@@ -251,6 +310,16 @@ msgid ""
 "         SSDs|secure_deletion#usb_and_ssd]].</p>\n"
 "         </div>\n"
 msgstr ""
+"         <div class=\"caution\">\n"
+"         <p>La supressió segura no funciona com s'esperava als llapis USB i\n"
+"         SSD (unitats d'estat sòlid). En lloc d'això, trieu sobreescriure "
+"les dades\n"
+"         existents a tot el dispositiu quan [[formateu el\n"
+"         dispositiu|encrypted_volumes#formatting]].</p>\n"
+"         <p>Vegeu també la nostra [[advertència sobre l'eliminació segura "
+"dels llapis USB i\n"
+"         SSD|secure_deletion#usb_and_ssd]].</p>\n"
+"         </div>\n"
 
 #. type: Bullet: '       - '
 msgid ""
@@ -258,16 +327,21 @@ msgid ""
 "\">Internal disk for use with Linux systems only (Ext4)</span> and <span "
 "class=\"guilabel\">Password protect volume (LUKS)</span>."
 msgstr ""
+"<span class=\"guilabel\">Tipus</span>: trieu <span class=\"guilabel\">Disc "
+"intern per utilitzar només amb sistemes Linux (Ext4)</span> i <span class="
+"\"guilabel\">Volum de protecció amb contrasenya (LUKS)</span>."
 
 #. type: Bullet: '     - '
 msgid "In the <span class=\"guilabel\">Set Password</span> screen:"
-msgstr ""
+msgstr "A la pantalla <span class=\"guilabel\">Estableix la contrasenya</span>:"
 
 #. type: Bullet: '       - '
 msgid ""
 "<span class=\"guilabel\">Password</span>: type a passphrase for the "
 "encrypted partition and repeat it to confirm."
 msgstr ""
+"<span class=\"guilabel\">Contrasenya</span>: escriviu una contrasenya per a "
+"la partició encriptada i repetiu-la per confirmar."
 
 #. type: Plain text
 #, no-wrap
@@ -281,6 +355,12 @@ msgid ""
 "         <a href=\"https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/\">Learn\n"
 "         about the maths behind memorizable and secure passphrases.</a></p>\n"
 msgstr ""
+"         <p>Us recomanem que escolliu una contrasenya llarga de 5 a 7 "
+"paraules aleatòries.\n"
+"         <a href=\"https://theintercept.com/2015/03/26/"
+"passphrases-can-memorize-attackers-cant-guess/\">Vegeu\n"
+"         les matemàtiques darrere de contrasenyes fàcils de memoritzar i "
+"segures.</a></p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -293,6 +373,8 @@ msgid ""
 "         <div class=\"caution\">\n"
 "         <p>It is impossible to recover your passphrase if you forget it!</p>\n"
 msgstr ""
+"         <div class=\"caution\">\n"
+"         <p>És impossible recuperar la contrasenya si l'oblideu!</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -302,22 +384,32 @@ msgid ""
 "         you know it well.</p>\n"
 "         </div>\n"
 msgstr ""
+"         <p>Per ajudar-vos a recordar la vostra contrasenya, podeu escriure-"
+"la en un tros de\n"
+"         paper, guardar-lo a la cartera durant uns dies i destruir-lo una "
+"vegada\n"
+"         us la sabeu bé.</p>\n"
+"         </div>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "       Then click <span class=\"bold\">Create</span>.\n"
-msgstr ""
+msgstr "       A continuació, feu clic a <span class=\"bold\">Crea</span>.\n"
 
 #. type: Bullet: '  1. '
 msgid ""
 "Creating the partition takes from a few seconds to a few minutes. After "
 "that, the new encrypted partition appears in the volumes on the device:"
 msgstr ""
+"La creació de la partició triga des d'uns segons a uns minuts. Després "
+"d'això, la nova partició encriptada apareixerà als volums del dispositiu:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "     [[!img encrypted_partition.png link=\"no\" alt=\"Partition 1 4.0 GB LUKS / Filesystem 4.0 GB Ext4\"]]\n"
-msgstr "     [[!img create_partition.png link=no alt=\"Create partition on…\"]]\n"
+msgstr ""
+"     [[!img encrypted_partition.png link=\"no\" alt=\"Partició 1 4.0 GB LUKS/"
+"Sistema de fitxers 4.0 GB Ext4\"]]\n"
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -326,6 +418,10 @@ msgid ""
 "lib/list-add.png alt=\"Create partition\" class=\"symbolic\" link=\"no\"]]</"
 "span> button again."
 msgstr ""
+"Si voleu crear una altra partició a l'espai lliure del dispositiu, feu clic "
+"a l'espai lliure i després feu clic a <span class=\"guimenu\">[[!img lib/"
+"list-add.png alt=\"Crea una partició\" class=\"symbolic\" link=\"no\"]]</"
+"span> de nou."
 
 #. type: Plain text
 #, no-wrap
@@ -337,6 +433,8 @@ msgid ""
 "You can open this new partition from the sidebar of the file browser with "
 "the name you gave it."
 msgstr ""
+"Podeu obrir aquesta nova partició des de la barra lateral del navegador de "
+"fitxers amb el nom que li heu donat."
 
 #. type: Plain text
 #, no-wrap
@@ -344,6 +442,9 @@ msgid ""
 "After opening the partition with the file browser, you can also access it\n"
 "from the <span class=\"guimenu\">Places</span> menu.\n"
 msgstr ""
+"Després d'obrir la partició amb el navegador de fitxers, també hi podeu "
+"accedir\n"
+"des del menú <span class=\"guimenu\">Llocs</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -355,6 +456,9 @@ msgid ""
 "When plugging in a device containing an encrypted partition, Tails does not "
 "open the partition automatically but you can do so from the file browser."
 msgstr ""
+"Quan connecteu un dispositiu que conté una partició encriptada, Tails no "
+"obre la partició automàticament, però podeu fer-ho des del navegador de "
+"fitxers."
 
 #. type: Plain text
 #, no-wrap
@@ -365,27 +469,38 @@ msgid ""
 "     <span class=\"guisubmenu\">Computer</span></span>\n"
 "   to open the file browser.\n"
 msgstr ""
+"1. Trieu\n"
+"   <span class=\"menuchoice\">\n"
+"     <span class=\"guimenu\">Llocs</span>&nbsp;▸\n"
+"     <span class=\"guisubmenu\">Ordinador</span></span>\n"
+"   per obrir el navegador de fitxers.\n"
 
 #. type: Bullet: '1. '
 msgid "Click on the encrypted partition that you want to open in the sidebar."
-msgstr ""
+msgstr "Feu clic a la partició encriptada que voleu obrir a la barra lateral."
 
 #. type: Plain text
 #, no-wrap
 msgid "   [[!img nautilus_encrypted.png link=\"no\" alt=\"File browser with '4.0 GB Encrypted' entry in the sidebar\"]]\n"
 msgstr ""
+"   [[!img nautilus_encrypted.png link=\"no\" alt=\"Navegador de fitxers amb "
+"l'entrada '4.0 GB Encrypted' a la barra lateral\"]]\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "Enter the passphrase of the partition in the password prompt and click <span "
 "class=\"bold\">Unlock</span>."
 msgstr ""
+"Introduïu la contrasenya de la partició a la sol·licitud de contrasenya i "
+"feu clic a <span class=\"bold\">Desbloqueja</span>."
 
 #. type: Bullet: '1. '
 msgid ""
 "After opening the partition with the file browser, you can also access it "
 "from the <span class=\"guimenu\">Places</span> menu."
 msgstr ""
+"Després d'obrir la partició amb el navegador de fitxers, també hi podeu "
+"accedir des del menú <span class=\"guimenu\">Llocs</span>."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -394,6 +509,10 @@ msgid ""
 "\"no\"]]</span> button next to the partition in the sidebar of the file "
 "browser."
 msgstr ""
+"Per tancar la partició després d'haver-la acabat d'utilitzar, feu clic al "
+"botó <span class=\"guimenu\">[[!img lib/media-eject.png alt=\"Eject\" class="
+"\"symbolic\" link=\"no\"]]</span> al costat de la partició a la barra "
+"lateral del navegador de fitxers."
 
 #. type: Plain text
 #, no-wrap
@@ -406,6 +525,9 @@ msgid ""
 "device can know that there is an encrypted volume on it. Take into "
 "consideration that you can be forced or tricked to give out its passphrase."
 msgstr ""
+"Aquests volums encriptats no estan ocults. Un atacant en possessió del "
+"dispositiu pot saber que hi ha un volum encriptat. Tingueu en compte que "
+"podeu ser obligat o enganyat a donar la vostra contrasenya."
 
 #. type: Plain text
 #, no-wrap
@@ -418,6 +540,8 @@ msgid ""
 "It is possible to open such encrypted volumes from other operating systems. "
 "But, doing so might compromise the security provided by Tails."
 msgstr ""
+"És possible obrir aquests volums encriptats des d'altres sistemes operatius. "
+"Però, fer-ho podria comprometre la seguretat proporcionada per Tails."
 
 #. type: Plain text
 msgid ""
@@ -425,6 +549,9 @@ msgid ""
 "operating system. Or, the contents of files might be indexed by the other "
 "operating system."
 msgstr ""
+"Per exemple, l'altre sistema operatiu pot crear miniatures d'imatges i desar "
+"-les. O bé, el contingut dels fitxers pot ser indexat per l'altre sistema "
+"operatiu."
 
 #. type: Plain text
 #, no-wrap
@@ -442,6 +569,11 @@ msgid ""
 "  <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
 "  <span class=\"guimenuitem\">Disks</span></span>.\n"
 msgstr ""
+"Per obrir <span class=\"application\">Discs de GNOME</span>, trieu\n"
+"<span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Aplicacions</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">Utilitats</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Discs</span></span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -449,10 +581,15 @@ msgid ""
 "1. Plug in the external storage device containing the encrypted partition that you\n"
 "want to change the passphrase for.\n"
 msgstr ""
+"1. Connecteu el dispositiu d'emmagatzematge extern que conté la partició "
+"encriptada de la\n"
+"que voleu canviar la contrasenya.\n"
 
 #. type: Bullet: '1. '
 msgid "The device appears in the list of storage devices. Click on it:"
 msgstr ""
+"El dispositiu apareix a la llista de dispositius d'emmagatzematge. Cliqueu-"
+"lo:"
 
 #. type: Plain text
 #, no-wrap
@@ -465,6 +602,9 @@ msgid ""
 "1. Check that the description of the device on the right side of the screen\n"
 "corresponds to your device: its brand, its size, etc.\n"
 msgstr ""
+"1. Comproveu que la descripció del dispositiu a la part dreta de la "
+"pantalla\n"
+"correspon al vostre dispositiu: la seva marca, la seva mida, etc.\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -472,10 +612,13 @@ msgid ""
 "png alt=\"padlock\" class=\"symbolic\" link=\"no\"]] at the bottom-right "
 "corner."
 msgstr ""
+"Feu clic a la partició que mostra un [[!img lib/network-wireless-"
+"encrypted.png alt=\"cadenat\" class=\"symbolic\" link=\"no\"]] a la "
+"cantonada inferior dreta."
 
 #. type: Bullet: '1. '
 msgid "Click on the <span class=\"guimenu\">"
-msgstr ""
+msgstr "Feu clic a <span class=\"guimenu\">"
 
 #. type: Plain text
 #, no-wrap
@@ -488,6 +631,8 @@ msgstr ""
 #, no-wrap
 msgid "   </span> button and choose <span class=\"guimenu\">Change Passphrase…</span>\n"
 msgstr ""
+"   </span> i seleccioneu <span class=\"guimenu\">Canvia la "
+"contrasenya...</span>\n"
 
 #, fuzzy
 #~ msgid "[[!meta title=\"Create and use LUKS encrypted volumes\"]]\n"

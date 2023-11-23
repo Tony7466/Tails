@@ -28,7 +28,6 @@ msgid "To change the passphrase of your Persistent Storage:"
 msgstr "Pour changer la phrase de passe de votre stockage persistant :"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Applications**&nbsp;▸ **Tails**&nbsp;▸ **Persistent Storage** to "
 #| "open the Persistent Storage settings."
@@ -205,9 +204,6 @@ msgstr ""
 #~ "span>."
 
 #, fuzzy
-#~| msgid ""
-#~| "     Do not enable the persistent volume in <span "
-#~| "class=\"application\">Tails Greeter</span>.\n"
 #~ msgid "     Do not enable the persistent volume in the Welcome Screen.\n"
 #~ msgstr ""
 #~ "     N'activez pas le volume persistant dans le <span "
