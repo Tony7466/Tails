@@ -83,6 +83,17 @@ check-translatable-live-website-urls:
     - apt-get -qy install python3-polib
     - ./bin/check-translatable-live-website-urls po/tails.pot
 
+rubocop:
+  image: debian:bookworm
+  script:
+  - apt-get -qy install rubocop
+  - rubocop --version
+  - rubocop --format junit --out rubocop.xml --format markdown
+  artifacts:
+    when: always
+    reports:
+      junit: rubocop.xml
+
 test-iuk:
   rules:
     - if: '$CI_COMMIT_BRANCH != "master"'
