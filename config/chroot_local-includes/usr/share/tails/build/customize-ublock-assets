@@ -55,6 +55,7 @@ def main():
                 # in case it can be a string as well.
                 if isinstance(new_assets[blocklist][url_list], str):
                     new_assets[blocklist][url_list] = [new_assets[blocklist][url_list]]
+
                 new_assets[blocklist][url_list] = [
                     url
                     for url in new_assets[blocklist][url_list]
