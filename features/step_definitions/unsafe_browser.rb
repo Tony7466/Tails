@@ -53,18 +53,13 @@ Then /^the Unsafe Browser has a red theme$/ do
   @screen.wait('UnsafeBrowserRedTheme.png', 10)
 end
 
-Then /^the Unsafe Browser shows a warning as its start page(?: in "([^"]+)")?$/ do |lang_code|
+Then /^the Unsafe Browser shows a warning as its start page$/ do
   start_page_image = 'UnsafeBrowserStartPage.png'
   @screen.wait(start_page_image, 60)
 end
 
-Then /^the Unsafe Browser has started(?: in "([^"]+)")?$/ do |lang_code|
-  if lang_code
-    step 'the Unsafe Browser shows a warning as its start page in ' \
-         "\"#{lang_code}\""
-  else
-    step 'the Unsafe Browser shows a warning as its start page'
-  end
+Then /^the Unsafe Browser has started$/ do
+  step 'the Unsafe Browser shows a warning as its start page'
 end
 
 Then /^I see a warning about another instance already running$/ do

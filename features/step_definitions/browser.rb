@@ -76,11 +76,7 @@ When /^I successfully start the Unsafe Browser(?: in "([^"]+)")?$/ do |lang_code
     step 'I see the "Starting the Unsafe Browser..." notification ' \
          'after at most 60 seconds'
   end
-  if lang_code && lang_code != 'en'
-    step "the Unsafe Browser has started in \"#{lang_code}\""
-  else
-    step 'the Unsafe Browser has started'
-  end
+  step 'the Unsafe Browser has started'
 end
 
 # This step works reliably only when there's no more than one tab:
