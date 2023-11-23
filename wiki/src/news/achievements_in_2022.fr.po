@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-11-07 20:12+0000\n"
 "Last-Translator: conan <conan@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -477,7 +477,6 @@ msgstr ""
 "domaine simple, beau et de confiance :"
 
 #. type: Plain text
-#| msgid "🎉 ✨ ***tails.net*** ✨ 🎉"
 msgid "🎉 ✨ ***tails.net*** ✨ 🎉"
 msgstr "🎉 ✨ ***tails.net*** ✨ 🎉"
 

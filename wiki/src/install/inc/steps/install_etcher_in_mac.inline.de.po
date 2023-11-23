@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-11-16 16:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
@@ -25,8 +25,7 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"etcher\" class=\"step\">Install <em>balenaEtcher</em></h1>\n"
-msgstr ""
-"<h1 id=\"etcher\" class=\"step\">Installiere <em>balenaEtcher</em></h1>\n"
+msgstr "<h1 id=\"etcher\" class=\"step\">Installiere <em>balenaEtcher</em></h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,8 +38,7 @@ msgid ""
 "<p class=\"upgrade\">In the following steps, you will install an intermediary Tails using the Tails USB\n"
 "image that you downloaded earlier.</p>\n"
 msgstr ""
-"<p class=\"upgrade\">In den folgenden Schritten installieren Sie ein Tails-"
-"Zwischenprodukt unter Verwendung des Tails-USB-Images,\n"
+"<p class=\"upgrade\">In den folgenden Schritten installieren Sie ein Tails-Zwischenprodukt unter Verwendung des Tails-USB-Images,\n"
 "das Sie zuvor heruntergeladen haben.</p>\n"
 
 #. type: Bullet: '1. '
@@ -108,12 +106,6 @@ msgstr "Stellen Sie sicher, dass der erste USB-Stick nicht angeschlossen ist."
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "1. Open <span class=\"application\">Terminal</span> from\n"
-#| "   <span class=\"menuchoice\">\n"
-#| "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
-#| "     <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
 msgid ""
 "1. Open <span class=\"application\">Terminal</span> from\n"
 "   <span class=\"menuchoice\">\n"
