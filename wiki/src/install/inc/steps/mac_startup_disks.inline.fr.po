@@ -158,7 +158,6 @@ msgid "To open <em>Startup Security Utility</em>:"
 msgstr "Pour ouvrir l'<em>utilitaire Sécurité au démarrage</em> :"
 
 #. type: Content of: <ol><li><ol><li><p>
-#, fuzzy
 #| msgid ""
 #| "Turn on your Mac, then press and hold <strong>Command(⌘)+R</strong> "
 #| "immediately after you see the Apple logo. Your Mac starts up from <a "
@@ -174,7 +173,6 @@ msgstr ""
 "HT201314\">fonctionnalité de récupération de macOS</a>."
 
 #. type: Content of: <ol><li><ol><li><p>
-#, fuzzy
 #| msgid ""
 #| "When you see the macOS <em>Utilities</em> window, choose "
 #| "<strong>Utilities&nbsp;▸ Startup Security Utility</strong> from the menu "
@@ -334,10 +332,6 @@ msgstr ""
 #~ "d'assistance\"]]."
 
 #, fuzzy
-#~| msgid ""
-#~| "[[!toggleable id=\"report-toggle-1\" text=\"\"\" <span class=\"hide\">[[!"
-#~| "toggle id=\"report-toggle-1\" text=\"\"]]</span> [[!inline "
-#~| "pages=\"install/inc/steps/reporting.inline\" raw=\"yes\"]] \"\"\"]]"
 #~ msgid ""
 #~ "[[!toggleable id=\"report-toggle-1\" text=\"\"\" <span class=\"hide\">[[!"
 #~ "toggle id=\"report-toggle-1\" text=\"\"]]</span>"
@@ -354,10 +348,6 @@ msgstr ""
 #~ "notre centre d'assistance\"]]."
 
 #, fuzzy
-#~| msgid ""
-#~| "[[!toggleable id=\"report-toggle\" text=\"\"\" <span class=\"hide\">[[!"
-#~| "toggle id=\"report-toggle\" text=\"\"]]</span> [[!inline pages=\"install/"
-#~| "inc/steps/reporting.inline\" raw=\"yes\"]] \"\"\"]]"
 #~ msgid ""
 #~ "[[!toggleable id=\"report-toggle\" text=\"\"\" <span class=\"hide\">[[!"
 #~ "toggle id=\"report-toggle\" text=\"\"]]</span>"

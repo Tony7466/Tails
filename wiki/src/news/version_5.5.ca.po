@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-08 16:13+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-11-15 00:13+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.5 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.5\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -48,6 +48,8 @@ msgid ""
 "- Update *Thunderbird* to [102.3.0](https://www.thunderbird.net/en-US/"
 "thunderbird/102.3.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [102.3.0](https://www."
+"thunderbird.net/en-US/thunderbird/102.3.0/releasenotes/)."
 
 #. type: Plain text
 #, no-wrap
@@ -56,6 +58,11 @@ msgid ""
 "folder icons, and address\n"
 "book](https://blog.thunderbird.net/2022/06/thunderbird-102-released-a-serious-upgrade-to-your-communication/).\n"
 msgstr ""
+"  *Thunderbird* 102 és una actualització important amb [molts canvis a la "
+"navegació,\n"
+"a les icones de carpetes i al llibre\n"
+"d'adreces](https://blog.thunderbird.net/2022/06/"
+"thunderbird-102-released-a-serious-upgrade-to-your-communication/).\n"
 
 #. type: Plain text
 #, no-wrap
@@ -65,29 +72,43 @@ msgid ""
 "  encrypted or not. If encryption is impossible, a key assistant helps you\n"
 "  solve key issues.\n"
 msgstr ""
+"  *Thunderbird* 102 també inclou importants millores d'usabilitat a la\n"
+"  funció OpenPGP. Quan redacteu un correu electrònic, ara podeu veure si\n"
+"  s'encriptarà o no. Si l'encriptatge és impossible, un assistent de claus "
+"us ajudarà\n"
+"  a resoldre problemes amb les claus.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img thunderbird_102.png link=\"no\" alt=\"Thunderbird composer window with encryption turned on and notification about a missing key and how to resolve the issue.\"]]\n"
 msgstr ""
+"  [[!img thunderbird_102.png link=\"no\" alt=\"Finestra del compositor de "
+"Thunderbird amb l'encriptatge activat i una notificació sobre una clau que "
+"falta i com resoldre el problema.\"]]\n"
 
 #. type: Plain text
 msgid ""
 "- Update *Tor Browser* to [11.5.4](https://blog.torproject.org/new-release-"
 "tor-browser-1154)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [11.5.4](https://blog."
+"torproject.org/new-release-tor-browser-1154)."
 
 #. type: Bullet: '- '
 msgid ""
 "Update the *Linux* kernel to 5.10.140. This should improve the support for "
 "newer hardware: graphics, Wi-Fi, and so on."
 msgstr ""
+"S'ha actualitzat el nucli de *Linux* a la versió 5.10.140. Això hauria de "
+"millorar la compatibilitat amb el maquinari més nou: gràfics, Wi-Fi, etc."
 
 #. type: Plain text
 msgid ""
 "- Make the `wget` command line utility use a different Tor circuit every "
 "time."
 msgstr ""
+"- S'ha fet que la utilitat de línia d'ordres `wget` utilitzi un circuit Tor "
+"diferent cada vegada."
 
 #. type: Plain text
 #, no-wrap
@@ -99,10 +120,14 @@ msgid ""
 "Always ask to configure a screen locking password when pressing Ctrl+L and "
 "no administration pasword was set. ([[!tails_ticket 19090]])"
 msgstr ""
+"Es demana sempre que configureu una contrasenya de bloqueig de pantalla quan "
+"premeu Ctrl+L i no s'ha establert cap contrasenya d'administració. ([["
+"!tails_ticket 19090]])"
 
 #. type: Plain text
 msgid "- Add standard fields to `/etc/os-release`. ([[!tails_ticket 12372]])"
 msgstr ""
+"- S'han afegit camps estàndard a `/etc/os-release`. ([[!tails_ticket 12372]])"
 
 #. type: Plain text
 #, no-wrap
@@ -132,6 +157,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.5."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.5."
 
 #. type: Plain text
 #, no-wrap
@@ -201,6 +228,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.5 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.5 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -217,4 +246,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 5.6 is [[scheduled|contribute/calendar]] for October 25."
-msgstr ""
+msgstr "Tails 5.6 està [[programat|contribute/calendar]] per al 25 d'octubre."

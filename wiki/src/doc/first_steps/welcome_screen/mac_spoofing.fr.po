@@ -34,7 +34,6 @@ msgid "What is a MAC address?"
 msgstr "Qu'est-ce que l'adresse MAC ?"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "Every network interface — wired or Wi-Fi — has a [[!wikipedia MAC "
 #| "address]], which is a serial number assigned to each interface at the "
@@ -251,7 +250,6 @@ msgstr ""
 "adapters]] ou changez de réseau."
 
 #. type: Bullet: '- '
-#, fuzzy
 #| msgid ""
 #| "**Using a public computer**, for example in an Internet café or a "
 #| "library.  This computer is regularly used on this local network, and its "
@@ -408,13 +406,6 @@ msgstr ""
 "votre ordinateur peut déjà être identifié par votre FAI."
 
 #, fuzzy
-#~| msgid ""
-#~| "2. As explained in our documentation on [[network\n"
-#~| "fingerprint|about/fingerprint]], someone observing the traffic coming "
-#~| "out of\n"
-#~| "your computer on the local network can probably see that you are using "
-#~| "Tails. In\n"
-#~| "that case, your MAC address can **identify you as a Tails user**.\n"
 #~ msgid ""
 #~ "2. As explained in our documentation on [[network\n"
 #~ "fingerprint|anonymous_internet/tor/hide]], someone observing the traffic "

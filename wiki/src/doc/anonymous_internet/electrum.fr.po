@@ -62,7 +62,7 @@ msgstr ""
 "de sécurité."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To start <span class=\"application\">Electrum</span> choose\n"
 #| "<span class=\"menuchoice\">\n"
@@ -94,7 +94,6 @@ msgstr ""
 "d'*Electrum*](https://electrum.readthedocs.io/) (en anglais)."
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "For an explanation of how Bitcoin works in simple terms, read [The In-"
 #| "Depth Guide to Bitcoin That Won’t Leave You Frustrated](https://www."
@@ -146,7 +145,7 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "<p><span class=\"application\">Electrum</span> uses <em>mBTC</em> as the\n"
 #| "default base unit. 1 mBTC = 0.001 BTC. To change the base unit, choose\n"

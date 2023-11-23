@@ -117,7 +117,7 @@ msgid "Make sure that your USB stick is unplugged."
 msgstr "Asegúrate de que tu memoria USB está desenchufada."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "1. Open <span class=\"application\">Terminal</span> from\n"
 #| "   <span class=\"menuchoice\">\n"
@@ -342,7 +342,7 @@ msgid "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\
 msgstr "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "   <p>If you get an <span class=\"guilabel\">invalid number ‘16m’</span> error, try\n"
 #| "   using <code>16M</code> instead:</p>\n"
@@ -387,7 +387,6 @@ msgstr "   La instalación se ha completado una vez que reaparezca el interprete
 #~ "<h1 class=\"step upgrade\">Instalar un Tails intermedio usando <span class=\"application\">balenaEtcher</span></h1>\n"
 
 #, fuzzy, no-wrap
-#~| msgid "Install Etcher"
 #~ msgid "Install balenaEtcher"
 #~ msgstr "Instalar Etcher"
 

@@ -92,7 +92,6 @@ msgid "Start Tails."
 msgstr "Démarrer Tails."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose <span class=\"menuchoice\"><span class=\"guimenu\">Applications</"
 #| "span>&nbsp;▸ <span class=\"guisubmenu\">Utilities</span>&nbsp;▸ <span "

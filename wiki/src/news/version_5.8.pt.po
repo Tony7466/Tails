@@ -326,7 +326,6 @@ msgid "To fix this:"
 msgstr "Para solucionar isso:"
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Terminal** to open "
 #| "a terminal."

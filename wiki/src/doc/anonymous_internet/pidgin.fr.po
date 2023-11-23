@@ -75,7 +75,7 @@ msgstr ""
 "nom de Jabber), et utiliser simultanément plusieurs comptes différents."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "To start <span class=\"application\">Pidgin</span> choose\n"
 #| "<span class=\"menuchoice\">\n"

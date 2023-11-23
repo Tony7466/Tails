@@ -374,7 +374,7 @@ msgstr ""
 "\t             -558.67€  alojamiento en Internet\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "        - Donations in cryptocurrencies\n"
 #| "                        8.92Ƀ  bitcoin\n"
@@ -466,7 +466,7 @@ msgstr ""
 "\t             -558.67€  alojamiento en Internet\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "        - Subcontracting\n"
 #| "                  -257918.69€  subcontracting\n"
@@ -573,7 +573,7 @@ msgstr ""
 "\t          -220599.25€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "        Total:\n"
 #| "        --------------------\n"
@@ -621,7 +621,7 @@ msgid "\tRevenues:\n"
 msgstr "\tIngresos:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Donations\n"
 #| "\t            62416.65€  via CCT\n"
@@ -657,7 +657,7 @@ msgstr ""
 "\t               11.28Z  zcash\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Restricted fund (funder deliverables)\n"
 #| "\t          $120310.00   Mozilla Open Source Support\n"
@@ -746,7 +746,7 @@ msgstr ""
 "\t            $-997.50   Internet hosting\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Travel & meetings\n"
 #| "\t             -500.55€  travel\n"
@@ -845,7 +845,7 @@ msgstr ""
 "\t          -258694.56€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\tTotal:\n"
 #| "\t--------------------\n"
@@ -1038,7 +1038,7 @@ msgstr ""
 "\t             -120.08€  entradas a eventos\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Subcontracting\n"
 #| "\t          -228589.69€  subcontracting\n"
@@ -1050,7 +1050,7 @@ msgstr ""
 "\t          -228589.69€  subcontrataciones\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Running costs\n"
 #| "\t           $-4546.48   administration\n"
@@ -1113,7 +1113,7 @@ msgstr ""
 "\t          -258694.56€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\tTotal:\n"
 #| "\t--------------------\n"
@@ -1147,7 +1147,7 @@ msgid "Income statement for 2018"
 msgstr "Declaración de ganancias para 2018"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Donations\n"
 #| "\t           $47094.97   via the DuckDuckGo Challenge\n"
@@ -1189,7 +1189,7 @@ msgstr ""
 "\t           $37500.00   Open Technology Fund\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Sponsors\n"
 #| "\t                0.15Ƀ  DeepOnion\n"
@@ -1219,7 +1219,7 @@ msgstr ""
 "\t            21310.72€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Infrastructure\n"
 #| "\t           $-1761.58   hardware\n"
@@ -1240,7 +1240,7 @@ msgstr ""
 "\t             -558.67€  alojamiento en Internet\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Travel & meetings\n"
 #| "\t             $-60.24   food and drinks\n"
@@ -1267,7 +1267,7 @@ msgstr ""
 "\t            -7875.89€  viaje\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Subcontracting\n"
 #| "\t           $-2585.50   subcontracting\n"
@@ -1282,7 +1282,7 @@ msgstr ""
 "\t          -138132.81€  subcontratación\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Running costs\n"
 #| "\t          $-15428.92   administration\n"
@@ -1306,7 +1306,7 @@ msgstr ""
 "\t             -107,04€  comisiones bancarias\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Misc\n"
 #| "\t             -190.17€  office supplies\n"
@@ -1321,7 +1321,7 @@ msgstr ""
 "\t             -108,29€  camisetas\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Taxes\n"
 #| "\t            -6371.36€  VAT\n"
@@ -1345,7 +1345,7 @@ msgstr ""
 "\t          -168883.98€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\tTotal:\n"
 #| "\t--------------------\n"
@@ -1376,7 +1376,7 @@ msgid "Income statement for 2017"
 msgstr "Declaración de ganancias para 2017"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Donations\n"
 #| "\t           $23579.15   via Riseup Labs\n"
@@ -1397,7 +1397,7 @@ msgstr ""
 "\t               24.33Ƀ  bitcoins\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Sponsors\n"
 #| "\t            $1000.00   ExpressVPN\n"
@@ -1424,7 +1424,7 @@ msgstr ""
 "\t            11000.00€  Lush\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- T-shirts\n"
 #| "\t             1272.35€  T-shirts\n"
@@ -1448,7 +1448,7 @@ msgstr ""
 "\t            22564.98€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Infrastructure\n"
 #| "\t            -2706.56€  hardware\n"
@@ -1469,7 +1469,7 @@ msgstr ""
 "\t           $-4380.00   alojamiento en Internet\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Travel & meetings\n"
 #| "\t            -9449.31€  travel\n"
@@ -1502,7 +1502,7 @@ msgstr ""
 "\t              -44.95€  misceláneos\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Subcontracting\n"
 #| "\t          -108079.77€  subcontracting\n"
@@ -1541,7 +1541,7 @@ msgstr ""
 "\t              -18.00€  comisiones bancarias\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Misc\n"
 #| "\t            -3279.64€  T-shirts\n"
@@ -1556,7 +1556,7 @@ msgstr ""
 "\t             -163.57€  artículos de oficina\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Taxes\n"
 #| "\t           -19334.81€  VAT\n"
@@ -1580,7 +1580,7 @@ msgstr ""
 "\t          -154322.32€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\tTotal:\n"
 #| "\t--------------------\n"
@@ -1611,7 +1611,7 @@ msgid "Income statement for 2016"
 msgstr "Declaración de ganancias para 2016"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Donations\n"
 #| "\t           $21908.52   via Riseup Labs\n"
@@ -1653,7 +1653,7 @@ msgstr ""
 "\t            $5000.00   Google Summer of Code\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Sponsors\n"
 #| "\t             2000.00€  Mediapart\n"
@@ -1665,7 +1665,7 @@ msgstr ""
 "\t             2000.00€  Mediapart\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- T-shirts\n"
 #| "\t              180.47€  T-shirts\n"
@@ -1731,7 +1731,7 @@ msgstr ""
 "\t            -2577.00€  hospedaje\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Subcontracting\n"
 #| "\t          -128135.54€  subcontracting\n"
@@ -1767,7 +1767,7 @@ msgstr ""
 "\t            $-170.00   comisiones bancarias\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Misc\n"
 #| "\t             -115.43€  non stored purchases\n"
@@ -1782,7 +1782,7 @@ msgstr ""
 "\t              -30.00€  communicaciones\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Taxes\n"
 #| "\t           -12034.02€  VAT\n"
@@ -1806,7 +1806,7 @@ msgstr ""
 "\t          -165288.03€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\tTotal:\n"
 #| "\t--------------------\n"
@@ -1921,7 +1921,7 @@ msgstr ""
 "\t            $-160.00   certificados SSL \n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Travel & meetings\n"
 #| "\t            -9279.73€  travel\n"
@@ -1939,7 +1939,7 @@ msgstr ""
 "\t             -988.00€  hospedaje\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Subcontracting\n"
 #| "\t          -146365.22€  subcontracting\n"
@@ -2008,7 +2008,7 @@ msgstr ""
 "\t               -8.85Ƀ  bitcoins perdidos\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\tTotal:\n"
 #| "\t--------------------\n"
@@ -2039,7 +2039,7 @@ msgid "Income statement for 2014"
 msgstr "Declaración de ganancias para 2014"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Donations\n"
 #| "\t           $33376.83   via Freedom of the Press Foundation\n"
@@ -2111,7 +2111,7 @@ msgstr ""
 "\t            82953.69€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Infrastructure\n"
 #| "\t           $-7856.38   hardware\n"
@@ -2132,7 +2132,7 @@ msgstr ""
 "\t            $-160.00   certificados SSL\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Travel & meetings\n"
 #| "\t            -4907.08€  travel\n"
@@ -2156,7 +2156,7 @@ msgstr ""
 "\t             -330.30€  invitados\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\t- Subcontracting\n"
 #| "\t          $-53414.00   subcontracting\n"
@@ -2219,7 +2219,7 @@ msgstr ""
 "\t           -40847.00€\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\tTotal:\n"
 #| "\t--------------------\n"
@@ -2688,35 +2688,6 @@ msgstr ""
 #~ "\t            22564.98€\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "\tExpenses:\n"
-#~| "\t- Infrastructure\n"
-#~| "\t           $-2351.70   hardware\n"
-#~| "\t            -2081.40€  hardware\n"
-#~| "\t             -900.00€  Internet hosting\n"
-#~| "\t- Travel & meetings\n"
-#~| "\t            -7566.00€  travel\n"
-#~| "\t            $-526.74   travel\n"
-#~| "\t            -3789.61€  food and drinks\n"
-#~| "\t             $-25.75   food and drinks\n"
-#~| "\t            -2577.00€  hosting\n"
-#~| "\t- Subcontracting\n"
-#~| "\t          -128135.54€  subcontracting\n"
-#~| "\t           $-5945.00   subcontracting\n"
-#~| "\t- Running costs\n"
-#~| "\t            -8038.03€  administration\n"
-#~| "\t           $-5324.73   administration\n"
-#~| "\t              -21.00€  banking\n"
-#~| "\t            $-170.00   banking\n"
-#~| "\t- Misc\n"
-#~| "\t             -115.43€  non stored purchases\n"
-#~| "\t              -30.00€  communication\n"
-#~| "\t- Taxes\n"
-#~| "\t           -12034.02€  VAT\n"
-#~| "\t          $-37544.00   income taxes\n"
-#~| "\t--------------------\n"
-#~| "\t          $-51887.92\n"
-#~| "\t          -165288.03€\n"
 #~ msgid ""
 #~ "\tExpenses:\n"
 #~ "\t- Infrastructure\n"
@@ -2823,35 +2794,6 @@ msgstr ""
 #~ "\t            16674.23€\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "\tExpenses:\n"
-#~| "\t- Infrastructure\n"
-#~| "\t           $-2351.70   hardware\n"
-#~| "\t            -2081.40€  hardware\n"
-#~| "\t             -900.00€  Internet hosting\n"
-#~| "\t- Travel & meetings\n"
-#~| "\t            -7566.00€  travel\n"
-#~| "\t            $-526.74   travel\n"
-#~| "\t            -3789.61€  food and drinks\n"
-#~| "\t             $-25.75   food and drinks\n"
-#~| "\t            -2577.00€  hosting\n"
-#~| "\t- Subcontracting\n"
-#~| "\t          -128135.54€  subcontracting\n"
-#~| "\t           $-5945.00   subcontracting\n"
-#~| "\t- Running costs\n"
-#~| "\t            -8038.03€  administration\n"
-#~| "\t           $-5324.73   administration\n"
-#~| "\t              -21.00€  banking\n"
-#~| "\t            $-170.00   banking\n"
-#~| "\t- Misc\n"
-#~| "\t             -115.43€  non stored purchases\n"
-#~| "\t              -30.00€  communication\n"
-#~| "\t- Taxes\n"
-#~| "\t           -12034.02€  VAT\n"
-#~| "\t          $-37544.00   income taxes\n"
-#~| "\t--------------------\n"
-#~| "\t          $-51887.92\n"
-#~| "\t          -165288.03€\n"
 #~ msgid ""
 #~ "\tExpenses:\n"
 #~ "\t- Infrastructure\n"
@@ -2912,34 +2854,6 @@ msgstr ""
 #~ "\t          -165288.03€\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "\tExpenses:\n"
-#~| "\t- Infrastructure\n"
-#~| "\t            $-787.23   hardware\n"
-#~| "\t             -775.41€  hardware\n"
-#~| "\t             -900.00€  Internet hosting\n"
-#~| "\t            $-160.00   SSL certificates\n"
-#~| "\t- Travel & meetings\n"
-#~| "\t            -9279.73€  travel\n"
-#~| "\t            -8155.21€  food and drinks\n"
-#~| "\t             -988.00€  hosting\n"
-#~| "\t- Subcontracting\n"
-#~| "\t          -146365.22€  subcontracting\n"
-#~| "\t           $-4860.00   subcontracting\n"
-#~| "\t- Running costs\n"
-#~| "\t           $-2179.95   administration\n"
-#~| "\t            -3849.79€  administration\n"
-#~| "\t             $-85.00   banking\n"
-#~| "\t             -106.41€  banking\n"
-#~| "\t- Misc\n"
-#~| "\t            -4151.64€  lost bitcoins\n"
-#~| "\t               -8.85Ƀ  lost bitcoins\n"
-#~| "\t            $-702.77   income taxes\n"
-#~| "\t              -39.90€  promotion material\n"
-#~| "\t--------------------\n"
-#~| "\t           $-8774.95\n"
-#~| "\t          -174611.30€\n"
-#~| "\t               -8.85Ƀ  lost bitcoins\n"
 #~ msgid ""
 #~ "\tExpenses:\n"
 #~ "\t- Infrastructure\n"
@@ -3039,34 +2953,6 @@ msgstr ""
 #~ "\t            16674.23€\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "\tExpenses:\n"
-#~| "\t- Infrastructure\n"
-#~| "\t           $-7856.38   hardware\n"
-#~| "\t             -897.84€  hardware\n"
-#~| "\t             -630.00€  Internet hosting\n"
-#~| "\t            $-160.00   SSL certificates\n"
-#~| "\t- Travel & meetings\n"
-#~| "\t            -4907.08€  travel\n"
-#~| "\t            -3724.35€  hosting\n"
-#~| "\t            -4112.27€  food and drinks\n"
-#~| "\t            $-400.00   guests\n"
-#~| "\t             -330.30€  guests\n"
-#~| "\t- Subcontracting\n"
-#~| "\t          $-53414.00   subcontracting\n"
-#~| "\t           -20131.85€  subcontracting\n"
-#~| "\t- Running costs\n"
-#~| "\t            $-568.53   banking\n"
-#~| "\t             -174.53€  banking\n"
-#~| "\t           $-3707.33   administration\n"
-#~| "\t            -5439.61€  administration\n"
-#~| "\t- Misc\n"
-#~| "\t              -65.00€  stickers\n"
-#~| "\t             -414.17€  non stored purchases\n"
-#~| "\t              -20.00€  communication\n"
-#~| "\t--------------------\n"
-#~| "\t          $-66106.24\n"
-#~| "\t           -40847.00€\n"
 #~ msgid ""
 #~ "\tExpenses:\n"
 #~ "\t- Infrastructure\n"

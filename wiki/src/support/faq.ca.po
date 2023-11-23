@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-11 10:11+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-11-15 00:13+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -75,6 +75,12 @@ msgid ""
 "other distribution. See our statement about our [[contribute/"
 "relationship_with_upstream]] for details."
 msgstr ""
+"Estem profundament arrelats i implicats en Debian. Les amistats, les "
+"relacions i l'experiència tècnica que tenim a Debian tenen molts avantatges "
+"per a Tails, i no estem preparats per construir la mateixa relació amb "
+"Ubuntu, OpenBSD o cap altra distribució. Consulteu la nostra declaració "
+"sobre la nostra [[relació amb upstream|contribute/"
+"relationship_with_upstream]] per obtenir més informació."
 
 #. type: Plain text
 msgid ""
@@ -82,19 +88,23 @@ msgid ""
 "upsilon.cc/~zack/blog/posts/2011/09/"
 "why_there_are_so_many_debian_derivatives/)  by Stefano Zacchiroli."
 msgstr ""
+"Vegeu també l'article [Per què hi ha tants derivats de Debian](http://upsilon"
+".cc/~zack/blog/posts/2011/09/why_there_are_so_many_debian_derivatives/) de "
+"Stefano Zacchiroli (en anglès)."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"ubuntu\">Why isn't Tails based on Ubuntu?</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"ubuntu\">Per què Tails no es basa en Ubuntu?</h2>\n"
 
 #. type: Plain text
 msgid "First, see the answer to the [[previous question|faq#debian]]."
-msgstr ""
+msgstr "Primer, vegeu la resposta a la [[pregunta anterior|faq#debian]]."
 
 #. type: Bullet: '0. '
 msgid "The rapid development cycle of Ubuntu would be too fast for Tails."
 msgstr ""
+"El cicle de desenvolupament ràpid d'Ubuntu seria massa ràpid per a Tails."
 
 #. type: Bullet: '0. '
 msgid ""
@@ -104,12 +114,19 @@ msgid ""
 "leaks](https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-"
 "and-data-leaks)."
 msgstr ""
+"Ubuntu afegeix funcions de maneres que considerem perilloses per a la "
+"privadesa. Per exemple, Ubuntu One ([parcialment discontinuat](http://blog."
+"canonical.com/2014/04/02/shutting-down-ubuntu-one-file-services/)) i els ["
+"anuncis d'Amazon i les filtracions de dades](https://www.eff.org/deeplinks/"
+"2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks)."
 
 #. type: Bullet: '0. '
 msgid ""
 "Ubuntu is led by a company that takes most of the important decisions and "
 "has the power to make them happen."
 msgstr ""
+"Ubuntu està dirigit per una empresa que pren la majoria de les decisions "
+"importants i té el poder de fer-les realitat."
 
 #. type: Bullet: '0. '
 msgid ""
@@ -117,6 +134,9 @@ msgid ""
 "backports.debian.org/). The result is comparable to Ubuntu in terms of "
 "support for recent hardware."
 msgstr ""
+"Normalment distribuïm nuclis i controladors de vídeo des de [Debian "
+"backports](http://backports.debian.org/). El resultat és comparable a Ubuntu "
+"pel que fa al suport del maquinari recent."
 
 #. type: Bullet: '0. '
 msgid ""
@@ -126,6 +146,11 @@ msgid ""
 "not the case outside of the limited number of packages Ubuntu officially "
 "supports."
 msgstr ""
+"Pensem que la qualitat general del treball de manteniment que s'estan "
+"realitzant als paquets és important des d'una perspectiva de seguretat. Els "
+"mantenidors de Debian generalment són experts en els camps amb què tracten "
+"els seus paquets; mentre que generalment no és així fora del nombre limitat "
+"de paquets als quals Ubuntu admet oficialment."
 
 #. type: Bullet: '0. '
 msgid ""

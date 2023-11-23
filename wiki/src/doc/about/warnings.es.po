@@ -28,7 +28,6 @@ msgstr ""
 "[[!meta stylesheet=\"doc/about/warnings\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <div><p>
-#, fuzzy
 #| msgid ""
 #| "Tails is safer than any regular operating system. But Tails, or any "
 #| "software or operating system, cannot protect you from everything—even if "

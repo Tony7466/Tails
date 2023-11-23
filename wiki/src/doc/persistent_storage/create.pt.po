@@ -24,7 +24,6 @@ msgid "[[!meta title=\"Creating the Persistent Storage\"]]\n"
 msgstr "[[!meta title=\"Criando o Armazenamento Persistente\"]]\n"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "To create the Persistent Storage, choose **Applications**&nbsp;▸ "
 #| "**Tails**&nbsp;▸ **Persistent Storage**."
@@ -1132,19 +1131,16 @@ msgstr ""
 #~ "first_steps/persistence/backup]]"
 
 #, fuzzy
-#~| msgid "[[Delete the persistent volume|first_steps/persistence/delete]]"
 #~ msgid ""
 #~ "[[Rescuing your Persistent Storage from a broken Tails|first_steps/"
 #~ "persistence/rescue]]"
 #~ msgstr "[[Apague o volume persistente|first_steps/persistence/delete]]"
 
 #, fuzzy
-#~| msgid "[[Delete the persistent volume|first_steps/persistence/delete]]"
 #~ msgid "[[Deleting the Persistent Storage|first_steps/persistence/delete]]"
 #~ msgstr "[[Apague o volume persistente|first_steps/persistence/delete]]"
 
 #, fuzzy
-#~| msgid "[[!meta title=\"Enable & use the persistent volume\"]]\n"
 #~ msgid "[[!meta title=\"Unlocking and using the Persistent Storage\"]]\n"
 #~ msgstr "[[!meta title=\"Habilite e use o volume persistente\"]]\n"
 
@@ -1166,18 +1162,12 @@ msgstr ""
 #~ "change_passphrase]]"
 
 #, fuzzy
-#~| msgid "[[Delete the persistent volume|first_steps/persistence/delete]]"
 #~ msgid ""
 #~ "[[Check the file system of the persistent volume|first_steps/persistence/"
 #~ "check_file_system]]"
 #~ msgstr "[[Apague o volume persistente|first_steps/persistence/delete]]"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>It is only possible to create a persistent volume if the device, USB "
-#~| "stick or\n"
-#~| "SD card, was installed using <span class=\"application\">Tails "
-#~| "Installer</span>.</p>\n"
 #~ msgid ""
 #~ "<p>It is only possible to create a persistent volume if the USB stick\n"
 #~ "was installed using <span class=\"application\">Tails Installer</span>.</"
@@ -1189,9 +1179,6 @@ msgstr ""
 #~ "Installer</span>.</p>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>This requires a USB stick or SD card of <strong>at least 8 GB</"
-#~| "strong>.</p>\n"
 #~ msgid ""
 #~ "<p>This requires a USB stick of <strong>at least 8 GB</strong>.</p>\n"
 #~ msgstr ""
@@ -1237,14 +1224,6 @@ msgstr ""
 #~ "inutilizável.\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "When this feature is activated, all the files in the <span\n"
-#~| "class=\"filename\">/live/persistence/TailsData_unlocked/dotfiles</span> "
-#~| "folder\n"
-#~| "are linked in the <span class=\"filename\">Home Folder</span> (files in\n"
-#~| "subfolders of <span class=\"filename\">dotfiles</span> are also linked\n"
-#~| "in the corresponding subfolder of your <span class=\"filename\">Home\n"
-#~| "Folder</span>).\n"
 #~ msgid ""
 #~ "When this feature is activated, all the files in the <span\n"
 #~ "class=\"filename\">/live/persistence/TailsData_unlocked/dotfiles</span> "
@@ -1362,9 +1341,6 @@ msgstr ""
 #~ "esteja desconectado/a."
 
 #, fuzzy
-#~| msgid ""
-#~| "If you activate this feature, it is recommended to activate the\n"
-#~| "<span class=\"guilabel\">APT Lists</span> feature as well.\n"
 #~ msgid ""
 #~ "If you activate the <span class=\"guilabel\">APT Packages</span> "
 #~ "persistence feature,\n"
@@ -1490,12 +1466,6 @@ msgstr ""
 #~ "</div>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "When this feature is activated, the configuration and emails stored "
-#~| "locally by\n"
-#~| "the <span class=\"application\">Claws Mail</span> email client are saved "
-#~| "in the\n"
-#~| "persistent volume.\n"
 #~ msgid ""
 #~ "When this feature is activated, the configuration and emails stored\n"
 #~ "locally by the\n"
@@ -1539,17 +1509,6 @@ msgstr ""
 #~ "class=\"filename\">.claws-mail/Mail</span>.</p>\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "For advanced users, to access the internal content of the persistent "
-#~| "volume\n"
-#~| "choose\n"
-#~| "<span class=\"menuchoice\">\n"
-#~| "  <span class=\"guimenu\">Places</span>&nbsp;▸\n"
-#~| "  <span class=\"guimenuitem\">Computer</span></span>, and open the "
-#~| "folders\n"
-#~| "  <span class=\"filename\">live</span>&nbsp;▸\n"
-#~| "  <span class=\"filename\">persistent</span>&nbsp;▸\n"
-#~| "  <span class=\"filename\">TailsData_unlocked</span>.\n"
 #~ msgid ""
 #~ "For advanced users to access the internal content of the Persistent "
 #~ "Storage, choose **Places**&nbsp;▸ **Computer** and open the folders "
@@ -1567,15 +1526,6 @@ msgstr ""
 #~ "  <span class=\"filename\">TailsData_unlocked</span>.\n"
 
 #, fuzzy
-#~| msgid ""
-#~| "To open the <span class=\"filename\">Persistent</span> folder and access "
-#~| "you\n"
-#~| "personal files and working documents, choose \n"
-#~| "<span class=\"menuchoice\">\n"
-#~| "  <span class=\"guimenu\">Places</span>&nbsp;▸\n"
-#~| "  <span class=\"guimenuitem\">Home Folder</span></span>, and open the "
-#~| "<span\n"
-#~| "  class=\"guilabel\">Persistent</span> folder.\n"
 #~ msgid ""
 #~ "To open the <span class=\"filename\">Persistent</span> folder and access "
 #~ "your\n"

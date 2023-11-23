@@ -24,7 +24,6 @@ msgid "[[!tag security/fixed]]\n"
 msgstr "[[!tag security/fixed]]\n"
 
 #. type: Bullet: '   1. '
-#, fuzzy
 #| msgid "Choose **Applications**&nbsp;▸ **Persistent Storage**."
 msgid "Choose **Applications**&nbsp;▸ **Persistent Storage**."
 msgstr "Choisir **Applications**&nbsp;▸ **Stockage persistant**."

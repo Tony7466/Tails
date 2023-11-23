@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"PO-Revision-Date: 2023-11-14 14:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -437,10 +437,9 @@ msgid "<a id=\"usb\"></a>\n"
 msgstr "<a id=\"usb\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Running Tails from a USB stick or SD card\n"
+#, no-wrap
 msgid "Running Tails from a USB stick"
-msgstr "Tails von einem USB-Stick oder einer SD-Karte aus benutzen\n"
+msgstr "Tails von einem USB-Stick aus benutzen"
 
 #. type: Plain text
 #, fuzzy

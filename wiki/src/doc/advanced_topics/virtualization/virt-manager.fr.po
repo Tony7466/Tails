@@ -197,7 +197,6 @@ msgstr ""
 "*QEMU* de votre hôte."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "To create a new virtual machine, choose <span class=\"menuchoice\"> <span "
 #| "class=\"guimenu\">File</span>&nbsp;▸ <span class=\"guimenuitem\">New "
@@ -277,7 +276,7 @@ msgstr ""
 "active</span>\", essayez alors de démarrer le réseau virtuel par défaut :\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "<ol>\n"
 #| "<li>Click on <span class=\"guilabel\">QEMU/KVM - Not Connected</span>.</li>\n"
@@ -471,7 +470,6 @@ msgid "Then do the following:"
 msgstr "Puis faire ce qui suit :"
 
 #. type: Bullet: '  1. '
-#, fuzzy
 #| msgid ""
 #| "From the virtual machine window, choose **Virtual Machine**&nbsp;▸ **Shut "
 #| "Down**&nbsp;▸ **Force Off** to shut down the virtual machine."
@@ -488,7 +486,6 @@ msgid "Plug in the USB stick from which you want to run Tails."
 msgstr "Brancher la clé USB depuis laquelle vous voulez démarrer Tails."
 
 #. type: Bullet: '  1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **View**&nbsp;▸ **Details** to edit the configuration of the "
 #| "virtual machine."
@@ -568,7 +565,6 @@ msgstr ""
 "Sélectionner l'option de démarrage **USB** qui correspond à votre clé USB."
 
 #. type: Bullet: '  1. '
-#, fuzzy
 #| msgid ""
 #| "To start the virtual machine choose **View**&nbsp;▸ **Console** and then "
 #| "**Virtual Machine**&nbsp;▸ **Run**."
@@ -680,21 +676,6 @@ msgstr ""
 #~ "*QEMU* de votre hôte."
 
 #, fuzzy, no-wrap
-#~| msgid ""
-#~| "<ol>\n"
-#~| "<li>Click on <span class=\"guilabel\">localhost (QEMU)</span>.</li>\n"
-#~| "<li>Choose <span class=\"menuchoice\">\n"
-#~| "    <span class=\"guimenu\">Edit</span>&nbsp;▸\n"
-#~| "    <span class=\"guimenuitem\">Connection details</span></span> to\n"
-#~| "    administer the connection to your local\n"
-#~| "    <span class=\"application\">QEMU</span> system.</li>\n"
-#~| "<li>Click on <span class=\"guilabel\">Virtual Networks</span> tab, then\n"
-#~| "    select the <span class=\"guilabel\">default</span> virtual network in\n"
-#~| "    the left pane.</li>\n"
-#~| "<li>Click on the [[!img lib/media-playback-start.png alt=\"Start Network\"\n"
-#~| "    link=no class=symbolic]] icon on the bottom of the left pane to\n"
-#~| "    start the default virtual network.</li>\n"
-#~| "</ol>\n"
 #~ msgid ""
 #~ "<ol>\n"
 #~ "<li>Click on <span class=\"guilabel\">localhost (QEMU)</span>.</li>\n"

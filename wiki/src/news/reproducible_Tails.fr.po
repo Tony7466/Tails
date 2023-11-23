@@ -299,7 +299,6 @@ msgid "Known issues"
 msgstr "Problèmes connus"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "Any reproducible build process is reproducible… until proven otherwise. "
 #| "In our case last-minute issues were discovered and should be fixed in the "

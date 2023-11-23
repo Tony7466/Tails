@@ -87,7 +87,6 @@ msgstr ""
 "Desktops](https://events.ccc.de/congress/2016/wiki/Assembly:Secure_Desktops)."
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "We accept donations in cash and people donating more than 50€ in Hamburg "
 #| "will get a Tails t-shirt!"

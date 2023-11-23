@@ -37,7 +37,6 @@ msgstr ""
 "Dans l'écran de bienvenue, maintenir le stockage persistant verrouillé."
 
 #. type: Bullet: '1. '
-#, fuzzy
 #| msgid ""
 #| "Choose **Applications**&nbsp;▸ **Tails**&nbsp;▸ **Persistent Storage**."
 msgid "Choose **Applications**&nbsp;▸ **Tails**&nbsp;▸ **Persistent Storage**."
@@ -104,9 +103,6 @@ msgstr "</div>\n"
 #~ msgstr "Cliquez sur <span class=\"guilabel\">Supprimer</span>."
 
 #, fuzzy
-#~| msgid ""
-#~| "     Do not enable the persistent volume in <span "
-#~| "class=\"application\">Tails Greeter</span>.\n"
 #~ msgid "     Do not enable the persistent volume in the Welcome Screen.\n"
 #~ msgstr ""
 #~ "     N'activez pas le volume persistant dans le <span "

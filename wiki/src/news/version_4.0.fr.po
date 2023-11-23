@@ -38,7 +38,6 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "We are especially proud to present you Tails 4.0, the first version of "
 #| "Tails based on Debian 10 (Buster). It brings new versions of most of the "
@@ -145,7 +144,7 @@ msgid "The onion icon has been removed from the top bar."
 msgstr "L’icône oignon a été retiré de la barre supérieure."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "    To switch to a new identity, choose\n"
 #| "    <span class=\"menuchoice\">\n"
@@ -456,11 +455,11 @@ msgstr "Problèmes corrigés"
 
 #. type: Plain text
 msgid ""
-"For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
-"\"]]."
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
 msgstr ""
-"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog desc="
-"\"liste des changements\"]]."
+"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog "
+"desc=\"liste des changements\"]]."
 
 #. type: Plain text
 msgid ""
@@ -521,8 +520,7 @@ msgstr "Obtenir Tails 4.0"
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr ""
-"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+msgstr "Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
 
 #. type: Plain text
 msgid "Automatic upgrades are not available to 4.0."

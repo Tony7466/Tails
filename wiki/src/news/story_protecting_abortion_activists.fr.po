@@ -63,7 +63,6 @@ msgstr ""
 "femmes pauvres de la région de Bahia à l'utilisation de Tails."
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "Gabriela introduced these women to Tails by mixing up local culture and "
 #| "privacy technology and presenting Tails as a *patuá*, a type of Brazilian "

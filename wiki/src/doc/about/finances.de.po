@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-12 20:11+0000\n"
+"PO-Revision-Date: 2023-11-14 14:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -159,17 +159,7 @@ msgid "Expenses"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "\tExpenses:\n"
-#| "\t           $-3810.71   hardware\n"
-#| "\t             -856.79€  hardware\n"
-#| "\t             -300.00€  hosting\n"
-#| "\t            -3128.39€  meeting\n"
-#| "\t            $-479.00   SSL certificates\n"
-#| "\t--------------------\n"
-#| "\t           $-4289.71\n"
-#| "\t            -4285.18€\n"
+#, no-wrap
 msgid ""
 "        - Infrastructure\n"
 "                   $-3562.86    hardware\n"
@@ -178,15 +168,12 @@ msgid ""
 "         -0.346400000000 XMR    Internet hosting\n"
 "                   -7522.48€    Internet hosting\n"
 msgstr ""
-"\tAusgaben:\n"
-"\t           $-3810,71   Hardware\n"
-"\t             -856,79€  Hardware\n"
-"\t             -300,00€  Unterkunft\n"
-"\t            -3128,39€  Zusammenkunft\n"
-"\t            $-479,00   SSL-Zertifikate\n"
-"\t--------------------\n"
-"\t           $-4289,71\n"
-"\t            -4285,18€\n"
+"        - Infrastruktur\n"
+"                   $-3562.86    Hardware\n"
+"                    -681.17€    Hardware\n"
+"                   $-2250.00    Internet-Hosting\n"
+"         -0.346400000000 XMR    Internet-Hosting\n"
+"                   -7522.48€    Internet-Hosting\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1022,10 +1009,9 @@ msgid "<a id=\"2018\"></a>\n"
 msgstr "<a id=\"2017\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Income statement for 2017\n"
+#, no-wrap
 msgid "Income statement for 2018"
-msgstr "Einkommensaufstellung für 2017\n"
+msgstr "Einkommensaufstellung für 2018"
 
 #. type: Plain text
 #, fuzzy, no-wrap

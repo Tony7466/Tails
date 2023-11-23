@@ -78,7 +78,6 @@ msgstr ""
 "little-known-privacy-tool-has-been-critical-journalists-reporting-nsa)&nbsp;:"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "« *Privacy and encryption work, but it's too easy to make a mistake that "
 #| "exposes you. Tails puts the essential tools in one place, with a design "
@@ -109,7 +108,6 @@ msgstr ""
 "Marc Manach&nbsp;:"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "« *War reporters have to buy helmets, bullet-proof vests and rent armored "
 #| "cars; journalists using the Internet for their investigations are much "
@@ -147,7 +145,6 @@ msgstr ""
 "années, sont sûrs&nbsp;:"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "« *I think most of the public domain privacy tools are going to be safe, "
 #| "yes. [...] I think that Tails is going to be safe. [...] You know, the "
@@ -195,7 +192,6 @@ msgstr ""
 "conférence sur la sécurité numérique et le journalisme :"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "« *News organizations need to also contribute to this community pool of "
 #| "tools. We need to have [reporters] contributing patches to PGP, OTR, and "

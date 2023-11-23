@@ -74,7 +74,7 @@ msgstr ""
 "[*Vidéos*](https://wiki.gnome.org/Apps/Videos), un lecteur audio et vidéo."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "These applications can be started from the\n"
 #| "<span class=\"menuchoice\">\n"
