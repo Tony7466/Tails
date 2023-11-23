@@ -83,7 +83,7 @@ def should_show_donation_message() -> bool:
     elif os.environ.get('ELECTRUM_DONATION_MESSAGE') == '1':
         return True
 
-    # If the other conditions are met, show the message in 1/20 of the
+    # If the other conditions are met, show the message in 1/5 of the
     # cases.
     return random.randint(0, 4) == 0
 
