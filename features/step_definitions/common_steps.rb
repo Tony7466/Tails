@@ -1435,6 +1435,9 @@ Then /^running "([^"]+)" as user "([^"]+)" succeeds$/ do |command, user|
 end
 
 Then /^running "([^"]+)" as user "([^"]+)" fails$/ do |command, user|
-  c = $vm.execute(command, user: user)
-  assert(!c.success?, "Success running command when we were expecting failure:\n#{c.stdout}\n#{c.stderr}")
+  c = $vm.execute(command, user:)
+  assert(
+    !c.success?,
+    "Success running command when we were expecting failure:\n#{c.stdout}\n#{c.stderr}"
+  )
 end
