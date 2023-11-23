@@ -4,9 +4,8 @@
 
 import logging
 import os
-# Import these because we need the exception they raise
-import smtplib
-import socket
+import smtplib  # for smtplib.SMTPException
+import socket  # for socket.error
 from typing import Optional
 
 # GIR imports
