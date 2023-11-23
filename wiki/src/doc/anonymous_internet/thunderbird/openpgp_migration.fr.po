@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-07-24 17:37+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,9 +106,6 @@ msgid "In *Thunderbird*:"
 msgstr "Dans *Thunderbird* :"
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-#| "link=\"no\"]]&nbsp;▸ Account Settings**."
 msgid ""
 "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
 "link=\"no\"]]&nbsp;▸ Account Settings**."
@@ -125,7 +122,6 @@ msgstr ""
 "importer la clé privée et choisir **Chiffrement de bout en bout**."
 
 #. type: Bullet: '1. '
-#| msgid "In the right pane, click the **Add Key…** button."
 msgid "In the right pane, click the **Add Key…** button."
 msgstr ""
 "Dans le panneau de droite, cliquer sur le bouton **Ajouter une clé...**."
@@ -289,9 +285,6 @@ msgid "<h2 id=\"import-public\">Import the public keys in <em>Thunderbird</em></
 msgstr "<h2 id=\"import-public\">Importer les clés publiques dans <em>Thunderbird</em></h2>\n"
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-#| "link=\"no\"]]&nbsp;▸ Tools&nbsp;▸ OpenPGP Key Manager**."
 msgid ""
 "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
 "link=\"no\"]]&nbsp;▸ Tools&nbsp;▸ OpenPGP Key Manager**."
@@ -300,9 +293,6 @@ msgstr ""
 "link=\"no\"]]&nbsp;▸ Outils&nbsp;▸ Gestionnaire de clés OpenPGP**."
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "In the **OpenPGP Key Manager**, choose **File&nbsp;▸ Import Public "
-#| "Key(s)  From File.**"
 msgid ""
 "In the **OpenPGP Key Manager**, choose **File&nbsp;▸ Import Public Key(s)  "
 "From File.**"
@@ -379,7 +369,6 @@ msgstr ""
 "désactiver la fonction GnuPG de votre stockage persistant :"
 
 #. type: Bullet: '1. '
-#| msgid "Choose **Applications&nbsp;▸ Persistent Storage**."
 msgid "Choose **Applications&nbsp;▸ Persistent Storage**."
 msgstr "Choisir **Applications&nbsp;▸ Stockage persistant**."
 

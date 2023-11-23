@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-23 12:57+0000\n"
 "PO-Revision-Date: 2023-11-08 09:12+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -371,9 +371,6 @@ msgid "To fix this:"
 msgstr "Pour le corriger :"
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Terminal** to open "
-#| "a terminal."
 msgid ""
 "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Terminal** to open a "
 "terminal."
@@ -822,7 +819,6 @@ msgid "- In Tails, unlock your Persistent Storage:"
 msgstr "- Dans Tails, déverrouiller votre stockage persistant :"
 
 #. type: Bullet: '  1. '
-#| msgid "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks**."
 msgid "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks**."
 msgstr "Choisir **Applications**&nbsp;▸ **Utilitaires**&nbsp;▸ **Disques**."
 
@@ -880,9 +876,6 @@ msgid "- Navigate to the content of your Persistent Storage:"
 msgstr "- Naviguez vers le contenu de votre stockage persistant :"
 
 #. type: Bullet: '  1. '
-#| msgid ""
-#| "Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Root Terminal** "
-#| "to open a terminal with administration rights."
 msgid ""
 "Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Root Terminal** to "
 "open a terminal with administration rights."
@@ -954,14 +947,10 @@ msgstr "Choisir **Réduire** ou **Restaurer**."
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Welcome Screen and Tor Connection don't fit on 800×600 ([[!tails_ticket 19324]])"
 msgid "Welcome Screen and Tor Connection don't fit on 800×600 ([[!tails_ticket 19324]])"
 msgstr "L'Écran de bienvenue et la Connexion à Tor ne rentrent pas en 800x600 ([[!tails_ticket 19324]])"
 
 #. type: Plain text
-#| msgid ""
-#| "The top of the Welcome Screen and some button of the Tor Connection "
-#| "assistant are cut out on small displays (800×600), like virtual machines."
 msgid ""
 "The top of the Welcome Screen and some button of the Tor Connection "
 "assistant are cut out on small displays (800×600), like virtual machines."

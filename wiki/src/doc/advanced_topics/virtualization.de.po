@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-17 18:41+0000\n"
-"PO-Revision-Date: 2023-11-18 10:16+0000\n"
+"PO-Revision-Date: 2023-11-23 12:17+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -199,15 +199,22 @@ msgid ""
 msgstr "Deshalb warnt Sie Tails, wenn es in einer virtuellen Maschine läuft."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "The Tails virtual machine does not modify the behaviour of the host operating system and the network traffic of the host is not anonymized. The MAC address of the computer is not modified by the [[MAC address spoofing|first_steps/welcome_screen/mac_spoofing]] feature of Tails when run in a virtual machine."
+#, no-wrap
 msgid ""
 "<p>The Tails virtual machine does not modify the behaviour of the host\n"
 "operating system and the network traffic of the host is not anonymized. The MAC\n"
 "address of the computer is not modified by the [[MAC address\n"
 "anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails\n"
 "when run in a virtual machine.</p>\n"
-msgstr "Die virtuelle Maschine von Tails verändert das Verhalten des Hostbetriebssystems nicht und der Netzwerkverkehr des Hosts wird nicht anonymisiert. Die MAC-Adresse des Computers wird nicht durch die Funktion zum [[Verschleiern der MAC-Adresse|first_steps/welcome_screen/mac_spoofing]] geändert, wenn Tails in einer virtuellen Maschine ausgeführt wird."
+msgstr ""
+"<p>Die virtuelle Maschine Tails verändert das Verhalten des Host-"
+"Betriebssystems\n"
+"nicht und der Netzwerkverkehr des Hosts wird nicht anonymisiert. Die MAC-"
+"Adresse\n"
+"des Computers wird durch die [[MAC-Adressen-Anonymisierung|first_steps/"
+"welcome_screen/mac_spoofing]]\n"
+"Funktion von Tails nicht verändert, wenn sie in einer virtuellen Maschine "
+"ausgeführt wird.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -220,28 +227,17 @@ msgid "Virtualization solutions"
 msgstr "Lösungen zur Virtualisierung"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "To run Tails inside a virtual machine, you need to have virtualization "
-#| "software installed on the host operating system.  Different "
-#| "virtualization software exist for Linux, Windows, and macOS."
 msgid ""
 "To run Tails inside a virtual machine, you need to have virtualization "
 "software installed on the host operating system.  Different virtualization "
 "software exists for Linux, Windows, and macOS."
 msgstr ""
 "Um Tails in einer virtuellen Maschine auszuführen, ist es nötig, dass Sie "
-"Virtualisierungssoftware auf dem Hostbetriebssystem installiert haben. Es "
-"gibt verschiedene Lösungen zur Virtualisierung für Linux, Windows und Mac "
-"OS&nbsp;X."
+"Virtualisierungssoftware auf dem Hostbetriebssystem installiert haben.  Es "
+"gibt verschiedene Lösungen zur Virtualisierung für Linux, Windows und MacOS."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<p>The following list includes only free software as we believe that\n"
-#| "this is a necessary condition for it to be trustworthy. See the\n"
-#| "[[previous warning|virtualization#trustworthy]] and our statement about\n"
-#| "[[free software and public scrutiny|about/trust#free_software]].</p>\n"
+#, no-wrap
 msgid ""
 "<p>The following list includes only free software as we believe that\n"
 "this is a necessary condition for the software to be trustworthy. See the\n"
@@ -249,9 +245,12 @@ msgid ""
 "[[free software and public scrutiny|about/trust#free_software]].</p>\n"
 msgstr ""
 "<p>Die folgende Liste enthält nur Freie Software, da wir glauben, dass\n"
-"dies eine notwendige Voraussetzung für Vertrauenswürdigkeit ist. Lesen Sie die\n"
-"[[vorangegangene Warnung|virtualization#trustworthy]] und unsere Stellungnahme zu\n"
-"[[Freier Software und öffentlicher Kontrolle|about/trust#free_software]].</p>\n"
+"dies eine notwendige Voraussetzung für Vertrauenswürdigkeit der Software "
+"ist. Lesen Sie die\n"
+"[[vorangegangene Warnung|virtualization#trustworthy]] und unsere "
+"Stellungnahme zu\n"
+"[[Freier Software und öffentlicher Kontrolle|about/trust#free_software]].</p>"
+"\n"
 
 #. type: Plain text
 #, no-wrap
