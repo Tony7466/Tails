@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-11-07 20:11+0000\n"
 "Last-Translator: conan <conan@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,12 +99,6 @@ msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "To know if you are using IMAP or POP, choose <span class=\"menuchoice\">\n"
-#| "<span class=\"guimenu\">Configuration</span>&nbsp;▸\n"
-#| "<span class=\"guimenuitem\">Edit accounts&hellip;</span></span> and refer\n"
-#| "to the <span class=\"guilabel\">Protocol</span> column in the list of\n"
-#| "accounts.\n"
 msgid ""
 "To know if you are using IMAP or POP, choose <span class=\"menuchoice\">\n"
 "<span class=\"guimenu\">Configuration</span>&nbsp;▸\n"
@@ -231,9 +225,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "1. Choose **File**&nbsp;▸ **Add mailbox**&nbsp;▸ **MH&hellip;** to\n"
-#| "create a local mailbox where to download your emails.\n"
 msgid ""
 "1. Choose **File**&nbsp;▸ **Add mailbox**&nbsp;▸ **MH&hellip;** to\n"
 "create a local mailbox where to download your emails.\n"
@@ -261,10 +252,6 @@ msgstr "   [[!img claws_mail_leaks_plaintext_to_imap/add_mailbox.png link=\"no\"
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "1. Choose **Configuration**&nbsp;▸ **Edit accounts&hellip;**, select\n"
-#| "your IMAP account in the list of accounts, and click **Delete** to\n"
-#| "delete it. Doing so does not delete any email stored on the server.\n"
 msgid ""
 "1. Choose **Configuration**&nbsp;▸ **Edit accounts&hellip;**, select\n"
 "your IMAP account in the list of accounts, and click **Delete** to\n"
@@ -354,9 +341,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "1. Choose **Add mailbox**&nbsp;▸ **MH&hellip;** to create a local\n"
-#| "mailbox where to save your drafts and queued emails.\n"
 msgid ""
 "1. Choose **Add mailbox**&nbsp;▸ **MH&hellip;** to create a local\n"
 "mailbox where to save your drafts and queued emails.\n"
@@ -366,10 +350,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "1. Choose **Configuration**&nbsp;▸ **Edit accounts&hellip;**, select\n"
-#| "your IMAP account in the list of accounts, and click **Edit** to edit\n"
-#| "its preferences.\n"
 msgid ""
 "1. Choose **Configuration**&nbsp;▸ **Edit accounts&hellip;**, select\n"
 "your IMAP account in the list of accounts, and click **Edit** to edit\n"
