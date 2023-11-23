@@ -490,16 +490,12 @@ When(/^I look at the hide mode but then I go back$/) do
 end
 
 # XXX: giving up on a few worst offenders for now
-# rubocop:disable Metrics/AbcSize
-# rubocop:disable Metrics/MethodLength
 def chutney_bridges(bridge_type, chutney_tag: nil)
   chutney_tag = bridge_type if chutney_tag.nil?
   bridge_dirs = Dir.glob(
     "#{$config['TMPDIR']}/chutney-data/nodes/*#{chutney_tag}/"
   )
   assert(bridge_dirs.size.positive?, "No bridges of type '#{chutney_tag}' found")
-  # XXX: giving up on a few worst offenders for now
-  # rubocop:disable Metrics/BlockLength
   bridge_dirs.map do |bridge_dir|
     address = $vmnet.bridge_ip_addr
     port = nil
@@ -539,10 +535,7 @@ def chutney_bridges(bridge_type, chutney_tag: nil)
       line:        bridge_line,
     }
   end
-  # rubocop:enable Metrics/BlockLength
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/MethodLength
 
 def feed_qr_code_video_to_virtual_webcam(qrcode_image)
   white_image = '/usr/share/tails/test_suite/white.jpg'

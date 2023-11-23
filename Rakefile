@@ -584,10 +584,6 @@ def domain_name
   "#{box_name}_default"
 end
 
-# XXX: giving up on a few worst offenders for now
-# rubocop:disable Metrics/AbcSize
-# rubocop:disable Metrics/CyclomaticComplexity
-# rubocop:disable Metrics/MethodLength
 def clean_up_builder_vms
   libvirt = Libvirt.open('qemu:///system')
 
@@ -655,9 +651,6 @@ def clean_up_builder_vms
 ensure
   libvirt.close
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/CyclomaticComplexity
-# rubocop:enable Metrics/MethodLength
 
 desc 'Remove all libvirt volumes named tails-builder-* (run at your own risk!)'
 task :clean_up_libvirt_volumes do

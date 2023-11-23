@@ -159,7 +159,6 @@ class VMStorage
 
   # XXX: giving up on a few worst offenders for now
   # rubocop:disable Metrics/AbcSize
-  # rubocop:disable Metrics/PerceivedComplexity
   def disk_mkpartfs(name, parttype, fstype, **opts)
     opts[:label] ||= nil
     opts[:luks_password] ||= nil
@@ -194,7 +193,6 @@ class VMStorage
     end
   end
   # rubocop:enable Metrics/AbcSize
-  # rubocop:enable Metrics/PerceivedComplexity
 
   def disk_mkswap(name, parttype)
     guestfs_disk_helper(name) do |g, disk_handle|

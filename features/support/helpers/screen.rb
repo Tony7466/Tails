@@ -113,8 +113,6 @@ class Keymaps
   public_constant :COMMON_KEYMAP
 end
 
-# XXX: giving up on a few worst offenders for now
-# rubocop:disable Metrics/ClassLength
 class Screen
   attr_reader :w, :h
 
@@ -232,9 +230,6 @@ class Screen
                       'on the screen'
   end
 
-  # XXX: giving up on a few worst offenders for now
-  # rubocop:disable Metrics/CyclomaticComplexity
-  # rubocop:disable Metrics/PerceivedComplexity
   def press(*sequence, **opts)
     opts[:log] = true if opts[:log].nil?
     # This is the minimum time (in seconds) between invocations of
@@ -280,8 +275,6 @@ class Screen
     sleep(opts[:delay])
     nil
   end
-  # rubocop:enable Metrics/CyclomaticComplexity
-  # rubocop:enable Metrics/PerceivedComplexity
 
   def type(*args, **kwargs)
     args.each do |arg|
@@ -344,10 +337,6 @@ class Screen
     hover(@w - 1, @h / 2)
   end
 
-  # XXX: giving up on a few worst offenders for now
-  # rubocop:disable Metrics/AbcSize
-  # rubocop:disable Metrics/CyclomaticComplexity
-  # rubocop:disable Metrics/PerceivedComplexity
   def click(*args, **opts)
     opts[:button] ||= 1
     opts[:button] = 1 if opts[:button] == 'left'
@@ -370,11 +359,7 @@ class Screen
     assert(stdout.empty?, "xdotool reported an error:\n#{stdout}")
     [x, y]
   end
-  # rubocop:enable Metrics/AbcSize
-  # rubocop:enable Metrics/CyclomaticComplexity
-  # rubocop:enable Metrics/PerceivedComplexity
 end
-# rubocop:enable Metrics/ClassLength
 
 class ImageBumpFailed < StandardError
 end

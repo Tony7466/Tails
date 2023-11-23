@@ -75,7 +75,6 @@ class VM
 
   # XXX: giving up on a few worst offenders for now
   # rubocop:disable Metrics/AbcSize
-  # rubocop:disable Metrics/MethodLength
   def initialize(virt, xml_path, vmnet, storage, x_display)
     @virt = virt
     @xml_path = xml_path
@@ -120,7 +119,6 @@ class VM
     raise e
   end
   # rubocop:enable Metrics/AbcSize
-  # rubocop:enable Metrics/MethodLength
 
   def domain_xml
     REXML::Document.new(@domain.xml_desc)
@@ -306,7 +304,6 @@ class VM
   end
 
   # XXX: giving up on a few worst offenders for now
-  # rubocop:disable Metrics/AbcSize
   def plug_drive(name, type)
     raise "disk '#{name}' already plugged" if disk_plugged?(name)
 
@@ -339,7 +336,6 @@ class VM
 
     plug_device(xml)
   end
-  # rubocop:enable Metrics/AbcSize
 
   def disk_xml_desc(name)
     domain_xml.elements.each('domain/devices/disk') do |e|
