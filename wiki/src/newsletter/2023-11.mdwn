@@ -2,9 +2,7 @@
 
 [[!pagetemplate template="newsletter.tmpl"]]
 
-<a id="view-in-browser" href="https://tails.net/newsletter/2023-11/">View in your browser<span class="hidden">: https://tails.net/newsletter/2023-11/</span></a>
-
-Dear {FIRSTNAME},
+<style>#unsubscribe { display: none; }</style>
 
 At the end of every year, we ask our supporters and well-wishers to make a
 contribution towards our mission. As we enter the last month of 2023, we are
