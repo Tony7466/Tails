@@ -27,7 +27,7 @@ import tailsgreeter.config
 from tailsgreeter import TRANSLATION_DOMAIN
 
 
-class TranslatableWindow(object):
+class TranslatableWindow:
     """Interface providing functions to translate a window on the fly"""
 
     retain_focus = True

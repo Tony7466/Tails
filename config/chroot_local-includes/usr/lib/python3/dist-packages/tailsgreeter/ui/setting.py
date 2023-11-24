@@ -15,24 +15,24 @@ from gi.repository import Gtk
 SETTING_UI_FILE = "setting.ui"
 
 
-class GreeterSetting(object):
+class GreeterSetting:
     """Base class of all settings in the greeter"""
 
     @property
     def id(self) -> str:
-        return str()
+        return ""
 
     @property
     def title(self) -> str:
-        return str()
+        return ""
 
     @property
     def icon_name(self) -> str:
-        return str()
+        return ""
 
     @property
     def value_for_display(self) -> str:
-        return str()
+        return ""
 
     def __init__(self):
         self.accel_key = None

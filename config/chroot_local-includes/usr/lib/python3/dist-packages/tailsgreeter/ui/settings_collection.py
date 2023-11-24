@@ -8,7 +8,7 @@ gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
 
-class GreeterSettingsCollection(object):
+class GreeterSettingsCollection:
     def __init__(self, *settings: GreeterSetting, no_subclassification=False):
         self.settings = {setting.id: setting for setting in settings}
 

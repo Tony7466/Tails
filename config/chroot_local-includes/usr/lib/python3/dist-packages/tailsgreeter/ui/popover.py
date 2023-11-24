@@ -5,7 +5,7 @@ gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
 
-class Popover(object):
+class Popover:
     def __init__(self, relative_widget, content_widget: Gtk.Popover):
         self.widget = Gtk.Popover.new(relative_widget)
         self.widget.set_position(Gtk.PositionType.BOTTOM)

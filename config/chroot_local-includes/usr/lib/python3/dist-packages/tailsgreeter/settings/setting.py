@@ -5,7 +5,7 @@ from tailsgreeter.settings import SettingNotFoundError
 from tailsgreeter.settings.utils import read_settings, write_settings
 
 
-class Setting(object):
+class Setting:
     def __init__(self, settings_file, setting_name):
         self.settings_file = settings_file
         self.setting_name = setting_name

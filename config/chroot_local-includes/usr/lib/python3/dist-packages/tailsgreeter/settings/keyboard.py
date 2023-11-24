@@ -253,7 +253,7 @@ class KeyboardSetting(LocalizationSetting):
             # Can't find a single result, build a new list for the country
             layouts = country_layouts
             logging.debug(
-                "Still not 1 layouts. Try again using all country " "%s layouts: %s",
+                "Still not 1 layouts. Try again using all country %s layouts: %s",
                 country,
                 layouts,
             )

@@ -1,6 +1,5 @@
 import gi
 import logging
-import os
 from typing import Callable
 
 import tailsgreeter.config
