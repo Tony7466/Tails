@@ -207,7 +207,8 @@ class TimezonePopover:
             if (
                 treemodel.iter_children(treeiter) is not None
             ):  # has children: it is a region
-                # user cannot select a parent node like "Europe", because that's not a timezone
+                # user cannot select a parent node like "Europe",
+                # because that's not a timezone
                 # XXX: expand/collapse this row would probably be better UX
                 return
         self.value = treemodel.get_value(treeiter, 0)
@@ -229,7 +230,8 @@ class TimezonePopover:
             return True
 
         # Does the parent node match the search?
-        #   In theory that's important; but since we're matching agasint the whole timezone, which includes
+        #   In theory that's important; but since we're matching agaisnt
+        #   the whole timezone, which includes
         #   the name of the parent, that's already covered
 
         # Does any of the children nodes match the search?

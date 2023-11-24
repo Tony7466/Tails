@@ -175,10 +175,13 @@ def idle_add_chain(functions: list[Callable]):
     """
     Wrap GLib.idle_add allowing chains of functions.
 
-    Use case: idle_add is very cool, but modifications to widgets aren't applied until the whole method add.
-    A simple solution to this shortcoming is split your function in many small ones, and call them in a chain.
+    Use case: idle_add is very cool, but modifications to widgets aren't applied
+    until the whole method add.
+    A simple solution to this shortcoming is split your function in many small ones,
+    and call them in a chain.
 
-    Using idle_add_chain, you can write each step as a separate function, then call idle_add_chain with a list
+    Using idle_add_chain, you can write each step as a separate function,
+    then call idle_add_chain with a list
     of those functions. The chain will continue ONLY if you return True.
     """
     if not functions:

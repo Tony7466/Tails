@@ -390,7 +390,8 @@ class StepChooseBridgeMixin:
 
             raw_content = res.get("stdout", "").strip()
             if not raw_content:
-                # if the output is empty, we assume that the user closed the window by themself
+                # if the output is empty, we assume that the user closed the window
+                # by themself.
                 # to be really sure, we should use zbarcam --xml;
                 # however, do "empty" QR codes even exists?
                 set_error(
