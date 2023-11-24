@@ -1,6 +1,3 @@
-#!/usr/bin/python3
-
-
 """ Functions to open sockets and files and make them inheritable.
 
 This is useful when you want to open a socket or file with higher
