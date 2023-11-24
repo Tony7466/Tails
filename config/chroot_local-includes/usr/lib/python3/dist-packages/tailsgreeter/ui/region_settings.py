@@ -18,7 +18,6 @@ gi.require_version("Pango", "1.0")
 from gi.repository import Gtk, Pango
 
 
-
 REGION_SETTINGS_UI_FILE = "region_settings.ui"
 
 
