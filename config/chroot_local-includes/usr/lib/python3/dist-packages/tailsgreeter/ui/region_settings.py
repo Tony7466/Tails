@@ -5,27 +5,25 @@ from typing import Callable, Optional
 from tailsgreeter import TRANSLATION_DOMAIN
 import tailsgreeter.config
 from tailsgreeter.settings import SettingNotFoundError
+from tailsgreeter.settings.formats import FormatsSetting
+from tailsgreeter.settings.keyboard import KeyboardSetting
+from tailsgreeter.settings.language import LanguageSetting
+from tailsgreeter.settings.localization import LocalizationSetting
 from tailsgreeter.ui import _
 from tailsgreeter.ui.setting import GreeterSetting
 from tailsgreeter.ui.popover import Popover
-from typing import TYPE_CHECKING, Callable
 
 gi.require_version("Gtk", "3.0")
 gi.require_version("Pango", "1.0")
 from gi.repository import Gtk, Pango
 
-if TYPE_CHECKING:
-    from tailsgreeter.settings.localization import LocalizationSetting
-    from tailsgreeter.settings.language import LanguageSetting
-    from tailsgreeter.settings.formats import FormatsSetting
-    from tailsgreeter.settings.keyboard import KeyboardSetting
 
 
 REGION_SETTINGS_UI_FILE = "region_settings.ui"
 
 
 class LocalizationSettingUI(GreeterSetting):
-    def __init__(self, localization_setting: "LocalizationSetting"):
+    def __init__(self, localization_setting: LocalizationSetting):
         self._setting = localization_setting
         self.value: Optional[str] = self.default
         self.value_changed_by_user = False
@@ -183,7 +181,7 @@ class LocalizationSettingUI(GreeterSetting):
 
 
 class LanguageSettingUI(LocalizationSettingUI):
-    _setting = None  # type: LanguageSetting
+    _setting: LanguageSetting = None
 
     @property
     def id(self) -> str:
@@ -205,7 +203,7 @@ class LanguageSettingUI(LocalizationSettingUI):
     def default(self) -> str:
         return "en_US"
 
-    def __init__(self, setting: "LanguageSetting", changed_cb: Callable):
+    def __init__(self, setting: LanguageSetting, changed_cb: Callable):
         self.changed_cb = changed_cb
         super().__init__(setting)
 
@@ -226,7 +224,7 @@ class LanguageSettingUI(LocalizationSettingUI):
 
 
 class FormatsSettingUI(LocalizationSettingUI):
-    _setting = None  # type: FormatsSetting
+    _setting: FormatsSetting = None
 
     @property
     def id(self) -> str:
@@ -263,7 +261,7 @@ class FormatsSettingUI(LocalizationSettingUI):
 
 
 class KeyboardSettingUI(LocalizationSettingUI):
-    _setting = None  # type: KeyboardSetting
+    _setting: KeyboardSetting = None
 
     @property
     def id(self) -> str:
