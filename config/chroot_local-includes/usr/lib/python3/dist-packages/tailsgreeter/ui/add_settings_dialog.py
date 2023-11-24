@@ -108,6 +108,8 @@ class AddSettingsDialog(Gtk.Dialog, TranslatableWindow):
         self.button_add.set_visible(not setting.hide_button_add)
         setting.on_opened_in_dialog()
 
+        return True
+
     def run(self, id_=None) -> int:
         # Set the dialog attribute for the additional settings.
         # This is required in order to allow the interactions with the

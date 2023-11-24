@@ -45,10 +45,10 @@ class StringSetting(Setting):
 
 
 class BooleanSetting(StringSetting):
-    def save(self, value: bool):
+    def save(self, value: bool):  # type: ignore[override]
         super().save(value)
 
-    def load(self) -> bool:
+    def load(self) -> bool:  # type: ignore[override]
         value_str = super().load()
         value = value_str == "true"
         logging.debug("Loaded setting %s: '%s'", self.setting_name, value)

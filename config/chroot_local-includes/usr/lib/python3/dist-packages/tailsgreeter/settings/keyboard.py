@@ -1,5 +1,6 @@
 import gi
 import logging
+from typing import Optional
 
 import tailsgreeter.config
 from tailsgreeter.settings import SettingNotFoundError
@@ -44,7 +45,7 @@ class KeyboardSetting(LocalizationSetting):
             },
         )
 
-    def load(self) -> (str, bool):
+    def load(self) -> tuple[str, bool]:
         try:
             settings = read_settings(self.settings_file)
         except FileNotFoundError:
@@ -96,7 +97,7 @@ class KeyboardSetting(LocalizationSetting):
     def get_name(self, value: str) -> str:
         return self._layout_name(value)
 
-    def get_all(self) -> [str]:
+    def get_all(self) -> list[str]:
         """Return a list of all keyboard layout codes"""
         return self.xkbinfo.get_all_layouts()
 
@@ -110,9 +111,9 @@ class KeyboardSetting(LocalizationSetting):
         ) = self.xkbinfo.get_layout_info(layout_code)
         if not layout_exists:
             logging.warning("Layout code '%s' does not exist", layout_code)
-        return display_name
+        return str(display_name)
 
-    def _layouts_split_names(self, layout_codes) -> [str]:
+    def _layouts_split_names(self, layout_codes: list[str]) -> dict:
         layouts_names = {}
         for layout_code in layout_codes:
             layout_name = self._layout_name(layout_code)
@@ -123,7 +124,7 @@ class KeyboardSetting(LocalizationSetting):
                 layouts_names[country_name].add(layout_code)
         return layouts_names
 
-    def _layouts_for_language(self, lang_code) -> [str]:
+    def _layouts_for_language(self, lang_code) -> list[str]:
         """Return the list of available layouts for given language"""
         try:
             t_code = ln_iso639_tri(lang_code)
@@ -132,7 +133,7 @@ class KeyboardSetting(LocalizationSetting):
         if t_code == "nno" or t_code == "nob":
             t_code = "nor"
 
-        layouts = self.xkbinfo.get_layouts_for_language(t_code)
+        layouts: list[str] = self.xkbinfo.get_layouts_for_language(t_code)
 
         if t_code == "hrv":
             layouts.append("hr")
@@ -151,7 +152,7 @@ class KeyboardSetting(LocalizationSetting):
         logging.debug("got %d layouts for %s", len(layouts), lang_code)
         return layouts
 
-    def _layouts_for_country(self, country) -> [str]:
+    def _layouts_for_country(self, country) -> list[str]:
         """Return the list of available layouts for given country"""
 
         # XXX: it would be logical to use:
@@ -168,9 +169,10 @@ class KeyboardSetting(LocalizationSetting):
         return layouts
 
     @staticmethod
-    def _split_variant(layout_code) -> (str, str):
+    def _split_variant(layout_code: str) -> tuple[str, Optional[str]]:
         if "+" in layout_code:
-            return layout_code.split("+")
+            components = layout_code.split("+")
+            return components[0], components[1]
         else:
             return layout_code, None
 
@@ -242,7 +244,7 @@ class KeyboardSetting(LocalizationSetting):
                 "List still empty, filter by language %s only: %s", language, layouts
             )
         if not layouts:
-            layouts = language_layouts
+            layouts = set(language_layouts)
             logging.debug(
                 "List still empty, use all language %s layouts: %s", language, layouts
             )
@@ -251,7 +253,7 @@ class KeyboardSetting(LocalizationSetting):
         layouts = self._filter_layouts(layouts, country, language)
         if len(layouts) != 1:
             # Can't find a single result, build a new list for the country
-            layouts = country_layouts
+            layouts = set(country_layouts)
             logging.debug(
                 "Still not 1 layouts. Try again using all country %s layouts: %s",
                 country,

@@ -20,7 +20,6 @@ import logging
 import os
 
 import gettext
-from typing import List
 
 _ = gettext.gettext
 
@@ -67,7 +66,7 @@ class PersistentStorageSettings(object):
         self,
         proxy: Gio.DBusProxy,
         changed_properties: GLib.Variant,
-        invalidated_properties: List[str],
+        invalidated_properties: list[str],
     ):
         """Callback for when the Persistent Storage properties change"""
         logging.debug("changed properties: %s", changed_properties)

@@ -29,9 +29,9 @@ if TYPE_CHECKING:
 
 
 class LocalizationSetting(GObject.Object, object):
-    def __init__(self):
+    def __init__(self) -> None:
         GObject.Object.__init__(self)
-        self.value = ""
+        self.value: str = ""
         self.value_changed_by_user = False
 
     def get_value(self) -> str:
@@ -46,7 +46,7 @@ class LocalizationSetting(GObject.Object, object):
     def save(self, value: str, is_default: bool):
         pass
 
-    def load(self) -> (str, bool):
+    def load(self):
         pass
 
 
@@ -63,7 +63,7 @@ def ln_iso639_2_T_to_B(lng):
     return pycountry.languages.get(terminology=lng).bibliographic
 
 
-def language_from_locale(locale):
+def language_from_locale(locale: str) -> str:
     """Obtain the language code from a locale code
 
     example: fr_FR -> fr"""
@@ -77,7 +77,7 @@ def country_from_locale(locale):
     return locale.split("_")[1]
 
 
-def countries_from_locales(locales) -> [str]:
+def countries_from_locales(locales) -> list[str]:
     """Obtain a country code list from a locale code list
 
     example: [fr_FR, en_GB] -> [FR, GB]"""

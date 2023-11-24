@@ -1,5 +1,6 @@
 import logging
 import gi
+from typing import Callable, Optional
 
 from tailsgreeter import TRANSLATION_DOMAIN
 import tailsgreeter.config
@@ -26,7 +27,7 @@ REGION_SETTINGS_UI_FILE = "region_settings.ui"
 class LocalizationSettingUI(GreeterSetting):
     def __init__(self, localization_setting: "LocalizationSetting"):
         self._setting = localization_setting
-        self.value = self.default  # type: {str, None}
+        self.value: Optional[str] = self.default
         self.value_changed_by_user = False
         super().__init__()
 
@@ -80,7 +81,7 @@ class LocalizationSettingUI(GreeterSetting):
         return True
 
     @property
-    def default(self) -> {str, None}:
+    def default(self) -> Optional[str]:
         return None
 
     def on_language_changed(self, locale: str):

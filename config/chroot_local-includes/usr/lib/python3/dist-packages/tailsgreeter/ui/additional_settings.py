@@ -446,3 +446,5 @@ def get_on_off_string(value, default=None) -> str:
         return _("Off")
     if not value and not default:
         return _("Off (default)")
+    else:
+        raise NotImplementedError

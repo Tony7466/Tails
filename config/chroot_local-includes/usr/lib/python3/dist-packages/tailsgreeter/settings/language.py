@@ -40,7 +40,7 @@ from gi.repository import GLib, GObject, GnomeDesktop, Gtk
 
 
 class LanguageSetting(LocalizationSetting):
-    def __init__(self, locales: [str]):
+    def __init__(self, locales: list[str]):
         super().__init__()
         self.locales = locales
         self._user_account = None
@@ -61,7 +61,7 @@ class LanguageSetting(LocalizationSetting):
             },
         )
 
-    def load(self) -> (str, bool):
+    def load(self) -> tuple[str, bool]:
         try:
             settings = read_settings(self.settings_file)
         except FileNotFoundError:
@@ -143,12 +143,12 @@ class LanguageSetting(LocalizationSetting):
             local_locale = self.get_default_locale(lang_code)
 
         try:
-            native_name = GnomeDesktop.get_language_from_code(
+            native_name: str = GnomeDesktop.get_language_from_code(
                 lang_code, local_locale
             ).capitalize()
         except AttributeError:
             native_name = ""
-        localized_name = GnomeDesktop.get_language_from_code(
+        localized_name: str = GnomeDesktop.get_language_from_code(
             lang_code, default_locale
         ).capitalize()
 
@@ -231,11 +231,13 @@ class LanguageSetting(LocalizationSetting):
         else:
             logging.warning("AccountsManager not ready")
 
-    def _make_language_to_locale_dict(self, locale_codes: [str]) -> {str: str}:
+    def _make_language_to_locale_dict(
+        self, locale_codes: list[str]
+    ) -> dict[str, list[str]]:
         """assemble dictionary of language codes to corresponding locales list
 
         example {en: [en_US, en_GB], ...}"""
-        languages_dict = {}
+        languages_dict: dict[str, list[str]] = {}
         for locale_code in locale_codes:
             lang_code = self._language_from_locale(locale_code)
             if lang_code not in languages_dict:
@@ -244,7 +246,9 @@ class LanguageSetting(LocalizationSetting):
                 languages_dict[lang_code].append(locale_code)
         return languages_dict
 
-    def _make_language_to_language_name_dict(self, lang_codes: [str]) -> {str: str}:
+    def _make_language_to_language_name_dict(
+        self, lang_codes: list[str]
+    ) -> dict[str, str]:
         """assemble dictionary of language code to corresponding language name,
          sorted by the language name.
 
@@ -269,7 +273,7 @@ class LanguageSetting(LocalizationSetting):
             return "zht"
         return lang_code
 
-    def _languages_from_locales(self, locale_codes: [str]) -> [str]:
+    def _languages_from_locales(self, locale_codes: list[str]) -> list[str]:
         """Obtain a language code list from a locale code list
 
         example: [fr_FR, en_GB] -> [fr, en]"""

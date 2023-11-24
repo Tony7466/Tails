@@ -1,4 +1,4 @@
-from typing import TYPE_CHECKING
+from typing import Optional, TYPE_CHECKING
 import gi
 
 from tailsgreeter import TRANSLATION_DOMAIN
@@ -34,14 +34,14 @@ class GreeterSetting:
     def value_for_display(self) -> str:
         return ""
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.accel_key = None
-        self.popover = None  # type: Union[None, Popover]
-        self.main_window = None  # type:  Union[None, GreeterMainWindow]
+        self.popover: Optional[Popover] = None
+        self.main_window: Optional[GreeterMainWindow] = None
 
         self.builder = Gtk.Builder()
         self.builder.set_translation_domain(TRANSLATION_DOMAIN)
-        self.builder.add_from_file((tailsgreeter.config.data_path + SETTING_UI_FILE))
+        self.builder.add_from_file(tailsgreeter.config.data_path + SETTING_UI_FILE)
         self.listboxrow = self.builder.get_object("listboxrow")  # type: Gtk.ListBoxRow
         image = self.builder.get_object("image")  # type: Gtk.Image
         image.set_from_icon_name(self.icon_name, Gtk.IconSize.LARGE_TOOLBAR)

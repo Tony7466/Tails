@@ -10,12 +10,12 @@ class Popover:
         self.widget = Gtk.Popover.new(relative_widget)
         self.widget.set_position(Gtk.PositionType.BOTTOM)
         self.widget.add(content_widget)
-        self.closed_cb = None  # type: Union[None, Callable]
+        self.closed_cb: Union[None, Callable] = None
         self.closed_cb_user_data = None
-        self.opened_cb = None  # type: Union[None, Callable]
+        self.opened_cb: Union[None, Callable] = None
         self.opened_cb_user_data = None
         self.closed_signal_handler = None
-        self.response = None  # type: Union[None, Gtk.ResponseType]
+        self.response: Union[None, Gtk.ResponseType] = None
 
     def on_closed(self, widget):
         if self.closed_cb:
@@ -37,4 +37,5 @@ class Popover:
         self.widget.set_visible(False)
 
     def is_open(self) -> bool:
-        return self.widget.get_visible()
+        is_visible: bool = self.widget.get_visible()
+        return is_visible

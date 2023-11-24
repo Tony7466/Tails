@@ -18,7 +18,7 @@ from gi.repository import GObject, GnomeDesktop, Gtk
 
 
 class FormatsSetting(LocalizationSetting):
-    def __init__(self, language_codes: [str]):
+    def __init__(self, language_codes: list[str]):
         super().__init__()
         self.locales_per_country = self._make_locales_per_country_dict(language_codes)
         self.settings_file = tailsgreeter.config.formats_setting_path
@@ -32,7 +32,7 @@ class FormatsSetting(LocalizationSetting):
             },
         )
 
-    def load(self) -> (str, bool):
+    def load(self) -> tuple[str, bool]:
         try:
             settings = read_settings(self.settings_file)
         except FileNotFoundError:
@@ -109,12 +109,12 @@ class FormatsSetting(LocalizationSetting):
     def _country_name(self, country_code) -> str:
         default_locale = "C"
         local_locale = self.get_default_locale(country_code)
-        native_name = GnomeDesktop.get_country_from_code(
+        native_name: str = GnomeDesktop.get_country_from_code(
             country_code, add_encoding(local_locale)
         )
         if not native_name:
             return ""
-        localized_name = GnomeDesktop.get_country_from_code(
+        localized_name: str = GnomeDesktop.get_country_from_code(
             country_code, add_encoding(default_locale)
         )
         if native_name == localized_name:
@@ -125,7 +125,7 @@ class FormatsSetting(LocalizationSetting):
             )
 
     @staticmethod
-    def _locale_name(locale_code) -> str:
+    def _locale_name(locale_code: str) -> str:
         lang_code = language_from_locale(locale_code)
         country_code = country_from_locale(locale_code)
         language_name_locale = GnomeDesktop.get_language_from_code(lang_code)
@@ -162,11 +162,13 @@ class FormatsSetting(LocalizationSetting):
             return locale_code
 
     @staticmethod
-    def _make_locales_per_country_dict(language_codes: [str]) -> {str: [str]}:
+    def _make_locales_per_country_dict(
+        language_codes: list[str],
+    ) -> dict[str, list[str]]:
         """assemble dictionary of country codes to corresponding locales list
 
         example {FR: [fr_FR, en_FR], ...}"""
-        res = {}
+        res: dict[str, list[str]] = {}
         for language_code in language_codes:
             country_code = country_from_locale(language_code)
             if country_code not in res:

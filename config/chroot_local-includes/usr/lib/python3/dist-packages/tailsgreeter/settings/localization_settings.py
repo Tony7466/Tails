@@ -36,7 +36,7 @@ class LocalisationSettings(object):
             self._actusermanager.disconnect(self._actusermanager_loadedid)
 
     @staticmethod
-    def _get_locales() -> [str]:
+    def _get_locales() -> list[str]:
         with open(tailsgreeter.config.supported_locales_path, "r") as f:
             return [line.rstrip("\n") for line in f.readlines()]
 
