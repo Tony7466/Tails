@@ -86,7 +86,7 @@ Updating LimeSurvey
 
    Should return:
 
-       commit 894643ab3752766f46fa3fcbf5634936e9908da2 (HEAD)
+       commit 38a457d28c4a0598e17692d8c99dd8f6ccdc0200 (HEAD)
        Author: www-data <www-data@survey.lizard>
        Date:   Thu Aug 3 18:53:17 2023 +0000
 
