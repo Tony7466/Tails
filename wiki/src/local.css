@@ -7,6 +7,7 @@
   --background-purple: #f3edf9;
 
   /* Green */
+  --darker-green: #014d00;
   --dark-green: #3b833a;
   --medium-dark-green: #53b351;
   --medium-light-green: #73d171; /* buttons */
@@ -675,8 +676,8 @@ a {
 }
 
 #pagebody a {
-  color: var(--medium-dark-green);
-  border-bottom: 1px solid var(--medium-dark-green);
+  color: var(--dark-green);
+  border-bottom: 1px solid var(--dark-green);
 }
 
 #pagebody a:hover {
@@ -684,8 +685,8 @@ a {
 }
 
 #pagebody a:visited {
-  color: var(--dark-green);
-  border-color: var(--dark-green);
+  color: var(--darker-green) !important;
+  border-color: 1px solid var(--darker-green) !important;
 }
 
 /* test inside and outside links */
