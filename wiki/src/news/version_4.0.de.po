@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-24 10:42+0000\n"
+"PO-Revision-Date: 2023-11-24 21:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -55,6 +55,9 @@ msgid ""
 "This release also fixes [[many security issues|security/"
 "Numerous_security_holes_in_3.16]]. You should upgrade as soon as possible."
 msgstr ""
+"Diese Version behebt auch [[viele Sicherheitsprobleme|security/"
+"Numerous_security_holes_in_3.16]]. Sie sollten so bald wie möglich "
+"aktualisieren."
 
 #. type: Plain text
 #, no-wrap
