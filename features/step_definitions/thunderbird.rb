@@ -28,7 +28,7 @@ When /^I start Thunderbird$/ do
     'pref("mail.compose.attachment_reminder", false);',
   ]
   workaround_pref_lines.each do |line|
-    $vm.file_append('/etc/thunderbird/pref/thunderbird.js', line + "\n")
+    $vm.file_append('/etc/thunderbird/pref/thunderbird.js', "#{line}\n")
   end
   step 'I start "Thunderbird" via GNOME Activities Overview'
   try_for(60) { thunderbird_main }

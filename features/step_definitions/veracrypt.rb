@@ -54,8 +54,8 @@ def prepare_veracrypt_volume(type, with_keyfile)
 end
 
 def create_veracrypt_volume(block_device, keyfile)
-  tcplay_create_cmd = "tcplay --create --device='#{block_device}'" \
-                    + ' --weak-keys --insecure-erase'
+  tcplay_create_cmd = "tcplay --create --device='#{block_device}' " \
+                      '--weak-keys --insecure-erase'
   tcplay_create_cmd += ' --hidden' if @veracrypt_is_hidden
   tcplay_create_cmd += " --keyfile='#{keyfile}'" if @veracrypt_needs_keyfile
   debug_log "tcplay create command: #{tcplay_create_cmd}"
@@ -112,7 +112,7 @@ def map_veracrypt_volume(block_device, keyfile)
 end
 
 def populate_veracrypt_volume(unlocked_veracrypt_mapping)
-  unlocked_block_device = '/dev/mapper/' + unlocked_veracrypt_mapping
+  unlocked_block_device = "/dev/mapper/#{unlocked_veracrypt_mapping}"
   fatal_system "mkfs.vfat '#{unlocked_block_device}' >/dev/null"
   Dir.mktmpdir('veracrypt-mountpoint', $config['TMPDIR']) do |mountpoint|
     fatal_system "mount -t vfat '#{unlocked_block_device}' '#{mountpoint}'"
@@ -162,7 +162,7 @@ When /^I unlock and mount this VeraCrypt (volume|file container) with Unlock Ver
   when 'file container'
     @screen.wait('UnlockVeraCryptVolumesAddButton.png', 10).click
     @screen.wait('Gtk3FileChooserDocumentsButton.png', 10)
-    @screen.paste(@veracrypt_shared_dir_in_guest + '/' + $veracrypt_volume_name,
+    @screen.paste("#{@veracrypt_shared_dir_in_guest}/#{$veracrypt_volume_name}",
                   app: :gtk_file_chooser)
     sleep 2 # avoid ENTER being eaten by the auto-completion system
     @screen.press('Return')
@@ -223,7 +223,7 @@ When /^I unlock and mount this VeraCrypt (volume|file container) with GNOME Disk
       # to generate a mouse event at negative coordinates" Dogtail error
       false
     end
-    @screen.paste(@veracrypt_shared_dir_in_guest + '/' + $veracrypt_volume_name,
+    @screen.paste("#{@veracrypt_shared_dir_in_guest}/#{$veracrypt_volume_name}",
                   app: :gtk_file_chooser)
     sleep 2 # avoid ENTER being eaten by the auto-completion system
     @screen.press('Return')
@@ -280,8 +280,8 @@ When /^I unlock and mount this VeraCrypt (volume|file container) with GNOME Disk
     # the "Mount selected partition" button.
     sleep 0.5 # otherwise the following key press is sometimes lost
     @screen.press('down')
-    disks.child('', roleName: 'panel',
-                description: 'Mount selected partition')
+    disks.child('', roleName:    'panel',
+                    description: 'Mount selected partition')
          .child('Mount', roleName: 'push button')
          .click
     true
@@ -297,11 +297,12 @@ end
 
 When /^I open this VeraCrypt volume in GNOME Files$/ do
   $vm.spawn('nautilus /media/amnesia/*', user: LIVE_USER)
+  volume_size_in_nautilus = veracrypt_volume_size_in_nautilus(
+    isHidden: @veracrypt_is_hidden,
+    needsPim: @veracrypt_needs_pim
+  )
   Dogtail::Application.new('org.gnome.Nautilus').window(
-    veracrypt_volume_size_in_nautilus(
-      isHidden: @veracrypt_is_hidden,
-      needsPim: @veracrypt_needs_pim
-    ) + ' Volume'
+    "#{volume_size_in_nautilus} Volume"
   )
 end
 

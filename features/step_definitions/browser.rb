@@ -8,10 +8,60 @@ def save_page_as
     roleName:    'push button'
   ).press
   browser.child(
-    name:        'Save page as\u2026',
-    roleName:    'push button'
+    name:     'Save page as\u2026',
+    roleName: 'push button'
   ).press
   browser.child('Save As', roleName: 'file chooser')
+end
+
+def browser_url_entry
+  # Unfortunately the Dogtail nodes' names are also translated, so for
+  # non-English we have to use a less efficient and (potentially) less
+  # future-proof way to find the URL entry.
+  if $language.empty? # English
+    browser.child('Navigation', roleName: 'tool bar')
+           .child(roleName: 'entry')
+  else
+    browser.children(roleName: 'tool bar')
+           .find { |n| n.child?(roleName: 'entry', retry: false) }
+           .child(roleName: 'entry')
+  end
+end
+
+def get_current_browser_url
+  browser_url_entry.text
+end
+
+def set_browser_url(url)
+  browser_url_entry.grabFocus
+  try_for(10) do
+    focused = browser.focused_child
+    # Just matching against any entry could be racy if some other
+    # entry had focus when calling this step, but address bar is
+    # probably the only entry inside a tool bar.
+    focused.roleName == 'entry' && focused.parent.parent.roleName == 'tool bar'
+  end
+  # We're retrying to workaround #19237.
+  #
+  # Dogtail's .text= would be a simpler and more robust workaround,
+  # but we can't use it yet due to
+  # https://bugzilla.mozilla.org/show_bug.cgi?id=1861026
+  retry_action(10) do
+    @screen.press('ctrl', 'a')
+    try_for(3) do
+      _, selection_length = browser_url_entry.get_text_selection_range
+      get_current_browser_url.length == selection_length
+    end
+    @screen.press('backspace')
+    try_for(3) do
+      get_current_browser_url.empty?
+    end
+    @screen.paste(url)
+    try_for(3) do
+      get_current_browser_url == url
+    end
+    true
+  end
 end
 
 When /^I (?:try to )?start the Unsafe Browser$/ do
@@ -26,11 +76,7 @@ When /^I successfully start the Unsafe Browser(?: in "([^"]+)")?$/ do |lang_code
     step 'I see the "Starting the Unsafe Browser..." notification ' \
          'after at most 60 seconds'
   end
-  if lang_code && lang_code != 'en'
-    step "the Unsafe Browser has started in \"#{lang_code}\""
-  else
-    step 'the Unsafe Browser has started'
-  end
+  step 'the Unsafe Browser has started'
 end
 
 # This step works reliably only when there's no more than one tab:
@@ -47,8 +93,10 @@ When(/^I kill the ((?:Tor|Unsafe) Browser)$/) do |browser|
     $vm.execute("pgrep --full --exact '#{info[:cmd_regex]}'").failure?
   end
 
-  # ugly fix to #18568; in my local testing, 3 seconds are always needed. Let's add some more.
-  # a better solution would be to wait until GNOME "received" the fact that Tor Browser has gone away.
+  # Ugly fix to #18568; in my local testing, 3 seconds are always needed.
+  # Let's add some more.
+  # A better solution would be to wait until GNOME "received" the fact
+  # that the browser has gone away.
   sleep 5
 end
 
@@ -61,8 +109,8 @@ def tor_browser_application_info(defaults)
               "/home/#{user}/\.tor-browser/profile\.default"
   defaults.merge(
     {
-      user:                            user,
-      cmd_regex:                       cmd_regex,
+      user:,
+      cmd_regex:,
       chroot:                          '',
       new_tab_button_image:            'TorBrowserNewTabButton.png',
       browser_reload_button_image:     'TorBrowserReloadButton.png',
@@ -81,8 +129,8 @@ def unsafe_browser_application_info(defaults)
               "--profile /home/#{user}/\.unsafe-browser/profile\.default"
   defaults.merge(
     {
-      user:                        user,
-      cmd_regex:                   cmd_regex,
+      user:,
+      cmd_regex:,
       chroot:                      '/var/lib/unsafe-browser/chroot',
       new_tab_button_image:        'UnsafeBrowserNewTabButton.png',
       browser_reload_button_image: 'UnsafeBrowserReloadButton.png',
@@ -117,17 +165,6 @@ When /^I open a new tab in the (.*)$/ do |browser_name|
     @screen.click(info[:new_tab_button_image])
     @screen.wait(info[:address_bar_image], 15)
   end
-  # Focus the address bar since that is what we want to interact with
-  # after this step
-  @screen.click(info[:address_bar_image])
-  browser = Dogtail::Application.new('Firefox')
-  try_for(10) do
-    focused = browser.focused_child
-    # Just matching against any entry could be racy if some other
-    # entry had focus when calling this step, but address bar is
-    # probably the only entry inside a tool bar.
-    focused.roleName == 'entry' && focused.parent.parent.roleName == 'tool bar'
-  end
 end
 
 When /^I open the address "([^"]*)" in the (.* Browser)( without waiting)?$/ do |address, browser_name, non_blocking|
@@ -135,7 +172,7 @@ When /^I open the address "([^"]*)" in the (.* Browser)( without waiting)?$/ do 
   info = xul_application_info(browser_name)
   open_address = proc do
     step "I open a new tab in the #{browser_name}"
-    @screen.paste(address)
+    set_browser_url(address)
     @screen.press('Return')
   end
   recovery_on_failure = proc do
@@ -257,8 +294,8 @@ When /^I download some file in the Tor Browser$/ do
   # "frame" and sometimes with "dialog", so we deliberately do not
   # specify the roleName.
   button = @torbrowser
-             .child("Opening #{@some_file}")
-             .button('Save File')
+           .child("Opening #{@some_file}")
+           .button('Save File')
   try_for(10) { button.sensitive }
   button.press
   @torbrowser
@@ -358,7 +395,7 @@ Then /^DuckDuckGo is the default search engine$/ do
     ddg_search_prompt = "DuckDuckGoSearchPrompt#{$language}.png"
   end
   step 'I open a new tab in the Tor Browser'
-  @screen.paste('a random search string')
+  set_browser_url('a random search string')
   @screen.wait(ddg_search_prompt, 20)
 end
 
@@ -375,6 +412,10 @@ Then(/^the screen keyboard works in Tor Browser$/) do
   end
   step 'I start the Tor Browser'
   step 'I open a new tab in the Tor Browser'
+  # When opening a new tab the address bar's entry is focused which
+  # should show the OSK, but it doesn't. Dogtail's .grabFocus doesn't
+  # trigger it either.
+  @screen.click(xul_application_info('Tor Browser')[:address_bar_image])
   @screen.wait('ScreenKeyboard.png', 20)
   @screen.wait_any(osk_key_images, 20).click
   @screen.wait(browser_bar_x, 20)
@@ -395,10 +436,8 @@ end
 Then /^Tor Browser's circuit view is working$/ do
   @torbrowser.child('Tor Circuit', roleName: 'push button').click
   nodes = @torbrowser.child('This browser', roleName: 'list item')
-            .parent.children(roleName: 'list item')
-  url = @torbrowser.child('Navigation', roleName: 'tool bar')
-          .parent.child(roleName: 'entry').text
-  domain = URI.parse(url).host.split('.')[-2..-1].join('.')
+                     .parent.children(roleName: 'list item')
+  domain = URI.parse(get_current_browser_url).host.split('.')[-2..].join('.')
   assert_equal('This browser', nodes.first.name)
   assert_equal(domain, nodes.last.name)
   assert_equal(5, nodes.size)
@@ -543,8 +582,8 @@ end
 When /^I request a new identity in Tor Browser$/ do
   # Each tab (and only them) has its own 'document web' node
   @old_tab_names = @torbrowser
-                     .children(roleName: 'document web', showingOnly: false)
-                     .map { |tab| tab.name }
+                   .children(roleName: 'document web', showingOnly: false)
+                   .map(&:name)
   @torbrowser.child('New Identity', roleName: 'push button').press
   @torbrowser.child('Restart Tor Browser', roleName: 'push button').press
 end
@@ -555,16 +594,14 @@ Then /^the Tor Browser restarts into a fresh session$/ do
     tabs = @torbrowser.children(roleName: 'document web', showingOnly: false)
     assert_equal(1, tabs.size)
     only_tab = tabs.first
-    assert_equal("New Tab", only_tab.name)
+    assert_equal('New Tab', only_tab.name)
     # Since Tor Browser 13.0, requesting a New Identity restarts and
     # loads about:tor and not the start page. This link always exists on
     # the about:tor page in Tails as part of the info box explaining
     # that Tor Browser is not managing tor.
     only_tab.child('Test your connection', roleName: 'link')
-    assert_not_equal(@old_tab_names, tabs.map { |tab| tab.name })
+    assert_not_equal(@old_tab_names, tabs.map(&:name))
     true
   end
-  url = @torbrowser.child('Navigation', roleName: 'tool bar')
-          .parent.child(roleName: 'entry').text
-  assert_empty(url)
+  assert_empty(get_current_browser_url)
 end

@@ -24,7 +24,7 @@ def select_virtual_desktop(desktop_number, user: LIVE_USER)
          'Only values between 0 and 1 are valid virtual desktop numbers')
   $vm.execute_successfully(
     "xdotool set_desktop '#{desktop_number}'",
-    user: user
+    user:
   )
 end
 
@@ -33,7 +33,7 @@ def focus_window(window_title, user: LIVE_USER)
   do_focus = lambda do
     $vm.execute_successfully(
       "xdotool search --name '#{window_title}' windowactivate --sync",
-      user: user
+      user:
     )
   end
 
@@ -145,7 +145,7 @@ end
 
 Then /^Pidgin automatically enables my XMPP account$/ do
   account = xmpp_account('Tails_account')
-  jid = account['username'] + '@' + account['domain']
+  jid = "#{account['username']}@#{account['domain']}"
   try_for(3 * 60) do
     pidgin_account_connected?(jid, 'prpl-jabber')
   end
@@ -159,7 +159,7 @@ Given /^my XMPP friend goes online( and joins the multi-user chat)?$/ do |join_c
   bot_opts['auto_join'] = [@chat_room_jid] if join_chat
   @friend_name = account['username']
   @chatbot = ChatBot.new(
-    account['username'] + '@' + account['domain'],
+    "#{account['username']}@#{account['domain']}",
     account['password'],
     **bot_opts.transform_keys(&:to_sym)
   )
@@ -188,7 +188,7 @@ And /^I say (.*) to my friend( in the multi-user chat)?$/ do |msg, multi_chat|
   msg = 'ping' if msg == 'something'
   if multi_chat
     focus_window(@chat_room_jid.split('@').first)
-    msg = @friend_name + ': ' + msg
+    msg = "#{@friend_name}: #{msg}"
   else
     focus_window(@friend_name)
   end
@@ -235,7 +235,7 @@ When /^I join some empty multi-user chat$/ do
   @screen.press('ctrl', 'c')
   conference_server =
     $vm.execute_successfully('xclip -o', user: LIVE_USER).stdout.chomp
-  @chat_room_jid = chat_room + '@' + conference_server
+  @chat_room_jid = "#{chat_room}@#{conference_server}"
 
   @screen.click('PidginJoinChatButton.png')
   # The following will both make sure that the we joined the chat, and
@@ -301,7 +301,7 @@ def chan_image(account, channel, image)
       },
     },
   }
-  images[account][channel][image] + '.png'
+  "#{images[account][channel][image]}.png"
 end
 
 def default_chan(account)
@@ -393,7 +393,7 @@ Then /^I can join the "([^"]+)" channel on "([^"]+)"$/ do |channel, server|
   triple_click_mid_right_edge('PidginJoinChatServerLabel.png')
   @screen.paste(server)
   @screen.click('PidginJoinChatButton.png')
-  @chat_room_jid = channel + '@' + server
+  @chat_room_jid = "#{channel}@#{server}"
   focus_window(@chat_room_jid)
   @screen.hide_cursor
   try_for(60) do
