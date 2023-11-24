@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-16 11:13+0000\n"
+"PO-Revision-Date: 2023-11-24 10:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -53,13 +53,16 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"view\">Understanding Tor circuits</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"view\">Verständnis der Tor-Verbindungen</h1>\n"
 
 #. type: Plain text
 msgid ""
 "If Tails is already [[connected to the Tor network|doc/anonymous_internet/"
 "tor]], a list of Tor circuits appears in the left pane of *Onion Circuits*."
 msgstr ""
+"Wenn Tails bereits mit dem [[Tor-Netzwerk|doc/anonymous_internet/tor]] "
+"verbunden ist, erscheint eine Liste der Tor-Verbindungen im linken "
+"Fensterbereich von *Onion Circuits*."
 
 #. type: Plain text
 #, no-wrap
