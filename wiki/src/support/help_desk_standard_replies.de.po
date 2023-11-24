@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-05-01 16:20+0200\n"
-"PO-Revision-Date: 2023-11-24 10:43+0000\n"
+"PO-Revision-Date: 2023-11-24 21:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -45,7 +45,7 @@ msgstr "Standardantwort"
 #. type: Plain text
 #, no-wrap
 msgid "<pre>\n"
-msgstr ""
+msgstr "<pre>\n"
 
 #. type: Plain text
 #, no-wrap
