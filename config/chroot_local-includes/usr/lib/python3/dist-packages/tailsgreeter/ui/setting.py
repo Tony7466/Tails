@@ -3,10 +3,10 @@ import gi
 
 from tailsgreeter import TRANSLATION_DOMAIN
 import tailsgreeter.config
-from tailsgreeter.ui.popover import Popover, Union
 
 if TYPE_CHECKING:
     from tailsgreeter.ui.main_window import GreeterMainWindow
+    from tailsgreeter.ui.popover import Popover
 
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
