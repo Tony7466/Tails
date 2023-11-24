@@ -193,8 +193,8 @@ module ExtraFormatters
     # Recursively print the exception and all previous exceptions
     def print_exception(exc, status, indent)
       super(exc, status, indent)
-      if e.cause
-        cause = Cucumber::Formatter::BacktraceFilter.new(e.cause.dup).exception
+      if exc.cause
+        cause = Cucumber::Formatter::BacktraceFilter.new(exc.cause.dup).exception
         print_exception(cause, status, indent)
       end
     end
