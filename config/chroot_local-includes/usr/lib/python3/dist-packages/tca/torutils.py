@@ -538,6 +538,8 @@ class TorLauncherUtils:
         Rationale: Tor's Sandbox conf needs special care since this value
         cannot be changed at runtime, only through torrc and a tor restart.
         """
+        if self.tor_connection_config is None:
+            raise NotImplementedError
         tor_conf = self.tor_connection_config.to_tor_conf()
         log.debug("applying TorConf: %s", tor_conf)
         self.stem_controller.set_options(tor_conf)
@@ -640,7 +642,7 @@ class TorLauncherNetworkUtils:
 def backoff_wait(
     total_wait: float = 30.0, initial_sleep: float = 0.5, increment=lambda x: x + 0.5
 ):
-    total_sleep = 0
+    total_sleep: float = 0
     sleep_time = initial_sleep
     while total_sleep < total_wait:
         time.sleep(sleep_time)

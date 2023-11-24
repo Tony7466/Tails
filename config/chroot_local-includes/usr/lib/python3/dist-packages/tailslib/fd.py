@@ -7,13 +7,13 @@ from pathlib import Path
 import logging
 import os
 import socket
-from typing import Union
+from typing import Any, Union
 
 from gi.repository import Gio
 
 # We add all open sockets / file descriptors to this list to avoid them
 # being garbage collected.
-objects = []
+objects: list[Any] = []
 
 
 def connect_socket(family: socket.AddressFamily, address: str) -> int:

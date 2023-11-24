@@ -1,5 +1,5 @@
 import os
-from typing import List, Callable, Optional, Any
+from typing import Callable, Optional, Any
 import socket
 from logging import getLogger
 
@@ -84,7 +84,7 @@ class GJsonRpcClient(GObject.GObject):
             try:
                 response = self.protocol.parse_reply(msg)
             except BadReplyError:
-                return
+                return None
             if hasattr(response, "error"):
                 errordata = {}
                 if hasattr(response, "_jsonrpc_error_code"):
@@ -171,7 +171,7 @@ class GAsyncSpawn(GObject.GObject):
         return True
 
 
-def idle_add_chain(functions: List[Callable]):
+def idle_add_chain(functions: list[Callable]):
     """
     Wrap GLib.idle_add allowing chains of functions.
 

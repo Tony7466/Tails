@@ -2,7 +2,7 @@ import logging
 import os.path
 import json
 import gettext
-from typing import Dict, Any, Tuple, Optional
+from typing import Any, Optional
 import copy
 
 import gi
@@ -33,7 +33,7 @@ CSS_FILE = "tca.css"
 IMG_FOOTPRINTS = "/usr/share/doc/tails/website/about/footprints.svg"
 IMG_RELAYS = "/usr/share/doc/tails/website/about/relays.svg"
 IMG_WALKIE = "/usr/share/doc/tails/website/about/walkie-talkie.svg"
-IMG_SIDE: Dict[str, str] = {
+IMG_SIDE: dict[str, str] = {
     "bridge": IMG_FOOTPRINTS,
     "hide": IMG_RELAYS,
     "connect": IMG_WALKIE,
@@ -155,8 +155,8 @@ class StepChooseHideMixin:
 
 
 class StepChooseBridgeMixin:
-    def before_show_bridge(self, coming_from):
-        self.state["bridge"]: Dict[str, Any] = {}
+    def before_show_bridge(self, coming_from) -> None:
+        self.state["bridge"]: dict[str, Any] = {}
         self.persistence_config_failed = False
 
         self.builder.get_object("step_bridge_box").show()
@@ -677,7 +677,7 @@ class StepConnectProgressMixin:
 
 
 class StepErrorMixin:
-    def before_show_error(self, coming_from):
+    def before_show_error(self, coming_from) -> None:
         label_explain = self.get_object("label_explain")
 
         self.state["error"] = {
@@ -943,9 +943,9 @@ class TCAMainWindow(
         )
         self.app = app
 
-    def finish_init(self):
+    def finish_init(self) -> None:
         # self.state collects data from user interactions. Its main key is the step name
-        self.state: Dict[str, Any] = {
+        self.state: dict[str, Any] = {
             "hide": {},
             "bridge": {},
             "proxy": {},
@@ -1058,7 +1058,7 @@ class TCAMainWindow(
         if successful_connect:
             self.app.configurator.save_conf()
 
-    def get_screen_size(self) -> Tuple[int, int]:
+    def get_screen_size(self) -> tuple[int, int]:
         disp = Gdk.Display.get_default()
         win = self.get_window()
         mon = disp.get_monitor_at_window(win)

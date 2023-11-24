@@ -1,5 +1,5 @@
 import datetime
-from typing import Optional, List, Dict
+from typing import Optional
 from logging import getLogger
 from collections import defaultdict
 
@@ -124,8 +124,8 @@ class TimezonePopover:
     def _create_tz_store(self) -> Gtk.TreeStore:
         self.treestore = Gtk.TreeStore(str)
         timezones = pytz.common_timezones
-        timezone_tree: Dict[str, List[str]] = defaultdict(list)
-        toplevel_timezones: List[str] = []
+        timezone_tree: dict[str, list[str]] = defaultdict(list)
+        toplevel_timezones: list[str] = []
         for tz in timezones:
             if "/" not in tz:  # GMT and UTC
                 toplevel_timezones.append(tz)
@@ -171,7 +171,7 @@ class TimezonePopover:
         )
         self.treeview.set_model(self.treestore_filtered)
 
-    def cb_searchentry_activate(self, searchentry, user_data=None):
+    def cb_searchentry_activate(self, searchentry, user_data=None) -> None:
         """Select the topmost item in the treeview when pressing Enter."""
         if not searchentry.get_text():
             self.popover.close(Gtk.ResponseType.CANCEL)
