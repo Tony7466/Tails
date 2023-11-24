@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-24 10:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -43,6 +43,9 @@ msgid ""
 "In Tails 4.22, we focused on solving the most important issues in the *Tor "
 "Connection* assistant to make it more robust and easier to use."
 msgstr ""
+"In Tails 4.22 haben wir uns darauf konzentriert, die wichtigsten Probleme "
+"des *Tor Connection*-Assistenten zu lösen, um ihn robuster und "
+"benutzerfreundlicher zu machen."
 
 #. type: Plain text
 #, no-wrap
