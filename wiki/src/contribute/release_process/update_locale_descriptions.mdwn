@@ -59,6 +59,7 @@ How to manually associate a territory to a language
 
 Given a language, our goal is to decide which territories it needs to be associated with.
 
+<a id="no-underscore">
 If the language does not include any underscore or hyphen
 ---------------------------------------------------------
 
@@ -89,6 +90,7 @@ We do pick all territories which are "important enough". This definition is very
  - we at least include the territory which is more commonly associated with the language, if there is one (ie:
    Spain for Spanish)
 
+<a id="with-underscore">
 If the language includes an underscore or an hyphen
 ---------------------------------------------------
 

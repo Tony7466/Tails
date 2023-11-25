@@ -59,18 +59,7 @@ Then /^the Unsafe Browser Browser displays the LAN web server hello message$/ do
 end
 
 Then /^the Unsafe Browser shows a warning as its start page(?: in "([^"]+)")?$/ do |lang_code|
-  if lang_code
-    # Use localized image for languages that have a translated version
-    # of the Unsafe Browser homepage.
-    localized_image = "UnsafeBrowserStartPage.#{lang_code}.png"
-    start_page_image = if File.exist?("#{OPENCV_IMAGE_PATH}/#{localized_image}")
-                         localized_image
-                       else
-                         'UnsafeBrowserStartPage.png'
-                       end
-  else
-    start_page_image = 'UnsafeBrowserStartPage.png'
-  end
+  start_page_image = 'UnsafeBrowserStartPage.png'
   @screen.wait(start_page_image, 60)
 end
 
