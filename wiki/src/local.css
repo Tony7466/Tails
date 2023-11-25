@@ -317,7 +317,8 @@ button, input, textarea {
 }
 
 input:focus, textarea:focus {
-  outline: 2px solid var(--medium-light-green);
+  border: 2px solid var(--medium-light-green);
+  outline: 0;
 }
 
 /* Layout */
