@@ -1,4 +1,6 @@
 [map]
+# This section maps languages to locale we support
+
 af="af_ZA"   # Afrikaans, South Africa
 ar="ar:EG"
 ay="ay:PE"
@@ -72,7 +74,8 @@ uz="uz_UZ"   # Uzbek, Uzbekistan
 vi="vi:VN"
 
 [extra]
-# those languages are added to 
+# extra_languages are added to config/chroot_local-includes/usr/share/tails/browser-localization/descriptions as-is
+
 extra_languages = [
 "ms:MY",
 ]
