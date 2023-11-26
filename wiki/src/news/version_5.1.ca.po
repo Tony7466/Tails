@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-26 19:42+0000\n"
+"PO-Revision-Date: 2023-11-26 23:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -214,7 +214,7 @@ msgstr "  Ara podeu fer doble clic als fitxers `.gpg` per desencriptar-los.\n"
 
 #. type: Plain text
 msgid "- Add *Kleopatra* to the Favorites applications."
-msgstr "- Afegiu *Kleopatra* a les aplicacions Preferides."
+msgstr "- S'ha afegit *Kleopatra* a les aplicacions Preferides."
 
 #. type: Plain text
 #, no-wrap
