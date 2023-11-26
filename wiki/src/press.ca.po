@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-11-26 19:42+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: Miquel Bosch <m.bosch.sau@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -44,6 +44,9 @@ msgid ""
 "email or by RSS feed on [[Tails News|news]].  They are mainly meant for "
 "Tails users."
 msgstr ""
+"El anuncis d'objectiu general que publiquem estan disponibles ja sigui per "
+"correu electrònic o sindicació RSS a [[Tails News|news]]. Estan dirigits "
+"especialment als usuaris de Tails."
 
 #. type: Plain text
 msgid ""
@@ -52,12 +55,18 @@ msgid ""
 "press]] if you want to receive future press releases, or if you have a press "
 "inquiry."
 msgstr ""
+"A vegades publiquem notes de premsa però aquestes no queden arxivades al "
+"web. Si voleu rebre futures notes de premsa, o realitzar alguna consulta "
+"periodística, escriviu-nos un correu electrònic a [[tails-press@boum.org|"
+"about/contact#tails-press]]."
 
 #. type: Plain text
 msgid ""
 "You can also send press articles about Tails to this address, so we can add "
 "them to this page."
 msgstr ""
+"També podeu enviar-nos articles periodístics sobre Tails a aquesta adreça, "
+"així els podrem afegir a la nostra pàgina."
 
 #. type: Plain text
 #, no-wrap
