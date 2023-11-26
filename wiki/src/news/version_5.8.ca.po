@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-23 17:19+0000\n"
+"PO-Revision-Date: 2023-11-26 21:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.8 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.8\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -44,16 +44,22 @@ msgid ""
 "major redesign of existing features, important usability improvements, and "
 "hardened security."
 msgstr ""
+"Tails 5.8 és la versió més important de Tails en anys. Inclou tant un "
+"redisseny important de les funcions existents, millores importants "
+"d'usabilitat i una seguretat reforçada."
 
 #. type: Plain text
 msgid ""
 "This work has been made possible by donations from users like you. If you "
 "like these changes and want more, donate now to fund our work in 2023."
 msgstr ""
+"Aquest treball ha estat possible gràcies a les donacions d'usuaris com vós. "
+"Si us agraden aquests canvis i en voleu més, feu una donació ara per "
+"finançar la nostra feina el 2023."
 
 #. type: Plain text
 msgid "[[**Donate now to fund our work in 2023.**|donate]]"
-msgstr ""
+msgstr "[[**Dona ara per finançar la nostra feina el 2023.**|donate]]"
 
 #. type: Plain text
 #, no-wrap
@@ -68,13 +74,15 @@ msgstr "<h1 id=\"features\">Noves funcionalitats</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "New Persistent Storage"
-msgstr ""
+msgstr "Nou Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid ""
 "After 2 years of hard work, we are extremely proud to present you a complete "
 "redesign of the Persistent Storage."
 msgstr ""
+"Després de 2 anys de treball dur, estem molt orgullosos de presentar-vos un "
+"redisseny complet de l'Emmagatzematge Persistent."
 
 #. type: Plain text
 msgid ""
