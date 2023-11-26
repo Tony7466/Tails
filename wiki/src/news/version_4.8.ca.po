@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-26 17:43+0000\n"
+"PO-Revision-Date: 2023-11-26 19:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -211,6 +211,8 @@ msgid ""
 "Fix the import of OpenPGP public keys in binary format (non armored)  from "
 "the *Files* browser."
 msgstr ""
+"S'ha corregit la importació de claus públiques OpenPGP en format binari (no "
+"blindat) des del navegador de *Fitxers*."
 
 #. type: Plain text
 msgid ""
@@ -235,22 +237,24 @@ msgid ""
 "Only use the following characters in the [[administration password|doc/"
 "first_steps/welcome_screen/administration_password]]:"
 msgstr ""
+"Utilitzeu només els caràcters següents a la [[contrasenya d'administració|"
+"doc/first_steps/welcome_screen/administration_password]]:"
 
 #. type: Bullet: '  - '
 msgid "<span class=\"code\">a&ndash;z</span>"
-msgstr ""
+msgstr "<span class=\"code\">a&ndash;z</span>"
 
 #. type: Bullet: '  - '
 msgid "<span class=\"code\">A&ndash;Z</span>"
-msgstr ""
+msgstr "<span class=\"code\">A&ndash;Z</span>"
 
 #. type: Bullet: '  - '
 msgid "<span class=\"code\">1&ndash;9</span>"
-msgstr ""
+msgstr "<span class=\"code\">1&ndash;9</span>"
 
 #. type: Bullet: '  - '
 msgid "<span class=\"code\">_@%+=:,./-</span>"
-msgstr ""
+msgstr "<span class=\"code\">_@%+=:,./-</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -260,6 +264,10 @@ msgid ""
 "  administration password again in your Tails session, unless you\n"
 "  type single quotes <span class=\"code\">'</span> around it.\n"
 msgstr ""
+"  Si utilitzeu espais o altres caràcters accentuats, com ara <span\n"
+"  class=\"code\">àéïøů</span>, no podreu escriure la vostra\n"
+"  contrasenya d'administració de nou a la sessió de Tails, tret que\n"
+"  escriviu cometes simples <span class=\"code\">'</span> al seu voltant.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -269,12 +277,19 @@ msgid ""
 "  type <span class=\"code\">'née entrepôt über señor'</span>.\n"
 "  ([[!tails_ticket 17792]])\n"
 msgstr ""
+"  Per exemple, si configureu la contrasenya d'administració:\n"
+"  <span class=\"code\">née entrepôt über señor</span>, hauríeu\n"
+"  d'escriure <span class=\"code\">'née entrepôt über señor'</span>.\n"
+"  ([[!tails_ticket 17792]])\n"
 
 #. type: Bullet: '* '
 msgid ""
 "The keyboard layout is not applied to the Welcome Screen when automatically "
 "selected after you changed the language. ([[!tails_ticket 17794]])"
 msgstr ""
+"La disposició del teclat no s'aplica a la Pantalla de Benvinguda quan se "
+"selecciona automàticament després de canviar l'idioma. ([[!tails_ticket "
+"17794]])"
 
 #. type: Plain text
 #, no-wrap
@@ -284,6 +299,11 @@ msgid ""
 "  the Welcome Screen. This can prevent you from typing the passphrase\n"
 "  of your Persistent Storage.\n"
 msgstr ""
+"  Per exemple, establir l'idioma al francès sembla canviar\n"
+"  la disposició del teclat al francès (AZERTY), però aquest canvi no s'"
+"aplica\n"
+"  a la Pantalla de Benvinguda. Això pot evitar que escriviu la contrasenya\n"
+"  del vostre Emmagatzematge Persistent.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -293,12 +313,21 @@ msgid ""
 "  Do so even if they keyboard layout is automatically selected after you\n"
 "  changed the language.\n"
 msgstr ""
+"  Per canviar la disposició del teclat de la Pantalla de Benvinguda, "
+"seleccioneu el vostre\n"
+"  disseny de teclat manualment des del menú desplegable **Disposició del "
+"teclat**.\n"
+"  Feu-ho fins i tot si la disposició del teclat es selecciona automàticament "
+"després d'haver\n"
+"  canviat l'idioma.\n"
 
 #. type: Bullet: '* '
 msgid ""
 "Tails fails to start with the <span class=\"code\">toram</span> boot option. "
 "([[!tails_ticket 17800]])"
 msgstr ""
+"Tails no pot iniciar amb l'opció d'arrencada <span class=\"code\">toram</"
+"span>. ([[!tails_ticket 17800]])"
 
 #. type: Plain text
 #, no-wrap
@@ -308,6 +337,11 @@ msgid ""
 "  <span class=\"code\">fromiso=/dev/true</span> [[boot\n"
 "  options|doc/advanced_topics/boot_options]].\n"
 msgstr ""
+"  Per iniciar amb l'opció d'arrencada <span class=\"code\">toram</span> "
+"especifiqueu les dues [[opcions\n"
+"  d'arrencada|doc/advanced_topics/boot_options]],\n"
+"  tant <span class=\"code\">toram</span> com\n"
+"  <span class=\"code\">fromiso=/dev/true</span>.\n"
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
@@ -328,6 +362,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.2 or later to 4.8."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.2 o "
+"posterior a la versió 4.8."
 
 #. type: Bullet: '- '
 msgid ""
@@ -365,6 +401,8 @@ msgid ""
 "<div class=\"caution\"><p>All the data on this USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>Totes les dades d'aquest llapis USB es perdran si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
@@ -376,6 +414,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.8 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.8 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -392,7 +432,7 @@ msgstr "Què ve?"
 
 #. type: Plain text
 msgid "Tails 4.9 is [[scheduled|contribute/calendar]] for July 28."
-msgstr ""
+msgstr "Tails 4.9 està [[programat|contribute/calendar]] per al 28 de juliol."
 
 #. type: Plain text
 #, no-wrap
@@ -401,3 +441,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.8\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.8\">fer una "
+"donació</a> és només una\n"
+"d'elles). Veniu a [[parlar amb nosaltres|about/contact#tails-dev]]!\n"
