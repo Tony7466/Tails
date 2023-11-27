@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-27 16:42+0000\n"
+"PO-Revision-Date: 2023-11-27 18:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -477,7 +477,7 @@ msgstr "`10de:0a70` GeForce 310M"
 
 #. type: Bullet: '  * '
 msgid "`10de:1f82` GeForce GTX 1650: this is fixed in Tails 5.9"
-msgstr "`10de:1f82` GeForce GTX 1650: això s'ha arreglat a Tails 5.9"
+msgstr "`10de:1f82` GeForce GTX 1650: això s'ha solucionat a Tails 5.9"
 
 #. type: Bullet: '  * '
 msgid "`10de:220a` RTX 3080"
@@ -493,7 +493,7 @@ msgstr "`10de:2486` GA104 GeForce RTX 3060 Ti: això s'ha arreglat a Tails 5.9"
 
 #. type: Bullet: '  * '
 msgid "`10de:2488` RTX 3070: this is fixed in Tails 5.9"
-msgstr "`10de:2488` RTX 3070: això s'ha arreglat a Tails 5.9"
+msgstr "`10de:2488` RTX 3070: això s'ha solucionat a Tails 5.9"
 
 #. type: Bullet: '  * '
 msgid "`10de:2489` RTX 3060 Ti"
@@ -505,7 +505,7 @@ msgstr "`10de:24dc` GA104M GeForce RTX 3080 Mobile"
 
 #. type: Bullet: '  * '
 msgid "`10de:2504` RTX: this is fixed in Tails 5.9"
-msgstr "`10de:2504` RTX: això s'ha arreglat a Tails 5.9"
+msgstr "`10de:2504` RTX: això s'ha solucionat a Tails 5.9"
 
 #. type: Bullet: '  * '
 msgid "`10de:2560` GA106M GeForce RTX 3060 Mobile"
@@ -513,7 +513,7 @@ msgstr "`10de:2560` GA106M GeForce RTX 3060 Mobile"
 
 #. type: Bullet: '  * '
 msgid "GeForce RTX 3060 Ti Founders Edition: this is fixed in Tails 5.9"
-msgstr "GeForce RTX 3060 Ti Founders Edition: això s'ha arreglat a Tails 5.9"
+msgstr "GeForce RTX 3060 Ti Founders Edition: això s'ha solucionat a Tails 5.9"
 
 #. type: Bullet: '  * '
 msgid "`10de:25e0`"
@@ -931,7 +931,7 @@ msgid ""
 "Right-click on the *Tor Browser* tab in the window list at the bottom of the "
 "screen."
 msgstr ""
-"Feu clic amb el botó dret a la pestanya del *Navegador Tor* a la llista de "
+"Feu clic amb el botó dret a la pestanya *Navegador Tor* a la llista de "
 "finestres a la part inferior de la pantalla."
 
 #. type: Bullet: '1. '
