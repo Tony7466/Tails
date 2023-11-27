@@ -62,7 +62,9 @@ Then /^I cannot run a command as root with pkexec and the standard passwords$/ d
   @screen.press('Escape')
   Dogtail::Application.new('gnome-terminal-server')
                       .child('Terminal', roleName: 'terminal')
-                      .text['Error executing command as another user: Request dismissed']
+                      .text[
+                        'Error executing command as another user: Request dismissed'
+                      ]
   assert(!$vm.file_exist?('/root/pkexec-test'))
   # Ensure we don't taint the next tests
   $vm.execute('pkill -u amnesia gnome-terminal')

@@ -179,7 +179,8 @@ When /^I unlock and mount this VeraCrypt (volume|file container) with Unlock Ver
     )
   end
   dialog = gnome_shell_unlock_dialog
-  passphrase = @veracrypt_is_hidden ? $veracrypt_hidden_passphrase : $veracrypt_passphrase
+  passphrase =
+    @veracrypt_is_hidden ? $veracrypt_hidden_passphrase : $veracrypt_passphrase
   assert(dialog.focused_child.roleName == 'password text')
   dialog.focused_child.text = passphrase
   if @veracrypt_needs_pim
