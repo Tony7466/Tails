@@ -409,6 +409,9 @@ Manually inspect the diffs:
 
     git diff config/chroot_local-includes/usr/share/tails/browser-localization/descriptions
 
+Commit the changes (if any):
+
+    git commit -m "Refresh localization list" config/chroot_local-includes/usr/share/tails/browser-localization/descriptions || :
 
 # If preparing a final release
 
