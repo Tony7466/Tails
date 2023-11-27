@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-11-27 18:42+0000\n"
+"PO-Revision-Date: 2023-11-27 20:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -98,9 +98,9 @@ msgid ""
 "working with Linux, and thus Tails. PC hardware tends to be more open and "
 "work better with Linux."
 msgstr ""
-"Apple no prioritza la col·laboració amb projectes de programari lliure. El "
+"Apple no prioritza la col·laboració amb projectes de Programari Lliure. El "
 "seu maquinari més nou sol ser molt difícil per als desenvolupadors de "
-"programari lliure per fer compatible amb Linux, i per tant amb Tails. El "
+"Programari Lliure per fer compatible amb Linux, i per tant amb Tails. El "
 "maquinari de PC acostuma a ser més obert i funcionar millor amb Linux."
 
 #. type: Plain text
@@ -638,7 +638,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "The `wl` driver is not included in Tails because it is proprietary."
-msgstr "El controlador \"wl\" no està inclòs a Tails perquè és propietari."
+msgstr "El controlador `wl` no està inclòs a Tails perquè és propietari."
 
 #. type: Plain text
 msgid ""
@@ -647,8 +647,8 @@ msgid ""
 "wiki page](https://wiki.debian.org/wl). If you find your device in the list "
 "of supported devices, then it is impossible to use your Wi-Fi card in Tails."
 msgstr ""
-"El vostre dispositiu requereix el controlador \"wl\" si es troba a la llista "
-"de dispositius compatibles amb el paquet \"broadcom-sta-dkms\" a la [pàgina "
+"El vostre dispositiu requereix el controlador `wl` si es troba a la llista "
+"de dispositius compatibles amb el paquet `broadcom-sta-dkms` a la [pàgina "
 "wiki de Debian](https://wiki.debian.org/wl) corresponent. Si trobeu el "
 "vostre dispositiu a la llista de dispositius compatibles, és impossible "
 "utilitzar la vostra targeta Wi-Fi a Tails."
@@ -1094,6 +1094,8 @@ msgstr "El Bluetooth no està habilitat a Tails per motius de seguretat."
 #, no-wrap
 msgid "<h2 id=\"automatic-upgrade-fails\">Tails fails to start or behaves weirdly after an automatic upgrade</h2>\n"
 msgstr ""
+"<h2 id=\"automatic-upgrade-fails\">Tails no s'inicia o es comporta de manera "
+"estranya després d'una actualització automàtica</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1109,10 +1111,11 @@ msgstr ""
 #. type: Plain text
 msgid "Sometimes, after an automatic upgrade, your Tails might either:"
 msgstr ""
+"De vegades, després d'una actualització automàtica, el vostre Tails pot:"
 
 #. type: Plain text
 msgid "- Fail to start. Often after the message:"
-msgstr ""
+msgstr "- No arrencar. Sovint després del missatge:"
 
 #. type: Plain text
 #, no-wrap
@@ -1132,33 +1135,42 @@ msgid ""
 "To fix this problem, you can [[update your Tails manually|doc/upgrade/"
 "#manual]]."
 msgstr ""
+"Per solucionar aquest problema, podeu [[actualitzar el vostre Tails "
+"manualment|doc/upgrade/#manual]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"video-memory\">Tails does not erase video memory</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"video-memory\">Tails no esborra la memòria de vídeo</h2>\n"
 
 #. type: Plain text
 msgid ""
 "Tails doesn't erase the [[!wikipedia Video_RAM_(dual-ported_DRAM) desc="
 "\"video memory\"]]."
 msgstr ""
+"Tails no esborra la [[!wikipedia Video_RAM_(dual-ported_DRAM) desc=\"memoria "
+"de vídeo\"]]."
 
 #. type: Plain text
 msgid ""
 "When you restart your computer after using Tails, it might briefly display "
 "the last screen that was displayed in Tails."
 msgstr ""
+"Quan reinicieu l'ordinador després d'utilitzar Tails, és possible que mostri "
+"breument l'última pantalla que s'ha mostrat a Tails."
 
 #. type: Plain text
 msgid ""
 "If you shut down your computer instead of restarting it, the video memory "
 "will erase itself automatically after some time."
 msgstr ""
+"Si tanqueu l'ordinador en comptes de reiniciar-lo, la memòria de vídeo "
+"s'esborrarà automàticament al cap d'un temps."
 
 #. type: Plain text
 msgid "See [[!tails_ticket 5356 desc=\"Erase video memory on shutdown\"]]."
 msgstr ""
+"Vegeu [[!tails_ticket 5356 desc=\"Esborrar la memòria de vídeo en apagar\"]]."
 
 #, fuzzy, no-wrap
 #~ msgid "<h1 id=\"problematic-usb-sticks\">Problematic USB sticks</h1>\n"
