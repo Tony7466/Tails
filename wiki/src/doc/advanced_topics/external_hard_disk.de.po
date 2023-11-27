@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-09 15:09+0000\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -36,12 +36,16 @@ msgstr ""
 #, no-wrap
 msgid "    Unable to find a medium containing a live file system\n"
 msgstr ""
+"    Es konnte kein Medium gefunden werden, das ein aktives Dateisystem "
+"enthält\n"
 
 #. type: Plain text
 msgid ""
 "In such cases, choose the **External Hard Disk** entry if it appears in the "
 "Boot Loader."
 msgstr ""
+"Wählen Sie in solchen Fällen den Eintrag **Externe Festplatte**, wenn es im "
+"Bootloader erscheint."
 
 #. type: Plain text
 #, no-wrap

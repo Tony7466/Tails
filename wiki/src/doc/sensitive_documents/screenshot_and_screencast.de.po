@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"PO-Revision-Date: 2023-11-16 16:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -33,6 +33,9 @@ msgid ""
 "To take a screenshot of the entire screen, part of the screen, or a single "
 "window choose **Applications**&nbsp;▸ **Screenshot**."
 msgstr ""
+"Um einen Screenshot des gesamten Bildschirms, eines Teils des Bildschirms "
+"oder eines einzelnen Fensters zu erstellen, wählen Sie **Anwendungen**&nbsp;▸"
+" **Screenshot**."
 
 #. type: Plain text
 msgid ""
@@ -40,6 +43,9 @@ msgid ""
 "of the entire screen instantaneously. The screenshot is saved in "
 "**Places**&nbsp;▸ **Pictures**."
 msgstr ""
+"Sie können auch die Taste **PrtScn** auf der Tastatur drücken, um sofort "
+"einen Screenshot des gesamten Bildschirms zu erstellen. Der Screenshot wird "
+"unter **Places**&nbsp;▸ **Pictures** gespeichert."
 
 #. type: Title =
 #, no-wrap

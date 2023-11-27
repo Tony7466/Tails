@@ -90,7 +90,8 @@ meta_date_sorted_pages =
 
 meta_date_sorted_pages.each do |post_path|
   success = false unless page_meta_date_is_ok?(post_path)
-  Dir.glob(post_path.sub(/.(html|mdwn)$/, '') + '.*.po').each do |po_path|
+  basename = post_path.sub(/.(html|mdwn)$/, '')
+  Dir.glob("#{basename}.*.po").each do |po_path|
     success = false unless po_file_meta_date_is_ok?(po_path)
   end
 end

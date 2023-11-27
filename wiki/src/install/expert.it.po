@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2022-02-25 17:10-0600\n"
+"POT-Creation-Date: 2023-11-24 19:03+0000\n"
 "PO-Revision-Date: 2023-10-05 23:13+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,8 +127,8 @@ msgid ""
 "Import the Tails signing key in your <span class=\"application\">GnuPG</"
 "span> keyring:"
 msgstr ""
-"Importa la chiave di autenticazione di Tails nel tuo <span class="
-"\"application\">portachiavi</span> GnuPG:"
+"Importa la chiave di autenticazione di Tails nel tuo <span "
+"class=\"application\">portachiavi</span> GnuPG:"
 
 #. type: Plain text
 #, no-wrap
@@ -156,9 +156,9 @@ msgstr "       sudo apt update && sudo apt install debian-keyring\n"
 #
 #. type: Bullet: '1. '
 msgid ""
-"Import the OpenPGP key of [[!wikipedia Chris_Lamb_(software_developer) desc="
-"\"Chris Lamb\"]], a former Debian Project Leader, from the Debian keyring "
-"into your keyring:"
+"Import the OpenPGP key of [[!wikipedia Chris_Lamb_(software_developer) "
+"desc=\"Chris Lamb\"]], a former Debian Project Leader, from the Debian "
+"keyring into your keyring:"
 msgstr ""
 "Importa la chiave OpenPGP di [[!wikipedia Chris_Lamb_(software_developer) "
 "desc=\"Chris Lamb\"]], un ex leader del progetto Debian, dal portachiavi "
@@ -185,15 +185,19 @@ msgid "   In the output of this command, look for the following line:\n"
 msgstr "   Nel risultato di questo comando, cerca la seguente linea:\n"
 
 #. type: Plain text
-#, no-wrap
-msgid "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
+#, fuzzy, no-wrap
+#| msgid "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
+msgid "       sig!2        0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
 msgstr "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "   Here, <code>sig!</code>, with an exclamation mark, means that Chris\n"
+#| "   Lamb verified and certified the Tails signing key with his key.\n"
 msgid ""
-"   Here, <code>sig!</code>, with an exclamation mark, means that Chris\n"
-"   Lamb verified and certified the Tails signing key with his key.\n"
+"   Here, <code>sig!2</code> means that Chris\n"
+"   Lamb verified and certified the Tails signing key with his key and a level 2 check.\n"
 msgstr ""
 "   Qui, <code>sig!</code>, con un punto esclamativo, significa che Chris\n"
 "    Lamb ha verificato e certificato la chiave di firma di Tails con la sua chiave.\n"
@@ -430,10 +434,8 @@ msgid ""
 "   </div>\n"
 msgstr ""
 "   <div class=\"caution\">\n"
-"   <p>Se non sei sicura del nome del dispositivo, dovresti interrompere la "
-"procedura o\n"
-"   <strong>rischi di sovrascrivere qualsiasi disco fisso del "
-"sistema</strong>.</p>\n"
+"   <p>Se non sei sicura del nome del dispositivo, dovresti interrompere la procedura o\n"
+"   <strong>rischi di sovrascrivere qualsiasi disco fisso del sistema</strong>.</p>\n"
 "   </div>\n"
 
 #

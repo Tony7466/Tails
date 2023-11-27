@@ -15,13 +15,14 @@ When /^I click "([^"]+)" in the backup tool$/ do |node|
 end
 
 When /^I enter my persistent storage passphrase into the polkit prompt$/ do
-  deal_with_polkit_prompt(@persistence_password, title: 'Enter a passphrase to unlock the volume')
+  deal_with_polkit_prompt(@persistence_password,
+                          title: 'Enter a passphrase to unlock the volume')
 end
 
 Then /^the USB drive "([^"]+)" contains the same files as my persistent storage$/ do |disk_name|
   source_dir = '/live/persistence/TailsData_unlocked/'
   backup_dev = $vm.persistent_storage_dev_on_disk(disk_name)
-  luks_mapping = File.basename(backup_dev) + '_unlocked'
+  luks_mapping = "#{File.basename(backup_dev)}_unlocked"
   luks_dev = "/dev/mapper/#{luks_mapping}"
   backup_dir = "/mnt/#{luks_mapping}"
   $vm.execute("mkdir -p #{backup_dir}")

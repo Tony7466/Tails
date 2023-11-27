@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-12 18:11+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -44,6 +44,9 @@ msgid ""
 "being considered as an option to replace <i>Pidgin</i>\n"
 "in Tails.</p>\n"
 msgstr ""
+"<p><a href=\"https://dino.im/\"><i>Dino</i></a> wird \n"
+"als Option zum Ersetzen von <i>Pidgin</i> \n"
+"in Tails in Betracht gezogen.< /p>\n"
 
 #. type: Plain text
 #, no-wrap

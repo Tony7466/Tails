@@ -6,7 +6,8 @@ Then /^the Unsafe Browser has no add-ons enabled$/ do
   # is of the "does not exist" type.
   assert(Dogtail::Application.new('Firefox').child?('Disabled', roleName: 'heading'))
   # So no "Enabled" header implies no enabled addons.
-  assert(!Dogtail::Application.new('Firefox').child?('Enabled', roleName: 'heading', retry: false))
+  assert(!Dogtail::Application.new('Firefox').child?('Enabled', roleName: 'heading',
+                                                                retry:    false))
 end
 
 Then /^the Unsafe Browser has no bookmarks$/ do
@@ -33,9 +34,10 @@ Then /^the Unsafe Browser has no bookmarks$/ do
   def check_bookmarks_helper(bookmarks_children)
     bookmarks_children.each do |h|
       h.each_pair do |k, v|
-        if k == 'children'
+        case k
+        when 'children'
           check_bookmarks_helper(v)
-        elsif k == 'uri'
+        when 'uri'
           uri = v
           raise "Unexpected Unsafe Browser bookmark for '#{uri}'"
         end
@@ -58,22 +60,17 @@ Then /^the Unsafe Browser Browser displays the LAN web server hello message$/ do
   end
 end
 
-Then /^the Unsafe Browser shows a warning as its start page(?: in "([^"]+)")?$/ do |lang_code|
+Then /^the Unsafe Browser shows a warning as its start page$/ do
   start_page_image = 'UnsafeBrowserStartPage.png'
   @screen.wait(start_page_image, 60)
 end
 
-Then /^the Unsafe Browser has started(?: in "([^"]+)")?$/ do |lang_code|
+Then /^the Unsafe Browser has started$/ do
   try_for(60) do
     @unsafe_browser = Dogtail::Application.new('Firefox')
     @unsafe_browser.child?(roleName: 'frame', recursive: false)
   end
-  if lang_code
-    step 'the Unsafe Browser shows a warning as its start page in ' \
-         "\"#{lang_code}\""
-  else
-    step 'the Unsafe Browser shows a warning as its start page'
-  end
+  step 'the Unsafe Browser shows a warning as its start page'
 end
 
 Then /^I see a warning about another instance already running$/ do
@@ -100,7 +97,7 @@ When /^I configure the Unsafe Browser to use a local proxy$/ do
             "(host=#{proxy_host}, port=#{proxy_port})")
 
   prefs = '/usr/share/tails/chroot-browsers/unsafe-browser/prefs.js'
-  $vm.file_append(prefs, 'user_pref("network.proxy.type", 1);' + "\n")
+  $vm.file_append(prefs, "user_pref(\"network.proxy.type\", 1);\n")
   $vm.file_append(prefs,
                   "user_pref(\"network.proxy.socks\", \"#{proxy_host}\");\n")
   $vm.file_append(prefs,
@@ -112,16 +109,16 @@ end
 Then /^I am told I cannot start the Unsafe Browser when I am offline$/ do
   try_for(30) do
     Dogtail::Application.new('zenity')
-      .child(roleName: 'label')
-      .text['You are not connected to a local network']
+                        .child(roleName: 'label')
+                        .text['You are not connected to a local network']
   end
 end
 
 Then /^the Unsafe Browser complains that it is disabled$/ do
   try_for(30) do
     Dogtail::Application.new('zenity')
-    .child(roleName: 'label')
-    .text['The Unsafe Browser was disabled in the Welcome Screen']
+                        .child(roleName: 'label')
+                        .text['The Unsafe Browser was disabled in the Welcome Screen']
   end
 end
 
