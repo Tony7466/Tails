@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 16:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -41,7 +41,7 @@ msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
 msgid "Tails is transitioning to a new OpenPGP signing key."
-msgstr ""
+msgstr "Tails stellt auf einen neuen OpenPGP-Signierschlüssel um."
 
 #. type: Plain text
 msgid "The signing key is the key that we use to:"

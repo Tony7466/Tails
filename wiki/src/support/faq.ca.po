@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-15 00:13+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-17 18:14+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -158,6 +158,9 @@ msgid ""
 "application_isolation]] in Tails; a security framework that is already used "
 "in a few Ubuntu applications."
 msgstr ""
+"Estem treballant activament per millorar el [[suport d'AppArmor|contribute/"
+"design/application_isolation]] a Tails; un marc de seguretat que ja "
+"s'utilitza en algunes aplicacions d'Ubuntu."
 
 #. type: Bullet: '0. '
 msgid ""
@@ -169,7 +172,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"gnome\">Why does Tails ship the GNOME Desktop?</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"gnome\">Per què Tails ve amb l'escriptori GNOME?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -178,45 +181,55 @@ msgid ""
 "requires quite a lot of resources to work properly, but it has many "
 "advantages.  The GNOME Desktop is:"
 msgstr ""
+"Els usuaris ens han demanat LXDE, XFCE, MATE, KDE, etc., però no canviarem "
+"l'escriptori. Segons nosaltres, el principal inconvenient de GNOME és que "
+"requereix força recursos per funcionar correctament, però té molts "
+"avantatges. L'escriptori de GNOME està:"
 
 #. type: Bullet: '  - '
 msgid "Well integrated, especially for new Linux users."
-msgstr ""
+msgstr "Ben integrat, especialment per als nous usuaris de Linux."
 
 #. type: Bullet: '  - '
 msgid "Very well translated and documented."
-msgstr ""
+msgstr "Molt ben traduït i documentat."
 
 #. type: Bullet: '  - '
 msgid "Doing relatively good regarding accessibility features."
-msgstr ""
+msgstr "Va relativament bé pel que fa a les funcions d'accessibilitat."
 
 #. type: Bullet: '  - '
 msgid "Actively developed."
-msgstr ""
+msgstr "Desenvolupat activament."
 
 #. type: Bullet: '  - '
 msgid ""
 "Well maintained in [[Debian|faq#debian]], where it is the default desktop "
 "environment."
 msgstr ""
+"Ben mantingut a [[Debian|faq#debian]], on és l'entorn d'escriptori "
+"predeterminat."
 
 #. type: Plain text
 msgid ""
 "We invested quite some time in acquiring GNOME knowledge, and switching our "
 "desktop environment would require going through that process again."
 msgstr ""
+"Hem invertit força temps en l'adquisició de coneixements de GNOME i canviar "
+"el nostre entorn d'escriptori requeriria tornar a fer aquest procés."
 
 #. type: Plain text
 msgid ""
 "We are not proposing several desktop environments to choose from because we "
 "want to [[limit the amount of software included in Tails|faq#new-software]]."
 msgstr ""
+"No proposem diversos entorns d'escriptori per triar perquè volem [[limitar "
+"la quantitat de programari inclòs a Tails|faq#new-software]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"hardware\">Hardware compatibility</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"hardware\">Compatibilitat de maquinari</h1>\n"
 
 #. type: Plain text
 msgid "See also:"
@@ -227,11 +240,13 @@ msgid ""
 "- [[System requirements and recommended hardware|doc/about/requirements]] - "
 "[[Known issues|support/known_issues]]"
 msgstr ""
+"- [[Requisits del sistema i maquinari recomanat|doc/about/requirements]]\n"
+"- [[Problemes coneguts|support/known_issues]]"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"32-bit\">Does Tails work on 32-bit computers?</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"32-bit\">Tails funciona en ordinadors de 32 bits?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -240,6 +255,11 @@ msgid ""
 "64-bit processors can benefit from several improvements that make it harder "
 "for attackers to exploit security vulnerabilities."
 msgstr ""
+"No. Tails va deixar de funcionar en ordinadors de 32 bits a la versió [["
+"Tails 3.0|news/Tails_3.0_will_require_a_64-bit_processor]] (juny de 2017). "
+"El programari creat per a processadors de 64 bits es pot beneficiar de "
+"diverses millores que dificulten que els atacants puguin explotar les "
+"vulnerabilitats de seguretat."
 
 #. type: Plain text
 msgid ""
@@ -248,11 +268,17 @@ msgid ""
 "decided that the increased security for everybody else was more important "
 "than the compatibility with 32-bit computers."
 msgstr ""
+"Abans de Tails 3.0, calculàvem que [[només el 4% dels nostres usuaris|news/"
+"Tails_3.0_will_require_a_64-bit_processor]] encara tenien un ordinador de 32 "
+"bits. Vam decidir que l'augment de la seguretat per a tots els altres era "
+"més important que la compatibilitat amb ordinadors de 32 bits."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"arm\">Does Tails work on ARM architecture, Raspberry Pi, tablets, smartphones (mobile phones), or Apple M1?</h2>\n"
 msgstr ""
+"<h2 id=\"arm\">Tails funciona amb arquitectura ARM, Raspberry Pi, tauletes, "
+"telèfons intel·ligents (telèfons mòbils) o Apple M1?</h2>\n"
 
 #. type: Plain text
 msgid ""

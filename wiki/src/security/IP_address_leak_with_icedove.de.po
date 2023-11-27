@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-09-18 06:11+0200\n"
-"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"PO-Revision-Date: 2023-11-16 16:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -44,6 +44,9 @@ msgid ""
 "(Thunderbird), the real IP address of the computer is disclosed to the SMTP "
 "relay that is used to send email."
 msgstr ""
+"Da die in Amnesia installierte Torbutton-Erweiterung nicht mit Icedove "
+"(Thunderbird) kompatibel ist, wird dem SMTP-Relay, das für den E-Mail-"
+"Versand verwendet wird, die echte IP-Adresse des Computers mitgeteilt."
 
 #. type: Title #
 #, no-wrap

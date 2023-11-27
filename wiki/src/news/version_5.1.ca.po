@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-15 00:13+0000\n"
+"PO-Revision-Date: 2023-11-16 21:13+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -249,35 +249,47 @@ msgid ""
 "rolling back from the option to hide that you are connecting to Tor.  ([[!"
 "tails_ticket 18546]])"
 msgstr ""
+"S'ha eliminat la selecció automàtica de l'opció **Configura un pont** quan "
+"torneu enrere des de l'opció per ocultar que us esteu connectant a Tor. ([["
+"!tails_ticket 18546]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Give the same instructions on both screens where you have to configure a "
 "bridge. ([[!tails_ticket 18596]])"
 msgstr ""
+"Ara es donen les mateixes instruccions a les dues pantalles on s'ha de "
+"configurar un pont. ([[!tails_ticket 18596]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Help rename the default *KeePassXC* database to open it automatically in the "
 "future. ([[!tails_ticket 18966]])"
 msgstr ""
+"S'ajuda a canviar el nom de la base de dades predeterminada *KeePassXC* per "
+"obrir-la automàticament en el futur. ([[!tails_ticket 18966]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Fix sharing files using *OnionShare* from the *Files* browser.  ([[!"
 "tails_ticket 18990]])"
 msgstr ""
+"S'ha corregit l'ús compartit de fitxers mitjançant *OnionShare* des del "
+"navegador de *Fitxers*. ([[!tails_ticket 18990]])"
 
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img onionshare.png link=\"no\" alt=\"Share via OnionShare\"]]\n"
 msgstr ""
+"  [[!img onionshare.png link=\"no\" alt=\"Comparteix amb OnionShare\"]]\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Disable search providers in the Activities overview: files, calculator, and "
 "terminal. ([[!tails_ticket 18952]])"
 msgstr ""
+"S'han desactivat els proveïdors de cerca a la visió general d'Activitats: "
+"fitxers, calculadora i terminal. ([[!tails_ticket 18952]])"
 
 #. type: Plain text
 msgid ""
@@ -314,7 +326,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0."
-msgstr ""
+msgstr "- Les actualitzacions automàtiques estan disponibles des de Tails 5.0."
 
 #. type: Plain text
 #, no-wrap
@@ -384,6 +396,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.1 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.1 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -400,4 +414,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 5.2 is [[scheduled|contribute/calendar]] for June 28."
-msgstr ""
+msgstr "Tails 5.2 està [[programat|contribute/calendar]] per al 28 de juny."

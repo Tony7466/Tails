@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-11-09 13:33+0000\n"
+"POT-Creation-Date: 2023-11-27 10:17+0100\n"
+"PO-Revision-Date: 2023-11-22 18:03+0000\n"
 "Last-Translator: emma peel <emma.peel@riseup.net>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/tor/tails-gui/bn/"
 ">\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -217,24 +217,24 @@ msgstr ""
 msgid "_Create persistent storage"
 msgstr "_স্থায়ীভাবে বিদ্যমান / পারসিস্টেন্স স্টোরেজ তৈরি করুন"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:94
+#: config/chroot_local-includes/usr/local/bin/electrum:95
 msgid ""
-"Tails needs donations to keep everybody free and safe online.\n"
+"End this year by giving the gift of privacy.\n"
 "\n"
-"Every bit helps in our fight against surveillance and censorship!\n"
+"Contribute to our annual fundraiser today!\n"
 "\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
-"we spend our money.</a>"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html\">Why donate to "
+"Tails?</a>"
 msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:101
 msgid ""
-"Tails protects your wallet.\n"
+"Our annual fundraiser is live!\n"
 "\n"
-"Help us keep your bitcoins safe!\n"
+"Keep everybody free and safe online with a gift to Tails.\n"
 "\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
-"we spend our money.</a>"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html\">Why donate to "
+"Tails?</a>"
 msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:112
@@ -1283,7 +1283,7 @@ msgstr "su অক্ষমিত। এর পরিবর্তে sudo ব্�
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:221
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:77
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:72
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:76
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:314
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:460
@@ -1384,7 +1384,7 @@ msgid ""
 "Package Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the "
 "command line</a>."
 msgstr ""
-"তা করতে,  <a href=\"synaptic.desktop\">Synaptic প্যাকেজ ম্যানেজার</a> বা <a "
+"তা করতে, <a href=\"synaptic.desktop\">Synaptic প্যাকেজ ম্যানেজার</a> বা <a "
 "href=\"org.gnome.Terminal.desktop\">APT কমান্ড লাইন</a> ব্যবহার করে কিছু "
 "সফটওয়্যার ইন্সটল করুন ।"
 
@@ -1405,7 +1405,7 @@ msgid ""
 "href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a href=\"org."
 "gnome.Terminal.desktop\">APT on the command line</a>."
 msgstr ""
-"তাই করতে, একটি একরোখা স্টোরেজ তৈরি করুন এবং  <a href=\"synaptic."
+"তাই করতে, একটি একরোখা স্টোরেজ তৈরি করুন এবং <a href=\"synaptic."
 "desktop\">Synaptic প্যাকেজ ম্যানেজার</a> বা <a href=\"org.gnome.Terminal."
 "desktop\">APT কমান্ড লাইন</a> ব্যবহার করে কিছু সফটওয়্যার ইন্সটল করতে হবে ।"
 
@@ -1736,7 +1736,7 @@ msgid ""
 "all applications that could be accessing the target and try again."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:25
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.PersistentStorage.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:181
@@ -1746,12 +1746,12 @@ msgstr ""
 msgid "Persistent Storage"
 msgstr "অবিরাম স্টোরেজ তৈরি করুন"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:46
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:48
 #, fuzzy
 msgid "Failed to start the Persistent Storage service"
 msgstr "সিস্টেম পুনরায় আরম্ভ করতে ব্যর্থ হয়েছে"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:77
 msgid "Could not find the WhisperBack application"
 msgstr ""
 
@@ -1870,11 +1870,11 @@ msgstr ""
 msgid "Strong"
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:36
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:38
 msgid "You can send an error report to help solve the issue."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:44
 #, fuzzy
 msgid "_Send Error Report"
 msgstr "WhisperBack ত্রুটি রিপোর্টিং"
@@ -2202,62 +2202,46 @@ msgstr ""
 msgid "Failed to run browser."
 msgstr "ব্রাউজার চালাতে ব্যর্থ হয়েছে"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:40
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:45
 #, python-format
 msgid ""
 "The %s variable was not found in the configuration file: /etc/whisperback/"
 "config.py"
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:113
-msgid "Name of the affected software"
-msgstr "প্রভাবিত সফটওয়্যারের নাম"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:115
-msgid "Exact steps to reproduce the error"
-msgstr "ত্রুটি পুনরূদ্ধার সঠিক পদক্ষেপ হল"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:117
-msgid "Actual result and description of the error"
-msgstr "ত্রুটির প্রকৃত ফলাফল এবং বর্ণনা"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:119
-msgid "Desired result"
-msgstr "কাঙ্ক্ষিত ফলাফল"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:132
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:125
 msgid "Unable to load a valid configuration."
 msgstr "একটি বৈধ কনফিগারেশন লোড করতে অক্ষম।"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:169
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:149
 msgid "Sending mail..."
 msgstr "মেল পাঠানো হচ্ছে ..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:170
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:150
 msgid "Sending mail"
 msgstr "মেল পাঠানো হচ্ছে"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:152
 msgid "This could take a while..."
 msgstr "এটি কিছু সময় নিতে পারে ..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:188
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:184
 msgid "The contact email address doesn't seem valid."
 msgstr "যোগাযোগের ইমেল ঠিকানাটি বৈধ মনে হয়নি ।"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:205
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:204
 msgid "Unable to send the mail: SMTP error."
 msgstr "মেইল পাঠাতে অক্ষম: এসএমটিপি ত্রুটি"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:207
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:206
 msgid "Unable to connect to the server."
 msgstr "সার্ভারের সাথে সংযোগ স্থাপন করতে অক্ষম."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:209
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:208
 msgid "Unable to create or to send the mail."
 msgstr "মেল তৈরি করতে বা পাঠাতে অক্ষম।"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:212
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:214
 msgid ""
 "\n"
 "\n"
@@ -2273,20 +2257,20 @@ msgstr ""
 "\n"
 "যদি এটি কাজ না করে, তবে আপনাকে বাগ রিপোর্ট সংরক্ষণ করতে দেওয়া হবে।"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:225
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:229
 msgid "Your message has been sent."
 msgstr "আপনার বার্তাটি পাঠানো হয়েছে."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:232
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:235
 msgid "An error occured during encryption."
 msgstr "এনক্রিপশন সময় একটি ত্রুটি ঘটেছে।"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:252
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:257
 #, python-format
 msgid "Unable to save %s."
 msgstr "%s সংরক্ষণ করতে অক্ষম."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:275
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:287
 #, python-format
 msgid ""
 "The bug report could not be sent, likely due to network problems.\n"
@@ -2308,43 +2292,21 @@ msgstr ""
 "\n"
 "আপনি কি একটি ফাইল বাগ রিপোর্ট সংরক্ষণ করতে চান?"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:337
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:280
-msgid "WhisperBack"
-msgstr "WhisperBack"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:338
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:12
-msgid "Send feedback in an encrypted mail."
-msgstr "একটি এনক্রিপ্ট করা মেলে প্রতিক্রিয়া পাঠান।"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:341
-msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
-msgstr "কপিরাইট © 2009-2018 Tails ডেভেলপার (tails@boum.org)"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:342
-msgid "Tails developers <tails@boum.org>"
-msgstr "টাইল ডেভেলপার <tails@boum.org>"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:343
-msgid "translator-credits"
-msgstr "অনুবাদক-ক্রেডিট"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:376
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:372
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
 msgstr "এটি একটি বৈধ URL বা OpenPGP কী বলে মনে হচ্ছে না।"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:60
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:59
 #, python-format
 msgid "Invalid contact email: %s"
 msgstr "যোগাযোগ ইমেল সঠিক নয়:%s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:79
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:78
 #, python-format
 msgid "Invalid contact OpenPGP key: %s"
 msgstr "যোগাযোগ OpenPGP কী সঠিক নয়:%s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:81
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:80
 msgid "Invalid contact OpenPGP public key block"
 msgstr "যোগাযোগের OpenPGP সর্বজনীন কী ব্লক সঠিক নয়"
 
@@ -3053,46 +3015,7 @@ msgstr "টার্গেট USB স্টিক:"
 msgid "Reinstall (delete all data)"
 msgstr "পুনরায় ইনস্টল করুন (সমস্ত ডেটা মুছুন)"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:11
-msgid "Copyright © 2009-2018 tails@boum.org"
-msgstr "কপিরাইট © 2009-2018 tails@boum.org"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:15
-msgid ""
-"WhisperBack - Send feedback in an encrypted mail\n"
-"Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
-"\n"
-"This program is  free software; you can redistribute  it and/or modify\n"
-"it under the  terms of the GNU General Public  License as published by\n"
-"the Free Software Foundation; either  version 3 of the License, or (at\n"
-"your option) any later version.\n"
-"\n"
-"This program  is distributed in the  hope that it will  be useful, but\n"
-"WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
-"MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
-"General Public License for more details.\n"
-"\n"
-"You should have received a copy of the GNU General Public License\n"
-"along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
-msgstr ""
-"WhisperBack-এনক্রিপ্ট করা মেইলে ফিডব্যাক প্রেরণ করুন\n"
-"কপিরাইট (C) 2009-2018 Tails ডেভেলপার <tails@boum.org>\n"
-"\n"
-"এই প্রোগ্রামটি বিনামূল্যে সফটওয়্যার; আপনি এটি পুনরায় বিতরণ করতে পারেন এবং/অথবা "
-"পরিবর্তন করতে পারবেন\n"
-"এটি GNU সাধারণ পাবলিক লাইসেন্সের শর্তাবলী অনুসারে প্রকাশিত\n"
-"বিনামূল্যে সফটওয়্যার ফাউন্ডেশন; হয় লাইসেন্সের সংস্করণ 3, অথবা (\n"
-"আপনার বিকল্প) যেকোনো পরবর্তী সংস্করণ ।\n"
-"\n"
-"এই প্রোগ্রামটি যে কাজে লাগবে তা বিতরণ করা হলেও\n"
-"কোনো ওয়ারেন্টি ছাড়াই; এমনকি এর ইঙ্গিতপূর্ণ ওয়ারেন্টি ছাড়া\n"
-"একটি নির্দিষ্ট উদ্দেশ্যের জন্য নিশ্চয়তাও বা সুস্থতা কামনা করি । GNU দেখুন\n"
-"আরও বিস্তারিত জানতে সাধারণ পাবলিক লাইসেন্স ।\n"
-"\n"
-"আপনার উচিত GNU সাধারণ পাবলিক লাইসেন্সের একটি কপি পাওয়া\n"
-"সঙ্গে সঙ্গে এই প্রোগ্রামের । যদি না হয়, দেখুন http://www.gnu.org/licenses/ ।\n"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:122
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:68
 msgid ""
 "If you want us to encrypt messages when we respond to you, add your key ID, "
 "a link to your key, or the key as a public key block:"
@@ -3100,50 +3023,78 @@ msgstr ""
 "আপনি যদি আমাদের সাড়া দিয়ে বার্তাগুলি এনক্রিপ্ট করতে চান, তাহলে আপনার কী আইডি, "
 "আপনার কী-এর একটি লিঙ্ক যোগ করুন, অথবা কী টি পাবলিক কী ব্লক হিসাবে যোগ করুন:"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:308
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:226
+msgid "WhisperBack"
+msgstr "WhisperBack"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:255
 msgid "Summary"
 msgstr "সারাংশ"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:337
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:485
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:288
+msgid "What were you trying to achieve?"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:328
+msgid ""
+"<b>What happened instead?</b>\n"
+"Describe the error with as many details as possible."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:367
+msgid ""
+"<b>What did you do that triggered this error?</b>\n"
+"Describe the exact steps that caused the error, so we can try to make it "
+"happen again.\n"
+"Otherwise, we won't be able to troubleshoot and solve it."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:403
+#, fuzzy
+msgid "Error reporting guidelines"
+msgstr "আমাদের বাগ রিপোর্টিং নির্দেশিকা পড়ুন।"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:421
+msgid ""
+"<b>Email address</b>\n"
+"So we can answer you or ask for more details."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:453
+#, fuzzy
+msgid "Optional PGP Key…"
+msgstr "ঐচ্ছিক PGP কী"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:478
+msgid ""
+"Even if we are not able to reply to every report, we analyze all reports to "
+"improve Tails."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:493
 msgid "Bug description"
 msgstr "বাগ বিবরণ"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:378
-msgid "Help:"
-msgstr "সহায়তা:"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:388
-msgid "Read our bug reporting guidelines."
-msgstr "আমাদের বাগ রিপোর্টিং নির্দেশিকা পড়ুন।"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:416
-msgid "Email address (if you want an answer from us)"
-msgstr "ই-মেইল ঠিকানা (যদি আপনি আমাদের কাছ থেকে উত্তর চান)"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:445
-msgid "optional PGP key"
-msgstr "ঐচ্ছিক PGP কী"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:470
-msgid "Please know that we are not able to reply to every bug report."
-msgstr ""
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:502
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:613
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:510
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:667
 msgid "Technical details to include"
 msgstr "অন্তর্ভুক্ত প্রযুক্তিগত বিবরণ"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:540
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:549
 msgid "headers"
 msgstr "হেডার"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:588
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:594
+msgid "information about the bug being reported"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:642
 msgid "debugging info"
 msgstr "ডিবাগিং তথ্য"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:680
-msgid "Send"
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:703
+#, fuzzy
+msgid "_Send"
 msgstr "পাঠান"
 
 #: ../config/chroot_local-includes/usr/local/share/mime/packages/unlock-veracrypt-volumes.xml.in.h:1
@@ -3557,6 +3508,73 @@ msgstr ""
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:368
 msgid "Clock"
 msgstr ""
+
+#~ msgid "Name of the affected software"
+#~ msgstr "প্রভাবিত সফটওয়্যারের নাম"
+
+#~ msgid "Exact steps to reproduce the error"
+#~ msgstr "ত্রুটি পুনরূদ্ধার সঠিক পদক্ষেপ হল"
+
+#~ msgid "Actual result and description of the error"
+#~ msgstr "ত্রুটির প্রকৃত ফলাফল এবং বর্ণনা"
+
+#~ msgid "Desired result"
+#~ msgstr "কাঙ্ক্ষিত ফলাফল"
+
+#~ msgid "Send feedback in an encrypted mail."
+#~ msgstr "একটি এনক্রিপ্ট করা মেলে প্রতিক্রিয়া পাঠান।"
+
+#~ msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
+#~ msgstr "কপিরাইট © 2009-2018 Tails ডেভেলপার (tails@boum.org)"
+
+#~ msgid "Tails developers <tails@boum.org>"
+#~ msgstr "টাইল ডেভেলপার <tails@boum.org>"
+
+#~ msgid "translator-credits"
+#~ msgstr "অনুবাদক-ক্রেডিট"
+
+#~ msgid "Copyright © 2009-2018 tails@boum.org"
+#~ msgstr "কপিরাইট © 2009-2018 tails@boum.org"
+
+#~ msgid ""
+#~ "WhisperBack - Send feedback in an encrypted mail\n"
+#~ "Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
+#~ "\n"
+#~ "This program is  free software; you can redistribute  it and/or modify\n"
+#~ "it under the  terms of the GNU General Public  License as published by\n"
+#~ "the Free Software Foundation; either  version 3 of the License, or (at\n"
+#~ "your option) any later version.\n"
+#~ "\n"
+#~ "This program  is distributed in the  hope that it will  be useful, but\n"
+#~ "WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
+#~ "MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
+#~ "General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+#~ msgstr ""
+#~ "WhisperBack-এনক্রিপ্ট করা মেইলে ফিডব্যাক প্রেরণ করুন\n"
+#~ "কপিরাইট (C) 2009-2018 Tails ডেভেলপার <tails@boum.org>\n"
+#~ "\n"
+#~ "এই প্রোগ্রামটি বিনামূল্যে সফটওয়্যার; আপনি এটি পুনরায় বিতরণ করতে পারেন এবং/অথবা "
+#~ "পরিবর্তন করতে পারবেন\n"
+#~ "এটি GNU সাধারণ পাবলিক লাইসেন্সের শর্তাবলী অনুসারে প্রকাশিত\n"
+#~ "বিনামূল্যে সফটওয়্যার ফাউন্ডেশন; হয় লাইসেন্সের সংস্করণ 3, অথবা (\n"
+#~ "আপনার বিকল্প) যেকোনো পরবর্তী সংস্করণ ।\n"
+#~ "\n"
+#~ "এই প্রোগ্রামটি যে কাজে লাগবে তা বিতরণ করা হলেও\n"
+#~ "কোনো ওয়ারেন্টি ছাড়াই; এমনকি এর ইঙ্গিতপূর্ণ ওয়ারেন্টি ছাড়া\n"
+#~ "একটি নির্দিষ্ট উদ্দেশ্যের জন্য নিশ্চয়তাও বা সুস্থতা কামনা করি । GNU দেখুন\n"
+#~ "আরও বিস্তারিত জানতে সাধারণ পাবলিক লাইসেন্স ।\n"
+#~ "\n"
+#~ "আপনার উচিত GNU সাধারণ পাবলিক লাইসেন্সের একটি কপি পাওয়া\n"
+#~ "সঙ্গে সঙ্গে এই প্রোগ্রামের । যদি না হয়, দেখুন http://www.gnu.org/licenses/ ।\n"
+
+#~ msgid "Help:"
+#~ msgstr "সহায়তা:"
+
+#~ msgid "Email address (if you want an answer from us)"
+#~ msgstr "ই-মেইল ঠিকানা (যদি আপনি আমাদের কাছ থেকে উত্তর চান)"
 
 #~ msgid "Unlock"
 #~ msgstr "আনলক করুন"

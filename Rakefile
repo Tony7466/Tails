@@ -75,7 +75,8 @@ def run_command(*args, **kwargs)
   Process.wait Kernel.spawn(*args, **kwargs)
   return if $CHILD_STATUS.exitstatus.zero?
 
-  raise CommandError.new("command #{args}, #{kwargs} failed with exit status %<status>s",
+  raise CommandError.new("command #{args}, #{kwargs} failed " \
+                         'with exit status %<status>s',
                          status: $CHILD_STATUS.exitstatus)
 end
 
@@ -84,7 +85,7 @@ def capture_command(*args, **kwargs)
   if proc_status.exitstatus != 0
     raise CommandError.new("command #{args}, #{kwargs} failed with exit status " \
                            '%<status>s: %<stderr>s',
-                           stderr: stderr, status: proc_status.exitstatus)
+                           stderr:, status: proc_status.exitstatus)
   end
   [stdout, stderr]
 end
@@ -414,7 +415,8 @@ task merge_base_branch: ['parse_build_options', 'setup_environment'] do
 
   branch = git_helper('git_current_branch')
   base_branch = git_helper('base_branch')
-  source_date_faketime = `date --utc --date="$(dpkg-parsechangelog --show-field=Date)" '+%Y-%m-%d %H:%M:%S'`.chomp
+  source_date_faketime = `date --utc --date="$(dpkg-parsechangelog --show-field=Date)" \
+                               '+%Y-%m-%d %H:%M:%S'`.chomp
   next if releasing? || branch == base_branch
 
   commit_before_merge = git_helper('git_current_commit')
@@ -441,8 +443,7 @@ task merge_base_branch: ['parse_build_options', 'setup_environment'] do
 
   ENV['GIT_COMMIT'] = git_helper('git_current_commit')
   ENV['FEATURE_BRANCH_GIT_COMMIT'] = commit_before_merge
-  ENV['TAILS_BUILD_OPTIONS'] = (ENV['TAILS_BUILD_OPTIONS'] || '') + \
-                               ' nomergebasebranch'
+  ENV['TAILS_BUILD_OPTIONS'] = "#{ENV['TAILS_BUILD_OPTIONS'] || ''} nomergebasebranch"
   Kernel.exec('rake', *ARGV)
 end
 
@@ -583,9 +584,6 @@ def domain_name
   "#{box_name}_default"
 end
 
-# XXX: giving up on a few worst offenders for now
-# rubocop:disable Metrics/AbcSize
-# rubocop:disable Metrics/MethodLength
 def clean_up_builder_vms
   libvirt = Libvirt.open('qemu:///system')
 
@@ -653,8 +651,6 @@ def clean_up_builder_vms
 ensure
   libvirt.close
 end
-# rubocop:enable Metrics/AbcSize
-# rubocop:enable Metrics/MethodLength
 
 desc 'Remove all libvirt volumes named tails-builder-* (run at your own risk!)'
 task :clean_up_libvirt_volumes do
@@ -744,7 +740,9 @@ namespace :basebox do
       time needed for downloading around 250 MiB of Debian packages.
 
     END_OF_MESSAGE
-    run_command("#{VAGRANT_PATH}/definitions/tails-builder/generate-tails-builder-box.sh")
+    run_command(
+      "#{VAGRANT_PATH}/definitions/tails-builder/generate-tails-builder-box.sh"
+    )
     box_dir = Dir.pwd
     # Let's use an absolute path since run_vagrant changes the working
     # directory but File.delete doesn't

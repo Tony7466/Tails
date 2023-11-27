@@ -88,10 +88,10 @@ def pcap_connections_helper(pcap_file, **opts)
     packet_info = {
       mac_saddr:    eth_packet.eth_saddr,
       mac_daddr:    eth_packet.eth_daddr,
-      protocol:     protocol,
-      sport:        sport,
-      dport:        dport,
-      dns_question: dns_question,
+      protocol:,
+      sport:,
+      dport:,
+      dns_question:,
     }
 
     begin
@@ -144,7 +144,8 @@ def assert_no_leaks(pcap_file, allowed_hosts, allowed_dns_queries, **opts)
     allowed_hosts.include?({ address: c.daddr, port: c.dport })
   end
 
-  # yes, we could combine these two checks in a single one, and that would probably be more efficient.
+  # yes, we could combine these two checks in a single one,
+  # and that would probably be more efficient.
   # However, we're gaining something when it comes to debugging:
   # the line number now tells you *which* check  has failed
   dns_opts = opts.clone
@@ -161,7 +162,10 @@ def debug_useless_dns_exceptions(pcap_file, allowed_dns_queries)
   end
   queries_allowed = Set.new(allowed_dns_queries)
   useless_dns_exceptions = queries_allowed - queries_made
-  unless useless_dns_exceptions.empty?
-    info_log("Warning: these queries were allowed but not needed: #{useless_dns_exceptions.to_a}")
-  end
+  return if useless_dns_exceptions.empty?
+
+  info_log(
+    'Warning: these queries were allowed but not needed: ' \
+    "#{useless_dns_exceptions.to_a}"
+  )
 end

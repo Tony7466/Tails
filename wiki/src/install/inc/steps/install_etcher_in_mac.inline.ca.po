@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-11-08 00:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
@@ -25,8 +25,7 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"etcher\" class=\"step\">Install <em>balenaEtcher</em></h1>\n"
-msgstr ""
-"<h1 id=\"etcher\" class=\"step\">Instal·lar <em>balenaEtcher</em></h1>\n"
+msgstr "<h1 id=\"etcher\" class=\"step\">Instal·lar <em>balenaEtcher</em></h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,8 +38,7 @@ msgid ""
 "<p class=\"upgrade\">In the following steps, you will install an intermediary Tails using the Tails USB\n"
 "image that you downloaded earlier.</p>\n"
 msgstr ""
-"<p class=\"upgrade\">En els passos següents, instal·lareu un Tails "
-"intermediari mitjançant la imatge USB\n"
+"<p class=\"upgrade\">En els passos següents, instal·lareu un Tails intermediari mitjançant la imatge USB\n"
 "de Tails que heu baixat abans.</p>\n"
 
 #. type: Bullet: '1. '
@@ -50,9 +48,7 @@ msgstr "Feu clic al botó següent per baixar <em>balenaEtcher</em>:"
 #. type: Plain text
 #, no-wrap
 msgid "   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\">Download balenaEtcher for macOS</a>\n"
-msgstr ""
-"   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\""
-">Baixeu balenaEtcher per a macOS</a>\n"
+msgstr "   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\">Baixeu balenaEtcher per a macOS</a>\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -65,9 +61,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   [[!img install/inc/screenshots/install_etcher_in_mac.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
-"   [[!img install/inc/screenshots/install_etcher_in_mac.png link=\"no\" alt="
-"\"\"]]\n"
+msgstr "   [[!img install/inc/screenshots/install_etcher_in_mac.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -84,8 +78,8 @@ msgid ""
 "Close the installation window of <span class=\"application\">balenaEtcher</"
 "span>."
 msgstr ""
-"Tanqueu la finestra d'instal·lació de <span class=\"application\""
-">balenaEtcher</span>."
+"Tanqueu la finestra d'instal·lació de <span class=\"application"
+"\">balenaEtcher</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -93,16 +87,13 @@ msgid ""
 "   Optionally, eject the <span class=\"application\">balenaEtcher</span> disk image\n"
 "   from the desktop.\n"
 msgstr ""
-"   Opcionalment, expulseu la imatge de disc <span class=\"application\""
-">balenaEtcher</span>\n"
+"   Opcionalment, expulseu la imatge de disc <span class=\"application\">balenaEtcher</span>\n"
 "   des de l'escriptori.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   [[!img install/inc/screenshots/eject_etcher_dmg.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
-"   [[!img install/inc/screenshots/eject_etcher_dmg.png link=\"no\" alt=\"\"]]"
-"\n"
+msgstr "   [[!img install/inc/screenshots/eject_etcher_dmg.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -112,8 +103,7 @@ msgid ""
 "line\"]].\n"
 msgstr ""
 "En lloc d'instal·lar <span class=\"application\">balenaEtcher</span>, podeu\n"
-"també [[!toggle id=\"dd\" text=\"instal·lar Tails utilitzant `dd` a la "
-"línia\n"
+"també [[!toggle id=\"dd\" text=\"instal·lar Tails utilitzant `dd` a la línia\n"
 "d'ordres\"]].\n"
 
 #. type: Plain text
@@ -152,9 +142,7 @@ msgstr "   <p class=\"pre command\">diskutil list</p>\n"
 #. type: Plain text
 #, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
-msgstr ""
-"   Retorna una llista dels dispositius d'emmagatzematge del sistema. Per "
-"exemple:\n"
+msgstr "   Retorna una llista dels dispositius d'emmagatzematge del sistema. Per exemple:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -239,8 +227,7 @@ msgid ""
 msgstr ""
 "   <div class=\"caution\">\n"
 "   <p>Si no esteu segur del nom del dispositiu, millor no continueu o\n"
-"   <strong>correu el risc de sobreescriure qualsevol disc dur del "
-"sistema</strong>.</p>\n"
+"   <strong>correu el risc de sobreescriure qualsevol disc dur del sistema</strong>.</p>\n"
 "   </div>\n"
 
 #. type: Bullet: '1. '
@@ -276,10 +263,8 @@ msgid ""
 msgstr ""
 "     <div class=\"tip\">\n"
 "     <p>Si no esteu segur de la ruta a la imatge USB, podeu inserir el\n"
-"     camí correcte arrossegant i deixant anar la icona de la imatge USB des "
-"de el\n"
-"     <span class=\"application\">Cercador</span> a la <span class="
-"\"application\">\n"
+"     camí correcte arrossegant i deixant anar la icona de la imatge USB des de el\n"
+"     <span class=\"application\">Cercador</span> a la <span class=\"application\">\n"
 "     Terminal</span>.</p>\n"
 "     </div>\n"
 
@@ -299,24 +284,18 @@ msgid ""
 "     </div>\n"
 msgstr ""
 "     <div class=\"tip\">\n"
-"     <p>Podeu provar d'afegir <span class=\"code\">r</span> abans del <span "
-"class=\"code\">disc</span> per fer la instal·lació més ràpida.</p>\n"
+"     <p>Podeu provar d'afegir <span class=\"code\">r</span> abans del <span class=\"code\">disc</span> per fer la instal·lació més ràpida.</p>\n"
 "     </div>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
-msgstr ""
-"   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-"
-"placeholder\">dispositiu</span></p>\n"
+msgstr "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">dispositiu</span></p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
-msgstr ""
-"   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails."
-"img</span> of=<span class=\"command-placeholder\">dispositiu</span> bs=16m "
-"&& sync</p>\n"
+msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">dispositiu</span> bs=16m && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -326,9 +305,7 @@ msgstr "   Hauríeu d'obtenir alguna cosa com això:\n"
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.12.img of=/dev/rdisk9 bs=16m && sync</p>\n"
-msgstr ""
-"   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.12.img of=/"
-"dev/rdisk9 bs=16m && sync</p>\n"
+msgstr "   <p class=\"pre command-example\">dd if=/Users/me/tails-amd64-3.12.img of=/dev/rdisk9 bs=16m && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -347,17 +324,13 @@ msgid ""
 "   adding <code>sudo</code> at the beginning of the command:</p>\n"
 msgstr ""
 "   <div class=\"note\">\n"
-"   <p>Si obteniu un error de <span class=\"guilabel\">Permís denegat</span>, "
-"proveu\n"
+"   <p>Si obteniu un error de <span class=\"guilabel\">Permís denegat</span>, proveu\n"
 "   d'afegir <code>sudo</code> al principi de l'ordre:</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
-msgstr ""
-"   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\""
-">tails.img</span> of=<span class=\"command-placeholder\">dispositiu</span> "
-"bs=16m && sync</p>\n"
+msgstr "   <p class=\"pre command\">sudo dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">dispositiu</span> bs=16m && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -365,17 +338,13 @@ msgid ""
 "   <p>If you get an <span class=\"guilabel\">invalid number ‘16m’</span> error, try\n"
 "   using <code>16M</code> instead:</p>\n"
 msgstr ""
-"   <p>Si obteniu un error de <span class=\"guilabel\">invalid number '16m'</"
-"span>, proveu\n"
+"   <p>Si obteniu un error de <span class=\"guilabel\">invalid number '16m'</span>, proveu\n"
 "   d'utilitzar <code>16M</code>:</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16M && sync</p>\n"
-msgstr ""
-"   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails."
-"img</span> of=<span class=\"command-placeholder\">dispositiu</span> bs=16M "
-"&& sync</p>\n"
+msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">dispositiu</span> bs=16M && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -385,9 +354,7 @@ msgstr "   </div>\n"
 #. type: Plain text
 #, no-wrap
 msgid "   The installation is complete once the command prompt reappeared.\n"
-msgstr ""
-"   La instal·lació s'ha completat un cop ha tornat a aparèixer l'indicador "
-"d'ordres.\n"
+msgstr "   La instal·lació s'ha completat un cop ha tornat a aparèixer l'indicador d'ordres.\n"
 
 #, no-wrap
 #~ msgid "<div class=\"hidden-step-1\"></div>\n"

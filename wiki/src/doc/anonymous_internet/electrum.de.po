@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-12 18:11+0000\n"
+"PO-Revision-Date: 2023-11-16 16:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -47,7 +47,6 @@ msgstr ""
 "Backup-Fehler oder einem Computerproblem verloren gehen."
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid ""
 "Electrum does not download the blockchain, so there is no waiting time when "
 "starting."

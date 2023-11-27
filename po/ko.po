@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
+"POT-Creation-Date: 2023-11-27 10:17+0100\n"
 "PO-Revision-Date: 2023-09-23 13:00+0000\n"
 "Last-Translator: Kyeongmin Kim <kyeongmin.dev@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/tor/tails-gui/ko/"
@@ -224,35 +224,30 @@ msgstr ""
 msgid "_Create persistent storage"
 msgstr "_영속 저장소 만들기"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:94
+#: config/chroot_local-includes/usr/local/bin/electrum:95
 msgid ""
-"Tails needs donations to keep everybody free and safe online.\n"
+"End this year by giving the gift of privacy.\n"
 "\n"
-"Every bit helps in our fight against surveillance and censorship!\n"
+"Contribute to our annual fundraiser today!\n"
 "\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
-"we spend our money.</a>"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html\">Why donate to "
+"Tails?</a>"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:101
+#, fuzzy
+msgid ""
+"Our annual fundraiser is live!\n"
+"\n"
+"Keep everybody free and safe online with a gift to Tails.\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html\">Why donate to "
+"Tails?</a>"
 msgstr ""
 "Tails는 온라인에서 모든 사람들을 자유롭게 하고 안전하게 보호하기 위하여 기부"
 "가 필요합니다.\n"
 "\n"
 "모든 비트는 감시와 검열에 맞서 싸우는 데 도움이 됩니다!\n"
-"\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">기부"
-"금은 이렇게 사용됩니다.</a>"
-
-#: config/chroot_local-includes/usr/local/bin/electrum:101
-msgid ""
-"Tails protects your wallet.\n"
-"\n"
-"Help us keep your bitcoins safe!\n"
-"\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
-"we spend our money.</a>"
-msgstr ""
-"Tails는 당신의 지갑을 보호합니다.\n"
-"\n"
-"귀하의 비트코인을 안전하게 보호할 수 있도록 도와주세요!\n"
 "\n"
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">기부"
 "금은 이렇게 사용됩니다.</a>"
@@ -1328,7 +1323,7 @@ msgstr "su는 현재 사용이 중지되었습니다. 대신 sudo를 사용해 �
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:221
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:77
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:72
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:76
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:314
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:460
@@ -1812,7 +1807,7 @@ msgid ""
 "all applications that could be accessing the target and try again."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:25
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.PersistentStorage.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:181
@@ -1822,12 +1817,12 @@ msgstr ""
 msgid "Persistent Storage"
 msgstr "퍼시스턴트 저장소 생성"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:46
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:48
 #, fuzzy
 msgid "Failed to start the Persistent Storage service"
 msgstr "퍼시스턴트 저장소를 구성하지 못함"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:77
 msgid "Could not find the WhisperBack application"
 msgstr ""
 
@@ -1945,11 +1940,11 @@ msgstr ""
 msgid "Strong"
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:36
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:38
 msgid "You can send an error report to help solve the issue."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:44
 #, fuzzy
 msgid "_Send Error Report"
 msgstr "WhisperBack 오류 보고"
@@ -2281,62 +2276,46 @@ msgstr ""
 msgid "Failed to run browser."
 msgstr "브라우저를 실행시키지 못 했습니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:40
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:45
 #, python-format
 msgid ""
 "The %s variable was not found in the configuration file: /etc/whisperback/"
 "config.py"
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:113
-msgid "Name of the affected software"
-msgstr "영향을 받는 소프트웨어의 이름"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:115
-msgid "Exact steps to reproduce the error"
-msgstr "문제를 재현하기 위한 정확한 단계"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:117
-msgid "Actual result and description of the error"
-msgstr "오류의 실제 결과 및 설명"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:119
-msgid "Desired result"
-msgstr "원하는 결과"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:132
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:125
 msgid "Unable to load a valid configuration."
 msgstr "올바른 설정을 불러올 수 없습니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:169
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:149
 msgid "Sending mail..."
 msgstr "메일 전송 중..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:170
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:150
 msgid "Sending mail"
 msgstr "메일 전송 중"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:152
 msgid "This could take a while..."
 msgstr "다소 시간이 걸릴 수 있습니다..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:188
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:184
 msgid "The contact email address doesn't seem valid."
 msgstr "연락처 이메일 주소가 올바르지 않은 것을 같습니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:205
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:204
 msgid "Unable to send the mail: SMTP error."
 msgstr "메일을 보낼 수 없습니다: SMPT 오류."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:207
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:206
 msgid "Unable to connect to the server."
 msgstr "서버에 연결할 수 없습니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:209
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:208
 msgid "Unable to create or to send the mail."
 msgstr "메일을 작성하거나 보낼 수 없습니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:212
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:214
 msgid ""
 "\n"
 "\n"
@@ -2352,20 +2331,20 @@ msgstr ""
 "\n"
 "작동하지 않으면 버그 보고서를 저장하라는 메시지가 표시됩니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:225
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:229
 msgid "Your message has been sent."
 msgstr "메시지를 보냈습니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:232
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:235
 msgid "An error occured during encryption."
 msgstr "암호화하는 동안 오류가 발생했습니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:252
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:257
 #, python-format
 msgid "Unable to save %s."
 msgstr "%s을(를) 저장할 수 없습니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:275
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:287
 #, python-format
 msgid ""
 "The bug report could not be sent, likely due to network problems.\n"
@@ -2387,43 +2366,21 @@ msgstr ""
 "\n"
 "버그 보고서를 파일로 저장하시겠습니까?"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:337
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:280
-msgid "WhisperBack"
-msgstr "WhisperBack"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:338
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:12
-msgid "Send feedback in an encrypted mail."
-msgstr "암호화된 메일로 피드백을 보냅니다."
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:341
-msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
-msgstr "Copyright © 2009-2018 Tails developers (tails@boum.org)"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:342
-msgid "Tails developers <tails@boum.org>"
-msgstr "Tails developers <tails@boum.org>"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:343
-msgid "translator-credits"
-msgstr "이정희 <daemul72@gmail.com>"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:376
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:372
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
 msgstr "URL 또는 OpenPGP키가 유효하지 않은 것 같습니다."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:60
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:59
 #, python-format
 msgid "Invalid contact email: %s"
 msgstr "잘못된 이메일: %s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:79
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:78
 #, python-format
 msgid "Invalid contact OpenPGP key: %s"
 msgstr "잘못된 연락처 OpenPGP 키: %s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:81
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:80
 msgid "Invalid contact OpenPGP public key block"
 msgstr "잘못된 연락처 OpenPGP 공증 키 차단"
 
@@ -3153,44 +3110,7 @@ msgstr "대상 USB 메모리 스틱:"
 msgid "Reinstall (delete all data)"
 msgstr "재설치하기 (모든 데이터를 삭제)"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:11
-msgid "Copyright © 2009-2018 tails@boum.org"
-msgstr "Copyright © 2009-2018 tails@boum.org"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:15
-msgid ""
-"WhisperBack - Send feedback in an encrypted mail\n"
-"Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
-"\n"
-"This program is  free software; you can redistribute  it and/or modify\n"
-"it under the  terms of the GNU General Public  License as published by\n"
-"the Free Software Foundation; either  version 3 of the License, or (at\n"
-"your option) any later version.\n"
-"\n"
-"This program  is distributed in the  hope that it will  be useful, but\n"
-"WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
-"MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
-"General Public License for more details.\n"
-"\n"
-"You should have received a copy of the GNU General Public License\n"
-"along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
-msgstr ""
-"WhisperBack - 피드백을 암호화된 메일로 보낼수 있습니다.\n"
-"Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
-"\n"
-"이 프로그램은 자유 소프트웨어입니다. 귀하는 이 프로그램을 자유 소프트웨어 재"
-"단에서 발행한 GNU General Public License 버전 3이나 그 이후의 버전으로 기여, "
-"재생산, 배포 할 수 있습니다.\n"
-"\n"
-"This program  is distributed in the  hope that it will  be useful, but\n"
-"WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
-"MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
-"General Public License for more details.\n"
-"\n"
-"You should have received a copy of the GNU General Public License\n"
-"along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:122
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:68
 msgid ""
 "If you want us to encrypt messages when we respond to you, add your key ID, "
 "a link to your key, or the key as a public key block:"
@@ -3198,50 +3118,79 @@ msgstr ""
 "사용자에게 응답할 때 메시지를 암호화하려면 키 ID, 키에 대한 링크 또는 키를 공"
 "용 키 블록으로 추가하십시오:"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:308
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:226
+msgid "WhisperBack"
+msgstr "WhisperBack"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:255
 msgid "Summary"
 msgstr "요약"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:337
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:485
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:288
+msgid "What were you trying to achieve?"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:328
+msgid ""
+"<b>What happened instead?</b>\n"
+"Describe the error with as many details as possible."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:367
+msgid ""
+"<b>What did you do that triggered this error?</b>\n"
+"Describe the exact steps that caused the error, so we can try to make it "
+"happen again.\n"
+"Otherwise, we won't be able to troubleshoot and solve it."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:403
+#, fuzzy
+msgid "Error reporting guidelines"
+msgstr "저희 버그 리포트 가이드라인을 읽으십시오."
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:421
+msgid ""
+"<b>Email address</b>\n"
+"So we can answer you or ask for more details."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:453
+#, fuzzy
+msgid "Optional PGP Key…"
+msgstr "부가적인 PGP 키"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:478
+#, fuzzy
+msgid ""
+"Even if we are not able to reply to every report, we analyze all reports to "
+"improve Tails."
+msgstr "저희는 모든 버그 리포트에 회신할 수 없습니다."
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:493
 msgid "Bug description"
 msgstr "버그 설명"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:378
-msgid "Help:"
-msgstr "도움말:"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:388
-msgid "Read our bug reporting guidelines."
-msgstr "저희 버그 리포트 가이드라인을 읽으십시오."
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:416
-msgid "Email address (if you want an answer from us)"
-msgstr "이메일 주소 (저희 대답을 받고 싶으면 기재하십시오)"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:445
-msgid "optional PGP key"
-msgstr "부가적인 PGP 키"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:470
-msgid "Please know that we are not able to reply to every bug report."
-msgstr "저희는 모든 버그 리포트에 회신할 수 없습니다."
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:502
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:613
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:510
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:667
 msgid "Technical details to include"
 msgstr "기술적인 세부 사항 포함"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:540
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:549
 msgid "headers"
 msgstr "헤더"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:588
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:594
+msgid "information about the bug being reported"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:642
 msgid "debugging info"
 msgstr "디버깅 정보"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:680
-msgid "Send"
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:703
+#, fuzzy
+msgid "_Send"
 msgstr "보내기"
 
 #: ../config/chroot_local-includes/usr/local/share/mime/packages/unlock-veracrypt-volumes.xml.in.h:1
@@ -3702,6 +3651,86 @@ msgstr "12월"
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:368
 msgid "Clock"
 msgstr "시계"
+
+#~ msgid ""
+#~ "Tails protects your wallet.\n"
+#~ "\n"
+#~ "Help us keep your bitcoins safe!\n"
+#~ "\n"
+#~ "<a href=\"file:///usr/share/doc/tails/website/donate.en."
+#~ "html#expenses\">How we spend our money.</a>"
+#~ msgstr ""
+#~ "Tails는 당신의 지갑을 보호합니다.\n"
+#~ "\n"
+#~ "귀하의 비트코인을 안전하게 보호할 수 있도록 도와주세요!\n"
+#~ "\n"
+#~ "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">기"
+#~ "부금은 이렇게 사용됩니다.</a>"
+
+#~ msgid "Name of the affected software"
+#~ msgstr "영향을 받는 소프트웨어의 이름"
+
+#~ msgid "Exact steps to reproduce the error"
+#~ msgstr "문제를 재현하기 위한 정확한 단계"
+
+#~ msgid "Actual result and description of the error"
+#~ msgstr "오류의 실제 결과 및 설명"
+
+#~ msgid "Desired result"
+#~ msgstr "원하는 결과"
+
+#~ msgid "Send feedback in an encrypted mail."
+#~ msgstr "암호화된 메일로 피드백을 보냅니다."
+
+#~ msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
+#~ msgstr "Copyright © 2009-2018 Tails developers (tails@boum.org)"
+
+#~ msgid "Tails developers <tails@boum.org>"
+#~ msgstr "Tails developers <tails@boum.org>"
+
+#~ msgid "translator-credits"
+#~ msgstr "이정희 <daemul72@gmail.com>"
+
+#~ msgid "Copyright © 2009-2018 tails@boum.org"
+#~ msgstr "Copyright © 2009-2018 tails@boum.org"
+
+#~ msgid ""
+#~ "WhisperBack - Send feedback in an encrypted mail\n"
+#~ "Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
+#~ "\n"
+#~ "This program is  free software; you can redistribute  it and/or modify\n"
+#~ "it under the  terms of the GNU General Public  License as published by\n"
+#~ "the Free Software Foundation; either  version 3 of the License, or (at\n"
+#~ "your option) any later version.\n"
+#~ "\n"
+#~ "This program  is distributed in the  hope that it will  be useful, but\n"
+#~ "WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
+#~ "MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
+#~ "General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+#~ msgstr ""
+#~ "WhisperBack - 피드백을 암호화된 메일로 보낼수 있습니다.\n"
+#~ "Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
+#~ "\n"
+#~ "이 프로그램은 자유 소프트웨어입니다. 귀하는 이 프로그램을 자유 소프트웨어 "
+#~ "재단에서 발행한 GNU General Public License 버전 3이나 그 이후의 버전으로 "
+#~ "기여, 재생산, 배포 할 수 있습니다.\n"
+#~ "\n"
+#~ "This program  is distributed in the  hope that it will  be useful, but\n"
+#~ "WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
+#~ "MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
+#~ "General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+
+#~ msgid "Help:"
+#~ msgstr "도움말:"
+
+#~ msgid "Email address (if you want an answer from us)"
+#~ msgstr "이메일 주소 (저희 대답을 받고 싶으면 기재하십시오)"
 
 #~ msgid "Unlock"
 #~ msgstr "잠금 해제"

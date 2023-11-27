@@ -73,6 +73,8 @@ end
 class VM
   attr_reader :domain, :domain_name, :display, :vmnet, :storage
 
+  # XXX: giving up on a few worst offenders for now
+  # rubocop:disable Metrics/AbcSize
   def initialize(virt, xml_path, vmnet, storage, x_display)
     @virt = virt
     @xml_path = xml_path
@@ -98,7 +100,8 @@ class VM
     if config_bool('EARLY_PATCH')
       rexml.elements['domain/devices'].add_element('filesystem')
       rexml.elements['domain/devices/filesystem'].add_attribute('type', 'mount')
-      rexml.elements['domain/devices/filesystem'].add_attribute('accessmode', 'passthrough')
+      rexml.elements['domain/devices/filesystem'].add_attribute('accessmode',
+                                                                'passthrough')
       rexml.elements['domain/devices/filesystem'].add_element('source')
       rexml.elements['domain/devices/filesystem'].add_element('target')
       rexml.elements['domain/devices/filesystem'].add_element('readonly')
@@ -115,6 +118,7 @@ class VM
     destroy_and_undefine
     raise e
   end
+  # rubocop:enable Metrics/AbcSize
 
   def domain_xml
     REXML::Document.new(@domain.xml_desc)
@@ -300,7 +304,6 @@ class VM
   end
 
   # XXX: giving up on a few worst offenders for now
-  # rubocop:disable Metrics/AbcSize
   def plug_drive(name, type)
     raise "disk '#{name}' already plugged" if disk_plugged?(name)
 
@@ -315,10 +318,10 @@ class VM
     end
     # Get the next free /dev/sdX on guest
     letter = 'a'
-    dev = 'sd' + letter
+    dev = "sd#{letter}"
     while list_disk_devs.include?(dev)
       letter = (letter[0].ord + 1).chr
-      dev = 'sd' + letter
+      dev = "sd#{letter}"
     end
     assert letter <= 'z'
 
@@ -333,7 +336,6 @@ class VM
 
     plug_device(xml)
   end
-  # rubocop:enable Metrics/AbcSize
 
   def disk_xml_desc(name)
     domain_xml.elements.each('domain/devices/disk') do |e|
@@ -368,7 +370,7 @@ class VM
 
   def disk_dev(name)
     (rexml = disk_rexml_desc(name)) || return
-    '/dev/' + rexml.elements['disk/target'].attribute('dev').to_s
+    "/dev/#{rexml.elements['disk/target'].attribute('dev')}"
   end
 
   def disk_name(dev)
@@ -395,7 +397,7 @@ class VM
   end
 
   def persistent_storage_dev_on_disk(name)
-    disk_dev(name) + '2'
+    "#{disk_dev(name)}2"
   end
 
   def set_disk_boot(name, type)
@@ -476,7 +478,7 @@ class VM
 
     if @remote_shell_socket_path.nil?
       @remote_shell_socket_path =
-        '/tmp/remote-shell_' + random_alnum_string(8) + '.socket'
+        "/tmp/remote-shell_#{random_alnum_string(8)}.socket"
     end
     update do |xml|
       channel_xml = <<-XML
@@ -519,11 +521,11 @@ class VM
   end
 
   def process_running?(process)
-    execute("pidof -x -o '%PPID' " + process).success?
+    execute("pidof -x -o '%PPID' #{process}").success?
   end
 
   def pidof(process)
-    execute("pidof -x -o '%PPID' " + process).stdout.chomp.split
+    execute("pidof -x -o '%PPID' #{process}").stdout.chomp.split
   end
 
   def file_exist?(file)
@@ -577,15 +579,15 @@ class VM
   def file_copy_local(localpath, vm_path)
     debug_log("copying #{localpath} to #{vm_path}")
     content = File.read(localpath)
-    permissions = File.stat(localpath).mode.to_s(8)[-3..-1]
-    file_overwrite(vm_path, content, permissions: permissions)
+    permissions = File.stat(localpath).mode.to_s(8)[-3..]
+    file_overwrite(vm_path, content, permissions:)
   end
 
   def file_copy_local_dir(localdir, vm_dir)
     localfiles = Dir.chdir(localdir) { Find.find('.').select { |p| FileTest.file?(p) } }
     localfiles.each do |fpath|
       # fpath is, for example,"./etc/amnesia/version"
-      vm_path = fpath[1..-1]
+      vm_path = fpath[1..]
       dir = File.dirname(vm_path)
 
       execute_successfully("mkdir -p '#{File.join(vm_dir, dir)}'")

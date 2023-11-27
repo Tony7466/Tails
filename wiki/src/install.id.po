@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2022-08-26 15:01+0000\n"
+"POT-Creation-Date: 2023-11-18 22:48+0000\n"
 "PO-Revision-Date: 2017-02-09 19:00+0100\n"
 "Last-Translator: Tails translators <tails@boum.org>\n"
 "Language-Team: \n"
@@ -27,56 +27,56 @@ msgid ""
 "meta stylesheet=\"install\" rel=\"stylesheet\" title=\"\"]]"
 msgstr ""
 
-#. type: Content of: <div><div>
+#. type: Content of: <div><div><div>
 msgid "[[ [[!img install/inc/icons/windows.png link=\"no\" alt=\"\"]]"
 msgstr ""
 
-#. type: Content of: <div><div><p>
+#. type: Content of: <div><div><div><p>
 msgid "Windows"
 msgstr ""
 
-#. type: Content of: <div><div>
+#. type: Content of: <div><div><div>
 #, fuzzy
 msgid "|install/windows]]"
 msgstr "|install/debian]]"
 
-#. type: Content of: <div><div>
+#. type: Content of: <div><div><div>
 msgid "[[ [[!img install/inc/icons/apple.png link=\"no\" alt=\"\"]]"
 msgstr ""
 
-#. type: Content of: <div><div><p>
+#. type: Content of: <div><div><div><p>
 msgid "macOS"
 msgstr ""
 
-#. type: Content of: <div><div>
+#. type: Content of: <div><div><div>
 msgid "|install/mac]]"
 msgstr ""
 
-#. type: Content of: <div><div>
+#. type: Content of: <div><div><div>
 msgid "[[ [[!img install/inc/icons/linux.png link=\"no\" alt=\"\"]]"
 msgstr ""
 
-#. type: Content of: <div><div><p>
+#. type: Content of: <div><div><div><p>
 msgid "Linux"
 msgstr ""
 
-#. type: Content of: <div><div>
+#. type: Content of: <div><div><div>
 msgid "|install/linux]]"
 msgstr ""
 
-#. type: Content of: <div><div>
+#. type: Content of: <div><div><div>
 msgid "[[ [[!img install/inc/icons/expert.png link=\"no\" alt=\"\"]]"
 msgstr ""
 
-#. type: Content of: <div><div><p>
+#. type: Content of: <div><div><div><p>
 msgid "Terminal"
 msgstr ""
 
-#. type: Content of: <div><div><p>
+#. type: Content of: <div><div><div><p>
 msgid "Debian or Ubuntu using the command line and GnuPG"
 msgstr ""
 
-#. type: Content of: <div><div>
+#. type: Content of: <div><div><div>
 #, fuzzy
 msgid "|install/expert]]"
 msgstr "|install/debian]]"

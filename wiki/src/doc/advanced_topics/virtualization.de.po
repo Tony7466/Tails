@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2021-05-13 10:54+0200\n"
-"PO-Revision-Date: 2023-11-12 16:11+0000\n"
+"POT-Creation-Date: 2023-11-17 18:41+0000\n"
+"PO-Revision-Date: 2023-11-23 12:17+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -39,12 +39,6 @@ msgstr ""
 "Virtuelle_Maschine desc=\"virtuellen Maschine\"]] möglich."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "With virtual machines, it is possible to run Tails inside a *host* "
-#| "operating system (Linux, Windows, or macOS). A virtual machine emulates a "
-#| "real computer and its operating system, called *guest* which appears in a "
-#| "window on the *host* operating system."
 msgid ""
 "With virtual machines, it is possible to run Tails inside a *host* operating "
 "system (Linux, Windows, or macOS). A virtual machine emulates a real "
@@ -57,11 +51,6 @@ msgstr ""
 "*Gast*, und erscheint in einem Fenster auf dem *Host*-Betriebssystem."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "When running Tails in a virtual machine, you can use most features of "
-#| "Tails from your usual operating system and use both in parallel without "
-#| "the need to restart the computer."
 msgid ""
 "When running Tails in a virtual machine, you can use most features of Tails "
 "from your usual operating system, and you can use both Tails and your usual "
@@ -73,10 +62,6 @@ msgstr ""
 "muss."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "This is how Tails looks like when run in a virtual machine on Debian "
-#| "using *GNOME Boxes*:"
 msgid ""
 "This is how Tails looks when run in a virtual machine on Debian using *GNOME "
 "Boxes*:"
@@ -95,16 +80,14 @@ msgid "<div class=\"note\">\n"
 msgstr "<div class=\"note\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<p>We do not currently provide a solution for running a virtual machine\n"
-#| "inside a Tails host. See [[!tails_ticket 5606]].</p>\n"
+#, no-wrap
 msgid ""
 "<p>We do not currently provide a solution for running a virtual machine\n"
 "inside a Tails host.</p>\n"
 msgstr ""
-"<p>Wir bieten derzeit keine Lösung zum Betreiben von virtuellen Maschinen auf\n"
-"einem Tails-Host. Lesen Sie [[!tails_ticket 5606]].</p>\n"
+"<p>Wir bieten derzeit keine Lösung zum Betreiben von virtuellen Maschinen "
+"auf\n"
+"einem Tails-Host.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -127,15 +110,17 @@ msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"Running Tails inside a virtual machine has various security implications. "
-"Depending on the host operating system and your security needs, running "
-"Tails in a virtual machine might be dangerous."
+"<p>Running Tails inside a virtual machine has various security\n"
+"implications. Depending on the host operating system and your security\n"
+"needs, running Tails in a virtual machine might be dangerous.</p>\n"
 msgstr ""
-"Die Benutzung von Tails in einer virtuellen Maschine hat verschiedene "
-"Konsequenzen für die Sicherheit. Abhängig von Ihrem Hostbetriebssystem und "
-"Ihren Sicherheitsanforderungen könnte die Benutzung von Tails in einer "
-"virtuellen Maschine gefährlich sein."
+"<p>Die Benutzung von Tails in einer virtuellen Maschine hat verschiedene "
+"Konsequenzen \n"
+"für die Sicherheit. Abhängig von Ihrem Hostbetriebssystem und Ihren \n"
+"Sicherheitsanforderungen könnte die Benutzung von Tails in einer virtuellen "
+"Maschine gefährlich sein.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -170,11 +155,12 @@ msgstr "    <div class=\"caution\">\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    Only run Tails in a virtual machine if both the host operating\n"
-"    system and the virtualization software are trustworthy.\n"
+"    <p>Only run Tails in a virtual machine if both the host operating\n"
+"    system and the virtualization software are trustworthy.</p>\n"
 msgstr ""
-"    Führen Sie Tails nur in einer virtuellen Maschine aus, wenn sowohl das Hostbetriebssystem\n"
-"    als auch die Virtualisierungssoftware vertrauenswürdig sind.\n"
+"    <p>Führen Sie Tails nur in einer virtuellen Maschine aus, wenn sowohl "
+"das Hostbetriebssystem\n"
+"    als auch die Virtualisierungssoftware vertrauenswürdig sind.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -200,11 +186,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    Only run Tails in a virtual machine if leaving traces on the hard disk\n"
-"    is not a concern for you.\n"
+"    <p>Only run Tails in a virtual machine if leaving traces on the hard disk\n"
+"    is not a concern for you.</p>\n"
 msgstr ""
-"    Benutzen Sie Tails nur in einer virtuellen Maschine, wenn das Hinterlassen von Spuren\n"
-"    auf der Festplatte kein Problem für Sie ist.\n"
+"    <p>Benutzen Sie Tails nur in einer virtuellen Maschine, wenn das "
+"Hinterlassen von Spuren\n"
+"    auf der Festplatte kein Problem für Sie ist.</p>\n"
 
 #. type: Plain text
 msgid ""
@@ -212,25 +199,22 @@ msgid ""
 msgstr "Deshalb warnt Sie Tails, wenn es in einer virtuellen Maschine läuft."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The Tails virtual machine does not modify the behaviour of the host "
-#| "operating system and the network traffic of the host is not anonymized. "
-#| "The MAC address of the computer is not modified by the [[MAC address "
-#| "spoofing|first_steps/welcome_screen/mac_spoofing]] feature of Tails when "
-#| "run in a virtual machine."
+#, no-wrap
 msgid ""
-"The Tails virtual machine does not modify the behaviour of the host "
-"operating system and the network traffic of the host is not anonymized. The "
-"MAC address of the computer is not modified by the [[MAC address "
-"anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails "
-"when run in a virtual machine."
+"<p>The Tails virtual machine does not modify the behaviour of the host\n"
+"operating system and the network traffic of the host is not anonymized. The MAC\n"
+"address of the computer is not modified by the [[MAC address\n"
+"anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails\n"
+"when run in a virtual machine.</p>\n"
 msgstr ""
-"Die virtuelle Maschine von Tails verändert das Verhalten des "
-"Hostbetriebssystems nicht und der Netzwerkverkehr des Hosts wird nicht "
-"anonymisiert. Die MAC-Adresse des Computers wird nicht durch die Funktion "
-"zum [[Verschleiern der MAC-Adresse|first_steps/welcome_screen/mac_spoofing]] "
-"geändert, wenn Tails in einer virtuellen Maschine ausgeführt wird."
+"<p>Die virtuelle Maschine Tails verändert das Verhalten des Host-"
+"Betriebssystems\n"
+"nicht und der Netzwerkverkehr des Hosts wird nicht anonymisiert. Die MAC-"
+"Adresse\n"
+"des Computers wird durch die [[MAC-Adressen-Anonymisierung|first_steps/"
+"welcome_screen/mac_spoofing]]\n"
+"Funktion von Tails nicht verändert, wenn sie in einer virtuellen Maschine "
+"ausgeführt wird.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -243,28 +227,17 @@ msgid "Virtualization solutions"
 msgstr "Lösungen zur Virtualisierung"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "To run Tails inside a virtual machine, you need to have virtualization "
-#| "software installed on the host operating system.  Different "
-#| "virtualization software exist for Linux, Windows, and macOS."
 msgid ""
 "To run Tails inside a virtual machine, you need to have virtualization "
 "software installed on the host operating system.  Different virtualization "
 "software exists for Linux, Windows, and macOS."
 msgstr ""
 "Um Tails in einer virtuellen Maschine auszuführen, ist es nötig, dass Sie "
-"Virtualisierungssoftware auf dem Hostbetriebssystem installiert haben. Es "
-"gibt verschiedene Lösungen zur Virtualisierung für Linux, Windows und Mac "
-"OS&nbsp;X."
+"Virtualisierungssoftware auf dem Hostbetriebssystem installiert haben.  Es "
+"gibt verschiedene Lösungen zur Virtualisierung für Linux, Windows und MacOS."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<p>The following list includes only free software as we believe that\n"
-#| "this is a necessary condition for it to be trustworthy. See the\n"
-#| "[[previous warning|virtualization#trustworthy]] and our statement about\n"
-#| "[[free software and public scrutiny|about/trust#free_software]].</p>\n"
+#, no-wrap
 msgid ""
 "<p>The following list includes only free software as we believe that\n"
 "this is a necessary condition for the software to be trustworthy. See the\n"
@@ -272,9 +245,12 @@ msgid ""
 "[[free software and public scrutiny|about/trust#free_software]].</p>\n"
 msgstr ""
 "<p>Die folgende Liste enthält nur Freie Software, da wir glauben, dass\n"
-"dies eine notwendige Voraussetzung für Vertrauenswürdigkeit ist. Lesen Sie die\n"
-"[[vorangegangene Warnung|virtualization#trustworthy]] und unsere Stellungnahme zu\n"
-"[[Freier Software und öffentlicher Kontrolle|about/trust#free_software]].</p>\n"
+"dies eine notwendige Voraussetzung für Vertrauenswürdigkeit der Software "
+"ist. Lesen Sie die\n"
+"[[vorangegangene Warnung|virtualization#trustworthy]] und unsere "
+"Stellungnahme zu\n"
+"[[Freier Software und öffentlicher Kontrolle|about/trust#free_software]].</p>"
+"\n"
 
 #. type: Plain text
 #, no-wrap
