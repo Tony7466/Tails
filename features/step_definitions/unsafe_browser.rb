@@ -66,6 +66,10 @@ Then /^the Unsafe Browser shows a warning as its start page$/ do
 end
 
 Then /^the Unsafe Browser has started$/ do
+  try_for(60) do
+    @unsafe_browser = Dogtail::Application.new('Firefox')
+    @unsafe_browser.child?(roleName: 'frame', recursive: false)
+  end
   step 'the Unsafe Browser shows a warning as its start page'
 end
 

@@ -146,7 +146,8 @@ Then /^I connect to an SFTP server on the Internet$/ do
     # have no a11y action, so Dogtail cannot interact with them.
     # They don't react to #grabFocus either.
     @screen.click('NautilusOtherLocations.png')
-    connect_bar = nautilus.child('Connect to Server', roleName: 'label').parent
+    connect_bar = nautilus.child('Connect to Server', roleName: 'label')
+                    .parent.parent
     connect_bar.child('Connect to Server', roleName: 'text').text =
       "sftp://#{@sftp_username}@#{@sftp_host}:#{@sftp_port}"
     connect_bar.childLabelled('Connect').click
