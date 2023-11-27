@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-27 20:42+0000\n"
+"PO-Revision-Date: 2023-11-27 23:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -69,6 +69,9 @@ msgid ""
 "surveillance, under heavy network censorship, or on a poor Internet "
 "connection:"
 msgstr ""
+"Aquest nou assistent és més útil per a usuaris que tenen un alt risc de "
+"vigilància física, sota una forta censura a la xarxa o amb una connexió a "
+"Internet deficient:"
 
 #. type: Bullet: '- '
 msgid ""
@@ -76,24 +79,34 @@ msgid ""
 "look suspicious to someone who monitors their Internet connection (parental "
 "control, abusive partner, school or work network, etc.)."
 msgstr ""
+"Protegeix millor els usuaris que han de passar desapercebuts si l'ús de Tor "
+"pogués semblar sospitós a algú que supervisés la seva connexió a Internet ("
+"control parental, parella abusiva, xarxa escolar o laboral, etc.)."
 
 #. type: Bullet: '- '
 msgid ""
 "It allows people who need to connect to Tor using bridges to configure them "
 "without having to change the default configuration in the Welcome Screen."
 msgstr ""
+"Permet a les persones que necessiten connectar-se a Tor mitjançant ponts "
+"configurar-los sense haver de canviar la configuració predeterminada a la "
+"Pantalla de Benvinguda."
 
 #. type: Plain text
 msgid ""
 "- It helps first-time users understand how to connect to a local Wi-Fi "
 "network."
 msgstr ""
+"- Ajuda als usuaris novells a entendre com connectar-se a una xarxa Wi-Fi "
+"local."
 
 #. type: Bullet: '- '
 msgid ""
 "It provides feedback while connecting to Tor and helps troubleshoot network "
 "problems."
 msgstr ""
+"Proporciona comentaris mentre es connecta a Tor i ajuda a resoldre problemes "
+"de xarxa."
 
 #. type: Plain text
 #, no-wrap
@@ -103,26 +116,36 @@ msgid ""
 "confusing, or not working as you would expect, please send your feedback to\n"
 "<tails-dev@boum.org> (public mailing list).\n"
 msgstr ""
+"Sabem que aquest assistent encara està lluny de ser perfecte, encara que "
+"portem treballant en ell des del mes de febrer. Si alguna cosa no està "
+"clara, confon, o no funciona com esperaríeu, envieu els vostres comentaris a "
+"<tails-dev@boum.org> (llista de correu pública).\n"
 
 #. type: Plain text
 msgid ""
 "This first release of the *Tor Connection* assistant is only a first step. "
 "We will add more improvements to it in the coming months to:"
 msgstr ""
+"Aquesta primera versió de l'assistent de *Connexió Tor* és només un primer "
+"pas. En els propers mesos hi afegirem millores per:"
 
 #. type: Plain text
 msgid "- Save Tor bridges to the Persistent Storage ([[!tails_ticket 5461]])"
 msgstr ""
+"- Desar els ponts de Tor a l'Emmagatzematge Persistent ([[!tails_ticket "
+"5461]])"
 
 #. type: Plain text
 msgid "- Help detect when Wi-Fi is not working ([[!tails_ticket 14534]])"
-msgstr ""
+msgstr "- Ajudar a detectar quan el Wi-Fi no funciona ([[!tails_ticket 14534]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Detect if you have to sign in to the local network using a captive portal "
 "([[!tails_ticket 5785]])"
 msgstr ""
+"Detectar si s'ha d'iniciar sessió a la xarxa local mitjançant un portal "
+"captiu ([[!tails_ticket 5785]])"
 
 #. type: Bullet: '- '
 msgid ""
