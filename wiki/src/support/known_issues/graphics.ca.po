@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-23 17:18+0000\n"
+"PO-Revision-Date: 2023-11-27 16:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -397,7 +397,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "If the error message lists multiple graphics cards:"
-msgstr ""
+msgstr "Si el missatge d'error mostra diverses targetes gràfiques:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -411,6 +411,9 @@ msgid ""
 "letting the system choose one automatically. If this does not solve the "
 "problem, try selecting the other graphics adapter."
 msgstr ""
+"Seleccioneu explícitament un dels dos adaptadors de gràfics de la BIOS en "
+"lloc de deixar que el sistema en triï un automàticament. Si això no resol el "
+"problema, proveu de seleccionar l'altre adaptador de gràfics."
 
 #. type: Bullet: '* '
 msgid ""
