@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-22 15:53+0100\n"
+"POT-Creation-Date: 2023-11-27 10:17+0100\n"
 "PO-Revision-Date: 2023-10-18 04:12+0000\n"
 "Last-Translator: Frankie McEyes <mceyes@protonmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/tor/tails-gui/it/"
@@ -248,36 +248,31 @@ msgstr ""
 msgid "_Create persistent storage"
 msgstr "_Crea archiviazione persistente"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:94
+#: config/chroot_local-includes/usr/local/bin/electrum:95
 msgid ""
-"Tails needs donations to keep everybody free and safe online.\n"
+"End this year by giving the gift of privacy.\n"
 "\n"
-"Every bit helps in our fight against surveillance and censorship!\n"
+"Contribute to our annual fundraiser today!\n"
 "\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
-"we spend our money.</a>"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html\">Why donate to "
+"Tails?</a>"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:101
+#, fuzzy
+msgid ""
+"Our annual fundraiser is live!\n"
+"\n"
+"Keep everybody free and safe online with a gift to Tails.\n"
+"\n"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html\">Why donate to "
+"Tails?</a>"
 msgstr ""
 "Tails ha bisogno di donazioni per mantenere tutti liberi e al sicuro "
 "online.\n"
 "\n"
 "Ogni contributo conta nella nostra lotta contro la sorveglianza e la "
 "censura!\n"
-"\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Come "
-"spendiamo i nostri soldi.</a>"
-
-#: config/chroot_local-includes/usr/local/bin/electrum:101
-msgid ""
-"Tails protects your wallet.\n"
-"\n"
-"Help us keep your bitcoins safe!\n"
-"\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
-"we spend our money.</a>"
-msgstr ""
-"Tails protegge il tuo portafoglio.\n"
-"\n"
-"Aiutaci a mantenere sicuri i tuoi bitcoin!\n"
 "\n"
 "<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">Come "
 "spendiamo i nostri soldi.</a>"
@@ -1411,7 +1406,7 @@ msgstr "su è disattivato. Per favore usa sudo."
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:221
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:77
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:72
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:76
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:314
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:460
@@ -1915,7 +1910,7 @@ msgstr ""
 "utilizzando. Per favore, chiudi tutte le applicazioni che potrebbero "
 "accedervi e prova nuovamente."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:25
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.PersistentStorage.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:181
@@ -1924,11 +1919,11 @@ msgstr ""
 msgid "Persistent Storage"
 msgstr "Memoria Persistente"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:46
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:48
 msgid "Failed to start the Persistent Storage service"
 msgstr "Impossibile avviare il servizio Memoria Persistente"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:77
 msgid "Could not find the WhisperBack application"
 msgstr "Impossibile trovare l'applicazione WhisperBack"
 
@@ -2043,12 +2038,12 @@ msgstr "Buona"
 msgid "Strong"
 msgstr "Forte"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:36
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:38
 msgid "You can send an error report to help solve the issue."
 msgstr ""
 "Puoi inviare un rapporto di errore per aiutare a risolvere il problema."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:44
 msgid "_Send Error Report"
 msgstr "_Invia Rapporto di Errore"
 
@@ -2386,7 +2381,7 @@ msgstr ""
 msgid "Failed to run browser."
 msgstr "Esecuzione del browser fallita."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:40
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:45
 #, python-format
 msgid ""
 "The %s variable was not found in the configuration file: /etc/whisperback/"
@@ -2395,55 +2390,39 @@ msgstr ""
 "La variabile %s non è stata trovata nel file di configurazione: /etc/"
 "whisperback/config.py"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:113
-msgid "Name of the affected software"
-msgstr "Nome del software coinvolto"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:115
-msgid "Exact steps to reproduce the error"
-msgstr "I passi esatti per replicare l'errore"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:117
-msgid "Actual result and description of the error"
-msgstr "Risultato effettivo e descrizione dell'errore"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:119
-msgid "Desired result"
-msgstr "Risultato atteso"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:132
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:125
 msgid "Unable to load a valid configuration."
 msgstr "Impossibile caricare una configurazione valida."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:169
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:149
 msgid "Sending mail..."
 msgstr "Invio della mail in corso..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:170
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:150
 msgid "Sending mail"
 msgstr "Invio della mail in corso"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:152
 msgid "This could take a while..."
 msgstr "Questa operazione potrebbe richiedere un po' di tempo..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:188
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:184
 msgid "The contact email address doesn't seem valid."
 msgstr "L'indirizzo email di contatto non sembra valido."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:205
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:204
 msgid "Unable to send the mail: SMTP error."
 msgstr "Impossibile inviare l'email: errore SMTP."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:207
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:206
 msgid "Unable to connect to the server."
 msgstr "Impossibile connettersi al server."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:209
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:208
 msgid "Unable to create or to send the mail."
 msgstr "Impossibile creare o inviare la mail."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:212
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:214
 msgid ""
 "\n"
 "\n"
@@ -2459,20 +2438,20 @@ msgstr ""
 "\n"
 "Nel caso neanche questo funzioni, sarà possibile salvare il bug report."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:225
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:229
 msgid "Your message has been sent."
 msgstr "Messaggio inviato."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:232
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:235
 msgid "An error occured during encryption."
 msgstr "Un errore è avvenuto durante la cifratura."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:252
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:257
 #, python-format
 msgid "Unable to save %s."
 msgstr "Impossibile salvare %s."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:275
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:287
 #, python-format
 msgid ""
 "The bug report could not be sent, likely due to network problems.\n"
@@ -2495,43 +2474,21 @@ msgstr ""
 "\n"
 "Si desidera salvare il bug report su un file?"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:337
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:280
-msgid "WhisperBack"
-msgstr "WhisperBack"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:338
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:12
-msgid "Send feedback in an encrypted mail."
-msgstr "Invia feedback in una email crittografata."
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:341
-msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
-msgstr "Copyright © 2009-2018 sviluppatori Tails (tails@boum.org)"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:342
-msgid "Tails developers <tails@boum.org>"
-msgstr "Sviluppatori Tails <tails@boum.org>"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:343
-msgid "translator-credits"
-msgstr "traduttore"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:376
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:372
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
 msgstr "Questo non sembra essere un URL valido o una chiave OpenPGP."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:60
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:59
 #, python-format
 msgid "Invalid contact email: %s"
 msgstr "Mail %s del contatto non valida"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:79
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:78
 #, python-format
 msgid "Invalid contact OpenPGP key: %s"
 msgstr "Chiave OpenPGP del contatto non valida: %s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:81
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:80
 msgid "Invalid contact OpenPGP public key block"
 msgstr "Blocco chiave pubblica OpenPGP del contatto non valido"
 
@@ -3281,46 +3238,7 @@ msgstr "Penna USB di destinazione:"
 msgid "Reinstall (delete all data)"
 msgstr "Reinstalla (elimina tutti i dati)"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:11
-msgid "Copyright © 2009-2018 tails@boum.org"
-msgstr "Copyright © 2009-2018 tails@boum.org"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:15
-msgid ""
-"WhisperBack - Send feedback in an encrypted mail\n"
-"Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
-"\n"
-"This program is  free software; you can redistribute  it and/or modify\n"
-"it under the  terms of the GNU General Public  License as published by\n"
-"the Free Software Foundation; either  version 3 of the License, or (at\n"
-"your option) any later version.\n"
-"\n"
-"This program  is distributed in the  hope that it will  be useful, but\n"
-"WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
-"MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
-"General Public License for more details.\n"
-"\n"
-"You should have received a copy of the GNU General Public License\n"
-"along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
-msgstr ""
-"WhisperBack - Invia feedback in una mail cifrata\n"
-"Copyright (C) 2009-2018 sviluppatori Tails <tails@boum.org>\n"
-"\n"
-"Questo programma è  software llibero; puoi redistribuirlo  e/o modificarlo\n"
-"sotto i termini della GNU General Public  License pubblicata dalla\n"
-"Free Software Foundation; sia la  versione 3 della Licenza, sia (a\n"
-"tua scelta) qualsiasi versione successiva.\n"
-"\n"
-"Questo programma  viene distribuito nella  speranza di  essere utile, ma\n"
-"SENZA ALCUNA GARANZIA;   senza nemmeno   la garanzia implicita   di\n"
-"COMMERCIABILITÀ  o IDONEITÀ PER UN ACQUISTO PARTICOLARE.   Vedere  la GNU\n"
-"General Public License per maggiori dettagli.\n"
-"\n"
-"Dovresti avere ricevuto una copia della GNU General Public License\n"
-"insieme a questo programma.  In caso contrario, vedere <http://www.gnu.org/"
-"licenses/>.\n"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:122
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:68
 msgid ""
 "If you want us to encrypt messages when we respond to you, add your key ID, "
 "a link to your key, or the key as a public key block:"
@@ -3329,51 +3247,80 @@ msgstr ""
 "aggiungete il vostro ID chiave, un link alla vostra chiave o la chiave come "
 "blocco di chiave pubblica:"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:308
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:226
+msgid "WhisperBack"
+msgstr "WhisperBack"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:255
 msgid "Summary"
 msgstr "Sommario"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:337
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:485
-msgid "Bug description"
-msgstr "Descrizione del bug"
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:288
+msgid "What were you trying to achieve?"
+msgstr ""
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:378
-msgid "Help:"
-msgstr "Aiuto:"
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:328
+msgid ""
+"<b>What happened instead?</b>\n"
+"Describe the error with as many details as possible."
+msgstr ""
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:388
-msgid "Read our bug reporting guidelines."
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:367
+msgid ""
+"<b>What did you do that triggered this error?</b>\n"
+"Describe the exact steps that caused the error, so we can try to make it "
+"happen again.\n"
+"Otherwise, we won't be able to troubleshoot and solve it."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:403
+#, fuzzy
+msgid "Error reporting guidelines"
 msgstr "Leggi le nostre linee guida sulla segnalazione di errori."
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:416
-msgid "Email address (if you want an answer from us)"
-msgstr "Indirizzo email (se vuoi ricevere una risposta)"
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:421
+msgid ""
+"<b>Email address</b>\n"
+"So we can answer you or ask for more details."
+msgstr ""
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:445
-msgid "optional PGP key"
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:453
+#, fuzzy
+msgid "Optional PGP Key…"
 msgstr "chiave PGP opzionale"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:470
-msgid "Please know that we are not able to reply to every bug report."
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:478
+#, fuzzy
+msgid ""
+"Even if we are not able to reply to every report, we analyze all reports to "
+"improve Tails."
 msgstr ""
 "Per favore ricorda che non riusciamo a rispondere ad ogni segnalazione."
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:502
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:613
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:493
+msgid "Bug description"
+msgstr "Descrizione del bug"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:510
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:667
 msgid "Technical details to include"
 msgstr "Dettagli tecnici da includere nel report"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:540
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:549
 msgid "headers"
 msgstr "intestazioni"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:588
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:594
+msgid "information about the bug being reported"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:642
 msgid "debugging info"
 msgstr "informazioni di debug"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:680
-msgid "Send"
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:703
+#, fuzzy
+msgid "_Send"
 msgstr "Invia"
 
 #: ../config/chroot_local-includes/usr/local/share/mime/packages/unlock-veracrypt-volumes.xml.in.h:1
@@ -3837,6 +3784,90 @@ msgstr "Dicembre"
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:368
 msgid "Clock"
 msgstr "Orologio"
+
+#~ msgid ""
+#~ "Tails protects your wallet.\n"
+#~ "\n"
+#~ "Help us keep your bitcoins safe!\n"
+#~ "\n"
+#~ "<a href=\"file:///usr/share/doc/tails/website/donate.en."
+#~ "html#expenses\">How we spend our money.</a>"
+#~ msgstr ""
+#~ "Tails protegge il tuo portafoglio.\n"
+#~ "\n"
+#~ "Aiutaci a mantenere sicuri i tuoi bitcoin!\n"
+#~ "\n"
+#~ "<a href=\"file:///usr/share/doc/tails/website/donate.en."
+#~ "html#expenses\">Come spendiamo i nostri soldi.</a>"
+
+#~ msgid "Name of the affected software"
+#~ msgstr "Nome del software coinvolto"
+
+#~ msgid "Exact steps to reproduce the error"
+#~ msgstr "I passi esatti per replicare l'errore"
+
+#~ msgid "Actual result and description of the error"
+#~ msgstr "Risultato effettivo e descrizione dell'errore"
+
+#~ msgid "Desired result"
+#~ msgstr "Risultato atteso"
+
+#~ msgid "Send feedback in an encrypted mail."
+#~ msgstr "Invia feedback in una email crittografata."
+
+#~ msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
+#~ msgstr "Copyright © 2009-2018 sviluppatori Tails (tails@boum.org)"
+
+#~ msgid "Tails developers <tails@boum.org>"
+#~ msgstr "Sviluppatori Tails <tails@boum.org>"
+
+#~ msgid "translator-credits"
+#~ msgstr "traduttore"
+
+#~ msgid "Copyright © 2009-2018 tails@boum.org"
+#~ msgstr "Copyright © 2009-2018 tails@boum.org"
+
+#~ msgid ""
+#~ "WhisperBack - Send feedback in an encrypted mail\n"
+#~ "Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
+#~ "\n"
+#~ "This program is  free software; you can redistribute  it and/or modify\n"
+#~ "it under the  terms of the GNU General Public  License as published by\n"
+#~ "the Free Software Foundation; either  version 3 of the License, or (at\n"
+#~ "your option) any later version.\n"
+#~ "\n"
+#~ "This program  is distributed in the  hope that it will  be useful, but\n"
+#~ "WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
+#~ "MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
+#~ "General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+#~ msgstr ""
+#~ "WhisperBack - Invia feedback in una mail cifrata\n"
+#~ "Copyright (C) 2009-2018 sviluppatori Tails <tails@boum.org>\n"
+#~ "\n"
+#~ "Questo programma è  software llibero; puoi redistribuirlo  e/o "
+#~ "modificarlo\n"
+#~ "sotto i termini della GNU General Public  License pubblicata dalla\n"
+#~ "Free Software Foundation; sia la  versione 3 della Licenza, sia (a\n"
+#~ "tua scelta) qualsiasi versione successiva.\n"
+#~ "\n"
+#~ "Questo programma  viene distribuito nella  speranza di  essere utile, ma\n"
+#~ "SENZA ALCUNA GARANZIA;   senza nemmeno   la garanzia implicita   di\n"
+#~ "COMMERCIABILITÀ  o IDONEITÀ PER UN ACQUISTO PARTICOLARE.   Vedere  la "
+#~ "GNU\n"
+#~ "General Public License per maggiori dettagli.\n"
+#~ "\n"
+#~ "Dovresti avere ricevuto una copia della GNU General Public License\n"
+#~ "insieme a questo programma.  In caso contrario, vedere <http://www.gnu."
+#~ "org/licenses/>.\n"
+
+#~ msgid "Help:"
+#~ msgstr "Aiuto:"
+
+#~ msgid "Email address (if you want an answer from us)"
+#~ msgstr "Indirizzo email (se vuoi ricevere una risposta)"
 
 #~ msgid "Unlock"
 #~ msgstr "Sblocca"
