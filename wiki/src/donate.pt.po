@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-11-08 14:41+0000\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-08-01 15:22+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: \n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "[[!meta title=\"Donate to fight surveillance and censorship\"]]"
 msgstr "[[!meta title=\"Doe para lutar contra a vigilância e a censura \"]]"
 
-#.  See upstream patch: https://ikiwiki.info/todo/support_Twitter_cards/
+#.  See upstream patch: https://ikiwiki.info/todo/support_Twitter_cards/ 
 #. type: Content of: outside any tag (error?)
 msgid ""
 "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]] [[!meta "
@@ -106,13 +106,11 @@ msgid ""
 msgstr ""
 
 #.  HTML Variables for PayPal Payments Standard:
-#.        https://developer.paypal.com/docs/classic/paypal-payments-
-#. standard/integration-guide/Appx_websitestandard_htmlvariables/
-#.  Note for translators: adapt the URLs to return to the page in your
-#. language.
-#.  Note for translators: adapt the value of 'lc' to your language.
-#.  For recurring donations only.
-#.  For one-time donation only.
+#.        https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/ 
+#.  Note for translators: adapt the URLs to return to the page in your language. 
+#.  Note for translators: adapt the value of 'lc' to your language. 
+#.  For recurring donations only. 
+#.  For one-time donation only. 
 #. type: Content of: <div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\" "
@@ -246,10 +244,6 @@ msgstr ""
 "class=\"btn btn-amount btn-lg btn-primary col-md-3 col-xs-6 other\">"
 
 #. type: Content of: <div><div><div><form><div><label><div>
-#| msgid ""
-#| "<input type=\"text\" pattern=\"\\d+\" class=\"form-control text-right\" "
-#| "id=\"other-euro\" placeholder=\"Other\"/> <span class=\"input-group-"
-#| "addon\">€</span>"
 msgid ""
 "<input type=\"text\" pattern=\"\\d+\" class=\"form-control text-right\" "
 "id=\"other-euro\" placeholder=\"Other\"/> <span class=\"input-group-"
@@ -352,9 +346,8 @@ msgstr "Doe em dólares"
 msgid "Recurring donation"
 msgstr "Doação recorrente"
 
-#.  Note for translators: adapt the URLs to return to the page in your
-#. language.
-#.  Note for translators: adapt the value of 'lc' to your language.
+#.  Note for translators: adapt the URLs to return to the page in your language. 
+#.  Note for translators: adapt the value of 'lc' to your language. 
 #. type: Content of: <div><div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_xclick-subscriptions\"/> <input "
@@ -441,9 +434,8 @@ msgstr ""
 "Não necessita de uma conta [[!img paypal-inline.png link=\"no\" "
 "class=\"paypal-inline\" alt=\"PayPal\"]]."
 
-#.  Note for translators: adapt the URLs to return to the page in your
-#. language.
-#.  Note for translators: adapt the value of 'lc' to your language.
+#.  Note for translators: adapt the URLs to return to the page in your language. 
+#.  Note for translators: adapt the value of 'lc' to your language. 
 #. type: Content of: <div><div><div><div><form>
 msgid ""
 "<input type=\"hidden\" name=\"cmd\" value=\"_donations\"/> <input "
@@ -905,7 +897,6 @@ msgstr ""
 "do Tails e ajudá-los a tomarem decisões de segurança de forma consciente."
 
 #. type: Content of: <div><div><figure><figcaption><ul><li><div>
-#| msgid "Administration and fundraising"
 msgid "Administration and fundraising"
 msgstr "Administração e captação"
 

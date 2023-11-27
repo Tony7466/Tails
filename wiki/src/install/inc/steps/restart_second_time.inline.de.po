@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"PO-Revision-Date: 2023-11-16 16:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -43,6 +43,8 @@ msgstr "Fahren Sie den Computer herunter."
 #. type: Bullet: '1. '
 msgid "Unplug the other USB stick and leave the new USB stick plugged in."
 msgstr ""
+"Ziehen Sie den anderen USB-Stick ab und lassen Sie den neuen USB-Stick "
+"eingesteckt."
 
 #. type: Bullet: '1. '
 msgid "Switch on the computer and start on your new Tails USB stick."

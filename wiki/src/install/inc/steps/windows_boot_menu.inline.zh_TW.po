@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-11-18 18:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,9 +65,9 @@ msgstr ""
 
 #. type: Content of: <ol><li><div><p>
 msgid ""
-"If the <strong>Choose an option</strong> screen does not appear, refer to "
-"the [[instructions on starting Tails using the Boot Menu key|doc/first_steps/"
-"start/pc#boot-menu-key]]."
+"If the <strong>Choose an option</strong> screen or the <strong>Use a device</"
+"strong> option don't appear, refer to the [[instructions on starting Tails "
+"using the Boot Menu key|doc/first_steps/start/pc#boot-menu-key]]."
 msgstr ""
 
 #. type: Content of: <ol><li><p>

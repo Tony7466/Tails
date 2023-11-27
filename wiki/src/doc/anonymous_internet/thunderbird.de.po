@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"PO-Revision-Date: 2023-11-16 09:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -34,6 +34,9 @@ msgid ""
 "- Reading and writing emails - Reading [[!wikipedia RSS]] and [[!wikipedia "
 "Atom_(Web_standard) desc=\"Atom\"]] feeds for news and blogs"
 msgstr ""
+"- Lesen und Schreiben von E-Mails - Lesen von [[!wikipedia RSS]] und [["
+"!wikipedia Atom_(Web_standard) desc=\"Atom\"]] Feeds für Nachrichten und "
+"Blogs"
 
 #. type: Plain text
 #, no-wrap

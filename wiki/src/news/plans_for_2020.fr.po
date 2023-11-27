@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-11-07 20:12+0000\n"
 "Last-Translator: conan <conan@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,13 +54,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "But first, we are pleased that the donation campaign has been pretty successful so far. We received\n"
-#| "around 50&#8239;000 € already, which is 69% more than last year.\n"
-#| "Still, these good results are due to some large donations and\n"
-#| "fewer people have been donating so far, 16% less than in 2018.\n"
-#| "We hope that after reading this post many of you will consider <a\n"
-#| "href=\"https://tails.net/donate/?r=plans2020\">donating to Tails</a>.\n"
 msgid ""
 "But first, we are pleased that the donation campaign has been pretty successful so far. We received\n"
 "around 50&#8239;000 € already, which is 69% more than last year.\n"

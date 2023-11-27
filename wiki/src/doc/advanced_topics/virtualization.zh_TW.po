@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2021-05-13 10:54+0200\n"
+"POT-Creation-Date: 2023-11-17 18:41+0000\n"
 "PO-Revision-Date: 2019-08-24 06:20+0000\n"
 "Last-Translator: intrigeri <intrigeri@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,13 +100,12 @@ msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
+#, fuzzy, no-wrap
 msgid ""
-"Running Tails inside a virtual machine has various security implications. "
-"Depending on the host operating system and your security needs, running "
-"Tails in a virtual machine might be dangerous."
-msgstr ""
-"用虛擬器運行 Tails 有不同的安全顧慮。依主機作業系統環境和用戶本身的安全需要狀"
-"況，在虛擬器上運行 Tails 可能有危險。"
+"<p>Running Tails inside a virtual machine has various security\n"
+"implications. Depending on the host operating system and your security\n"
+"needs, running Tails in a virtual machine might be dangerous.</p>\n"
+msgstr "用虛擬器運行 Tails 有不同的安全顧慮。依主機作業系統環境和用戶本身的安全需要狀況，在虛擬器上運行 Tails 可能有危險。"
 
 #. type: Plain text
 #, no-wrap
@@ -138,10 +137,10 @@ msgid "    <div class=\"caution\">\n"
 msgstr "    <div class=\"caution\">\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
-"    Only run Tails in a virtual machine if both the host operating\n"
-"    system and the virtualization software are trustworthy.\n"
+"    <p>Only run Tails in a virtual machine if both the host operating\n"
+"    system and the virtualization software are trustworthy.</p>\n"
 msgstr ""
 "    若要在虛擬器下執行 Tails，必須先確認\n"
 "    可以信任原機作業系統和虛擬器軟體。\n"
@@ -166,10 +165,10 @@ msgstr ""
 "swapping (or *paging*) 其會複製部份的 RAM 到硬碟上。"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
-"    Only run Tails in a virtual machine if leaving traces on the hard disk\n"
-"    is not a concern for you.\n"
+"    <p>Only run Tails in a virtual machine if leaving traces on the hard disk\n"
+"    is not a concern for you.</p>\n"
 msgstr ""
 "    在虛擬器下執行 Tails 會在硬碟中留下\n"
 "    追踪記錄也沒關係。\n"
@@ -180,17 +179,14 @@ msgid ""
 msgstr "這是當在虛擬器下執行Tails 會收到警告的原因。"
 
 #. type: Plain text
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
-"The Tails virtual machine does not modify the behaviour of the host "
-"operating system and the network traffic of the host is not anonymized. The "
-"MAC address of the computer is not modified by the [[MAC address "
-"anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails "
-"when run in a virtual machine."
-msgstr ""
-"Tails虛擬器不能修改原機作業系統的行為，也不能改變原機未匿名的網路流量。透過虛"
-"擬器運行 Tails ，其[[欺瞞 MAC 地址|first_steps/startup_options/mac_spoofing]]"
-"的功能無法修改電腦的 MAC 地址。"
+"<p>The Tails virtual machine does not modify the behaviour of the host\n"
+"operating system and the network traffic of the host is not anonymized. The MAC\n"
+"address of the computer is not modified by the [[MAC address\n"
+"anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails\n"
+"when run in a virtual machine.</p>\n"
+msgstr "Tails虛擬器不能修改原機作業系統的行為，也不能改變原機未匿名的網路流量。透過虛擬器運行 Tails ，其[[欺瞞 MAC 地址|first_steps/startup_options/mac_spoofing]]的功能無法修改電腦的 MAC 地址。"
 
 #. type: Plain text
 #, no-wrap

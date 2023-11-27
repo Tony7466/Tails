@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-14 10:03+0000\n"
-"PO-Revision-Date: 2023-11-04 16:11+0000\n"
+"PO-Revision-Date: 2023-11-15 16:32+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -107,7 +107,6 @@ msgstr ""
 "Pakistan no és realment el lloc més segur per als periodistes."
 
 #. type: Content of: <div><div><blockquote><p>
-#, fuzzy
 msgid "Thanks for an amazing tool!</em>"
 msgstr "Gràcies Tails per una eina tan increïble!</em>"
 

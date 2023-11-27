@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-12 18:14+0000\n"
+"PO-Revision-Date: 2023-11-16 16:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -44,6 +44,10 @@ msgid ""
 "see our [[instructions on rescuing the Persistent\n"
 "Storage of a broken Tails|rescue]].</p>\n"
 msgstr ""
+"<p>Wenn Ihr Tails kaputt ist und Sie versuchen, Ihren persistenten Speicher "
+"zu retten,\n"
+"siehe unsere [[Anleitung zur Rettung des persistenten\n"
+"Speichers eines defekten Tails|rescue]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -80,13 +84,15 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Choose **Applications**&nbsp;▸ **Tails Cloner**."
-msgstr ""
+msgstr "Wählen Sie **Anwendungen**&nbsp;▸ **Tails Cloner**."
 
 #. type: Bullet: '1. '
 msgid ""
 "Turn on the option **Clone the current Persistent Storage** below the option "
 "**Clone the current Tails**."
 msgstr ""
+"Aktivieren Sie die Option **Clone the current Persistent Storage** unterhalb "
+"der Option **Clone the current Tails**."
 
 #. type: Plain text
 #, no-wrap
