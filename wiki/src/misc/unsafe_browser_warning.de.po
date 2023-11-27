@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-11-10 20:12+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -35,7 +35,7 @@ msgstr "[[!meta robots=\"noindex\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<div id=\"unsafe\">\n"
-msgstr ""
+msgstr "<div id=\"unsafe\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -62,7 +62,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "What captive portals are"
-msgstr ""
+msgstr "Was Captive-Portale sind"
 
 #. type: Plain text
 #, no-wrap

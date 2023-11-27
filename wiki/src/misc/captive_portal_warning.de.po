@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-11-12 18:13+0000\n"
+"PO-Revision-Date: 2023-11-23 14:21+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -47,6 +47,16 @@ msgid ""
 "}\n"
 "</style>\n"
 msgstr ""
+"<style>\n"
+"/* Anzeige von \"diesem Browser\" anstelle von \"*Unsicherer Browser*\" in /"
+"misc/captive_portal_warning */\n"
+".doc {\n"
+"  display: none !important;\n"
+"}\n"
+".warning {\n"
+"  display: inline-block !important;\n"
+"}\n"
+"</style>\n"
 
 #. type: Plain text
 #, markdown-text
@@ -58,7 +68,7 @@ msgstr ""
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "<div id=\"unsafe\">\n"
-msgstr ""
+msgstr "<div id=\"unsafe\">\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap

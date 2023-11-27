@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -37,6 +37,9 @@ msgid ""
 "the Persistent Storage is stored to the USB stick immediately. You don't "
 "have to restart Tails anymore after enabling a new feature."
 msgstr ""
+"Seit Tails 5.8 (Dezember 2022) werden Ihre Daten zu jedem Feature des "
+"persistenten Speichers sofort auf dem USB-Stick gespeichert. Sie müssen "
+"Tails nicht mehr neu starten, nachdem Sie eine neue Funktion aktiviert haben."
 
 #. type: Plain text
 msgid ""
@@ -44,6 +47,9 @@ msgid ""
 "Persistent Storage, your current bookmarks are saved in the Persistent "
 "Storage immediately."
 msgstr ""
+"Wenn Sie beispielsweise die Tor-Browser-Lesezeichenfunktion des persistenten "
+"Speichers aktivieren, werden Ihre aktuellen Lesezeichen sofort im "
+"persistenten Speichers gespeichert."
 
 #. type: Plain text
 #, no-wrap

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-15 00:13+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-23 14:21+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.22 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.22\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,6 +43,8 @@ msgid ""
 "In Tails 4.22, we focused on solving the most important issues in the *Tor "
 "Connection* assistant to make it more robust and easier to use."
 msgstr ""
+"A Tails 4.22, ens hem centrat en resoldre els problemes més importants de "
+"l'assistent de *Connexió Tor* per fer-lo més robust i fàcil d'utilitzar."
 
 #. type: Plain text
 #, no-wrap
@@ -52,36 +54,44 @@ msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "Included software and hardware support"
-msgstr ""
+msgstr "Suport de programari i maquinari inclòs"
 
 #. type: Plain text
 msgid ""
 "- Update *Tor Browser* to [10.5.6](https://blog.torproject.org/new-release-"
 "tor-browser-1056)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [10.5.6](https://blog."
+"torproject.org/new-release-tor-browser-1056)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [78.13](https://www.thunderbird.net/en-US/"
 "thunderbird/78.13.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [78.13](https://www.thunderbird."
+"net/en-US/thunderbird/78.13.0/releasenotes/)."
 
 #. type: Bullet: '- '
 msgid ""
 "Update the AMD graphics firmware to 20210818. This should improve the "
 "support for some AMD graphics cards."
 msgstr ""
+"S'ha actualitzat el microprogramari de gràfics AMD a 20210818. Això hauria "
+"de millorar la compatibilitat amb algunes targetes gràfiques AMD."
 
 #. type: Title ##
 #, no-wrap
 msgid "*Tor Connection*"
-msgstr ""
+msgstr "*Connexió Tor*"
 
 #. type: Bullet: '- '
 msgid ""
 "Change the custom bridge interface to only allow entering 1 bridge.  ([[!"
 "tails_ticket 18550]])"
 msgstr ""
+"S'ha canviat la interfície del pont personalitzada per permetre l'entrada "
+"només d'un pont. ([[!tails_ticket 18550]])"
 
 #. type: Plain text
 #, no-wrap
@@ -89,6 +99,9 @@ msgid ""
 "  People had troubles knowing how to enter their custom bridges when the widget\n"
 "  was a textarea and only the first bridge is used anyway.\n"
 msgstr ""
+"  Els usuaris tenien problemes per saber com introduir els seus ponts "
+"personalitzats quan l'entrada\n"
+"  era una zona de text i només s'utilitzava el primer pont.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -100,6 +113,8 @@ msgid ""
 "Allow saving 1 custom bridge in the Persistent Storage. ([[!tails_ticket "
 "5461]])"
 msgstr ""
+"S'ha permès desar un pont personalitzat a l'Emmagatzematge Persistent. ([["
+"!tails_ticket 5461]])"
 
 #. type: Plain text
 #, no-wrap
@@ -111,6 +126,8 @@ msgid ""
 "Allow fixing the clock manually when connecting to Tor using bridges fails.  "
 "([[!tails_ticket 15548]])"
 msgstr ""
+"S'ha permès arreglar el rellotge manualment quan falla la connexió a Tor "
+"mitjançant ponts. ([[!tails_ticket 15548]])"
 
 #. type: Plain text
 #, no-wrap
@@ -118,6 +135,9 @@ msgid ""
 "  This helps people East from London connect to Tor using obfs4 bridges and\n"
 "  makes connecting to Tor more robust in general.\n"
 msgstr ""
+"  Això ajuda la gent de l'est de Londres a connectar-se a Tor mitjançant "
+"ponts obfs4 i\n"
+"  fa que la connexió a Tor sigui més robusta en general.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -130,6 +150,9 @@ msgid ""
 "30 seconds to 10 seconds. Increase the timeout to start Tor entirely from "
 "120 seconds to 600 seconds. ([[!tails_ticket 18501]])."
 msgstr ""
+"S'ha reduït el temps d'espera que determina si ens podem connectar a Tor de "
+"30 segons a 10 segons. Augmenta el temps d'espera per iniciar Tor "
+"completament de 120 segons a 600 segons. ([[!tails_ticket 18501]])."
 
 #. type: Plain text
 #, no-wrap
@@ -137,44 +160,55 @@ msgid ""
 "  *Tor Connection* now fails quicker when it's impossible to connect to Tor,\n"
 "  while being more robust on slow Internet connections.\n"
 msgstr ""
+"  La *Connexió Tor* ara falla més ràpidament quan és impossible connectar-se "
+"a Tor,\n"
+"  alhora que és més robusta en connexions lentes a Internet.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Allow trying again to connect to Tor from the error screen. ([[!tails_ticket "
 "18539]])"
 msgstr ""
+"S'ha permès tornar a provar de connectar-se a Tor des de la pantalla "
+"d'error. ([[!tails_ticket 18539]])"
 
 #. type: Title ##
 #, no-wrap
 msgid "*Unsafe Browser*"
-msgstr ""
+msgstr "*Navegador Insegur*"
 
 #. type: Bullet: '- '
 msgid ""
 "Stop restarting Tor when exiting the *Unsafe Browser*. ([[!tails_ticket "
 "18562]])"
 msgstr ""
+"Es deixa de reiniciar Tor quan es surt del *Navegador Insegur*. ([["
+"!tails_ticket 18562]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Only mention the Persistent Storage in the *Unsafe Browser* warning when "
 "there is already a Persistent Storage. ([[!tails_ticket 18551]])"
 msgstr ""
+"Només s'esmenta l'Emmagatzematge Persistent a l'avís *Navegador Insegur* "
+"quan ja hi hagi un Emmagatzematge Persistent. ([[!tails_ticket 18551]])"
 
 #. type: Title ##
 #, no-wrap
 msgid "Others"
-msgstr ""
+msgstr "Altres"
 
 #. type: Bullet: '- '
 msgid ""
 "Make sure that automatic upgrades are downloaded from a working mirror.  ([[!"
 "tails_ticket 15755]])"
 msgstr ""
+"S'assegura que les actualitzacions automàtiques es baixen des d'un mirall "
+"que funcioni. ([[!tails_ticket 15755]])"
 
 #. type: Plain text
 msgid "- Add Russian to the offline documentation included in Tails."
-msgstr ""
+msgstr "- S'ha afegit el rus a la documentació fora de línia inclosa a Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -185,18 +219,24 @@ msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
 msgid ""
 "- Fix connecting to Tor using the default bridges. ([[!tails_ticket 18462]])"
 msgstr ""
+"- S'ha arreglat la connexió a Tor mitjançant els ponts predeterminats. ([["
+"!tails_ticket 18462]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Fix connecting to Tor when the Wi-Fi settings are saved in the Persistent "
 "Storage. ([[!tails_ticket 18532]])"
 msgstr ""
+"S'ha arreglat la connexió a Tor quan la configuració de Wi-Fi es desa a "
+"l'Emmagatzematge Persistent. ([[!tails_ticket 18532]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Stop trying to connect to Tor in the background when *Tor Connection* "
 "reaches the error screen. ([[!tails_ticket 18740]])"
 msgstr ""
+"S'ha deixat d'intentar connectar-vos a Tor en segon pla quan la *Connexió "
+"Tor* arriba a la pantalla d'error. ([[!tails_ticket 18740]])"
 
 #. type: Plain text
 msgid ""
@@ -250,6 +290,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.19 or later to 4.22."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.19 o "
+"posterior fins a la versió 4.22."
 
 #. type: Plain text
 #, no-wrap
@@ -311,6 +353,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.22 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.22 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -327,4 +371,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 4.23 is [[scheduled|contribute/calendar]] for October 5."
-msgstr ""
+msgstr "Tails 4.23 està [[programat|contribute/calendar]] per al 5 d'octubre."

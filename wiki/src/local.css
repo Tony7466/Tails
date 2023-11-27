@@ -7,10 +7,10 @@
   --background-purple: #f3edf9;
 
   /* Green */
-  --dark-green: #276426;
-  --medium-dark-green: #3b833a;
-  --medium-light-green: #53b351; /* buttons */
-  --light-green: #73d171;
+  --darker-green: #014d00;
+  --dark-green: #3b833a;
+  --medium-dark-green: #53b351;
+  --medium-light-green: #73d171; /* buttons */
   --background-green: #a8ffa0;
 
   /* Gray */
@@ -70,10 +70,6 @@ Table of Content:
   - Charts
 
 */
-
-/* Load RTL stylesheet */
-
-@import url("local.rtl.css");
 
 /* Fonts */
 
@@ -317,11 +313,12 @@ input[type="checkbox"], input[type="radio"] {
 
 button, input, textarea {
   padding: 5px;
-  border-radius: 0.5em;
+  border-radius: 5px;
 }
 
 input:focus, textarea:focus {
-  outline: 2px solid var(--light-green);
+  border: 2px solid var(--medium-light-green);
+  outline: 0;
 }
 
 /* Layout */
@@ -383,8 +380,7 @@ header.title { /* override style.css */
 #searchform input {
   background: white;
   padding: 6px;
-  border-top-left-radius: 0.5em;
-  border-bottom-left-radius: 0.5em;
+  border-radius: 5px 0 0 5px;
   font-size: 13px;
   color: black;
   width: 140px;
@@ -394,8 +390,7 @@ header.title { /* override style.css */
   background: var(--medium-light-green) url(lib/search.png) no-repeat center;
   width: 40px;
   border: 0;
-  border-top-right-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
+  border-radius: 0 5px 5px 0;
   box-shadow: 1px 1px 1px black, 1px 1px 4px var(--dark-gray), inset 1px 1px 1px var(--background-green);
   cursor: pointer;
 }
@@ -418,13 +413,17 @@ label[for="searchbox"]{
   color: black !important;
   font-size: 13px;
   font-weight: bold;
-  border-radius: 0.5em;
+  border-radius: 5px;
   padding: 0.2em;
   display: flex;
   justify-content: center;
   box-shadow: 1px 1px 1px black, 1px 1px 4px var(--dark-gray), inset 1px 1px 1px var(--background-green);
   width: 180px;
   height: 28px;
+}
+
+#donate a:hover {
+  background: var(--medium-dark-green);
 }
 
 #donate {
@@ -511,7 +510,7 @@ label[for="searchbox"]{
 
 .topbar a:hover {
   text-decoration: none;
-  border-bottom: 5px solid var(--medium-light-green) !important;
+  border-bottom: 5px solid var(--medium-dark-green) !important;
 }
 
 .topbar .selflink {
@@ -678,8 +677,8 @@ a {
 }
 
 #pagebody a {
-  color: var(--medium-dark-green);
-  border-bottom: 1px solid var(--medium-dark-green);
+  color: var(--dark-green);
+  border-bottom: 1px solid var(--dark-green);
 }
 
 #pagebody a:hover {
@@ -687,8 +686,8 @@ a {
 }
 
 #pagebody a:visited {
-  color: var(--dark-green);
-  border-color: var(--dark-green);
+  color: var(--darker-green) !important;
+  border-color: 1px solid var(--darker-green) !important;
 }
 
 /* test inside and outside links */
@@ -808,6 +807,10 @@ div.blocks img {
   margin-bottom: 1.5em;
 }
 
+.button:hover {
+  background: var(--medium-dark-green) !important;
+}
+
 .cfa {
   width: 300px;
   margin: 1em auto;
@@ -818,7 +821,7 @@ div.blocks img {
   color: black !important;
   font-size: 24px;
   font-weight: bold;
-  border-radius: 0.5em;
+  border-radius: 5px;
   padding: 1em 0.5em;
   display: block;
   text-align: center;
@@ -913,7 +916,7 @@ span.replaceable { font-style: italic; }
 div.bug, div.caution, div.next, div.note, div.tip, div.trophy, div.attack {
   background-color: var(--background-yellow);
   border: 1px solid var(--light-gray);
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 1.5em 6px 0em;
   background-position: 6px 0.5em;
   background-repeat: no-repeat;
@@ -953,7 +956,8 @@ div.bug > *:first-child, div.caution > *:first-child, div.next > *:first-child, 
   margin-top: 0;
 }
 
-div.bug > *:last-child, div.caution > *:last-child, div.next > *:last-child, div.note > *:last-child, div.tip > *:last-child, div.trophy > *:last-child {
+div.bug > *:last-child, div.caution > *:last-child, div.next > *:last-child, div.note > *:last-child, div.tip > *:last-child, div.trophy > *:last-child,
+div.bug > *:only-child, div.caution > *:only-child, div.next > *:only-child, div.note > *:only-child, div.tip > *:only-child, div.trophy > *:only-child {
   margin-bottom: 1.5em;
 }
 
@@ -1033,7 +1037,7 @@ div#highlight {
   border: 5px solid var(--medium-purple);
   width: 44em;
   padding: 0.5em 1em;
-  border-radius: 0.5em;
+  border-radius: 5px;
 }
 div#highlight p {
   margin: 0.5em 0;
@@ -1046,7 +1050,7 @@ div#highlight p {
   width: 100%;
   display: block;
   box-shadow: 1px 1px 5px var(--medium-light-gray);
-  border-radius: 0.5em;
+  border-radius: 5px;
   padding: 0.5em 1em;
   background: var(--medium-light-green) url('lib/donate.png') no-repeat scroll 10px 50% !important;
   font-size: 26px;
@@ -1195,4 +1199,82 @@ div#highlight p {
 
 #footer p a {
   text-decoration: underline;
+}
+
+/* RTL support */
+
+html[dir="rtl"] ol,
+html[dir="rtl"] ul {
+    margin-left: 0;
+    margin-right: 1.5em;
+}
+
+html[dir="rtl"] div.trail span.trailarrow {
+    position: relative;
+}
+
+html[dir="rtl"] #search-and-donate {
+    right: unset;
+    left: 0;
+}
+
+html[dir="rtl"] #searchform input {
+    border-radius: 0 5px 5px 0;
+}
+
+html[dir="rtl"] #searchform button {
+    border-radius: 5px 0 0 5px;
+}
+
+html[dir="rtl"] div.bug,
+html[dir="rtl"] div.caution,
+html[dir="rtl"] div.next,
+html[dir="rtl"] div.note,
+html[dir="rtl"] div.tip,
+html[dir="rtl"] div.trophy {
+    background-position: right center;
+    padding-right: 5em;
+    padding-left: 1em;
+}
+
+html[dir="rtl"] #tor_check a {
+    left: 0;
+    right: auto;
+}
+
+html[dir="rtl"] #crumbs {
+    padding-right: 0;
+}
+
+html[dir="rtl"] .pageheader .actions {
+    right: auto;
+    left: 0;
+    padding-right: 0;
+    padding-left: 25px;
+    background-position: left center;
+}
+
+html[dir="rtl"] .pageheader .actions:hover ul {
+    float: left;
+    text-align: left;
+}
+
+html[dir="rtl"] .pageheader #otherlanguages {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+html[dir="rtl"] #news, html[dir="rtl"] #bugs {
+    margin-right: 0;
+    margin-left: 2em;
+}
+
+html[dir="rtl"] div.contribute-roles-1 {
+    margin: 0;
+}
+
+html[dir="rtl"] #pagebody div.toggleable span.hide a.toggle {
+    right: auto;
+    left: 0;
 }

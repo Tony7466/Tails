@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-15 01:40+0200\n"
-"PO-Revision-Date: 2023-11-15 00:13+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"POT-Creation-Date: 2023-11-15 14:49+0000\n"
+"PO-Revision-Date: 2023-11-16 21:13+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "- S'ha actualitzat el nucli de *Linux* a la versió 6.1.38."
 
 #. type: Plain text
 #, no-wrap
-msgid "  This updates fixes:\n"
+msgid "  This update fixes:\n"
 msgstr "  Aquesta actualització soluciona:\n"
 
 #. type: Bullet: '  * '
@@ -65,9 +65,8 @@ msgid ""
 "[Downfall](https://downfall.page/) on Intel processors ([CVE-2022-40982]"
 "(https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40982))"
 msgstr ""
-"[Downfall](https://downfall.page/) als processadors Intel "
-"([CVE-2022-40982](https://cve.mitre.org/cgi-bin/cvename."
-"cgi?name=CVE-2022-40982))"
+"[Downfall](https://downfall.page/) als processadors Intel ([CVE-2022-40982]"
+"(https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40982))"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -82,7 +81,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  These vulnerability could allow a malicious application running in Tails to\n"
+"  These vulnerabilities could allow a malicious application running in Tails to\n"
 "  access and steal data from another application in Tails, for example\n"
 "  passwords stored in *KeePassXC* or private keys stored in *Electrum*.\n"
 msgstr ""
@@ -100,10 +99,8 @@ msgid ""
 "  a government or a hacking firm. We are not aware of this attack being used in\n"
 "  the wild.\n"
 msgstr ""
-"  Aquest atac és poc probable, però podria ser realitzat per un atacant "
-"fort, com ara\n"
-"  un govern o una empresa de pirateria informàtica. No som conscients de "
-"l'ús d'aquest atac\n"
+"  Aquest atac és poc probable, però podria ser realitzat per un atacant fort, com ara\n"
+"  un govern o una empresa de pirateria informàtica. No som conscients de l'ús d'aquest atac\n"
 "  a la realitat.\n"
 
 #. type: Plain text
@@ -140,9 +137,7 @@ msgstr "<h1 id=\"get\">Obtenir Tails 5.16.1</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr ""
-"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
-"Emmagatzematge Persistent"
+msgstr "Per actualitzar el vostre llapis USB de Tails i mantenir el vostre Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.16.1."

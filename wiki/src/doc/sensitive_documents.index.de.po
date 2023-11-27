@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"PO-Revision-Date: 2023-11-16 16:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -27,16 +27,12 @@ msgid "[[Office suite|sensitive_documents/office_suite]]"
 msgstr "[[Office Suite|sensitive_documents/office_suite]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Graphics|sensitive_documents/graphics]]"
 msgid "[[Graphics|sensitive_documents/graphics]]"
-msgstr "[[!traillink Grafiken|sensitive_documents/graphics]]"
+msgstr "[[Graphik|sensitive_documents/graphics]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[!traillink Sound_and_video|sensitive_documents/sound_and_video]]"
 msgid "[[Sound and video|sensitive_documents/sound_and_video]]"
-msgstr "[[!traillink Multimedia|sensitive_documents/sound_and_video]]"
+msgstr "[[Multimedia|sensitive_documents/sound_and_video]]"
 
 #. type: Bullet: '  - '
 #, fuzzy

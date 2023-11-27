@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"PO-Revision-Date: 2023-11-16 09:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -106,13 +106,11 @@ msgstr "Bekannte Probleme"
 
 #. type: Plain text
 msgid "None specific to this release."
-msgstr "Für diese Version sind keine bekannt."
+msgstr "Keine spezifischen Angaben zu dieser Version."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
-"Lesen Sie sich die Liste der [[längerfristig bekannten Probleme|support/"
-"known_issues]] durch."
+msgstr "Siehe die Liste der [[anhaltende Probleme|support/known_issues]]."
 
 #. type: Title #
 #, no-wrap
@@ -136,29 +134,29 @@ msgid ""
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
 "Wenn Sie kein automatisches Upgrade durchführen können oder wenn Tails nach "
-"einem automatischen Upgrade nicht gestartet werden kann, versuchen Sie "
-"bitte, ein [[manuelles Upgrade|doc/upgrade/#manual]] durchzuführen."
+"einem automatischen Upgrade nicht startet, versuchen Sie bitte ein [["
+"manuelles Upgrade|doc/upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr "Tails auf einem neuen USB-Stick installieren"
+msgstr "So installieren Sie Tails auf einem neuen USB-Stick"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr "Befolgen Sie folgende Installationsanweisungen:"
+msgstr "Befolgen Sie unsere Installationsanweisungen:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Installation von Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr "[[Installation von macOS|install/mac]]"
+msgstr "[[Von macOS installieren|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr "[[Installation von Linux|install/linux]]"
+msgstr "[[Von Linux installieren|install/linux]]"
 
 #. type: Plain text
 #, no-wrap
@@ -170,7 +168,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Nur downloaden"
 
 #. type: Plain text
 msgid ""
@@ -180,11 +178,11 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[Für USB-Sticks (USB-Image)|install/download]]"
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[[[Für DVDs und virtuelle Maschinen (ISO-Image)|install/download-iso]]"
 
 #. type: Title #
 #, no-wrap

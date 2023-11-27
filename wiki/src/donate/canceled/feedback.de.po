@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-09-17 15:39+0000\n"
-"PO-Revision-Date: 2023-11-12 18:13+0000\n"
+"PO-Revision-Date: 2023-11-16 09:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -32,6 +32,7 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]]\n"
 msgstr ""
+"[[!meta stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Plain text
 msgid "We will do our best to make it easier for you to support our work."
