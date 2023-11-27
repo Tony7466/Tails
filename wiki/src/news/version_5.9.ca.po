@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-15 21:14+0000\n"
+"PO-Revision-Date: 2023-11-27 16:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -188,46 +188,60 @@ msgstr ""
 #, no-wrap
 msgid "*Tor Browser* has no minimize and maximize buttons ([[!tails_ticket 19328]])"
 msgstr ""
+"El *Navegador Tor* no té botons de minimització i maximització ([["
+"!tails_ticket 19328]])"
 
 #. type: Plain text
 msgid "To work around this:"
-msgstr ""
+msgstr "Per solucionar això:"
 
 #. type: Bullet: '1. '
 msgid ""
 "Right-click on the *Tor Browser* tab in the window list at the bottom of the "
 "screen."
 msgstr ""
+"Feu clic amb el botó dret a la pestanya del *Navegador Tor* a la llista de "
+"finestres a la part inferior de la pantalla."
 
 #. type: Bullet: '1. '
 msgid "Choose **Minimize** or **Maximize**."
-msgstr ""
+msgstr "Trieu **Minimitza** o **Maximitza**."
 
 #. type: Title ##
 #, no-wrap
 msgid "Welcome Screen and Tor Connection don't fit on 800×600 ([[!tails_ticket 19324]])"
 msgstr ""
+"La Pantalla de Benvinguda i la Connexió Tor no encaixen en 800×600 ([["
+"!tails_ticket 19324]])"
 
 #. type: Plain text
 msgid ""
 "The top of the Welcome Screen and some button of the Tor Connection "
 "assistant are cut out on small displays (800×600), like virtual machines."
 msgstr ""
+"La part superior de la Pantalla de Benvinguda i algun botó de l'assistent de "
+"Connexió Tor es tallen en pantalles petites (800×600), com les màquines "
+"virtuals."
 
 #. type: Plain text
 msgid "You can press **Alt+S** to start Tails."
-msgstr ""
+msgstr "Podeu prémer **Alt+S** per iniciar Tails."
 
 #. type: Title ##
 #, no-wrap
 msgid "Progress bar of *Tor Connection* gets stuck around 50% ([[!tails_ticket 19173]])"
 msgstr ""
+"La barra de progrés de *Connexió Tor* s'encalla al voltant del 50% ([["
+"!tails_ticket 19173]])"
 
 #. type: Plain text
 msgid ""
 "When using a custom Tor `obfs4` bridge, the progress bar of *Tor Connection* "
 "sometimes gets stuck halfway through and becomes extremely slow."
 msgstr ""
+"Quan s'utilitza un pont de Tor `obfs4` personalitzat, la barra de progrés de "
+"*Connexió Tor* de vegades s'encalla a la meitat i es torna extremadament "
+"lenta."
 
 #. type: Plain text
 msgid "To fix this, you can either:"
@@ -236,10 +250,11 @@ msgstr "Per solucionar-ho, podeu:"
 #. type: Bullet: '* '
 msgid "Close and reopen *Tor Connection* to speed up the initial connection."
 msgstr ""
+"Tancar i tornar a obrir *Connexió Tor* per accelerar la connexió inicial."
 
 #. type: Bullet: '* '
 msgid "Try a different `obfs4` bridge."
-msgstr ""
+msgstr "Provar un pont `obfs4` diferent."
 
 #. type: Plain text
 #, no-wrap
@@ -247,6 +262,8 @@ msgid ""
 "  This issue only affects outdated obfs4 bridges and does not happen with\n"
 "  obfs4 bridges that run version 0.0.12 or later.\n"
 msgstr ""
+"  Aquest problema només afecta els ponts obfs4 obsolets i no passa amb\n"
+"  els ponts obfs4 que executen la versió 0.0.12 o posterior.\n"
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
