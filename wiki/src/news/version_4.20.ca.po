@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-28 00:03+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-28 01:42+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -263,12 +263,16 @@ msgid ""
 "- Made the download of upgrades and the handling of errors more robust. ([[!"
 "tails_ticket 18162]])"
 msgstr ""
+"- S'ha fet que la baixada d'actualitzacions i la gestió d'errors siguin més "
+"robustes. ([[!tails_ticket 18162]])"
 
 #. type: Plain text
 msgid ""
 "- Display an error message when failing to check for available upgrades. ([[!"
 "tails_ticket 18238]])"
 msgstr ""
+"- Es mostra un missatge d'error quan no es pot comprovar si hi ha "
+"actualitzacions disponibles. ([[!tails_ticket 18238]])"
 
 #. type: Title ###
 #, no-wrap
@@ -280,12 +284,16 @@ msgid ""
 "- Made the display of the **Reinstall** button more robust. ([[!tails_ticket "
 "18300]])"
 msgstr ""
+"- S'ha fet que el disseny del botó **Reinstal·la** sigui més robust. ([["
+"!tails_ticket 18300]])"
 
 #. type: Plain text
 msgid ""
 "- Make the **Install** and **Upgrade** unavailable after a USB stick is "
 "removed. ([[!tails_ticket 18346]])"
 msgstr ""
+"- S'ha fet que la **Instal·lació** i l'**Actualització** no estiguin "
+"disponibles després d'haver retirat un llapis USB. ([[!tails_ticket 18346]])"
 
 #. type: Plain text
 msgid ""
@@ -335,6 +343,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.14 or later to 4.20."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 4.14 o "
+"posterior fins a la versió 4.20."
 
 #. type: Plain text
 #, no-wrap
@@ -396,6 +406,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 4.20 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 4.20 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -412,4 +424,4 @@ msgstr "<h1 id=\"next\">Què ve?</h1>\n"
 
 #. type: Plain text
 msgid "Tails 4.21 is [[scheduled|contribute/calendar]] for August 10."
-msgstr ""
+msgstr "Tails 4.21 està [[programat|contribute/calendar]] per al 10 d'agost."
