@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2023-11-24 10:43+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -49,6 +49,8 @@ msgid ""
 "Your BitTorrent client will automatically verify your download when it "
 "completes."
 msgstr ""
+"Ihr BitTorrent-Client verifiziert den Download automatisch, sobald er "
+"abgeschlossen ist."
 
 #. type: Content of: <div><p>
 msgid "The verification below is optional for a BitTorrent download."
@@ -113,6 +115,8 @@ msgid ""
 "<label class=\"button\"> Select your download&hellip; <input id=\"verify-file"
 "\" type=\"file\"/> </label>"
 msgstr ""
+"<label class=\"button\"> Wählen Sie Ihren Download&hellip; <input id"
+"=\"verify-file\" type=\"file\"/> </label>"
 
 #. type: Content of: <div><div><p>
 #, fuzzy
