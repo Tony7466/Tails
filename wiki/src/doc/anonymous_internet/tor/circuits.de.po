@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-24 10:42+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -146,6 +146,9 @@ msgid ""
 "You can close a given Tor circuit to help replace a particularly slow Tor "
 "circuit or troubleshoot issues on the Tor network. To do so:"
 msgstr ""
+"Sie können einen bestimmten Tor-Circuit schließen, um einen besonders "
+"langsamen Tor-Circuit zu ersetzen oder um Probleme im Tor-Netzwerk zu "
+"beheben. Um dies zu tun:"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -188,6 +191,8 @@ msgstr ""
 #, no-wrap
 msgid "   For example, if you download the same file again, Tor uses a new circuit.\n"
 msgstr ""
+"   Wenn Sie zum Beispiel die gleiche Datei noch einmal herunterladen, "
+"verwendet Tor eine neue Verbindung.\n"
 
 #, fuzzy, no-wrap
 #~| msgid ""
