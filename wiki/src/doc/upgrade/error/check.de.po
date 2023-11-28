@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-09-07 14:15+0200\n"
-"PO-Revision-Date: 2023-11-24 21:42+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -61,7 +61,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"4.18\"></a>\n"
-msgstr ""
+msgstr "<a id=\"4.18\"></a>\n"
 
 #. type: Title =
 #, no-wrap
@@ -92,7 +92,7 @@ msgstr ""
 
 #. type: Bullet: '  1. '
 msgid "In a terminal, execute the following command:"
-msgstr ""
+msgstr "Führen Sie in einem Terminal den folgenden Befehl aus:"
 
 #. type: Plain text
 #, no-wrap
@@ -118,7 +118,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "     </div>\n"
-msgstr ""
+msgstr "     </div>\n"
 
 #. type: Bullet: '  1. '
 msgid ""
