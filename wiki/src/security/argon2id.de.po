@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-24 10:43+0000\n"
+"PO-Revision-Date: 2023-11-28 11:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -54,6 +54,11 @@ msgid ""
 "LUKS encrypted volumes unless you use a long passphrase of 5 random words or\n"
 "more.**\n"
 msgstr ""
+"**Wir empfehlen Ihnen, die Passphrase Ihres persistenten Speichers und "
+"anderer\n"
+"LUKS-verschlüsselten Volumes zu ändern, es sei denn, Sie verwenden eine "
+"lange Passphrase von 5 zufälligen Wörtern oder\n"
+"mehr.**\n"
 
 #. type: Plain text
 #, no-wrap
@@ -853,6 +858,9 @@ msgid ""
 "      The output is a list of the storage devices and partitions on the system.\n"
 "      For example:\n"
 msgstr ""
+"      Die Ausgabe ist eine Liste der Speichergeräte und Partitionen auf dem "
+"System.\n"
+"      Zum Beispiel:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -908,6 +916,9 @@ msgid ""
 "<span class=\"command\">Version</span> indicates the version of LUKS, either "
 "<span class=\"command\">1</span> or <span class=\"command\">2</span>."
 msgstr ""
+"<span class=\"command\">Version</span> gibt die Version von LUKS an, "
+"entweder <span class=\"command\">1</span> oder <span class=\"command\""
+">2</span>."
 
 #. type: Bullet: '      - '
 msgid ""
