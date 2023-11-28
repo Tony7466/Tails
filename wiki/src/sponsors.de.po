@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-09 12:39+0000\n"
-"PO-Revision-Date: 2023-11-12 16:12+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -116,10 +116,8 @@ msgstr ""
 "<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid "$1.000 – $9.999"
 msgid "$1&#8239;000 – $9&#8239;999"
-msgstr "$1.000 – $9.999"
+msgstr "$1&#8239;000 – $9&#8239;999"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
