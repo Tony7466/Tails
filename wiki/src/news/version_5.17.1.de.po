@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-15 12:38+0200\n"
-"PO-Revision-Date: 2023-11-24 10:43+0000\n"
+"PO-Revision-Date: 2023-11-28 11:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -52,6 +52,9 @@ msgid ""
 "who [tragically lost his life in an accident](https://www.debian.org/"
 "News/2023/20230914) on the 13th of September, 2023."
 msgstr ""
+"Wir möchten diese Tails-Veröffentlichung dem Debian-Entwickler Abraham Raji "
+"widmen, der am 13. September 2023 [tragischerweise bei einem Unfall ums "
+"Leben kam](https://www.debian.org/News/2023/20230914)."
 
 #. type: Plain text
 #, no-wrap
