@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -109,6 +109,8 @@ msgid ""
 "- Explain better how to use the *Unsafe Browser* to sign in to a local "
 "network. ([[!tails_ticket 19168]])"
 msgstr ""
+"- Erklärt besser, wie man den *Unsafe Browser* verwendet, um sich bei einem "
+"lokalen Netzwerk anzumelden. ([[!tails_ticket 19168]])"
 
 #. type: Plain text
 msgid ""
@@ -143,7 +145,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "To fix this, you can either:"
-msgstr ""
+msgstr "Um dies zu beheben, können Sie entweder:"
 
 #. type: Plain text
 msgid "- Close and reopen *Tor Connection* to speed up the initial connection."
