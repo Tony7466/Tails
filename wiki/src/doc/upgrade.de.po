@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-24 10:42+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails localization discussion <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -161,16 +161,12 @@ msgstr ""
 "Images."
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "The upgrade mechanism includes cryptographic verification of the "
-#| "upgrade.  You don't have to verify the ISO image yourself anymore."
 msgid ""
 "The upgrade mechanism includes cryptographic verification of the upgrade.  "
 "You don't have to verify the USB image yourself anymore."
 msgstr ""
 "Der Aktualisierungsvorgang enthält eine kryptografische Verifizierung der "
-"Aktualisierung. Es ist nicht mehr nötig, dass Sie das ISO-Image selbst "
+"Aktualisierung. Es ist nicht mehr nötig, dass Sie das USB-Image selbst "
 "verifizieren müssen."
 
 #. type: Plain text
