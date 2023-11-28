@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 ########################################################################
 # WhisperBack - Send feedback in an encrypted mail
 # Copyright (C) 2009-2018 Tails developers <tails@boum.org>
@@ -30,20 +28,22 @@ import logging
 import os
 import re
 import threading
+from typing import Optional
 
 import gi
+
 from gi.repository import GLib
 
-# Import our modules
+import whisperBack.encryption
 import whisperBack.exceptions
 import whisperBack.mail
-import whisperBack.encryption
 import whisperBack.utils
 
 LOG = logging.getLogger(__name__)
 
+
 # pylint: disable=R0902
-class WhisperBack(object):
+class WhisperBack:
     """
     This class contains the backend which actually sends the feedback
     """
@@ -55,7 +55,6 @@ class WhisperBack(object):
         if whisperBack.utils.is_valid_email(email):
             self._contact_email = email
         else:
-
             # XXX use a better exception
             raise ValueError(_("Invalid contact email: %s" % email))
 
@@ -84,7 +83,13 @@ class WhisperBack(object):
     # pylint: disable=W0212
     contact_gpgkey = property(lambda self: self._contact_gpgkey, set_contact_gpgkey)
 
-    def __init__(self, subject="", message=""):
+    def __init__(
+        self,
+        debugging_info: str,
+        bug_specific_text: Optional[str],
+        subject="",
+        message="",
+    ):
         """Initialize a feedback object with the given contents
 
         @param subject The topic of the feedback
@@ -99,14 +104,13 @@ class WhisperBack(object):
         self.to_fingerprint = None
         self.from_address = None
         self.mail_prepended_info = lambda: ""
-        self.mail_appended_info = lambda: ""
         self.mail_subject = None
         self.smtp_host = None
         self.smtp_port = None
         self.socks_host = None
         self.socks_port = None
 
-        # Load the python configuration file "config.py" from diffrents locations
+        # Load the python configuration file "config.py"
         # XXX: this is an absolute path, bad !
         self.__load_conf(os.path.join("/", "etc", "whisperback", "config.py"))
         self.__check_conf()
@@ -115,7 +119,8 @@ class WhisperBack(object):
         self.prepended_data = whisperBack.utils.sanitize_hardware_info(
             self.mail_prepended_info()
         )
-        self.appended_data = self.__get_debug_info(self.mail_appended_info())
+        self.bug_specific_text = bug_specific_text
+        self.appended_data = self.__get_debug_info(debugging_info)
 
         # Initialize other variables
         self.subject = subject
@@ -165,7 +170,6 @@ class WhisperBack(object):
                 result += "\n======= content of {} =======\n".format(debug_info["key"])
             if type(debug_info["content"]) is list:
                 for line in debug_info["content"]:
-
                     if isinstance(line, dict):
                         result += self.__get_debug_info(
                             json.dumps([line]), prefix + "> "
@@ -243,6 +247,7 @@ class WhisperBack(object):
         @param polling_freq       (optional) the interal between polling
                                   iterations (in ms).
         """
+
         # pylint: disable=C0111
         def save_exception(func, args):
             try:
@@ -287,7 +292,15 @@ class WhisperBack(object):
                 body += "OpenPGP-Key: %s\n" % self.contact_gpgkey
             else:
                 body += "OpenPGP-Key: included below\n"
-        body += "%s\n%s\n\n" % (self.prepended_data, self.message)
+        if self.bug_specific_text is None:
+            prefill_extra = ""
+        else:
+            prefill_extra = f"Bug-specific details: {self.bug_specific_text}\n"
+        body += (
+            f"{self.prepended_data.rstrip()}\n"
+            f"{prefill_extra}"
+            f"\n{self.message}\n\n"
+        )
         if self.contact_gpgkey and len(self.contact_gpgkey.splitlines()) > 1:
             body += "%s\n\n" % self.contact_gpgkey
         body += "%s\n" % self.appended_data

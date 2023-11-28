@@ -7,12 +7,9 @@
 # IMPORTS
 
 # Custom imports
-import os
-import subprocess
-import random
-import re
-import locale
 import gettext
+import random
+import subprocess
 
 # DOCUMENTATION
 
@@ -20,7 +17,7 @@ import gettext
 def _(string):
     try:
         encoded = gettext.translation("tails", "/usr/share/locale").lgettext(string)
-        string = encoded.decode('utf-8')
+        string = encoded.decode("utf-8")
     except IOError:
         pass
     finally:
@@ -93,40 +90,14 @@ def mail_prepended_info():
             explaining the error
     """
     try:
-        tails_version_process = subprocess.Popen("tails-version",
-                                                 stdout=subprocess.PIPE)
+        tails_version_process = subprocess.Popen(
+            "tails-version", stdout=subprocess.PIPE
+        )
         tails_version_process.wait()
-        tails_version = tails_version_process.stdout.read().decode('utf-8')
+        tails_version = tails_version_process.stdout.read().decode("utf-8")
     except OSError:
         tails_version = "tails-version command not found"
     except subprocess.CalledProcessError:
         tails_version = "tails-version returned an error"
 
     return "Tails-Version: %s\n" % tails_version
-
-
-def mail_appended_info():
-    """Return debugging information on the running Tails system.
-
-    A callback function to get information to append to the email
-    (this information will be encrypted). This is useful to add
-    configuration files useful for debugging.
-
-    It should not take any parameter, and should return a string serialized
-    json to be deserialized to append infos to the email
-
-    @return a string containing serialized json with debugging information
-    """
-    debugging_info = ""
-
-    try:
-        process = subprocess.Popen(["sudo", "/usr/local/sbin/tails-debugging-info"],
-                                   stdout=subprocess.PIPE)
-        for line in process.stdout:
-            debugging_info += re.sub(r'^--\s*', '', line.decode('utf-8'))
-        process.wait()
-    except OSError:
-        debugging_info += "sudo command not found\n"
-    except subprocess.CalledProcessError:
-        debugging_info += "debugging command returned an error\n"
-    return debugging_info

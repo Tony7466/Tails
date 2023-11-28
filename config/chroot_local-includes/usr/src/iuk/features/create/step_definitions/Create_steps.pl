@@ -152,14 +152,10 @@ Given qr{^(an old|a new) ISO image whose filesystem.squashfs( does not|) contain
     my $contains = $c->matches->[1] eq "" ? 1 : 0;
     my $file     = $c->matches->[2];
     my ($mtime, $owner);
-    if (defined $c->matches->[3]) {
-        if ($c->matches->[3] =~ m{\A[0-9]+\z}) {
-            $mtime = $c->matches->[3];
-        } elsif ($c->matches->[3] =~ m{\A[a-z-]+\z}) {
-            $owner = $c->matches->[3];
-        } else {
-            croak "Test suite implementation error";
-        }
+    if (defined $c->matches->[3] && $c->matches->[3] =~ m{\A[0-9]+\z}) {
+        $mtime = $c->matches->[3];
+    } elsif (defined $c->matches->[4] && $c->matches->[4] =~ m{\A[a-z-]+\z}) {
+        $owner = $c->matches->[4];
     }
 
     my $iso_basename = $generation eq 'old' ? 'old.iso' : 'new.iso';
@@ -175,6 +171,7 @@ Given qr{^(an old|a new) ISO image whose filesystem.squashfs( does not|) contain
         run_as_root('chown', $owner, path($squashfs_tempdir, $file)) if defined($owner);
     }
     path($iso_tempdir, 'live')->mkpath();
+    systemx('sudo', 'chmod', '-R', 'go+rwX', $squashfs_tempdir);
     systemx(
         'gensquashfs', '--quiet', '--keep-time',
         '--pack-dir', $squashfs_tempdir,
@@ -335,23 +332,24 @@ fun squashfs_in_iuk_contains(:$iuk_in, :$squashfs_name, :$expected_file,
     my $orig_cwd = getcwd;
     my $tempdir = Path::Tiny->tempdir;
     chdir $tempdir;
+    $tempdir->child('squashfs-root')->mkpath;
     capturex(EXIT_ANY,
         # on overlayfs, deleted files are stored using character devices,
         # that one needs to be root to create
         'sudo',
-        'rdsquashfs', '--quiet', '--set-times',
+        'rdsquashfs', '--quiet', '--set-times', '--chown',
         '--unpack-root', $tempdir->child('squashfs-root'),
-        '--unpack-path', $expected_file,
+        '--unpack-path', "/",
         $iuk_in->mountpoint->child($squashfs_path),
     );
-    my $exists = $EXITVAL == 0 ? 1 : 0;
+    my $exists = $tempdir->child('squashfs-root', $expected_file)->exists;
     chdir $orig_cwd;
 
     # Ensure $tempdir can be cleaned up and the $expected_mtime test can access
     # the file it needs to
     my @gids = split(/ /, $GID);
     systemx(
-        qw{sudo chown -R}, "$UID:$gids[0]",
+        qw{sudo chmod -R go+rwX},
         $tempdir->child('squashfs-root')
     );
 
@@ -460,14 +458,14 @@ Then qr{^the delete_files list is empty$}, fun ($c) {
 Then qr{^the saved IUK contains a SquashFS that contains file "([^"]+)"(?:| modified at ([0-9]+|SOURCE_DATE_EPOCH)| owned by ([a-z-]+))$}, fun ($c) {
     my $expected_file  = $c->matches->[0];
     my ($expected_mtime, $expected_owner);
-    if (defined $c->matches->[1]) {
-        if ($c->matches->[1] =~ m{\A(?:[0-9]+|SOURCE_DATE_EPOCH)\z}) {
-            $expected_mtime = $c->matches->[1];
-        } elsif ($c->matches->[1] =~ m{\A[a-z-]+\z}) {
-            $expected_owner = $c->matches->[1];
-        } else {
-            croak "Test suite implementation error";
-        }
+    if (defined $c->matches->[1] && $c->matches->[1] =~ m{\A[0-9]+\z}) {
+        $expected_mtime = $c->matches->[1];
+    } elsif (defined $c->matches->[1] && $c->matches->[1] eq "SOURCE_DATE_EPOCH") {
+        $expected_mtime = $c->matches->[1];
+    } elsif (defined $c->matches->[2] && $c->matches->[2] =~ m{\A[a-z-]+\z}) {
+        $expected_owner = $c->matches->[2];
+    } else {
+        croak "Test suite implementation error";
     }
 
     ok(squashfs_in_iuk_contains(

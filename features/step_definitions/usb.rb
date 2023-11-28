@@ -8,7 +8,7 @@ end
 # Returns a mapping from the source of a binding to its destination
 # for all bindings of all pre-configured tps features that the running
 # Tails is aware of.
-def get_tps_bindings(skip_links = false)
+def get_tps_bindings(skip_links: false)
   # Python script that prints all persistence configuration lines (one per
   # line) in the form: <mount_point>\t<comma-separated-list-of-options>
   script = [
@@ -48,7 +48,7 @@ def tps_bindings
 end
 
 def tps_bind_mounts
-  get_tps_bindings(true)
+  get_tps_bindings(skip_links: true)
 end
 
 def tps_features
@@ -56,13 +56,13 @@ def tps_features
   JSON.parse(c.stdout.chomp)
 end
 
-def tps_feature_is_enabled(feature, reload = true)
+def tps_feature_is_enabled(feature, reload: true)
   tps_reload if reload
   c = $vm.execute("/usr/local/lib/tpscli is-enabled #{feature}")
   c.success?
 end
 
-def tps_feature_is_active(feature, reload = true)
+def tps_feature_is_active(feature, reload: true)
   tps_reload if reload
   c = $vm.execute("/usr/local/lib/tpscli is-active #{feature}")
   c.success?
@@ -142,7 +142,8 @@ end
 
 When /^I start Tails Installer$/ do
   @installer_log_path = '/tmp/tails-installer.log'
-  command = "/usr/local/bin/tails-installer --verbose  2>&1 | tee #{@installer_log_path} | logger -t tails-installer"
+  command = '/usr/local/bin/tails-installer --verbose  2>&1 ' \
+            "| tee #{@installer_log_path} | logger -t tails-installer"
   step "I run \"#{command}\" in GNOME Terminal"
   @installer = Dogtail::Application.new('tails-installer')
   @installer.child('Tails Cloner', roleName: 'frame')
@@ -193,21 +194,26 @@ When /^I (install|reinstall|upgrade) Tails( with Persistent Storage)? (?:to|on) 
   # "Clone the current Persistent Storage (requires reinstall)".
   begin
     clone_persistence_button = @installer
-                                 .child('Clone the current Persistent Storage.*',
-                                        roleName: 'check box',
-                                        retry:    false)
+                               .child('Clone the current Persistent Storage.*',
+                                      roleName: 'check box',
+                                      retry:    false)
     sensitive = clone_persistence_button.sensitive
   rescue Dogtail::Failure
     sensitive = false
   end
   if tps_is_created
-    assert(sensitive, "Couldn't find clone Persistent Storage check button (even though a Persistent Storage exists)")
+    assert(sensitive,
+           "Couldn't find clone Persistent Storage check button " \
+           '(even though a Persistent Storage exists)')
   else
-    assert(!sensitive, 'Found clone Persistent Storage check button (even though no Persistent Storage exists)')
+    assert(!sensitive,
+           'Found clone Persistent Storage check button ' \
+           '(even though no Persistent Storage exists)')
   end
 
   if with_persistence
-    assert(sensitive, "Can't clone with Persistent Storage: Clone button is not sensitive")
+    assert(sensitive,
+           "Can't clone with Persistent Storage: Clone button is not sensitive")
     clone_persistence_button.click
   end
 
@@ -258,8 +264,7 @@ When /^I (install|reinstall|upgrade) Tails( with Persistent Storage)? (?:to|on) 
       true
     end
   rescue StandardError => e
-    debug_log("Tails Installer debug log:\n" +
-              $vm.file_content(@installer_log_path))
+    debug_log("Tails Installer debug log:\n#{$vm.file_content(@installer_log_path)}")
     raise e
   end
 end
@@ -508,7 +513,7 @@ end
 
 def tails_is_installed_helper(name, tails_root, loader)
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
   check_disk_integrity(name, disk_dev, 'gpt')
   check_part_integrity(name, part_dev, 'filesystem', 'vfat',
                        part_label: 'Tails', part_type: ESP_GUID)
@@ -589,7 +594,8 @@ Then /^a Tails persistence partition with LUKS version 2 and argon2id exists on 
 end
 
 Then /^the Tails persistence partition on USB drive "([^"]+)" still has LUKS version 1$/ do |name|
-  step "a Tails persistence partition exists with LUKS version 1 on USB drive \"#{name}\""
+  step 'a Tails persistence partition exists with LUKS version 1 ' \
+       "on USB drive \"#{name}\""
 end
 
 Then /^a Tails persistence partition exists( with LUKS version 1)? on USB drive "([^"]+)"$/ do |luks1, name|
@@ -668,7 +674,7 @@ Given /^I enable persistence( with the changed passphrase)?$/ do |with_changed_p
 
   # Figure out which language is set now that the Persistent Storage is
   # unlocked
-  $language, $lang_code = get_greeter_language
+  $language, $lang_code = greeter_language
 end
 
 Given /^I enable persistence but something goes wrong during the LUKS header upgrade$/ do
@@ -684,7 +690,7 @@ Given /^I enable persistence but something goes wrong during the LUKS header upg
   assert $vm.file_exist?('/tmp/luks-header-erased'), 'LUKS header was not erased'
 end
 
-def get_greeter_language
+def greeter_language
   english_label = 'English - United States'
   german_label = 'Deutsch - Deutschland (German - Germany)'
   try_for(30) do
@@ -1059,7 +1065,7 @@ Then /^only the expected files are present on the persistence partition on USB d
     end
     assert_not_nil(partition, "Could not find the 'TailsData' partition " \
                               "on disk '#{disk_handle}'")
-    luks_mapping = File.basename(partition) + '_unlocked'
+    luks_mapping = "#{File.basename(partition)}_unlocked"
     g.cryptsetup_open(partition, @persistence_password, luks_mapping)
     luks_dev = "/dev/mapper/#{luks_mapping}"
     mount_point = '/'
@@ -1073,8 +1079,7 @@ Then /^only the expected files are present on the persistence partition on USB d
              "Could not find expected file in persistent directory #{dir}")
       assert(
         g.exists("/#{dir}/XXX_gone") != 1,
-        'Found file that should not have persisted in persistent directory ' +
-        dir
+        "Found file that should not have persisted in persistent directory #{dir}"
       )
     end
     g.umount(mount_point)
@@ -1203,7 +1208,7 @@ Given /^the file system changes introduced in version (.+) are (not )?present(?:
       path += "var/lib/#{chroot_browser}/chroot/" if chroot_browser
       path += change[:path]
     when :medium
-      path = '/lib/live/mount/medium/' + change[:path]
+      path = "/lib/live/mount/medium/#{change[:path]}"
     else
       raise "Unknown filesystem '#{change[:filesystem]}'"
     end
@@ -1300,7 +1305,7 @@ Given /^Tails is fooled to think a (.+) SquashFS delta is installed$/ do |versio
   new_squash = "#{version}.squashfs"
   $vm.execute_successfully("mount -o remount,rw #{medium}")
   $vm.execute_successfully("touch #{live}/#{new_squash}")
-  $vm.file_append("#{live}/Tails.module", new_squash + "\n")
+  $vm.file_append("#{live}/Tails.module", "#{new_squash}\n")
   $vm.execute_successfully("mount -o remount,ro #{medium}")
   assert_equal(
     old_squashes + [new_squash],
@@ -1368,7 +1373,7 @@ end
 Then /^the label of the system partition on "([^"]+)" is "([^"]+)"$/ do |name, label|
   assert($vm.running?)
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
   check_disk_integrity(name, disk_dev, 'gpt')
   check_part_integrity(name, part_dev, 'filesystem', 'vfat', part_label: label)
 end
@@ -1376,7 +1381,7 @@ end
 Then /^the system partition on "([^"]+)" is an EFI system partition$/ do |name|
   assert($vm.running?)
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
   check_disk_integrity(name, disk_dev, 'gpt')
   check_part_integrity(name, part_dev, 'filesystem', 'vfat',
                        part_type: ESP_GUID)
@@ -1387,7 +1392,7 @@ Then /^the FAT filesystem on the system partition on "([^"]+)" is at least (\d+)
   wanted_size = convert_to_bytes(size.to_i, unit)
 
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
 
   udisks_info = $vm.execute_successfully(
     "udisksctl info --block-device #{part_dev}"
@@ -1412,7 +1417,7 @@ end
 
 Then /^the UUID of the FAT filesystem on the system partition on "([^"]+)" was randomized$/ do |name|
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
 
   # Get the UUID from the block area:
   udisks_info = $vm.execute_successfully(
@@ -1429,7 +1434,7 @@ end
 
 Then /^the label of the FAT filesystem on the system partition on "([^"]+)" is "([^"]+)"$/ do |name, label|
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
 
   # Get FS label from the block area:
   udisks_info = $vm.execute_successfully(
@@ -1446,7 +1451,7 @@ end
 
 Then /^the system partition on "([^"]+)" has the expected flags$/ do |name|
   disk_dev = $vm.disk_dev(name)
-  part_dev = disk_dev + '1'
+  part_dev = "#{disk_dev}1"
 
   # Look at the flags from the partition area:
   udisks_info = $vm.execute_successfully(
@@ -1470,8 +1475,7 @@ Given /^I install a Tails USB image to the (\d+) MiB disk with GNOME Disks$/ do 
     convert_to_bytes(size_in_MiB_of_destination_disk.to_i, 'MiB'),
     'GB'
   ).round(1).to_s
-  debug_log('Expected size of destination disk: ' +
-            size_in_GB_of_destination_disk)
+  debug_log("Expected size of destination disk: #{size_in_GB_of_destination_disk}")
 
   step 'I start "Disks" via GNOME Activities Overview'
   disks = gnome_disks_app
@@ -1524,15 +1528,16 @@ Given /^I set all Greeter options to non-default values$/ do
   sleep 2
   step 'I disable MAC spoofing in Tails Greeter'
   sleep 2
-  # Administration password needs to be done last because its image has blue background (selected)
-  # while the others have no such background.
+  # Administration password needs to be done last because its image
+  # has blue background (selected) while the others have no such background.
   step 'I set an administration password'
   sleep 2
 
-  # We should change language, too, but we'll not: in fact, changing the language would change labels in the
-  # UI, so we would need to keep images (see #19420) in both languages, making the test suite harder to
-  # maintain.
-  # The "I log in to a new session" step can change language at the very last moment, which is a good
+  # We should change language, too, but we won't: in fact, changing
+  # the language would change labels in the UI, so we would need to
+  # keep images (see #19420) in both languages, making the test suite
+  # harder to maintain. The "I log in to a new session" step can
+  # change language at the very last moment, which is a good
   # workaround to the problem.
 end
 
@@ -1577,7 +1582,7 @@ Then /^all Greeter options are set to (non-)?default values$/ do |non_default|
 end
 
 Then /^(no )?persistent Greeter options were restored$/ do |no|
-  $language, $lang_code = get_greeter_language
+  $language, $lang_code = greeter_language
   # Our Dogtail wrapper code automatically translates strings to $language
   settings_restored = greeter
                       .child?('Settings were loaded from the persistent storage.',
@@ -1590,7 +1595,9 @@ Then /^(no )?persistent Greeter options were restored$/ do |no|
 end
 
 Then /^the Tails Persistent Storage behave tests pass$/ do
-  $vm.execute_successfully('/usr/lib/python3/dist-packages/tps/configuration/behave-tests/run-tests.sh')
+  $vm.execute_successfully(
+    '/usr/lib/python3/dist-packages/tps/configuration/behave-tests/run-tests.sh'
+  )
 end
 
 When /^I give the Persistent Storage on drive "([^"]+)" its own UUID$/ do |name|
@@ -1663,7 +1670,8 @@ end
 
 Then /^the Welcome Screen tells me that the Persistent Folder feature couldn't be activated$/ do
   try_for(60) do
-    greeter.child?('Failed to activate some features of the Persistent Storage: Persistent Folder.\n.*',
+    greeter.child?('Failed to activate some features of the Persistent Storage: ' \
+                   'Persistent Folder.\n.*',
                    roleName: 'label')
   end
 end

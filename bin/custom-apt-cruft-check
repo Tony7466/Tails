@@ -54,7 +54,8 @@ class AptSources
     end
     raise NoSource, "found no source package for #{package}" if matches.size.zero?
 
-    raise "found multiple source packages for #{package}: #{matches.join(', ')}" if matches.uniq.size > 1
+    raise "found multiple source packages for #{package}: #{matches.join(', ')}" \
+      if matches.uniq.size > 1
 
     matches.first
   end
@@ -103,7 +104,7 @@ if options.build_manifest.nil?
   url = "https://nightly.tails.boum.org/build_Tails_ISO_#{options.suite}/lastSuccessful/archive/latest.build-manifest"
   begin
     manifest = YAML.safe_load(
-      URI.open(url).read
+      URI.parse(url).open.read
     )
   rescue OpenURI::HTTPError
     raise "got HTTP 404 when attempting to fetch: #{url}\n" \
@@ -120,7 +121,8 @@ used_source_packages = []
 binary_cruft_candidates = []
 no_source_packages = []
 
-custom_packages = `ssh reprepro@incoming.deb.tails.boum.org reprepro list #{options.suite}`
+custom_packages = `ssh reprepro@incoming.deb.tails.boum.org \
+                       reprepro list #{options.suite}`
 custom_packages.each_line(chomp: true) do |line|
   type, name, version = line.split
   if type['source']

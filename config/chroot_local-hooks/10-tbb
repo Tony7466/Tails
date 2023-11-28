@@ -275,6 +275,30 @@ get_firefox_version() {
     sed -n 's/^Version=\(.*\)$/\1/p' "${appini}"
 }
 
+customize_ublock_assets() {
+    local ublock_assets_dir ublock_assets
+    ublock_assets_dir="$1"
+
+    # In dev builds, such as release candidates which are sometimes packaged in Debian,
+    # the file is called assets.dev.json. Otherwise it's assets.json.
+    ublock_assets=
+    for candidate in assets.json assets.dev.json ; do
+	if [ -e "${ublock_assets_dir}"/"${candidate}" ]; then
+	    ublock_assets="${ublock_assets_dir}"/"${candidate}"
+	    break
+	fi
+    done
+    if [ -z "$ublock_assets" ]; then
+	echo "Failed to locate the assets JSON file" >&2
+	exit 1
+    fi
+
+    /usr/share/tails/build/customize-ublock-assets \
+	--input-file "$ublock_assets" \
+	--output-file "$ublock_assets".new
+    mv "$ublock_assets".new "$ublock_assets"
+}
+
 install_debian_extensions() {
     local destination timestamp fake_firefox_version firefox_version
     destination="${1}"
@@ -288,6 +312,8 @@ install_debian_extensions() {
 
     apt-get install --yes webext-ublock-origin-firefox
     patch -p1 < /usr/share/tails/uBlock-disable-autoUpdate.diff
+    customize_ublock_assets \
+	'/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/uBlock0@raymondhill.net/assets'
 
     # Apply the same hack for our extension as the Tor Browser used to
     # for HTTPS-Everywhere in order to bypass the mandatory extension

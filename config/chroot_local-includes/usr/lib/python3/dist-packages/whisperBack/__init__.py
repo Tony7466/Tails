@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 ########################################################################
 # WhisperBack - Send feedback in an encrypted mail
 # Copyright (C) 2009-2018 Tails developers <tails@boum.org>
@@ -10,7 +8,7 @@
 # it under the  terms of the GNU General Public  License as published by
 # the Free Software Foundation; either  version 3 of the License, or (at
 # your option) any later version.
-# 
+#
 # This program  is distributed in the  hope that it will  be useful, but
 # WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of
 # MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU
@@ -25,6 +23,7 @@
 """
 
 import gettext
+
 from whisperBack.gui import WhisperBackUI
 
-gettext.install('tails', localedir='/usr/share/locale')
+gettext.install("tails", localedir="/usr/share/locale")

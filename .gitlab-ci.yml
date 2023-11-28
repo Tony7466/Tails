@@ -89,6 +89,17 @@ check-locale-descriptions:
     - echo 'If this fails, look at https://tails.net/contribute/release_process/update_locale_descriptions/'
     - ./bin/locale-descriptions suggest
 
+rubocop:
+  image: debian:bookworm
+  script:
+  - apt-get -qy install rubocop
+  - rubocop --version
+  - rubocop --format junit --out rubocop.xml --format markdown
+  artifacts:
+    when: always
+    reports:
+      junit: rubocop.xml
+
 test-iuk:
   rules:
     - if: '$CI_COMMIT_BRANCH != "master"'
