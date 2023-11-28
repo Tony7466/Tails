@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 11:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -47,6 +47,8 @@ msgstr "<h1 id=\"features\">Neue Funktionen</h1>\n"
 #, no-wrap
 msgid "<h2>Data deletion when deactivating a feature of the Persistent Storage</h2>\n"
 msgstr ""
+"<h2>Datenlöschung bei Deaktivierung einer Funktion des Persistent "
+"Storage</h2>\n"
 
 #. type: Plain text
 msgid ""
