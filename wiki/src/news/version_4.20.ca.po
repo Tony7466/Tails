@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-27 23:42+0000\n"
+"PO-Revision-Date: 2023-11-28 00:02+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -152,12 +152,16 @@ msgid ""
 "Synchronize the clock to make it easier to use Tor bridges in Asia ([[!"
 "tails_ticket 15548]])"
 msgstr ""
+"Sincronitzar el rellotge per facilitar l'ús dels ponts de Tor a Àsia ([["
+"!tails_ticket 15548]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Make it easier to learn about new Tor bridges ([[!tails_ticket 18219]], [[!"
 "tails_ticket 15331]])"
 msgstr ""
+"Fer que sigui més fàcil aprendre sobre els nous ponts de Tor ([["
+"!tails_ticket 18219]], [[!tails_ticket 15331]])"
 
 #. type: Plain text
 #, no-wrap
@@ -169,6 +173,8 @@ msgid ""
 "Update *OnionShare* from 1.3.2 to [2.2](https://github.com/micahflee/"
 "onionshare/blob/develop/CHANGELOG.md#22)."
 msgstr ""
+"S'ha actualitzat *OnionShare* de la versió 1.3.2 a la [2.2](https://github."
+"com/micahflee/onionshare/blob/develop/CHANGELOG.md#22)."
 
 #. type: Plain text
 #, no-wrap
@@ -177,6 +183,10 @@ msgid ""
 "  [host a website](https://docs.onionshare.org/2.3.2/en/features.html#host-a-website)\n"
 "  accessible from a Tor onion service.\n"
 msgstr ""
+"  Aquesta important actualització afegeix una característica per\n"
+"  [allotjar un lloc web](https://docs.onionshare.org/2.3.2/en/features."
+"html#host-a-website)\n"
+"  accessible des d'un servei d'onion de Tor.\n"
 
 #. type: Plain text
 #, no-wrap
