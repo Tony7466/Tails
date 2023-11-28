@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-28 11:42+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -118,7 +118,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "<https://survey.tails.boum.org/index.php/146737?lang=pt-BR>"
-msgstr ""
+msgstr "<https://survey.tails.boum.org/index.php/146737?lang=pt-BR>"
 
 #. type: Plain text
 msgid ""
