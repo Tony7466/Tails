@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-24 21:42+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -54,6 +54,8 @@ msgid ""
 "After connecting to a local network, a *Tor Connection* assistant helps you "
 "connect to the Tor network."
 msgstr ""
+"Nachdem Sie sich mit einem lokalen Netzwerk verbunden haben, hilft Ihnen ein "
+"*Tor Connection* Assistent, sich mit dem Tor-Netzwerk zu verbinden."
 
 #. type: Plain text
 #, no-wrap
@@ -114,6 +116,8 @@ msgstr ""
 #. type: Plain text
 msgid "- Help detect when Wi-Fi is not working ([[!tails_ticket 14534]])"
 msgstr ""
+"- Hilfe bei der Erkennung, wenn WLAN nicht funktioniert ([[!tails_ticket "
+"14534]])"
 
 #. type: Bullet: '- '
 msgid ""
