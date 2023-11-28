@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-24 10:43+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -109,7 +109,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.x."
-msgstr ""
+msgstr "- Automatische Upgrades sind ab Tails 5.x verfügbar."
 
 #. type: Bullet: '- '
 msgid ""
