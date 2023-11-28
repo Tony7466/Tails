@@ -416,6 +416,9 @@ Manually inspect the diffs:
    For example, if you see `zz-YY:YY` added in `config/chroot_local-includes/usr/share/tails/browser-localization/descriptions`
    it must be because of a `po/zz_YY.po` which includes a line `"Language: zz_YY\n"`
 
+Commit the changes (if any):
+
+    git commit -m "Refresh localization list" config/chroot_local-includes/usr/share/tails/browser-localization/descriptions || :
 
 # If preparing a final release
 
@@ -1482,7 +1485,7 @@ As tracked on [[!tails_ticket 19396]], it might well be
 that Mirrorbits will miss this update.
 Let's be sure that this happens via
 
-    ssh rsync.lizard sudo cat /etc/mirrorbits-rpc-password \
+    ssh rsync.lizard "sudo cat /etc/mirrorbits-rpc-password && echo" \
       | ssh rsync.lizard mirrorbits -a refresh -rehash
 
 If, at a later stage of the process, you realize Mirrorbits is still not

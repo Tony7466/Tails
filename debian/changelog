@@ -2,7 +2,298 @@ tails (5.21) UNRELEASED; urgency=medium
 
   * Dummy entry for next release.
 
- -- groente <groente@kalette.nomennesc.io>  Wed, 15 Nov 2023 15:49:24 +0100
+ -- anonym <anonym@riseup.net>  Tue, 28 Nov 2023 11:30:07 +0100
+
+tails (5.20) unstable; urgency=medium
+
+  * Upgrade Thunderbird to 1:115.5.0-1~deb11u1
+
+  * Upgrade Tor Browser to 13.0.4 (refs: tails/tails#20043) (tails/tails!1295)
+
+    Closes issues:
+      - Upgrade to Tor Browser 13.0.4 based on Firefox 115.5 (tails/tails#20043)
+
+    Commits:
+      - Upgrade Tor Browser to 13.0.4 (refs: tails/tails#20043)
+
+  * fixing line numbers in diff for #20033 (tails/tails!1298)
+
+    Commits:
+      - fixing line numbers in diff for #20033
+
+  * GitLab CI: ensure Rubocop compliance (tails/tails!1301)
+
+    Closes issues:
+      - Run Rubocop in GitLab CI (tails/tails#19307)
+
+    Commits:
+      - Fix regression introduced by partial renaming in
+        5b46d28df4f40418cd6cde90b1fbbc9dd48b3c14
+      - Test suite: remove duplicate step
+      - Manually correct Rubocop offense
+      - Test suite: simplifications prompted by Rubocop
+      - Rubocop: replace obsolete parameters with their new names
+      - Manually correct or disable Rubocop offenses
+      - GitLab CI: test Rubocop compliance
+      - rubocop --regenerate-todo
+      - Manually correct or disable Rubocop offenses
+      - Rubocop: relax a few limits
+      - Manually correct or disable Rubocop offenses
+      - rubocop --autocorrect--all
+      - Rubocop: use 88 chars max line length
+      - Rubocop: target Ruby 3.1 (Bookworm)
+      - Test suite: work around the OSK not showing on new tabs
+      - Rubocop: silence false positive
+      - Test suite: fix more Rubocop offenses
+      - Lint
+      - Explain why we're retrying and future nicer workaround
+      - Test suite: give some time when verifying that each action we took happened
+      - Test suite: verify that ctrl+a selected all of the address bar
+      - Test suite: don't focus the address bar in "open new tab" step
+      - Test suite: make browser helper work for all browsers
+      - Test suite: make Dogtail code work in all locales
+      - Test suite: retry inputting the URL into the browser navigation bar if it
+        failed (refs: tails/tails#20017)
+
+  * Test suite: remove obsolete localization of UnsafeBrowserStartPage.png
+    (tails/tails!1299)
+
+    Closes issues:
+      - Test suite: clean up obsolete localization of UnsafeBrowserStartPage.png
+        (tails/tails#20038)
+
+    Commits:
+      - Test suite: remove obsolete localization of UnsafeBrowserStartPage.png
+
+  * explain locale descriptions RM process (tails/tails!1297)
+
+    Closes issues:
+      - Explain how to inspect the locale-descriptions diff during the release process
+        (tails/tails#20037)
+
+    Commits:
+      - clarify what to do when inspecting
+      - Update PO files.
+      - comment po-to-mozilla.toml
+      - clarifies relationship between code and process
+
+  * Draft: Resolve "devel branch FTBFS since the upgrade to uBlock 1.53"
+    (tails/tails!1296)
+
+    Commits:
+      - Ensure tails-debugging-info does not crash in case lsblk returns a non-zero
+        exit code
+      - Include more information about the boot device partition and filesystem layout
+        in WhisperBack reports
+      - partitioning: always "set -x"
+      - Include /var/log/boot.log in WhisperBack reports
+      - automailer supports content-type: html
+      - automailer: multiple x-attach fields
+      - Test suite: give sysadmins a chance to update OpenPGP keys before we fail
+
+  * tps: various bug fixes (tails/tails!1294)
+
+    Closes issues:
+      - tpsd: TypeError: exceptions must derive from BaseException (tails/tails#20011)
+
+    Commits:
+      - Simplify
+      - tps: use logger object consistently
+      - Remove now unused variable
+      - tps: don't log exception object twice
+      - tps: fix reporting of errors about refreshing state of features
+      - tps: Fix "return" used instead of "raise"
+
+  * Emacs: configure the perlnavigator Perl Language Server when used with the
+    Eglot LSP client (tails/tails!1291)
+
+    Commits:
+      - Emacs: configure the perlnavigator Perl Language Server when used in
+        combination with the Eglot LSP client
+
+  * misc whisperback improvements (tails/tails!1290)
+
+    Closes issues:
+      - Whisperback is only displayed in English (tails/tails#20040)
+      - Too many WhisperBack reports without description (tails/tails#19351)
+      - tails-debugging-info is available to amnesia-level attacker (tails/tails#19997)
+
+    Commits:
+      - Fix what these comments are about
+      - Remove useless comment
+      - remove useless a11y code
+      - sort import modules better with isort
+      - Update comment
+      - WhisperBack: remove useless shebangs on files that are not meant to be executed
+      - Remove unused variable
+      - Remove unused variable
+      - WhisperBack: reformat with black
+      - WhisperBack: remove useless inheritance from object class
+      - WhisperBack: remove About dialog
+      - Improve phrasing
+      - Sort imports
+      - hidden_msg → details
+      - add a middle "technical details" frame
+      - headers are not editable
+      - remove dead code
+      - remove useless instance variable
+      - Test suite: fix typo in WhisperBack name, improve phrasing of scenarios and
+        steps
+      - put fields in bold, html markup only if needed
+      - use whisperback css to clean padding
+      - add trailing ellipsis
+      - more space between textareas
+      - ignore temporary files
+      - improve python linting
+      - don't maximize automatically
+      - UI matches design more closely
+      - report has more prefilled data
+      - tps sends more informative reports
+      - TPS sends prefill data to WhisperBack
+      - whisperback supports being prefilled
+      - redesign Whisperback UI
+      - Test whisperback
+      - automatic tests changed to reflect #19997
+      - fix whisperback localization
+      - only whisperback can read debug logs
+
+  * Make WhisperBack reports quicker to triage and possibly more actionable wrt.
+    unusual or buggy boot device partition topology (tails/tails!1289)
+
+    Commits:
+      - Ensure tails-debugging-info does not crash in case lsblk returns a non-zero
+        exit code
+      - Include more information about the boot device partition and filesystem layout
+        in WhisperBack reports
+      - partitioning: always "set -x"
+      - Include /var/log/boot.log in WhisperBack reports
+
+  * Ensure uBlock does not download and enable additional per-region/language
+    blocklists (tails/tails!1287)
+
+    Closes issues:
+      - uBlock enables and downloads per-region/language additional blocklists
+        (tails/tails#20022)
+
+    Commits:
+      - code slightly more readable
+      - extra newline makes reading easier
+      - Avoid fingerprinting by refreshing uBlock lists
+      - Ensure uBlock does not download and enable additional per-region/language
+        blocklists
+
+  * automailer: more featuresss (tails/tails!1286)
+
+    Commits:
+      - automailer supports content-type: html
+      - automailer: multiple x-attach fields
+
+  * Update the Electrum incentive during our fundraiser (tails/tails!1283)
+
+    Closes issues:
+      - Update the language for Electrum incentive during the donation campaign
+        (tails/tails#17822)
+
+    Commits:
+      - Make comment match updated frequency
+      - Clarify test instructions
+      - Document how to test the incentives
+      - Update the Electrum incentive during our fundraiser
+
+  * Fix IUK test suite and make it test what it was meant to (tails/tails!1282)
+
+    Closes issues:
+      - iuk test suite fails on sid: "A: constructing full path: invalid argument."
+        (tails/tails#20029)
+
+    Commits:
+      - IUK test suite: fix the ownership test
+      - IUK test suite: fix test for existence of file in SquashFS
+      - IUK test suite: ensure we can read the files we're going to pack
+      - IUK test suite: fix argument matching
+
+  * Test suite: retry inputting the URL into the browser navigation bar if it
+    failed (tails/tails!1277)
+
+    Closes issues:
+      - Make opening URLs in the browser in the test suite reliable again
+        (tails/tails#20017)
+
+    Commits:
+      - Test suite: work around the OSK not showing on new tabs
+      - Rubocop: silence false positive
+      - Test suite: fix more Rubocop offenses
+      - Lint
+      - Explain why we're retrying and future nicer workaround
+      - Test suite: give some time when verifying that each action we took happened
+      - Test suite: verify that ctrl+a selected all of the address bar
+      - Test suite: don't focus the address bar in "open new tab" step
+      - Test suite: make browser helper work for all browsers
+      - Test suite: make Dogtail code work in all locales
+      - Test suite: retry inputting the URL into the browser navigation bar if it
+        failed (refs: tails/tails#20017)
+
+  * Test suite: give sysadmins a chance to update OpenPGP keys before failing
+    (tails/tails!1275)
+
+    Commits:
+      - Test suite: give sysadmins a chance to update OpenPGP keys before we fail
+
+  * Tor blog post: shift all headings 1 level further (tails/tails!1270)
+
+    Commits:
+      - Tor blog post: shift all headings 1 level further
+
+  * Test suite: allow Thunderbird to connect to test email server even if it's
+    within RFC1918 range (tails/tails!1268)
+
+    Commits:
+      - Test suite: allow Thunderbird to connect to test email server even if it's
+        within RFC1918 range
+      - Refactoring: extract code to method
+      - Move method to a more appropriate location
+
+  * Add script to recover lost translations (tails/tails!1263)
+
+    Commits:
+      - Improve script documentation
+      - Do not try to recover obsolete translations
+      - use wrapwidth also for parsing.
+      - also copy msgstr.
+      - simplyfy logic.
+      - Use argparser and add width support.
+      - merge does too much -> create a own copy method.
+      - Add Recover-lost-translationy.py
+
+  * simplify locale-descriptions update during RM (tails/tails!1187)
+
+    Commits:
+      - fix pipeline doctest dependencies
+      - fix output
+      - output is sanitized and checked
+      - doctest
+      - suggest mozilla-compatible locales
+      - clarify doc
+      - update locale descriptions
+      - always show the second suggestion block
+      - fix dependencies
+      - documentation available to people that need to fix
+      - integrate with Gitlab CI
+      - more detailed process
+      - non-copypastable suggestions are more exhaustive
+      - separate generate and suggest usecases
+      - map more languages using semi-automated tool
+      - black reformatting
+      - comments clarifying language
+      - automatically get suggestions
+      - refactor code
+      - some languages needs to be added anyway
+      - fix spanish
+      - follow new process, new mozilla descriptions file
+      - change approach: only partially automated
+      - automatically generate locale list
+
+ -- Tails developers <tails@boum.org>  Mon, 27 Nov 2023 12:54:50 +0100
 
 tails (5.19.1) unstable; urgency=medium
 
