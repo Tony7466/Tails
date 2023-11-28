@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-10-09 12:39+0000\n"
+"POT-Creation-Date: 2023-11-28 22:39+0000\n"
 "PO-Revision-Date: 2020-12-25 13:44+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,10 +104,6 @@ msgid "$1&#8239;000 – $9&#8239;999"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
-msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
-msgstr ""
-
-#. type: Attribute 'title' of: <div><p>
 msgid "Aspiration - advising for community vitality and project governance"
 msgstr ""
 
@@ -143,6 +139,17 @@ msgstr ""
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
 msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
+msgid "iGaming.com - 1 500€"
+msgstr ""
+
+#. type: Content of: <div><p>
+#, fuzzy
+msgid ""
+"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" alt="
+"\"\"]]</a>"
+msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Word Solver - $1 400"
@@ -239,6 +246,10 @@ msgstr "[[!img ndi.png link=\"no\"]]"
 #, fuzzy
 msgid "[[!img nym.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img ndi.png link=\"no\"]]"
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
+msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $2 175"
