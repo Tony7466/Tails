@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-28 00:02+0000\n"
+"PO-Revision-Date: 2023-11-28 00:03+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -198,11 +198,14 @@ msgid ""
 "Update *KeePassXC* from 2.5.4 to [2.6.2](https://github.com/keepassxreboot/"
 "keepassxc/blob/master/CHANGELOG.md#262-2020-10-21)."
 msgstr ""
+"S'ha actualitzat *KeePassXC* de la versió 2.5.4 a la [2.6.2](https://github."
+"com/keepassxreboot/keepassxc/blob/master/CHANGELOG.md#262-2020-10-21)."
 
 #. type: Plain text
 #, no-wrap
 msgid "  This major update comes with a redesign of the interface.\n"
 msgstr ""
+"  Aquesta important actualització inclou un redisseny de la interfície.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -214,28 +217,36 @@ msgid ""
 "- Update *Tor Browser* to [10.5.2](https://blog.torproject.org/new-release-"
 "tor-browser-1052)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [10.5.2](https://blog."
+"torproject.org/new-release-tor-browser-1052)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [78.11.0](https://www.thunderbird.net/en-US/"
 "thunderbird/78.11.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [78.11.0](https://www."
+"thunderbird.net/en-US/thunderbird/78.11.0/releasenotes/)."
 
 #. type: Plain text
 msgid "- Update *Tor* to 0.4.5.9."
-msgstr ""
+msgstr "- S'ha actualitzat *Tor* a la versió 0.4.5.9."
 
 #. type: Bullet: '- '
 msgid ""
 "Update the *Linux* kernel to 5.10.46. This should improve the support for "
 "newer hardware (graphics, Wi-Fi, and so on)."
 msgstr ""
+"S'ha actualitzat el nucli de *Linux* a la versió 5.10.46. Això hauria de "
+"millorar la compatibilitat amb el maquinari més nou (gràfics, Wi-Fi, etc.)."
 
 #. type: Bullet: '- '
 msgid ""
 "Rename *MAC address spoofing* as *MAC address anonymization* in the Welcome "
 "Screen."
 msgstr ""
+"S'ha canviat el nom de *suplantació d'adreces MAC* a *anonimització "
+"d'adreces MAC* a la Pantalla de Benvinguda."
 
 #. type: Plain text
 #, no-wrap
@@ -245,7 +256,7 @@ msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
 #. type: Title ###
 #, no-wrap
 msgid "Automatic upgrades"
-msgstr ""
+msgstr "Actualitzacions automàtiques"
 
 #. type: Plain text
 msgid ""
