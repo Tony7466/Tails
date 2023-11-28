@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-24 10:42+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -150,16 +150,13 @@ msgid "Click <span class=\"guilabel\">Continue</span>."
 msgstr "Klicken Sie auf <span class=\"guilabel\">Weiter</span>."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "The assistant tries to configure automatically the correct parameters to "
-#| "connect to your email provider based on your email address."
 msgid ""
 "The assistant tries to configure automatically the correct settings to "
 "connect to your email provider based on your email address."
 msgstr ""
-"Der Assistent versucht die Einstellungen automatisch richtig zu "
-"konfigurieren, um Sie mit Ihrem Email-Provider zu verbinden."
+"Der Assistent versucht, anhand Ihrer E-Mail-Adresse automatisch die "
+"richtigen Einstellungen für die Verbindung mit Ihrem E-Mail-Anbieter zu "
+"konfigurieren."
 
 #. type: Plain text
 #, no-wrap
@@ -520,6 +517,8 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid "In the right pane, click the **Add Key…** button."
 msgstr ""
+"Klicken Sie im rechten Fensterbereich auf die Schaltfläche **Schlüssel "
+"hinzufügen...**."
 
 #. type: Bullet: '1. '
 #, fuzzy
