@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-07-17 22:56+0000\n"
-"PO-Revision-Date: 2023-11-24 10:43+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -130,7 +130,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Choose **Sign/Encrypt&hellip;** from the main window."
-msgstr ""
+msgstr "Wählen Sie **Signieren/Verschlüsseln&hellip;** im Hauptfenster."
 
 #. type: Bullet: '1. '
 msgid "Select the file that you want to encrypt."
