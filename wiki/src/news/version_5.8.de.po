@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-24 10:43+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -114,6 +114,8 @@ msgid ""
 "You can choose to create a Persistent Storage directly from the Welcome "
 "Screen, if you don't have one already."
 msgstr ""
+"Sie können direkt vom Willkommensbildschirm aus einen persistenten Speicher "
+"erstellen, wenn Sie noch keinen haben."
 
 #. type: Plain text
 #, no-wrap
@@ -830,7 +832,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "To fix this, you can either:"
-msgstr ""
+msgstr "Um dies zu beheben, können Sie entweder:"
 
 #. type: Bullet: '* '
 msgid "Close and reopen *Tor Connection* to speed up the initial connection."
