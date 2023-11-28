@@ -1204,7 +1204,7 @@ end
 
 Then /^Tails is running version (.+)$/ do |version|
   running_version = $vm.file_content('/etc/os-release')
-                    .match(/^VERSION="(.+)"$/)[1]
+                       .match(/^VERSION="(.+)"$/)[1]
   assert_equal(
     version,
     running_version,
