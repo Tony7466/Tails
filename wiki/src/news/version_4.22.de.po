@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-24 10:43+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -114,6 +114,8 @@ msgid ""
 "Allow fixing the clock manually when connecting to Tor using bridges fails.  "
 "([[!tails_ticket 15548]])"
 msgstr ""
+"Erlaube es, die Uhr manuell einzustellen, wenn die Verbindung zu Tor über "
+"Brücken fehlschlägt.  ([[!tails_ticket 15548]])"
 
 #. type: Plain text
 #, no-wrap
@@ -244,6 +246,10 @@ msgid ""
 "  Follow our instructions to do an [[automatic upgrade from Tails 4.15, Tails\n"
 "  4.16, Tails 4.17, or Tails 4.18|doc/upgrade/error/check#4.18]].\n"
 msgstr ""
+"  Folgen Sie unseren Anweisungen, um ein [[automatisches Upgrade von Tails "
+"4.15, Tails\n"
+"  4.16, Tails 4.17, oder Tails 4.18|doc/upgrade/error/check#4.18]] "
+"durchzuführen.\n"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.19 or later to 4.22."
