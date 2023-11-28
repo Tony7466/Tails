@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-09-18 06:11+0200\n"
-"PO-Revision-Date: 2023-11-28 11:42+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -117,7 +117,7 @@ msgstr "\tuser_pref(\"extensions.torbutton.spoof_english\", false);\n"
 
 #. type: Plain text
 msgid "... then save and quit. You can now run Iceweasel."
-msgstr ""
+msgstr "... dann speichern und beenden. Sie können nun Iceweasel ausführen."
 
 #. type: Plain text
 msgid ""
