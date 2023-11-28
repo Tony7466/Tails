@@ -57,7 +57,7 @@ module RemoteShell
           next
         end
         if line_init != '['
-          line_init = '[' + line_init
+          line_init = "[#{line_init}"
         end
         line = line_init + socket.readline("\n").chomp("\n")
         response_id, status, *rest = JSON.parse(line)
@@ -141,10 +141,8 @@ module RemoteShell
 
     def to_s
       "Return status: #{@returncode}\n" \
-        "STDOUT:\n" +
-        @stdout +
-        "STDERR:\n" +
-        @stderr
+        "STDOUT:\n#{@stdout}" \
+        "STDERR:\n#{@stderr}"
     end
   end
 
@@ -155,10 +153,10 @@ module RemoteShell
       opts[:env] ||= {}
       show_code = code.chomp
       if show_code["\n"]
-        show_code = "\n" +
-                    show_code.lines
-                             .map { |l| ' ' * 4 + l.chomp }
-                             .join("\n")
+        indented_lines = show_code.lines
+                                  .map { |l| ' ' * 4 + l.chomp }
+                                  .join("\n")
+        show_code = "\n#{indented_lines}"
       end
 
       if opts[:debug_log]
@@ -193,10 +191,8 @@ module RemoteShell
 
     def to_s
       "Exception: #{@exception}\n" \
-        "STDOUT:\n" +
-        @stdout +
-        "STDERR:\n" +
-        @stderr
+        "STDOUT:\n#{@stdout}" \
+        "STDERR:\n#{@stderr}"
     end
   end
 
@@ -205,7 +201,7 @@ module RemoteShell
   class File
     def self.open(vm, mode, path, *args, **opts)
       debug_log("opening file #{path} in '#{mode}' mode")
-      ret = RemoteShell.communicate(vm, 'file_' + mode, path, *args, **opts)
+      ret = RemoteShell.communicate(vm, "file_#{mode}", path, *args, **opts)
       if ret.size != 1
         raise ServerFailure, "expected 1 value but got #{ret.size}"
       end

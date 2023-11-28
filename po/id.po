@@ -27,9 +27,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-10-04 14:10+0000\n"
-"Last-Translator: emma peel <emmapeel@torproject.org>\n"
+"POT-Creation-Date: 2023-11-27 10:17+0100\n"
+"PO-Revision-Date: 2023-11-22 13:15+0000\n"
+"Last-Translator: emma peel <emma.peel@riseup.net>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/tor/tails-gui/"
 "id/>\n"
 "Language: id\n"
@@ -37,7 +37,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -234,24 +234,24 @@ msgstr ""
 msgid "_Create persistent storage"
 msgstr "_Buat tempat penyimpanan tetap"
 
-#: config/chroot_local-includes/usr/local/bin/electrum:94
+#: config/chroot_local-includes/usr/local/bin/electrum:95
 msgid ""
-"Tails needs donations to keep everybody free and safe online.\n"
+"End this year by giving the gift of privacy.\n"
 "\n"
-"Every bit helps in our fight against surveillance and censorship!\n"
+"Contribute to our annual fundraiser today!\n"
 "\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
-"we spend our money.</a>"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html\">Why donate to "
+"Tails?</a>"
 msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:101
 msgid ""
-"Tails protects your wallet.\n"
+"Our annual fundraiser is live!\n"
 "\n"
-"Help us keep your bitcoins safe!\n"
+"Keep everybody free and safe online with a gift to Tails.\n"
 "\n"
-"<a href=\"file:///usr/share/doc/tails/website/donate.en.html#expenses\">How "
-"we spend our money.</a>"
+"<a href=\"file:///usr/share/doc/tails/website/donate.en.html\">Why donate to "
+"Tails?</a>"
 msgstr ""
 
 #: config/chroot_local-includes/usr/local/bin/electrum:112
@@ -576,7 +576,7 @@ msgid ""
 "download.en.html"
 msgstr ""
 "<b>Pemutakhiran tidak bisa diunduh.</b>\\n\\nPeriksa sambungan jaringan "
-"Anda, dan  mulai ulang Tails untuk mencoba memutakhirkannya lagi.\\n\\nJika "
+"Anda, dan mulai ulang Tails untuk mencoba memutakhirkannya lagi.\\n\\nJika "
 "masalah masih tetap ada, baca file:///usr/share/doc/tails/website/doc/"
 "upgrade/error/download.en.html"
 
@@ -654,11 +654,11 @@ msgstr "Memulai kembali nanti"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:782
 msgid "Error while restarting the system"
-msgstr "Error selagi restart  sistem"
+msgstr "Error selagi restart sistem"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:783
 msgid "Failed to restart the system"
-msgstr "gagal untuk restart  sistem"
+msgstr "gagal untuk restart sistem"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:796
 msgid "Error while shutting down the network"
@@ -703,7 +703,7 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:863
 msgid "Error while installing the upgrade"
-msgstr "Error selagi instal  upgrade"
+msgstr "Error selagi instal upgrade"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:32
 msgid "Additional Settings"
@@ -967,7 +967,7 @@ msgstr ""
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:684
 #, python-format
 msgid "Unable to mount device: %(message)s"
-msgstr "Tidak dapat/gagal ke  mount device: %(message)s"
+msgstr "Tidak dapat/gagal ke mount device: %(message)s"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:689
 msgid "No mount points found"
@@ -1353,7 +1353,7 @@ msgstr "su dinonaktifkan. Mohon gunakan sudo sebagai gantinya."
 
 #: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:221
 #: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:77
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:72
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:76
 #: config/chroot_local-includes/usr/local/sbin/unsafe-browser:38
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:314
 #: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:460
@@ -1755,7 +1755,7 @@ msgid ""
 "in support for OpenPGP encryption. To continue using your OpenPGP keys in "
 "<i>Thunderbird</i>, follow our migration instructions."
 msgstr ""
-"<i>Thunderbird</i>78 sekarang menggantikan  ekstensi <i>Enigmail</i> dengan "
+"<i>Thunderbird</i>78 sekarang menggantikan ekstensi <i>Enigmail</i> dengan "
 "dukungan bawaan untuk enkripsi OpenPGP. untuk terus menggunakan kunci "
 "OpenPGP Anda di <i>Thunderbird</i>, ikuti instruksi migrasi kami."
 
@@ -1846,7 +1846,7 @@ msgid ""
 "all applications that could be accessing the target and try again."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:23
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:25
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:47
 #: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.PersistentStorage.desktop.in.h:1
 #: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:181
@@ -1856,12 +1856,12 @@ msgstr ""
 msgid "Persistent Storage"
 msgstr "Membuat Penyimpanan Persisten"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:46
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:48
 #, fuzzy
 msgid "Failed to start the Persistent Storage service"
 msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:73
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:77
 msgid "Could not find the WhisperBack application"
 msgstr ""
 
@@ -1980,11 +1980,11 @@ msgstr ""
 msgid "Strong"
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:36
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:38
 msgid "You can send an error report to help solve the issue."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:42
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:44
 #, fuzzy
 msgid "_Send Error Report"
 msgstr "Pelaporan Kesalahan WhisperBack"
@@ -2151,7 +2151,7 @@ msgid ""
 "Couldn't lock volume {volume_name}:\n"
 "{error_message}"
 msgstr ""
-"Tidak dapat mengunci volume  {volume_name}:\n"
+"Tidak dapat mengunci volume {volume_name}:\n"
 "{error_message}"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:352
@@ -2321,62 +2321,46 @@ msgstr ""
 msgid "Failed to run browser."
 msgstr "Gagal menjalankan peramban."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:40
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:45
 #, python-format
 msgid ""
 "The %s variable was not found in the configuration file: /etc/whisperback/"
 "config.py"
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:113
-msgid "Name of the affected software"
-msgstr "Nama perangkat lunak yang terpengaruh"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:115
-msgid "Exact steps to reproduce the error"
-msgstr "Tahapan rinci untuk memproduksi ulang galat"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:117
-msgid "Actual result and description of the error"
-msgstr "Hasil aktual dan deskripsi galat"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:119
-msgid "Desired result"
-msgstr "Hasil yang diharapkan"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:132
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:125
 msgid "Unable to load a valid configuration."
 msgstr "Tidak dapat memuat konfigurasi yang valid."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:169
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:149
 msgid "Sending mail..."
 msgstr "Mengirimkan surat..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:170
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:150
 msgid "Sending mail"
 msgstr "Mengirimkan surat"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:172
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:152
 msgid "This could take a while..."
 msgstr "Membutuhkan beberapa saat..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:188
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:184
 msgid "The contact email address doesn't seem valid."
 msgstr "Alamat surel kontak sepertinya tidak valid."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:205
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:204
 msgid "Unable to send the mail: SMTP error."
 msgstr "Tidak dapat mengirim surat: galat SMTP."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:207
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:206
 msgid "Unable to connect to the server."
 msgstr "Tidak visa terhubung dengan server."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:209
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:208
 msgid "Unable to create or to send the mail."
 msgstr "Tidak dapat membuat atau mengirim surat."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:212
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:214
 msgid ""
 "\n"
 "\n"
@@ -2393,20 +2377,20 @@ msgstr ""
 "Jika tidak bisa juga, Anda akan ditawari untuk menyimpan laporan kutu "
 "tersebut."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:225
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:229
 msgid "Your message has been sent."
 msgstr "Pesan Anda telah terkirim."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:232
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:235
 msgid "An error occured during encryption."
 msgstr "Sebuah galat terjadi saat proses enkripsi."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:252
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:257
 #, python-format
 msgid "Unable to save %s."
 msgstr "Tidak bisa menyimpan %s."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:275
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:287
 #, python-format
 msgid ""
 "The bug report could not be sent, likely due to network problems.\n"
@@ -2429,43 +2413,21 @@ msgstr ""
 "\n"
 "Apakah Anda ingin menyimpan laporan kutu ke dalam berkas?"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:337
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:280
-msgid "WhisperBack"
-msgstr "WhisperBack"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:338
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:12
-msgid "Send feedback in an encrypted mail."
-msgstr "Kirim umpan balik melalui surel terenkripsi."
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:341
-msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
-msgstr "Hak Cipta © 2009-2018 Tails developers (tails@boum.org)"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:342
-msgid "Tails developers <tails@boum.org>"
-msgstr "Pengembang Tails <tails@boum.org>"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:343
-msgid "translator-credits"
-msgstr "Penghargaan untuk Penerjemah"
-
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:376
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:372
 msgid "This doesn't seem to be a valid URL or OpenPGP key."
 msgstr "Ini tidak terlihat sebagai URL atau kunci OpenPGP yang valid."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:60
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:59
 #, python-format
 msgid "Invalid contact email: %s"
 msgstr "Alamat email kontak tidak benar: %s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:79
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:78
 #, python-format
 msgid "Invalid contact OpenPGP key: %s"
 msgstr "Kunci OpenPGP kontak tidak benar: %s"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:81
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:80
 msgid "Invalid contact OpenPGP public key block"
 msgstr "Blok kunci umum OpenPGP kontak tidak benar"
 
@@ -3219,48 +3181,7 @@ msgstr "Sasaran stik USB:"
 msgid "Reinstall (delete all data)"
 msgstr "Pasang ulang (hapus semua data)"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:11
-msgid "Copyright © 2009-2018 tails@boum.org"
-msgstr "Hak Cipta © 2009-2018 tails@boum.org"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:15
-msgid ""
-"WhisperBack - Send feedback in an encrypted mail\n"
-"Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
-"\n"
-"This program is  free software; you can redistribute  it and/or modify\n"
-"it under the  terms of the GNU General Public  License as published by\n"
-"the Free Software Foundation; either  version 3 of the License, or (at\n"
-"your option) any later version.\n"
-"\n"
-"This program  is distributed in the  hope that it will  be useful, but\n"
-"WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
-"MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
-"General Public License for more details.\n"
-"\n"
-"You should have received a copy of the GNU General Public License\n"
-"along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
-msgstr ""
-"WhisperBack - Kirim umpan balik dalam surel terenkripsi\n"
-"Hak Cipta (C) 2009-2018 pengembang Tails <tails@boum.org>\n"
-"\n"
-"Program ini adalah perangkat lunak gratis; Anda diizinkan untuk "
-"mendistribusikan dan/atau memodifikasinya\n"
-"di bawah ketentuan GNU General Public License sebagaimana seperti yang "
-"dipublikasikan oleh\n"
-"Free Software Foundation; baik versi 3 dari Lisensi, atau (dengan\n"
-"pilihan Anda) versi yang lebih baru.\n"
-"\n"
-"Program ini didistribusikan dengan harapan akan berguna, tetapi\n"
-"TANPA GARANSI; bahkan tanpa jaminan tersirat dari\n"
-"DAGANGAN atau KECOCOKAN UNTUK TUJUAN TERTENTU. Lihat GNU\n"
-"General Public License untuk lebih jelas.\n"
-"\n"
-"Anda seharusnya menerima salinan dari GNU General Public License\n"
-"bersama dengan program ini. Jika tidak, lihat <http://www.gnu.org/licenses/"
-">.\n"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:122
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:68
 msgid ""
 "If you want us to encrypt messages when we respond to you, add your key ID, "
 "a link to your key, or the key as a public key block:"
@@ -3269,50 +3190,79 @@ msgstr ""
 "tambahkan kunci ID Anda, tautan ke kunci Anda, atau tombol sebagai blok "
 "kunci publik:"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:308
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:226
+msgid "WhisperBack"
+msgstr "WhisperBack"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:255
 msgid "Summary"
 msgstr "Ringkasan"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:337
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:485
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:288
+msgid "What were you trying to achieve?"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:328
+msgid ""
+"<b>What happened instead?</b>\n"
+"Describe the error with as many details as possible."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:367
+msgid ""
+"<b>What did you do that triggered this error?</b>\n"
+"Describe the exact steps that caused the error, so we can try to make it "
+"happen again.\n"
+"Otherwise, we won't be able to troubleshoot and solve it."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:403
+#, fuzzy
+msgid "Error reporting guidelines"
+msgstr "Lihat panduan pelaporan bug kami."
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:421
+msgid ""
+"<b>Email address</b>\n"
+"So we can answer you or ask for more details."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:453
+#, fuzzy
+msgid "Optional PGP Key…"
+msgstr "pilihan kunci PGP"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:478
+#, fuzzy
+msgid ""
+"Even if we are not able to reply to every report, we analyze all reports to "
+"improve Tails."
+msgstr "Perlu diketahui bahwa kami tidak dapat membalas setiap laporan bug."
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:493
 msgid "Bug description"
 msgstr "Deskripsi bug"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:378
-msgid "Help:"
-msgstr "Bantuan:"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:388
-msgid "Read our bug reporting guidelines."
-msgstr "Lihat panduan pelaporan bug kami."
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:416
-msgid "Email address (if you want an answer from us)"
-msgstr "Alamat surel (Jika Anda ingin jawaban dari kami)"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:445
-msgid "optional PGP key"
-msgstr "pilihan kunci PGP"
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:470
-msgid "Please know that we are not able to reply to every bug report."
-msgstr "Perlu diketahui bahwa kami tidak dapat membalas setiap laporan bug."
-
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:502
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:613
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:510
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:667
 msgid "Technical details to include"
 msgstr "Detail teknis dimasukkan"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:540
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:549
 msgid "headers"
 msgstr "header"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:588
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:594
+msgid "information about the bug being reported"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:642
 msgid "debugging info"
 msgstr "info debugging"
 
-#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:680
-msgid "Send"
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:703
+#, fuzzy
+msgid "_Send"
 msgstr "Kirim"
 
 #: ../config/chroot_local-includes/usr/local/share/mime/packages/unlock-veracrypt-volumes.xml.in.h:1
@@ -3793,6 +3743,75 @@ msgstr "Desember"
 #: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:368
 msgid "Clock"
 msgstr "Jam"
+
+#~ msgid "Name of the affected software"
+#~ msgstr "Nama perangkat lunak yang terpengaruh"
+
+#~ msgid "Exact steps to reproduce the error"
+#~ msgstr "Tahapan rinci untuk memproduksi ulang galat"
+
+#~ msgid "Actual result and description of the error"
+#~ msgstr "Hasil aktual dan deskripsi galat"
+
+#~ msgid "Desired result"
+#~ msgstr "Hasil yang diharapkan"
+
+#~ msgid "Send feedback in an encrypted mail."
+#~ msgstr "Kirim umpan balik melalui surel terenkripsi."
+
+#~ msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
+#~ msgstr "Hak Cipta © 2009-2018 Tails developers (tails@boum.org)"
+
+#~ msgid "Tails developers <tails@boum.org>"
+#~ msgstr "Pengembang Tails <tails@boum.org>"
+
+#~ msgid "translator-credits"
+#~ msgstr "Penghargaan untuk Penerjemah"
+
+#~ msgid "Copyright © 2009-2018 tails@boum.org"
+#~ msgstr "Hak Cipta © 2009-2018 tails@boum.org"
+
+#~ msgid ""
+#~ "WhisperBack - Send feedback in an encrypted mail\n"
+#~ "Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
+#~ "\n"
+#~ "This program is  free software; you can redistribute  it and/or modify\n"
+#~ "it under the  terms of the GNU General Public  License as published by\n"
+#~ "the Free Software Foundation; either  version 3 of the License, or (at\n"
+#~ "your option) any later version.\n"
+#~ "\n"
+#~ "This program  is distributed in the  hope that it will  be useful, but\n"
+#~ "WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
+#~ "MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
+#~ "General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+#~ msgstr ""
+#~ "WhisperBack - Kirim umpan balik dalam surel terenkripsi\n"
+#~ "Hak Cipta (C) 2009-2018 pengembang Tails <tails@boum.org>\n"
+#~ "\n"
+#~ "Program ini adalah perangkat lunak gratis; Anda diizinkan untuk "
+#~ "mendistribusikan dan/atau memodifikasinya\n"
+#~ "di bawah ketentuan GNU General Public License sebagaimana seperti yang "
+#~ "dipublikasikan oleh\n"
+#~ "Free Software Foundation; baik versi 3 dari Lisensi, atau (dengan\n"
+#~ "pilihan Anda) versi yang lebih baru.\n"
+#~ "\n"
+#~ "Program ini didistribusikan dengan harapan akan berguna, tetapi\n"
+#~ "TANPA GARANSI; bahkan tanpa jaminan tersirat dari\n"
+#~ "DAGANGAN atau KECOCOKAN UNTUK TUJUAN TERTENTU. Lihat GNU\n"
+#~ "General Public License untuk lebih jelas.\n"
+#~ "\n"
+#~ "Anda seharusnya menerima salinan dari GNU General Public License\n"
+#~ "bersama dengan program ini. Jika tidak, lihat <http://www.gnu.org/"
+#~ "licenses/>.\n"
+
+#~ msgid "Help:"
+#~ msgstr "Bantuan:"
+
+#~ msgid "Email address (if you want an answer from us)"
+#~ msgstr "Alamat surel (Jika Anda ingin jawaban dari kami)"
 
 #~ msgid "Unlock"
 #~ msgstr "Tidak terkunci"

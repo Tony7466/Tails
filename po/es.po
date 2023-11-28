@@ -22,9 +22,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 09:24+0200\n"
-"PO-Revision-Date: 2023-10-29 20:27+0100\n"
-"Last-Translator: emma peel <emmapeel@torproject.org>\n"
+"POT-Creation-Date: 2023-11-22 15:53+0100\n"
+"PO-Revision-Date: 2023-11-16 22:05+0000\n"
+"Last-Translator: emma peel <emma.peel@riseup.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/tor/tails-gui/es/"
 ">\n"
 "Language: es\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.1.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #. Translators: Don't translate {details}, it's a placeholder and will
 #. be replaced.
@@ -319,20 +319,9 @@ msgstr "Tiempo desconocido"
 #, perl-brace-format
 msgid "1y"
 msgid_plural "{count}y"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#. Translators: Don't translate {count}, it's a place holder and
-#. will be replaced.
-#. d is the short form for days.
-#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:82
-#, perl-brace-format
-msgid "1d"
-msgid_plural "{count}d"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1a"
+msgstr[1] "{count}a"
+msgstr[2] "{count}a"
 
 #. Translators: Don't translate {count}, it's a place holder and
 #. will be replaced.
@@ -341,9 +330,9 @@ msgstr[2] ""
 #, perl-brace-format
 msgid "1h"
 msgid_plural "{count}h"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "1h"
+msgstr[1] "{count}h"
+msgstr[2] "{count}h"
 
 #. Translators: Don't translate {count}, it's a place holder and
 #. will be replaced.
@@ -1462,8 +1451,7 @@ msgstr "no disponible"
 msgid "Documentation"
 msgstr "Documentación"
 
-#. Translators: Don't translate {package}, it's a placeholder and will be
-#. replaced.
+#. Translators: Don't translate {package}, it's a placeholder and will be replaced.
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:100
 #, python-brace-format
 msgid ""
@@ -1483,8 +1471,7 @@ msgstr "No se pudo quitar {pkg}"
 msgid "Failed to read additional software configuration"
 msgstr "Ha fallado la lectura de la configuración de software adicional"
 
-#. Translators: Don't translate {package}, it's a placeholder and will be
-#. replaced.
+#. Translators: Don't translate {package}, it's a placeholder and will be replaced.
 #: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:166
 #, python-brace-format
 msgid "Stop installing {package} automatically"
@@ -2144,8 +2131,7 @@ msgid "{partition_name} in {container_path}"
 msgstr "{partition_name} en {container_path}"
 
 #. Translators: Don't translate {volume_name} and {path_to_file_container},
-#. they are placeholders and will be replaced. You should only have to
-#. translate
+#. they are placeholders and will be replaced. You should only have to translate
 #. this string if it makes sense to reverse the order of the placeholders.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:132
 #, python-brace-format
@@ -2161,8 +2147,7 @@ msgid "{partition_name} on {drive_name}"
 msgstr "{partition_name} en {drive_name}"
 
 #. Translators: Don't translate {volume_name} and {drive_name},
-#. they are placeholders and will be replaced. You should only have to
-#. translate
+#. they are placeholders and will be replaced. You should only have to translate
 #. this string if it makes sense to reverse the order of the placeholders.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:146
 #, python-brace-format
@@ -2235,8 +2220,7 @@ msgstr "El contenedor de archivo %s ya debería estar en la lista."
 msgid "Container opened read-only"
 msgstr "Contenedor abierto sólo para lectura"
 
-#. Translators: Don't translate {path}, it's a placeholder  and will be
-#. replaced.
+#. Translators: Don't translate {path}, it's a placeholder  and will be replaced.
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:133
 #, python-brace-format
 msgid ""

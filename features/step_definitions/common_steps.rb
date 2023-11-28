@@ -46,7 +46,7 @@ def post_snapshot_restore_hook(snapshot_name, num_try)
       raise 'Failed to restore snapshot'
     end
 
-    debug_log(scenario_indent + 'Failed to restore snapshot, retrying...',
+    debug_log("#{scenario_indent}Failed to restore snapshot, retrying...",
               color: :yellow, timestamp: false)
     reach_checkpoint(snapshot_name, num_try + 1)
     return
@@ -103,7 +103,7 @@ end
 Given /^I (temporarily )?create an? (\d+) ([[:alpha:]]+) (?:([[:alpha:]]+) )?disk named "([^"]+)"$/ do |temporary, size, unit, type, name|
   type ||= 'qcow2'
   begin
-    $vm.storage.create_new_disk(name, size: size, unit: unit, type: type)
+    $vm.storage.create_new_disk(name, size:, unit:, type:)
   rescue NoSpaceLeftError => e
     cmd = "du -ah \"#{$config['TMPDIR']}\" | sort -hr | head -n20"
     info_log("#{cmd}\n" + `#{cmd}`)
@@ -234,7 +234,8 @@ Given /^I start Tails from (.+?) drive "(.+?)"( with network unplugged)?( and I 
   step 'the computer boots Tails'
   if do_login
     step 'I enable persistence' if persistence_on
-    step 'I enable persistence with the changed passphrase' if persistence_with_changed_passphrase
+    step 'I enable persistence with the changed passphrase' \
+      if persistence_with_changed_passphrase
     step 'I set an administration password' if admin_password
     step 'I log in to a new session'
     step 'the Additional Software installation service has started'
@@ -532,7 +533,8 @@ Given /^the Tails desktop is ready$/ do
   )
   # Optimize upgrade check: avoid 30 second sleep
   $vm.execute_successfully(
-    'sed -i "s/^ExecStart=.*$/& --no-wait/" /usr/lib/systemd/user/tails-upgrade-frontend.service'
+    'sed -i "s/^ExecStart=.*$/& --no-wait/" ' \
+    '/usr/lib/systemd/user/tails-upgrade-frontend.service'
   )
   $vm.execute_successfully('systemctl --user daemon-reload', user: LIVE_USER)
 end
@@ -549,7 +551,8 @@ When /^I see the "(.+)" notification(?: after at most (\d+) seconds)?$/ do |titl
 end
 
 Given /^Tor is ready$/ do
-  # deprecated: please choose between "I successfully configure Tor" and "I wait until Tor is ready"
+  # deprecated: please choose between "I successfully configure Tor"
+  # and "I wait until Tor is ready"
   step 'I successfully configure Tor'
 end
 
@@ -771,8 +774,8 @@ end
 
 def open_gnome_menu(name)
   Dogtail::Application.new('gnome-shell')
-    .child(name, roleName: 'menu')
-    .grabFocus
+                      .child(name, roleName: 'menu')
+                      .grabFocus
   @screen.press('Return')
 end
 
@@ -871,12 +874,12 @@ When /^the file "([^"]+)" has the content "([^"]+)"$/ do |file, content|
 end
 
 When /^I copy "([^"]+)" to "([^"]+)" as user "([^"]+)"$/ do |source, destination, user|
-  c = $vm.execute("cp \"#{source}\" \"#{destination}\"", user: user)
+  c = $vm.execute("cp \"#{source}\" \"#{destination}\"", user:)
   assert(c.success?, "Failed to copy file:\n#{c.stdout}\n#{c.stderr}")
 end
 
-def is_persistence_active?(app)
-  conf = get_tps_bindings(true)[app.to_s]
+def persistence_active?(app)
+  conf = get_tps_bindings(skip_links: true)[app.to_s]
   c = $vm.execute("findmnt --noheadings --output SOURCE --target '#{conf}'")
   c.success? && (c.stdout.chomp != 'overlay')
 end
@@ -884,9 +887,9 @@ end
 Then /^persistence for "([^"]+)" is (|not )active$/ do |app, active|
   case active
   when ''
-    assert(is_persistence_active?(app), 'Persistence should be active.')
+    assert(persistence_active?(app), 'Persistence should be active.')
   when 'not '
-    assert(!is_persistence_active?(app), 'Persistence should not be active.')
+    assert(!persistence_active?(app), 'Persistence should not be active.')
   end
 end
 
@@ -938,7 +941,7 @@ Given /^I start "([^"]+)" via GNOME Activities Overview$/ do |app_name|
   # our search sometimes returns no results at all.
   sleep 2
   # Type the rest of the search query
-  @screen.type(app_name[1..-1])
+  @screen.type(app_name[1..])
   sleep 4
   @screen.press('ctrl', 'Return')
   if language_has_non_latin_input_source($language)
@@ -1099,8 +1102,8 @@ When /^AppArmor has (not )?denied "([^"]+)" from opening "([^"]+)"$/ do |anti_te
          "'I monitor the AppArmor log of ...' step")
   audit_line_regex = format(
     'apparmor="DENIED" operation="open" profile="%<profile>s" name="%<file>s"',
-    profile: profile,
-    file:    file
+    profile:,
+    file:
   )
   begin
     try_for(10, delay: 1) do
@@ -1380,7 +1383,8 @@ def save_qrcode(str)
   qrencode_output_file = Tempfile.create('qrcode', $config['TMPDIR'])
   qrencode_output_file.close
   output_file = "#{qrencode_output_file.path}.jpg"
-  cmd_helper(['qrencode', '-o', qrencode_output_file.path, '--size=5', '--margin=5', str])
+  cmd_helper(['qrencode', '-o', qrencode_output_file.path, '--size=5', '--margin=5',
+              str,])
   assert(File.exist?(qrencode_output_file.path))
   cmd_helper(['convert', qrencode_output_file.path, output_file])
   assert(File.exist?(output_file))
@@ -1426,6 +1430,14 @@ Given /^I write (|an old version of )the Tails (ISO|USB) image to disk "([^"]+)"
 end
 
 Then /^running "([^"]+)" as user "([^"]+)" succeeds$/ do |command, user|
-  c = $vm.execute(command, user: user)
+  c = $vm.execute(command, user:)
   assert(c.success?, "Failed to run command:\n#{c.stdout}\n#{c.stderr}")
+end
+
+Then /^running "([^"]+)" as user "([^"]+)" fails$/ do |command, user|
+  c = $vm.execute(command, user:)
+  assert(
+    !c.success?,
+    "Success running command when we were expecting failure:\n#{c.stdout}\n#{c.stderr}"
+  )
 end

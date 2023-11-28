@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-12 14:46+0200\n"
+"POT-Creation-Date: 2023-11-22 15:53+0100\n"
 "PO-Revision-Date: 2023-06-12 12:47+0200\n"
 "Last-Translator: michael michael <iamsecureless@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/tor/tails-gui/"
@@ -449,7 +449,8 @@ msgid "no automatic upgrade is available from our website for this version"
 msgstr "pentru această versiune nu există actualizare automată pe website"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-msgid "your device was not created using a USB image or Tails Installer"
+#, fuzzy
+msgid "your device was not created using a USB image or Tails Cloner"
 msgstr ""
 "dispozitivul dvs. nu a fost creat folosind o imagine USB sau Tails Installer"
 
@@ -825,19 +826,19 @@ msgstr "Continuati fara Stocarea Persistenta"
 msgid "Error unlocking Persistent Storage: {}"
 msgstr "Eroare la deblocarea Stocării Persistente: {}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:124
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
 #, fuzzy
 msgid "Error upgrading Persistent Storage: {}"
 msgstr "Eroare la deblocarea Stocării Persistente: {}"
 
 #. Translators: Don't translate {features}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:146
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
 #, fuzzy, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
 msgstr "Nu s-a putut configura stocarea persistentă"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
 msgid "Error activating Persistent Storage: {}"
 msgstr "Eroare la activarea Stocării Persistente: {}"
 
@@ -893,15 +894,15 @@ msgstr ""
 "Deblocarea Stocării Persistente a eșuat. Vă rugăm să porniți Tails și să "
 "trimiteți un raport de eroare."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:164
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:190
 msgid "_Language"
 msgstr "_Limba"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:207
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:233
 msgid "_Formats"
 msgstr "_Formaturi"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:244
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:270
 msgid "_Keyboard Layout"
 msgstr "_Configurare tastatură"
 
@@ -1125,7 +1126,8 @@ msgstr "Instalarea Tails a eșuat!"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-msgid "Tails Installer"
+#, fuzzy
+msgid "Tails Cloner"
 msgstr "Programul de instalare Tails"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
@@ -1561,6 +1563,18 @@ msgstr "Probleme de securitate cunoscute"
 msgid "Network card ${nic} disabled"
 msgstr "Placa de rețea ${nic} dezactivată"
 
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:57
+#, fuzzy, sh-format
+msgid ""
+"MAC address anonymization failed for network card ${nic_name} (${nic}) so it "
+"is temporarily disabled.\n"
+"You might prefer to restart Tails and disable MAC address anonymization."
+msgstr ""
+"Anonimizare adresei MAC a eșuat pentru placa de rețea ${nic_name} (${nic}). "
+"Întoarcerea de la pasul anterior înainte ca eroarea să fi fost apărută a "
+"eșuat de asemenea întrucât toate conexiunile sunt dezactivate.\n"
+"Ați putea alege să reporniți Tails și să dezactivați anonimizare adresei MAC."
+
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:66
 msgid "All networking disabled"
 msgstr "Toate rețelele sunt dezactivate"
@@ -1814,7 +1828,7 @@ msgstr "Stare Tor"
 msgid "Open Onion Circuits"
 msgstr "Circuite Onion Deschise"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:293
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:315
 #, python-brace-format
 msgid ""
 "Only {available_memory} KiB of memory is available, need at least "
@@ -1823,37 +1837,37 @@ msgid ""
 "Try again after closing some applications or rebooting."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:305
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
 #, fuzzy
 msgid "Creating a partition for the Persistent Storage..."
 msgstr "Se corectează permisiunile volumului persistent."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:325
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
 msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
 "few seconds."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:342
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:350
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
 #, fuzzy
 msgid "Formatting the file system..."
 msgstr "Se verifică sistemul de fișiere..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:365
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:392
 #, fuzzy
 msgid "Activating the Persistent Storage..."
 msgstr "Eroare la activarea Stocării Persistente: {}"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:370
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
 #, fuzzy
 msgid "Finishing setting up the Persistent Storage..."
 msgstr "Continuati fara Stocarea Persistenta"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:577
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
 "Can't unmount Persistent Storage, some process is still using it. Please "
 "close all applications that could be accessing it and try again. If that "
@@ -1974,12 +1988,12 @@ msgstr ""
 msgid "Change Passphrase"
 msgstr "Schimba fraza de acces"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:83
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:85
 #, fuzzy
 msgid "The current passphrase is incorrect"
 msgstr "Fraza de acces nu se potrivesc"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:92
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:94
 #, fuzzy
 msgid "Changing the passphrase failed"
 msgstr "Schimba fraza de acces"
@@ -2037,7 +2051,7 @@ msgstr "Creaţi Stocare Persistentă"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
 #, fuzzy
-msgid "Deleting your Persistent Storage"
+msgid "Deleting your Persistent Storage..."
 msgstr "Creaţi Stocare Persistentă"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177

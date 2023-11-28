@@ -26,6 +26,7 @@ module OpenCV
       screen, image, sensitivity.to_s, show_match.to_s, show_old.to_s
     )
     raise OpenCVInternalError, stderr if p.exitstatus != 0
+
     if stdout.chomp == 'FindFailed'
       nil
     else

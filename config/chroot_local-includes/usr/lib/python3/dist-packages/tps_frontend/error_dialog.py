@@ -19,6 +19,8 @@ class ErrorDialog(Gtk.MessageDialog):
             use_markup=True,
         )
         self.app = app
+        self.title = title
+        self.msg = msg
 
         message_area = self.get_message_area()  # type: Gtk.Box
         title_label, secondary_label = message_area.get_children()  # type: Gtk.Label
@@ -50,5 +52,7 @@ class ErrorDialog(Gtk.MessageDialog):
 
     def do_response(self, response_id: int):
         if response_id == Gtk.ResponseType.OK:
-            self.app.launch_whisperback()
+            self.app.launch_whisperback(error_summary="PersistentStorage - %s" % self.title,
+                                        error_report_msg=self.msg
+                                        )
         self.destroy()

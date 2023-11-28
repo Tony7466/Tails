@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tor Project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-12 14:46+0200\n"
+"POT-Creation-Date: 2023-11-22 15:53+0100\n"
 "PO-Revision-Date: 2023-06-12 12:48+0200\n"
 "Last-Translator: emma peel <emma.peel@riseup.net>\n"
 "Language-Team: Malayalam <https://hosted.weblate.org/projects/tor/tails-gui/"
@@ -413,7 +413,8 @@ msgid "no automatic upgrade is available from our website for this version"
 msgstr "ഈ പതിപ്പിനായി ഞങ്ങളുടെ വെബ്‌സൈറ്റിൽ നിന്ന് യാന്ത്രിക നവീകരണമൊന്നും ലഭ്യമല്ല"
 
 #: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:364
-msgid "your device was not created using a USB image or Tails Installer"
+#, fuzzy
+msgid "your device was not created using a USB image or Tails Cloner"
 msgstr ""
 "ഒരു യുഎസ്ബി ഇമേജ് അല്ലെങ്കിൽ ടെയിൽസ് ഇൻസ്റ്റാളർ ഉപയോഗിച്ച് നിങ്ങളുടെ ഉപകരണം സൃഷ്ടിച്ചിട്ടില്ല"
 
@@ -759,19 +760,19 @@ msgstr "സ്ഥിരമായ സംഭരണം സൃഷ്ടിക്ക�
 msgid "Error unlocking Persistent Storage: {}"
 msgstr "എൻക്രിപ്റ്റുചെയ്‌ത _പെർസിസ്റ്റന്റ് സ്റ്റോറേജ്"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:124
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:126
 #, fuzzy
 msgid "Error upgrading Persistent Storage: {}"
 msgstr "എൻക്രിപ്റ്റുചെയ്‌ത _പെർസിസ്റ്റന്റ് സ്റ്റോറേജ്"
 
 #. Translators: Don't translate {features}, it's a placeholder
 #. and will be replaced.
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:146
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
 #, python-brace-format
 msgid "Failed to activate some features of the Persistent Storage: {features}."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:151
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:156
 #, fuzzy
 msgid "Error activating Persistent Storage: {}"
 msgstr "സ്ഥിരമായ സംഭരണം സൃഷ്ടിക്കുക"
@@ -817,15 +818,15 @@ msgstr ""
 msgid "Start Tails and open the Persistent Storage settings to find out more."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:164
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:190
 msgid "_Language"
 msgstr "_ ഭാഷ"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:207
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:233
 msgid "_Formats"
 msgstr "_ ഫോർമാറ്റുകൾ"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:244
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:270
 msgid "_Keyboard Layout"
 msgstr "_കീബോർഡ് ലേഔട്ട്"
 
@@ -1038,7 +1039,8 @@ msgstr "ടൈൽസ് ഇൻസ്റ്റാളേഷൻ പരാജയപ�
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:296
 #: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
-msgid "Tails Installer"
+#, fuzzy
+msgid "Tails Cloner"
 msgstr "ടെയിൽസ് ഇൻസ്റ്റാളർ"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:339
@@ -1446,6 +1448,11 @@ msgstr "ടെയിൽ‌സിന്റെ ഈ പതിപ്പിന് അ
 msgid "Known security issues"
 msgstr "അറിയപ്പെടുന്ന സുരക്ഷാ പ്രശ്നങ്ങൾ"
 
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:56
+#, fuzzy, sh-format
+msgid "Network card ${nic} disabled"
+msgstr "എല്ലാ നെറ്റ്‌വർക്കിംഗും പ്രവർത്തനരഹിതമാക്കി"
+
 #: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:57
 #, sh-format
 msgid ""
@@ -1672,7 +1679,7 @@ msgstr "ടോർ സ്ഥിതിഗതികൾ"
 msgid "Open Onion Circuits"
 msgstr "ഒണിയൻ  സർക്യൂട്ടുകൾ തുറക്കുക"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:293
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:315
 #, python-brace-format
 msgid ""
 "Only {available_memory} KiB of memory is available, need at least "
@@ -1681,37 +1688,37 @@ msgid ""
 "Try again after closing some applications or rebooting."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:305
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:327
 #, fuzzy
 msgid "Creating a partition for the Persistent Storage..."
 msgstr "പെർസിസ്റ്റന്റ് വോളിയത്തിന്റെ അനുവദനീയത ശെരിയാക്കുന്നു ."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:325
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:347
 msgid ""
 "Initializing the LUKS encryption... The computer might stop responding for a "
 "few seconds."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:342
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:369
 msgid "Unlocking the encryption..."
 msgstr ""
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:350
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:377
 #, fuzzy
 msgid "Formatting the file system..."
 msgstr "ഫയൽസിസ്റ്റം പരിശോധിക്കുന്നു ..."
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:365
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:392
 #, fuzzy
 msgid "Activating the Persistent Storage..."
 msgstr "സ്ഥിരമായ സംഭരണം സൃഷ്ടിക്കുക"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:370
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:397
 #, fuzzy
 msgid "Finishing setting up the Persistent Storage..."
 msgstr "സ്ഥിരമായ സംഭരണം സൃഷ്ടിക്കുക"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:577
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:607
 msgid ""
 "Can't unmount Persistent Storage, some process is still using it. Please "
 "close all applications that could be accessing it and try again. If that "
@@ -1834,12 +1841,12 @@ msgstr ""
 msgid "Change Passphrase"
 msgstr "പാസ്‌ഫ്രെയ്‌സ് കാണിക്കുക"
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:83
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:85
 #, fuzzy
 msgid "The current passphrase is incorrect"
 msgstr "രഹസ്യ വാചകം  തമ്മിൽ ചേരുന്നില്ല "
 
-#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:92
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:94
 #, fuzzy
 msgid "Changing the passphrase failed"
 msgstr "പാസ്‌ഫ്രെയ്‌സ് കാണിക്കുക"
@@ -1897,7 +1904,7 @@ msgstr "സ്ഥിരമായ സംഭരണം സൃഷ്ടിക്ക�
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:160
 #, fuzzy
-msgid "Deleting your Persistent Storage"
+msgid "Deleting your Persistent Storage..."
 msgstr "സ്ഥിരമായ സംഭരണം സൃഷ്ടിക്കുക"
 
 #: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:177

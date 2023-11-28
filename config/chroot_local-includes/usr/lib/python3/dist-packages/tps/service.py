@@ -1,5 +1,4 @@
 import contextlib
-import logging
 import os
 import threading
 from pathlib import Path
@@ -265,7 +264,7 @@ class Service(DBusObject, ServiceUsingJobs):
         if self.state != State.UNLOCKED:
             msg = "Can't activate features when state is '%s'" % \
                   self.state.name
-            return FailedPreconditionError(msg)
+            raise FailedPreconditionError(msg)
 
         partition = TPSPartition.find()
         if not partition:
@@ -302,8 +301,8 @@ class Service(DBusObject, ServiceUsingJobs):
         for feature in [f for f in self.features if f.IsEnabled]:
             try:
                 feature.do_activate(None, non_blocking=True)
-            except Exception as e:
-                logger.exception(e)
+            except Exception:
+                logger.exception("Failed to activate feature")
                 failed_feature_names.append(feature.translatable_name)
             finally:
                 feature.refresh_state(emit_properties_changed_signal=True)
@@ -689,8 +688,8 @@ class Service(DBusObject, ServiceUsingJobs):
             try:
                 feature.refresh_state(emit_properties_changed_signal=True)
             except Exception as e:
-                if exceptions: logging.exception(e)
-                exceptions.append(exceptions)
+                logger.exception("Failed to refresh state of feature")
+                exceptions.append(e)
         if exceptions:
             raise exceptions[0]
 

@@ -997,7 +997,10 @@ We only modify this Tor Browser installation slightly:
 
 * Tails installs the [uBlock
   Origin](https://github.com/gorhill/uBlock/) extension.
-  We add a mandatory signing exception for this add-on.
+  - We add a mandatory signing exception for this add-on.
+  - We ensure uBlock does not download and enable additional
+    per-region/language blocklists, that are a known web fingerprinting vector:
+    [[!tails_gitweb config/chroot_local-includes/usr/share/tails/build/customize-ublock-assets]].
 * We use the myspell/hunspell dictionaries provided by Debian.
 * We ship all languages supported by Tor Browser, which will select the UI language depending on
   the locale chosen by the user in our Welcome Screen.

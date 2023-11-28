@@ -3,7 +3,9 @@ def udev_watchdog_monitored_device
   udev_watchdog_cmd = '/usr/local/sbin/udev-watchdog'
 
   # The regex below looks for a line like the following:
-  # /usr/local/sbin/udev-watchdog /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0 cd
+  # /usr/local/sbin/udev-watchdog \
+  #     /devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0 \
+  #     cd
   # We're only interested in the device itself, not in the type
   ps_output_scan = ps_output.scan(
     /^#{Regexp.escape(udev_watchdog_cmd)}\s(\S+)\s(?:cd|disk)$/
@@ -12,7 +14,7 @@ def udev_watchdog_monitored_device
                'There should be one udev-watchdog running.')
   monitored_out = ps_output_scan.flatten[0]
   assert_not_nil(monitored_out)
-  monitored_device_id = $vm.file_content('/sys' + monitored_out + '/dev').chomp
+  monitored_device_id = $vm.file_content("/sys#{monitored_out}/dev").chomp
   $vm.execute_successfully(
     "readlink -f /dev/block/'#{monitored_device_id}'"
   ).stdout.chomp
@@ -57,7 +59,7 @@ def pattern_coverage_in_guest_ram(reference_memory_b)
               'out of %<reference_memory_m>s MiB reference memory)',
               coverage:           coverage * 100,
               patterns_m:         convert_to_MiB(patterns_b, 'b'),
-              reference_memory_m: reference_memory_m)
+              reference_memory_m:)
   coverage
 end
 
@@ -82,7 +84,7 @@ end
 When /^I start a process allocating (\d+) ([[:alpha:]]+) of memory with a known pattern$/ do |size, unit|
   fillram_script_path = '/tmp/fillram'
   @fillram_cmd = "python3 #{fillram_script_path}"
-  fillram_done_path = fillram_script_path + '_done'
+  fillram_done_path = "#{fillram_script_path}_done"
   fillram_script = <<~FILLRAM
     import math
     import time
@@ -172,7 +174,7 @@ Then /^patterns cover at least (\d+) MiB in the guest's memory$/ do |expected_pa
                 'has the pattern, but more than %.3<min_coverage>f%% ' \
                 'was expected',
                 coverage:              coverage * 100,
-                expected_patterns_MiB: expected_patterns_MiB,
+                expected_patterns_MiB:,
                 min_coverage:          min_coverage * 100))
 end
 
@@ -186,7 +188,7 @@ Then /^patterns cover less than (\d+) MiB in the guest's memory$/ do |expected_p
                 'has the pattern, but less than %.3<max_coverage>f%% ' \
                 'was expected',
                 coverage:              coverage * 100,
-                expected_patterns_MiB: expected_patterns_MiB,
+                expected_patterns_MiB:,
                 max_coverage:          max_coverage * 100))
 end
 
@@ -215,10 +217,11 @@ end
 When /^I fill a (\d+) MiB file with a known pattern on the (persistent|root) filesystem$/ do |size_MiB, fs|
   pattern = "wipe_didnt_work\n"
   pattern_nb = (convert_to_bytes(size_MiB.to_i, 'MiB') / pattern.size).floor
-  if fs == 'root'
-    dest_file = '/' + random_alpha_string(10)
-  elsif fs == 'persistent'
-    dest_file = '/home/amnesia/Persistent/' + random_alpha_string(10)
+  case fs
+  when 'root'
+    dest_file = "/#{random_alpha_string(10)}"
+  when 'persistent'
+    dest_file = "/home/amnesia/Persistent/#{random_alpha_string(10)}"
   else
     raise 'This should not happen'
   end
