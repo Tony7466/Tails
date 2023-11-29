@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-11-28 22:39+0000\n"
+"POT-Creation-Date: 2023-11-29 17:58+0000\n"
 "PO-Revision-Date: 2023-03-09 14:29+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -202,12 +202,12 @@ msgid ""
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
-msgid "Look to the Right - $1 000"
+msgid "C0MPLEX1 - $1 000"
 msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"<a href=\"https://www.looktotheright.com/\">[[!img lttr.jpg link=\"no\" "
+"<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" "
 "alt=\"\"]]</a>"
 msgstr ""
 
@@ -261,6 +261,10 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid "[[!img thinkpenguin.png link=\"no\" alt=\"\"]]"
+msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Look to the Right - $1 000"
 msgstr ""
 
 #. type: Content of: <div><p>
