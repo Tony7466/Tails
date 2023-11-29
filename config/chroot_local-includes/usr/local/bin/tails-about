@@ -58,7 +58,6 @@ class AboutTails(Gtk.AboutDialog):
             self.set_version(version)
             self.set_comments(comment)
 
-        self.set_copyright("Tails developers")
         self.set_website(website)
         self.connect("delete-event", Gtk.main_quit)
         self.connect("response", Gtk.main_quit)
