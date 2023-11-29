@@ -4,7 +4,6 @@
 running Tails installation.
 """
 
-import datetime
 import gettext
 
 from gi import require_version
