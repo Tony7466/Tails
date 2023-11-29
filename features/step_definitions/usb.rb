@@ -1131,23 +1131,11 @@ def iuk_changes(version) # rubocop:disable Metrics/MethodLength
     },
     {
       filesystem:  :rootfs,
-      path:        'etc/amnesia/version',
-      status:      :modified,
-      new_content: <<~CONTENT,
-        #{version} - 20380119
-        ffffffffffffffffffffffffffffffffffffffff
-        live-build: 3.0.5+really+is+2.0.12-0.tails2
-        live-boot: 4.0.2-1
-        live-config: 4.0.4-1
-      CONTENT
-    },
-    {
-      filesystem:  :rootfs,
       path:        'etc/os-release',
       status:      :modified,
       new_content: <<~CONTENT,
-        TAILS_PRODUCT_NAME="Tails"
-        TAILS_VERSION_ID="#{version}"
+        NAME="Tails"
+        VERSION="#{version}"
       CONTENT
     },
     {
@@ -1168,16 +1156,16 @@ def iuk_changes(version) # rubocop:disable Metrics/MethodLength
   ]
 
   case version
-  when '2.2~testoverlayfsng'
+  when '6.2~testoverlayfs'
     changes
-  when '2.3~testoverlayfsng'
+  when '6.3~testoverlayfs'
     changes + [
       {
         filesystem:  :rootfs,
-        path:        'some_new_file_2.3',
+        path:        'some_new_file_6.3',
         status:      :added,
         new_content: <<~CONTENT,
-          Some content 2.3
+          Some content 6.3
         CONTENT
       },
       {
@@ -1197,7 +1185,7 @@ def iuk_changes(version) # rubocop:disable Metrics/MethodLength
 end
 
 Given /^the file system changes introduced in version (.+) are (not )?present(?: in the (\S+) Browser's chroot)?$/ do |version, not_present, chroot_browser|
-  assert(['2.2~testoverlayfsng', '2.3~testoverlayfsng'].include?(version))
+  assert(['6.2~testoverlayfs', '6.3~testoverlayfs'].include?(version))
   upgrade_applied = not_present.nil?
   chroot_browser = "#{chroot_browser.downcase}-browser" if chroot_browser
   changes = iuk_changes(version)
@@ -1313,11 +1301,8 @@ Given /^Tails is fooled to think a (.+) SquashFS delta is installed$/ do |versio
     'Implementation error, alert the test suite maintainer!'
   )
   $vm.execute_successfully(
-    "sed --regexp-extended -i '1s/^\S+ /#{version}/' /etc/amnesia/version"
-  )
-  $vm.execute_successfully(
-    "sed -i 's/^TAILS_VERSION_ID=.*/TAILS_VERSION_ID=#{version}/' " \
-    '/etc/amnesia/version'
+    "sed -i 's/^VERSION=.*/VERSION=\"#{version}\"/' " \
+    '/etc/os-release'
   )
 end
 

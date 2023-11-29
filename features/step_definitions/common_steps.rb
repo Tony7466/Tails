@@ -1174,7 +1174,7 @@ end
 Given /^Tails is fooled to think it is running version (.+)$/ do |version|
   $vm.execute_successfully(
     'sed -i ' \
-    "'s/^TAILS_VERSION_ID=.*$/TAILS_VERSION_ID=\"#{version}\"/' " \
+    "'s/^VERSION=.*$/VERSION=\"#{version}\"/' " \
     '/etc/os-release'
   )
 end
@@ -1184,8 +1184,8 @@ Given /^Tails is fooled to think that version (.+) was initially installed$/ do 
     '/lib/live/mount/rootfs/filesystem.squashfs/etc/os-release'
   fake_os_release_file = $vm.execute_successfully('mktemp').stdout.chomp
   fake_os_release_content = <<~OSRELEASE
-    TAILS_PRODUCT_NAME="Tails"
-    TAILS_VERSION_ID="#{version}"
+    NAME="Tails"
+    VERSION="#{version}"
   OSRELEASE
   $vm.file_overwrite(fake_os_release_file, fake_os_release_content)
   $vm.execute_successfully("chmod a+r #{fake_os_release_file}")
@@ -1196,22 +1196,20 @@ Given /^Tails is fooled to think that version (.+) was initially installed$/ do 
   assert_equal(
     version,
     $vm.execute_successfully(
-      ". #{initial_os_release_file} && echo ${TAILS_VERSION_ID}"
+      ". #{initial_os_release_file} && echo ${VERSION}"
     ).stdout.chomp,
     'Implementation error, alert the test suite maintainer!'
   )
 end
 
-def running_tails_version
-  $vm.execute_successfully('tails-version').stdout.split.first
-end
-
 Then /^Tails is running version (.+)$/ do |version|
-  v1 = running_tails_version
-  assert_equal(version, v1, "The version doesn't match tails-version's output")
-  v2 = $vm.file_content('/etc/os-release')
-          .scan(/TAILS_VERSION_ID="(#{version})"/).flatten.first
-  assert_equal(version, v2, "The version doesn't match /etc/os-release")
+  running_version = $vm.file_content('/etc/os-release')
+                       .match(/^VERSION="(.+)"$/)[1]
+  assert_equal(
+    version,
+    running_version,
+    "The version doesn't match /etc/os-release"
+  )
 end
 
 def size_of_shared_disk_for(files)
