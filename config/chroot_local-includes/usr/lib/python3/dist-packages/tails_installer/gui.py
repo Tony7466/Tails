@@ -489,7 +489,7 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
         if not self.persistent_storage_is_unlocked:
             text = _('Clone the current Persistent Storage\n'
                      'Impossible to clone the Persistent Storage because it is locked.')
-        elif self.opts.partition:
+        elif self.opts.partition or not self.get_selected_drive():
             text = _('Clone the current Persistent Storage')
         else:
             text = _('Clone the current Persistent Storage\n'
