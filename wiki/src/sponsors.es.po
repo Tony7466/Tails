@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-11-23 12:56+0000\n"
+"POT-Creation-Date: 2023-11-28 22:39+0000\n"
 "PO-Revision-Date: 2023-03-09 14:29+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,12 +134,6 @@ msgid "$1&#8239;000 – $9&#8239;999"
 msgstr "$1&#8239;000 – $9&#8239;999"
 
 #. type: Attribute 'title' of: <div><p>
-#, fuzzy
-#| msgid "Anonymous donation - 0.5 btc"
-msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
-msgstr "Donación anónima - 0.5 btc"
-
-#. type: Attribute 'title' of: <div><p>
 msgid "Aspiration - advising for community vitality and project governance"
 msgstr ""
 
@@ -186,6 +180,24 @@ msgstr "Donación anónima - 0.062 btc"
 #| msgid "Anonymous donation - 0.5 btc"
 msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
 msgstr "Donación anónima - 0.5 btc"
+
+#. type: Attribute 'title' of: <div><p>
+#, fuzzy
+#| msgid "Tor - 8 500€"
+msgid "iGaming.com - 1 500€"
+msgstr "Tor - 8 500€"
+
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
+#| "link=\"no\" alt=\"\"]]</a>"
+msgid ""
+"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" "
+"alt=\"\"]]</a>"
+msgstr ""
+"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
+"link=\"no\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
@@ -304,6 +316,12 @@ msgstr "[[!img protonmail.png link=\"no\" alt=\"\"]]"
 #| msgid "[[!img ndi.png link=\"no\" alt=\"\"]]"
 msgid "[[!img nym.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img ndi.png link=\"no\" alt=\"\"]]"
+
+#. type: Attribute 'title' of: <div><p>
+#, fuzzy
+#| msgid "Anonymous donation - 0.5 btc"
+msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
+msgstr "Donación anónima - 0.5 btc"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
