@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-30 17:50+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-30 19:42+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -413,22 +413,28 @@ msgstr "Com fer una còpia de seguretat del volum persistent."
 #. type: Title ##
 #, no-wrap
 msgid "Other changes"
-msgstr ""
+msgstr "Altres canvis"
 
 #. type: Plain text
 msgid ""
 "- Use the default bookmarks from *Tor Browser* instead of our own default "
 "bookmarks. ([[!tails_ticket 15895]])"
 msgstr ""
+"- S'utilitzen les adreces d'interès predeterminades del *Navegador Tor* en "
+"lloc dels nostres propis marcadors predeterminats. ([[!tails_ticket 15895]])"
 
 #. type: Plain text
 msgid ""
 "- Remove the *Home* launcher from the desktop. ([[!tails_ticket 16799]])"
 msgstr ""
+"- S'ha eliminat el llançador *Home* de l'escriptori. ([[!tails_ticket "
+"16799]])"
 
 #. type: Plain text
 msgid "- Remove the default accounts in *Pidgin*. ([[!tails_ticket 16744]])"
 msgstr ""
+"- S'han eliminat els comptes predeterminats a *Pidgin*. ([[!tails_ticket "
+"16744]])"
 
 #. type: Title #
 #, no-wrap
@@ -448,10 +454,14 @@ msgid ""
 "- Allow opening persistent volumes from other Tails USB sticks. ([[!"
 "tails_ticket 16789]])"
 msgstr ""
+"- Es permet obrir volums persistents des d'altres llapis USB de Tails. ([["
+"!tails_ticket 16789]])"
 
 #. type: Plain text
 msgid "- Fix the delivery of WhisperBack reports. ([[!tails_ticket 17110]])"
 msgstr ""
+"- S'ha corregit l'enviament dels informes de WhisperBack. ([[!tails_ticket "
+"17110]])"
 
 #. type: Plain text
 #, no-wrap
@@ -503,11 +513,12 @@ msgstr ""
 
 #. type: Plain text
 msgid "Automatic upgrades are not available to 4.0."
-msgstr ""
+msgstr "Les actualitzacions automàtiques no estan disponibles a la versió 4.0."
 
 #. type: Plain text
 msgid "All users must do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Tots els usuaris han de fer una [[actualització manual|doc/upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
@@ -547,6 +558,8 @@ msgid ""
 "If you don't need installation or upgrade instructions, you can directly "
 "download Tails 4.0:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"directament Tails 4.0:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
@@ -563,7 +576,7 @@ msgstr "Què ve?"
 
 #. type: Plain text
 msgid "Tails 4.1 is [[scheduled|contribute/calendar]] for December 3."
-msgstr ""
+msgstr "Tails 4.1 està [[programat|contribute/calendar]] per al 3 de desembre."
 
 #. type: Plain text
 #, no-wrap
@@ -572,3 +585,7 @@ msgid ""
 "Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.0\">donating</a> is only one of\n"
 "them). Come [[talk to us|about/contact#tails-dev]]!\n"
 msgstr ""
+"Necessitem la vostra ajuda i hi ha moltes maneres de [[contribuir a\n"
+"Tails|contribute]] (<a href=\"https://tails.net/donate/?r=4.0\">fer una "
+"donació</a> només és una d'elles).\n"
+"Veniu i [[parleu amb nosaltres|about/contact#tails-dev]]!\n"
