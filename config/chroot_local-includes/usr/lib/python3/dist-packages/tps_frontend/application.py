@@ -90,6 +90,7 @@ class Application(Gtk.Application):
         app = apps[0]  # type: Gtk.AppInfo
 
         prefill_data = {
+            "app": "tps_frontend",
             "summary": error_summary,
         }
         if error_report_msg is not None:
