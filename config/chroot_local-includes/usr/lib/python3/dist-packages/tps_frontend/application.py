@@ -2,6 +2,7 @@ from logging import getLogger
 import tempfile
 import json
 from gi.repository import Gdk, Gio, GLib, Gtk
+from typing import Optional
 
 from tps_frontend import (
     _,
@@ -75,8 +76,10 @@ class Application(Gtk.Application):
         return
 
     def launch_whisperback(
-        self, error_summary="PersistentStorage", error_report_msg=None
-    ):
+        self,
+        error_summary: str = "PersistentStorage",
+        error_report_msg: Optional[str] = None,
+    ) -> None:
         # Get the WhisperBack app
         # noinspection PyArgumentList
         apps = [a for a in Gio.AppInfo.get_all() if a.get_executable() == "whisperback"]
