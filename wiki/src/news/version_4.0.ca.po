@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-30 17:49+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-30 17:50+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -369,11 +369,11 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Add support for *Thunderbolt* devices."
-msgstr ""
+msgstr "- S'ha afegit suport per a dispositius *Thunderbolt*."
 
 #. type: Plain text
 msgid "- The screen keyboard is easier to use."
-msgstr ""
+msgstr "- El teclat de pantalla és més fàcil d'utilitzar."
 
 #. type: Plain text
 #, no-wrap
@@ -385,25 +385,30 @@ msgid ""
 "Make it possible to show the password of the persistent storage when "
 "creating one."
 msgstr ""
+"És possible mostrar la contrasenya de l'Emmagatzematge Persistent en crear-"
+"ne un."
 
 #. type: Plain text
 msgid "- Add support for USB tethering from iPhone."
-msgstr ""
+msgstr "- S'ha afegit suport per a la connexió USB des de l'iPhone."
 
 #. type: Title ##
 #, no-wrap
 msgid "New documentation pages"
-msgstr ""
+msgstr "Noves pàgines de documentació"
 
 #. type: Bullet: '- '
 msgid ""
 "[[How to securely erasing an entire device|doc/encryption_and_privacy/"
 "secure_deletion#erase]], including USB sticks and SSDs."
 msgstr ""
+"[[Com esborrar de manera segura un dispositiu sencer|doc/"
+"encryption_and_privacy/secure_deletion#erase]], inclosos els llapis USB i "
+"els SSD."
 
 #. type: Bullet: '- '
 msgid "How to backup your persistent volume."
-msgstr ""
+msgstr "Com fer una còpia de seguretat del volum persistent."
 
 #. type: Title ##
 #, no-wrap
