@@ -362,7 +362,7 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
         self.live.log.debug('Entering on_check_button_clone_persistent_storage_toggled')
         self.opts.clone_persistent_storage_requested = check_button.get_active()
         self.update_start_button()
-        self.on_target_changed(check_button)
+        self.on_target_partitions_changed(check_button)
         
     def on_activate_link_button(self, link_button: Gtk.LinkButton):
         uri = link_button.get_uri()
@@ -383,7 +383,7 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
     def on_source_file_set(self, filechooserbutton):
         self.select_source_iso(filechooserbutton.get_filename())
 
-    def on_target_changed(self, combobox_target):
+    def on_target_partitions_changed(self, combobox_target):
         # get selected device
         drive = self.get_selected_drive()
         if drive is None:
