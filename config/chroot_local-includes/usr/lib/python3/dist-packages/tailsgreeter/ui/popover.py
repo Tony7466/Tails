@@ -1,5 +1,5 @@
 import gi
-from typing import Callable, Union
+from typing import Callable, Optional
 
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
@@ -10,12 +10,12 @@ class Popover:
         self.widget = Gtk.Popover.new(relative_widget)
         self.widget.set_position(Gtk.PositionType.BOTTOM)
         self.widget.add(content_widget)
-        self.closed_cb: Union[None, Callable] = None
+        self.closed_cb: Optional[Callable] = None
         self.closed_cb_user_data = None
-        self.opened_cb: Union[None, Callable] = None
+        self.opened_cb: Optional[Callable] = None
         self.opened_cb_user_data = None
         self.closed_signal_handler = None
-        self.response: Union[None, Gtk.ResponseType] = None
+        self.response: Optional[Gtk.ResponseType] = None
 
     def on_closed(self, widget):
         if self.closed_cb:
