@@ -3,38 +3,40 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-28 10:06+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-11-30 21:43+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.20\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.20\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta date=\"Tue, 28 Nov 2023 17:00:00 +0000\"]]\n"
-msgstr ""
+msgstr "[[!meta date=\"Tue, 28 Nov 2023 17:00:00 +0000\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
-msgstr ""
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag announce]]\n"
-msgstr ""
+msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -67,7 +69,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -97,22 +99,24 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "  [[!img whisperback.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
+msgstr "  [[!img whisperback.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
 "For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
 "\"]]."
 msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"llistat de canvis\"]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"issues\">Known issues</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
 
 #. type: Plain text
 msgid "None specific to this release."
-msgstr ""
+msgstr "Cap específic d'aquesta versió."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
@@ -138,12 +142,18 @@ msgid ""
 "  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
 "  automatic upgrades by doing a manual upgrade to the latest version.\n"
 msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
@@ -164,7 +174,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Instal·lar des de Linux|install/linux]]"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -196,4 +206,4 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
