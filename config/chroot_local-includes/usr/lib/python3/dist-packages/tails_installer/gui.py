@@ -427,12 +427,12 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
             self.__button_start.set_label(_("Install"))
             self.force_reinstall_button_available = False
             self.__button_force_reinstall.set_visible(False)
-            self.__help_link.set_label(_('Installation Instructions'))
-            self.__help_link.set_uri('https://tails.net/install/')
+            self.__help_link.set_label(_("Installation Instructions"))
+            self.__help_link.set_uri("https://tails.net/install/")
             if self.opts.clone_persistent_storage_requested:
-                self.__help_link.set_label(_('Backup Instructions'))
+                self.__help_link.set_label(_("Backup Instructions"))
                 self.__help_link.set_uri(
-                    'https://tails.net/doc/persistent_storage/backup/')
+                    "https://tails.net/doc/persistent_storage/backup/")
         self.update_clone_persistent_storage_check_button()
         self.update_start_button()
 
