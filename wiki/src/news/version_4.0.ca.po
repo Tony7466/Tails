@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-30 17:48+0000\n"
+"PO-Revision-Date: 2023-11-30 17:49+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -357,13 +357,15 @@ msgstr "- Tails 4.0 comença un 20% més ràpid."
 
 #. type: Plain text
 msgid "- Tails 4.0 requires about 250 MB less of RAM."
-msgstr ""
+msgstr "- Tails 4.0 requereix uns 250 MB menys de RAM."
 
 #. type: Bullet: '- '
 msgid ""
 "Tails 4.0 is 47 MB smaller to download than Tails 3.16, despite all these "
 "changes."
 msgstr ""
+"Tails 4.0 és 47 MB més petit per baixar que Tails 3.16, malgrat tots aquests "
+"canvis."
 
 #. type: Plain text
 msgid "- Add support for *Thunderbolt* devices."
