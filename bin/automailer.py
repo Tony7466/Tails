@@ -7,18 +7,17 @@ emails into actually composing emails.
 """
 
 import os.path
-import time
-import sys
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from email.parser import Parser
-from email import policy
-import tempfile
-from pathlib import Path
 import subprocess
-from typing import List
+import sys
+import tempfile
+import time
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from email import policy
+from email.parser import Parser
 from functools import lru_cache
+from pathlib import Path
 
-from xdg.BaseDirectory import xdg_config_home  # type: ignore
+from xdg.BaseDirectory import xdg_config_home
 
 LONG_HELP = """
 ## Configuration
@@ -61,8 +60,8 @@ def parse(body: str):
     return msg, body
 
 
-def get_attachments(msg) -> List[str]:
-    attachments: List[str] = []
+def get_attachments(msg) -> list[str]:
+    attachments: list[str] = []
 
     if "x-attach" in msg:
         for attachment_list in msg.get_all("x-attach"):
