@@ -380,7 +380,7 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
         self.opts.clone_persistent_storage_requested = check_button.get_active()
         self.update_start_button()
         self.on_target_partitions_changed(None)
-        
+
     def on_activate_link_button(self, link_button: Gtk.LinkButton):
         uri = link_button.get_uri()
         self.live.log.debug("Opening Documentation: %s", uri)
