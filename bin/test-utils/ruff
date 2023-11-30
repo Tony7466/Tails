@@ -22,8 +22,8 @@ elif [ "$#" -ne 2 ]; then
     exit 2
 fi
 
-newCommit="$1"
-baseCommit="$2"
+newCommit="$(git rev-parse "$1")"
+baseCommit="$(git rev-parse "$2")"
 
 git diff -z --name-only "${baseCommit}...${newCommit}" -- | \
     xargs -0 --no-run-if-empty stat --printf '%n\0' | \
