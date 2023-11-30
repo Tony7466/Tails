@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:41-0600\n"
-"PO-Revision-Date: 2023-11-09 17:12+0000\n"
+"PO-Revision-Date: 2023-11-16 09:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -34,7 +34,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2>Verify your Tails USB stick</h2>\n"
-msgstr ""
+msgstr "<h2>Überprüfen Sie Ihren Tails USB-Stick</h2>\n"
 
 #. type: Plain text
 #, no-wrap

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-10-09 12:39+0000\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-03-09 14:29+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,7 +118,6 @@ msgid "$10&#8239;000 – $49&#8239;999"
 msgstr "$10&#8239;000 – $49&#8239;999"
 
 #. type: Attribute 'title' of: <div><p>
-#| msgid "Nym - 10 000€"
 msgid "Nym - 10 000€"
 msgstr "Nym - 10 000€"
 
@@ -359,7 +358,6 @@ msgid "Anonymous donation - 24 ethereums = 85 909€"
 msgstr "Donación anónima - 1 433€"
 
 #. type: Attribute 'title' of: <div><p>
-#| msgid "RIPE NCC - 50 000€"
 msgid "RIPE NCC - 50 000€"
 msgstr "RIPE NCC - 50 000€"
 
@@ -388,7 +386,6 @@ msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img aspiration.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
-#| msgid "Anonymous donation - 2 000€"
 msgid "Anonymous donation - 2 000€"
 msgstr "Donación anónima - 2 000€"
 
@@ -429,7 +426,6 @@ msgid "2020"
 msgstr "2020"
 
 #. type: Attribute 'title' of: <div><p>
-#| msgid "Anonymous donation - 50 000€"
 msgid "Anonymous donation - 50 000€"
 msgstr "Donación anónima - 50 000€"
 
@@ -440,7 +436,6 @@ msgid "Anonymous donation - 2.11 bitcoins = 34 694€"
 msgstr "Donación anónima - 0.1 btc"
 
 #. type: Attribute 'title' of: <div><p>
-#| msgid "ISC - 9 448€"
 msgid "ISC - 9 448€"
 msgstr "ISC - 9 448€"
 
@@ -575,7 +570,6 @@ msgid "A Google employee (with matching donation) - $12 000"
 msgstr "Un empleado de Google (con donación igualada por la empresa) - $12 000"
 
 #. type: Attribute 'title' of: <div><p>
-#| msgid "An individual - 7 533€"
 msgid "An individual - 7 533€"
 msgstr "Una persona - 7 533€"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-18 18:18+0000\n"
 "PO-Revision-Date: 2018-04-01 11:18+0000\n"
 "Last-Translator: qf <selinaf1917@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,15 +311,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "When starting Tails, you can choose between a large number of languages, "
-"including Arabic, Azerbaijani, Catalan, Czech, Welsh, Danish, German, Greek, "
-"English, Spanish, Persian, Finnish, French, Croatian, Hungarian, Indonesian, "
-"Italian, Japanese, Khmer, Korean, Latvian, Bokmål, Dutch, Polish, "
-"Portuguese, Russian, Slovak, Slovene, Albanian, Serbian, Swedish, Turkish, "
-"Ukrainian, and Chinese."
-msgstr ""
-
-#. type: Plain text
-msgid "The required keyboard input system is automatically enabled."
+"including Arabic, English, Farsi, French, German, Hindi, Indonesian, "
+"Italian, Portuguese, Russian, Simplified Chinese, Spanish, Turkish, and more."
 msgstr ""
 
 #. type: Plain text

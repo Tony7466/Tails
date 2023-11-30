@@ -33,9 +33,9 @@ Security considerations
 
 <div class="caution">
 
-Running Tails inside a virtual machine has various security
+<p>Running Tails inside a virtual machine has various security
 implications. Depending on the host operating system and your security
-needs, running Tails in a virtual machine might be dangerous.
+needs, running Tails in a virtual machine might be dangerous.</p>
 
 </div>
 
@@ -51,8 +51,8 @@ needs, running Tails in a virtual machine might be dangerous.
 
     <div class="caution">
     
-    Only run Tails in a virtual machine if both the host operating
-    system and the virtualization software are trustworthy.
+    <p>Only run Tails in a virtual machine if both the host operating
+    system and the virtualization software are trustworthy.</p>
     
     </div>
 
@@ -64,8 +64,8 @@ needs, running Tails in a virtual machine might be dangerous.
 
     <div class="caution">
     
-    Only run Tails in a virtual machine if leaving traces on the hard disk
-    is not a concern for you.
+    <p>Only run Tails in a virtual machine if leaving traces on the hard disk
+    is not a concern for you.</p>
     
     </div>
 
@@ -73,11 +73,11 @@ This is why Tails warns you when it is running inside a virtual machine.
 
 <div class="note">
 
-The Tails virtual machine does not modify the behaviour of the host
+<p>The Tails virtual machine does not modify the behaviour of the host
 operating system and the network traffic of the host is not anonymized. The MAC
 address of the computer is not modified by the [[MAC address
 anonymization|first_steps/welcome_screen/mac_spoofing]] feature of Tails
-when run in a virtual machine.
+when run in a virtual machine.</p>
 
 </div>
 

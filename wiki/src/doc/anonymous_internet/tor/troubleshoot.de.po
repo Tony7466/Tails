@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -34,10 +34,14 @@ msgstr ""
 #, no-wrap
 msgid "<h2 id=\"clock\">The computer clock is set to an incorrect time zone</h2>\n"
 msgstr ""
+"<h2 id=\"clock\">Die Computeruhr ist auf eine falsche Zeitzone "
+"eingestellt</h2>\n"
 
 #. type: Plain text
 msgid "The clock of the computer needs to be correct to connect to Tor."
 msgstr ""
+"Die Uhr des Computers muss richtig eingestellt sein, um sich mit Tor zu "
+"verbinden."
 
 #. type: Plain text
 msgid ""
@@ -72,7 +76,7 @@ msgstr "[[!inline pages=\"doc/anonymous_internet/unsafe_browser/captive_portal.i
 
 #. type: Plain text
 msgid "To sign in to a network using a captive portal:"
-msgstr ""
+msgstr "So melden Sie sich über ein Captive-Portal bei einem Netzwerk an:"
 
 #. type: Bullet: '1. '
 msgid ""

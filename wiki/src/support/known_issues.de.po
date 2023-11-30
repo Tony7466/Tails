@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-15 18:59+0000\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -43,7 +43,7 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"not-at-all\">Tails not starting at all</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"not-at-all\">Tails startet nicht</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1036,7 +1036,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "  <pre>Loading, please wait...</pre>\n"
-msgstr ""
+msgstr "  <pre>Loading, bitte warten...</pre>\n"
 
 #. type: Bullet: '- '
 msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-01-08 17:17+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
@@ -69,14 +69,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "1. Choose\n"
-#| "   <span class=\"menuchoice\">\n"
-#| "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
-#| "     <span class=\"guimenuitem\">Disks</span>\n"
-#| "   </span>\n"
-#| "   to start <span class=\"application\">GNOME Disks</span>.\n"
 msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
@@ -127,10 +119,6 @@ msgstr ""
 "à la clé USB que vous voulez réinitialiser, sa marque, sa taille, etc."
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "To reset the USB stick, click on the <span class=\"guimenu\">[[!img lib/"
-#| "open-menu.png alt=\"Menu\" class=symbolic link=no]]</span> button in the "
-#| "titlebar and choose <span class=\"guilabel\">Format Disk…</span>."
 msgid ""
 "To reset the USB stick, click on the <span class=\"guimenu\">[[!img lib/open-"
 "menu.png alt=\"Menu\" class=symbolic link=no]]</span> button in the titlebar "
@@ -175,7 +163,6 @@ msgstr ""
 "   dans le menu déroulant **Partitionnement**.\n"
 
 #. type: Bullet: '   3. '
-#| msgid "Click on the **Format…** button."
 msgid "Click on the **Format…** button."
 msgstr "Cliquer sur le bouton **Formater…**."
 

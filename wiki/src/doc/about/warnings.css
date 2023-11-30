@@ -32,9 +32,17 @@
   text-align: center;
 }
 
+#columns .button:hover {
+  background: var(--medium-dark-green) url(../../lib/go-down.png) no-repeat right 8px center !important;
+}
+
 /* You must always use this together with .button */
 #columns .button-revealed {
   background: var(--medium-light-green) url(../../lib/go-up.png) no-repeat right 8px center !important;
+}
+
+#columns .button-revealed:hover {
+  background: var(--medium-dark-green) url(../../lib/go-up.png) no-repeat right 8px center !important;
 }
 
 #columns .button a {

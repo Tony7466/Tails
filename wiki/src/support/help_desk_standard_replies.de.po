@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-05-01 16:20+0200\n"
-"PO-Revision-Date: 2023-11-12 18:13+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -35,7 +35,7 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"standard-reply\"></a>\n"
-msgstr ""
+msgstr "<a id=\"standard-reply\"></a>\n"
 
 #. type: Title =
 #, no-wrap

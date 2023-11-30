@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-11-19 17:07+0000\n"
-"PO-Revision-Date: 2023-11-15 00:14+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-23 17:17+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -22,6 +22,7 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Help porting Windows camouflage to GNOME 3.14\"]]\n"
 msgstr ""
+"[[!meta title=\"Ajudeu a portar el camuflatge de Windows a GNOME 3.14\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -41,7 +42,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "**Call for participation!**\n"
-msgstr ""
+msgstr "**Convocatòria de participació!**\n"
 
 #. type: Plain text
 msgid ""
@@ -50,11 +51,15 @@ msgid ""
 "needing privacy and stealth? Consider porting the \"Windows camouflage\" of "
 "Tails to GNOME 3.14."
 msgstr ""
+"Us agrada el desenvolupament de GNOME i voleu participar a Tails? Voleu "
+"millorar les vostres habilitats de temàtica GTK o GNOME Shell alhora que "
+"doneu suport als usuaris que necessiten privadesa i sigil? Penseu en portar "
+"el \"camuflatge de Windows\" de Tails a GNOME 3.14."
 
 #. type: Title #
 #, no-wrap
 msgid "What is the Windows camouflage?"
-msgstr ""
+msgstr "Què és el camuflatge de Windows?"
 
 #. type: Plain text
 msgid ""
@@ -63,11 +68,15 @@ msgid ""
 "into something that resembles Microsoft Windows 8.\" This is what we call "
 "the \"Windows camouflage\"."
 msgstr ""
+"La documentació de Tails diu \"si utilitzeu un ordinador en públic, potser "
+"voldreu evitar atreure l'atenció no desitjada canviant la forma en què es "
+"veu Tails a alguna cosa que s'assembli a Microsoft Windows 8\". Això és el "
+"que anomenem el \"camuflatge de Windows\"."
 
 #. type: Title #
 #, no-wrap
 msgid "Why is it useful?"
-msgstr ""
+msgstr "Per què és útil?"
 
 #. type: Plain text
 msgid ""
@@ -75,11 +84,15 @@ msgid ""
 "distribution because their screen looked very different from others, which "
 "raised suspicion. It's why a Windows camouflage has been added to Tails."
 msgstr ""
+"Hem rebut informes que s'han detingut usuaris mentre utilitzaven una "
+"distribució de millora de la privadesa perquè la seva pantalla es veia molt "
+"diferent a la dels altres, cosa que va generar sospita. És per això que s'ha "
+"afegit un camuflatge de Windows a Tails."
 
 #. type: Title #
 #, no-wrap
 msgid "What should be done?"
-msgstr ""
+msgstr "Què s'ha de fer?"
 
 #. type: Plain text
 msgid ""
@@ -90,11 +103,17 @@ msgid ""
 "includes GTK and GNOME Shell theming through CSS as well as writing a custom "
 "GNOME Shell extension."
 msgstr ""
+"El Tails actual es basa en GNOME 3.8 en mode \"Fallback\". Actualment estem "
+"actualitzant Tails a més de la propera versió a Debian (\"Jessie\") que es "
+"basa en GNOME 3.14. El camuflatge de Windows s'hauria d'actualitzar a "
+"l'última versió de GTK i portar des del panell del GNOME al shell de GNOME. "
+"Això inclou la temàtica de GTK i GNOME Shell a través de CSS, així com "
+"escriure una extensió personalitzada de GNOME Shell."
 
 #. type: Title #
 #, no-wrap
 msgid "Why do we need you?"
-msgstr ""
+msgstr "Per què us necessitem?"
 
 #. type: Plain text
 msgid ""
@@ -106,11 +125,19 @@ msgid ""
 "provide support to anybody volunteering and work together on integrating the "
 "new theme to upcoming Tails Jessie snapshots."
 msgstr ""
+"L'equip que treballa actualment a Tails està molt ocupat i va decidir "
+"centrar-se en el nucli o l'actualització més que en el camuflatge de "
+"Windows. Actualment tenim previst seguir endavant amb el llançament inicial "
+"de Tails Jessie, encara que falti el camuflatge de Windows. Tanmateix, ens "
+"agradaria tenir un camuflatge de Windows adequat i pensem que és una bona "
+"ocasió per donar-vos un cop de mà. Donarem suport a qualsevol persona que es "
+"faci voluntari i treballarem junts per integrar el nou tema a les properes "
+"instantànies de Tails Jessie."
 
 #. type: Title #
 #, no-wrap
 msgid "Where should you start?"
-msgstr ""
+msgstr "Per on hauríeu de començar?"
 
 #. type: Plain text
 #, no-wrap
@@ -120,3 +147,7 @@ msgid ""
 "write to <tails-dev@boum.org>. This is a public mailing list.\n"
 "Please subscribe!\n"
 msgstr ""
+"Si us plau, llegiu\n"
+"actualitzar el camuflatge per a Jessie, després\n"
+"escriviu a <tails-dev@boum.org>. Aquesta és una llista de correu pública.\n"
+"Si us plau, subscriviu-vos!\n"

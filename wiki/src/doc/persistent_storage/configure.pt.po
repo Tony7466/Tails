@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-08-01 15:22+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,9 +24,6 @@ msgid "[[!meta title=\"Configuring the Persistent Storage\"]]\n"
 msgstr "[[!meta title=\"Configurando o Armazenamento Persistente\"]]\n"
 
 #. type: Plain text
-#| msgid ""
-#| "To configure the Persistent Storage, choose **Applications**&nbsp;▸ "
-#| "**Tails**&nbsp;▸ **Persistent Storage**."
 msgid ""
 "To configure the Persistent Storage, choose **Applications**&nbsp;▸ "
 "**Tails**&nbsp;▸ **Persistent Storage**."
@@ -76,12 +73,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "<p>We are often asked to implement new features of the Persistent Storage: Tor\n"
-#| "Browser preferences, Tor configuration, desktop background, mouse and touchpad\n"
-#| "settings, and so on. See the [[!tails_gitlab\n"
-#| "groups/tails/-/issues?scope=all&utf8=✓&state=opened&label_name%5B%5D=C%3APersistence\n"
-#| "desc=\"list of issues about the Persistent Storage in our GitLab\"]].<p>\n"
 msgid ""
 "<p>We are often asked to implement new features of the Persistent Storage: Tor\n"
 "Browser preferences, Tor configuration, desktop background, mouse and touchpad\n"
@@ -144,11 +135,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "To open the <span class=\"filename\">Persistent</span> folder, choose\n"
-#| "<span class=\"menuchoice\">\n"
-#| "  <span class=\"guimenu\">Places</span>&nbsp;▸\n"
-#| "  <span class=\"guimenuitem\">Persistent</span></span>.\n"
 msgid ""
 "To open the <span class=\"filename\">Persistent</span> folder, choose\n"
 "<span class=\"menuchoice\">\n"
@@ -661,14 +647,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "    /live/persistence/TailsData_unlocked/dotfiles\n"
-#| "    ├── file_a\n"
-#| "    ├── folder\n"
-#| "    │   ├── file_b\n"
-#| "    │   └── subfolder\n"
-#| "    │       └── file_c\n"
-#| "    └── emptyfolder\n"
 msgid ""
 "    /live/persistence/TailsData_unlocked/dotfiles\n"
 "    ├── file_a\n"
@@ -692,13 +670,6 @@ msgstr "Produz o seguinte resultado em */home/amnesia*:"
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "    /home/amnesia\n"
-#| "    ├── file_a → /live/persistence/TailsData_unlocked/dotfiles/file_a\n"
-#| "    └── folder\n"
-#| "        ├── file_b → /live/persistence/TailsData_unlocked/dotfiles/folder/file_b\n"
-#| "        └── subfolder\n"
-#| "            └── file_c → /live/persistence/TailsData_unlocked/dotfiles/folder/subfolder/file_c\n"
 msgid ""
 "    /home/amnesia\n"
 "    ├── file_a → /live/persistence/TailsData_unlocked/dotfiles/file_a\n"
@@ -794,9 +765,6 @@ msgid "Turn on the *Dotfiles* feature and restart Tails."
 msgstr "Ative as funcionalidades *Dotfiles* e reinicie o Tails."
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Settings** to "
-#| "open the *Settings* utility."
 msgid ""
 "Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Settings** to open "
 "the *Settings* utility."
@@ -813,10 +781,6 @@ msgid "Configure your displays."
 msgstr "Configure seus monitores."
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "Choose **Places**&nbsp;▸ **Dotfiles** to open the <span "
-#| "class=\"filename\">/live/persistence/TailsData_unlocked/dotfiles</span> "
-#| "folder in the <span class=\"application\">Files</span> browser."
 msgid ""
 "Choose **Places**&nbsp;▸ **Dotfiles** to open the <span class=\"filename\">/"
 "live/persistence/TailsData_unlocked/dotfiles</span> folder in the <span "
@@ -874,9 +838,6 @@ msgid "  For example:\n"
 msgstr "  Por exemplo:\n"
 
 #. type: Bullet: '  - '
-#| msgid ""
-#| "If you turn off the Persistent Folder feature, the documents saved in "
-#| "**Places** &nbsp;▸ **Persistent** are not available anymore."
 msgid ""
 "If you turn off the Persistent Folder feature, the documents saved in "
 "**Places** &nbsp;▸ **Persistent** are not available anymore."

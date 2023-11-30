@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-11-08 09:11+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
@@ -110,9 +110,6 @@ msgid "<h1 id=\"creating\">Creating an encrypted partition</h1>\n"
 msgstr "<h1 id=\"creating\">Créer une partition chiffrée</h1>\n"
 
 #. type: Plain text
-#| msgid ""
-#| "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks** to open "
-#| "*GNOME Disks*."
 msgid ""
 "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks** to open *GNOME "
 "Disks*."
@@ -165,10 +162,6 @@ msgid "<h2 id=\"formatting\">Formatting the device</h2>\n"
 msgstr "<h2 id=\"formatting\">Formater le périphérique</h2>\n"
 
 #. type: Bullet: '  1. '
-#| msgid ""
-#| "Click on the [[!img lib/view-more.png alt=\"Drive Options\" "
-#| "class=\"symbolic\" link=\"no\"]] button in the titlebar and choose "
-#| "**Format Disk…** to erase all the existing partitions on the device."
 msgid ""
 "Click on the [[!img lib/view-more.png alt=\"Drive Options\" "
 "class=\"symbolic\" link=\"no\"]] button in the titlebar and choose **Format "
@@ -217,7 +210,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "     Then click <span class=\"bold\">Format…</span>.\n"
 msgid "     Then click <span class=\"bold\">Format…</span>.\n"
 msgstr "     Cliquez ensuite sur <span class=\"bold\">Formater...</span>.\n"
 
@@ -464,12 +456,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "1. Choose\n"
-#| "   <span class=\"menuchoice\">\n"
-#| "     <span class=\"guimenu\">Places</span>&nbsp;▸\n"
-#| "     <span class=\"guisubmenu\">Computer</span></span>\n"
-#| "   to open the file browser.\n"
 msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"
@@ -570,12 +556,6 @@ msgstr "<h1 id=\"changing\">Changer la phrase de passe d'une partition chiffrée
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "To open <span class=\"application\">GNOME Disks</span> choose\n"
-#| "<span class=\"menuchoice\">\n"
-#| "  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "  <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
-#| "  <span class=\"guimenuitem\">Disks</span></span>.\n"
 msgid ""
 "To open <span class=\"application\">GNOME Disks</span> choose\n"
 "<span class=\"menuchoice\">\n"
@@ -639,7 +619,6 @@ msgstr "   [[!img lib/system-run.png alt=\"Options de partition supplémentaires
 
 #. type: Plain text
 #, no-wrap
-#| msgid "   </span> button and choose <span class=\"guimenu\">Change Passphrase…</span>\n"
 msgid "   </span> button and choose <span class=\"guimenu\">Change Passphrase…</span>\n"
 msgstr "   </span> bouton et choisir <span class=\"guimenu\">Modifier la phrase de passe…</span>\n"
 

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"PO-Revision-Date: 2023-11-16 16:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -44,6 +44,9 @@ msgid ""
 "fundraiser]].  Today, we summarize what we achieved with your help in 2018 "
 "and renew our call for donations."
 msgstr ""
+"Am 12. Oktober haben wir unsere [[jährliche Spendenaktion|news/"
+"2018-fundraiser]] gestartet.  Heute fassen wir zusammen, was wir mit Ihrer "
+"Hilfe im Jahr 2018 erreicht haben und erneuern unseren Spendenaufruf."
 
 #. type: Title =
 #, no-wrap

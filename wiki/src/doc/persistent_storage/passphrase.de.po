@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-12 18:14+0000\n"
+"PO-Revision-Date: 2023-11-16 16:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -33,14 +33,20 @@ msgid ""
 "Choose **Applications**&nbsp;▸ **Tails**&nbsp;▸ **Persistent Storage** to "
 "open the Persistent Storage settings."
 msgstr ""
+"Wählen Sie **Anwendungen**&nbsp;▸ **Tails**&nbsp;▸ **Persistenter Speicher**"
+", um die Einstellungen für den persistenten Speicher zu öffnen."
 
 #. type: Bullet: '1. '
 msgid "Click on the **Change Passphrase** button on the left of the title bar."
 msgstr ""
+"Klicken Sie auf die Schaltfläche **Passphrase ändern** auf der linken Seite "
+"der Titelleiste."
 
 #. type: Bullet: '1. '
 msgid "Enter the current passphrase in the **Current Passphrase** text box."
 msgstr ""
+"Geben Sie die aktuelle Passphrase in das Textfeld **Aktuelle Passphrase** "
+"ein."
 
 #. type: Bullet: '1. '
 msgid "Enter your new passphrase in the **New Passphrase** text box."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"PO-Revision-Date: 2023-11-16 09:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -35,6 +35,9 @@ msgid ""
 "If your Tails becomes broken, for example, it no longer starts, you can "
 "follow these instructions to try to rescue your Persistent Storage."
 msgstr ""
+"Wenn Ihr Tails nicht mehr funktioniert, z.B. weil es nicht mehr startet, "
+"können Sie diese Anweisungen befolgen, um zu versuchen, Ihren persistenten "
+"Speicher zu retten."
 
 #. type: Plain text
 #, no-wrap

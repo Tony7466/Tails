@@ -1,7 +1,7 @@
 inherit_from: ../.rubocop.yml
 
 Layout/LineLength:
-  IgnoredPatterns:
+  AllowedPatterns:
     # The first line of step definitions can be very long.
     - \A(Given|When|But|Then)\s+.*
     # Snapshot descriptions can be very long.

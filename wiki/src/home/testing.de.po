@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-18 10:43-0500\n"
-"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -35,11 +35,13 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid "You are running a testing version of Tails. Thanks!"
-msgstr ""
+msgstr "Sie verwenden eine Testversion von Tails. Danke!"
 
 #. type: Content of: <div><ul><li>
 msgid "Release candidates are safe to use but might have other problems."
 msgstr ""
+"Release Candidates sind sicher in der Anwendung, können aber andere Probleme "
+"haben."
 
 #. type: Content of: <div><ul><li>
 msgid "Beta versions are unsafe to use. Only use beta versions for testing."

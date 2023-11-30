@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-01-03 19:17+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!meta title=\"Mafé\"]]\n"
 msgid "[[!meta title=\"Mafé\"]]\n"
 msgstr "[[!meta title=\"Mafé\"]]\n"
 
@@ -69,7 +68,6 @@ msgid "3 big onions"
 msgstr "3 gros oignons"
 
 #. type: Bullet: '* '
-#| msgid "2.5 kg sweet potatoes 🍠 (yes! U+1F360 is \"ROASTED SWEET POTATO\"!)"
 msgid "2.5 kg sweet potatoes 🍠 (yes! U+1F360 is \"ROASTED SWEET POTATO\"!)"
 msgstr ""
 "2,5 kg de patates douces 🍠 (oui ! U+1F360 est une « PATATE DOUCE RÔTIE » !)"
@@ -83,9 +81,6 @@ msgid "400 g. smooth peanut butter"
 msgstr "400 g. de beurre de cacahuète lisse"
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "½ l. boiled vegetable broth. It is a good idea to make a bit more and "
-#| "keep it in case the mafé becomes to thick."
 msgid ""
 "½ l. boiled vegetable broth. It is a good idea to make a bit more and keep "
 "it in case the mafé becomes to thick."
@@ -98,9 +93,6 @@ msgid "4 table spoons sunflower oil"
 msgstr "4 cuillères à soupe d'huile de tournesol"
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "(Optional [used during the 2017 summit]): ½ bunch chopped parsley for "
-#| "decoration"
 msgid ""
 "(Optional [used during the 2017 summit]): ½ bunch chopped parsley for "
 "decoration"
@@ -153,9 +145,6 @@ msgid "Stir for 4 minutes."
 msgstr "Remuez pendant 4 minutes."
 
 #. type: Bullet: '7.  '
-#| msgid ""
-#| "Add sweet potatoes, tomatoes and ⅔ of the broth, making sure that the "
-#| "potatoes are *exactly* covered by the liquid."
 msgid ""
 "Add sweet potatoes, tomatoes and ⅔ of the broth, making sure that the "
 "potatoes are *exactly* covered by the liquid."

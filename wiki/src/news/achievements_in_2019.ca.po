@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-15 00:13+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-23 17:18+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Our achievements in 2019\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Els nostres assoliments el 2019\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -42,23 +42,31 @@ msgid ""
 "On October 7, we started our [[yearly donation campaign|news/2019-"
 "fundraiser]]. Today, we summarize what we achieved with your help in 2019."
 msgstr ""
+"El 7 d'octubre vam començar la nostra [[campanya anual de donacions|news/"
+"2019-fundraiser]]. Avui, resumim el que hem aconseguit amb la vostra ajuda "
+"durant el 2019."
 
 #. type: Plain text
 msgid ""
 "If you liked our work in 2019, please take a minute to donate and make Tails "
 "thrive in 2020!"
 msgstr ""
+"Si us ha agradat el nostre treball el 2019, preneu-vos un minut per fer una "
+"donació i fer que Tails prosperi el 2020!"
 
 #. type: Title =
 #, no-wrap
 msgid "Easier adoption by new users"
-msgstr ""
+msgstr "Adopció més fàcil per part dels nous usuaris"
 
 #. type: Plain text
 msgid ""
 "In 2019, we focused on fewer but critical features to make Tails easier to "
 "discover and adopt for first time users."
 msgstr ""
+"El 2019, ens vam centrar en menys funcions però més crítiques per fer que "
+"Tails sigui més fàcil d'aprendre i adoptar per als usuaris per primera "
+"vegada."
 
 #. type: Bullet: '- '
 msgid ""
@@ -66,6 +74,9 @@ msgid ""
 "is now downloaded as a *USB image*: an exact copy of the data as it is "
 "written to the USB stick."
 msgstr ""
+"Al gener, vam canviar completament el procediment d'instal·lació de Tails. "
+"Tails ara es baixa com a *imatge USB*: una còpia exacta de les dades tal com "
+"s'escriuen al llapis USB."
 
 #. type: Plain text
 #, no-wrap
@@ -75,12 +86,19 @@ msgid ""
 "  tech-savvy users of Windows and\n"
 "  macOS.\n"
 msgstr ""
+"  Això va fer que l'experiència d'instal·lació fos millor per a tots els "
+"sistemes\n"
+"  operatius i sobretot més fàcil i molt més ràpida per als\n"
+"  usuaris menys experimentats en tecnologia de Windows i\n"
+"  macOS.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "Then, we improved our documentation to help first time users with their "
 "Tails installation:"
 msgstr ""
+"Aleshores, hem millorat la nostra documentació per ajudar els usuaris per "
+"primera vegada amb la instal·lació de Tails:"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -88,28 +106,38 @@ msgid ""
 "fi]], an issue unfortunately quite common, especially on Mac, and documented "
 "which Wi-Fi USB adapters work well in Tails."
 msgstr ""
+"Hem explicat millor com [[solucionar problemes de Wi-Fi|install/windows#wi-"
+"fi]], un problema, malauradament, força comú, especialment a Mac, i hem "
+"documentat quins adaptadors USB Wi-Fi funcionen bé a Tails."
 
 #. type: Bullet: '  - '
 msgid ""
 "We created a [[boot menu animation|install/windows#animation]] to visualize "
 "how to start Tails on PC and clarified related troubleshooting instructions."
 msgstr ""
+"Hem creat una [[animació del menú d'arrencada|install/windows#animation]] "
+"per visualitzar com iniciar Tails a l'ordinador i hem aclarit les "
+"instruccions de resolució de problemes relacionades."
 
 #. type: Plain text
 msgid "As a consequence, more people than ever are using Tails:"
-msgstr ""
+msgstr "Com a conseqüència, més persones que mai estan utilitzant Tails:"
 
 #. type: Plain text
 msgid ""
 "- Tails is used nearly 25 000 times every day worldwide. That's 15% more "
 "than in August 2018."
 msgstr ""
+"- Tails s'utilitza gairebé 25 000 vegades cada dia a tot el món. Això és un "
+"15% més que a l'agost del 2018."
 
 #. type: Bullet: '- '
 msgid ""
 "The percentage of people using Tails on Mac more than doubled since January "
 "2019."
 msgstr ""
+"El percentatge de persones que utilitzen Tails al Mac s'ha duplicat des del "
+"gener del 2019."
 
 #. type: Plain text
 msgid ""
@@ -118,17 +146,24 @@ msgid ""
 "Since then, people started translations in Arabic, Catalan, Traditional and "
 "Simplified Chinese, Polish, Russian, Serbian, and Turkish."
 msgstr ""
+"Per continuar fent que Tails sigui més accessible per als usuaris de tot el "
+"món, hem creat una [[plataforma de traducció|https://translate.tails.boum."
+"org/]] per al nostre lloc web. Des de llavors, la gent ha començat a traduir "
+"el lloc web a àrab, català, xinès tradicional i simplificat, polonès, rus, "
+"serbi i turc."
 
 #. type: Plain text
 msgid ""
 "We also improved a lot the usability of the Welcome Screen for non-English "
 "users in [[Tails 4.0|version_4.0#greeter]]."
 msgstr ""
+"També hem millorat molt la usabilitat de la Pantalla de Benvinguda per als "
+"usuaris que no són de parla anglesa a [[Tails 4.0|version_4.0#greeter]]."
 
 #. type: Title =
 #, no-wrap
 msgid "Maintenance work"
-msgstr ""
+msgstr "Treball de manteniment"
 
 #. type: Plain text
 msgid ""
@@ -139,12 +174,21 @@ msgid ""
 "issues as they are reported to us, and implementing the many small "
 "improvements that make Tails easier to use."
 msgstr ""
+"El 2019 també ha sigut un any de grans treballs de manteniment, com sempre. "
+"Mantenir viva una eina com Tails consisteix principalment en moltes tasques "
+"que no són gaire emocionants: publicar nous llançaments cada 6 setmanes, "
+"actualitzar Tails i la nostra infraestructura a noves versions de Debian i "
+"altres programaris que utilitzem, solucionar petits problemes a mesura que "
+"se'ns informen i implementar les moltes petites millores que fan que Tails "
+"sigui més fàcil d'utilitzar."
 
 #. type: Bullet: '- '
 msgid ""
 "In October, we released [[Tails 4.0|version_4.0]], which is the first "
 "version of Tails based on Debian 10 (Buster)."
 msgstr ""
+"A l'octubre, vam llançar [[Tails 4.0|version_4.0]], que és la primera versió "
+"de Tails basada en Debian 10 (Buster)."
 
 #. type: Plain text
 #, no-wrap
@@ -153,12 +197,18 @@ msgid ""
 "  KeePassXC, OnionShare 1.3.2, fixes Electrum, updates to Debian 10 and\n"
 "  GNOME 3.30, starts faster and uses less memory.\n"
 msgstr ""
+"  Tails 4.0 ha sigut el nostre llançament més important en anys. Tails 4.0 "
+"afegeix\n"
+"  KeePassXC, OnionShare 1.3.2, corregeix Electrum, actualitza a Debian 10 i\n"
+"  GNOME 3.30, s'inicia més ràpid i utilitza menys memòria.\n"
 
 #. type: Bullet: '- '
 msgid ""
 "We released 13 new versions of Tails to deliver improvements and security "
 "fixes as soon as possible."
 msgstr ""
+"Hem llançat 13 noves versions de Tails per oferir millores i solucions de "
+"seguretat tan aviat com ha sigut possible."
 
 #. type: Bullet: '- '
 msgid ""
@@ -166,6 +216,9 @@ msgid ""
 "to fix 5 critical security vulnerabilities in Firefox and Tor Browser and "
 "always keep Tails as secure as possible."
 msgstr ""
+"Hem publicat més versions d'emergència que mai: 5 versions d'emergència per "
+"solucionar 5 vulnerabilitats de seguretat crítiques a Firefox i al Navegador "
+"Tor i mantenir sempre Tails el més segur possible."
 
 #. type: Bullet: '- '
 msgid ""
@@ -174,6 +227,11 @@ msgid ""
 "like these made the USB image of Tails 4.0 47 MB smaller than Tails 3.6, "
 "which was the bigger release ever."
 msgstr ""
+"Hem eliminat el programari i els paquets de localització menys populars, que "
+"ara podeu instal·lar vosaltres mateixos mitjançant la funció de Programari "
+"Addicional. Optimitzacions com aquestes han fet que la imatge USB de Tails "
+"4.0 sigui 47 MB més petita que la de Tails 3.6, que va ser la versió més "
+"gran fins ara."
 
 #. type: Bullet: '- '
 msgid ""
@@ -182,40 +240,50 @@ msgid ""
 "included in Tails or used on our infrastructure. Some of these projects, "
 "that we call \"upstream\", are:"
 msgstr ""
+"Tails depèn d'un ecosistema més ampli de Programari Lliure i eines de "
+"privadesa. Aportem contínuament millores a altres projectes que s'inclouen a "
+"Tails o s'utilitzen a la nostra infraestructura. Alguns d'aquests projectes, "
+"que anomenem \"upstream\", són:"
 
 #. type: Bullet: '  - '
 msgid "[Thunderbird](https://bugzilla.mozilla.org/show_bug.cgi?id=971347)"
-msgstr ""
+msgstr "[Thunderbird](https://bugzilla.mozilla.org/show_bug.cgi?id=971347)"
 
 #. type: Bullet: '  - '
 msgid "[GNOME](https://gitlab.gnome.org/GNOME/gtk/merge_requests/263)"
-msgstr ""
+msgstr "[GNOME](https://gitlab.gnome.org/GNOME/gtk/merge_requests/263)"
 
 #. type: Bullet: '  - '
 msgid ""
 "[Debian](https://tracker.debian.org/news/1062740/accepted-apparmor-2133-5-"
 "source-into-unstable/)"
 msgstr ""
+"[Debian](https://tracker.debian.org/news/1062740/"
+"accepted-apparmor-2133-5-source-into-unstable/)"
 
 #. type: Bullet: '  - '
 msgid ""
 "[OnionShare](https://tracker.debian.org/news/1036041/accepted-"
 "onionshare-20-1-source-all-into-unstable/)"
 msgstr ""
+"[OnionShare](https://tracker.debian.org/news/1036041/"
+"accepted-onionshare-20-1-source-all-into-unstable/)"
 
 #. type: Bullet: '  - '
 msgid "[KeePassXC](https://github.com/keepassxreboot/keepassxc/pull/2593)"
-msgstr ""
+msgstr "[KeePassXC](https://github.com/keepassxreboot/keepassxc/pull/2593)"
 
 #. type: Bullet: '  - '
 msgid ""
 "[torsocks](https://tracker.debian.org/news/1037418/accepted-torsocks-230-2-"
 "source-amd64-into-unstable/)"
 msgstr ""
+"[torsocks](https://tracker.debian.org/news/1037418/"
+"accepted-torsocks-230-2-source-amd64-into-unstable/)"
 
 #. type: Bullet: '  - '
 msgid "[ikiwiki](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=911356)"
-msgstr ""
+msgstr "[ikiwiki](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=911356)"
 
 #. type: Bullet: '- '
 msgid ""
@@ -223,6 +291,9 @@ msgid ""
 "\"distributed denial-of-service (DDoS)\"]] attacks targeting our "
 "infrastructure."
 msgstr ""
+"Hem hagut de temperar diversos atacs de [[!wikipedia Denial-of-"
+"service_attack desc=\"denegació de servei distribuïda (DDoS)\"]] dirigits a "
+"la nostra infraestructura."
 
 #. type: Bullet: '- '
 msgid ""
@@ -233,6 +304,12 @@ msgid ""
 "server projects: [autistici.org](https://autistici.org) and [puscii.nl]"
 "(https://puscii.nl)."
 msgstr ""
+"Des de fa 9 anys, confiem en els serveis d'allotjament proporcionats per la "
+"bona gent de boum.org. Gràcies! Com que anaven reduint les seves activitats, "
+"vam haver de migrar els nostres serveis. El nostre lloc web ara està auto-"
+"allotjat i les nostres llistes de correu estan gestionades per dos projectes "
+"de servidors autònoms amb experiència i confiança: [autistici."
+"org](https://autistici.org) i [puscii.nl](https://puscii.nl)."
 
 #. type: Title =
 #, no-wrap
@@ -244,6 +321,8 @@ msgid ""
 "Over the years, Tails has been able to gather a lively community which is "
 "growing, evolving, and deserves care."
 msgstr ""
+"Al llarg dels anys, Tails ha pogut reunir una comunitat animada que creix, "
+"evoluciona i mereix atenció."
 
 #. type: Bullet: '- '
 msgid ""
@@ -251,6 +330,9 @@ msgid ""
 "help us clarify who we are, what we stand for, and what we want to do for "
 "our users."
 msgstr ""
+"Vam publicar una declaració de la nostra [[missió i valors|contribute/"
+"mission]] per ajudar-nos a aclarir qui som, què defensem i què volem fer "
+"pels nostres usuaris."
 
 #. type: Bullet: '- '
 msgid ""
@@ -259,6 +341,10 @@ msgid ""
 "mind who we are working for, what are their needs, and what Tails should do "
 "for them."
 msgstr ""
+"Vam acordar [[persones d'usuari|contribute/personas]], representacions "
+"fictícies però concretes de les persones que utilitzen Tails. Utilitzem "
+"aquestes persones per tenir en compte per a qui treballem, quines són les "
+"seves necessitats i què hauria de fer Tails per elles."
 
 #. type: Bullet: '- '
 msgid ""
@@ -267,22 +353,34 @@ msgid ""
 "Internet Freedom Festival (Spain), Tor Meeting (Sweden), OTF Summit "
 "(Taiwan), DebConf (Brazil), and MozFest (UK)."
 msgstr ""
+"Hem assistit a nou conferències i hem connectat amb programari lliure i "
+"comunitats de llibertat d'Internet a nou països diferents, incloent FOSDEM "
+"(Bèlgica), Internet Freedom Festival (Espanya), Tor Meeting (Suècia), OTF "
+"Summit (Taiwan), DebConf (Brasil) i MozFest (Regne Unit)."
 
 #. type: Bullet: '- '
 msgid ""
 "The wider Tails community organized 10 workshops to present Tails to new "
 "users in North and South America, Europe, and East and South-East Asia."
 msgstr ""
+"La comunitat més àmplia de Tails va organitzar 10 tallers per presentar "
+"Tails als nous usuaris d'Amèrica del Nord i del Sud, Europa i l'est i el sud-"
+"est asiàtic."
 
 #. type: Bullet: '- '
 msgid ""
 "We answered 883 bug reports through our help desk and helped all these "
 "people to be safer online."
 msgstr ""
+"Hem contestat a 883 informes d'errors a través del nostre servei "
+"d'assistència i hem ajudat a totes aquestes persones a estar més segures en "
+"línia."
 
 #. type: Plain text
 msgid "- 2 new workers joined our help desk and sysadmin teams."
 msgstr ""
+"- Dos nous treballadors s'han unit al nostre servei d'ajuda i als equips "
+"d'administració del sistema."
 
 #. type: Plain text
 msgid ""
@@ -290,14 +388,21 @@ msgid ""
 "these help us to plan our work, we particularly appreciate monthly and "
 "yearly donations, even the smallest ones."
 msgstr ""
+"Tot això és possible gràcies a les donacions de persones com tu. I com que "
+"ens ajuden a planificar la nostra feina, agraïm especialment les donacions "
+"mensuals i anuals, fins i tot les més petites."
 
 #. type: Plain text
 msgid ""
 "If you liked our work in 2019, please take a minute to donate and make us "
 "thrive in 2020!"
 msgstr ""
+"Si us ha agradat la nostra feina el 2019, preneu-vos un minut per fer una "
+"donació i fer-nos prosperar el 2020!"
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=2019-achievements\">Donate</a></div>\n"
 msgstr ""
+"<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=2019-"
+"achievements\">Feu una donació</a></div>\n"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails Translation\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-12-22 02:12+0000\n"
-"PO-Revision-Date: 2023-11-12 18:11+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -30,16 +30,12 @@ msgstr ""
 "Installationsanweisungen zum:"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[Starting a PC on a USB|install/win/usb#start-tails]]"
 msgid "[[Starting Tails on PC|pc]]"
-msgstr "[[Starten von USB mit einem PC|install/win/usb#start-tails]]"
+msgstr "[[Tails von einem PC starten|pc]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[Starting a Mac on a USB|install/mac/usb#start-tails]]"
 msgid "[[Starting Tails on Mac|mac]]"
-msgstr "[[Starten von USB mit einem Mac|install/mac/usb#start-tails]]"
+msgstr "[[Tails auf einem Mac starten|mac]]"
 
 #~ msgid "[[Starting a Mac on a DVD|install/mac/dvd#start-dvd]]"
 #~ msgstr "[[Starten von DVD mit einem Mac|install/mac/dvd#start-dvd]]"

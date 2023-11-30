@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-09 02:41+0000\n"
-"PO-Revision-Date: 2023-11-10 04:11+0000\n"
+"PO-Revision-Date: 2023-11-23 14:17+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -27,14 +27,10 @@ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
 msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Subscribe to the [[amnesia-news mailing list|about/contact#amnesia-news]] "
-#| "to receive the same news by email:"
 msgid "Subscribe to our newsletter to receive the same news by email:"
 msgstr ""
-"Abonnieren Sie die [[amnesia-news Mailingliste|about/contact#amnesia-news]] "
-"um die gleichen Neuigkeiten per E-Mail zu erhalten:"
+"Abonnieren Sie unseren Newsletter, um die gleichen Neuigkeiten per E-Mail zu "
+"erhalten:"
 
 #. type: Content of: <form>
 msgid ""
@@ -42,6 +38,9 @@ msgid ""
 "label=\"Subscribe\" class=\"button\" type=\"submit\"><strong>Subscribe</"
 "strong></button>"
 msgstr ""
+"<input aria-label=\"E-Mail\" name=\"email\" value=\"\"/> <button aria-label="
+"\"Abonnieren\" class=\"button\" type=\"submit\""
+"><strong>Abonnieren</strong></button>"
 
 #. type: Content of: <form><p>
 msgid "[[Archive of all news|news/archive]]"

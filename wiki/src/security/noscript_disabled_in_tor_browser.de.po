@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-08-18 01:25+0000\n"
-"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"PO-Revision-Date: 2023-11-16 16:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -44,6 +44,10 @@ msgid ""
 "without taking the manual steps listed below each time you start\n"
 "Tails!</div>\n"
 msgstr ""
+"<div class=\"caution\">Tor Browser in Tails 3.13.1 ist nicht sicher zu "
+"verwenden\n"
+"ohne bei jedem Start von Tails die unten aufgeführten manuellen Schritte "
+"ausführen zu müssen!</div>\n"
 
 #. type: Plain text
 msgid ""
@@ -101,6 +105,8 @@ msgid ""
 "Open the address <span class=\"command\">about:config</span> in *Tor "
 "Browser*."
 msgstr ""
+"Öffnen Sie die Adresse <span class=\"command\">about:config</span> im *Tor "
+"Browser*."
 
 #. type: Plain text
 #, no-wrap

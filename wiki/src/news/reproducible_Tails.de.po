@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-11-08 16:12+0000\n"
-"Last-Translator: b0r1ngtranslate <bhutan_toiletry@aleeas.com>\n"
+"PO-Revision-Date: 2023-11-23 12:17+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Have your cake and eat it, too!\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Habe deinen Kuchen und iss ihn auch!\"]]\n"
 
 #. type: Plain text
 #, no-wrap

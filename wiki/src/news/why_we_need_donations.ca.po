@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-15 00:14+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"POT-Creation-Date: 2023-11-23 12:57+0000\n"
+"PO-Revision-Date: 2023-11-23 17:18+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Why we need donations\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Per què necessitem donacions\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -41,6 +41,7 @@ msgstr "[[!tag announce]]\n"
 #. type: Plain text
 msgid "Today we are starting a donation campaign to fund our work in 2017."
 msgstr ""
+"Avui comencem una campanya de donacions per finançar la nostra feina el 2017."
 
 #. type: Plain text
 msgid ""
@@ -53,30 +54,42 @@ msgid ""
 "was closed, there would be no way of actually verifying that our software is "
 "trustworthy."
 msgstr ""
+"A diferència de la majoria d'altres eines d'Internet, Tails és *gratuït* i "
+"és *Programari Lliure*. No venem les vostres dades, no us enviem publicitat "
+"dirigida, ni vendrem mai el nostre projecte a una gran empresa. Donem Tails "
+"de forma gratuïta simplement perquè tothom mereix estar protegit de la "
+"vigilància i la censura. Però també perquè ser programari lliure és un "
+"requisit necessari perquè les nostres eines estiguin segures i us "
+"protegeixin com es pretén. Si es tanqués el nostre codi font, no hi hauria "
+"manera de verificar que el nostre programari sigui fiable."
 
 #. type: Plain text
 msgid ""
 "[[Since 2014|doc/about/finances]], we raised 210'000€ on average each year, "
 "coming from:"
 msgstr ""
+"[[Des del 2014|doc/about/finances]], hem recaptat 210 000€ de mitjana cada "
+"any, procedents de:"
 
 #. type: Bullet: '  - '
 msgid "People like you"
-msgstr ""
+msgstr "Gent com tu"
 
 #. type: Bullet: '  - '
 msgid "Private companies like Mozilla or DuckDuckGo"
-msgstr ""
+msgstr "Empreses privades com Mozilla o DuckDuckGo"
 
 #. type: Bullet: '  - '
 msgid "Foundations and NGOs like Hivos and Access Now"
-msgstr ""
+msgstr "Fundacions i ONGs com Hivos i Access Now"
 
 #. type: Bullet: '  - '
 msgid ""
 "Entities related to the US government like the Open Technology Fund (OTF)  "
 "or the National Democratic Institute (NDI)"
 msgstr ""
+"Entitats relacionades amb el govern dels EUA com l'Open Technology Fund (OTF)"
+" o el National Democratic Institute (NDI)"
 
 #. type: Plain text
 #, no-wrap
@@ -85,6 +98,10 @@ msgid ""
 "government: 34%, Foundations & NGOs: 34%, Individuals: 17%, Companies:\n"
 "15%\"]]\n"
 msgstr ""
+"[[!img income.png link=\"no\" class=\"top-margin center\" alt=\"Relacionat "
+"amb el govern\n"
+"dels EUA: 34%, Fundacions i ONG: 34%, Particulars: 17%, Empreses:\n"
+"15%\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -95,11 +112,18 @@ msgid ""
 "and sustainability as long as the survival of our project depends on a few "
 "small grants, some of them coming from organizations linked to governments."
 msgstr ""
+"Sovint sentim queixes sobre el fet que molts projectes de programari que "
+"estan destinats a lluitar contra la vigilància, com Tor i Tails, reben molt "
+"de finançament del govern dels Estats Units; els projectes de vigilància del "
+"qual són durament criticats. Compartim completament aquesta preocupació i "
+"ens preocuparem per la nostra responsabilitat i sostenibilitat sempre que la "
+"supervivència del nostre projecte depengui d'unes petites subvencions, "
+"algunes d'elles procedents d'organitzacions vinculades als governs."
 
 #. type: Plain text
 msgid ""
 "Now, we would like you to think about it: where should our funding come from?"
-msgstr ""
+msgstr "Ara, ens agradaria que penseu: d'on ha de venir el nostre finançament?"
 
 #. type: Plain text
 msgid ""
@@ -107,6 +131,10 @@ msgid ""
 "users themselves, so that in return, we can continue to use our money in "
 "their best interest, with complete independence."
 msgstr ""
+"La resposta és clara per a nosaltres: la supervivència de Tails l'han de "
+"garantir els mateixos usuaris, de manera que, a canvi, puguem seguir "
+"utilitzant els nostres diners en el seu millor interès, amb total "
+"independència."
 
 #. type: Plain text
 msgid ""
@@ -117,6 +145,13 @@ msgid ""
 "budget ridiculously small compared to the multibillionaire companies and "
 "agencies running the surveillance business."
 msgstr ""
+"A partir de les estadístiques anònimes del nostre lloc web sabem que Tails "
+"és utilitzat per unes 18 000 persones cada dia. **Si cadascuna d'elles donés "
+"12€, el preu d'un llapis USB, el nostre pressupost per a tot l'any "
+"s'assoliria en un dia.** Com podeu veure, finançar Tails a través de "
+"donacions és realista i el nostre pressupost ridículament petit en "
+"comparació a les empreses i agències multimilionàries que gestionen el "
+"negoci de la vigilància."
 
 #. type: Plain text
 msgid ""
@@ -125,14 +160,23 @@ msgid ""
 "[[helping all of these people|news/who_are_you_helping]] by keeping Tails "
 "alive. Please consider setting up a yearly or monthly donation."
 msgstr ""
+"Però molts dels nostres usuaris podrien tenir problemes si fessin una "
+"donació a una eina antivigilància com Tails. Per tant, quan feu una donació "
+"a Tails, també esteu [[ajudant a totes aquestes persones|news/"
+"who_are_you_helping]] mantenint Tails viu. Penseu en configurar una donació "
+"anual o mensual."
 
 #. type: Plain text
 msgid ""
 "If you want Tails to remain independent, please take one minute to make a "
 "donation."
 msgstr ""
+"Si voleu que Tails es mantingui independent, preneu un minut per fer una "
+"donació."
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=why\">Donate</a></div>\n"
 msgstr ""
+"<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=why\">Feu "
+"una donació</a></div>\n"

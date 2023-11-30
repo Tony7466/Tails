@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-08 00:11+0000\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
+"PO-Revision-Date: 2023-11-15 21:14+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -39,8 +39,7 @@ msgid ""
 "<p><strong>You might overwrite any hard disk on the computer.</strong> If at some\n"
 "point you are not sure about which device to choose, stop proceeding.</p>\n"
 msgstr ""
-"<p><strong>Podeu sobreescriure qualsevol disc dur de l'ordinador.</strong> "
-"Si en algun punt\n"
+"<p><strong>Podeu sobreescriure qualsevol disc dur de l'ordinador.</strong> Si en algun punt\n"
 "no esteu segur de quin dispositiu triar, millor no continueu.</p>\n"
 
 #. type: Plain text
@@ -63,8 +62,7 @@ msgid ""
 "    A list of all the storage devices on the computer appears in the left pane\n"
 "    of the window.\n"
 msgstr ""
-"    Al panell esquerre de la finestra apareix una llista de tots els "
-"dispositius\n"
+"    Al panell esquerre de la finestra apareix una llista de tots els dispositius\n"
 "    d'emmagatzematge de l'ordinador.\n"
 
 #. type: Bullet: '3.  '
@@ -77,8 +75,7 @@ msgid ""
 "    A new device appears in the list of storage devices. This new device\n"
 "    corresponds to the USB stick that you plugged in. Click on it.\n"
 msgstr ""
-"    Apareix un dispositiu nou a la llista de dispositius d'emmagatzematge. "
-"Aquest nou dispositiu\n"
+"    Apareix un dispositiu nou a la llista de dispositius d'emmagatzematge. Aquest nou dispositiu\n"
 "    correspon al llapis USB que heu connectat. Feu-hi clic.\n"
 
 #. type: Bullet: '4.  '
@@ -102,8 +99,7 @@ msgid ""
 "    Erase</span> button on the bottom right\n"
 msgstr ""
 "    a. Si hi ha una pestanya <span class=\"guilabel\">Esborra</span>\n"
-"    al panell dret, feu-hi clic i després feu clic al botó <span class=\"bold"
-"\">\n"
+"    al panell dret, feu-hi clic i després feu clic al botó <span class=\"bold\">\n"
 "    Esborra</span> a la part inferior dreta\n"
 
 #. type: Plain text
@@ -160,9 +156,7 @@ msgstr "Formateu mitjançant la línia d'ordres"
 #. type: Plain text
 #, no-wrap
 msgid "<!-- Note for translators: This section is very similar to /install/mac/usb. -->\n"
-msgstr ""
-"<!-- Note for translators: This section is very similar to /install/mac/usb. "
-"-->\n"
+msgstr "<!-- Note for translators: This section is very similar to /install/mac/usb. -->\n"
 
 #. type: Bullet: '1. '
 msgid "Unplug the USB stick from the computer."
@@ -195,9 +189,7 @@ msgstr "       diskutil list\n"
 #. type: Plain text
 #, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
-msgstr ""
-"   Retorna una llista dels dispositius d'emmagatzematge del sistema. Per "
-"exemple:\n"
+msgstr "   Retorna una llista dels dispositius d'emmagatzematge del sistema. Per exemple:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -286,8 +278,7 @@ msgid ""
 msgstr ""
 "   <div class=\"caution\">\n"
 "   <p>Si no esteu segur del nom del dispositiu, millor no continueu o\n"
-"   <strong>correu el risc de sobreescriure qualsevol disc dur del "
-"sistema</strong>.</p>\n"
+"   <strong>correu el risc de sobreescriure qualsevol disc dur del sistema</strong>.</p>\n"
 "   </div>\n"
 
 #. type: Bullet: '1. '

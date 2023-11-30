@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-04 19:12+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"POT-Creation-Date: 2023-11-18 18:18+0000\n"
+"PO-Revision-Date: 2023-11-22 00:16+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -84,8 +84,8 @@ msgid ""
 "org/firefox/) and modified to protect your anonymity with:"
 msgstr ""
 "[Navegador Tor](https://www.torproject.org) ([[Més...|doc/anonymous_internet/"
-"Tor_Browser]]), un navegador web basat en [Mozilla Firefox](https://"
-"www.mozilla. org/firefox/) i modificat per protegir el vostre anonimat amb:"
+"Tor_Browser]]), un navegador web basat en [Mozilla Firefox](https://www."
+"mozilla. org/firefox/) i modificat per protegir el vostre anonimat amb:"
 
 #. type: Bullet: '  - '
 msgid "all cookies are treated as session cookies by default;"
@@ -125,7 +125,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[OnionShare](https://onionshare.org/) for anonymous file sharing"
-msgstr "[OnionShare](https://onionshare.org/) per compartir fitxers anònimament"
+msgstr ""
+"[OnionShare](https://onionshare.org/) per compartir fitxers anònimament"
 
 #. type: Bullet: '* '
 msgid ""
@@ -201,7 +202,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
-msgstr "[Brasero](https://wiki.gnome.org/Apps/Brasero) per enregistrar CD i DVD"
+msgstr ""
+"[Brasero](https://wiki.gnome.org/Apps/Brasero) per enregistrar CD i DVD"
 
 #. type: Bullet: '* '
 msgid ""
@@ -266,8 +268,8 @@ msgid ""
 msgstr ""
 "[Teclat de pantalla GNOME](https://help.gnome.org/users/gnome-help/stable/"
 "keyboard-osk.html.ca) per a l'accessibilitat i com a contramesura contra el "
-"maquinari [[!wikipedia Keystroke logging desc=\" d'enregistrament de tecles\""
-"]] ([[Més...|doc/encryption_and_privacy/virtual_keyboard]])"
+"maquinari [[!wikipedia Keystroke logging desc=\" d'enregistrament de tecles"
+"\"]] ([[Més...|doc/encryption_and_privacy/virtual_keyboard]])"
 
 #. type: Bullet: '* '
 msgid ""
@@ -275,8 +277,8 @@ msgid ""
 "(https://0xacab.org/jvoisin/mat2) to remove metadata from files ([[More...|"
 "doc/sensitive_documents/metadata]])"
 msgstr ""
-"[Netejador de Metadades](https://metadatacleaner.romainvigier.fr/) i "
-"[mat2](https://0xacab.org/jvoisin/mat2) per eliminar metadades dels fitxers "
+"[Netejador de Metadades](https://metadatacleaner.romainvigier.fr/) i [mat2]"
+"(https://0xacab.org/jvoisin/mat2) per eliminar metadades dels fitxers "
 "([[Més...|doc/sensitive_documents/metadata]])"
 
 #. type: Bullet: '* '
@@ -305,7 +307,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[FFmpeg](https://ffmpeg.org/) to record and convert audio and video"
-msgstr "[FFmpeg](https://ffmpeg.org/) per enregistrar i convertir àudio i vídeo"
+msgstr ""
+"[FFmpeg](https://ffmpeg.org/) per enregistrar i convertir àudio i vídeo"
 
 #. type: Title =
 #, no-wrap
@@ -387,21 +390,12 @@ msgstr "Suport multilingüe"
 #. type: Plain text
 msgid ""
 "When starting Tails, you can choose between a large number of languages, "
-"including Arabic, Azerbaijani, Catalan, Czech, Welsh, Danish, German, Greek, "
-"English, Spanish, Persian, Finnish, French, Croatian, Hungarian, Indonesian, "
-"Italian, Japanese, Khmer, Korean, Latvian, Bokmål, Dutch, Polish, "
-"Portuguese, Russian, Slovak, Slovene, Albanian, Serbian, Swedish, Turkish, "
-"Ukrainian, and Chinese."
+"including Arabic, English, Farsi, French, German, Hindi, Indonesian, "
+"Italian, Portuguese, Russian, Simplified Chinese, Spanish, Turkish, and more."
 msgstr ""
 "Quan inicieu Tails, podeu triar entre un gran nombre d'idiomes, com ara "
-"àrab, azerbaidjanès, català, txec, gal·lès, danès, alemany, grec, anglès, "
-"espanyol, persa, finès, francès, croat, hongarès, indonesi, italià, japonès, "
-"khmer, coreà, letó, bokmål, holandès, polonès, portuguès, rus, eslovac, "
-"eslovè, albanès, serbi, suec, turc, ucraïnès i xinès."
-
-#. type: Plain text
-msgid "The required keyboard input system is automatically enabled."
-msgstr "El sistema d'entrada de teclat necessari s'habilita automàticament."
+"àrab, alemany, anglès, espanyol, persa, francès, hindi, indonesi, italià, "
+"portuguès, rus, turc i xinès simplificat, entre d'altres."
 
 #. type: Plain text
 msgid ""
@@ -422,6 +416,9 @@ msgid ""
 msgstr ""
 "Si voleu facilitar l'ús de Tails per als parlants del vostre idioma, "
 "consulteu les [[directrius per a traductors|contribute/how/translate]]."
+
+#~ msgid "The required keyboard input system is automatically enabled."
+#~ msgstr "El sistema d'entrada de teclat necessari s'habilita automàticament."
 
 #~ msgid "[Scribus](https://www.scribus.net/) for page layout"
 #~ msgstr "[Scribus](https://www.scribus.net/), ein Layout-Programm"

@@ -11,7 +11,7 @@ Then /^I cannot run a command as root with sudo and the standard passwords$/ do
                          user: LIVE_USER).stderr
     sudo_failed = stderr.include?('The administration password is disabled') \
                   || stderr.include?('is not allowed to execute')
-    assert(sudo_failed, 'The administration password is not disabled:' + stderr)
+    assert(sudo_failed, "The administration password is not disabled:#{stderr}")
   end
 end
 

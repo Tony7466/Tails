@@ -1,8 +1,9 @@
 class FindFailed < StandardError
 end
 
-# This exception means that the error depends on some sort of breakage which should not be considered a proper
-# test failure. A test raising this should be re-run, not considered as failed.
+# This exception means that the error depends on some sort of breakage
+# which should not be considered a proper test failure.
+# A test raising this should be re-run, not considered as failed.
 class TestSuiteRuntimeError < StandardError
 end
 
@@ -327,7 +328,7 @@ class Screen
     end
     debug_log("Mouse: moving to (#{x}, #{y})") if opts[:log]
     stdout = xdotool('mousemove', x, y)
-    assert(stdout.empty?, "xdotool reported an error:\n" + stdout)
+    assert(stdout.empty?, "xdotool reported an error:\n#{stdout}")
     try_for(10) { mouse_location == [x, y] }
     [x, y]
   end
@@ -355,7 +356,7 @@ class Screen
     button = { 1 => 'left', 2 => 'middle', 3 => 'right' }[opts[:button]]
     debug_log("Mouse: #{action} #{button} button at (#{x}, #{y})") if opts[:log]
     stdout = xdotool('click', '--repeat', opts[:repeat], opts[:button])
-    assert(stdout.empty?, "xdotool reported an error:\n" + stdout)
+    assert(stdout.empty?, "xdotool reported an error:\n#{stdout}")
     [x, y]
   end
 end
@@ -382,17 +383,19 @@ class ImageBumpingScreen
   def interactive_image_bump(images, **opts)
     opts[:sensitivity] ||= OPENCV_MIN_SIMILARITY
     $interactive_image_bump_ignores ||= []
-    if !images.instance_of?(Array)
+    unless images.instance_of?(Array)
       images = [images]
     end
-    raise ImageBumpFailed if images.any? { |i| $interactive_image_bump_ignores.include?(i) }
+    raise ImageBumpFailed if images.any? do |i|
+                               $interactive_image_bump_ignores.include?(i)
+                             end
 
     message = "Failed to find #{images.size == 1 ? images.first : images}"
     notify_user(message)
     warn("Screen: #{message}, entering interactive image bumping mode")
     # Ring the ASCII bell for a helpful notification in most terminal
     # emulators.
-    STDOUT.write "\a"
+    $stdout.write "\a"
     loop do
       warn(
         "\n" \
@@ -402,7 +405,7 @@ class ImageBumpingScreen
         "d: Debugging REPL\n" \
         'q: Abort (to the FindFailed exception)'
       )
-      c = STDIN.getch
+      c = $stdin.getch
       case c
       when 'a'
         [0.80, 0.70, 0.60, 0.50, 0.40, 0.30].each do |sensitivity|
@@ -419,7 +422,7 @@ class ImageBumpingScreen
 
           warn 'Found match! Accept? (y/n)'
           loop do
-            c = STDIN.getch
+            c = $stdin.getch
             if c == 'y'
               FileUtils.cp("#{$config['TMPDIR']}/last_opencv_match.png",
                            "#{OPENCV_IMAGE_PATH}/#{m.image}")
@@ -444,7 +447,7 @@ class ImageBumpingScreen
           warn 'Failed to find images'
         else
           warn 'Found match! Accept? (y/n)'
-          c = STDIN.getch
+          c = $stdin.getch
           return m if c == 'y'
         end
       when 'i'

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-14 14:13+0000\n"
+"PO-Revision-Date: 2023-11-16 11:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -34,6 +34,7 @@ msgstr "[[!toc levels=2]]\n"
 #, no-wrap
 msgid "<h1 id=\"luks\">Introduction to <span class=\"application\">LUKS</span></h1>\n"
 msgstr ""
+"<h1 id=\"luks\">Einführung in <span class=\"application\">LUKS</span></h1>\n"
 
 #. type: Plain text
 #, no-wrap

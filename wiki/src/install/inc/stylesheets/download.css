@@ -38,12 +38,12 @@
 
 .progress {
   max-width: 100%;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .progress-bar {
   background: var(--medium-light-green);
-  height: 15px;
+  height: 20px;
 }
 
 /* Verification results */

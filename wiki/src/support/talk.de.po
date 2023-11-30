@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-08-29 07:10+0000\n"
-"PO-Revision-Date: 2023-11-12 18:11+0000\n"
+"PO-Revision-Date: 2023-11-16 11:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -32,7 +32,7 @@ msgstr "[[!img lib/email.png link=no]]"
 
 #. type: Content of: <div><p>
 msgid "You can write to our help desk by email:"
-msgstr ""
+msgstr "Sie können sich per E-Mail an unseren Helpdesk wenden:"
 
 #. type: Content of: <div><p>
 msgid "[[tails-support-private@boum.org|about/contact#tails-support-private]]"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-14 14:13+0000\n"
+"PO-Revision-Date: 2023-11-16 09:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -127,11 +127,11 @@ msgstr "Herunterladen ohne zu installieren:"
 
 #. type: Bullet: '    - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[Für USB-Sticks (USB-Image)|install/download]]"
 
 #. type: Bullet: '    - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[[[Für DVDs und virtuelle Maschinen (ISO-Image)|install/download-iso]]"
 
 #. type: Bullet: '  - '
 msgid "Upgrading a Tails USB stick:"

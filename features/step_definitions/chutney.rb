@@ -42,8 +42,6 @@ def chutney_data_dir_cleanup
   end
 end
 
-# XXX: giving up on a few worst offenders for now
-# rubocop:disable Metrics/MethodLength
 def initialize_chutney
   # Ensure that a fresh chutney instance is running, and that it will
   # be cleaned upon exit. We only do it once, though, since the same
@@ -99,7 +97,6 @@ want to delete Chutney's data directory and all test suite snapshots:
 
   $chutney_initialized = true
 end
-# rubocop:enable Metrics/MethodLength
 
 def wait_until_chutney_is_working
   return if $chutney_working

@@ -7,7 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-08-15 01:40+0200\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-11-15 14:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +54,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "  This updates fixes:\n"
+msgid "  This update fixes:\n"
 msgstr ""
 
 #. type: Bullet: '  * '
@@ -72,7 +73,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  These vulnerability could allow a malicious application running in Tails to\n"
+"  These vulnerabilities could allow a malicious application running in Tails to\n"
 "  access and steal data from another application in Tails, for example\n"
 "  passwords stored in *KeePassXC* or private keys stored in *Electrum*.\n"
 msgstr ""

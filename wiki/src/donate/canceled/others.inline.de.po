@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"PO-Revision-Date: 2023-11-23 12:17+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -31,6 +31,8 @@ msgstr "<h1>Andere Möglichkeiten zu spenden</h1>\n"
 #, no-wrap
 msgid "<p>One of the other ways to donate to Tails might be better for you:</p>\n"
 msgstr ""
+"<p>Eine der anderen Möglichkeiten, für Tails zu spenden, könnte für Sie "
+"besser sein:</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,6 +45,13 @@ msgid ""
 "  <li>[[Corporate matching programs|donate#corporate]]</li>\n"
 "</ul>\n"
 msgstr ""
+"<ul>\n"
+"  <li>[[Banküberweisung|donate#transfer]]</li>\n"
+"  <li>[[Bar|donate#post]]</li>\n"
+"  <li>[[US-Scheck|donate#post]]</li>\n"
+"  <li>[[Kryptowährungen|donate#cryptos]]</li>\n"
+"  <li>[[Unternehmens-Matching-Programme|donate#corporate]]</li>\n"
+"</ul>\n"
 
 #. type: Plain text
 #, no-wrap

@@ -182,7 +182,7 @@ class VMStorage
       primary_partition = g.list_partitions[0]
       if opts[:luks_password]
         g.luks_format(primary_partition, opts[:luks_password], 0)
-        luks_mapping = File.basename(primary_partition) + '_unlocked'
+        luks_mapping = "#{File.basename(primary_partition)}_unlocked"
         g.cryptsetup_open(primary_partition, opts[:luks_password], luks_mapping)
         luks_dev = "/dev/mapper/#{luks_mapping}"
         g.mkfs(fstype, luks_dev)

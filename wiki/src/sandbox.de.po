@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "POT-Creation-Date: 2022-11-15 12:04+0000\n"
-"PO-Revision-Date: 2023-11-10 22:11+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: None\n"
 "Language: de\n"
@@ -28,11 +28,11 @@ msgstr "*hervorgehobener* Text\n"
 #. type: Title #
 #, no-wrap
 msgid "GitLab syntax"
-msgstr ""
+msgstr "GitLab-Syntax"
 
 #. type: Plain text
 msgid "- MR: !123 - issue: #18079"
-msgstr ""
+msgstr "- MR: !123 - issue: #18079"
 
 #. type: Title #
 #, no-wrap

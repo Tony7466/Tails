@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-10-01 21:12+0000\n"
-"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
+"PO-Revision-Date: 2023-11-21 18:16+0000\n"
+"Last-Translator: v41bis <boum.vvduv@passmail.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -60,10 +60,8 @@ msgid "[[Why is Tor slow?|anonymous_internet/tor/slow]]"
 msgstr "[[Perché Tor è lento?|anonymous_internet/tor/slow]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[Viewing the circuits of Tor|anonymous_internet/tor/circuits]]"
 msgid "[[Managing the circuits of Tor|anonymous_internet/tor/circuits]]"
-msgstr "[[Visualizzare i circuiti di Tor|anonymous_internet/tor/circuits]]"
+msgstr "[[Gestisci i circuiti di Tor|anonymous_internet/tor/circuits]]"
 
 #. type: Title ###
 #, no-wrap

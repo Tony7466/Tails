@@ -43,25 +43,30 @@ When /^I bump the (hardware clock's|system) time with "([^"]+)"$/ do |clock_type
 end
 
 When /^I allow time sync before Tor connects to work again$/ do
-  $vm.execute_successfully('mv /etc/tails-get-network-time.conf.bak /etc/tails-get-network-time.conf')
+  $vm.execute_successfully(
+    'mv /etc/tails-get-network-time.conf.bak /etc/tails-get-network-time.conf'
+  )
 end
 
 When /^I make sure time sync before Tor connects (fails|times out|indicates a captive portal|uses a fake connectivity check service)$/ do |failure_mode|
   if failure_mode == 'fails'
-    url = "localhost:666"
+    url = 'localhost:666'
   else
     step 'a web server is running on the LAN'
-    endpoint = if failure_mode == 'indicates a captive portal'
-               'redirect-to?url=/'
-             elsif failure_mode == 'times out'
-               'delay/30'
-             else
-               '/'
-             end
+    endpoint = case failure_mode
+               when 'indicates a captive portal'
+                 'redirect-to?url=/'
+               when 'times out'
+                 'delay/30'
+               else
+                 '/'
+               end
     url = "#{@web_server_url}/#{endpoint}"
   end
 
-  $vm.execute_successfully('cp /etc/tails-get-network-time.conf /etc/tails-get-network-time.conf.bak')
+  $vm.execute_successfully(
+    'cp /etc/tails-get-network-time.conf /etc/tails-get-network-time.conf.bak'
+  )
   $vm.file_overwrite(
     '/etc/tails-get-network-time.conf',
     ["url=#{url}", 'debug=true']
@@ -83,7 +88,7 @@ Then /^the system clock is less than (\d+) minutes incorrect$/ do |max_diff_mins
     reference:     Time.now,
     actual:        guest_time,
     description:   "guest's",
-    max_diff_mins: max_diff_mins
+    max_diff_mins:
   )
 end
 
@@ -95,13 +100,13 @@ def displayed_time_str
 end
 
 Then /^the displayed clock is less than (\d+) minutes incorrect in "([^"]*)"/ do |max_diff_mins, timezone_offset|
-  displayed_time = DateTime.parse(displayed_time_str + ' ' + timezone_offset)
+  displayed_time = DateTime.parse("#{displayed_time_str} #{timezone_offset}")
                            .to_time
   assert_time_diff_smaller_than(
     reference:     Time.now(in: timezone_offset),
     actual:        displayed_time,
     description:   'displayed',
-    max_diff_mins: max_diff_mins
+    max_diff_mins:
   )
 end
 
@@ -147,7 +152,8 @@ Then /^the hardware clock is still off by "([^"]+)"$/ do |timediff|
   hwclock = DateTime.parse(
     $vm.execute_successfully('hwclock -r').stdout.chomp
   ).to_time
-  expected = DateTime.parse(cmd_helper(['date', '--rfc-3339=seconds', '-d', "now #{timediff}"])).to_time
+  expected = DateTime.parse(cmd_helper(['date', '--rfc-3339=seconds',
+                                        '-d', "now #{timediff}",])).to_time
   expected_time_lower_bound = expected - max_time_drift
   expected_time_upper_bound = expected + 1
   assert(expected_time_lower_bound <= hwclock &&
@@ -195,7 +201,10 @@ end
 Then /^the fake connectivity check service has received a new HTTP request$/ do\
   @captured_request_headers ||= []
   headers = []
-  try_for(10, msg: 'The fake connectivity check service has not received a new HTTP request') do
+  try_for(
+    10,
+    msg: 'The fake connectivity check service has not received a new HTTP request'
+  ) do
     # List the files in the fake connectivity check service's headers
     headers = Dir.glob("#{@lan_web_server_headers_dir}/*")
 

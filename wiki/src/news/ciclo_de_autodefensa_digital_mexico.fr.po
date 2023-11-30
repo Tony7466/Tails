@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-11-07 20:12+0000\n"
 "Last-Translator: conan <conan@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,10 +38,6 @@ msgid "[[!tag announce]]\n"
 msgstr "[[!tag announce]]\n"
 
 #. type: Plain text
-#| msgid ""
-#| "Los proyectos Tor, Tails y Guardian Project están llamando a todos y "
-#| "todas las defensoras de derechos humanos, periodistas, activistas, "
-#| "feministas, defensoras del territorio, etc."
 msgid ""
 "Los proyectos Tor, Tails y Guardian Project están llamando a todos y todas "
 "las defensoras de derechos humanos, periodistas, activistas, feministas, "
@@ -52,11 +48,6 @@ msgstr ""
 "defensoras del territorio, etc."
 
 #. type: Plain text
-#| msgid ""
-#| "En medio de crecientes amenazas a nuestra seguridad y libertad digital en "
-#| "México, sabemos que es cada vez más importante compartir tácticas contra "
-#| "la vigilancia, para nuestra autodefensa digital, escuchar y empoderar las "
-#| "personas que luchan por un cambio social."
 msgid ""
 "En medio de crecientes amenazas a nuestra seguridad y libertad digital en "
 "México, sabemos que es cada vez más importante compartir tácticas contra la "
@@ -70,7 +61,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "**Inscríbete antes del 28 de febrero!**\n"
 msgid "**Inscríbete antes del 28 de febrero!**\n"
 msgstr "**Inscríbete antes del 28 de febrero!**\n"
 
@@ -89,9 +79,6 @@ msgstr "<img src=\"https://gitlab.torproject.org/tpo/ux/research/uploads/1c51538
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "Si quieres aprender más sobre autodefensa digital\n"
-#| "=================================================\n"
 msgid ""
 "Si quieres aprender más sobre autodefensa digital\n"
 "=================================================\n"
@@ -104,9 +91,6 @@ msgid "Estamos organizando unos talleres en linea en marzo y abril:"
 msgstr "Estamos organizando unos talleres en linea en marzo y abril:"
 
 #. type: Bullet: '- '
-#| msgid ""
-#| "**[Tor Browser](https://torproject.org/)**: Como navegar en Internet de "
-#| "manera anónima y sin censura (para computadoras)."
 msgid ""
 "**[Tor Browser](https://torproject.org/)**: Como navegar en Internet de "
 "manera anónima y sin censura (para computadoras)."
@@ -115,10 +99,6 @@ msgstr ""
 "manera anónima y sin censura (para computadoras)."
 
 #. type: Bullet: '- '
-#| msgid ""
-#| "**[Tor Browser Android](https://torproject.org/)** y **[Onion Browser]"
-#| "(https://onionbrowser.com/)**: Como navegar en Internet de manera anónima "
-#| "y sin censura (para celulares)."
 msgid ""
 "**[Tor Browser Android](https://torproject.org/)** y **[Onion Browser]"
 "(https://onionbrowser.com/)**: Como navegar en Internet de manera anónima y "
@@ -155,8 +135,6 @@ msgid "<https://survey.tails.boum.org/index.php/146737?lang=es>"
 msgstr "<https://survey.tails.boum.org/index.php/146737?lang=es>"
 
 #. type: Plain text
-#| msgid ""
-#| "Puedes participar en los talleres de manera anónima y no seran grabados."
 msgid ""
 "Puedes participar en los talleres de manera anónima y no seran grabados."
 msgstr ""
@@ -168,9 +146,6 @@ msgid "Si quieres compartir tu experiencia con nosotras para mejorar nuestras he
 msgstr "Si quieres compartir tu experiencia con nosotras para mejorar nuestras herramientas"
 
 #. type: Plain text
-#| msgid ""
-#| "Estamos interesadas en aprender como mejorar nuestras herramientas para "
-#| "que sean más útiles para vuestro trabajo y vuestras luchas en México."
 msgid ""
 "Estamos interesadas en aprender como mejorar nuestras herramientas para que "
 "sean más útiles para vuestro trabajo y vuestras luchas en México."
@@ -179,10 +154,6 @@ msgstr ""
 "sean más útiles para vuestro trabajo y vuestras luchas en México."
 
 #. type: Plain text
-#| msgid ""
-#| "Organizaremos entrevistas, pruebas de usabilidad, encuestas y otras "
-#| "actividades para aprender de los problemas que encuentran nuestras "
-#| "usuarias en México."
 msgid ""
 "Organizaremos entrevistas, pruebas de usabilidad, encuestas y otras "
 "actividades para aprender de los problemas que encuentran nuestras usuarias "
@@ -193,9 +164,6 @@ msgstr ""
 "en México."
 
 #. type: Plain text
-#| msgid ""
-#| "Si quieres hablar con nosotras sobre tu uso de Tor Browser, Orbot, Onion "
-#| "Browser o Tails, por favor rellene también el siguiente formulario:"
 msgid ""
 "Si quieres hablar con nosotras sobre tu uso de Tor Browser, Orbot, Onion "
 "Browser o Tails, por favor rellene también el siguiente formulario:"

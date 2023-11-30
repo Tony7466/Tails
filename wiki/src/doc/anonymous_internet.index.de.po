@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-23 17:17+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -30,13 +30,15 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[Troubleshooting Wi-Fi not working|anonymous_internet/no-wifi]]"
-msgstr ""
+msgstr "[[Fehlerbehebung WLAN funktioniert nicht|anonymous_internet/no-wifi]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Signing in to a network using a captive portal|anonymous_internet/"
 "unsafe_browser]]"
 msgstr ""
+"[[Anmeldung in einem Netzwerk über ein unverschlüsseltes Portal|"
+"anonymous_internet/unsafe_browser]]"
 
 #. type: Bullet: '- '
 msgid "[[Connecting to the Tor network|anonymous_internet/tor]]"

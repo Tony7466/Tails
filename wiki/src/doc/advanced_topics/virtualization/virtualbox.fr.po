@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-23 12:56+0000\n"
 "PO-Revision-Date: 2023-01-21 09:17+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
@@ -199,7 +199,6 @@ msgid "To create a new virtual machine:"
 msgstr "Pour créer une nouvelle machine virtuelle :"
 
 #. type: Bullet: '  1. '
-#| msgid "Choose **Machine**&nbsp;▸**New...**."
 msgid "Choose **Machine**&nbsp;▸**New...**."
 msgstr "Choisir **Machine**&nbsp;▸**Nouvelle...**."
 
@@ -266,7 +265,6 @@ msgid "Select the new virtual machine in the left pane."
 msgstr "Sélectionner la machine virtuelle dans la partie gauche."
 
 #. type: Bullet: '  1. '
-#| msgid "Choose **Machine**&nbsp;▸ **Settings...**."
 msgid "Choose **Machine**&nbsp;▸ **Settings...**."
 msgstr "Choisir **Machine**&nbsp;▸ **Paramètres...**."
 
@@ -367,9 +365,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "<p>To change the screen resolution from inside Tails, choose\n"
-#| "<b>Applications&nbsp;▸ System Tools&nbsp;▸ Settings&nbsp;▸ Displays&nbsp;▸ Resolution</b>.</p>\n"
 msgid ""
 "<p>To change the screen resolution from inside Tails, choose\n"
 "<b>Applications&nbsp;▸ System Tools&nbsp;▸ Settings&nbsp;▸ Displays&nbsp;▸ Resolution</b>.</p>\n"

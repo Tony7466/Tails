@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 09:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails localization discussion <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -37,20 +37,13 @@ msgstr ""
 "manuellen Upgrade vorgenommen wurden."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Tails includes an automatic mechanism to upgrade a USB stick to a newer "
-#| "version. In some cases, it is impossible to do an **automatic upgrade** "
-#| "and you might have to do a **manual upgrade**. This page describes both "
-#| "techniques."
 msgid ""
 "In some cases, it is impossible to do an **automatic upgrade** and you might "
 "have to do a **manual upgrade**. This page describes both techniques."
 msgstr ""
-"Tails enthält ein automatisches Verfahren, um einen USB-Stick auf neuere "
-"Versionen zu aktualisieren. Falls diese **automatische Aktualisierung** "
-"nicht möglich ist, ist es möglich eine **manuelle Aktualisierung** "
-"durchzuführen. Diese Seite beschreibt beide Vorgehensweisen."
+"Falls eine **automatische Aktualisierung** unmöglich ist, ist eine **"
+"manuelle Aktualisierung** durchzuführen. Diese Seite beschreibt beide "
+"Vorgehensweisen."
 
 #. type: Plain text
 #, no-wrap

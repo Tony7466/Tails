@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-15 11:13+0000\n"
+"PO-Revision-Date: 2023-11-16 11:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -32,17 +32,14 @@ msgstr ""
 "**Tails**&nbsp;▸ **Persistenter Speicher**."
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "When run for the first time, or after [[deleting a previous Persistent "
 "Storage|delete]], an assistant allows you to create a Persistent Storage in "
 "the free space left on the USB stick."
 msgstr ""
-"Beim erstmaligen Ausführen oder nach dem [[Löschen des beständigen "
-"Speicherbereichs|delete]] schlägt Ihnen der Assistent vor, einen neuen "
-"beständigen Speicherbereich auf dem USB-Stick zu erstellen. Lesen Sie dazu "
-"unsere [[Installationsanweisungen|install/clone#create-persistence]], um "
-"mehr Hilfe beim Erstellen des beständigen Speicherbereichs zu erhalten."
+"Bei der ersten Ausführung oder nach dem [[Löschen eines vorherigen "
+"persistenten Speichers|Löschen]] ermöglicht Ihnen ein Assistent, einen "
+"persistenten Speicher auf dem freien Platz auf dem USB-Stick zu erstellen."
 
 #. type: Plain text
 #, no-wrap

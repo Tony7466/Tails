@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -40,6 +40,8 @@ msgstr ""
 msgid ""
 "This page describes the technique to start Tails from a USB stick on Mac."
 msgstr ""
+"Diese Seite beschreibt die Technik, um Tails von einem USB-Stick auf dem Mac "
+"zu starten."
 
 #. type: Plain text
 #, no-wrap

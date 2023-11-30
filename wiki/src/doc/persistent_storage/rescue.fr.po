@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-11-23 12:57+0000\n"
 "PO-Revision-Date: 2023-07-19 23:37+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,9 +129,6 @@ msgid "   </div>\n"
 msgstr "   </div>\n"
 
 #. type: Bullet: '1. '
-#| msgid ""
-#| "Choose **Applications**&nbsp;▸ **Accessories**&nbsp;▸ **Files** to open "
-#| "the *Files* browser."
 msgid ""
 "Choose **Applications**&nbsp;▸ **Accessories**&nbsp;▸ **Files** to open the "
 "*Files* browser."
@@ -179,14 +176,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "1. Choose\n"
-#| "   <span class=\"menuchoice\">\n"
-#| "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "     <span class=\"guisubmenu\">System Tools</span>&nbsp;▸\n"
-#| "     <span class=\"guimenuitem\">Root Terminal</span>\n"
-#| "   </span>\n"
-#| "   to open a terminal with administration rights.\n"
 msgid ""
 "1. Choose\n"
 "   <span class=\"menuchoice\">\n"

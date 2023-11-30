@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-25 15:41-0600\n"
-"PO-Revision-Date: 2023-11-15 00:13+0000\n"
-"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
+"PO-Revision-Date: 2023-11-19 15:16+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Our achievements in 2020\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Els nostres assoliments el 2020\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,6 +43,9 @@ msgid ""
 "improvements that made Tails easier to use by the people who need it the "
 "most."
 msgstr ""
+"Malgrat tot, el 2020 ha sigut un gran any per a Tails. Hem llançat millores "
+"importants que han fet que Tails sigui més fàcil d'utilitzar per les "
+"persones que més ho necessiten."
 
 #. type: Plain text
 #, no-wrap
@@ -50,6 +53,9 @@ msgid ""
 "If you enjoyed our work in 2020, take a minute now to\n"
 "<a href=\"https://tails.net/donate/?r=at\">donate and fight surveillance and censorship</a>!\n"
 msgstr ""
+"Si us ha agradat la nostra feina el 2020, preneu-vos un minut ara per\n"
+"<a href=\"https://tails.net/donate/?r=at\">fer una donació i lluitar contra "
+"la vigilància i la censura</a>!\n"
 
 #. type: Plain text
 msgid ""
@@ -58,10 +64,14 @@ msgid ""
 "to May only, when the lockdown measures were the strictest worldwide, Tails "
 "got used 10% more than ever before."
 msgstr ""
+"Pel nombre d'actualitzacions automàtiques, sabem que Tails s'ha utilitzat un "
+"20% més el 2020 que el 2019, que és el nostre augment més gran des del 2016. "
+"Només de març a maig, quan les mesures de confinament eren les més estrictes "
+"a tot el món, Tails es va utilitzar un 10% més que mai."
 
 #. type: Plain text
 msgid "Today, Tails is used close to 32&#8239;000 times each day."
-msgstr ""
+msgstr "Avui, Tails s'utilitza prop de 32&#8239;000 vegades al dia."
 
 #. type: Plain text
 #, no-wrap
@@ -71,7 +81,7 @@ msgstr "[[!img users.png link=\"no\" alt=\"\"]]\n"
 #. type: Title =
 #, no-wrap
 msgid "Simplified starting procedure"
-msgstr ""
+msgstr "Procediment d'inici simplificat"
 
 #. type: Plain text
 msgid ""
@@ -80,6 +90,10 @@ msgid ""
 "complicated and risky ways to be able to use Tails (or Linux in general).  "
 "Now you don't have to edit the BIOS anymore!"
 msgstr ""
+"Hem afegit suport per a **Arrencada segura** a l'abril. L'arrencada segura "
+"no fa que el vostre ordinador sigui més segur, però va obligar la majoria "
+"dels usuaris a editar la seva BIOS de maneres complicades i arriscades per "
+"poder utilitzar Tails (o Linux en general). Ara ja no cal editar la BIOS!"
 
 #. type: Plain text
 msgid ""
@@ -87,12 +101,17 @@ msgid ""
 "Windows 8 or 10 using the **Start [[!img lib/start.png alt=\"\" link=\"no"
 "\"]]** menu.  Now you don't have to hammer that Boot Menu key anymore!"
 msgstr ""
+"També hem documentat el procediment **Maj+Reinici** per iniciar Tails des de "
+"Windows 8 o 10 mitjançant el menú d'**Inici [[!img lib/start.png alt=\"\" "
+"link=\"no\"]]**. Ara ja no cal que premeu aquesta tecla del menú d'arrencada!"
 
 #. type: Plain text
 msgid ""
 "All this dramatically simplified our [[starting instructions for PCs|install/"
 "windows#restart]]."
 msgstr ""
+"Tot això ha simplificat dràsticament les nostres [[instruccions d'inici per "
+"a PC|install/windows#restart]]."
 
 #. type: Plain text
 #, no-wrap
@@ -103,7 +122,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Better upgrades"
-msgstr ""
+msgstr "Millors actualitzacions"
 
 #. type: Plain text
 msgid ""
@@ -111,12 +130,17 @@ msgid ""
 "Tails, we released significant improvements to automatic upgrades in "
 "January.  We made automatic upgrades:"
 msgstr ""
+"Com que sabem que les actualitzacions són un dels aspectes més complicats de "
+"l'ús de Tails, al gener vam publicar millores significatives a les "
+"actualitzacions automàtiques. Hem fet actualitzacions automàtiques:"
 
 #. type: Bullet: '- '
 msgid ""
 "Available **from all prior versions** to the latest version in a single "
 "upgrade."
 msgstr ""
+"Disponibles **des de totes les versions anteriors** a l'última versió en una "
+"única actualització."
 
 #. type: Plain text
 #, no-wrap
@@ -124,10 +148,13 @@ msgid ""
 "  For example, you can upgrade from 4.10 to 4.14 directly, without\n"
 "  having to first upgrade to 4.12 anymore.\n"
 msgstr ""
+"  Per exemple, podeu actualitzar de la versió 4.10 a la 4.14 directament, "
+"sense\n"
+"  haver d'actualitzar primer a la versió 4.12.\n"
 
 #. type: Plain text
 msgid "- Available **endlessly between minor versions** of Tails."
-msgstr ""
+msgstr "- Disponible **interminablement entre versions menors** de Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -136,25 +163,32 @@ msgid ""
 "  upgrades. You will only have to do a manual upgrade between major versions,\n"
 "  for example to upgrade to Tails 5.0 at the end of 2021.\n"
 msgstr ""
+"  Per exemple, ja no haureu de fer una actualització manual després d'unes "
+"quantes\n"
+"  actualitzacions. Només haureu de fer una actualització manual entre les "
+"versions principals,\n"
+"  per exemple, per actualitzar a Tails 5.0 a finals de 2021.\n"
 
 #. type: Plain text
 msgid "- Use less memory."
-msgstr ""
+msgstr "- Utilitza menys memòria."
 
 #. type: Plain text
 msgid "- Better documented, especially manual upgrades."
-msgstr ""
+msgstr "- Millor documentat, especialment les actualitzacions manuals."
 
 #. type: Title =
 #, no-wrap
 msgid "But also&hellip;"
-msgstr ""
+msgstr "Però també&hellip;"
 
 #. type: Bullet: '- '
 msgid ""
 "We completely redesigned our Home page to explain better what is Tails and "
 "why people should use it."
 msgstr ""
+"Hem redissenyat completament la nostra pàgina d'inici per explicar millor "
+"què és Tails i per què la gent l'hauria d'utilitzar."
 
 #. type: Plain text
 #, no-wrap
@@ -166,6 +200,8 @@ msgid ""
 "We made it possible to save the settings of the Welcome Screen in the "
 "Persistent Storage: language, keyboard, and additional settings."
 msgstr ""
+"Hem fet possible desar la configuració de la Pantalla de Benvinguda a "
+"l'Emmagatzematge Persistent: idioma, teclat i paràmetres addicionals."
 
 #. type: Plain text
 #, no-wrap
@@ -178,6 +214,10 @@ msgid ""
 "the *Tails Verification* extension|verification_extension_deprecation]] with "
 "similar JavaScript code that runs directly on the page."
 msgstr ""
+"Hem simplificat el procediment de verificació a la nostra pàgina de baixada "
+"[[substituint l'extensió *Tails "
+"Verification*|verification_extension_deprecation]] per un codi de JavaScript "
+"similar que s'executa directament a la pàgina."
 
 #. type: Plain text
 #, no-wrap
@@ -185,6 +225,9 @@ msgid ""
 "  People without JavaScript are also now pointed to the checksum of the\n"
 "  download.\n"
 msgstr ""
+"  A les persones sense JavaScript també se les redirecciona a la suma de "
+"verificació de la\n"
+"  baixada.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -196,6 +239,8 @@ msgid ""
 "We added support for the **hardware cryptocurrency wallets** Trezor and "
 "Ledger."
 msgstr ""
+"Hem afegit suport per a les **carteres de criptomoneda de maquinari** Trezor "
+"i Ledger."
 
 #. type: Title =
 #, no-wrap
@@ -210,12 +255,20 @@ msgid ""
 "adapting to new versions of the underlying software, keeping our website and "
 "development infrastructure secure and reliable, etc."
 msgstr ""
+"Malauradament, la major part del nostre treball no comporta canvis tan "
+"importants per als nostres usuaris. Tails és un treball interminable "
+"d'actualitzacions i manteniment: publicar una nova versió cada quatre "
+"setmanes per solucionar vulnerabilitats de seguretat, adaptar-se a noves "
+"versions del programari subjacent, mantenir la nostra pàgina web i la nostra "
+"infraestructura de desenvolupament segura i fiable, etc."
 
 #. type: Bullet: '- '
 msgid ""
 "We published **more releases than ever**. In 2020 we released 15 new "
 "versions of Tails to always have your back covered!"
 msgstr ""
+"Hem publicat **més publicacions que mai**. El 2020 hem llançat 15 noves "
+"versions de Tails per tenir sempre l'esquena coberta!"
 
 #. type: Plain text
 #, no-wrap
@@ -223,6 +276,9 @@ msgid ""
 "  At the end of 2019, Firefox switched from releasing a new version every 6\n"
 "  weeks to releasing a new version every 4 weeks. And so did we.\n"
 msgstr ""
+"  A finals de 2019, Firefox va canviar de llançar una nova versió cada sis\n"
+"  setmanes a llançar una nova versió cada quatre setmanes. I nosaltres també."
+"\n"
 
 #. type: Bullet: '- '
 msgid ""
@@ -230,6 +286,9 @@ msgid ""
 "parts. This reduced the work needed to publish a new release of Tails from 2 "
 "full days of work to only 1 day."
 msgstr ""
+"Hem racionalitzat el nostre procés de llançament automatitzant les parts que "
+"consumeixen més temps. Això ha reduït el treball necessari per publicar una "
+"nova versió de Tails de dos dies complets de treball a només un dia."
 
 #. type: Plain text
 #, no-wrap
@@ -238,11 +297,17 @@ msgid ""
 "  matters to our users and allow us to react faster to emergencies\n"
 "  in case of security vulnerabilities.\n"
 msgstr ""
+"  A la llarga, això ens ajudarà a dedicar més temps a allò que realment\n"
+"  importa als nostres usuaris i ens permet reaccionar més ràpidament davant "
+"d'emergències\n"
+"  en cas de vulnerabilitats de seguretat.\n"
 
 #. type: Plain text
 msgid ""
 "- We migrated to GitLab and saw many more of you jump in and give us a hand!"
 msgstr ""
+"- Hem migrat a GitLab i vist a molts més de vosaltres saltar i donar-nos un "
+"cop de mà!"
 
 #. type: Title =
 #, no-wrap
@@ -271,8 +336,12 @@ msgid ""
 "If you enjoyed our work in 2020, take a minute now to donate and fight "
 "surveillance and censorship!"
 msgstr ""
+"Si us ha agradat la nostra feina el 2020, preneu-vos un minut ara per fer "
+"una donació i lluitar contra la vigilància i la censura!"
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"cfa\"><a href=\"https://tails.net/donate/?r=ab\">Donate</a></div>\n"
 msgstr ""
+"<div class=\"cfa\"><a href=\"https://tails.net/donate/?r=ab\">Feu una "
+"donació</a></div>\n"

@@ -2,9 +2,7 @@
 
 [[!pagetemplate template="newsletter.tmpl"]]
 
-<a id="view-in-browser" href="https://tails.net/newsletter/2023-08/">View in your browser<span class="hidden">: https://tails.net/newsletter/2023-08/</span></a>
-
-Dear {FIRSTNAME},
+<style>#unsubscribe { display: none; }</style>
 
 In this newsletter, we share inspiring stories of Tails users around the world,
 privacy tips, and the latest from our team with our supporters.

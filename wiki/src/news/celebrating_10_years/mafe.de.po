@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 18:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -32,15 +32,15 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Yof ingredients"
-msgstr ""
+msgstr "Yof-Zutaten"
 
 #. type: Bullet: '* '
 msgid "1 bunch of parsley"
-msgstr ""
+msgstr "1 Bund Petersilie"
 
 #. type: Bullet: '* '
 msgid "1 big onion"
-msgstr ""
+msgstr "1 große Zwiebel"
 
 #. type: Bullet: '* '
 msgid "3 cloves of garlic"

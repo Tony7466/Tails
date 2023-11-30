@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-05-09 15:09+0000\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -30,16 +30,11 @@ msgstr "[[*VirtualBox*|advanced_topics/virtualization/virtualbox]]"
 
 #. type: Bullet: '    - '
 msgid "[[*GNOME Boxes*|advanced_topics/virtualization/boxes]]"
-msgstr ""
+msgstr "[[*GNOME-Boxen*|advanced_topics/virtualization/boxes]]"
 
 #. type: Bullet: '    - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Protection_against_cold_boot_attacks|advanced_topics/"
-#| "cold_boot_attacks]]"
 msgid "[[*virt-manager*|advanced_topics/virtualization/virt-manager]]"
-msgstr ""
-"[[!traillink Schutz_vor_Kaltstartattacken|advanced_topics/cold_boot_attacks]]"
+msgstr "[[*virt-manager*|advanced_topics/virtualization/virt-manager]]"
 
 #. type: Bullet: '  - '
 #, fuzzy

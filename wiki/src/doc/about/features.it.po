@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: revisione ignifugo\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-18 18:18+0000\n"
 "PO-Revision-Date: 2023-10-01 15:12+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
@@ -277,8 +277,8 @@ msgid ""
 "(https://0xacab.org/jvoisin/mat2) to remove metadata from files ([[More...|"
 "doc/sensitive_documents/metadata]])"
 msgstr ""
-"[Pulizia metadati](https://metadatacleaner.romainvigier.fr/) e "
-"[mat2](https://0xacab.org/jvoisin/mat2) per rimuovere i metadati dai file "
+"[Pulizia metadati](https://metadatacleaner.romainvigier.fr/) e [mat2]"
+"(https://0xacab.org/jvoisin/mat2) per rimuovere i metadati dai file "
 "([[More...|doc/sensitive_documents/metadata]])"
 
 #. type: Bullet: '* '
@@ -330,8 +330,8 @@ msgid ""
 "the Persistent Storage."
 msgstr ""
 "Per installare automaticamente ulteriore software all'avvio di Tails, usa la "
-"funzionalità [[Additional Software|Archivio Persistente/additional_software]]"
-" dell' Archivio Persistente."
+"funzionalità [[Additional Software|Archivio Persistente/"
+"additional_software]] dell' Archivio Persistente."
 
 #. type: Title =
 #, no-wrap
@@ -388,13 +388,18 @@ msgstr "Supporto multilingue"
 
 # Controllare i nomi delle lingue!!!
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "When starting Tails, you can choose between a large number of languages, "
+#| "including Arabic, Azerbaijani, Catalan, Czech, Welsh, Danish, German, "
+#| "Greek, English, Spanish, Persian, Finnish, French, Croatian, Hungarian, "
+#| "Indonesian, Italian, Japanese, Khmer, Korean, Latvian, Bokmål, Dutch, "
+#| "Polish, Portuguese, Russian, Slovak, Slovene, Albanian, Serbian, Swedish, "
+#| "Turkish, Ukrainian, and Chinese."
 msgid ""
 "When starting Tails, you can choose between a large number of languages, "
-"including Arabic, Azerbaijani, Catalan, Czech, Welsh, Danish, German, Greek, "
-"English, Spanish, Persian, Finnish, French, Croatian, Hungarian, Indonesian, "
-"Italian, Japanese, Khmer, Korean, Latvian, Bokmål, Dutch, Polish, "
-"Portuguese, Russian, Slovak, Slovene, Albanian, Serbian, Swedish, Turkish, "
-"Ukrainian, and Chinese."
+"including Arabic, English, Farsi, French, German, Hindi, Indonesian, "
+"Italian, Portuguese, Russian, Simplified Chinese, Spanish, Turkish, and more."
 msgstr ""
 "All'avvio di Tails, puoi scegliere tra un gran numero di lingue, tra cui "
 "arabo, azero, catalano, ceco, gallese, danese, tedesco, greco, inglese, "
@@ -402,11 +407,6 @@ msgstr ""
 "italiano, giapponese, khmer, coreano, lettone, bokmål, olandese, polacco, "
 "portoghese, russo, slovacco, sloveno, albanese, serbo, svedese, turco, "
 "ucraino e cinese."
-
-#. type: Plain text
-msgid "The required keyboard input system is automatically enabled."
-msgstr ""
-"Il corrispondente metodo di input da tastiera viene attivato automaticamente."
 
 #. type: Plain text
 msgid ""
@@ -429,6 +429,11 @@ msgstr ""
 "Se desideri facilitare l'uso di Tails a coloro che parlano la tua lingua, "
 "vedi le [[linee guida per la traduzione|contribute/how/translate]] (in "
 "inglese)."
+
+#~ msgid "The required keyboard input system is automatically enabled."
+#~ msgstr ""
+#~ "Il corrispondente metodo di input da tastiera viene attivato "
+#~ "automaticamente."
 
 #~ msgid ""
 #~ "[[See the corresponding documentation.|doc/first_steps/"

@@ -41,8 +41,8 @@ def click_gnome_shell_notification_button(title)
   # so Dogtail is unable to click it directly. We let it grab focus
   # and activate it via the keyboard instead.
   Dogtail::Application.new('gnome-shell')
-    .child(title, roleName: 'push button')
-    .grabFocus
+                      .child(title, roleName: 'push button')
+                      .grabFocus
   @screen.press('Return')
 end
 
@@ -87,10 +87,9 @@ Then /^"([^"]*)" is not in the list of Additional Software$/ do |package|
   end
 end
 
-When /^I (refuse|accept) (adding|removing) "([^"]*)" (?:to|from) Additional Software$/ do |decision, action, package|
+When /^I (refuse|accept) (adding|removing) "(?:[^"]*)" (?:to|from) Additional Software$/ do |decision, action|
   case action
   when 'adding'
-    notification_title = "Add #{package} to your additional software?"
     case decision
     when 'accept'
       button_title = 'Install Every Time'
@@ -98,7 +97,6 @@ When /^I (refuse|accept) (adding|removing) "([^"]*)" (?:to|from) Additional Soft
       button_title = 'Install Only Once'
     end
   when 'removing'
-    notification_title = "Remove #{package} from your additional software?"
     case decision
     when 'accept'
       button_title = 'Remove'

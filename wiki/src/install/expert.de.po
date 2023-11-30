@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2022-02-25 17:10-0600\n"
-"PO-Revision-Date: 2023-11-12 18:13+0000\n"
+"POT-Creation-Date: 2023-11-24 19:03+0000\n"
+"PO-Revision-Date: 2023-11-16 16:14+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -21,9 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Install Tails from Debian or Ubuntu using the command line and GnuPG\"]]\n"
-msgstr ""
-"[[!meta title=\"Tails von Debian oder Ubuntu über die Kommandozeile und "
-"GnuPG installieren\"]]\n"
+msgstr "[[!meta title=\"Tails von Debian oder Ubuntu über die Kommandozeile und GnuPG installieren\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -33,15 +31,12 @@ msgstr "[[!meta stylesheet=\"inc/stylesheets/overview\" rel=\"stylesheet\" title
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta stylesheet=\"inc/stylesheets/download\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr ""
-"[[!meta stylesheet=\"inc/stylesheets/download\" rel=\"stylesheet\" title=\"\""
-"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/download\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta stylesheet=\"doc/about/warnings\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr ""
-"[[!meta stylesheet=\"doc/about/warnings\" rel=\"stylesheet\" title=\"\"]]\n"
+msgstr "[[!meta stylesheet=\"doc/about/warnings\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -149,9 +144,9 @@ msgstr ""
 #
 #. type: Bullet: '1. '
 msgid ""
-"Import the OpenPGP key of [[!wikipedia Chris_Lamb_(software_developer) desc="
-"\"Chris Lamb\"]], a former Debian Project Leader, from the Debian keyring "
-"into your keyring:"
+"Import the OpenPGP key of [[!wikipedia Chris_Lamb_(software_developer) "
+"desc=\"Chris Lamb\"]], a former Debian Project Leader, from the Debian "
+"keyring into your keyring:"
 msgstr ""
 
 #. type: Plain text
@@ -176,14 +171,14 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
+msgid "       sig!2        0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   Here, <code>sig!</code>, with an exclamation mark, means that Chris\n"
-"   Lamb verified and certified the Tails signing key with his key.\n"
+"   Here, <code>sig!2</code> means that Chris\n"
+"   Lamb verified and certified the Tails signing key with his key and a level 2 check.\n"
 msgstr ""
 
 #. type: Plain text
@@ -327,7 +322,7 @@ msgstr ""
 #
 #. type: Bullet: '1. '
 msgid "Execute the following command:"
-msgstr ""
+msgstr "Führen Sie den folgenden Befehl aus:"
 
 #. type: Plain text
 #, no-wrap
@@ -337,9 +332,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
-msgstr ""
-"   Es wird eine Liste der Speichermedien des Systems ausgegeben. Zum "
-"Beispiel:\n"
+msgstr "   Es wird eine Liste der Speichermedien des Systems ausgegeben. Zum Beispiel:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -394,10 +387,8 @@ msgid ""
 "   </div>\n"
 msgstr ""
 "   <div class=\"caution\">\n"
-"   <p>Falls Sie sich bezüglich des Gerätenamens nicht sicher sind, sollten "
-"Sie das Vorgehen abbrechen oder\n"
-"   <strong>Sie riskieren, dass jegliche Festplatten des Systems "
-"überschrieben werden</strong>.</p>\n"
+"   <p>Falls Sie sich bezüglich des Gerätenamens nicht sicher sind, sollten Sie das Vorgehen abbrechen oder\n"
+"   <strong>Sie riskieren, dass jegliche Festplatten des Systems überschrieben werden</strong>.</p>\n"
 "   </div>\n"
 
 #
@@ -450,8 +441,7 @@ msgid ""
 "   stick. The copy takes some time, generally a few minutes.\n"
 msgstr ""
 "   Wenn keine Fehlermeldung angezeigt wird, wird Tails auf den USB-Stick\n"
-"     kopiert. Das Kopieren benötigt einige Zeit, in der Regel ein paar "
-"Minuten.\n"
+"     kopiert. Das Kopieren benötigt einige Zeit, in der Regel ein paar Minuten.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -461,8 +451,7 @@ msgid ""
 "   adding <code>sudo</code> at the beginning of the command:</p>\n"
 msgstr ""
 "   <div class=\"note\">\n"
-"     <p>Wenn Sie eine <span class=\"guilabel\">Permission denied</span> "
-"Fehlermeldung erhalten, versuchen Sie\n"
+"     <p>Wenn Sie eine <span class=\"guilabel\">Permission denied</span> Fehlermeldung erhalten, versuchen Sie\n"
 "     <code>sudo</code> vor den Beginn des Befehls hinzuzufügen:</p>\n"
 
 #. type: Plain text
@@ -480,13 +469,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"install/inc/steps/restart_first_time.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"install/inc/steps/restart_first_time.inline.de\" raw=\"yes"
-"\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/restart_first_time.inline.de\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"install/inc/steps/welcome.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"install/inc/steps/welcome.inline\" raw=\"yes\" sort=\"age\""
-"]]\n"
+msgstr "[[!inline pages=\"install/inc/steps/welcome.inline\" raw=\"yes\" sort=\"age\"]]\n"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-06-13 14:17+0200\n"
-"PO-Revision-Date: 2023-11-12 18:13+0000\n"
+"PO-Revision-Date: 2023-11-16 13:13+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -39,6 +39,9 @@ msgid ""
 "Tor relays are servers operated by different people and organizations around "
 "the world."
 msgstr ""
+"Tor verschlüsselt und anonymisiert Ihre Verbindung, indem es sie durch 3 "
+"Relays leitet. Tor-Relays sind Server, die von verschiedenen Personen und "
+"Organisationen auf der ganzen Welt betrieben werden."
 
 #. type: Plain text
 #, no-wrap
