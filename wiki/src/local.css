@@ -207,9 +207,10 @@ div#feedlink {
 }
 
 blockquote {
-  border-left: 5px solid var(--light-purple);
+  border-left: 5px solid var(--light-purple) !important;
   background: var(--background-gray);
   padding: 10px 20px;
+  border-radius: 5px;
 }
 
 blockquote p:last-child {
@@ -371,7 +372,6 @@ header.title { /* override style.css */
 #searchform {
   position: relative;
   margin: 10px auto 0 auto;
-  width: 150px;
   display: flex;
   height: 28px;
   width: 180px;
