@@ -109,6 +109,9 @@ class WhisperBackUI:
             self.bug_specific_details_frame.set_visible(True)
 
         if prefill is not None:
+            if "app" in prefill:
+                add_to_bug_specific("Bug-specific app", prefill["app"].rstrip())
+
             if "summary" in prefill:
                 add_to_bug_specific("Bug-specific summary", prefill["summary"].rstrip())
 
