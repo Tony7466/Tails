@@ -65,8 +65,7 @@ def get_attachments(msg) -> list[str]:
 
     if "x-attach" in msg:
         for attachment_list in msg.get_all("x-attach"):
-            for fpath in attachment_list.split(","):
-                fpath = fpath.strip()
+            for fpath in (f.strip() for f in attachment_list.split(",")):
                 if not fpath:
                     continue
                 if not os.path.exists(fpath):
@@ -81,8 +80,7 @@ def markdown_to_html(body: str) -> str:
     # Having import inside a function is a simple way of having optional dependencies
     import markdown
 
-    html = markdown.markdown(body)
-    return html
+    return markdown.markdown(body)
 
 
 def mailer_thunderbird(body: str):
@@ -106,8 +104,8 @@ def mailer_thunderbird(body: str):
             fp.write(body)
         spec.append("format=%s" % ("html" if html else "text"))
         spec.append(f"message={fpath}")
-        cmdline = thunderbird_cmd + ["-compose", ",".join(spec)]
-        subprocess.check_output(cmdline)
+        cmdline = [*thunderbird_cmd, "-compose", ",".join(spec)]
+        subprocess.check_output(cmdline)  # noqa: S603
 
         # this is a workaround to the fact that Thunderbird will terminate *before* reading the file
         # we don't really know how long does it take, but let's assume 2s are enough
@@ -126,7 +124,7 @@ def mailer_notmuch(body: str):
         body = (
             "\n".join(
                 [
-                    f'<#part filename="{attachment}" ' "disposition=attachment><#/part>"
+                    f'<#part filename="{attachment}" disposition=attachment><#/part>'
                     for attachment in attachments
                 ]
             )
@@ -140,7 +138,7 @@ def mailer_notmuch(body: str):
             fp.write(body)
         cmdline.append(f"--body={fpath}")
 
-        subprocess.check_output(cmdline)
+        subprocess.check_output(cmdline)  # noqa: S603
 
 
 def mailer(mailer: str, body: str):
