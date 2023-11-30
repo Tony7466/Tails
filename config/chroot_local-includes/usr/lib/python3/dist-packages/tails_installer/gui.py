@@ -411,6 +411,8 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
             self.__button_force_reinstall.set_visible(False)
             self.__help_link.set_label(_('Installation Instructions'))
             self.__help_link.set_uri('https://tails.net/install/')
+        self.update_clone_persistent_storage_check_button()
+        self.update_start_button()
 
     def get_device_pretty_name(self, device):
         size = _format_bytes_in_gb(device['parent_size']
