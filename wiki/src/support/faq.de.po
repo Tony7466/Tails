@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -143,6 +143,9 @@ msgid ""
 "packages included in Tails; another security feature that Ubuntu already "
 "provides."
 msgstr ""
+"Wir arbeiten auch daran, mehr Debian-Pakete, die in Tails enthalten sind, "
+"mit Compiler-Härtungsoptionen auszustatten; eine weitere "
+"Sicherheitsfunktion, die Ubuntu bereits bietet."
 
 #. type: Plain text
 #, no-wrap

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-16 09:13+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -109,7 +109,7 @@ msgstr ""
 
 #. type: Bullet: '    - '
 msgid "[[For Mac|install/clone/mac]]"
-msgstr ""
+msgstr "[[Für Mac|install/clone/mac]]"
 
 #. type: Bullet: '  - '
 #, fuzzy

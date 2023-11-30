@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-02 10:29+0200\n"
-"PO-Revision-Date: 2023-11-23 12:17+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -46,7 +46,7 @@ msgstr "[[die Linux-Kommandozeile|install/expert#install]]"
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer."
-msgstr ""
+msgstr "Schalten Sie den Computer aus."
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer while leaving the USB stick plugged in."
@@ -111,7 +111,7 @@ msgstr ""
 
 #. type: Content of: <ol><li><div><p>
 msgid "If the USB stick does not appear in the list of startup disks:"
-msgstr ""
+msgstr "Wenn der USB-Stick nicht in der Liste der Startlaufwerke erscheint:"
 
 #. type: Content of: <ol><li><div>
 msgid ""

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -44,6 +44,10 @@ msgid ""
 "based on Debian 11 (Bullseye). It brings new versions of a lot of the "
 "software included in Tails and new OpenPGP tools."
 msgstr ""
+"Wir sind besonders stolz darauf, Ihnen Tails 5.0 zu präsentieren, die erste "
+"Version von Tails, die auf Debian 11 (Bullseye) basiert. Sie bringt neue "
+"Versionen vieler der in Tails enthaltenen Software und neue OpenPGP-"
+"Werkzeuge."
 
 #. type: Plain text
 #, no-wrap
@@ -53,7 +57,7 @@ msgstr "<h1 id=\"features\">Neue Funktionen</h1>\n"
 #. type: Title ##
 #, no-wrap
 msgid "Kleopatra"
-msgstr ""
+msgstr "Kleopatra"
 
 #. type: Plain text
 msgid ""
@@ -113,6 +117,8 @@ msgid ""
 "Press the <b>Super</b> ([[!img lib/start.png alt=\"\" class=\"symbolic\" "
 "link=\"no\"]]) key on your keyboard."
 msgstr ""
+"Drücken Sie die <b>Super</b> ([[!img lib/start.png alt=\"\" class=\"symbolic"
+"\" link=\"no\"]]) Taste auf Ihrer Tastatur."
 
 #. type: Plain text
 #, no-wrap
@@ -218,8 +224,9 @@ msgid ""
 "Copy the known issues from the previous version if they haven't been solved "
 "or move them to /support/known_issues if more appropriate."
 msgstr ""
-"Copy the known issues from the previous version if they haven't been solved "
-"or move them to /support/known_issues if more appropriate."
+"Kopieren Sie die bekannten Probleme aus der Vorgängerversion, falls sie noch "
+"nicht behoben wurden, oder verschieben Sie sie nach /support/known_issues, "
+"falls dies sinnvoller ist."
 
 #. type: Plain text
 #, no-wrap

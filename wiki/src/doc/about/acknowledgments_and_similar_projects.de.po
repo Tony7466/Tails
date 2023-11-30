@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-15 11:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -49,20 +49,14 @@ msgstr ""
 "contribute/relationship_with_upstream]] für Details."
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "Tails was inspired by the [[Incognito LiveCD|http://web.archive.org/"
-#| "web/20090220133020/http://anonymityanywhere.com/]]. The Incognito author "
-#| "declared it to be dead on March 23rd, 2010, and wrote that Tails \"should "
-#| "be considered as its spiritual successor\"."
 msgid ""
 "Tails was inspired by the [[Incognito LiveCD|https://web.archive.org/"
 "web/20090220133020/http://anonymityanywhere.com/]]. The Incognito author "
 "declared it to be dead on March 23rd, 2010, and wrote that Tails \"should be "
 "considered as its spiritual successor\"."
 msgstr ""
-"Tails wurde durch die [[Incognito LiveCD|http://web.archive.org/"
-"web/20090220133020/http://anonymityanywhere.com/]] inspiriert. Der Inkognito-"
+"Tails wurde durch die [[Incognito LiveCD|https://web.archive.org/web/"
+"20090220133020/http://anonymityanywhere.com/]] inspiriert. Der Inkognito-"
 "Autor erklärte diese am 23. März 2010 für tot und schrieb, dass Tails \"als "
 "der geistige Nachfolger angesehen werden sollte\"."
 
@@ -144,16 +138,12 @@ msgstr ""
 "anonymityanywhere.com/)"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "[The Incognito LiveCD](http://web.archive.org/web/20090220133020/http://"
-#| "anonymityanywhere.com/)"
 msgid ""
 "[ELE](https://web.archive.org/web/20050422130010/http://www.northernsecurity."
 "net:80/download/ele/)"
 msgstr ""
-"[The Incognito LiveCD](http://web.archive.org/web/20090220133020/http://"
-"anonymityanywhere.com/)"
+"[ELE](https://web.archive.org/web/20050422130010/http://www.northernsecurity."
+"net:80/download/ele/)"
 
 #. type: Bullet: '* '
 #, fuzzy

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -42,6 +42,9 @@ msgid ""
 "This release fixes [[many security vulnerabilities|security/"
 "Numerous_security_holes_in_4.11]]. You should upgrade as soon as possible."
 msgstr ""
+"Diese Version behebt [[viele Sicherheitslücken|security/"
+"Numerous_security_holes_in_4.11]]. Sie sollten so bald wie möglich "
+"aktualisieren."
 
 #. type: Plain text
 #, no-wrap
@@ -121,8 +124,9 @@ msgid ""
 "Copy the known issues from the previous version if they haven't been solved "
 "or move them to /support/known_issues if more appropriate."
 msgstr ""
-"Copy the known issues from the previous version if they haven't been solved "
-"or move them to /support/known_issues if more appropriate."
+"Kopieren Sie die bekannten Probleme aus der Vorgängerversion, falls sie noch "
+"nicht behoben wurden, oder verschieben Sie sie nach /support/known_issues, "
+"falls dies sinnvoller ist."
 
 #. type: Plain text
 #, no-wrap

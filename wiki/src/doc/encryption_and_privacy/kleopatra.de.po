@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-07-17 22:56+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -57,6 +57,11 @@ msgid ""
 "Applet</i> and the <i>Passwords and Keys</i> utility, also known as\n"
 "<i>Seahorse</i>.</p>\n"
 msgstr ""
+"<p><i>Kleopatra</i> wurde in Tails 5.0 (Mai 2022) hinzugefügt, um "
+"<i>OpenPGP</i>\n"
+"zu ersetzen und das Dienstprogramm <i>Passwörter und Schlüssel</i>, auch "
+"bekannt als\n"
+"<i>Seahorse</i>.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -125,7 +130,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Choose **Sign/Encrypt&hellip;** from the main window."
-msgstr ""
+msgstr "Wählen Sie **Signieren/Verschlüsseln&hellip;** im Hauptfenster."
 
 #. type: Bullet: '1. '
 msgid "Select the file that you want to encrypt."
