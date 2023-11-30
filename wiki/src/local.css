@@ -658,8 +658,11 @@ label[for="searchbox"]{
 }
 
 .other-languages li:last-child a {
-  font-size: 12px;
   border-radius: 0 0 5px 5px;
+}
+
+.other-languages li.improve-translations {
+  font-size: 12px;
 }
 
 /* Page title */
