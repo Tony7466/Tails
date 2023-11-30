@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-04-19 10:22+0200\n"
-"PO-Revision-Date: 2023-11-16 13:14+0000\n"
+"PO-Revision-Date: 2023-11-28 11:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails Translators <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -42,17 +42,17 @@ msgstr ""
 "- Ihre Dokumente - Ihre WLAN-Passwörter - Ihre Browser-Lesezeichen - ..."
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "The Persistent Storage is an encrypted partition protected by a passphrase "
 "that occupies all the free space left on the USB stick."
 msgstr ""
-"Der beständige Speicherbereich ist eine verschlüsselte Partition, die mit "
-"einer Passphrase geschützt ist."
+"Der persistente Speicher ist eine verschlüsselte Partition, die durch eine "
+"Passphrase geschützt ist und den gesamten freien Speicherplatz auf dem USB-"
+"Stick belegt."
 
 #. type: Plain text
 msgid "Everything in the Persistent Storage is encrypted automatically."
-msgstr ""
+msgstr "Alles im persistenten Speicher wird automatisch verschlüsselt."
 
 #. type: Plain text
 #, fuzzy

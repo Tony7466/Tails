@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-16 13:13+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -52,11 +52,11 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"windows-restart\">Starting from Windows 8 or 10</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"windows-restart\">Neustart von Windows 8 oder 10</h1>\n"
 
 #. type: Plain text
 msgid "From Windows or the sign-in screen of Windows:"
-msgstr ""
+msgstr "In Windows oder auf dem Anmeldebildschirm von Windows:"
 
 #. type: Plain text
 #, no-wrap

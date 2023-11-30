@@ -114,6 +114,9 @@ msgid ""
 "This verification technique uses the OpenPGP Web of Trust and the "
 "certification made by official Debian developers on the Tails signing key."
 msgstr ""
+"Diese Verifizierungstechnik nutzt das OpenPGP Web of Trust und die "
+"Zertifizierung des Tails-Signierschlüssels durch die offiziellen Debian-"
+"Entwickler."
 
 #
 #. type: Bullet: '1. '
@@ -144,9 +147,9 @@ msgstr ""
 #
 #. type: Bullet: '1. '
 msgid ""
-"Import the OpenPGP key of [[!wikipedia Chris_Lamb_(software_developer) "
-"desc=\"Chris Lamb\"]], a former Debian Project Leader, from the Debian "
-"keyring into your keyring:"
+"Import the OpenPGP key of [[!wikipedia Chris_Lamb_(software_developer) desc="
+"\"Chris Lamb\"]], a former Debian Project Leader, from the Debian keyring "
+"into your keyring:"
 msgstr ""
 
 #. type: Plain text
@@ -347,7 +350,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   <div class=\"caution\"><p>All the data on this USB stick will be lost.</p></div>\n"
-msgstr ""
+msgstr "   <div class=\"caution\"><p>Alle Daten auf diesem USB-Stick gehen verloren.</p></div>\n"
 
 #
 #. type: Bullet: '1. '

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2020-04-23 16:49+0000\n"
-"PO-Revision-Date: 2023-11-10 20:11+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -53,7 +53,7 @@ msgstr ""
 #. type: Title -
 #, no-wrap
 msgid "Reporting the problem to our help desk"
-msgstr ""
+msgstr "Meldung des Problems an unseren Helpdesk"
 
 #. type: Plain text
 msgid ""

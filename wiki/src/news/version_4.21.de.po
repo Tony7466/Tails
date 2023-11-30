@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -47,12 +47,16 @@ msgid ""
 "- Update *Tor Browser* to [10.5.4](https://blog.torproject.org/new-release-"
 "tor-browser-1054)."
 msgstr ""
+"- Aktualisieren Sie *Tor Browser* auf [10.5.4](https://blog.torproject.org/"
+"new-release-tor-browser-1054)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [78.12](https://www.thunderbird.net/en-US/"
 "thunderbird/78.12.0/releasenotes/)"
 msgstr ""
+"- Aktualisieren Sie *Thunderbird* auf [78.12](https://www.thunderbird.net/"
+"en-US/thunderbird/78.12.0/releasenotes/)"
 
 #. type: Plain text
 #, no-wrap

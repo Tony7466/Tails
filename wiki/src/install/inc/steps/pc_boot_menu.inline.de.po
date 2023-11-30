@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-07-20 22:06+0000\n"
-"PO-Revision-Date: 2023-11-23 12:17+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -57,12 +57,16 @@ msgid ""
 "This animation summarizes how to use the Boot Menu key to start on the USB "
 "stick:"
 msgstr ""
+"Diese Animation fasst zusammen, wie man mit der Boot-Menü-Taste auf dem USB-"
+"Stick startet:"
 
 #. type: Content of: <p>
 msgid ""
 "The following instructions explain in detail how to use the Boot Menu key to "
 "start on the USB stick:"
 msgstr ""
+"In der folgenden Anleitung wird detailliert erklärt, wie man mit der Taste "
+"Boot Menu auf dem USB-Stick startet:"
 
 #. type: Content of: <ol><li><p>
 msgid "Make sure that you have installed Tails using either:"
@@ -98,7 +102,7 @@ msgstr "Fahren Sie den Computer herunter."
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer."
-msgstr "Fahren Sie den Computer herunter."
+msgstr "Schalten Sie den Computer aus."
 
 #. type: Content of: <ol><li><p>
 msgid ""
