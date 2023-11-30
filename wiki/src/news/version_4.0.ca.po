@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-28 16:42+0000\n"
+"PO-Revision-Date: 2023-11-30 17:48+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -140,7 +140,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "The onion icon has been removed from the top bar."
-msgstr ""
+msgstr "La icona de ceba s'ha eliminat de la barra superior."
 
 #. type: Plain text
 #, no-wrap
@@ -150,6 +150,11 @@ msgid ""
 "      <span class=\"guimenu\">[[!img lib/open-menu.png class=symbolic link=\"no\" alt=\"\"]]</span>&nbsp;▸\n"
 "      <span class=\"guimenuitem\">New Identity</span></span>.\n"
 msgstr ""
+"    Per canviar a una nova identitat, trieu\n"
+"    <span class=\"menuchoice\">\n"
+"      <span class=\"guimenu\">[[!img lib/open-menu.png class=symbolic link="
+"\"no\" alt=\"\"]]</span>&nbsp;▸\n"
+"      <span class=\"guimenuitem\">Nova identitat</span></span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -161,29 +166,32 @@ msgid ""
 "- Update *MAT* from 0.6.1 to [0.8.0](https://0xacab.org/jvoisin/mat2/blob/"
 "master/CHANGELOG.md)"
 msgstr ""
+"- S'ha actualitzat *MAT* de la versió 0.6.1 a la [0.8.0](https://0xacab.org/"
+"jvoisin/mat2/blob/master/CHANGELOG.md)"
 
 #. type: Plain text
 #, no-wrap
 msgid "  *MAT* has no graphical interface of its own anymore.\n"
-msgstr ""
+msgstr "  *MAT* ja no té una interfície gràfica pròpia.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  To clean the metadata of a file:\n"
-msgstr ""
+msgstr "  Per netejar les metadades d'un fitxer:\n"
 
 #. type: Bullet: '  1. '
 msgid ""
 "Open the *Files* browser and navigate to the file that you want to clean."
 msgstr ""
+"Obriu el navegador de *Fitxers* i navegueu fins al fitxer que voleu netejar."
 
 #. type: Bullet: '  1. '
 msgid "Right-click (on Mac, click with two fingers) on the file."
-msgstr ""
+msgstr "Feu clic amb el botó dret (a Mac, feu clic amb dos dits) al fitxer."
 
 #. type: Bullet: '  1. '
 msgid "Choose **Remove metadata**."
-msgstr ""
+msgstr "Trieu **Elimina metadades**."
 
 #. type: Plain text
 #, no-wrap
@@ -195,6 +203,8 @@ msgid ""
 "Update *Linux* to 5.3.2. This should also improve the support for newer "
 "hardware (graphics, Wi-Fi, etc.)."
 msgstr ""
+"S'ha actualitzat *Linux* a la versió 5.3.2. Això també hauria de millorar la "
+"compatibilitat amb el maquinari més nou (gràfics, Wi-Fi, etc.)."
 
 #. type: Plain text
 #, no-wrap
@@ -206,6 +216,9 @@ msgid ""
 "Update *Electrum* from 3.2.3 to [3.3.8](https://github.com/spesmilo/electrum/"
 "blob/master/RELEASE-NOTES).  *Electrum* works again in Tails."
 msgstr ""
+"S'ha actualitzat *Electrum* de la versió 3.2.3 a la [3.3.8](https://github."
+"com/spesmilo/electrum/blob/master/RELEASE-NOTES). *Electrum* torna a "
+"funcionar a Tails."
 
 #. type: Bullet: '- '
 msgid ""
@@ -213,46 +226,57 @@ msgid ""
 "certificate flooding](https://dkg.fifthhorseman.net/blog/openpgp-certificate-"
 "flooding.html)."
 msgstr ""
+"S'ha actualitzat *Enigmail* a la versió 2.0.12 i *gnupg* a la 2.2.12, que "
+"mitiguen [l'inundació de certificats OpenPGP](https://dkg.fifthhorseman.net/"
+"blog/openpgp-certificate-flooding.html)."
 
 #. type: Plain text
 msgid "- Upgrade most other software, for example:"
-msgstr ""
+msgstr "- S'ha actualitzat la majoria del programari, per exemple:"
 
 #. type: Bullet: '  - '
 msgid ""
 "*Audacity* from 2.1.2 to [2.2.2](https://wiki.audacityteam.org/wiki/"
 "Audacity_Versions#whatsnew)"
 msgstr ""
+"*Audacity* de la versió 2.1.2 a la [2.2.2](https://wiki.audacityteam.org/"
+"wiki/Audacity_Versions#whatsnew)"
 
 #. type: Bullet: '  - '
 msgid ""
 "*GIMP* from 2.8.18 to [2.10.8](https://docs.gimp.org/2.10/en/gimp-"
 "introduction-whats-new.html)"
 msgstr ""
+"*GIMP* de la versió 2.8.18 a la [2.10.8](https://docs.gimp.org/2.10/en/gimp-"
+"introduction-whats-new.html)"
 
 #. type: Bullet: '  - '
 msgid ""
 "*Inkscape* from 0.92.1 to [0.92.4](https://inkscape.org/release/"
 "inkscape-0.92.4/)"
 msgstr ""
+"*Inkscape* de la versió 0.92.1 a la [0.92.4](https://inkscape.org/release/"
+"inkscape-0.92.4/)"
 
 #. type: Bullet: '  - '
 msgid ""
 "*LibreOffice* from 5.2.7 to [6.1.5](https://wiki.documentfoundation.org/"
 "ReleaseNotes/6.0)"
 msgstr ""
+"*LibreOffice* de la versió 5.2.7 a la [6.1.5](https://wiki.documentfoundation"
+".org/ReleaseNotes/6.0)"
 
 #. type: Bullet: '  - '
 msgid "*git* from 2.11.0 to 2.20.1"
-msgstr ""
+msgstr "*git* de la versió 2.11.0 a la 2.20.1"
 
 #. type: Bullet: '  - '
 msgid "*Tor* to 0.4.1.6"
-msgstr ""
+msgstr "*Tor* a la versió 0.4.1.6"
 
 #. type: Plain text
 msgid "- Remove *Scribus*."
-msgstr ""
+msgstr "- S'ha eliminat *Scribus*."
 
 #. type: Plain text
 #, no-wrap
@@ -260,6 +284,8 @@ msgid ""
 "  You can install *Scribus* again using the\n"
 "  *Additional Software* feature.\n"
 msgstr ""
+"  Podeu tornar a instal·lar *Scribus* utilitzant la\n"
+"  funció de *Programari Addicional*.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -269,13 +295,15 @@ msgstr "<a id=\"greeter\"></a>\n"
 #. type: Title ##
 #, no-wrap
 msgid "Usability improvements to the Welcome Screen"
-msgstr ""
+msgstr "Millores d'usabilitat a la Pantalla de Benvinguda"
 
 #. type: Plain text
 msgid ""
 "We improved various aspects of the usability of the Welcome Screen, "
 "especially for non-English users:"
 msgstr ""
+"Hem millorat diversos aspectes de la usabilitat de la Pantalla de "
+"Benvinguda, especialment per als usuaris que no són de parla anglesa:"
 
 #. type: Bullet: '- '
 msgid ""
@@ -284,6 +312,10 @@ msgid ""
 "useful. We also clarified how Chinese is listed by having different entries "
 "for simplified and traditional Chinese."
 msgstr ""
+"Per facilitar la selecció d'un idioma, hem seleccionat la llista d'idiomes "
+"proposats eliminant els que tenien massa poca traducció per ser útils. També "
+"vam aclarir com apareix el xinès en tenir entrades diferents per al xinès "
+"simplificat i tradicional."
 
 #. type: Plain text
 #, no-wrap
@@ -292,32 +324,36 @@ msgstr "  [[!img languages.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid "- We simplified the list of keyboard layouts."
-msgstr ""
+msgstr "- Hem simplificat la llista de dissenys de teclat."
 
 #. type: Plain text
 msgid "- We fixed the **Formats** setting, which was not being applied."
-msgstr ""
+msgstr "- Hem corregit la configuració **Formats**, que no s'estava aplicant."
 
 #. type: Bullet: '- '
 msgid ""
 "We prevented additional settings to be applied when clicking on **Cancel** "
 "or **Back**."
 msgstr ""
+"Hem impedit que s'apliquin paràmetres addicionals en fer clic a **Cancel·la**"
+" o **Enrere**."
 
 #. type: Bullet: '- '
 msgid ""
 "We fixed the opening of help pages in other languages than English, when "
 "available."
 msgstr ""
+"Hem corregit l'obertura de pàgines d'ajuda en altres idiomes que no siguin "
+"l'anglès, quan estiguin disponibles."
 
 #. type: Title ##
 #, no-wrap
 msgid "Performance and usability improvements"
-msgstr ""
+msgstr "Millores de rendiment i usabilitat"
 
 #. type: Plain text
 msgid "- Tails 4.0 starts 20% faster."
-msgstr ""
+msgstr "- Tails 4.0 comença un 20% més ràpid."
 
 #. type: Plain text
 msgid "- Tails 4.0 requires about 250 MB less of RAM."
