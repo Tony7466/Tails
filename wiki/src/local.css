@@ -207,7 +207,7 @@ div#feedlink {
 }
 
 blockquote {
-  border-left: 5px solid var(--light-purple);
+  border-left: 5px solid var(--light-purple) !important;
   background: var(--background-gray);
   padding: 10px 20px;
   border-radius: 5px;
