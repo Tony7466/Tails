@@ -1,0 +1,34 @@
+#!/bin/bash
+
+set -eu
+set -x
+
+usage() {
+    echo "Usage:"
+    echo "  Check all the codebase:"
+    echo "   $0"
+    echo "  Check Python files changed from BASE_COMMIT to LAST_COMMIT"
+    echo "   $0 LAST_COMMIT BASE_COMMIT"
+}
+
+conf="$(dirname "$0")/ruff.toml"
+
+if [ "$#" -eq 0 ]; then
+    ruff "--config=$conf" check .
+    exit $?
+elif [ "$#" -ne 2 ]; then
+    echo "Unsuported usage" >&2
+    usage >&2
+    exit 2
+fi
+
+newCommit="$1"
+baseCommit="$2"
+
+git diff -z --name-only "${baseCommit}..${newCommit}" -- | \
+    xargs -0 --no-run-if-empty stat --printf '%n\0' | \
+    grep -z '\.py$' | \
+    xargs -0 --no-run-if-empty \
+    ruff "--config=$conf"
+
+exit $?

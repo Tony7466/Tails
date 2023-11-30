@@ -60,6 +60,18 @@ check-black:
   - black --version
   - black --check .
 
+ruff-changed-files:
+  only:
+    - merge_requests
+
+  image: debian:sid
+
+  script:
+    - apt-get -qy install ruff findutils git
+    - ruff --version
+    - env
+    - ./bin/test-utils/ruff "${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME:?}" "origin/${CI_MERGE_REQUEST_TARGET_BRANCH_NAME:?}"
+
 check-website-core-pages:
   script:
     - apt-get -qy install git
