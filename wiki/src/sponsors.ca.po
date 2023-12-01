@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-12-01 00:42+0000\n"
+"PO-Revision-Date: 2023-12-01 18:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -23,11 +23,8 @@ msgid "[[!meta title=\"Sponsors\"]]"
 msgstr "[[!meta title=\"Patrocinadors\"]]"
 
 #. type: Content of: outside any tag (error?)
-#, fuzzy
 msgid "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]]"
-msgstr ""
-"[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
+msgstr "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <p>
 msgid ""
@@ -231,16 +228,16 @@ msgstr ""
 "\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
-#, fuzzy
 msgid "C0MPLEX1 - $1 000"
-msgstr "TOP10VPN - 1 000$"
+msgstr "C0MPLEX1 - 1 000$"
 
 #. type: Content of: <div><p>
-#, fuzzy
 msgid ""
 "<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" alt="
 "\"\"]]</a>"
-msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
+msgstr ""
+"<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" alt=\""
+"\"]]</a>"
 
 #. type: Content of: <h1>
 msgid "Previous sponsors"
