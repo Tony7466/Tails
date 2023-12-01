@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-11-08 16:12+0000\n"
+"PO-Revision-Date: 2023-12-01 18:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -26,7 +26,6 @@ msgstr ""
 
 #.  See upstream patch: https://ikiwiki.info/todo/support_Twitter_cards/ 
 #. type: Content of: outside any tag (error?)
-#, fuzzy
 msgid ""
 "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"donate\" rel=\"stylesheet\" title=\"\"]] [[!meta stylesheet="
@@ -37,7 +36,6 @@ msgstr ""
 "[[!meta stylesheet=\"bootstrap.min\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"donate\" rel=\"stylesheet\" title=\"\"]] [[!meta stylesheet="
 "\"donate/testimonials.inline\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "script=\"donate\"]]"
 
