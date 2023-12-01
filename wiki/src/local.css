@@ -692,16 +692,11 @@ a {
 
 #pagebody a {
   color: var(--dark-green);
-  border-bottom: 1px solid var(--dark-green);
-}
-
-#pagebody a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #pagebody a:visited {
-  color: var(--darker-green) !important;
-  border-color: 1px solid var(--darker-green) !important;
+  color: var(--darker-green);
 }
 
 /* test inside and outside links */
@@ -812,7 +807,7 @@ div.blocks img {
 .button {
   color: black !important;
   background: var(--medium-light-green) !important;
-  border: none !important;
+  text-decoration: none !important;
   padding: 6px 12px !important;
   border-radius: 5px;
   box-shadow: 1px 1px 1px var(--medium-dark-gray), 2px 2px 10px var(--light-gray), inset 2px 2px 2px var(--background-green);
@@ -833,6 +828,7 @@ div.blocks img {
 .cfa a {
   background: var(--medium-light-green) !important;
   color: black !important;
+  text-decoration: none !important;
   font-size: 24px;
   font-weight: bold;
   border-radius: 5px;
@@ -842,6 +838,10 @@ div.blocks img {
   box-shadow: 1px 1px 1px var(--medium-dark-gray), 2px 2px 10px var(--light-gray), inset 2px 2px 2px var(--background-green);
   width: 100%;
   font-family: "Source Sans Pro Regular", "DejaVu Sans", "Verdana", sans-serif;
+}
+
+.cfa a:visited {
+  color: black !important;
 }
 
 /* Toggleable */
