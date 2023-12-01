@@ -525,52 +525,32 @@ label[for="searchbox"]{
 
 /* Breadcrumbs */
 
-#crumbs ul, #crumbs li {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
 #crumbs {
-  border-bottom: 1px solid var(--light-gray);
-  margin: 0 -2em;
-  padding-left: 30px;
-  max-width: 110%;
-  font-weight: normal;
-  margin-bottom: 0;
-  margin-top: 0;
-  white-space: nowrap;
-  font-size: 0.9rem;
-  line-height: 2.2em;
-  height: 33px;
+  margin: 0;
+  padding-top: 15px;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #crumbs li {
   display: inline-block;
+  background: url(lib/go-right.png) no-repeat right 40%;
+  padding-right: 18px;
   color: var(--medium-dark-gray);
-  padding-right: 12px;
-}
-
-#crumbs li:first-child img {
-  top: 5px;
-  position: relative;
-  vertical-align: top;
 }
 
 #crumbs li a {
-  background: url(lib/crumbs.gif) no-repeat right center;
-  display: block;
-  padding: 0 15px 0 0;
-}
-
-#crumbs li a:link,
-#crumbs li a:visited {
+  text-transform: capitalize;
   color: var(--medium-dark-gray);
-  text-decoration: none;
 }
 
-#crumbs li a:hover,
-#crumbs li a:focus {
+#crumbs li a:hover {
+  text-decoration: underline;
+}
+
+#crumbs li:last-child {
+  background: none;
 }
 
 /* Language switchers */
