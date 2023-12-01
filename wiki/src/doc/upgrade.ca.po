@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-30 22:38+0000\n"
-"PO-Revision-Date: 2023-11-15 21:15+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-12-01 00:42+0000\n"
+"Last-Translator: Ricard Rodríguez <rcard@insicuri.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -297,9 +297,9 @@ msgstr ""
 "la versió base"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img system.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img system.svg link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img system.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -319,9 +319,9 @@ msgstr ""
 "- L'actualització a 4.9 és de 418 MB."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img incremental.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img incremental.svg link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img incremental.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -340,9 +340,9 @@ msgstr ""
 "la versió 4.6 era la versió base."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!img manual.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img manual.svg link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img manual.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
