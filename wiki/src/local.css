@@ -533,6 +533,10 @@ label[for="searchbox"]{
   flex-wrap: wrap;
 }
 
+#crumbs li:only-child {
+  display: none;
+}
+
 #crumbs li {
   display: inline-block;
   background: url(lib/go-right.png) no-repeat right 40%;
