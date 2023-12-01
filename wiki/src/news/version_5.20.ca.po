@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-28 10:06+0100\n"
-"PO-Revision-Date: 2023-11-30 21:43+0000\n"
+"PO-Revision-Date: 2023-12-01 00:43+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -41,30 +41,38 @@ msgstr "[[!tag announce]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
 
 #. type: Plain text
 msgid ""
 "- Update *Tor Browser* to [13.0.4](https://blog.torproject.org/new-release-"
 "tor-browser-1304)."
 msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [13.0.4](https://blog."
+"torproject.org/new-release-tor-browser-1304)."
 
 #. type: Plain text
 msgid ""
 "- Update *Thunderbird* to [115.5.0](https://www.thunderbird.net/en-US/"
 "thunderbird/115.5.0/releasenotes/)."
 msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [115.5.0](https://www."
+"thunderbird.net/en-US/thunderbird/115.5.0/releasenotes/)."
 
 #. type: Bullet: '- '
 msgid ""
 "Stop downloading the *AdGuard* filter list for *uBlock Origin* in the "
 "language of the session."
 msgstr ""
+"S'ha impedit que es baixi la llista de filtres *AdGuard* per a *uBlock "
+"Origin* a la secció de llengües."
 
 #. type: Plain text
 #, no-wrap
 msgid "  This prevents some advanced browser fingerprinting. ([[!tails_ticket 20022]])\n"
 msgstr ""
+"  Això evita algunes empremtes digitals avançades del navegador. ([["
+"!tails_ticket 20022]])\n"
 
 #. type: Plain text
 #, no-wrap
@@ -77,24 +85,34 @@ msgid ""
 "Storage, we are releasing several improvements to the Persistent Storage and "
 "the *WhisperBack* error reporting tool:"
 msgstr ""
+"Com que molts de vosaltres encara esteu informant de problemes amb el nou "
+"Emmagatzematge Persistent, estem llançant diverses millores a "
+"l'Emmagatzematge Persistent i a l'eina d'informe d'errors *WhisperBack*:"
 
 #. type: Plain text
 msgid ""
 "- Fix an error when activating the Persistent Storage. ([[!tails_ticket "
 "20011]])"
 msgstr ""
+"- S'ha corregit un error en activar l'Emmagatzematge Persistent. ([["
+"!tails_ticket 20011]])"
 
 #. type: Plain text
 msgid ""
 "- Fix the translation of the *WhisperBack* interface. ([[!tails_ticket "
 "20040]])"
 msgstr ""
+"- S'ha corregit la traducció de la interfície de *WhisperBack*. ([["
+"!tails_ticket 20040]])"
 
 #. type: Bullet: '- '
 msgid ""
 "Improve the interface of *WhisperBack* to make it easier to report the "
 "information we need to troubleshoot issues. ([[!tails_ticket 19351]])"
 msgstr ""
+"S'ha millorat la interfície de *WhisperBack* perquè sigui més fàcil redactar "
+"la informació que necessitem per resoldre problemes. ([[!tails_ticket "
+"19351]])"
 
 #. type: Plain text
 #, no-wrap
@@ -120,21 +138,25 @@ msgstr "Cap específic d'aquesta versió."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"get\">Get Tails 5.20</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"get\">Obtenir Tails 5.20</h1>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
 msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.20."
 msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior fins a la versió 5.20."
 
 #. type: Plain text
 #, no-wrap
@@ -158,19 +180,19 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Per instal·lar Tails en un nou llapis USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Instal·lar des de Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instal·lar des de macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
@@ -181,6 +203,8 @@ msgid ""
 "[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
 "expert]]"
 msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
 
 #. type: Plain text
 #, no-wrap
@@ -188,21 +212,26 @@ msgid ""
 "<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Per només baixar"
 
 #. type: Plain text
 msgid ""
 "If you don't need installation or upgrade instructions, you can download "
 "Tails 5.20 directly:"
 msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.20 directament:"
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"

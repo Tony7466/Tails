@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-28 22:39+0000\n"
-"PO-Revision-Date: 2023-11-13 17:11+0000\n"
+"PO-Revision-Date: 2023-12-01 00:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -156,18 +156,16 @@ msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
 msgstr "Donació anònima - 0.09 bitcoins = 1 535€"
 
 #. type: Attribute 'title' of: <div><p>
-#, fuzzy
 msgid "iGaming.com - 1 500€"
-msgstr "Tor - 8 500€"
+msgstr "iGaming.com - 1 500€"
 
 #. type: Content of: <div><p>
-#, fuzzy
 msgid ""
 "<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" alt="
 "\"\"]]</a>"
 msgstr ""
-"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png link=\"no"
-"\" alt=\"\"]]</a>"
+"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" alt=\"\""
+"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Word Solver - $1 400"
