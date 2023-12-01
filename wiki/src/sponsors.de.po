@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-11-29 17:58+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
 "PO-Revision-Date: 2023-11-12 16:12+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
@@ -23,9 +23,11 @@ msgid "[[!meta title=\"Sponsors\"]]"
 msgstr "[[!meta title=\"Sponsoren\"]]"
 
 #. type: Content of: outside any tag (error?)
-msgid ""
-"[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
+#, fuzzy
+#| msgid ""
+#| "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+#| "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
+msgid "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]]"
 msgstr ""
 "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
@@ -166,11 +168,11 @@ msgstr "Tor - 8.500€"
 #. type: Content of: <div><p>
 #, fuzzy
 msgid ""
-"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" alt="
-"\"\"]]</a>"
+"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" "
+"alt=\"\"]]</a>"
 msgstr ""
-"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png link=\"no"
-"\" alt=\"\"]]</a>"
+"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
+"link=\"no\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
@@ -179,11 +181,11 @@ msgstr "Tor - $5.000"
 
 #. type: Content of: <div><p>
 msgid ""
-"<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" alt="
-"\"\"]]</a>"
+"<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" "
+"alt=\"\"]]</a>"
 msgstr ""
-"<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" alt="
-"\"\"]]</a>"
+"<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" "
+"alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
@@ -236,11 +238,11 @@ msgstr "Anonyme Spende - 2.902€"
 
 #. type: Content of: <div><p>
 msgid ""
-"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png link=\"no"
-"\" alt=\"\"]]</a>"
+"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
+"link=\"no\" alt=\"\"]]</a>"
 msgstr ""
-"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png link=\"no"
-"\" alt=\"\"]]</a>"
+"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
+"link=\"no\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
@@ -250,8 +252,8 @@ msgstr "ExpressVPN - $1.000"
 #. type: Content of: <div><p>
 #, fuzzy
 msgid ""
-"<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" alt="
-"\"\"]]</a>"
+"<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" "
+"alt=\"\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Content of: <h1>
@@ -978,8 +980,8 @@ msgstr "Tor - 8.500€"
 
 #, fuzzy
 #~ msgid ""
-#~ "<a href=\"https://protonmail.com/\">[[!img protonmail.png link=\"no\" alt="
-#~ "\"\"]]</a>"
+#~ "<a href=\"https://protonmail.com/\">[[!img protonmail.png link=\"no\" "
+#~ "alt=\"\"]]</a>"
 #~ msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #, fuzzy
@@ -990,8 +992,8 @@ msgstr "Tor - 8.500€"
 
 #, fuzzy
 #~ msgid ""
-#~ "<a href=\"https://internews.org/\">[[!img internews.png link=\"no\" alt="
-#~ "\"\"]]</a>"
+#~ "<a href=\"https://internews.org/\">[[!img internews.png link=\"no\" "
+#~ "alt=\"\"]]</a>"
 #~ msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #, fuzzy
@@ -1068,13 +1070,13 @@ msgstr "Tor - 8.500€"
 #~ msgstr "[[!toggle id=\"previous_partners\" text=\"Frühere Partner\"]]"
 
 #~ msgid ""
-#~ "[[!toggleable id=\"previous_partners\" text=\"\"\" <span class=\"hide"
-#~ "\">[[!toggle id=\"previous_partners\" text=\" \"]]</span> <span class="
-#~ "\"clearfix\"></span>"
+#~ "[[!toggleable id=\"previous_partners\" text=\"\"\" <span "
+#~ "class=\"hide\">[[!toggle id=\"previous_partners\" text=\" \"]]</span> "
+#~ "<span class=\"clearfix\"></span>"
 #~ msgstr ""
-#~ "[[!toggleable id=\"previous_partners\" text=\"\"\" <span class=\"hide"
-#~ "\">[[!toggle id=\"previous_partners\" text=\" \"]]</span> <span class="
-#~ "\"clearfix\"></span>"
+#~ "[[!toggleable id=\"previous_partners\" text=\"\"\" <span "
+#~ "class=\"hide\">[[!toggle id=\"previous_partners\" text=\" \"]]</span> "
+#~ "<span class=\"clearfix\"></span>"
 
 #~ msgid "\"\"\"]]"
 #~ msgstr "\"\"\"]]"

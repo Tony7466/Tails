@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2022-03-24 08:43+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
 "PO-Revision-Date: 2023-10-01 21:12+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: Tails translators <tails-l10n@boum.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Support\"]]\n"
 msgstr "[[!meta title=\"Assistenza\"]]\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Title =
 #, no-wrap
@@ -50,11 +45,9 @@ msgid ""
 "</form>\n"
 msgstr ""
 "<form method=\"get\" action=\"https://duckduckgo.com/\" target=\"_blank\">\n"
-"  <input aria-label=\"Cerca\" type=\"search\" name=\"q\" value=\"\" size=\"32"
-"\" placeholder=\"Usando DuckDuckGo&hellip;\" />\n"
+"  <input aria-label=\"Cerca\" type=\"search\" name=\"q\" value=\"\" size=\"32\" placeholder=\"Usando DuckDuckGo&hellip;\" />\n"
 "  <input type=\"hidden\" name=\"sites\" value=\"tails.net\"/>\n"
-"  <button aria-label=\"Cerca\" class=\"button\" type=\"submit\""
-"><strong>Search</strong></button>\n"
+"  <button aria-label=\"Cerca\" class=\"button\" type=\"submit\"><strong>Search</strong></button>\n"
 "</form>\n"
 
 #. type: Title =
@@ -111,8 +104,8 @@ msgstr ""
 #. type: Bullet: '  - '
 msgid "The [[!tails_ticket \"\" desc=\"rest of our open issues on GitLab\"]]"
 msgstr ""
-"Il [[!tails_ticket \"\" desc=\"il resto dei nostri problemi aperti su GitLab"
-"\"]]"
+"Il [[!tails_ticket \"\" desc=\"il resto dei nostri problemi aperti su "
+"GitLab\"]]"
 
 #. type: Plain text
 #, no-wrap
@@ -188,6 +181,10 @@ msgstr "  <h1>Scrivere al nostro help desk</h1>\n"
 msgid "  [[!inline pages=\"support/talk\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr "  [[!inline pages=\"support/talk.it\" raw=\"yes\" sort=\"age\"]]\n"
 
+#, no-wrap
+#~ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+#~ msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+
 #~ msgid ""
 #~ "Read the [[official documentation|doc]] to learn more about how Tails "
 #~ "works and maybe start answering your questions. It contains:"
@@ -217,11 +214,11 @@ msgstr "  [[!inline pages=\"support/talk.it\" raw=\"yes\" sort=\"age\"]]\n"
 #~ msgstr "Imparare ad usare Tails"
 
 #~ msgid ""
-#~ "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" sort=\"age"
-#~ "\"]]\n"
+#~ "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" "
+#~ "sort=\"age\"]]\n"
 #~ msgstr ""
-#~ "[[!inline pages=\"support/learn/intro.inline.it\" raw=\"yes\" sort=\"age"
-#~ "\"]]\n"
+#~ "[[!inline pages=\"support/learn/intro.inline.it\" raw=\"yes\" "
+#~ "sort=\"age\"]]\n"
 
 #~ msgid "-->\n"
 #~ msgstr "-->\n"
