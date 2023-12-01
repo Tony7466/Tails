@@ -669,9 +669,6 @@ span.title {
   line-height: 1em;
   display: block;
   color: var(--medium-purple);
-  border-left: 10px solid var(--dark-gray);
-  padding-left: 18px;
-  margin-left: -28px;
 }
 
 div.title span.date {
