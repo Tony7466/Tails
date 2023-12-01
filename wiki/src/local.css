@@ -1244,19 +1244,6 @@ html[dir="rtl"] #crumbs {
   padding-right: 0;
 }
 
-html[dir="rtl"] .pageheader .actions {
-  right: auto;
-  left: 0;
-  padding-right: 0;
-  padding-left: 25px;
-  background-position: left center;
-}
-
-html[dir="rtl"] .pageheader .actions:hover ul {
-  float: left;
-  text-align: left;
-}
-
 html[dir="rtl"] .pageheader #otherlanguages {
   left: 0;
   right: auto;
