@@ -65,25 +65,7 @@
 
 <TMPL_IF HTML5><article class="page"><TMPL_ELSE><div class="page"></TMPL_IF>
 
-<TMPL_IF HTML5><section class="pageheader"><TMPL_ELSE><div class="pageheader"></TMPL_IF>
-
-<div class="parentlinks">
-<ul id="crumbs">
-<li><a href="<TMPL_VAR HOMEPAGEURL>"><img alt="home" src="<TMPL_VAR BASEURL>lib/home.png"></a></li>
-
-<TMPL_LOOP PARENTLINKS>
-<TMPL_IF DEPTH_0>
-<TMPL_ELSE>
-
-<li><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a></li>
-
-</TMPL_IF>
-</TMPL_LOOP>
-
-<li><TMPL_VAR TITLE></li>
-
-</ul>
-</div>
+<section id="pageheader">
 
 <div id="language-switcher-top">
 <TMPL_IF OTHERLANGUAGES>
@@ -105,14 +87,29 @@
 </TMPL_IF>
 </div>
 
+<ul id="crumbs">
+
+<TMPL_LOOP PARENTLINKS>
+<TMPL_IF DEPTH_0>
+<TMPL_ELSE>
+
+<li><a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a></li>
+
+</TMPL_IF>
+</TMPL_LOOP>
+
+<li><TMPL_VAR TITLE></li>
+
+</ul>
+
+</section>
+
 <TMPL_IF HTML5><header class="title"><TMPL_ELSE><div class="title"></TMPL_IF>
 <span class="title">
 <TMPL_VAR TITLE>
 </span>
 <TMPL_VAR CTIME>
 <TMPL_IF HTML5></header><TMPL_ELSE></div></TMPL_IF>
-
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
 
 <div id="pagebody">
 
