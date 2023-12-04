@@ -23,6 +23,7 @@ log = getLogger("dialogs")
 def get_release_year():
     return tailslib.release.get_release_date().year
 
+
 def get_time_dialog(initial_tz: Optional[str] = None):
     """Create a TimeDialog."""
     builder = Gtk.Builder()
