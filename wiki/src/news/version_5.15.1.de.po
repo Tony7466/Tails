@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -48,6 +48,8 @@ msgid ""
 "- Update *Tor Browser* to [12.5](https://blog.torproject.org/new-release-tor-"
 "browser-125)."
 msgstr ""
+"- Aktualisieren Sie *Tor Browser* auf [12.5](https://blog.torproject.org/new-"
+"release-tor-browser-125)."
 
 #. type: Plain text
 #, no-wrap
@@ -104,7 +106,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "- Make the upgrade of the Persistent Storage more reliable:"
-msgstr ""
+msgstr "- Die Aufrüstung des persistenten Speichers wird zuverlässiger:"
 
 #. type: Bullet: '  * '
 msgid ""

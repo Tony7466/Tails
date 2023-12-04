@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-11-12 18:12+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -117,6 +117,8 @@ msgid ""
 "Otherwise, install the <span class=\"code\">gnome-disk-utility</span> "
 "package using the usual installation method for your distribution."
 msgstr ""
+"Andernfalls installieren Sie das Paket <span class=\"code\">gnome-disk-"
+"utility</span> mit der üblichen Installationsmethode für Ihre Distribution."
 
 #. type: Plain text
 #, no-wrap

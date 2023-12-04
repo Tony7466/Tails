@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -46,7 +46,7 @@ msgstr "<h1 id=\"features\">Neue Funktionen</h1>\n"
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "<h2>Closing a Tor circuit from <i>Onion Circuits</i></h2>\n"
-msgstr ""
+msgstr "<h2>Schließen einer Tor-Verbindung aus den <i>Onion Circuits</i></h2>\n"
 
 #. type: Plain text
 #, markdown-text
@@ -118,6 +118,8 @@ msgid ""
 "   For example, if you download the same file again, Tor uses a new "
 "circuit.\n"
 msgstr ""
+"   Wenn Sie zum Beispiel die gleiche Datei noch einmal herunterladen, "
+"verwendet Tor eine neue Verbindung.\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap

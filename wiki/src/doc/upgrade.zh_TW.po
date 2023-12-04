@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-30 22:38+0000\n"
 "PO-Revision-Date: 2020-01-26 17:29+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -266,7 +266,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img system.svg link=\"no\" alt=\"\"]]\n"
+msgid "[[!img system.png link=\"no\" alt=\"\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -283,7 +283,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img incremental.svg link=\"no\" alt=\"\"]]\n"
+msgid "[[!img incremental.png link=\"no\" alt=\"\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -300,7 +300,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img manual.svg link=\"no\" alt=\"\"]]\n"
+msgid "[[!img manual.png link=\"no\" alt=\"\"]]\n"
 msgstr ""
 
 #. type: Plain text

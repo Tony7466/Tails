@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
 "PO-Revision-Date: 2023-10-05 23:12+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Press and media information\"]]\n"
 msgstr "[[!meta title=\"Articoli di stampa e altri media\"]]\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -717,6 +712,10 @@ msgstr ""
 msgid "[CryptoParty handbook](https://www.cryptoparty.in/tails)."
 msgstr ""
 "[Prontuario CryptoParty](https://www.cryptoparty.in/tails) (in inglese)."
+
+#, no-wrap
+#~ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+#~ msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #~ msgid ""
 #~ "[Tor overview](https://2019.www.torproject.org/about/overview.html.en)"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-12-09 18:25+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -43,10 +43,13 @@ msgid ""
 "to be advertised on our download page. We are replacing it with similar "
 "JavaScript code that now runs directly on the page."
 msgstr ""
+"Heute stellen wir die Browser-Erweiterung *Tails Verification* ein, die "
+"früher auf unserer Download-Seite beworben wurde. Wir ersetzen sie durch "
+"ähnlichen JavaScript-Code, der nun direkt auf der Seite ausgeführt wird."
 
 #. type: Plain text
 msgid "This new verification procedure is:"
-msgstr ""
+msgstr "Dieses neue Prüfverfahren ist:"
 
 #. type: Plain text
 msgid ""
@@ -54,6 +57,8 @@ msgid ""
 "browsers, for example, Edge and Safari - As secure as the *Tails "
 "Verification* extension"
 msgstr ""
+"- Einfacher und schneller für Erstnutzer - Kompatibel mit mehr Webbrowsern, "
+"z. B. Edge und Safari - So sicher wie die Erweiterung *Tails Verification*"
 
 #. type: Plain text
 msgid ""

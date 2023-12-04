@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-10-09 12:39+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
 "PO-Revision-Date: 2023-11-10 17:11+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,9 +23,11 @@ msgid "[[!meta title=\"Sponsors\"]]"
 msgstr ""
 
 #. type: Content of: outside any tag (error?)
-msgid ""
-"[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
+#, fuzzy
+#| msgid ""
+#| "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+#| "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
+msgid "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]]"
 msgstr ""
 "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
@@ -112,10 +114,6 @@ msgid "$1&#8239;000 – $9&#8239;999"
 msgstr "$10&#8239;000 – $50&#8239;000"
 
 #. type: Attribute 'title' of: <div><p>
-msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
-msgstr ""
-
-#. type: Attribute 'title' of: <div><p>
 msgid "Aspiration - advising for community vitality and project governance"
 msgstr ""
 
@@ -152,6 +150,22 @@ msgstr ""
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
 msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
+msgid "iGaming.com - 1 500€"
+msgstr ""
+
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
+#| "link=\"no\" alt=\"\"]]</a>"
+msgid ""
+"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" "
+"alt=\"\"]]</a>"
+msgstr ""
+"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
+"link=\"no\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Word Solver - $1 400"
@@ -218,16 +232,19 @@ msgstr ""
 "link=\"no\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
-msgid "Look to the Right - $1 000"
+msgid "C0MPLEX1 - $1 000"
 msgstr ""
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://www.ripe.net/\">[[!img ripe.png link=\"no\" alt=\"\"]]</"
+#| "a>"
 msgid ""
-"<a href=\"https://www.looktotheright.com/\">[[!img lttr.jpg link=\"no\" "
+"<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" "
 "alt=\"\"]]</a>"
 msgstr ""
-"<a href=\"https://www.looktotheright.com/\">[[!img lttr.jpg link=\"no\" "
-"alt=\"\"]]</a>"
+"<a href=\"https://www.ripe.net/\">[[!img ripe.png link=\"no\" alt=\"\"]]</a>"
 
 #. type: Content of: <h1>
 msgid "Previous sponsors"
@@ -256,6 +273,10 @@ msgid "[[!img nym.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img ndi.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
+msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
+msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
 msgid "Tor - $2 175"
 msgstr ""
 
@@ -278,6 +299,10 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "[[!img thinkpenguin.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img thinkpenguin.png link=\"no\" alt=\"\"]]"
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Look to the Right - $1 000"
+msgstr ""
 
 #. type: Content of: <div><p>
 msgid "[[!img lttr.jpg link=\"no\" alt=\"\"]]"
@@ -850,18 +875,18 @@ msgid "Tor - 8 500€"
 msgstr ""
 
 #~ msgid ""
-#~ "<a href=\"https://protonmail.com/\">[[!img protonmail.png link=\"no\" "
+#~ "<a href=\"https://www.looktotheright.com/\">[[!img lttr.jpg link=\"no\" "
 #~ "alt=\"\"]]</a>"
 #~ msgstr ""
-#~ "<a href=\"https://protonmail.com/\">[[!img protonmail.png link=\"no\" "
+#~ "<a href=\"https://www.looktotheright.com/\">[[!img lttr.jpg link=\"no\" "
 #~ "alt=\"\"]]</a>"
 
 #~ msgid ""
-#~ "<a href=\"https://www.ripe.net/\">[[!img ripe.png link=\"no\" alt=\"\"]]</"
-#~ "a>"
+#~ "<a href=\"https://protonmail.com/\">[[!img protonmail.png link=\"no\" "
+#~ "alt=\"\"]]</a>"
 #~ msgstr ""
-#~ "<a href=\"https://www.ripe.net/\">[[!img ripe.png link=\"no\" alt=\"\"]]</"
-#~ "a>"
+#~ "<a href=\"https://protonmail.com/\">[[!img protonmail.png link=\"no\" "
+#~ "alt=\"\"]]</a>"
 
 #~ msgid ""
 #~ "<a href=\"https://internews.org/\">[[!img internews.png link=\"no\" "

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-02-07 14:49+0000\n"
-"PO-Revision-Date: 2023-11-16 13:14+0000\n"
+"PO-Revision-Date: 2023-11-28 11:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -39,11 +39,14 @@ msgstr "[[Persistenten Speicher entsperren und nutzen|persistent_storage/use]]"
 msgid ""
 "[[Installing additional software|persistent_storage/additional_software]]"
 msgstr ""
+"[[Installation zusätzlicher Software|persistent_storage/additional_software]]"
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Making a backup of your Persistent Storage|persistent_storage/backup]]"
 msgstr ""
+"[[Erstellung eines Backups Ihres persistenten Speichers|persistent_storage/"
+"backup]]"
 
 #. type: Bullet: '  - '
 msgid "[[Deleting the Persistent Storage|persistent_storage/delete]]"

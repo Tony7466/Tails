@@ -1,5 +1,4 @@
 [[!meta title="Documentation"]]
-[[!meta stylesheet="hide-breadcrumbs" rel="stylesheet" title=""]]
 
 <div class="tip">
 

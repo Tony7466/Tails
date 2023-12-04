@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-24 19:56+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
 "PO-Revision-Date: 2023-08-10 18:49+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: Portuguese <LL@li.org>\n"
@@ -23,11 +23,6 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Contributing to Tails\"]]\n"
 msgstr "[[!meta title=\"Contribuindo com o Tails\"]]\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -694,6 +689,10 @@ msgid ""
 msgstr ""
 "Para falar com outras pessoas que contribuem com o Tails, inscreva-se na "
 "[[lista de emails específica para isso|about/contact]]."
+
+#, no-wrap
+#~ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+#~ msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #~ msgid "[[!tails_roadmap desc=\"Roadmap\"]]"
 #~ msgstr "[[!tails_roadmap desc=\"Roadmap\"]]"

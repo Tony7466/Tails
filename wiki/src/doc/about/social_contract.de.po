@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
-"PO-Revision-Date: 2023-11-10 04:12+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -73,7 +73,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "2. Tails is and will remain Free Software"
-msgstr ""
+msgstr "2. Tails ist und bleibt Freie Software"
 
 #. type: Plain text
 msgid ""

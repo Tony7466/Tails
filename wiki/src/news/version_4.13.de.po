@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -42,6 +42,9 @@ msgid ""
 "This release fixes [[many security vulnerabilities|security/"
 "Numerous_security_holes_in_4.12]]. You should upgrade as soon as possible."
 msgstr ""
+"Diese Version behebt [[viele Sicherheitslücken|security/"
+"Numerous_security_holes_in_4.12]]. Sie sollten so bald wie möglich "
+"aktualisieren."
 
 #. type: Plain text
 #, no-wrap
@@ -120,6 +123,8 @@ msgid ""
 "Enable TCP timestamps. This might increase stability on slower Internet "
 "connections. ([[!tails_ticket 17491]])"
 msgstr ""
+"Aktivieren Sie TCP-Zeitstempel. Dies könnte die Stabilität bei langsameren "
+"Internetverbindungen erhöhen. ([[!tails_ticket 17491]])"
 
 #. type: Plain text
 #, no-wrap

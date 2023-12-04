@@ -662,6 +662,20 @@ Style and usage
   coordinating conjunction (usually *and* or *or*) in a series of three
   or more terms.
 
+<a id="svg"></a>
+
+- **SVG images**
+
+  SVG are easier to maintain and look great on all screen size, but they are
+  not displayed in the *Safest* security level of *Tor Browser*.
+  ([[!tails_ticket 17805]])
+
+  Because of that, avoid using SVG images:
+
+  - Export SVG images to PNG and [[compress them|style_guide#compress-image]].
+  - Store the SVG source side-by-side with its PNG version, to ease future
+    modifications.
+
 <a id="tails"></a>
 
 - **your Tails**

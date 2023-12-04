@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -44,6 +44,9 @@ msgid ""
 "*Firefox* and *Tor Browser* announced on [[May 24|security/"
 "prototype_pollution]]."
 msgstr ""
+"Diese Version behebt die am [[24. Mai|security/prototype_pollution]] "
+"angekündigte Sicherheitslücke in der JavaScript-Engine von *Firefox* und *"
+"Tor Browser*."
 
 #. type: Plain text
 msgid ""
@@ -161,7 +164,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Kleopatra"
-msgstr ""
+msgstr "Kleopatra"
 
 #. type: Plain text
 msgid "- Associate OpenPGP files with *Kleopatra* in the *Files* browser."

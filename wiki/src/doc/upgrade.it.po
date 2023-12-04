@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Italian translations\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-11-30 22:38+0000\n"
 "PO-Revision-Date: 2023-11-21 18:16+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
@@ -298,8 +298,9 @@ msgstr ""
 "dalla versione base"
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!img system.svg link=\"no\" alt=\"\"]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!img system.svg link=\"no\" alt=\"\"]]\n"
+msgid "[[!img system.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img system.svg link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
@@ -320,8 +321,9 @@ msgstr ""
 "- L'aggiornamento alla versione 4.9 è di 418 MB."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!img incremental.svg link=\"no\" alt=\"\"]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!img incremental.svg link=\"no\" alt=\"\"]]\n"
+msgid "[[!img incremental.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img incremental.svg link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
@@ -341,8 +343,9 @@ msgstr ""
 "la versione base era la 4.6."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!img manual.svg link=\"no\" alt=\"\"]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!img manual.svg link=\"no\" alt=\"\"]]\n"
+msgid "[[!img manual.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img manual.svg link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
@@ -480,8 +483,7 @@ msgid ""
 "Tails.</p>\n"
 msgstr ""
 "<span class=\"hide\">[[!toggle id=\"why_extra\" text=\"\"]]</span>\n"
-"<p>Attualmente non è possibile aggiornare manualmente una chiavetta USB di "
-"Tails\n"
+"<p>Attualmente non è possibile aggiornare manualmente una chiavetta USB di Tails\n"
 "mentre è in esecuzione da sola. Questo scenario richiede la creazione di un\n"
 "Tails intermedio su un'altra chiavetta USB, da cui aggiornare il tuo\n"
 "Tails.</p>\n"

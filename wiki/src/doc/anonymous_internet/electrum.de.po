@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-16 16:13+0000\n"
+"PO-Revision-Date: 2023-11-24 10:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -55,12 +55,12 @@ msgstr ""
 "Wartezeit."
 
 #. type: Bullet: '  - '
-#, fuzzy
 msgid ""
 "You can sign transactions from an offline working session for additional "
 "security."
 msgstr ""
-"Sie können Transaktionen aus einer Offline-Arbeitssitzung heraus signieren."
+"Sie können Transaktionen aus einer Offline-Arbeitssitzung für zusätzliche "
+"Sicherheit heraus signieren."
 
 #. type: Plain text
 #, fuzzy, no-wrap
