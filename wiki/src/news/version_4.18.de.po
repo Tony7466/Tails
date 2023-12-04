@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -42,6 +42,8 @@ msgid ""
 "This release fixes known security vulnerabilities.  You should upgrade as "
 "soon as possible."
 msgstr ""
+"Diese Version behebt bekannte Sicherheitslücken.  Sie sollten so bald wie "
+"möglich aktualisieren."
 
 #. type: Plain text
 #, no-wrap
@@ -53,6 +55,8 @@ msgid ""
 "- Remove \"Synchronizing the system's clock\" notification when connecting "
 "to Tor network"
 msgstr ""
+"- Entfernen Sie die Meldung \"Synchronisierung der Systemuhr\", wenn Sie "
+"sich mit dem Tor-Netzwerk verbinden"
 
 #. type: Plain text
 #, no-wrap

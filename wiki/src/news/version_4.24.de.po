@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -54,6 +54,9 @@ msgid ""
 "reinstalling a USB stick that has a Persistent Storage. ([[!tails_ticket "
 "18301]])"
 msgstr ""
+"Machen Sie den Bestätigungsdialog des *Tails Installer* furchteinflößender, "
+"wenn Sie einen USB-Stick neu installieren, der einen persistenten Speicher "
+"hat. ([[!tails_ticket 18301]])"
 
 #. type: Title ##
 #, no-wrap
@@ -108,6 +111,8 @@ msgid ""
 "The *Unsafe Browser* has display problems, but still works to sign in to a "
 "network using a captive portal."
 msgstr ""
+"Der *Unsafe Browser* hat Darstellungsprobleme, funktioniert aber dennoch, um "
+"sich über ein unverschlüsseltes Portal bei einem Netzwerk anzumelden."
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
@@ -135,6 +140,10 @@ msgid ""
 "  Follow our instructions to do an [[automatic upgrade from Tails 4.15, Tails\n"
 "  4.16, Tails 4.17, or Tails 4.18|doc/upgrade/error/check#4.18]].\n"
 msgstr ""
+"  Folgen Sie unseren Anweisungen, um ein [[automatisches Upgrade von Tails "
+"4.15, Tails\n"
+"  4.16, Tails 4.17, oder Tails 4.18|doc/upgrade/error/check#4.18]] "
+"durchzuführen.\n"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.19 or later to 4.24."

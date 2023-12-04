@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-24 19:56+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
 "PO-Revision-Date: 2022-03-24 06:34+0000\n"
 "Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
@@ -22,11 +22,6 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Contributing to Tails\"]]\n"
 msgstr "[[!meta title=\"Colaborar con Tails\"]]\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -734,6 +729,10 @@ msgid ""
 msgstr ""
 "Para hablar con otros colaboradores de Tails suscríbete a [[nuestra lista de "
 "correo|about/contact]]."
+
+#, no-wrap
+#~ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+#~ msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #~ msgid "[[!tails_roadmap desc=\"Roadmap\"]]"
 #~ msgstr "[[!tails_roadmap desc=\"Roadmap\"]]"

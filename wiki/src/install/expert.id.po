@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2022-02-25 17:10-0600\n"
+"POT-Creation-Date: 2023-11-24 19:03+0000\n"
 "PO-Revision-Date: 2023-03-13 17:38+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: \n"
@@ -164,15 +164,15 @@ msgid "   In the output of this command, look for the following line:\n"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
+#, fuzzy, no-wrap
+msgid "       sig!2        0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
 msgstr "       sig!         0x1E953E27D4311E58 2020-03-19  Chris Lamb <chris@chris-lamb.co.uk>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   Here, <code>sig!</code>, with an exclamation mark, means that Chris\n"
-"   Lamb verified and certified the Tails signing key with his key.\n"
+"   Here, <code>sig!2</code> means that Chris\n"
+"   Lamb verified and certified the Tails signing key with his key and a level 2 check.\n"
 msgstr ""
 
 #. type: Plain text

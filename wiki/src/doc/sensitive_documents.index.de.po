@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-11-16 16:13+0000\n"
+"PO-Revision-Date: 2023-11-28 11:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -35,20 +35,11 @@ msgid "[[Sound and video|sensitive_documents/sound_and_video]]"
 msgstr "[[Multimedia|sensitive_documents/sound_and_video]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Printing_and_scanning|sensitive_documents/"
-#| "printing_and_scanning]]"
 msgid "[[Printing and scanning|sensitive_documents/printing_and_scanning]]"
-msgstr ""
-"[[!traillink  Drucken_und_Scannen|sensitive_documents/printing_and_scanning]]"
+msgstr "[[Drucken und Scannen|sensitive_documents/printing_and_scanning]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "[[!traillink Printing_and_scanning|sensitive_documents/"
-#| "printing_and_scanning]]"
 msgid ""
 "[[Screenshot and screencast|sensitive_documents/screenshot_and_screencast]]"
 msgstr ""
-"[[!traillink  Drucken_und_Scannen|sensitive_documents/printing_and_scanning]]"
+"[[Screenshot und Screencast|sensitive_documents/screenshot_and_screencast]]"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-13 19:42+0000\n"
-"PO-Revision-Date: 2023-11-16 16:14+0000\n"
+"PO-Revision-Date: 2023-11-28 14:43+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -51,13 +51,16 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "      In the output:\n"
-msgstr ""
+msgstr "      In der Ausgabe:\n"
 
 #. type: Bullet: '      - '
 msgid ""
 "<span class=\"command\">Version</span> indicates the version of LUKS, either "
 "<span class=\"command\">1</span> or <span class=\"command\">2</span>."
 msgstr ""
+"<span class=\"command\">Version</span> gibt die Version von LUKS an, "
+"entweder <span class=\"command\">1</span> oder <span class=\"command\""
+">2</span>."
 
 #. type: Bullet: '      - '
 msgid ""
@@ -119,7 +122,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "      In the output, verify that:\n"
-msgstr ""
+msgstr "      Überprüfen Sie in der Ausgabe, dass:\n"
 
 #. type: Bullet: '      - '
 msgid ""

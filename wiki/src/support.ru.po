@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2022-03-24 08:43+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
 "PO-Revision-Date: 2021-07-17 19:05+0000\n"
 "Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.11.3\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Support\"]]\n"
 msgstr "[[!meta title=\"Поддержка\"]]\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Title =
 #, no-wrap
@@ -171,6 +166,10 @@ msgstr "  <h1>Обращение в техподдержку</h1>\n"
 msgid "  [[!inline pages=\"support/talk\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr "  [[!inline pages=\"support/talk.ru\" raw=\"yes\" sort=\"age\"]]\n"
 
+#, no-wrap
+#~ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+#~ msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+
 #~ msgid ""
 #~ "Read the [[official documentation|doc]] to learn more about how Tails "
 #~ "works and maybe start answering your questions. It contains:"
@@ -202,11 +201,11 @@ msgstr "  [[!inline pages=\"support/talk.ru\" raw=\"yes\" sort=\"age\"]]\n"
 #~ msgstr "-->\n"
 
 #~ msgid ""
-#~ "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" sort=\"age"
-#~ "\"]]\n"
+#~ "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" "
+#~ "sort=\"age\"]]\n"
 #~ msgstr ""
-#~ "[[!inline pages=\"support/learn/intro.inline.ru\" raw=\"yes\" sort=\"age"
-#~ "\"]]\n"
+#~ "[[!inline pages=\"support/learn/intro.inline.ru\" raw=\"yes\" "
+#~ "sort=\"age\"]]\n"
 
 #, fuzzy
 #~ msgid ""

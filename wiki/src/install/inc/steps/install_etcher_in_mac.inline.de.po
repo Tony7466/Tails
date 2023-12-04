@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-11-23 12:56+0000\n"
-"PO-Revision-Date: 2023-11-16 16:14+0000\n"
+"PO-Revision-Date: 2023-11-28 11:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -44,11 +44,15 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid "Click on the following button to download <em>balenaEtcher</em>:"
 msgstr ""
+"Klicken Sie auf die folgende Schaltfläche, um <em>balenaEtcher</em> "
+"herunterzuladen:"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\">Download balenaEtcher for macOS</a>\n"
 msgstr ""
+"   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\""
+">Download balenaEtcher für macOS</a>\n"
 
 #. type: Bullet: '1. '
 msgid ""
