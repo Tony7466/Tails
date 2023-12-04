@@ -6,6 +6,7 @@ This module is meant to provide informations about Tails release data
 import datetime
 import platform
 
+
 def get_release_date() -> datetime.datetime:
     source_dt = datetime.datetime.fromtimestamp(
         int(VERSION_DATA["TAILS_SOURCE_DATE_EPOCH"])
