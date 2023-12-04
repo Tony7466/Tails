@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-11-04 18:21+0000\n"
-"PO-Revision-Date: 2023-11-10 04:12+0000\n"
+"PO-Revision-Date: 2023-11-24 10:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -52,6 +52,7 @@ msgstr "<div class=\"bug\">\n"
 #, no-wrap
 msgid "<p>It is currently impossible to change boot options permanently.</p>\n"
 msgstr ""
+"<p>Es ist derzeit nicht möglich, die Bootoptionen dauerhaft zu ändern.</p>\n"
 
 #. type: Plain text
 #, no-wrap

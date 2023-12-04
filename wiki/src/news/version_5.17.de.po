@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-05 09:49+0200\n"
-"PO-Revision-Date: 2023-11-16 09:14+0000\n"
+"PO-Revision-Date: 2023-11-28 11:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -47,6 +47,8 @@ msgstr "<h1 id=\"changes\">Änderungen und Aktualisierungen</h1>\n"
 #, markdown-text
 msgid "- Rename *Tails Installer* as *Tails Cloner*. ([[!tails_ticket 16907]])"
 msgstr ""
+"- Benennen Sie *Tails Installer* in *Tails Cloner* um. ([[!tails_ticket "
+"16907]])"
 
 #. type: Bullet: '- '
 #, markdown-text

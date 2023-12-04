@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-11-16 09:13+0000\n"
+"POT-Creation-Date: 2023-11-30 22:38+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails localization discussion <tails-l10n@boum.org>\n"
 "Language: de\n"
@@ -41,8 +41,8 @@ msgid ""
 "In some cases, it is impossible to do an **automatic upgrade** and you might "
 "have to do a **manual upgrade**. This page describes both techniques."
 msgstr ""
-"Falls eine **automatische Aktualisierung** unmöglich ist, ist eine **"
-"manuelle Aktualisierung** durchzuführen. Diese Seite beschreibt beide "
+"Falls eine **automatische Aktualisierung** unmöglich ist, ist eine "
+"**manuelle Aktualisierung** durchzuführen. Diese Seite beschreibt beide "
 "Vorgehensweisen."
 
 #. type: Plain text
@@ -56,6 +56,8 @@ msgid ""
 "<p>To learn how Tails implements automatic upgrades, see our\n"
 "[[design documentation about automatic upgrades|contribute/design/upgrades]].</p>\n"
 msgstr ""
+"<p>Um zu erfahren, wie Tails automatische Upgrades implementiert, lesen Sie unsere\n"
+"[[Design-Dokumentation über automatische Upgrades|contribute/design/upgrades]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -117,9 +119,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"automatic\">Automatic upgrade using <i>Tails Upgrader</i></h1>\n"
-msgstr ""
-"<h1 id=\"automatic\">Automatisches Upgrade mit dem <i>Tails Upgrader</i></h1>"
-"\n"
+msgstr "<h1 id=\"automatic\">Automatisches Upgrade mit dem <i>Tails Upgrader</i></h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -157,16 +157,12 @@ msgstr ""
 "Images."
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid ""
-#| "The upgrade mechanism includes cryptographic verification of the "
-#| "upgrade.  You don't have to verify the ISO image yourself anymore."
 msgid ""
 "The upgrade mechanism includes cryptographic verification of the upgrade.  "
 "You don't have to verify the USB image yourself anymore."
 msgstr ""
 "Der Aktualisierungsvorgang enthält eine kryptografische Verifizierung der "
-"Aktualisierung. Es ist nicht mehr nötig, dass Sie das ISO-Image selbst "
+"Aktualisierung. Es ist nicht mehr nötig, dass Sie das USB-Image selbst "
 "verifizieren müssen."
 
 #. type: Plain text
@@ -312,9 +308,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!img system.svg link=\"no\" alt=\"\"]]\n"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "[[!img upgrader_manual.png link=no]]\n"
+msgid "[[!img system.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img upgrader_manual.png link=no]]\n"
 
 #. type: Plain text
 msgid ""
@@ -331,7 +328,7 @@ msgstr ""
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid "[[!img upgrader_manual.png link=no]]\n"
-msgid "[[!img incremental.svg link=\"no\" alt=\"\"]]\n"
+msgid "[[!img incremental.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img upgrader_manual.png link=no]]\n"
 
 #. type: Plain text
@@ -349,7 +346,7 @@ msgstr ""
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid "[[!img upgrader_manual.png link=no]]\n"
-msgid "[[!img manual.svg link=\"no\" alt=\"\"]]\n"
+msgid "[[!img manual.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img upgrader_manual.png link=no]]\n"
 
 #. type: Plain text

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-05-24 14:09+0200\n"
-"PO-Revision-Date: 2023-11-16 16:13+0000\n"
+"PO-Revision-Date: 2023-11-28 14:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -53,7 +53,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Applications and features"
-msgstr ""
+msgstr "Anwendungen und Features"
 
 #. type: Bullet: '- '
 msgid ""
@@ -125,11 +125,13 @@ msgid ""
 "Computers with unsupported Wi-Fi devices, very common on Mac ([[!"
 "tails_ticket 11683]])"
 msgstr ""
+"Computer mit nicht unterstützten WLAN-Geräten, sehr häufig bei Mac (["
+"!tails_ticket 11683]])"
 
 #. type: Title ###
 #, no-wrap
 msgid "Resistance to remote exploitation"
-msgstr ""
+msgstr "Widerstand gegen Ausbeutung aus der Ferne"
 
 #. type: Bullet: '- '
 msgid ""

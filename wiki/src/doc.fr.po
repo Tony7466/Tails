@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-01-27 18:26+0100\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
 "PO-Revision-Date: 2023-02-08 20:27+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
@@ -22,11 +22,6 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Documentation\"]]\n"
 msgstr "[[!meta title=\"Documentation\"]]\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -149,7 +144,8 @@ msgstr "[[Mise à jour manuelle depuis Linux|upgrade/linux]]"
 
 #. type: Bullet: '    - '
 msgid "[[Upgrading manually by cloning from another Tails|upgrade/clone]]"
-msgstr "[[Mise à jour manuelle en clonant depuis un autre Tails|upgrade/clone]]"
+msgstr ""
+"[[Mise à jour manuelle en clonant depuis un autre Tails|upgrade/clone]]"
 
 #. type: Bullet: '    - '
 msgid ""
@@ -185,9 +181,7 @@ msgstr "Stockage persistant"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/persistent_storage.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/persistent_storage.index.fr\" raw=\"yes\" sort=\"age\""
-"]]\n"
+msgstr "[[!inline pages=\"doc/persistent_storage.index.fr\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -228,6 +222,10 @@ msgstr "Sujets avancés"
 #, no-wrap
 msgid "[[!inline pages=\"doc/advanced_topics.index\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr "[[!inline pages=\"doc/advanced_topics.index.fr\" raw=\"yes\" sort=\"age\"]]\n"
+
+#, no-wrap
+#~ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+#~ msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #, no-wrap
 #~ msgid "    [[!traillink Mac|reset/mac]]\n"

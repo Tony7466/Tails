@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-11-15 21:15+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
+"PO-Revision-Date: 2023-12-01 00:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -25,12 +25,6 @@ msgstr "[[!meta title=\"Documentació\"]]\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr ""
-"[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-
-#. type: Plain text
-#, no-wrap
 msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
@@ -40,8 +34,7 @@ msgid ""
 "<p>If this section doesn't answer your questions, you can also look at our\n"
 "[[FAQ|support/faq]].</p>\n"
 msgstr ""
-"<p>Si aquesta secció no respon les vostres preguntes, també podeu consultar "
-"les nostres\n"
+"<p>Si aquesta secció no respon les vostres preguntes, també podeu consultar les nostres\n"
 "[[PMF|support/faq]].</p>\n"
 
 #. type: Plain text
@@ -177,8 +170,7 @@ msgstr "Primers passos amb Tails"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/first_steps.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/first_steps.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/first_steps.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -188,9 +180,7 @@ msgstr "Emmagatzematge Persistent"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/persistent_storage.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/persistent_storage.index.ca\" raw=\"yes\" sort=\"age\""
-"]]\n"
+msgstr "[[!inline pages=\"doc/persistent_storage.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -200,9 +190,7 @@ msgstr "Internet sense censura i anònim"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/anonymous_internet.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/anonymous_internet.index.ca\" raw=\"yes\" sort=\"age\""
-"]]\n"
+msgstr "[[!inline pages=\"doc/anonymous_internet.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -212,9 +200,7 @@ msgstr "Encriptatge i privadesa"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/encryption_and_privacy.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/encryption_and_privacy.index.ca\" raw=\"yes\" sort="
-"\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/encryption_and_privacy.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -224,9 +210,7 @@ msgstr "Treballar amb documents sensibles"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/sensitive_documents.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/sensitive_documents.index.ca\" raw=\"yes\" sort=\"age\""
-"]]\n"
+msgstr "[[!inline pages=\"doc/sensitive_documents.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -236,8 +220,11 @@ msgstr "Temes avançats"
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/advanced_topics.index\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/advanced_topics.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/advanced_topics.index.ca\" raw=\"yes\" sort=\"age\"]]\n"
+
+#, no-wrap
+#~ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+#~ msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #, fuzzy
 #~ msgid ""

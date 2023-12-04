@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2022-03-24 08:43+0000\n"
-"PO-Revision-Date: 2023-11-16 13:13+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
+"PO-Revision-Date: 2023-11-24 10:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
 "Language: de\n"
@@ -22,11 +22,6 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Support\"]]\n"
 msgstr "[[!meta title=\"Hilfe & Support\"]]\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Title =
 #, no-wrap
@@ -49,6 +44,11 @@ msgid ""
 "  <button aria-label=\"Search\" class=\"button\" type=\"submit\"><strong>Search</strong></button>\n"
 "</form>\n"
 msgstr ""
+"<form method=\"get\" action=\"https://duckduckgo.com/\" target=\"_blank\">\n"
+"   <input aria-label=\"Search\" type=\"search\" name=\"q\" value=\"\" size=\"32\" placeholder=\"DuckDuckGo&hellip; verwenden\" />\n"
+"   <input type=\"hidden\" name=\"sites\" value=\"tails.net\"/>\n"
+"   <button aria-label=\"Suchen\" class=\"button\" type=\"submit\"><strong>Suchen</strong></button>\n"
+"</form>\n"
 
 #. type: Title =
 #, no-wrap
@@ -189,6 +189,10 @@ msgstr "  <h1>Mit uns Kontakt aufnehmen</h1>\n"
 msgid "  [[!inline pages=\"support/talk\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr "  [[!inline pages=\"support/talk.de\" raw=\"yes\" sort=\"age\"]]\n"
 
+#, no-wrap
+#~ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+#~ msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+
 #~ msgid ""
 #~ "Read the [[official documentation|doc]] to learn more about how Tails "
 #~ "works and maybe start answering your questions. It contains:"
@@ -219,11 +223,11 @@ msgstr "  [[!inline pages=\"support/talk.de\" raw=\"yes\" sort=\"age\"]]\n"
 #~ msgstr "Lernen Sie, Tails zu benutzen"
 
 #~ msgid ""
-#~ "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" sort=\"age"
-#~ "\"]]\n"
+#~ "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" "
+#~ "sort=\"age\"]]\n"
 #~ msgstr ""
-#~ "[[!inline pages=\"support/learn/intro.inline.de\" raw=\"yes\" sort=\"age"
-#~ "\"]]\n"
+#~ "[[!inline pages=\"support/learn/intro.inline.de\" raw=\"yes\" "
+#~ "sort=\"age\"]]\n"
 
 #~ msgid "-->\n"
 #~ msgstr "-->\n"
