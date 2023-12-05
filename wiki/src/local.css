@@ -680,7 +680,10 @@ a {
 /* News */
 
 article.inlinepage {
-  margin-bottom: 18px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  border: none;
+  background: var(--background-gray);
 }
 
 .inlinepage .inlineheader .header {
@@ -1084,7 +1087,6 @@ div#highlight p {
 .key-label, .key-percent {
   font-weight: bold;
 }
-
 
 .chart {
   /* Accessible color palette */
