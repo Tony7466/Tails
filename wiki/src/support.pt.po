@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2022-03-24 08:43+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
 "PO-Revision-Date: 2022-05-24 07:39+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: Portuguese <http://translate.tails.boum.org/projects/tails/"
@@ -23,11 +23,6 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Support\"]]\n"
 msgstr "[[!meta title=\"Suporte\"]]\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Title =
 #, no-wrap
@@ -183,6 +178,10 @@ msgstr "  <h1>Escreva para a nossa central de ajuda</h1>\n"
 msgid "  [[!inline pages=\"support/talk\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr "  [[!inline pages=\"support/talk.pt\" raw=\"yes\" sort=\"age\"]]\n"
 
+#, no-wrap
+#~ msgid "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+#~ msgstr "[[!meta stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]\n"
+
 #~ msgid ""
 #~ "Read the [[official documentation|doc]] to learn more about how Tails "
 #~ "works and maybe start answering your questions. It contains:"
@@ -212,11 +211,11 @@ msgstr "  [[!inline pages=\"support/talk.pt\" raw=\"yes\" sort=\"age\"]]\n"
 #~ msgstr "Aprenda como usar o Tails"
 
 #~ msgid ""
-#~ "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" sort=\"age"
-#~ "\"]]\n"
+#~ "[[!inline pages=\"support/learn/intro.inline\" raw=\"yes\" "
+#~ "sort=\"age\"]]\n"
 #~ msgstr ""
-#~ "[[!inline pages=\"support/learn/intro.inline.pt\" raw=\"yes\" sort=\"age"
-#~ "\"]]\n"
+#~ "[[!inline pages=\"support/learn/intro.inline.pt\" raw=\"yes\" "
+#~ "sort=\"age\"]]\n"
 
 #~ msgid "-->\n"
 #~ msgstr "-->\n"

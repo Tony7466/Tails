@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-11-28 22:39+0000\n"
-"PO-Revision-Date: 2023-12-01 00:42+0000\n"
+"POT-Creation-Date: 2023-12-01 03:08+0000\n"
+"PO-Revision-Date: 2023-12-01 18:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -23,12 +23,8 @@ msgid "[[!meta title=\"Sponsors\"]]"
 msgstr "[[!meta title=\"Patrocinadors\"]]"
 
 #. type: Content of: outside any tag (error?)
-msgid ""
-"[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
-msgstr ""
-"[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]]"
+msgid "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]]"
+msgstr "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <p>
 msgid ""
@@ -164,8 +160,8 @@ msgid ""
 "<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" alt="
 "\"\"]]</a>"
 msgstr ""
-"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" alt=\"\""
-"]]</a>"
+"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" alt="
+"\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Word Solver - $1 400"
@@ -232,16 +228,16 @@ msgstr ""
 "\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
-msgid "Look to the Right - $1 000"
-msgstr "Look to the Right - 1 000$"
+msgid "C0MPLEX1 - $1 000"
+msgstr "C0MPLEX1 - 1 000$"
 
 #. type: Content of: <div><p>
 msgid ""
-"<a href=\"https://www.looktotheright.com/\">[[!img lttr.jpg link=\"no\" alt="
+"<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" alt="
 "\"\"]]</a>"
 msgstr ""
-"<a href=\"https://www.looktotheright.com/\">[[!img lttr.jpg link=\"no\" alt="
-"\"\"]]</a>"
+"<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" alt=\""
+"\"]]</a>"
 
 #. type: Content of: <h1>
 msgid "Previous sponsors"
@@ -294,6 +290,10 @@ msgstr "ThinkPenguin - 0,026 bitcoins = 1 050$"
 #. type: Content of: <div><p>
 msgid "[[!img thinkpenguin.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img thinkpenguin.png link=\"no\" alt=\"\"]]"
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Look to the Right - $1 000"
+msgstr "Look to the Right - 1 000$"
 
 #. type: Content of: <div><p>
 msgid "[[!img lttr.jpg link=\"no\" alt=\"\"]]"
@@ -855,16 +855,17 @@ msgstr "2010"
 msgid "Tor - 8 500€"
 msgstr "Tor - 8 500€"
 
+#~ msgid ""
+#~ "<a href=\"https://www.looktotheright.com/\">[[!img lttr.jpg link=\"no\" "
+#~ "alt=\"\"]]</a>"
+#~ msgstr ""
+#~ "<a href=\"https://www.looktotheright.com/\">[[!img lttr.jpg link=\"no\" "
+#~ "alt=\"\"]]</a>"
+
 #, fuzzy
 #~ msgid ""
 #~ "<a href=\"https://protonmail.com/\">[[!img protonmail.png link=\"no\" alt="
 #~ "\"\"]]</a>"
-#~ msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
-
-#, fuzzy
-#~ msgid ""
-#~ "<a href=\"https://www.ripe.net/\">[[!img ripe.png link=\"no\" alt=\"\"]]</"
-#~ "a>"
 #~ msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #, fuzzy
