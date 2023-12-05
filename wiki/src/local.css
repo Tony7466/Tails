@@ -86,7 +86,6 @@ h3 {
   margin: 1.5em 0 0.75em 0;
 }
 
-.donate-button,
 p, ul, ol, h1, h2, h3, h4, h5, h6, blockquote {
   max-width: 45em; /* Avoid super-long lines */
 }
@@ -770,6 +769,11 @@ div.blocks img {
   background: var(--medium-dark-green) !important;
 }
 
+.button a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
 .cfa {
   width: 300px;
   margin: 1em auto;
@@ -1009,23 +1013,6 @@ div#highlight {
 }
 div#highlight p {
   margin: 0.5em 0;
-}
-
-/* Donate buttons outside of sidebar */
-
-.donate-button a {
-  border-bottom: none;
-  width: 100%;
-  display: block;
-  box-shadow: 1px 1px 5px var(--medium-light-gray);
-  border-radius: 5px;
-  padding: 0.5em 1em;
-  background: var(--medium-light-green) url('lib/donate.png') no-repeat scroll 10px 50% !important;
-  font-size: 26px;
-  padding-left: 70px;
-  line-height: 1em;
-  font-weight: normal;
-  color: black !important;
 }
 
 /* Charts */
