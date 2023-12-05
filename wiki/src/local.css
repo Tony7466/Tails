@@ -821,9 +821,9 @@ div.blocks img {
 #pagebody .floating-toggleable div.toggleable {
   display: none;
   background: white;
-  border: 1px solid var(--medium-light-green);
-  box-shadow: 5px 5px var(--medium-light-green);
-  padding: 15px 30px;
+  border: 5px solid var(--medium-dark-green);
+  border-radius: 15px;
+  padding: 30px 30px 15px 30px;
   margin: 0;
   position: absolute;
   text-align: left;
@@ -831,14 +831,15 @@ div.blocks img {
   width: 37em;
 }
 
-/* X for closing the toggle */
-
 #pagebody .floating-toggleable a.toggle {
   border: none !important;
   cursor: pointer;
   position: absolute;
-  right: 7px;
+  height: 30px;
+  width: 30px;
+  right: 5px;
   top: 5px;
+  background: url('lib/close.png') no-repeat;
 }
 
 /* Icons */
