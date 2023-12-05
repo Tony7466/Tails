@@ -1,3 +1,9 @@
+tails (5.21) UNRELEASED; urgency=medium
+
+  * Dummy entry for next release.
+
+ -- anonym <anonym@riseup.net>  Tue, 28 Nov 2023 11:30:07 +0100
+
 tails (5.20) unstable; urgency=medium
 
   * Upgrade Thunderbird to 1:115.5.0-1~deb11u1
