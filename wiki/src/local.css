@@ -802,21 +802,19 @@ div.blocks img {
 
 #pagebody div.toggleable {
   position: relative;
-  background: var(--background-purple);
-  border-top: solid 5px black;
-  border-bottom: solid 5px black;
-  padding: 15px 2em;
-  margin: 2em 0;
+  background: var(--background-gray);
+  padding: 15px;
+  margin: 0 0 30px;
+  border-radius: 5px;
 }
 
 #pagebody div.toggleable span.hide a.toggle, span.hide-button {
   display: block;
-  height: 48px;
-  width: 78px;
+  height: 30px;
+  width: 30px;
   position: absolute;
-  right: 0;
-  background: url('lib/close.png') no-repeat 15px 0px;
-  border: none;
+  right: 16px;
+  background: url('lib/close.png') no-repeat;
   cursor: pointer;
 }
 
