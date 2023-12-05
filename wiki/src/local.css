@@ -223,7 +223,7 @@ img.right-margin { /* Overwrite style.css */
 
 /* Images with caption */
 
-table.img, table.img td {
+table.img, table.img td, table.img tr {
   border: none;
 }
 
