@@ -1073,7 +1073,7 @@ class TailsInstallerCreator(object):
         """Return an UDisks.Object for our drive"""
         if not udi:
             udi = self.drive["udi"]
-        return self._udisksclient.get_object(udi)
+        return self.try_getting_udisks_object(udi)
 
     def first_partition(self, udi=None):
         """Return the UDisks2.Partition object for the first partition on the drive"""
