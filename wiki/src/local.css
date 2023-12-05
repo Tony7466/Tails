@@ -265,8 +265,12 @@ button, input, textarea {
   border-radius: 5px;
 }
 
+input, textarea {
+  border: 1px solid var(--medium-light-gray);
+}
+
 input:focus, textarea:focus {
-  border: 2px solid var(--medium-light-green);
+  border: 1px solid var(--medium-light-green);
   outline: 0;
 }
 
