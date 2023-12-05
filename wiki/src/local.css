@@ -939,12 +939,12 @@ code {
 pre, p.pre {
   background-color: var(--background-gray);
   border: thin solid var(--medium-light-gray);
+  border-radius: 5px;
   color: var(--dark-gray);
   margin: 1.5em 1em 1.5em 1.5em;
   padding: 0.25em 0.5em;
   max-width: 61em !important;
   width: 61em !important;
-  max-width: 90%;
 }
 
 p.command-example, p.command-output {
