@@ -135,7 +135,7 @@ class TailsInstallerCreator(object):
         self.log.addHandler(self.file_handler)
 
     def try_getting_udisks_object(self, object_path: str) -> UDisks.Object:
-        for attempt in range(1, 10):
+        for attempt in range(1, 100):
             udisks_object = self._udisksclient.get_object(object_path)
             if udisks_object is not None:
                 return udisks_object
