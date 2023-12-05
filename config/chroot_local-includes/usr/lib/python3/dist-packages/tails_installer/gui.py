@@ -432,7 +432,8 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
             if self.opts.clone_persistent_storage_requested:
                 self.__help_link.set_label(_("Backup Instructions"))
                 self.__help_link.set_uri(
-                    "https://tails.net/doc/persistent_storage/backup/")
+                    "https://tails.net/doc/persistent_storage/backup/"
+                )
         self.update_clone_persistent_storage_check_button()
         self.update_start_button()
 
