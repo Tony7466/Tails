@@ -756,6 +756,7 @@ div.blocks img {
 .button {
   color: black !important;
   background: var(--medium-light-green) !important;
+  border: none !important;
   text-decoration: none !important;
   padding: 6px 12px !important;
   border-radius: 5px;
