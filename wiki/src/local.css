@@ -1151,6 +1151,14 @@ div#highlight p {
   margin-top: 30px;
 }
 
+#footer button {
+  border: 0;
+  font-weight: normal;
+  padding: 6px;
+  background: var(--light-gray);
+  box-shadow: 1px 1px 1px black, 1px 1px 4px var(--dark-gray), inset 1px 1px 1px var(--background-gray);
+}
+
 #footer p a {
   text-decoration: underline;
 }
