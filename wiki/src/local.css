@@ -160,8 +160,10 @@ blockquote p:last-child {
 /* Tables */
 
 table {
-  margin: 1.5em 0;
+  margin: 1.5em auto;
   border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
 }
 
 th.w30 {
@@ -169,28 +171,34 @@ th.w30 {
 }
 
 th, td {
-  border: 1px solid black;
-  padding: 0.5em 1em;
+  padding: 0.7em 1.5em;
 }
 
 th {
-  background: var(--light-purple);
+  background: var(--medium-purple);
+  color: white;
+  text-align: left;
 }
 
 tr:nth-child(odd) {
   background: var(--background-gray);
 }
 
+tr:last-of-type {
+  border-bottom: 2px solid var(--medium-purple);
+}
+
 td.check, td.cross {
   padding-left: 42px;
+  background-size: 20px !important;
 }
 
 td.check {
-  background: url(lib/check.png) no-repeat 10px 8px;
+  background: url(lib/check.png) no-repeat 10px 12px;
 }
 
 td.cross {
-  background: url(lib/cross.png) no-repeat 10px 6px;
+  background: url(lib/cross.png) no-repeat 10px 12px;
 }
 
 /* Images */
