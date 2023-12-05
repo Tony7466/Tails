@@ -790,6 +790,10 @@ div.blocks img {
   font-family: "Source Sans Pro Regular", "DejaVu Sans", "Verdana", sans-serif;
 }
 
+.cfa a:hover {
+  background: var(--medium-dark-green) !important;
+}
+
 .cfa a:visited {
   color: black !important;
 }
