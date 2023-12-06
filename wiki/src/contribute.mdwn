@@ -4,6 +4,11 @@ There are many ways you can contribute to Tails. No effort is too
 small and whatever you bring to this community will be appreciated.
 So read on to find out how you can make a difference in Tails.
 
+[[!toc levels=1]]
+
+Ways to contribute
+==================
+
 <div class="blocks">
 
 <div class="block block-half">
@@ -95,22 +100,8 @@ So read on to find out how you can make a difference in Tails.
     <li>[[Improve the Tails user experience|contribute/how/user_experience]]</li>
   </ul>
 </div>
+
 </div>
-
-<div class="toc">
-
-	<h1>Table of contents</h1>
-
-	<ol>
-		<li class="L2"><a href="#reference-documents">Reference documents</a></li>
-		<li class="L2"><a href="#tools">Tools for contributors</a></li>
-		<li class="L2"><a href="#release-cycle">Release cycle</a></li>
-		<li class="L2"><a href="#upstream">Relationship with upstream</a></li>
-		<li class="L2"><a href="#collective-process">Collective process</a></li>
-		<li class="L2"><a href="#talk">Talk with us</a></li>
-	</ol>
-
-</div> <!-- .toc -->
 
 <div class="note">
 
