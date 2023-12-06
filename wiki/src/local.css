@@ -269,11 +269,6 @@ input, textarea {
   border: 1px solid var(--medium-light-gray);
 }
 
-input:focus, textarea:focus {
-  border: 1px solid var(--medium-light-green);
-  outline: 0;
-}
-
 /* Layout */
 
 .page {
@@ -662,6 +657,13 @@ a {
 #pagebody a.noicon {
   background-image: none;
   padding-right: 0;
+}
+
+/* Focus */
+
+a:focus, button:focus, input:focus, textarea:focus, video:focus {
+  outline: 1px solid var(--yellow);
+  outline-offset: 1px;
 }
 
 /* Support page */
