@@ -105,8 +105,8 @@ Ways to contribute
 
 <div class="note">
 
-This section is only in English, because there is currently no way to
-contribute to Tails if you do not understand English.
+<p>This section is only in English, because there is currently no way to
+contribute to Tails if you do not understand English.</p>
 
 </div>
 
@@ -195,9 +195,7 @@ Collective process
   - Interfaces between roles and teams
     - [[Developers and Release Managers|contribute/working_together/interfaces/developers_and_release_managers]]
   - Roles for sponsor deliverables (internal documentation):
-    [[!tails_gitlab tails/summit/-/wikis/Handbook/Grant_contract_management]]
-
-<a id="talk"></a>
+    - [[!tails_gitlab tails/summit/-/wikis/Handbook/Grant_contract_management]]
 
 Contact us
 ==========
