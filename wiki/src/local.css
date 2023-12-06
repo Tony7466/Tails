@@ -248,6 +248,10 @@ video {
 
 /* Forms */
 
+form {
+  margin: 30px 0;
+}
+
 label {
   display: block;
   margin-bottom: 0;
@@ -677,11 +681,12 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
   margin-top: 30px;
 }
 
-.blocks .block {
+.block {
   display: block;
   background-color: var(--background-gray);
   padding: 30px;
   border-radius: 5px;
+  margin-top: 30px;
 }
 
 .blocks .block-full {
@@ -706,7 +711,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
   }
 }
 
-.blocks .block h1, .blocks .block h2 {
+.block h1, .block h2 {
   color: var(--medium-purple);
   margin-top: 0;
 }
@@ -719,6 +724,10 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 .blocks .block h3 {
   text-align: center;
   margin-top: 0;
+}
+
+.block *:last-child {
+  margin-bottom: 0;
 }
 
 /* News */
@@ -771,7 +780,7 @@ article.inlinepage {
 
 /* Buttons and calls for action */
 
-.button {
+.button, input[type="submit"] {
   color: black !important;
   background: var(--medium-light-green) !important;
   border: none !important;
