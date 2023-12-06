@@ -525,6 +525,7 @@ label[for="searchbox"]{
   margin-top: 7px;
   width: 120px; /* Force size to prevent overflowing breadcrumbs */
   height: 35px;
+  z-index: 5;
 }
 
 #language-switcher-bottom {
