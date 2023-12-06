@@ -666,17 +666,59 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
   outline-offset: 1px;
 }
 
-/* Support page */
+/* Blocks */
 
-#talk h1, #bugs h1, #wishlist h1, #tools h1 {
-  margin-top: 18px;
-  color: var(--medium-purple);
-  line-height: 1.6em;
-  border-bottom: 5px solid var(--medium-purple);
+.blocks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
 }
 
-#talk h1 {
-  width: 90%;
+.blocks .block {
+  display: block;
+  background-color: var(--background-gray);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.blocks .block-full {
+  width: 100%;
+}
+
+.blocks .block-half {
+  width: calc(100% / 2 - 15px);
+}
+
+.blocks .block-third {
+  width: calc(100% / 3 - 20px);
+}
+
+.block .block-half {
+  width: calc(100% / 2 - 15px); /* Nested blocks like in /support/talk */
+}
+
+@media (max-width: 986px) {
+  .blocks .block-half, .blocks .block-third {
+    width: 100%;
+  }
+}
+
+.blocks .block h1, .blocks .block h2 {
+  color: var(--medium-purple);
+  margin-top: 0;
+}
+
+.blocks .block img {
+  margin: 15px auto;
+  display: block;
+}
+
+.blocks .block h3 {
+  text-align: center;
+  margin-top: 0;
 }
 
 /* News */
@@ -725,32 +767,6 @@ article.inlinepage {
 .inlinepage img {
   max-width: 100%;
   height: auto;
-}
-
-/* Columns */
-
-div.blocks {
-  display: inline-block;
-  margin: 0 5% 0 0;
-  text-align: center;
-  vertical-align: top;
-}
-
-div.two-blocks {
-  width: 44%;
-  margin-top: 2em;
-}
-
-div.blocks p, div.blocks ul, div.blocks h1, div.blocks div {
-  text-align: left;
-}
-
-div.blocks img {
-  text-decoration: none;
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto
 }
 
 /* Buttons and calls for action */
@@ -897,7 +913,7 @@ div.bug, div.caution, div.next, div.note, div.tip, div.trophy, div.attack {
   background-repeat: no-repeat;
   min-height: 48px;
   padding-left: 66px;
-  margin: 1.5em 0;
+  margin: 30px 0;
   max-width: 52em;
 }
 div.bug {
@@ -975,35 +991,6 @@ img.symbolic {
   display: inline-block;
   position: relative;
   top: 3px;
-}
-
-/* Contribute section */
-
-div.contribute-roles-1 {
-  display: inline-block;
-  margin-right: 2em;
-  width: 31%;
-}
-
-div.contribute-roles-3 div.contribute-role {
-  width: 29%;
-}
-
-div.contribute-role {
-  display: inline-block;
-  margin-right: 2em;
-  vertical-align: top;
-}
-
-div.contribute-role p {
-  font-style: italic;
-}
-
-div.contribute-role img {
-  display: block;
-  margin: 0 auto 0.5em;
-  max-width: 100%;
-  height: auto;
 }
 
 /* Highlight */
@@ -1215,15 +1202,6 @@ html[dir="rtl"] .pageheader #otherlanguages {
   left: 0;
   right: auto;
   width: 100%;
-}
-
-html[dir="rtl"] #news, html[dir="rtl"] #bugs {
-  margin-right: 0;
-  margin-left: 2em;
-}
-
-html[dir="rtl"] div.contribute-roles-1 {
-  margin: 0;
 }
 
 html[dir="rtl"] #pagebody div.toggleable span.hide a.toggle {
