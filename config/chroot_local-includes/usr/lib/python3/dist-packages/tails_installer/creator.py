@@ -706,8 +706,6 @@ class TailsInstallerCreator(object):
         self.dest = self.drive["mount"]
         if not self.dest:
             self.log.debug("Mounting %s" % self.drive["udi"])
-            # XXX: this is racy and then it sometimes fails with:
-            # 'NoneType' object has no attribute 'call_mount_sync'
             filesystem = self._get_object().props.filesystem
             mount = None
             try:
