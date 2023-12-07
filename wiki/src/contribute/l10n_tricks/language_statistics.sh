@@ -6,7 +6,7 @@ set -e
 set -u
 set -o pipefail
 
-LANGUAGES=${@:-de es fr it pt ru}
+LANGUAGES=${@:-ca de es fr it pt ru}
 
 GIT_TOPLEVEL_DIR=$(git rev-parse --show-toplevel)
 
@@ -84,7 +84,7 @@ echo ""
 echo "## Core pages of the website for languages not activated on the website yet"
 echo ""
 
-for lang in ar ca fa id pl sr_Latn tr zh zh_TW ; do
+for lang in ar fa id pl sr_Latn tr zh zh_TW ; do
     PO_FILES="$(mktemp -t XXXXXX.$lang)"
     cat "$WEBSITE_ROOT_DIR"/contribute/l10n_tricks/core_po_files.txt \
         | sed "s/$/.$lang.po/g" \
