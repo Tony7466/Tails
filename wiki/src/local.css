@@ -749,6 +749,7 @@ article.inlinepage {
   border-radius: 5px;
   border: 1px solid var(--light-gray);
   background: var(--background-gray);
+  padding: 30px;
 }
 
 .inlinepage .inlineheader .header {
