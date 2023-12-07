@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-11-05 23:11+0000\n"
+"PO-Revision-Date: 2023-12-07 14:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -238,10 +238,8 @@ msgid "Toshiba"
 msgstr "Toshiba"
 
 #. type: Content of: <ol><li><table><tr><td>
-#, fuzzy
-#| msgid "others&hellip;"
 msgid "Others&hellip;"
-msgstr "altres&hellip;"
+msgstr "Altres&hellip;"
 
 #. type: Content of: <ol><li><div><p>
 msgid ""
