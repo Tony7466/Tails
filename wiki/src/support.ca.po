@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-11-15 21:15+0000\n"
+"PO-Revision-Date: 2023-12-07 02:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -108,10 +108,9 @@ msgstr ""
 "GitLab\"]]"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<div id=\"bugs\" class=\"blocks two-blocks\">\n"
+#, no-wrap
 msgid "<div class=\"blocks\">\n"
-msgstr "<div id=\"bugs\" class=\"blocks two-blocks\">\n"
+msgstr "<div class=\"blocks\">\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
