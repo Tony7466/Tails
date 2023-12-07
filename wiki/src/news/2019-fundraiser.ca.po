@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-12-06 18:42+0000\n"
+"PO-Revision-Date: 2023-12-07 14:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -308,7 +308,8 @@ msgid "Please take a minute to donate to Tails today!"
 msgstr "Si us plau, preneu un minut per fer una donació a Tails avui!"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<div class=\"donate-button\"><a href=\"https://tails.net/donate/?r=2019\">Donate</a></div>\n"
+#, no-wrap
 msgid "<div class=\"button\"><a href=\"https://tails.net/donate/?r=2019\">Donate</a></div>\n"
-msgstr "<div class=\"donate-button\"><a href=\"https://tails.net/donate/index.ca.html?r=2019\">Fer una donació</a></div>\n"
+msgstr ""
+"<div class=\"button\"><a href=\"https://tails.net/donate/index.ca.html?r="
+"2019\">Feu una donació</a></div>\n"
