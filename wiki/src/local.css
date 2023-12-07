@@ -185,6 +185,10 @@ th {
   text-align: left;
 }
 
+tr:nth-child(even) {
+  background: white;
+}
+
 tr:nth-child(odd) {
   background: var(--background-gray);
 }
