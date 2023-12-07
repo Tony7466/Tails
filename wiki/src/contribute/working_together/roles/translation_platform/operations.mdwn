@@ -55,12 +55,7 @@ new versions of Tails:
 - Edit the `./ikiwiki.setup` file ([example for Russian locale](https://gitlab.tails.boum.org/tails/tails/-/commit/db7a64d89a5ecd062cfaf2545e03c048351aa19f)):
   - Remove the locale from the regexp exclude line.
   - Add locale to `po_slave_languages` list (in alphabetical order).
-- Edit ikiwiki template files:
-  - `wiki/src/templates/news.tmpl` and `wiki/src/templates/page.tmpl` may need
-     some strings as 'Donate' that can be learned from the translation
-     platform.
-- Add .donate and locale bits to `wiki/src/local.css`
-- Add the new language to `wiki/src/contribute/l10n_tricks/language_statistics.sh`
+- Update the `wiki/src/contribute/l10n_tricks/language_statistics.sh` script by adding the new language to `LANGUAGES` and maybe updating the list of languages not activated in the website yet.
 
 Fix missing not-in-production languages
 =======================================
