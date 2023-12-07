@@ -8,7 +8,12 @@ from logging import getLogger
 import time
 from typing import TYPE_CHECKING, List, Optional
 
-from tps import executil, SYSTEM_PARTITION_MOUNT_POINT, LUKS_HEADER_BACKUP_PATH
+from tps import (
+    executil,
+    InvalidBootDeviceErrorType,
+    SYSTEM_PARTITION_MOUNT_POINT,
+    LUKS_HEADER_BACKUP_PATH,
+)
 from tps.configuration import features
 from tps.configuration.config_file import ConfigFile, InvalidStatError
 from tps.configuration.feature import Feature, ConflictingProcessesError
@@ -20,7 +25,13 @@ from tps.dbus.errors import (
     DeactivationFailedError,
 )
 from tps.dbus.object import DBusObject
-from tps.device import udisks, BootDevice, TPSPartition, InvalidBootDeviceError
+from tps.device import (
+    udisks,
+    BootDevice,
+    TPSPartition,
+    InvalidBootDeviceError,
+    TooManyPartitionsError,
+)
 from tps.job import ServiceUsingJobs
 from tps import (
     State,
@@ -85,7 +96,7 @@ class Service(DBusObject, ServiceUsingJobs):
                     <arg name='passphrase' direction='in' type='s'/>
                 </method>
                 <property name="State" type="s" access="read" />
-                <property name="Error" type="s" access="read" />
+                <property name="Error" type="u" access="read" />
                 <property name="IsCreated" type="b" access="read"/>
                 <property name="IsUnlocked" type="b" access="read"/>
                 <property name="IsUpgraded" type="b" access="read"/>
@@ -109,7 +120,7 @@ class Service(DBusObject, ServiceUsingJobs):
         self._tps_partition = None  # type: Optional[TPSPartition]
         self._device = ""
         self.state = State.UNKNOWN
-        self._error = ""
+        self._error: int = 0
         self._unlocked = False
         self._upgraded = False
         self._created = False
@@ -125,7 +136,14 @@ class Service(DBusObject, ServiceUsingJobs):
         except InvalidBootDeviceError as e:
             logger.warning("Invalid boot device: %s", e)
             self.State = State.NOT_CREATED
-            self.Error = str(e)
+            # First, handle error states that we want to expose differently
+            # in the UI, for example by giving the user more specific guidance.
+            if isinstance(e, TooManyPartitionsError):
+                self.Error = InvalidBootDeviceErrorType.TOO_MANY_PARTITIONS
+            # Finally, assume that any problem that's not handled differently above
+            # is the result of installing Tails in an unsupported manner.
+            else:
+                self.Error = InvalidBootDeviceErrorType.UNSUPPORTED_INSTALLATION_METHOD
             return
 
         self.refresh_state()
@@ -486,17 +504,17 @@ class Service(DBusObject, ServiceUsingJobs):
         )
 
     @property
-    def Error(self) -> str:
-        """The error message, if State is ERROR"""
+    def Error(self) -> int:
+        """The error code, if State is ERROR"""
         return self._error
 
     @Error.setter
-    def Error(self, msg: str):
-        if self._error == msg:
+    def Error(self, code: int):
+        if self._error == code:
             # Nothing to do
             return
-        self._error = msg
-        changed_properties = {"Error": GLib.Variant("s", msg)}
+        self._error = code
+        changed_properties = {"Error": GLib.Variant("u", code)}
         self.emit_properties_changed_signal(
             self.connection,
             DBUS_SERVICE_INTERFACE,

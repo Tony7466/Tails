@@ -1,8 +1,9 @@
 from logging import getLogger
-from gi.repository import Gtk
+from gi.repository import GLib, Gtk
 import subprocess
 
-from tps_frontend import WELCOME_VIEW_UI_FILE
+from tps import InvalidBootDeviceErrorType
+from tps_frontend import _, WELCOME_VIEW_UI_FILE
 from tps_frontend.view import View
 
 logger = getLogger(__name__)
@@ -11,7 +12,7 @@ logger = getLogger(__name__)
 class WelcomeView(View):
     _ui_file = WELCOME_VIEW_UI_FILE
 
-    def __init__(self, window):
+    def __init__(self, window) -> None:
         super().__init__(window)
         self.continue_button = self.builder.get_object(
             "continue_button"
@@ -21,12 +22,27 @@ class WelcomeView(View):
         )  # type: Gtk.Box
         self.warning_icon = self.builder.get_object("warning_icon")  # type: Gtk.Image
 
-    def show(self):
+    def show(self) -> None:
         super().show()
 
         # Check if the boot device is supported
         variant = self.window.service_proxy.get_cached_property("BootDeviceIsSupported")
         device_is_supported = bool(variant and variant.get_boolean())
+
+        if not device_is_supported:
+            error: GLib.Variant = self.window.service_proxy.get_cached_property("Error")
+            if error:
+                error_type = InvalidBootDeviceErrorType(error.get_uint32())
+                logger.warning("Error: %s", error_type)
+                if error_type == InvalidBootDeviceErrorType.TOO_MANY_PARTITIONS:
+                    logger.warning(
+                        "There is already a second partition on the USB stick.",
+                    )
+                elif error_type == InvalidBootDeviceErrorType.UNSUPPORTED_INSTALLATION_METHOD:
+                    logger.warning(
+                        "You can only create a Persistent Storage on a USB stick "
+                        "installed with a USB image or Tails Cloner.",
+                    )
 
         if device_is_supported:
             self.continue_button.grab_focus()

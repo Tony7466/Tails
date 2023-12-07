@@ -15,6 +15,7 @@ from tailslib import LIVE_USER_UID, LIVE_USERNAME
 import tps.logging
 from tps import executil, LUKS_HEADER_BACKUP_PATH
 from tps import _, TPS_MOUNT_POINT, udisks
+from tps import InvalidBootDeviceErrorType
 from tps.dbus.errors import (
     IncorrectPassphraseError,
     TargetIsBusyError,
@@ -57,6 +58,29 @@ class InvalidBootDeviceError(Exception):
     pass
 
 
+class InvalidPartitionTableTypeError(InvalidBootDeviceError):
+    def __init__(self, partition_table_type: str):
+        super().__init__(f"Partition table type: {partition_table_type}")
+
+
+class NoUdisksBlockObjectError(InvalidBootDeviceError):
+    def __init__(self, device: str):
+        super().__init__(f"Could not get udisks object of boot device {device}")
+
+
+class NoUdisksPartitionObjectError(InvalidBootDeviceError):
+    def __init__(self, device: str):
+        super().__init__(f"Boot device {device} is not a partition")
+
+
+class UnsupportedInstallationMethodError(InvalidBootDeviceError):
+    pass
+
+
+class TooManyPartitionsError(InvalidBootDeviceError):
+    pass
+
+
 class InvalidCleartextDeviceError(Exception):
     pass
 
@@ -73,11 +97,7 @@ class BootDevice(object):
         )  # type: UDisks.PartitionTable
         partition_table_type = self.partition_table.props.type
         if partition_table_type != "gpt":
-            logger.debug(f"Partition table type: {partition_table_type}")
-            raise InvalidBootDeviceError(
-                "You can only create a Persistent Storage on a USB stick "
-                "installed with a USB image or Tails Cloner."
-            )
+            raise InvalidPartitionTableTypeError(partition_table_type)
         self.block = self.udisks_object.get_block()
         if not self.block:
             raise InvalidBootDeviceError("Device is not a block device")
@@ -86,7 +106,8 @@ class BootDevice(object):
     @classmethod
     def get_tails_boot_device(cls) -> "BootDevice":
         """Get the device which Tails was booted from. Raise a
-        InvalidBootDeviceError if it can't be found."""
+        InvalidBootDeviceError (or instance of a child exception class)
+        if it can't be found."""
         # Get the underlying block device of the Tails system partition
         try:
             dev_num = os.stat(TAILS_MOUNTPOINT).st_dev
@@ -95,24 +116,19 @@ class BootDevice(object):
 
         block = udisks.get_block_for_dev(dev_num)
         if not block or not block.get_object():
-            msg = (
-                f"Could not get udisks object of boot device "
-                f"{os.major(dev_num)}:{os.minor(dev_num)}"
+            raise NoUdisksBlockObjectError(
+                f"{os.major(dev_num)}:{os.minor(dev_num)}",
             )
-            raise InvalidBootDeviceError(msg)
         device_object = block.get_object()
 
         # Get the udisks partition object
         partition = device_object.get_partition()
         if not partition:
-            msg = f"Boot device {block.props.device} is not a partition"
-            raise InvalidBootDeviceError(msg)
+            raise NoUdisksPartitionObjectError(block.props.device)
         partition_name = partition.props.name
         if partition_name != "Tails":
-            logger.debug(f"Partition name: {partition_name}")
-            raise InvalidBootDeviceError(
-                "You can only create a Persistent Storage on a USB stick "
-                "installed with a USB image or Tails Cloner."
+            raise UnsupportedInstallationMethodError(
+                f"Partition name: {partition_name}"
             )
 
         return BootDevice(udisks.get_object(partition.props.table))
