@@ -10,7 +10,7 @@ h2 {
   font-size: 32px;
 }
 
-section {
+section section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
