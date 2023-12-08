@@ -893,6 +893,10 @@ div.icon div.text {
   margin-left: 1em;
 }
 
+div.icon div.text h2 {
+  margin-top: 20px;
+}
+
 /* Documentation styling */
 
 span.application { font-style: italic; }
