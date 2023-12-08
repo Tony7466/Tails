@@ -70,12 +70,3 @@ h1 {
 .medium {
   color: var(--medium-dark-gray);
 }
-
-.links {
-  margin-top: 2em;
-}
-
-.links p, .links ul {
-  display: inline-block;
-  vertical-align: top;
-}
