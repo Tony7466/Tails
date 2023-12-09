@@ -33,6 +33,8 @@ line"]].
 
 [[!toggleable id="dd" text="""
 
+[[!toggle id="dd" text="""<span class="hide-button"></span>"""]]
+
 1. Make sure that your USB stick is unplugged.
 
 1. Open <span class="application">Terminal</span> from
