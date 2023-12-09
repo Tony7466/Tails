@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-15 14:41+0100\n"
 "PO-Revision-Date: 2023-12-09 02:46+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -21,12 +21,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 5.16.1\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.16.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta date=\"Tue, 15 Aug 2023 12:34:56 +0000\"]]\n"
-msgstr ""
+msgstr "[[!meta date=\"Tue, 15 Aug 2023 12:34:56 +0000\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,26 +43,31 @@ msgid ""
 "This release is an emergency release to fix a critical vulnerability in the "
 "*Linux* kernel."
 msgstr ""
+"Esta versión es una versión de emergencia para corregir una vulnerabilidad "
+"en el núcleo de *Linux*."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"changes\">Cambios y actualizaciones</h1>\n"
 
 #. type: Plain text
 msgid "- Update the *Linux* kernel to 6.1.38."
-msgstr ""
+msgstr "- Se ha actualizado el núcleo de *Linux* a la versión 6.1.38."
 
 #. type: Plain text
 #, no-wrap
 msgid "  This update fixes:\n"
-msgstr ""
+msgstr "  Esta actualización soluciona:\n"
 
 #. type: Bullet: '  * '
 msgid ""
 "[Downfall](https://downfall.page/) on Intel processors ([CVE-2022-40982]"
 "(https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40982))"
 msgstr ""
+"[Downfall](https://downfall.page/) en procesadores Intel "
+"([CVE-2022-40982](https://cve.mitre.org/cgi-bin/cvename."
+"cgi?name=CVE-2022-40982))"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -70,6 +75,9 @@ msgid ""
 "sb-7005.html) on AMD processors ([CVE-2023-20569](https://cve.mitre.org/cgi-"
 "bin/cvename.cgi?name=CVE-2023-20569))"
 msgstr ""
+"[Inception](https://www.amd.com/en/resources/product-security/bulletin/amd-"
+"sb-7005.html) en procesadores AMD ([CVE-2023-20569](https://cve.mitre.org/"
+"cgi-bin/cvename.cgi?name=CVE-2023-20569))"
 
 #. type: Plain text
 #, no-wrap
