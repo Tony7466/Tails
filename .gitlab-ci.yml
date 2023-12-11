@@ -70,6 +70,10 @@ ruff-changed-files:
     - apt-get -qy install ruff findutils git
     - ruff --version
     - ./bin/test-utils/ruff HEAD "origin/${CI_MERGE_REQUEST_TARGET_BRANCH_NAME:?}"
+  artifacts:
+    when: always
+    reports:
+      junit: ruff.xml
 
 check-website-core-pages:
   script:
