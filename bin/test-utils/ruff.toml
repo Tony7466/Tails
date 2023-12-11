@@ -1,5 +1,6 @@
 # This configuration file is only used in the context of ./bin/test-utils/ruff.toml,
-# which is only used for CI
+# which is only used for CI. See pyproject.toml for an explaination of why we have
+# multiple configurations and how to keep them up-to-date
 
 
 # TODO: bump for Bookworm
