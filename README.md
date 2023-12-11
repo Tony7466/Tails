@@ -42,3 +42,4 @@ email and mailing lists: https://tails.net/about/contact
 XMPP: tails@chat.disroot.org and tails-dev@chat.disroot.org
 
 [![Tails](https://tails.net/contribute/how/promote/material/logo/tails-logo-flat.svg)](https://tails.net)
+
