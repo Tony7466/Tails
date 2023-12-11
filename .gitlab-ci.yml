@@ -69,7 +69,7 @@ ruff-changed-files:
   script:
     - apt-get -qy install ruff findutils git
     - ruff --version
-    - ./bin/test-utils/ruff HEAD "origin/${CI_MERGE_REQUEST_TARGET_BRANCH_NAME:?}"
+    - ./bin/test-utils/ruff HEAD "origin/${CI_MERGE_REQUEST_TARGET_BRANCH_NAME:?}" --output-format=junit --output-file=ruff.xml
   artifacts:
     when: always
     reports:
