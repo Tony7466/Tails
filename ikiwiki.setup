@@ -108,7 +108,7 @@ ENV: {}
 # regexp of normally excluded files to include
 #include: '^\.htaccess$'
 # regexp of files that should be skipped
-exclude: '(^^contribute\/how\/promote\/material\/.*|\/discussion\..*|\/Discussion\..*|\.(ar|ca|fa|id|pl|sr_Latn|tr|zh|zh_TW)\.po$)'
+exclude: '(^^contribute\/how\/promote\/material\/.*|\/discussion\..*|\/Discussion\..*|\.(ar|fa|id|pl|sr_Latn|tr|zh|zh_TW)\.po$)'
 # specifies the characters that are allowed in source filenames
 wiki_file_chars: '-[:alnum:]+/._~'
 # allow symlinks in the path leading to the srcdir (potentially insecure)
@@ -183,6 +183,7 @@ pingurl: []
 po_master_language: en|English
 # slave languages (translated via PO files) format: ll|Langname
 po_slave_languages:
+  - ca|Català
   - de|Deutsch
   - es|Español
   - fr|Français
