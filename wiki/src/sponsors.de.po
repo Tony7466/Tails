@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-01 03:08+0000\n"
+"POT-Creation-Date: 2023-12-14 23:47+0000\n"
 "PO-Revision-Date: 2023-12-04 11:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
@@ -151,11 +151,6 @@ msgstr "Anonyme Spende - 2.902€"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
-msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
-msgstr "Anonyme Spende - 2.902€"
-
-#. type: Attribute 'title' of: <div><p>
-#, fuzzy
 msgid "iGaming.com - 1 500€"
 msgstr "Tor - 8.500€"
 
@@ -276,10 +271,23 @@ msgstr "[[!img protonmail.png link=\"no\" alt=\"\"]]"
 msgid "[[!img nym.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img ndi.png link=\"no\" alt=\"\"]]"
 
+#. type: Content of: <div><p>
+msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
+msgstr "[[!img aspiration.png link=\"no\" alt=\"\"]]"
+
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
 msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
 msgstr "Anonyme Spende - 2.902€"
+
+#. type: Attribute 'title' of: <div><p>
+#, fuzzy
+msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
+msgstr "Anonyme Spende - 2.902€"
+
+#. type: Content of: <div><p>
+msgid "[[!img word-solver.png link=\"no\" alt=\"\"]]"
+msgstr "[[!img word-solver.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
@@ -357,10 +365,6 @@ msgstr "[[!img internews.png link=\"no\" alt=\"\"]]"
 msgid "Anonymous donation - 100 moneros = 19 611€"
 msgstr "Anonyme Spende - 2.902€"
 
-#. type: Content of: <div><p>
-msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img aspiration.png link=\"no\" alt=\"\"]]"
-
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
 msgid "Anonymous donation - 2 000€"
@@ -370,10 +374,6 @@ msgstr "Anonyme Spende - 2.902€"
 #, fuzzy
 msgid "Tor - $1 575"
 msgstr "Tor - $10.950"
-
-#. type: Content of: <div><p>
-msgid "[[!img word-solver.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img word-solver.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
