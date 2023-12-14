@@ -34,17 +34,23 @@ def tzname_is_valid(tzname):
         return False
     return True
 
+def get_os_locale_string():
+    if 'LC_TIME' in os.environ:
+        return os.environ['LC_TIME']
+    else:
+        return os.environ['LANG']
 
 def main():
     if os.getuid() != 0:
         print("Only root can run this!", file=sys.stderr)
         sys.exit(1)
 
-    if 'LC_TIME' in os.environ:
-        try:
-            locale.setlocale(locale.LC_TIME, os.environ['LC_TIME'])
-        except locale.Error:
-            logging.warning('Invalid timezone specified: %s', os.environ['LC_TIME'])
+    current_locale = get_os_locale_string()
+
+    try:
+        locale.setlocale(locale.LC_TIME, current_locale)
+    except locale.Error:
+        logging.warning('Invalid locale specified: %s', current_locale)
 
     try:
         tca_state = json.load(open('/run/tca/tca.state'))
