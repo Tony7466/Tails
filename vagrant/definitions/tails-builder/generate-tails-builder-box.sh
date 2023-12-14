@@ -122,16 +122,6 @@ steps:
     contents: |
       APT::Periodic::Enable "0";
 
-  - chroot: rootfs
-    shell: |
-      sed -e 's/${DISTRIBUTION}/${DISTRIBUTION}-updates/' /etc/apt/sources.list \\
-        > "/etc/apt/sources.list.d/${DISTRIBUTION}-updates.list"
-
-  - chroot: rootfs
-    shell: |
-      sed -e 's/${DISTRIBUTION}/${DISTRIBUTION}-backports/' /etc/apt/sources.list \\
-        > "/etc/apt/sources.list.d/${DISTRIBUTION}-backports.list"
-
   - create-file: /etc/apt/sources.list.d/${DISTRIBUTION}-security.list
     contents: |
       deb http://time-based.snapshots.deb.tails.boum.org/debian-security/${DEBIAN_SECURITY_SERIAL}/ ${DISTRIBUTION}-security main
@@ -146,18 +136,12 @@ steps:
       Pin: origin deb.tails.boum.org
       Pin-Priority: 1000
 
-  - create-file: /etc/apt/preferences.d/${DISTRIBUTION}-backports
-    contents: |
-      Package: *
-      Pin: release n=${DISTRIBUTION}-backports
-      Pin-Priority: 100
-
   - chroot: rootfs
     shell: apt update
 
   - apt: install
     packages:
-      - apt-cacher-ng/${DISTRIBUTION}-backports
+      - apt-cacher-ng
       - ca-certificates
       - curl
       # Install dbus to ensure we can use timedatectl
