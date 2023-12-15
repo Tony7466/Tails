@@ -137,7 +137,6 @@ class TailsInstallerCreator(object):
     def try_getting_udisks_object(
         self, object_path: str, prop: str
     ) -> UDisks.Object:
-        print(prop)
         for attempt in range(1, 100):
             udisks_object = self._udisksclient.get_object(object_path)
             if udisks_object is not None and hasattr(udisks_object.props, prop):
@@ -1074,7 +1073,6 @@ class TailsInstallerCreator(object):
 
     def _get_object(self, udi=None, prop='drive'):
         """Return an UDisks.Object for our drive"""
-        print(prop)
         if not udi:
             udi = self.drive["udi"]
         return self.try_getting_udisks_object(udi, prop)
