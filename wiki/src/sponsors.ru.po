@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-01 03:08+0000\n"
+"POT-Creation-Date: 2023-12-14 23:47+0000\n"
 "PO-Revision-Date: 2023-03-16 13:28+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,10 +140,6 @@ msgid "Anonymous donation - 10 moneros = 1 549€"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
-msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
-msgstr ""
-
-#. type: Attribute 'title' of: <div><p>
 msgid "iGaming.com - 1 500€"
 msgstr ""
 
@@ -250,9 +246,21 @@ msgstr "[[!img protonmail.png link=\"no\" alt=\"\"]]"
 msgid "[[!img nym.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img ndi.png link=\"no\" alt=\"\"]]"
 
+#. type: Content of: <div><p>
+msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
+msgstr "[[!img aspiration.png link=\"no\" alt=\"\"]]"
+
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
 msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
+msgstr ""
+
+#. type: Content of: <div><p>
+msgid "[[!img word-solver.png link=\"no\" alt=\"\"]]"
+msgstr "[[!img word-solver.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $2 175"
@@ -322,10 +330,6 @@ msgstr "[[!img internews.png link=\"no\" alt=\"\"]]"
 msgid "Anonymous donation - 100 moneros = 19 611€"
 msgstr ""
 
-#. type: Content of: <div><p>
-msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img aspiration.png link=\"no\" alt=\"\"]]"
-
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 2 000€"
 msgstr ""
@@ -333,10 +337,6 @@ msgstr ""
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $1 575"
 msgstr ""
-
-#. type: Content of: <div><p>
-msgid "[[!img word-solver.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img word-solver.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "freiheitsfoo - 1 100€"
