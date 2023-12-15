@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-14 23:47+0000\n"
+"POT-Creation-Date: 2023-12-15 18:18+0000\n"
 "PO-Revision-Date: 2023-12-01 18:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,6 +63,21 @@ msgstr "Patrocinadors actuals"
 #. type: Content of: <p>
 msgid "&gt; $100&#8239;000"
 msgstr "&gt; 100&#8239;000$"
+
+#. type: Attribute 'title' of: <div><p>
+#, fuzzy
+#| msgid "Open Technology Fund - $132 390"
+msgid "Open Technology Fund - $382 310"
+msgstr "Open Technology Fund - 132 390$"
+
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
+msgid ""
+"<a href=\"https://opentech.fund/\">[[!img otf.png link=\"no\" alt=\"\"]]</a>"
+msgstr ""
+"<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 msgid ""
