@@ -313,13 +313,12 @@ header.title { /* Override style.css */
 }
 
 #tails-logo a, #tails-logo .selflink {
-  background: url(lib/logo.svg) no-repeat 30px 10px;
+  background: url(lib/logo.svg) no-repeat center 10px;
   display: block;
   height: 110px;
   font-size: 0;
   color: transparent;
   text-indent: -9999px;
-  max-width: 330px;
 }
 
 /* Search box and Donate button */
@@ -412,6 +411,8 @@ label[for="searchbox"]{
 @media (min-width: 600px) {
   #tails-logo a, #tails-logo .selflink {
     height: 120px;
+    background-position: 30px 10px;
+    max-width: 330px;
   }
   #search-and-donate {
     flex-direction: column;
