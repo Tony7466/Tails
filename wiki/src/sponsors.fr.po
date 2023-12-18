@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-01 03:08+0000\n"
+"POT-Creation-Date: 2023-12-15 18:18+0000\n"
 "PO-Revision-Date: 2023-11-10 17:11+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: \n"
@@ -69,6 +69,21 @@ msgstr "Sponsors actuels"
 #. type: Content of: <p>
 msgid "&gt; $100&#8239;000"
 msgstr "&gt; 100&#8239;000$"
+
+#. type: Attribute 'title' of: <div><p>
+#, fuzzy
+#| msgid "Open Technology Fund - $132 390"
+msgid "Open Technology Fund - $382 310"
+msgstr "Open Technology Fund - 132 390$"
+
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
+msgid ""
+"<a href=\"https://opentech.fund/\">[[!img otf.png link=\"no\" alt=\"\"]]</a>"
+msgstr ""
+"<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
 msgid ""
@@ -153,10 +168,6 @@ msgstr ""
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 10 moneros = 1 549€"
 msgstr "Don anonyme - 10 moneros = 1 549€"
-
-#. type: Attribute 'title' of: <div><p>
-msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
-msgstr "Don anonyme - 0,09 bitcoins = 1 535€"
 
 #. type: Attribute 'title' of: <div><p>
 #, fuzzy
@@ -281,9 +292,21 @@ msgstr "[[!img protonmail.png link=\"no\" alt=\"\"]]"
 msgid "[[!img nym.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img nym.png link=\"no\" alt=\"\"]]"
 
+#. type: Content of: <div><p>
+msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
+msgstr "[[!img aspiration.png link=\"no\" alt=\"\"]]"
+
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
 msgstr "Don anonyme - 0,35 bitcoins = 5 694€"
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
+msgstr "Don anonyme - 0,09 bitcoins = 1 535€"
+
+#. type: Content of: <div><p>
+msgid "[[!img word-solver.png link=\"no\" alt=\"\"]]"
+msgstr "[[!img word-solver.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $2 175"
@@ -353,10 +376,6 @@ msgstr "[[!img internews.png link=\"no\" alt=\"\"]]"
 msgid "Anonymous donation - 100 moneros = 19 611€"
 msgstr "Don anonyme - 100 moneros = 19 611€"
 
-#. type: Content of: <div><p>
-msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img aspiration.png link=\"no\" alt=\"\"]]"
-
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 2 000€"
 msgstr "Don anonyme - 2 000€"
@@ -364,10 +383,6 @@ msgstr "Don anonyme - 2 000€"
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $1 575"
 msgstr "Tor - 1 575$"
-
-#. type: Content of: <div><p>
-msgid "[[!img word-solver.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img word-solver.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "freiheitsfoo - 1 100€"
