@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-import json
 import datetime
-import logging
+import json
 import locale
+import logging
 import os
 import sys
 import zoneinfo
