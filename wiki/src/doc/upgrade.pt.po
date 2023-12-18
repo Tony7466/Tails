@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-30 22:38+0000\n"
-"PO-Revision-Date: 2023-08-01 15:22+0000\n"
+"PO-Revision-Date: 2023-12-07 17:42+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -294,10 +294,9 @@ msgstr ""
 "versão base"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img system.svg link=\"no\" alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img system.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img system.svg link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img system.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -316,10 +315,9 @@ msgstr ""
 "atualização para 4.9 é 418 MB."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img incremental.svg link=\"no\" alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img incremental.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img incremental.svg link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img incremental.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -338,16 +336,15 @@ msgstr ""
 "quando 4.6 era a versão base."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img manual.svg link=\"no\" alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img manual.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img manual.svg link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img manual.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<h1 id=\"manual\">Manual upgrade using <i>Tails Installer</i></h1>\n"
+#, no-wrap
 msgid "<h1 id=\"manual\">Manual upgrade using <i>Tails Cloner</i></h1>\n"
-msgstr "<h1 id=\"manual\">Atualização manual usando o <i>Instalador Tails</i></h1>\n"
+msgstr ""
+"<h1 id=\"manual\">Atualização manual usando o <i>Clonador Tails</i></h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -395,18 +392,15 @@ msgstr ""
 "internet."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "After connecting to Tor, a dialog informs you if you have to\n"
-#| "upgrade your USB stick using <span class=\"application\">Tails Installer</span>\n"
-#| "to a newer version of Tails.\n"
+#, no-wrap
 msgid ""
 "After connecting to Tor, a dialog informs you if you have to\n"
 "upgrade your USB stick using <span class=\"application\">Tails Cloner</span>\n"
 "to a newer version of Tails.\n"
 msgstr ""
 "Após se conectar ao Tor, um dialogo irá informar se você tem que\n"
-"atualizar sem pendrive USB usando o <span class=\"application\">Tails Installer</span>\n"
+"atualizar sem pendrive USB usando o <span class=\"application\">Clonador "
+"Tails</span>\n"
 "para uma nova versão do Tails.\n"
 
 #. type: Plain text

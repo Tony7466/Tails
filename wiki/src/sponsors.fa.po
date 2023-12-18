@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-01 03:08+0000\n"
+"POT-Creation-Date: 2023-12-15 18:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,6 +54,15 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid "&gt; $100&#8239;000"
+msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Open Technology Fund - $382 310"
+msgstr ""
+
+#. type: Content of: <div><p>
+msgid ""
+"<a href=\"https://opentech.fund/\">[[!img otf.png link=\"no\" alt=\"\"]]</a>"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
@@ -129,17 +138,13 @@ msgid "Anonymous donation - 10 moneros = 1 549€"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
-msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
-msgstr ""
-
-#. type: Attribute 'title' of: <div><p>
 msgid "iGaming.com - 1 500€"
 msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" alt="
-"\"\"]]</a>"
+"<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" "
+"alt=\"\"]]</a>"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
@@ -148,8 +153,8 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" alt="
-"\"\"]]</a>"
+"<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" "
+"alt=\"\"]]</a>"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
@@ -192,8 +197,8 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png link=\"no"
-"\" alt=\"\"]]</a>"
+"<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
+"link=\"no\" alt=\"\"]]</a>"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
@@ -202,8 +207,8 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" alt="
-"\"\"]]</a>"
+"<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" "
+"alt=\"\"]]</a>"
 msgstr ""
 
 #. type: Content of: <h1>
@@ -230,8 +235,20 @@ msgstr ""
 msgid "[[!img nym.png link=\"no\" alt=\"\"]]"
 msgstr ""
 
+#. type: Content of: <div><p>
+msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
+msgstr ""
+
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
+msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Anonymous donation - 0.09 bitcoins = 1 535€"
+msgstr ""
+
+#. type: Content of: <div><p>
+msgid "[[!img word-solver.png link=\"no\" alt=\"\"]]"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
@@ -302,20 +319,12 @@ msgstr ""
 msgid "Anonymous donation - 100 moneros = 19 611€"
 msgstr ""
 
-#. type: Content of: <div><p>
-msgid "[[!img aspiration.png link=\"no\" alt=\"\"]]"
-msgstr ""
-
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 2 000€"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $1 575"
-msgstr ""
-
-#. type: Content of: <div><p>
-msgid "[[!img word-solver.png link=\"no\" alt=\"\"]]"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
