@@ -106,7 +106,7 @@ unload_module_and_rev_deps() {
   /sbin/modprobe -r $(mod_rev_dep "${1}")
 }
 
-is_first_boot() {
+partition_needs_resizing() {
     # This code is duplicating config/chroot_local-includes/usr/share/initramfs-tools/scripts/init-premount/partitioning
     # please keep this in sync!
     # XXX: bookworm (usrmerge): this might have become /usr/sbin/sgdisk
