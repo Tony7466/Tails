@@ -1,0 +1,12 @@
+[Unit]
+Description=Report possible errors about disk resizing
+Documentation=https://tails.net/install
+ConditionFileNotEmpty=/var/lib/live/config/tails.disk-errors
+
+[Service]
+ExecStart=/usr/local/lib/report-disk-errors
+RemainAfterExit=yes
+
+[Install]
+WantedBy=desktop.target
+

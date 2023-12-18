@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set -eu
+
+grep --line-regexp partition-resize-failed /var/lib/live/config/tails.disk-errors || exit 0
+
+export TEXTDOMAIN='tails'
+
+# If we're here, it means something strange happened. Let's inform the user and tell them to give us some
+# information
+
+title="$(gettext -s 'Resizing System Partition Failed')"
+text="$(gettext -s 'Something went wrong when starting your Tails USB stick for the first time.\n\nIt will be impossible to create a Persistent Storage or apply automatic upgrades.\n\nTry to reinstall Tails or use a different USB stick.\n\nPlease, send us an error report to help us solve this issue.\n\nTry to follow our instructions on <a href="https://tails.net/install">installing Tails on a USB stick</a> again or use a different USB stick.')"
+
+zenity \
+    --question --ellipsize \
+    --icon-name=error \
+    --cancel-label="$(gettext -s 'Cancel')" \
+    --ok-label="$(gettext -s 'Send Error Report')" \
+    --title="$title" --text="$text"
+
