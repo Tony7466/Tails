@@ -23,10 +23,16 @@ $(gettext 'Try to follow our instructions on <a href="https://tails.net/install"
 EOTEXT
 )"
 
-zenity \
+if ! zenity \
     --question --ellipsize \
     --icon-name=error \
     --cancel-label="$(gettext 'Cancel')" \
     --ok-label="$(gettext 'Send Error Report')" \
     --title="$title" --text="$text"
+then
+    exit 0
+fi
 
+temp="$(mktemp)"
+echo '{ "details": "Resizing system partition failed" }' > "$temp"
+gtk-launch whisperback.desktop "$temp"   # whisperback will delete the file
