@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-12-07 02:42+0000\n"
+"PO-Revision-Date: 2023-12-07 14:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -113,10 +113,9 @@ msgid "<div class=\"blocks\">\n"
 msgstr "<div class=\"blocks\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<div id=\"bugs\" class=\"blocks two-blocks\">\n"
+#, no-wrap
 msgid "<div class=\"block block-half\">\n"
-msgstr "<div id=\"bugs\" class=\"blocks two-blocks\">\n"
+msgstr "<div class=\"block block-half\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -163,10 +162,9 @@ msgstr ""
 "  i creeu un nou tiquet a GitLab si no n'hi ha cap que s'adapti a les vostres necessitats.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<div id=\"bugs\" class=\"blocks two-blocks\">\n"
+#, no-wrap
 msgid "<div id=\"talk\" class=\"block block-full\">\n"
-msgstr "<div id=\"bugs\" class=\"blocks two-blocks\">\n"
+msgstr "<div id=\"talk\" class=\"block block-full\">\n"
 
 #. type: Plain text
 #, no-wrap

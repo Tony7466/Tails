@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
-"PO-Revision-Date: 2023-02-26 11:27+0000\n"
+"PO-Revision-Date: 2023-12-07 17:42+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -61,10 +61,8 @@ msgid "[[Why is Tor slow?|anonymous_internet/tor/slow]]"
 msgstr "[[Por que a rede Tor é lenta?|anonymous_internet/tor/slow]]"
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "[[Viewing the circuits of Tor|anonymous_internet/tor/circuits]]"
 msgid "[[Managing the circuits of Tor|anonymous_internet/tor/circuits]]"
-msgstr "[[Visualizando os circuitos Tor|anonymous_internet/tor/circuits]]"
+msgstr "[[Gerenciando os circuitos Tor|anonymous_internet/tor/circuits]]"
 
 #. type: Title ###
 #, no-wrap

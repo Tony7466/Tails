@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-05-15 17:21+0200\n"
-"PO-Revision-Date: 2023-12-03 20:44+0000\n"
+"PO-Revision-Date: 2023-12-09 02:46+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -21,12 +21,12 @@ msgstr ""
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "[[!meta title=\"Tails 5.13\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 5.13\"]]\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "[[!meta date=\"Tue, 16 May 2023 12:34:56 +0000\"]]\n"
-msgstr ""
+msgstr "[[!meta date=\"Tue, 16 May 2023 12:34:56 +0000\"]]\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap
@@ -41,7 +41,7 @@ msgstr "[[!tag announce]]\n"
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "<h1 id=\"features\">New features</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"features\">Nuevas características</h1>\n"
 
 #. type: Bullet: '- '
 #, markdown-text
@@ -49,6 +49,8 @@ msgid ""
 "Add `curl`, a command line tool to download over HTTPS, FTP, and other "
 "protocols."
 msgstr ""
+"Se ha añadido `curl`, una herramienta de línea de comandos para descargar a "
+"través de HTTPS, FTP y otros protocolos."
 
 #. type: Plain text
 #, markdown-text, no-wrap
@@ -56,6 +58,8 @@ msgid ""
 "  `curl` can be useful for online investigations as an alternative to "
 "`wget`.\n"
 msgstr ""
+"  `curl` puede ser útil para investigaciones en línea como alternativa a "
+"`wget`.\n"
 
 #. type: Plain text
 #, markdown-text, no-wrap
@@ -68,7 +72,7 @@ msgstr ""
 #. type: Plain text
 #, markdown-text, no-wrap
 msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"changes\">Cambios y actualizaciones</h1>\n"
 
 #. type: Bullet: '- '
 #, markdown-text
