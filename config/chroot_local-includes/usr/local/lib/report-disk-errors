@@ -10,7 +10,18 @@ export TEXTDOMAIN='tails'
 # information
 
 title="$(gettext -s 'Resizing System Partition Failed')"
-text="$(gettext -s 'Something went wrong when starting your Tails USB stick for the first time.\n\nIt will be impossible to create a Persistent Storage or apply automatic upgrades.\n\nTry to reinstall Tails or use a different USB stick.\n\nPlease, send us an error report to help us solve this issue.\n\nTry to follow our instructions on <a href="https://tails.net/install">installing Tails on a USB stick</a> again or use a different USB stick.')"
+text="$(cat <<EOTEXT
+$(gettext -s 'Something went wrong when starting your Tails USB stick for the first time.')
+
+$(gettext -s 'It will be impossible to create a Persistent Storage or apply automatic upgrades.')
+
+$(gettext -s 'Try to reinstall Tails or use a different USB stick.')
+
+$(gettext -s 'Please, send us an error report to help us solve this issue.')
+
+$(gettext -s 'Try to follow our instructions on <a href="https://tails.net/install">installing Tails on a USB stick</a> again or use a different USB stick.')
+EOTEXT
+)"
 
 zenity \
     --question --ellipsize \
