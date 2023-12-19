@@ -9,24 +9,24 @@ export TEXTDOMAIN='tails'
 # If we're here, it means something strange happened. Let's inform the user and tell them to give us some
 # information
 
-title="$(gettext -s 'Resizing System Partition Failed')"
+title="$(gettext 'Resizing System Partition Failed')"
 text="$(cat <<EOTEXT
-$(gettext -s 'Something went wrong when starting your Tails USB stick for the first time.')
+$(gettext 'Something went wrong when starting your Tails USB stick for the first time.')
 
-$(gettext -s 'It will be impossible to create a Persistent Storage or apply automatic upgrades.')
+$(gettext 'It will be impossible to create a Persistent Storage or apply automatic upgrades.')
 
-$(gettext -s 'Try to reinstall Tails or use a different USB stick.')
+$(gettext 'Try to reinstall Tails or use a different USB stick.')
 
-$(gettext -s 'Please, send us an error report to help us solve this issue.')
+$(gettext 'Please, send us an error report to help us solve this issue.')
 
-$(gettext -s 'Try to follow our instructions on <a href="https://tails.net/install">installing Tails on a USB stick</a> again or use a different USB stick.')
+$(gettext 'Try to follow our instructions on <a href="https://tails.net/install">installing Tails on a USB stick</a> again or use a different USB stick.')
 EOTEXT
 )"
 
 zenity \
     --question --ellipsize \
     --icon-name=error \
-    --cancel-label="$(gettext -s 'Cancel')" \
-    --ok-label="$(gettext -s 'Send Error Report')" \
+    --cancel-label="$(gettext 'Cancel')" \
+    --ok-label="$(gettext 'Send Error Report')" \
     --title="$title" --text="$text"
 
