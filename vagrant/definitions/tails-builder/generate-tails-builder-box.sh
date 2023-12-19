@@ -124,6 +124,11 @@ steps:
 
   - chroot: rootfs
     shell: |
+      sed -e 's/${DISTRIBUTION}/bullseye/' /etc/apt/sources.list \\
+        > "/etc/apt/sources.list.d/bullseye.list"
+
+  - chroot: rootfs
+    shell: |
       sed -e 's/${DISTRIBUTION}/${DISTRIBUTION}-updates/' /etc/apt/sources.list \\
         > "/etc/apt/sources.list.d/${DISTRIBUTION}-updates.list"
 
@@ -145,6 +150,18 @@ steps:
       Package: ikiwiki
       Pin: origin deb.tails.boum.org
       Pin-Priority: 1000
+
+  - create-file: /etc/apt/preferences.d/po4a
+    contents: |
+      Package: po4a
+      Pin: version 0.62-1
+      Pin-Priority: 1000
+
+  - create-file: /etc/apt/preferences.d/bullseye
+    contents: |
+      Package: *
+      Pin: release n=bullseye
+      Pin-Priority: 100
 
   - create-file: /etc/apt/preferences.d/${DISTRIBUTION}-backports
     contents: |
