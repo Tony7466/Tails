@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-15 18:18+0000\n"
+"POT-Creation-Date: 2023-12-20 18:33+0000\n"
 "PO-Revision-Date: 2023-11-10 17:11+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,8 @@ msgstr "Open Technology Fund - $132 390"
 #| msgid ""
 #| "<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
 msgid ""
-"<a href=\"https://opentech.fund/\">[[!img otf.png link=\"no\" alt=\"\"]]</a>"
+"<a href=\"https://opentech.fund/\">[[!img otf.png link=\"no\" alt=\"Open "
+"Technology Fund\"]]</a>"
 msgstr ""
 "<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
 
@@ -89,7 +90,8 @@ msgstr ""
 msgid ""
 "<a href=\"https://www.state.gov/bureaus-offices/under-secretary-for-civilian-"
 "security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-"
-"labor/\">[[!img drl.png link=\"no\" alt=\"\"]]</a>"
+"labor/\">[[!img drl.png link=\"no\" alt=\"Bureau of Democracy, Human Rights, "
+"and Labor - State Department\"]]</a>"
 msgstr ""
 
 #. type: Content of: <p>
@@ -117,8 +119,11 @@ msgid "Nym - 10 000€"
 msgstr ""
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
 msgid ""
-"<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
+"<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"Nym\"]]</a>"
 msgstr ""
 "<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
 
@@ -133,16 +138,16 @@ msgid "Aspiration - advising for community vitality and project governance"
 msgstr ""
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://aspirationtech.org/\">[[!img aspiration.png link=\"no\" "
+#| "alt=\"\"]]</a>"
 msgid ""
 "<a href=\"https://aspirationtech.org/\">[[!img aspiration.png link=\"no\" "
-"alt=\"\"]]</a>"
+"alt=\"Aspiration\"]]</a>"
 msgstr ""
 "<a href=\"https://aspirationtech.org/\">[[!img aspiration.png link=\"no\" "
 "alt=\"\"]]</a>"
-
-#. type: Attribute 'title' of: <div><p>
-msgid "Anonymous donation - 20 moneros = 2 767€"
-msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
 msgid "An individual - 2 000€"
@@ -153,8 +158,13 @@ msgid "Tor - $2 700"
 msgstr ""
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://torproject.org/\">[[!img tor.png link=\"no\" "
+#| "alt=\"\"]]</a>"
 msgid ""
-"<a href=\"https://torproject.org/\">[[!img tor.png link=\"no\" alt=\"\"]]</a>"
+"<a href=\"https://torproject.org/\">[[!img tor.png link=\"no\" "
+"alt=\"Tor\"]]</a>"
 msgstr ""
 "<a href=\"https://torproject.org/\">[[!img tor.png link=\"no\" alt=\"\"]]</a>"
 
@@ -173,7 +183,7 @@ msgstr ""
 #| "link=\"no\" alt=\"\"]]</a>"
 msgid ""
 "<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" "
-"alt=\"\"]]</a>"
+"alt=\"iGaming.com\"]]</a>"
 msgstr ""
 "<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
 "link=\"no\" alt=\"\"]]</a>"
@@ -183,9 +193,13 @@ msgid "Word Solver - $1 400"
 msgstr ""
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" "
+#| "alt=\"\"]]</a>"
 msgid ""
 "<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" "
-"alt=\"\"]]</a>"
+"alt=\"Word Solver\"]]</a>"
 msgstr ""
 "<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" "
 "alt=\"\"]]</a>"
@@ -199,9 +213,13 @@ msgid "freiheitsfoo - 1 250€"
 msgstr ""
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://freiheitsfoo.de/\" target=\"_blank\">[[!img "
+#| "freiheitsfoo.png link=\"no\" alt=\"\"]]</a>"
 msgid ""
 "<a href=\"https://freiheitsfoo.de/\" target=\"_blank\">[[!img freiheitsfoo."
-"png link=\"no\" alt=\"\"]]</a>"
+"png link=\"no\" alt=\"freiheitsfoo\"]]</a>"
 msgstr ""
 "<a href=\"https://freiheitsfoo.de/\" target=\"_blank\">[[!img freiheitsfoo."
 "png link=\"no\" alt=\"\"]]</a>"
@@ -211,9 +229,13 @@ msgid "James Seibel - $1 000"
 msgstr ""
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://jamesseibel.com/\" target=\"_blank\">[[!img seibel.png "
+#| "link=\"no\" alt=\"\"]]</a>"
 msgid ""
 "<a href=\"https://jamesseibel.com/\" target=\"_blank\">[[!img seibel.png "
-"link=\"no\" alt=\"\"]]</a>"
+"link=\"no\" alt=\"James Seibel\"]]</a>"
 msgstr ""
 "<a href=\"https://jamesseibel.com/\" target=\"_blank\">[[!img seibel.png "
 "link=\"no\" alt=\"\"]]</a>"
@@ -223,9 +245,13 @@ msgid "Exam Success - $1 000"
 msgstr ""
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://www.examsuccess.com.au/\" target=\"_blank\">[[!img exam-"
+#| "success.jpg link=\"no\" alt=\"\"]]</a>"
 msgid ""
 "<a href=\"https://www.examsuccess.com.au/\" target=\"_blank\">[[!img exam-"
-"success.jpg link=\"no\" alt=\"\"]]</a>"
+"success.jpg link=\"no\" alt=\"Exam Success\"]]</a>"
 msgstr ""
 "<a href=\"https://www.examsuccess.com.au/\" target=\"_blank\">[[!img exam-"
 "success.jpg link=\"no\" alt=\"\"]]</a>"
@@ -235,9 +261,13 @@ msgid "ThinkPenguin - 0.036 bitcoins = $1 000"
 msgstr ""
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
+#| "link=\"no\" alt=\"\"]]</a>"
 msgid ""
 "<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
-"link=\"no\" alt=\"\"]]</a>"
+"link=\"no\" alt=\"ThinkPenguin\"]]</a>"
 msgstr ""
 "<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
 "link=\"no\" alt=\"\"]]</a>"
@@ -253,7 +283,7 @@ msgstr ""
 #| "a>"
 msgid ""
 "<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" "
-"alt=\"\"]]</a>"
+"alt=\"C0MPLEX1\"]]</a>"
 msgstr ""
 "<a href=\"https://www.ripe.net/\">[[!img ripe.png link=\"no\" alt=\"\"]]</a>"
 
@@ -289,6 +319,10 @@ msgstr "[[!img aspiration.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
+msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Anonymous donation - 20 moneros = 2 767€"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
