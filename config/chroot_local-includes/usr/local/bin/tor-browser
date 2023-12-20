@@ -1,13 +1,29 @@
-#!/bin/sh
+#!/usr/bin/env python3
 
-set -eu
+import os
+import sys
 
-AT_SPI_PROXY_SERVICE=tails-a11y-bus-proxy.service
-IBUS_PROXY_SERVICE=tails-ibus-proxy.service
+AT_SPI_PROXY_SERVICE = 'tails-a11y-bus-proxy.service'
+IBUS_PROXY_SERVICE = 'tails-ibus-proxy.service'
 
-exec systemd-run --user --scope \
-    --property=Requires="${AT_SPI_PROXY_SERVICE}" \
-    --property=After="${AT_SPI_PROXY_SERVICE}" \
-    --property=Requires="${IBUS_PROXY_SERVICE}" \
-    --property=After="${IBUS_PROXY_SERVICE}" \
-    sudo /usr/local/lib/run-tor-browser-in-netns "$@"
+def run_torbrowser(args: list):
+    cmdline = [
+            'systemd-run',
+            '--user',
+            '--scope',
+            '--property=Requires="${AT_SPI_PROXY_SERVICE}"',
+            '--property=After="${AT_SPI_PROXY_SERVICE}"',
+            '--property=Requires="${IBUS_PROXY_SERVICE}"',
+            '--property=After="${IBUS_PROXY_SERVICE}"',
+            'sudo',
+            '/usr/local/lib/run-tor-browser-in-netns',
+            *args]
+    os.execv("/usr/bin/systemd-run", cmdline)
+
+def main():
+    args = sys.argv
+
+    run_torbrowser(args)
+
+if __name__ == '__main__':
+    main()
