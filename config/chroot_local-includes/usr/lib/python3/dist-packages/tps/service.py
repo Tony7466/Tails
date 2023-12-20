@@ -136,14 +136,9 @@ class Service(DBusObject, ServiceUsingJobs):
         except InvalidBootDeviceError as e:
             logger.warning("Invalid boot device: %s", e)
             self.State = State.NOT_CREATED
-            # First, handle error states that we want to expose differently
-            # in the UI, for example by giving the user more specific guidance.
-            if isinstance(e, TooManyPartitionsError):
-                self.Error = InvalidBootDeviceErrorType.TOO_MANY_PARTITIONS
-            # Finally, assume that any problem that's not handled differently above
-            # is the result of installing Tails in an unsupported manner.
-            else:
-                self.Error = InvalidBootDeviceErrorType.UNSUPPORTED_INSTALLATION_METHOD
+
+            # This will allow the UI to give the user more specific guidance.
+            self.Error = e.error_type
             return
 
         self.refresh_state()
