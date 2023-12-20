@@ -133,16 +133,16 @@ Feature: Browsing the web using the Tor Browser
 
   Scenario: The default XDG directories are usable in Tor Browser
     Given I have started Tails from DVD and logged in and the network is connected
-    And the Documents directory exists
-    And there is a GNOME bookmark for the Documents directory exists
-    And the Downloads directory exists
-    And And there is a GNOME bookmark for the Downloads directory exists
-    And the Music directory exists
-    And there is a GNOME bookmark for the Music directory exists
-    And the Pictures directory exists
-    And there is a GNOME bookmark for the Pictures directory exists
-    And the Videos directory exists
-    And there is a GNOME bookmark for the Videos directory
+    Then the amnesiac Documents directory exists
+    And there is a GNOME bookmark for the amnesiac Documents directory
+    And the amnesiac Downloads directory exists
+    And there is a GNOME bookmark for the amnesiac Downloads directory
+    And the amnesiac Music directory exists
+    And there is a GNOME bookmark for the amnesiac Music directory
+    And the amnesiac Pictures directory exists
+    And there is a GNOME bookmark for the amnesiac Pictures directory
+    And the amnesiac Videos directory exists
+    And there is a GNOME bookmark for the amnesiac Videos directory
     When I start the Tor Browser
     Then the Tor Browser loads the Tails homepage
     And the Tor Browser loads the startup page
