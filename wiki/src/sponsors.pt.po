@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-14 23:47+0000\n"
+"POT-Creation-Date: 2023-12-15 18:18+0000\n"
 "PO-Revision-Date: 2023-03-09 14:29+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,6 +61,15 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid "&gt; $100&#8239;000"
+msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Open Technology Fund - $382 310"
+msgstr ""
+
+#. type: Content of: <div><p>
+msgid ""
+"<a href=\"https://opentech.fund/\">[[!img otf.png link=\"no\" alt=\"\"]]</a>"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
