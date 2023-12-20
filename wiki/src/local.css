@@ -238,7 +238,7 @@ table.img, table.img td, table.img tr {
   border: none;
 }
 
-table.img caption, .image .caption {
+table.img caption {
   font-size: 90%;
   font-style: italic;
   color: var(--medium-dark-gray);
@@ -246,7 +246,8 @@ table.img caption, .image .caption {
   max-width: 100%;
 }
 
-.image {
+.center {
+  margin: 1em 0;
   text-align: center;
 }
 
