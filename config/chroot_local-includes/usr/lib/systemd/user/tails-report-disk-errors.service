@@ -5,7 +5,7 @@ ConditionUser=1000
 ConditionFileNotEmpty=/var/lib/live/config/tails.disk-errors
 
 [Service]
-ExecStart=/usr/local/lib/report-disk-errors
+ExecStart=/usr/local/lib/tails-report-disk-errors
 RemainAfterExit=yes
 
 [Install]
