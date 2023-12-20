@@ -10,6 +10,13 @@ set -u
 #   For example, for a VM using QXL graphics, add module_blacklist=qxl
 #   to the kernel command line.
 
+if [ -f /run/squashfs_failed ]; then
+    # Trigger OnFailure=tails-gdm-failed-to-start.service
+    echo "SQUASHFS errors detected, stopping GDM"
+    sudo -n /bin/systemctl kill --signal=9 gdm
+    exit -1
+fi
+
 /usr/libexec/gdm-wayland-session.real "$@"
 
 RET=$?
