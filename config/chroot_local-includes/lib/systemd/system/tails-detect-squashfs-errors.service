@@ -4,7 +4,7 @@ After=systemd-journald.target
 
 [Service]
 Type=simple
-ExecStart=python3 /usr/bin/tails-detect-squashfs-errors.py
+ExecStart=/usr/local/sbin/tails-detect-squashfs-errors
 Environment=PYTHONUNBUFFERED=1
 
 [Install]
