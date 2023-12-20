@@ -109,7 +109,6 @@ unload_module_and_rev_deps() {
 partition_needs_resizing() {
     # This code is duplicating config/chroot_local-includes/usr/share/initramfs-tools/scripts/init-premount/partitioning
     # please keep this in sync!
-    # XXX: bookworm (usrmerge): this might have become /usr/sbin/sgdisk
     
     if test -L /dev/bilibop; then
         GUID="$(/sbin/sgdisk --print /dev/bilibop \
