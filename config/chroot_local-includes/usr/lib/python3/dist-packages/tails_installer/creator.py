@@ -55,6 +55,7 @@ from tails_installer.utils import (
     write_to_block_device,
     mebibytes_to_bytes,
     TailsError,
+    get_persistent_storage_size,
 )
 from tails_installer import _  # NOQA: E402
 from tails_installer.config import CONFIG  # NOQA: E402
@@ -1037,6 +1038,7 @@ class TailsInstallerCreator(object):
     def clone_persistent_storage(self):
         if not self.opts.clone_persistent_storage_requested:
             return
+        start = datetime.now()
         self.log.info(_("Cloning Persistent Storage..."))
         tps_proxy.call_sync(
             method_name="CreateBackup",
@@ -1045,6 +1047,14 @@ class TailsInstallerCreator(object):
             timeout_msec=GLib.MAXINT,
             cancellable=None,
         )
+        delta = datetime.now() - start
+        if delta.seconds:
+            self.mb_per_sec = (get_persistent_storage_size() / delta.seconds) / 1024**2
+            if self.mb_per_sec:
+                self.log.info(
+                    _("Wrote to device at %(speed)d MB/sec")
+                    % {"speed": self.mb_per_sec}
+                )
 
     def get_free_bytes(self, device=None):
         """Return the number of available bytes on our device"""
