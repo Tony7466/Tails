@@ -32,7 +32,7 @@ j.add_match(SYSLOG_IDENTIFIER="kernel")
 j.seek_tail()
 j.get_previous()
 
-squashfs_failed = pathlib.Path("/run/squashfs_failed")
+squashfs_failed = pathlib.Path("/squashfs_failed")
 squashfs_failed.unlink(missing_ok=True)
 
 while True:

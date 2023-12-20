@@ -7,7 +7,7 @@ from argparse import ArgumentParser
 from subprocess import check_call, check_output
 
 MAX_LENGTH = 254  # this depends on a limit of plymouth
-SQUASHFS_FAILED = pathlib.Path("/run/squashfs_failed")
+SQUASHFS_FAILED = pathlib.Path("/squashfs_failed")
 
 def run_lspci(lspci_args: list) -> str:
     """
