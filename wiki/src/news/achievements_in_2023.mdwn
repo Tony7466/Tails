@@ -130,7 +130,7 @@ Tails this year, to lead our fundraising activities. I have been obsessing over
 how a free software project like ours can continue improving Tails while
 keeping it free. And one thing is already clear: we will need your help. Often.
 
-While we don't how many Tails users donate to Tails, our
+While we don't know how many Tails users donate to Tails, our
 guess is ~1%. Tails is designed for use by people living vulnerable, high-risk
 lives. Many of whom are likely to not be in a position to contribute. Your
 donations keep Tails free for everybody else!
