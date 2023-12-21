@@ -10,17 +10,21 @@ Tails.
 
 In the upper left corner of the screen there is one button and three menus:
 
-  - the <b>Activities</b> button
-  - the <span class="guimenu">Applications</span> menu
-  - the <span class="guimenu">Places</span> menu
+- The <b>Activities</b> button
+
+- The <span class="guimenu">Applications</span> menu
+
+- The <span class="guimenu">Places</span> menu
 
 <h2 id="activities">Activities overview</h2>
 
 To access your windows and applications you can either:
 
-  - Click on the <b>Activities</b> button.
-  - Throw your mouse pointer to the top-left hot corner.
-  - Press the <b>Super</b> ([[!img lib/start.png class="symbolic" link="no" alt=""]]) key on your keyboard.
+- Click on the <b>Activities</b> button.
+
+- Throw your mouse pointer to the top-left hot corner.
+
+- Press the <b>Super</b> ([[!img lib/start.png class="symbolic" link="no" alt=""]]) key on your keyboard.
 
 You can see your windows and applications in the overview. You can also
 start typing to search your applications, files, and folders.

@@ -35,17 +35,21 @@ going from the user interface to the hardware interactions with the
 processor. This terminology is a bit confusing and other documentation
 might mention the following tools:
 
-  - *KVM* is the module of the Linux kernel that interacts with the
-    virtualization features of the processor.
-  - *QEMU* is the virtualization software that emulates virtual
-    processors and peripherals based on *KVM* and that starts and stops
-    virtual machines.
-  - *libvirt* is a library that allows *virt-manager* to interact with
-    the virtualization capabilities provided by *QEMU*.
-  - *SPICE* is a protocol that allows to visualize the desktop of
-    virtual machines.
-  - *virt-manager* is the graphical interface that allows to create,
-    configure, and run virtual machines.
+- *KVM* is the module of the Linux kernel that interacts with the
+  virtualization features of the processor.
+
+- *QEMU* is the virtualization software that emulates virtual
+  processors and peripherals based on *KVM* and that starts and stops
+  virtual machines.
+
+- *libvirt* is a library that allows *virt-manager* to interact with
+  the virtualization capabilities provided by *QEMU*.
+
+- *SPICE* is a protocol that allows to visualize the desktop of
+  virtual machines.
+
+- *virt-manager* is the graphical interface that allows to create,
+  configure, and run virtual machines.
 
 <a id="iso"></a>
 
@@ -140,6 +144,7 @@ allows you to use a Persistent Storage in a virtual machine.
 
    - <span class="command-placeholder">size</span> has to be at least
      <span class="command">7200M</span>.
+
    - <span class="command-placeholder">tails.img</span> is the file name
      of the USB image that you want to resize.
 
@@ -258,10 +263,11 @@ with *virt-manager* are common. The best solution can vary depending
 on the version of the virtualization solution and on the virtual
 machine configuration. For example:
 
- - The *Auto resize VM with window* feature does not work in all
-   configurations.
- - The video device that provides optimal graphics performance can be
-   different depending on the version of the host operating system.
+- The *Auto resize VM with window* feature does not work in all
+  configurations.
+
+- The video device that provides optimal graphics performance can be
+  different depending on the version of the host operating system.
 
 To troubleshoot such issues:
 
