@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-21 00:20+0000\n"
+"PO-Revision-Date: 2023-12-22 01:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -30,20 +30,15 @@ msgstr "Tails inclou <span class=\"application\">Thunderbird</span> per a:\n"
 
 #. type: Plain text
 msgid "- Reading and writing emails"
-msgstr ""
+msgstr "- Llegir i escriure correus electrònics"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "- Reading and writing emails - Reading [[!wikipedia RSS]] and [[!"
-#| "wikipedia Atom_(Web_standard) desc=\"Atom\"]] feeds for news and blogs"
 msgid ""
 "- Reading [[!wikipedia RSS]] and [[!wikipedia Atom_(Web_standard) "
 "desc=\"Atom\"]] feeds for news and blogs"
 msgstr ""
-"- Llegir i escriure correus electrònics\n"
-"- Llegir [[!wikipedia RSS]] i [[!wikipedia Atom_(Web_standard) "
-"desc=\"Atom\"]] per a notícies i blocs"
+"- Llegir [[!wikipedia RSS]] i [[!wikipedia Atom_(Web_standard) desc=\"Atom\""
+"]] per a notícies i blocs"
 
 #. type: Plain text
 #, no-wrap
