@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-21 00:20+0000\n"
+"PO-Revision-Date: 2023-12-22 01:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -50,22 +50,16 @@ msgstr ""
 "A la cantonada superior esquerra de la pantalla hi ha un botó i tres menús:"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid "the <b>Activities</b> button"
 msgid "The <b>Activities</b> button"
-msgstr "el botó <b>Activitats</b>"
+msgstr "El botó <b>Activitats</b>"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid "the <span class=\"guimenu\">Applications</span> menu"
 msgid "The <span class=\"guimenu\">Applications</span> menu"
-msgstr "el menú <span class=\"guimenu\">Aplicacions</span>"
+msgstr "El menú <span class=\"guimenu\">Aplicacions</span>"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid "the <span class=\"guimenu\">Places</span> menu"
 msgid "The <span class=\"guimenu\">Places</span> menu"
-msgstr "el menú <span class=\"guimenu\">Llocs</span>"
+msgstr "El menú <span class=\"guimenu\">Llocs</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -81,10 +75,8 @@ msgid "Click on the <b>Activities</b> button."
 msgstr "Fer clic al botó <b>Activitats</b>."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Throw your mouse pointer to the top-left hot corner."
 msgid "- Throw your mouse pointer to the top-left hot corner."
-msgstr "Llençar el punter del ratolí a la cantonada superior esquerra."
+msgstr "- Llençar el punter del ratolí a la cantonada superior esquerra."
 
 #. type: Bullet: '- '
 msgid ""
