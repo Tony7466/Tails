@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-11-03 15:12+0000\n"
+"PO-Revision-Date: 2023-12-21 23:44+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -16,13 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Starting Tails"
 msgid "- Starting Tails"
-msgstr "Iniciar Tails"
+msgstr "- Iniciar Tails"
 
 #. type: Bullet: '  * '
 msgid "[[On PC|first_steps/start/pc]]"
@@ -33,16 +31,12 @@ msgid "[[On Mac|first_steps/start/mac]]"
 msgstr "[[Al Mac|first_steps/start/mac]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Accessibility|first_steps/accessibility]]"
 msgid "- [[Accessibility|first_steps/accessibility]]"
-msgstr "[[Accessibilitat|first_steps/accessibility]]"
+msgstr "- [[Accessibilitat|first_steps/accessibility]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Welcome Screen|first_steps/welcome_screen]]"
 msgid "- [[Welcome Screen|first_steps/welcome_screen]]"
-msgstr "[[Pantalla de Benvinguda|first_steps/welcome_screen]]"
+msgstr "- [[Pantalla de Benvinguda|first_steps/welcome_screen]]"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -57,26 +51,20 @@ msgid "[[MAC address anonymization|first_steps/welcome_screen/mac_spoofing]]"
 msgstr "[[Anonimat de l'adreça MAC|first_steps/welcome_screen/mac_spoofing]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Introduction to GNOME and the Tails desktop|first_steps/desktop]]"
 msgid "- [[Introduction to GNOME and the Tails desktop|first_steps/desktop]]"
-msgstr "[[Introducció a GNOME i a l'escriptori de Tails|first_steps/desktop]]"
+msgstr "- [[Introducció a GNOME i a l'escriptori de Tails|first_steps/desktop]]"
 
 #. type: Bullet: '  * '
 msgid "[[Why is the time wrong?|first_steps/desktop/time]]"
 msgstr "[[Per què és incorrecta l'hora?|first_steps/desktop/time]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Reporting an error|first_steps/bug_reporting]]"
 msgid "- [[Reporting an error|first_steps/bug_reporting]]"
-msgstr "[[Informar d'un error|first_steps/bug_reporting]]"
+msgstr "- [[Informar d'un error|first_steps/bug_reporting]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Shutting down Tails|first_steps/shutdown]]"
 msgid "- [[Shutting down Tails|first_steps/shutdown]]"
-msgstr "[[Aturar Tails|first_steps/shutdown]]"
+msgstr "- [[Aturar Tails|first_steps/shutdown]]"
 
 #, fuzzy
 #~ msgid "[[!traillink Persistent_Storage|first_steps/persistence]]"
