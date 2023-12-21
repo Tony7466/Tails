@@ -40,7 +40,7 @@ Use references in the following order:
    - [Microsoft Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/).
    - [Apple Style Guide](https://help.apple.com/applestyleguide/)
 
-For spelling of words, we use the
+We use US spelling. For spelling of words, we use the
 [Merriam-Webster](https://www.merriam-webster.com/) dictionary.
 
 The following resources can also be helpful when writing documentation for
