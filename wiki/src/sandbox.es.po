@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
-"POT-Creation-Date: 2022-11-15 12:04+0000\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2009-08-16 19:15+0200\n"
 "Last-Translator: Fernando González de Requena <fgrequena@gmail.com>\n"
 "Language-Team: None \n"
@@ -31,7 +31,11 @@ msgid "GitLab syntax"
 msgstr ""
 
 #. type: Plain text
-msgid "- MR: !123 - issue: #18079"
+msgid "- MR: !123"
+msgstr ""
+
+#. type: Plain text
+msgid "- issue: #18079"
 msgstr ""
 
 #. type: Title #
@@ -74,11 +78,11 @@ msgstr "Primer elemento."
 msgid "Another."
 msgstr "Otro."
 
-#. type: Bullet: '* '
+#. type: Bullet: '  - '
 msgid "nesting them"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Bullet: '  - '
 msgid "more nests"
 msgstr ""
 

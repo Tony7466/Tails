@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-03-14 18:03+0000\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2022-03-15 19:50+0000\n"
 "Last-Translator: Weblate Admin <tails-weblate@boum.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,17 +100,26 @@ msgstr ""
 "única excepción a esta regla, Tails incluye:"
 
 #. type: Bullet: '- '
+#, fuzzy
+#| msgid ""
+#| "a minor part of non-free firmware in order to work on as much hardware as "
+#| "possible;"
 msgid ""
-"a minor part of non-free firmware in order to work on as much hardware as "
-"possible;"
+"A minor part of non-free firmware in order to work on as much hardware as "
+"possible."
 msgstr ""
 "una pequeña porción de firmware no libre para poder funcionar en la mayor "
 "cantidad posible de hardware;"
 
 #. type: Bullet: '- '
+#, fuzzy
+#| msgid ""
+#| "a few pieces of software whose source code is public but not compatible "
+#| "with the Debian Free Software Guidelines; they are needed to support "
+#| "important use cases."
 msgid ""
-"a few pieces of software whose source code is public but not compatible with "
-"the Debian Free Software Guidelines; they are needed to support important "
+"A few pieces of software whose source code is public but not compatible with "
+"the Debian Free Software Guidelines. They are needed to support important "
 "use cases."
 msgstr ""
 "algunas porciones de software necesario para apoyar usos importantes, cuyo "
@@ -246,6 +255,7 @@ msgstr ""
 "pueda asegurarse de haber descargado una copia genuina de Tails."
 
 #. type: Plain text
-#, no-wrap
-msgid "<p>See also our [[Mission and Values|contribute/mission]].</p>\n"
+#, fuzzy
+#| msgid "<p>See also our [[Mission and Values|contribute/mission]].</p>\n"
+msgid "See also our [[Mission and Values|contribute/mission]]."
 msgstr "<p>También ve nuestras [[Misión y valores|contribute/mission]].</p>\n"

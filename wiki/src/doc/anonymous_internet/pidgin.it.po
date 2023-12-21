@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2023-10-05 23:13+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
@@ -55,8 +55,7 @@ msgid ""
 "documentation on [[chatting with <i>Dino</i> and OMEMO|doc/advanced_topics/dino]].</p>\n"
 msgstr ""
 "<p>You can already try using <i>Dino</i> in Tails. Vedi la nostra\n"
-"documentazione su [[chattare con <i>Dino</i> e OMEMO|doc/advanced_topics/"
-"dino]].</p>\n"
+"documentazione su [[chattare con <i>Dino</i> e OMEMO|doc/advanced_topics/dino]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -128,20 +127,48 @@ msgstr ""
 "avere conversazioni private via messaggistica istantanea fornendo:\n"
 
 #. type: Plain text
+msgid "- **Encryption**"
+msgstr ""
+
+#. type: Plain text
 #, no-wrap
+msgid "  No one else can read your instant messages.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- **Authentication**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  You are assured the correspondent is who you think it is.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- **Deniability**"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "- **Encryption**<br />\n"
+#| "    No one else can read your instant messages.\n"
+#| "- **Authentication**<br />\n"
+#| "    You are assured the correspondent is who you think it is.\n"
+#| "- **Deniability**<br />\n"
+#| "    The messages you send do not have digital signatures\n"
+#| "    that are checkable by a third party. Anyone can forge messages after\n"
+#| "    a conversation to make them look like they came from you.\n"
+#| "    However, during a conversation, your correspondent is assured\n"
+#| "    the messages are authentic and unmodified.\n"
+#| "- **Perfect forward secrecy**<br />\n"
+#| "    If you lose control of your private keys, no previous conversation is compromised.\n"
 msgid ""
-"- **Encryption**<br />\n"
-"    No one else can read your instant messages.\n"
-"- **Authentication**<br />\n"
-"    You are assured the correspondent is who you think it is.\n"
-"- **Deniability**<br />\n"
-"    The messages you send do not have digital signatures\n"
-"    that are checkable by a third party. Anyone can forge messages after\n"
-"    a conversation to make them look like they came from you.\n"
-"    However, during a conversation, your correspondent is assured\n"
-"    the messages are authentic and unmodified.\n"
-"- **Perfect forward secrecy**<br />\n"
-"    If you lose control of your private keys, no previous conversation is compromised.\n"
+"  The messages you send do not have digital signatures\n"
+"  that are checkable by a third party. Anyone can forge messages after\n"
+"  a conversation to make them look like they came from you.\n"
+"  However, during a conversation, your correspondent is assured\n"
+"  the messages are authentic and unmodified.\n"
 msgstr ""
 "- **Cifratura**<br />\n"
 "    Nessun'altra persona può leggere i tuoi messaggi istantanei.\n"
@@ -155,6 +182,15 @@ msgstr ""
 "    che i messaggi siano autentici e intatti.\n"
 "- **Segretezza perfetta in avanti**<br />\n"
 "    Se perdi il controllo delle tue chiavi private, nessuna conversazione precedente è compromessa.\n"
+
+#. type: Plain text
+msgid "- **Perfect forward secrecy**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  If you lose control of your private keys, no previous conversation is compromised.\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -225,6 +261,10 @@ msgstr ""
 "viene usato per inviare spam."
 
 #. type: Plain text
+msgid "- [OFTC and Tor](https://www.oftc.net/Tor/)"
+msgstr ""
+
+#. type: Plain text
 #, fuzzy
 #| msgid ""
 #| "- [Accessing freenode Via Tor](https://freenode.net/irc_servers."
@@ -233,9 +273,8 @@ msgstr ""
 #| "chat networks that block or support Tor](https://trac.torproject.org/"
 #| "projects/tor/wiki/doc/BlockingIrc)"
 msgid ""
-"- [OFTC and Tor](https://www.oftc.net/Tor/)  - [List of IRC/chat networks "
-"that block or support Tor](https://gitlab.torproject.org/legacy/trac/-/wikis/"
-"doc/BlockingIrc)"
+"- [List of IRC/chat networks that block or support Tor](https://gitlab."
+"torproject.org/legacy/trac/-/wikis/doc/BlockingIrc)"
 msgstr ""
 "- [Accedere a freenode tramite Tor](https://freenode.net/irc_servers."
 "shtml#tor)  (alcuni dei servizi nascosti menzionati in questa pagina non "

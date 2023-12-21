@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-11-23 12:57+0000\n"
+"POT-Creation-Date: 2023-12-21 23:10+0000\n"
 "PO-Revision-Date: 2023-07-24 17:37+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
@@ -29,9 +29,17 @@ msgid "Tails includes <span class=\"application\">Thunderbird</span> for:\n"
 msgstr "Tails inclut <span class=\"application\">Thunderbird</span> pour :\n"
 
 #. type: Plain text
+msgid "- Reading and writing emails"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "- Reading and writing emails - Reading [[!wikipedia RSS]] and [[!"
+#| "wikipedia Atom_(Web_standard) desc=\"Atom\"]] feeds for news and blogs"
 msgid ""
-"- Reading and writing emails - Reading [[!wikipedia RSS]] and [[!wikipedia "
-"Atom_(Web_standard) desc=\"Atom\"]] feeds for news and blogs"
+"- Reading [[!wikipedia RSS]] and [[!wikipedia Atom_(Web_standard) "
+"desc=\"Atom\"]] feeds for news and blogs"
 msgstr ""
 "- Lire et écrire des courriers électroniques\n"
 "- Lire des flux [[!wikipedia_fr RSS]] et [[!wikipedia_fr "

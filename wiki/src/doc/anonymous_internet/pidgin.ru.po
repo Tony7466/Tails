@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2021-12-24 19:19+0000\n"
 "Last-Translator: dedmoroz <cj75300@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,20 +119,48 @@ msgstr ""
 "<span class=\"application\">Off-the-Record</span> помогает вести личные беседы через мгновенные сообщения и обеспечивает:\n"
 
 #. type: Plain text
+msgid "- **Encryption**"
+msgstr ""
+
+#. type: Plain text
 #, no-wrap
+msgid "  No one else can read your instant messages.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- **Authentication**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  You are assured the correspondent is who you think it is.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- **Deniability**"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "- **Encryption**<br />\n"
+#| "    No one else can read your instant messages.\n"
+#| "- **Authentication**<br />\n"
+#| "    You are assured the correspondent is who you think it is.\n"
+#| "- **Deniability**<br />\n"
+#| "    The messages you send do not have digital signatures\n"
+#| "    that are checkable by a third party. Anyone can forge messages after\n"
+#| "    a conversation to make them look like they came from you.\n"
+#| "    However, during a conversation, your correspondent is assured\n"
+#| "    the messages are authentic and unmodified.\n"
+#| "- **Perfect forward secrecy**<br />\n"
+#| "    If you lose control of your private keys, no previous conversation is compromised.\n"
 msgid ""
-"- **Encryption**<br />\n"
-"    No one else can read your instant messages.\n"
-"- **Authentication**<br />\n"
-"    You are assured the correspondent is who you think it is.\n"
-"- **Deniability**<br />\n"
-"    The messages you send do not have digital signatures\n"
-"    that are checkable by a third party. Anyone can forge messages after\n"
-"    a conversation to make them look like they came from you.\n"
-"    However, during a conversation, your correspondent is assured\n"
-"    the messages are authentic and unmodified.\n"
-"- **Perfect forward secrecy**<br />\n"
-"    If you lose control of your private keys, no previous conversation is compromised.\n"
+"  The messages you send do not have digital signatures\n"
+"  that are checkable by a third party. Anyone can forge messages after\n"
+"  a conversation to make them look like they came from you.\n"
+"  However, during a conversation, your correspondent is assured\n"
+"  the messages are authentic and unmodified.\n"
 msgstr ""
 "- **Шифрование**<br />\n"
 "Никто посторонний не сможет прочитать ваши мгновенные сообщения.\n"
@@ -146,6 +174,15 @@ msgstr ""
 "сообщения аутентичны и не подверглись изменениям.\n"
 "- **Идеальная секретность при переадресации**<br />\n"
 "Если вы потеряете контроль над своими секретными ключами, ни один предыдущий разговор не окажется под угрозой.\n"
+
+#. type: Plain text
+msgid "- **Perfect forward secrecy**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  If you lose control of your private keys, no previous conversation is compromised.\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -215,6 +252,10 @@ msgstr ""
 "используется для рассылки спама."
 
 #. type: Plain text
+msgid "- [OFTC and Tor](https://www.oftc.net/Tor/)"
+msgstr ""
+
+#. type: Plain text
 #, fuzzy
 #| msgid ""
 #| "- [Accessing freenode Via Tor](https://freenode.net/kb/answer/"
@@ -223,9 +264,8 @@ msgstr ""
 #| "Tor/)  - [List of IRC/chat networks that block or support Tor](https://"
 #| "trac.torproject.org/projects/tor/wiki/doc/BlockingIrc)"
 msgid ""
-"- [OFTC and Tor](https://www.oftc.net/Tor/)  - [List of IRC/chat networks "
-"that block or support Tor](https://gitlab.torproject.org/legacy/trac/-/wikis/"
-"doc/BlockingIrc)"
+"- [List of IRC/chat networks that block or support Tor](https://gitlab."
+"torproject.org/legacy/trac/-/wikis/doc/BlockingIrc)"
 msgstr ""
 "- [OFTC и Tor](https://www.oftc.net/Tor/) \n"
 "- [Список IRC/чат-сетей, которые блокируют или поддерживают Tor](https://"

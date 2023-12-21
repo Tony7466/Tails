@@ -3,6 +3,7 @@
 Tails includes <span class="application">Thunderbird</span> for:
 
 - Reading and writing emails
+
 - Reading [[!wikipedia RSS]] and [[!wikipedia Atom_(Web_standard) desc="Atom"]] feeds for news and blogs
 
 [[!toc levels=2]]
@@ -105,10 +106,13 @@ For example, <span class="application">Thunderbird</span> in Tails:
 
 - Removes information about the language of your session or spellchecker
   from the headers of the emails that you send.
+
 - Removes information that could identify you as a Tails user from the
   headers of your emails.
+
 - Only allows secure protocols and disables insecure protocols, like
   SSLv3.
+
 - Disables tracking technologies, like cookies and JavaScript, when
   viewing emails or feeds in HTML.
 

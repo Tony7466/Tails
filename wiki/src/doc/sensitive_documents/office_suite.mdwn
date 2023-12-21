@@ -3,11 +3,14 @@
 Tails includes <span class="application">[LibreOffice](https://www.libreoffice.org/)</span>,
 a powerful office suite which embeds several tools:
 
-  - **<span class="application">Writer</span>**, a word processor
-  - **<span class="application">Calc</span>**, a spreasheet application
-  - **<span class="application">Impress</span>**, a presentation engine
-  - **<span class="application">Draw</span>**, a drawing and flowcharting
-    application
+- *Writer*, a word processor
+
+- *Calc*, a spreasheet application
+
+- *Impress*, a presentation engine
+
+- *Draw*, a drawing and flowcharting
+  application
 
 To start <span class="application">LibreOffice</span> choose
 <span class="menuchoice">

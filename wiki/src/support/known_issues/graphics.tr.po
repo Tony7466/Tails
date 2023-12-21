@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2018-10-26 13:27+0000\n"
 "Last-Translator: Weblate Admin <admin@example.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,11 +124,11 @@ msgstr ""
 msgid "     Mention in your email:\n"
 msgstr ""
 
-#. type: Bullet: '     - '
+#. type: Bullet: '     * '
 msgid "The version of Tails that you are trying to start."
 msgstr ""
 
-#. type: Bullet: '     - '
+#. type: Bullet: '     * '
 msgid "The name, ID, and revision number (if any) of your graphics card."
 msgstr ""
 
@@ -264,12 +264,12 @@ msgid ""
 "using the following [[boot option|doc/advanced_topics/boot_options]]:"
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "`modprobe.blacklist=amdgpu`"
+#. type: Plain text
+msgid "- `modprobe.blacklist=amdgpu`"
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "`modprobe.blacklist=radeon`"
+#. type: Plain text
+msgid "- `modprobe.blacklist=radeon`"
 msgstr ""
 
 #. type: Plain text
