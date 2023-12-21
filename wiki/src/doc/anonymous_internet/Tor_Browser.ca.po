@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-12-21 23:10+0000\n"
 "PO-Revision-Date: 2023-12-21 00:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,10 +35,8 @@ msgid ""
 "browser based on [Mozilla Firefox](https://www.mozilla.org/firefox/) but configured\n"
 "to protect your privacy.\n"
 msgstr ""
-"El <span class=\"application\">[Navegador Tor](https://www.torproject.org)</"
-"span> és un\n"
-"navegador web basat en [Mozilla Firefox](https://www.mozilla.org/firefox/) "
-"però configurat\n"
+"El <span class=\"application\">[Navegador Tor](https://www.torproject.org)</span> és un\n"
+"navegador web basat en [Mozilla Firefox](https://www.mozilla.org/firefox/) però configurat\n"
 "per protegir la vostra privadesa.\n"
 
 #. type: Plain text
@@ -67,8 +65,8 @@ msgid ""
 "Browser in the past](https://arstechnica.com/information-technology/2013/08/"
 "attackers-wield-firefox-exploit-to-uncloak-anonymous-tor-users/)."
 msgstr ""
-"Les vulnerabilitats de seguretat de JavaScript s'han utilitzat per ["
-"desanonimitzar el navegador Tor en el passat](https://arstechnica.com/"
+"Les vulnerabilitats de seguretat de JavaScript s'han utilitzat per "
+"[desanonimitzar el navegador Tor en el passat](https://arstechnica.com/"
 "information-technology/2013/08/attackers-wield-firefox-exploit-to-uncloak-"
 "anonymous-tor-users /)."
 
@@ -86,8 +84,7 @@ msgid ""
 "Some frequently asked questions about <span class=\"application\">Tor Browser</span> can be found in\n"
 "[[the FAQ|support/faq#browser]].\n"
 msgstr ""
-"Algunes preguntes freqüents sobre el <span class=\"application\">Navegador "
-"Tor</span> es poden trobar a\n"
+"Algunes preguntes freqüents sobre el <span class=\"application\">Navegador Tor</span> es poden trobar a\n"
 "[[les PMF|support/faq#browser]].\n"
 
 #. type: Plain text
@@ -123,9 +120,7 @@ msgstr "[[Connectat a la xarxa Tor|anonymous_internet/tor]]"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"confinement\">AppArmor confinement, downloading, and uploading files</h1>\n"
-msgstr ""
-"<h1 id=\"confinement\">Confinament d'AppArmor, baixada i càrrega de "
-"fitxers</h1>\n"
+msgstr "<h1 id=\"confinement\">Confinament d'AppArmor, baixada i càrrega de fitxers</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -136,12 +131,10 @@ msgid ""
 "As a consequence, <span class=\"application\">Tor Browser</span> in Tails can\n"
 "only read and write to a limited number of folders.\n"
 msgstr ""
-"<span class=\"application\">El Navegador Tor</span> a Tails està limitat "
-"amb\n"
+"<span class=\"application\">El Navegador Tor</span> a Tails està limitat amb\n"
 "[[!debwiki AppArmor]] per protegir el sistema i les vostres dades d'alguns\n"
 "tipus d'atacs contra el <span class=\"application\">Navegador Tor</span>.\n"
-"Com a conseqüència, el <span class=\"application\">Navegador Tor</span> a "
-"Tails pot\n"
+"Com a conseqüència, el <span class=\"application\">Navegador Tor</span> a Tails pot\n"
 "només llegir i escriure a un nombre limitat de carpetes.\n"
 
 #. type: Plain text
@@ -222,9 +215,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"fingerprint\">Hiding that you are using <i>Tor Browser</i></h1>\n"
-msgstr ""
-"<h1 id=\"fingerprint\">Ocultar que esteu utilitzant el <i>Navegador "
-"Tor</i></h1>\n"
+msgstr "<h1 id=\"fingerprint\">Ocultar que esteu utilitzant el <i>Navegador Tor</i></h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -288,8 +279,8 @@ msgid ""
 "Browser*, *Tor Browser* in Tails tries to provide the same information as "
 "*Tor Browser* on other operating systems."
 msgstr ""
-"Per dificultar la distinció dels usuaris de Tails d'altres usuaris del *"
-"Navegador Tor*, el *Navegador Tor* a Tails intenta proporcionar la mateixa "
+"Per dificultar la distinció dels usuaris de Tails d'altres usuaris del "
+"*Navegador Tor*, el *Navegador Tor* a Tails intenta proporcionar la mateixa "
 "informació que proporciona el *Navegador Tor* en altres sistemes operatius."
 
 #. type: Plain text
@@ -304,11 +295,9 @@ msgid ""
 "|support/known_issues#fingerprint]] to know if there are differences\n"
 "between the fingerprints of <span class=\"application\">Tor Browser</span> inside and outside of Tails.\n"
 msgstr ""
-"Consulteu la [[secció d'empremtes digitals de la nostra llista de problemes "
-"coneguts\n"
+"Consulteu la [[secció d'empremtes digitals de la nostra llista de problemes coneguts\n"
 "|support/known_issues#fingerprint]] per saber si hi ha diferències\n"
-"entre les empremtes dactilars del <span class=\"application\">Navegador Tor</"
-"span> dins i fora de Tails.\n"
+"entre les empremtes dactilars del <span class=\"application\">Navegador Tor</span> dins i fora de Tails.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -340,15 +329,13 @@ msgid ""
 "network|tor]].</p>\n"
 msgstr ""
 "<p>Per amagar a algú que controli la vostra connexió a Internet que us\n"
-"esteu connectant a Tor, consulteu la nostra documentació sobre [[connexió a "
-"la\n"
+"esteu connectant a Tor, consulteu la nostra documentació sobre [[connexió a la\n"
 "xarxa Tor|tor]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"https-everywhere\">HTTPS encryption with HTTPS Everywhere</h1>\n"
-msgstr ""
-"<h1 id=\"https-everywhere\">Encriptació HTTPS amb HTTPS Everywhere</h1>\n"
+msgstr "<h1 id=\"https-everywhere\">Encriptació HTTPS amb HTTPS Everywhere</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -373,8 +360,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img doc/anonymous_internet/Tor_Browser/riseup.png link=no alt=\"\"]]\n"
-msgstr ""
-"[[!img doc/anonymous_internet/Tor_Browser/riseup.png link=no alt=\"\"]]\n"
+msgstr "[[!img doc/anonymous_internet/Tor_Browser/riseup.png link=no alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -384,9 +370,9 @@ msgid ""
 "wikipedia HTTPS]] is being used."
 msgstr ""
 "Observeu la icona del cadenat a l'esquerra de la barra d'adreces que diu "
-"\"mail.riseup.net\". Observeu també l'adreça que comença per \"https://\" ("
-"en lloc de \"http://\"). Aquests són els indicadors que s'està utilitzant "
-"una connexió encriptada amb [[!wikipedia_ca HTTPS]]."
+"\"mail.riseup.net\". Observeu també l'adreça que comença per \"https://"
+"\" (en lloc de \"http://\"). Aquests són els indicadors que s'està "
+"utilitzant una connexió encriptada amb [[!wikipedia_ca HTTPS]]."
 
 #. type: Plain text
 msgid ""
@@ -414,38 +400,37 @@ msgid ""
 "unencrypted site. The HTTPS Everywhere extension fixes these problems by\n"
 "rewriting all requests to these sites to HTTPS.\n"
 msgstr ""
-"[HTTPS Everywhere](https://www.eff.org/https-everywhere) és una extensió de "
-"Firefox\n"
-"inclosa al <span class=\"application\">Navegador Tor</span>. Es produeix com "
-"a col·laboració entre [The Tor\n"
+"[HTTPS Everywhere](https://www.eff.org/https-everywhere) és una extensió de Firefox\n"
+"inclosa al <span class=\"application\">Navegador Tor</span>. Es produeix com a col·laboració entre [The Tor\n"
 "Project](https://torproject.org/) i [Electronic Frontier\n"
-"Foundation](https://eff.org/). Encripta les vostres comunicacions amb un "
-"gran nombre de\n"
-"llocs web principals. Molts llocs web ofereixen un suport limitat per a l'"
-"encriptatge\n"
-"a través d'HTTPS, però ho fan difícil d'usar. Per exemple, poden estar "
-"predeterminats\n"
-"a HTTP sense encriptar, o afegir pàgines encriptades amb enllaços que tornin "
-"als\n"
-"llocs sense encriptar. L'extensió HTTPS Everywhere soluciona aquests "
-"problemes\n"
+"Foundation](https://eff.org/). Encripta les vostres comunicacions amb un gran nombre de\n"
+"llocs web principals. Molts llocs web ofereixen un suport limitat per a l'encriptatge\n"
+"a través d'HTTPS, però ho fan difícil d'usar. Per exemple, poden estar predeterminats\n"
+"a HTTP sense encriptar, o afegir pàgines encriptades amb enllaços que tornin als\n"
+"llocs sense encriptar. L'extensió HTTPS Everywhere soluciona aquests problemes\n"
 "reescrivint totes les sol·licituds d'aquests llocs a HTTPS.\n"
 
 #. type: Plain text
 msgid "To learn more about HTTPS Everywhere, you can see:"
 msgstr "Per obtenir més informació sobre HTTPS Everywhere, podeu llegir:"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
+msgid "- The [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
 msgstr ""
 "la [pàgina principal d'HTTPS Everywhere](https://www.eff.org/https-"
 "everywhere) (en anglès)"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
+msgid "- The [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
 msgstr ""
-"les [preguntes freqüents d'HTTPS Everywhere](https://www.eff.org/"
-"https-everywhere/faq/) (en anglès)"
+"les [preguntes freqüents d'HTTPS Everywhere](https://www.eff.org/https-"
+"everywhere/faq/) (en anglès)"
 
 #. type: Plain text
 #, no-wrap
@@ -471,8 +456,7 @@ msgid ""
 msgstr ""
 "És per això que el JavaScript està habilitat per defecte però\n"
 "el <span class=\"application\">Navegador Tor</span> desactiva tot el\n"
-"JavaScript potencialment perillós. Considerem que això és un compromís "
-"necessari entre\n"
+"JavaScript potencialment perillós. Considerem que això és un compromís necessari entre\n"
 "seguretat i usabilitat.\n"
 
 #. type: Plain text
@@ -483,13 +467,10 @@ msgid ""
 "refer to the <a href=\"https://2019.www.torproject.org/projects/torbrowser/design/\">\n"
 "<span class=\"application\">Tor Browser</span> design document</a>.</p>\n"
 msgstr ""
-"<p>Per entendre millor el comportament del <span class=\"application\">"
-"Navegador\n"
+"<p>Per entendre millor el comportament del <span class=\"application\">Navegador\n"
 "Tor</span>, per exemple, pel que fa al JavaScript i les galetes, podeu\n"
-"consulteu el <a href=\"https://2019.www.torproject.org/projects/torbrowser/"
-"design/\">\n"
-"document de disseny del <span class=\"application\">Navegador "
-"Tor</span></a>.</p>\n"
+"consulteu el <a href=\"https://2019.www.torproject.org/projects/torbrowser/design/\">\n"
+"document de disseny del <span class=\"application\">Navegador Tor</span></a>.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -503,12 +484,9 @@ msgid ""
 "to disable browser features as a trade-off between security and usability.\n"
 "For example, you can set the security level to *Safest* to disable JavaScript completely.\n"
 msgstr ""
-"Podeu canviar el nivell de seguretat del <span class=\"application\""
-">Navegador Tor</span>\n"
-"per desactivar les funcions del navegador com a compensació entre seguretat "
-"i usabilitat.\n"
-"Per exemple, podeu establir el nivell de seguretat a *El més segur* per "
-"desactivar el JavaScript completament.\n"
+"Podeu canviar el nivell de seguretat del <span class=\"application\">Navegador Tor</span>\n"
+"per desactivar les funcions del navegador com a compensació entre seguretat i usabilitat.\n"
+"Per exemple, podeu establir el nivell de seguretat a *El més segur* per desactivar el JavaScript completament.\n"
 
 #. type: Plain text
 msgid ""
@@ -526,8 +504,7 @@ msgid ""
 "and choose\n"
 "<span class=\"guilabel\">Advanced Security Settings&hellip;</span>.\n"
 msgstr ""
-"Per canviar el nivell de seguretat, feu clic a la icona [[!img security-level"
-".png\n"
+"Per canviar el nivell de seguretat, feu clic a la icona [[!img security-level.png\n"
 "class=\"symbolic\" link=\"no\"]] a la dreta de la barra d'adreces\n"
 "i trieu\n"
 "<span class=\"guilabel\">Configuració de seguretat avançada&hellip;</span>.\n"
@@ -544,8 +521,7 @@ msgid ""
 "your organization,\" which appears in the\n"
 "<span class=\"application\">Tor Browser</span> preferences.</p>\n"
 msgstr ""
-"<p>Podeu ignorar amb seguretat el missatge \"El vostre navegador està "
-"gestionat per\n"
+"<p>Podeu ignorar amb seguretat el missatge \"El vostre navegador està gestionat per\n"
 "la vostra organització\", que apareix a la pàgina\n"
 "de preferències del <span class=\"application\">Navegador Tor</span>.</p>\n"
 
@@ -558,12 +534,9 @@ msgid ""
 "gets broken by automatic updates of\n"
 "<span class=\"application\">Tor Browser</span>.</p>\n"
 msgstr ""
-"<p>Tot aquest missatge significa que la funció d'actualitzacions "
-"automàtiques del\n"
-"<span class=\"application\">Navegador Tor</span> s'ha desactivat. Això està "
-"fet\n"
-"intencionadament a Tails per assegurar-se que no hi ha cap funció o "
-"configuració de seguretat\n"
+"<p>Tot aquest missatge significa que la funció d'actualitzacions automàtiques del\n"
+"<span class=\"application\">Navegador Tor</span> s'ha desactivat. Això està fet\n"
+"intencionadament a Tails per assegurar-se que no hi ha cap funció o configuració de seguretat\n"
 "que es trenca per les actualitzacions automàtiques del\n"
 "<span class=\"application\">Navegador Tor</span>.</p>\n"
 
@@ -605,8 +578,7 @@ msgid ""
 "to use a different circuit.\n"
 msgstr ""
 "Feu clic al\n"
-"botó <span class=\"guilabel\">[[Nou circuit per a aquest lloc|Tor_Browser"
-"#circuit-view]]</span>\n"
+"botó <span class=\"guilabel\">[[Nou circuit per a aquest lloc|Tor_Browser#circuit-view]]</span>\n"
 "per utilitzar un circuit diferent.\n"
 
 #. type: Plain text
@@ -617,16 +589,13 @@ msgid ""
 "to get more detailed information about the circuits being used.\n"
 msgstr ""
 "Podeu fer servir\n"
-"<span class=\"application\">[[Circuits Onion|doc/anonymous_internet/tor/"
-"circuits]]</span>\n"
+"<span class=\"application\">[[Circuits Onion|doc/anonymous_internet/tor/circuits]]</span>\n"
 "per obtenir informació més detallada sobre els circuits que s'utilitzen.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"new-identity\"><span class=\"guilabel\">New Identity</span> feature</h1>\n"
-msgstr ""
-"<h1 id=\"new-identity\">Funció de <span class=\"guilabel\">Nova "
-"identitat</span></h1>\n"
+msgstr "<h1 id=\"new-identity\">Funció de <span class=\"guilabel\">Nova identitat</span></h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -638,8 +607,7 @@ msgid ""
 msgstr ""
 "Per canviar a una nova identitat, trieu\n"
 "<span class=\"menuchoice\">\n"
-"  <span class=\"guimenu\">[[!img lib/open-menu.png alt=\"\" class=symbolic "
-"link=no]]</span>&nbsp;▸\n"
+"  <span class=\"guimenu\">[[!img lib/open-menu.png alt=\"\" class=symbolic link=no]]</span>&nbsp;▸\n"
 "  <span class=\"guimenuitem\">Nova identitat</span></span>.\n"
 
 #. type: Plain text
@@ -651,18 +619,24 @@ msgstr ""
 "La funció de Nova Identitat del\n"
 "<i>Navegador Tor</i>:\n"
 
-#. type: Bullet: '  - '
-msgid "Closes all open tabs."
+#. type: Plain text
+#, fuzzy
+#| msgid "Closes all open tabs."
+msgid "- Closes all open tabs."
 msgstr "Tanca totes les pestanyes obertes."
 
-#. type: Bullet: '  - '
-msgid "Clears the session state including cache, history, and cookies."
+#. type: Plain text
+#, fuzzy
+#| msgid "Clears the session state including cache, history, and cookies."
+msgid "- Clears the session state including cache, history, and cookies."
 msgstr ""
 "Esborra l'estat de la sessió, incloent la memòria cau, l'historial i les "
 "galetes."
 
-#. type: Bullet: '  - '
-msgid "Closes all existing web connections and creates new Tor circuits."
+#. type: Plain text
+#, fuzzy
+#| msgid "Closes all existing web connections and creates new Tor circuits."
+msgid "- Closes all existing web connections and creates new Tor circuits."
 msgstr "Tanca totes les connexions web existents i crea nous circuits Tor."
 
 #. type: Plain text
@@ -677,8 +651,7 @@ msgid ""
 "as the Tor circuits used ouside of\n"
 "<i>Tor Browser</i> are not changed.</p>\n"
 msgstr ""
-"<p>Aquesta característica no és suficient per [[separar identitats "
-"contextuals|about/warnings/identity#contextual]]\n"
+"<p>Aquesta característica no és suficient per [[separar identitats contextuals|about/warnings/identity#contextual]]\n"
 "ja que els circuits de Tor utilitzats fora del\n"
 "<i>Navegador Tor</i> no es modifiquen.</p>\n"
 
@@ -699,9 +672,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"noscript\">NoScript to have even more control over JavaScript</h1>\n"
-msgstr ""
-"<h1 id=\"noscript\">NoScript per tenir encara més control sobre "
-"JavaScript</h1>\n"
+msgstr "<h1 id=\"noscript\">NoScript per tenir encara més control sobre JavaScript</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -725,8 +696,10 @@ msgstr ""
 "Protegir-vos de més atacs de JavaScript. Per exemple, atacs de cross-site "
 "scripting (XSS)."
 
-#. type: Bullet: '- '
-msgid "Allow you to disable JavaScript completely on some websites only."
+#. type: Plain text
+#, fuzzy
+#| msgid "Allow you to disable JavaScript completely on some websites only."
+msgid "- Allow you to disable JavaScript completely on some websites only."
 msgstr ""
 "Permetre-us desactivar completament el JavaScript només en alguns llocs web."
 
@@ -756,13 +729,10 @@ msgid ""
 "Without letterboxing, websites could use\n"
 "the size of the browser window to track visitors or weaken your anonymity.\n"
 msgstr ""
-"La funció de letterboxing del <span class=\"application\">Navegador Tor</"
-"span> ajuda\n"
-"a evitar que els llocs web identifiquin el vostre navegador en funció de la "
-"mida de la finestra.\n"
+"La funció de letterboxing del <span class=\"application\">Navegador Tor</span> ajuda\n"
+"a evitar que els llocs web identifiquin el vostre navegador en funció de la mida de la finestra.\n"
 "Sense letterboxing, els llocs web podrien utilitzar\n"
-"la mida de la finestra del navegador per fer un seguiment dels visitants o "
-"debilitar el vostre anonimat.\n"
+"la mida de la finestra del navegador per fer un seguiment dels visitants o debilitar el vostre anonimat.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -772,12 +742,9 @@ msgid ""
 "webpage remains as close as possible to the desired size without revealing the\n"
 "actual size of the window.\n"
 msgstr ""
-"La funció de letterboxing del <span class=\"application\">Navegador Tor</"
-"span> funciona\n"
-"afegint marges grisos a la finestra del navegador quan es canvia la mida de "
-"la finestra. La\n"
-"pàgina web es manté el més a prop possible de la mida desitjada sense "
-"revelar la\n"
+"La funció de letterboxing del <span class=\"application\">Navegador Tor</span> funciona\n"
+"afegint marges grisos a la finestra del navegador quan es canvia la mida de la finestra. La\n"
+"pàgina web es manté el més a prop possible de la mida desitjada sense revelar la\n"
 "mida real de la finestra.\n"
 
 #, fuzzy
@@ -901,8 +868,8 @@ msgstr ""
 
 #, fuzzy
 #~ msgid ""
-#~ "That is why **JavaScript is enabled by default** in <span class="
-#~ "\"application\">Tor Browser</span>.\n"
+#~ "That is why **JavaScript is enabled by default** in <span "
+#~ "class=\"application\">Tor Browser</span>.\n"
 #~ msgstr ""
 #~ "Deswegen ist im <span class=\"application\">Tor Browser</span> "
 #~ "**JavaScript standardmäßig aktiv**.\n"

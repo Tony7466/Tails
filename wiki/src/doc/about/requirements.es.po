@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-11-10 17:08+0000\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2023-10-15 22:16+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
@@ -29,30 +29,38 @@ msgstr "[[!meta title=\"Requisitos del sistema\"]]\n"
 msgid "Summary"
 msgstr ""
 
-#. type: Bullet: '- '
+#. type: Plain text
 #, fuzzy
 #| msgid "Tails works on most computers less than 10 years old."
-msgid "Tails works on most PC computers that are less than 10 years old."
+msgid "- Tails works on most PC computers that are less than 10 years old."
 msgstr ""
 "Tails funciona en la mayoría de las computadoras con menos de 10 años de "
 "antigüedad."
 
-#. type: Bullet: '  - '
+#. type: Plain text
 #, fuzzy
 #| msgid "Tails works on most computers less than 10 years old."
-msgid "Tails works on some older Mac computers with an Intel processor."
+msgid "- Tails works on some older Mac computers with an Intel processor."
 msgstr ""
 "Tails funciona en la mayoría de las computadoras con menos de 10 años de "
 "antigüedad."
 
-#. type: Bullet: '- '
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Tails does not work with Mac models that use the [[!wikipedia Apple M1]] "
+#| "chip."
 msgid ""
-"Tails does not work on newer Mac computers with an Apple processor (M1 or "
+"- Tails does not work on newer Mac computers with an Apple processor (M1 or "
 "M2)."
 msgstr ""
+"Tails no funciona con modelos de Mac que usan el chip [[!wikipedia_es Apple "
+"M1]]."
 
-#. type: Bullet: '- '
-msgid "Tails might not work on:"
+#. type: Plain text
+#, fuzzy
+#| msgid "Tails might not work on:"
+msgid "- Tails might not work on:"
 msgstr "Tails podría no funcionar en:"
 
 #. type: Bullet: '  * '
@@ -129,14 +137,22 @@ msgstr ""
 "Un procesador de 64-bits <span class=\"definition\">[[!wikipedia_es "
 "x86-64]]</span>  compatible:"
 
-#. type: Bullet: '  - '
+#. type: Bullet: '  * '
 msgid ""
 "<span class=\"definition\">[[!wikipedia IBM_PC_compatible]]</span> but not "
 "<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span "
 "class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 msgstr ""
 
-#. type: Bullet: '  - '
+#. type: Bullet: '  * '
+#, fuzzy
+#| msgid "Tails works on most computers less than 10 years old."
+msgid "Tails works on some older Mac computers with an Intel processor."
+msgstr ""
+"Tails funciona en la mayoría de las computadoras con menos de 10 años de "
+"antigüedad."
+
+#. type: Bullet: '  * '
 #, fuzzy
 #| msgid ""
 #| "Tails does not work with Mac models that use the [[!wikipedia Apple M1]] "
@@ -148,13 +164,13 @@ msgstr ""
 "Tails no funciona con modelos de Mac que usan el chip [[!wikipedia_es Apple "
 "M1]]."
 
-#. type: Bullet: '  - '
+#. type: Bullet: '  * '
 msgid ""
 "Tails does not work on 32-bit computers since [[Tails 3.0|news/"
 "Tails_3.0_will_require_a_64-bit_processor]] (June 2017)."
 msgstr ""
 
-#. type: Bullet: '  - '
+#. type: Bullet: '  * '
 #, fuzzy
 #| msgid "Tails works on most computers less than 10 years old."
 msgid "Tails does not work on phone or tablets."
@@ -188,8 +204,8 @@ msgstr ""
 msgid "For PC"
 msgstr ""
 
-#. type: Bullet: '- '
-msgid "Avoid \"gaming\" models with Nvidia or AMD Radeon graphics cards."
+#. type: Plain text
+msgid "- Avoid \"gaming\" models with Nvidia or AMD Radeon graphics cards."
 msgstr ""
 
 #. type: Bullet: '- '

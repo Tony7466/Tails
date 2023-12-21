@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2022-03-03 14:25+0000\n"
 "Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
@@ -104,7 +104,7 @@ msgstr ""
 "procesador. Esta terminología es un poco con confusa y otra documentación\n"
 "puede mencionar las siguientes herramientas:\n"
 
-#. type: Bullet: '  - '
+#. type: Bullet: '- '
 msgid ""
 "*KVM* is the module of the Linux kernel that interacts with the "
 "virtualization features of the processor."
@@ -112,7 +112,7 @@ msgstr ""
 "*KVM* es el módulo del kernel de Linux que interactúa con el las "
 "funcionalidades de virtualización del procesador."
 
-#. type: Bullet: '  - '
+#. type: Bullet: '- '
 msgid ""
 "*QEMU* is the virtualization software that emulates virtual processors and "
 "peripherals based on *KVM* and that starts and stops virtual machines."
@@ -120,7 +120,7 @@ msgstr ""
 "*QEMU* es el software de virtualización que emula procesadores virtuales y "
 "periféricos basado en *KVM* y que inicia y detiene las máquinas virtuales."
 
-#. type: Bullet: '  - '
+#. type: Bullet: '- '
 msgid ""
 "*libvirt* is a library that allows *virt-manager* to interact with the "
 "virtualization capabilities provided by *QEMU*."
@@ -128,7 +128,7 @@ msgstr ""
 "*libvirt* es una biblioteca que permite que *virt-manager* interactúe con "
 "las capacidades de virtualización provistas por *QEMU*."
 
-#. type: Bullet: '  - '
+#. type: Bullet: '- '
 msgid ""
 "*SPICE* is a protocol that allows to visualize the desktop of virtual "
 "machines."
@@ -136,7 +136,7 @@ msgstr ""
 "*SPICE* es un protocolo que permite ver el escritorio de las máquinas "
 "virtuales."
 
-#. type: Bullet: '  - '
+#. type: Bullet: '- '
 msgid ""
 "*virt-manager* is the graphical interface that allows to create, configure, "
 "and run virtual machines."
@@ -534,12 +534,12 @@ msgid ""
 "configuration. For example:"
 msgstr ""
 
-#. type: Bullet: ' - '
+#. type: Bullet: '- '
 msgid ""
 "The *Auto resize VM with window* feature does not work in all configurations."
 msgstr ""
 
-#. type: Bullet: ' - '
+#. type: Bullet: '- '
 msgid ""
 "The video device that provides optimal graphics performance can be different "
 "depending on the version of the host operating system."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2021-12-22 02:12+0000\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2023-10-22 12:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,15 +26,19 @@ msgstr "[[!meta title=\"Iniciar Tails\"]]\n"
 #. type: Plain text
 msgid "To learn how to start Tails, refer to our installation instructions on:"
 msgstr ""
-"Per saber com iniciar Tails, consulteu les nostres instruccions d'instal·"
-"lació a:"
+"Per saber com iniciar Tails, consulteu les nostres instruccions "
+"d'instal·lació a:"
 
-#. type: Bullet: '  - '
-msgid "[[Starting Tails on PC|pc]]"
+#. type: Plain text
+#, fuzzy
+#| msgid "[[Starting Tails on PC|pc]]"
+msgid "- [[Starting Tails on PC|pc]]"
 msgstr "[[Iniciar Tails al PC|pc]]"
 
-#. type: Bullet: '  - '
-msgid "[[Starting Tails on Mac|mac]]"
+#. type: Plain text
+#, fuzzy
+#| msgid "[[Starting Tails on Mac|mac]]"
+msgid "- [[Starting Tails on Mac|mac]]"
 msgstr "[[Iniciar Tails a Mac|mac]]"
 
 #~ msgid "[[Starting a Mac on a DVD|install/mac/dvd#start-dvd]]"

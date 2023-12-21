@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2021-07-11 20:05+0000\n"
 "Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/"
@@ -102,20 +102,44 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+msgid "- **Encryption**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  No one else can read your instant messages.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- **Authentication**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  You are assured the correspondent is who you think it is.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- **Deniability**"
+msgstr ""
+
+#. type: Plain text
 #, no-wrap
 msgid ""
-"- **Encryption**<br />\n"
-"    No one else can read your instant messages.\n"
-"- **Authentication**<br />\n"
-"    You are assured the correspondent is who you think it is.\n"
-"- **Deniability**<br />\n"
-"    The messages you send do not have digital signatures\n"
-"    that are checkable by a third party. Anyone can forge messages after\n"
-"    a conversation to make them look like they came from you.\n"
-"    However, during a conversation, your correspondent is assured\n"
-"    the messages are authentic and unmodified.\n"
-"- **Perfect forward secrecy**<br />\n"
-"    If you lose control of your private keys, no previous conversation is compromised.\n"
+"  The messages you send do not have digital signatures\n"
+"  that are checkable by a third party. Anyone can forge messages after\n"
+"  a conversation to make them look like they came from you.\n"
+"  However, during a conversation, your correspondent is assured\n"
+"  the messages are authentic and unmodified.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- **Perfect forward secrecy**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  If you lose control of your private keys, no previous conversation is compromised.\n"
 msgstr ""
 
 #. type: Plain text
@@ -177,10 +201,13 @@ msgstr ""
 "es usado para enviar spam."
 
 #. type: Plain text
+msgid "- [OFTC and Tor](https://www.oftc.net/Tor/)"
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"- [OFTC and Tor](https://www.oftc.net/Tor/)  - [List of IRC/chat networks "
-"that block or support Tor](https://gitlab.torproject.org/legacy/trac/-/wikis/"
-"doc/BlockingIrc)"
+"- [List of IRC/chat networks that block or support Tor](https://gitlab."
+"torproject.org/legacy/trac/-/wikis/doc/BlockingIrc)"
 msgstr ""
 
 #. type: Title =
