@@ -974,7 +974,7 @@ Get the internal manual testing started
 =======================================
 
 Email <tails-board@boum.org> and <tails-manual-testers@boum.org> that tests
-may start. Remeber to encrypt and sign your email!
+may start. Remember to encrypt and sign your email!
 
     ./bin/automailer.py <<EOF
     To: tails-board@boum.org, tails-manual-testers@boum.org
