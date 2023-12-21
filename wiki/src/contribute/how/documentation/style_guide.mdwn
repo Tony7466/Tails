@@ -26,10 +26,12 @@ Use references in the following order:
        Audience](http://developer-old.gnome.org/gdp-style-guide/2.32/gdp-style-guide.html#locale)
        includes specific rules about how to write documentation that is
        easier to translate, with practical examples.
+
      - [5.2.&nbsp;Checks You Can Do
        Yourself](http://developer-old.gnome.org/gdp-style-guide/2.32/gdp-style-guide.html#improving-6)
        lists the top ten topics that you need to watch out for when you
        review your work.
+
      - [A.&nbsp;Recommended
        Terminology](http://developer-old.gnome.org/gdp-style-guide/2.32/gdp-style-guide.html#wordlist)
        contains a glossary of terms for use when writing documentation.
@@ -37,7 +39,9 @@ Use references in the following order:
 3. Other style guides:
 
    - [Google developer documentation style guide](https://developers.google.com/style)
+
    - [Microsoft Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/).
+
    - [Apple Style Guide](https://help.apple.com/applestyleguide/)
 
 We use US spelling. For spelling of words, we use the
@@ -228,6 +232,7 @@ Style and usage
     *For example:*
 
     * Welcome Screen
+
     * Persistent Storage
 
   - Application and file names
@@ -237,13 +242,17 @@ Style and usage
     *For example:*
 
     * Markdown: <span class="code">\*Thunderbird\*</span>
+
     * HTML: <span class="code">&lt;i&gt;Thunderbird&lt;/i&gt;</span>
+
     * Result: *Thunderbird*
 
     *For example:*
 
     * Markdown: <span class="code">\*~/.gnupg/gpg.conf\*</span>
+
     * HTML: <span class="code">&lt;i&gt;~/.gnupg/gpg.conf&lt;/i&gt;</span>
+
     * Result: *~/.gnupg/gpg.conf*
 
   - Button names, GUI labels, key caps, and menu items
@@ -254,7 +263,9 @@ Style and usage
     *For example:*
 
     * Markdown: <span class="code">Click \*\*Save\*\*.</span>
+
     * HTML: <span class="code">Click &lt;b&gt;Save&lt;/b&gt;.</span>
+
     * Result: Click **Save**.
 
     In documentation, do not a not add the elipsis of the button label to
@@ -263,7 +274,9 @@ Style and usage
     *For example:*
 
     * Markdown: <span class="code">Choose \*\*Applications&amp;nbsp;▸ Tor Browser\*\*</span>
+
     * HTML: <span class="code">Choose &lt;b&gt;Applications&amp;nbsp;▸ Tor Browser&lt;/b&gt;</span>
+
     * Result: Choose **Applications&nbsp;▸ Tor Browser**
 
   - Commands and code excerpts:
@@ -274,6 +287,7 @@ Style and usage
     *For example:*
 
     * Markdown and HTML: <span class="code">&lt;span class="code"&gt;live-media=removable&lt;/span&gt;</span>
+
     * Result: <span class="code">live-media=removable</span>
 
 <a id="debian-versions"></a>
@@ -619,7 +633,9 @@ Style and usage
   the image. To take such a screenshot:
 
   1. In *Gimp* choose **File**&nbsp;▸ **Create**&nbsp;▸ **Screenshot&hellip;**.
+
   2. Select **Include windows decoration**.
+
   3. Make sure the blue border (`0x204a87`) on each side of the screenshot is at least 18px.
 
   We also most of the time resize the screenshots to 66%, either when they are
@@ -643,8 +659,11 @@ Style and usage
   to describe, highlight it in red using *Inkscape*:
 
   1. Create the base screenshot, resized at 66%.
+
   1. Open it in Inkspace.
+
   1. Create a red circle or rectangle with a width of 2 px.
+
   1. Export the screenshot to PNG, respecting its original size.
 
 <a id="secure-boot"></a>
@@ -673,6 +692,7 @@ Style and usage
   Because of that, avoid using SVG images:
 
   - Export SVG images to PNG and [[compress them|style_guide#compress-image]].
+
   - Store the SVG source side-by-side with its PNG version, to ease future
     modifications.
 
