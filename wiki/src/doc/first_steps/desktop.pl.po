@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-03-12 00:29+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -30,6 +30,8 @@ msgid ""
 "This page describes some important features of the desktop in the context of "
 "Tails."
 msgstr ""
+"Środowisko graficzne używane w Tails to [GNOME](https://www.gnome.org). Na "
+"tej stronie opisano kilka ważnych funkcji pulpitu w kontekście Tailsa."
 
 #. type: Plain text
 #, no-wrap
@@ -39,49 +41,49 @@ msgstr "[[!toc levels=3]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"top-navigation-bar\">Top navigation bar</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"top-navigation-bar\">Górny pasek nawigacyjny</h1>\n"
 
 #. type: Plain text
 msgid ""
 "In the upper left corner of the screen there is one button and three menus:"
-msgstr ""
+msgstr "W lewym górnym rogu ekranu znajduje się jeden przycisk i trzy menu:"
 
 #. type: Bullet: '- '
 msgid "The <b>Activities</b> button"
-msgstr ""
+msgstr "The <b>Aktywność</b> przycisk"
 
 #. type: Bullet: '- '
-#, fuzzy
 msgid "The <span class=\"guimenu\">Applications</span> menu"
-msgstr "das <span class=\"guimenu\">Anwendungen</span>-Menü"
+msgstr "The <span class=\"guimenu\">Aplikacje</span> menu"
 
 #. type: Bullet: '- '
-#, fuzzy
 msgid "The <span class=\"guimenu\">Places</span> menu"
-msgstr "das <span class=\"guimenu\">Anwendungen</span>-Menü"
+msgstr "das <span class=\"guimenu\">Miejsca</span>-Menu"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"activities\">Activities overview</h2>\n"
-msgstr "<a id=\"favorites\"></a>\n"
+msgstr "<h2 id=\"activities\">Przegląd aktywności</h2>.\n"
 
 #. type: Plain text
 msgid "To access your windows and applications you can either:"
-msgstr ""
+msgstr "Aby uzyskać dostęp do okien i aplikacji, można:"
 
 #. type: Bullet: '- '
 msgid "Click on the <b>Activities</b> button."
-msgstr ""
+msgstr "Kliknij <b>Aktywności</b> przycisk."
 
 #. type: Plain text
 msgid "- Throw your mouse pointer to the top-left hot corner."
-msgstr ""
+msgstr "- Przesuń wskaźnik myszy do lewego górnego  rogu."
 
 #. type: Bullet: '- '
 msgid ""
 "Press the <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link=\"no\" "
 "alt=\"\"]]) key on your keyboard."
 msgstr ""
+"Naciśnij klawisz <b>Super</b> ([[!img lib/start.png class=\"symbolic\" link="
+"\"no\" alt=\"\"]]) na klawiaturze."
 
 #. type: Plain text
 msgid ""
@@ -197,11 +199,19 @@ msgid ""
 "  </div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"  <span class=\"guimenuitem\">About Tails</span>:\n"
+"  to know the version of Tails that you are currently running, choose\n"
+"  <span class=\"wybór menu\">\n"
+"    <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
+"    <span class=\"guimenuitem\">About Tails</span></span>\n"
+"  </div>\n"
+"</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h3 id=\"favorites\">Favorites submenu</h3>\n"
-msgstr "<a id=\"favorites\"></a>\n"
+msgstr "<h3 id=\"ulubione\">Podmenu Ulubione</h3>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -209,11 +219,15 @@ msgid ""
 "In the <span class=\"guisubmenu\">Favorites</span> submenu, a few\n"
 "shortcuts allow you to launch the most frequently used applications:\n"
 msgstr ""
+"W podmenu <span class=\"guisubmenu\">Ulubione</span> znajduje się kilka "
+"skrótów.\n"
+"skrótów umożliwia uruchamianie najczęściej używanych aplikacji\n"
+":\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img lib/apps/tor-browser.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img help-browser.png link=no]]\n"
+msgstr "[[!img lib/apps/tor-browser.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -224,6 +238,13 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Przeglądarka Tor</strong> do przeglądania sieci anonimowo i bez "
+"cenzury<br/>\n"
+"[[Zobacz naszą dokumentację dotyczącą przeglądania Internetu za pomocą "
+"<i>przeglądarki Tor</i>|anonymous_internet/Tor_Browser]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -239,11 +260,17 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Połączenie Tor</strong>, aby połączyć się z siecią Tor<br/>\n"
+"[[Zobacz naszą dokumentację dotyczącą łączenia się z Tor|anonymous_internet/"
+"tor]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img lib/apps/persistent_storage.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img places.png link=no alt=\"\"]]\n"
+msgstr "[[!img lib/apps/persistent_storage.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -254,11 +281,17 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Pamięć trwała</strong>, aby utworzyć i skonfigurować pamięć trwałą "
+"na pamięci USB Tails<br/>\n"
+"[[Zobacz naszą dokumentację dotyczącą pamięci trwałej|persistent_storage]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img lib/apps/tails-help.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img tails-help.png link=no]]\n"
+msgstr "[[!img lib/apps/tails-help.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -268,11 +301,16 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Dokumentacja Tails</strong>, aby otworzyć wersję offline witryny "
+"Tails i dokumentacji osadzonej w Tails<br/>\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img lib/apps/whisperback.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img whisperback.png link=no]]\n"
+msgstr "[[!img lib/apps/whisperback.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -283,28 +321,35 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Raportowanie błędów WhisperBack</strong>, aby zgłosić problemy "
+"dotyczące Tails naszemu zespołowi<br/>\n"
+"[[Zobacz naszą dokumentację dotyczącą zgłaszania błędu|bug_reporting]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img lib/apps/tails-installer.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img gnome-terminal.png link=no]]\n"
+msgstr "[[!img lib/apps/tails-installer.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "<strong>Tails Cloner</strong> to clone Tails to another USB stick<br/>\n"
 "</div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><strong>Home</strong>: Verknüpfung zum Ordner\n"
-"des Standardkontos</div>\n"
+"<div class=\"text\">\n"
+"<strong>Kloner Tails</strong> do klonowania Tailsa na inną pamięć USB<br/>\n"
+"</div>\n"
 "</div>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img lib/apps/thunderbird.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/thunderbird.png link=no]]\n"
+msgstr "[[!img lib/apps/thunderbird.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -314,11 +359,16 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"Klient poczty e-mail <div class=\"text\"><strong>Thunderbird</strong><br />\n"
+"[[Zobacz naszą dokumentację dotyczącą wysyłania e-maili i czytania "
+"wiadomości za pomocą <i>Thunderbird</i>|anonymous_internet/thunderbird]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img lib/apps/keepassxc.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img whisperback.png link=no]]\n"
+msgstr "[[!img lib/apps/keepassxc.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -329,11 +379,17 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>KeePassXC</strong> menedżer haseł<br/>\n"
+"[[Zobacz naszą dokumentację dotyczącą zarządzania hasłami za pomocą "
+"<i>KeePassXC</i>|encryption_and_privacy/manage_passwords]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img lib/apps/pidgin.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img pidgin.png link=no]]\n"
+msgstr "[[!img lib/apps/pidgin.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -344,11 +400,17 @@ msgid ""
 "</div>\n"
 "</div>\n"
 msgstr ""
+"<div class=\"text\">\n"
+"<strong>Pidgin Internet Messenger</strong><br/>\n"
+"[[Zobacz naszą dokumentację dotyczącą czatowania z <i>Pidginem</i> i OTR|"
+"anonymous_internet/pidgin]]\n"
+"</div>\n"
+"</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"places\">Places menu</h2>\n"
-msgstr "<a id=\"places\"></a>\n"
+msgstr "<h2 id=\"places\">Menu Miejsca</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -356,6 +418,9 @@ msgid ""
 "The <span class=\"guimenu\">Places</span> menu provides direct access to different\n"
 "folders and storage media.\n"
 msgstr ""
+"The <span class=\"guimenu\">Miejsca</span> menu \n"
+"zapewnia bezpośredni dostęp do różnych folderów i nośników pamięci.\n"
+"folderów i nośników pamięci.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -363,9 +428,9 @@ msgid "[[!img places.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img places.png link=no alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"tor-status\">Tor status and circuits</h2>\n"
-msgstr "Status und Kanäle von Tor\n"
+msgstr "<h2 id=\"tor-status\">Stan i obwody Tora</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -375,48 +440,60 @@ msgid ""
 "provides a shortcut to *Onion Circuits*, which allows you to manage the Tor "
 "circuits being used by Tails."
 msgstr ""
+"Ikona stanu Tora ([[!img lib/symbolic/tor-disconnected.png alt=\"menu "
+"statusu Tora\" link=\"no\" class=\"symbolic\"]] lub [[!img lib/symbolic/tor-"
+"connected. png alt=\"menu statusu Tora\" link=\"no\" class=\"symboliczny\"]])"
+" zapewnia skrót do *Obwodów Cebulowych*, który pozwala zarządzać obwodami "
+"Tora używanymi przez Tailsa."
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img tor-status.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img places.png link=no alt=\"\"]]\n"
+msgstr "[[!img tor-status.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
 "[[See our documentation on *Onion Circuits*.|anonymous_internet/tor/"
 "circuits]]"
 msgstr ""
+"[[Zobacz naszą dokumentację na temat *Obwodów cebulowych*.|"
+"anonymous_internet/tor/circuits]]"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"accessibility\">Universal access</h2>\n"
-msgstr "<a id=\"accessibility\"></a>\n"
+msgstr "<h2 id=\"accessibility\">Uniwersalny dostęp</h2>\n"
 
 #. type: Plain text
 msgid ""
 "The universal access menu allows you to activate the screen reader, screen "
 "keyboard, large text display, and other accessibility technologies."
 msgstr ""
+"Menu uniwersalnego dostępu umożliwia aktywację czytnika ekranu, klawiatury "
+"ekranowej, dużego wyświetlacza tekstowego i innych technologii ułatwień "
+"dostępu."
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!img accessibility.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img accessibility.png link=no alt=\"\"]]\n"
+msgstr "[[!img accessibility.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid "[[See our documentation on accessibility.|accessibility]]"
-msgstr ""
+msgstr "[[Zobacz naszą dokumentację dotyczącą dostępności.|accessibility]]"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"keyboard\">Keyboard layouts</h2>\n"
-msgstr "<a id=\"keyboard\"></a>\n"
+msgstr "<h2 id=\"keyboard\">Układy klawiatury</h2>\n"
 
 #. type: Plain text
 msgid ""
 "The keyboard layout menu allow you to change the keyboard layout and input "
 "method for non-Latin scripts."
 msgstr ""
+"Menu układu klawiatury umożliwia zmianę układu klawiatury i metody "
+"wprowadzania dla alfabetów innych niż łacińskie."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -424,9 +501,9 @@ msgid "[[!img keyboard.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img keyboard.png link=no alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h2 id=\"system\">System menu</h2>\n"
-msgstr "<a id=\"system\"></a>\n"
+msgstr "<h2 id=\"system\">Menu systemowe</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -434,6 +511,9 @@ msgid ""
 "you to manage your settings, connect to a Wi-Fi network, and restart your "
 "computer."
 msgstr ""
+"Menu systemowe w prawym górnym rogu górnego paska nawigacyjnego umożliwia "
+"zarządzanie ustawieniami, łączenie się z siecią Wi-Fi i ponowne uruchamianie "
+"komputera."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -443,26 +523,30 @@ msgstr "[[!img system.png link=no alt=\"\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h3 id=\"networking\">Networking</h3>\n"
-msgstr ""
+msgstr "<h3 id=\"networking\">Sieć</h3>\n"
 
 #. type: Plain text
 msgid "From the system menu, you can choose which Wi-Fi network to connect to."
 msgstr ""
+"Z menu systemowego można wybrać sieć Wi-Fi, z którą ma zostać nawiązane "
+"połączenie."
 
 #. type: Plain text
 msgid ""
 "See also the documentation on [[connecting to a network|anonymous_internet/"
 "networkmanager]]."
 msgstr ""
+"Zobacz także dokumentację dotyczącą [[łączenie się z siecią|"
+"anonymous_internet/networkmanager]]."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<h3 id=\"screen-locker\">Screen locker</h3>\n"
-msgstr "<a id=\"places\"></a>\n"
+msgstr "<h3 id=\"screen-locker\">Blokada ekranu</h3>\n"
 
 #. type: Plain text
 msgid "Click on **Lock screen** to lock your screen with a password."
-msgstr ""
+msgstr "Kliknij **Zablokuj ekran**, aby zablokować ekran hasłem."
 
 #. type: Bullet: '- '
 msgid ""
@@ -470,6 +554,9 @@ msgid ""
 "administration_password]] when starting Tails, you can unlock your screen "
 "with your administration password."
 msgstr ""
+"Jeśli ustawiłeś [[hasło administracyjne|first_steps/welcome_screen/"
+"administration_password]] podczas uruchamiania Tails, możesz odblokować "
+"ekran za pomocą hasła administracyjnego."
 
 #. type: Plain text
 #, no-wrap
@@ -479,11 +566,19 @@ msgid ""
 "  administration password. To disable this behavior, execute the following\n"
 "  command in a terminal:</p>\n"
 msgstr ""
+"  <div class=\"tip\">\n"
+"   <p>Twój ekran zostanie automatycznie zablokowany po pewnym czasie, jeśli "
+"skonfigurujesz\n"
+"   hasło administracyjne. Aby wyłączyć to zachowanie, wykonaj następujące "
+"czynności\n"
+"   polecenie w terminalu:</p>\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "  <p class=\"command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
 msgstr ""
+"  <p class=\"command\">gsettings set org.gnome.desktop.screensaver lock-"
+"enabled false</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -495,11 +590,13 @@ msgid ""
 "Otherwise, you can set up a password to unlock your screen when locking your "
 "screen for the first time."
 msgstr ""
+"W przeciwnym razie możesz ustawić hasło, aby odblokować ekran podczas "
+"pierwszego blokowania ekranu."
 
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "  [[!img screen-locker.png link=\"no\" alt=\"\"]]\n"
-msgstr "  [[!img screen-locker.png alt=\"\" link=\"no\"]]\n"
+msgstr "  [[!img screen-locker.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
