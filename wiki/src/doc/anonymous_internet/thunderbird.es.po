@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:55+0200\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-03-09 14:29+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
@@ -31,9 +31,17 @@ msgstr ""
 "class=\"application\">Thunderbird</span> para:\n"
 
 #. type: Plain text
+msgid "- Reading and writing emails"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "- Reading and writing emails - Reading [[!wikipedia RSS]] and [[!"
+#| "wikipedia Atom_(Web_standard) desc=\"Atom\"]] feeds for news and blogs"
 msgid ""
-"- Reading and writing emails - Reading [[!wikipedia RSS]] and [[!wikipedia "
-"Atom_(Web_standard) desc=\"Atom\"]] feeds for news and blogs"
+"- Reading [[!wikipedia RSS]] and [[!wikipedia Atom_(Web_standard) "
+"desc=\"Atom\"]] feeds for news and blogs"
 msgstr ""
 "- Leer y escribir emails\n"
 "- Leer fuentes [[!wikipedia_es RSS]] y [[!wikipedia_es "
@@ -358,11 +366,11 @@ msgstr "<h1 id=\"language\">Usar Thunderbird en tu idioma</h1>\n"
 #, no-wrap
 msgid ""
 "To use *Thunderbird* in another language, you can\n"
-"install the <span class=\"command\">thunderbird-l10n-<span class=\"command-placeholder\">lang</span></span>\n"
+"install the <code>thunderbird-l10n-<span class=\"command-placeholder\">lang</span></code>\n"
 "package using the [[Additional Software|persistent_storage/additional_software]]\n"
 "feature. Replace <span class=\"command-placeholder\">lang</span> with the code\n"
-"for your language. For example, <span class=\"command\">es</span> for Spanish or\n"
-"<span class=\"command\">de</span> for German.\n"
+"for your language. For example, `es` for Spanish or\n"
+"`de` for German.\n"
 msgstr ""
 
 #. type: Plain text

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-08-15 18:59+0000\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2022-06-07 16:40+0000\n"
 "Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
@@ -93,25 +93,37 @@ msgstr "<h1 class=\"step\">Continuar instalando o actualizando Tails</h1>\n"
 msgid "For detailed instructions, refer to the Ubuntu documentation:"
 msgstr "Para instrucciones detalladas consulta la documentación de Ubuntu:"
 
-#. type: Bullet: '  - '
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[Burning from Windows](https://help.ubuntu.com/community/"
+#| "BurningIsoHowto#Burning_from_Windows)"
 msgid ""
-"[Burning from Windows](https://help.ubuntu.com/community/"
+"- [Burning from Windows](https://help.ubuntu.com/community/"
 "BurningIsoHowto#Burning_from_Windows)"
 msgstr ""
 "[Grabar desde Windows](https://help.ubuntu.com/community/"
 "BurningIsoHowto#Burning_from_Windows)"
 
-#. type: Bullet: '  - '
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[Burning from Ubuntu](https://help.ubuntu.com/community/"
+#| "BurningIsoHowto#Burning_from_Ubuntu)"
 msgid ""
-"[Burning from Ubuntu](https://help.ubuntu.com/community/"
+"- [Burning from Ubuntu](https://help.ubuntu.com/community/"
 "BurningIsoHowto#Burning_from_Ubuntu)"
 msgstr ""
 "[Grabar desde Ubuntu](https://help.ubuntu.com/community/"
 "BurningIsoHowto#Burning_from_Ubuntu)"
 
-#. type: Bullet: '  - '
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[Burning from macOS](https://help.ubuntu.com/community/"
+#| "BurningIsoHowto#Burning_from_Mac_OS_X)"
 msgid ""
-"[Burning from macOS](https://help.ubuntu.com/community/"
+"- [Burning from macOS](https://help.ubuntu.com/community/"
 "BurningIsoHowto#Burning_from_Mac_OS_X)"
 msgstr ""
 "[Grabar desde macOS](https://help.ubuntu.com/community/"

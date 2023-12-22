@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-11-23 12:56+0000\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2023-05-29 20:01+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
@@ -528,10 +528,14 @@ msgstr ""
 #. type: Plain text
 #, fuzzy
 #| msgid "The configuration of your accounts, buddies and chats."
-msgid ""
-"- The configuration of your accounts, contacts, and chats - Your OTR "
-"encryption keys and keyring"
+msgid "- The configuration of your accounts, contacts, and chats"
 msgstr "La configuración de tus cuentas, contactos y chats."
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Your OTR encryption keys and keyring."
+msgid "- Your OTR encryption keys and keyring"
+msgstr "Tus llaves de cifrado OTR y anillo de llaves."
 
 #. type: Plain text
 #, fuzzy
@@ -592,17 +596,24 @@ msgstr ""
 "relacionados al cliente de secure-shell (SSH) se guardan en el "
 "Almacenamiento Persistente:"
 
-#. type: Bullet: '  - '
-msgid "The SSH keys that you create or import"
+#. type: Plain text
+#, fuzzy
+#| msgid "The SSH keys that you create or import"
+msgid "- The SSH keys that you create or import"
 msgstr "Las llaves SSH que generas o importas"
 
-#. type: Bullet: '  - '
-msgid "The public keys of the hosts you connect to"
+#. type: Plain text
+#, fuzzy
+#| msgid "The public keys of the hosts you connect to"
+msgid "- The public keys of the hosts you connect to"
 msgstr "Las llaves públicas de los hosts a los que te conectas"
 
-#. type: Bullet: '  - '
-msgid ""
-"The SSH configuration file in <span class=\"filename\">~/.ssh/config</span>"
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The SSH configuration file in <span class=\"filename\">~/.ssh/config</"
+#| "span>"
+msgid "- The SSH configuration file in *~/.ssh/config*"
 msgstr ""
 "El archivo de configuración SSH en <span class=\"filename\">~/.ssh/config</"
 "span>"
@@ -901,7 +912,7 @@ msgstr ""
 msgid "  For example:\n"
 msgstr ""
 
-#. type: Bullet: '  - '
+#. type: Bullet: '  * '
 #, fuzzy
 #| msgid ""
 #| "Your personal files in the *Persistent* folder are accessible from "
@@ -913,7 +924,7 @@ msgstr ""
 "Tus archivos personales en el directorio *Persistent* se pueden acceder "
 "desde **Lugares**&nbsp;▸ **Persistent**."
 
-#. type: Bullet: '  - '
+#. type: Bullet: '  * '
 msgid ""
 "If you turn off the Electrum Bitcoin Wallet feature, the wallet used by "
 "*Electrum* is not available anymore."
@@ -1224,9 +1235,6 @@ msgstr ""
 #~ msgstr ""
 #~ "<div class=\"text\"><h2>Pidgin</h2></div>\n"
 #~ "</div>\n"
-
-#~ msgid "Your OTR encryption keys and keyring."
-#~ msgstr "Tus llaves de cifrado OTR y anillo de llaves."
 
 #, no-wrap
 #~ msgid ""

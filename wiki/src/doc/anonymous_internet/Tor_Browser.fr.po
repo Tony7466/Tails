@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-11-23 12:56+0000\n"
+"POT-Creation-Date: 2023-12-21 23:10+0000\n"
 "PO-Revision-Date: 2023-01-03 12:17+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
@@ -421,14 +421,20 @@ msgstr ""
 msgid "To learn more about HTTPS Everywhere, you can see:"
 msgstr "Pour en savoir plus sur HTTPS Everywhere vous pouvez consulter :"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
+msgid "- The [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
 msgstr ""
 "la [page d'accueil d'HTTPS Everywhere](https://www.eff.org/https-everywhere) "
 "(en anglais)"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
+msgid "- The [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
 msgstr ""
 "la [FAQ d'HTTPS Everwyhere](https://www.eff.org/https-everywhere/faq/) (en "
 "anglais)"
@@ -620,18 +626,24 @@ msgstr ""
 "La fonctionnalité Nouvelle identité du\n"
 "<i>Navigateur Tor</i> :\n"
 
-#. type: Bullet: '  - '
-msgid "Closes all open tabs."
+#. type: Plain text
+#, fuzzy
+#| msgid "Closes all open tabs."
+msgid "- Closes all open tabs."
 msgstr "Ferme tous les onglets ouverts."
 
-#. type: Bullet: '  - '
-msgid "Clears the session state including cache, history, and cookies."
+#. type: Plain text
+#, fuzzy
+#| msgid "Clears the session state including cache, history, and cookies."
+msgid "- Clears the session state including cache, history, and cookies."
 msgstr ""
 "Remet à zéro le statut de la session incluant le cache, l'historique et les "
 "cookies."
 
-#. type: Bullet: '  - '
-msgid "Closes all existing web connections and creates new Tor circuits."
+#. type: Plain text
+#, fuzzy
+#| msgid "Closes all existing web connections and creates new Tor circuits."
+msgid "- Closes all existing web connections and creates new Tor circuits."
 msgstr ""
 "Ferme toutes les connexions web en cours et créée de nouveaux circuits Tor."
 
@@ -692,8 +704,10 @@ msgstr ""
 "Protéger contre plus d’attaques JavaScript. Par exemple, les attaques cross-"
 "site scripting (XSS)."
 
-#. type: Bullet: '- '
-msgid "Allow you to disable JavaScript completely on some websites only."
+#. type: Plain text
+#, fuzzy
+#| msgid "Allow you to disable JavaScript completely on some websites only."
+msgid "- Allow you to disable JavaScript completely on some websites only."
 msgstr ""
 "Vous permettre de désactiver JavaScript complètement sur certains sites web "
 "uniquement."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-09 15:09+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-12-21 00:21+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,9 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Starting Tails from an external hard disk or problematic USB stick\"]]\n"
-msgstr ""
-"[[!meta title=\"Iniciar Tails des d'un disc dur extern o un llapis USB "
-"problemàtic\"]]\n"
+msgstr "[[!meta title=\"Iniciar Tails des d'un disc dur extern o un llapis USB problemàtic\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -33,11 +31,10 @@ msgstr ""
 "Tails pot mostrar el missatge d'error següent:"
 
 #. type: Plain text
-#, no-wrap
-msgid "    Unable to find a medium containing a live file system\n"
-msgstr ""
-"    No s'ha pogut trobar un mitjà que contingui un sistema de fitxers en "
-"directe\n"
+#, fuzzy, no-wrap
+#| msgid "    Unable to find a medium containing a live file system\n"
+msgid "<p class=\"code\">Unable to find a medium containing a live file system</p>\n"
+msgstr "    No s'ha pogut trobar un mitjà que contingui un sistema de fitxers en directe\n"
 
 #. type: Plain text
 msgid ""
@@ -48,12 +45,18 @@ msgstr ""
 "Carregador d'Arrencada."
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "If the **External Hard Disk** entry does not appear in the Boot Loader,\n"
+#| "then remove the <span class=\"code\">live-media=removable</span>\n"
+#| "boot option. To do so, see our instructions on [[modifying the boot "
+#| "options using\n"
+#| "the Boot Loader|doc/advanced_topics/boot_options]].\n"
 msgid ""
-"If the **External Hard Disk** entry does not appear in the Boot Loader,\n"
-"then remove the <span class=\"code\">live-media=removable</span>\n"
-"boot option. To do so, see our instructions on [[modifying the boot options using\n"
-"the Boot Loader|doc/advanced_topics/boot_options]].\n"
+"If the **External Hard Disk** entry does not appear in the Boot Loader, then "
+"remove the `live-media=removable` boot option. To do so, see our "
+"instructions on [[modifying the boot options using the Boot Loader|doc/"
+"advanced_topics/boot_options]]."
 msgstr ""
 "Si l'entrada **Disc dur extern** no apareix al Carregador d'Arrencada,\n"
 "llavors, elimineu l'opció d'arrencada <span class=\"code\">live-"
@@ -68,16 +71,21 @@ msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "<p>Choosing the <b>External Hard Disk</b> entry in the Boot Loader or removing\n"
+#| "the <span class=\"code\">live-media=removable</span> boot\n"
+#| "option might be dangerous. If an adversary had access to the computer\n"
+#| "and installed a malicious Tails on the internal hard disk, the computer\n"
+#| "might start on the malicious Tails instead of on the USB stick.</p>\n"
 msgid ""
 "<p>Choosing the <b>External Hard Disk</b> entry in the Boot Loader or removing\n"
-"the <span class=\"code\">live-media=removable</span> boot\n"
+"the <code>live-media=removable</code> boot\n"
 "option might be dangerous. If an adversary had access to the computer\n"
 "and installed a malicious Tails on the internal hard disk, the computer\n"
 "might start on the malicious Tails instead of on the USB stick.</p>\n"
 msgstr ""
-"<p>Escollir l'entrada <b>Disc dur extern</b> al Carregador d'Arrencada o "
-"eliminar\n"
+"<p>Escollir l'entrada <b>Disc dur extern</b> al Carregador d'Arrencada o eliminar\n"
 "l'opció d'arrencada <span class=\"code\">live-media=removable</span>\n"
 "pot ser perillós. Si un adversari tingués accés a l'ordinador\n"
 "i instal·lés un Tails maliciós al disc dur intern, l'ordinador\n"
