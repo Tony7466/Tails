@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-21 00:19+0000\n"
+"PO-Revision-Date: 2023-12-22 01:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -78,10 +78,8 @@ msgstr ""
 "encriptats."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The GNOME desktop allows you to open encrypted volumes."
 msgid "- The GNOME desktop allows you to open encrypted volumes."
-msgstr "L'escriptori de GNOME us permet obrir volums encriptats."
+msgstr "- L'escriptori de GNOME us permet obrir volums encriptats."
 
 #. type: Plain text
 #, no-wrap
