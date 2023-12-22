@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-21 00:20+0000\n"
+"PO-Revision-Date: 2023-12-22 12:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -171,24 +171,18 @@ msgid "<h1 id=\"relationship\">Relationship between Tor and Tails</h1>\n"
 msgstr "<h1 id=\"relationship\">Relació entre Tor i Tails</h1>\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The Tor software is made by [The Tor Project](https://torproject.org/)."
 msgid ""
 "- The Tor software is made by [The Tor Project](https://torproject.org/)."
-msgstr "El programari Tor el fa [The Tor Project](https://torproject.org/)."
+msgstr "- El programari Tor el fa [The Tor Project](https://torproject.org/)."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The Tor network is run by a worldwide community of volunteers."
 msgid "- The Tor network is run by a worldwide community of volunteers."
-msgstr "La xarxa Tor està dirigida per una comunitat mundial de voluntaris."
+msgstr "- La xarxa Tor està dirigida per una comunitat mundial de voluntaris."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Tails is a separate project made by a different group of people."
 msgid "- Tails is a separate project made by a different group of people."
-msgstr "Tails és un projecte independent fet per un grup diferent de persones."
+msgstr ""
+"- Tails és un projecte independent fet per un grup diferent de persones."
 
 #. type: Plain text
 #, no-wrap
