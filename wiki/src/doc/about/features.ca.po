@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-11-26 21:42+0000\n"
+"PO-Revision-Date: 2023-12-22 01:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -53,10 +53,8 @@ msgid "Networking"
 msgstr "Treball en xarxa"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[Tor](https://www.torproject.org) with:"
 msgid "- [Tor](https://www.torproject.org) with:"
-msgstr "[Tor](https://www.torproject.org/ca/) amb:"
+msgstr "- [Tor](https://www.torproject.org/ca/) amb:"
 
 #. type: Bullet: '  * '
 msgid "[[stream isolation|contribute/design/stream_isolation]]"
@@ -99,25 +97,17 @@ msgstr ""
 "principals"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid ""
-#| "[NoScript](http://noscript.net/) to have even more control over "
-#| "JavaScript."
 msgid ""
 "[NoScript](http://noscript.net/), to have even more control over JavaScript"
 msgstr ""
-"[NoScript](http://noscript.net/) per tenir encara més control sobre el "
-"JavaScript."
+"[NoScript](http://noscript.net/), per tenir encara més control sobre el "
+"JavaScript"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid ""
-#| "[uBlock Origin](https://github.com/gorhill/uBlock/) to remove "
-#| "advertisements."
 msgid ""
 "[uBlock Origin](https://github.com/gorhill/uBlock/), to remove advertisements"
 msgstr ""
-"[uBlock Origin](https://github.com/gorhill/uBlock/) per eliminar anuncis."
+"[uBlock Origin](https://github.com/gorhill/uBlock/), per eliminar anuncis"
 
 #. type: Bullet: '- '
 msgid ""
@@ -130,53 +120,38 @@ msgstr ""
 "([[Més...| doc/anonymous_internet/pidgin]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[OnionShare](https://onionshare.org/) for anonymous file sharing"
 msgid "- [OnionShare](https://onionshare.org/) for anonymous file sharing"
 msgstr ""
-"[OnionShare](https://onionshare.org/) per compartir fitxers anònimament"
+"- [OnionShare](https://onionshare.org/) per compartir fitxers anònimament"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[Thunderbird](https://www.thunderbird.net/) email client with support for "
-#| "OpenPGP and RSS and Atom news feeds ([[More...|doc/anonymous_internet/"
-#| "thunderbird]])"
 msgid ""
 "- [Thunderbird](https://www.thunderbird.net/) email client with support for "
 "OpenPGP and RSS and Atom news feeds ([[More...|doc/anonymous_internet/"
 "thunderbird]])"
 msgstr ""
-"[Thunderbird](https://www.thunderbird.net/) client de correu electrònic amb "
-"suport per a OpenPGP i canals de notícies RSS i Atom ([[Més...|doc/"
+"- [Thunderbird](https://www.thunderbird.net/) client de correu electrònic "
+"amb suport per a OpenPGP i canals de notícies RSS i Atom ([[Més...|doc/"
 "anonymous_internet/thunderbird]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[Aircrack-ng](http://aircrack-ng.org/) for wireless network auditing"
 msgid "- [Aircrack-ng](http://aircrack-ng.org/) for wireless network auditing"
 msgstr ""
-"[Aircrack-ng](http://aircrack-ng.org/) per a l'auditoria de xarxes sense fil"
+"- [Aircrack-ng](http://aircrack-ng.org/) per a l'auditoria de xarxes sense "
+"fil"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[Electrum](https://electrum.org/), an easy-to-use bitcoin client "
-#| "([[More...|doc/anonymous_internet/electrum]])"
 msgid ""
 "- [Electrum](https://electrum.org/), an easy-to-use bitcoin client "
 "([[More...|doc/anonymous_internet/electrum]])"
 msgstr ""
-"[Electrum](https://electrum.org/), un client bitcoin fàcil d'utilitzar "
+"- [Electrum](https://electrum.org/), un client bitcoin fàcil d'utilitzar "
 "([[Més...|doc/anonymous_internet/electrum]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[Wget](https://www.gnu.org/software/wget/) and [curl](https://curl.se)"
 msgid ""
 "- [Wget](https://www.gnu.org/software/wget/) and [curl](https://curl.se)"
-msgstr "[Wget](https://www.gnu.org/software/wget/) i [curl](https://curl.se)"
+msgstr "- [Wget](https://www.gnu.org/software/wget/) i [curl](https://curl.se)"
 
 #. type: Title -
 #, no-wrap
@@ -184,16 +159,12 @@ msgid "Desktop edition"
 msgstr "Edició d'escriptori"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[LibreOffice](https://www.libreoffice.org/) ([[More...|doc/"
-#| "sensitive_documents/office_suite]])"
 msgid ""
 "- [LibreOffice](https://www.libreoffice.org/) ([[More...|doc/"
 "sensitive_documents/office_suite]])"
 msgstr ""
-"[LibreOffice](https://ca.libreoffice.org/) ([[Més...|doc/sensitive_documents/"
-"office_suite]])"
+"- [LibreOffice](https://ca.libreoffice.org/) ([[Més...|doc/"
+"sensitive_documents/office_suite]])"
 
 #. type: Bullet: '- '
 msgid ""
@@ -204,15 +175,11 @@ msgstr ""
 "imatges ([[Més...|doc/sensitive_documents/graphics]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "GNOME Sound Recorder for recording sound ([[More...|doc/"
-#| "sensitive_documents/sound_and_video]])"
 msgid ""
 "- GNOME Sound Recorder for recording sound ([[More...|doc/"
 "sensitive_documents/sound_and_video]])"
 msgstr ""
-"GNOME Sound Recorder per gravar so ([[Més...|doc/sensitive_documents/"
+"- GNOME Sound Recorder per gravar so ([[Més...|doc/sensitive_documents/"
 "sound_and_video]])"
 
 #. type: Bullet: '- '
@@ -224,23 +191,17 @@ msgstr ""
 "doc/sensitive_documents/sound_and_video]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[Document Scanner](https://gitlab.gnome.org/GNOME/simple-scan) to scan "
-#| "documents"
 msgid ""
 "- [Document Scanner](https://gitlab.gnome.org/GNOME/simple-scan) to scan "
 "documents"
 msgstr ""
-"[Escàner de documents](https://gitlab.gnome.org/GNOME/simple-scan) per "
+"- [Escàner de documents](https://gitlab.gnome.org/GNOME/simple-scan) per "
 "escanejar documents"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
 msgid "- [Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
 msgstr ""
-"[Brasero](https://wiki.gnome.org/Apps/Brasero) per enregistrar CD i DVD"
+"- [Brasero](https://wiki.gnome.org/Apps/Brasero) per enregistrar CD i DVD"
 
 #. type: Bullet: '- '
 msgid ""
@@ -249,16 +210,12 @@ msgstr ""
 "[Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) per digitalitzar CDs"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) to convert "
-#| "linear PDF documents into booklets, and vice-versa"
 msgid ""
 "- [BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) to convert "
 "linear PDF documents into booklets, and vice-versa"
 msgstr ""
-"[BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) per convertir "
-"documents PDF lineals en fullets, i viceversa"
+"- [BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) per "
+"convertir documents PDF lineals en fullets, i viceversa"
 
 #. type: Title -
 #, no-wrap
@@ -313,62 +270,43 @@ msgstr ""
 "tecles\"]] ([[Més...|doc/encryption_and_privacy/virtual_keyboard]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[Metadata Cleaner](https://metadatacleaner.romainvigier.fr/) and [mat2]"
-#| "(https://0xacab.org/jvoisin/mat2) to remove metadata from files "
-#| "([[More...|doc/sensitive_documents/metadata]])"
 msgid ""
 "- [Metadata Cleaner](https://metadatacleaner.romainvigier.fr/) and [mat2]"
 "(https://0xacab.org/jvoisin/mat2) to remove metadata from files ([[More...|"
 "doc/sensitive_documents/metadata]])"
 msgstr ""
-"[Netejador de Metadades](https://metadatacleaner.romainvigier.fr/) i [mat2]"
-"(https://0xacab.org/jvoisin/mat2) per eliminar metadades dels fitxers "
+"- [Netejador de Metadades](https://metadatacleaner.romainvigier.fr/) i "
+"[mat2](https://0xacab.org/jvoisin/mat2) per eliminar metadades dels fitxers "
 "([[Més...|doc/sensitive_documents/metadata]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[KeePassXC](https://keepassxc.org/) password manager ([[More...|doc/"
-#| "encryption_and_privacy/manage_passwords]])"
 msgid ""
 "- [KeePassXC](https://keepassxc.org/) password manager ([[More...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 msgstr ""
-"[KeePassXC](https://keepassxc.org/) gestor de contrasenyes ([[Més...|doc/"
+"- [KeePassXC](https://keepassxc.org/) gestor de contrasenyes ([[Més...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[GtkHash](https://github.com/tristanheaven/gtkhash) to calculate "
-#| "checksums ([[More...|doc/encryption_and_privacy/checksums]])"
 msgid ""
 "- [GtkHash](https://github.com/tristanheaven/gtkhash) to calculate checksums "
 "([[More...|doc/encryption_and_privacy/checksums]])"
 msgstr ""
-"[GtkHash](https://github.com/tristanheaven/gtkhash) per calcular les sumes "
+"- [GtkHash](https://github.com/tristanheaven/gtkhash) per calcular les sumes "
 "de verificació ([[Més...|doc/encryption_and_privacy/checksums]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to convert "
-#| "images containing text into a text document"
 msgid ""
 "- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to convert "
 "images containing text into a text document"
 msgstr ""
-"[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) per convertir "
+"- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) per convertir "
 "imatges que contenen text en un document de text"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[FFmpeg](https://ffmpeg.org/) to record and convert audio and video"
 msgid "- [FFmpeg](https://ffmpeg.org/) to record and convert audio and video"
 msgstr ""
-"[FFmpeg](https://ffmpeg.org/) per enregistrar i convertir àudio i vídeo"
+"- [FFmpeg](https://ffmpeg.org/) per enregistrar i convertir àudio i vídeo"
 
 #. type: Title =
 #, no-wrap
@@ -399,55 +337,39 @@ msgid "Additional features"
 msgstr "Característiques addicionals"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "automatic mechanism to [[upgrade a USB stick|doc/upgrade]] to newer "
-#| "versions"
 msgid ""
 "- Automatic mechanism to [[upgrade a USB stick|doc/upgrade]] to newer "
 "versions"
 msgstr ""
-"mecanisme automàtic per [[actualitzar un llapis USB|doc/upgrade]] a versions "
-"més noves"
+"- Mecanisme automàtic per [[actualitzar un llapis USB|doc/upgrade]] a "
+"versions més noves"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "can be run as a virtualized guest inside [VirtualBox](http://www."
-#| "virtualbox.org/) ([[More...|doc/advanced_topics/virtualization]])"
 msgid ""
 "Can be run as a virtualized guest inside [VirtualBox](http://www.virtualbox."
 "org/) ([[More...|doc/advanced_topics/virtualization]])"
 msgstr ""
-"es pot executar com a convidat virtualitzat dins de [VirtualBox](http://www."
+"Es pot executar com a convidat virtualitzat dins de [VirtualBox](http://www."
 "virtualbox.org/) ([[Més...|doc/advanced_topics/virtualization]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "64-bit PAE-enabled kernel with NX-bit and SMP support on hardware that "
-#| "supports it"
 msgid ""
 "- 64-bit PAE-enabled kernel with NX-bit and SMP support on hardware that "
 "supports it"
 msgstr ""
-"Nucli habilitat per PAE de 64 bits amb suport per a NX-bit i SMP al "
+"- Nucli habilitat per PAE de 64 bits amb suport per a NX-bit i SMP al "
 "maquinari que ho admet"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Some basic [[doc/first_steps/accessibility]] features"
 msgid "- Some basic [[doc/first_steps/accessibility]] features"
 msgstr ""
-"Algunes funcionalitats bàsiques d'[[accessibilitat|doc/first_steps/"
+"- Algunes funcionalitats bàsiques d'[[accessibilitat|doc/first_steps/"
 "accessibility]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Some [[contribute/design/application_isolation]] with AppArmor"
 msgid "- Some [[contribute/design/application_isolation]] with AppArmor"
 msgstr ""
-"Una mica d'[[aïllament d'aplicacions|contribute/design/"
+"- Una mica d'[[aïllament d'aplicacions|contribute/design/"
 "application_isolation]] amb AppArmor"
 
 #. type: Bullet: '- '
