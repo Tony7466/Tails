@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-22 15:22+0000\n"
+"PO-Revision-Date: 2023-12-22 15:30+0000\n"
 "Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "requirements/es/>\n"
@@ -142,14 +142,16 @@ msgid ""
 "Tails does not work on newer Mac computers with an [[!wikipedia "
 "Apple_silicon#M_series desc=\"Apple processor\"]] (M1 or M2)."
 msgstr ""
-"Tails no funciona en los nuevos ordenadores Mac con un [[!wikipedia "
-"Apple_silicon#M_series desc=\"procesador Apple\"]] (M1 o M2)."
+"Tails no funciona en las nuevas computadoras Mac con un [[!wikipedia_es "
+"Apple_Silicon#Serie_M desc=\"procesador Apple\"]] (M1 o M2)."
 
 #. type: Bullet: '  * '
 msgid ""
 "Tails does not work on 32-bit computers since [[Tails 3.0|news/"
 "Tails_3.0_will_require_a_64-bit_processor]] (June 2017)."
 msgstr ""
+"Tails no funciona en computadoras de 32 bits desde [[Tails 3.0|news/Tails_3."
+"0_will_require_a_64-bit_processor]] (Junio de 2017)."
 
 #. type: Bullet: '  * '
 #, fuzzy
@@ -171,7 +173,7 @@ msgstr "  Tails puede funcionar con menos de 2 GB de memoria RAM pero puede comp
 #. type: Title =
 #, no-wrap
 msgid "Recommended hardware"
-msgstr ""
+msgstr "Hardware recomendado"
 
 #. type: Plain text
 msgid ""
@@ -183,7 +185,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "For PC"
-msgstr ""
+msgstr "Para PC"
 
 #. type: Plain text
 msgid "- Avoid \"gaming\" models with Nvidia or AMD Radeon graphics cards."
@@ -200,6 +202,8 @@ msgid ""
 "For example, the Lenovo ThinkPad series work well with Tails, including the "
 "X250, X1 Carbon, T440, T480, and T490 models."
 msgstr ""
+"Por ejemplo, la serie ThinkPad de Lenovo funciona bien con Tails, incluyendo "
+"los modelos X250, X1 Carbon, T440, y T490"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -218,7 +222,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "For Mac"
-msgstr ""
+msgstr "Para Mac"
 
 #. type: Plain text
 msgid ""
