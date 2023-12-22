@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-12-22 19:22+0000\n"
+"PO-Revision-Date: 2023-12-22 21:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -103,7 +103,7 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "Click on the <b>Activities</b> button."
-msgstr ""
+msgstr "Kliknij <b>Aktywności</b> przycisk."
 
 #. type: Bullet: '  - '
 msgid "Throw your mouse pointer to the top-left hot corner."
