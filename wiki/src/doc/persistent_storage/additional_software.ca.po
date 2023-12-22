@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-21 00:21+0000\n"
+"PO-Revision-Date: 2023-12-22 12:20+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -252,46 +252,30 @@ msgid "Language packs"
 msgstr "Paquets d'idiomes"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "for <span class=\"application\">LibreOffice</span>: <span "
-#| "class=\"command\">libreoffice-l10n-<span class=\"command-"
-#| "placeholder\">lang</span></span>"
 msgid ""
 "For *LibreOffice*: <code>libreoffice-l10n-<span class=\"command-"
 "placeholder\">lang</span></code>"
 msgstr ""
-"per a <span class=\"application\">LibreOffice</span>: <span "
-"class=\"command\">libreoffice-l10n-<span class=\"command-placeholder\">lang</"
-"span></span>"
+"Per a *LibreOffice*: <code>libreoffice-l10n-<span class=\"command-"
+"placeholder\">lang</span></code>"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "for <span class=\"application\">Thunderbird</span>: <span "
-#| "class=\"command\">thunderbird-l10n-<span class=\"command-"
-#| "placeholder\">lang</span></span>"
 msgid ""
 "For *Thunderbird*: <code>thunderbird-l10n-<span class=\"command-"
 "placeholder\">lang</span></code>"
 msgstr ""
-"per a <span class=\"application\">Thunderbird</span>: <span "
-"class=\"command\">thunderbird-l10n-<span class=\"command-placeholder\">lang</"
-"span></span>"
+"Per a *Thunderbird*: <code>thunderbird-l10n-<span class=\"command-"
+"placeholder\">lang</span></code>"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "Replace <span class=\"command-placeholder\">lang</span> with the code for your\n"
-#| "language. For example, <span class=\"command\">es</span> for Spanish or\n"
-#| "<span class=\"command\">de</span> for German.\n"
+#, no-wrap
 msgid ""
 "Replace <span class=\"command-placeholder\">lang</span> with the code for your\n"
 "language. For example, `es` for Spanish or `de` for German.\n"
 msgstr ""
-"Substituïu <span class=\"command-placeholder\">lang</span> pel codi del vostre\n"
-"idioma. Per exemple, <span class=\"command\">ca</span> per al català o\n"
-"<span class=\"command\">de</span> per a l'alemany.\n"
+"Substituïu <span class=\"command-placeholder\">lang</span> pel codi del "
+"vostre\n"
+"idioma. Per exemple, `es` per al castellà o `de` per a l'alemany.\n"
 
 #. type: Title -
 #, no-wrap
@@ -299,32 +283,16 @@ msgid "Spell-checking dictionaries"
 msgstr "Diccionaris de correcció ortogràfica"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "<span class=\"command\">hunspell-<span class=\"command-"
-#| "placeholder\">lang</span></span>"
 msgid "<code>hunspell-<span class=\"command-placeholder\">lang</span></code>"
-msgstr ""
-"<span class=\"command\">hunspell-<span class=\"command-placeholder\">lang</"
-"span></span>"
+msgstr "<code>hunspell-<span class=\"command-placeholder\">lang</span></code>"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The <span class=\"command\">hunspell</span> dictionaries are used for\n"
-#| "spell-checking by <span class=\"application\">Tor Browser</span>,\n"
-#| "<span class=\"application\">LibreOffice</span>,\n"
-#| "<span class=\"application\">Thunderbird</span>, and many other "
-#| "applications.\n"
 msgid ""
 "The `hunspell` dictionaries are used for spell-checking by *Tor Browser*, "
 "*LibreOffice*, *Thunderbird*, and many other applications."
 msgstr ""
-"S'utilitzen els diccionaris <span class=\"command\">hunspell</span>\n"
-"de correcció ortogràfica pel <span class=\"application\">Navegador Tor</"
-"span>,\n"
-"<span class=\"application\">LibreOffice</span>,\n"
-"<span class=\"application\">Thunderbird</span> i moltes altres aplicacions.\n"
+"S'utilitzen els diccionaris `hunspell` de correcció ortogràfica pel *"
+"Navegador Tor*, *LibreOffice*, *Thunderbird* i moltes altres aplicacions."
 
 #. type: Title =
 #, no-wrap
@@ -398,12 +366,11 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<p>If you are comfortable with the command line, you can use the <span\n"
-#| "class=\"command\">apt</span> command instead.</p>\n"
+#, no-wrap
 msgid "<p>If you are comfortable with the command line, you can use <code>apt</code> instead.</p>\n"
-msgstr "<p>Si us sentiu còmode amb la línia d'ordres, podeu utilitzar l'ordre <span class=\"command\">apt</span>.</p>\n"
+msgstr ""
+"<p>Si us sentiu còmode amb la línia d'ordres, podeu utilitzar "
+"<code>apt</code>.</p>\n"
 
 #. type: Title -
 #, no-wrap
@@ -423,14 +390,8 @@ msgstr ""
 "configure#additional_software]] de l'Emmagatzematge Persistent."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Install the package using *Synaptic* or the <span class=\"command\">apt</"
-#| "span> command."
 msgid "Install the package using *Synaptic* or the `apt` command."
-msgstr ""
-"Instal·leu el paquet utilitzant *Synaptic* o l'ordre <span "
-"class=\"command\">apt</span>."
+msgstr "Instal·leu el paquet utilitzant *Synaptic* o l'ordre `apt`."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -581,24 +542,22 @@ msgid "B. Run the application using `torsocks` on the command line."
 msgstr "B. Executar l'aplicació utilitzant `torsocks` a la línia d'ordres."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "   Execute the following command in a *Terminal*. Replace <span\n"
-#| "   class=\"command-placeholder\">[application]</span> with the command line of the\n"
-#| "   application that you want to run:\n"
+#, no-wrap
 msgid ""
 "   Execute the following command in a *Terminal*. Replace <span\n"
 "   class=\"command-placeholder\">application</span> with the command line of the\n"
 "   application that you want to run:\n"
 msgstr ""
-"   Executeu l'ordre següent en un *Terminal*. Substituïu <span class=\"command-placeholder\">[aplicació]</span> amb la línia d'ordres de\n"
+"   Executeu l'ordre següent en un *Terminal*. Substituïu <span class"
+"=\"command-placeholder\">aplicació</span> amb la línia d'ordres de\n"
 "   l'aplicació que voleu executar:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre command\">torsocks <span class=\"command-placeholder\">[application]</span></p>\n"
+#, no-wrap
 msgid "   <p class=\"command-template\">torsocks <span class=\"command-placeholder\">application</span></p>\n"
-msgstr "   <p class=\"pre command\">torsocks <span class=\"command-placeholder\">[aplicació]</span></p>\n"
+msgstr ""
+"   <p class=\"command-template\">torsocks <span class=\"command-placeholder\""
+">aplicació</span></p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -610,10 +569,9 @@ msgstr ""
 "   següent:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "    torsocks mumble\n"
+#, no-wrap
 msgid "   <p class=\"command\">torsocks mumble</p>\n"
-msgstr "    torsocks mumble\n"
+msgstr "   <p class=\"command\">torsocks mumble</p>\n"
 
 #. type: Title ###
 #, no-wrap
@@ -761,11 +719,8 @@ msgid "Click <span class=\"bold\">Apply</span> to remove the package."
 msgstr "Feu clic a <span class=\"bold\">Aplica</span> per eliminar el paquet."
 
 #. type: Bullet: '  - '
-#, fuzzy
-#| msgid "From the command line using <span class=\"application\">apt</span>."
 msgid "From the command line using `apt`."
-msgstr ""
-"Des de la línia d'ordres utilitzant <span class=\"application\">apt</span>."
+msgstr "Des de la línia d'ordres utilitzant `apt`."
 
 #. type: Plain text
 #, no-wrap
@@ -813,7 +768,7 @@ msgstr "Executeu l'ordre següent:"
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"command\">apt clean</p>\n"
-msgstr ""
+msgstr "   <p class=\"command\">apt clean</p>\n"
 
 #. type: Title =
 #, no-wrap
@@ -867,10 +822,11 @@ msgstr ""
 "vostre Emmagatzematge Persistent:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "       sudo install -d -m 755 /live/persistence/TailsData_unlocked/apt-sources.list.d\n"
+#, no-wrap
 msgid "   <p class=\"command\">sudo install -d -m 755 /live/persistence/TailsData_unlocked/apt-sources.list.d</p>\n"
-msgstr "       sudo install -d -m 755 /live/persistence/TailsData_unlocked/apt-sources.list.d\n"
+msgstr ""
+"   <p class=\"command\">sudo install -d -m 755 /live/persistence/"
+"TailsData_unlocked/apt-sources.list.d</p>\n"
 
 #. type: Bullet: '1. '
 msgid ""
