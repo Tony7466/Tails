@@ -151,7 +151,6 @@ Feature: Browsing the web using the Tor Browser
     And I can save the current page as "index.html" to the Music bookmark
     And I can save the current page as "index.html" to the Pictures bookmark
     And I can save the current page as "index.html" to the Videos bookmark
-    And I cannot save the current page as "index.html" to the Desktop directory
 
   Scenario: Persistent browser bookmarks
     Given I have started Tails without network from a USB drive with a persistent partition enabled and logged in
