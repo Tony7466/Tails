@@ -1,5 +1,5 @@
---- etc/xdg/autostart/user-dirs-update-gtk.desktop	2023-12-22 15:02:35.687540300 +0100
-+++ etc/xdg/autostart/user-dirs-update-gtk.desktop	2023-12-22 15:03:33.507101812 +0100
+--- a/etc/xdg/autostart/user-dirs-update-gtk.desktop	2023-12-22 15:02:35.687540300 +0100
++++ b/etc/xdg/autostart/user-dirs-update-gtk.desktop	2023-12-22 15:03:33.507101812 +0100
 @@ -1,6 +1,6 @@
  [Desktop Entry]
  Encoding=UTF-8

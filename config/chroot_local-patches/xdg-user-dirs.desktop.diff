@@ -1,5 +1,5 @@
---- etc/xdg/autostart/xdg-user-dirs.desktop	2023-12-22 15:03:22.599184534 +0100
-+++ etc/xdg/autostart/xdg-user-dirs.desktop	2023-12-21 10:01:30.112230923 +0100
+--- a/etc/xdg/autostart/xdg-user-dirs.desktop	2023-12-22 15:03:22.599184534 +0100
++++ b/etc/xdg/autostart/xdg-user-dirs.desktop	2023-12-21 10:01:30.112230923 +0100
 @@ -2,7 +2,7 @@
  Type=Application
  Name=User folders update
