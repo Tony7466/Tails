@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-12-22 04:43+0000\n"
-"PO-Revision-Date: 2023-12-21 00:21+0000\n"
+"PO-Revision-Date: 2023-12-22 12:23+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -322,10 +322,11 @@ msgstr ""
 "     </div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
+#, no-wrap
 msgid "   <p class=\"command-template\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
-msgstr "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">dispositiu</span></p>\n"
+msgstr ""
+"   <p class=\"command-template\">diskutil unmountDisk <span class=\"command-"
+"placeholder\">dispositiu</span></p>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
