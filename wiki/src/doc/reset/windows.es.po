@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-23 12:57+0000\n"
-"PO-Revision-Date: 2022-06-05 01:40+0000\n"
+"PO-Revision-Date: 2023-12-22 15:57+0000\n"
 "Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "reset_windows/es/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -131,16 +131,12 @@ msgstr ""
 "          Disk 0    Online        80 GB      0 B\n"
 
 #. type: Bullet: '4. '
-#, fuzzy
-#| msgid ""
-#| "Plug the USB stick that you want to reset. Run the <span "
-#| "class=\"command\">list disk</span> command again."
 msgid ""
 "Plug in the USB stick that you want to reset. Run the <span "
 "class=\"command\">list disk</span> command again."
 msgstr ""
-"Conecta la memoria USB que quieres reiniciar. Corre el comando <span "
-"class=\"command\">list disk</span> nuevamente."
+"Conecta la memoria USB que quieres reiniciar. Corre el comando <span class="
+"\"command\">list disk</span> nuevamente."
 
 #. type: Plain text
 #, no-wrap
