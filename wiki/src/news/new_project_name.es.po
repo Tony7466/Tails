@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2018-09-18 06:11+0200\n"
-"PO-Revision-Date: 2023-12-09 02:45+0000\n"
+"PO-Revision-Date: 2023-12-22 21:21+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "new_project_name/es/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -36,7 +36,8 @@ msgstr "[[!tag announce]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "*amnesia* is now to be called *The (Amnesic) Incognito Live System*.\n"
-msgstr "*amnesia* se llama a partir de ahora *The (Amnesic) Incognito Live System*.\n"
+msgstr ""
+"*amnesia* se llama a partir de ahora *The (Amnesic) Incognito Live System*.\n"
 
 #. type: Plain text
 msgid ""
