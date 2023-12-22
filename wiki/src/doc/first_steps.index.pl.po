@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-22 19:22+0000\n"
+"PO-Revision-Date: 2023-12-22 19:27+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -44,30 +44,27 @@ msgid ""
 "[[Administration password|first_steps/welcome_screen/"
 "administration_password]]"
 msgstr ""
+"[[Hasło administratora|pierwsze_kroki/ekran_powitalny/hasło_administratora]]"
 
 #. type: Bullet: '  * '
 msgid "[[MAC address anonymization|first_steps/welcome_screen/mac_spoofing]]"
-msgstr ""
+msgstr "[[Anonimizacja adresu MAC|first_steps/welcome_screen/mac_spoofing]]"
 
 #. type: Plain text
-#, fuzzy
 msgid "- [[Introduction to GNOME and the Tails desktop|first_steps/desktop]]"
-msgstr "[[!traillink Tails_starten|first_steps/start]]"
+msgstr "- [[Wprowadzenie do GNOME i pulpitu Tails|first_steps/desktop]]"
 
 #. type: Bullet: '  * '
-#, fuzzy
 msgid "[[Why is the time wrong?|first_steps/desktop/time]]"
-msgstr "[[!traillink Tails_starten|first_steps/start]]"
+msgstr "[[Dlaczego czas jest nieprawidłowy?|first_steps/desktop/time]]"
 
 #. type: Plain text
-#, fuzzy
 msgid "- [[Reporting an error|first_steps/bug_reporting]]"
-msgstr "[[!traillink Tails_starten|first_steps/start]]"
+msgstr "- [[Zgłaszanie błędu|first_steps/bug_reporting]]"
 
 #. type: Plain text
-#, fuzzy
 msgid "- [[Shutting down Tails|first_steps/shutdown]]"
-msgstr "[[!traillink Tails_starten|first_steps/start]]"
+msgstr "- [[Zamykanie Tails|first_steps/shutdown]]"
 
 #, fuzzy
 #~ msgid "[[!traillink Persistent_Storage|first_steps/persistence]]"
