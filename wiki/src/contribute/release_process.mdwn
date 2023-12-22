@@ -345,7 +345,7 @@ Bootstrap internal manual testing coordination:
 
 1. Create a pad. Here's a good name:
 
-        echo "manualtesting-Tails_${VERSION:?}-$(pwgen 32 1)"
+        echo "QA-Tails_${VERSION:?}-$(pwgen 32 1)"
 
 2. Set the `PAD` environment variable to the URL of this pad.
 3. Copy the [[manual test suite|contribute/release_process/test]]
@@ -974,7 +974,7 @@ Get the internal manual testing started
 =======================================
 
 Email <tails-board@boum.org> and <tails-manual-testers@boum.org> that tests
-may start. Remeber to encrypt and sign your email!
+may start. Remember to encrypt and sign your email!
 
     ./bin/automailer.py <<EOF
     To: tails-board@boum.org, tails-manual-testers@boum.org
