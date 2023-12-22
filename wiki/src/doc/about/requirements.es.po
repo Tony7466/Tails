@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2023-12-22 15:30+0000\n"
-"Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "requirements/es/>\n"
 "Language: es\n"
@@ -154,12 +154,8 @@ msgstr ""
 "0_will_require_a_64-bit_processor]] (Junio de 2017)."
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid "Tails works on most computers less than 10 years old."
 msgid "Tails does not work on phone or tablets."
-msgstr ""
-"Tails funciona en la mayoría de las computadoras con menos de 10 años de "
-"antigüedad."
+msgstr "Tails no funciona en teléfonos ni tablets."
 
 #. type: Plain text
 msgid "- 2 GB of RAM to work smoothly."
@@ -233,7 +229,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<!--\n"
-msgstr ""
+msgstr "<!--\n"
 
 #. type: Plain text
 msgid "To update the list of Mac computer:"
@@ -314,7 +310,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "-->\n"
-msgstr ""
+msgstr "-->\n"
 
 #, no-wrap
 #~ msgid "<div class=\"note\">\n"
