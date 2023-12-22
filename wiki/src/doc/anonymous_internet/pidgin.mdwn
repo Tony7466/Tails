@@ -61,30 +61,30 @@ have private conversations over instant messaging by providing:
 
 <div class="caution">
 
-<p><strong>OTR is deactivated by default</strong>, and your conversations are
+<p>OTR is deactivated by default, and your conversations are
 not private.</p>
 
 </div>
 
 <div class="caution">
 
-<p><strong>File transfers are not encrypted by OTR.</strong> OTR only encrypts conversations.</p>
+<p>File transfers are not encrypted by OTR. OTR only encrypts conversations.</p>
 
 </div>
 
 <div class="tip">
 
-To store your OTR keys and preferences across separate working sessions,
+<p>To store your OTR keys and preferences across separate working sessions,
 you can turn on the [[Pidgin Internet Messenger|persistent_storage/configure#pidgin]]
-feature of the Persistent Storage.
+feature of the Persistent Storage.</p>
 
 </div>
 
-<div class="bug">
+<div class="caution">
 
-In a private OTR conversation over IRC, <strong>a message sent using the
-<code>/me</code> command is not encrypted</strong>. The person receiving
-the message is notified by a warning.
+<p>In a private OTR conversation over IRC, a message sent using the
+<code>/me</code> command is not encrypted. The person receiving
+the message is notified by a warning.</p>
 
 </div>
 

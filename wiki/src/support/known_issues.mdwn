@@ -173,7 +173,7 @@ Last updated: 2019-05-20
 
 On some laptops, Tails starts with the following error:
 
-<p class="pre">soft lockup - CPU#<span class="command-placeholder">N</span> stuck for <span class="command-placeholder">N</span>s</p>
+<p class="code">soft lockup - CPU#<span class="command-placeholder">N</span> stuck for <span class="command-placeholder">N</span>s</p>
 
 To start Tails successfully, try to [[add the following boot option when starting
 Tails|doc/advanced_topics/boot_options]]:
@@ -450,7 +450,7 @@ Sometimes, after an automatic upgrade, your Tails might either:
 
 - Fail to start. Often after the message:
 
-  <pre>Loading, please wait...</pre>
+      Loading, please wait...
 
 - Behave weirdly. For example, your keyboard does not work or you cannot
   connect to a network.

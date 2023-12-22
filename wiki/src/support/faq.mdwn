@@ -147,7 +147,7 @@ all, or worse: they might seem to work, but produce a USB stick
 that does *not* behave like Tails should. Follow the
 [[download and installation documentation|install]] instead.
 
-<h2 id="upgrade">Should I update Tails using <span class="code">apt upgrade</span> or <span class="application">Synaptic</span>?</h2>
+<h2 id="upgrade">Should I update Tails using <code>apt upgrade</code> or <i>Synaptic</i>?</h2>
 
 No. Tails provides upgrades every six weeks, that are thoroughly tested
 to make sure that no security feature or configuration gets broken.
@@ -298,7 +298,7 @@ We are now considering adding VPN support to Tails, either:
 
 For more information, see our [[!tails_blueprint desc="blueprint on VPN support" VPN-support]].
 
-<h2 id="torrc">Can I choose the country of my exit nodes or further edit the <span class="code">torrc</span>?</h2>
+<h2 id="torrc">Can I choose the country of my exit nodes or further edit the <code>torrc</code>?</h2>
 
 Editing the Tor configuration file, also called `torrc`, to modify how Tor
 creates circuits can weaken your anonymity in ways that are hard to understand

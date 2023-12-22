@@ -131,11 +131,11 @@ extension.
 <h1 id="language">Using Thunderbird in your language</h1>
 
 To use *Thunderbird* in another language, you can
-install the <span class="command">thunderbird-l10n-<span class="command-placeholder">lang</span></span>
+install the <code>thunderbird-l10n-<span class="command-placeholder">lang</span></code>
 package using the [[Additional Software|persistent_storage/additional_software]]
 feature. Replace <span class="command-placeholder">lang</span> with the code
-for your language. For example, <span class="command">es</span> for Spanish or
-<span class="command">de</span> for German.
+for your language. For example, `es` for Spanish or
+`de` for German.
 
 <h1 id="openpgp">OpenPGP encryption</h1>
 

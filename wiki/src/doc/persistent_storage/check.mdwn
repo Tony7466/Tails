@@ -35,7 +35,7 @@ Unlock the Persistent Storage
 
 1. Identify the device name of your Persistent
    Storage. The device name appears below the list of volumes.
-   It should look like <code>/dev/mapper/luks-xxxxxxxx</code>.
+   It should look like `/dev/mapper/luks-xxxxxxxx`.
 
    Triple-click to select it and press **Ctrl+C** to
    copy it to the clipboard.

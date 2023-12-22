@@ -59,12 +59,12 @@ Installation
 To install *virt-manager* in Debian, execute the following
 command:
 
-    sudo apt install virt-manager libvirt-daemon-system
+<p class="command">sudo apt install virt-manager libvirt-daemon-system</p>
 
 To install *virt-manager* in Ubuntu, execute the following
 command:
 
-    sudo apt install virt-manager libvirt-bin qemu-kvm
+<p class="command">sudo apt install virt-manager libvirt-bin qemu-kvm</p>
 
 Running Tails from an ISO image
 ===============================
@@ -138,12 +138,12 @@ allows you to use a Persistent Storage in a virtual machine.
 1. Increase the size of the USB image to be at least 8 GB. This creates
    space for automatic upgrades and the Persistent Storage.
 
-   <p class="pre command">truncate -s
+   <p class="command-template">truncate -s
    <span class="command-placeholder">size</span>
    <span class="command-placeholder">tails.img</span></p>
 
    - <span class="command-placeholder">size</span> has to be at least
-     <span class="command">7200M</span>.
+     `7200M`.
 
    - <span class="command-placeholder">tails.img</span> is the file name
      of the USB image that you want to resize.
