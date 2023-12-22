@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:10+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-03-10 12:28+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
@@ -688,8 +688,9 @@ msgstr ""
 "  <p>Tu pantalla automáticamente se cerrara después de un tiempo si has creado una contraseña administrativa. Para desactivar esto, ejecuta el siguiente comando:</p>\n"
 
 #. type: Plain text
-#, no-wrap
-msgid "  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
+#, fuzzy, no-wrap
+#| msgid "  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
+msgid "  <p class=\"command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
 msgstr "  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
 
 #. type: Plain text
@@ -899,8 +900,9 @@ msgstr ""
 "Servidor</span> en el panel inferior derecho. Por ejemplo:"
 
 #. type: Plain text
-#, no-wrap
-msgid "   <p class=\"pre command\">ssh://user@example.com/</p>\n"
+#, fuzzy, no-wrap
+#| msgid "   <p class=\"pre command\">ssh://user@example.com/</p>\n"
+msgid "       ssh://user@example.com/\n"
 msgstr "   <p class=\"pre command\">ssh://usuario@ejemplo.com/</p>\n"
 
 #. type: Bullet: '1. '

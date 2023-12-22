@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-10-05 23:13+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
@@ -198,17 +198,21 @@ msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "<p><strong>OTR is deactivated by default</strong>, and your conversations are\n"
+#| "not private.</p>\n"
 msgid ""
-"<p><strong>OTR is deactivated by default</strong>, and your conversations are\n"
+"<p>OTR is deactivated by default, and your conversations are\n"
 "not private.</p>\n"
 msgstr ""
 "<p><strong>OTR è disattivato per impostazione predefinita</strong>, e le tue conversazioni non\n"
 "sono private.</p>\n"
 
 #. type: Plain text
-#, no-wrap
-msgid "<p><strong>File transfers are not encrypted by OTR.</strong> OTR only encrypts conversations.</p>\n"
+#, fuzzy, no-wrap
+#| msgid "<p><strong>File transfers are not encrypted by OTR.</strong> OTR only encrypts conversations.</p>\n"
+msgid "<p>File transfers are not encrypted by OTR. OTR only encrypts conversations.</p>\n"
 msgstr "<p><strong>I file trasferiti non vengono cifrati da OTR.</strong> OTR cifra solo le conversazioni.</p>\n"
 
 #. type: Plain text
@@ -217,31 +221,24 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
-#, fuzzy
+#, fuzzy, no-wrap
+#| msgid "To store your OTR keys and preferences across separate working sessions, you can turn on the [[Pidgin|doc/first_steps/persistence#pidgin]] feature of the Persistent Storage."
+msgid ""
+"<p>To store your OTR keys and preferences across separate working sessions,\n"
+"you can turn on the [[Pidgin Internet Messenger|persistent_storage/configure#pidgin]]\n"
+"feature of the Persistent Storage.</p>\n"
+msgstr "Per salvare le vostre chiavi OTR e le vostre preferenze in diverse sessioni di lavoro puoi attivare [[Pidgin|doc/first_steps/persistence#pidgin]] con l'opzione attivo nell'Archivio Persistente."
+
+#. type: Plain text
+#, fuzzy, no-wrap
 #| msgid ""
-#| "To store your OTR keys and preferences across separate working sessions, "
-#| "you can turn on the [[Pidgin|doc/first_steps/persistence#pidgin]] feature "
-#| "of the Persistent Storage."
+#| "In a private OTR conversation over IRC, <strong>a message sent using the\n"
+#| "<code>/me</code> command is not encrypted</strong>. The person receiving\n"
+#| "the message is notified by a warning.\n"
 msgid ""
-"To store your OTR keys and preferences across separate working sessions, you "
-"can turn on the [[Pidgin Internet Messenger|persistent_storage/"
-"configure#pidgin]] feature of the Persistent Storage."
-msgstr ""
-"Per salvare le vostre chiavi OTR e le vostre preferenze in diverse sessioni "
-"di lavoro puoi attivare [[Pidgin|doc/first_steps/persistence#pidgin]] con "
-"l'opzione attivo nell'Archivio Persistente."
-
-#. type: Plain text
-#, no-wrap
-msgid "<div class=\"bug\">\n"
-msgstr "<div class=\"bug\">\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"In a private OTR conversation over IRC, <strong>a message sent using the\n"
-"<code>/me</code> command is not encrypted</strong>. The person receiving\n"
-"the message is notified by a warning.\n"
+"<p>In a private OTR conversation over IRC, a message sent using the\n"
+"<code>/me</code> command is not encrypted. The person receiving\n"
+"the message is notified by a warning.</p>\n"
 msgstr ""
 "In una conversazione privata OTR via IRC, <strong>un messaggio inviato usando il\n"
 "comando <code>/me</code> non viene cifrato</strong>. La persona che riceve\n"
@@ -331,6 +328,10 @@ msgid ""
 msgstr ""
 "Se vuoi lavorare su questo problema, vedi la [[nostra pagina per contribuire|"
 "contribute/how/code]] (in inglese)."
+
+#, no-wrap
+#~ msgid "<div class=\"bug\">\n"
+#~ msgstr "<div class=\"bug\">\n"
 
 #~ msgid "Predefined accounts\n"
 #~ msgstr "Account predefiniti\n"
