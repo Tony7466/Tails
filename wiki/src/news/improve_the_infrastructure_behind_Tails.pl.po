@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-12-22 19:21+0000\n"
+"PO-Revision-Date: 2023-12-22 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -23,6 +23,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Call for help: improve the infrastructure behind Tails\"]]\n"
 msgstr ""
+"[[!meta title=\"Wezwanie do pomocy: ulepsz infrastrukturę stojącą za Tails\""
+"]]\n"
 
 #. type: Plain text
 #, no-wrap
