@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-14 10:03+0000\n"
-"PO-Revision-Date: 2023-12-22 19:27+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-12-22 21:22+0000\n"
+"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +81,7 @@ msgstr ""
 #. type: Plain text
 #, markdown-text
 msgid "We are proud of the conclusion of the auditors:"
-msgstr "Estamos orgullosos de la conclusión de los auditores:"
+msgstr "Estamos orgullosas de la conclusión de los auditores:"
 
 #. type: Plain text
 #, markdown-text, no-wrap
