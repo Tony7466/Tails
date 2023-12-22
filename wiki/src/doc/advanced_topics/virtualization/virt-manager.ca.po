@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-22 04:29+0000\n"
+"POT-Creation-Date: 2024-01-29 11:27+0100\n"
 "PO-Revision-Date: 2024-01-01 18:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,9 +157,7 @@ msgstr "Per instal·lar *virt-manager* a Debian, executeu l'ordre següent:"
 #. type: Plain text
 #, no-wrap
 msgid "<p class=\"command\">sudo apt install virt-manager libvirt-daemon-system</p>\n"
-msgstr ""
-"<p class=\"command\">sudo apt install virt-manager libvirt-daemon-system</p>"
-"\n"
+msgstr "<p class=\"command\">sudo apt install virt-manager libvirt-daemon-system</p>\n"
 
 #. type: Plain text
 msgid "To install *virt-manager* in Ubuntu, execute the following command:"
@@ -168,8 +166,7 @@ msgstr "Per instal·lar *virt-manager* a Ubuntu, executeu l'ordre següent:"
 #. type: Plain text
 #, no-wrap
 msgid "<p class=\"command\">sudo apt install virt-manager libvirt-bin qemu-kvm</p>\n"
-msgstr ""
-"<p class=\"command\">sudo apt install virt-manager libvirt-bin qemu-kvm</p>\n"
+msgstr "<p class=\"command\">sudo apt install virt-manager libvirt-bin qemu-kvm</p>\n"
 
 #. type: Title =
 #, no-wrap
@@ -621,6 +618,12 @@ msgstr ""
 "   Comenceu amb dispositius de vídeo *Virtio* i *QXL*: generalment donen\n"
 "   els millors resultats. Si no us funcionen bé, proveu\n"
 "   altres models de dispositius de vídeo.\n"
+
+#. type: Bullet: '3. '
+msgid ""
+"Try enabling or disabling the OpenGL and 3D acceleration options of the "
+"display and video device."
+msgstr ""
 
 #~ msgid ""
 #~ "  1. Double-click on **localhost (QEMU)** to connect to the *QEMU*\n"
