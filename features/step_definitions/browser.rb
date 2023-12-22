@@ -540,8 +540,9 @@ When /^I can print the current page as "([^"]+[.]pdf)" to the (default downloads
   end
 end
 
-When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) directory$/ do |should_work, output_file, output_dir|
+When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) (directory|bookmark)$/ do |should_work, output_file, output_dir, bookmark|
   should_work = should_work == 'can'
+  is_bookmark = bookmark == 'bookmark'
 
   file_dialog = save_page_as
 
@@ -556,12 +557,18 @@ When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) dire
   when 'default downloads'
     output_dir = "/home/#{LIVE_USER}/Tor Browser"
   else
-    # Enter the output directory in the text entry
-    text_entry = file_dialog.child('Name', roleName: 'label').labelee
-    text_entry.text = output_dir
-    # Do the "activate" action of the text entry (same effect as
-    # pressing Enter) to open the directory.
-    text_entry.activate
+   if is_bookmark
+      description = "/home/#{LIVE_USER}/#{output_dir}"
+      file_dialog.child(description: description, roleName: 'list item').grabFocus
+      @screen.press('Space')
+   else
+      # Enter the output directory in the text entry
+      text_entry = file_dialog.child('Name', roleName: 'label').labelee
+      text_entry.text = output_dir
+      # Do the "activate" action of the text entry (same effect as
+      # pressing Enter) to open the directory.
+      text_entry.activate
+    end
   end
 
   # Enter the output filename in the text entry

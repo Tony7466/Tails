@@ -146,11 +146,11 @@ Feature: Browsing the web using the Tor Browser
     When I start the Tor Browser
     Then the Tor Browser loads the Tails homepage
     And the Tor Browser loads the startup page
-    And I can save the current page as "index.html" to the Documents directory
-    And I can save the current page as "index.html" to the Downloads directory
-    And I can save the current page as "index.html" to the Music directory
-    And I can save the current page as "index.html" to the Pictures directory
-    And I can save the current page as "index.html" to the Videos directory
+    And I can save the current page as "index.html" to the Documents bookmark
+    And I can save the current page as "index.html" to the Downloads bookmark
+    And I can save the current page as "index.html" to the Music bookmark
+    And I can save the current page as "index.html" to the Pictures bookmark
+    And I can save the current page as "index.html" to the Videos bookmark
     And I cannot save the current page as "index.html" to the Desktop directory
 
   Scenario: Persistent browser bookmarks
