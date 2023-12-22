@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-22 15:11+0000\n"
+"PO-Revision-Date: 2023-12-22 15:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "requirements/es/>\n"
@@ -82,15 +82,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<p>See the [[known hardware compatibility\n"
-#| "issues|support/known_issues]].</p>\n"
+#, no-wrap
 msgid ""
 "<p>See our [[list of known hardware compatibility\n"
 "issues|support/known_issues]].</p>\n"
 msgstr ""
-"<p>Mira los [[problemas conocidos de compatibilidad\n"
+"<p>Mira nuestra [[lista de problemas conocidos de compatibilidad\n"
 "de hardware|support/known_issues]].</p>\n"
 
 #. type: Plain text
@@ -131,6 +128,9 @@ msgid ""
 "<span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span "
 "class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 msgstr ""
+"<span class=\"definition\">[[!wikipedia IBM_PC_compatible]]</span> pero no "
+"<span class=\"definition\">[[!wikipedia PowerPC]]</span> o <span class="
+"\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 
 #. type: Bullet: '  * '
 #, fuzzy
