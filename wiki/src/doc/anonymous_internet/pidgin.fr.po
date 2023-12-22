@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-02-08 20:27+0000\n"
 "Last-Translator: Chre <tor@renaudineau.org>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
@@ -191,17 +191,21 @@ msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "<p><strong>OTR is deactivated by default</strong>, and your conversations are\n"
+#| "not private.</p>\n"
 msgid ""
-"<p><strong>OTR is deactivated by default</strong>, and your conversations are\n"
+"<p>OTR is deactivated by default, and your conversations are\n"
 "not private.</p>\n"
 msgstr ""
 "<p><strong>OTR est désactivé par défaut</strong>, et vos conversations ne\n"
 "sont pas privées.</p>\n"
 
 #. type: Plain text
-#, no-wrap
-msgid "<p><strong>File transfers are not encrypted by OTR.</strong> OTR only encrypts conversations.</p>\n"
+#, fuzzy, no-wrap
+#| msgid "<p><strong>File transfers are not encrypted by OTR.</strong> OTR only encrypts conversations.</p>\n"
+msgid "<p>File transfers are not encrypted by OTR. OTR only encrypts conversations.</p>\n"
 msgstr "<p><strong>Les fichiers transférés ne sont pas chiffrés par OTR.</strong> OTR chiffre seulement les conversations.</p>\n"
 
 #. type: Plain text
@@ -210,26 +214,24 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "To store your OTR keys and preferences across separate working sessions, you can turn on the [[Pidgin Internet Messenger|persistent_storage/configure#pidgin]] feature of the Persistent Storage."
 msgid ""
-"To store your OTR keys and preferences across separate working sessions, you "
-"can turn on the [[Pidgin Internet Messenger|persistent_storage/"
-"configure#pidgin]] feature of the Persistent Storage."
-msgstr ""
-"Pour conserver vos clés OTR et vos préférences à travers plusieurs sessions "
-"de travail, vous pouvez activer l'option [[Messagerie Internet Pidgin|"
-"persistent_storage/configure#pidgin]] du stockage persistant."
+"<p>To store your OTR keys and preferences across separate working sessions,\n"
+"you can turn on the [[Pidgin Internet Messenger|persistent_storage/configure#pidgin]]\n"
+"feature of the Persistent Storage.</p>\n"
+msgstr "Pour conserver vos clés OTR et vos préférences à travers plusieurs sessions de travail, vous pouvez activer l'option [[Messagerie Internet Pidgin|persistent_storage/configure#pidgin]] du stockage persistant."
 
 #. type: Plain text
-#, no-wrap
-msgid "<div class=\"bug\">\n"
-msgstr "<div class=\"bug\">\n"
-
-#. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "In a private OTR conversation over IRC, <strong>a message sent using the\n"
+#| "<code>/me</code> command is not encrypted</strong>. The person receiving\n"
+#| "the message is notified by a warning.\n"
 msgid ""
-"In a private OTR conversation over IRC, <strong>a message sent using the\n"
-"<code>/me</code> command is not encrypted</strong>. The person receiving\n"
-"the message is notified by a warning.\n"
+"<p>In a private OTR conversation over IRC, a message sent using the\n"
+"<code>/me</code> command is not encrypted. The person receiving\n"
+"the message is notified by a warning.</p>\n"
 msgstr ""
 "Lors d'une conversation privée OTR via IRC, <strong>un message envoyé en\n"
 "utilisant la commande <code>/me</code> n'est pas chiffré</strong>. La personne\n"
@@ -315,6 +317,10 @@ msgid ""
 msgstr ""
 "Si vous voulez travaillez sur ce problème, voir [[notre page participer|"
 "contribute/how/code]]."
+
+#, no-wrap
+#~ msgid "<div class=\"bug\">\n"
+#~ msgstr "<div class=\"bug\">\n"
 
 #~ msgid "Predefined accounts\n"
 #~ msgstr "Comptes pré-définis\n"

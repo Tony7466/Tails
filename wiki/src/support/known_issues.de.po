@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-11-28 11:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -398,8 +398,9 @@ msgid "On some laptops, Tails starts with the following error:"
 msgstr "Auf einigen Laptops startet Tails mit dem folgenden Fehler:"
 
 #. type: Plain text
-#, no-wrap
-msgid "<p class=\"pre\">soft lockup - CPU#<span class=\"command-placeholder\">N</span> stuck for <span class=\"command-placeholder\">N</span>s</p>\n"
+#, fuzzy, no-wrap
+#| msgid "<p class=\"pre\">soft lockup - CPU#<span class=\"command-placeholder\">N</span> stuck for <span class=\"command-placeholder\">N</span>s</p>\n"
+msgid "<p class=\"code\">soft lockup - CPU#<span class=\"command-placeholder\">N</span> stuck for <span class=\"command-placeholder\">N</span>s</p>\n"
 msgstr "<p class=\"pre\">Soft Lockup - CPU#<span class=\"command-placeholder\">N</span> stuck for <span class=\"command-placeholder\">N</span>s</p>\n"
 
 #. type: Plain text
@@ -1043,8 +1044,9 @@ msgid "- Fail to start. Often after the message:"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "  <pre>Loading, please wait...</pre>\n"
+#, fuzzy, no-wrap
+#| msgid "  <pre>Loading, please wait...</pre>\n"
+msgid "      Loading, please wait...\n"
 msgstr "  <pre>Loading, bitte warten...</pre>\n"
 
 #. type: Bullet: '- '

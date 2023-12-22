@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-11-24 10:42+0000\n"
 "Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
 "Language-Team: \n"
@@ -156,8 +156,9 @@ msgstr ""
 "Um *virt-manager* in Debian zu installieren, führen Sie folgenden Befehl aus:"
 
 #. type: Plain text
-#, no-wrap
-msgid "    sudo apt install virt-manager libvirt-daemon-system\n"
+#, fuzzy, no-wrap
+#| msgid "    sudo apt install virt-manager libvirt-daemon-system\n"
+msgid "<p class=\"command\">sudo apt install virt-manager libvirt-daemon-system</p>\n"
 msgstr "    sudo apt install virt-manager libvirt-daemon-system\n"
 
 #. type: Plain text
@@ -166,8 +167,9 @@ msgstr ""
 "Um *virt-manager* in Ubuntu zu installieren, führen Sie folgenden Befehl aus:"
 
 #. type: Plain text
-#, no-wrap
-msgid "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
+#, fuzzy, no-wrap
+#| msgid "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
+msgid "<p class=\"command\">sudo apt install virt-manager libvirt-bin qemu-kvm</p>\n"
 msgstr "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
 
 #. type: Title =
@@ -347,15 +349,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   <p class=\"pre command\">truncate -s\n"
+"   <p class=\"command-template\">truncate -s\n"
 "   <span class=\"command-placeholder\">size</span>\n"
 "   <span class=\"command-placeholder\">tails.img</span></p>\n"
 msgstr ""
 
 #. type: Bullet: '   - '
 msgid ""
-"<span class=\"command-placeholder\">size</span> has to be at least <span "
-"class=\"command\">7200M</span>."
+"<span class=\"command-placeholder\">size</span> has to be at least `7200M`."
 msgstr ""
 
 #. type: Bullet: '   - '
