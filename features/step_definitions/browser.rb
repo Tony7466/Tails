@@ -557,11 +557,11 @@ When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) (dir
   when 'default downloads'
     output_dir = "/home/#{LIVE_USER}/Tor Browser"
   else
-   if is_bookmark
+    if is_bookmark
       description = "/home/#{LIVE_USER}/#{output_dir}"
       file_dialog.child(description: description, roleName: 'list item').grabFocus
       @screen.press('Space')
-   else
+    else
       # Enter the output directory in the text entry
       text_entry = file_dialog.child('Name', roleName: 'label').labelee
       text_entry.text = output_dir

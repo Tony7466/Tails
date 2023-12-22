@@ -780,7 +780,7 @@ def open_gnome_menu(name)
 end
 
 def open_gnome_places_menu
-  if $language == "German"
+  if $language == 'German'
     open_gnome_menu('Orte')
   else
     open_gnome_menu('Places')
