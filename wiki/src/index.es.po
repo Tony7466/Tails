@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-05-19 11:01+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-12-22 17:19+0000\n"
+"Last-Translator: Jorge Maldonado Ventura <jorgesumle@freakspot.net>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Home\"]]"
@@ -70,7 +70,7 @@ msgstr "[[!img city.svg link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <section><div><section><h2>
 msgid "Avoid surveillance, censorship, advertising, and viruses"
-msgstr "Evita la vigilancia, la censura, la publicidad, y los virus"
+msgstr "Evita la vigilancia, la censura, la publicidad y los virus"
 
 #. type: Content of: <section><div><section><p>
 msgid ""
