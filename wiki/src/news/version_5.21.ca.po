@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 09:53+0100\n"
-"PO-Revision-Date: 2023-12-22 12:22+0000\n"
+"PO-Revision-Date: 2023-12-22 21:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -57,6 +57,9 @@ msgid ""
 "Partition Failed - It will be impossible to create a Persistent Storage or "
 "apply automatic upgrades.\"]]\n"
 msgstr ""
+"  [[!img resizing.png link=\"no\" alt=\"Missatge d'error: S'ha produït un "
+"error en canviar la mida de la partició del sistema - Serà impossible crear "
+"un Emmagatzematge Persistent o aplicar actualitzacions automàtiques.\"]]\n"
 
 #. type: Plain text
 #, markdown-text
@@ -67,6 +70,8 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "  [[!img clock.png link=\"no\" alt=\"Clock showing date in Spanish\"]]\n"
 msgstr ""
+"  [[!img clock.png link=\"no\" alt=\"El rellotge mostra la data en castellà\""
+"]]\n"
 
 #. type: Plain text
 #, markdown-text
