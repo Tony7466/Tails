@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2023-12-22 15:19+0000\n"
-"Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "requirements/es/>\n"
 "Language: es\n"
@@ -133,12 +133,9 @@ msgstr ""
 "\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid "Tails works on most computers less than 10 years old."
 msgid "Tails works on some older Mac computers with an Intel processor."
 msgstr ""
-"Tails funciona en la mayoría de las computadoras con menos de 10 años de "
-"antigüedad."
+"Tails funciona en algunos ordenadores Mac antiguos con procesador Intel."
 
 #. type: Bullet: '  * '
 #, fuzzy
