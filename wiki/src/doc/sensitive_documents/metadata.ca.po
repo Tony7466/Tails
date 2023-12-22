@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-22 01:19+0000\n"
+"PO-Revision-Date: 2023-12-22 14:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -159,27 +159,27 @@ msgstr "El *Netejador de Metadades* funciona en molts formats de fitxer, com ara
 
 #. type: Plain text
 msgid "- Image files, such as .jpeg, .png, and .gif"
-msgstr ""
+msgstr "- Fitxers d'imatge, com ara .jpeg, .png i .gif"
 
 #. type: Plain text
 msgid "- *LibreOffice* files, such as .odt and .ods"
-msgstr ""
+msgstr "- Fitxers *LibreOffice*, com ara .odt i .ods"
 
 #. type: Plain text
 msgid "- *Microsoft Office* documents, such as .docx, .xlsx, and .pptx"
-msgstr ""
+msgstr "- Documents de *Microsoft Office*, com ara .docx, .xlsx i .pptx"
 
 #. type: Plain text
 msgid "- Audio files, such as .mp3, .flac, and .ogg"
-msgstr ""
+msgstr "- Fitxers d'àudio, com ara .mp3, .flac i .ogg"
 
 #. type: Plain text
 msgid "- Video files, such as .mp4 and .avi"
-msgstr ""
+msgstr "- Fitxers de vídeo, com ara .mp4 i .avi"
 
 #. type: Plain text
 msgid "- Archive files, such as .zip and .tar"
-msgstr ""
+msgstr "- Fitxers d'arxiu, com ara .zip i .tar"
 
 #. type: Plain text
 msgid ""
