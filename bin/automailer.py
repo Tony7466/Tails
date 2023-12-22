@@ -7,18 +7,17 @@ emails into actually composing emails.
 """
 
 import os.path
-import time
-import sys
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from email.parser import Parser
-from email import policy
-import tempfile
-from pathlib import Path
 import subprocess
-from typing import List
+import sys
+import tempfile
+import time
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from email import policy
+from email.parser import Parser
 from functools import lru_cache
+from pathlib import Path
 
-from xdg.BaseDirectory import xdg_config_home  # type: ignore
+from xdg.BaseDirectory import xdg_config_home
 
 LONG_HELP = """
 ## Configuration
@@ -32,6 +31,7 @@ Supported options are:
    - "notmuch"
  - thunderbird_cmd: must be a list of strings. default value is ["thunderbird"].
 """
+
 
 @lru_cache(maxsize=1)
 def read_config() -> dict:
@@ -60,13 +60,12 @@ def parse(body: str):
     return msg, body
 
 
-def get_attachments(msg) -> List[str]:
-    attachments: List[str] = []
+def get_attachments(msg) -> list[str]:
+    attachments: list[str] = []
 
     if "x-attach" in msg:
-        for attachment_list in msg.get_all('x-attach'):
-            for fpath in attachment_list.split(","):
-                fpath = fpath.strip()
+        for attachment_list in msg.get_all("x-attach"):
+            for fpath in (f.strip() for f in attachment_list.split(",")):
                 if not fpath:
                     continue
                 if not os.path.exists(fpath):
@@ -80,14 +79,14 @@ def get_attachments(msg) -> List[str]:
 def markdown_to_html(body: str) -> str:
     # Having import inside a function is a simple way of having optional dependencies
     import markdown
-    html = markdown.markdown(body)
-    return html
+
+    return markdown.markdown(body)
 
 
 def mailer_thunderbird(body: str):
     msg, body = parse(body)
     spec = []
-    html = msg.get('Content-Type', 'text/plain') == 'text/html'
+    html = msg.get("Content-Type", "text/plain") == "text/html"
     for key in ["to", "cc", "subject"]:
         if key in msg:
             spec.append(f"{key}='{msg[key]}'")
@@ -98,15 +97,15 @@ def mailer_thunderbird(body: str):
     if html:
         body = markdown_to_html(body)
 
-    thunderbird_cmd = read_config().get('thunderbird_cmd', ['thunderbird'])
+    thunderbird_cmd = read_config().get("thunderbird_cmd", ["thunderbird"])
     with tempfile.TemporaryDirectory() as tmpdir:
         fpath = Path(tmpdir) / "email.eml"
         with fpath.open("w") as fp:
             fp.write(body)
         spec.append("format=%s" % ("html" if html else "text"))
         spec.append(f"message={fpath}")
-        cmdline = thunderbird_cmd + ["-compose", ",".join(spec)]
-        subprocess.check_output(cmdline)
+        cmdline = [*thunderbird_cmd, "-compose", ",".join(spec)]
+        subprocess.check_output(cmdline)  # noqa: S603
 
         # this is a workaround to the fact that Thunderbird will terminate *before* reading the file
         # we don't really know how long does it take, but let's assume 2s are enough
@@ -122,11 +121,16 @@ def mailer_notmuch(body: str):
             cmdline.append(f"--{key}={msg[key]}")
     attachments = get_attachments(msg)
     if attachments:
-        body = "\n".join([f'<#part filename="{attachment}" '
-                          "disposition=attachment><#/part>"
-                          for attachment in attachments]) \
-                + "\n\n" \
-                + body
+        body = (
+            "\n".join(
+                [
+                    f'<#part filename="{attachment}" disposition=attachment><#/part>'
+                    for attachment in attachments
+                ]
+            )
+            + "\n\n"
+            + body
+        )
 
     with tempfile.TemporaryDirectory() as tmpdir:
         fpath = Path(tmpdir) / "email.eml"
@@ -134,7 +138,7 @@ def mailer_notmuch(body: str):
             fp.write(body)
         cmdline.append(f"--body={fpath}")
 
-        subprocess.check_output(cmdline)
+        subprocess.check_output(cmdline)  # noqa: S603
 
 
 def mailer(mailer: str, body: str):
@@ -161,7 +165,7 @@ def add_parser_mailer(parser: ArgumentParser, config: dict):
 def get_parser():
     config = read_config()
     argparser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
-    argparser.add_argument("--long-help", action='store_true', default=False)
+    argparser.add_argument("--long-help", action="store_true", default=False)
     add_parser_mailer(argparser, config)
     return argparser
 
