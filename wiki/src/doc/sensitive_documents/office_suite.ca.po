@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-11-13 23:11+0000\n"
+"PO-Revision-Date: 2023-12-22 01:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -34,33 +34,19 @@ msgstr ""
 
 #. type: Plain text
 msgid "- *Writer*, a word processor"
-msgstr ""
+msgstr "- *Writer*, un processador de text"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "**<span class=\"application\">Calc</span>**, a spreasheet application"
 msgid "- *Calc*, a spreasheet application"
-msgstr ""
-"**<span class=\"application\">Calc</span>**, una aplicació de full de càlcul"
+msgstr "- *Calc*, una aplicació de full de càlcul"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "**<span class=\"application\">Impress</span>**, a presentation engine"
 msgid "- *Impress*, a presentation engine"
-msgstr ""
-"**<span class=\"application\">Impress</span>**, un motor de presentacions"
+msgstr "- *Impress*, un motor de presentacions"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "**<span class=\"application\">Draw</span>**, a drawing and flowcharting "
-#| "application"
 msgid "*Draw*, a drawing and flowcharting application"
-msgstr ""
-"**<span class=\"application\">Draw</span>**, una aplicació de dibuix i "
-"diagrames de flux"
+msgstr "*Draw*, una aplicació de dibuix i diagrames de flux"
 
 #. type: Plain text
 #, no-wrap

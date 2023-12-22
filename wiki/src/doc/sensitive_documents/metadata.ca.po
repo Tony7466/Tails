@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-21 00:20+0000\n"
+"PO-Revision-Date: 2023-12-22 01:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -57,46 +57,32 @@ msgid "Examples of metadata include:"
 msgstr "Alguns exemples de metadades inclouen:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "In image files:"
 msgid "- In image files:"
-msgstr "En fitxers d'imatge:"
+msgstr "- En fitxers d'imatge:"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid "the location where a photo was taken"
 msgid "The location where a photo was taken"
-msgstr "el lloc on es va fer la foto"
+msgstr "El lloc on es va fer la foto"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid "the date and time a photo was taken"
 msgid "The date and time a photo was taken"
-msgstr "la data i l'hora en què es va fer la foto"
+msgstr "La data i l'hora en què es va fer la foto"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid "the model and serial number of the camera used to take a photo"
 msgid "The model and serial number of the camera used to take a photo"
-msgstr "el model i el número de sèrie de la càmera utilitzada per fer una foto"
+msgstr "El model i el número de sèrie de la càmera utilitzada per fer una foto"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "In text document files:"
 msgid "- In text document files:"
-msgstr "En fitxers de document de text:"
+msgstr "- En fitxers de document de text:"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid "the author of the document"
 msgid "The author of the document"
-msgstr "l'autor del document"
+msgstr "L'autor del document"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid "changes to the document"
 msgid "Changes to the document"
-msgstr "canvis al document"
+msgstr "Canvis al document"
 
 #. type: Plain text
 msgid ""

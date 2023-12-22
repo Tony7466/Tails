@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-21 00:22+0000\n"
+"PO-Revision-Date: 2023-12-22 01:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -59,21 +59,16 @@ msgstr ""
 "drets humans al Sud Global."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Learn from their experiences and needs to help us prioritize future work."
 msgid ""
 "- Learn from their experiences and needs to help us prioritize future work."
 msgstr ""
-"Aprendre de les seves experiències i necessitats per ajudar-nos a prioritzar "
-"el treball futur."
+"- Aprendre de les seves experiències i necessitats per ajudar-nos a "
+"prioritzar el treball futur."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Improve the usability of our tools based on their feedback."
 msgid "- Improve the usability of our tools based on their feedback."
 msgstr ""
-"Millorar la usabilitat de les nostres eines a partir dels seus comentaris."
+"- Millorar la usabilitat de les nostres eines a partir dels seus comentaris."
 
 #. type: Title =
 #, no-wrap
@@ -91,22 +86,16 @@ msgstr ""
 "Tails que són més importants per als usuaris nous:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Installation"
 msgid "- Installation"
-msgstr "Instal·lació"
+msgstr "- Instal·lació"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Tor Connection"
 msgid "- Tor Connection"
-msgstr "Connexió Tor"
+msgstr "- Connexió Tor"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Persistent Storage"
 msgid "- Persistent Storage"
-msgstr "Emmagatzematge Persistent"
+msgstr "- Emmagatzematge Persistent"
 
 #. type: Plain text
 msgid ""

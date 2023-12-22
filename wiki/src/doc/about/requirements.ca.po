@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-21 00:20+0000\n"
+"PO-Revision-Date: 2023-12-22 01:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -29,37 +29,28 @@ msgid "Summary"
 msgstr "Resum"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Tails works on most PC computers that are less than 10 years old."
 msgid "- Tails works on most PC computers that are less than 10 years old."
 msgstr ""
-"Tails funciona a la majoria d'ordinadors que tenen menys de 10 anys "
+"- Tails funciona a la majoria d'ordinadors que tenen menys de 10 anys "
 "d'antiguitat."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Tails works on some older Mac computers with an Intel processor."
 msgid "- Tails works on some older Mac computers with an Intel processor."
 msgstr ""
-"Tails funciona en alguns ordinadors Mac més antics amb un processador Intel."
+"- Tails funciona en alguns ordinadors Mac més antics amb un processador "
+"Intel."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Tails does not work on newer Mac computers with an Apple processor (M1 or "
-#| "M2)."
 msgid ""
 "- Tails does not work on newer Mac computers with an Apple processor (M1 or "
 "M2)."
 msgstr ""
-"Tails no funciona en ordinadors Mac més nous amb un processador Apple (M1 o "
-"M2)."
+"- Tails no funciona en ordinadors Mac més nous amb un processador Apple (M1 "
+"o M2)."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Tails might not work on:"
 msgid "- Tails might not work on:"
-msgstr "És possible que Tails no funcioni en:"
+msgstr "- És possible que Tails no funcioni en:"
 
 #. type: Bullet: '  * '
 msgid "Some older computers, for example, if they don't have enough RAM."
@@ -187,11 +178,9 @@ msgid "For PC"
 msgstr "Per a PC"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Avoid \"gaming\" models with Nvidia or AMD Radeon graphics cards."
 msgid "- Avoid \"gaming\" models with Nvidia or AMD Radeon graphics cards."
 msgstr ""
-"Eviteu els models \"gaming\" amb targetes gràfiques Nvidia o AMD Radeon."
+"- Eviteu els models \"gaming\" amb targetes gràfiques Nvidia o AMD Radeon."
 
 #. type: Bullet: '- '
 msgid ""

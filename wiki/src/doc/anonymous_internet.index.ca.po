@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-11-02 23:11+0000\n"
+"PO-Revision-Date: 2023-12-21 23:44+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Title ###
 #, no-wrap
@@ -24,10 +24,8 @@ msgid "Connecting to the Internet and Tor"
 msgstr "Connexió a Internet i Tor"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Connecting to a local network|anonymous_internet/networkmanager]]"
 msgid "- [[Connecting to a local network|anonymous_internet/networkmanager]]"
-msgstr "[[Connexió a una xarxa local|anonymous_internet/networkmanager]]"
+msgstr "- [[Connexió a una xarxa local|anonymous_internet/networkmanager]]"
 
 #. type: Bullet: '  * '
 msgid "[[Troubleshooting Wi-Fi not working|anonymous_internet/no-wifi]]"
@@ -44,10 +42,8 @@ msgstr ""
 "unsafe_browser]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Connecting to the Tor network|anonymous_internet/tor]]"
 msgid "- [[Connecting to the Tor network|anonymous_internet/tor]]"
-msgstr "[[Connexió a la xarxa Tor|anonymous_internet/tor]]"
+msgstr "- [[Connexió a la xarxa Tor|anonymous_internet/tor]]"
 
 #. type: Bullet: '  * '
 msgid ""
@@ -74,35 +70,30 @@ msgid "Internet applications"
 msgstr "Aplicacions d'Internet"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Connecting to the Tor network|anonymous_internet/tor]]"
 msgid ""
 "- [[Browsing the web with *Tor Browser*|anonymous_internet/tor_browser]]"
-msgstr "[[Connexió a la xarxa Tor|anonymous_internet/tor]]"
+msgstr ""
+"- [[Navegar pel web amb el *Navegador Tor*|anonymous_internet/tor_browser]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Connecting to the Tor network|anonymous_internet/tor]]"
 msgid "- [[Sharing files with *OnionShare*|anonymous_internet/onionshare]]"
-msgstr "[[Connexió a la xarxa Tor|anonymous_internet/tor]]"
+msgstr "- [[Compartir fitxers amb *OnionShare*|anonymous_internet/onionshare]]"
 
 #. type: Plain text
 msgid ""
 "- [[Emailing and reading news with *Thunderbird*|anonymous_internet/"
 "thunderbird]]"
 msgstr ""
+"- [[Enviar correus electrònics i llegir notícies amb *Thunderbird*|"
+"anonymous_internet/thunderbird]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Managing the circuits of Tor|anonymous_internet/tor/circuits]]"
 msgid "- [[Exchanging bitcoins using *Electrum*|anonymous_internet/electrum]]"
-msgstr "[[Gestió dels circuits de Tor|anonymous_internet/tor/circuits]]"
+msgstr "- [[Intercanvi de bitcoins amb *Electrum*|anonymous_internet/electrum]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Managing the circuits of Tor|anonymous_internet/tor/circuits]]"
 msgid "- [[Chatting with *Pidgin* and OTR|anonymous_internet/pidgin]]"
-msgstr "[[Gestió dels circuits de Tor|anonymous_internet/tor/circuits]]"
+msgstr "- [[Xatejar amb *Pidgin* i OTR|anonymous_internet/pidgin]]"
 
 #~ msgid ""
 #~ "- [[Browsing the web with *Tor Browser*|anonymous_internet/tor_browser]] "

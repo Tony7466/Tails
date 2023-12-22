@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-21 00:20+0000\n"
+"PO-Revision-Date: 2023-12-22 01:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -58,21 +58,15 @@ msgid "Have a look at:"
 msgstr "Feu una ullada a:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "the [[list of known issues|support/known_issues]]"
 msgid "- The [[list of known issues|support/known_issues]]"
-msgstr "la [[llista de problemes coneguts|support/known_issues]]"
+msgstr "- La [[llista de problemes coneguts|support/known_issues]]"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "the [[!tails_gitlab groups/tails/-/milestones desc=\"list of things that "
-#| "will be fixed or improved in the next release\"]]"
 msgid ""
 "The [[!tails_gitlab groups/tails/-/milestones desc=\"list of things that "
 "will be fixed or improved in the next release\"]]"
 msgstr ""
-"la [[!tails_gitlab groups/tails/-/milestones desc=\"llista de problemes que "
+"La [[!tails_gitlab groups/tails/-/milestones desc=\"llista de problemes que "
 "es solucionaran o milloraran en la propera versió\"]]"
 
 #. type: Plain text
@@ -179,36 +173,25 @@ msgstr ""
 "WhisperBack us permet donar molta informació útil sobre el vostre error:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "**Summary** a summary of the bug, try to be short, clear and informative"
 msgid ""
 "- **Summary** a summary of the bug, try to be short, clear and informative"
-msgstr "**Resum** un resum de l'error, intenteu ser breu, clar i informatiu"
+msgstr "- **Resum** un resum de l'error, intenteu ser breu, clar i informatiu"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**Name of the affected software**"
 msgid "- **Name of the affected software**"
-msgstr "**Nom del programari afectat**"
+msgstr "- **Nom del programari afectat**"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**Exact steps to reproduce the error**"
 msgid "- **Exact steps to reproduce the error**"
-msgstr "**Passos exactes per reproduir l'error**"
+msgstr "- **Passos exactes per reproduir l'error**"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**Actual result and description of the error**"
 msgid "- **Actual result and description of the error**"
-msgstr "**Resultat real i descripció de l'error**"
+msgstr "- **Resultat real i descripció de l'error**"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**Desired result**"
 msgid "- **Desired result**"
-msgstr "**Resultat desitjat**"
+msgstr "- **Resultat desitjat**"
 
 #. type: Plain text
 #, no-wrap
@@ -250,35 +233,23 @@ msgid "It might be helpful to include a screenshot with your bug report."
 msgstr "Pot ser útil incloure una captura de pantalla amb l'informe d'error."
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "To take a screenshot of the entire desktop, press <span "
-#| "class=\"keycap\">Print Screen</span>."
 msgid "To take a screenshot of the entire desktop, press **Print Screen**."
 msgstr ""
-"Per fer una captura de pantalla de tot l'escriptori, premeu <span "
-"class=\"keycap\">Imprimeix pantalla</span>."
+"Per fer una captura de pantalla de tot l'escriptori, premeu **Imprimeix "
+"pantalla**."
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "To take a screenshot of a single window, press <span class=\"keycap\">Alt "
-#| "+ Print Screen</span>."
 msgid "To take a screenshot of a single window, press **Alt + Print Screen**."
 msgstr ""
-"Per fer una captura de pantalla d'una sola finestra, premeu <span "
-"class=\"keycap\">Alt + Imprimeix pantalla</span>."
+"Per fer una captura de pantalla d'una sola finestra, premeu **Alt + "
+"Imprimeix pantalla**."
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "To take a screenshot of an area you select, press <span "
-#| "class=\"keycap\">Shift + Print Screen</span>."
 msgid ""
 "To take a screenshot of an area you select, press **Shift + Print Screen**."
 msgstr ""
-"Per fer una captura de pantalla d'una àrea que seleccioneu, premeu <span "
-"class=\"keycap\">Majúscules + Imprimeix pantalla</span>."
+"Per fer una captura de pantalla d'una àrea que seleccioneu, premeu **"
+"Majúscules + Imprimeix pantalla**."
 
 #. type: Plain text
 #, no-wrap
@@ -369,24 +340,19 @@ msgstr ""
 "electrònic. Podeu donar:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "a **key ID**, if the key is available on public key servers"
 msgid "- A **key ID**, if the key is available on public key servers"
 msgstr ""
-"un **identificador de clau**, si la clau està disponible als servidors de "
+"- Un **identificador de clau**, si la clau està disponible als servidors de "
 "claus públiques"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "a **link to the key**, if the key is available on the web"
 msgid "- A **link to the key**, if the key is available on the web"
-msgstr "un **enllaç a la clau**, si la clau està disponible al web"
+msgstr "- Un **enllaç a la clau**, si la clau està disponible al web"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "a **public key block**, if the key is not publicly available"
 msgid "- A **public key block**, if the key is not publicly available"
-msgstr "un **bloc de clau pública**, si la clau no està disponible públicament"
+msgstr ""
+"- Un **bloc de clau pública**, si la clau no està disponible públicament"
 
 #. type: Title -
 #, no-wrap
@@ -465,42 +431,30 @@ msgstr ""
 "vostre informe d'error:"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid "In Tails, start WhisperBack"
 msgid "In Tails, start *WhisperBack*."
-msgstr "A Tails, inicieu WhisperBack"
+msgstr "A Tails, inicieu *WhisperBack*."
 
 #. type: Bullet: '2. '
-#, fuzzy
-#| msgid "In the bug report window, expand \"technical details to include\""
 msgid "In the bug report window, expand \"technical details to include\"."
 msgstr ""
-"A la finestra d'informe d'errors, amplieu \"detalls tècnics per incloure\""
+"A la finestra d'informe d'errors, amplieu \"detalls tècnics per incloure\"."
 
 #. type: Bullet: '3. '
-#, fuzzy
-#| msgid "Copy everything in the \"debugging info\" box"
 msgid "Copy everything in the \"debugging info\" box."
-msgstr "Copieu-ho tot al quadre \"informació de depuració\""
+msgstr "Copieu-ho tot al quadre \"informació de depuració\"."
 
 #. type: Bullet: '4. '
-#, fuzzy
-#| msgid "Paste it to another document (using the *Text Editor* for instance)"
 msgid "Paste it to another document (using the *Text Editor* for instance)."
 msgstr ""
-"Enganxeu-ho a un altre document (utilitzant l'*Editor de text*, per exemple)"
+"Enganxeu-ho a un altre document (utilitzant l'*Editor de text*, per exemple)."
 
 #. type: Bullet: '5. '
-#, fuzzy
-#| msgid "Save the document on a USB stick"
 msgid "Save the document on a USB stick."
-msgstr "Deseu el document en un llapis USB"
+msgstr "Deseu el document en un llapis USB."
 
 #. type: Bullet: '6. '
-#, fuzzy
-#| msgid "Boot into a system with Internet connection and send your report"
 msgid "Boot into a system with Internet connection and send your report."
-msgstr "Inicieu un sistema amb connexió a Internet i envieu el vostre informe"
+msgstr "Inicieu un sistema amb connexió a Internet i envieu el vostre informe."
 
 #. type: Plain text
 #, no-wrap
@@ -516,16 +470,12 @@ msgstr ""
 "s'iniciï, consulteu les nostres instruccions d'instal·lació a:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Starting a PC on a USB stick|doc/first_steps/start/pc]]"
 msgid "- [[Starting a PC on a USB stick|doc/first_steps/start/pc]]"
-msgstr "[[Iniciar un PC des d'un llapis USB|doc/first_steps/start/pc]]"
+msgstr "- [[Iniciar un PC des d'un llapis USB|doc/first_steps/start/pc]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Starting a Mac on a USB stick|doc/first_steps/start/mac]]"
 msgid "- [[Starting a Mac on a USB stick|doc/first_steps/start/mac]]"
-msgstr "[[Iniciar un Mac des d'un llapis USB|doc/first_steps/start/mac]]"
+msgstr "- [[Iniciar un Mac des d'un llapis USB|doc/first_steps/start/mac]]"
 
 #. type: Plain text
 #, no-wrap
