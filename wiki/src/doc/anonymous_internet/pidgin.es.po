@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2021-07-11 20:05+0000\n"
 "Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/"
@@ -148,9 +148,12 @@ msgid "<div class=\"caution\">\n"
 msgstr "<div class=\"caution\">\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "<p><strong>OTR is deactivated by default</strong>, and your conversations are\n"
+#| "not private.</p>\n"
 msgid ""
-"<p><strong>OTR is deactivated by default</strong>, and your conversations are\n"
+"<p>OTR is deactivated by default, and your conversations are\n"
 "not private.</p>\n"
 msgstr ""
 "<p><strong>OTR está desactivado por defecto</strong>, y tus conversaciones\n"
@@ -158,7 +161,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "<p><strong>File transfers are not encrypted by OTR.</strong> OTR only encrypts conversations.</p>\n"
+msgid "<p>File transfers are not encrypted by OTR. OTR only encrypts conversations.</p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -167,23 +170,23 @@ msgid "<div class=\"tip\">\n"
 msgstr "<div class=\"tip\">\n"
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"To store your OTR keys and preferences across separate working sessions, you "
-"can turn on the [[Pidgin Internet Messenger|persistent_storage/"
-"configure#pidgin]] feature of the Persistent Storage."
+"<p>To store your OTR keys and preferences across separate working sessions,\n"
+"you can turn on the [[Pidgin Internet Messenger|persistent_storage/configure#pidgin]]\n"
+"feature of the Persistent Storage.</p>\n"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "<div class=\"bug\">\n"
-msgstr "<div class=\"bug\">\n"
-
-#. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "In a private OTR conversation over IRC, <strong>a message sent using the\n"
+#| "<code>/me</code> command is not encrypted</strong>. The person receiving\n"
+#| "the message is notified by a warning.\n"
 msgid ""
-"In a private OTR conversation over IRC, <strong>a message sent using the\n"
-"<code>/me</code> command is not encrypted</strong>. The person receiving\n"
-"the message is notified by a warning.\n"
+"<p>In a private OTR conversation over IRC, a message sent using the\n"
+"<code>/me</code> command is not encrypted. The person receiving\n"
+"the message is notified by a warning.</p>\n"
 msgstr "En una conversación privada OTR a través de IRC, <strong>los mensajes enviados usando el comando <code>/me</code> no son cifrados</strong>. La persona que recibe este mensaje es notificada con una advertencia.\n"
 
 #. type: Title =
@@ -248,6 +251,10 @@ msgid ""
 "If you want to work on this issue, see [[our contribute page|contribute/how/"
 "code]]."
 msgstr ""
+
+#, no-wrap
+#~ msgid "<div class=\"bug\">\n"
+#~ msgstr "<div class=\"bug\">\n"
 
 #~ msgid "Predefined accounts\n"
 #~ msgstr "Cuentas predefinidas\n"

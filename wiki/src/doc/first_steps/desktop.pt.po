@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:10+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-12-07 17:42+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -591,8 +591,9 @@ msgstr ""
 "  comando em um terminal:</p>\n"
 
 #. type: Plain text
-#, no-wrap
-msgid "  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
+#, fuzzy, no-wrap
+#| msgid "  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
+msgid "  <p class=\"command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
 msgstr "  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
 
 #. type: Plain text
@@ -791,8 +792,9 @@ msgstr ""
 "span> na parte baixo do painel direito. Por exemplo:"
 
 #. type: Plain text
-#, no-wrap
-msgid "   <p class=\"pre command\">ssh://user@example.com/</p>\n"
+#, fuzzy, no-wrap
+#| msgid "   <p class=\"pre command\">ssh://user@example.com/</p>\n"
+msgid "       ssh://user@example.com/\n"
 msgstr "   <p class=\"pre command\">ssh://user@example.com/</p>\n"
 
 #. type: Bullet: '1. '

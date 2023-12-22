@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-11-07 20:11+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Tails translators <tails@boum.org>\n"
@@ -423,8 +423,9 @@ msgstr ""
 "place."
 
 #. type: Plain text
-#, no-wrap
-msgid "<h2 id=\"upgrade\">Should I update Tails using <span class=\"code\">apt upgrade</span> or <span class=\"application\">Synaptic</span>?</h2>\n"
+#, fuzzy, no-wrap
+#| msgid "<h2 id=\"upgrade\">Should I update Tails using <span class=\"code\">apt upgrade</span> or <span class=\"application\">Synaptic</span>?</h2>\n"
+msgid "<h2 id=\"upgrade\">Should I update Tails using <code>apt upgrade</code> or <i>Synaptic</i>?</h2>\n"
 msgstr "<h2 id=\"upgrade\">Puis-je mettre à jour Tails en utilisant <span class=\"code\">apt upgrade</span> ou <span class=\"application\">Synaptic</span> ?</h2>\n"
 
 #. type: Plain text
@@ -825,8 +826,9 @@ msgstr ""
 "sur la prise en charge de VPN\" vpn_support]]."
 
 #. type: Plain text
-#, no-wrap
-msgid "<h2 id=\"torrc\">Can I choose the country of my exit nodes or further edit the <span class=\"code\">torrc</span>?</h2>\n"
+#, fuzzy, no-wrap
+#| msgid "<h2 id=\"torrc\">Can I choose the country of my exit nodes or further edit the <span class=\"code\">torrc</span>?</h2>\n"
+msgid "<h2 id=\"torrc\">Can I choose the country of my exit nodes or further edit the <code>torrc</code>?</h2>\n"
 msgstr "<h2 id=\"torrc\">Puis-je choisir le pays de mon nœud de sortie ou de manière générale éditer le fichier <span class=\"code\">torrc</span> ?</h2>\n"
 
 #. type: Plain text

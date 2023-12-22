@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2018-11-05 11:30+0000\n"
 "Last-Translator: Weblate Admin <admin@example.com>\n"
 "Language-Team: Tails Chinese translators <jxt@twngo.xyz>\n"
@@ -147,7 +147,7 @@ msgstr "欲在 Debian 下安裝 *virt-manager*，請執行以下指令："
 
 #. type: Plain text
 #, no-wrap
-msgid "    sudo apt install virt-manager libvirt-daemon-system\n"
+msgid "<p class=\"command\">sudo apt install virt-manager libvirt-daemon-system</p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -156,7 +156,7 @@ msgstr "要在 Ubutun 下安裝 *virt-manager* ，請執行以下指令："
 
 #. type: Plain text
 #, no-wrap
-msgid "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
+msgid "<p class=\"command\">sudo apt install virt-manager libvirt-bin qemu-kvm</p>\n"
 msgstr ""
 
 #. type: Title =
@@ -317,15 +317,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"   <p class=\"pre command\">truncate -s\n"
+"   <p class=\"command-template\">truncate -s\n"
 "   <span class=\"command-placeholder\">size</span>\n"
 "   <span class=\"command-placeholder\">tails.img</span></p>\n"
 msgstr ""
 
 #. type: Bullet: '   - '
 msgid ""
-"<span class=\"command-placeholder\">size</span> has to be at least <span "
-"class=\"command\">7200M</span>."
+"<span class=\"command-placeholder\">size</span> has to be at least `7200M`."
 msgstr ""
 
 #. type: Bullet: '   - '

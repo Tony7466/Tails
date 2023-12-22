@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2022-03-03 14:25+0000\n"
 "Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
@@ -159,8 +159,9 @@ msgid "To install *virt-manager* in Debian, execute the following command:"
 msgstr "Para instalar *virt-manager* en Debian, ejecuta el siguiente comando:"
 
 #. type: Plain text
-#, no-wrap
-msgid "    sudo apt install virt-manager libvirt-daemon-system\n"
+#, fuzzy, no-wrap
+#| msgid "    sudo apt install virt-manager libvirt-daemon-system\n"
+msgid "<p class=\"command\">sudo apt install virt-manager libvirt-daemon-system</p>\n"
 msgstr "    sudo apt install virt-manager libvirt-daemon-system\n"
 
 #. type: Plain text
@@ -168,8 +169,9 @@ msgid "To install *virt-manager* in Ubuntu, execute the following command:"
 msgstr "Para instalar *virt-manager* en Ubuntu, ejecuta el siguiente comando:"
 
 #. type: Plain text
-#, no-wrap
-msgid "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
+#, fuzzy, no-wrap
+#| msgid "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
+msgid "<p class=\"command\">sudo apt install virt-manager libvirt-bin qemu-kvm</p>\n"
 msgstr "    sudo apt install virt-manager libvirt-bin qemu-kvm\n"
 
 #. type: Title =
@@ -317,9 +319,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "   <p class=\"pre command\">truncate -s\n"
+#| "   <span class=\"command-placeholder\">size</span>\n"
+#| "   <span class=\"command-placeholder\">tails.img</span></p>\n"
 msgid ""
-"   <p class=\"pre command\">truncate -s\n"
+"   <p class=\"command-template\">truncate -s\n"
 "   <span class=\"command-placeholder\">size</span>\n"
 "   <span class=\"command-placeholder\">tails.img</span></p>\n"
 msgstr ""
@@ -328,9 +334,12 @@ msgstr ""
 "   <span class=\"command-placeholder\">tails.img</span></p>\n"
 
 #. type: Bullet: '   - '
+#, fuzzy
+#| msgid ""
+#| "<span class=\"command-placeholder\">size</span> has to be at least <span "
+#| "class=\"command\">7200M</span>."
 msgid ""
-"<span class=\"command-placeholder\">size</span> has to be at least <span "
-"class=\"command\">7200M</span>."
+"<span class=\"command-placeholder\">size</span> has to be at least `7200M`."
 msgstr ""
 "<span class=\"command-placeholder\">tamaño</span> debe ser al menos <span "
 "class=\"command\">7200M</span>."
