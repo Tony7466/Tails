@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -24,14 +24,10 @@ msgid "[[!meta title=\"Home\"]]"
 msgstr "[[!meta title=\"Strona główna\"]]"
 
 #. type: Content of: outside any tag (error?)
-#, fuzzy
 msgid ""
 "[[!meta stylesheet=\"index\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"donate/testimonials.inline\" rel=\"stylesheet\" title=\"\"]]"
 msgstr ""
-"[[!pagetemplate template=\"topbar.tmpl\"]] [[!meta title=\"Home\"]] [[!meta "
-"stylesheet=\"staging/home\" rel=\"stylesheet\" title=\"\"]] [[!meta robots="
-"\"noindex\"]]"
 
 #. type: Content of: <script>
 msgid ""
