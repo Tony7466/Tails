@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: Polish <http://translate.tails.boum.org/projects/tails/linux/"
 "pl/>\n"
@@ -26,9 +26,11 @@ msgid "[[!meta title=\"Install Tails from Linux\"]]\n"
 msgstr "[[!meta title=\"Zainstaluj Tails z Linuksa\"]]\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[[!meta stylesheet=\"inc/stylesheets/overview\" rel=\"stylesheet\" title=\"\"]]\n"
 msgstr ""
+"[[!meta stylesheet=\"inc/stylesheets/overview\" rel=\"stylesheet\" title=\"\""
+"]]\n"
 
 #. type: Plain text
 #, no-wrap
