@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-01-10 18:11+0000\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -26,9 +26,9 @@ msgstr ""
 "[[!meta title=\"Komu pomagasz, przekazując darowiznę na rzecz Tails?\"]]\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[[!meta date=\"Thu, 24 Dec 2014 12:34:56 +0000\"]]\n"
-msgstr ""
+msgstr "[[!meta date=\"Thu, 24 Dec 2014 12:34:56 +0000\"]]\n"
 
 #. type: Plain text
 #, no-wrap
