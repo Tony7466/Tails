@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-23 19:22+0000\n"
+"PO-Revision-Date: 2023-12-23 21:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -27,7 +27,7 @@ msgstr "[[!meta date=\"Tue, 14 Jun 2023 12:34:56 -0000\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Weak cryptographic parameters in LUKS1\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Słabe parametry kryptograficzne w LUKS1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -826,6 +826,8 @@ msgid ""
 "When starting Tails, [[set up an administration password|doc/first_steps/"
 "welcome_screen/administration_password/]]."
 msgstr ""
+"Uruchamiając Tails, [[ustaw hasło administratora|doc/first_steps/"
+"welcome_screen/administration_password/]]."
 
 #. type: Bullet: '   1. '
 msgid ""
@@ -877,6 +879,8 @@ msgid ""
 "To verify whether your encrypted volume uses PBKDF2 or Argon2id, execute the "
 "following command."
 msgstr ""
+"Aby sprawdzić, czy zaszyfrowany wolumin używa PBKDF2 lub Argon2id, wykonaj "
+"następujące polecenie."
 
 #. type: Plain text
 #, no-wrap
