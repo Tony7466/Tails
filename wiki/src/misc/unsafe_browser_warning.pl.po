@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -27,6 +27,8 @@ msgstr "[[!meta title=\"Niebezpieczna przeglądarka\"]]\n"
 #, no-wrap
 msgid "[[!meta stylesheet=\"unsafe_browser_warning\" rel=\"stylesheet\"]]\n"
 msgstr ""
+"[[!meta stylesheet=\"ostrzeżenie o niebezpiecznej przeglądarce\"\" rel="
+"\"stylesheet\"]]\n"
 
 #. type: Plain text
 #, no-wrap
