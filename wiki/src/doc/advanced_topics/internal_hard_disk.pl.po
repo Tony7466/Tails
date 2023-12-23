@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-22 19:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Accessing the internal hard disk\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Dostęp do wewnętrznego dysku twardego\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -33,6 +33,7 @@ msgstr "<div class=\"caution\">\n"
 #, no-wrap
 msgid "<p>Accessing internal disks of the computer has security implications:\n"
 msgstr ""
+"<p>Dostęp do wewnętrznych dysków komputera ma wpływ na bezpieczeństwo:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -63,6 +64,8 @@ msgid ""
 "When starting Tails, [[set up an administration password|doc/first_steps/"
 "welcome_screen/administration_password/]]."
 msgstr ""
+"Uruchamiając Tails, [[ustaw hasło administratora|doc/first_steps/"
+"welcome_screen/administration_password/]]."
 
 #. type: Bullet: '2. '
 msgid "Open the [[*Files* browser|doc/first_steps/desktop#files]]."
