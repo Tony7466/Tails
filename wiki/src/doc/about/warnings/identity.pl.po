@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-12-22 17:19+0000\n"
+"PO-Revision-Date: 2023-12-23 06:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Protecting your identity when using Tails\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Ochrona tożsamości podczas korzystania z Tails\"]]"
 
 #. type: Content of: <h1>
 msgid "Protecting your identity when using Tails"
