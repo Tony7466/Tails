@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-07-13 12:09+0200\n"
-"PO-Revision-Date: 2023-12-22 21:22+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -29,6 +29,8 @@ msgid ""
 "[OnionShare](https://onionshare.org/) is a tool to share files of any size "
 "securely and anonymously."
 msgstr ""
+"[OnionShare](https://onionshare.org/) to narzędzie do bezpiecznego i "
+"anonimowego udostępniania plików o dowolnym rozmiarze."
 
 #. type: Plain text
 #, no-wrap
