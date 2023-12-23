@@ -286,7 +286,7 @@ is not needed, for example:
 
 - To access private VPN services like intranets or share folders
 
-- To browser the Internet at higher speeds than Tor
+- To browse the Internet at higher speeds than Tor
 
 We are now considering adding VPN support to Tails, either:
 
