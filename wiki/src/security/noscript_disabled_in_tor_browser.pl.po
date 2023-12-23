@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-08-18 01:25+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -27,6 +27,8 @@ msgstr "[[!meta date=\"Sat, 04 May 2019 00:00:00 +0000\"]]\n"
 #, no-wrap
 msgid "[[!meta title=\"Tor Browser not safe without manual action\"]]\n"
 msgstr ""
+"[[!meta title=\"Przeglądarka Tor nie jest bezpieczna bez ręcznych działań\"]]"
+"\n"
 
 #. type: Plain text
 #, no-wrap
