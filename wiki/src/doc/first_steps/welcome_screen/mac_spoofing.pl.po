@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -27,7 +27,7 @@ msgstr "[[!meta title=\"Anonimizacja adresów MAC\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"what-is-mac-address\"></a>\n"
-msgstr ""
+msgstr "<a id=\"jaki jest adres MAC\"></a>\n"
 
 #. type: Title =
 #, no-wrap
