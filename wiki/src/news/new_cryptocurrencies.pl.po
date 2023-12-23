@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -27,6 +27,8 @@ msgstr "[[!meta date=\"Wed, 5 Dec 2018 18:00:00 +0000\"]]\n"
 #, no-wrap
 msgid "[[!meta title=\"We are accepting donations in 4 new cryptocurrencies\"]]\n"
 msgstr ""
+"[[!meta title=\"Nasze plany na 2019 rok\"]][!meta title=\"Przyjmujemy "
+"darowizny w 4 nowych kryptowalutach\"]]\n"
 
 #. type: Plain text
 #, no-wrap
