@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-22 19:21+0000\n"
+"PO-Revision-Date: 2023-12-23 06:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -22,6 +22,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Modifying the boot options using the Boot Loader\"]]\n"
 msgstr ""
+"[[!meta title=\"Modyfikowanie opcji rozruchu przy użyciu programu "
+"ładującego\"]]\n"
 
 #. type: Plain text
 msgid "The Boot Loader is the first screen that appears when Tails starts."
