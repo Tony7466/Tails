@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-22 19:22+0000\n"
+"PO-Revision-Date: 2023-12-23 15:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"What we achieved together in 2022\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Co osiągnęliśmy razem w 2022 roku\"]]\n"
 
 #. type: Plain text
 #, no-wrap
