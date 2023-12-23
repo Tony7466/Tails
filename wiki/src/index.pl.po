@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-12-22 19:21+0000\n"
+"PO-Revision-Date: 2023-12-23 15:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Home\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Strona główna\"]]"
 
 #. type: Content of: outside any tag (error?)
 #, fuzzy
@@ -119,7 +119,7 @@ msgstr ""
 
 #. type: Content of: <div><div>
 msgid "[[How Tails works|about]]"
-msgstr ""
+msgstr "[[Jak działa Tails|o]]"
 
 #. type: Content of: <div><div>
 msgid "[[Install Tails|install]]"
@@ -127,7 +127,7 @@ msgstr "[[Zainstaluj Tails|zainstaluj]]"
 
 #. type: Content of: <section><h1>
 msgid "News"
-msgstr ""
+msgstr "Aktualności"
 
 #. type: Content of: <section><div>
 #, fuzzy

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-22 17:19+0000\n"
+"PO-Revision-Date: 2023-12-23 15:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -21,6 +21,8 @@ msgstr ""
 #. type: Content of: <div>
 msgid "[[!meta title=\"Reducing risks when using untrusted computers\"]]"
 msgstr ""
+"[[!meta title=\"Zmniejszanie ryzyka podczas korzystania z niezaufanych "
+"komputerów\"]]"
 
 #. type: Content of: <h1>
 msgid "Reducing risks when using untrusted computers"
