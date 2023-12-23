@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 02:28+0000\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: Polish <http://translate.tails.boum.org/projects/tails/"
 "downloadinline/pl/>\n"
@@ -27,7 +27,7 @@ msgstr "[[!meta robots=\"noindex\"]]"
 
 #. type: Content of: <h1>
 msgid "Download Tails"
-msgstr ""
+msgstr "Pobierz Tails"
 
 #. type: Content of: <div>
 msgid "[[!img inc/infography/download.png link=\"no\" alt=\"\"]]"
