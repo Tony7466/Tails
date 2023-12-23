@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-11 14:19-0500\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -24,7 +24,7 @@ msgstr "Tails ma na celu ukrycie Twojej tożsamości."
 
 #. type: Content of: <p>
 msgid "But some of your activities could reveal your identity:"
-msgstr ""
+msgstr "Jednak niektóre działania użytkownika mogą ujawnić jego tożsamość:"
 
 #. type: Content of: <ul><li>
 msgid ""
