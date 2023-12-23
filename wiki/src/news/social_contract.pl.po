@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2020-07-21 15:23+0000\n"
-"PO-Revision-Date: 2023-12-22 21:22+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -32,7 +32,7 @@ msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Announcing the Tails Social Contract\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Ogłaszanie umowy społecznej Tails\"]]\n"
 
 #. type: Plain text
 #, no-wrap
