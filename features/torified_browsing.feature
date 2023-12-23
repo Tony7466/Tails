@@ -131,26 +131,19 @@ Feature: Browsing the web using the Tor Browser
     Then "Tails - How Tails works" has loaded in the Tor Browser
     And I can print the current page as "output.pdf" to the persistent Tor Browser directory
 
-  Scenario: The default XDG directories are usable in Tor Browser
-    Given I have started Tails from DVD and logged in and the network is connected
-    Then the amnesiac Documents directory exists
-    And there is a GNOME bookmark for the amnesiac Documents directory
-    And the amnesiac Downloads directory exists
-    And there is a GNOME bookmark for the amnesiac Downloads directory
-    And the amnesiac Music directory exists
-    And there is a GNOME bookmark for the amnesiac Music directory
-    And the amnesiac Pictures directory exists
-    And there is a GNOME bookmark for the amnesiac Pictures directory
-    And the amnesiac Videos directory exists
-    And there is a GNOME bookmark for the amnesiac Videos directory
-    When I start the Tor Browser
-    Then the Tor Browser loads the Tails homepage
-    And the Tor Browser loads the startup page
-    And I can save the current page as "index.html" to the Documents bookmark
-    And I can save the current page as "index.html" to the Downloads bookmark
-    And I can save the current page as "index.html" to the Music bookmark
-    And I can save the current page as "index.html" to the Pictures bookmark
-    And I can save the current page as "index.html" to the Videos bookmark
+  Scenario Outline: The default XDG directories are usable in Tor Browser
+    Given I have started Tails from DVD without network and logged in
+    Then the amnesiac <bookmark> directory exists
+    And there is a GNOME bookmark for the amnesiac <bookmark> directory
+    Then I start the Tor Browser in offline mode
+    And I can save the current page as "index.html" to the <bookmark> bookmark
+    Examples:
+      | bookmark |
+      | Documents |
+      | Downloads |
+      | Music |
+      | Pictures |
+      | Videos |
 
   Scenario: Persistent browser bookmarks
     Given I have started Tails without network from a USB drive with a persistent partition enabled and logged in
