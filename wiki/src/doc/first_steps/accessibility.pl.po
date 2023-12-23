@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-06-04 08:38+0200\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -30,6 +30,9 @@ msgid ""
 "with various impairments and special needs, and to interact with common "
 "assistive devices."
 msgstr ""
+"Tails i środowisko GNOME zawierają technologie wspomagające dla użytkowników "
+"z różnymi upośledzeniami i specjalnymi potrzebami oraz do interakcji z "
+"popularnymi urządzeniami wspomagającymi."
 
 #. type: Title =
 #, no-wrap
