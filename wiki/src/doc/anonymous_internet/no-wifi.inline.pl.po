@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-26 14:50+0000\n"
-"PO-Revision-Date: 2023-12-23 19:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -29,7 +29,7 @@ msgstr "Jeśli interfejs Wi-Fi nie działa, na przykład:"
 
 #. type: Bullet: '* '
 msgid "There is no Wi-Fi option in the system menu:"
-msgstr ""
+msgstr "W menu systemowym nie ma opcji Wi-Fi:"
 
 #. type: Plain text
 #, no-wrap
