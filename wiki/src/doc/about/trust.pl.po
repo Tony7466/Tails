@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2022-03-14 18:03+0000\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -25,9 +25,11 @@ msgid "[[!meta title=\"How can I trust Tails?\"]]\n"
 msgstr "[[!meta title=\"Jak mogę zaufać Tails?\"]]\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[[!meta stylesheet=\"donate/testimonials.inline\" rel=\"stylesheet\" title=\"\"]]\n"
 msgstr ""
+"[[!meta stylesheet=\"donate/testimonials.inline\" rel=\"stylesheet\" title=\""
+"\"]]\n"
 
 #. type: Plain text
 msgid ""
