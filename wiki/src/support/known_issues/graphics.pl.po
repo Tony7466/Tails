@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -29,6 +29,8 @@ msgid ""
 "- For other hardware compatibility issues, refer to our [[known issues|"
 "support/known_issues]]."
 msgstr ""
+"- W przypadku innych problemów ze zgodnością sprzętu zapoznaj się z naszymi "
+"[[znanymi problemami|support/known_issues]]."
 
 #. type: Plain text
 #, no-wrap
