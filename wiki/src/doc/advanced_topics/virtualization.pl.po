@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-17 18:41+0000\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -35,6 +35,9 @@ msgid ""
 "your computer every time. This is possible using [[!wikipedia "
 "Virtual_machine desc=\"virtual machines\"]]."
 msgstr ""
+"Czasami wygodnie jest móc uruchomić Tails bez konieczności ponownego "
+"uruchamiania komputera za każdym razem. Jest to możliwe przy użyciu [["
+"!wikipedia Virtual_machine desc=\"virtual machines\"]]."
 
 #. type: Plain text
 msgid ""
@@ -87,7 +90,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Security considerations"
-msgstr ""
+msgstr "Względy bezpieczeństwa"
 
 #. type: Plain text
 #, no-wrap
