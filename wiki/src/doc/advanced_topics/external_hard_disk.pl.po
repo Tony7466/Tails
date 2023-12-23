@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-23 19:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -30,6 +30,9 @@ msgid ""
 "When starting Tails from an external hard disk or problematic USB stick, "
 "Tails might return the following error message:"
 msgstr ""
+"Podczas uruchamiania Tailsa z zewnętrznego dysku twardego lub "
+"problematycznej pamięci USB, Tails może zwrócić następujący komunikat o "
+"błędzie:"
 
 #. type: Plain text
 #, no-wrap
