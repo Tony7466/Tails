@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -29,6 +29,8 @@ msgstr ""
 #, no-wrap
 msgid "<!-- XXX: These instructions should be kept in sync with backup.mdwn -->\n"
 msgstr ""
+"<!-- XXX: Te instrukcje powinny być zsynchronizowane z plikiem Backup.mdwn "
+"-->\n"
 
 #. type: Plain text
 msgid ""
