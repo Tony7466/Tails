@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2020-04-12 16:10+0200\n"
-"PO-Revision-Date: 2023-12-23 17:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -35,7 +35,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "Tor circuits lengthen the connections"
-msgstr ""
+msgstr "Obwody Tora wydłużają połączenia"
 
 #. type: Plain text
 msgid ""
