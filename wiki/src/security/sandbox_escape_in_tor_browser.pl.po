@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -26,7 +26,7 @@ msgstr "[[!meta date=\"Thu, 20 Jun 2019 12:34:57 +0200\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Critical security vulnerability in Tails 3.14.1\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Krytyczna luka w zabezpieczeniach Tails 3.14.1\"]]\n"
 
 #. type: Plain text
 #, no-wrap
