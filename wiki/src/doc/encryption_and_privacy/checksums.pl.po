@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2019-08-29 15:15+0200\n"
-"PO-Revision-Date: 2023-12-23 19:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -42,7 +42,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "To calculate the checksum of a file:"
-msgstr ""
+msgstr "Aby obliczyć sumę kontrolną pliku:"
 
 #. type: Bullet: '  1. '
 msgid "Open the <span class=\"application\">Files</span> browser."
