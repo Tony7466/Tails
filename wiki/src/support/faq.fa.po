@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-22 04:29+0000\n"
+"POT-Creation-Date: 2023-12-23 16:00+0000\n"
 "PO-Revision-Date: 2020-09-05 06:30+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/faq/fa/"
@@ -732,7 +732,7 @@ msgid "- To access private VPN services like intranets or share folders"
 msgstr ""
 
 #. type: Plain text
-msgid "- To browser the Internet at higher speeds than Tor"
+msgid "- To browse the Internet at higher speeds than Tor"
 msgstr ""
 
 #. type: Plain text
