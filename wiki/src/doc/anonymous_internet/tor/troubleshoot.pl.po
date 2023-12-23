@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -28,6 +28,8 @@ msgid ""
 "The sections below summarize the most common problems when [[connecting to "
 "Tor|tor]]."
 msgstr ""
+"Poniższe sekcje podsumowują najczęstsze problemy podczas [[łączenia się z "
+"Tor|tor]]."
 
 #. type: Plain text
 #, no-wrap
