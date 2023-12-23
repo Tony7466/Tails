@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-05 06:07+0000\n"
-"PO-Revision-Date: 2023-12-23 06:22+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -25,9 +25,9 @@ msgstr ""
 "[[!meta title=\"Planowana przerwa w dostawie prądu we wtorek 8 czerwca\"]]\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[[!meta date=\"Fri, 04 Jun 2021 21:30:00 +0000\"]]\n"
-msgstr ""
+msgstr "[[!meta date=\"Fri, 04 Jun 2021 21:30:00 +0000\"]]\n"
 
 #. type: Plain text
 #, no-wrap
