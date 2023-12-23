@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 09:53+0100\n"
-"PO-Revision-Date: 2023-12-22 21:22+0000\n"
+"PO-Revision-Date: 2023-12-23 12:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -49,6 +49,9 @@ msgid ""
 "Help troubleshoot when resizing the system partition fails the first time "
 "Tails is started."
 msgstr ""
+"S'ha millorat l'ajuda per resoldre problemes quan es produeix un error en "
+"canviar la mida de la partició del sistema la primera vegada que s'inicia "
+"Tails."
 
 #. type: Plain text
 #, markdown-text, no-wrap
@@ -64,7 +67,7 @@ msgstr ""
 #. type: Plain text
 #, markdown-text
 msgid "- Translate the date displayed in the top navigation bar."
-msgstr ""
+msgstr "- S'ha traduït la data que es mostra a la barra de navegació superior."
 
 #. type: Plain text
 #, markdown-text, no-wrap
@@ -98,11 +101,15 @@ msgid ""
 "- Fix *Tor Browser* crashing when clicking on the *UBlock* "
 "icon. ([[!tails_ticket 20061]])"
 msgstr ""
+"- S'ha solucionat el bloqueig del *Navegador Tor* quan es fa clic a la icona "
+"d'*UBlock*. ([[!tails_ticket 20061]])"
 
 #. type: Plain text
 #, markdown-text
 msgid "- Make time synchronization more reliable. ([[!tails_ticket 19923]])"
 msgstr ""
+"- S'ha fet que la sincronització horària sigui més fiable. ([[!tails_ticket "
+"19923]])"
 
 #. type: Plain text
 #, markdown-text
@@ -110,6 +117,8 @@ msgid ""
 "- [[!tails_gitlab @BenWestgate]] fixed several issues in the backup feature "
 "of *Tails Cloner*:"
 msgstr ""
+"- En [[!tails_gitlab @BenWestgate]] ha solucionat diversos problemes de la "
+"funcionalitat de còpia de seguretat del *Clonador de Tails*:"
 
 #. type: Bullet: '  * '
 #, markdown-text
@@ -117,6 +126,8 @@ msgid ""
 "Remove message about doing a backup when no USB stick is plugged "
 "in. ([[!tails_ticket 20063]])"
 msgstr ""
+"S'ha eliminat el missatge sobre fer una còpia de seguretat quan no hi ha cap "
+"llapis USB connectat. ([[!tails_ticket 20063]])"
 
 #. type: Bullet: '  * '
 #, markdown-text
@@ -124,6 +135,8 @@ msgid ""
 "Update available options when plugging in another USB "
 "stick. ([[!tails_ticket 20042]])"
 msgstr ""
+"S'han actualitzat les opcions disponibles en connectar un altre llapis USB. "
+"([[!tails_ticket 20042]])"
 
 #. type: Bullet: '  * '
 #, markdown-text
@@ -131,6 +144,8 @@ msgid ""
 "Point to backup instructions when choosing to clone the Persistent Storage.  "
 "([[!tails_mr 1305]])"
 msgstr ""
+"Es mostren les instruccions de còpia de seguretat quan trieu clonar "
+"l'Emmagatzematge Persistent. ([[!tails_mr 1305]])"
 
 #. type: Plain text
 #, markdown-text
