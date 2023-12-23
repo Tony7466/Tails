@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -31,6 +31,9 @@ msgid ""
 "class=\"application\">VirtualBox</span>](https://www.virtualbox.org/) from a\n"
 "Windows, Linux, or macOS host operating system.\n"
 msgstr ""
+"Możliwe jest uruchomienie Tailsa na maszynie wirtualnej za pomocą [<span\n"
+"class=\"application\">VirtualBox</span>](https://www.virtualbox.org/) z\n"
+"System operacyjny hosta Windows, Linux lub macOS.\n"
 
 #. type: Plain text
 #, no-wrap
