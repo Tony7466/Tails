@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-14 10:03+0000\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -25,9 +25,8 @@ msgid "Tails"
 msgstr "Tails"
 
 #. type: Content of: <div><ul><li>
-#, fuzzy
 msgid "[[Home|index]]"
-msgstr "[[Home|index]]"
+msgstr "[[Strona główna|index]]"
 
 #. type: Content of: <div><ul><li>
 msgid "[[How Tails works|about]]"
