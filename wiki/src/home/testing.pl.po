@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-18 10:43-0500\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -23,12 +23,17 @@ msgid "[[!meta title=\"Trying a testing version of Tails\"]]"
 msgstr "[[!meta title=\"Próbuję wersji testowej Tailsa\"]]"
 
 #. type: Content of: outside any tag (error?)
+#, fuzzy
 msgid ""
 "[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "robots=\"noindex\"]] [[!meta script=\"home\"]]"
 msgstr ""
+"[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"robots=\"noindex\"]] [[!meta script=\"home\"]]"
 
 #. type: Content of: <div><p>
 msgid "You are running a testing version of Tails. Thanks!"
