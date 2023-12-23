@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-12-23 19:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: Polish <http://translate.tails.boum.org/projects/tails/"
 "install/pl/>\n"
@@ -26,7 +26,7 @@ msgstr "[[!meta title=\"Instaluj Tails\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta stylesheet=\"install\" rel=\"stylesheet\" title=\"\"]]"
-msgstr ""
+msgstr "[[!meta stylesheet=\"instaluj\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <div><div><div>
 msgid "[[ [[!img install/inc/icons/windows.png link=\"no\" alt=\"\"]]"
