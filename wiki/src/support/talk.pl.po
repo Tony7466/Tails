@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -24,8 +24,9 @@ msgid "[[!meta title=\"Write to our help desk\"]]"
 msgstr "[[!meta title=\"Napisz do naszego działu pomocy\"]]"
 
 #. type: Content of: <div><div><h3>
+#, fuzzy
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #. type: Content of: <div><div>
 msgid "[[!img lib/email.png link=no]]"
