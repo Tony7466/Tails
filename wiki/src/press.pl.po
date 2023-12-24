@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-12-23 21:21+0000\n"
+"PO-Revision-Date: 2023-12-24 08:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -296,7 +296,7 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2013\" text=\"\"]]
 #. type: Title -
 #, fuzzy, no-wrap
 msgid "2013"
-msgstr "2013\n"
+msgstr "2013"
 
 #. type: Plain text
 #, no-wrap
@@ -316,7 +316,7 @@ msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2012\" text=\"\"]]
 #. type: Title -
 #, fuzzy, no-wrap
 msgid "2012"
-msgstr "2012\n"
+msgstr "2012"
 
 #. type: Plain text
 #, no-wrap
@@ -334,9 +334,9 @@ msgid "<span class=\"hide\">[[!toggle id=\"media_appearances_2011\" text=\"\"]]<
 msgstr "<span class=\"hide\">[[!toggle id=\"media_appearances_2011\" text=\"\"]]</span>\n"
 
 #. type: Title -
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "2011"
-msgstr "2011\n"
+msgstr "2011"
 
 #. type: Plain text
 #, no-wrap
