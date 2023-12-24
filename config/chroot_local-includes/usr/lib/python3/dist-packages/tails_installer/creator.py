@@ -361,7 +361,7 @@ class TailsInstallerCreator(object):
             self.mb_per_sec = (self.source.size / delta.seconds) / 1024**2
             if self.mb_per_sec:
                 self.log.info(
-                    _("Wrote to device at %(speed)d MB/sec")
+                    _("Wrote to device at %(speed)d MB/s")
                     % {"speed": self.mb_per_sec}
                 )
 
@@ -1052,7 +1052,7 @@ class TailsInstallerCreator(object):
             self.mb_per_sec = (get_persistent_storage_size() / delta.seconds) / 1024**2
             if self.mb_per_sec:
                 self.log.info(
-                    _("Wrote to device at %(speed)d MB/sec")
+                    _("Wrote to device at %(speed)d MB/s")
                     % {"speed": self.mb_per_sec}
                 )
 
