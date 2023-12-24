@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2019-08-29 15:15+0200\n"
-"PO-Revision-Date: 2023-12-23 21:21+0000\n"
+"PO-Revision-Date: 2023-12-24 23:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -53,6 +53,8 @@ msgid ""
 "Navigate to the folder containing the file that you want to calculate the "
 "checksum for."
 msgstr ""
+"Przejdź do folderu zawierającego plik, dla którego chcesz obliczyć sumę "
+"kontrolną."
 
 #. type: Bullet: '  1. '
 msgid ""
@@ -65,6 +67,8 @@ msgid ""
 "In the <span class=\"guimenuitem\">Properties</span> dialog, click on the "
 "<span class=\"guilabel\">Digests</span> tab."
 msgstr ""
+"W oknie dialogowym <span class=\"guimenuitem\">Właściwości</span> kliknij "
+"zakładkę <span class=\"guilabel\">Testy</span> tab."
 
 #. type: Plain text
 #, no-wrap
