@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-18 10:43-0500\n"
-"PO-Revision-Date: 2023-12-23 21:22+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -61,8 +61,9 @@ msgid "Other news"
 msgstr ""
 
 #. type: Content of: <div>
+#, fuzzy
 msgid "<a href=\"https://check.torproject.org/\">Tor check</a>"
-msgstr ""
+msgstr "<a href=\"https://check.torproject.org/\">Tor check</a>"
 
 #. type: Content of: <div>
 msgid "[[!inline pages=\"news\" raw=\"yes\" sort=\"age\"]]"
