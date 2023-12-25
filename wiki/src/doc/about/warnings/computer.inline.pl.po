@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-11 14:19-0500\n"
-"PO-Revision-Date: 2023-12-23 19:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -28,7 +28,7 @@ msgstr "Ale Tails nie zawsze może cię chronić, gdy:"
 
 #. type: Content of: <ul><li>
 msgid "Installing from an infected computer"
-msgstr ""
+msgstr "Instalacja z zainfekowanego komputera"
 
 #. type: Content of: <ul><li>
 msgid ""
