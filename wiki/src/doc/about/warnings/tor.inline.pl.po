@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-11 14:19-0500\n"
-"PO-Revision-Date: 2023-12-23 19:22+0000\n"
+"PO-Revision-Date: 2023-12-25 07:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -32,7 +32,7 @@ msgstr "Ale Tor ma ograniczenia, jeśli martwisz się o:"
 
 #. type: Content of: <ul><li>
 msgid "Hiding that you are using Tor and Tails"
-msgstr ""
+msgstr "Ukrywanie, że korzystasz z Tor i Tails"
 
 #. type: Content of: <ul><li>
 msgid ""
