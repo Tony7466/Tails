@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-12-23 19:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -25,19 +25,22 @@ msgstr "[[!meta title=\"Drogi użytkowniku Tails,\"]]"
 
 #. [[!inline pages="home/donate.inline" raw="yes" sort="age"]]
 #. type: Content of: outside any tag (error?)
+#, fuzzy
 msgid ""
 "[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "robots=\"noindex\"]] [[!meta script=\"home\"]] [[!inline pages=\"home/year-"
 "end.inline\" raw=\"yes\" sort=\"age\"]]"
 msgstr ""
+"[[!meta stylesheet=\"home\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"robots=\"noindex\"]] [[!meta script=\"home\"]] [[!inline pages=\"home/year-"
+"end.inline\" raw=\"yes\" sort=\"age\"]]"
 
 #. type: Content of: <div>
 #, fuzzy
 msgid "<a href=\"https://check.torproject.org/\">Tor check</a>"
-msgstr ""
-"<a href=\"https://check.torproject.org/\"> [[!img \"lib/onion.png\" link=\"no"
-"\"]] <span class=\"twolines\">Tor überprüfen</span> </a>"
+msgstr "<a href=\"https://check.torproject.org/\">Tor check</a>"
 
 #. type: Content of: <div>
 msgid "[[!inline pages=\"news\" raw=\"yes\" sort=\"age\"]]"
