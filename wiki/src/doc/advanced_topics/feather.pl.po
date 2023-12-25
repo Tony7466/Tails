@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-27 18:26+0100\n"
-"PO-Revision-Date: 2023-12-23 19:22+0000\n"
+"PO-Revision-Date: 2023-12-25 07:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -37,6 +37,8 @@ msgid ""
 "To learn how to install and use *Feather* in Tails, see [this guide](https://"
 "xmrguide.org/tails/feather/install)."
 msgstr ""
+"Aby dowiedzieć się, jak zainstalować i używać *Feather* w Tails, zobacz [ten "
+"przewodnik](https://xmrguide.org/tails/feather/install)."
 
 #. type: Plain text
 #, no-wrap
