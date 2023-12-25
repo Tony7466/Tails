@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-23 16:00+0000\n"
-"PO-Revision-Date: 2023-12-24 08:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -79,6 +79,11 @@ msgid ""
 "other distribution. See our statement about our [[contribute/"
 "relationship_with_upstream]] for details."
 msgstr ""
+"Jesteśmy głęboko zakorzenieni i zaangażowani w Debiana. Przyjaźnie, relacje "
+"i wiedza techniczna, które mamy w Debianie przynoszą wiele korzyści dla "
+"Tails i nie jesteśmy gotowi na budowanie takich samych relacji z Ubuntu, "
+"OpenBSD czy jakąkolwiek inną dystrybucją. Szczegóły można znaleźć w naszym "
+"oświadczeniu [[contribute/relationship_with_upstream]]."
 
 #. type: Plain text
 msgid ""
@@ -86,6 +91,9 @@ msgid ""
 "upsilon.cc/~zack/blog/posts/2011/09/"
 "why_there_are_so_many_debian_derivatives/)  by Stefano Zacchiroli."
 msgstr ""
+"Zobacz także artykuł [Why there are so many Debian "
+"derivatives](http://upsilon.cc/~zack/blog/posts/2011/09/"
+"why_there_are_so_many_debian_derivatives/) autorstwa Stefano Zacchiroli."
 
 #. type: Plain text
 #, no-wrap
@@ -94,7 +102,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "First, see the answer to the [[previous question|faq#debian]]."
-msgstr ""
+msgstr "Najpierw zobacz odpowiedź na [[poprzednie pytanie|faq#debian]]."
 
 #. type: Plain text
 msgid "- The rapid development cycle of Ubuntu would be too fast for Tails."
@@ -108,12 +116,19 @@ msgid ""
 "leaks](https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-"
 "and-data-leaks)."
 msgstr ""
+"Ubuntu dodaje funkcje w sposób, który uważamy za niebezpieczny dla "
+"prywatności. Na przykład Ubuntu One ([częściowo wycofane](http://blog."
+"canonical.com/2014/04/02/shutting-down-ubuntu-one-file-services/)) i ["
+"reklamy Amazon i wycieki danych](https://www.eff.org/deeplinks/2012/10/"
+"privacy-ubuntu-1210-amazon-ads-and-data-leaks)."
 
 #. type: Bullet: '- '
 msgid ""
 "Ubuntu is led by a company that takes most of the important decisions and "
 "has the power to make them happen."
 msgstr ""
+"Ubuntu jest kierowane przez firmę, która podejmuje większość ważnych decyzji "
+"i ma moc, by je realizować."
 
 #. type: Bullet: '- '
 msgid ""
@@ -121,6 +136,9 @@ msgid ""
 "backports.debian.org/). The result is comparable to Ubuntu in terms of "
 "support for recent hardware."
 msgstr ""
+"Zazwyczaj dostarczamy jądra i sterowniki wideo z [Debian "
+"backports](http://backports.debian.org/). Rezultat jest porównywalny z "
+"Ubuntu pod względem wsparcia dla najnowszego sprzętu."
 
 #. type: Bullet: '- '
 msgid ""
@@ -130,6 +148,11 @@ msgid ""
 "not the case outside of the limited number of packages Ubuntu officially "
 "supports."
 msgstr ""
+"Uważamy, że ogólna jakość prac konserwacyjnych wykonywanych nad pakietami ma "
+"znaczenie z punktu widzenia bezpieczeństwa. Opiekunowie Debiana są na ogół "
+"ekspertami w dziedzinach, którymi zajmują się ich pakiety, podczas gdy nie "
+"jest tak w przypadku ograniczonej liczby pakietów oficjalnie wspieranych "
+"przez Ubuntu."
 
 #. type: Bullet: '- '
 msgid ""
@@ -137,6 +160,9 @@ msgid ""
 "application_isolation]] in Tails; a security framework that is already used "
 "in a few Ubuntu applications."
 msgstr ""
+"Aktywnie pracujemy nad ulepszeniem [[AppArmor support|contribute/design/"
+"application_isolation]] w Tails; frameworku bezpieczeństwa, który jest już "
+"używany w kilku aplikacjach Ubuntu."
 
 #. type: Bullet: '- '
 msgid ""
@@ -144,6 +170,9 @@ msgid ""
 "packages included in Tails; another security feature that Ubuntu already "
 "provides."
 msgstr ""
+"Pracujemy również nad dodaniem opcji zabezpieczeń kompilatora do większej "
+"liczby pakietów Debiana zawartych w Tails; kolejna funkcja bezpieczeństwa, "
+"którą Ubuntu już zapewnia."
 
 #. type: Plain text
 #, no-wrap
@@ -157,6 +186,9 @@ msgid ""
 "requires quite a lot of resources to work properly, but it has many "
 "advantages.  The GNOME Desktop is:"
 msgstr ""
+"Użytkownicy prosili nas o LXDE, XFCE, MATE, KDE i tak dalej, ale nie "
+"zamierzamy zmieniać pulpitu. Według nas główną wadą GNOME jest to, że wymaga "
+"sporo zasobów do poprawnego działania, ale ma wiele zalet.  Pulpit GNOME to:"
 
 #. type: Plain text
 msgid "- Well integrated, especially for new Linux users."
@@ -179,12 +211,16 @@ msgid ""
 "Well maintained in [[Debian|faq#debian]], where it is the default desktop "
 "environment."
 msgstr ""
+"Dobrze utrzymany w [[Debian|faq#debian]], gdzie jest to domyślne środowisko "
+"graficzne."
 
 #. type: Plain text
 msgid ""
 "We invested quite some time in acquiring GNOME knowledge, and switching our "
 "desktop environment would require going through that process again."
 msgstr ""
+"Zainwestowaliśmy sporo czasu w zdobycie wiedzy o GNOME, a zmiana środowiska "
+"wymagałaby ponownego przejścia przez ten proces."
 
 #. type: Plain text
 msgid ""
@@ -402,9 +438,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr "<div class=\"caution\">\n"
+msgstr "<div class=\"uwaga\">\n"
 
 #. type: Plain text
 #, no-wrap
