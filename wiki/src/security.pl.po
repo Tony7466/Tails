@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-12-23 19:23+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -34,6 +34,9 @@ msgid ""
 "Since Tails is based on Debian, it takes advantage of all the work done by "
 "the Debian security team. As quoted from <https://www.debian.org/security/>:"
 msgstr ""
+"Ponieważ Tails jest oparty na Debianie, korzysta z całej pracy wykonanej "
+"przez zespół bezpieczeństwa Debiana. Zgodnie z cytatem z <https://www.debian."
+"org/security/>:"
 
 #. type: Plain text
 #, no-wrap
