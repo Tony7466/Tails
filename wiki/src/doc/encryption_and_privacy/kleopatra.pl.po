@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-23 15:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -41,9 +41,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr "<div class=\"caution\">\n"
+msgstr "<div class=\"uwaga\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -217,7 +217,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"bug\">\n"
-msgstr "<div class=\"bug\">\n"
+msgstr "<div class=\"błąd\">\n"
 
 #. type: Plain text
 #, no-wrap
