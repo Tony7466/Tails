@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-06-13 14:17+0200\n"
-"PO-Revision-Date: 2023-12-23 19:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -49,33 +49,41 @@ msgstr ""
 
 #. type: Plain text
 msgid "To sign in to a network using a captive portal:"
-msgstr ""
+msgstr "Aby zalogować się do sieci za pomocą portalu przechwytującego:"
 
 #. type: Bullet: '1. '
 msgid ""
 "Try visiting an innocent-looking website that is common in your location, "
 "for example, a search engine or news site:"
 msgstr ""
+"Spróbuj odwiedzić niewinnie wyglądającą stronę internetową, która jest "
+"popularna w Twojej lokalizacji, na przykład wyszukiwarkę lub witrynę z "
+"wiadomościami:"
 
 #. type: Bullet: '   - '
+#, fuzzy
 msgid "<a href=\"http://google.com/\" target=\"_blank\">Google</a>"
-msgstr ""
+msgstr "<a href=\"http://google.com/\" target=\"_blank\">Google</a>"
 
 #. type: Bullet: '   - '
 msgid "<a href=\"http://linkedin.com/\" target=\"_blank\">LinkedIn</a>"
-msgstr ""
+msgstr "<a href=\"http://linkedin.com/\" target=\"_blank\">LinkedIn</a>"
 
 #. type: Bullet: '   - '
+#, fuzzy
 msgid "<a href=\"http://duckduckgo.com/\" target=\"_blank\"/>DuckDuckGo</a>"
-msgstr ""
+msgstr "<a href=\"http://duckduckgo.com/\" target=\"_blank\"/>DuckDuckGo</a>"
 
 #. type: Bullet: '   - '
+#, fuzzy
 msgid "<a href=\"http://baidu.com/\" target=\"_blank\"/>Baidu</a>"
-msgstr ""
+msgstr "<a href=\"http://baidu.com/\" target=\"_blank\"/>Baidu</a>"
 
 #. type: Bullet: '1. '
 msgid "If you are redirected to a captive portal, sign in to the network."
 msgstr ""
+"Jeśli nastąpi przekierowanie do portalu przechwytującego, zaloguj się do "
+"sieci."
 
 #. type: Plain text
 #, no-wrap
@@ -86,17 +94,25 @@ msgid ""
 "   <span class=\"doc\">the <i>Unsafe Browser</i></span>\n"
 "   and try connecting to the Tor network again.\n"
 msgstr ""
+"   Jeśli nie zostaniesz przekierowany do portalu przechwytującego, a strona "
+"się załaduje,\n"
+"   oznacza to, że masz już połączenie z Internetem. Zamykać\n"
+"   <span class=\"warning\">ta przeglądarka</span>\n"
+"   <span class=\"doc\"><i>niebezpieczna przeglądarka</i></span>\n"
+"   i spróbuj ponownie połączyć się z siecią Tor.\n"
 
 #. type: Bullet: '1. '
 msgid ""
 "After Tails is connected to Tor, close <span class=\"warning\">this browser."
 "</span> <span class=\"doc\">the <i>Unsafe Browser</i>.</span>"
 msgstr ""
+"Po podłączeniu Tailsa do Tora, zamknij</span> <span class=\"warning\">this "
+"browser. <span class=\"doc\"><i>niebezpieczna przeglądarka</i>.</span>"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <div class=\"caution\">\n"
-msgstr ""
+msgstr "   <div class=\"uwaga\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -106,6 +122,13 @@ msgid ""
 "   If you keep the <i>Unsafe Browser</i> open, a very advanced network attacker\n"
 "   might use it to deanonymize you.</p>\n"
 msgstr ""
+"   <p>Szczególnie ważne jest, aby zamknąć <i>niebezpieczną przeglądarkę</i>, "
+"jeśli\n"
+"   korzystasz z funkcji dostępności, takich jak klawiatura ekranowa lub "
+"czytnik ekranu.\n"
+"   Jeśli pozostawisz otwartą <i>niebezpieczną przeglądarkę</i>, bardzo "
+"zaawansowany atakujący sieć\n"
+"   może go użyć do deanonimizacji.</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -116,3 +139,4 @@ msgstr ""
 #, no-wrap
 msgid "   You can use *Tor Browser* or any other application as usual.\n"
 msgstr ""
+"   Możesz normalnie używać *Tor Browser* lub dowolnej innej aplikacji.\n"
