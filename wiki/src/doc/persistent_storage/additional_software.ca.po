@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-22 04:29+0000\n"
+"POT-Creation-Date: 2023-12-26 10:46+0000\n"
 "PO-Revision-Date: 2023-12-22 12:20+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -273,8 +273,7 @@ msgid ""
 "Replace <span class=\"command-placeholder\">lang</span> with the code for your\n"
 "language. For example, `es` for Spanish or `de` for German.\n"
 msgstr ""
-"Substituïu <span class=\"command-placeholder\">lang</span> pel codi del "
-"vostre\n"
+"Substituïu <span class=\"command-placeholder\">lang</span> pel codi del vostre\n"
 "idioma. Per exemple, `es` per al castellà o `de` per a l'alemany.\n"
 
 #. type: Title -
@@ -291,8 +290,8 @@ msgid ""
 "The `hunspell` dictionaries are used for spell-checking by *Tor Browser*, "
 "*LibreOffice*, *Thunderbird*, and many other applications."
 msgstr ""
-"S'utilitzen els diccionaris `hunspell` de correcció ortogràfica pel *"
-"Navegador Tor*, *LibreOffice*, *Thunderbird* i moltes altres aplicacions."
+"S'utilitzen els diccionaris `hunspell` de correcció ortogràfica pel "
+"*Navegador Tor*, *LibreOffice*, *Thunderbird* i moltes altres aplicacions."
 
 #. type: Title =
 #, no-wrap
@@ -368,9 +367,7 @@ msgstr "<div class=\"tip\">\n"
 #. type: Plain text
 #, no-wrap
 msgid "<p>If you are comfortable with the command line, you can use <code>apt</code> instead.</p>\n"
-msgstr ""
-"<p>Si us sentiu còmode amb la línia d'ordres, podeu utilitzar "
-"<code>apt</code>.</p>\n"
+msgstr "<p>Si us sentiu còmode amb la línia d'ordres, podeu utilitzar <code>apt</code>.</p>\n"
 
 #. type: Title -
 #, no-wrap
@@ -548,16 +545,13 @@ msgid ""
 "   class=\"command-placeholder\">application</span> with the command line of the\n"
 "   application that you want to run:\n"
 msgstr ""
-"   Executeu l'ordre següent en un *Terminal*. Substituïu <span class"
-"=\"command-placeholder\">aplicació</span> amb la línia d'ordres de\n"
+"   Executeu l'ordre següent en un *Terminal*. Substituïu <span class=\"command-placeholder\">aplicació</span> amb la línia d'ordres de\n"
 "   l'aplicació que voleu executar:\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"command-template\">torsocks <span class=\"command-placeholder\">application</span></p>\n"
-msgstr ""
-"   <p class=\"command-template\">torsocks <span class=\"command-placeholder\""
-">aplicació</span></p>\n"
+msgstr "   <p class=\"command-template\">torsocks <span class=\"command-placeholder\">aplicació</span></p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -824,9 +818,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   <p class=\"command\">sudo install -d -m 755 /live/persistence/TailsData_unlocked/apt-sources.list.d</p>\n"
-msgstr ""
-"   <p class=\"command\">sudo install -d -m 755 /live/persistence/"
-"TailsData_unlocked/apt-sources.list.d</p>\n"
+msgstr "   <p class=\"command\">sudo install -d -m 755 /live/persistence/TailsData_unlocked/apt-sources.list.d</p>\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -844,13 +836,21 @@ msgid "       /etc/apt/sources.list.d\tsource=apt-sources.list.d,link\n"
 msgstr "       /etc/apt/sources.list.d\tsource=apt-sources.list.d,link\n"
 
 #. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "Write your additional `sources.list` files in the <span "
+#| "class=\"filename\">apt-sources.list.d</span> folder. For example, to add "
+#| "the `non-free` sections of Debian 10 (Buster), backports, and security "
+#| "updates, you can create a file named <span class=\"filename\">/live/"
+#| "persistence/TailsData_unlocked/apt-sources.list.d/non-free.list</span> "
+#| "with the following content:"
 msgid ""
 "Write your additional `sources.list` files in the <span "
 "class=\"filename\">apt-sources.list.d</span> folder. For example, to add the "
-"`non-free` sections of Debian 10 (Buster), backports, and security updates, "
-"you can create a file named <span class=\"filename\">/live/persistence/"
-"TailsData_unlocked/apt-sources.list.d/non-free.list</span> with the "
-"following content:"
+"`non-free` sections of Debian 10 (bullseye), backports, and security "
+"updates, you can create a file named <span class=\"filename\">/live/"
+"persistence/TailsData_unlocked/apt-sources.list.d/non-free.list</span> with "
+"the following content:"
 msgstr ""
 "Escriviu els vostres fitxers `sources.list` addicionals a la carpeta <span "
 "class=\"filename\">apt-sources.list.d</span>. Per exemple, per afegir les "
@@ -860,11 +860,15 @@ msgstr ""
 "el contingut següent:"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "       deb tor+http://ftp.us.debian.org/debian/ buster non-free\n"
+#| "       deb tor+http://ftp.us.debian.org/debian/ buster-backports non-free\n"
+#| "       deb tor+http://security.debian.org/ buster/updates non-free\n"
 msgid ""
-"       deb tor+http://ftp.us.debian.org/debian/ buster non-free\n"
-"       deb tor+http://ftp.us.debian.org/debian/ buster-backports non-free\n"
-"       deb tor+http://security.debian.org/ buster/updates non-free\n"
+"       deb tor+http://ftp.us.debian.org/debian/ bullseye non-free\n"
+"       deb tor+http://ftp.us.debian.org/debian/ bullseye-backports non-free\n"
+"       deb tor+http://security.debian.org/ bullseye/updates non-free\n"
 msgstr ""
 "       deb tor+http://ftp.us.debian.org/debian/ buster non-free\n"
 "       deb tor+http://ftp.us.debian.org/debian/ buster-backports non-free\n"
