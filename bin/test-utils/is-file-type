@@ -9,16 +9,16 @@ import sys
 
 
 class Language:
-    NAME = ''
+    NAME = ""
     EXTENSIONS = ()
     SHEBANGS = ()
 
     def extract_shebang(self, file: Path) -> Optional[str]:
-        with file.open('rb') as buf:
+        with file.open("rb") as buf:
             start = buf.read(2)
-            if start != b'#!':
+            if start != b"#!":
                 return None
-            return buf.readline().strip().decode('ascii')
+            return buf.readline().strip().decode("ascii")
 
     def find_matching(self, needle, haystack) -> bool:
         for hay in haystack:
@@ -26,7 +26,7 @@ class Language:
                 if hay == needle:
                     return True
             elif hay.match(needle) is not None:
-                    return True
+                return True
         return False
 
     def check_extension(self, file: Path) -> bool:
@@ -53,7 +53,7 @@ class Language:
         return False
 
     @classmethod
-    def lookup_language(cls, language_name: str) -> 'Language':
+    def lookup_language(cls, language_name: str) -> "Language":
         for subcls in cls.__subclasses__():
             if language_name == subcls.NAME:
                 return subcls
@@ -70,20 +70,23 @@ class Language:
 class UnsupportedLanguage(Exception):
     pass
 
+
 class Python(Language):
-    NAME = 'python'
-    EXTENSIONS = ('.py', )
-    SHEBANGS = (re.compile('.*python3$'), )
+    NAME = "python"
+    EXTENSIONS = (".py",)
+    SHEBANGS = (re.compile(".*python3$"),)
+
 
 class Shell(Language):
-    NAME = 'shell'
-    EXTENSIONS = ('.sh', )
-    SHEBANGS = ('/bin/sh', '/bin/bash', '/usr/bin/env bash')
+    NAME = "shell"
+    EXTENSIONS = (".sh",)
+    SHEBANGS = ("/bin/sh", "/bin/bash", "/usr/bin/env bash")
+
 
 class Ruby(Language):
-    NAME = 'ruby'
-    EXTENSIONS = ('.rb', )
-    SHEBANGS = ('/usr/bin/ruby', '/usr/bin/env ruby')
+    NAME = "ruby"
+    EXTENSIONS = (".rb",)
+    SHEBANGS = ("/usr/bin/ruby", "/usr/bin/env ruby")
 
 
 def get_parser():
@@ -95,28 +98,37 @@ def get_parser():
 
     sub = p.add_subparsers()
 
-    supported_languages = ','.join(Language.list_languages())
+    supported_languages = ",".join(Language.list_languages())
 
-    check = sub.add_parser('check')
-    check.add_argument('language', type=get_language,
-                         help=f'One of {supported_languages}')
-    check.add_argument('file', type=Path)
+    check = sub.add_parser("check")
+    check.add_argument(
+        "language", type=get_language, help=f"One of {supported_languages}"
+    )
+    check.add_argument("file", type=Path)
     check.set_defaults(func=main_check)
 
-    _filter = sub.add_parser('filter', description='Only print matching lines')
-    _filter.add_argument('--zero', action='store_true', default=False,
-                         help='Use \\0 instead of newlines, both as input and output delimiter')
-    _filter.add_argument('language', type=get_language,
-                         help=f'One of {supported_languages}')
-    _filter.add_argument('files', type=Path, nargs='*',
-                         help='If no file is provided, read from stdin')
+    _filter = sub.add_parser("filter", description="Only print matching lines")
+    _filter.add_argument(
+        "--zero",
+        action="store_true",
+        default=False,
+        help="Use \\0 instead of newlines, both as input and output delimiter",
+    )
+    _filter.add_argument(
+        "language", type=get_language, help=f"One of {supported_languages}"
+    )
+    _filter.add_argument(
+        "files", type=Path, nargs="*", help="If no file is provided, read from stdin"
+    )
     _filter.set_defaults(func=main_filter)
 
     return p
 
+
 def main_help(args):
     print("Wrong usage, try --help", file=sys.stderr)
     sys.exit(1)
+
 
 def main_check(args):
     if not args.language.check(args.file):
@@ -149,16 +161,18 @@ def iterate_file_list(args, delimiter="\n"):
 
 
 def main_filter(args):
-    delimiter = '\0' if args.zero else '\n'
+    delimiter = "\0" if args.zero else "\n"
     for file in iterate_file_list(args, delimiter=delimiter):
         if not file.is_file():
             continue
         if args.language.check(file):
             print(file, end=delimiter)
 
+
 def main():
     args = get_parser().parse_args()
     args.func(args)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
