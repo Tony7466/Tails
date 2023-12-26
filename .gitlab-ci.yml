@@ -155,7 +155,7 @@ shellcheck:
   script:
   - apt-get -qy install python3 shellcheck xmlstarlet file
   - shellcheck --version
-  - './bin/shellcheck-tree --format=checkstyle
+  - 'git ls-files -z | ./bin/test-utils/is-file-type filter --zero shell | xargs --verbose --no-run-if-empty -0 shellcheck --format=checkstyle
        | xmlstarlet tr config/ci/shellcheck/checkstyle2junit.xslt
        > shellcheck.xml'
   artifacts:
