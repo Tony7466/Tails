@@ -1,5 +1,8 @@
 [[!meta title="Acknowledgments and similar projects"]]
 
+Tails was first released in [August
+2009](https://lists.torproject.org/pipermail/tor-talk/2009-August/002667.html),
+when it was still called `amnesia`.
 In 2019, Tails [[celebrated 10 years of
 existence|news/celebrating_10_years]].
 
