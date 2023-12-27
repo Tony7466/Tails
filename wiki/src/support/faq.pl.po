@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-23 16:00+0000\n"
+"POT-Creation-Date: 2023-12-27 22:20+0000\n"
 "PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,8 +29,8 @@ msgid ""
 "- For hardware compatibility issues, refer to our [[known issues|support/"
 "known_issues]]."
 msgstr ""
-"- W przypadku problemów ze zgodnością sprzętu zapoznaj się z naszymi [["
-"znanymi problemami|wsparcie/znane_problemy]]."
+"- W przypadku problemów ze zgodnością sprzętu zapoznaj się z naszymi "
+"[[znanymi problemami|wsparcie/znane_problemy]]."
 
 #. type: Plain text
 msgid ""
@@ -91,8 +91,8 @@ msgid ""
 "upsilon.cc/~zack/blog/posts/2011/09/"
 "why_there_are_so_many_debian_derivatives/)  by Stefano Zacchiroli."
 msgstr ""
-"Zobacz także artykuł [Why there are so many Debian "
-"derivatives](http://upsilon.cc/~zack/blog/posts/2011/09/"
+"Zobacz także artykuł [Why there are so many Debian derivatives](http://"
+"upsilon.cc/~zack/blog/posts/2011/09/"
 "why_there_are_so_many_debian_derivatives/) autorstwa Stefano Zacchiroli."
 
 #. type: Plain text
@@ -118,8 +118,8 @@ msgid ""
 msgstr ""
 "Ubuntu dodaje funkcje w sposób, który uważamy za niebezpieczny dla "
 "prywatności. Na przykład Ubuntu One ([częściowo wycofane](http://blog."
-"canonical.com/2014/04/02/shutting-down-ubuntu-one-file-services/)) i ["
-"reklamy Amazon i wycieki danych](https://www.eff.org/deeplinks/2012/10/"
+"canonical.com/2014/04/02/shutting-down-ubuntu-one-file-services/)) i "
+"[reklamy Amazon i wycieki danych](https://www.eff.org/deeplinks/2012/10/"
 "privacy-ubuntu-1210-amazon-ads-and-data-leaks)."
 
 #. type: Bullet: '- '
@@ -136,9 +136,9 @@ msgid ""
 "backports.debian.org/). The result is comparable to Ubuntu in terms of "
 "support for recent hardware."
 msgstr ""
-"Zazwyczaj dostarczamy jądra i sterowniki wideo z [Debian "
-"backports](http://backports.debian.org/). Rezultat jest porównywalny z "
-"Ubuntu pod względem wsparcia dla najnowszego sprzętu."
+"Zazwyczaj dostarczamy jądra i sterowniki wideo z [Debian backports](http://"
+"backports.debian.org/). Rezultat jest porównywalny z Ubuntu pod względem "
+"wsparcia dla najnowszego sprzętu."
 
 #. type: Bullet: '- '
 msgid ""
@@ -1078,11 +1078,28 @@ msgid "<h2 id=\"old-software\">Why does Tails include old versions of software?<
 msgstr ""
 
 #. type: Plain text
+msgid "The Tails 5 series is based on Debian 11 (Bullseye)."
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"Tails includes the software versions that are found in [Debian stable]"
-"(https://wiki.debian.org/DebianStable). Even though the software versions "
-"might be old, they receive security fixes through the [Debian security team]"
-"(https://wiki.debian.org/Teams/Security)."
+"The version of each application included in Tails corresponds to the version "
+"available in this version of Debian. Even though some versions might be old, "
+"the [Debian Security Team](https://wiki.debian.org/Teams/Security) provides "
+"security updates."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Newer versions of all applications will be available starting from Tails "
+"6.0, which will be based on Debian 12 (Bookworm). Until then, you cannot "
+"update any of the applications included in Tails to a newer version."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can see which version of a software package is available in each version "
+"of Debian on <https://packages.debian.org/>."
 msgstr ""
 
 #. type: Plain text
@@ -1149,10 +1166,8 @@ msgid ""
 "<span class=\"application\">Tor Browser</span> restarts the browser, you have to\n"
 "restart Tails before using a different identity.\n"
 msgstr ""
-"W ten sam sposób, jak przycisk <span class=\"guilabel\">Nowa tożsamość</span>"
-"\n"
-"<span class=\"application\">Przeglądarka Tor</span> uruchamia ponownie "
-"przeglądarkę, musisz to zrobić\n"
+"W ten sam sposób, jak przycisk <span class=\"guilabel\">Nowa tożsamość</span>\n"
+"<span class=\"application\">Przeglądarka Tor</span> uruchamia ponownie przeglądarkę, musisz to zrobić\n"
 "zrestartuj Tailsa przed użyciem innej tożsamości.\n"
 
 #. type: Plain text
@@ -1166,8 +1181,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"antivirus\">Does Tails need an antivirus?</h2>\n"
-msgstr ""
-"<h2 id=\"antivirus\">Czy Tails potrzebuje programu antywirusowego?</h2>\n"
+msgstr "<h2 id=\"antivirus\">Czy Tails potrzebuje programu antywirusowego?</h2>\n"
 
 #. type: Plain text
 msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-23 16:00+0000\n"
+"POT-Creation-Date: 2023-12-27 22:20+0000\n"
 "PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1328,17 +1328,40 @@ msgid "<h2 id=\"old-software\">Why does Tails include old versions of software?<
 msgstr "<h2 id=\"old-software\">Per què Tails inclou versions antigues de programari?</h2>\n"
 
 #. type: Plain text
+msgid "The Tails 5 series is based on Debian 11 (Bullseye)."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Tails includes the software versions that are found in [Debian stable]"
+#| "(https://wiki.debian.org/DebianStable). Even though the software versions "
+#| "might be old, they receive security fixes through the [Debian security "
+#| "team](https://wiki.debian.org/Teams/Security)."
 msgid ""
-"Tails includes the software versions that are found in [Debian stable]"
-"(https://wiki.debian.org/DebianStable). Even though the software versions "
-"might be old, they receive security fixes through the [Debian security team]"
-"(https://wiki.debian.org/Teams/Security)."
+"The version of each application included in Tails corresponds to the version "
+"available in this version of Debian. Even though some versions might be old, "
+"the [Debian Security Team](https://wiki.debian.org/Teams/Security) provides "
+"security updates."
 msgstr ""
 "Tails inclou les versions de programari que es troben a la distribució "
 "[estable de Debian](https://wiki.debian.org/DebianStable). Tot i que les "
 "versions del programari poden ser antigues, reben correccions de seguretat a "
 "través de l'[equip de seguretat de Debian](https://wiki.debian.org/Teams/"
 "Security)."
+
+#. type: Plain text
+msgid ""
+"Newer versions of all applications will be available starting from Tails "
+"6.0, which will be based on Debian 12 (Bookworm). Until then, you cannot "
+"update any of the applications included in Tails to a newer version."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can see which version of a software package is available in each version "
+"of Debian on <https://packages.debian.org/>."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
