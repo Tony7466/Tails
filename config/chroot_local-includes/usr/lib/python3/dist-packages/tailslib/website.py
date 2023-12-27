@@ -45,14 +45,6 @@ def resolve_if_tails_website(uri: str, force_local: bool = False) -> str:
 
 
 def find_local_page(page: str, lang: str) -> str:
-    """
-    This test only works inside a running Tails
-
-    >>> find_local_page('doc', 'de')
-    'file:///usr/share/doc/tails/website/doc.de.html'
-    >>> find_local_page('doc/upgrade', 'it')
-    'file:///usr/share/doc/tails/website/doc/upgrade.it.html'
-    """
     for lang_code in (lang, "en", None):
         local_page = get_local_path(page, lang_code)
         if os.path.isfile(local_page):
@@ -65,10 +57,3 @@ def get_local_path(page, lang_code: str) -> str:
         return safe_join(WEBSITE_LOCAL_PATH, page + "." + lang_code + ".html")
     else:
         return safe_join(WEBSITE_LOCAL_PATH, page + ".html")
-
-
-if __name__ == "__main__":
-    if sys.argv[1] == "doctest":
-        import doctest
-
-        doctest.testmod()
