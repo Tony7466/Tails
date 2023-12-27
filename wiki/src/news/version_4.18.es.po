@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2023-12-27 16:22+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2023-12-27 17:54+0000\n"
+"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -150,7 +150,9 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr "Para actualizar Tails y mantener tu almacenamiento persistente"
+msgstr ""
+"Para actualizar tu memoria USB de Tails y mantener tu almacenamiento "
+"persistente"
 
 #. type: Bullet: '- '
 msgid ""
