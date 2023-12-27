@@ -98,11 +98,8 @@ When starting Tails, you can choose between a large number of languages,
 including Arabic, English, Farsi, French, German, Hindi, Indonesian, Italian,
 Portuguese, Russian, Simplified Chinese, Spanish, Turkish, and more.
 
-Some of these languages could not be thoroughly tested as we don't
-speak every language in the world. If you find issues using one of the
-supposedly supported languages, don't hesitate to [[tell us about
-it|support]]. E.g. Tails probably lacks some non-Latin fonts
-or input systems.
+If you find an issue using one of these languages, please [[tell us about
+it|support]].
 
-If you wish to make it easier to use Tails for your language speakers,
-see the [[translators guidelines|contribute/how/translate]].
+To make it easier to use Tails in your own language, you can [[help with
+translations|contribute/how/translate]].
