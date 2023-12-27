@@ -24,10 +24,10 @@ def run_torbrowser(args: list):
     os.execv("/usr/bin/systemd-run", cmdline)
 
 def main():
-    args = sys.argv
-    if len(sys.argv) == 1:
+    args = sys.argv[1:]
+    if len(args) == 1:
         with contextlib.suppress(DocumentationPageNotFound):
-            args = [resolve(sys.argv[0])]
+            args = [resolve(args[0])]
 
     run_torbrowser(args)
 
