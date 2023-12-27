@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"PO-Revision-Date: 2023-12-27 12:37+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/doc/"
 "es/>\n"
 "Language: es\n"
@@ -124,7 +124,7 @@ msgstr "[[Para memorias USB (imagen USB)|install/download]]"
 
 #. type: Bullet: '  * '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Para DVD y máquinas virtuales (imagen ISO)|install/download-iso]]"
 
 #. type: Plain text
 msgid "- Upgrading a Tails USB stick:"

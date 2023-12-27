@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-12-03 20:43+0000\n"
+"PO-Revision-Date: 2023-12-27 02:21+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Troubleshooting connecting to Tor\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Solución de problemas de conexión a Tor\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -32,6 +32,8 @@ msgstr ""
 #, no-wrap
 msgid "<h2 id=\"clock\">The computer clock is set to an incorrect time zone</h2>\n"
 msgstr ""
+"<h2 id=\"clock\">El reloj de la computadora está configurado en una zona "
+"horaria incorrecta</h2>\n"
 
 #. type: Plain text
 msgid "The clock of the computer needs to be correct to connect to Tor."

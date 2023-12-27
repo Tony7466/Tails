@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-11-16 11:13+0100\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -27,6 +27,7 @@ msgstr "[[!meta date=\"Wed, 11 Nov 2020 21:15:09 +0000\"]]\n"
 #, no-wrap
 msgid "[[!meta title=\"JavaScript vulnerability in Tor Browser\"]]\n"
 msgstr ""
+"[[!meta title=\"Luka w zabezpieczeniach JavaScript w przeglądarce Tor\"]]\n"
 
 #. type: Plain text
 #, no-wrap

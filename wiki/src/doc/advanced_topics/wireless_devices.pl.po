@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -27,6 +27,7 @@ msgstr "[[!meta title=\"Włączanie urządzenia bezprzewodowego\"]]\n"
 #. type: Plain text
 msgid "When Tails starts, Wi-Fi, WWAN, and WiMAX devices are enabled."
 msgstr ""
+"Po uruchomieniu aplikacji Tails urządzenia Wi-Fi, WWAN i WiMAX są włączone."
 
 #. type: Plain text
 msgid ""
@@ -34,6 +35,9 @@ msgid ""
 "devices are disabled by default. If you want to use such a device, you need "
 "to enable it first."
 msgstr ""
+"Jednak wszystkie inne rodzaje urządzeń bezprzewodowych, takie jak Bluetooth, "
+"GPS i urządzenia FM, są domyślnie wyłączone. Jeśli chcesz korzystać z "
+"takiego urządzenia, musisz je najpierw włączyć."
 
 #. type: Plain text
 #, no-wrap

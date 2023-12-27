@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-12-09 02:46+0000\n"
+"PO-Revision-Date: 2023-12-27 17:55+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -152,7 +152,9 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr "Para actualizar Tails y mantener tu almacenamiento persistente"
+msgstr ""
+"Para actualizar tu memoria USB de Tails y mantener tu almacenamiento "
+"persistente"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from Tails 4.2 or later to 4.11."
@@ -170,11 +172,11 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Para instalar Tails en una nueva memoria USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Sigue nuestras instrucciones de instalación:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
@@ -182,7 +184,7 @@ msgstr "[[Instalar desde Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Instalar desde macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
@@ -194,11 +196,14 @@ msgid ""
 "<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
+"<div class=\"caution\"><p>El Almacenamiento Persistente en la memoria USB se "
+"perderá si\n"
+"instalas en vez de actualizar.</p></div>\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Para sólo descargar"
 
 #. type: Plain text
 msgid ""
@@ -208,11 +213,11 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[[Para memorias USB (imagen USB)|install/download]]"
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Para DVD y máquinas virtuales (imagen ISO)|install/download-iso]]"
 
 #. type: Title #
 #, no-wrap

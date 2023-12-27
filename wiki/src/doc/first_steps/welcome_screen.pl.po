@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-18 14:36+0100\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -29,12 +29,15 @@ msgid ""
 "The Welcome Screen appears after the Boot Loader, but before the GNOME "
 "Desktop."
 msgstr ""
+"Ekran powitalny pojawia się po programie ładującym, ale przed pulpitem GNOME."
 
 #. type: Plain text
 msgid ""
 "You can use the Welcome Screen to specify startup options that alter some of "
 "the basic functioning of Tails."
 msgstr ""
+"Za pomocą ekranu powitalnego można określić opcje uruchamiania, które "
+"zmieniają niektóre z podstawowych funkcji aplikacji Tails."
 
 #. type: Plain text
 #, no-wrap
@@ -49,9 +52,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr "<div class=\"caution\">\n"
+msgstr "<div class=\"uwaga\">\n"
 
 #. type: Plain text
 #, no-wrap

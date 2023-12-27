@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-09-07 14:15+0200\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -29,10 +29,13 @@ msgid ""
 "Tails could not determine whether an upgrade is available from our website.  "
 "This is most likely caused by a network connection problem."
 msgstr ""
+"Tails nie mógł ustalić, czy aktualizacja jest dostępna na naszej stronie "
+"internetowej.  Jest to najprawdopodobniej spowodowane problemem z "
+"połączeniem sieciowym."
 
 #. type: Plain text
 msgid "To solve it:"
-msgstr ""
+msgstr "Aby go rozwiązać:"
 
 #. type: Bullet: '1. '
 msgid ""

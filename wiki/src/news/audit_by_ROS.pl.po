@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-14 10:03+0000\n"
-"PO-Revision-Date: 2023-12-22 19:22+0000\n"
+"PO-Revision-Date: 2023-12-23 19:23+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -23,6 +23,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta title=\"Security audit of Persistent Storage and Tor integration\"]]\n"
 msgstr ""
+"[[!meta title=\"Audyt bezpieczeństwa trwałej pamięci masowej i integracji z "
+"Torem\"]]\n"
 
 #. type: Plain text
 #, no-wrap

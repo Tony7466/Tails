@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"POT-Creation-Date: 2023-12-26 10:46+0000\n"
+"PO-Revision-Date: 2023-12-23 21:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -32,7 +32,7 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Title =
 #, no-wrap
 msgid "Which additional software can I install in Tails?"
-msgstr ""
+msgstr "Jakie dodatkowe oprogramowanie mogę zainstalować w Tails?"
 
 #. type: Plain text
 msgid ""
@@ -690,18 +690,18 @@ msgstr ""
 msgid ""
 "Write your additional `sources.list` files in the <span "
 "class=\"filename\">apt-sources.list.d</span> folder. For example, to add the "
-"`non-free` sections of Debian 10 (Buster), backports, and security updates, "
-"you can create a file named <span class=\"filename\">/live/persistence/"
-"TailsData_unlocked/apt-sources.list.d/non-free.list</span> with the "
-"following content:"
+"`non-free` sections of Debian 10 (bullseye), backports, and security "
+"updates, you can create a file named <span class=\"filename\">/live/"
+"persistence/TailsData_unlocked/apt-sources.list.d/non-free.list</span> with "
+"the following content:"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"       deb tor+http://ftp.us.debian.org/debian/ buster non-free\n"
-"       deb tor+http://ftp.us.debian.org/debian/ buster-backports non-free\n"
-"       deb tor+http://security.debian.org/ buster/updates non-free\n"
+"       deb tor+http://ftp.us.debian.org/debian/ bullseye non-free\n"
+"       deb tor+http://ftp.us.debian.org/debian/ bullseye-backports non-free\n"
+"       deb tor+http://security.debian.org/ bullseye/updates non-free\n"
 msgstr ""
 
 #. type: Plain text

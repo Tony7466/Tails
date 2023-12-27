@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -26,7 +26,7 @@ msgstr "[[!meta title=\"Umowa społeczna\"]]\n"
 #. type: Title ##
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Wstęp"
 
 #. type: Plain text
 #, no-wrap
@@ -36,6 +36,11 @@ msgid ""
 "the Debian Social Contract and the Tor Social Contract. If you have any\n"
 "questions or comments, feel free to email: <tails-dev@boum.org>.\n"
 msgstr ""
+"Umowa Społeczna Tails jest zbiorem zobowiązań, które my jako\n"
+"współtwórcy projektu Tails. Ta praca wywodzi się z\n"
+"Debian Social Contract i Tor Social Contract. Jeśli masz jakieś\n"
+"pytania lub komentarze, prosimy o kontakt pod adresem e-mail: <tails-dev@boum"
+".org>.\n"
 
 #. type: Plain text
 msgid ""

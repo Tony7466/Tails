@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2019-11-06 08:52+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -24,9 +24,9 @@ msgid "[[!meta title=\"Translate Tails: Help wanted\"]]\n"
 msgstr "[[!meta title=\"Tłumacz Tails: poszukiwana pomoc\"]]\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[[!meta date=\"Wed, 6 Nov 2019 09:00:00 +0000\"]]\n"
-msgstr ""
+msgstr "[[!meta date=\"Wed, 6 Nov 2019 09:00:00 +0000\"]]\n"
 
 #. type: Plain text
 #, no-wrap

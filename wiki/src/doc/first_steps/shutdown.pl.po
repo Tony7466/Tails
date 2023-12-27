@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -26,13 +26,15 @@ msgstr "[[!meta title=\"Zamykanie Tails\"]]\n"
 
 #. type: Plain text
 msgid "There are several ways of shutting down Tails:"
-msgstr ""
+msgstr "Istnieje kilka sposobów na wyłączenie Tails:"
 
 #. type: Bullet: '- '
 msgid ""
 "By clicking on the system menu located in the upper right corner of the "
 "screen and choosing either:"
 msgstr ""
+"Klikając menu systemowe znajdujące się w prawym górnym rogu ekranu i "
+"wybierając jedną z opcji:"
 
 #. type: Bullet: '  * '
 msgid ""

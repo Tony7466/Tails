@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-05-10 15:03+0000\n"
-"PO-Revision-Date: 2023-12-22 19:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -19,18 +19,18 @@ msgstr ""
 "X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[[!meta robots=\"noindex\"]]\n"
 msgstr "[[!meta robots=\"noindex\"]]\n"
 
 #. type: Plain text
 msgid ""
 "Sometimes, after an automatic upgrade, your Tails USB stick might either:"
-msgstr ""
+msgstr "Czasami po automatycznej aktualizacji pamięć USB Tails może:"
 
 #. type: Plain text
 msgid "- Fail to start, often after the message:"
-msgstr ""
+msgstr "- Nie udaje się uruchomić, często po komunikacie:"
 
 #. type: Plain text
 #, no-wrap
@@ -49,9 +49,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr "<div class=\"caution\">\n"
+msgstr "<div class=\"uwaga\">\n"
 
 #. type: Plain text
 #, no-wrap

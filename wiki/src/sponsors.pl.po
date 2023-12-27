@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-20 18:33+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -25,7 +25,7 @@ msgstr "[[!meta title=\"Sponsorzy\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]]"
-msgstr ""
+msgstr "[[!meta stylesheet=\"sponsorzy\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <p>
 msgid ""
@@ -33,6 +33,9 @@ msgid ""
 "Tails through grants, awards, or donations. Thanks to their substantial "
 "support we are able to maintain and improve Tails. Thank you!"
 msgstr ""
+"Te organizacje, firmy i osoby prywatne zapewniły wsparcie finansowe dla "
+"Tails poprzez dotacje, nagrody lub darowizny. Dzięki ich znacznemu wsparciu "
+"jesteśmy w stanie utrzymywać i ulepszać Tails. Dziękujemy!"
 
 #. type: Content of: <h1>
 msgid "Becoming a sponsor"
@@ -817,75 +820,80 @@ msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Open Internet Tools - $25 800"
-msgstr ""
+msgstr "Open Internet Tools - $25 800"
 
 #. type: Content of: <div><p>
 #, fuzzy
 msgid "[[!img openitp.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img ndi.png link=\"no\"]]"
+msgstr "[[!img openitp.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Förderung Freier Information und Software - 5 000€"
-msgstr ""
+msgstr "Förderung Freier Information und Software - 5 000€"
 
 #. type: Content of: <div><p>
 #, fuzzy
 msgid "[[!img ffis.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img ndi.png link=\"no\"]]"
+msgstr "[[!img ffis.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Debian - $5 000"
-msgstr ""
+msgstr "Debian - $5 000"
 
 #. type: Content of: <div><p>
 #, fuzzy
 msgid "[[!img debian.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img ndi.png link=\"no\"]]"
+msgstr "[[!img debian.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $5 000"
-msgstr ""
+msgstr "Tor - $5 000"
 
 #. type: Attribute 'title' of: <div><p>
+#, fuzzy
 msgid "Mozilla - Travel to Tails hackfest"
-msgstr ""
+msgstr "Mozilla - Travel to Tails hackfest"
 
 #. type: Content of: <h2>
+#, fuzzy
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #. type: Attribute 'title' of: <div><p>
+#, fuzzy
 msgid "National Democratic Institute - $21 000"
-msgstr ""
+msgstr "National Democratic Institute - $21 000"
 
 #. type: Content of: <div><p>
-#, fuzzy
 msgid "[[!img ndi.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img ndi.png link=\"no\"]]"
+msgstr "[[!img ndi.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $20 000"
-msgstr ""
+msgstr "Tor - $20 000"
 
 #. type: Content of: <h2>
+#, fuzzy
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #. type: Content of: <h2>
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $10 950"
-msgstr ""
+msgstr "Tor - $10 950"
 
 #. type: Content of: <h2>
+#, fuzzy
 msgid "2010"
-msgstr ""
+msgstr "2010"
 
 #. type: Attribute 'title' of: <div><p>
+#, fuzzy
 msgid "Tor - 8 500€"
-msgstr ""
+msgstr "Tor - 8 500€"
 
 #, fuzzy
 #~ msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "The Boot Loader is the first screen that appears when Tails starts."
-msgstr ""
+msgstr "Boot Loader to pierwszy ekran, który pojawia się po uruchomieniu Tails."
 
 #. type: Plain text
 msgid ""
@@ -37,11 +37,16 @@ msgid ""
 "support/known_issues/graphics]] document boot options for different graphics "
 "cards."
 msgstr ""
+"Za pomocą programu Boot Loader można modyfikować *opcje rozruchu*. Opcje "
+"rozruchu są specjalnymi parametrami używanymi do rozwiązywania problemów lub "
+"obchodzenia problemów z obsługą sprzętu.  Na przykład, nasza [[lista znanych "
+"problemów z kartami graficznymi|support/known_issues/graphics]] dokumentuje "
+"opcje uruchamiania dla różnych kart graficznych."
 
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"bug\">\n"
-msgstr "<div class=\"bug\">\n"
+msgstr "<div class=\"błąd\">\n"
 
 #. type: Plain text
 #, no-wrap
@@ -91,9 +96,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr "<div class=\"caution\">\n"
+msgstr "<div class=\"uwaga\">\n"
 
 #. type: Plain text
 #, no-wrap

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-22 21:22+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -35,6 +35,9 @@ msgid ""
 "<p>If this section doesn't answer your questions, you can also look at our\n"
 "[[FAQ|support/faq]].</p>\n"
 msgstr ""
+"<p>Jeśli w tej sekcji nie znajdziesz odpowiedzi na Twoje pytania, możesz "
+"także zajrzeć do naszej sekcji\n"
+"[[FAQ|support/faq]].</p>\n"
 
 #. type: Plain text
 #, no-wrap

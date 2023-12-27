@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -31,6 +31,10 @@ msgid ""
 "*VirtualBox* or *GNOME Boxes* but it also has a more complete set of "
 "features."
 msgstr ""
+"[*virt-manager*](http://virt-manager.org/) to bezpłatne rozwiązanie do "
+"wirtualizacji dla systemu Linux. *virt-manager* ma bardziej złożony "
+"interfejs niż *VirtualBox* czy *GNOME Boxes*, ale ma także pełniejszy zestaw "
+"funkcji."
 
 #. type: Plain text
 #, no-wrap
@@ -57,14 +61,15 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr "<div class=\"caution\">\n"
+msgstr "<div class=\"uwaga\">\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<p>The following instructions have been tested on Debian 11 (Bullseye).</p>\n"
 msgstr ""
+"<p>Poniższe instrukcje zostały przetestowane na Debianie 11 (Bullseye).</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -72,11 +77,13 @@ msgid ""
 "<p>Please, [[let us know|about/contact#tails-dev]] if they do not apply\n"
 "to Debian 12 (Bookworm).</p>\n"
 msgstr ""
+"<p>Proszę [[daj nam znać|about/contact#tails-dev]], jeśli nie dotyczą one\n"
+"do Debiana 12 (Bookworm).</p>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Terminology"
-msgstr ""
+msgstr "Terminologia"
 
 #. type: Plain text
 #, no-wrap
@@ -86,18 +93,28 @@ msgid ""
 "processor. This terminology is a bit confusing and other documentation\n"
 "might mention the following tools:\n"
 msgstr ""
+"*virt-manager* bazuje na zestawie narzędzi wirtualizacyjnych niższego "
+"poziomu,\n"
+"przechodząc od interfejsu użytkownika do interakcji sprzętowych z\n"
+"procesor. Ta terminologia jest nieco zagmatwana i inna dokumentacja\n"
+"może wymienić następujące narzędzia:\n"
 
 #. type: Bullet: '- '
 msgid ""
 "*KVM* is the module of the Linux kernel that interacts with the "
 "virtualization features of the processor."
 msgstr ""
+"*KVM* to moduł jądra Linuksa, który współdziała z funkcjami wirtualizacji "
+"procesora."
 
 #. type: Bullet: '- '
 msgid ""
 "*QEMU* is the virtualization software that emulates virtual processors and "
 "peripherals based on *KVM* and that starts and stops virtual machines."
 msgstr ""
+"*QEMU* to oprogramowanie do wirtualizacji, które emuluje procesory wirtualne "
+"i urządzenia peryferyjne oparte na *KVM* oraz uruchamia i zatrzymuje maszyny "
+"wirtualne."
 
 #. type: Bullet: '- '
 msgid ""

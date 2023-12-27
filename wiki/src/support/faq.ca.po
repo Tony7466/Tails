@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-22 12:22+0000\n"
+"POT-Creation-Date: 2023-12-23 16:00+0000\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -28,15 +28,15 @@ msgid ""
 "- For hardware compatibility issues, refer to our [[known issues|support/"
 "known_issues]]."
 msgstr ""
-"- Per a problemes de compatibilitat de maquinari, consulteu els nostres [["
-"problemes coneguts|support/known_issues]]."
+"- Per a problemes de compatibilitat de maquinari, consulteu els nostres "
+"[[problemes coneguts|support/known_issues]]."
 
 #. type: Plain text
 msgid ""
 "- To learn what you can do with Tails, refer to our [[documentation|doc]]."
 msgstr ""
-"- Per saber què podeu fer amb Tails, consulteu la nostra "
-"[[documentació|doc]]."
+"- Per saber què podeu fer amb Tails, consulteu la nostra [[documentació|"
+"doc]]."
 
 #. type: Plain text
 msgid ""
@@ -408,9 +408,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"upgrade\">Should I update Tails using <code>apt upgrade</code> or <i>Synaptic</i>?</h2>\n"
-msgstr ""
-"<h2 id=\"upgrade\">He d'actualitzar Tails mitjançant <code>apt upgrade</"
-"code> o <i>Synaptic</i>?</h2>\n"
+msgstr "<h2 id=\"upgrade\">He d'actualitzar Tails mitjançant <code>apt upgrade</code> o <i>Synaptic</i>?</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -770,7 +768,7 @@ msgid "- To access private VPN services like intranets or share folders"
 msgstr "- Per accedir a serveis VPN privats com intranets o compartir carpetes"
 
 #. type: Plain text
-msgid "- To browser the Internet at higher speeds than Tor"
+msgid "- To browse the Internet at higher speeds than Tor"
 msgstr "- Per navegar per Internet a velocitats superiors a Tor"
 
 #. type: Plain text
@@ -805,9 +803,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"torrc\">Can I choose the country of my exit nodes or further edit the <code>torrc</code>?</h2>\n"
-msgstr ""
-"<h2 id=\"torrc\">Puc triar el país dels meus nodes de sortida o editar "
-"encara més el <code>torrc</code>?</h2>\n"
+msgstr "<h2 id=\"torrc\">Puc triar el país dels meus nodes de sortida o editar encara més el <code>torrc</code>?</h2>\n"
 
 #. type: Plain text
 msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-22 17:19+0000\n"
+"PO-Revision-Date: 2023-12-25 07:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Limitations of the Tor network\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Ograniczenia sieci Tor\"]]"
 
 #. type: Content of: <h1>
 msgid "Limitations of the Tor network"
@@ -39,7 +39,7 @@ msgstr ""
 #. type: Content of: <p>
 msgid ""
 "Everything you do on the Internet from Tails goes through the Tor network."
-msgstr ""
+msgstr "Wszystko, co robisz w Internecie z Tails, przechodzi przez sieć Tor."
 
 #. type: Content of: <p>
 msgid ""

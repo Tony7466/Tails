@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-25 15:40-0600\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -28,6 +28,8 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta robots=\"noindex\"]] <!-- Don't index ISO download to prevent user mistakes. -->\n"
 msgstr ""
+"[[!meta robots=\"noindex\"]] <!-- Nie indeksuj pobierania ISO, aby zapobiec "
+"błędom użytkownika. -->\n"
 
 #. type: Plain text
 #, no-wrap

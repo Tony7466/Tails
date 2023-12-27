@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-22 19:22+0000\n"
+"PO-Revision-Date: 2023-12-25 07:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -22,13 +22,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Creating the Persistent Storage\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tworzenie trwałej pamięci masowej\"]]\n"
 
 #. type: Plain text
 msgid ""
 "To create the Persistent Storage, choose **Applications**&nbsp;▸ "
 "**Tails**&nbsp;▸ **Persistent Storage**."
 msgstr ""
+"Aby utworzyć pamięć trwałą, wybierz **Aplikacje**&nbsp;▸ **Tails**&nbsp;▸ **"
+"Pamięć trwała**."
 
 #. type: Plain text
 msgid ""
@@ -38,9 +40,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr "<div class=\"caution\">\n"
+msgstr "<div class=\"uwaga\">\n"
 
 #. type: Plain text
 #, no-wrap

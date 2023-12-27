@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-03-15 18:33+0000\n"
-"PO-Revision-Date: 2023-12-22 21:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -33,11 +33,18 @@ msgid ""
 "LAN for Local Area Network. In technical terms, this refers to the set of IP "
 "addresses defined in [RFC1918](https://tools.ietf.org/html/rfc1918)."
 msgstr ""
+"Termin „sieć lokalna” odnosi się tutaj do zbioru komputerów i urządzeń, do "
+"których można uzyskać dostęp bezpośrednio z komputera, bez konieczności "
+"korzystania z Internetu. Na przykład router domowy, drukarka sieciowa lub "
+"intranet Twojej firmy znajdują się najprawdopodobniej w Twojej sieci "
+"lokalnej, zwanej także LAN w przypadku sieci lokalnej. Z technicznego punktu "
+"widzenia odnosi się to do zestawu adresów IP zdefiniowanych w [RFC1918] "
+"(https://tools.ietf.org/html/rfc1918)."
 
 #. type: Title =
 #, no-wrap
 msgid "Security considerations"
-msgstr ""
+msgstr "Względy bezpieczeństwa"
 
 #. type: Plain text
 msgid ""

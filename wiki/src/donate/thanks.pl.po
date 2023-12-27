@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-11-14 10:03+0000\n"
-"PO-Revision-Date: 2023-12-23 06:21+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -24,17 +24,23 @@ msgid "[[!meta title=\"Thank you!\"]]"
 msgstr "[[!meta title=\"Dziękuję!\"]]"
 
 #. type: Content of: outside any tag (error?)
+#, fuzzy
 msgid ""
 "[[!meta stylesheet=\"donate/thanks\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "robots=\"noindex\"]]"
 msgstr ""
+"[[!meta stylesheet=\"donate/thanks\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"robots=\"noindex\"]]"
 
 #. type: Content of: <div>
 msgid ""
 "[[!img thanks.png link=\"no\" alt=\"Tails protects the most vulnerable\"]]"
 msgstr ""
+"[[!img thanks.png link=\"no\" alt=\"Tails chroni najbardziej bezbronnych\"]]"
 
 #. type: Content of: <div><div><h1>
 msgid "You make the Internet a safer place"
