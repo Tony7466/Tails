@@ -194,7 +194,7 @@ Last updated: 2022-09-12
 The keyboard and mouse do not work on this laptop.
 If you find a workaround, please let us know.
 
-<h1 id="wi-fi">Networking issues</h1>
+<h1 id="wifi">Networking issues</h1>
 
 <h2 id="no-wifi">Wi-Fi not working</h2>
 

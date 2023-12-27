@@ -51,7 +51,7 @@ To connect to the Internet, you can try to:
   </ul>
   </div>
 
-<a id="wi-fi-adapters"></a>
+<a id="wifi-adapters"></a>
 
 * Buy a USB Wi-Fi adapter that works in Tails:
 

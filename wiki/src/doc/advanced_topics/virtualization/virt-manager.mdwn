@@ -1,6 +1,6 @@
 [[!meta title="virt-manager"]]
 
-[*virt-manager*](http://virt-manager.org/) is a free software
+[*virt-manager*](http://virt-manager.org/) is a Free Software
 virtualization solution for Linux. *virt-manager* has a more complex
 interface than *VirtualBox* or *GNOME Boxes* but it also has a more
 complete set of features.

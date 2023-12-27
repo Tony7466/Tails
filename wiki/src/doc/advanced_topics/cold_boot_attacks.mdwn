@@ -7,7 +7,7 @@ the more likely it is for the data to still be in RAM.
 
 After a computer is powered off, the data in RAM disappears rapidly, but
 it can remain in RAM up to several minutes after shutdown. An attacker
-having access to a computer before it disappears completely could
+having access to a computer before the data in RAM disappears completely could
 recover important data from your session.
 
 This can be achieved using a technique called <span

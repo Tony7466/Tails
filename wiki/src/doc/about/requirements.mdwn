@@ -9,19 +9,19 @@ Summary
 - Tails might not work on:
   * Some older computers, for example, if they don't have enough RAM.
   * Some newer computers, for example, if their [[graphics card is incompatible with Linux|support/known_issues/graphics]].
-  * "Gaming" graphics cards like Nvidia or AMD Radeon, which are often incompatible.
+    For example, "gaming" graphics cards like Nvidia or AMD Radeon cards often do not work in Tails.
 
 <p>See our [[list of known hardware compatibility
 issues|support/known_issues]].</p>
 
 </div>
 
-Hardware requirements
-=====================
+Detailed hardware requirements
+==============================
 
 - A USB stick of 8 GB minimum or a recordable DVD.
 
-  All the data on this USB stick or DVD will be lost when installing Tails.
+  All the data on this USB stick or DVD is lost when installing Tails.
 
 - The ability to start from a USB stick or a DVD reader.
 
