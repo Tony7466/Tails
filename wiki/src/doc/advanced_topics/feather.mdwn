@@ -24,7 +24,4 @@ Software feature, it will not be automatically updated.</p>
 
 </div>
 
-Please report your findings about using *Feather* in Tails on:
-
-- <tails-testers@boum.org> (public mailing list)
-- [[!tails_ticket 17823]]
+Please report your findings about using *Feather* in Tails on [[!tails_ticket 17823]].
