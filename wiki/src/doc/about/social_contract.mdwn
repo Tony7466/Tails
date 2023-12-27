@@ -9,6 +9,8 @@ This work is derived from
 the [Debian Social Contract](https://www.debian.org/social_contract) and the
 [Tor Social Contract](https://community.torproject.org/policies/social_contract/).
 
+See also our [[Mission and Values|contribute/mission]].
+
 ## 1. By creating Tails we try to provide usable tools for anonymity and privacy
 
 We believe that privacy, the free exchange of ideas, and equal access to
@@ -85,5 +87,3 @@ learning process about the tools we ship.
 
 We provide and explain methods of verification so that anyone can ensure
 that they downloaded a genuine copy of Tails.
-
-<p>See also our [[Mission and Values|contribute/mission]].</p>
