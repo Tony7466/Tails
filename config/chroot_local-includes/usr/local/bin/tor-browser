@@ -4,7 +4,7 @@ import contextlib
 import os
 import sys
 
-from tailslib.website import DocumentationPageNotFound, resolve
+from tailslib.website import DocumentationPageNotFound, resolve_if_tails_website
 
 AT_SPI_PROXY_SERVICE = 'tails-a11y-bus-proxy.service'
 IBUS_PROXY_SERVICE = 'tails-ibus-proxy.service'
@@ -27,7 +27,7 @@ def main():
     args = sys.argv[1:]
     if len(args) == 1:
         with contextlib.suppress(DocumentationPageNotFound):
-            args = [resolve(args[0])]
+            args = [resolve_if_tails_website(args[0])]
 
     run_torbrowser(args)
 
