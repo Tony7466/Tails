@@ -8,11 +8,13 @@ WEBSITE_URL = "https://tails.net"
 WEBSITE_LOCAL_PATH = "/usr/share/doc/tails/website"
 LANG_CODE = os.getenv("LANG", "en")[0:2]
 
+
 class DocumentationPageNotFound(ValueError):
     def __init__(self):
         super().__init__("error: could not find the requested documentation page")
 
-def resolve(page: str, anchor: str='', force_local: bool=False) -> str:
+
+def resolve(page: str, anchor: str = "", force_local: bool = False) -> str:
     # If possible, let's hand-off to our website, which should be the most
     # up-to-date option.
     if not force_local and tor_has_bootstrapped():
@@ -32,11 +34,11 @@ def resolve(page: str, anchor: str='', force_local: bool=False) -> str:
     return uri
 
 
-def resolve_if_tails_website(uri: str, force_local: bool=False) -> str:
+def resolve_if_tails_website(uri: str, force_local: bool = False) -> str:
     if uri.startswith(WEBSITE_URL):
-        url = uri.removeprefix(WEBSITE_URL + '/')
+        url = uri.removeprefix(WEBSITE_URL + "/")
         try:
-            return resolve(*url.split('#', 1), force_local=force_local)
+            return resolve(*url.split("#", 1), force_local=force_local)
         except SuspiciousFileOperation:
             return uri
     return uri
@@ -65,7 +67,8 @@ def get_local_path(page, lang_code: str) -> str:
         return safe_join(WEBSITE_LOCAL_PATH, page + ".html")
 
 
-if __name__ == '__main__':
-    if sys.argv[1] == 'doctest':
+if __name__ == "__main__":
+    if sys.argv[1] == "doctest":
         import doctest
+
         doctest.testmod()
