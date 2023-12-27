@@ -113,7 +113,7 @@ class TailsInstallerCreator(object):
         
     def retry(func):
         def wrapper(*args, **kwargs):
-            for attempt in range(1, 10):
+            for attempt in range(1, 11):
                 try:
                     return func(*args, **kwargs)
                 except Exception as e:
