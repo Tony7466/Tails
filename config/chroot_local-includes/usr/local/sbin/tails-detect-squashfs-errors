@@ -39,8 +39,7 @@ def main():
     j.log_level(systemd.journal.LOG_ERR)
     j.add_match(SYSLOG_IDENTIFIER="kernel")
 
-    j.seek_tail()
-    j.get_previous()
+    process_entries(j)
 
     squashfs_failed.unlink(missing_ok=True)
 
