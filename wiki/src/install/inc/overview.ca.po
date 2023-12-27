@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-11-05 23:11+0000\n"
+"PO-Revision-Date: 2023-12-17 18:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta robots=\"noindex\"]]"
@@ -55,16 +55,12 @@ msgid "[[!toggle id=\"why_extra\" text=\"Why?\"]]"
 msgstr "[[!toggle id=\"why_extra\" text=\"Per què?\"]]"
 
 #. type: Content of: <div><div><div>
-#, fuzzy
-#| msgid ""
-#| "[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
-#| "text=\"X\"]]"
 msgid ""
 "[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
 "text=\"\"]]"
 msgstr ""
-"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
-"text=\"X\"]]"
+"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" text=\""
+"\"]]"
 
 #. type: Content of: <div><div><div><p>
 msgid ""

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2022-11-08 19:17+0000\n"
+"PO-Revision-Date: 2023-12-07 17:42+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -55,16 +55,12 @@ msgid "[[!toggle id=\"why_extra\" text=\"Why?\"]]"
 msgstr "[[!toggle id=\"why_extra\" text=\"Por quê?\"]]"
 
 #. type: Content of: <div><div><div>
-#, fuzzy
-#| msgid ""
-#| "[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
-#| "text=\"X\"]]"
 msgid ""
 "[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
 "text=\"\"]]"
 msgstr ""
-"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
-"text=\"X\"]]"
+"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" text=\""
+"\"]]"
 
 #. type: Content of: <div><div><div><p>
 msgid ""
@@ -232,6 +228,8 @@ msgid ""
 "[[!toggle id=\"requirements\" text=\"Detailed system requirements and "
 "recommended hardware.\"]]"
 msgstr ""
+"[[!toggle id=\"requirements\" text=\"Requisitos de sistema detalhados e "
+"hardware recomendado.\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -239,6 +237,9 @@ msgid ""
 "id=\"requirements\" text=\"\"]]</span> [[!inline pages=\"doc/about/"
 "requirements\" raw=\"yes\" sort=\"age\"]] \"\"\"]]"
 msgstr ""
+"[[!toggleable id=\"requirements\" text=\"\"\" <span class=\"hide\">[[!toggle "
+"id=\"requirements\" text=\"\"]]</span> [[!inline pages=\"doc/about/"
+"requirements\" raw=\"yes\" sort=\"age\"]] \"\"\"]]"
 
 #. type: Content of: <h2>
 msgid "Your steps"
