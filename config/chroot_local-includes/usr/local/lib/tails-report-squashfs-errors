@@ -1,0 +1,33 @@
+#!/bin/sh
+
+title="$(gettext 'Error reading data from Tails USB stick')"
+problem="$(gettext 'The hardware of your USB stick is probably failing.')"
+recommendation="$(gettext 'We recommend that you reinstall Tails on a different USB stick.')"
+
+# Translators: please don't translate %LINK%
+persistence="$(gettext 'To recover your Persistent Storage, try to follow our instructions: %LINK%' \
+        | sed -e 's@%LINK%@https://tails.net/doc/persistent_storage/rescue@'
+)"
+if ! /usr/local/lib/tpscli is-created
+then
+msg="$(cat <<EOTEXT
+${problem}
+
+${recommendation}
+
+${persistence}
+EOTEXT
+)"
+else
+msg="$(cat <<EOTEXT
+${problem}
+
+${recommendation}
+EOTEXT
+)"
+fi
+
+
+
+
+exec notify-send -u critical -c device.error "$title" "$msg"
