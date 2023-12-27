@@ -11,7 +11,7 @@ class DocumentationPageNotFound(ValueError):
     def __init__(self):
         super().__init__("error: could not find the requested documentation page")
 
-def resolve(page: str, anchor: str, force_local: bool) -> str:
+def resolve(page: str, anchor: str='', force_local: bool=False) -> str:
     # If possible, let's hand-off to our website, which should be the most
     # up-to-date option.
     if not force_local and tor_has_bootstrapped():
