@@ -15,16 +15,16 @@ When running Tails in a virtual machine, you can use most features of
 Tails from your usual operating system, and you can use both Tails and your usual operating system in parallel,
 without the need to restart the computer.
 
-This is how Tails looks when run in a virtual machine on Debian using *GNOME Boxes*:
-
-[[!img tails-in-vm.png alt="" link=no]]
-
 <div class="note">
 
 <p>We do not currently provide a solution for running a virtual machine
 inside a Tails host.</p>
 
 </div>
+
+This is how Tails looks when run in a virtual machine on Debian using *GNOME Boxes*:
+
+[[!img tails-in-vm.png alt="" link=no]]
 
 <a id="security"></a>
 
