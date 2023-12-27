@@ -52,7 +52,7 @@ msgid ""
 "Persistent Storage, your current bookmarks are saved in the Persistent "
 "Storage immediately."
 msgstr ""
-"Por ejemplo, cuando habilitas la función Marcadores del navegador Tor del "
+"Por ejemplo, cuando habilitas la función Marcadores del Navegador Tor del "
 "Almacenamiento Persistente, tus marcadores actuales se guardan en el "
 "Almacenamiento Persistente de inmediato."
 
