@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-27 12:48+0000\n"
+"PO-Revision-Date: 2023-12-27 12:49+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "persistence/es/>\n"
@@ -52,6 +52,9 @@ msgid ""
 "Persistent Storage, your current bookmarks are saved in the Persistent "
 "Storage immediately."
 msgstr ""
+"Por ejemplo, cuando habilitas la función Marcadores del navegador Tor del "
+"Almacenamiento Persistente, tus marcadores actuales se guardan en el "
+"Almacenamiento Persistente de inmediato."
 
 #. type: Plain text
 #, no-wrap
