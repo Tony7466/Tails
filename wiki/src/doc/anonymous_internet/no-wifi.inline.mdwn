@@ -70,3 +70,6 @@ To connect to the Internet, you can try to:
   <p>If you find another USB Wi-Fi adapter that works in Tails, please let us
   know. You can write to [[tails-support-private@boum.org]] (private email).</p>
  </div>
+
+* Check in our list of [[known Wi-Fi issues|support/known_issues#problematic-wifi]]
+  if there is a workaround to get your Wi-Fi interface to work in Tails.
