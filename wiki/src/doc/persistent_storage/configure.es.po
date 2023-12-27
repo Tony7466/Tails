@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2023-12-27 12:49+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "persistence/es/>\n"
 "Language: es\n"
@@ -108,10 +108,9 @@ msgid "</div>\n"
 msgstr "</div>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Personal files"
+#, no-wrap
 msgid "Personal Documents"
-msgstr "Archivos personales"
+msgstr "Documentos Personales"
 
 #. type: Plain text
 #, no-wrap
@@ -175,10 +174,9 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Some settings"
+#, no-wrap
 msgid "System Settings"
-msgstr "Algunas configuraciones"
+msgstr "Configuraciones de Sistema"
 
 #. type: Plain text
 #, no-wrap
