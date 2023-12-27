@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2023-12-27 14:21+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "requirements/es/>\n"
 "Language: es\n"
@@ -194,6 +194,9 @@ msgid ""
 "Consider buying a refurbished laptop from a high-end (professional) series.  "
 "These are cheaper and will last longer than new but lower-quality laptops."
 msgstr ""
+"Considera comprar un portátil reacondicionado de una serie de alta gama "
+"(profesional). Estos son mas baratos y durarán mas que un portátil nuevo y "
+"de menor calidad."
 
 #. type: Bullet: '  * '
 msgid ""
@@ -210,12 +213,19 @@ msgid ""
 "Guarantee](https://www.amazon.com/gp/help/customer/display.html?"
 "nodeId=G4ZAA22U35N373NX)."
 msgstr ""
+"Si vives en una parte del mundo donde los portátiles reacondicionados no son "
+"comunes, busca en eBay o en Amazon. Amazon ofrece una [Garantía de Amazon "
+"Renewed](https://www.amazon.es/gp/help/customer/display."
+"html?nodeId=GJB4W4URK6H2E6Y9) de 90 días."
 
 #. type: Bullet: '- '
 msgid ""
 "Consider buying a new laptop from vendors who guarantee the compatibility "
 "with Linux and Tails like [ThinkPenguin](https://www.thinkpenguin.com/)."
 msgstr ""
+"Considera comprar una portátil nueva de vendedores que garanticen "
+"compatibilidad con Linux y Tails, como [ThinkPenguin](https://www."
+"thinkpenguin.com/)."
 
 #. type: Title ###
 #, no-wrap
@@ -227,6 +237,8 @@ msgid ""
 "Unfortunately, we don't know of any Mac model that works well in Tails and "
 "can run the latest macOS version."
 msgstr ""
+"Desafortunadamente, no conocemos ningún modelo de Mac que funcione bien con "
+"Tails y pueda ejecutar la última versión de macOS."
 
 #. type: Plain text
 #, no-wrap
@@ -235,7 +247,7 @@ msgstr "<!--\n"
 
 #. type: Plain text
 msgid "To update the list of Mac computer:"
-msgstr ""
+msgstr "Para actualizar la lista de computadoras Mac:"
 
 #. type: Bullet: '1. '
 msgid ""
