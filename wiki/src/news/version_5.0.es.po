@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-12-27 14:22+0000\n"
+"PO-Revision-Date: 2023-12-27 16:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -261,7 +261,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr "Para actualizar Tails y mantener tu Almacenamiento Persistente"
+msgstr "Para actualizar Tails y mantener tu almacenamiento persistente"
 
 #. type: Plain text
 msgid "- Automatic upgrades are not available to 5.0."
