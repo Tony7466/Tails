@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-27 12:49+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"PO-Revision-Date: 2023-12-27 13:02+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "persistence/es/>\n"
 "Language: es\n"
@@ -176,7 +176,7 @@ msgstr ""
 #. type: Title =
 #, no-wrap
 msgid "System Settings"
-msgstr "Configuraciones de Sistema"
+msgstr "Configuraciones del Sistema"
 
 #. type: Plain text
 #, no-wrap
