@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-27 13:09+0000\n"
+"PO-Revision-Date: 2023-12-27 14:22+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -142,6 +142,7 @@ msgstr ""
 #, no-wrap
 msgid "<h2 id=\"comparison\">Strength of Argon2id compared to PBKDF2</h2>\n"
 msgstr ""
+"<h2 id=\"comparison\">Fuerza de Argon2id en comparación con PBKDF2</h2>\n"
 
 #. type: Plain text
 msgid ""
