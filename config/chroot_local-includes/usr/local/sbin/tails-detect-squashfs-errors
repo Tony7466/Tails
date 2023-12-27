@@ -20,25 +20,35 @@
 """
 
 import pathlib
+
 import systemd.journal
 
-
-j = systemd.journal.Reader()
-j.this_boot()
-j.this_machine()
-j.log_level(systemd.journal.LOG_ERR)
-j.add_match(SYSLOG_IDENTIFIER="kernel")
-
-j.seek_tail()
-j.get_previous()
-
 squashfs_failed = pathlib.Path("/squashfs_failed")
-squashfs_failed.unlink(missing_ok=True)
 
-while True:
-    state_change = j.wait(-1)
-    if state_change == systemd.journal.APPEND:
-        for e in j:
-            if e["MESSAGE"].startswith("SQUASHFS error:"):
-                print(e["MESSAGE"])
-                squashfs_failed.touch(exist_ok=True)
+def process_entries(journal: systemd.journal.Reader):
+    for e in journal:
+        if e["MESSAGE"].startswith("SQUASHFS error:"):
+            print(e["MESSAGE"])
+            squashfs_failed.touch(exist_ok=True)
+
+
+def main():
+    j = systemd.journal.Reader()
+    j.this_boot()
+    j.this_machine()
+    j.log_level(systemd.journal.LOG_ERR)
+    j.add_match(SYSLOG_IDENTIFIER="kernel")
+
+    j.seek_tail()
+    j.get_previous()
+
+    squashfs_failed.unlink(missing_ok=True)
+
+    while True:
+        state_change = j.wait(-1)
+        if state_change == systemd.journal.APPEND:
+            process_entries(j)
+
+
+if __name__ == '__main__':
+    main()
