@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-27 12:44+0000\n"
+"PO-Revision-Date: 2023-12-27 12:47+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -63,17 +63,19 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!toc levels=2]]\n"
-msgstr ""
+msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"understanding\">Understanding the weakness and its solution</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"understanding\">Entendiendo la debilidad y su solución.</h1>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"race\">The arms race to protect from brute-force attacks</h2>\n"
 msgstr ""
+"<h2 id=\"race\">La carrera armamentista para protegerse de los ataques de "
+"fuerza bruta</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -82,6 +84,11 @@ msgid ""
 "until they guess your passphrase and unlock the encryption. This type of "
 "attack is called a *[[!wikipedia brute-force attack]]*."
 msgstr ""
+"En toda la tecnología de cifrado que protege los datos en un disco o memoria "
+"USB con una contraseña o frase de contraseña, un atacante puede probar todas "
+"las combinaciones posibles hasta que adivine tu frase de contraseña y "
+"desbloquee el cifrado. Este tipo de ataque se llama *[[!wikipedia brute-"
+"force attack]]*."
 
 #. type: Plain text
 msgid ""
