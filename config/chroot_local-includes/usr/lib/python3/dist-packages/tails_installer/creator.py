@@ -110,7 +110,7 @@ class TailsInstallerCreator(object):
         self.valid_fstypes -= self.ext_fstypes
         self.drives = {}
         self._udisksclient = UDisks.Client.new_sync()
-        
+
     def retry(func):
         def wrapper(*args, **kwargs):
             for attempt in range(1, 11):
@@ -120,7 +120,8 @@ class TailsInstallerCreator(object):
                     args[0].log.debug(e)
                     args[0].log.debug("Retrying %d" % attempt)
                     time.sleep(1)
-            raise e   
+            raise e
+
         return wrapper
 
     def _setup_error_log_file(self):
@@ -153,7 +154,7 @@ class TailsInstallerCreator(object):
                 return udisks_object
             time.sleep(0.1)
         raise Exception("Could not get udisks object %s" % object_path)
-    
+
     @retry
     def detect_partition(self, udi: str, callback=None, force_partitions=False):
         partition_obj = self.try_getting_udisks_object(udi, "block")
@@ -808,17 +809,10 @@ class TailsInstallerCreator(object):
         such interface 'org.freedesktop.UDisks2.Partition' on object
         at path /org/freedesktop/UDisks2/block_devices/sda1'
         """
-        for attempt in range(1, 10):
-            try:
-                self.rescan_block_device(self._get_object(prop="block").props.block)
-                time.sleep(1)
-                system_partition = self.first_partition(self.drive["udi"])
-            except IndexError:
-                if attempt > 5:
-                    raise
-                self.log.debug("Retrying %d" % attempt)
-            else:
-                return system_partition
+        self.rescan_block_device(self._get_object(prop="block").props.block)
+        time.sleep(1)
+        system_partition = self.first_partition(self.drive["udi"])
+        return system_partition
 
     @retry
     def partition_device(self) -> Optional[str]:
