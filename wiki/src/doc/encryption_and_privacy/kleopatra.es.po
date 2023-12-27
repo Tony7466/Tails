@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
 "PO-Revision-Date: 2023-12-27 12:41+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr "</div>\n"
 
 #. type: Plain text
 msgid "With *Kleopatra* you can:"
-msgstr ""
+msgstr "Con *Kleopatra* tu puedes:"
 
 #. type: Plain text
 msgid "- Create new OpenPGP keys for yourself"
