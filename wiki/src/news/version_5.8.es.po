@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2023-12-27 12:39+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -260,8 +260,8 @@ msgid ""
 "For more details, read our [[!tails_gitweb debian/changelog "
 "desc=\"changelog\"]]."
 msgstr ""
-"Para más detalles, lee nuestro [[!tails_gitweb debian/changelog "
-"desc=\"changelog\"]]."
+"Para más detalles, lee nuestro [[!tails_gitweb debian/changelog desc="
+"\"changelog\"]]."
 
 #. type: Plain text
 #, no-wrap
@@ -913,7 +913,8 @@ msgid ""
 "<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
 "you install instead of upgrading.</p></div>\n"
 msgstr ""
-"<div class=\"caution\"><p>El Almacenamiento Persistente en la memoria USB se perderá si\n"
+"<div class=\"caution\"><p>El Almacenamiento Persistente en la memoria USB se "
+"perderá si\n"
 "instalas en vez de actualizar.</p></div>\n"
 
 #. type: Title ##
@@ -933,4 +934,4 @@ msgstr "[[Para memorias USB (imagen USB)|install/download]]"
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Para DVD y máquinas virtuales (imagen ISO)|install/download-iso]]"
