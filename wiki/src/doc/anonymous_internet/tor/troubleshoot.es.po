@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-12-28 15:24+0000\n"
+"PO-Revision-Date: 2023-12-28 17:21+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -93,7 +93,7 @@ msgstr "Espera hasta que se inicie el *Navegador No Seguro*."
 #. type: Bullet: '1. '
 msgid "Follow the instructions on the homepage of the *Unsafe Browser*."
 msgstr ""
-"Siga las instrucciones en la página de inicio del *Navegador No Seguro*."
+"Sigue las instrucciones en la página de inicio del *Navegador No Seguro*."
 
 #. type: Plain text
 #, no-wrap
