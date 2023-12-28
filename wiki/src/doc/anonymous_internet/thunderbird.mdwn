@@ -22,9 +22,8 @@ feature of the Persistent Storage.</p>
 
 </div>
 
-For more detailed documentation, refer to the [official
-<span class="application">Thunderbird</span>
-help](https://support.mozilla.org/en-US/products/thunderbird).
+For more documentation, visit the official [*Thunderbird*
+Support](https://support.mozilla.org/en-US/products/thunderbird) website.
 
 <h1 id="account">Configuring an email account</h1>
 
