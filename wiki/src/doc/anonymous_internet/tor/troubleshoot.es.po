@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-12-28 15:21+0000\n"
+"PO-Revision-Date: 2023-12-28 15:23+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -39,7 +39,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "The clock of the computer needs to be correct to connect to Tor."
-msgstr ""
+msgstr "El reloj de la computadora debe estar correcto para conectarse a Tor."
 
 #. type: Plain text
 msgid ""
@@ -52,6 +52,8 @@ msgid ""
 "Choose **Fix Clock** in the error screen of the *Tor Connection* assistant "
 "to set the clock and time zone of your computer."
 msgstr ""
+"Elije **Reparar reloj** en la pantalla de error del asistente *Tor "
+"Connection* para configurar el reloj y la zona horaria de tu computadora."
 
 #. type: Plain text
 msgid ""
@@ -65,7 +67,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"portal\">You need to sign in to the network</h2>\n"
-msgstr ""
+msgstr "<h2 id=\"portal\">Necesitas iniciar sesión en la red</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -74,17 +76,19 @@ msgstr "[[!inline pages=\"doc/anonymous_internet/unsafe_browser/captive_portal.i
 
 #. type: Plain text
 msgid "To sign in to a network using a captive portal:"
-msgstr ""
+msgstr "Para iniciar sesión en una red usando un portal cautivo:"
 
 #. type: Bullet: '1. '
 msgid ""
 "In the error screen of the *Tor Connection* assistant, choose **Try Signing "
 "in to the Network**."
 msgstr ""
+"En la pantalla de error del asistente *Tor Connection*, elije **Intenta "
+"iniciar sesión en la red**."
 
 #. type: Bullet: '1. '
 msgid "Wait until the *Unsafe Browser* starts."
-msgstr ""
+msgstr "Espera hasta que se inicie *Navegador No Seguro*."
 
 #. type: Bullet: '1. '
 msgid "Follow the instructions on the homepage of the *Unsafe Browser*."
