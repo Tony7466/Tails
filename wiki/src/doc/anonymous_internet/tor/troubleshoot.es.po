@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
 "PO-Revision-Date: 2023-12-28 17:21+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -99,6 +99,7 @@ msgstr ""
 #, no-wrap
 msgid "<h2 id=\"stuck\">The progress bar gets stuck around 50%</h2>\n"
 msgstr ""
+"<h2 id=\"stuck\">La barra de progreso se atasca alrededor del 50%</h2>\n"
 
 #. type: Plain text
 msgid ""
