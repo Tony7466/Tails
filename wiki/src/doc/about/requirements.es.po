@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-27 14:21+0000\n"
+"PO-Revision-Date: 2023-12-28 07:21+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "requirements/es/>\n"
@@ -29,12 +29,10 @@ msgid "Summary"
 msgstr "Resumen"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Tails works on most computers less than 10 years old."
 msgid "- Tails works on most PC computers that are less than 10 years old."
 msgstr ""
-"Tails funciona en la mayoría de las computadoras con menos de 10 años de "
-"antigüedad."
+"- Tails funciona en la mayoría de las computadoras PC con menos de 10 años "
+"de antigüedad."
 
 #. type: Plain text
 #, fuzzy
@@ -45,22 +43,15 @@ msgstr ""
 "antigüedad."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Tails does not work with Mac models that use the [[!wikipedia Apple M1]] "
-#| "chip."
 msgid ""
 "- Tails does not work on newer Mac computers with an Apple processor (M1 or "
 "M2)."
 msgstr ""
-"Tails no funciona con modelos de Mac que usan el chip [[!wikipedia_es Apple "
-"M1]]."
+"- Tails no funciona con modelos de Mac con un procesador de Apple (M1 o M2)."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Tails might not work on:"
 msgid "- Tails might not work on:"
-msgstr "Tails podría no funcionar en:"
+msgstr "- Tails podría no funcionar en:"
 
 #. type: Bullet: '  * '
 msgid "Some older computers, for example, if they don't have enough RAM."
@@ -204,7 +195,7 @@ msgid ""
 "X250, X1 Carbon, T440, T480, and T490 models."
 msgstr ""
 "Por ejemplo, la serie ThinkPad de Lenovo funciona bien con Tails, incluyendo "
-"los modelos X250, X1 Carbon, T440, y T490"
+"los modelos X250, X1 Carbon, T440, y T490."
 
 #. type: Bullet: '  * '
 msgid ""
