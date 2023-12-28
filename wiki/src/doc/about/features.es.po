@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
 "PO-Revision-Date: 2023-12-28 06:12+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "features/es/>\n"
 "Language: es\n"
@@ -53,10 +53,8 @@ msgid "Networking"
 msgstr "Redes"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[Tor](https://www.torproject.org) with:"
 msgid "- [Tor](https://www.torproject.org) with:"
-msgstr "[Tor](https://www.torproject.org) con:"
+msgstr "- [Tor](https://www.torproject.org) with:"
 
 #. type: Bullet: '  * '
 msgid "[[stream isolation|contribute/design/stream_isolation]]"
@@ -101,14 +99,10 @@ msgstr ""
 "[NoScript](http://noscript.net/) para tener aún más control sobre JavaScript."
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid ""
-#| "[uBlock Origin](https://github.com/gorhill/uBlock/) to remove "
-#| "advertisements."
 msgid ""
 "[uBlock Origin](https://github.com/gorhill/uBlock/), to remove advertisements"
 msgstr ""
-"[uBlock Origin](https://github.com/gorhill/uBlock/) para eliminar anuncios."
+"[uBlock Origin](https://github.com/gorhill/uBlock/), para eliminar anuncios"
 
 #. type: Bullet: '- '
 msgid ""
@@ -156,15 +150,11 @@ msgid "Desktop edition"
 msgstr "Edición de Escritorio"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[LibreOffice](https://www.libreoffice.org/) ([[More...|doc/"
-#| "sensitive_documents/office_suite]])"
 msgid ""
 "- [LibreOffice](https://www.libreoffice.org/) ([[More...|doc/"
 "sensitive_documents/office_suite]])"
 msgstr ""
-"[LibreOffice](https://www.libreoffice.org/) ([[Más...|doc/"
+"- [LibreOffice](https://www.libreoffice.org/) ([[Más...|doc/"
 "sensitive_documents/office_suite]])"
 
 #. type: Bullet: '- '
@@ -176,15 +166,11 @@ msgstr ""
 "editar imágenes ([[Más...|doc/sensitive_documents/graphics]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "GNOME Sound Recorder for recording sound ([[More...|doc/"
-#| "sensitive_documents/sound_and_video]])"
 msgid ""
 "- GNOME Sound Recorder for recording sound ([[More...|doc/"
 "sensitive_documents/sound_and_video]])"
 msgstr ""
-"GNOME Sound Recorder para grabar y editar sonido ([[Más...|doc/"
+"- GNOME Sound Recorder para grabar y editar sonido ([[Más...|doc/"
 "sensitive_documents/sound_and_video]])"
 
 #. type: Bullet: '- '
@@ -202,10 +188,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
 msgid "- [Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
-msgstr "[Brasero](https://wiki.gnome.org/Apps/Brasero) para grabar CD/DVDs"
+msgstr "- [Brasero](https://wiki.gnome.org/Apps/Brasero) para grabar CD/DVDs"
 
 #. type: Bullet: '- '
 msgid ""
@@ -214,16 +198,12 @@ msgstr ""
 "[Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) para digitalizar CDs"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) to convert "
-#| "linear PDF documents into booklets, and vice-versa"
 msgid ""
 "- [BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) to convert "
 "linear PDF documents into booklets, and vice-versa"
 msgstr ""
-"[BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) para convertir "
-"documentos PDF en folletos, y viceversa"
+"- [BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) para "
+"convertir documentos PDF en folletos, y viceversa"
 
 #. type: Title -
 #, no-wrap
@@ -290,27 +270,19 @@ msgstr ""
 "editar imágenes ([[Más...|doc/sensitive_documents/graphics]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[KeePassXC](https://keepassxc.org/) password manager ([[More...|doc/"
-#| "encryption_and_privacy/manage_passwords]])"
 msgid ""
 "- [KeePassXC](https://keepassxc.org/) password manager ([[More...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 msgstr ""
-"[KeePassXC](https://keepassxc.org/) gestor de contraseñas ([[Mas...|doc/"
+"- [KeePassXC](https://keepassxc.org/) gestor de contraseñas ([[Mas...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[GtkHash](https://github.com/tristanheaven/gtkhash) to calculate "
-#| "checksums ([[More...|doc/encryption_and_privacy/checksums]])"
 msgid ""
 "- [GtkHash](https://github.com/tristanheaven/gtkhash) to calculate checksums "
 "([[More...|doc/encryption_and_privacy/checksums]])"
 msgstr ""
-"[GtkHash](https://github.com/tristanheaven/gtkhash) para calcular sumas de "
+"- [GtkHash](https://github.com/tristanheaven/gtkhash) para calcular sumas de "
 "comprobación ([[More...|doc/encryption_and_privacy/checksums]])"
 
 #. type: Plain text
