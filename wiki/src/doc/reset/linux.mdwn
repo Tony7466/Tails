@@ -6,8 +6,8 @@
 
 <a id="disks"></a>
 
-Using <span class="application">GNOME Disks</span>
-==================================================
+Using the *Disks* utility
+=========================
 
 <div class="caution">
 
@@ -18,13 +18,8 @@ point you are not sure about which device to choose, stop proceeding.
 
 1. Make sure that the USB stick that you want to reset is unplugged.
 
-1. Choose
-   <span class="menuchoice">
-     <span class="guimenu">Applications</span>&nbsp;▸
-     <span class="guisubmenu">Utilities</span>&nbsp;▸
-     <span class="guimenuitem">Disks</span>
-   </span>
-   to start <span class="application">GNOME Disks</span>.
+1. Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks** to start the
+   *Disks* utility.
 
    A list of all the storage devices on the computer appears in the left pane
    of the window.
@@ -70,7 +65,7 @@ directly from that USB stick while running Tails.
     class="application">Boot Loader</span>|advanced_topics/boot_options]].
 
 2.  If Tails starts as usual, follow the instructions for [[resetting a USB stick
-    using <span class="application">GNOME Disks</span>|linux#disks]].
+    using the *Disks* utility|linux#disks]].
 
     **If the system fails to start**, that means that the computer does not have
     enough memory for this operation mode. Try with another computer, or find
