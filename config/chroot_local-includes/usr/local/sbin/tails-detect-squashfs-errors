@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-  Detect SQUASHFS error and if detected reate /run/squashfs_failed.
+  Detect SQUASHFS error and if detected reate /squashfs_failed.
   That file will be used to show the user an error.
 
   Copyright (C) 2023 Tails developers <tails@boum.org>
@@ -23,12 +23,14 @@ import pathlib
 
 import systemd.journal
 
+# File that indicates SQUASHFS errors
 squashfs_failed = pathlib.Path("/squashfs_failed")
 
 def process_entries(journal: systemd.journal.Reader):
+    """Process all journald messages and search for SQUASHFS error."""
     for e in journal:
         if e["MESSAGE"].startswith("SQUASHFS error:"):
-            print(e["MESSAGE"])
+            print(e["MESSAGE"])     # Add detected logs to own log
             squashfs_failed.touch(exist_ok=True)
 
 
@@ -39,10 +41,13 @@ def main():
     j.log_level(systemd.journal.LOG_ERR)
     j.add_match(SYSLOG_IDENTIFIER="kernel")
 
-    process_entries(j)
-
+    # On start we havn't detected any error
     squashfs_failed.unlink(missing_ok=True)
 
+    #Process all existing log entries since boot
+    process_entries(j)
+
+    # Wait for new messages to be append to journald
     while True:
         state_change = j.wait(-1)
         if state_change == systemd.journal.APPEND:
