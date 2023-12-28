@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-27 22:20+0000\n"
-"PO-Revision-Date: 2023-12-28 11:21+0000\n"
+"PO-Revision-Date: 2023-12-28 14:21+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -673,8 +673,10 @@ msgid ""
 "So, the information retrieved by such fingerprinting websites is not harmful for\n"
 "anonymity in itself, as long as it is the same for all users of <span class=\"application\">Tor Browser</span>.\n"
 msgstr ""
-"Per tant, la informació recuperada per aquests llocs web d'empremtes dactilars no és perjudicial\n"
-"per a l'anonimat en si mateix, sempre que sigui el mateix per a tots els usuaris del <span class=\"application\">Navegador Tor</span>.\n"
+"Per tant, la informació recuperada per aquests llocs web d'empremtes "
+"dactilars no és perjudicial\n"
+"per a l'anonimat en si mateix, sempre que sigui la mateixa per a tots els "
+"usuaris del <span class=\"application\">Navegador Tor</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -710,8 +712,8 @@ msgid ""
 "Tails does not include a Java plugin in its browser because it could break "
 "your anonymity."
 msgstr ""
-"Tails no inclou una extensió de Java al seu navegador perquè podria trencar "
-"el vostre anonimat."
+"Tails no inclou una extensió de Java al navegador perquè podria trencar el "
+"vostre anonimat."
 
 #. type: Plain text
 #, no-wrap
