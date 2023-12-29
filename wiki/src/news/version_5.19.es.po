@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-10-31 09:58+0100\n"
 "PO-Revision-Date: 2023-12-29 22:29+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr ""
 #. type: Plain text
 #, markdown-text
 msgid "To close a Tor circuit:"
-msgstr ""
+msgstr "Para cerrar un circuito Tor:"
 
 #. type: Bullet: '1. '
 #, markdown-text
