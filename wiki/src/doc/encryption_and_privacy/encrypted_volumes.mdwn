@@ -65,10 +65,10 @@ the screen.
        systems and devices (MBR/DOS)</span> in the <span class="guilabel">Partitioning</span>
        menu.
 
-     Then click <span class="bold">Format…</span>.
+     Then click **Format**.
 
   1. In the confirmation dialog, make sure that the device
-     is correct. Click <span class="bold">Format</span> to confirm.
+     is correct, then click **Format** to confirm.
 
 <h2 id="partition">Creating a new encrypted partition</h2>
 
@@ -159,11 +159,7 @@ from the <span class="guimenu">Places</span> menu.
 When plugging in a device containing an encrypted partition, Tails does not open the partition
 automatically but you can do so from the file browser.
 
-1. Choose
-   <span class="menuchoice">
-     <span class="guimenu">Places</span>&nbsp;▸
-     <span class="guisubmenu">Computer</span></span>
-   to open the file browser.
+1. Choose **Places**&nbsp;▸ **Home** to open the *Files* browser.
 
 1. Click on the encrypted partition that you want to open in the sidebar.
 
@@ -197,11 +193,11 @@ operating system.
 
 <h1 id="changing">Changing the passphrase of an existing encrypted partition</h1>
 
-To open the *Disks* utility, choose **Applications**&nbsp;▸
-**Utilities**&nbsp;▸ **Disks**.
+1. Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks** to open the
+   *Disks* utility.
 
-1. Plug in the external storage device containing the encrypted partition that you
-want to change the passphrase for.
+1. Plug in the external storage device that contains the encrypted partition
+   for which you want to change the passphrase.
 
 1. The device appears in the list of storage devices. Click on it:
 
@@ -210,8 +206,10 @@ want to change the passphrase for.
 1. Check that the description of the device on the right side of the screen
 corresponds to your device: its brand, its size, etc.
 
-1. Click on the partition displaying a [[!img lib/network-wireless-encrypted.png alt="padlock" class="symbolic" link="no"]] at the bottom-right corner.
+1. Click on the partition displaying a [[!img
+   lib/network-wireless-encrypted.png alt="Parition LUKS" class="symbolic"
+   link="no"]] in the bottom-right corner.
 
-1. Click on the <span class="guimenu">
-   [[!img lib/system-run.png alt="Additional partition options" class="symbolic" link="no"]]
-   </span> button and choose <span class="guimenu">Change Passphrase…</span>
+1. Click on the [[!img lib/system-run.png alt="Additional partition options"
+   class="symbolic" link="no"]] button and choose **Change Passphrase** in the
+   shortcut menu.
