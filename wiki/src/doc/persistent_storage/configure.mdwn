@@ -185,13 +185,13 @@ files.
 [[!img lib/apps/seahorse-key-ssh.png link="no" alt=""]]
 <div class="text"><h2>SSH Client</h2></div>
 </div>
-    
+
 When the SSH Client feature is turned on, all the files related to the Secure
 Shell (SSH) client are saved in the Persistent Storage:
 
   - The SSH keys that you create or import
   - The public keys of the hosts you connect to
-  - The SSH configuration file in <span class="filename">~/.ssh/config</span> 
+  - The SSH configuration file in */home/amnesia/.ssh/config*
 
 Advanced Settings
 =================
@@ -272,7 +272,7 @@ the above example.</p>
 On Tails and Linux in general, the name of configuration files often starts
 with a dot and are sometimes called [[!wikipedia dotfiles]] for this reason.
 The Dotfiles feature of the Persistent Storage makes it easy to persist such
-"*dotfiles*", for example *~/.gitconfig* or *~/.bashrc*.
+"*dotfiles*", for example */home/amnesia/.gitconfig* or */home/amnesia/.bashrc*.
 
 <div class="caution">
 
