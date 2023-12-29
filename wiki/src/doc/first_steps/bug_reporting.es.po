@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-28 15:21+0000\n"
+"PO-Revision-Date: 2023-12-29 16:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "bug_reporting/es/>\n"
@@ -57,22 +57,16 @@ msgid "Have a look at:"
 msgstr "Echa un vistazo en:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "the [[list of known issues|support/known_issues]]"
 msgid "- The [[list of known issues|support/known_issues]]"
-msgstr "la [[lista de problemas conocidos|support/known_issues]]"
+msgstr "- La [[lista de problemas conocidos|support/known_issues]]"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "the [[!tails_gitlab groups/tails/-/milestones desc=\"list of things that "
-#| "will be fixed or improved in the next release\"]]"
 msgid ""
 "The [[!tails_gitlab groups/tails/-/milestones desc=\"list of things that "
 "will be fixed or improved in the next release\"]]"
 msgstr ""
-"la [[!tails_gitlab groups/tails/-/milestones desc=\"lista de mejoras que "
-"tendrá la próxima versión\"]]"
+"La [[!tails_gitlab groups/tails/-/milestones desc=\"lista de mejoras que "
+"tendrá el próximo lanzamiento\"]]"
 
 #. type: Plain text
 #, no-wrap
