@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-26 10:46+0000\n"
-"PO-Revision-Date: 2023-12-28 15:21+0000\n"
+"PO-Revision-Date: 2023-12-29 11:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "additional_software/es/>\n"
@@ -30,10 +30,9 @@ msgid "[[!toc levels=2]]\n"
 msgstr "[[!toc levels=2]]\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Which additional software can I install in Tails?\n"
+#, no-wrap
 msgid "Which additional software can I install in Tails?"
-msgstr "¿Qué software adicional puedo instalar en Tails?\n"
+msgstr "¿Qué software adicional puedo instalar en Tails?"
 
 #. type: Plain text
 msgid ""
@@ -49,7 +48,7 @@ msgid ""
 "Debian repositories, which are similar to an app store."
 msgstr ""
 "Estos programas se distribuyen en paquetes disponibles en los repositorios "
-"de Debian, que son parecidos a un 'app store'."
+"de Debian, que son parecidos a una 'app store'."
 
 #. type: Plain text
 msgid "To know which packages are available in Debian:"
@@ -69,7 +68,7 @@ msgid ""
 "administration_password]] when you start Tails."
 msgstr ""
 "[[Configura una contraseña de administración|doc/first_steps/welcome_screen/"
-"administration_password]] cuando arrancas Tails."
+"administration_password]] cuando arranques Tails."
 
 #. type: Bullet: '    1. '
 #, fuzzy
@@ -730,7 +729,7 @@ msgid ""
 "example, to install packages from the `non-free` section of Debian. To do so:"
 msgstr ""
 "A veces puede que necesites configurar repositorios APT adicionales. Por "
-"ejemplo, para instalar paquetes de la sección  `non-free` de Debian. Para "
+"ejemplo, para instalar paquetes de la sección `non-free` de Debian. Para "
 "hacer esto:"
 
 #. type: Bullet: '1. '
@@ -832,7 +831,7 @@ msgid ""
 "files to be owned by `root` and only readable by others. For example:"
 msgstr ""
 "Corrige la propiedad y los permisos de tus archivos `sources.list` "
-"adicionales para que sean propiedad de root y sólo puedan ser leídos por "
+"adicionales para que sean propiedad de `root` y sólo puedan ser leídos por "
 "otros. Por ejemplo:"
 
 #. type: Plain text
@@ -841,8 +840,10 @@ msgid ""
 "       chown root:root /live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list\n"
 "       chmod 644 /live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list\n"
 msgstr ""
-"       chown root:root /live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list\n"
-"       chmod 644 /live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list\n"
+"       chown root:root /live/persistence/TailsData_unlocked/apt-sources.list."
+"d/non-free.list\n"
+"       chmod 644 /live/persistence/TailsData_unlocked/apt-sources.list.d/non-"
+"free.list\n"
 
 #. type: Bullet: '1. '
 msgid "Restart Tails to apply the changes."
