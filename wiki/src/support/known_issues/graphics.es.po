@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-28 15:21+0000\n"
+"PO-Revision-Date: 2023-12-29 16:23+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -28,7 +28,7 @@ msgid ""
 "- For other hardware compatibility issues, refer to our [[known issues|"
 "support/known_issues]]."
 msgstr ""
-"- Por otros problemas de compatibilidad de hardware, revista nuestra [[lista "
+"- Para otros problemas de compatibilidad de hardware, revisa nuestra [[lista "
 "de problemas conocidos|support/known_issues]]."
 
 #. type: Plain text
@@ -99,7 +99,7 @@ msgstr ""
 
 #. type: Bullet: '   - '
 msgid "The name is *NVIDIA Corporation GT218M [NVS 3100M]*."
-msgstr "El  nombre es *NVIDIA Corporation GT218M [NVS 3100M]*."
+msgstr "El nombre es *NVIDIA Corporation GT218M [NVS 3100M]*."
 
 #. type: Bullet: '   - '
 msgid ""
@@ -231,7 +231,9 @@ msgstr "Corresponde a:"
 #. type: Plain text
 #, no-wrap
 msgid "\tIntel Corporation Core Processor Integrated Graphics Controller [8086:0046]\n"
-msgstr "\tIntel Corporation Core Processor Integrated Graphics Controller [8086:0046]\n"
+msgstr ""
+"\tIntel Corporation Core Processor Integrated Graphics Controller [8086:0046]"
+"\n"
 
 #. type: Title =
 #, no-wrap
