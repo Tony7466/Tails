@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-27 22:20+0000\n"
-"PO-Revision-Date: 2023-12-28 15:21+0000\n"
+"PO-Revision-Date: 2023-12-29 16:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/faq/"
 "es/>\n"
@@ -66,7 +66,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"debian\">Why is Tails based on Debian and not on another distribution?</h2>\n"
-msgstr "<h2 id=\"debian\">¿Por qué Tails está basado en Debian y no en otra distribución?</h2>\n"
+msgstr ""
+"<h2 id=\"debian\">¿Por qué Tails está basado en Debian y no en otra "
+"distribución?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -89,9 +91,9 @@ msgid ""
 "upsilon.cc/~zack/blog/posts/2011/09/"
 "why_there_are_so_many_debian_derivatives/)  by Stefano Zacchiroli."
 msgstr ""
-"Lee también el artículo [Por qué hay tantos derivativos de Debian](http://"
-"upsilon.cc/~zack/blog/posts/2011/09/"
-"why_there_are_so_many_debian_derivatives/)  de Stefano Zacchiroli."
+"Lee también el artículo [Por qué hay tantos derivativos de "
+"Debian](http://upsilon.cc/~zack/blog/posts/2011/09/"
+"why_there_are_so_many_debian_derivatives/) de Stefano Zacchiroli."
 
 #. type: Plain text
 #, no-wrap
@@ -100,7 +102,7 @@ msgstr "<h2 id=\"ubuntu\">¿Por qué Tails no está basado en Ubuntu?</h2>\n"
 
 #. type: Plain text
 msgid "First, see the answer to the [[previous question|faq#debian]]."
-msgstr "Primero lee la respuesta a la  [[pregunta anterior|faq#debian]]."
+msgstr "Primero lee la respuesta a la [[pregunta anterior|faq#debian]]."
 
 #. type: Plain text
 #, fuzzy
@@ -136,9 +138,9 @@ msgid ""
 "backports.debian.org/). The result is comparable to Ubuntu in terms of "
 "support for recent hardware."
 msgstr ""
-"Normalmente distribuimos kernels y drivers de video de [Debian backports]"
-"(http://backports.debian.org/). El resultado es comparable a Ubuntu en "
-"términos de soporte de hardware reciente."
+"Normalmente distribuimos kernels y drivers de video de [Debian "
+"backports](http://backports.debian.org/). El resultado es comparable a "
+"Ubuntu en términos de soporte de hardware reciente."
 
 #. type: Bullet: '- '
 msgid ""
@@ -159,9 +161,9 @@ msgid ""
 "application_isolation]] in Tails; a security framework that is already used "
 "in a few Ubuntu applications."
 msgstr ""
-"Estamos trabajando en mejorar el [[soporte a AppArmor|contribute/design/"
+"Estamos trabajando en mejorar el [[soporte de AppArmor|contribute/design/"
 "application_isolation]] en Tails; un framework de seguridad que ya se aplica "
-"en algunas aplicaciones de ubuntu."
+"en algunas aplicaciones de Ubuntu."
 
 #. type: Bullet: '- '
 msgid ""
@@ -235,8 +237,8 @@ msgid ""
 "We are not proposing several desktop environments to choose from because we "
 "want to [[limit the amount of software included in Tails|faq#new-software]]."
 msgstr ""
-"No proponemos distintos entornos de escritorio para elegir porque queremos "
-"[[limitar la cantidad de software incluido en Tails|faq#new-software]]."
+"No proponemos distintos entornos de escritorio para elegir porque queremos [["
+"limitar la cantidad de software incluido en Tails|faq#new-software]]."
 
 #. type: Plain text
 #, no-wrap
@@ -275,9 +277,9 @@ msgid ""
 "for attackers to exploit security vulnerabilities."
 msgstr ""
 "No. Tails dejó de funcionar en ordenadores de 32-bit en [[Tails 3.0|news/"
-"Tails_3.0_will_require_a_64-bit_processor]] (Junio 2017). El software "
-"desarrollado para procesadores de 64-bit pueden beneficiarse de algunas "
-"mejoras que hacen más dificil que un atacante aproveche vulnerabilidades de "
+"Tails_3.0_will_require_a_64-bit_processor]] (Junio e 2017). El software "
+"desarrollado para procesadores de 64-bit puede beneficiarse de algunas "
+"mejoras que hacen más difícil que un atacante aproveche vulnerabilidades de "
 "seguridad."
 
 #. type: Plain text
@@ -287,10 +289,10 @@ msgid ""
 "decided that the increased security for everybody else was more important "
 "than the compatibility with 32-bit computers."
 msgstr ""
-"Antes de Tails 3.0, estimamos que [[solo el 4% de los usuarios|news/"
-"Tails_3.0_will_require_a_64-bit_processor]] todavía tenian un ordenador de "
-"32-bit. Decidimos que el incremento de seguridad para todos los demás era "
-"más importante que la compatibilidad con ordenadores de 32-bit."
+"Antes de Tails 3.0, estimamos que [[solo el 4% de los usuarios|news/Tails_3."
+"0_will_require_a_64-bit_processor]] todavía tenían un ordenador de 32-bit. "
+"Decidimos que el incremento de seguridad para todos los demás era más "
+"importante que la compatibilidad con ordenadores de 32-bit."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -367,7 +369,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"permanent-install\">Can I install Tails permanently onto my hard disk?</h2>\n"
-msgstr "<h2 id=\"permanent-install\">¿Puedo instalar Tails permanentemente en mi computadora?</h2>\n"
+msgstr ""
+"<h2 id=\"permanent-install\">¿Puedo instalar Tails permanentemente en mi "
+"computadora?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -376,8 +380,8 @@ msgid ""
 "DVD."
 msgstr ""
 "Esto no es posible utilizando los métodos actuales de instalación. Tails "
-"está diseñado para ser un sistema vivo que corre desde un medio removible: "
-"memoria USB o DVD."
+"está diseñado para ser un sistema en vivo que corre desde un medio removible:"
+" memoria USB o DVD."
 
 #. type: Plain text
 msgid ""
