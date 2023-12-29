@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-12-22 17:19+0000\n"
+"PO-Revision-Date: 2023-12-29 21:42+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "install-inc-overview/es/>\n"
@@ -35,10 +35,8 @@ msgid "1 USB stick"
 msgstr "1 memoria USB"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "another Tails"
 msgid "Only for Tails!"
-msgstr "otro Tails"
+msgstr "¡Sólo para Tails!"
 
 #. type: Content of: <div><div><p>
 msgid "8 GB minimum"
@@ -70,6 +68,9 @@ msgid ""
 "running from itself. This scenario requires creating an intermediary Tails "
 "on another USB stick, from which to upgrade your Tails."
 msgstr ""
+"Actualmente es imposible actualizar manualmente una memoria USB de Tails "
+"mientras se ejecuta desde sí misma. Este escenario requiere la creación de "
+"un Tails intermedio en otra memoria USB, desde la que actualizar tu Tails."
 
 #. type: Content of: <div><div><div>
 msgid "\"\"\"]]"
@@ -92,14 +93,12 @@ msgid "[[!img install/inc/icons/apple.png link=\"no\" alt=\"\"]]"
 msgstr "[[!img install/inc/icons/apple.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "macOS 10.10 (Yosemite)"
 msgid "macOS 10.10"
-msgstr "macOS 10.10 (Yosemite)"
+msgstr "macOS 10.10"
 
 #. type: Content of: <div><div><p>
 msgid "Yosemite"
-msgstr ""
+msgstr "Yosemite"
 
 #. type: Content of: <div><div>
 msgid "[[!img install/inc/icons/linux.png link=\"no\" alt=\"\"]]"
@@ -163,10 +162,8 @@ msgid "Intel processor"
 msgstr "Procesador Intel"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "not M1"
 msgid "not Apple M1 or M2"
-msgstr "no M1"
+msgstr "no Apple M1 o M2"
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -201,14 +198,10 @@ msgid "1 hour in total"
 msgstr "1 hora en total"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "½ hour"
 msgid "½ hour"
 msgstr "½ hora"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "¼ hour"
 msgid "¼ hour"
 msgstr "¼ hora"
 
@@ -221,22 +214,20 @@ msgstr ""
 "para descargar"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "1 hour in total"
 msgid "½ hour to install"
-msgstr "1 hora en total"
+msgstr "½ hora para instalar"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid "1 hour in total"
 msgid "½ hour to upgrade"
-msgstr "1 hora en total"
+msgstr "½ hora para actualizar"
 
 #. type: Content of: <p>
 msgid ""
 "[[!toggle id=\"requirements\" text=\"Detailed system requirements and "
 "recommended hardware.\"]]"
 msgstr ""
+"[[!toggle id=\"requirements\" text=\"Requisitos detallados del sistema y "
+"hardware recomendado.\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid ""
@@ -244,6 +235,9 @@ msgid ""
 "id=\"requirements\" text=\"\"]]</span> [[!inline pages=\"doc/about/"
 "requirements\" raw=\"yes\" sort=\"age\"]] \"\"\"]]"
 msgstr ""
+"[[!toggleable id=\"requirements\" text=\"\"\" <span class=\"hide\">[[!toggle "
+"id=\"requirements\" text=\"\"]]</span> [[!inline pages=\"doc/about/"
+"requirements\" raw=\"yes\" sort=\"age\"]] \"\"\"]]"
 
 #. type: Content of: <h2>
 msgid "Your steps"
