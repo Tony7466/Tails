@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-27 13:02+0000\n"
+"PO-Revision-Date: 2023-12-29 16:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "advanced_topics_virtualization_boxes/es/>\n"
@@ -43,7 +43,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/advanced_topics/virtualization.caution\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"doc/advanced_topics/virtualization.caution.es\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"doc/advanced_topics/virtualization.caution.es\" raw=\"yes\""
+" sort=\"age\"]]\n"
 
 #. type: Plain text
 #, no-wrap
