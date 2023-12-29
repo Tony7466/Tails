@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-12-29 11:23+0000\n"
+"PO-Revision-Date: 2023-12-29 16:23+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -52,7 +52,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "New features"
-msgstr ""
+msgstr "Nuevas funcionalidades"
 
 #. type: Bullet: '- '
 msgid ""
@@ -134,7 +134,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Known issues"
-msgstr ""
+msgstr "Problemas conocidos"
 
 #. type: Plain text
 msgid "None specific to this release."
