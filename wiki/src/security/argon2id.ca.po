@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-28 15:07+0000\n"
+"PO-Revision-Date: 2023-12-30 18:40+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -361,8 +361,7 @@ msgid ""
 msgstr ""
 "- [[Si la vostra contrasenya té 4 paraules aleatòries o menys|argon2id#4]]\n"
 "- [[Si la vostra contrasenya té 5 paraules aleatòries|argon2id#5]]\n"
-"- [[Si la vostra frase de contrasenya té 6 paraules aleatòries o "
-"més|argon2id#6]]"
+"- [[Si la vostra contrasenya té 6 paraules aleatòries o més|argon2id#6]]"
 
 #. type: Plain text
 #, no-wrap
