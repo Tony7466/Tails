@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-12-30 10:16+0000\n"
+"PO-Revision-Date: 2023-12-30 10:18+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -119,7 +119,7 @@ msgstr "Para solucionar este problema, puedes:"
 #. type: Plain text
 msgid "- Close and reopen *Tor Connection* to speed up the initial connection."
 msgstr ""
-"- Cierre y vuelve a abrir *Conexión Tor* para acelerar la conexión inicial."
+"- Cerrar y volver a abrir *Tor Connection* para acelerar la conexión inicial."
 
 #. type: Plain text
 msgid "- Try a different obfs4 bridge."
@@ -137,6 +137,9 @@ msgid ""
 "Last updated: 2023-05-04\n"
 "-->\n"
 msgstr ""
+"<!--\n"
+"Last updated: 2023-05-04\n"
+"-->\n"
 
 #. type: Plain text
 #, no-wrap
@@ -144,7 +147,7 @@ msgid ""
 "<p>This issue only affects outdated obfs4 bridges and does not happen with\n"
 "obfs4 bridges that run version 0.0.12 or later.</p>\n"
 msgstr ""
-"<p>Este problema solo afecta a los puentes obfs4 obsoletos y no ocurre con \n"
+"<p>Este problema sólo afecta a los puentes obfs4 obsoletos y no ocurre con\n"
 "los puentes obfs4 que ejecutan la versión 0.0.12 o posterior.</p>\n"
 
 #. type: Plain text
