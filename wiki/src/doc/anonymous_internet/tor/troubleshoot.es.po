@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-12-30 10:08+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"PO-Revision-Date: 2023-12-30 10:09+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -154,7 +154,7 @@ msgstr "</div>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"broken\">The bridge is no longer operational</h2>\n"
-msgstr "<h2 id=\"broken\">El puente ya no está operativo.</h2>\n"
+msgstr "<h2 id=\"broken\">El puente ya no está operativo</h2>\n"
 
 #. type: Plain text
 msgid "It is possible that the bridge that you entered is no longer working."
