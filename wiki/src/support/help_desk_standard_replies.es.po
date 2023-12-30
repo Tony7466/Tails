@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-05-01 16:20+0200\n"
-"PO-Revision-Date: 2023-12-28 15:21+0000\n"
+"PO-Revision-Date: 2023-12-30 12:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Help Desk's standard replies\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Respuestas estándar del Equipo de Ayuda\"]]\n"
 
 #. type: Plain text
 #, no-wrap
