@@ -183,6 +183,8 @@ msgid ""
 "Tails takes extra measures to [[use different circuits for different "
 "applications|contribute/design/stream_isolation]]."
 msgstr ""
+"Tails toma medidas adicionales para [[usar diferentes circuitos para "
+"diferentes aplicaciones|contribute/design/stream_isolation]]."
 
 #. type: Content of: <div><p>
 msgid ""
