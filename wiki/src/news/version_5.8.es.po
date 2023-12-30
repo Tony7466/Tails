@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-29 11:23+0000\n"
+"PO-Revision-Date: 2023-12-30 10:15+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -827,7 +827,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "To fix this, you can either:"
-msgstr ""
+msgstr "Para solucionar este problema, puedes:"
 
 #. type: Bullet: '* '
 msgid "Close and reopen *Tor Connection* to speed up the initial connection."
