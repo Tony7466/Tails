@@ -881,6 +881,9 @@ msgid ""
 "      The output is a list of the storage devices and partitions on the system.\n"
 "      For example:\n"
 msgstr ""
+"      El resultado es una lista de los dispositivos de almacenamiento y las "
+"particiones del sistema.\n"
+"      Por ejemplo:\n"
 
 #. type: Plain text
 #, no-wrap
