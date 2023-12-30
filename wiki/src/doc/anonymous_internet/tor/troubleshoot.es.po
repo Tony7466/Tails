@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-05-04 17:49+0000\n"
-"PO-Revision-Date: 2023-12-30 10:09+0000\n"
+"PO-Revision-Date: 2023-12-30 10:10+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -162,7 +162,7 @@ msgstr "Es posible que el puente que ingresaste ya no funcione."
 
 #. type: Plain text
 msgid "Try entering another bridge or requesting other bridges."
-msgstr "Intenta ingresar a otro puente o solicitar otros puentes."
+msgstr "Intenta ingresar otro puente o solicitar otros puentes."
 
 #. type: Plain text
 #, no-wrap
