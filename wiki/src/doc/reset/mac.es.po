@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-29 16:22+0000\n"
+"PO-Revision-Date: 2023-12-30 10:21+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "reset_mac/es/>\n"
@@ -69,10 +69,8 @@ msgstr ""
 "    en el panel izquierdo de la ventana.\n"
 
 #. type: Bullet: '3.  '
-#, fuzzy
-#| msgid "Plug the USB stick that you want to reset."
 msgid "Plug in the USB stick that you want to reset."
-msgstr "Conecta el dispositivo USB que quieres reiniciar."
+msgstr "Conecta la memoria USB que quieres reiniciar."
 
 #. type: Plain text
 #, no-wrap
