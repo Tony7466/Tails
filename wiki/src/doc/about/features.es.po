@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-28 15:21+0000\n"
+"PO-Revision-Date: 2023-12-30 23:50+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "features/es/>\n"
@@ -65,6 +65,8 @@ msgid ""
 "the Onion Circuits graphical frontend ([[More...|doc/anonymous_internet/tor/"
 "circuits]])"
 msgstr ""
+"la interfaz gráfica de los Circuitos Onion ([[More...|doc/anonymous_internet/"
+"tor/circuits]])"
 
 #. type: Bullet: '- '
 msgid ""
@@ -81,12 +83,18 @@ msgid ""
 "Tor_Browser]]), a web browser based on [Mozilla Firefox](https://www.mozilla."
 "org/firefox/) and modified to protect your anonymity with:"
 msgstr ""
+"[Navegador Tor](https://www.torproject.org) ([[Más...|doc/anonymous_internet/"
+"Tor_Browser]]), un navegador basado en [Mozilla Firefox](https://www.mozilla."
+"org/firefox/) y modificado para proteger tu anonimato con:"
 
 #. type: Bullet: '  * '
 msgid ""
 "[HTTPS Everywhere](https://www.eff.org/https-everywhere)  transparently "
 "enables SSL-encrypted connections to a great number of major websites"
 msgstr ""
+"[HTTPS Everywhere](https://www.eff.org/https-everywhere) activa de manera "
+"transparente conexiones cifradas con SSL a un gran número de sitios web "
+"principales"
 
 #. type: Bullet: '  * '
 #, fuzzy
