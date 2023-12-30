@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-30 10:21+0000\n"
+"PO-Revision-Date: 2023-12-30 23:40+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -924,6 +924,8 @@ msgid ""
 "To verify whether your encrypted volume uses PBKDF2 or Argon2id, execute the "
 "following command."
 msgstr ""
+"Para verificar si tu volumen cifrado usa PBKDF2 o Argon2id, ejecuta el "
+"siguiente comando."
 
 #. type: Plain text
 #, no-wrap
