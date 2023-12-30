@@ -162,7 +162,7 @@ msgstr "Es posible que el puente por el que ingresaste ya no funcione."
 
 #. type: Plain text
 msgid "Try entering another bridge or requesting other bridges."
-msgstr ""
+msgstr "Intenta ingresar a otro puente o solicitar otros puentes."
 
 #. type: Plain text
 #, no-wrap
