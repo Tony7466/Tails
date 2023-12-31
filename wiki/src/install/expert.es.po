@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-29 16:23+0000\n"
+"PO-Revision-Date: 2023-12-31 15:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -389,6 +389,8 @@ msgstr ""
 #, no-wrap
 msgid "   <div class=\"caution\"><p>All the data on this USB stick will be lost.</p></div>\n"
 msgstr ""
+"   <div class=\"caution\"><p>Se perderá toda la información en esta memoria "
+"USB.</p></div>\n"
 
 #
 #. type: Bullet: '1. '
