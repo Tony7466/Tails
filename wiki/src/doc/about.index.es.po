@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-27 19:21+0000\n"
+"PO-Revision-Date: 2024-01-01 18:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/"
 "first_stepsindex/es/>\n"
@@ -44,10 +44,8 @@ msgstr ""
 "warnings/computer]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Features and included software|about/features]]"
 msgid "- [[Features and included software|about/features]]"
-msgstr "[[Características y software incluido|about/features]]"
+msgstr "- [[Funcionalidades y software incluido|about/features]]"
 
 #. type: Plain text
 #, fuzzy
