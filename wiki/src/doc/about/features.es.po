@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-30 23:50+0000\n"
+"PO-Revision-Date: 2024-01-01 18:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "features/es/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Features and included software\"]]\n"
-msgstr "[[!meta title=\"Características y software incluido\"]]\n"
+msgstr "[[!meta title=\"Funcionalidades y software incluido\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -97,14 +97,11 @@ msgstr ""
 "principales"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid ""
-#| "[NoScript](http://noscript.net/) to have even more control over "
-#| "JavaScript."
 msgid ""
 "[NoScript](http://noscript.net/), to have even more control over JavaScript"
 msgstr ""
-"[NoScript](http://noscript.net/) para tener aún más control sobre JavaScript."
+"[NoScript](http://noscript.net/), para tener aún más control sobre el "
+"JavaScript"
 
 #. type: Bullet: '  * '
 msgid ""
