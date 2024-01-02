@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-12-22 17:19+0000\n"
-"Last-Translator: Jorge Maldonado Ventura <jorgesumle@freakspot.net>\n"
+"PO-Revision-Date: 2024-01-02 20:22+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -23,17 +23,11 @@ msgid "[[!meta title=\"Home\"]]"
 msgstr "[[!meta title=\"Home\"]]"
 
 #. type: Content of: outside any tag (error?)
-#, fuzzy
-#| msgid ""
-#| "[[!meta stylesheet=\"index\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-#| "stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-#| "stylesheet=\"donate/testimonials.inline\" rel=\"stylesheet\" title=\"\"]]"
 msgid ""
 "[[!meta stylesheet=\"index\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"donate/testimonials.inline\" rel=\"stylesheet\" title=\"\"]]"
 msgstr ""
 "[[!meta stylesheet=\"index\" rel=\"stylesheet\" title=\"\"]] [[!meta "
-"stylesheet=\"hide-breadcrumbs\" rel=\"stylesheet\" title=\"\"]] [[!meta "
 "stylesheet=\"donate/testimonials.inline\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <script>
@@ -148,19 +142,14 @@ msgid "News"
 msgstr "Noticias"
 
 #. type: Content of: <section><div>
-#, fuzzy
-#| msgid ""
-#| "[[!inline pages=\"page(news/*) and !news/*/* and !news/discussion and "
-#| "(currentlang() or news/report_2* or news/test_*)\" show=\"3\" "
-#| "feeds=\"no\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
 msgid ""
 "[[!inline pages=\"page(news/*) and !news/archive and !news/*/* and !news/"
 "discussion and (currentlang() or news/report_2* or news/test_*)\" show=\"3\" "
 "feeds=\"no\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
 msgstr ""
-"[[!inline pages=\"page(news/*) and !news/*/* and !news/discussion and "
-"(currentlang() or news/report_2* or news/test_*)\" show=\"3\" feeds=\"no\" "
-"archive=\"yes\" sort=\"-meta(date) age -path\"]]"
+"[[!inline pages=\"page(news/*) and !news/archive and !news/*/* and !news/"
+"discussion and (currentlang() or news/report_2* or news/test_*)\" show=\"3\" "
+"feeds=\"no\" archive=\"yes\" sort=\"-meta(date) age -path\"]]"
 
 #. type: Content of: <section><h1>
 msgid "Who uses Tails"
