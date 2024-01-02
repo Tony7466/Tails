@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-08-24 19:56+0000\n"
-"PO-Revision-Date: 2023-12-29 16:23+0000\n"
+"PO-Revision-Date: 2024-01-02 12:23+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -75,7 +75,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Changes and updates"
-msgstr ""
+msgstr "Cambios y actualizaciones"
 
 #. type: Plain text
 msgid ""
@@ -129,7 +129,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"known-issues\"></a>\n"
-msgstr ""
+msgstr "<a id=\"known-issues\"></a>\n"
 
 #. type: Title #
 #, no-wrap
@@ -222,7 +222,7 @@ msgstr "[[Para DVD y máquinas virtuales (imagen ISO)|install/download-iso]]"
 #. type: Title #
 #, no-wrap
 msgid "What's coming up?"
-msgstr ""
+msgstr "¿Qué novedades hay?"
 
 #. type: Plain text
 msgid "Tails 4.12 is [[scheduled|contribute/calendar]] for October 20."
