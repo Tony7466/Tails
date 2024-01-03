@@ -1,13 +1,12 @@
 #!/bin/sh
 
-title="$(gettext 'Error reading data from Tails USB stick')"
+title="$(gettext 'Error Reading Data from Tails USB Stick')"
 problem="$(gettext 'The hardware of your USB stick is probably failing.')"
 recommendation="$(gettext 'We recommend that you reinstall Tails on a different USB stick.')"
 
-# Translators: please don't translate %LINK%
-persistence="$(gettext 'To recover your Persistent Storage, try to follow our instructions: %LINK%' \
-        | sed -e 's@%LINK%@https://tails.net/doc/persistent_storage/rescue@'
-)"
+persistence="$(gettext 'We recommend that you reinstall Tails on a different USB stick
+and recover the data in your Persistent Storage as soon as possible.')"
+
 if ! /usr/local/lib/tpscli is-created
 then
 msg="$(cat <<EOTEXT
