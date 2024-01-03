@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-26 10:46+0000\n"
+"POT-Creation-Date: 2024-01-03 23:17+0000\n"
 "PO-Revision-Date: 2024-01-01 18:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -826,9 +826,9 @@ msgid ""
 "configuration of the Persistent Storage, and add the *apt-sources.list.d* "
 "folder as a feature of type `link`:"
 msgstr ""
-"Com a administrador, editeu */live/persistence/TailsData_unlocked/persistence"
-".conf*, la configuració de l'Emmagatzematge Persistent, i afegiu la carpeta "
-"*apt-sources.list.d* com a funcionalitat del tipus `link`:"
+"Com a administrador, editeu */live/persistence/TailsData_unlocked/"
+"persistence.conf*, la configuració de l'Emmagatzematge Persistent, i afegiu "
+"la carpeta *apt-sources.list.d* com a funcionalitat del tipus `link`:"
 
 #. type: Plain text
 #, no-wrap
@@ -837,19 +837,20 @@ msgstr "       /etc/apt/sources.list.d\tsource=apt-sources.list.d,link\n"
 
 #. type: Bullet: '1. '
 msgid ""
-"Write your additional `sources.list` files in the <span "
-"class=\"filename\">apt-sources.list.d</span> folder. For example, to add the "
-"`non-free` sections of Debian 10 (bullseye), backports, and security "
-"updates, you can create a file named <span class=\"filename\">/live/"
-"persistence/TailsData_unlocked/apt-sources.list.d/non-free.list</span> with "
-"the following content:"
+"Write your additional `sources.list` files in the *apt-sources.list.d* "
+"folder."
 msgstr ""
-"Escriviu els vostres fitxers `sources.list` addicionals a la carpeta <span "
-"class=\"filename\">apt-sources.list.d</span>. Per exemple, per afegir les "
-"seccions `no lliures` de Debian 10 (Bullseye), backports i actualitzacions "
-"de seguretat, podeu crear un fitxer anomenat <span class=\"filename\">/live/"
-"persistence/TailsData_unlocked/apt-sources.list.d/non-free.list</span> amb "
-"el contingut següent:"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "Write your additional `sources.list` files in the <span class=\"filename\">apt-sources.list.d</span> folder. For example, to add the `non-free` sections of Debian 10 (bullseye), backports, and security updates, you can create a file named <span class=\"filename\">/live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list</span> with the following content:"
+msgid ""
+"   For example, to add\n"
+"   the `non-free` sections of Debian 11 (Bullseye), backports, and security\n"
+"   updates, you can create a file named\n"
+"   */live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list*\n"
+"   with the following content:\n"
+msgstr "Escriviu els vostres fitxers `sources.list` addicionals a la carpeta <span class=\"filename\">apt-sources.list.d</span>. Per exemple, per afegir les seccions `no lliures` de Debian 10 (Bullseye), backports i actualitzacions de seguretat, podeu crear un fitxer anomenat <span class=\"filename\">/live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list</span> amb el contingut següent:"
 
 #. type: Plain text
 #, no-wrap
