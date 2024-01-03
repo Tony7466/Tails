@@ -353,10 +353,12 @@ example, to install packages from the `non-free` section of Debian. To do so:
        /etc/apt/sources.list.d	source=apt-sources.list.d,link
 
 1. Write your additional `sources.list` files in the
-   <span class="filename">apt-sources.list.d</span> folder. For example, to add
-   the `non-free` sections of Debian 10 (bullseye), backports, and security
+   *apt-sources.list.d* folder.
+
+   For example, to add
+   the `non-free` sections of Debian 11 (Bullseye), backports, and security
    updates, you can create a file named
-   <span class="filename">/live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list</span>
+   */live/persistence/TailsData_unlocked/apt-sources.list.d/non-free.list*
    with the following content:
 
        deb tor+http://ftp.us.debian.org/debian/ bullseye non-free

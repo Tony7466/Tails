@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2024-01-03 23:05+0000\n"
 "PO-Revision-Date: 2023-12-29 16:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
@@ -30,16 +30,13 @@ msgid ""
 "class=\"application\">VirtualBox</span>](https://www.virtualbox.org/) from a\n"
 "Windows, Linux, or macOS host operating system.\n"
 msgstr ""
-"Se puede usar Tails en una máquina virtual usando [<span class=\"application"
-"\">VirtualBox</span>](https://www.virtualbox.org/) desde un\n"
+"Se puede usar Tails en una máquina virtual usando [<span class=\"application\">VirtualBox</span>](https://www.virtualbox.org/) desde un\n"
 "sistema operativo Windows, Linux, o macOS.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"doc/advanced_topics/virtualization.caution\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"[[!inline pages=\"doc/advanced_topics/virtualization.caution.es\" raw=\"yes\""
-" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/advanced_topics/virtualization.caution.es\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -49,11 +46,9 @@ msgid ""
 "and some proprietary components, for example to add support for USB\n"
 "devices.\n"
 msgstr ""
-"<span class=\"application\">VirtualBox</span> tiene una versión de software "
-"libre\n"
+"<span class=\"application\">VirtualBox</span> tiene una versión de software libre\n"
 "llamada <span class=\"application\">VirtualBox Open Source Edition</span>\n"
-"y algunos componentes propietarios, por ejemplo para añadir soporte para "
-"dispositivos\n"
+"y algunos componentes propietarios, por ejemplo para añadir soporte para dispositivos\n"
 "USB.\n"
 
 #. type: Plain text
@@ -70,7 +65,7 @@ msgstr "<div class=\"caution\">\n"
 msgid ""
 "<p>For security reasons, we recommend you to use only the\n"
 "<i>Open Source Edition</i>, though it does not\n"
-"allow use of a Persistent Storage.</p>\n"
+"allow the use of a Persistent Storage.</p>\n"
 msgstr "Por razones de seguridad, te recomendamos que uses solamente la <span class=\"application\">Edición de Código Abierto</span>, aunque éste no permite el uso del Almacenamiento Persistente.\n"
 
 #. type: Plain text
@@ -104,11 +99,8 @@ msgid ""
 "<span class=\"application\">VirtualBox</span> you can access files of your\n"
 "host system from within the guest system.</p>\n"
 msgstr ""
-"<p>Con la opción <a href=\"https://www.virtualbox.org/manual/ch04.html#"
-"sharedfolders\">\n"
-"<span class=\"guilabel\">Carpetas compartidas</span></a> de <span class="
-"\"application\">VirtualBox</span> puedes acceder a los archivos de tu "
-"sistema anfitrión desde el sistema invitado.</p>\n"
+"<p>Con la opción <a href=\"https://www.virtualbox.org/manual/ch04.html#sharedfolders\">\n"
+"<span class=\"guilabel\">Carpetas compartidas</span></a> de <span class=\"application\">VirtualBox</span> puedes acceder a los archivos de tu sistema anfitrión desde el sistema invitado.</p>\n"
 
 #. type: Plain text
 #, no-wrap
