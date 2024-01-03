@@ -11,7 +11,7 @@ dpkg-divert --add --rename --divert /usr/lib/user-dirs-gtk-update/user-dirs-gtk-
 cat > /usr/bin/user-dirs-gtk-update << 'EOF'
 #!/bin/sh
 
-exec env LC_MESSAGES=en_US user-dirs-gtk-update
+exec env LC_MESSAGES=en_US /usr/lib/user-dirs-gtk-update/user-dirs-gtk-update
 EOF
 
 chmod 755 /usr/bin/user-dirs-gtk-update

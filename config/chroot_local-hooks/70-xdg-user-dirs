@@ -11,7 +11,7 @@ dpkg-divert --add --rename --divert /usr/lib/xdg-user-dirs-update/xdg-user-dirs-
 cat > /usr/bin/xdg-user-dirs-update << 'EOF'
 #!/bin/sh
 
-exec env LC_MESSAGES=en_US xdg-user-dirs-update
+exec env LC_MESSAGES=en_US /usr/lib/xdg-user-dirs-update/xdg-user-dirs-update
 EOF
 
 chmod 755 /usr/bin/xdg-user-dirs-update
