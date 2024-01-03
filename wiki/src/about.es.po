@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2023-12-31 01:22+0000\n"
+"PO-Revision-Date: 2024-01-03 13:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -526,7 +526,7 @@ msgstr ""
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Donate|donate]]"
-msgstr "[[Dona|donate]]"
+msgstr "[[Donar|donate]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Sponsors|sponsors]]"
@@ -567,7 +567,7 @@ msgstr "[[Relación con upstream|contribute/relationship_with_upstream]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "[[Contribute|contribute]]"
-msgstr "[[Contribuir|contribute]]"
+msgstr "[[Colabora|contribute]]"
 
 #. type: Content of: <section><div><div><ul><li>
 msgid "<a href=\"https://www.torproject.org/\">The Tor Project</a>"
