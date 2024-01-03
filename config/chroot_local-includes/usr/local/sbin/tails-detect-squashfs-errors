@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 """
-  Detect SQUASHFS error and if detected reate /squashfs_failed.
-  That file will be used to show the user an error.
+  Detect SQUASHFS error and if detected create
+  /var/lib/live/tails.squashfs_failed. That file will be used to show
+  the user an error.
 
   Copyright (C) 2023 Tails developers <tails@boum.org>
 
@@ -24,7 +25,7 @@ import pathlib
 import systemd.journal
 
 # File that indicates SQUASHFS errors
-squashfs_failed = pathlib.Path("/squashfs_failed")
+squashfs_failed = pathlib.Path("/var/lib/live/tails.squashfs_failed")
 
 def process_entries(journal: systemd.journal.Reader):
     """Process all journald messages and search for SQUASHFS error."""
