@@ -129,6 +129,16 @@ Selling preinstalled devices would in fact be a pretty bad idea:
   cryptographic verification techniques anymore. Being able to trust
   your Tails USB stick is something that we really care about.
 
+<h2 id="integrity">Can I verify the integrity of a Tails USB stick or DVD?</h2>
+
+It is impossible to verify the integrity of a Tails USB stick or DVD while running Tails
+from it. It would be like asking to someone whether they are
+lying: a true liar would always pretend to tell the truth.
+
+If you worry that your Tails might be corrupted, do a [[manual
+upgrade|upgrade]] from a trusted operating system to
+upgrade it to a trusted version of Tails.
+
 <h1 id="browser">Tor Browser</h1>
 
 <!-- We might move some of this content to the Tor Browser documentation. See #19122.
@@ -414,25 +424,6 @@ Tails currently does not include a Monero wallet. However, we are interested
 in making it easier to use Monero in Tails in the future. See [[!tails_ticket
 17823]] for a list of unofficial guides on how to use Monero in Tails.
 
-<h2 id="old-software">Why does Tails include old versions of software?</h2>
-
-Tails includes the software versions that are found in
-[Debian stable](https://wiki.debian.org/DebianStable). Even though the
-software versions might be old, they receive security fixes through the
-[Debian security team](https://wiki.debian.org/Teams/Security).
-
-<h1 id="misc">Other security issues</h1>
-
-<h2 id="integrity">Can I verify the integrity of a Tails USB stick or DVD?</h2>
-
-It is impossible to verify the integrity of a Tails USB stick or DVD while running Tails
-from it. It would be like asking to someone whether they are
-lying: a true liar would always pretend to tell the truth.
-
-If you worry that your Tails might be corrupted, do a [[manual
-upgrade|upgrade]] from a trusted operating system to
-upgrade it to a trusted version of Tails.
-
 <h2 id="antivirus">Does Tails need an antivirus?</h2>
 
 No, as other Linux systems, Tails doesn't require an antivirus to protect itself
@@ -442,3 +433,10 @@ the permission design of Linux systems.
 
 See the [[!wikipedia Linux_malware desc="Wikipedia page on Linux malware"]]
 for further details.
+
+<h2 id="old-software">Why does Tails include old versions of software?</h2>
+
+Tails includes the software versions that are found in
+[Debian stable](https://wiki.debian.org/DebianStable). Even though the
+software versions might be old, they receive security fixes through the
+[Debian security team](https://wiki.debian.org/Teams/Security).
