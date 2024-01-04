@@ -154,10 +154,6 @@ If you find a workaround, please let us know.
 
 <h1 id="wifi">Networking issues</h1>
 
-<h2 id="no-wifi">Wi-Fi not working</h2>
-
-See [[troubleshooting Wi-Fi not working|doc/anonymous_internet/no-wifi]].
-
 <h2 id="problematic-wifi">Problematic Wi-Fi interfaces</h2>
 
 Check in this section
@@ -258,10 +254,6 @@ For more detail, see our documentation about the [[fingerprint of *Tor Browser*
 in Tails|doc/anonymous_internet/Tor_Browser#fingerprint]].
 
 -->
-
-<h2 id="tor">Problems connecting to the Tor network</h2>
-
-See [[troubleshooting connecting to Tor|doc/anonymous_internet/tor/troubleshoot]].
 
 <h1 id="hardware">Other hardware issues</h1>
 
@@ -367,28 +359,6 @@ option|doc/advanced_topics/boot_options]]:
     pcie_port_pm=off
 
 <h1 id="misc">Other issues</h1>
-
-<h2 id="bluetooth-devices-dont-work">Bluetooth devices don't work</h2>
-
-Bluetooth is not enabled in Tails for security reasons.
-
-<h2 id="automatic-upgrade-fails">Tails fails to start or behaves weirdly after an automatic upgrade</h2>
-
-<!--
-Last updated: 2019-07-31
--->
-
-Sometimes, after an automatic upgrade, your Tails might either:
-
-- Fail to start. Often after the message:
-
-  <pre>Loading, please wait...</pre>
-
-- Behave weirdly. For example, your keyboard does not work or you cannot
-  connect to a network.
-
-To fix this problem, you can [[update your Tails
-manually|doc/upgrade/#manual]].
 
 <h2 id="video-memory">Tails does not erase video memory</h2>
 
