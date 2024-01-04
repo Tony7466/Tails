@@ -31,9 +31,10 @@ Detailed hardware requirements
     <span class="definition">[[!wikipedia PowerPC]]</span> nor
     <span class="definition">[[!wikipedia ARM_architecture desc="ARM"]]</span>.
   - Tails works on some older Mac computers with an Intel processor.
-  - Tails does not work on newer Mac computers with an [[!wikipedia Apple_silicon#M_series desc="Apple processor"]] (M1 or M2).
+  - Tails does not work on Mac computers with an [[!wikipedia Apple_silicon#M_series desc="Apple processor"]] (M1 or M2).
   - Tails does not work on 32-bit computers since [[Tails 3.0|news/Tails_3.0_will_require_a_64-bit_processor]] (June 2017).
   - Tails does not work on phone or tablets.
+  - Tails does not work on Raspberry Pi.
 
 - 2 GB of RAM to work smoothly.
 
