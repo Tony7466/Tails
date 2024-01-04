@@ -63,13 +63,6 @@ documentation](https://help.gnome.org/users/orca/stable/).
 
 </div>
 
-<div class="bug">
-
-<p>The screen reader does not work with the <span class="application">Unsafe
-Browser</span>.</p>
-
-</div>
-
 Screen keyboard
 ===============
 
