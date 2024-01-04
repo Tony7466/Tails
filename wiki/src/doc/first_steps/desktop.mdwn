@@ -272,8 +272,6 @@ moved</div>
 -->
 <h1 id="files">The <span class="application">Files</span> browser</h1>
 
-[[!img nautilus.png link="no" alt=""]]
-
 To open the <span class="application">Files</span> browser, you can
 either:
 
