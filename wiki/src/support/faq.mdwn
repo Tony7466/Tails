@@ -220,10 +220,6 @@ consequence, weakens your anonymity.
 Furthermore, we verify the result of those websites before each release, see our
 [[test suite|contribute/release_process/test]].
 
-<h2 id="java">Is Java installed in the <span class="application">Tor Browser</span>?</h2>
-
-Tails does not include a Java plugin in its browser because it could break your anonymity.
-
 <h1 id="networking">Networking</h1>
 
 <h2 id="vpn">Can I use Tails with a VPN?</h2>
@@ -265,10 +261,6 @@ Still, you can close a given circuit and trigger Tor to create a new one using
 the [[New Circuit for this Site|doc/anonymous_internet/Tor_Browser]] button of
 *Tor Browser* or the [[*Onion Circuits*|doc/anonymous_internet/tor/circuits]]
 utility.
-
-<h2 id="dns">How does the DNS resolution work in Tails?</h2>
-
-See our [[design document|contribute/design/Tor_enforcement/DNS]] on this topic.
 
 <h2 id="htp">Why does Tails automatically connect to several websites when starting?</h2>
 
@@ -449,21 +441,6 @@ other Linux distributions.
 
 If you want to implement this feature outside of Tails, have a look at the
 corresponding [[design documentation|contribute/design/memory_erasure]].
-
-<h2 id="new-identity">Where is the <span class="guilabel">New Identity</span> button?</h2>
-
-There is no <span class="guilabel">New Identity</span> button for Tails as a
-whole.
-
-The [[<span class="guilabel">New Identity</span> feature of
-<span class="application">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new-identity]]
-is limited to the browser.
-
-In the same way as the <span class="guilabel">New Identity</span> button of
-<span class="application">Tor Browser</span> restarts the browser, you have to
-restart Tails before using a different identity.
-
-See also our warning about [[using Tails sessions for only one purpose at a time|doc/about/warnings/identity#contextual]].
 
 <h2 id="antivirus">Does Tails need an antivirus?</h2>
 
