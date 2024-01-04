@@ -143,16 +143,7 @@ Tails|doc/advanced_topics/boot_options]]:
 
     acpi_rev_override=1
 
-<h3 id="microsoft-surface-laptop-3">Microsoft Surface Laptop 3</h3>
-
-<!--
-Last updated: 2020-07-03
--->
-
-The keyboard and mouse do not work on this laptop.
-If you find a workaround, please let us know.
-
-<h3 id="microsoft-surface-laptop-4">Microsoft Surface Laptop 4</h3>
+<h3 id="microsoft-surface-laptop">Microsoft Surface Laptop 3 and 4</h3>
 
 <!--
 Last updated: 2022-09-12
