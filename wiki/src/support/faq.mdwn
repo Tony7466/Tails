@@ -299,9 +299,18 @@ It is impossible to use <span class="command">ping</span> in Tails,
 because <span class="command">ping</span> uses the ICMP protocol while Tor
 can only transport TCP connections.
 
-<h1 id="software">Software not included in Tails</h1>
+<h1 id="software">Included software</h1>
 
 <h2 id="new-software">Can my favorite software be included in Tails?</h2>
+
+<div class="tip">
+
+<p>If a software is not included in Tails, but is included in Debian, you can use
+the [[Additional
+Software|doc/persistent_storage/configure#additional_software]] feature of
+the Persistent Storage to install it automatically every time you start Tails.</p>
+
+</div>
 
 First of all, make sure that this software is already available in Debian, as
 this is a requirement to be included in Tails. Adding to Tails software which is
@@ -335,57 +344,12 @@ After considering all this, if you still think that this software is a good
 candidate to be included in Tails, please explain us your
 proposal on [[!tails_ticket desc="GitLab"]].
 
-<div class="tip">
-
-<p>If a software is not included in Tails, but is included in Debian, you can use
-the [[Additional
-Software|doc/persistent_storage/configure#additional_software]] feature of
-the Persistent Storage to install it automatically every time you start Tails.</p>
-
-</div>
-
 Here is some of the software we are often asked to include in Tails:
 
   - **monero**: not in Debian, but see [[!tails_ticket 17823]]
   - **bitmessage**: not in Debian
   - **retroshare**: not in Debian
   - **rar/unrar**: not [[Free Software|doc/about/license]]
-
-<h2 id="bittorrent">Can I download using BitTorrent with Tails?</h2>
-
-Tails does not ship any BitTorrent software and is unlikely to do so in the
-future.
-
-The problem with using BitTorrent over Tor is double:
-
-  - It is technically hard to do it properly, see:
-    <https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea>.
-  - It harms the network, see:
-    <https://blog.torproject.org/why-tor-slow-and-what-were-going-do-about-it>.
-
-<h2 id="youtube">Can I download videos from websites?</h2>
-
-You can install `yt-dlp` as [[Additional
-Software|doc/persistent_storage/additional_software]]. *yt-dlp*
-allows downloading videos from more than
-[1700 websites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md).
-
-For example, to download a YouTube video, execute the following command
-in a terminal:
-
-    torsocks yt-dlp "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-
-For more information, refer to the official
-[<span class="application">yt-dlp</span> wiki](https://github.com/yt-dlp/yt-dlp/wiki).
-
-<h2 id="monero">How can I use Monero in Tails?</h2>
-
-You can install the [[*Feather*|doc/advanced_topics/feather]] Monero wallet as
-an AppImage.
-
-Tails currently does not include a Monero wallet. However, we are interested
-in making it easier to use Monero in Tails in the future. See [[!tails_ticket
-17823]] for a list of unofficial guides on how to use Monero in Tails.
 
 <h2 id="voip">Can I do voice or video calls from Tails?</h2>
 
@@ -414,7 +378,41 @@ Not yet.
   on *Mumble*. If you are a Debian developer, please help us
   [[!tails_ticket 17617 desc="get *Wahay* in Debian"]].
 
-<h1 id="misc">Other security issues</h1>
+<h2 id="bittorrent">Can I download using BitTorrent with Tails?</h2>
+
+Tails does not ship any BitTorrent software and is unlikely to do so in the
+future.
+
+The problem with using BitTorrent over Tor is double:
+
+  - It is technically hard to do it properly, see:
+    <https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea>.
+  - It harms the network, see:
+    <https://blog.torproject.org/why-tor-slow-and-what-were-going-do-about-it>.
+
+<h2 id="youtube">Can I download videos from websites?</h2>
+
+You can install `yt-dlp` as [[Additional
+Software|doc/persistent_storage/additional_software]]. *yt-dlp*
+allows downloading videos from more than
+[1700 websites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md).
+
+For example, to download a YouTube video, execute the following command
+in a terminal:
+
+    torsocks yt-dlp "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+For more information, refer to the official
+[<span class="application">yt-dlp</span> wiki](https://github.com/yt-dlp/yt-dlp/wiki).
+
+<h2 id="monero">Can I use Monero in Tails?</h2>
+
+Yes. You can install the [[*Feather*|doc/advanced_topics/feather]] Monero wallet as
+an AppImage.
+
+Tails currently does not include a Monero wallet. However, we are interested
+in making it easier to use Monero in Tails in the future. See [[!tails_ticket
+17823]] for a list of unofficial guides on how to use Monero in Tails.
 
 <h2 id="old-software">Why does Tails include old versions of software?</h2>
 
@@ -422,6 +420,8 @@ Tails includes the software versions that are found in
 [Debian stable](https://wiki.debian.org/DebianStable). Even though the
 software versions might be old, they receive security fixes through the
 [Debian security team](https://wiki.debian.org/Teams/Security).
+
+<h1 id="misc">Other security issues</h1>
 
 <h2 id="integrity">Can I verify the integrity of a Tails USB stick or DVD?</h2>
 
