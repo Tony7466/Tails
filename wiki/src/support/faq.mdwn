@@ -8,6 +8,8 @@
 
 <h1 id="project">Tails project</h1>
 
+<!-- This entire section would be better placed in an "About Us" section. See #17700. -->
+
 <h2 id="tor">What is the relationship between Tor and Tails?</h2>
 
 See our explanation about [[why does Tails use Tor|doc/anonymous_internet/tor/why#relationship]].
@@ -128,6 +130,8 @@ Selling preinstalled devices would in fact be a pretty bad idea:
   your Tails USB stick is something that we really care about.
 
 <h1 id="browser">Web browser</h1>
+
+<!-- We might move some of this content to the Tor Browser documentation. See #19122.
 
 <h2 id="javascript">Why is JavaScript enabled by default in <span class="application">Tor Browser</span>?</h2>
 
