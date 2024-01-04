@@ -433,15 +433,6 @@ If you worry that your Tails might be corrupted, do a [[manual
 upgrade|upgrade]] from a trusted operating system to
 upgrade it to a trusted version of Tails.
 
-<h2 id="reuse-memory-wipe">Can I use the memory wipe feature on another operating system?</h2>
-
-The memory wipe mechanism that Tails uses on shutdown to [[protect against cold
-boot attacks|doc/advanced_topics/cold_boot_attacks]] should be reusable in
-other Linux distributions.
-
-If you want to implement this feature outside of Tails, have a look at the
-corresponding [[design documentation|contribute/design/memory_erasure]].
-
 <h2 id="antivirus">Does Tails need an antivirus?</h2>
 
 No, as other Linux systems, Tails doesn't require an antivirus to protect itself

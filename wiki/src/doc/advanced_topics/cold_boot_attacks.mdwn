@@ -35,3 +35,11 @@ cannot be overcome by the technique. The authors recommend to only use cold
 boot attacks as a last resort when all other avenues have been exhausted.</p>
 
 </div>
+
+<div class="next">
+
+<p>See how we implement this [[memory
+erasure|contribute/design/memory_erasure]], for example, if you want to
+implement this feature outside of Tails.</p>
+
+</div>
