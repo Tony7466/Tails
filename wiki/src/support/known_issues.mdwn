@@ -239,16 +239,6 @@ starting Tails|doc/advanced_topics/boot_options]]:
 
     modprobe.blacklist=ideapad_laptop
 
-<h3 id="rtl8821ce">RTL8821CE</h3>
-
-<!--
-Last updated: 2020-02-21
--->
-
-The Realtek RTL8821CE Wi-Fi adapter is not supported in Linux yet.
-
-This problem is tracked by [[!debbug 917941]].
-
 <!--
 
 <h1 id="security-issues">Security issues</h1>
