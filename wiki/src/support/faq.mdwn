@@ -369,18 +369,18 @@ The problem with using BitTorrent over Tor is double:
 
 <h2 id="youtube">Can I download videos from websites?</h2>
 
-You can install `youtube-dl` as [[Additional
-Software|doc/persistent_storage/additional_software]]. *youtube-dl*
+You can install `yt-dlp` as [[Additional
+Software|doc/persistent_storage/additional_software]]. *yt-dlp*
 allows downloading videos from more than
-[700 websites](https://github.com/rg3/youtube-dl/blob/master/docs/supportedsites.md).
+[1700 websites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md).
 
 For example, to download a YouTube video, execute the following command
 in a terminal:
 
-    torsocks youtube-dl "https://www.youtube.com/watch?v=JWII85UlzKw"
+    torsocks yt-dlp "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 For more information, refer to the official
-[<span class="application">youtube-dl</span> website](https://ytdl-org.github.io/youtube-dl/index.html).
+[<span class="application">yt-dlp</span> wiki](https://github.com/yt-dlp/yt-dlp/wiki).
 
 <h2 id="monero">How can I use Monero in Tails?</h2>
 
