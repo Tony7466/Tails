@@ -57,12 +57,6 @@ For more detailed documentation refer to the official [<span
 class="application">Orca</span> Screen Reader
 documentation](https://help.gnome.org/users/orca/stable/).
 
-<div class="bug">
-
-<p>The screen reader takes around 10 seconds to start.</p>
-
-</div>
-
 Screen keyboard
 ===============
 
