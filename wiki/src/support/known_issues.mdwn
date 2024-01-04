@@ -12,6 +12,14 @@
 
 This section lists known problems with specific hardware.
 
+Tails does not start at all on Mac models that use the Apple M1 chip and on
+many other Mac models.
+
+Apple does not prioritize collaborating with Free Software projects. Their
+newest hardware is usually very hard for Free Software developers to get
+working with Linux, and thus Tails. PC hardware tends to be more open and work
+better with Linux.
+
 <div class="tip">
 
 <p>See our instructions on [[starting Tails on Mac|doc/first_steps/start/mac]]
@@ -20,14 +28,6 @@ for general troubleshooting tips.</p>
 <p>[[Let us know|support/talk]] if you discover a new issue or workaround.</p>
 
 </div>
-
-Tails does not start at all on Mac models that use the Apple M1 chip and on
-many other Mac models.
-
-Apple does not prioritize collaborating with Free Software projects. Their
-newest hardware is usually very hard for Free Software developers to get
-working with Linux, and thus Tails. PC hardware tends to be more open and work
-better with Linux.
 
 <h2 id="pc-not-at-all">PC</h2>
 
