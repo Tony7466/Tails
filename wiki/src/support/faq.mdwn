@@ -353,8 +353,7 @@ Here is some of the software we are often asked to include in Tails:
   - **monero**: not in Debian, but see [[!tails_ticket 17823]]
   - **bitmessage**: not in Debian
   - **retroshare**: not in Debian
-  - **rar/unrar**: is not [[free software|doc/about/license]], but you can use the
-    [[Additional Software|doc/persistent_storage/additional_software]] feature to install it
+  - **rar/unrar**: not [[Free Software|doc/about/license]]
 
 <h2 id="bittorrent">Can I download using BitTorrent with Tails?</h2>
 
