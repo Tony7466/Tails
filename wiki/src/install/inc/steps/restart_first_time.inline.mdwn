@@ -145,9 +145,11 @@ better with Linux.</p>
 
 <h1 id="tails" class="step windows linux mac">Welcome to Tails!</h1>
 
-<div class="step-image">[[!img install/inc/infography/tails.png link="no" alt=""]]</div>
+<div class="step-image windows linux mac">[[!img install/inc/infography/tails.png link="no" alt=""]]</div>
 
 <h2 class="clone upgrade">Starting Tails</h2>
+
+<div class="step-image clone upgrade">[[!img install/inc/infography/tails.png link="no" alt=""]]</div>
 
 1. After the Boot Menu, a loading screen appears.
 
