@@ -262,7 +262,7 @@ the [[New Circuit for this Site|doc/anonymous_internet/Tor_Browser]] button of
 *Tor Browser* or the [[*Onion Circuits*|doc/anonymous_internet/tor/circuits]]
 utility.
 
-<h2 id="htp">Why does Tails automatically connect to several websites when starting?</h2>
+<h2 id="htp">Why does Tails automatically connect to websites when starting?</h2>
 
 The clock of the computer needs to be set at the correct time to both:
 
@@ -346,7 +346,7 @@ proposal on [[!tails_ticket desc="GitLab"]].
 
 Here is some of the software we are often asked to include in Tails:
 
-  - **monero**: not in Debian, but see [[!tails_ticket 17823]]
+  - **monero**: not in Debian ([[!tails_ticket 17823]])
   - **bitmessage**: not in Debian
   - **retroshare**: not in Debian
   - **rar/unrar**: not [[Free Software|doc/about/license]]
@@ -433,7 +433,7 @@ If you worry that your Tails might be corrupted, do a [[manual
 upgrade|upgrade]] from a trusted operating system to
 upgrade it to a trusted version of Tails.
 
-<h2 id="reuse-memory-wipe">Can I use the memory wipe feature of Tails on another operating system?</h2>
+<h2 id="reuse-memory-wipe">Can I use the memory wipe feature on another operating system?</h2>
 
 The memory wipe mechanism that Tails uses on shutdown to [[protect against cold
 boot attacks|doc/advanced_topics/cold_boot_attacks]] should be reusable in
