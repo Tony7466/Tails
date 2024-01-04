@@ -129,7 +129,7 @@ Selling preinstalled devices would in fact be a pretty bad idea:
   cryptographic verification techniques anymore. Being able to trust
   your Tails USB stick is something that we really care about.
 
-<h1 id="browser">Web browser</h1>
+<h1 id="browser">Tor Browser</h1>
 
 <!-- We might move some of this content to the Tor Browser documentation. See #19122.
 
