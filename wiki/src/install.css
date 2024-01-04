@@ -45,6 +45,10 @@
   padding-bottom: 50px !important;
 }
 
+#download {
+  margin: 2em 0;
+}
+
 #clone, #mobile {
   margin: 2em 0;
   border: 1px solid var(--light-gray);
