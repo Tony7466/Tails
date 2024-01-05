@@ -162,6 +162,7 @@ To force a specific behaviour please set:
  * **ram**: start the virtual machine with lots of memory, build Tails
    inside a `tmpfs`. Build fails if the system is not in a proper state to
    do so.
+
  * **noram**: start the virtual machine with the bare minimum needed memory if not already
    done, build Tails using the virtual machine hard disk.
 
