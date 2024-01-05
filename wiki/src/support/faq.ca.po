@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-27 22:20+0000\n"
+"POT-Creation-Date: 2024-01-05 17:15+0000\n"
 "PO-Revision-Date: 2024-01-01 18:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -673,10 +673,8 @@ msgid ""
 "So, the information retrieved by such fingerprinting websites is not harmful for\n"
 "anonymity in itself, as long as it is the same for all users of <span class=\"application\">Tor Browser</span>.\n"
 msgstr ""
-"Per tant, la informació recuperada per aquests llocs web d'empremtes "
-"dactilars no és perjudicial\n"
-"per a l'anonimat en si mateix, sempre que sigui la mateixa per a tots els "
-"usuaris del <span class=\"application\">Navegador Tor</span>.\n"
+"Per tant, la informació recuperada per aquests llocs web d'empremtes dactilars no és perjudicial\n"
+"per a l'anonimat en si mateix, sempre que sigui la mateixa per a tots els usuaris del <span class=\"application\">Navegador Tor</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1388,6 +1386,13 @@ msgstr ""
 "Si us preocupa que el vostre Tails estigui malmès, feu una [[actualització "
 "manual|upgrade]] des d'un sistema operatiu de confiança per actualitzar-lo a "
 "una versió de confiança de Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>In the future, we might make it possible to verify the integrity of a Tails\n"
+"USB stick from another trusted OS. ([[!tails_ticket 7496]])</p>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
