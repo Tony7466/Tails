@@ -90,7 +90,7 @@ the rest of the instructions afterwards, you can either:
 [[!inline pages="install/inc/steps/mac_startup_disks.inline" raw="yes" sort="age"]]
 </div>
 
-<h2 id="troubleshooting">Troubleshooting</h2>
+<h2 id="troubleshoot-start">Troubleshoot Tails not starting</h2>
 
 <ul>
 
