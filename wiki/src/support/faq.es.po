@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-27 22:20+0000\n"
-"PO-Revision-Date: 2023-12-31 01:22+0000\n"
+"PO-Revision-Date: 2024-01-05 16:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/faq/"
 "es/>\n"
@@ -48,7 +48,7 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"project\">Tails project</h1>\n"
-msgstr "<h1 id=\"project\">Tails project</h1>\n"
+msgstr "<h1 id=\"project\">Proyecto Tails</h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -78,12 +78,11 @@ msgid ""
 "other distribution. See our statement about our [[contribute/"
 "relationship_with_upstream]] for details."
 msgstr ""
-"Nosotros estamos muy relacionados e involucrados en Debian. Las amistades, "
-"relaciones y la experiencia que tenemos en Debian tiene muchos beneficios "
-"para Tails y no estamos preparados para construir la misma relación con "
-"Ubuntu, OpenBSD u otras distribuciones. Lee nuestra declaración sobre la "
-"[[relación con upstream|contribute/relationship_with_upstream]] para más "
-"detalles."
+"Estamos muy relacionados e involucrados en Debian. Las amistades, relaciones "
+"y la experiencia que tenemos en Debian tiene muchos beneficios para Tails y "
+"no estamos preparados para construir la misma relación con Ubuntu, OpenBSD u "
+"otras distribuciones. Lee nuestra declaración sobre la [[relación con "
+"upstream|contribute/relationship_with_upstream]] para más detalles."
 
 #. type: Plain text
 msgid ""
@@ -93,7 +92,7 @@ msgid ""
 msgstr ""
 "Lee también el artículo [Por qué hay tantos derivativos de "
 "Debian](http://upsilon.cc/~zack/blog/posts/2011/09/"
-"why_there_are_so_many_debian_derivatives/) de Stefano Zacchiroli."
+"why_there_are_so_many_debian_derivatives/) de Stefano Zacchiroli (en inglés)."
 
 #. type: Plain text
 #, no-wrap
@@ -120,9 +119,9 @@ msgid ""
 msgstr ""
 "Ubuntu añade funcionalidades que nosotros encontramos arriesgadas para la "
 "privacidad. Por ejemplo Ubuntu One ([parcialmente descontinuado](http://blog."
-"canonical.com/2014/04/02/shutting-down-ubuntu-one-file-services/))  y los "
-"[leaks de Amazon ads y datos](https://www.eff.org/deeplinks/2012/10/privacy-"
-"ubuntu-1210-amazon-ads-and-data-leaks)."
+"canonical.com/2014/04/02/shutting-down-ubuntu-one-file-services/)) y los ["
+"anuncios de Amazon y las fugas de datos](https://www.eff.org/deeplinks/2012/"
+"10/privacy-ubuntu-1210-amazon-ads-and-data-leaks)."
 
 #. type: Bullet: '- '
 msgid ""
@@ -189,7 +188,7 @@ msgid ""
 msgstr ""
 "Los usuarios nos han pedido que cambiemos a LXDE, XFCE, MATE, KDE y más pero "
 "no vamos a cambiar de escritorio. Nos parece que el mayor problema de GNOME "
-"es que requiere muchos recursos para trabajar, pero en cambio tiene muchas "
+"es que requiere muchos recursos para funcionar, pero en cambio tiene muchas "
 "ventajas. El escritorio GNOME está:"
 
 #. type: Plain text
@@ -329,13 +328,13 @@ msgid ""
 "interface is supported."
 msgstr ""
 "Busca una tablet con un procesador AMD o Intel. Intenta verificar su "
-"compatibilidad con Debian, por ejemplo asegurándote de que la tarjeta wifi "
+"compatibilidad con Debian, por ejemplo asegurándote de que la tarjeta Wi-Fi "
 "está soportada."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"installation\">Installation</h1>\n"
-msgstr "<h1 id=\"installation\">Instalar</h1>\n"
+msgstr "<h1 id=\"installation\">Instalación</h1>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -428,15 +427,20 @@ msgid ""
 "<span class=\"application\">[[Tails Upgrader|doc/upgrade]]</span> is enough.\n"
 msgstr ""
 "No. Tails provee actualizaciones cada seis semanas, que son testeadas para\n"
-"asegurar que no se han roto las configuraciones y las otras funcionalidades de seguridad.\n"
-"Si actualizas el sistema tú mismo con `apt` o <span class=\"application\">Synaptic</span>,\n"
+"asegurar que no se han roto las configuraciones y las otras funcionalidades "
+"de seguridad.\n"
+"Si actualizas el sistema tú mismo con `apt` o <span class=\"application\""
+">Synaptic</span>,\n"
 "puede que rompas algo. Actualizar cuando recibes una notificación de\n"
-"<span class=\"application\">[[Tails Upgrader|doc/upgrade]]</span> es suficiente.\n"
+"<span class=\"application\">[[Tails Upgrader|doc/upgrade]]</span> es "
+"suficiente.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"preinstalled\">Can I buy a preinstalled Tails USB stick or DVD?</h2>\n"
-msgstr "<h2 id=\"preinstalled\">¿Puedo comprar una memoria USB o un DVD con Tails preinstalado?</h2>\n"
+msgstr ""
+"<h2 id=\"preinstalled\">¿Puedo comprar una memoria USB o un DVD con Tails "
+"preinstalado?</h2>\n"
 
 #. type: Plain text
 msgid "No, we don't sell preinstalled Tails devices."
@@ -444,14 +448,14 @@ msgstr "No, no vendemos dispositivos con Tails preinstalado."
 
 #. type: Plain text
 msgid "Selling preinstalled devices would in fact be a pretty bad idea:"
-msgstr "De hecho, vender dispositivos preinstalados sería muy mala idea:"
+msgstr "De hecho, vender dispositivos preinstalados sería una muy mala idea:"
 
 #. type: Bullet: '- '
 msgid ""
 "If burned on a DVD, then this DVD would be outdated on the next release. "
 "This means after 6 weeks at most."
 msgstr ""
-"Si se grabaran en  DVDs, quedarían desactualizados a la siguiente edición. "
+"Si se grabaran en DVDs, quedarían desactualizados a la siguiente edición. "
 "Esto sería como mucho en 6 semanas."
 
 #. type: Bullet: '- '
@@ -464,8 +468,8 @@ msgid ""
 "our cryptographic verification techniques anymore. Being able to trust your "
 "Tails USB stick is something that we really care about."
 msgstr ""
-"Si está instalado en una memoria USB sería imposible verificar que el Tails "
-"en el USB es genuino. Asegurar la autenticidad de una memoria USB de Tails "
+"Si se instala en una memoria USB sería imposible verificar que el Tails en "
+"el USB es genuino. Asegurar la autenticidad de una memoria USB de Tails "
 "debería hacerse con verificación criptográfica o confianza personal (si "
 "conoces a alguien en quien confías y que puede clonar una memoria USB de "
 "Tails para ti). Pero una vez que Tails está instalado en una memoria USB ya "
@@ -481,7 +485,9 @@ msgstr "<h1 id=\"browser\">Navegador web</h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"javascript\">Why is JavaScript enabled by default in <span class=\"application\">Tor Browser</span>?</h2>\n"
-msgstr "<h2 id=\"javascript\">¿Por qué JavaScript está habilitado por defecto en el <span class=\"application\">Tor Browser</span>?</h2>\n"
+msgstr ""
+"<h2 id=\"javascript\">¿Por qué el JavaScript está habilitado por defecto en "
+"el <span class=\"application\">Navegador Tor</span>?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -491,9 +497,9 @@ msgid ""
 "doc/anonymous_internet/Tor_Browser#javascript]]."
 msgstr ""
 "Hoy en día muchas webs requieren JavaScript para funcionar. Como "
-"consecuencia, JavaScript está habilitado por defecto en Tails para evitar "
-"confundir a los usuarios. Pero el *Navegador Tor] se encarga de [[bloquear "
-"las funciones peligrosas de JavaScript|doc/anonymous_internet/"
+"consecuencia, el JavaScript está habilitado por defecto en Tails para evitar "
+"confundir a los usuarios. Pero el *Navegador Tor* se encarga de [[bloquear "
+"las funcionalidades peligrosas de JavaScript|doc/anonymous_internet/"
 "Tor_Browser#javascript]]."
 
 #. type: Plain text
@@ -526,8 +532,8 @@ msgid ""
 "We think that having JavaScript enabled by default is the best possible "
 "compromise between usability and security in this case."
 msgstr ""
-"Nos parece que tener JavaScript habilitado por defecto es, en nuestro caso, "
-"el mejor compromiso entre la usabilidad y la seguridad."
+"Nos parece que tener el JavaScript habilitado por defecto es, en nuestro "
+"caso, el mejor compromiso entre la usabilidad y la seguridad."
 
 #. type: Plain text
 #, no-wrap
@@ -547,12 +553,16 @@ msgstr "</div>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"add-ons\">Can I install other add-ons in <span class=\"application\">Tor Browser</span>?</h2>\n"
-msgstr "<h2 id=\"add-ons\">¿Puedo instalar otras extensiones en el <span class=\"application\">Tor Browser</span>?</h2>\n"
+msgstr ""
+"<h2 id=\"add-ons\">¿Puedo instalar otras extensiones en el <span class="
+"\"application\">Navegador Tor</span>?</h2>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "Installing add-ons in <span class=\"application\">Tor Browser</span> might break the security built in Tails.\n"
-msgstr "Instalar extensiones en <span class=\"application\">Tor Browser</span> puede romper las configuraciones de seguridad de Tails.\n"
+msgstr ""
+"Instalar extensiones en el <span class=\"application\">Navegador Tor</span> "
+"puede romper las configuraciones de seguridad de Tails.\n"
 
 #. type: Plain text
 msgid ""
@@ -571,8 +581,10 @@ msgid ""
 "1. They can track and reveal information about your browsing behaviour, browsing\n"
 "history, or system information, either on purpose or by mistake.\n"
 msgstr ""
-"1. Pueden buscar y revelar información acerca de tu comportamiento mientras navegas, el\n"
-"historial de tu navegador, información de tu sistema; ya sea a propósito o por error.\n"
+"1. Pueden buscar y revelar información acerca de tu comportamiento mientras "
+"navegas, el\n"
+"historial de tu navegador, información de tu sistema; ya sea a propósito o "
+"por error.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -580,7 +592,8 @@ msgid ""
 "2. They can have bugs and security vulnerabilities that can be remotely exploited by an\n"
 "attacker.\n"
 msgstr ""
-"2. Pueden tener bugs y vulnerabilidades de seguridad que podrían ser utilizados por un\n"
+"2. Pueden tener bugs y vulnerabilidades de seguridad que podrían ser "
+"utilizados por un\n"
 "atacante.\n"
 
 #. type: Plain text
@@ -590,7 +603,7 @@ msgid ""
 "and break your anonymity.\n"
 msgstr ""
 "3. Pueden tener bugs que rompan la seguridad ofrecida por otras extensiones\n"
-" y romper tu anonimato.\n"
+"y romper tu anonimato.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -650,7 +663,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"update-add-ons\">Should I manually update add-ons included in <span class=\"application\">Tor Browser</span>?</h2>\n"
-msgstr "<h2 id=\"update-add-ons\">¿Debería actualizar las extensiones incluidas en <span class=\"application\">Tor Browser</span>?</h2>\n"
+msgstr ""
+"<h2 id=\"update-add-ons\">¿Debería actualizar las extensiones incluidas en "
+"el <span class=\"application\">Navegador Tor</span>?</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -660,9 +675,12 @@ msgid ""
 "Updating add-ons in <span class=\"application\">Tor Browser</span> might\n"
 "break the security built in Tails.\n"
 msgstr ""
-"No. Tails provee actualizaciones cada seis semanas, que están cuidadosamente\n"
-"testadas para asegurarnos de que no se rompe ninguna funcionalidad o configuración\n"
-"de seguridad. Actualizar las extensiones de <span class=\"application\">Tor Browser</span> podría\n"
+"No. Tails provee actualizaciones cada seis semanas, que están "
+"cuidadosamente\n"
+"testadas para asegurarnos de que no se rompe ninguna funcionalidad o "
+"configuración\n"
+"de seguridad. Actualizar las extensiones del <span class=\"application\""
+">Navegador Tor</span> podría\n"
 "romper la seguridad configurada en Tails.\n"
 
 #. type: Plain text
@@ -676,8 +694,8 @@ msgid ""
 "retrieve as much information as possible from your browser to see if it can "
 "be used to identify you."
 msgstr ""
-"Las webs que chequean tu huella digital, como <https://coveryourtracks.eff."
-"org/>, intentan recabar la mayor cantidad posible de información de tu "
+"Las páginas web que chequean tu huella digital, como <https://coveryourtracks"
+".eff.org/>, intentan recabar la mayor cantidad posible de información de tu "
 "navegador para ver si se puede usar para identificarte."
 
 #. type: Plain text
@@ -703,7 +721,10 @@ msgstr ""
 msgid ""
 "So, the information retrieved by such fingerprinting websites is not harmful for\n"
 "anonymity in itself, as long as it is the same for all users of <span class=\"application\">Tor Browser</span>.\n"
-msgstr "La información que reciben entonces estos sitios web no es tan dañina para nuestro anonimato mientras sea la misma para todos los usuarios de <span class=\"application\">Tor Browser</span>.\n"
+msgstr ""
+"La información que reciben entonces estos sitios web no es tan dañina para\n"
+"nuestro anonimato mientras sea la misma para todos los usuarios del <span "
+"class=\"application\">Navegador Tor</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -714,22 +735,29 @@ msgid ""
 "other users of <span class=\"application\">Tor Browser</span> and, as a\n"
 "consequence, weakens your anonymity.\n"
 msgstr ""
-"Por ejemplo, la propiedad user-agent del <span class=\"application\">Navegador Tor</span> incluye <em>Windows NT</em>. Este valor preserva tu anonimato incluso\n"
-"si el sistema operativo instalado en el ordenador es Windows NT. Pero cambiar este valor te vuelve distinguible de otros usuarios del <span class=\"application\">Navegador Tor</span> y rompe tu anonimato.\n"
+"Por ejemplo, la propiedad user-agent del <span class=\"application\""
+">Navegador Tor</span> incluye\n"
+"<em>Windows NT</em>. Este valor preserva tu anonimato incluso si\n"
+"el sistema operativo instalado en el ordenador es Windows NT. Pero cambiar "
+"este valor te vuelve\n"
+"distinguible de otros usuarios del <span class=\"application\">Navegador "
+"Tor</span>\n"
+"y rompe tu anonimato.\n"
 
 #. type: Plain text
 msgid ""
 "Furthermore, we verify the result of those websites before each release, see "
 "our [[test suite|contribute/release_process/test]]."
 msgstr ""
-"Además verificamos el resultado de esos sitios web antes de cada nueva "
-"edición de Tails, mira en nuestra [[test suite|contribute/release_process/"
-"test]]."
+"Además verificamos el resultado de esos sitios web antes de cada edición de "
+"Tails, mira en nuestra [[test suite|contribute/release_process/test]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"java\">Is Java installed in the <span class=\"application\">Tor Browser</span>?</h2>\n"
-msgstr "<h2 id=\"java\">¿Java está instalado en el <span class=\"application\">Tor Browser</span>?</h2>\n"
+msgstr ""
+"<h2 id=\"java\">¿Está Java instalado en el <span class=\"application\""
+">Navegador Tor</span>?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -866,7 +894,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"htp\">Why does Tails automatically connect to several websites when starting?</h2>\n"
-msgstr "<h2 id=\"htp\">¿Por qué Tails se conecta automáticamente a varios sitios al arrancar?</h2>\n"
+msgstr ""
+"<h2 id=\"htp\">¿Por qué Tails se conecta automáticamente a varios sitios al "
+"arrancar?</h2>\n"
 
 #. type: Plain text
 msgid "The clock of the computer needs to be set at the correct time to both:"
@@ -920,29 +950,36 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"relay\">Can I help the Tor network by running a relay or a bridge in Tails?</h2>\n"
-msgstr "<h2 id=\"relay\">¿Puedo colaborar con la red de Tor corriendo un relay o un puente de Tor en Tails?</h2>\n"
+msgstr ""
+"<h2 id=\"relay\">¿Puedo colaborar con la red Tor corriendo un repetidor o un "
+"puente de Tor en Tails?</h2>\n"
 
 #. type: Plain text
 msgid "It is currently impossible to run a Tor relay or bridge in Tails."
-msgstr "Por el momento es imposible tener relays o puentes de Tor en Tails."
+msgstr ""
+"Por el momento es imposible tener repetidores o puentes de Tor en Tails."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"onion-service\">Can I run a Tor onion service on Tails?</h2>\n"
-msgstr "<h2 id=\"onion-service\">¿Puedo tener un servicio onion de Tor en Tails?</h2>\n"
+msgstr ""
+"<h2 id=\"onion-service\">¿Puedo tener un servicio onion de Tor en Tails?</h2>"
+"\n"
 
 #. type: Plain text
 msgid ""
 "It is technically possible to use Tails to provide an onion service but it "
 "is complicated and not documented yet."
 msgstr ""
-"Es técnicamente posible utilizar Tails para proveer un servicio escondido de "
-"Tor pero es complicado y además todavía no está documentado."
+"Es técnicamente posible utilizar Tails para proveer un servicio onion de Tor "
+"pero es complicado y además todavía no está documentado."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"ping\">Can I use <span class=\"command\">ping</span> in Tails?</h2>\n"
-msgstr "<h2 id=\"ping\">¿Puedo usar el comando <span class=\"command\">ping</span> en Tails?</h2>\n"
+msgstr ""
+"<h2 id=\"ping\">¿Puedo usar el comando <span class=\"command\">ping</span> "
+"en Tails?</h2>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -952,7 +989,8 @@ msgid ""
 "can only transport TCP connections.\n"
 msgstr ""
 "Es imposible usar <span class=\"command\">ping</span> en Tails,\n"
-"porque <span class=\"command\">ping</span> usa el protocolo ICMP mientras que Tor\n"
+"porque <span class=\"command\">ping</span> usa el protocolo ICMP mientras "
+"que Tor\n"
 "sólo puede transportar conexiones TCP.\n"
 
 #. type: Plain text
@@ -963,7 +1001,9 @@ msgstr "<h1 id=\"software\">Software no incluido en Tails</h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"new-software\">Can my favorite software be included in Tails?</h2>\n"
-msgstr "<h2 id=\"new-software\">¿Puede incluirse mi software favorito en Tails?</h2>\n"
+msgstr ""
+"<h2 id=\"new-software\">¿Puede incluirse mi software favorito en Tails?</h2>"
+"\n"
 
 #. type: Plain text
 msgid ""
@@ -974,7 +1014,7 @@ msgid ""
 "many advantages:"
 msgstr ""
 "Antes que nada, asegúrate de que el programa está disponible en Debian, ya "
-"que es necesario para ser incluido en Tails. Añadir a Tails software que no "
+"que es necesario para ser incluido en Tails. Añadir software a Tails que no "
 "está en Debian implicaría un trabajo adicional que podría comprometer la "
 "sostenibilidad del proyecto. Además estar en Debian nos da muchas ventajas:"
 
@@ -1010,7 +1050,7 @@ msgid ""
 "developers why it is not the case yet."
 msgstr ""
 "Para chequear si un software está en Debian, búscalo en <https://packages."
-"debian.org/>. Si todavía no está dispnible en Debian deberías preguntar a "
+"debian.org/>. Si todavía no está disponible en Debian deberías preguntar a "
 "los desarrolladores cuál es la razón."
 
 #. type: Plain text
@@ -1106,16 +1146,12 @@ msgid "- **monero**: not in Debian, but see [[!tails_ticket 17823]]"
 msgstr "**torchat**: ver [[!tails_ticket 5554]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**bitmessage**: not in Debian"
 msgid "- **bitmessage**: not in Debian"
-msgstr "**bitmessage**: no está en Debian"
+msgstr "- **bitmessage**: no está en Debian"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**retroshare**: not in Debian"
 msgid "- **retroshare**: not in Debian"
-msgstr "**retroshare**: no está en Debian"
+msgstr "- **retroshare**: no está en Debian"
 
 #. type: Bullet: '- '
 #, fuzzy
@@ -1137,7 +1173,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"bittorrent\">Can I download using BitTorrent with Tails?</h2>\n"
-msgstr "<h2 id=\"bittorrent\">¿Puedo hacer descargas con BitTorrent en Tails?</h2>\n"
+msgstr ""
+"<h2 id=\"bittorrent\">¿Puedo hacer descargas con BitTorrent en Tails?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -1164,7 +1201,7 @@ msgid ""
 "It harms the network, see: <https://blog.torproject.org/why-tor-slow-and-"
 "what-were-going-do-about-it>."
 msgstr ""
-"Daña a la red, mira: <https://blog.torproject.org/why-tor-slow-and-what-were-"
+"Daña la red, mira: <https://blog.torproject.org/why-tor-slow-and-what-were-"
 "going-do-about-it>."
 
 #. type: Plain text
@@ -1206,7 +1243,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
-msgstr "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
+msgstr ""
+"    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -1304,7 +1342,6 @@ msgstr "<h1 id=\"misc\">Otros problemas de seguridad</h1>\n"
 msgid "<h2 id=\"older-version\">Is it safe to use an older version of Tails?</h2>\n"
 msgstr ""
 "<h2 id=\"older-version\">¿Es seguro usar una versión antigua de Tails?</h2>\n"
-"\n"
 
 #. type: Plain text
 msgid ""
@@ -1381,7 +1418,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"integrity\">Can I verify the integrity of a Tails USB stick or DVD?</h2>\n"
-msgstr "<h2 id=\"integrity\">¿Puedo verificar la integridad de una memoria USB o un DVD de Tails?</h2>\n"
+msgstr ""
+"<h2 id=\"integrity\">¿Puedo verificar la integridad de una memoria USB o un "
+"DVD de Tails?</h2>\n"
 
 #. type: Plain text
 #, fuzzy
@@ -1410,7 +1449,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"reuse-memory-wipe\">Can I use the memory wipe feature of Tails on another operating system?</h2>\n"
-msgstr "<h2 id=\"reuse-memory-wipe\">¿Puedo usar la funcionalidad wipe de Tails en otro sistema operativo?</h2>\n"
+msgstr ""
+"<h2 id=\"reuse-memory-wipe\">¿Puedo usar la funcionalidad wipe de Tails en "
+"otro sistema operativo?</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -1418,8 +1459,8 @@ msgid ""
 "cold boot attacks|doc/advanced_topics/cold_boot_attacks]] should be reusable "
 "in other Linux distributions."
 msgstr ""
-"El mecanismo que usa Tails para borrar la memoria cuando se apaga para "
-"[[proteger contra ataques de arranque en frío|doc/advanced_topics/"
+"El mecanismo que usa Tails para borrar la memoria cuando se apaga para [["
+"proteger contra ataques de arranque en frío|doc/advanced_topics/"
 "cold_boot_attacks]] debería ser reutilizable en otras distribuciones de "
 "Linux."
 
@@ -1434,14 +1475,18 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"new-identity\">Where is the <span class=\"guilabel\">New Identity</span> button?</h2>\n"
-msgstr "<h2 id=\"new-identity\">¿Dónde está el botón de <span class=\"guilabel\">Nueva Identidad</span>?</h2>\n"
+msgstr ""
+"<h2 id=\"new-identity\">¿Dónde está el botón de <span class=\"guilabel\""
+">Nueva Identidad</span>?</h2>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "There is no <span class=\"guilabel\">New Identity</span> button for Tails as a\n"
 "whole.\n"
-msgstr "No hay un botón <span class=\"guilabel\">Nueva Identidad</span> para Tails en su totalidad.\n"
+msgstr ""
+"No hay un botón <span class=\"guilabel\">Nueva Identidad</span> para Tails "
+"en su totalidad.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1451,7 +1496,8 @@ msgid ""
 "is limited to the browser.\n"
 msgstr ""
 "La funcionalidad [[<span class=\"guilabel\">Nueva Identidad</span> del\n"
-"<span class=\"application\">Tor Browser</span>|doc/anonymous_internet/Tor_Browser#new-identity]]\n"
+"<span class=\"application\">Navegador Tor</span>|doc/anonymous_internet/"
+"Tor_Browser#new-identity]]\n"
 "está limitada al navegador.\n"
 
 #. type: Plain text
@@ -1460,7 +1506,7 @@ msgid ""
 "In the same way as the <span class=\"guilabel\">New Identity</span> button of\n"
 "<span class=\"application\">Tor Browser</span> restarts the browser, you have to\n"
 "restart Tails before using a different identity.\n"
-msgstr "\t\n"
+msgstr ""
 
 #. type: Plain text
 #, fuzzy
