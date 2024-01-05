@@ -11,10 +11,14 @@ general. To test if your Wi-Fi interface works in Tails:
 
 1. Open the system menu in the top-right corner:
 
-   [[!img doc/first_steps/desktop/system.png link="no"]]
+   [[!img doc/first_steps/desktop/system.png link="no" class="screenshot"]]
 
-1. Choose <span class="guilabel">Wi-Fi Not Connected</span> and then
-   <span class="guilabel">Select Network</span>.
+1. If a **Wi-Fi** menu is available, choose [[!img lib/go-right.png link="no"
+   class="symbolic" alt=""]] to display a list of available Wi-Fi networks
+   below the **Wi-Fi** menu.
+
+1. In the list of available Wi-Fi networks, choose the Wi-Fi network that you
+   want to connect to.
 
 1. After establishing a connection to a local network, the *Tor Connection*
    assistant appears to help you connect to the Tor

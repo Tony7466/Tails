@@ -2,17 +2,16 @@
 
 If your Wi-Fi interface is not working, for example:
 
-* There is no Wi-Fi option in the system menu:
+* There is no **Wi-Fi** menu in the system menu:
 
-  [[!img no-wifi/system-without-wifi.png link="no" alt=""]]
+  [[!img no-wifi/system_without_wifi.png link="no" class="screenshot" alt=""]]
 
 * You receive the notification **Connection failed: Activation of network
   connection failed**.
 
-* The interface is disabled when starting Tails or when plugging in your USB
-  Wi-Fi adapter:
+* The interface is disabled because MAC address anonymization failed:
 
-  [[!img no-wifi/mac-spoofing-disabled.png link="no" alt="Notification about network card being disabled"]]
+  [[!img no-wifi/mac_spoofing_disabled.png link="no" class="screenshot" alt="Notification: MAC address anonymization failed"]]
 
   In this case, you can disable MAC address anonymization to get your Wi-Fi interface
   to work in Tails. Disabling MAC address anonymization has security implications, so read
