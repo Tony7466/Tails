@@ -33,6 +33,7 @@ systemctl --global enable tails-add-GNOME-bookmarks.service
 systemctl --global enable tails-additional-software-install.service
 systemctl --global enable tails-configure-keyboard.service
 systemctl --global enable tails-report-disk-errors.service
+systemctl --global enable tails-report-squashfs-errors.path
 systemctl --global enable tails-security-check.service
 systemctl --global enable tails-upgrade-frontend.service
 systemctl --global enable tails-virt-notify-user.service
