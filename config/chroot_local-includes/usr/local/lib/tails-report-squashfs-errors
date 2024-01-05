@@ -31,11 +31,11 @@ fi
 
 #action=$(exec notify-send --action=dismiss="$dismiss" --action=doc="$learnmore" --wait \
 #         -u critical -c device.error "$title" "$msg")
-exec notify-send -u critical -c device.error "$title" "$msg"
+notify-send -u critical -c device.error "$title" "$msg"
 
 action="doc"
 
-if [ "$action" == "doc" ]
+if [ "$action" = "doc" ]
 then
 # Open Link
 echo "open link"
