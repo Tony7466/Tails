@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-27 22:20+0000\n"
+"POT-Creation-Date: 2024-01-05 17:15+0000\n"
 "PO-Revision-Date: 2023-10-05 23:12+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
@@ -1440,6 +1440,13 @@ msgstr ""
 "Se ti preoccupi che Tails possa essere compromesso, esegui un "
 "[[aggiornamento manuale|upgrade]] da un sistema operativo attendibile per "
 "aggiornarlo a una versione attendibile di Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>In the future, we might make it possible to verify the integrity of a Tails\n"
+"USB stick from another trusted OS. ([[!tails_ticket 7496]])</p>\n"
+msgstr ""
 
 #. type: Plain text
 #, fuzzy, no-wrap

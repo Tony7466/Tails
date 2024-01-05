@@ -528,6 +528,13 @@ If you worry that your Tails might be corrupted, do a [[manual
 upgrade|upgrade]] from a trusted operating system to
 upgrade it to a trusted version of Tails.
 
+<div class="note">
+
+<p>In the future, we might make it possible to verify the integrity of a Tails
+USB stick from another trusted OS. ([[!tails_ticket 7496]])</p>
+
+</div>
+
 <h2 id="reuse-memory-wipe">Can I use the memory wipe feature of Tails on another operating system?</h2>
 
 The memory wipe mechanism that Tails uses on shutdown to [[protect against cold
