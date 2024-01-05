@@ -191,7 +191,7 @@ input method for non-Latin scripts.
 In the top-right corner of the top navigation bar, the system menu allows you to
 manage your settings, connect to a Wi-Fi network, and restart your computer.
 
-[[!img system.png link="no" alt=""]]
+[[!img system-with-wired.png link="no" class="screenshot" alt=""]]
 
 <h3 id="networking">Networking</h3>
 

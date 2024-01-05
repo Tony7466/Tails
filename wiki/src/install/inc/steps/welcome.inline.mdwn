@@ -11,7 +11,7 @@ general. To test if your Wi-Fi interface works in Tails:
 
 1. Open the system menu in the top-right corner:
 
-   [[!img doc/first_steps/desktop/system.png link="no" class="screenshot"]]
+   [[!img doc/first_steps/desktop/system-with-wifi-only.png link="no" class="screenshot" alt=""]]
 
 1. If a **Wi-Fi** menu is available, choose [[!img lib/go-right.png link="no"
    class="symbolic" alt=""]] to display a list of available Wi-Fi networks

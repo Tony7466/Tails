@@ -10,7 +10,7 @@ connection:
 
 1. Open the system menu in the top-right corner.
 
-   [[!img doc/first_steps/desktop/system.png link="no"]]
+   [[!img doc/first_steps/desktop/system-with-wired.png link="no" class="screenshot" alt=""]]
 
    - If a wired connection is detected, Tails automatically connects to the network.
 
