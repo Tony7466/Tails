@@ -236,6 +236,10 @@ img.right-margin { /* Overwrite style.css */
   margin-right: 4em;
 }
 
+img.screenshot {
+  box-shadow: 5px 5px 5px var(--medium-light-gray);
+}
+
 /* Images with caption */
 
 table.img, table.img td, table.img tr {
