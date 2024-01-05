@@ -1,22 +1,23 @@
 [[!meta robots="noindex"]]
 
-If your Wi-Fi interface is not working, for example:
+If your Wi-Fi interface is not working, you might experience the following:
 
 * There is no **Wi-Fi** menu in the system menu:
 
   [[!img no-wifi/system_without_wifi.png link="no" class="screenshot" alt=""]]
 
-* You receive the notification **Connection failed: Activation of network
-  connection failed**.
-
 * The interface is disabled because MAC address anonymization failed:
 
   [[!img no-wifi/mac_spoofing_disabled.png link="no" class="screenshot" alt="Notification: MAC address anonymization failed"]]
 
-  In this case, you can disable MAC address anonymization to get your Wi-Fi interface
-  to work in Tails. Disabling MAC address anonymization has security implications, so read
-  carefully our [[documentation about MAC
-  address anonymization|first_steps/welcome_screen/mac_spoofing]] before doing so.
+  In this case, you can disable MAC address anonymization in the Welcome
+  Screen. Doing so has security implications, so read carefully our
+  [[documentation about MAC address
+  anonymization|first_steps/welcome_screen/mac_spoofing]].
+
+* The following notification appears:
+
+      Activation of network connection failed
 
 To connect to the Internet, you can try to:
 
@@ -37,16 +38,16 @@ To connect to the Internet, you can try to:
   * [Android](https://support.google.com/android/answer/9059108?hl=en)
 
   <div class="caution">
-  <p>Tails cannot hide the information that identifies your phone on the local network.
-  If you connect your phone to:</p>
+  <p>Tails cannot hide the information that identifies your phone on the local
+  network. If you connect your phone to a:</p>
   <ul>
-  <li><p>A Wi-Fi network, then the network will know the MAC
-  address of your phone. This has security implications that are discussed in
-  our [[documentation on MAC address anonymization|first_steps/welcome_screen/mac_spoofing]].
-  Some phones have a feature to hide the real MAC address of the phone.</p></li>
-  <li><p>A mobile data network, then
-  the network will be able to know the identifier of your SIM card (IMSI)
-  and also the serial number of your phone (IMEI).</p></li>
+  <li><p>Wi-Fi network: the network can see the MAC
+  address of your phone.</p>
+  <p>This has security implications that we explain in our [[documentation on
+  MAC address anonymization|first_steps/welcome_screen/mac_spoofing]].  Some
+  phones have a feature to hide the MAC address of the phone.</p></li>
+  <li><p>Mobile data network: the network is able to know the identifier of
+  your SIM card (IMSI) and the serial number of your phone (IMEI).</p></li>
   </ul>
   </div>
 
