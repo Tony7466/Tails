@@ -902,20 +902,10 @@ article.inlinepage {
 /* Icons */
 
 div.icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
   margin-bottom: 1.5em;
-  position: relative;
-}
-
-div.icon img {
-  display: inline-block;
-}
-
-div.icon div.text {
-  position: absolute;
-  top: 0;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 1em;
 }
 
 div.icon div.text h2 {
