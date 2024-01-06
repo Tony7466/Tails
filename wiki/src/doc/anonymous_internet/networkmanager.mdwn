@@ -41,10 +41,6 @@ connection:
 
    [[!img tor/tor-connection.png link="no"]]
 
-For more information, open
-<span class="application">[[GNOME Help|first_steps/desktop#help]]</span>
-and choose <span class="guilabel">Networking, web & email</span>.
-
 Saving your network settings
 ============================
 
