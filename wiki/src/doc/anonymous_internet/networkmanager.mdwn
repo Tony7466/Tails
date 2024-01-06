@@ -18,13 +18,13 @@ connection:
      link="no" class="symbolic" alt=""]] in the **Wi-Fi**. A list of
      available Wi-Fi networks appears below the **Wi-Fi** menu.
 
-   <div class="bug">
+     <div class="bug">
 
-   <p>If there is no <b>Wi-Fi</b> menu, your Wi-Fi interface might not
-   be compatible with Tails. See [[Troubleshooting Wi-Fi not
-   working|no-wifi]].</p>
+     <p>If there is no <b>Wi-Fi</b> menu, your Wi-Fi interface might not
+     be compatible with Tails. See [[Troubleshooting Wi-Fi not
+     working|no-wifi]].</p>
 
-   </div>
+     </div>
 
    - To connect to a mobile data network, choose
      <span class="guilabel">Mobile Broadband</span>.
