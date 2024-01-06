@@ -14,14 +14,15 @@ connection:
 
    - If a wired connection is detected, Tails automatically connects to the network.
 
-   - To connect to a Wi-Fi network, choose <span class="guilabel">Wi-Fi Not
-     Connected</span> and then <span class="guilabel">Select Network</span>.
+   - To connect to a Wi-Fi network, choose [[!img lib/go-right.png
+     link="no" class="symbolic" alt=""]] in the **Wi-Fi**. A list of
+     available Wi-Fi networks appears below the **Wi-Fi** menu.
 
    <div class="bug">
 
-   <p>If there is no option to connect to a Wi-Fi network, your Wi-Fi interface
-   is not working in Tails. See our documentation on [[troubleshooting Wi-Fi
-   not working|no-wifi]].</p>
+   <p>If there is no <b>Wi-Fi</b> menu, your Wi-Fi interface might not
+   be compatible with Tails. See [[Troubleshooting Wi-Fi not
+   working|no-wifi]].</p>
 
    </div>
 
