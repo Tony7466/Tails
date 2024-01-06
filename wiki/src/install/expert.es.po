@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-31 15:22+0000\n"
+"PO-Revision-Date: 2024-01-06 11:26+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -521,7 +521,9 @@ msgstr "[[!inline pages=\"install/inc/steps/restart_first_time.inline.es\" raw=\
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"install/inc/steps/welcome.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr "[[!inline pages=\"install/inc/steps/welcome.inline.es\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"install/inc/steps/welcome.inline.es\" raw=\"yes\" sort="
+"\"age\"]]\n"
 
 #, no-wrap
 #~ msgid ""
