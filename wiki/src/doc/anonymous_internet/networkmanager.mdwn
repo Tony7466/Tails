@@ -30,12 +30,9 @@ connection:
      <span class="guilabel">Mobile Broadband</span>.
 
    <div class="note">
-   <p>It is currently impossible to connect to a network using:</p>
 
-   <ul>
-   <li>Dial-up modems.</li>
-   <li>VPNs, see [[the corresponding FAQ|support/faq#vpn]].</li>
-   </ul>
+   <p>It is currently impossible to [[use a VPN in
+   Tails|support/faq#vpn]].</p>
 
    </div>
 
