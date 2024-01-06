@@ -30,7 +30,7 @@ start typing to search your applications, files, and folders.
 The <span class="guimenu">Applications</span> menu provides shortcuts to the
 [[included software|about/features]] and to GNOME configuration utilities.
 
-[[!img applications.png link="no" alt=""]]
+[[!img applications.png link="no" class="screenshot" alt=""]]
 
 <a id="help"></a>
 
