@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2023-12-28 15:21+0000\n"
+"PO-Revision-Date: 2024-01-07 12:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -176,7 +176,7 @@ msgid ""
 "   Your private key should now be listed in the **End-to-End\n"
 "   Encryption** settings of your account.\n"
 msgstr ""
-"   Tu clave privada ahora debería aparecer en el **Cifrado \n"
+"   Tu clave privada ahora debería aparecer en el **Cifrado de\n"
 "   extremo a extremo** de la configuración de tu cuenta..\n"
 
 #. type: Bullet: '1. '
@@ -240,7 +240,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Choose **Privacy & Security**."
-msgstr "Escoger **Privacidad & Seguridad**."
+msgstr "Escoge **Privacidad & Seguridad**."
 
 #. type: Bullet: '1. '
 #, fuzzy
