@@ -10,6 +10,6 @@ Feature: Hardware failures
     Then I see a Disk Failure Message
 
   Scenario: Before I log in I see an error message
-    Given the computer boots Tails
+    Given I start Tails from DVD with network unplugged
     When Tails detect disk read failures
     Then Greeter does not start and I see a Plymouth Disk Failure Message instead
