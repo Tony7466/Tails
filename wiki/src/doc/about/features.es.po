@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2024-01-01 18:22+0000\n"
+"PO-Revision-Date: 2024-01-07 12:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "features/es/>\n"
@@ -54,7 +54,7 @@ msgstr "Redes"
 
 #. type: Plain text
 msgid "- [Tor](https://www.torproject.org) with:"
-msgstr "- [Tor](https://www.torproject.org) with:"
+msgstr "- [Tor](https://www.torproject.org) con:"
 
 #. type: Bullet: '  * '
 msgid "[[stream isolation|contribute/design/stream_isolation]]"
@@ -256,9 +256,9 @@ msgid ""
 "hardware [[!wikipedia Keystroke logging desc=\"keyloggers\"]] ([[More...|doc/"
 "encryption_and_privacy/virtual_keyboard]])"
 msgstr ""
-"[GNOME screen keyboard](https://help.gnome.org/users/gnome-help/stable/"
-"keyboard-osk.html.en) para accesibilidad, y para prevenir el  [[!"
-"wikipedia_es Keylogger logging desc=\"keyloggers\"]] ([[Más...|doc/"
+"[Teclado en pantalla de GNOME](https://help.gnome.org/users/gnome-help/"
+"stable/keyboard-osk.html.en) para accesibilidad, y para prevenir los [["
+"!wikipedia_es Keylogger logging desc=\"keyloggers\"]] ([[Más...|doc/"
 "encryption_and_privacy/virtual_keyboard]])"
 
 #. type: Plain text
@@ -279,7 +279,7 @@ msgid ""
 "- [KeePassXC](https://keepassxc.org/) password manager ([[More...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 msgstr ""
-"- [KeePassXC](https://keepassxc.org/) gestor de contraseñas ([[Mas...|doc/"
+"- [KeePassXC](https://keepassxc.org/) gestor de contraseñas ([[Más...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 
 #. type: Plain text
@@ -361,7 +361,7 @@ msgstr ""
 #. type: Plain text
 msgid "- Some basic [[doc/first_steps/accessibility]] features"
 msgstr ""
-"- Algunas características básicas de [[accesibilidad|doc/first_steps/"
+"- Algunas funcionalidades básicas de [[accesibilidad|doc/first_steps/"
 "accessibility]]"
 
 #. type: Plain text
