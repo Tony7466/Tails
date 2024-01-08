@@ -375,7 +375,7 @@ def enter_boot_menu_cmdline
   end
 end
 
-Given /^the computer (?:re)?boots Tails( with genuine APT sources)?$/ do |keep_apt_sources|
+Given /^the computer boots$/ do
   enter_boot_menu_cmdline
   boot_key = @os_loader == 'UEFI' ? 'F10' : 'Return'
   early_patch = config_bool('EARLY_PATCH') ? ' early_patch=umount' : ''
@@ -385,6 +385,11 @@ Given /^the computer (?:re)?boots Tails( with genuine APT sources)?$/ do |keep_a
                " #{early_patch} #{@boot_options} #{extra_boot_options}",
                [boot_key])
   $vm.wait_until_remote_shell_is_up(5 * 60)
+end
+
+Given /^the computer (?:re)?boots Tails( with genuine APT sources)?$/ do |keep_apt_sources|
+  step 'the computer boots'
+
   try_for(60) do
     !greeter.nil?
   end

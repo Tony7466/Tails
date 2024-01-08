@@ -1,3 +1,10 @@
+Given /^I start the computer from DVD with network unplugged$/ do
+  step 'the computer is set to boot from the Tails DVD'
+  step 'the network is unplugged'
+  step 'I start the computer'
+  step 'the computer boots'
+end
+
 When /^Tails detect disk read failures$/ do
   squashfs_failed = '/var/lib/live/tails.squashfs_failed'
   $vm.execute('systemct --now disable tails-detect-squashfs-errors')
@@ -10,5 +17,5 @@ Then /^I see a Disk Failure Message$/ do
 end
 
 Then /^Greeter does not start and I see a Plymouth Disk Failure Message instead$/ do
-  @screen.wait('PlymouthDiskFailureMessage.png', 10)
+  @screen.wait('PlymouthDiskFailureMessage.png', 60)
 end
