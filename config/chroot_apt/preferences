@@ -36,10 +36,6 @@ Package: src:linux src:linux-signed-amd64
 Pin: release l=Debian,n=bookworm
 Pin-Priority: 999
 
-Package: src:linux src:linux-signed-amd64
-Pin: release l=Debian,n=bookworm-updates
-Pin-Priority: 999
-
 Explanation: #15477
 Package: src:live-boot
 Pin: origin deb.tails.boum.org
