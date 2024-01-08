@@ -56,7 +56,8 @@ The <span class="guimenu">Applications</span> menu provides shortcuts to the
     <div class="tip">
 
     <p>To learn about the many keyboard shortcuts in GNOME, open the
-    <i>Settings</i> utility and choose <b>Keyboard Shortcuts</b>.</p>
+    <i>Settings</i>. At the bottom of the <b>Keyboard</b> section, choose
+    <b>View and Customize Shortcuts</b>.</p>
 
     </div>
 
