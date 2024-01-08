@@ -303,7 +303,7 @@ Click on **Lock screen** to lock your screen with a password.
 - Otherwise, you can set up a password to unlock your screen when locking your
   screen for the first time.
 
-  [[!img screen-locker.png link="no" alt=""]]
+  [[!img screen_locker.png link="no" class="screenshot" alt=""]]
 
 <h3 id="suspend">Suspend</h3>
 
