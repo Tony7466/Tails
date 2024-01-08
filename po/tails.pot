@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 09:36+0100\n"
+"POT-Creation-Date: 2023-12-26 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1213,9 +1213,8 @@ msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/tails-report-disk-errors:19
 msgid ""
-"Try to follow our instructions on <a href=\"https://tails.net/"
-"install\">installing Tails on a USB stick</a> again or use a different USB "
-"stick."
+"Try to follow our instructions on <a href=\"%INSTALLPAGE%\">installing Tails "
+"on a USB stick</a> again or use a different USB stick."
 msgstr ""
 
 #: config/chroot_local-includes/usr/local/lib/tails-report-disk-errors:21
