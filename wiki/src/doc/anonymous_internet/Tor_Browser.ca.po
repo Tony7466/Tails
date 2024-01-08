@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-21 00:19+0000\n"
+"PO-Revision-Date: 2024-01-01 18:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -84,8 +84,9 @@ msgid ""
 "Some frequently asked questions about <span class=\"application\">Tor Browser</span> can be found in\n"
 "[[the FAQ|support/faq#browser]].\n"
 msgstr ""
-"Algunes preguntes freqüents sobre el <span class=\"application\">Navegador Tor</span> es poden trobar a\n"
-"[[les PMF|support/faq#browser]].\n"
+"Algunes preguntes freqüents sobre el <span class=\"application\">Navegador "
+"Tor</span> es poden trobar a\n"
+"[[les preguntes més freqüents|support/faq#browser]].\n"
 
 #. type: Plain text
 #, no-wrap
@@ -415,22 +416,16 @@ msgid "To learn more about HTTPS Everywhere, you can see:"
 msgstr "Per obtenir més informació sobre HTTPS Everywhere, podeu llegir:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
 msgid "- The [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
 msgstr ""
-"la [pàgina principal d'HTTPS Everywhere](https://www.eff.org/https-"
+"- La [pàgina principal d'HTTPS Everywhere](https://www.eff.org/https-"
 "everywhere) (en anglès)"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
 msgid "- The [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
 msgstr ""
-"les [preguntes freqüents d'HTTPS Everywhere](https://www.eff.org/https-"
-"everywhere/faq/) (en anglès)"
+"- Les [preguntes freqüents d'HTTPS Everywhere](https://www.eff.org/"
+"https-everywhere/faq/) (en anglès)"
 
 #. type: Plain text
 #, no-wrap
@@ -620,24 +615,18 @@ msgstr ""
 "<i>Navegador Tor</i>:\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Closes all open tabs."
 msgid "- Closes all open tabs."
-msgstr "Tanca totes les pestanyes obertes."
+msgstr "- Tanca totes les pestanyes obertes."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Clears the session state including cache, history, and cookies."
 msgid "- Clears the session state including cache, history, and cookies."
 msgstr ""
-"Esborra l'estat de la sessió, incloent la memòria cau, l'historial i les "
+"- Esborra l'estat de la sessió, incloent la memòria cau, l'historial i les "
 "galetes."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Closes all existing web connections and creates new Tor circuits."
 msgid "- Closes all existing web connections and creates new Tor circuits."
-msgstr "Tanca totes les connexions web existents i crea nous circuits Tor."
+msgstr "- Tanca totes les connexions web existents i crea nous circuits Tor."
 
 #. type: Plain text
 #, no-wrap
@@ -651,7 +640,8 @@ msgid ""
 "as the Tor circuits used ouside of\n"
 "<i>Tor Browser</i> are not changed.</p>\n"
 msgstr ""
-"<p>Aquesta característica no és suficient per [[separar identitats contextuals|about/warnings/identity#contextual]]\n"
+"<p>Aquesta funcionalitat no és suficient per [[separar identitats "
+"contextuals|about/warnings/identity#contextual]]\n"
 "ja que els circuits de Tor utilitzats fora del\n"
 "<i>Navegador Tor</i> no es modifiquen.</p>\n"
 
@@ -697,11 +687,10 @@ msgstr ""
 "scripting (XSS)."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Allow you to disable JavaScript completely on some websites only."
 msgid "- Allow you to disable JavaScript completely on some websites only."
 msgstr ""
-"Permetre-us desactivar completament el JavaScript només en alguns llocs web."
+"- Permetre-us desactivar completament el JavaScript només en alguns llocs "
+"web."
 
 #. type: Plain text
 msgid ""

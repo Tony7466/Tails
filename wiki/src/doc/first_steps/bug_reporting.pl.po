@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2020-12-25 13:43+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
+"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -17,21 +17,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Reporting an error\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Zgłaszanie błędu\"]]\n"
 
 #. type: Plain text
 msgid ""
 "In this documentation we use the term *bug* to refer to a software error."
 msgstr ""
+"W niniejszej dokumentacji używamy terminu *bug* w odniesieniu do błędu "
+"oprogramowania."
 
 #. type: Plain text
 msgid "Reporting bugs is a great way of helping us improve Tails."
-msgstr ""
+msgstr "Zgłaszanie błędów to świetny sposób, aby pomóc nam ulepszyć Tails."
 
 #. type: Plain text
 msgid ""
@@ -174,7 +176,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"note\">\n"
-msgstr ""
+msgstr "<div class=\"uwaga\">\n"
 
 #. type: Plain text
 #, no-wrap

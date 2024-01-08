@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2018-11-01 00:14+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2023-12-22 21:22+0000\n"
+"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: Polish <http://translate.tails.boum.org/projects/tails/"
 "downloadinline/pl/>\n"
 "Language: pl\n"
@@ -18,11 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.19.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Content of: outside any tag (error?)
+#, fuzzy
 msgid "[[!meta robots=\"noindex\"]]"
-msgstr ""
+msgstr "[[!meta robots=\"noindex\"]]"
 
 #. type: Content of: <div>
 msgid "[[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]"

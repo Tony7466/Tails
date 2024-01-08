@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-03-09 14:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
-"Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/first-"
-"steps-upgrade/es/>\n"
+"PO-Revision-Date: 2023-12-29 16:22+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
+"first-steps-upgrade/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -30,6 +30,11 @@ msgid ""
 "package* is downloaded. The upgrade package contains all the changes made to "
 "Tails since Tails was first installed or was last manually upgraded."
 msgstr ""
+"Tails incluye un mecanismo automático para actualizar una memoria USB a la "
+"última versión de Tails. Cuando se realiza una actualización automática, "
+"sólo se descarga un *paquete de actualización*. El paquete de actualización "
+"contiene todos los cambios realizados en Tails desde que Tails se instaló "
+"por primera vez o se actualizó manualmente por última vez."
 
 #. type: Plain text
 #, fuzzy
@@ -58,6 +63,10 @@ msgid ""
 "<p>To learn how Tails implements automatic upgrades, see our\n"
 "[[design documentation about automatic upgrades|contribute/design/upgrades]].</p>\n"
 msgstr ""
+"<p>Para saber cómo Tails implementa las actualizaciones automáticas, "
+"consulta nuestra\n"
+"[[documentación de diseño sobre las actualizaciones automáticas|contribute/"
+"design/upgrades]].</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -93,7 +102,9 @@ msgstr "[[!toc levels=2]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"check-version\">Checking which version of Tails you are currently running</h1>\n"
-msgstr "<h1 id=\"check-version\">Comprobar qué versión de Tails estás ejecutando actualmente</h1>\n"
+msgstr ""
+"<h1 id=\"check-version\">Comprobar qué versión de Tails estás ejecutando "
+"actualmente</h1>\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -119,7 +130,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"automatic\">Automatic upgrade using <i>Tails Upgrader</i></h1>\n"
-msgstr "<h1 id=\"automatic\">Actualización automática usando <i>Tails Upgrader</i></h1>\n"
+msgstr ""
+"<h1 id=\"automatic\">Actualización automática usando <i>Tails "
+"Upgrader</i></h1>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -129,9 +142,12 @@ msgid ""
 "proposes you to upgrade your USB stick. The upgrades are checked for and downloaded\n"
 "through Tor.\n"
 msgstr ""
-"Al iniciar Tails y conectarse a Tor, el <span class=\"application\">Actualizador de\n"
-"Tails</span> comprueba automáticamente si hay actualizaciones disponibles y si las hay\n"
-"propone que actualices el dispositivo USB. Las actualizaciones son verificadas y descargadas\n"
+"Al iniciar Tails y conectarse a Tor, el <span class=\"application\""
+">Actualizador de\n"
+"Tails</span> comprueba automáticamente si hay actualizaciones disponibles y "
+"si las hay\n"
+"propone que actualices el dispositivo USB. Las actualizaciones son "
+"verificadas y descargadas\n"
 "a través de Tor.\n"
 
 #. type: Plain text
@@ -291,7 +307,7 @@ msgid ""
 msgstr ""
 "Puedes reducir el tamaño de la descarga de actualizaciones automáticas "
 "futuras haciendo una [[actualización manual|upgrade#manual]] a la última "
-"version."
+"versión."
 
 #. type: Plain text
 msgid "Your Tails USB stick stores:"
@@ -310,7 +326,7 @@ msgid ""
 "1 **upgrade** package containing all the changes made to Tails since the "
 "base version"
 msgstr ""
-"1 paquete de actualización conteniendo todos los cambios hechos a Tails "
+"1 paquete de **actualización** conteniendo todos los cambios hechos a Tails "
 "desde la versión base"
 
 #. type: Plain text
@@ -358,8 +374,8 @@ msgid ""
 "The upgrade to 4.9 is only 205 MB, instead of 418 MB when 4.6 was the base "
 "version."
 msgstr ""
-"La actualización a 4.9 es sólo 205 MB, a diferencia de 418 MB cuando 4.6 era "
-"la versión base."
+"La actualización a 4.9 es de sólo 205 MB, a diferencia de 418 MB cuando 4.6 "
+"era la versión base."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -451,7 +467,8 @@ msgid ""
 "<p>You can also do a manual upgrade to reduce the size of future automatic\n"
 "upgrades, as described [[above|upgrade#reduce]].</p>\n"
 msgstr ""
-"<p>También puedes hacer una actualización manual para reducir el tamaño de actualizaciones\n"
+"<p>También puedes hacer una actualización manual para reducir el tamaño de "
+"actualizaciones\n"
 "automáticas futuras, como se describe [[anteriormente|upgrade#reduce]].</p>\n"
 
 #. type: Plain text
@@ -496,8 +513,8 @@ msgid ""
 "Another empty USB stick <small>(at least 8 GB)</small>&nbsp;[[!toggle "
 "id=\"why_extra\" text=\"Why?\"]]"
 msgstr ""
-"Otra memoria USB vacía <small>(al menos de 8 GB)</small>&nbsp;[[!toggle "
-"id=\"why_extra\" text=\"¿Por qué?\"]]"
+"Otra memoria USB vacía <small>(al menos de 8 GB)</small>&nbsp;[[!toggle id="
+"\"why_extra\" text=\"¿Por qué?\"]]"
 
 #. type: Bullet: '- '
 #, fuzzy
@@ -569,7 +586,7 @@ msgid ""
 "Windows has viruses. But, it might be more convenient and faster.</p>\n"
 msgstr ""
 "<p>Descargar y actualizar desde Windows puede ser menos seguro si tu\n"
-"Windows tiene viruses. Pero puede que sea más conveniente y rápido.</p>\n"
+"Windows tiene virus. Pero puede que sea más conveniente y rápido.</p>\n"
 
 #. type: Plain text
 #, no-wrap

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-21 00:20+0000\n"
+"PO-Revision-Date: 2023-12-22 12:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -95,16 +95,14 @@ msgid "<div class=\"note\">\n"
 msgstr "<div class=\"note\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<p>If you have a GNU/Linux system on your disks, you can only access\n"
-#| "files owned by the first user (<code>uid=1000</code>) on that system.</p>\n"
+#, no-wrap
 msgid ""
 "<p>If you have a GNU/Linux system on your disks, you can only access\n"
 "files owned by the first user (with UID 1000) on that system.</p>\n"
 msgstr ""
 "<p>Si teniu un sistema GNU/Linux als vostres discs, només podeu accedir\n"
-"als fitxers propietat del primer usuari (<code>uid=1000</code>) en aquell sistema.</p>\n"
+"als fitxers propietat del primer usuari (amb UID 1000) en aquell sistema.</p>"
+"\n"
 
 #. type: Plain text
 #, no-wrap
