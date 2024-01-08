@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-21 00:20+0000\n"
+"PO-Revision-Date: 2023-12-28 14:21+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -27,17 +27,23 @@ msgstr "[[!meta title=\"Problemes coneguts\"]]\n"
 msgid ""
 "- To learn what you can do with Tails, refer to our [[documentation|doc]]."
 msgstr ""
+"- Per saber què podeu fer amb Tails, consulteu la nostra "
+"[[documentació|doc]]."
 
 #. type: Plain text
 msgid ""
 "- For more general questions about Tails, refer to our [[FAQ|support/faq]]."
 msgstr ""
+"- Per a preguntes més generals sobre Tails, consulteu les nostres [["
+"preguntes més freqüents|support/faq]]."
 
 #. type: Plain text
 msgid ""
 "- For issues with graphics cards, see our [[known issues with graphics cards|"
 "known_issues/graphics]]."
 msgstr ""
+"- Per a problemes amb les targetes gràfiques, consulteu els nostres [["
+"problemes coneguts amb les targetes gràfiques|known_issues/graphics]]."
 
 #. type: Plain text
 #, no-wrap
@@ -266,22 +272,16 @@ msgid "That workaround applied to, at least, the following HP ProBook:"
 msgstr "Aquesta solució aplica, almenys, a l'HP ProBook següent:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "5330m"
 msgid "- 5330m"
-msgstr "5330m"
+msgstr "- 5330m"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "4330s"
 msgid "- 4330s"
-msgstr "4330s"
+msgstr "- 4330s"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "6560b"
 msgid "- 6560b"
-msgstr "6560b"
+msgstr "- 6560b"
 
 #. type: Plain text
 #, no-wrap
@@ -406,10 +406,11 @@ msgid "On some laptops, Tails starts with the following error:"
 msgstr "En alguns ordinadors portàtils, Tails arrenca amb el següent error:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<p class=\"pre\">soft lockup - CPU#<span class=\"command-placeholder\">N</span> stuck for <span class=\"command-placeholder\">N</span>s</p>\n"
+#, no-wrap
 msgid "<p class=\"code\">soft lockup - CPU#<span class=\"command-placeholder\">N</span> stuck for <span class=\"command-placeholder\">N</span>s</p>\n"
-msgstr "<p class=\"pre\">soft lockup - CPU#<span class=\"command-placeholder\">N</span> stuck for <span class=\"command-placeholder\">N</span>s</p>\n"
+msgstr ""
+"<p class=\"code\">soft lockup - CPU#<span class=\"command-placeholder\">N</"
+"span> stuck for <span class=\"command-placeholder\">N</span>s</p>\n"
 
 #. type: Plain text
 msgid ""
@@ -967,26 +968,19 @@ msgstr ""
 "incorrectament:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The application window is initially empty and white."
 msgid "- The application window is initially empty and white."
-msgstr "La finestra de l'aplicació està inicialment buida i blanca."
+msgstr "- La finestra de l'aplicació està inicialment buida i blanca."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The icons and menus only appear when hovered by the mouse."
 msgid "- The icons and menus only appear when hovered by the mouse."
 msgstr ""
-"Les icones i els menús només apareixen quan es passa el ratolí per sobre."
+"- Les icones i els menús només apareixen quan es passa el ratolí per sobre."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The contents of the window is only displayed in stripes when scrolling."
 msgid ""
 "- The contents of the window is only displayed in stripes when scrolling."
 msgstr ""
-"El contingut de la finestra només es mostra en ratlles quan es desplaça."
+"- El contingut de la finestra només es mostra en ratlles quan es desplaça."
 
 #. type: Plain text
 msgid ""
@@ -1006,16 +1000,12 @@ msgid "This problem affects at least the following computers:"
 msgstr "Aquest problema afecta almenys els ordinadors següents:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "MacBookPro11,5"
 msgid "- MacBookPro11,5"
-msgstr "MacBookPro11,5"
+msgstr "- MacBookPro11,5"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "other MacBooks with a Radeon R9 graphics adapter"
 msgid "- Other MacBooks with a Radeon R9 graphics adapter"
-msgstr "altres MacBook amb un adaptador de gràfics Radeon R9"
+msgstr "- Altres MacBook amb un adaptador de gràfics Radeon R9"
 
 #. type: Plain text
 #, no-wrap
@@ -1120,10 +1110,9 @@ msgid "- Fail to start. Often after the message:"
 msgstr "- No arrencar. Sovint després del missatge:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "  <pre>Loading, please wait...</pre>\n"
+#, no-wrap
 msgid "      Loading, please wait...\n"
-msgstr "  <pre>Loading, please wait...</pre>\n"
+msgstr "      Loading, please wait...\n"
 
 #. type: Bullet: '- '
 msgid ""

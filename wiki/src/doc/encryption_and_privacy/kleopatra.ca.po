@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-21 00:22+0000\n"
+"PO-Revision-Date: 2023-12-22 12:21+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -78,23 +78,25 @@ msgstr "Amb *Kleopatra* podeu:"
 
 #. type: Plain text
 msgid "- Create new OpenPGP keys for yourself"
-msgstr ""
+msgstr "- Creeu noves claus OpenPGP per a vosaltres mateixos"
 
 #. type: Plain text
 msgid "- Manage your OpenPGP private keys and the public keys of others"
 msgstr ""
+"- Gestioneu les vostres claus privades d'OpenPGP i les claus públiques dels "
+"altres"
 
 #. type: Plain text
 msgid "- Encrypt and sign text with a public key"
-msgstr ""
+msgstr "- Encripteu i signeu text amb una clau pública"
 
 #. type: Plain text
 msgid "- Encrypt text with a passphrase"
-msgstr ""
+msgstr "- Encripteu text amb una contrasenya"
 
 #. type: Plain text
 msgid "- Decrypt and verify text"
-msgstr ""
+msgstr "- Desencripteu i verifiqueu texts"
 
 #. type: Plain text
 #, no-wrap

@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-01-20 18:17+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"PO-Revision-Date: 2024-01-03 13:23+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "downloadinline/es/>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta robots=\"noindex\"]]"
@@ -24,8 +24,7 @@ msgstr "[[!meta robots=\"noindex\"]]"
 
 #. type: Content of: <div>
 msgid "[[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]"
-msgstr ""
-"[[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]"
+msgstr "[[!inline pages=\"inc/stable_amd64_version\" raw=\"yes\" sort=\"age\"]]"
 
 #. type: Content of: <h1>
 msgid "Verify your download"
@@ -76,8 +75,8 @@ msgid ""
 "Compare manually the checksum of your download with [[the checksum of our "
 "images|install/v2/Tails/amd64/stable/latest.json]]."
 msgstr ""
-"Comparar la suma de comprobación de tu descarga con [[la suma de "
-"comprobación de nuestras imágenes|install/v2/Tails/amd64/stable/latest."
+"Comparar la suma de verificación de tu descarga con [[la suma de "
+"verificación de nuestras imágenes|install/v2/Tails/amd64/stable/latest."
 "json]]."
 
 #. type: Content of: <div><div><ul><li><p>
@@ -85,7 +84,7 @@ msgid ""
 "See our documentation on [[calculating checksums using GtkHash|doc/"
 "encryption_and_privacy/checksums]]."
 msgstr ""
-"Lee nuestra documentación sobre [[calcular sumas de comprobación usando "
+"Lee nuestra documentación sobre [[calcular sumas de verificación usando "
 "GtkHash|doc/encryption_and_privacy/checksums]]."
 
 #. type: Content of: <div><div><ul><li><p>
@@ -275,8 +274,8 @@ msgid ""
 "raw=\"yes\" sort=\"age\"]]."
 msgstr ""
 "La verificación también falla si intentas verificar una descarga distinta a "
-"la última versión de Tails: [[!inline pages=\"inc/stable_amd64_version\" "
-"raw=\"yes\" sort=\"age\"]]."
+"la última versión de Tails: [[!inline pages=\"inc/stable_amd64_version\" raw="
+"\"yes\" sort=\"age\"]]."
 
 #. type: Content of: <div><div><div><p>
 msgid ""
@@ -373,7 +372,7 @@ msgid ""
 "image <em><span class=\"verify-filename\">$FILENAME</span></em>.</b>"
 msgstr ""
 "[[!img lib/cross.png class=\"icon\" link=\"no\" alt=\"\"]]<b>Error al leer "
-"la  imagen <em><span class=\"verify-filename\">$FILENAME</span></em>.</b>"
+"la imagen <em><span class=\"verify-filename\">$FILENAME</span></em>.</b>"
 
 #. type: Content of: <div><div><p>
 msgid ""
