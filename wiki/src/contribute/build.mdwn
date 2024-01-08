@@ -13,7 +13,7 @@ Tails USB and ISO image with [Rake], [Vagrant] and [vagrant-libvirt].
 
 To build Tails you need:
 
- * Debian 11 (Bullseye) or newer
+ * Debian 12 (Bookworm) or newer
  * the KVM virtual machine hypervisor
  * at least 1.5 GiB of free RAM
  * storage:
