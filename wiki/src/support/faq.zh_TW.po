@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tails l10n\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-27 22:20+0000\n"
+"POT-Creation-Date: 2024-01-05 17:15+0000\n"
 "PO-Revision-Date: 2018-11-02 17:20+0000\n"
 "Last-Translator: Weblate Admin <admin@example.com>\n"
 "Language-Team: Tails Chinese translators <jxt@twngo.xyz>\n"
@@ -1077,6 +1077,13 @@ msgid ""
 "If you worry that your Tails might be corrupted, do a [[manual upgrade|"
 "upgrade]] from a trusted operating system to upgrade it to a trusted version "
 "of Tails."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>In the future, we might make it possible to verify the integrity of a Tails\n"
+"USB stick from another trusted OS. ([[!tails_ticket 7496]])</p>\n"
 msgstr ""
 
 #. type: Plain text

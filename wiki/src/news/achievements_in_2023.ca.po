@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-20 20:40+0000\n"
-"PO-Revision-Date: 2023-12-23 17:22+0000\n"
+"PO-Revision-Date: 2024-01-07 12:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -129,11 +129,15 @@ msgstr ""
 #, no-wrap
 msgid "[[!img  version_5.12/delete-data.png alt=\"\" caption=\"New button to delete the data of a Persistent Storage feature\"]]\n"
 msgstr ""
+"[[!img version_5.12/delete-data.png alt=\"\" caption=\"Nou botó per suprimir "
+"les dades d'una funcionalitat de l'Emmagatzematge Persistent\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img doc/persistent_storage/backup/clone.png alt=\"\" caption=\"Option to clone the current Persistent Storage in Tails Installer\"]]\n"
 msgstr ""
+"[[!img doc/persistent_storage/backup/clone.png alt=\"\" caption=\"Opció per "
+"clonar l'Emmagatzematge Persistent actual a l'Instal·lador de Tails\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -202,11 +206,13 @@ msgid ""
 "PS: Keeping Tails updated is your best defense against online surveillance "
 "and censorship!"
 msgstr ""
+"PD: Mantenir Tails actualitzat és la vostra millor defensa contra la "
+"vigilància i la censura en línia!"
 
 #. type: Plain text
 #, no-wrap
 msgid "**And we started moving to our new home!**\n"
-msgstr ""
+msgstr "**I hem començat a mudar-nos a la nostra nova llar!**\n"
 
 #. type: Plain text
 msgid "🎉 ✨ tails.net ✨ 🎉"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-29 16:22+0000\n"
+"PO-Revision-Date: 2024-01-07 12:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "thunderbird/es/>\n"
@@ -26,9 +26,7 @@ msgstr "[[!meta title=\"Enviando correos y leyendo noticias con Thunderbird\"]]\
 #. type: Plain text
 #, no-wrap
 msgid "Tails includes <span class=\"application\">Thunderbird</span> for:\n"
-msgstr ""
-"Tails incluye <span\n"
-"class=\"application\">Thunderbird</span> para:\n"
+msgstr "Tails incluye <span class=\"application\">Thunderbird</span> para:\n"
 
 #. type: Plain text
 msgid "- Reading and writing emails"
@@ -107,7 +105,10 @@ msgid ""
 "For more detailed documentation, refer to the [official\n"
 "<span class=\"application\">Thunderbird</span>\n"
 "help](https://support.mozilla.org/en-US/products/thunderbird).\n"
-msgstr "Para instrucciones más detalladas puedes leer la [documentación oficial de <span class=\"application\">Thunderbird</span>](https://support.mozilla.org/en-US/products/thunderbird).\n"
+msgstr ""
+"Para instrucciones más detalladas puedes leer la [documentación\n"
+"oficial de <span class=\"application\">Thunderbird</span>](https://support."
+"mozilla.org/en-US/products/thunderbird).\n"
 
 #. type: Plain text
 #, no-wrap
@@ -121,9 +122,9 @@ msgid ""
 "<span class=\"application\">Thunderbird</span> to access your email account."
 msgstr ""
 "Cuando arrancas <span class=\"application\">Thunderbird</span> por primera "
-"vez, un asistente aparece para guiarte a través del proceso de configurar "
-"<span class=\"application\">Thunderbird</span> para acceder a tu cuenta de "
-"email."
+"vez, un asistente aparece para guiarte a través del proceso de configuración "
+"de <span class=\"application\">Thunderbird</span> para acceder a tu cuenta "
+"de correo electrónico."
 
 #. type: Plain text
 #, no-wrap
@@ -169,8 +170,8 @@ msgstr "   </div>\n"
 msgid ""
 "Enter your name, email address, and password into the corresponding fields."
 msgstr ""
-"Escribe tu nombre, dirección de email y contraseña en los campos "
-"correspondientes."
+"Escribe tu nombre, dirección de correo electrónico y contraseña en los "
+"campos correspondientes."
 
 #. type: Bullet: '1. '
 msgid "Click <span class=\"guilabel\">Continue</span>."
@@ -182,7 +183,8 @@ msgid ""
 "connect to your email provider based on your email address."
 msgstr ""
 "El asistente intenta configurar automáticamente la configuración adecuada "
-"para conectar a tu proveedor de email basado en tu dirección de email."
+"para conectarse a tu proveedor de correo electrónico basado en tu dirección "
+"de correo electrónico."
 
 #. type: Plain text
 #, no-wrap
@@ -190,8 +192,9 @@ msgid ""
 "   If the automatic configuration fails, consult your email provider\n"
 "   about how to configure your email account manually.\n"
 msgstr ""
-"   Si la configuración automática falla, consulta con tu proveedor de email\n"
-"   sobre cómo configurar tu cuenta de email manualmente.\n"
+"   Si la configuración automática falla, consulta con tu proveedor de correo "
+"electrónico\n"
+"   sobre cómo configurar tu cuenta de correo electrónico manualmente.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -238,8 +241,9 @@ msgid ""
 "class=\"guilabel\">IMAP</span> or <span class=\"guilabel\">POP</span>."
 msgstr ""
 "Si la configuración automática funciona, puede que igualmente tengas que "
-"especificar qué protocolo usar para conectar a tu proveedor de email, ya sea "
-"<span class=\"guilabel\">IMAP</span> o <span class=\"guilabel\">POP</span>."
+"especificar qué protocolo usar para conectarte a tu proveedor de correo "
+"electrónico, ya sea <span class=\"guilabel\">IMAP</span> o <span class="
+"\"guilabel\">POP</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -251,9 +255,10 @@ msgid ""
 "        your emails from different operating systems.\n"
 msgstr ""
 "      - Con <span class=\"guilabel\">IMAP</span>,\n"
-"        <span class=\"application\">Thunderbird</span> sincroniza constantemente\n"
+"        <span class=\"application\">Thunderbird</span> se sincroniza "
+"constantemente\n"
 "         con el servidor y muestra los correos y carpetas que están\n"
-"\tactualmente almacenados en el servidor. IMAP es mejor para acceder\n"
+"\tactualmente almacenados en el servidor. IMAP es mejor para acceder a\n"
 "        tus correos desde distintos sistemas operativos.\n"
 
 #. type: Plain text
@@ -266,7 +271,8 @@ msgid ""
 "        and store them in the Persistent Storage.\n"
 msgstr ""
 "      - Con <span class=\"guilabel\">POP</span>,\n"
-"        <span class=\"application\">Thunderbird</span> descarga los emails que\n"
+"        <span class=\"application\">Thunderbird</span> descarga los correos "
+"electrónicos que\n"
 "        están en la inbox del servidor y posiblemente los borra de allí.\n"
 "\tPOP es mejor si sólo accedes tus correos desde Tails y los\n"
 "        guardas en el Almacenamiento Persistente.\n"
@@ -450,7 +456,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Choose **Privacy & Security**."
-msgstr "Escoger **Privacidad & Seguridad**."
+msgstr "Escoge **Privacidad & Seguridad**."
 
 #. type: Bullet: '1. '
 #, fuzzy
@@ -608,7 +614,7 @@ msgid ""
 "   Your private key should now be listed in the **End-to-End\n"
 "   Encryption** settings of your account.\n"
 msgstr ""
-"   Tu clave privada ahora debería aparecer en el **Cifrado \n"
+"   Tu clave privada ahora debería aparecer en el **Cifrado de\n"
 "   extremo a extremo** de la configuración de tu cuenta..\n"
 
 #. type: Bullet: '1. '

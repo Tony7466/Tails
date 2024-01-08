@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-08-30 21:51+0000\n"
-"PO-Revision-Date: 2023-12-31 15:22+0000\n"
+"PO-Revision-Date: 2024-01-05 16:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -107,8 +107,8 @@ msgid ""
 "Plug in the USB stick on which you want to install <span class=\"usb\">Tails."
 "</span> <span class=\"upgrade\">the intermediary Tails.</span>"
 msgstr ""
-"Conecta la memoria USB en la que quieres instalar <span class=\"usb\">Tails."
-"</span> <span class=\"upgrade\">el Tails intermedio.</span>"
+"Conecta la memoria USB en la que quieres instalar <span class=\"usb\""
+">Tails.</span> <span class=\"upgrade\">el Tails intermedio.</span>"
 
 #. type: Plain text
 #, no-wrap
@@ -155,8 +155,7 @@ msgstr ""
 #. type: Bullet: '1. '
 msgid "Click the **Select target** button to select your USB stick."
 msgstr ""
-"Haga clic en el botón **Seleccionar destino** para seleccionar tu memoria "
-"USB."
+"Haz clic en el botón **Seleccionar destino** para seleccionar tu memoria USB."
 
 #. type: Plain text
 #, no-wrap
@@ -185,7 +184,8 @@ msgid ""
 "   After installing Tails, <span class=\"application\">balenaEtcher</span> verifies the\n"
 "   installation.\n"
 msgstr ""
-"   Después de instalar Tails, <span class=\"application\">balenaEtcher</span> verifica la\n"
+"   Después de instalar Tails, <span class=\"application\">balenaEtcher</"
+"span> verifica la\n"
 "   instalación.\n"
 
 #. type: Plain text
@@ -199,8 +199,8 @@ msgid ""
 msgstr ""
 "   <div class=\"bug\">\n"
 "   <p>Si la verificación de <span class=\"application\">balenaEtcher</span>\n"
-"   falla, intenta instalar de nuevo o usar un dispositivo de memoria\n"
-"   USB distinto.</p>\n"
+"   falla, intenta instalar de nuevo o usar una memoria\n"
+"   USB distinta.</p>\n"
 "   </div>\n"
 
 #. type: Bullet: '1. '
