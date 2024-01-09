@@ -1248,7 +1248,7 @@ class TailsInstallerCreator(object):
 
     @retry
     def reset_mbr(self):
-        parent = parent = self.drive.get("parent", self._drive)
+        parent = self.drive.get("parent", self._drive)
         if parent is None:
             parent = self._drive
             parent_udi = self.drive["udi"]
