@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:43+0000\n"
-"PO-Revision-Date: 2024-01-09 10:37+0000\n"
+"PO-Revision-Date: 2024-01-10 00:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "install-mac/es/>\n"
@@ -31,7 +31,9 @@ msgstr "<h1 id=\"etcher\" class=\"step\">Instalar <em>balenaEtcher</em></h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no\" alt=\"\"]]</div>\n"
-msgstr "<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no\" alt=\"\"]]</div>\n"
+msgstr ""
+"<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no"
+"\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,7 +41,8 @@ msgid ""
 "<p class=\"upgrade\">In the following steps, you will install an intermediary Tails using the Tails USB\n"
 "image that you downloaded earlier.</p>\n"
 msgstr ""
-"<p class=\"upgrade\">En los siguientes pasos, instalarás un Tails intermedio usando la imagen USB\n"
+"<p class=\"upgrade\">En los siguientes pasos, instalarás un Tails intermedio "
+"usando la imagen USB\n"
 "de Tails que descargaste anteriormente.</p>\n"
 
 #. type: Bullet: '1. '
