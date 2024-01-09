@@ -286,7 +286,7 @@ is not needed, for example:
 
 - To access private VPN services like intranets or share folders
 
-- To browser the Internet at higher speeds than Tor
+- To browse the Internet at higher speeds than Tor
 
 We are now considering adding VPN support to Tails, either:
 
@@ -504,10 +504,19 @@ about the issue.
 
 <h2 id="old-software">Why does Tails include old versions of software?</h2>
 
-Tails includes the software versions that are found in
-[Debian stable](https://wiki.debian.org/DebianStable). Even though the
-software versions might be old, they receive security fixes through the
-[Debian security team](https://wiki.debian.org/Teams/Security).
+The Tails 5 series is based on Debian 11 (Bullseye).
+
+The version of each application included in Tails corresponds to the version
+available in this version of Debian. Even though some versions might be old,
+the [Debian Security Team](https://wiki.debian.org/Teams/Security) provides
+security updates.
+
+Newer versions of all applications will be available starting from Tails 6.0,
+which will be based on Debian 12 (Bookworm). Until then, you cannot update any
+of the applications included in Tails to a newer version.
+
+You can see which version of a software package is available in each version of
+Debian on <https://packages.debian.org/>.
 
 <h2 id="integrity">Can I verify the integrity of a Tails USB stick or DVD?</h2>
 
@@ -518,6 +527,13 @@ lying: a true liar would always pretend to tell the truth.
 If you worry that your Tails might be corrupted, do a [[manual
 upgrade|upgrade]] from a trusted operating system to
 upgrade it to a trusted version of Tails.
+
+<div class="note">
+
+<p>In the future, we might make it possible to verify the integrity of a Tails
+USB stick from another trusted OS. ([[!tails_ticket 7496]])</p>
+
+</div>
 
 <h2 id="reuse-memory-wipe">Can I use the memory wipe feature of Tails on another operating system?</h2>
 

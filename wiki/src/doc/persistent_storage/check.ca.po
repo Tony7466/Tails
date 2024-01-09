@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-11-04 19:12+0000\n"
+"PO-Revision-Date: 2023-12-22 12:20+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -108,18 +108,13 @@ msgstr ""
 "apareix a sota de la partició <span class=\"guilabel\">TailsData LUKS</span>."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Identify the device name of your Persistent Storage. The device name "
-#| "appears below the list of volumes.  It should look like <code>/dev/mapper/"
-#| "luks-xxxxxxxx</code>."
 msgid ""
 "Identify the device name of your Persistent Storage. The device name appears "
 "below the list of volumes.  It should look like `/dev/mapper/luks-xxxxxxxx`."
 msgstr ""
 "Identifiqueu el nom del dispositiu del vostre Emmagatzematge Persistent. El "
 "nom del dispositiu apareix a sota de la llista de volums. Hauria de ser "
-"semblant a <code>/dev/mapper/luks-xxxxxxxx</code>."
+"semblant a `/dev/mapper/luks-xxxxxxxx`."
 
 #. type: Plain text
 #, no-wrap

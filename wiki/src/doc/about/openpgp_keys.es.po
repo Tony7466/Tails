@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2021-07-12 02:05+0000\n"
-"Last-Translator: Joaquín Serna <bubuanabelas@cryptolab.net>\n"
+"PO-Revision-Date: 2023-12-30 23:41+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "openpgp_keys/es/>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,7 +39,7 @@ msgid ""
 "several fake and maybe malicious Tails keys on the key servers.</p>\n"
 msgstr ""
 "<p>Asegúrate de verificar las llaves que descargas, pues hay varias llaves\n"
-" de Tails falsas y probablemente maliciosas en los servidores.</p>\n"
+"de Tails falsas y probablemente maliciosas en los servidores de llaves.</p>\n"
 
 #. type: Plain text
 #, no-wrap

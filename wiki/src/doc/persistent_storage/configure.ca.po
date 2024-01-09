@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-12-21 00:20+0000\n"
+"PO-Revision-Date: 2023-12-22 12:19+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -454,18 +454,12 @@ msgstr ""
 "anonymous_internet/pidgin]] es guarden a l'Emmagatzematge Persistent:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "- The configuration of your accounts, contacts, and chats - Your OTR "
-#| "encryption keys and keyring"
 msgid "- The configuration of your accounts, contacts, and chats"
-msgstr ""
-"- La configuració dels vostres comptes, contactes i xats\n"
-"- Les vostres claus d'encriptació OTR i l'anell de claus"
+msgstr "- La configuració dels vostres comptes, contactes i xats"
 
 #. type: Plain text
 msgid "- Your OTR encryption keys and keyring"
-msgstr ""
+msgstr "- Les vostres claus d'encriptació OTR i l'anell de claus"
 
 #. type: Plain text
 msgid ""
@@ -513,25 +507,16 @@ msgstr ""
 "el client Secure Shell (SSH) es guarden a l'Emmagatzematge Persistent:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The SSH keys that you create or import"
 msgid "- The SSH keys that you create or import"
-msgstr "Les claus SSH que creeu o importeu"
+msgstr "- Les claus SSH que creeu o importeu"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The public keys of the hosts you connect to"
 msgid "- The public keys of the hosts you connect to"
-msgstr "Les claus públiques dels amfitrions als quals us connecteu"
+msgstr "- Les claus públiques dels amfitrions als quals us connecteu"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The SSH configuration file in <span class=\"filename\">~/.ssh/config</"
-#| "span>"
 msgid "- The SSH configuration file in *~/.ssh/config*"
-msgstr ""
-"El fitxer de configuració SSH a <span class=\"filename\">~/.ssh/config</span>"
+msgstr "- El fitxer de configuració SSH a *~/.ssh/config*"
 
 #. type: Title =
 #, no-wrap

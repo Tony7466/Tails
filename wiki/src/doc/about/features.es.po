@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-03-09 14:28+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2024-01-07 12:38+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "features/es/>\n"
 "Language: es\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Features and included software\"]]\n"
-msgstr "[[!meta title=\"Características y software incluido\"]]\n"
+msgstr "[[!meta title=\"Funcionalidades y software incluido\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -45,7 +45,7 @@ msgid ""
 "environment ([[More...|doc/first_steps/desktop]])"
 msgstr ""
 "[GNOME](http://www.gnome.org), un intuitivo y atractivo entorno de "
-"escritorio ([[More...|doc/first_steps/desktop]])"
+"escritorio ([[Mas...|doc/first_steps/desktop]])"
 
 #. type: Title -
 #, no-wrap
@@ -53,10 +53,8 @@ msgid "Networking"
 msgstr "Redes"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[Tor](https://www.torproject.org) with:"
 msgid "- [Tor](https://www.torproject.org) with:"
-msgstr "[Tor](https://www.torproject.org) con:"
+msgstr "- [Tor](https://www.torproject.org) con:"
 
 #. type: Bullet: '  * '
 msgid "[[stream isolation|contribute/design/stream_isolation]]"
@@ -67,6 +65,8 @@ msgid ""
 "the Onion Circuits graphical frontend ([[More...|doc/anonymous_internet/tor/"
 "circuits]])"
 msgstr ""
+"la interfaz gráfica de los Circuitos Onion ([[More...|doc/anonymous_internet/"
+"tor/circuits]])"
 
 #. type: Bullet: '- '
 msgid ""
@@ -83,32 +83,31 @@ msgid ""
 "Tor_Browser]]), a web browser based on [Mozilla Firefox](https://www.mozilla."
 "org/firefox/) and modified to protect your anonymity with:"
 msgstr ""
+"[Navegador Tor](https://www.torproject.org) ([[Más...|doc/anonymous_internet/"
+"Tor_Browser]]), un navegador basado en [Mozilla Firefox](https://www.mozilla."
+"org/firefox/) y modificado para proteger tu anonimato con:"
 
 #. type: Bullet: '  * '
 msgid ""
 "[HTTPS Everywhere](https://www.eff.org/https-everywhere)  transparently "
 "enables SSL-encrypted connections to a great number of major websites"
 msgstr ""
+"[HTTPS Everywhere](https://www.eff.org/https-everywhere) activa de manera "
+"transparente conexiones cifradas con SSL a un gran número de sitios web "
+"principales"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid ""
-#| "[NoScript](http://noscript.net/) to have even more control over "
-#| "JavaScript."
 msgid ""
 "[NoScript](http://noscript.net/), to have even more control over JavaScript"
 msgstr ""
-"[NoScript](http://noscript.net/) para tener aún más control sobre JavaScript."
+"[NoScript](http://noscript.net/), para tener aún más control sobre el "
+"JavaScript"
 
 #. type: Bullet: '  * '
-#, fuzzy
-#| msgid ""
-#| "[uBlock Origin](https://github.com/gorhill/uBlock/) to remove "
-#| "advertisements."
 msgid ""
 "[uBlock Origin](https://github.com/gorhill/uBlock/), to remove advertisements"
 msgstr ""
-"[uBlock Origin](https://github.com/gorhill/uBlock/) para eliminar anuncios."
+"[uBlock Origin](https://github.com/gorhill/uBlock/), para eliminar anuncios"
 
 #. type: Bullet: '- '
 msgid ""
@@ -156,15 +155,11 @@ msgid "Desktop edition"
 msgstr "Edición de Escritorio"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[LibreOffice](https://www.libreoffice.org/) ([[More...|doc/"
-#| "sensitive_documents/office_suite]])"
 msgid ""
 "- [LibreOffice](https://www.libreoffice.org/) ([[More...|doc/"
 "sensitive_documents/office_suite]])"
 msgstr ""
-"[LibreOffice](https://www.libreoffice.org/) ([[Más...|doc/"
+"- [LibreOffice](https://www.libreoffice.org/) ([[Más...|doc/"
 "sensitive_documents/office_suite]])"
 
 #. type: Bullet: '- '
@@ -176,15 +171,11 @@ msgstr ""
 "editar imágenes ([[Más...|doc/sensitive_documents/graphics]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "GNOME Sound Recorder for recording sound ([[More...|doc/"
-#| "sensitive_documents/sound_and_video]])"
 msgid ""
 "- GNOME Sound Recorder for recording sound ([[More...|doc/"
 "sensitive_documents/sound_and_video]])"
 msgstr ""
-"GNOME Sound Recorder para grabar y editar sonido ([[Más...|doc/"
+"- GNOME Sound Recorder para grabar y editar sonido ([[Más...|doc/"
 "sensitive_documents/sound_and_video]])"
 
 #. type: Bullet: '- '
@@ -202,10 +193,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
 msgid "- [Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
-msgstr "[Brasero](https://wiki.gnome.org/Apps/Brasero) para grabar CD/DVDs"
+msgstr "- [Brasero](https://wiki.gnome.org/Apps/Brasero) para grabar CD/DVDs"
 
 #. type: Bullet: '- '
 msgid ""
@@ -214,16 +203,12 @@ msgstr ""
 "[Sound Juicer](https://wiki.gnome.org/Apps/SoundJuicer) para digitalizar CDs"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) to convert "
-#| "linear PDF documents into booklets, and vice-versa"
 msgid ""
 "- [BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) to convert "
 "linear PDF documents into booklets, and vice-versa"
 msgstr ""
-"[BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) para convertir "
-"documentos PDF en folletos, y viceversa"
+"- [BookletImposer](http://kjo.herbesfolles.org/bookletimposer/) para "
+"convertir documentos PDF en folletos, y viceversa"
 
 #. type: Title -
 #, no-wrap
@@ -253,12 +238,16 @@ msgid ""
 "[Kleopatra](https://apps.kde.org/kleopatra/) provides a graphical interface "
 "to manage and use GnuPG on text and files"
 msgstr ""
+"[Kleopatra](https://apps.kde.org/kleopatra/) proporciona una interfaz "
+"gráfica para manejar y utilizar GnuPG en textos y archivos"
 
 #. type: Bullet: '  * '
 msgid ""
 "[Thunderbird](https://www.thunderbird.net/) has an integrated OpenPGP "
 "feature for encrypted emails"
 msgstr ""
+"[Thunderbird](https://www.thunderbird.net/) tiene una funcionalidad "
+"integrada de OpenPGP para correos encriptados"
 
 #. type: Bullet: '- '
 msgid ""
@@ -267,9 +256,9 @@ msgid ""
 "hardware [[!wikipedia Keystroke logging desc=\"keyloggers\"]] ([[More...|doc/"
 "encryption_and_privacy/virtual_keyboard]])"
 msgstr ""
-"[GNOME screen keyboard](https://help.gnome.org/users/gnome-help/stable/"
-"keyboard-osk.html.en) para accesibilidad, y para prevenir el  [[!"
-"wikipedia_es Keylogger logging desc=\"keyloggers\"]] ([[Más...|doc/"
+"[Teclado en pantalla de GNOME](https://help.gnome.org/users/gnome-help/"
+"stable/keyboard-osk.html.en) para accesibilidad, y para prevenir los [["
+"!wikipedia_es Keylogger logging desc=\"keyloggers\"]] ([[Más...|doc/"
 "encryption_and_privacy/virtual_keyboard]])"
 
 #. type: Plain text
@@ -286,46 +275,32 @@ msgstr ""
 "editar imágenes ([[Más...|doc/sensitive_documents/graphics]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[KeePassXC](https://keepassxc.org/) password manager ([[More...|doc/"
-#| "encryption_and_privacy/manage_passwords]])"
 msgid ""
 "- [KeePassXC](https://keepassxc.org/) password manager ([[More...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 msgstr ""
-"[KeePassXC](https://keepassxc.org/) gestor de contraseñas ([[Mas...|doc/"
+"- [KeePassXC](https://keepassxc.org/) gestor de contraseñas ([[Más...|doc/"
 "encryption_and_privacy/manage_passwords]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[GtkHash](https://github.com/tristanheaven/gtkhash) to calculate "
-#| "checksums ([[More...|doc/encryption_and_privacy/checksums]])"
 msgid ""
 "- [GtkHash](https://github.com/tristanheaven/gtkhash) to calculate checksums "
 "([[More...|doc/encryption_and_privacy/checksums]])"
 msgstr ""
-"[GtkHash](https://github.com/tristanheaven/gtkhash) para calcular sumas de "
-"comprobación ([[More...|doc/encryption_and_privacy/checksums]])"
+"- [GtkHash](https://github.com/tristanheaven/gtkhash) para calcular sumas de "
+"comprobación ([[Más...|doc/encryption_and_privacy/checksums]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to convert "
-#| "images containing text into a text document"
 msgid ""
 "- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to convert "
 "images containing text into a text document"
 msgstr ""
-"[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) para convertir "
+"- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) para convertir "
 "imágenes que contienen texto a un documento de texto"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[FFmpeg](https://ffmpeg.org/) to record and convert audio and video"
 msgid "- [FFmpeg](https://ffmpeg.org/) to record and convert audio and video"
-msgstr "[FFmpeg](https://ffmpeg.org/) para grabar y convertir audio y vídeo"
+msgstr "- [FFmpeg](https://ffmpeg.org/) para grabar y convertir audio y vídeo"
 
 #. type: Title =
 #, no-wrap
@@ -341,19 +316,14 @@ msgstr ""
 "en Debian."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "To install additional software automatically when starting Tails, use the "
-#| "[[Additional Software|doc/first_steps/persistence#additional_software]] "
-#| "feature of the Persistent Storage."
 msgid ""
 "To install additional software automatically when starting Tails, use the "
 "[[Additional Software|persistent_storage/additional_software]] feature of "
 "the Persistent Storage."
 msgstr ""
 "Para instalar software adicional automáticamente cuando inicias Tails, usa "
-"la funcionalidad de [[Software Adicional|doc/first_steps/"
-"persistence#additional_software]] del Almacenamiento Persistente."
+"la funcionalidad de [[Software Adicional|persistent_storage/"
+"additional_software]] del Almacenamiento Persistente."
 
 #. type: Title =
 #, no-wrap
@@ -361,15 +331,11 @@ msgid "Additional features"
 msgstr "Funcionalidades adicionales"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "automatic mechanism to [[upgrade a USB stick|doc/upgrade]] to newer "
-#| "versions"
 msgid ""
 "- Automatic mechanism to [[upgrade a USB stick|doc/upgrade]] to newer "
 "versions"
 msgstr ""
-"mecanismo automático para [[actualizar una memoria USB|doc/first_steps/"
+"- Mecanismo automático para [[actualizar una memoria USB|doc/first_steps/"
 "upgrade]] a nuevas versiones"
 
 #. type: Bullet: '- '
@@ -385,31 +351,23 @@ msgstr ""
 "virtualbox.org/) ([[Más...|doc/advanced_topics/virtualization]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "64-bit PAE-enabled kernel with NX-bit and SMP support on hardware that "
-#| "supports it"
 msgid ""
 "- 64-bit PAE-enabled kernel with NX-bit and SMP support on hardware that "
 "supports it"
 msgstr ""
-"Kernel para 64-bit PAE habilitado con soporte para NX-bit y SMP en hardware "
-"que lo permita"
+"- Kernel para 64-bit PAE habilitado con soporte para NX-bit y SMP en "
+"hardware que lo permita"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Some basic [[doc/first_steps/accessibility]] features"
 msgid "- Some basic [[doc/first_steps/accessibility]] features"
 msgstr ""
-"Algunas características básicas de [[accesibilidad|doc/first_steps/"
+"- Algunas funcionalidades básicas de [[accesibilidad|doc/first_steps/"
 "accessibility]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Some [[contribute/design/application_isolation]] with AppArmor"
 msgid "- Some [[contribute/design/application_isolation]] with AppArmor"
 msgstr ""
-"Algo de [[aislamiento entre aplicaciones|contribute/design/"
+"- Algo de [[aislamiento entre aplicaciones|contribute/design/"
 "application_isolation]] con AppArmor"
 
 #. type: Bullet: '- '
@@ -427,25 +385,14 @@ msgid "Multilingual support"
 msgstr "Apoyo multilingüe"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "When starting Tails, you can choose between a large number of languages, "
-#| "including Arabic, Azerbaijani, Catalan, Czech, Welsh, Danish, German, "
-#| "Greek, English, Spanish, Persian, Finnish, French, Croatian, Hungarian, "
-#| "Indonesian, Italian, Japanese, Khmer, Korean, Latvian, Bokmål, Dutch, "
-#| "Polish, Portuguese, Russian, Slovak, Slovene, Albanian, Serbian, Swedish, "
-#| "Turkish, Ukrainian, and Chinese."
 msgid ""
 "When starting Tails, you can choose between a large number of languages, "
 "including Arabic, English, Farsi, French, German, Hindi, Indonesian, "
 "Italian, Portuguese, Russian, Simplified Chinese, Spanish, Turkish, and more."
 msgstr ""
-"Cuando comienzas Tails, puedes escoger entre una gran cantidad de lenguajes, "
-"incluyendo Arábico, Azerbaiyano, Catalán, Checo, Galés, Danés, Alemán, "
-"Griego, Inglés, Español, Persa, Finlandés, Francés, Croata, Húngaro, "
-"Indonesio, Italiano, Japonés, Jemer, Coreano, Letón, Bokmal, Holandés, "
-"Polaco, Portugués, Ruso, Eslovaco, Esloveno, Albanés, Serbio, Sueco, Turco, "
-"Ucraniano y Chino."
+"Al iniciar Tails, puedes elegir entre una gran cantidad de idiomas, "
+"incluidos árabe, inglés, farsi, francés, alemán, hindi, indonesio, italiano, "
+"portugués, ruso, chino simplificado, español, turco y más."
 
 #. type: Plain text
 msgid ""

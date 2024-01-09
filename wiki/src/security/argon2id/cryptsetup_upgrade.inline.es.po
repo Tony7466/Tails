@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-06-13 19:42+0000\n"
-"PO-Revision-Date: 2023-07-02 11:34+0000\n"
-"Last-Translator: xin <xin@riseup.net>\n"
+"PO-Revision-Date: 2023-12-30 23:44+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,6 +28,8 @@ msgid ""
 "To verify whether your encrypted volume uses PBKDF2 or Argon2id, execute the "
 "following command."
 msgstr ""
+"Para verificar si tu volumen cifrado usa PBKDF2 o Argon2id, ejecuta el "
+"siguiente comando."
 
 #. type: Plain text
 #, no-wrap
@@ -35,11 +37,16 @@ msgid ""
 "      Replace <span class=\"command-placeholder\">[partition]</span> with the\n"
 "      partition name found in step 1.6.\n"
 msgstr ""
+"      Remplaza <span class=\"command-placeholder\">[partición]</span> con "
+"el\n"
+"      nombre de la partición encontrado en el paso 1.6.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "      <p class=\"pre command\">cryptsetup luksDump /dev/<span class=\"command-placeholder\">[partition]</span></p>\n"
 msgstr ""
+"      <p class=\"pre command\">cryptsetup luksDump /dev/<span class"
+"=\"command-placeholder\">[partición]</span></p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -51,6 +58,8 @@ msgid ""
 "<span class=\"command\">Version</span> indicates the version of LUKS, either "
 "<span class=\"command\">1</span> or <span class=\"command\">2</span>."
 msgstr ""
+"<span class=\"command\">Version</span> indica las versión de LUKS, ya sea "
+"<span class=\"command\">1</span> o <span class=\"command\">2</span>."
 
 #. type: Bullet: '      - '
 msgid ""
