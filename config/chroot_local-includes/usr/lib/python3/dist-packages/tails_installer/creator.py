@@ -679,15 +679,6 @@ class TailsInstallerCreator(object):
         if os.path.exists(liveos_mountpoint):
             return underlying_physical_device(liveos_mountpoint)
 
-    @retry
-    def _block_is_volume(self, dev):
-        is_volume = False
-        try:
-            is_volume = dev.GetProperty("block.is_volume")
-        except Exception as e:
-            self.log.exception(e)
-        return is_volume
-
     def _add_device(self, dev, parent=None):
         mount = str(dev.GetProperty("volume.mount_point"))
         device = str(dev.GetProperty("block.device"))
