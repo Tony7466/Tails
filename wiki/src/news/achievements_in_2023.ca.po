@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-20 20:40+0000\n"
-"PO-Revision-Date: 2024-01-07 12:38+0000\n"
+"PO-Revision-Date: 2024-01-09 10:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -100,6 +100,8 @@ msgstr ""
 #, no-wrap
 msgid "**The Persistent Storage got even better at storing encrypted data.**\n"
 msgstr ""
+"**S'ha millorat, encara més, l'Emmagatzematge Persistent per emmagatzemar "
+"dades encriptades.**\n"
 
 #. type: Plain text
 msgid ""
@@ -274,7 +276,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Financial health"
-msgstr ""
+msgstr "Salut financera"
 
 #. type: Plain text
 msgid ""
