@@ -7,7 +7,7 @@ end
 
 When /^Tails detect disk read failures$/ do
   squashfs_failed = '/var/lib/live/tails.squashfs_failed'
-  $vm.execute('systemct --now disable tails-detect-squashfs-errors')
+  $vm.execute('systemctl --now disable tails-detect-squashfs-errors')
   $vm.execute_successfully("touch #{squashfs_failed}")
   try_for(60) { $vm.file_exist?(squashfs_failed) }
 end
