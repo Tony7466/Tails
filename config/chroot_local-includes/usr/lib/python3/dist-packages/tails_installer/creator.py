@@ -740,7 +740,6 @@ class TailsInstallerCreator(object):
         else:
             self.log.debug("Using existing mount: %s" % self.dest)
 
-    @retry
     def unmount_device(self):
         """Unmount our device"""
         self.log.debug(
