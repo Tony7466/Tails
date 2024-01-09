@@ -380,8 +380,10 @@ Given /^the computer boots$/ do
   boot_key = @os_loader == 'UEFI' ? 'F10' : 'Return'
   early_patch = config_bool('EARLY_PATCH') ? ' early_patch=umount' : ''
   extra_boot_options = $config['EXTRA_BOOT_OPTIONS'] || ''
-  @screen.type(' autotest_never_use_this_option' \
+  wait_for_remote_shell = @wait_for_remote_shell ? 'autotest_wait_for_remote_shell' : ''
+  @screen.type(' autotest_never_use_this_option ' \
                ' blacklist=psmouse' \
+               " #{wait_for_remote_shell}" \
                " #{early_patch} #{@boot_options} #{extra_boot_options}",
                [boot_key])
   $vm.wait_until_remote_shell_is_up(5 * 60)
