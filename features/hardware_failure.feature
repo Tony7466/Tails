@@ -4,12 +4,12 @@ Feature: Hardware failures
   when The USB stick has hardware failures
   I want to to see a message.
 
-  Scenario: After I log in I see an error message
+  Scenario: Alerting about disk read failures in GNOME
     Given I have started Tails from DVD without network and logged in
-    When Tails detect disk read failures
+    When Tails detects disk read failures
     Then I see a Disk Failure Message
 
-  Scenario: Before I log in I see an error message
+  Scenario: Alerting about disk read failures before reaching the Welcome Screen
     Given I start the computer from DVD with network unplugged
-    When Tails detect disk read failures
-    Then Greeter does not start and I see a Plymouth Disk Failure Message instead
+    When Tails detects disk read failures
+    Then I see a Disk Failure Message on the splash screen
