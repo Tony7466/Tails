@@ -520,7 +520,7 @@ label[for="searchbox"]{
 
 #crumbs li {
   display: inline-block;
-  background: url(lib/go-right.png) no-repeat right 2px;
+  background: url(lib/crumbs.png) no-repeat right 2px;
   padding-right: 18px;
   color: var(--medium-dark-gray);
 }
@@ -951,7 +951,7 @@ div.caution {
   background-image: url(lib/dialog-warning.png);
 }
 div.next {
-  background-image: url(lib/go-next.png);
+  background-image: url(lib/next.png);
 }
 div.note {
   background-image: url(lib/admon-note.png);
@@ -1018,7 +1018,7 @@ span.command-placeholder {
 img.symbolic {
   display: inline-block;
   position: relative;
-  top: 3px;
+  top: 2px;
 }
 
 /* Highlight */
