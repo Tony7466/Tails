@@ -540,9 +540,9 @@ When /^I can print the current page as "([^"]+[.]pdf)" to the (default downloads
   end
 end
 
-When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) (directory|bookmark)$/ do |should_work, output_file, output_dir, bookmark|
+When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) (directory|GNOME bookmark)$/ do |should_work, output_file, output_dir, bookmark|
   should_work = should_work == 'can'
-  is_bookmark = bookmark == 'bookmark'
+  is_gnome_bookmark = bookmark == 'GNOME bookmark'
 
   file_dialog = save_page_as
 
@@ -557,7 +557,7 @@ When /^I (can|cannot) save the current page as "([^"]+[.]html)" to the (.*) (dir
   when 'default downloads'
     output_dir = "/home/#{LIVE_USER}/Tor Browser"
   else
-    if is_bookmark
+    if is_gnome_bookmark
       output_dir = "/home/#{LIVE_USER}/#{output_dir}"
       file_dialog.child(description: output_dir, roleName: 'list item').grabFocus
       @screen.press('Space')

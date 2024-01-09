@@ -958,14 +958,14 @@ When /^I press the "([^"]+)" key$/ do |key|
   @screen.press(key)
 end
 
-Then /^the (amnesiac|persistent) (.*) directory (exists|does not exist)$/ do |persistent_or_not, bookmark, mode|
+Then /^the (amnesiac|persistent) (.*) directory (exists|does not exist)$/ do |persistent_or_not, directory, mode|
   case persistent_or_not
   when 'amnesiac'
     dir = "/home/#{LIVE_USER}/"
   when 'persistent'
     dir = "/home/#{LIVE_USER}/Persistent/"
   end
-  dir += bookmark
+  dir += directory
   step "the directory \"#{dir}\" #{mode}"
 end
 

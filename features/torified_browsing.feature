@@ -133,12 +133,12 @@ Feature: Browsing the web using the Tor Browser
 
   Scenario Outline: The default XDG directories are usable in Tor Browser
     Given I have started Tails from DVD without network and logged in
-    Then the amnesiac <bookmark> directory exists
-    And there is a GNOME bookmark for the amnesiac <bookmark> directory
+    Then the amnesiac <dir> directory exists
+    And there is a GNOME bookmark for the amnesiac <dir> directory
     Then I start the Tor Browser in offline mode
-    And I can save the current page as "index.html" to the <bookmark> bookmark
+    And I can save the current page as "index.html" to the <dir> GNOME bookmark
     Examples:
-      | bookmark |
+      | dir |
       | Documents |
       | Downloads |
       | Music |
