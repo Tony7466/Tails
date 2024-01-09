@@ -218,11 +218,6 @@ td.cross {
 
 /* Images */
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 img.img { /* Overwrite style.css */
   margin: 0em;
 }
