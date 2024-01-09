@@ -680,15 +680,6 @@ class TailsInstallerCreator(object):
             return underlying_physical_device(liveos_mountpoint)
 
     @retry
-    def _storage_bus(self, dev):
-        storage_bus = None
-        try:
-            storage_bus = dev.GetProperty("storage.bus")
-        except Exception as e:
-            self.log.exception(e)
-        return storage_bus
-
-    @retry
     def _block_is_volume(self, dev):
         is_volume = False
         try:
