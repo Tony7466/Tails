@@ -635,12 +635,14 @@ Style and usage
 
   When an element of a screenshot needs to be highlighted, for example
   because the element is small, has no label or is in a place that is hard
-  to describe, highlight it in red using *Inkscape*:
+  to describe, highlight it in red using Gimp:
 
   1. Create the base screenshot.
-  1. Open it in Inkspace.
-  1. Create a red circle or rectangle with a width of 2 px.
-  1. Export the screenshot to PNG, respecting its original size.
+  1. Create a new layer for the highlighting.
+  1. Create a red circle or rectangle with:
+     - Red color #ef1f31
+     - Width of 3 px
+     - Margin of 3 px with the highlighted element
 
   Good:
 
