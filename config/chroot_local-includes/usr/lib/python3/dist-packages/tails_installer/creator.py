@@ -652,7 +652,6 @@ class TailsInstallerCreator(object):
             self.get_liveos(), "overlay-%s-%s" % (self.label, self.uuid or "")
         )
 
-    @retry
     def _set_drive(self, drive):
         # XXX: sometimes fails with:
         # Traceback (most recent call last):
