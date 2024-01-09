@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:43+0000\n"
-"PO-Revision-Date: 2023-12-29 11:22+0000\n"
+"PO-Revision-Date: 2024-01-09 10:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "install-mac/es/>\n"
@@ -130,10 +130,10 @@ msgid ""
 "     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
 msgstr ""
-"1. Abre <span class=\"application\">Terminal</span> desde\n"
+"1. Abre la <span class=\"application\">Terminal</span> desde\n"
 "   <span class=\"menuchoice\">\n"
-"     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
+"     <span class=\"guimenu\">Aplicaciones</span>&nbsp;▸\n"
+"     <span class=\"guisubmenu\">Utilidades</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
 
 #. type: Bullet: '1. '
@@ -148,7 +148,9 @@ msgstr "   <p class=\"pre command\">diskutil list</p>\n"
 #. type: Plain text
 #, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
-msgstr "   Devuelve una lista de los dispositivos de almacenamiento del sistema. Por ejemplo:\n"
+msgstr ""
+"   Devuelve una lista de los dispositivos de almacenamiento del sistema. Por "
+"ejemplo:\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -260,7 +262,8 @@ msgid ""
 msgstr ""
 "   <div class=\"caution\">\n"
 "<p>Si no estás seguro del nombre del dispositivo deberías parar ahora o\n"
-"<strong>te arriesgas a sobreescribir cualquier otro disco duro del sistema</strong>.</p>\n"
+"<strong>te arriesgas a sobrescribir cualquier otro disco duro del "
+"sistema</strong>.</p>\n"
 "</div>\n"
 
 #. type: Bullet: '1. '
