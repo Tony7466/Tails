@@ -13,6 +13,7 @@ enough to totally protect you while browsing the web:
 
 - Cookies can be used to track and identify you across different
   websites.
+
 - Security vulnerabilities in JavaScript have been used to [deanonymize Tor Browser in the
   past](https://arstechnica.com/information-technology/2013/08/attackers-wield-firefox-exploit-to-uncloak-anonymous-tor-users/).
 
@@ -32,6 +33,7 @@ connected to the Tor network:
 Make sure that you are:
 
 1. [[Connected to a local network|anonymous_internet/networkmanager]]
+
 1. [[Connected to the Tor network|anonymous_internet/tor]]
 
 <h1 id="confinement">AppArmor confinement, downloading, and uploading files</h1>
@@ -157,8 +159,9 @@ rewriting all requests to these sites to HTTPS.
 
 To learn more about HTTPS Everywhere, you can see:
 
- - the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)
- - the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)
+- The [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)
+
+- The [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)
 
 <h1 id="javascript">Protection against dangerous JavaScript</h1>
 
@@ -238,9 +241,11 @@ class="symbolic" link="no"]]&nbsp;▸ **New identity**.
 The New Identity feature of
 <i>Tor Browser</i>:
 
-  - Closes all open tabs.
-  - Clears the session state including cache, history, and cookies.
-  - Closes all existing web connections and creates new Tor circuits.
+- Closes all open tabs.
+
+- Clears the session state including cache, history, and cookies.
+
+- Closes all existing web connections and creates new Tor circuits.
 
 <div class="caution">
 
@@ -261,6 +266,7 @@ For more details, see the [design and implementation of the Tor Browser](https:/
 
 - Protect from more JavaScript attacks. For example, cross-site
   scripting (XSS) attacks.
+
 - Allow you to disable JavaScript completely on some websites only.
 
 For more information, you can refer to the NoScript
