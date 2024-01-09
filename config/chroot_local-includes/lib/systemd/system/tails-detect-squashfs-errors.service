@@ -4,7 +4,7 @@ After=systemd-journald.target
 Before=gdm.service
 
 [Service]
-Type=simple
+Type=notify
 ExecStart=/usr/local/sbin/tails-detect-squashfs-errors
 Environment=PYTHONUNBUFFERED=1
 

@@ -22,6 +22,7 @@
 
 import pathlib
 
+import systemd.daemon
 import systemd.journal
 
 # File that indicates SQUASHFS errors
@@ -45,8 +46,14 @@ def main():
     # On start we havn't detected any error
     squashfs_failed.unlink(missing_ok=True)
 
+    systemd.daemon.notify('STATUS=Processing existing messages...\n')
+
     #Process all existing log entries since boot
     process_entries(j)
+
+    # Notify systemd that we're ready
+    systemd.daemon.notify('READY=1')
+    systemd.daemon.notify('STATUS=Waiting for new messages to process...\n')
 
     # Wait for new messages to be append to journald
     while True:
