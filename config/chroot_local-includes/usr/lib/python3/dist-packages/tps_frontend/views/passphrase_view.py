@@ -23,7 +23,7 @@ def wordlist():
         "pt": "pt-br",
     }
     default_wordlist = "en_securedrop"
-    return wordlist_dict.get(locale.getlocale()[0].split('_')[0], default_wordlist)
+    return wordlist_dict.get(locale.getlocale()[0].split("_")[0], default_wordlist)
 
 
 def get_passphrase_suggestion():
