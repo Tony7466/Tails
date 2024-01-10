@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-11-19 17:07+0000\n"
-"PO-Revision-Date: 2023-12-25 07:21+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -20,9 +20,9 @@ msgstr ""
 "X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[[!meta date=\"Sat, 12 Apr 2014 20:23:45 +0000\"]]\n"
-msgstr "[[!meta date=\"Sob, 12 kwietnia 2014 20:23:45 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 12 Apr 2014 20:23:45 +0000\"]]\n"
 
 #. type: Plain text
 #, no-wrap
