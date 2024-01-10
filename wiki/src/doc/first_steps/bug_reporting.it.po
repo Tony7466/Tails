@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-10-05 23:13+0000\n"
-"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"PO-Revision-Date: 2024-01-10 23:38+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -370,25 +370,19 @@ msgstr ""
 "email. Puoi fornire a tua scelta:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "a **key ID**, if the key is available on public key servers"
 msgid "- A **key ID**, if the key is available on public key servers"
 msgstr ""
-"l'**identificativo della chiave**, se la chiave è disponibile sui server di "
-"chiavi pubbliche"
+"- Un **identificativo della chiave**, se la chiave è disponibile sui server "
+"di chiavi pubbliche"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "a **link to the key**, if the key is available on the web"
 msgid "- A **link to the key**, if the key is available on the web"
-msgstr "un **collegamento alla chiave**, se la chiave è disponibile sul web"
+msgstr "- Un **collegamento alla chiave**, se la chiave è disponibile in Rete"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "a **public key block**, if the key is not publicly available"
 msgid "- A **public key block**, if the key is not publicly available"
 msgstr ""
-"il **blocco chiave pubblica**, se la chiave non è disponibile pubblicamente"
+"- Un **blocco chiave pubblica**, se la chiave non è disponibile pubblicamente"
 
 #. type: Title -
 #, no-wrap
@@ -467,10 +461,8 @@ msgstr ""
 "inviare la segnalazione del bug:"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid "In Tails, start WhisperBack"
 msgid "In Tails, start *WhisperBack*."
-msgstr "Da Tails, avvia WhisperBack"
+msgstr "Da Tails, avvia *WhisperBack*"
 
 #. type: Bullet: '2. '
 #, fuzzy
