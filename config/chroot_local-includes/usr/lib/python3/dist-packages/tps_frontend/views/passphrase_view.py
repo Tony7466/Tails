@@ -15,9 +15,15 @@ logger = getLogger(__name__)
 
 
 def wordlist():
-    wordlist_dict = {"pt_BR": "pt-br", "de_DE": "de"}
+    wordlist_dict = {
+        "ca": "ca",
+        "de": "de",
+        "es": "es",
+        "it": "it",
+        "pt": "pt-br",
+    }
     default_wordlist = "en_securedrop"
-    return wordlist_dict.get(locale.getlocale()[0], default_wordlist)
+    return wordlist_dict.get(locale.getlocale()[0].split("_")[0], default_wordlist)
 
 
 def get_passphrase_suggestion():
