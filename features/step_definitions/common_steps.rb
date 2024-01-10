@@ -780,7 +780,11 @@ def open_gnome_menu(name)
 end
 
 def open_gnome_places_menu
-  open_gnome_menu('Places')
+  if $language == 'German'
+    open_gnome_menu('Orte')
+  else
+    open_gnome_menu('Places')
+  end
 end
 
 def open_gnome_system_menu
@@ -954,18 +958,18 @@ When /^I press the "([^"]+)" key$/ do |key|
   @screen.press(key)
 end
 
-Then /^the (amnesiac|persistent) Tor Browser directory (exists|does not exist)$/ do |persistent_or_not, mode|
+Then /^the (amnesiac|persistent) (.*) directory (exists|does not exist)$/ do |persistent_or_not, directory, mode|
   case persistent_or_not
   when 'amnesiac'
-    dir = "/home/#{LIVE_USER}/Tor Browser"
+    dir = "/home/#{LIVE_USER}/"
   when 'persistent'
-    dir = "/home/#{LIVE_USER}/Persistent/Tor Browser"
+    dir = "/home/#{LIVE_USER}/Persistent/"
   end
+  dir += directory
   step "the directory \"#{dir}\" #{mode}"
 end
 
-Then /^there is a GNOME bookmark for the (amnesiac|persistent) Tor Browser directory$/ do |persistent_or_not|
-  bookmark = 'Tor Browser'
+Then /^there is a GNOME bookmark for the (amnesiac|persistent) (.*) directory$/ do |persistent_or_not, bookmark|
   bookmark += ' (persistent)' if persistent_or_not == 'persistent'
   open_gnome_places_menu
   Dogtail::Application.new('gnome-shell').child(bookmark, roleName: 'label')
