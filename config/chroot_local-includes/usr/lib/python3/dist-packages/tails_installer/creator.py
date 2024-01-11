@@ -54,7 +54,7 @@ from tails_installer.utils import (
     write_to_block_device,
     mebibytes_to_bytes,
     TailsError,
-    get_persistent_storage_size,
+    get_persistent_storage_backup_size,
 )
 from tails_installer import _  # NOQA: E402
 from tails_installer.config import CONFIG  # NOQA: E402
@@ -1048,7 +1048,7 @@ class TailsInstallerCreator(object):
         )
         delta = time.monotonic() - start
         if delta > 0.0:
-            self.mb_per_sec = (get_persistent_storage_size() / delta) / 1000**2
+            self.mb_per_sec = (get_persistent_storage_backup_size() / delta) / 1000**2
             if self.mb_per_sec:
                 self.log.info(
                     _("Wrote to device at %(speed)d MB/s")
