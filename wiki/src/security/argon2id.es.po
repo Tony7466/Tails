@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2024-01-11 20:37+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -493,7 +493,7 @@ msgstr "Inicia en tu memoria USB principal de Tails"
 
 #. type: Bullet: '1. '
 msgid "Update your main Tails USB stick to Tails 5.14."
-msgstr "Actualice tu memoria USB principal de Tails a Tails 5.14."
+msgstr "Actualiza tu memoria USB principal de Tails a Tails 5.14."
 
 #. type: Bullet: '1. '
 msgid "Create a new backup Tails using *Tails Cloner*"
