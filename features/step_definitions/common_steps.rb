@@ -12,16 +12,58 @@ def post_vm_start_hook
   @screen.click(@screen.w - 1, @screen.h / 2)
 end
 
+# See tails/tails#20054 for details
+def check_for_issue20054(confirm: false)
+  return if $vm.execute('systemctl is-active spice-vdagentd.socket').success?
+  debug_log("Issue #20054 has maybe occurred: spice-vdagentd.socket is inactive")
+  error = 'udscs_connect: Could not connect: No such file or directory'
+  regex = "spice-vdagent\[[0-9]+\]: #{error}"
+  if $vm.execute("journalctl | grep --quiet --extended-regexp '#{regex}'").success?
+    debug_log("The journal contains the suspicious error message: #{error}")
+  end
+  if confirm
+    begin
+      greeter.child('Start Tails', roleName: 'push button').grabFocus
+    rescue Exception => e
+      debug_log("Dogtail failed to focus the Greeter ⇒ issue #20054 confirmed " +
+                "(got exception #{e.class}: #{e.message}")
+    else
+      debug_log("Dogtail successfully focused the Greeter, which is unexpected")
+      return
+    end
+  end
+  $vm.execute_successfully('systemctl restart spice-vdagentd.socket')
+  if confirm
+    begin
+      greeter.child('Start Tails', roleName: 'push button').grabFocus
+    rescue Exception => e
+      debug_log("Dogtail failed to focus the Greeter after recovering " +
+                "spice-vdagentd ⇒ our proposed fix is not enough " +
+                "(got exception #{e.class}: #{e.message}")
+    else
+      debug_log("Dogtail successfully focused the Greeter, our fix was enough")
+    end
+  end
+end
+
 def post_snapshot_restore_hook(snapshot_name, num_try)
   # Press escape to wake up the display
   @screen.press('Escape')
 
   $vm.wait_until_remote_shell_is_up
-  pattern = if snapshot_name.end_with?('tails-greeter')
-              'TailsGreeter.png'
-            else
-              "GnomeApplicationsMenu#{$language}.png"
-            end
+
+  if snapshot_name.end_with?('tails-greeter')
+    pattern = 'TailsGreeter.png'
+    check_for_issue20054(confirm: true)
+  else
+    pattern = "GnomeApplicationsMenu#{$language}.png"
+    # We skip attempting to confirm issue #20054 in this general case
+    # since we don't know what (suitable) application to test Dogtail
+    # with, and we might use a non-English locale which would make it
+    # more complicated to use Dogtail.
+    check_for_issue20054(confirm: false)
+  end
+
   begin
     try_for(10, delay: 0) do
       # We use @screen.real_find here instead of @screen.wait because we
@@ -387,6 +429,7 @@ Given /^the computer (?:re)?boots Tails( with genuine APT sources)?$/ do |keep_a
   try_for(60) do
     !greeter.nil?
   end
+  check_for_issue20054(confirm: true)
 
   post_vm_start_hook
   configure_simulated_Tor_network unless config_bool('DISABLE_CHUTNEY')
