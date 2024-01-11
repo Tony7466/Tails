@@ -75,10 +75,11 @@ def iso_is_live_system(iso_path):
 def get_persistent_storage_size():
     """If unlocked, return the minimum partition size (bytes) we accept as a valid target to
     back up the current Tails, else None."""
+    luks2_header_size = 16
     if os.path.exists(CONFIG["persistence_mountpoint"]):
         return psutil.disk_usage(
             CONFIG["persistence_mountpoint"]
-        ).used + mebibytes_to_bytes(CONFIG["luks2_header_size"])
+        ).used + mebibytes_to_bytes(luks2_header_size)
 
 
 def _dir_size(source):
