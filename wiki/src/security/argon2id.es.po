@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2024-01-10 16:38+0000\n"
+"PO-Revision-Date: 2024-01-11 18:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -150,11 +150,17 @@ msgid ""
 "(LUKS1)  with PBKDF2 as *key derivation function*, a calculation run on the "
 "passphrase before trying to unlock the encryption with the result."
 msgstr ""
+"Hasta Tails 5.12 (19 de abril de 2023), Tails creaba dispositivos LUKS "
+"versión 1 (LUKS1) con PBKDF2 como *función de derivación de clave*, un "
+"cálculo ejecutado sobre la frase de contraseña antes de intentar desbloquear "
+"el cifrado con el resultado."
 
 #. type: Plain text
 msgid ""
 "PBKDF2 is now considered too weak compared to available computing power."
 msgstr ""
+"Actualmente se considera que PBKDF2 es demasiado débil en comparación con la "
+"potencia de cálculo disponible."
 
 #. type: Plain text
 msgid ""
@@ -162,12 +168,18 @@ msgid ""
 "against an activist in France](https://mjg59.dreamwidth.org/66429.html) but "
 "the actual operations by the French police are kept secret."
 msgstr ""
+"Algunos criptógrafos creen que esta debilidad podría haber sido ya ["
+"utilizada contra un activista en Francia](https://mjg59.dreamwidth.org/66429."
+"html), pero las operaciones reales de la policía francesa se mantienen en "
+"secreto."
 
 #. type: Plain text
 msgid ""
 "Since Tails 5.13 (16 May 2023), Tails creates LUKS devices version 2 "
 "(LUKS2)  with Argon2id as *key derivation function*."
 msgstr ""
+"Desde Tails 5.13 (16 de mayo de 2023), Tails crea dispositivos LUKS versión "
+"2 (LUKS2) con Argon2id como *función de derivación de claves*."
 
 #. type: Plain text
 #, no-wrap
@@ -178,6 +190,15 @@ msgid ""
 "<tr><td>5.13 or later</td><td>16 May 2023</td><td>LUKS2</td><td>Argon2id</td><td>Strong</td></tr>\n"
 "</table>\n"
 msgstr ""
+"<table>\n"
+"<tr><th>Versión de Tails<br/>cuándo se creó el cifrado</th><th>Fecha de "
+"lanzamiento</th><th>Versión de LUKS</th><th>Función de derivación de "
+"claves</th><th>Fuerza</th></tr>\n"
+"<tr><td>5.12 o anterior</td><td>19 de abril de "
+"2023</td><td>LUKS1</td><td>PBKDF2</td><td>Débil</td></tr>\n"
+"<tr><td>5.13 o posterior</td><td>16 de mayo de "
+"2023</td><td>LUKS2</td><td>Argon2id</td><td>Fuerte</td></tr>\n"
+"</table>\n"
 
 #. type: Plain text
 msgid ""
@@ -185,6 +206,9 @@ msgid ""
 "different strengths. As we recommend for the Persistent Storage, we "
 "evaluated passphrases made of several random words."
 msgstr ""
+"Calculamos cuánta electricidad costaría adivinar frases de contraseña de "
+"distinta intensidad. Como recomendamos para el Almacenamiento Persistente, "
+"evaluamos frases de contraseña compuestas por varias palabras aleatorias."
 
 #. type: Plain text
 #, no-wrap
@@ -198,6 +222,19 @@ msgid ""
 "<tr><td>7 random words</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000</td></tr>\n"
 "</table>\n"
 msgstr ""
+"<table>\n"
+"<tr><th>Longitud de la contraseña</th><th>PBKDF2</th><th>Argon2id</th></tr>\n"
+"<tr><td>3 palabras aleatorias</td><td>$0.1</td><td>$100</td></tr>\n"
+"<tr><td>4 palabras "
+"aleatorias</td><td>$1&#8239;000</td><td>$1&#8239;000&#8239;000</td></tr>\n"
+"<tr><td>5 palabras aleatorias</td><td>$10&#8239;000&#8239;000</td><td>$10&#82"
+"39;000&#8239;000&#8239;000</td></tr>\n"
+"<tr><td>6 palabras aleatorias</td><td>$100&#8239;000&#8239;000&#8239;000</td>"
+"<td>$100&#8239;000&#8239;000&#8239;000&#8239;000</td></tr>\n"
+"<tr><td>7 palabras aleatorias</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;"
+"000&#8239;000</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000&#8"
+"239;000</td></tr>\n"
+"</table>\n"
 
 #. type: Plain text
 msgid ""
@@ -205,18 +242,26 @@ msgid ""
 "passphrase a very powerful adversary like a state-sponsored attacker could "
 "guess."
 msgstr ""
+"Estas cifras son estimaciones muy aproximadas, pero dan una idea de la "
+"longitud de la frase de contraseña que podría adivinar un adversario muy "
+"poderoso, como un atacante patrocinado por un Estado."
 
 #. type: Plain text
 msgid ""
 "Even if guessing a passphrase of 3 random words with LUKS1 costs very little "
 "energy, any such attack also requires:"
 msgstr ""
+"Aunque adivinar una frase de contraseña de 3 palabras aleatorias con LUKS1 "
+"cuesta muy poca energía, cualquier ataque de este tipo también requiere:"
 
 #. type: Plain text
 msgid ""
 "- Physical access to the device - Very expensive computer equipment - "
 "Professional hacking skills"
 msgstr ""
+"- Acceso físico al dispositivo\n"
+"- Equipo informático muy caro\n"
+"- Conocimientos profesionales de hacking"
 
 #. type: Plain text
 msgid ""
@@ -224,17 +269,25 @@ msgid ""
 "this [spreadsheet](https://cryptpad.disroot.org/sheet/#/2/sheet/view/"
 "KdOJLeuCsc4dS3vq-bHhFw6zByUSRJXsCcAkB-ERxtc/)."
 msgstr ""
+"Puedes ver los detalles de nuestros cálculos en [[!tails_ticket 19615]] y en "
+"esta [hoja de cálculo](https://cryptpad.disroot.org/sheet/#/2/sheet/view/"
+"KdOJLeuCsc4dS3vq-bHhFw6zByUSRJXsCcAkB-ERxtc/)."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"schemes\">Other password schemes give too little guarantee</h2>\n"
 msgstr ""
+"<h2 id=\"schemes\">Otros esquemas de contraseñas dan muy pocas garantías</h2>"
+"\n"
 
 #. type: Plain text
 msgid ""
 "We recommend using passphrases made of several random words because using "
 "randomness is the only way to really guarantee the strength of a password."
 msgstr ""
+"Recomendamos utilizar frases de contraseña compuestas por varias palabras "
+"aleatorias, ya que el uso de la aleatoriedad es la única forma de garantizar "
+"realmente la solidez de una contraseña."
 
 #. type: Plain text
 msgid ""
@@ -242,6 +295,9 @@ msgid ""
 "password, even if it follows complicated password policies and validates on "
 "password strength meters."
 msgstr ""
+"El uso de otros esquemas de contraseñas ofrece pocas garantías sobre la "
+"solidez de una contraseña, aunque siga políticas de contraseñas complicadas "
+"y se valide en medidores de solidez de contraseñas."
 
 #. type: Plain text
 msgid ""
@@ -252,6 +308,12 @@ msgid ""
 "characters. They were definitely not random enough: \"*maga2020!*\" and "
 "\"*yourefired*\"."
 msgstr ""
+"Por ejemplo, un [hacker holandés entró en la cuenta de Twitter de Donald "
+"Trump *dos veces*](https://www.washingtonpost.com/world/2020/12/17/"
+"dutch-trump-twitter-password-hack/) adivinando sus contraseñas, a pesar de "
+"que estas contraseñas incluían varias palabras, tenían más de 8 caracteres e "
+"incluso caracteres especiales. Definitivamente no eran lo suficientemente "
+"aleatorias: \"*maga2020!*\" y \"*yourefired*\"."
 
 #. type: Plain text
 msgid ""
@@ -262,11 +324,18 @@ msgid ""
 "its implication on browser fingerprinting and password safety in accessible "
 "terms."
 msgstr ""
+"Para entender las matemáticas que hay detrás de la seguridad de las "
+"contraseñas, lee [Un modelo teórico de la información sobre privacidad y "
+"seguridad](https://media.libreplanet.org/u/libreplanet/m/"
+"an-information-theoretic-model-of-privacy-and-security-metrics/) (en inglés)"
+". Bill Budington, de la EFF, explica de forma accesible el concepto de "
+"entropía y sus implicaciones para las huellas digitales de los navegadores y "
+"la seguridad de las contraseñas."
 
 #. type: Plain text
 #, no-wrap
 msgid "<h1 id=\"updating\">Keeping your encryption secure</h1>\n"
-msgstr ""
+msgstr "<h1 id=\"updating\">Mantener tu cifrado seguro</h1>\n"
 
 #. type: Plain text
 msgid ""
@@ -274,6 +343,9 @@ msgid ""
 "devices: Persistent Storage, backup Tails, and other external encrypted "
 "volumes."
 msgstr ""
+"Se recomienda a todos los usuarios que actualicen a LUKS2 todos sus "
+"dispositivos cifrados: Almacenamiento Persistente, Tails de copia de "
+"seguridad y otros volúmenes cifrados externos."
 
 #. type: Plain text
 msgid ""
