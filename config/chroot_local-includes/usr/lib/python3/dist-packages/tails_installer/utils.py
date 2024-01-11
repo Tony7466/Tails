@@ -72,7 +72,7 @@ def iso_is_live_system(iso_path):
     return version.startswith("Debian GNU/Linux")
 
 
-def get_persistent_storage_size():
+def get_persistent_storage_backup_size():
     """If unlocked, return the minimum partition size (bytes) we accept as a valid target to
     back up the current Tails, else None."""
     luks2_header_size = 16
