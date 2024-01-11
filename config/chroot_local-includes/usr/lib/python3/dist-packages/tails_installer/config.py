@@ -15,7 +15,6 @@ CONFIG = {
     "official_min_installation_device_size": 8000,
     "main_liveos_dir": "live",
     "running_liveos_mountpoint": "/lib/live/mount/medium",
-    "persistence_mountpoint": "/live/persistence/TailsData_unlocked",
     "liveos_toplevel_files": [
         "autorun.bat",
         "autorun.inf",

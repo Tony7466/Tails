@@ -9,6 +9,8 @@ import sys
 import psutil
 from tails_installer import _
 from tails_installer.config import CONFIG
+from tailslib.persistence import PERSISTENCE_DIR, has_unlocked_persistence
+
 
 from gi.repository import GLib
 
@@ -76,10 +78,8 @@ def get_persistent_storage_backup_size():
     """If unlocked, return the minimum partition size (bytes) we accept as a valid target to
     back up the current Tails, else None."""
     luks2_header_size = 16
-    if os.path.exists(CONFIG["persistence_mountpoint"]):
-        return psutil.disk_usage(
-            CONFIG["persistence_mountpoint"]
-        ).used + mebibytes_to_bytes(luks2_header_size)
+    if has_unlocked_persistence():
+        return psutil.disk_usage(PERSISTENCE_DIR).used + mebibytes_to_bytes(luks2_header_size)
 
 
 def _dir_size(source):
