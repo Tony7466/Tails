@@ -13,8 +13,6 @@ def post_vm_start_hook
 end
 
 def post_snapshot_restore_hook(snapshot_name, num_try)
-  scenario_indent = ' ' * 4
-
   # Press escape to wake up the display
   @screen.press('Escape')
 
@@ -46,6 +44,7 @@ def post_snapshot_restore_hook(snapshot_name, num_try)
       raise 'Failed to restore snapshot'
     end
 
+    scenario_indent = ' ' * 4
     debug_log("#{scenario_indent}Failed to restore snapshot, retrying...",
               color: :yellow, timestamp: false)
     reach_checkpoint(snapshot_name, num_try + 1)
