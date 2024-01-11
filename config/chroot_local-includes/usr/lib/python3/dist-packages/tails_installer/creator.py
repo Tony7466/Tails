@@ -37,7 +37,6 @@ import sys
 from typing import Optional
 
 from io import StringIO
-from datetime import datetime
 from pprint import pformat
 
 import gi
@@ -354,11 +353,11 @@ class TailsInstallerCreator(object):
     def extract_iso(self):
         """Extract our ISO with 7-zip directly to the USB key"""
         self.log.info(_("Extracting live image to the target device..."))
-        start = datetime.now()
+        start = time.monotonic()
         self.source.clone(self.dest)
-        delta = datetime.now() - start
-        if delta.seconds:
-            self.mb_per_sec = (self.source.size / delta.seconds) / 1024**2
+        delta = time.monotonic() - start
+        if delta > 0.0:
+            self.mb_per_sec = (self.source.size / delta) / 1024**2
             if self.mb_per_sec:
                 self.log.info(
                     _("Wrote to device at %(speed)d MB/s")
@@ -1038,7 +1037,7 @@ class TailsInstallerCreator(object):
     def clone_persistent_storage(self):
         if not self.opts.clone_persistent_storage_requested:
             return
-        start = datetime.now()
+        start = time.monotonic()
         self.log.info(_("Cloning Persistent Storage..."))
         tps_proxy.call_sync(
             method_name="CreateBackup",
@@ -1047,9 +1046,9 @@ class TailsInstallerCreator(object):
             timeout_msec=GLib.MAXINT,
             cancellable=None,
         )
-        delta = datetime.now() - start
-        if delta.seconds:
-            self.mb_per_sec = (get_persistent_storage_size() / delta.seconds) / 1024**2
+        delta = time.monotonic() - start
+        if delta > 0.0:
+            self.mb_per_sec = (get_persistent_storage_size() / delta) / 1024**2
             if self.mb_per_sec:
                 self.log.info(
                     _("Wrote to device at %(speed)d MB/s")
