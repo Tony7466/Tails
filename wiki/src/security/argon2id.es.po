@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2024-01-11 22:43+0000\n"
+"PO-Revision-Date: 2024-01-12 15:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -416,7 +416,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Choose a new passphrase of 5 to 7 random words."
-msgstr "Elije una nueva frase de contraseña de 5 a 7 palabras aleatorias."
+msgstr "Elige una nueva frase de contraseña de 5 a 7 palabras aleatorias."
 
 #. type: Plain text
 #, no-wrap
