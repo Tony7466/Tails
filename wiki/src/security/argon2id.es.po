@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2024-01-11 20:43+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -388,7 +388,7 @@ msgstr "- Tu cifrado es más seguro con LUKS2."
 #, no-wrap
 msgid "  We still recommend changing your passphrase to be 5 random words or more.\n"
 msgstr ""
-"  Aún recomendamos cambiar Tu frase de contraseña para que tenga 5 palabras "
+"  Aún recomendamos cambiar tu frase de contraseña para que tenga 5 palabras "
 "aleatorias o más.\n"
 
 #. type: Title ###
