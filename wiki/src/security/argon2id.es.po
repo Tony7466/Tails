@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
 "PO-Revision-Date: 2024-01-11 20:37+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -479,7 +479,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Backup Tails (4 words or fewer)"
-msgstr "Tails de Resplado ( 4 palabras o menos)"
+msgstr "Tails de Respaldo ( 4 palabras o menos)"
 
 #. type: Plain text
 msgid ""
