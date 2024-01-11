@@ -357,7 +357,7 @@ class TailsInstallerCreator(object):
         self.source.clone(self.dest)
         delta = time.monotonic() - start
         if delta > 0.0:
-            self.mb_per_sec = (self.source.size / delta) / 1024**2
+            self.mb_per_sec = (self.source.size / delta) / 1000**2
             if self.mb_per_sec:
                 self.log.info(
                     _("Wrote to device at %(speed)d MB/s")
@@ -1048,7 +1048,7 @@ class TailsInstallerCreator(object):
         )
         delta = time.monotonic() - start
         if delta > 0.0:
-            self.mb_per_sec = (get_persistent_storage_size() / delta) / 1024**2
+            self.mb_per_sec = (get_persistent_storage_size() / delta) / 1000**2
             if self.mb_per_sec:
                 self.log.info(
                     _("Wrote to device at %(speed)d MB/s")
