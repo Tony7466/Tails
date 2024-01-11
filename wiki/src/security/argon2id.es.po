@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2024-01-11 20:47+0000\n"
+"PO-Revision-Date: 2024-01-11 20:48+0000\n"
 "Last-Translator: cacukin <cacukin@cryptolab.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -434,7 +434,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Change your passphrase."
-msgstr ""
+msgstr "Cambia tu frase de contraseña."
 
 #. type: Plain text
 #, no-wrap
@@ -444,12 +444,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   [[!toggleable id=\"4_ps_passphrase\" text=\"\"\"\n"
-msgstr ""
+msgstr "   [[!toggleable id=\"4_ps_passphrase\" text=\"\"\"\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   [[!inline pages=\"security/argon2id/ps_passphrase.inline\" raw=\"yes\" sort=\"age\"]]\n"
 msgstr ""
+"   [[!inline pages=\"security/argon2id/ps_passphrase.inline\" raw=\"yes\" "
+"sort=\"age\"]]\n"
 
 #. type: Bullet: '1. '
 msgid ""
