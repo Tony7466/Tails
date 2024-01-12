@@ -20,8 +20,8 @@ def work_around_issue20054(confirm: false)
   error = 'udscs_connect: Could not connect: No such file or directory'
   regex = "spice-vdagent\[[0-9]+\]: #{error}"
   if $vm.execute("journalctl | grep --quiet --extended-regexp '#{regex}'").success?
-    debug_log('Issue #20054: the journal contains the suspicious error message: ' +
-              error)
+    debug_log('Issue #20054: the journal contains the suspicious error message: ' \
+              "#{error}")
   end
   if confirm
     begin
