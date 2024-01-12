@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2024-01-12 15:22+0000\n"
 "PO-Revision-Date: 2024-01-11 01:43+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -286,9 +286,10 @@ msgid "  We still recommend changing your passphrase to be 5 random words or mor
 msgstr ""
 
 #. type: Title ###
-#, no-wrap
-msgid "Persistent Storage (4 words of fewer)"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "Persistent Storage"
+msgid "Persistent Storage (4 words or fewer)"
+msgstr "Armazenamento Persistente"
 
 #. type: Plain text
 msgid "To secure your Persistent Storage:"

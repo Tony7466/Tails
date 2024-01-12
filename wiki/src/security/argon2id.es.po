@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2024-01-12 15:22+0000\n"
 "PO-Revision-Date: 2024-01-11 22:43+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,10 +54,8 @@ msgid ""
 "LUKS encrypted volumes unless you use a long passphrase of 5 random words or\n"
 "more.**\n"
 msgstr ""
-"**Te recomendamos que cambies la frase de contraseña de tu Almacenamiento "
-"Persistente y otros\n"
-"volúmenes cifrados de LUKS, a menos que uses una frase de contraseña larga "
-"de 5 palabras aleatorias\n"
+"**Te recomendamos que cambies la frase de contraseña de tu Almacenamiento Persistente y otros\n"
+"volúmenes cifrados de LUKS, a menos que uses una frase de contraseña larga de 5 palabras aleatorias\n"
 "o más.**\n"
 
 #. type: Plain text
@@ -73,9 +71,7 @@ msgstr "<h1 id=\"understanding\">Entendiendo la debilidad y su solución.</h1>\n
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"race\">The arms race to protect from brute-force attacks</h2>\n"
-msgstr ""
-"<h2 id=\"race\">La carrera armamentista para protegerse de los ataques de "
-"fuerza bruta</h2>\n"
+msgstr "<h2 id=\"race\">La carrera armamentista para protegerse de los ataques de fuerza bruta</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -141,8 +137,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"comparison\">Strength of Argon2id compared to PBKDF2</h2>\n"
-msgstr ""
-"<h2 id=\"comparison\">Fuerza de Argon2id en comparación con PBKDF2</h2>\n"
+msgstr "<h2 id=\"comparison\">Fuerza de Argon2id en comparación con PBKDF2</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -168,10 +163,10 @@ msgid ""
 "against an activist in France](https://mjg59.dreamwidth.org/66429.html) but "
 "the actual operations by the French police are kept secret."
 msgstr ""
-"Algunos criptógrafos creen que esta debilidad podría haber sido ya ["
-"utilizada contra un activista en Francia](https://mjg59.dreamwidth.org/66429."
-"html), pero las operaciones reales de la policía francesa se mantienen en "
-"secreto."
+"Algunos criptógrafos creen que esta debilidad podría haber sido ya "
+"[utilizada contra un activista en Francia](https://mjg59.dreamwidth."
+"org/66429.html), pero las operaciones reales de la policía francesa se "
+"mantienen en secreto."
 
 #. type: Plain text
 msgid ""
@@ -191,13 +186,9 @@ msgid ""
 "</table>\n"
 msgstr ""
 "<table>\n"
-"<tr><th>Versión de Tails<br/>cuándo se creó el cifrado</th><th>Fecha de "
-"lanzamiento</th><th>Versión de LUKS</th><th>Función de derivación de "
-"claves</th><th>Fuerza</th></tr>\n"
-"<tr><td>5.12 o anterior</td><td>19 de abril de "
-"2023</td><td>LUKS1</td><td>PBKDF2</td><td>Débil</td></tr>\n"
-"<tr><td>5.13 o posterior</td><td>16 de mayo de "
-"2023</td><td>LUKS2</td><td>Argon2id</td><td>Fuerte</td></tr>\n"
+"<tr><th>Versión de Tails<br/>cuándo se creó el cifrado</th><th>Fecha de lanzamiento</th><th>Versión de LUKS</th><th>Función de derivación de claves</th><th>Fuerza</th></tr>\n"
+"<tr><td>5.12 o anterior</td><td>19 de abril de 2023</td><td>LUKS1</td><td>PBKDF2</td><td>Débil</td></tr>\n"
+"<tr><td>5.13 o posterior</td><td>16 de mayo de 2023</td><td>LUKS2</td><td>Argon2id</td><td>Fuerte</td></tr>\n"
 "</table>\n"
 
 #. type: Plain text
@@ -225,15 +216,10 @@ msgstr ""
 "<table>\n"
 "<tr><th>Longitud de la contraseña</th><th>PBKDF2</th><th>Argon2id</th></tr>\n"
 "<tr><td>3 palabras aleatorias</td><td>$0.1</td><td>$100</td></tr>\n"
-"<tr><td>4 palabras "
-"aleatorias</td><td>$1&#8239;000</td><td>$1&#8239;000&#8239;000</td></tr>\n"
-"<tr><td>5 palabras aleatorias</td><td>$10&#8239;000&#8239;000</td><td>$10&#82"
-"39;000&#8239;000&#8239;000</td></tr>\n"
-"<tr><td>6 palabras aleatorias</td><td>$100&#8239;000&#8239;000&#8239;000</td>"
-"<td>$100&#8239;000&#8239;000&#8239;000&#8239;000</td></tr>\n"
-"<tr><td>7 palabras aleatorias</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;"
-"000&#8239;000</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000&#8"
-"239;000</td></tr>\n"
+"<tr><td>4 palabras aleatorias</td><td>$1&#8239;000</td><td>$1&#8239;000&#8239;000</td></tr>\n"
+"<tr><td>5 palabras aleatorias</td><td>$10&#8239;000&#8239;000</td><td>$10&#8239;000&#8239;000&#8239;000</td></tr>\n"
+"<tr><td>6 palabras aleatorias</td><td>$100&#8239;000&#8239;000&#8239;000</td><td>$100&#8239;000&#8239;000&#8239;000&#8239;000</td></tr>\n"
+"<tr><td>7 palabras aleatorias</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000</td></tr>\n"
 "</table>\n"
 
 #. type: Plain text
@@ -276,9 +262,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"schemes\">Other password schemes give too little guarantee</h2>\n"
-msgstr ""
-"<h2 id=\"schemes\">Otros esquemas de contraseñas dan muy pocas garantías</h2>"
-"\n"
+msgstr "<h2 id=\"schemes\">Otros esquemas de contraseñas dan muy pocas garantías</h2>\n"
 
 #. type: Plain text
 msgid ""
@@ -309,9 +293,9 @@ msgid ""
 "\"*yourefired*\"."
 msgstr ""
 "Por ejemplo, un [hacker holandés entró en la cuenta de Twitter de Donald "
-"Trump *dos veces*](https://www.washingtonpost.com/world/2020/12/17/"
-"dutch-trump-twitter-password-hack/) adivinando sus contraseñas, a pesar de "
-"que estas contraseñas incluían varias palabras, tenían más de 8 caracteres e "
+"Trump *dos veces*](https://www.washingtonpost.com/world/2020/12/17/dutch-"
+"trump-twitter-password-hack/) adivinando sus contraseñas, a pesar de que "
+"estas contraseñas incluían varias palabras, tenían más de 8 caracteres e "
 "incluso caracteres especiales. Definitivamente no eran lo suficientemente "
 "aleatorias: \"*maga2020!*\" y \"*yourefired*\"."
 
@@ -326,11 +310,11 @@ msgid ""
 msgstr ""
 "Para entender las matemáticas que hay detrás de la seguridad de las "
 "contraseñas, lee [Un modelo teórico de la información sobre privacidad y "
-"seguridad](https://media.libreplanet.org/u/libreplanet/m/"
-"an-information-theoretic-model-of-privacy-and-security-metrics/) (en inglés)"
-". Bill Budington, de la EFF, explica de forma accesible el concepto de "
-"entropía y sus implicaciones para las huellas digitales de los navegadores y "
-"la seguridad de las contraseñas."
+"seguridad](https://media.libreplanet.org/u/libreplanet/m/an-information-"
+"theoretic-model-of-privacy-and-security-metrics/) (en inglés). Bill "
+"Budington, de la EFF, explica de forma accesible el concepto de entropía y "
+"sus implicaciones para las huellas digitales de los navegadores y la "
+"seguridad de las contraseñas."
 
 #. type: Plain text
 #, no-wrap
@@ -366,9 +350,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "<h2 id=\"4\">If your passphrase has 4 random words or fewer</h2>\n"
-msgstr ""
-"<h2 id=\"4\">Si tu frase de contraseña tiene 4 palabras aleatorias o "
-"menos</h2>\n"
+msgstr "<h2 id=\"4\">Si tu frase de contraseña tiene 4 palabras aleatorias o menos</h2>\n"
 
 #. type: Plain text
 msgid "If your current passphrase has 4 random words or fewer:"
@@ -390,13 +372,12 @@ msgstr "- Tu cifrado es más seguro con LUKS2."
 #. type: Plain text
 #, no-wrap
 msgid "  We still recommend changing your passphrase to be 5 random words or more.\n"
-msgstr ""
-"  Aún recomendamos cambiar tu frase de contraseña para que tenga 5 palabras "
-"aleatorias o más.\n"
+msgstr "  Aún recomendamos cambiar tu frase de contraseña para que tenga 5 palabras aleatorias o más.\n"
 
 #. type: Title ###
-#, no-wrap
-msgid "Persistent Storage (4 words of fewer)"
+#, fuzzy, no-wrap
+#| msgid "Persistent Storage (4 words of fewer)"
+msgid "Persistent Storage (4 words or fewer)"
 msgstr "Almacenamiento Persistente (4 palabras o menos)"
 
 #. type: Plain text
@@ -431,9 +412,7 @@ msgstr "   [[!toggleable id=\"4_ps_keepassxc\" text=\"\"\"\n"
 #. type: Plain text
 #, no-wrap
 msgid "   [[!inline pages=\"security/argon2id/keepassxc.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"   [[!inline pages=\"security/argon2id/keepassxc.inline.es\" raw=\"yes\" "
-"sort=\"age\"]]\n"
+msgstr "   [[!inline pages=\"security/argon2id/keepassxc.inline.es\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Bullet: '1. '
 msgid "Change your passphrase."
@@ -452,9 +431,7 @@ msgstr "   [[!toggleable id=\"4_ps_passphrase\" text=\"\"\"\n"
 #. type: Plain text
 #, no-wrap
 msgid "   [[!inline pages=\"security/argon2id/ps_passphrase.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"   [[!inline pages=\"security/argon2id/ps_passphrase.inline.es\" raw=\"yes\" "
-"sort=\"age\"]]\n"
+msgstr "   [[!inline pages=\"security/argon2id/ps_passphrase.inline.es\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -485,9 +462,7 @@ msgstr "   [[!toggleable id=\"4_ps_tails_installer\" text=\"\"\"\n"
 #. type: Plain text
 #, no-wrap
 msgid "   [[!inline pages=\"security/argon2id/tails_installer.inline\" raw=\"yes\" sort=\"age\"]]\n"
-msgstr ""
-"   [[!inline pages=\"security/argon2id/tails_installer.inline.es\" raw=\"yes"
-"\" sort=\"age\"]]\n"
+msgstr "   [[!inline pages=\"security/argon2id/tails_installer.inline.es\" raw=\"yes\" sort=\"age\"]]\n"
 
 #. type: Title ###
 #, no-wrap
@@ -968,8 +943,7 @@ msgid ""
 "      The output is a list of the storage devices and partitions on the system.\n"
 "      For example:\n"
 msgstr ""
-"      El resultado es una lista de los dispositivos de almacenamiento y las "
-"particiones del sistema.\n"
+"      El resultado es una lista de los dispositivos de almacenamiento y las particiones del sistema.\n"
 "      Por ejemplo:\n"
 
 #. type: Plain text
@@ -984,14 +958,11 @@ msgid ""
 "          zram0                  254:0    0  2.8G  0 disk  [SWAP]\n"
 msgstr ""
 "          NAME                   MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT\n"
-"          loop0                    7:0    0  1.2G  1 loop  /lib/live/mount/"
-"rootfs/filesystem.squashfs\n"
+"          loop0                    7:0    0  1.2G  1 loop  /lib/live/mount/rootfs/filesystem.squashfs\n"
 "          sda                      8:0    1    7G  0 disk\n"
-"          ├─sda1                   8:1    1    4G  0 part  /lib/live/mount/"
-"medium\n"
+"          ├─sda1                   8:1    1    4G  0 part  /lib/live/mount/medium\n"
 "          └─sda2                   8:2    1    3G  0 part\n"
-"            └─TailsData_unlocked 253:0    0    3G  0 crypt /run/nosymfollow/"
-"live/persistence/TailsData_un...\n"
+"            └─TailsData_unlocked 253:0    0    3G  0 crypt /run/nosymfollow/live/persistence/TailsData_un...\n"
 "          zram0                  254:0    0  2.8G  0 disk  [SWAP]\n"
 
 #. type: Plain text
