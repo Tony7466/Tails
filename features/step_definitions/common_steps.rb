@@ -26,7 +26,7 @@ def work_around_issue20054(confirm: false)
       greeter.child('Start Tails', roleName: 'push button').grabFocus
     rescue Exception => e
       debug_log("Issue #20054: Dogtail failed to focus the Greeter ⇒ bug confirmed " +
-                "(got exception #{e.class}: #{e.message}")
+                "(got exception #{e.class}: #{e.message})")
     else
       debug_log("Issue #20054: Dogtail successfully focused the Greeter, which is unexpected")
       return
