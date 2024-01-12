@@ -376,7 +376,6 @@ msgstr "  Aún recomendamos cambiar tu frase de contraseña para que tenga 5 pal
 
 #. type: Title ###
 #, fuzzy, no-wrap
-#| msgid "Persistent Storage (4 words of fewer)"
 msgid "Persistent Storage (4 words or fewer)"
 msgstr "Almacenamiento Persistente (4 palabras o menos)"
 
@@ -397,7 +396,7 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Choose a new passphrase of 5 to 7 random words."
-msgstr "Elije una nueva frase de contraseña de 5 a 7 palabras aleatorias."
+msgstr "Elige una nueva frase de contraseña de 5 a 7 palabras aleatorias."
 
 #. type: Plain text
 #, no-wrap
@@ -1028,3 +1027,7 @@ msgid ""
 "      Replace <span class=\"command-placeholder\">[partition]</span> with the\n"
 "      partition name found in step 6.\n"
 msgstr ""
+
+#, no-wrap
+#~ msgid "Persistent Storage (4 words of fewer)"
+#~ msgstr "Almacenamiento Persistente (4 palabras o menos)"

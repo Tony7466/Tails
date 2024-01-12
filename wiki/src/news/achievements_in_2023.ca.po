@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-20 20:40+0000\n"
-"PO-Revision-Date: 2024-01-09 10:38+0000\n"
+"PO-Revision-Date: 2024-01-12 15:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -43,7 +43,7 @@ msgstr "[[!tag announce]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "**Malicious actors upped the ante in 2023.**\n"
-msgstr ""
+msgstr "**Actors maliciosos han augmentat l'aposta el 2023.**\n"
 
 #. type: Plain text
 msgid ""

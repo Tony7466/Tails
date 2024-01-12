@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2024-01-09 10:37+0000\n"
+"PO-Revision-Date: 2024-01-12 15:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "reset_mac/es/>\n"
@@ -240,7 +240,7 @@ msgid ""
 "   that its size corresponds to the size of your USB stick.\n"
 msgstr ""
 "   Tu memoria USB aparece como un nuevo dispositivo en la lista. Comprueba\n"
-"que su tamaño corresponda con el tamaño de tu memoria USB.\n"
+"   que su tamaño corresponda con el tamaño de tu memoria USB.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -318,6 +318,8 @@ msgstr ""
 #, no-wrap
 msgid "   <p class=\"command-template\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
 msgstr ""
+"   <p class=\"command-template\">diskutil unmountDisk <span class=\"command-"
+"placeholder\">dispositivo</span></p>\n"
 
 #. type: Bullet: '2. '
 #, fuzzy
