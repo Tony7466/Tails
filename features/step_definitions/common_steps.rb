@@ -15,33 +15,37 @@ end
 # See tails/tails#20054 for details
 def work_around_issue20054(confirm: false)
   return if $vm.execute('systemctl is-active spice-vdagentd.socket').success?
-  debug_log("Issue #20054: spice-vdagentd.socket is inactive")
+
+  debug_log('Issue #20054: spice-vdagentd.socket is inactive')
   error = 'udscs_connect: Could not connect: No such file or directory'
   regex = "spice-vdagent\[[0-9]+\]: #{error}"
   if $vm.execute("journalctl | grep --quiet --extended-regexp '#{regex}'").success?
-    debug_log("Issue #20054: the journal contains the suspicious error message: #{error}")
+    debug_log('Issue #20054: the journal contains the suspicious error message: ' +
+              error)
   end
   if confirm
     begin
       greeter.child('Start Tails', roleName: 'push button').grabFocus
-    rescue Exception => e
-      debug_log("Issue #20054: Dogtail failed to focus the Greeter ⇒ bug confirmed " +
+    rescue StandardError => e
+      debug_log('Issue #20054: Dogtail failed to focus the Greeter ⇒ bug confirmed ' \
                 "(got exception #{e.class}: #{e.message})")
     else
-      debug_log("Issue #20054: Dogtail successfully focused the Greeter, which is unexpected")
+      debug_log('Issue #20054: Dogtail successfully focused the Greeter, which is ' \
+                'unexpected')
       return
     end
   end
   $vm.execute_successfully('systemctl restart spice-vdagentd.socket')
-  if confirm
+  if confirm # rubocop:disable Style/GuardClause
     begin
       greeter.child('Start Tails', roleName: 'push button').grabFocus
-    rescue Exception => e
-      debug_log("Issue #20054: Dogtail failed to focus the Greeter after recovering " +
-                "spice-vdagentd ⇒ our proposed fix is not enough " +
+    rescue StandardError => e
+      debug_log('Issue #20054: Dogtail failed to focus the Greeter after recovering ' \
+                'spice-vdagentd ⇒ our proposed fix is not enough ' \
                 "(got exception #{e.class}: #{e.message}")
     else
-      debug_log("Issue #20054: Dogtail successfully focused the Greeter, our fix was enough")
+      debug_log('Issue #20054: Dogtail successfully focused the Greeter, our fix ' \
+                'was enough')
     end
   end
 end
