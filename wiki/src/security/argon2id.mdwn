@@ -133,7 +133,7 @@ If your current passphrase has 4 random words or fewer:
 
   We still recommend changing your passphrase to be 5 random words or more.
 
-### Persistent Storage (4 words of fewer)
+### Persistent Storage (4 words or fewer)
 
 To secure your Persistent Storage:
 
