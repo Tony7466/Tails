@@ -18,12 +18,9 @@ class Extension {
             return;
         }
 
-        Main.sessionMode.hasOverview = false;
-
-        // handle Ubuntu's method:
-        if (Main.layoutManager.startInOverview) {
-            Main.layoutManager.startInOverview = false;
-        }
+        Main.layoutManager.connect('startup-prepared', () => {
+            Main.sessionMode.hasOverview = false;
+        });
 
         Main.layoutManager.connect('startup-complete', () => {
             Main.sessionMode.hasOverview = this._realHasOverview;
