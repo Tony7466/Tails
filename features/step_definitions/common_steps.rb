@@ -13,7 +13,7 @@ def post_vm_start_hook
 end
 
 # See tails/tails#20054 for details
-def check_for_issue20054(confirm: false)
+def work_around_issue20054(confirm: false)
   return if $vm.execute('systemctl is-active spice-vdagentd.socket').success?
   debug_log("Issue #20054: spice-vdagentd.socket is inactive")
   error = 'udscs_connect: Could not connect: No such file or directory'
@@ -54,14 +54,14 @@ def post_snapshot_restore_hook(snapshot_name, num_try)
 
   if snapshot_name.end_with?('tails-greeter')
     pattern = 'TailsGreeter.png'
-    check_for_issue20054(confirm: true)
+    work_around_issue20054(confirm: true)
   else
     pattern = "GnomeApplicationsMenu#{$language}.png"
     # We skip attempting to confirm issue #20054 in this general case
     # since we don't know what (suitable) application to test Dogtail
     # with, and we might use a non-English locale which would make it
     # more complicated to use Dogtail.
-    check_for_issue20054(confirm: false)
+    work_around_issue20054(confirm: false)
   end
 
   begin
@@ -429,7 +429,7 @@ Given /^the computer (?:re)?boots Tails( with genuine APT sources)?$/ do |keep_a
   try_for(60) do
     !greeter.nil?
   end
-  check_for_issue20054(confirm: true)
+  work_around_issue20054(confirm: true)
 
   post_vm_start_hook
   configure_simulated_Tor_network unless config_bool('DISABLE_CHUTNEY')
