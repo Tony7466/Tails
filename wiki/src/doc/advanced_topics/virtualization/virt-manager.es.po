@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2024-01-12 15:38+0000\n"
+"PO-Revision-Date: 2024-01-13 16:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "advanced_topics_virt_manager/es/>\n"
@@ -219,10 +219,8 @@ msgstr ""
 "En el *paso 1*, elige **Medio de instalación local (Imagen ISO o CDROM)**."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid "In *step 5*:"
 msgid "In *step 2*:"
-msgstr "En el *paso5*:"
+msgstr "En el *paso 2*:"
 
 #. type: Bullet: '   1. '
 msgid ""
@@ -321,17 +319,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "   <p class=\"pre command\">truncate -s\n"
-#| "   <span class=\"command-placeholder\">size</span>\n"
-#| "   <span class=\"command-placeholder\">tails.img</span></p>\n"
+#, no-wrap
 msgid ""
 "   <p class=\"command-template\">truncate -s\n"
 "   <span class=\"command-placeholder\">size</span>\n"
 "   <span class=\"command-placeholder\">tails.img</span></p>\n"
 msgstr ""
-"   <p class=\"pre command\">truncate -s\n"
+"   <p class=\"command-template\">truncate -s\n"
 "   <span class=\"command-placeholder\">tamaño</span>\n"
 "   <span class=\"command-placeholder\">tails.img</span></p>\n"
 
@@ -418,10 +412,9 @@ msgid "<a id=\"usb\"></a>\n"
 msgstr "<a id=\"usb\"></a>\n"
 
 #. type: Title =
-#, fuzzy, no-wrap
-#| msgid "Running Tails from a USB stick\n"
+#, no-wrap
 msgid "Running Tails from a USB stick"
-msgstr "Ejecutar Tails desde una memoria USB\n"
+msgstr "Ejecutar Tails desde una memoria USB"
 
 #. type: Plain text
 msgid ""
