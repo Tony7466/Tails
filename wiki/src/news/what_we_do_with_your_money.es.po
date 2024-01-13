@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2023-12-29 16:22+0000\n"
+"PO-Revision-Date: 2024-01-13 16:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "what_we_do_with_your_money/es/>\n"
@@ -47,10 +47,8 @@ msgstr ""
 "need donations]]. Hoy te contamos un poco cómo usamos esas donaciones."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "In 2015, we spent around 184 000€, distributed as follows:"
 msgid "In 2015, we spent around 184 000€, distributed as follows:"
-msgstr "En 2015, gastamos unos 184 000€, distribuidos como sigue:"
+msgstr "En 2015, gastamos unos 184 000€, distribuidos según:"
 
 #. type: Plain text
 #, no-wrap
