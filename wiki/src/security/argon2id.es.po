@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2024-01-12 15:22+0000\n"
-"PO-Revision-Date: 2024-01-11 22:43+0000\n"
+"PO-Revision-Date: 2024-01-13 16:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -375,7 +375,7 @@ msgid "  We still recommend changing your passphrase to be 5 random words or mor
 msgstr "  Aún recomendamos cambiar tu frase de contraseña para que tenga 5 palabras aleatorias o más.\n"
 
 #. type: Title ###
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Persistent Storage (4 words or fewer)"
 msgstr "Almacenamiento Persistente (4 palabras o menos)"
 
