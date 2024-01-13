@@ -350,19 +350,26 @@ class TailsInstallerCreator(object):
         if callback:
             callback()
 
+    def log_write_speed(write_size):
+        def decorator(func):
+            def wrapper(self, *args, **kwargs):
+                start = time.monotonic()
+                ret_val = func(self, *args, **kwargs)
+                delta = time.monotonic() - start
+                if delta > 0.0:
+                    self.log.info(
+                        _("Wrote to device at %(speed)d MB/s")
+                        % {"speed": (write_size(self) / delta) / 1000**2}
+                    )
+                return ret_val
+            return wrapper
+        return decorator
+
+    @log_write_speed(write_size=lambda self: self.source.size)
     def extract_iso(self):
         """Extract our ISO with 7-zip directly to the USB key"""
         self.log.info(_("Extracting live image to the target device..."))
-        start = time.monotonic()
         self.source.clone(self.dest)
-        delta = time.monotonic() - start
-        if delta > 0.0:
-            self.mb_per_sec = (self.source.size / delta) / 1000**2
-            if self.mb_per_sec:
-                self.log.info(
-                    _("Wrote to device at %(speed)d MB/s")
-                    % {"speed": self.mb_per_sec}
-                )
 
     def syslinux_options(self):
         opts = []
@@ -1034,10 +1041,10 @@ class TailsInstallerCreator(object):
         )
         shutil.rmtree(tmpdir)
 
+    @log_write_speed(write_size=lambda self: get_persistent_storage_backup_size())
     def clone_persistent_storage(self):
         if not self.opts.clone_persistent_storage_requested:
             return
-        start = time.monotonic()
         self.log.info(_("Cloning Persistent Storage..."))
         tps_proxy.call_sync(
             method_name="CreateBackup",
@@ -1046,14 +1053,6 @@ class TailsInstallerCreator(object):
             timeout_msec=GLib.MAXINT,
             cancellable=None,
         )
-        delta = time.monotonic() - start
-        if delta > 0.0:
-            self.mb_per_sec = (get_persistent_storage_backup_size() / delta) / 1000**2
-            if self.mb_per_sec:
-                self.log.info(
-                    _("Wrote to device at %(speed)d MB/s")
-                    % {"speed": self.mb_per_sec}
-                )
 
     def get_free_bytes(self, device=None):
         """Return the number of available bytes on our device"""
