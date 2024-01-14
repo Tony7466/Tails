@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2024-01-12 15:37+0000\n"
+"PO-Revision-Date: 2024-01-14 11:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "first-steps-upgrade/es/>\n"
@@ -107,13 +107,7 @@ msgstr ""
 "actualmente</h1>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "To check which version of Tails you are currently running, choose\n"
-#| "<span class=\"menuchoice\">\n"
-#| "  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "  <span class=\"guisubmenu\">Tails</span>&nbsp;▸\n"
-#| "  <span class=\"guimenuitem\">About Tails</span></span>.\n"
+#, no-wrap
 msgid ""
 "To check which version of Tails you are currently running, choose\n"
 "<span class=\"menuchoice\">\n"
@@ -255,10 +249,11 @@ msgid "- If an error occurs while checking for available upgrades:"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "If an error occurs while checking for available upgrades:<br/> [[file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html|upgrade/error/check]]"
+#, no-wrap
 msgid "  [[file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html|upgrade/error/check]]\n"
-msgstr "Si ocurre algún error mientras compruebas por las actualizaciones disponibles:<br/> [[file:///usr/share/doc/tails/website/doc/upgrade/error/check.es.html|upgrade/error/check]]"
+msgstr ""
+"  [[file:///usr/share/doc/tails/website/doc/upgrade/error/check.es.html|"
+"upgrade/error/check]]\n"
 
 #. type: Plain text
 msgid "- If an error occurs while download the upgrade:"
