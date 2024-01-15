@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-12-21 23:10+0000\n"
 "PO-Revision-Date: 2021-12-24 19:20+0000\n"
 "Last-Translator: dedmoroz <cj75300@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -393,12 +393,18 @@ msgstr ""
 msgid "To learn more about HTTPS Everywhere, you can see:"
 msgstr "Здесь вы можете узнать больше о HTTPS Everywhere:"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
+msgid "- The [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
 msgstr "[сайт HTTPS Everywhere](https://www.eff.org/https-everywhere);"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
+msgid "- The [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
 msgstr "[FAQ HTTPS Everywhere](https://www.eff.org/https-everywhere/faq/)."
 
 #. type: Plain text
@@ -580,17 +586,23 @@ msgstr ""
 "Опция смены личности в \n"
 "<i>Tor Browser</i>:\n"
 
-#. type: Bullet: '  - '
-msgid "Closes all open tabs."
+#. type: Plain text
+#, fuzzy
+#| msgid "Closes all open tabs."
+msgid "- Closes all open tabs."
 msgstr "закрывает все открытые вкладки;"
 
-#. type: Bullet: '  - '
-msgid "Clears the session state including cache, history, and cookies."
+#. type: Plain text
+#, fuzzy
+#| msgid "Clears the session state including cache, history, and cookies."
+msgid "- Clears the session state including cache, history, and cookies."
 msgstr ""
 "очищает данные после завершения сессии, включая кэш, историю и куки-файлы;"
 
-#. type: Bullet: '  - '
-msgid "Closes all existing web connections and creates new Tor circuits."
+#. type: Plain text
+#, fuzzy
+#| msgid "Closes all existing web connections and creates new Tor circuits."
+msgid "- Closes all existing web connections and creates new Tor circuits."
 msgstr "завершает все действующие веб-соединения и создает новые цепочки Tor;"
 
 #. type: Plain text
@@ -648,8 +660,10 @@ msgstr ""
 "более эффективной защиты от атак с использованием JavaScript, например, от "
 "межсайтового скриптинга;"
 
-#. type: Bullet: '- '
-msgid "Allow you to disable JavaScript completely on some websites only."
+#. type: Plain text
+#, fuzzy
+#| msgid "Allow you to disable JavaScript completely on some websites only."
+msgid "- Allow you to disable JavaScript completely on some websites only."
 msgstr "возможности полного отключения JavaScript на избранных сайтах."
 
 #. type: Plain text

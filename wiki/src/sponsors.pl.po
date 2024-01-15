@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-15 18:18+0000\n"
-"PO-Revision-Date: 2020-12-25 13:44+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"POT-Creation-Date: 2023-12-20 18:33+0000\n"
+"PO-Revision-Date: 2023-12-25 07:21+0000\n"
+"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Content of: <div>
 msgid "[[!meta title=\"Sponsors\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Sponsorzy\"]]"
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta stylesheet=\"sponsors\" rel=\"stylesheet\" title=\"\"]]"
-msgstr ""
+msgstr "[[!meta stylesheet=\"sponsorzy\" rel=\"stylesheet\" title=\"\"]]"
 
 #. type: Content of: <p>
 msgid ""
@@ -33,6 +33,9 @@ msgid ""
 "Tails through grants, awards, or donations. Thanks to their substantial "
 "support we are able to maintain and improve Tails. Thank you!"
 msgstr ""
+"Te organizacje, firmy i osoby prywatne zapewniły wsparcie finansowe dla "
+"Tails poprzez dotacje, nagrody lub darowizny. Dzięki ich znacznemu wsparciu "
+"jesteśmy w stanie utrzymywać i ulepszać Tails. Dziękujemy!"
 
 #. type: Content of: <h1>
 msgid "Becoming a sponsor"
@@ -65,7 +68,8 @@ msgstr ""
 #. type: Content of: <div><p>
 #, fuzzy
 msgid ""
-"<a href=\"https://opentech.fund/\">[[!img otf.png link=\"no\" alt=\"\"]]</a>"
+"<a href=\"https://opentech.fund/\">[[!img otf.png link=\"no\" alt=\"Open "
+"Technology Fund\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
@@ -77,7 +81,8 @@ msgstr ""
 msgid ""
 "<a href=\"https://www.state.gov/bureaus-offices/under-secretary-for-civilian-"
 "security-democracy-and-human-rights/bureau-of-democracy-human-rights-and-"
-"labor/\">[[!img drl.png link=\"no\" alt=\"\"]]</a>"
+"labor/\">[[!img drl.png link=\"no\" alt=\"Bureau of Democracy, Human Rights, "
+"and Labor - State Department\"]]</a>"
 msgstr ""
 
 #. type: Content of: <p>
@@ -104,7 +109,7 @@ msgstr ""
 #. type: Content of: <div><p>
 #, fuzzy
 msgid ""
-"<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"\"]]</a>"
+"<a href=\"https://nymtech.net/\">[[!img nym.png link=\"no\" alt=\"Nym\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Content of: <p>
@@ -119,12 +124,8 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<a href=\"https://aspirationtech.org/\">[[!img aspiration.png link=\"no\" "
-"alt=\"\"]]</a>"
+"alt=\"Aspiration\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
-
-#. type: Attribute 'title' of: <div><p>
-msgid "Anonymous donation - 20 moneros = 2 767€"
-msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
 msgid "An individual - 2 000€"
@@ -137,7 +138,8 @@ msgstr ""
 #. type: Content of: <div><p>
 #, fuzzy
 msgid ""
-"<a href=\"https://torproject.org/\">[[!img tor.png link=\"no\" alt=\"\"]]</a>"
+"<a href=\"https://torproject.org/\">[[!img tor.png link=\"no\" "
+"alt=\"Tor\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
@@ -152,7 +154,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<a href=\"https://www.igaming.com/\">[[!img igaming.png link=\"no\" "
-"alt=\"\"]]</a>"
+"alt=\"iGaming.com\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
@@ -163,7 +165,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<a href=\"https://wordsolver.co/\">[[!img word-solver.png link=\"no\" "
-"alt=\"\"]]</a>"
+"alt=\"Word Solver\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
@@ -178,7 +180,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<a href=\"https://freiheitsfoo.de/\" target=\"_blank\">[[!img freiheitsfoo."
-"png link=\"no\" alt=\"\"]]</a>"
+"png link=\"no\" alt=\"freiheitsfoo\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
@@ -189,7 +191,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<a href=\"https://jamesseibel.com/\" target=\"_blank\">[[!img seibel.png "
-"link=\"no\" alt=\"\"]]</a>"
+"link=\"no\" alt=\"James Seibel\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
@@ -200,7 +202,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<a href=\"https://www.examsuccess.com.au/\" target=\"_blank\">[[!img exam-"
-"success.jpg link=\"no\" alt=\"\"]]</a>"
+"success.jpg link=\"no\" alt=\"Exam Success\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
@@ -211,7 +213,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<a href=\"https://www.thinkpenguin.com/\">[[!img thinkpenguin.png "
-"link=\"no\" alt=\"\"]]</a>"
+"link=\"no\" alt=\"ThinkPenguin\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Attribute 'title' of: <div><p>
@@ -222,7 +224,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<a href=\"https://www.c0mplex1.com/\">[[!img c0mplex1.png link=\"no\" "
-"alt=\"\"]]</a>"
+"alt=\"C0MPLEX1\"]]</a>"
 msgstr "<a href=\"https://torproject.org\">[[!img tor.png link=\"no\"]]</a>"
 
 #. type: Content of: <h1>
@@ -258,6 +260,10 @@ msgstr "[[!img ndi.png link=\"no\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Anonymous donation - 0.35 bitcoins = 5 694€"
+msgstr ""
+
+#. type: Attribute 'title' of: <div><p>
+msgid "Anonymous donation - 20 moneros = 2 767€"
 msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
@@ -814,75 +820,80 @@ msgstr ""
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Open Internet Tools - $25 800"
-msgstr ""
+msgstr "Open Internet Tools - $25 800"
 
 #. type: Content of: <div><p>
 #, fuzzy
 msgid "[[!img openitp.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img ndi.png link=\"no\"]]"
+msgstr "[[!img openitp.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Förderung Freier Information und Software - 5 000€"
-msgstr ""
+msgstr "Förderung Freier Information und Software - 5 000€"
 
 #. type: Content of: <div><p>
 #, fuzzy
 msgid "[[!img ffis.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img ndi.png link=\"no\"]]"
+msgstr "[[!img ffis.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Debian - $5 000"
-msgstr ""
+msgstr "Debian - $5 000"
 
 #. type: Content of: <div><p>
 #, fuzzy
 msgid "[[!img debian.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img ndi.png link=\"no\"]]"
+msgstr "[[!img debian.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $5 000"
-msgstr ""
+msgstr "Tor - $5 000"
 
 #. type: Attribute 'title' of: <div><p>
+#, fuzzy
 msgid "Mozilla - Travel to Tails hackfest"
-msgstr ""
+msgstr "Mozilla - Travel to Tails hackfest"
 
 #. type: Content of: <h2>
+#, fuzzy
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #. type: Attribute 'title' of: <div><p>
+#, fuzzy
 msgid "National Democratic Institute - $21 000"
-msgstr ""
+msgstr "National Democratic Institute - $21 000"
 
 #. type: Content of: <div><p>
-#, fuzzy
 msgid "[[!img ndi.png link=\"no\" alt=\"\"]]"
-msgstr "[[!img ndi.png link=\"no\"]]"
+msgstr "[[!img ndi.png link=\"no\" alt=\"\"]]"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $20 000"
-msgstr ""
+msgstr "Tor - $20 000"
 
 #. type: Content of: <h2>
+#, fuzzy
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #. type: Content of: <h2>
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. type: Attribute 'title' of: <div><p>
 msgid "Tor - $10 950"
-msgstr ""
+msgstr "Tor - $10 950"
 
 #. type: Content of: <h2>
+#, fuzzy
 msgid "2010"
-msgstr ""
+msgstr "2010"
 
 #. type: Attribute 'title' of: <div><p>
+#, fuzzy
 msgid "Tor - 8 500€"
-msgstr ""
+msgstr "Tor - 8 500€"
 
 #, fuzzy
 #~ msgid ""

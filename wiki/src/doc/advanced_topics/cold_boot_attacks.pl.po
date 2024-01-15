@@ -3,23 +3,26 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2017-06-29 12:53+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-12-22 19:21+0000\n"
+"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Protection against cold boot attacks\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Ochrona przed atakami typu cold boot\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -28,6 +31,10 @@ msgid ""
 "also passwords and encryption keys. The more recent the activity, the more "
 "likely it is for the data to still be in RAM."
 msgstr ""
+"Podczas korzystania z komputera wszystkie manipulowane dane są tymczasowo "
+"zapisywane w [[!wikipedia Random-access_memory desc=\"RAM\"]]: teksty, "
+"zapisane pliki, ale także hasła i klucze szyfrowania. Im nowsza aktywność, "
+"tym większe prawdopodobieństwo, że dane nadal znajdują się w pamięci RAM."
 
 #. type: Plain text
 msgid ""
@@ -36,6 +43,9 @@ msgid ""
 "access to a computer before it disappears completely could recover important "
 "data from your session."
 msgstr ""
+"Po wyłączeniu komputera dane w pamięci RAM szybko znikają, ale mogą pozostać "
+"w pamięci RAM do kilku minut po wyłączeniu. Atakujący mający dostęp do "
+"komputera przed jego całkowitym zniknięciem może odzyskać ważne dane z sesji."
 
 #. type: Plain text
 #, no-wrap
@@ -46,6 +56,12 @@ msgid ""
 "overwritten by random data when shutting down Tails. This erases all\n"
 "traces from your session on that computer.\n"
 msgstr ""
+"Można to osiągnąć za pomocą techniki zwanej <span\n"
+"class=\"definition\">[[!wikipedia Cold_boot_attack desc=\"zimny rozruch\n"
+"atak\"]] </span>. Aby zapobiec temu atakowi, dane w pamięci RAM są\n"
+"nadpisywane przez losowe dane podczas zamykania Tailsa. To wymazuje "
+"wszystkie\n"
+"ślady sesji na tym komputerze.\n"
 
 #. type: Plain text
 msgid ""
@@ -53,6 +69,10 @@ msgid ""
 "running* can recover data from RAM as well. To avoid that, learn the "
 "different methods to [[shutdown Tails|doc/first_steps/shutdown]] rapidly."
 msgstr ""
+"Co więcej, atakujący mający fizyczny dostęp do komputera *podczas gdy Tails "
+"jest uruchomiony* może również odzyskać dane z pamięci RAM. Aby tego "
+"uniknąć, poznaj różne metody szybkiego [[zamykania Tails|doc/first_steps/"
+"shutdown]]."
 
 #. type: Plain text
 msgid ""
@@ -61,3 +81,7 @@ msgid ""
 "happens directly after shutdown, the RAM empties itself in minutes, and all "
 "data disappears."
 msgstr ""
+"O ile nam wiadomo, ataki typu cold boot nie są powszechną procedurą "
+"odzyskiwania danych, ale mimo to warto być przygotowanym. Jeśli nie nastąpi "
+"atak zimnego rozruchu bezpośrednio po wyłączeniu, pamięć RAM opróżni się w "
+"ciągu kilku minut, a wszystkie dane znikną."

@@ -3,28 +3,34 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-12-22 21:22+0000\n"
+"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Content of: outside any tag (error?)
+#, fuzzy
 msgid "[[!meta robots=\"noindex\"]]"
-msgstr ""
+msgstr "[[!meta robots=\"noindex\"]]"
 
 #. type: Content of: <p>
 msgid ""
 "Most computers do not start on the Tails USB stick automatically but you can "
 "press a Boot Menu key to display a list of possible devices to start from."
 msgstr ""
+"Większość komputerów nie uruchamia się automatycznie z pamięci USB Tails, "
+"ale możesz nacisnąć klawisz Boot Menu, aby wyświetlić listę możliwych "
+"urządzeń, od których możesz zacząć."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -34,198 +40,244 @@ msgid ""
 "restart]].  Starting Tails from Windows is easier than using the Boot Menu "
 "key."
 msgstr ""
+"Jeśli system Windows 8 lub 10 jest <span class=\"linux upgrade-linux\""
+">również</span> zainstalowany na komputerze, zamiast tego możesz zapoznać "
+"się z [[instrukcjami dotyczącymi uruchamiania Tailsa z systemu Windows 8 lub "
+"10|doc/first_steps/start /pc#windows-restart]]. Uruchamianie Tailsa w "
+"systemie Windows jest łatwiejsze niż użycie klawisza Boot Menu."
 
 #. type: Content of: <p>
 msgid "The following screenshot is an example of a Boot Menu:"
-msgstr ""
+msgstr "Poniższy zrzut ekranu jest przykładem menu rozruchu:"
 
 #. type: Content of: <p>
+#, fuzzy
 msgid "[[!img install/inc/screenshots/boot_menu.png link=\"no\" alt=\"\"]]"
-msgstr ""
+msgstr "[[!img install/inc/screenshots/boot_menu.png link=\"no\" alt=\"\"]]"
 
 #. type: Content of: <p>
 msgid ""
 "This animation summarizes how to use the Boot Menu key to start on the USB "
 "stick:"
 msgstr ""
+"Ta animacja podsumowuje sposób używania klawisza Boot Menu do uruchamiania z "
+"pamięci USB:"
 
 #. type: Content of: <p>
 msgid ""
 "The following instructions explain in detail how to use the Boot Menu key to "
 "start on the USB stick:"
 msgstr ""
+"Poniższe instrukcje szczegółowo wyjaśniają, jak używać klawisza Boot Menu do "
+"uruchamiania z pamięci USB:"
 
 #. type: Content of: <ol><li><p>
 msgid "Make sure that you have installed Tails using either:"
-msgstr ""
+msgstr "Upewnij się, że zainstalowałeś Tails, używając:"
 
 #. type: Content of: <ol><li><ul><li>
+#, fuzzy
 msgid "[[<i>balenaEtcher</i> from Windows|install/windows#etcher]]"
-msgstr ""
+msgstr "[[<i>balenaEtcher</i> from Windows|install/windows#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
+#, fuzzy
 msgid "[[<i>balenaEtcher</i> from macOS|install/mac#etcher]]"
-msgstr ""
+msgstr "[[<i>balenaEtcher</i> from macOS|install/mac#etcher]]"
 
 #. type: Content of: <ol><li><ul><li>
+#, fuzzy
 msgid "[[<i>GNOME Disks</i> from Linux|install/linux#install]]"
-msgstr ""
+msgstr "[[<i>GNOME Disks</i> from Linux|install/linux#install]]"
 
 #. type: Content of: <ol><li><ul><li>
+#, fuzzy
 msgid "[[the Linux command line|install/expert#install]]"
-msgstr ""
+msgstr "[[the Linux command line|install/expert#install]]"
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer while leaving the USB stick plugged in."
-msgstr ""
+msgstr "Wyłącz komputer, pozostawiając podłączoną pamięć USB."
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer and plug in the Tails USB stick."
-msgstr ""
+msgstr "Wyłącz komputer i podłącz pamięć USB Tails."
 
 #. type: Content of: <ol><li><p>
 msgid "Shut down the computer."
-msgstr ""
+msgstr "Wyłącz komputer."
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "Plug in the other Tails USB stick that you want to <span class=\"pc-clone"
 "\">install</span> <span class=\"upgrade\">upgrade</span> from."
 msgstr ""
+"Podłącz drugą pamięć USB Tails, z której chcesz <span class=\"pc-clone\""
+">zainstalować</span> <span class=\"upgrade\">aktualizację</span>z."
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "Unplug your Tails USB stick while leaving the intermediary USB stick plugged "
 "in."
-msgstr ""
+msgstr "Odłącz pamięć USB Tails, pozostawiając pośrednią pamięć USB podłączoną."
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "Identify the possible Boot Menu keys for the computer depending on the "
 "computer manufacturer in the following list:"
 msgstr ""
+"Na poniższej liście znajdź możliwe klawisze menu rozruchu komputera w "
+"zależności od producenta komputera:"
 
 #. type: Content of: <ol><li><table><tr><th>
 msgid "Manufacturer"
-msgstr ""
+msgstr "Producent"
 
 #. type: Content of: <ol><li><table><tr><th>
 msgid "Key"
-msgstr ""
+msgstr "Klucz"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Acer"
-msgstr ""
+msgstr "Acer"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "F12, F9, F2, Esc"
-msgstr ""
+msgstr "F12, F9, F2, Esc"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Apple"
-msgstr ""
+msgstr "Apple"
 
 #. type: Content of: <ol><li><table><tr><td>
 msgid "Option"
-msgstr ""
+msgstr "Opcja"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Asus"
-msgstr ""
+msgstr "Asus"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Clevo"
-msgstr ""
+msgstr "Clevo"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "F7"
-msgstr ""
+msgstr "F7"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Dell"
-msgstr ""
+msgstr "Dell"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "F12"
-msgstr ""
+msgstr "F12"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Fujitsu"
-msgstr ""
+msgstr "Fujitsu"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "F12, Esc"
-msgstr ""
+msgstr "F12, Esc"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "HP"
-msgstr ""
+msgstr "HP"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "F9"
-msgstr ""
+msgstr "F9"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Huawei"
-msgstr ""
+msgstr "Huawei"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Intel"
-msgstr ""
+msgstr "Intel"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "F10"
-msgstr ""
+msgstr "F10"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Lenovo"
-msgstr ""
+msgstr "Lenovo"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "F12, <a href=\"https://support.lenovo.com/solutions/ht062552\">Novo</a>"
-msgstr ""
+msgstr "F12, <a href=\"https://support.lenovo.com/solutions/ht062552\">Novo</a>"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "MSI"
-msgstr ""
+msgstr "MSI"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "F11"
-msgstr ""
+msgstr "F11"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Samsung"
-msgstr ""
+msgstr "Samsung"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Esc, F12, F2"
-msgstr ""
+msgstr "Esc, F12, F2"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Sony"
-msgstr ""
+msgstr "Sony"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "F11, Esc, F10"
-msgstr ""
+msgstr "F11, Esc, F10"
 
 #. type: Content of: <ol><li><table><tr><td>
+#, fuzzy
 msgid "Toshiba"
-msgstr ""
+msgstr "Toshiba"
 
 #. type: Content of: <ol><li><table><tr><td>
 msgid "Others&hellip;"
-msgstr ""
+msgstr "Inne&hellip;"
 
 #. type: Content of: <ol><li><div><p>
 msgid ""
 "On many computers, a message is displayed very briefly when switching on "
 "that also explains how to get to the Boot Menu or edit the BIOS settings."
 msgstr ""
+"Na wielu komputerach po włączeniu pojawia się bardzo krótko komunikat "
+"wyjaśniający również, jak dostać się do menu rozruchu lub edytować "
+"ustawienia BIOS-u."
 
 #. type: Content of: <ol><li><p>
 msgid "Switch on the computer."
@@ -236,6 +288,8 @@ msgid ""
 "Immediately press several times the first possible Boot Menu key identified "
 "in step 2."
 msgstr ""
+"Natychmiast naciśnij kilka razy pierwszy możliwy klawisz Boot Menu "
+"zidentyfikowany w kroku 2."
 
 #. type: Content of: <ol><li><p>
 msgid ""
@@ -243,22 +297,25 @@ msgid ""
 "message, shut down the computer again and repeat step 3 for all the possible "
 "Boot Menu keys identified in step 2."
 msgstr ""
+"Jeśli komputer uruchamia się w innym systemie operacyjnym lub wyświetla "
+"komunikat o błędzie, wyłącz komputer ponownie i powtórz krok 3 dla "
+"wszystkich możliwych klawiszy menu rozruchu zidentyfikowanych w kroku 2."
 
 #. type: Content of: <ol><li><p>
 msgid ""
 "If a Boot Menu with a list of devices appears, select your USB stick and "
 "press <span class=\"keycap\">Enter</span>."
 msgstr ""
+"Jeśli pojawi się menu rozruchu z listą urządzeń, wybierz pamięć USB i "
+"naciśnij <span class=\"keycap\">Enter</span>."
 
 #. type: Content of: <ol><li><p>
-#, fuzzy
 msgid ""
 "If the computer starts on Tails, the Boot Loader appears and Tails starts "
 "automatically after 4 seconds."
 msgstr ""
-"Wenn der Computer Tails startet, erscheint das Menü <span class=\"guilabel"
-"\">Boot Tails</span>. Wählen Sie <span class=\"guilabel\">Live</span> aus "
-"und drücken Sie <span class=\"keycap\">Enter</span>."
+"Jeśli komputer uruchamia się w Tails, pojawia się Boot Loader i Tails "
+"uruchamia się automatycznie po 4 sekundach."
 
 #. type: Content of: <ol><li><p>
 msgid ""
@@ -266,6 +323,9 @@ msgid ""
 "GRUB') with Tails logo and 2 options: 'Tails' and 'Tails (Troubleshooting "
 "Mode)'.\"]]"
 msgstr ""
+"[[!img install/inc/screenshots/grub.png link=\"no\" alt=\"Czarny ekran („GNU "
+"GRUB”) z logo Tails i 2 opcjami: „Tails” i „Tails (tryb rozwiązywania "
+"problemów)”.] ]"
 
 #, fuzzy
 #~ msgid ""

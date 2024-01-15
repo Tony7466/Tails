@@ -111,6 +111,19 @@ class TailsInstallerCreator(object):
         self.drives = {}
         self._udisksclient = UDisks.Client.new_sync()
 
+    def retry(func):
+        def wrapper(*args, **kwargs):
+            for attempt in range(1, 11):
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    args[0].log.debug(e)
+                    args[0].log.debug("Retrying %d" % attempt)
+                    time.sleep(1)
+            raise e
+
+        return wrapper
+
     def _setup_error_log_file(self):
         temp = tempfile.NamedTemporaryFile(
             mode="a", delete=False, prefix="tails-installer-"
@@ -134,16 +147,17 @@ class TailsInstallerCreator(object):
         self.file_handler.setFormatter(formatter)
         self.log.addHandler(self.file_handler)
 
-    def try_getting_udisks_object(self, object_path: str) -> UDisks.Object:
-        for attempt in range(1, 10):
+    def try_getting_udisks_object(self, object_path: str, prop: str) -> UDisks.Object:
+        for attempt in range(1, 100):
             udisks_object = self._udisksclient.get_object(object_path)
-            if udisks_object is not None:
+            if udisks_object is not None and hasattr(udisks_object.props, prop):
                 return udisks_object
             time.sleep(0.1)
         raise Exception("Could not get udisks object %s" % object_path)
 
+    @retry
     def detect_partition(self, udi: str, callback=None, force_partitions=False):
-        partition_obj = self.try_getting_udisks_object(udi)
+        partition_obj = self.try_getting_udisks_object(udi, "block")
         data = self._get_udisks_object_data(
             partition_obj, force_partitions=force_partitions
         )
@@ -162,6 +176,7 @@ class TailsInstallerCreator(object):
         if callback is not None:
             callback()
 
+    @retry
     def _get_udisks_object_data(
         self, obj: UDisks.Object, force_partitions=False
     ) -> Optional[dict]:
@@ -308,6 +323,7 @@ class TailsInstallerCreator(object):
                     return
             return data
 
+    @retry
     def detect_supported_drives(self, callback=None, force_partitions=False):
         """Detect all supported (USB and SDIO) storage devices using UDisks."""
         mounted_parts = {}  # type: dict[str, set]
@@ -662,22 +678,6 @@ class TailsInstallerCreator(object):
         if os.path.exists(liveos_mountpoint):
             return underlying_physical_device(liveos_mountpoint)
 
-    def _storage_bus(self, dev):
-        storage_bus = None
-        try:
-            storage_bus = dev.GetProperty("storage.bus")
-        except Exception as e:
-            self.log.exception(e)
-        return storage_bus
-
-    def _block_is_volume(self, dev):
-        is_volume = False
-        try:
-            is_volume = dev.GetProperty("block.is_volume")
-        except Exception as e:
-            self.log.exception(e)
-        return is_volume
-
     def _add_device(self, dev, parent=None):
         mount = str(dev.GetProperty("volume.mount_point"))
         device = str(dev.GetProperty("block.device"))
@@ -695,6 +695,7 @@ class TailsInstallerCreator(object):
             "parent": parent,
         }
 
+    @retry
     def mount_device(self):
         """Mount our device if it is not already mounted"""
         if not self.fstype:
@@ -706,9 +707,7 @@ class TailsInstallerCreator(object):
         self.dest = self.drive["mount"]
         if not self.dest:
             self.log.debug("Mounting %s" % self.drive["udi"])
-            # XXX: this is racy and then it sometimes fails with:
-            # 'NoneType' object has no attribute 'call_mount_sync'
-            filesystem = self._get_object().props.filesystem
+            filesystem = self._get_object(prop="filesystem").props.filesystem
             mount = None
             try:
                 mount = filesystem.call_mount_sync(
@@ -763,7 +762,7 @@ class TailsInstallerCreator(object):
                 _('Unmounting "%(udi)s" on "%(device)s"')
                 % {"device": self.drive["device"], "udi": udi}
             )
-            filesystem = self._get_object(udi).props.filesystem
+            filesystem = self._get_object(udi, prop="filesystem").props.filesystem
             filesystem.call_unmount_sync(
                 arg_options=GLib.Variant("a{sv}", None), cancellable=None
             )
@@ -782,6 +781,7 @@ class TailsInstallerCreator(object):
         self.flush_buffers(silent=True)
         time.sleep(3)
 
+    @retry
     def get_system_partition(self):
         """
         Get a fresh system_partition object, otherwise _set_partition_flags sometimes fails with
@@ -789,18 +789,12 @@ class TailsInstallerCreator(object):
         such interface 'org.freedesktop.UDisks2.Partition' on object
         at path /org/freedesktop/UDisks2/block_devices/sda1'
         """
-        for attempt in range(1, 10):
-            try:
-                self.rescan_block_device(self._get_object().props.block)
-                time.sleep(1)
-                system_partition = self.first_partition(self.drive["udi"])
-            except IndexError:
-                if attempt > 5:
-                    raise
-                self.log.debug("Retrying %d" % attempt)
-            else:
-                return system_partition
+        self.rescan_block_device(self._get_object(prop="block").props.block)
+        time.sleep(1)
+        system_partition = self.first_partition(self.drive["udi"])
+        return system_partition
 
+    @retry
     def partition_device(self) -> Optional[str]:
         """
         returns a UDI representing the new partition
@@ -817,7 +811,7 @@ class TailsInstallerCreator(object):
         # to get a refreshed partition table from the kernel
         for attempt in [1, 2]:
             try:
-                self._get_object().props.block.call_format_sync(
+                self._get_object(prop="block").props.block.call_format_sync(
                     "gpt", arg_options=GLib.Variant("a{sv}", None), cancellable=None
                 )
             except GLib.Error as e:
@@ -838,7 +832,9 @@ class TailsInstallerCreator(object):
 
         self.log.debug("Creating partition")
         for attempt in [1, 2]:
-            partition_table = self._get_object().props.partition_table
+            partition_table = self._get_object(
+                prop="partition_table"
+            ).props.partition_table
             if partition_table is not None:
                 # success!
                 break
@@ -891,10 +887,11 @@ class TailsInstallerCreator(object):
         # partition, otherwise sometimes later on, when
         # switch_drive_to_system_partition is called, it calls
         # _set_drive, that fails with 'Cannot find device /dev/sda1'.
-        self.rescan_block_device(self._get_object().props.block)
+        self.rescan_block_device(self._get_object(prop="block").props.block)
 
         return partition_udi
 
+    @retry
     def is_partition_GPT(self, drive=None):
         # Check if the partition scheme is GPT
         if drive:
@@ -1069,17 +1066,18 @@ class TailsInstallerCreator(object):
             print("device", device, "self.dest", self.dest, file=sys.stderr)
             raise e
 
-    def _get_object(self, udi=None):
+    def _get_object(self, udi=None, prop="drive"):
         """Return an UDisks.Object for our drive"""
         if not udi:
             udi = self.drive["udi"]
-        return self._udisksclient.get_object(udi)
+        return self.try_getting_udisks_object(udi, prop)
 
+    @retry
     def first_partition(self, udi=None):
         """Return the UDisks2.Partition object for the first partition on the drive"""
         if not udi:
             udi = self.drive["udi"]
-        obj = self._get_object(udi)
+        obj = self._get_object(udi, prop="partition_table")
         partition_table = obj.props.partition_table
         partitions = self._udisksclient.get_partitions(partition_table)
         return partitions[0]
@@ -1159,10 +1157,11 @@ class TailsInstallerCreator(object):
             % (self._drive[:-1], heads, cylinders)
         )
 
+    @retry
     def format_device(self):
         """Format the selected partition as FAT32"""
         self.log.info(_("Formatting %(device)s as FAT32") % {"device": self._drive})
-        dev = self._get_object()
+        dev = self._get_object(prop="block")
         block = dev.props.block
         try:
             block.call_format_sync(
@@ -1202,7 +1201,9 @@ class TailsInstallerCreator(object):
         self.fstype = self.drive["fstype"] = "vfat"
         self.flush_buffers(silent=True)
         time.sleep(3)
-        self._get_object().props.block.call_rescan_sync(GLib.Variant("a{sv}", None))
+        self._get_object(prop="block").props.block.call_rescan_sync(
+            GLib.Variant("a{" "sv}", None)
+        )
 
     def get_mbr(self):
         parent = self.drive.get("parent", self._drive)
@@ -1244,8 +1245,9 @@ class TailsInstallerCreator(object):
                 _("Could not read the extracted MBR from %(path)s") % {"path": mbr_path}
             )
 
+    @retry
     def reset_mbr(self):
-        parent = parent = self.drive.get("parent", self._drive)
+        parent = self.drive.get("parent", self._drive)
         if parent is None:
             parent = self._drive
             parent_udi = self.drive["udi"]
@@ -1256,7 +1258,7 @@ class TailsInstallerCreator(object):
         if "/dev/loop" not in self.drive:
             self.log.info(_("Resetting Master Boot Record of %s") % parent)
             self.log.debug(_("Resetting Master Boot Record of %s") % parent_udi)
-            obj = self._get_object(udi=parent_udi)
+            obj = self._get_object(udi=parent_udi, prop="block")
             block = obj.props.block
             write_to_block_device(block, self.extracted_mbr_content)
         else:

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-24 19:55+0000\n"
-"PO-Revision-Date: 2020-04-23 09:36+0000\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2023-12-23 17:21+0000\n"
+"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -16,17 +16,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tails 4.2 is out\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tails 4.2 jest już dostępny\"]]\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "[[!meta date=\"Tue, 07 Jan 2020 17:00:00 +0000\"]]\n"
-msgstr ""
+msgstr "[[!meta date=\"Tue, 07 Jan 2020 17:00:00 +0000\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -166,6 +166,8 @@ msgid ""
 "For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
 "\"]]."
 msgstr ""
+"Aby uzyskać więcej informacji, przeczytaj nasz [[!tails_gitweb debian/"
+"changelog desc=\"changelog\"]]."
 
 #. type: Plain text
 #, no-wrap
@@ -183,7 +185,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "See the list of [[long-standing issues|support/known_issues]]."
-msgstr ""
+msgstr "Zobacz listę [[long-standing issues|support/known_issues]]."
 
 #. type: Title #
 #, no-wrap
@@ -193,7 +195,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "To upgrade your Tails USB stick and keep your persistent storage"
-msgstr ""
+msgstr "Aby zaktualizować pamięć USB Tails i zachować pamięć trwałą"
 
 #. type: Plain text
 msgid "- Automatic upgrades are available from 4.0, 4.1, and 4.1.1 to 4.2."
@@ -204,27 +206,30 @@ msgid ""
 "If you cannot do an automatic upgrade or if Tails fails to start after an "
 "automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
 msgstr ""
+"Jeśli nie możesz wykonać automatycznej aktualizacji lub jeśli Tails nie "
+"uruchamia się po automatycznej aktualizacji, spróbuj wykonać [[ręczna "
+"aktualizacja|doc/upgrade/#manual]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "To install Tails on a new USB stick"
-msgstr ""
+msgstr "Aby zainstalować Tails na nowej pamięci USB"
 
 #. type: Plain text
 msgid "Follow our installation instructions:"
-msgstr ""
+msgstr "Postępuj zgodnie z naszymi instrukcjami instalacji:"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Windows|install/windows]]"
-msgstr ""
+msgstr "[[Zainstaluj z Windows|install/windows]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from macOS|install/mac]]"
-msgstr ""
+msgstr "[[Zainstaluj z macOS|install/mac]]"
 
 #. type: Bullet: '  - '
 msgid "[[Install from Linux|install/linux]]"
-msgstr ""
+msgstr "[[Zainstaluj z Linuksa|zainstaluj/linux]]"
 
 #. type: Plain text
 #, no-wrap
@@ -234,7 +239,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "To download only"
-msgstr ""
+msgstr "Tylko do pobrania"
 
 #. type: Plain text
 msgid ""
@@ -244,11 +249,11 @@ msgstr ""
 
 #. type: Bullet: '  - '
 msgid "[[For USB sticks (USB image)|install/download]]"
-msgstr ""
+msgstr "[[Dla pamięci USB (obraz USB)|zainstaluj/pobierz]]"
 
 #. type: Bullet: '  - '
 msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
-msgstr ""
+msgstr "[[Dla płyt DVD i maszyn wirtualnych (obraz ISO)|install/download-iso]]"
 
 #. type: Title #
 #, no-wrap

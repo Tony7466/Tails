@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-12-22 04:29+0000\n"
 "PO-Revision-Date: 2023-12-15 00:19+0000\n"
 "Last-Translator: drebs <drebs@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,9 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Checking the file system of the Persistent Storage\"]]\n"
-msgstr ""
-"[[!meta title=\"Verificando o sistema de arquivos do Armazenamento "
-"Persistente\"]]\n"
+msgstr "[[!meta title=\"Verificando o sistema de arquivos do Armazenamento Persistente\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -44,8 +42,8 @@ msgid ""
 "administration password|doc/first_steps/welcome_screen/"
 "administration_password]]."
 msgstr ""
-"Ao iniciar o Tails, mantenha o Armazenamento Persistente bloqueado e [["
-"configure uma senha de administração|doc/first_steps/welcome_screen/"
+"Ao iniciar o Tails, mantenha o Armazenamento Persistente bloqueado e "
+"[[configure uma senha de administração|doc/first_steps/welcome_screen/"
 "administration_password]]."
 
 #. type: Plain text
@@ -79,8 +77,8 @@ msgid ""
 "In the right pane, click on the partition labeled as <span "
 "class=\"guilabel\">TailsData LUKS</span>."
 msgstr ""
-"No painel direito, clique na partição rotulada como <span class=\"guilabel\""
-">TailsData LUKS</span>."
+"No painel direito, clique na partição rotulada como <span "
+"class=\"guilabel\">TailsData LUKS</span>."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -110,10 +108,14 @@ msgstr ""
 "aparece abaixo da partição <span class=\"guilabel\">TailsData LUKS</span>."
 
 #. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "Identify the device name of your Persistent Storage. The device name "
+#| "appears below the list of volumes.  It should look like <code>/dev/mapper/"
+#| "luks-xxxxxxxx</code>."
 msgid ""
 "Identify the device name of your Persistent Storage. The device name appears "
-"below the list of volumes.  It should look like <code>/dev/mapper/luks-"
-"xxxxxxxx</code>."
+"below the list of volumes.  It should look like `/dev/mapper/luks-xxxxxxxx`."
 msgstr ""
 "Identifique o nome do dispositivo que contém o seu Armazenamento "
 "Persistente. O nome do dispositivo aparece embaixo da lista de volumes.  "
@@ -170,10 +172,8 @@ msgid ""
 "   <span class=\"keycap\">Shift+Ctrl+V</span> to paste the device name from the\n"
 "   clipboard.\n"
 msgstr ""
-"   Para fazer isso, você pode digitar <span class=\"command\">fsck -y&nbsp;</"
-"span> e pressionar\n"
-"   <span class=\"keycap\">Shift+Ctrl+V</span> para colar o nome do "
-"dispositivo a partir da\n"
+"   Para fazer isso, você pode digitar <span class=\"command\">fsck -y&nbsp;</span> e pressionar\n"
+"   <span class=\"keycap\">Shift+Ctrl+V</span> para colar o nome do dispositivo a partir da\n"
 "   área de transferência.\n"
 
 #. type: Bullet: '1. '
@@ -183,8 +183,8 @@ msgid ""
 "clean</span>."
 msgstr ""
 "Se o sistema de arquivos estiver sem erros, a última linha da saída do <span "
-"class=\"command\">fsck</span> iniciará com <span class=\"command\">TailsData:"
-" clean</span>."
+"class=\"command\">fsck</span> iniciará com <span "
+"class=\"command\">TailsData: clean</span>."
 
 #. type: Plain text
 #, no-wrap

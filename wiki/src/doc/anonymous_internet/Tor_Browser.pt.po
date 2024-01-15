@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-12-21 23:10+0000\n"
 "PO-Revision-Date: 2021-12-12 11:31+0000\n"
 "Last-Translator: Lucas710 <lucaspb710@protonmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -340,12 +340,18 @@ msgstr "[HTTPS Everywhere](https://www.eff.org/https-everywhere) é uma extensã
 msgid "To learn more about HTTPS Everywhere, you can see:"
 msgstr "Para saber mais sobre o HTTPS Everywhere, você pode ver:"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
+msgid "- The [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
 msgstr "a página do [HTTPS Everywhere](https://www.eff.org/https-everywhere)"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
+msgid "- The [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
 msgstr ""
 "as [perguntas frequentes do HTTPS Everywhere](https://www.eff.org/https-"
 "everywhere/faq/)"
@@ -494,16 +500,16 @@ msgid ""
 "<i>Tor Browser</i>:\n"
 msgstr "É por isto queo  **JavaScript está habilitado por padrão** no Tails."
 
-#. type: Bullet: '  - '
-msgid "Closes all open tabs."
+#. type: Plain text
+msgid "- Closes all open tabs."
 msgstr ""
 
-#. type: Bullet: '  - '
-msgid "Clears the session state including cache, history, and cookies."
+#. type: Plain text
+msgid "- Clears the session state including cache, history, and cookies."
 msgstr ""
 
-#. type: Bullet: '  - '
-msgid "Closes all existing web connections and creates new Tor circuits."
+#. type: Plain text
+msgid "- Closes all existing web connections and creates new Tor circuits."
 msgstr ""
 
 #. type: Plain text
@@ -559,8 +565,8 @@ msgid ""
 "(XSS) attacks."
 msgstr ""
 
-#. type: Bullet: '- '
-msgid "Allow you to disable JavaScript completely on some websites only."
+#. type: Plain text
+msgid "- Allow you to disable JavaScript completely on some websites only."
 msgstr ""
 
 #. type: Plain text
@@ -679,8 +685,8 @@ msgstr ""
 
 #, fuzzy
 #~ msgid ""
-#~ "That is why **JavaScript is enabled by default** in <span class="
-#~ "\"application\">Tor Browser</span>.\n"
+#~ "That is why **JavaScript is enabled by default** in <span "
+#~ "class=\"application\">Tor Browser</span>.\n"
 #~ msgstr ""
 #~ "É por isto queo  **JavaScript está habilitado por padrão** no Tails."
 

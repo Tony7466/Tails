@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-02-27 10:14+0000\n"
-"PO-Revision-Date: 2018-07-02 10:04+0000\n"
-"Last-Translator: Weblate Admin <admin@example.com>\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"PO-Revision-Date: 2023-12-23 21:21+0000\n"
+"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -17,16 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.10.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Why does Tails use Tor?\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Dlaczego Tails używa Tora?\"]]\n"
 
 #. type: Plain text
 msgid "Tails uses Tor because it is the best available anonymity network."
 msgstr ""
+"Tails używa Tora, ponieważ jest to najlepsza dostępna sieć zapewniająca "
+"anonimowość."
 
 #. type: Plain text
 #, no-wrap
@@ -134,16 +136,17 @@ msgstr ""
 msgid "<h1 id=\"relationship\">Relationship between Tor and Tails</h1>\n"
 msgstr ""
 
-#. type: Bullet: '  - '
-msgid "The Tor software is made by [The Tor Project](https://torproject.org/)."
+#. type: Plain text
+msgid ""
+"- The Tor software is made by [The Tor Project](https://torproject.org/)."
 msgstr ""
 
-#. type: Bullet: '  - '
-msgid "The Tor network is run by a worldwide community of volunteers."
+#. type: Plain text
+msgid "- The Tor network is run by a worldwide community of volunteers."
 msgstr ""
 
-#. type: Bullet: '  - '
-msgid "Tails is a separate project made by a different group of people."
+#. type: Plain text
+msgid "- Tails is a separate project made by a different group of people."
 msgstr ""
 
 #. type: Plain text

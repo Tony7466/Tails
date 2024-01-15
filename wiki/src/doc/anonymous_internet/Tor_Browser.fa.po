@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2023-12-21 23:10+0000\n"
 "PO-Revision-Date: 2020-10-01 15:30+0000\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/"
@@ -372,12 +372,14 @@ msgstr ""
 msgid "To learn more about HTTPS Everywhere, you can see:"
 msgstr "برای کسب اطلاعات بیشتر در مورد «همه‌جا اچ‌تی‌تی‌پی‌اس» رجوع کنید به:"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
+#. type: Plain text
+#, fuzzy
+msgid "- The [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)"
 msgstr "[تارنمای «همه‌جا اچ‌تی‌تی‌پی‌اس»](https://www.eff.org/https-everywhere)"
 
-#. type: Bullet: ' - '
-msgid "the [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
+#. type: Plain text
+#, fuzzy
+msgid "- The [HTTPS Everywhere FAQ](https://www.eff.org/https-everywhere/faq/)"
 msgstr ""
 "[سوالات متداول «همه‌جا اچ‌تی‌تی‌پی‌اس»](https://www.eff.org/https-everywhere/faq/)"
 
@@ -531,19 +533,21 @@ msgid ""
 "<i>Tor Browser</i>:\n"
 msgstr "ویژگی <span class=\"guilabel\">هویت جدید</span> *مرورگر تور*\n"
 
-#. type: Bullet: '  - '
-msgid "Closes all open tabs."
+#. type: Plain text
+#, fuzzy
+msgid "- Closes all open tabs."
 msgstr "تمام زبانه‌های باز را می‌بندد."
 
-#. type: Bullet: '  - '
+#. type: Plain text
 #, fuzzy
-msgid "Clears the session state including cache, history, and cookies."
+msgid "- Clears the session state including cache, history, and cookies."
 msgstr ""
 "تمام مسائل مربوط به نشست کاری از جمله حافظهٔ پنهان، تاریخچه و کوکی‌ها را (به "
 "جز کوکی‌های محافظت‌شده توسط ویژگی **محافظت از کوکی‌ها**) پاک می‌کند."
 
-#. type: Bullet: '  - '
-msgid "Closes all existing web connections and creates new Tor circuits."
+#. type: Plain text
+#, fuzzy
+msgid "- Closes all existing web connections and creates new Tor circuits."
 msgstr "تمام ارتباطات وب موجود را می‌بندد و مدارهای جدید تور ایجاد می‌کند."
 
 #. type: Plain text
@@ -599,8 +603,8 @@ msgid ""
 "(XSS) attacks."
 msgstr ""
 
-#. type: Bullet: '- '
-msgid "Allow you to disable JavaScript completely on some websites only."
+#. type: Plain text
+msgid "- Allow you to disable JavaScript completely on some websites only."
 msgstr ""
 
 #. type: Plain text
@@ -770,14 +774,14 @@ msgstr ""
 
 #, fuzzy
 #~| msgid ""
-#~| "That's why **JavaScript is enabled by default** in <span class="
-#~| "\"application\">Tor Browser</span>.\n"
+#~| "That's why **JavaScript is enabled by default** in <span "
+#~| "class=\"application\">Tor Browser</span>.\n"
 #~ msgid ""
-#~ "That is why **JavaScript is enabled by default** in <span class="
-#~ "\"application\">Tor Browser</span>.\n"
+#~ "That is why **JavaScript is enabled by default** in <span "
+#~ "class=\"application\">Tor Browser</span>.\n"
 #~ msgstr ""
-#~ "به همین دلیل است که **جاوااسکریپت به طور پیش‌فرض در <span class="
-#~ "\"application\">مرورگر تور</span> فعال است.**\n"
+#~ "به همین دلیل است که **جاوااسکریپت به طور پیش‌فرض در <span "
+#~ "class=\"application\">مرورگر تور</span> فعال است.**\n"
 
 #, fuzzy
 #~| msgid ""
