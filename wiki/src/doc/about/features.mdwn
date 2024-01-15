@@ -90,8 +90,6 @@ Encryption and privacy
 
 - [KeePassXC](https://keepassxc.org/) password manager ([[More...|doc/encryption_and_privacy/manage_passwords]])
 
-- [GtkHash](https://github.com/tristanheaven/gtkhash) to calculate checksums ([[More...|doc/encryption_and_privacy/checksums]])
-
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to convert images containing text into a text document
 
 - [FFmpeg](https://ffmpeg.org/) to record and convert audio and video
@@ -120,7 +118,7 @@ Additional features
 
 - Some [[contribute/design/application_isolation]] with AppArmor
 
-- To prevent cold-boot attacks and various memory forensics, Tails
+- To prevent cold boot attacks and various memory forensics, Tails
   erases most memory on shutdown and when the boot media is physically
   removed.
 

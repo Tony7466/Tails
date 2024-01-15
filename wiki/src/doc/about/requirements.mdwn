@@ -33,13 +33,13 @@ Detailed hardware requirements
 - A 64-bit [[!wikipedia x86-64]]
   compatible processor:
 
-  * [[!wikipedia IBM_PC_compatible]] but not
-    [[!wikipedia PowerPC]] nor
-    [[!wikipedia ARM_architecture desc="ARM"]].
+  * Tails works [[!wikipedia IBM_PC_compatible]] processors but not works on
+    [[!wikipedia PowerPC]] nor on
+    [[!wikipedia ARM_architecture desc="ARM"]] processors.
 
   * Tails works on some older Mac computers with an Intel processor.
 
-  * Tails does not work on newer Mac computers with an [[!wikipedia Apple_silicon#M_series desc="Apple processor"]] (M1 or M2).
+  * Tails does not work on Mac computers with an [[!wikipedia Apple_silicon#M_series desc="Apple processor"]] (M1 or M2).
 
   * Tails does not work on 32-bit computers since [[Tails 3.0|news/Tails_3.0_will_require_a_64-bit_processor]] (June 2017).
 
