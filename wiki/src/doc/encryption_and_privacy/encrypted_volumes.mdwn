@@ -53,10 +53,10 @@ the screen.
 <h2 id="formatting">Formatting the device</h2>
 
   1. Click on the [[!img lib/view-more.png alt="Drive Options" class="symbolic" link="no"]] button
-     in the titlebar and choose **Format Disk…**
+     in the titlebar and choose **Format Disk**
      to erase all the existing partitions on the device.
 
-  1. In the <span class="guilabel">Format Disk</span> dialog:
+  1. In the **Format Disk** dialog:
 
      - If you want to securely erase all data on the device, choose to
        <span class="guilabel">Overwrite existing data with zeroes</span> in the
