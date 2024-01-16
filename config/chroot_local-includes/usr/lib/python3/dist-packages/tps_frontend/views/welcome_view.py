@@ -35,8 +35,16 @@ class WelcomeView(View):
                 error_type = InvalidBootDeviceErrorType(error.get_uint32())
                 logger.warning("Error: %s", error_type)
                 if error_type == InvalidBootDeviceErrorType.TOO_MANY_PARTITIONS:
-                    logger.warning(
-                        "There is already a second partition on the USB stick.",
+                    self.device_not_supported_label.set_label(
+                        _(
+                            "Sorry, it is impossible to create a Persistent Storage "
+                            "because there is already a second partition "
+                            "on the USB stick.\n\n"
+                            "To be able to use Tails with a Persistent Storage, "
+                            "please try to follow our instructions on "
+                            '<a href="install">installing Tails on a USB stick</a> '
+                            "again.",
+                        ),
                     )
                 elif error_type == InvalidBootDeviceErrorType.UNSUPPORTED_INSTALLATION_METHOD:
                     logger.warning(
