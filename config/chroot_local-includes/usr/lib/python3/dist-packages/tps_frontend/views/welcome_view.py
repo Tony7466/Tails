@@ -18,7 +18,7 @@ class WelcomeView(View):
             "continue_button"
         )  # type: Gtk.Button
         self.device_not_supported_label = self.builder.get_object(
-            "device_not_support_label"
+            "device_not_supported_label"
         )  # type: Gtk.Box
         self.warning_icon = self.builder.get_object("warning_icon")  # type: Gtk.Image
 
