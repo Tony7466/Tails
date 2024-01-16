@@ -15,30 +15,30 @@ Erase Tails from the USB stick
 
 First, erase Tails from the USB stick:
 
-1.  Make sure that the USB stick that you want to reset is unplugged.
+1. Make sure that the USB stick that you want to reset is unplugged.
 
-1.  Open the **Start** ([[!img lib/start.png class="symbolic" link="no" alt=""]]) menu.
+1. Open the **Start** ([[!img lib/start.png class="symbolic" link="no" alt=""]]) menu.
 
-1.  Choose **Windows System**&nbsp;▸ **Command Prompt**.
+1. Choose **Windows System**&nbsp;▸ **Command Prompt**.
 
-1.  Execute the following command to start the *Diskpart* utility.
+1. Execute the following command to start the *Diskpart* utility.
 
-    <p class="command-windows">diskpart</p>
+   <p class="command-windows">diskpart</p>
 
-3.  Execute the following command to obtain information about the disks in the
-    computer.
+1. Execute the following command to obtain information about the disks in the
+   computer.
 
-    <p class="command-windows">list disk</p>
+   <p class="command-windows">list disk</p>
 
-    For example:
+   For example:
 
-        Diskpart> list disk
+       Diskpart> list disk
 
-          Disk ###  Status      Size     Free     Dyn  Gpt
-          --------  ----------  -------  -------  ---  ---
-          Disk 0    Online        80 GB      0 B
+         Disk ###  Status      Size     Free     Dyn  Gpt
+         --------  ----------  -------  -------  ---  ---
+         Disk 0    Online        80 GB      0 B
 
-4. Plug in the USB stick that you want to reset.
+1. Plug in the USB stick that you want to reset.
 
 1. Run the same command again.
 
@@ -62,13 +62,13 @@ First, erase Tails from the USB stick:
    In this example, the disk number of the USB stick is 1.
    Yours might be different.
 
-5. Execute the following command to select the USB stick. Replace
+1. Execute the following command to select the USB stick. Replace
    <span class="command-placeholder">number</span> with the disk number found
    in step 7.
 
    <p class="command-windows command-template">select disk=<span class="command-placeholder">number</span></p>
 
-6. Execute the following command to delete the partition table from the USB
+1. Execute the following command to delete the partition table from the USB
    stick.
 
    <p class="command-windows">clean</p>
@@ -78,12 +78,12 @@ Create a new partition on the USB stick
 
 Then, create a new partition on the USB stick:
 
-7. Execute the following command to create a new partition table on the USB
+1. Execute the following command to create a new partition table on the USB
    stick.
 
    <p class="command-windows">convert mbr</p>
 
-8. Execute the following command to create a new primary partition on the USB
+1. Execute the following command to create a new primary partition on the USB
    stick.
 
    <p class="command-windows">create partition primary</p>

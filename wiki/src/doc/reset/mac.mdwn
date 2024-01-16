@@ -10,40 +10,40 @@
 
 </div>
 
-1.  Make sure that the USB stick that you want to reset is unplugged.
+1. Make sure that the USB stick that you want to reset is unplugged.
 
-2.  Start <span class="application">Disk Utility</span>.
+1. Start <span class="application">Disk Utility</span>.
 
-    A list of all the storage devices on the computer appears in the left pane
-    of the window.
+   A list of all the storage devices on the computer appears in the left pane
+   of the window.
 
-3.  Plug in the USB stick that you want to reset.
+1. Plug in the USB stick that you want to reset.
 
-    A new device appears in the list of storage devices. This new device
-    corresponds to the USB stick that you plugged in. Click on it.
+   A new device appears in the list of storage devices. This new device
+   corresponds to the USB stick that you plugged in. Click on it.
 
-4.  In the list of storage devices, verify that the device corresponds
-    to the USB stick that you want to reset, its brand, its size, etc.
+1. In the list of storage devices, verify that the device corresponds
+   to the USB stick that you want to reset, its brand, its size, etc.
 
-5.  To reset the USB stick:
+1. To reset the USB stick:
 
-    a. If there is an <span class="guilabel">Erase</span> tab
-    in the right pane, click on it and then click on the <span class="bold">
-    Erase</span> button on the bottom right
+   a. If there is an <span class="guilabel">Erase</span> tab
+   in the right pane, click on it and then click on the <span class="bold">
+   Erase</span> button on the bottom right
 
-    b. If there is an <span class="bold">
-    Erase</span> button on the top middle, click on it.
+   b. If there is an <span class="bold">
+   Erase</span> button on the top middle, click on it.
 
-6.  In the confirmation dialog, click on the <span class="bold">Erase</span>
-    button to confirm.
+1. In the confirmation dialog, click on the <span class="bold">Erase</span>
+   button to confirm.
 
-1.  In the **Erase** dialog, if you want the USB stick to also work on Windows
-    and Linux, specify:
+1. In the **Erase** dialog, if you want the USB stick to also work on Windows
+   and Linux, specify:
 
-    - **Format**: **MS-DOS (FAT)**
-    - **Scheme**: **Master Boot Record**
+   - **Format**: **MS-DOS (FAT)**
+   - **Scheme**: **Master Boot Record**
 
-1.  Click **Erase**.
+1. Click **Erase**.
 
 <div class="note">
 
@@ -122,7 +122,7 @@ Format using the command line
 
    <p class="command-template">diskutil unmountDisk <span class="command-placeholder">device</span></p>
 
-2. Execute the following command to format the USB stick. Replace <span class="command-placeholder">device</span>
+1. Execute the following command to format the USB stick. Replace <span class="command-placeholder">device</span>
    with the device name found in step 6.
 
    <p class="command-template">sudo fdisk -iy <span class="command-placeholder">device</span></p>
