@@ -57,7 +57,9 @@ class PartitionNotUnlockedError(Exception):
 class InvalidBootDeviceError(Exception):
     # Assume that any problem that's not handled differently in specific subclasses
     # is the result of installing Tails in an unsupported manner.
-    error_type: InvalidBootDeviceErrorType = InvalidBootDeviceErrorType.UNSUPPORTED_INSTALLATION_METHOD
+    error_type: InvalidBootDeviceErrorType = (
+        InvalidBootDeviceErrorType.UNSUPPORTED_INSTALLATION_METHOD
+    )
 
 
 class InvalidPartitionTableTypeError(InvalidBootDeviceError):
@@ -72,6 +74,7 @@ class NoUdisksBlockObjectError(InvalidBootDeviceError):
 
 class NoUdisksPartitionObjectError(InvalidBootDeviceError):
     error_type = InvalidBootDeviceErrorType.TOO_MANY_PARTITIONS
+
     def __init__(self, device: str):
         super().__init__(f"Boot device {device} is not a partition")
 
