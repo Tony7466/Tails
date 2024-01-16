@@ -6,7 +6,7 @@ from pathlib import Path
 from gi.repository import Gio, GLib
 from logging import getLogger
 import time
-from typing import TYPE_CHECKING, List, Optional
+from typing import TYPE_CHECKING, Optional
 
 from tps import (
     executil,
@@ -116,7 +116,7 @@ class Service(DBusObject, ServiceUsingJobs):
         self.object_manager = None  # type: Optional[Gio.DBusObjectManagerServer]
         self.config_file = ConfigFile(TPS_MOUNT_POINT)
         self.bus_id = None
-        self.features = list()  # type: List[Feature]
+        self.features: list = []
         self._tps_partition = None  # type: Optional[TPSPartition]
         self._device = ""
         self.state = State.UNKNOWN
@@ -171,7 +171,7 @@ class Service(DBusObject, ServiceUsingJobs):
         self.refresh_state()
         self.refresh_features()
 
-    def GetFeatures(self) -> List[str]:
+    def GetFeatures(self) -> list[str]:
         """List the IDs of all features"""
         self.refresh_features()
         return [f.Id for f in self.features]
@@ -249,7 +249,7 @@ class Service(DBusObject, ServiceUsingJobs):
         Path(TPS_BACKUP_MOUNT_POINT).rmdir()
 
         # Close the LUKS device
-        partition._get_encrypted().call_lock_sync(
+        partition._get_encrypted().call_lock_sync(  # noqa: SLF001
             arg_options=GLib.Variant("a{sv}", {}),
         )
 
@@ -666,7 +666,7 @@ class Service(DBusObject, ServiceUsingJobs):
     def enable_feature(self, feature: Feature):
         with self.enable_features_lock:
             enabled_features = [ftr for ftr in self.features if ftr.IsEnabled]
-            self.config_file.save(enabled_features + [feature])
+            self.config_file.save([*enabled_features, feature])
             feature.refresh_state(["IsEnabled"])
             if not feature.IsEnabled:
                 msg = f"Failed to enable feature '{feature.Id}' in config file"
@@ -699,7 +699,7 @@ class Service(DBusObject, ServiceUsingJobs):
                     Id = f"CustomFeature{i}"
                     translatable_name = f"Custom Feature ({binding.dest_orig})"
                     Description = str(binding.dest_orig)
-                    Bindings = [binding]
+                    Bindings = [binding]  # noqa: RUF012
 
                 custom_feature = CustomFeature(self, is_custom=True)
                 custom_feature.register(self.connection)

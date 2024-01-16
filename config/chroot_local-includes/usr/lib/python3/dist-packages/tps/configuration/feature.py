@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 import psutil
 import time
-from typing import TYPE_CHECKING, Dict, List, Optional
+from typing import TYPE_CHECKING, Optional
 
 import tps.logging
 from tps import executil
@@ -253,7 +253,7 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
 
     @property
     @abc.abstractmethod
-    def Bindings(self) -> List[Binding]:
+    def Bindings(self) -> list[Binding]:
         """A list of bindings, which are mappings of source directories
         to target paths. The source directories will be mounted or
         symlinked to the target paths when the feature is activated."""
@@ -268,7 +268,7 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
         return str()
 
     @property
-    def conflicting_apps(self) -> List["ConflictingApp"]:
+    def conflicting_apps(self) -> list["ConflictingApp"]:
         """A list of applications which must not be currently running
         when the feature is activated/deactivated."""
         return list()
@@ -289,7 +289,7 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
         executil.execute_hooks(hooks_dir)
 
     def refresh_state(
-        self, properties: List[str] = None, emit_properties_changed_signal=False
+        self, properties: list[str] = None, emit_properties_changed_signal=False
     ):
         if not properties:
             properties = ["IsEnabled", "HasData", "IsActive"]
@@ -416,7 +416,7 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
         logger.info("All conflicting processes were terminated, continuing")
         return
 
-    def get_running_conflicting_apps(self) -> Dict[str, List[int]]:
+    def get_running_conflicting_apps(self) -> dict[str, list[int]]:
         res = dict()
         for app in self.conflicting_apps:
             # Get the list of currently running processes which belong

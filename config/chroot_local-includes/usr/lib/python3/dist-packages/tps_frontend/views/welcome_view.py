@@ -67,7 +67,10 @@ class WelcomeView(View):
 
     def on_activate_link(self, label: Gtk.Label, uri: str):
         logger.debug("Opening documentation: %s", uri)
-        subprocess.run(["tails-documentation", uri])
+        subprocess.run(
+            ["/usr/local/bin/tails-documentation", uri],  # noqa: S603
+            check=False,
+        )
         return True
 
     def on_continue_button_clicked(self, button: Gtk.Button):

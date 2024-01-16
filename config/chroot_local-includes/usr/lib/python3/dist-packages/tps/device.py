@@ -122,7 +122,7 @@ class BootDevice(object):
         try:
             dev_num = os.stat(TAILS_MOUNTPOINT).st_dev
         except FileNotFoundError as e:
-            raise InvalidBootDeviceError(e)
+            raise InvalidBootDeviceError(e) from e
 
         block = udisks.get_block_for_dev(dev_num)
         if not block or not block.get_object():
@@ -686,7 +686,8 @@ class TPSPartition(object):
 
         # Restore the LUKS header backup
         logger.info(
-            f"Unlocking LUKS header backup succeeded, " f"restoring the backup header."
+            "Unlocking LUKS header backup succeeded, "
+            "restoring the backup header."
         )
         self.restore_luks_header_backup()
 
@@ -747,7 +748,7 @@ class TPSPartition(object):
             raise
 
 
-class CleartextDevice(object):
+class CleartextDevice:
     def __init__(self, udisks_object: UDisks.Object):
         self.udisks_object = udisks_object
         self.block = self.udisks_object.get_block()
@@ -761,7 +762,7 @@ class CleartextDevice(object):
             [
                 "findmnt",
                 f"--source={self.device_path}",
-                f"--mountpoint={str(self.mount_point)}",
+                f"--mountpoint={self.mount_point!s}",
             ]
         )
         if p.returncode == 0:
