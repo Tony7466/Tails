@@ -73,8 +73,6 @@ class NoUdisksBlockObjectError(InvalidBootDeviceError):
 
 
 class NoUdisksPartitionObjectError(InvalidBootDeviceError):
-    error_type = InvalidBootDeviceErrorType.TOO_MANY_PARTITIONS
-
     def __init__(self, device: str):
         super().__init__(f"Boot device {device} is not a partition")
 
@@ -84,7 +82,10 @@ class UnsupportedInstallationMethodError(InvalidBootDeviceError):
 
 
 class TooManyPartitionsError(InvalidBootDeviceError):
-    pass
+    error_type = InvalidBootDeviceErrorType.TOO_MANY_PARTITIONS
+
+    def __init__(self, partitions: int):
+        super().__init__(f"{partitions} partitions on the boot device")
 
 
 class InvalidCleartextDeviceError(Exception):
