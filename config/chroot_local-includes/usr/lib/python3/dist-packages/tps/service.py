@@ -130,7 +130,10 @@ class Service(DBusObject, ServiceUsingJobs):
         # Check if the boot device is valid for creating a Persistent
         # Storage. We only do this once and not in refresh_state(),
         # because we don't expect the boot device to change while the
-        # service is running.
+        # service is running. Unfortunately, this implies we'll keep
+        # a potentially obsolete error state as-is even if the user
+        # corrects the partition table (e.g. deleting a manually
+        # created second partition) without restarting the service.
         try:
             self._boot_device = BootDevice.get_tails_boot_device()
         except InvalidBootDeviceError as e:
