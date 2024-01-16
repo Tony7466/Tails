@@ -37,6 +37,14 @@
 6.  In the confirmation dialog, click on the <span class="bold">Erase</span>
     button to confirm.
 
+1.  In the **Erase** dialog, if you want the USB stick to also work on Windows
+    and Linux, specify:
+
+    - **Format**: **MS-DOS (FAT)**
+    - **Scheme**: **Master Boot Record**
+
+1.  Click **Erase**.
+
 <div class="note">
 
 <p>If the erase process fails, try [[!toggle id="format"
