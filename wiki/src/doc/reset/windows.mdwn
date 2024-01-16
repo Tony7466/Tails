@@ -2,9 +2,6 @@
 
 [[!inline pages="doc/reset.intro" raw="yes" sort="age"]]
 
-Using <span class="application">Diskpart</span>
-===============================================
-
 <div class="caution">
 
 <p><b>You might overwrite any hard disk on the computer.</b></p>
