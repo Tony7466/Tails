@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2024-01-15 10:37+0000\n"
+"PO-Revision-Date: 2024-01-16 16:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "openpgp_keys/es/>\n"
@@ -288,10 +288,8 @@ msgstr ""
 "para el sistema operativo en que se utiliza."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Expiration date: same as the primary key."
 msgid "- Expiration date: same as the primary key."
-msgstr "Fecha de expiración: la misma de la llave primaria."
+msgstr "- Fecha de expiración: la misma de la llave primaria."
 
 #. type: Plain text
 #, fuzzy, no-wrap
