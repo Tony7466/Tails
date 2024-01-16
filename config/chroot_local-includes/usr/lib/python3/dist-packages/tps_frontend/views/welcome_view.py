@@ -46,7 +46,10 @@ class WelcomeView(View):
                             "again.",
                         ),
                     )
-                elif error_type == InvalidBootDeviceErrorType.UNSUPPORTED_INSTALLATION_METHOD:
+                elif (
+                    error_type
+                    == InvalidBootDeviceErrorType.UNSUPPORTED_INSTALLATION_METHOD
+                ):
                     logger.warning(
                         "You can only create a Persistent Storage on a USB stick "
                         "installed with a USB image or Tails Cloner.",
