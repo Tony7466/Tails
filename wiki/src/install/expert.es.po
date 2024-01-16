@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2024-01-12 15:38+0000\n"
+"PO-Revision-Date: 2024-01-16 16:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -253,10 +253,11 @@ msgid "Certify the Tails signing key with your own key:"
 msgstr "Certifica la clave de firma de Tails con tu propia clave:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "       gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+#, no-wrap
 msgid "   <p class=\"command\">gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F</p>\n"
-msgstr "       gpg --lsign-key A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+msgstr ""
+"   <p class=\"command\">gpg --lsign-key "
+"A490D0F4D311A4153E2BB7CADBB802B258ACD84F</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -274,10 +275,11 @@ msgid "Download the USB image:"
 msgstr "Descargar la imagen USB:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre\">wget --continue [[!inline pages=\"inc/stable_amd64_img_url\" raw=\"yes\" sort=\"age\"]]</p>\n"
+#, no-wrap
 msgid "   <p class=\"command-template\">wget --continue [[!inline pages=\"inc/stable_amd64_img_url\" raw=\"yes\" sort=\"age\"]]</p>\n"
-msgstr "   <p class=\"pre\">wget --continue [[!inline pages=\"inc/stable_amd64_img_url\" raw=\"yes\" sort=\"age\"]]</p>\n"
+msgstr ""
+"   <p class=\"command-template\">wget --continue [[!inline pages=\"inc/"
+"stable_amd64_img_url\" raw=\"yes\" sort=\"age\"]]</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -302,10 +304,11 @@ msgid "Download the signature of the USB image:"
 msgstr "Descarga la firma de la imagen USB:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre\">wget --continue [[!inline pages=\"inc/stable_amd64_img_url\" raw=\"yes\" sort=\"age\"]]</p>\n"
+#, no-wrap
 msgid "   <p class=\"command\">wget [[!inline pages=\"inc/stable_amd64_img_sig_url\" raw=\"yes\" sort=\"age\"]]</p>\n"
-msgstr "   <p class=\"pre\">wget --continue [[!inline pages=\"inc/stable_amd64_img_url\" raw=\"yes\" sort=\"age\"]]</p>\n"
+msgstr ""
+"   <p class=\"command\">wget [[!inline pages=\"inc/stable_amd64_img_sig_url\""
+" raw=\"yes\" sort=\"age\"]]</p>\n"
 
 #
 #. type: Bullet: '1. '
@@ -369,10 +372,9 @@ msgid "Execute the following command:"
 msgstr "Ejecuta el siguiente comando:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre command\">ls -1 /dev/sd?</p>\n"
+#, no-wrap
 msgid "   <p class=\"command\">ls -1 /dev/sd?</p>\n"
-msgstr "   <p class=\"pre command\">ls -1 /dev/sd?</p>\n"
+msgstr "   <p class=\"command\">ls -1 /dev/sd?</p>\n"
 
 #. type: Plain text
 #, no-wrap
