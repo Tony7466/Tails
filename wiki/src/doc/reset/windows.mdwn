@@ -14,8 +14,9 @@ Using <span class="application">Diskpart</span>
 
 <div class="caution">
 
-<strong>You might overwrite any hard disk on the computer.</strong><br/>
-If at some point you are not sure about the disk number, stop proceeding.
+<p><b>You might overwrite any hard disk on the computer.</b></p>
+
+<p>If at some point you are not sure about which device to choose, stop proceeding.</p>
 
 </div>
 
