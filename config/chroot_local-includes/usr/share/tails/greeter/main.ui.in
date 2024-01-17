@@ -559,6 +559,29 @@
                 <property name="position">3</property>
               </packing>
             </child>
+            <child>
+              <object class="GtkBox" id="box_storage_error">
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkLabel" id="label_storage_error">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Impossible to unlock the Persistent Storage.</property>
+                    <property name="xalign">0</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">4</property>
+              </packing>
+            </child>
           </object>
           <packing>
             <property name="expand">True</property>

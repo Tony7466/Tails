@@ -26,10 +26,13 @@ _ = gettext.gettext
 from gi.repository import Gio, GLib
 
 import tps.dbus.errors as tps_errors
+from tps import InvalidBootDeviceErrorType
 
 import tailsgreeter  # NOQA: E402
 from tailsgreeter import config  # NOQA: E402
 import tailsgreeter.errors  # NOQA: E402
+
+from typing import Optional
 
 
 BUS_NAME = "org.boum.tails.PersistentStorage"
@@ -40,7 +43,7 @@ INTERFACE_NAME = "org.boum.tails.PersistentStorage"
 class PersistentStorageSettings(object):
     """Controller for settings related to Persistent Storage"""
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.failed_with_unexpected_error = False
         self.cleartext_name = "TailsData_unlocked"
         self.cleartext_device = "/dev/mapper/" + self.cleartext_name
@@ -59,7 +62,12 @@ class PersistentStorageSettings(object):
         self.device = device_variant.get_string() if device_variant else "/"
         self.is_unlocked = False
         self.is_created = self.service_proxy.get_cached_property("IsCreated")
+        self.can_unlock = self.service_proxy.get_cached_property("CanUnlock")
         self.is_upgraded = self.service_proxy.get_cached_property("IsUpgraded")
+        self.error: GLib.Variant = self.service_proxy.get_cached_property("Error")
+        self.error_type: Optional[InvalidBootDeviceErrorType] = None
+        if self.error:
+            self.error_type = InvalidBootDeviceErrorType(self.error.get_uint32())
         self.service_proxy.connect("g-properties-changed", self.on_properties_changed)
 
     def on_properties_changed(
@@ -72,6 +80,12 @@ class PersistentStorageSettings(object):
         logging.debug("changed properties: %s", changed_properties)
         keys = set(changed_properties.keys())
 
+        if "CanUnlock" in keys:
+            self.can_unlock = changed_properties["CanUnlock"]
+        if "Error" in keys:
+            self.error = changed_properties["Error"]
+            if self.error:
+                self.error_type = InvalidBootDeviceErrorType(self.error.get_uint32())
         if "IsCreated" in keys:
             self.is_created = changed_properties["IsCreated"]
         if "IsUpgraded" in keys:

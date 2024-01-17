@@ -373,6 +373,7 @@ class GreeterMainWindow(Gtk.Window, TranslatableWindow):
         # unlocked
         if (
             self.persistence_setting.is_created
+            and self.persistence_setting.can_unlock
             and not self.persistence_setting.is_unlocked
             and not self.persistence_setting.failed_with_unexpected_error
         ):
