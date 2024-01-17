@@ -33,7 +33,6 @@ Handy.init()
 logger = getLogger(__name__)
 
 
-
 @Gtk.Template.from_file(WINDOW_UI_FILE)
 class Window(Gtk.ApplicationWindow):
     __gtype_name__ = "Window"
@@ -231,13 +230,16 @@ class Window(Gtk.ApplicationWindow):
 
     @Gtk.Template.Callback()
     def on_restart_button_clicked(self, button: Gtk.Button):
-        subprocess.run(["sudo", "-n", "/sbin/reboot"])
+        subprocess.run(
+            ["/usr/bin/sudo", "-n", "/sbin/reboot"],  # noqa: S603
+            check=True,
+        )
 
     def on_create_call_finished(self, proxy: GObject.Object, res: Gio.AsyncResult):
         try:
             proxy.call_finish(res)
         except GLib.Error as e:
-            logger.error(f"failed to create Persistent Storage: {e.message}")
+            logger.exception("failed to create Persistent Storage: %s", e.message)
 
             if NotEnoughMemoryError.is_instance(e):
                 # The system doesn't have enough memory to create the
@@ -261,7 +263,7 @@ class Window(Gtk.ApplicationWindow):
         try:
             proxy.call_finish(res)
         except GLib.Error as e:
-            logger.error(f"failed to delete Persistent Storage: {e.message}")
+            logger.exception("failed to delete Persistent Storage: %s", e.message)
 
             if TargetIsBusyError.is_instance(e):
                 # Some process is still accessing the target. This is
@@ -278,7 +280,12 @@ class Window(Gtk.ApplicationWindow):
                 self.display_error(_("Error deleting Persistent Storage"), e.message)
         self.refresh_view()
 
-    def display_error(self, title: str, msg: str, with_send_report_button: Optional[bool] = None):
+    def display_error(
+        self,
+        title: str,
+        msg: str,
+        with_send_report_button: Optional[bool] = None,
+    ):
         if with_send_report_button is None:
             # Don't show the send report button if the failure view is the
             # active view, because we already show a send report button
