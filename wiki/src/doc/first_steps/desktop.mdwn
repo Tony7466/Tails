@@ -247,14 +247,14 @@ shortcuts allow you to launch the most frequently used applications:
 The <span class="guimenu">Places</span> menu provides direct access to different
 folders and storage media.
 
-[[!img places.png link="no" alt=""]]
+[[!img places.png link="no" class="screenshot" alt=""]]
 
 <h2 id="tor-status">Tor status and circuits</h2>
 
 The Tor status icon ([[!img lib/symbolic/tor-disconnected.png alt="Tor status menu" link="no" class="symbolic"]] or [[!img lib/symbolic/tor-connected.png alt="Tor status menu" link="no" class="symbolic"]]) provides a shortcut to *Onion
 Circuits*, which allows you to manage the Tor circuits being used by Tails.
 
-[[!img tor-status.png link="no" alt=""]]
+[[!img tor_status.png link="no" class="screenshot" alt=""]]
 
 [[See our documentation on *Onion Circuits*.|anonymous_internet/tor/circuits]]
 
@@ -272,7 +272,7 @@ screen keyboard, large text display, and other assistive technologies.
 The keyboard layout menu allow you to change the keyboard layout and
 input method for non-Latin scripts.
 
-[[!img keyboard.png link="no" alt=""]]
+[[!img keyboard.png link="no" class="screenshot" alt=""]]
 
 <h2 id="system">System menu</h2>
 
