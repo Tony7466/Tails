@@ -587,6 +587,28 @@
                     <property name="position">0</property>
                   </packing>
                 </child>
+                <child>
+                  <object class="GtkLinkButton" id="linkbutton_storage_readonly_help">
+                    <property name="visible">True</property>
+                    <property name="can-focus">True</property>
+                    <property name="receives-default">True</property>
+                    <property name="relief">none</property>
+                    <property name="uri">doc/persistent_storage/use.en.html#read-only</property>
+                    <signal name="activate-link" handler="cb_linkbutton_help_activate" swapped="no"/>
+                    <child>
+                      <object class="GtkImage" id="image_storage_readonly_help">
+                        <property name="visible">True</property>
+                        <property name="can-focus">False</property>
+                        <property name="icon-name">tails-help</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
               </object>
               <packing>
                 <property name="expand">False</property>

@@ -48,6 +48,9 @@ class PersistentStorage:
         self.entry_storage_passphrase = builder.get_object("entry_storage_passphrase")
         self.image_storage_state = builder.get_object("image_storage_state")
         self.label_storage_error = builder.get_object("label_storage_error")
+        self.linkbutton_storage_readonly_help = builder.get_object(
+            "linkbutton_storage_readonly_help",
+        )
         self.infobar_persistence = builder.get_object("infobar_persistence")
         self.label_infobar_persistence = builder.get_object("label_infobar_persistence")
         self.spinner_storage_unlock = builder.get_object("spinner_storage_unlock")
@@ -76,6 +79,7 @@ class PersistentStorage:
             self.image_storage_state.set_visible(True)
             self.entry_storage_passphrase.set_visible(can_unlock)
             self.spinner_storage_unlock.set_visible(False)
+            self.linkbutton_storage_readonly_help.set_visible(False)
             if not can_unlock and (
                 self.persistence_setting.error_type
                 == InvalidBootDeviceErrorType.READ_ONLY
@@ -86,6 +90,7 @@ class PersistentStorage:
                         "because the USB stick is read-only.",
                     ),
                 )
+                self.linkbutton_storage_readonly_help.set_visible(True)
             self.box_storage_error.set_visible(not can_unlock)
 
     @staticmethod
