@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2024-01-17 17:30+0000\n"
-"Last-Translator: cacukin <cacukin@cryptolab.net>\n"
+"PO-Revision-Date: 2024-01-17 17:33+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "bug_reporting/es/>\n"
 "Language: es\n"
@@ -444,37 +444,27 @@ msgid "In Tails, start *WhisperBack*."
 msgstr "En Tails, inicia *WhisperBack*."
 
 #. type: Bullet: '2. '
-#, fuzzy
-#| msgid "In the bug report window, expand \"technical details to include\""
 msgid "In the bug report window, expand \"technical details to include\"."
 msgstr ""
-"En la interfaz del reporte de error, expande \"detalles técnicos a incluir\""
+"En la interfaz del informe de error, expande \"detalles técnicos a incluir\"."
 
 #. type: Bullet: '3. '
-#, fuzzy
-#| msgid "Copy everything in the \"debugging info\" box"
 msgid "Copy everything in the \"debugging info\" box."
 msgstr ""
 "Copia todo lo que hay en el cuadro de \"información de depuración "
-"('debugging')\""
+"('debugging')\"."
 
 #. type: Bullet: '4. '
-#, fuzzy
-#| msgid "Paste it to another document (using the *Text Editor* for instance)"
 msgid "Paste it to another document (using the *Text Editor* for instance)."
-msgstr "Pégalo en otro documento (por ejemplo en el *editor de texto*)"
+msgstr "Pégalo en otro documento (por ejemplo en el *editor de texto*)."
 
 #. type: Bullet: '5. '
-#, fuzzy
-#| msgid "Save the document on a USB stick"
 msgid "Save the document on a USB stick."
-msgstr "Guarda el documento en una memoria USB"
+msgstr "Guarda el documento en una memoria USB."
 
 #. type: Bullet: '6. '
-#, fuzzy
-#| msgid "Boot into a system with Internet connection and send your report"
 msgid "Boot into a system with Internet connection and send your report."
-msgstr "Inicia Tails en un sistema con conexión a Internet y envía tu reporte"
+msgstr "Inicia Tails en un sistema con conexión a Internet y envía tu reporte."
 
 #. type: Plain text
 #, no-wrap
