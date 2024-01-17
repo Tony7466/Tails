@@ -1,8 +1,6 @@
 import logging
 import gi
-import glob
 import os
-import sh
 import threading
 from typing import TYPE_CHECKING, Callable
 
