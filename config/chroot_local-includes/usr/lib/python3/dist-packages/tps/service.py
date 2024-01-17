@@ -99,6 +99,7 @@ class Service(DBusObject, ServiceUsingJobs):
                 <property name="IsCreated" type="b" access="read"/>
                 <property name="IsUnlocked" type="b" access="read"/>
                 <property name="IsUpgraded" type="b" access="read"/>
+                <property name="CanDelete" type="b" access="read"/>
                 <property name="CanUnlock" type="b" access="read"/>
                 <property name="BootDeviceIsSupported" type="b" access="read"/>
                 <property name="Device" type="s" access="read"/>
@@ -122,6 +123,7 @@ class Service(DBusObject, ServiceUsingJobs):
         self.state = State.UNKNOWN
         self._error: int = 0
         self._unlocked = False
+        self._can_delete = False
         self._can_unlock = False
         self._upgraded = False
         self._created = False
@@ -604,6 +606,25 @@ class Service(DBusObject, ServiceUsingJobs):
         )
 
     @property
+    def CanDelete(self) -> bool:
+        """Whether the Persistent Storage can be deleted"""
+        self.refresh_state()
+        return self._can_delete
+
+    @CanDelete.setter
+    def CanDelete(self, value: bool):
+        if self._can_delete == value:
+            # Nothing to do
+            return
+        self._can_delete = value
+        changed_properties = {"CanDelete": GLib.Variant("b", value)}
+        self.emit_properties_changed_signal(
+            self.connection,
+            DBUS_SERVICE_INTERFACE,
+            changed_properties,
+        )
+
+    @property
     def BootDeviceIsSupported(self) -> bool:
         return bool(self._boot_device)
 
@@ -788,9 +809,11 @@ class Service(DBusObject, ServiceUsingJobs):
             self.IsUnlocked = False
             if self._boot_device.block.props.read_only:
                 logger.error("Boot device is read-only")
+                self.CanDelete = False
                 self.CanUnlock = False
                 self.Error = InvalidBootDeviceErrorType.READ_ONLY
             else:
+                self.CanDelete = True
                 self.CanUnlock = True
             return
 
