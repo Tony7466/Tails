@@ -9,7 +9,7 @@ from gi.repository import Handy
 
 Handy.init()
 
-from tps import State, IN_PROGRESS_STATES
+from tps import InvalidBootDeviceErrorType, State, IN_PROGRESS_STATES
 from tps.dbus.errors import TargetIsBusyError, NotEnoughMemoryError, DBusError
 
 from tps_frontend import _, WINDOW_UI_FILE
@@ -136,7 +136,34 @@ class Window(Gtk.ApplicationWindow):
 
     @Gtk.Template.Callback()
     def on_delete_button_clicked(self, button: Gtk.Button):
-        if self.active_view == self.locked_view:
+        can_delete = True
+        if self.active_view != self.locked_view:
+            can_delete = False
+            explanation = _(
+                "To delete the Persistent Storage, restart Tails without "
+                "unlocking the Persistent Storage and open "
+                "the Persistent Storage settings again.",
+            )
+        elif not self.service_proxy.get_cached_property("CanDelete"):
+            can_delete = False
+            error: GLib.Variant = self.service_proxy.get_cached_property("Error")
+            if (
+                error
+                and InvalidBootDeviceErrorType(error.get_uint32())
+                == InvalidBootDeviceErrorType.READ_ONLY
+            ):
+                explanation = _(
+                    "Impossible to delete the Persistent Storage because "
+                    "the USB stick is read-only.\n\n"
+                    "To delete the Persistent Storage, turn off the read-only "
+                    "protection of the USB stick, restart Tails without unlocking "
+                    "the Persistent Storage "
+                    "and open the Persistent Storage settings again.",
+                )
+            else:
+                explanation = _("Impossible to delete the Persistent Storage")
+
+        if can_delete:
             dialog = Gtk.MessageDialog(
                 self,
                 Gtk.DialogFlags.DESTROY_WITH_PARENT,
@@ -179,13 +206,7 @@ class Window(Gtk.ApplicationWindow):
                 Gtk.ButtonsType.NONE,
                 _("Delete Persistent Storage"),
             )
-            dialog.format_secondary_text(
-                _(
-                    "To delete the Persistent Storage, restart Tails without "
-                    "unlocking the Persistent Storage and open "
-                    "the Persistent Storage settings again."
-                )
-            )
+            dialog.format_secondary_text(explanation)
             dialog.add_button(_("_OK"), Gtk.ResponseType.OK)
             dialog.set_default_response(Gtk.ResponseType.OK)
             dialog.run()
