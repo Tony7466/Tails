@@ -10,6 +10,7 @@ from typing import TYPE_CHECKING, Optional
 
 from tps import (
     executil,
+    InvalidBootDeviceErrorType,
     SYSTEM_PARTITION_MOUNT_POINT,
     LUKS_HEADER_BACKUP_PATH,
 )
@@ -29,7 +30,6 @@ from tps.device import (
     BootDevice,
     TPSPartition,
     InvalidBootDeviceError,
-    TooManyPartitionsError,
 )
 from tps.job import ServiceUsingJobs
 from tps import (
@@ -753,7 +753,7 @@ class Service(DBusObject, ServiceUsingJobs):
             if num_partitions > 1:
                 logger.error("Too many partitions: %i", num_partitions)
                 self._boot_device = None
-                self.Error = TooManyPartitionsError.error_type
+                self.Error = InvalidBootDeviceErrorType.TOO_MANY_PARTITIONS
 
             return
 

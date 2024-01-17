@@ -81,13 +81,6 @@ class UnsupportedInstallationMethodError(InvalidBootDeviceError):
     pass
 
 
-class TooManyPartitionsError(InvalidBootDeviceError):
-    error_type = InvalidBootDeviceErrorType.TOO_MANY_PARTITIONS
-
-    def __init__(self, partitions: int):
-        super().__init__(f"{partitions} partitions on the boot device")
-
-
 class InvalidCleartextDeviceError(Exception):
     pass
 
