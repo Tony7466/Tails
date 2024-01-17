@@ -10,7 +10,6 @@ from typing import TYPE_CHECKING, Optional
 
 from tps import (
     executil,
-    InvalidBootDeviceErrorType,
     SYSTEM_PARTITION_MOUNT_POINT,
     LUKS_HEADER_BACKUP_PATH,
 )
