@@ -751,7 +751,7 @@ class Service(DBusObject, ServiceUsingJobs):
 
             num_partitions = len(self._boot_device.partition_table.props.partitions)
             if num_partitions > 1:
-                logger.warning("Too many partitions: %i", num_partitions)
+                logger.error("Too many partitions: %i", num_partitions)
                 self._boot_device = None
                 self.Error = TooManyPartitionsError.error_type
 
