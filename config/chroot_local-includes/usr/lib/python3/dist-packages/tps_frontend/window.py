@@ -1,36 +1,37 @@
-from logging import getLogger
 import subprocess
-from gi.repository import Gio, GLib, GObject, Gtk
+from logging import getLogger
+
+# Only required for type hints
+from typing import TYPE_CHECKING, Optional
 
 import gi
+from gi.repository import Gio, GLib, GObject, Gtk
+from tps import IN_PROGRESS_STATES, InvalidBootDeviceErrorType, State
+from tps.dbus.errors import DBusError, NotEnoughMemoryError, TargetIsBusyError
 
-gi.require_version("Handy", "1")
-from gi.repository import Handy
-
-Handy.init()
-
-from tps import InvalidBootDeviceErrorType, State, IN_PROGRESS_STATES
-from tps.dbus.errors import TargetIsBusyError, NotEnoughMemoryError, DBusError
-
-from tps_frontend import _, WINDOW_UI_FILE
+from tps_frontend import WINDOW_UI_FILE, _
 from tps_frontend.change_passphrase_dialog import ChangePassphraseDialog
 from tps_frontend.views.creation_view import CreationView
 from tps_frontend.views.deleted_view import DeletedView
-from tps_frontend.views.spinner_view import SpinnerView
 from tps_frontend.views.fail_view import FailView
 from tps_frontend.views.features_view import FeaturesView
-from tps_frontend.views.passphrase_view import PassphraseView
 from tps_frontend.views.locked_view import LockedView
+from tps_frontend.views.passphrase_view import PassphraseView
+from tps_frontend.views.spinner_view import SpinnerView
 from tps_frontend.views.welcome_view import WelcomeView
-
-# Only required for type hints
-from typing import TYPE_CHECKING, List
 
 if TYPE_CHECKING:
     from gi.repository import Gdk
+
     from tps_frontend.application import Application
 
+gi.require_version("Handy", "1")
+from gi.repository import Handy  # noqa: E402
+
+Handy.init()
+
 logger = getLogger(__name__)
+
 
 
 @Gtk.Template.from_file(WINDOW_UI_FILE)
@@ -114,9 +115,9 @@ class Window(Gtk.ApplicationWindow):
         self,
         proxy: Gio.DBusProxy,
         changed_properties: GLib.Variant,
-        invalidated_properties: List[str],
+        invalidated_properties: list[str],
     ):
-        if not any(p for p in changed_properties.keys() if p == "State"):
+        if not any(p for p in changed_properties if p == "State"):
             return
 
         variant = changed_properties.lookup_value("State")
@@ -174,8 +175,8 @@ class Window(Gtk.ApplicationWindow):
             dialog.format_secondary_text(
                 _(
                     "Are you sure that you want to delete your Persistent Storage? "
-                    "This action cannot be undone."
-                )
+                    "This action cannot be undone.",
+                ),
             )
             dialog.add_button(_("_Cancel"), Gtk.ResponseType.CANCEL)
             dialog.add_button(_("_Delete Persistent Storage"), Gtk.ResponseType.OK)
@@ -188,7 +189,7 @@ class Window(Gtk.ApplicationWindow):
             if result == Gtk.ResponseType.OK:
                 self.spinner_view.show()
                 self.spinner_view.status_label.set_label(
-                    _("Deleting your Persistent Storage...")
+                    _("Deleting your Persistent Storage..."),
                 )
                 self.service_proxy.call(
                     method_name="Delete",
@@ -217,7 +218,7 @@ class Window(Gtk.ApplicationWindow):
         if self.state in IN_PROGRESS_STATES:
             msg = _(
                 "Sorry, you can't close this app until the "
-                "ongoing operation has completed."
+                "ongoing operation has completed.",
             )
             self.display_error(_("Please wait"), msg, False)
             return True
@@ -277,7 +278,7 @@ class Window(Gtk.ApplicationWindow):
                 self.display_error(_("Error deleting Persistent Storage"), e.message)
         self.refresh_view()
 
-    def display_error(self, title: str, msg: str, with_send_report_button: bool = None):
+    def display_error(self, title: str, msg: str, with_send_report_button: Optional[bool] = None):
         if with_send_report_button is None:
             # Don't show the send report button if the failure view is the
             # active view, because we already show a send report button
