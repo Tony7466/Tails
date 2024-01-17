@@ -924,8 +924,6 @@ span.keycap { font-weight: bold; }
 
 span.menuchoice { font-weight: bold; }
 
-span.replaceable { font-style: italic; }
-
 div.bug, div.caution, div.next, div.note, div.tip, div.trophy, div.attack {
   background-color: var(--background-yellow);
   border: 1px solid var(--light-gray);
@@ -978,7 +976,7 @@ div.bug > *:only-child, div.caution > *:only-child, div.next > *:only-child, div
 
 /* Code, preformatted text, and command lines */
 
-pre, code, .code, .command, .command-root, .command-template, .command-placeholder {
+pre, code, .code, .command, .command-root, .command-windows, .command-template, .command-placeholder {
   font-family: "Source Code Pro Regular", "Courier", monospace;
   font-size: 14px;
   color: var(--dark-gray);
@@ -987,11 +985,11 @@ pre, code, .code, .command, .command-root, .command-template, .command-placehold
   border-radius: 5px;
 }
 
-code, span.code, span.command, span.command-root, span.command-template, span.command-placeholder {
+code, span.code, span.command, span.command-root, span.command-windows, span.command-template, span.command-placeholder {
   padding: 0 2px;
 }
 
-pre, p.code, p.command, p.command-root, p.command-template, p.command-placeholder {
+pre, p.code, p.command, p.command-root, p.command-windows, p.command-template, p.command-placeholder {
   margin: 1.5em 1em 1.5em 1.5em;
   padding: 2px 5px;
   max-width: none;
@@ -1005,11 +1003,15 @@ pre, p.code, p.command, p.command-root, p.command-template, p.command-placeholde
   content: '# ' !important;
 }
 
+.command-windows::before {
+  content: '> ' !important;
+}
+
 .command-template, .command-placeholder {
   user-select: none;
 }
 
-.nowrap, .command, .command-template, .command-root {
+.nowrap, .command, .command-template, .command-root, .command-windows {
   white-space: nowrap;
 }
 
@@ -1024,7 +1026,7 @@ pre, p.code, p.command, p.command-root, p.command-template, p.command-placeholde
   padding-right: 4px !important;
 }
 
-code .command-placeholder, .code .command-placeholder, .command .command-placeholder, .command-root .command-placeholder, .command-template .command-placeholder,
+code .command-placeholder, .code .command-placeholder, .command .command-placeholder, .command-root .command-placeholder, .command-windows .command-placeholder, .command-template .command-placeholder,
 pre code {
   border: none;
   padding: 0 2px 0 0 !important;
