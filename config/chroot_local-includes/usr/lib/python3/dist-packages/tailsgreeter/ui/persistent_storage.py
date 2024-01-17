@@ -21,7 +21,7 @@ if TYPE_CHECKING:
     from tailsgreeter.settings.persistence import PersistentStorageSettings
 
 
-class PersistentStorage(object):
+class PersistentStorage:
     def __init__(
         self,
         persistence_setting: "PersistentStorageSettings",

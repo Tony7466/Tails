@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-/
 #
 # Copyright 2015-2016 Tails developers <tails@boum.org>
 #
@@ -352,7 +351,7 @@ class GreeterMainWindow(Gtk.Window, TranslatableWindow):
         # like gtk's g_signal_handler_find() this could be dealt with
         # in a less messy way by just removing the default handler.
         uri = "file:///usr/share/doc/tails/website/" + page
-        logging.debug("Opening help window for {}".format(uri))
+        logging.debug(f"Opening help window for {uri}")
         helpwindow = GreeterHelpWindow(uri)
         helpwindow.show()
 

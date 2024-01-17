@@ -40,7 +40,7 @@ OBJECT_PATH = "/org/boum/tails/PersistentStorage"
 INTERFACE_NAME = "org.boum.tails.PersistentStorage"
 
 
-class PersistentStorageSettings(object):
+class PersistentStorageSettings:
     """Controller for settings related to Persistent Storage"""
 
     def __init__(self) -> None:
@@ -102,7 +102,7 @@ class PersistentStorageSettings(object):
         logging.debug("Unlocking Persistent Storage")
         if os.path.exists(self.cleartext_device):
             logging.warning(
-                f"Cleartext device {self.cleartext_device} already" f"exists"
+                f"Cleartext device {self.cleartext_device} alreadyexists"
             )
             self.is_unlocked = True
             return
@@ -118,7 +118,7 @@ class PersistentStorageSettings(object):
             )
         except GLib.GError as err:
             if tps_errors.IncorrectPassphraseError.is_instance(err):
-                raise tailsgreeter.errors.WrongPassphraseError() from err
+                raise tailsgreeter.errors.WrongPassphraseError from err
 
             self.failed_with_unexpected_error = True
             raise tailsgreeter.errors.PersistentStorageError(
@@ -144,7 +144,7 @@ class PersistentStorageSettings(object):
             )
         except GLib.GError as err:
             if tps_errors.IncorrectPassphraseError.is_instance(err):
-                raise tailsgreeter.errors.WrongPassphraseError() from err
+                raise tailsgreeter.errors.WrongPassphraseError from err
             self.failed_with_unexpected_error = True
             raise tailsgreeter.errors.PersistentStorageError(
                 _("Error upgrading Persistent Storage: {}").format(err)
