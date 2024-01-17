@@ -165,9 +165,7 @@ class TPSPartition:
         self.device_path = self.block.props.device
         self.partition = self.udisks_object.get_partition()  # type: UDisks.Partition
         if not self.partition:
-            raise InvalidPartitionError(
-                f"Device {self.device_path} is not a partition"
-            )
+            raise InvalidPartitionError(f"Device {self.device_path} is not a partition")
 
     def get_cleartext_device(self) -> "CleartextDevice":
         """Get the cleartext device of Persistent Storage encrypted
@@ -193,9 +191,7 @@ class TPSPartition:
         """Get the UDisks.Encrypted interface of the partition"""
         encrypted = self.udisks_object.get_encrypted()
         if not encrypted:
-            raise InvalidPartitionError(
-                f"Device {self.device_path} is not encrypted"
-            )
+            raise InvalidPartitionError(f"Device {self.device_path} is not encrypted")
         return encrypted
 
     def is_unlocked(self) -> bool:
@@ -683,8 +679,7 @@ class TPSPartition:
 
         # Restore the LUKS header backup
         logger.info(
-            "Unlocking LUKS header backup succeeded, "
-            "restoring the backup header."
+            "Unlocking LUKS header backup succeeded, restoring the backup header."
         )
         self.restore_luks_header_backup()
 

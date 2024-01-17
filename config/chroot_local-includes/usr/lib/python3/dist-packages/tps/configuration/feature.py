@@ -289,7 +289,9 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
         executil.execute_hooks(hooks_dir)
 
     def refresh_state(
-        self, properties: Optional[list[str]] = None, emit_properties_changed_signal=False
+        self,
+        properties: Optional[list[str]] = None,
+        emit_properties_changed_signal=False,
     ):
         if not properties:
             properties = ["IsEnabled", "HasData", "IsActive"]
