@@ -258,10 +258,10 @@ Circuits*, which allows you to manage the Tor circuits being used by Tails.
 
 [[See our documentation on *Onion Circuits*.|anonymous_internet/tor/circuits]]
 
-<h2 id="accessibility">Universal access</h2>
+<h2 id="accessibility">Accessibility</h2>
 
-The universal access menu allows you to activate the screen reader,
-screen keyboard, large text display, and other accessibility technologies.
+The accessibility menu allows you to activate the screen reader,
+screen keyboard, large text display, and other assistive technologies.
 
 [[!img accessibility.png link="no" alt=""]]
 

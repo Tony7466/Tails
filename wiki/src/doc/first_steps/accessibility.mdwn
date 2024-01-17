@@ -6,20 +6,21 @@ assistive devices.
 
 [[!toc]]
 
-Universal access menu
-=====================
+Accessibility menu
+==================
 
-You can activate most of these technologies from the universal access menu (the
-[[!img lib/preferences-desktop-accessibility.png alt="Universal Access" class="symbolic" link="no"]]
-icon which looks like a person) in the top bar:
+You can activate several assistive technologies, like a screen reader or large
+text, from the accessibility menu in the top bar, the
+[[!img lib/accessibility.png alt="accessiblity menu" class="symbolic" link="no"]]
+icon that looks like a person.
 
-[[!img desktop/accessibility.png link="no"
-alt="Universal Access menu with the following options (disabled
-by default): High Contrast, Zoom, Large Text, Screen Reader, Screen Keyboard,
+[[!img desktop/accessibility.png link="no" class="screenshot"
+alt="Accessibility menu with the following options, all disabled
+by default: High Contrast, Zoom, Large Text, Screen Reader, Screen Keyboard,
 Visual Alters, Sticky Keys, Slow Keys, Bounce Keys, and Mouse Keys"]]
 
-These technologies are documented in more details in the
-[GNOME universal access documentation](https://help.gnome.org/users/gnome-help/stable/a11y.html).
+These technologies are documented in more details in
+[GNOME Help: Accessibility](https://help.gnome.org/users/gnome-help/stable/a11y.html).
 
 Keyboard shortcuts
 ==================
@@ -29,13 +30,12 @@ Keyboard shortcuts
 <tr><td>Turn zoom on or off</td><td>Alt+Super+8</td></tr>
 </table>
 
-To access the universal access menu using the keyboard:
+To access the accessibility menu using the keyboard:
 
 1. Press <span class="keycap">Ctrl+Alt+Tab</span> to move the keyboard
    focus to the top bar.
 
-1. Use the arrow keys on the keyboard to select the universal access
-   menu.
+1. Use the arrow keys on the keyboard to select the accessibility menu.
 
 1. Press <span class="bold">Enter</span> to open the menu.
 
