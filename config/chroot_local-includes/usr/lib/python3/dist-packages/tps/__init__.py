@@ -55,6 +55,7 @@ class InvalidBootDeviceErrorType(IntEnum):
     UNKNOWN = 0
     UNSUPPORTED_INSTALLATION_METHOD = 1
     TOO_MANY_PARTITIONS = 2
+    READ_ONLY = 3
 
 
 PROFILING = False
