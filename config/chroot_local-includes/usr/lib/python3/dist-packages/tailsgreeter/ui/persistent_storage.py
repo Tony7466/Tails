@@ -78,13 +78,15 @@ class PersistentStorage:
             self.spinner_storage_unlock.set_visible(False)
             if not can_unlock:
                 if (
-                        self.persistence_setting.error_type
-                        == InvalidBootDeviceErrorType.READ_ONLY
+                    self.persistence_setting.error_type
+                    == InvalidBootDeviceErrorType.READ_ONLY
                 ):
-                    self.label_storage_error.set_label(_(
-                        "Impossible to unlock the Persistent Storage "
-                        "because the USB stick is read-only.",
-                    ))
+                    self.label_storage_error.set_label(
+                        _(
+                            "Impossible to unlock the Persistent Storage "
+                            "because the USB stick is read-only.",
+                        )
+                    )
             self.box_storage_error.set_visible(not can_unlock)
 
     @staticmethod
