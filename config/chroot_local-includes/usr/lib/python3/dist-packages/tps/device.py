@@ -96,7 +96,7 @@ class InvalidStatError(Exception):
     pass
 
 
-class BootDevice(object):
+class BootDevice:
     def __init__(self, udisks_object: UDisks.Object):
         self.udisks_object = udisks_object
         self.partition_table = (
@@ -157,7 +157,7 @@ class BootDevice(object):
         return max(partition_ends)
 
 
-class TPSPartition(object):
+class TPSPartition:
     """The Persistent Storage encrypted partition"""
 
     def __init__(self, udisks_object: UDisks.Object):
@@ -169,7 +169,7 @@ class TPSPartition(object):
         self.partition = self.udisks_object.get_partition()  # type: UDisks.Partition
         if not self.partition:
             raise InvalidPartitionError(
-                f"Device {self.device_path} is not a " f"partition"
+                f"Device {self.device_path} is not a partition"
             )
 
     def get_cleartext_device(self) -> "CleartextDevice":
@@ -179,7 +179,7 @@ class TPSPartition(object):
         cleartext_device_path = encrypted.props.cleartext_device
         if cleartext_device_path == "/":
             raise PartitionNotUnlockedError(
-                f"Device {self.device_path} is " f"not unlocked"
+                f"Device {self.device_path} is not unlocked"
             )
         return CleartextDevice(udisks.get_object(cleartext_device_path))
 
@@ -197,7 +197,7 @@ class TPSPartition(object):
         encrypted = self.udisks_object.get_encrypted()
         if not encrypted:
             raise InvalidPartitionError(
-                f"Device {self.device_path} is not " f"encrypted"
+                f"Device {self.device_path} is not encrypted"
             )
         return encrypted
 

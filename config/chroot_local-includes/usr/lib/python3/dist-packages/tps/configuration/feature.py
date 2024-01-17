@@ -243,13 +243,13 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
     def Id(self) -> str:
         """The name of the feature for internal usage and in logs. It
         must only contain the ASCII characters "[A-Z][a-z][0-9]_"."""
-        return str()
+        return ""
 
     @property
     def Description(self) -> str:
         """The name of the feature that will be shown to the user.
         Only used for custom features for now."""
-        return str()
+        return ""
 
     @property
     @abc.abstractmethod
@@ -265,7 +265,7 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def translatable_name(self) -> str:
         """The name of the feature for usage in user-visible strings"""
-        return str()
+        return ""
 
     @property
     def conflicting_apps(self) -> list["ConflictingApp"]:
@@ -289,7 +289,7 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
         executil.execute_hooks(hooks_dir)
 
     def refresh_state(
-        self, properties: list[str] = None, emit_properties_changed_signal=False
+        self, properties: Optional[list[str]] = None, emit_properties_changed_signal=False
     ):
         if not properties:
             properties = ["IsEnabled", "HasData", "IsActive"]
@@ -393,7 +393,7 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
             # to wait for anything
             return
 
-        logger.info(f"Waiting for the user to terminate processes " f"{apps}")
+        logger.info(f"Waiting for the user to terminate processes {apps}")
         while any(job.ConflictingApps.values()):
             if job.cancellable.is_cancelled():
                 logger.info("Job was cancelled")
@@ -402,13 +402,13 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
                 # to cancel the cancellable of the GDBus method call
                 # *before* cancelling the job, so in that case they
                 # won't receive the error anyway.
-                raise JobCancelledError()
+                raise JobCancelledError
 
             # Check if processes were terminated
             for app in job.ConflictingApps:
                 for pid in job.ConflictingApps[app]:
                     if not psutil.pid_exists(pid):
-                        logger.info(f"Conflicting process {pid} was " f"terminated")
+                        logger.info(f"Conflicting process {pid} was terminated")
                         job.ConflictingApps[app].remove(pid)
 
             time.sleep(0.2)
