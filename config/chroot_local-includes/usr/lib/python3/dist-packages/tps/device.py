@@ -105,9 +105,6 @@ class BootDevice:
         partition_table_type = self.partition_table.props.type
         if partition_table_type != "gpt":
             raise InvalidPartitionTableTypeError(partition_table_type)
-        num_partitions = len(self.partition_table.props.partitions)
-        if num_partitions > 1:
-            raise TooManyPartitionsError(num_partitions)
         self.block = self.udisks_object.get_block()
         if not self.block:
             raise InvalidBootDeviceError("Device is not a block device")
