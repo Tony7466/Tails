@@ -140,6 +140,7 @@ class Window(Gtk.ApplicationWindow):
         if self.active_view != self.locked_view:
             can_delete = False
             explanation = _(
+                "Impossible to delete the Persistent Storage while it is unlocked.\n\n"
                 "To delete the Persistent Storage, restart Tails without "
                 "unlocking the Persistent Storage and open "
                 "the Persistent Storage settings again.",
