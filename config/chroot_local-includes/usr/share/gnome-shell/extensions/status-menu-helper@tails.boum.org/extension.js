@@ -83,7 +83,7 @@ const Extension = new Lang.Class({
     },
 
     _createActions: function() {
-        this._lockScreenAction = this._createAction(_("Lock screen"),
+        this._lockScreenAction = this._createAction(_("Lock Screen"),
                                                    'changes-prevent-symbolic',
                                                     this._onLockClicked);
 
