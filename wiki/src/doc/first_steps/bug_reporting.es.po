@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2024-01-17 03:37+0000\n"
+"PO-Revision-Date: 2024-01-17 17:30+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "bug_reporting/es/>\n"
@@ -177,28 +177,20 @@ msgstr ""
 "informativo"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**Name of the affected software**"
 msgid "- **Name of the affected software**"
-msgstr "**Nombre del programa afectado**"
+msgstr "- **Nombre del programa afectado**"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**Exact steps to reproduce the error**"
 msgid "- **Exact steps to reproduce the error**"
-msgstr "**Pasos exactos para repetir el error**"
+msgstr "- **Pasos exactos para repetir el error**"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**Actual result and description of the error**"
 msgid "- **Actual result and description of the error**"
-msgstr "**Resultado real y descripción del error**"
+msgstr "- **Resultado real y descripción del error**"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "**Desired result**"
 msgid "- **Desired result**"
-msgstr "**Resultado esperado**"
+msgstr "- **Resultado esperado**"
 
 #. type: Plain text
 #, no-wrap
@@ -356,18 +348,14 @@ msgstr ""
 "correo. Puedes dar:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "a **key ID**, if the key is available on public key servers"
 msgid "- A **key ID**, if the key is available on public key servers"
 msgstr ""
-"una **ID de clave**, si la clave está disponible en los servidores públicos "
-"de claves"
+"- Una **ID de clave**, si la clave está disponible en los servidores "
+"públicos de claves"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "a **link to the key**, if the key is available on the web"
 msgid "- A **link to the key**, if the key is available on the web"
-msgstr "un **enlace a la clave**, si la clave está disponible en la web"
+msgstr "- Un **enlace a la clave**, si la clave está disponible en la web"
 
 #. type: Plain text
 #, fuzzy
@@ -504,16 +492,12 @@ msgstr ""
 "documentación de instalación en:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Starting a PC on a USB stick|doc/first_steps/start/pc]]"
 msgid "- [[Starting a PC on a USB stick|doc/first_steps/start/pc]]"
-msgstr "[[Arrancar un PC desde una memoria USB|doc/first_steps/start/pc]]"
+msgstr "- [[Arrancar un PC desde una memoria USB|doc/first_steps/start/pc]]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[[Starting a Mac on a USB stick|doc/first_steps/start/mac]]"
 msgid "- [[Starting a Mac on a USB stick|doc/first_steps/start/mac]]"
-msgstr "[[Arrancar un Mac desde una memoria USB|doc/first_steps/start/mac]]"
+msgstr "- [[Arrancar un Mac desde una memoria USB|doc/first_steps/start/mac]]"
 
 #. type: Plain text
 #, no-wrap
