@@ -102,7 +102,7 @@ class PersistentStorageSettings:
         logging.debug("Unlocking Persistent Storage")
         if os.path.exists(self.cleartext_device):
             logging.warning(
-                f"Cleartext device {self.cleartext_device} alreadyexists"
+                f"Cleartext device {self.cleartext_device} already exists"
             )
             self.is_unlocked = True
             return
