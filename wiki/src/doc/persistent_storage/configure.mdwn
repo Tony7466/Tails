@@ -32,7 +32,7 @@ Personal Documents
 <a id="persistent_folder"></a>
 
 <div class="icon">
-[[!img lib/apps/stock_folder.png link="no" alt=""]]
+[[!img lib/apps/folder.png link="no" alt=""]]
 <div class="text"><h2>Persistent Folder</h2></div>
 </div>
 
