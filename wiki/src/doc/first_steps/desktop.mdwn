@@ -333,6 +333,26 @@ suspended.</p>
 
 </div>
 
+<h3 id="night_and_dark">Dark Theme and Night Light</h3>
+
+From the system menu, you can switch between:
+
+- The default light theme with colder colors and more brightness
+
+  [[!img light.png link="no" class="screenshot" alt=""]]
+
+- A dark theme
+
+  [[!img dark.png link="no" class="screenshot" alt=""]]
+
+- A night light mode with warmer colors and less brightness
+
+  [[!img night.png link="no" class="screenshot" alt=""]]
+
+- A combination of both the dark theme and night light
+
+  [[!img dark_night.png link="no" class="screenshot" alt=""]]
+
 <h1 id="shortcuts">Desktop shortcuts</h1>
 
 <div class="icon">
