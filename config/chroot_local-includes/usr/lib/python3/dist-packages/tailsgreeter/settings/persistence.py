@@ -16,24 +16,20 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>
 #
 """Persistent Storage handling"""
+import gettext
 import logging
 import os
-
-import gettext
-
-_ = gettext.gettext
+from typing import Optional
 
 from gi.repository import Gio, GLib
 
+import tailsgreeter.errors
 import tps.dbus.errors as tps_errors
+from tailsgreeter import config  # NOQA: E402
 from tps import InvalidBootDeviceErrorType
 
-import tailsgreeter  # NOQA: E402
-from tailsgreeter import config  # NOQA: E402
-import tailsgreeter.errors  # NOQA: E402
 
-from typing import Optional
-
+_ = gettext.gettext
 
 BUS_NAME = "org.boum.tails.PersistentStorage"
 OBJECT_PATH = "/org/boum/tails/PersistentStorage"
@@ -123,7 +119,7 @@ class PersistentStorageSettings:
             self.failed_with_unexpected_error = True
             raise tailsgreeter.errors.PersistentStorageError(
                 _("Error unlocking Persistent Storage: {}").format(err)
-            )
+            ) from err
         self.is_unlocked = True
 
     def upgrade_luks(self, passphrase):
@@ -148,7 +144,7 @@ class PersistentStorageSettings:
             self.failed_with_unexpected_error = True
             raise tailsgreeter.errors.PersistentStorageError(
                 _("Error upgrading Persistent Storage: {}").format(err)
-            )
+            ) from err
 
     def activate_persistent_storage(self):
         """Activate the already unlocked Persistent Storage"""
@@ -175,8 +171,8 @@ class PersistentStorageSettings:
                 msg = config.gettext(
                     "Failed to activate some features of the Persistent Storage: {features}."
                 ).format(features=", ".join(features))
-                raise tailsgreeter.errors.FeatureActivationFailedError(msg)
+                raise tailsgreeter.errors.FeatureActivationFailedError(msg) from err
             self.failed_with_unexpected_error = True
             raise tailsgreeter.errors.PersistentStorageError(
                 _("Error activating Persistent Storage: {}").format(err)
-            )
+            ) from err

@@ -15,7 +15,7 @@ from tps import InvalidBootDeviceErrorType
 
 gi.require_version("GLib", "2.0")
 gi.require_version("Gtk", "3.0")
-from gi.repository import GLib, Gtk
+from gi.repository import GLib, Gtk  # noqa: E402
 
 if TYPE_CHECKING:
     from tailsgreeter.settings.persistence import PersistentStorageSettings

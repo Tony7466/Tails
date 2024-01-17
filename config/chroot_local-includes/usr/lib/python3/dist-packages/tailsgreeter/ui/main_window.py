@@ -37,7 +37,7 @@ from tailsgreeter.ui.persistent_storage import PersistentStorage
 gi.require_version("Gdk", "3.0")
 gi.require_version("Gtk", "3.0")
 gi.require_version("Handy", "1")
-from gi.repository import Gdk, Gtk, GdkPixbuf, Handy
+from gi.repository import Gdk, Gtk, GdkPixbuf, Handy  # noqa: E402
 
 Handy.init()
 
