@@ -157,24 +157,31 @@ from the <span class="guimenu">Places</span> menu.
 
 <h1 id="opening">Opening an existing encrypted partition</h1>
 
-When plugging in a device containing an encrypted partition, Tails does not open the partition
-automatically but you can do so from the file browser.
+When you plug in a device that has an encrypted partition, Tails offers to
+unlock the encryption automatically.
 
-1. Choose **Places**&nbsp;▸ **Home** to open the *Files* browser.
+1. Plug in the external storage device that has the encrypted partition.
 
-1. Click on the encrypted partition that you want to open in the sidebar.
+1. A dialog appears, asking for the passphrase to unlock the partition.
 
-   [[!img nautilus_encrypted.png link="no" alt="File browser with '4.0 GB Encrypted' entry in the sidebar"]]
+   [[!img unlock.png link="no" class="screenshot" alt="Authentication Required"]]
 
 1. Enter the passphrase of the partition in the password prompt and
-   click <span class="bold">Unlock</span>.
+   click **Unlock**.
 
-1. After opening the partition with the file browser, you can also access it
-   from the <span class="guimenu">Places</span> menu.
+   If you turn on the option **Remember Password**, Tails remembers the
+   passphrase of this partition only until you shut down. The passphrase is not
+   stored in your Persistent Storage.
 
-1. To close the partition after you finished using it, click on the
-   <span class="guimenu">[[!img lib/media-eject.png alt="Eject" class="symbolic" link="no"]]</span>
-   button next to the partition in the sidebar of the file browser.
+1. After unlocking, you can access the content of the partition from either:
+
+   * The **Places** menu
+   * The sidebar of the *Files* browser
+
+After you finished using the partition, click on the [[!img lib/media-eject.png
+alt="Eject" class="symbolic" link="no"]] button next to the partition in the
+sidebar of the *Files* browser to eject the partition safety and lock again the
+encryption.
 
 <h1 id="storing">Storing sensitive documents</h1>
 
