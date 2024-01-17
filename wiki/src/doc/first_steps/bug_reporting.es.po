@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:10+0000\n"
-"PO-Revision-Date: 2023-12-30 23:43+0000\n"
+"PO-Revision-Date: 2024-01-17 03:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "bug_reporting/es/>\n"
@@ -66,7 +66,7 @@ msgid ""
 "will be fixed or improved in the next release\"]]"
 msgstr ""
 "La [[!tails_gitlab groups/tails/-/milestones desc=\"lista de mejoras que "
-"tendrá el próximo lanzamiento\"]]"
+"tendrá la próxima versión\"]]"
 
 #. type: Plain text
 #, no-wrap
@@ -170,13 +170,11 @@ msgid "WhisperBack lets you give plenty of useful information about your bug:"
 msgstr "WhisperBack te permite dar mucha información útil del error:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "**Summary** a summary of the bug, try to be short, clear and informative"
 msgid ""
 "- **Summary** a summary of the bug, try to be short, clear and informative"
 msgstr ""
-"**Resumen** es un resumen del error, intenta ser conciso, claro e informativo"
+"- **Resumen** es un resumen del error, intenta ser conciso, claro e "
+"informativo"
 
 #. type: Plain text
 #, fuzzy
@@ -224,6 +222,9 @@ msgid ""
 "<p>We are not able to answer every error report, so you might not receive a\n"
 "reply from us.</p>\n"
 msgstr ""
+"<p>No podemos responder a todos los informes de error, por lo que es posible "
+"que no recibas una\n"
+"respuesta por nuestra parte.</p>\n"
 
 #. type: Plain text
 #, no-wrap
