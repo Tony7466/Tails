@@ -758,6 +758,22 @@ class CleartextDevice:
         # happened, so we raise a CalledProcessException
         p.check_returncode()
 
+    def fsck(self):
+        try:
+            executil.check_call([
+                "e2fsck",
+                # Force checking even if the file system seems clean:
+                # some filesystems are corrupted in a way that fsck
+                # won't spot it without this option, and then mount
+                # will fail.
+                "-f",
+                # Fix any problems that can be safely fixed.
+                "-p",
+                self.device_path,
+            ])
+        except subprocess.CalledProcessError as e:
+            logger.warning("e2fsck returned %i", e.returncode)
+
     def mount(self):
         # Ensure that the mount point exists
         self.mount_point.mkdir(mode=0o770, parents=True, exist_ok=True)

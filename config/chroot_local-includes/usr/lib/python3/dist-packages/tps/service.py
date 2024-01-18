@@ -382,6 +382,7 @@ class Service(DBusObject, ServiceUsingJobs):
         # Mount the Persistent Storage
         cleartext_device = self._tps_partition.get_cleartext_device()
         if not cleartext_device.is_mounted():
+            cleartext_device.fsck()
             cleartext_device.mount()
 
         # Remove the LUKS header backup if it exists. It's not needed
