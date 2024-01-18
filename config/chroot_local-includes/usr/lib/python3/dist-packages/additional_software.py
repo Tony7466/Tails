@@ -225,7 +225,7 @@ def notify_failure(summary, details=None):
 
 def show_system_log():
     """Show additional packages configuration window."""
-    run_with_user_env("gtk-launch", "org.gnome.gedit.desktop", ASP_LOG_FILE)
+    run_with_user_env("gtk-launch", "org.gnome.TextEditor.desktop", ASP_LOG_FILE)
 
 
 def show_configuration_window():
