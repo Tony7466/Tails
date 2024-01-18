@@ -74,7 +74,7 @@ class UnsupportedLanguage(Exception):
 class Python(Language):
     NAME = "python"
     EXTENSIONS = (".py",)
-    SHEBANGS = (re.compile(".*python3$"),)
+    SHEBANGS = (re.compile(r".*python3\b"),)
 
 
 class Shell(Language):
