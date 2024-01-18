@@ -93,7 +93,8 @@ class Feature:
         atk.set_name(_("Delete {feature} data").format(feature=self.translated_name))
         self.delete_data_button.connect("clicked", self.on_delete_data_button_clicked)
         Gtk.StyleContext.add_class(
-            self.delete_data_button.get_style_context(), "destructive-action",
+            self.delete_data_button.get_style_context(),
+            "destructive-action",
         )
         self.box.add(self.delete_data_button)
         self.box.reorder_child(self.delete_data_button, 0)
@@ -455,7 +456,8 @@ class Feature:
             )  # type: Gio.DBusProxy
 
             self.backend_job.connect(
-                "g-properties-changed", self.on_job_properties_changed,
+                "g-properties-changed",
+                self.on_job_properties_changed,
             )
 
     def on_job_properties_changed(
