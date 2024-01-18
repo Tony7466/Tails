@@ -35,7 +35,7 @@ def resolve(page: str, anchor: str = "", force_local: bool = False) -> str:
 
 
 def resolve_if_tails_website(uri: str, force_local: bool = False) -> str:
-    if uri.startswith(WEBSITE_URL):
+    if uri.startswith(WEBSITE_URL + "/"):
         url = uri.removeprefix(WEBSITE_URL + "/")
         try:
             return resolve(*url.split("#", 1), force_local=force_local)
