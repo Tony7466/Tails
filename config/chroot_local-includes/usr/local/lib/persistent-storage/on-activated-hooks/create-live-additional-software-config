@@ -11,10 +11,10 @@ create() {
              --mode 644 \
              /dev/null \
              "${FILE}"
-then
-  echo >&2 "Failed to create empty ${FILE}: $?"
-  exit 1
-fi
+  then
+    echo >&2 "Failed to create empty ${FILE}: $?"
+    exit 1
+  fi
 }
 
 # Create the config file if it doesn't exist
