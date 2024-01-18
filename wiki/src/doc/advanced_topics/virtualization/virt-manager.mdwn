@@ -279,3 +279,6 @@ To troubleshoot such issues:
    Start with *Virtio* and *QXL* video devices: they generally give
    the best results. If they don't perform well for you, try every
    other video device model.
+
+3. Try enabling or disabling the OpenGL and 3D acceleration options
+   of the display and video device.
