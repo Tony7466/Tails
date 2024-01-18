@@ -1,7 +1,6 @@
-import sys
 import os
 
-from tailslib.django import safe_join, SuspiciousFileOperation
+from tailslib.django import SuspiciousFileOperation, safe_join
 from tailslib.systemd import tor_has_bootstrapped
 
 WEBSITE_URL = "https://tails.net"
@@ -45,8 +44,8 @@ def resolve_if_tails_website(uri: str, force_local: bool = False) -> str:
 
 
 def is_local_page(uri: str) -> bool:
-    if uri.startswith(('file:///', '/')):
-        uri = uri.removeprefix('file://')
+    if uri.startswith(("file:///", "/")):
+        uri = uri.removeprefix("file://")
         return os.path.exists(uri)
     return False
 

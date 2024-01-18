@@ -5,10 +5,11 @@ import re
 import sys
 from argparse import ArgumentParser
 
-from tailslib.website import resolve, WEBSITE_URL, DocumentationPageNotFound
+from tailslib.website import WEBSITE_URL, DocumentationPageNotFound, resolve
+
+ALREADY_LOCALIZED = re.compile(r"/index.[a-z][a-z].html$")
 
 
-ALREADY_LOCALIZED = re.compile(r'/index.[a-z][a-z].html$')
 def sanitize_page_uri(page: str) -> str:
     """
     A relative link is passed through
@@ -23,12 +24,12 @@ def sanitize_page_uri(page: str) -> str:
     >>> sanitize_page_uri("https://tails.net/install/index.de.html")
     'install'
     """
-    page = page.removeprefix(WEBSITE_URL + '/')
+    page = page.removeprefix(WEBSITE_URL + "/")
     m = ALREADY_LOCALIZED.search(page)
     if m is not None:
         page = page.removesuffix(m.group(0))
 
-    return page.removesuffix('/')
+    return page.removesuffix("/")
 
 
 def get_parser():
@@ -66,6 +67,7 @@ def parse_args(_args=None):
     """
     return get_parser().parse_args(_args)
 
+
 def main():
     args = parse_args()
     page = sanitize_page_uri(args.page)
@@ -73,8 +75,9 @@ def main():
 
     if args.doctest:
         import doctest
+
         ret = doctest.testmod(verbose=False)
-        print('tails-documentation doctest:', ret)
+        print("tails-documentation doctest:", ret)
         if ret.failed:
             sys.exit(1)
         else:
