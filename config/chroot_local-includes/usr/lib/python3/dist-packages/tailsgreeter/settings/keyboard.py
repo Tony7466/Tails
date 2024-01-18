@@ -99,7 +99,10 @@ class KeyboardSetting(LocalizationSetting):
 
     def get_all(self) -> list[str]:
         """Return a list of all keyboard layout codes"""
-        return self.xkbinfo.get_all_layouts()
+        layouts =  set(self.xkbinfo.get_all_layouts())
+        # Filter out unwanted layouts
+        layouts -= {'custom'}
+        return list(layouts)
 
     def _layout_name(self, layout_code) -> str:
         (
