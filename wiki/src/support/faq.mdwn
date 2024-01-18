@@ -322,9 +322,12 @@ See also our [[design document on time synchronization|contribute/design/Time_sy
 
 It is currently impossible to run a Tor relay or bridge in Tails.
 
-<h2 id="onion-service">Can I run a Tor onion service on Tails?</h2>
+<h2 id="onion-service">Can I run a Tor onion service from Tails?</h2>
 
-It is technically possible to use Tails to provide an onion service
+You can use [[*OnionShare*|doc/anonymous_internet/onionshare]] to share files,
+websites, and chat rooms from Tails using onion services.
+
+It is technically possible to use Tails to create other onion services,
 but it is complicated and not documented yet.
 
 <h2 id="ping">Can I use <span class="command">ping</span> in Tails?</h2>
