@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2024-01-16 16:38+0000\n"
+"PO-Revision-Date: 2024-01-20 00:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "desktop/es/>\n"
@@ -55,10 +55,8 @@ msgid "The <b>Activities</b> button"
 msgstr ""
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid "the <span class=\"guimenu\">Applications</span> menu"
 msgid "The <span class=\"guimenu\">Applications</span> menu"
-msgstr "el menú de <span class=\"guimenu\">Aplicaciones</span>"
+msgstr "El menú de <span class=\"guimenu\">Aplicaciones</span>"
 
 #. type: Bullet: '- '
 msgid "The <span class=\"guimenu\">Places</span> menu"
@@ -792,17 +790,13 @@ msgid "[[!img user-trash.png link=\"no\" alt=\"\"]]\n"
 msgstr "[[!img user-trash.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\"><strong>Trash</strong>: where the \"deleted\" files are\n"
-#| "moved</div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\"><strong>Trash</strong>, where the \"deleted\" files are\n"
 "moved</div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><strong>Papelera</strong>: donde se mueven los archivos\n"
+"<div class=\"text\"><strong>Papelera</strong>, donde se mueven los archivos\n"
 "\"borrados\"</div>\n"
 "</div>\n"
 
