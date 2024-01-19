@@ -356,7 +356,7 @@ class TailsInstallerCreator(object):
                 start = time.monotonic()
                 ret_val = func(self, *args, **kwargs)
                 delta = time.monotonic() - start
-                if delta > 0.0:
+                if write_size(self) and delta > 0.0:
                     self.log.info(
                         _("Wrote to device at %(speed)d MB/s")
                         % {"speed": (write_size(self) / delta) / 1000**2}
