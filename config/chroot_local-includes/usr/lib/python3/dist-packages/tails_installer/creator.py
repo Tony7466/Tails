@@ -1043,8 +1043,6 @@ class TailsInstallerCreator(object):
 
     @log_write_speed(write_size=lambda self: get_persistent_storage_backup_size())
     def clone_persistent_storage(self):
-        if not self.opts.clone_persistent_storage_requested:
-            return
         self.log.info(_("Cloning Persistent Storage..."))
         tps_proxy.call_sync(
             method_name="CreateBackup",
