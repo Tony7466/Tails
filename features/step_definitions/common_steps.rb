@@ -35,6 +35,7 @@ def work_around_issue20054(confirm: false)
       return
     end
   end
+  debug_log('Issue #20054: Applying workaround ...')
   $vm.execute_successfully('systemctl restart spice-vdagentd.socket')
   if confirm # rubocop:disable Style/GuardClause
     begin
