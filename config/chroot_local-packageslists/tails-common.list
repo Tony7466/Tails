@@ -58,6 +58,8 @@ gir1.2-webkit2-4.0
 python3-gi
 python3-pycountry
 python3-tz
+# Needed for GNOME's screen recording capability
+pipewire-media-session
 
 ### Software
 
