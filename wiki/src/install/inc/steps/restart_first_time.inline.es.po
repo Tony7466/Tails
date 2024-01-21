@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2024-01-18 08:37+0000\n"
+"PO-Revision-Date: 2024-01-21 11:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "restart_first_timeinline/es/>\n"
@@ -465,10 +465,11 @@ msgstr ""
 "Bienvenida."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   [[!img doc/first_steps/welcome_screen/welcome-screen.png link=\"no\" alt=\"Welcome to Tails!\"]]\n"
+#, no-wrap
 msgid "   [[!img doc/first_steps/welcome_screen/welcome_screen.png link=\"no\" alt=\"Welcome to Tails!\"]]\n"
-msgstr "   [[!img doc/first_steps/welcome_screen/welcome-screen.png link=\"no\" alt=\"¡Bienvenido a Tails!\"]]\n"
+msgstr ""
+"   [[!img doc/first_steps/welcome_screen/welcome_screen.png link=\"no\" alt="
+"\"¡Bienvenido a Tails!\"]]\n"
 
 #. type: Plain text
 #, no-wrap
