@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-07 00:11+0000\n"
-"PO-Revision-Date: 2024-01-12 15:38+0000\n"
+"PO-Revision-Date: 2024-01-21 11:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "downloadinline/es/>\n"
@@ -248,16 +248,12 @@ msgid "[[!toggle id=\"why-failed\" text=\"Why?\"]]"
 msgstr "[[!toggle id=\"why-failed\" text=\"¿Por qué?\"]]"
 
 #. type: Content of: <div><div><div>
-#, fuzzy
-#| msgid ""
-#| "[[!toggleable id=\"why-failed\" text=\"\"\" [[!toggle id=\"why-failed\" "
-#| "text=\"X\"]]"
 msgid ""
 "[[!toggleable id=\"why-failed\" text=\"\"\" [[!toggle id=\"why-failed\" "
 "text=\"\"]]"
 msgstr ""
-"[[!toggleable id=\"why-failed\" text=\"\"\" [[!toggle id=\"why-failed\" "
-"text=\"X\"]]"
+"[[!toggleable id=\"why-failed\" text=\"\"\" [[!toggle id=\"why-failed\" text="
+"\"\"]]"
 
 #. type: Content of: <div><div><div><p>
 msgid ""
@@ -302,34 +298,24 @@ msgstr ""
 "[[¿Cómo funciona la verificación?|contribute/design/download_verification]]"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"[[!inline pages=\"inc/stable_amd64_img_url\" raw=\"yes\" "
-#| "sort=\"age\"]]\" id=\"download-img-again\" class=\"use-mirror-pool-on-"
-#| "retry\">Please try to download again&hellip;</a>"
 msgid ""
 "<a href=\"[[!inline pages=\"inc/stable_amd64_img_url\" raw=\"yes\" "
 "sort=\"age\"]]\" id=\"download-img-again\">Please try to download "
 "again&hellip;</a>"
 msgstr ""
-"<a href=\"[[!inline pages=\"inc/stable_amd64_img_url\" raw=\"yes\" "
-"sort=\"age\"]]\" id=\"download-img-again\" class=\"use-mirror-pool-on-"
-"retry\">Por favor, intenta la descarga nuevamente&hellip;</a>"
+"<a href=\"[[!inline pages=\"inc/stable_amd64_img_url\" raw=\"yes\" sort=\"age"
+"\"]]\" id=\"download-img-again\">Por favor, intenta la descarga "
+"nuevamente&hellip;</a>"
 
 #. type: Content of: <div><div><p>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"[[!inline pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" "
-#| "sort=\"age\"]]\" id=\"download-iso-again\" class=\"use-mirror-pool-on-"
-#| "retry\">Please try to download again&hellip;</a>"
 msgid ""
 "<a href=\"[[!inline pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" "
 "sort=\"age\"]]\" id=\"download-iso-again\">Please try to download "
 "again&hellip;</a>"
 msgstr ""
-"<a href=\"[[!inline pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" "
-"sort=\"age\"]]\" id=\"download-iso-again\" class=\"use-mirror-pool-on-"
-"retry\">Por favor, intenta la descarga nuevamente&hellip;</a>"
+"<a href=\"[[!inline pages=\"inc/stable_amd64_iso_url\" raw=\"yes\" sort=\"age"
+"\"]]\" id=\"download-iso-again\">Por favor, intenta la descarga "
+"nuevamente&hellip;</a>"
 
 #. type: Content of: <div><div><p>
 msgid ""
