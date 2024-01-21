@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2024-01-16 16:38+0000\n"
+"PO-Revision-Date: 2024-01-21 11:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "openpgp_keys/es/>\n"
@@ -495,10 +495,8 @@ msgstr ""
 "    sub   rsa4096/0x244F9D7C6DF90D6D 2019-02-24 [E]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "download it from this website: [[!tails_website tails-bugs.key]]"
 msgid "- Download it from this website: [[!tails_website tails-board.key]]."
-msgstr "descárgala desde este sitio web: [[!tails_website tails-bugs.key]]"
+msgstr "- Descárgala desde este sitio web: [[!tails_website tails-board.key]]."
 
 #. type: Plain text
 #, no-wrap
