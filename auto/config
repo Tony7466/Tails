@@ -20,8 +20,10 @@ fi
 
 if [ -n "${FEATURE_BRANCH_GIT_COMMIT:-}" ]; then
     GIT_SHORT_ID="$(git rev-parse --short "${FEATURE_BRANCH_GIT_COMMIT}")"
+    GIT_COMMIT="${FEATURE_BRANCH_GIT_COMMIT}"
 else
     GIT_SHORT_ID="$(git_current_commit --short)"
+    GIT_COMMIT="$(git_current_commit)"
 fi
 
 
@@ -174,6 +176,7 @@ BUG_REPORT_URL="https://tails.net/doc/first_steps/bug_reporting/"
 TAILS_DISTRIBUTION="$TAILS_DISTRIBUTION"
 TAILS_SOURCE_DATE_EPOCH="$SOURCE_DATE_EPOCH"
 TAILS_GIT_SHORT_ID="$GIT_SHORT_ID"
+TAILS_GIT_COMMIT="$GIT_COMMIT"
 EOF
 
 if [ -n "${GIT_BRANCH}" ]; then
