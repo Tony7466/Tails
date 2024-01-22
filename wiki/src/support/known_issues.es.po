@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2024-01-12 15:37+0000\n"
+"PO-Revision-Date: 2024-01-22 19:06+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "known_issues/es/>\n"
@@ -416,22 +416,17 @@ msgid "<p class=\"code\">soft lockup - CPU#<span class=\"command-placeholder\">N
 msgstr "<p class=\"pre\">soft lockup - CPU#<span class=\"command-placeholder\">N</span> stuck for <span class=\"command-placeholder\">N</span>s</p>\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "To start Tails successfully, [[add the following boot option when "
-#| "starting Tails|doc/advanced_topics/boot_options]]:"
 msgid ""
 "To start Tails successfully, try to [[add the following boot option when "
 "starting Tails|doc/advanced_topics/boot_options]]:"
 msgstr ""
-"Para arrancar Tails, [[añade las siguentes opciones a las opciones de "
-"arranque de Tails|/doc/advanced_topics/boot_options]]:"
+"Para arrancar Tails, prueba de [[añadir las siguientes opciones a las "
+"opciones de arranque de Tails|/doc/advanced_topics/boot_options]]:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "    acpi_rev_override=1 nouveau.modeset=0\n"
+#, no-wrap
 msgid "    acpi_rev_override=1\n"
-msgstr "    acpi_rev_override=1 nouveau.modeset=0\n"
+msgstr "    acpi_rev_override=1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -773,10 +768,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<h1 id=\"wi-fi\">Wi-Fi issues</h1>\n"
+#, no-wrap
 msgid "<h1 id=\"hardware\">Other hardware issues</h1>\n"
-msgstr "<h1 id=\"wi-fi\">Problemas de Wi-Fi</h1>\n"
+msgstr "<h1 id=\"hardware\">Otros problemas de hardware</h1>\n"
 
 #. type: Plain text
 #, no-wrap
