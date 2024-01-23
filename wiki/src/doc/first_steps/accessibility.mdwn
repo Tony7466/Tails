@@ -24,8 +24,8 @@ These technologies are documented in more details in
 <h1 id="shortcuts">Keyboard shortcuts</h1>
 
 <table>
-<tr><td>Turn screen reader on or off</td><td>Alt+Super+S</td></tr>
-<tr><td>Turn zoom on or off</td><td>Alt+Super+8</td></tr>
+<tr><td>Turn screen reader on or off</td><td>Alt+[[!img lib/start.png class="symbolic" link="no" alt="Super"]]+S</td></tr>
+<tr><td>Turn zoom on or off</td><td>Alt+[[!img lib/start.png class="symbolic" link="no" alt="Super"]]+8</td></tr>
 </table>
 
 To access the accessibility menu using the keyboard:
