@@ -46,9 +46,6 @@ You can have a look at:
   <p>If you are facing an error in Tails, please follow the [[bug reporting
   guidelines|doc/first_steps/bug_reporting]].</p>
 
-  <p>If Tails does not start, please see our specific
-  [[reporting guidelines|doc/first_steps/bug_reporting#does-not-start]].</p>
-
 </div>
 
 <div class="block block-half">
