@@ -33,29 +33,28 @@ class AboutTails(Gtk.AboutDialog):
 
         website = VERSION_DATA["HOME_URL"]
 
-        if VERSION_DATA:
-            comment = ""
-            version = VERSION_DATA["VERSION"]
-            built_name = VERSION_DATA["TAILS_GIT_SHORT_ID"]
-            if VERSION_DATA["TAILS_DISTRIBUTION"] == "UNRELEASED":
-                version += " " + _("UNRELEASED")
-                if "TAILS_GIT_BASE_BRANCH" in VERSION_DATA:
-                    built_name += "+%s@%s" % (
-                        VERSION_DATA["TAILS_GIT_BASE_BRANCH"],
-                        VERSION_DATA["TAILS_GIT_BASE_SHORT_ID"],
-                    )
+        comment = ""
+        version = VERSION_DATA["VERSION"]
+        built_name = VERSION_DATA["TAILS_GIT_SHORT_ID"]
+        if VERSION_DATA["TAILS_DISTRIBUTION"] == "UNRELEASED":
+            version += " " + _("UNRELEASED")
+            if "TAILS_GIT_BASE_BRANCH" in VERSION_DATA:
+                built_name += "+%s@%s" % (
+                    VERSION_DATA["TAILS_GIT_BASE_BRANCH"],
+                    VERSION_DATA["TAILS_GIT_BASE_SHORT_ID"],
+                )
 
-            comment = _("Built from %s") % (built_name)
+        comment = _("Built from %s") % (built_name)
 
-            if "TAILS_GIT_TAG" in VERSION_DATA:
-                tag = VERSION_DATA["TAILS_GIT_TAG"].replace("~", "-")
-                if "~" in version:
-                    website += "news/test_%s" % tag
-                else:
-                    website += "news/version_%s" % tag
+        if "TAILS_GIT_TAG" in VERSION_DATA:
+            tag = VERSION_DATA["TAILS_GIT_TAG"].replace("~", "-")
+            if "~" in version:
+                website += "news/test_%s" % tag
+            else:
+                website += "news/version_%s" % tag
 
-            self.set_version(version)
-            self.set_comments(comment)
+        self.set_version(version)
+        self.set_comments(comment)
 
         self.set_website(website)
         self.connect("delete-event", Gtk.main_quit)
