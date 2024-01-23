@@ -7,5 +7,5 @@ Categories=Documentation;Tails;
 Type=Application
 Terminal=false
 Exec=/usr/local/bin/tails-documentation doc
-Icon=org.gnome.Yelp.svg
+Icon=org.gnome.Yelp
 StartupNotify=true
