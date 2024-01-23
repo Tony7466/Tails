@@ -79,3 +79,25 @@ libraries, and on desktop computers, where a device is easier to hide.</p>
 computers|doc/about/warnings/computer]].</p>
 
 </div>
+
+<div class="bug">
+
+<p>The screen keyboard doesn't work in a <i>Root Terminal</i>. ([[!tails_ticket
+18061]])</p>
+
+<p>Instead, open a <i>Terminal</i> and execute the following command to log in
+as root:</p>
+
+<p class="command">sudo -i</p>
+
+</div>
+
+<div class="bug">
+
+<p>The screen keyboard doesn't work in <i>Kleopatra</i>, <i>Electrum</i>, and
+<i>KeePassXC</i>. ([[!tails_ticket 19695]])</p>
+
+<p>Instead, you can use the screen keyboard in the <i>Text Editor</i> first,
+then cut and paste into one of these applications.</p>
+
+</div>
