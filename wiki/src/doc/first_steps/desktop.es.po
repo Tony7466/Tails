@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2023-12-29 16:22+0000\n"
+"PO-Revision-Date: 2024-01-20 00:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "desktop/es/>\n"
@@ -55,22 +55,17 @@ msgid "The <b>Activities</b> button"
 msgstr ""
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid "the <span class=\"guimenu\">Applications</span> menu"
 msgid "The <span class=\"guimenu\">Applications</span> menu"
-msgstr "el menú de <span class=\"guimenu\">Aplicaciones</span>"
+msgstr "El menú de <span class=\"guimenu\">Aplicaciones</span>"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid "the <span class=\"guimenu\">Places</span> menu"
 msgid "The <span class=\"guimenu\">Places</span> menu"
-msgstr "el menú de <span class=\"guimenu\">Lugares</span>"
+msgstr "El menú de <span class=\"guimenu\">Lugares</span>"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "<h1 id=\"activities\">Activities overview</h1>\n"
+#, no-wrap
 msgid "<h2 id=\"activities\">Activities overview</h2>\n"
-msgstr "<h1 id=\"activities\">Resumen de actividades</h1>\n"
+msgstr "<h2 id=\"activities\">Resumen de actividades</h2>\n"
 
 #. type: Plain text
 msgid "To access your windows and applications you can either:"
@@ -119,10 +114,9 @@ msgstr ""
 "[[software incluido|about/features]] y a las herramientas de configuración de GNOME.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img applications.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img applications.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img applications.png link=no alt=\"\"]]\n"
+msgstr "[[!img applications.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -135,21 +129,12 @@ msgid "<div class=\"icon\">\n"
 msgstr "<div class=\"icon\">\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/help-browser.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/help-browser.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/help-browser.png link=no]]\n"
+msgstr "[[!img lib/apps/help-browser.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\">\n"
-#| "  <span class=\"guimenuitem\">Help</span>: to access the <span class=\"application\">GNOME Desktop Help</span> choose\n"
-#| "  <span class=\"menuchoice\">\n"
-#| "    <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
-#| "    <span class=\"guimenuitem\">Help</span></span>\n"
-#| "  </div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\">\n"
 "  <span class=\"guimenuitem\">Help</span>: to access the <span class=\"application\">GNOME Desktop Help</span> choose\n"
@@ -160,7 +145,8 @@ msgid ""
 "</div>\n"
 msgstr ""
 "<div class=\"text\">\n"
-"  <span class=\"guimenuitem\">Ayuda</span>: para acceder a la <span class=\"application\">Ayuda de Escritorio de GNOME</span> elige\n"
+"  <span class=\"guimenuitem\">Ayuda</span>: para acceder a la <span class="
+"\"application\">Ayuda de Escritorio de GNOME</span> elige\n"
 "  <span class=\"menuchoice\">\n"
 "    <span class=\"guisubmenu\">Utilidades</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">Ayuda</span></span>\n"
@@ -247,10 +233,9 @@ msgstr ""
 "<span class=\"guimenuitem\">Teclado</span>&nbsp;▸.</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/help-about.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/help-about.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/help-about.png link=no]]\n"
+msgstr "[[!img lib/apps/help-about.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -297,10 +282,9 @@ msgstr ""
 "atajos te permiten lanzar las aplicaciones mas usadas frecuentemente:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/tor-browser.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/tor-browser.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/tor-browser.png link=no]]\n"
+msgstr "[[!img lib/apps/tor-browser.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -377,10 +361,9 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/tails-help.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/tails-help.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/tails-help.png link=no]]\n"
+msgstr "[[!img lib/apps/tails-help.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -426,10 +409,9 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img lib/apps/tails-installer.png link=no]]\n"
+#, no-wrap
 msgid "[[!img lib/apps/tails-installer.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img lib/apps/tails-installer.png link=no]]\n"
+msgstr "[[!img lib/apps/tails-installer.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -558,10 +540,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img tor-status.png link=no alt=\"\"]]\n"
+#, no-wrap
 msgid "[[!img tor-status.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img tor-status.png link=no alt=\"\"]]\n"
+msgstr "[[!img tor-status.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -688,10 +669,11 @@ msgstr ""
 "  <p>Tu pantalla automáticamente se cerrara después de un tiempo si has creado una contraseña administrativa. Para desactivar esto, ejecuta el siguiente comando:</p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
+#, no-wrap
 msgid "  <p class=\"command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
-msgstr "  <p class=\"pre command\">gsettings set org.gnome.desktop.screensaver lock-enabled false</p>\n"
+msgstr ""
+"  <p class=\"command\">gsettings set org.gnome.desktop.screensaver lock-"
+"enabled false</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -707,10 +689,9 @@ msgstr ""
 "pantalla cuando bloqueas tu pantalla por primera vez."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "  [[!img screen-locker.png alt=\"\" link=\"no\"]]\n"
+#, no-wrap
 msgid "  [[!img screen-locker.png link=\"no\" alt=\"\"]]\n"
-msgstr "  [[!img screen-locker.png alt=\"\" link=\"no\"]]\n"
+msgstr "  [[!img screen-locker.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -804,23 +785,18 @@ msgstr ""
 "</div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!img user-home.png link=no]]\n"
+#, no-wrap
 msgid "[[!img user-trash.png link=\"no\" alt=\"\"]]\n"
-msgstr "[[!img user-home.png link=no]]\n"
+msgstr "[[!img user-trash.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "<div class=\"text\"><strong>Trash</strong>: where the \"deleted\" files are\n"
-#| "moved</div>\n"
-#| "</div>\n"
+#, no-wrap
 msgid ""
 "<div class=\"text\"><strong>Trash</strong>, where the \"deleted\" files are\n"
 "moved</div>\n"
 "</div>\n"
 msgstr ""
-"<div class=\"text\"><strong>Papelera</strong>: donde se mueven los archivos\n"
+"<div class=\"text\"><strong>Papelera</strong>, donde se mueven los archivos\n"
 "\"borrados\"</div>\n"
 "</div>\n"
 
@@ -849,19 +825,14 @@ msgstr ""
 "puedes:\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "- Choose <span class=\"menuchoice\">\n"
-#| "    <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "    <span class=\"guisubmenu\">Accessories</span>&nbsp;▸\n"
-#| "    <span class=\"guimenuitem\">Files</span></span>.\n"
+#, no-wrap
 msgid ""
 "- Choose <span class=\"menuchoice\">\n"
 "    <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
 "    <span class=\"guisubmenu\">Accessories</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">Files</span></span>.\n"
 msgstr ""
-"- Escoge <span class=\"menuchoice\">\n"
+"- Elige <span class=\"menuchoice\">\n"
 "    <span class=\"guimenu\">Aplicaciones</span>&nbsp;▸\n"
 "    <span class=\"guisubmenu\">Accesorios</span>&nbsp;▸\n"
 "    <span class=\"guimenuitem\">Archivos</span></span>.\n"

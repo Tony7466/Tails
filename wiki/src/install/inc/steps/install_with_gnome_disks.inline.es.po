@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
-"PO-Revision-Date: 2023-12-31 15:22+0000\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
+"PO-Revision-Date: 2024-01-13 16:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -27,8 +27,8 @@ msgid ""
 "Start <span class=\"application\">GNOME Disks</span> (also called <span "
 "class=\"application\">Disks</span>)."
 msgstr ""
-"Inicia <span class=\"application\">GNOME Disks</span> (también llamado <span "
-"class=\"application\">Discos</span>)."
+"Inicia <span class=\"application\">Discos de GNOME</span> (también llamado "
+"<span class=\"application\">Discos</span>)."
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -47,7 +47,7 @@ msgstr ""
 msgid ""
 "   <div class=\"linux\">\n"
 "     For example, you can press the <span class=\"keycap\">Super</span> key,\n"
-"     then type <span class=\"command\">disk</span>, then choose\n"
+"     then type <code>disk</code>, then choose\n"
 "     <span class=\"application\">Disks</span>.\n"
 "   </div>\n"
 "   <div class=\"upgrade\">\n"
@@ -79,15 +79,13 @@ msgid ""
 "Plug in the <span class=\"upgrade\">intermediary</span> USB stick <span "
 "class=\"linux\">on which you want to install Tails</span>."
 msgstr ""
-"Inserta la memoria USB <span class=\"upgrade\">intermedia</span><span class="
-"\"linux\">en la que quieres instalar Tails</span>."
+"Inserta la memoria USB <span class=\"upgrade\">intermedia</span><span "
+"class=\"linux\">en la que quieres instalar Tails</span>."
 
 #. type: Plain text
 #, no-wrap
 msgid "   <div class=\"caution\"><p>All the data on this USB stick will be lost.</p></div>\n"
-msgstr ""
-"   <div class=\"caution\"><p>Se perderá toda la información en esta memoria "
-"USB.</p></div>\n"
+msgstr "   <div class=\"caution\"><p>Se perderá toda la información en esta memoria USB.</p></div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -95,22 +93,18 @@ msgid ""
 "   <div class=\"note upgrade\"><p>The Persistent Storage of your Tails USB stick will not be\n"
 "   copied to the temporary Tails.</p></div>\n"
 msgstr ""
-"   <div class=\"note upgrade\"><p>El Almacenamiento Persistente de tu "
-"memoria USB de Tails no será\n"
+"   <div class=\"note upgrade\"><p>El Almacenamiento Persistente de tu memoria USB de Tails no será\n"
 "   copiado al Tails temporario.</p></div>\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   A new drive appears in the left pane. Click on it.\n"
-msgstr ""
-"   Un nuevo volumen aparece en la barra de la izquierda. Haz click en él.\n"
+msgstr "   Un nuevo volumen aparece en la barra de la izquierda. Haz click en él.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   [[!img install/inc/screenshots/gnome_disks_drive.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
-"   [[!img install/inc/screenshots/gnome_disks_drive.png link=\"no\" alt=\"\""
-"]]\n"
+msgstr "   [[!img install/inc/screenshots/gnome_disks_drive.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Bullet: '1. '
 #, fuzzy
@@ -130,9 +124,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   [[!img install/inc/screenshots/gnome_disks_menu.png link=\"no\" alt=\"\"]]\n"
-msgstr ""
-"   [[!img install/inc/screenshots/gnome_disks_menu.png link=\"no\" alt=\"\"]]"
-"\n"
+msgstr "   [[!img install/inc/screenshots/gnome_disks_menu.png link=\"no\" alt=\"\"]]\n"
 
 #. type: Bullet: '1. '
 msgid ""
