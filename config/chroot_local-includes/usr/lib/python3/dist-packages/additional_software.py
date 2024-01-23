@@ -169,8 +169,7 @@ def notify(
         )
         if completed_process.stderr:
             logging.warning("%s", completed_process.stderr)
-        if completed_process.returncode == 1:
-            # sudo failed to execute the command
+        if completed_process.returncode != 0:
             raise OSError(completed_process.stderr)
     except OSError as e:
         logging.warning("Warning: unable to notify the user. %s" % e)
