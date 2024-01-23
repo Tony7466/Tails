@@ -174,7 +174,7 @@ def notify(
             raise OSError(completed_process.stderr)
     except OSError as e:
         logging.warning("Warning: unable to notify the user. %s" % e)
-        logging.warning("The notification was: %s %s" % (title, body))
+        logging.warning(f"The notification was: {title} {body}")
         return None
 
     if return_id:
