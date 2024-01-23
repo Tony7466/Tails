@@ -79,6 +79,3 @@ libraries, and on desktop computers, where a device is easier to hide.</p>
 computers|doc/about/warnings/computer]].</p>
 
 </div>
-
-For more detailed documentation refer to the official
-[<span class="application">GNOME</span> Screen Keyboard documentation](https://help.gnome.org/users/gnome-help/stable/keyboard-osk.html.en).
