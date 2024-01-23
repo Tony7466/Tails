@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:43+0000\n"
-"PO-Revision-Date: 2023-12-29 11:22+0000\n"
+"PO-Revision-Date: 2024-01-12 15:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "install-mac/es/>\n"
@@ -31,7 +31,9 @@ msgstr "<h1 id=\"etcher\" class=\"step\">Instalar <em>balenaEtcher</em></h1>\n"
 #. type: Plain text
 #, no-wrap
 msgid "<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no\" alt=\"\"]]</div>\n"
-msgstr "<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no\" alt=\"\"]]</div>\n"
+msgstr ""
+"<div class=\"step-image\">[[!img inc/infography/install-etcher.png link=\"no"
+"\" alt=\"\"]]</div>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,7 +41,8 @@ msgid ""
 "<p class=\"upgrade\">In the following steps, you will install an intermediary Tails using the Tails USB\n"
 "image that you downloaded earlier.</p>\n"
 msgstr ""
-"<p class=\"upgrade\">En los siguientes pasos, instalarás un Tails intermedio usando la imagen USB\n"
+"<p class=\"upgrade\">En los siguientes pasos, instalarás un Tails intermedio "
+"usando la imagen USB\n"
 "de Tails que descargaste anteriormente.</p>\n"
 
 #. type: Bullet: '1. '
@@ -49,7 +52,9 @@ msgstr "Haz click en el siguiente botón para descargar <em>balenaEtcher</em>:"
 #. type: Plain text
 #, no-wrap
 msgid "   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\">Download balenaEtcher for macOS</a>\n"
-msgstr "   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\">Descargar balenaEtcher para macOS</a>\n"
+msgstr ""
+"   <a href=\"https://tails.net/etcher/balenaEtcher.dmg\" class=\"button\""
+">Descargar balenaEtcher para macOS</a>\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -62,7 +67,9 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "   [[!img install/inc/screenshots/install_etcher_in_mac.png link=\"no\" alt=\"\"]]\n"
-msgstr "   [[!img install/inc/screenshots/install_etcher_in_mac.png link=\"no\" alt=\"\"]]\n"
+msgstr ""
+"   [[!img install/inc/screenshots/install_etcher_in_mac.png link=\"no\" alt="
+"\"\"]]\n"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -79,8 +86,8 @@ msgid ""
 "Close the installation window of <span class=\"application\">balenaEtcher</"
 "span>."
 msgstr ""
-"Cierra la ventana de instalación de <span "
-"class=\"application\">balenaEtcher</span>."
+"Cierra la ventana de instalación de <span class=\"application\""
+">balenaEtcher</span>."
 
 #. type: Plain text
 #, no-wrap
@@ -88,13 +95,16 @@ msgid ""
 "   Optionally, eject the <span class=\"application\">balenaEtcher</span> disk image\n"
 "   from the desktop.\n"
 msgstr ""
-"   Opcionalmente, extrae la imagen de disco de <span class=\"application\">balenaEtcher</span>\n"
+"   Opcionalmente, extrae la imagen de disco de <span class=\"application\""
+">balenaEtcher</span>\n"
 "desde el escritorio.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "   [[!img install/inc/screenshots/eject_etcher_dmg.png link=\"no\" alt=\"\"]]\n"
-msgstr "   [[!img install/inc/screenshots/eject_etcher_dmg.png link=\"no\" alt=\"\"]]\n"
+msgstr ""
+"   [[!img install/inc/screenshots/eject_etcher_dmg.png link=\"no\" alt=\"\"]]"
+"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -104,7 +114,7 @@ msgid ""
 "line\"]].\n"
 msgstr ""
 "En vez de instalar <span class=\"application\">balenaEtcher</span>, también\n"
-"puedes [[!toggle id=\"dd\" text=\"instalar Tails usando `dd` en la linea\n"
+"puedes [[!toggle id=\"dd\" text=\"instalar Tails usando `dd` en la línea\n"
 "de comandos\"]].\n"
 
 #. type: Plain text
@@ -130,10 +140,10 @@ msgid ""
 "     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
 msgstr ""
-"1. Abre <span class=\"application\">Terminal</span> desde\n"
+"1. Abre la <span class=\"application\">Terminal</span> desde\n"
 "   <span class=\"menuchoice\">\n"
-"     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-"     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
+"     <span class=\"guimenu\">Aplicaciones</span>&nbsp;▸\n"
+"     <span class=\"guisubmenu\">Utilidades</span>&nbsp;▸\n"
 "     <span class=\"guimenuitem\">Terminal.app</span></span>.\n"
 
 #. type: Bullet: '1. '
@@ -148,7 +158,9 @@ msgstr "   <p class=\"pre command\">diskutil list</p>\n"
 #. type: Plain text
 #, no-wrap
 msgid "   It returns a list of the storage devices on the system. For example:\n"
-msgstr "   Devuelve una lista de los dispositivos de almacenamiento del sistema. Por ejemplo:\n"
+msgstr ""
+"   Devuelve una lista de los dispositivos de almacenamiento del sistema. Por "
+"ejemplo:\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -194,7 +206,7 @@ msgid ""
 "   that its size corresponds to the size of your USB stick.\n"
 msgstr ""
 "   Tu memoria USB aparece como un nuevo dispositivo en la lista. Comprueba\n"
-"que su tamaño corresponda con el tamaño de tu memoria USB.\n"
+"   que su tamaño corresponda con el tamaño de tu memoria USB.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -260,7 +272,8 @@ msgid ""
 msgstr ""
 "   <div class=\"caution\">\n"
 "<p>Si no estás seguro del nombre del dispositivo deberías parar ahora o\n"
-"<strong>te arriesgas a sobreescribir cualquier otro disco duro del sistema</strong>.</p>\n"
+"<strong>te arriesgas a sobrescribir cualquier otro disco duro del "
+"sistema</strong>.</p>\n"
 "</div>\n"
 
 #. type: Bullet: '1. '
@@ -295,9 +308,11 @@ msgid ""
 "     </div>\n"
 msgstr ""
 "     <div class=\"tip\">\n"
-"       <p>Si estás inseguro de la ruta de la imagen USB, puedes insertar la\n"
+"       <p>Si no estás seguro de la ruta de la imagen USB, puedes insertar "
+"la\n"
 "       ruta correcta al arrastrar el ícono de la imagen USB desde el\n"
-"       <span class=\"application\">Finder</span> hasta la <span class=\"application\">\n"
+"       <span class=\"application\">Finder</span> hasta la <span class="
+"\"application\">\n"
 "       Terminal</span>.</p>\n"
 "       </div>\n"
 
@@ -306,7 +321,7 @@ msgid ""
 "<span class=\"command-placeholder\">device</span> with the device name found "
 "in step 6"
 msgstr ""
-"<span class=\"command-placeholder\">device</span> con el nombre del "
+"<span class=\"command-placeholder\">dispositivo</span> con el nombre del "
 "dispositivo encontrado en el paso 6"
 
 #. type: Plain text
@@ -325,16 +340,19 @@ msgstr ""
 "     </div>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
+#, no-wrap
 msgid "   <p class=\"command-template\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
-msgstr "   <p class=\"pre command\">diskutil unmountDisk <span class=\"command-placeholder\">device</span></p>\n"
+msgstr ""
+"   <p class=\"command-template\">diskutil unmountDisk <span class=\"command-"
+"placeholder\">dispositivo</span></p>\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
+#, no-wrap
 msgid "   <p class=\"command-template\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
-msgstr "   <p class=\"pre command\">dd if=<span class=\"command-placeholder\">tails.img</span> of=<span class=\"command-placeholder\">device</span> bs=16m && sync</p>\n"
+msgstr ""
+"   <p class=\"command-template\">dd if=<span class=\"command-placeholder\""
+">tails.img</span> of=<span class=\"command-placeholder\">dispositivo</span> "
+"bs=16m && sync</p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -353,8 +371,9 @@ msgid ""
 "   If no error message is returned, Tails is being copied on the USB\n"
 "   stick. The copy takes some time, generally a few minutes.\n"
 msgstr ""
-"   Si no aparece ningún mensaje de error, Tails está siendo copiado a la memoria\n"
-"USB. El proceso de copiado tarda por lo general un par de minutos.\n"
+"   Si no aparece ningún mensaje de error, Tails está siendo copiado a la "
+"memoria\n"
+"   USB. El proceso de copiado tarda por lo general un par de minutos.\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -403,7 +422,9 @@ msgstr "   </div>\n"
 #. type: Plain text
 #, no-wrap
 msgid "   The installation is complete once the command prompt reappeared.\n"
-msgstr "   La instalación se ha completado una vez que reaparezca el interprete de comandos.\n"
+msgstr ""
+"   La instalación se ha completado una vez que reaparezca el interprete de "
+"comandos.\n"
 
 #, no-wrap
 #~ msgid "<div class=\"hidden-step-1\"></div>\n"

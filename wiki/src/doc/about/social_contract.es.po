@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2024-01-03 10:23+0000\n"
+"PO-Revision-Date: 2024-01-13 16:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -69,10 +69,9 @@ msgstr ""
 "proteger y avanzar estos ideales."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "2. Tails is and will remain free software"
+#, no-wrap
 msgid "2. Tails is and will remain Free Software"
-msgstr "2. Tails es y seguirá siendo software libre"
+msgstr "2. Tails es y seguirá siendo Software Libre"
 
 #. type: Plain text
 msgid ""
@@ -114,17 +113,12 @@ msgstr ""
 "cantidad posible de hardware;"
 
 #. type: Bullet: '- '
-#, fuzzy
-#| msgid ""
-#| "a few pieces of software whose source code is public but not compatible "
-#| "with the Debian Free Software Guidelines; they are needed to support "
-#| "important use cases."
 msgid ""
 "A few pieces of software whose source code is public but not compatible with "
 "the Debian Free Software Guidelines. They are needed to support important "
 "use cases."
 msgstr ""
-"algunas porciones de software necesario para apoyar usos importantes, cuyo "
+"Algunas porciones de software necesario para apoyar usos importantes, cuyo "
 "código fuente es público pero incompatible con las Directrices de Software "
 "Libre de Debian."
 

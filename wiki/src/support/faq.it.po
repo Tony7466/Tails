@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2024-01-05 17:15+0000\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
 "PO-Revision-Date: 2023-10-05 23:12+0000\n"
 "Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
@@ -947,20 +947,25 @@ msgstr ""
 #. type: Plain text
 #, fuzzy, no-wrap
 #| msgid "Can I use <span class=\"command\">ping</span> in Tails?\n"
-msgid "<h2 id=\"ping\">Can I use <span class=\"command\">ping</span> in Tails?</h2>\n"
+msgid "<h2 id=\"ping\">Can I use <code>ping</code> in Tails?</h2>\n"
 msgstr ""
 "<h2 id=\"ping\">Posso usare <span class=\"command\">ping</span> in Tails?\n"
 "</h2>\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "It is impossible to use <span class=\"command\">ping</span> in Tails,\n"
+#| "because <span class=\"command\">ping</span> uses the ICMP protocol while "
+#| "Tor\n"
+#| "can only transport TCP connections.\n"
 msgid ""
-"It is impossible to use <span class=\"command\">ping</span> in Tails,\n"
-"because <span class=\"command\">ping</span> uses the ICMP protocol while Tor\n"
-"can only transport TCP connections.\n"
+"It is impossible to use `ping` in Tails, because `ping` uses the ICMP "
+"protocol while Tor can only transport TCP connections."
 msgstr ""
 "È impossibile usare <span class=\"command\">ping</span>  in Tails,\n"
-"perché <span class=\"command\">ping</span>  utilizza il protocollo ICMP mentre Tor\n"
+"perché <span class=\"command\">ping</span>  utilizza il protocollo ICMP "
+"mentre Tor\n"
 "può solo trasportare connessioni TCP.\n"
 
 #. type: Plain text
@@ -1201,8 +1206,9 @@ msgstr ""
 "comando in un terminale:"
 
 #. type: Plain text
-#, no-wrap
-msgid "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
+#, fuzzy, no-wrap
+#| msgid "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
+msgid "<p class=\"command\">torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"</p>\n"
 msgstr "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
 
 #. type: Plain text

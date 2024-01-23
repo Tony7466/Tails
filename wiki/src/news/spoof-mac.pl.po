@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2021-12-13 18:07+0000\n"
-"PO-Revision-Date: 2023-12-23 17:21+0000\n"
-"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
+"PO-Revision-Date: 2024-01-11 01:37+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgid "[[!meta title=\"Call for testing: MAC address spoofing\"]]\n"
 msgstr "[[!meta title=\"Wezwanie do testów: fałszowanie adresów MAC\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!meta date=\"Sun, 29 Dec 2013 12:00:00 +0000\"]]\n"
 msgstr "[[!meta date=\"Sun, 29 Dec 2013 12:00:00 +0000\"]]\n"
 

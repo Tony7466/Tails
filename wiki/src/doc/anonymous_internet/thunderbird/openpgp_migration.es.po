@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-04 09:55+0200\n"
-"PO-Revision-Date: 2024-01-07 12:38+0000\n"
+"PO-Revision-Date: 2024-01-16 16:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -227,16 +227,12 @@ msgstr ""
 "Almacenamiento persistente."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-#| "link=\"no\"]]&nbsp;▸ Account Settings**."
 msgid ""
 "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
 "link=\"no\"]]&nbsp;▸ Settings**."
 msgstr ""
-"Elige **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-"link=\"no\"]]&nbsp;▸ Configuración de cuenta**."
+"Elige **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" link=\"no\""
+"]]&nbsp;▸ Configuración**."
 
 #. type: Bullet: '1. '
 msgid "Choose **Privacy & Security**."
@@ -302,16 +298,12 @@ msgid "<h2 id=\"import-public\">Import the public keys in <em>Thunderbird</em></
 msgstr "<h2 id=\"import-public\">Importa las claves públicas en <em>Thunderbird</em></h2>\n"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-#| "link=\"no\"]]&nbsp;▸ Tools&nbsp;▸ OpenPGP Key Manager**."
 msgid ""
 "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
 "link=\"no\"]]&nbsp;▸ Tools&nbsp;▸ OpenPGP Key Manager**."
 msgstr ""
-"Elige **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-"link=\"no\"]]&nbsp;▸ Herramientas&nbsp;▸ OpenPGP Key Manager**."
+"Elige **[[!img lib/open-menu.png alt=\"Menú\" class=\"symbolic\" link=\"no\""
+"]]&nbsp;▸ Herramientas&nbsp;▸ OpenPGP Key Manager**."
 
 #. type: Bullet: '1. '
 #, fuzzy

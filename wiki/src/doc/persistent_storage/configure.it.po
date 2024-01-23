@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2023-11-21 18:16+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2024-01-10 22:35+0000\n"
+"Last-Translator: la_r_go* <largo@tracciabi.li>\n"
 "Language-Team: ita <transitails@inventati.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #. type: Plain text
 #, no-wrap
@@ -454,20 +454,12 @@ msgstr ""
 "pidgin]] vengono salvati nell'Archivio Persistente:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "- The configuration of your accounts, contacts, and chats - Your OTR "
-#| "encryption keys and keyring"
 msgid "- The configuration of your accounts, contacts, and chats"
-msgstr ""
-"- La configurazione dei tuoi account, contatti e chat\n"
-"- Le tue chiavi di crittografia OTR e il portachiavi"
+msgstr "- La configurazione dei tuoi account, contatti e chat"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Your OTR encryption keys and keyring."
 msgid "- Your OTR encryption keys and keyring"
-msgstr "Le tue chiavi di cifratura e il tuo portachiavi OTR."
+msgstr "- Le tue chiavi di cifratura e il tuo portachiavi OTR."
 
 #. type: Plain text
 msgid ""
@@ -515,26 +507,16 @@ msgstr ""
 "client Secure Shell (SSH) vengono salvati nell'Archivio Persistente:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The SSH keys that you create or import"
 msgid "- The SSH keys that you create or import"
-msgstr "Le chiavi SSH che crei o importi"
+msgstr "- Le chiavi SSH che crei o importi"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The public keys of the hosts you connect to"
 msgid "- The public keys of the hosts you connect to"
-msgstr "Le chiavi pubbliche degli host ai quali ti connetti"
+msgstr "- Le chiavi pubbliche degli host ai quali ti connetti"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The SSH configuration file in <span class=\"filename\">~/.ssh/config</"
-#| "span>"
 msgid "- The SSH configuration file in *~/.ssh/config*"
-msgstr ""
-"Il file di configurazione SSH in <span class=\"filename\">~/.ssh/config</"
-"span>"
+msgstr "- Il file di configurazione SSH in*~/.ssh/config*"
 
 #. type: Title =
 #, no-wrap

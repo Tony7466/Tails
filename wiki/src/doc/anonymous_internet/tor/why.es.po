@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2024-01-02 10:22+0000\n"
+"PO-Revision-Date: 2024-01-16 16:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/"
 "first_stepsindex/es/>\n"
@@ -136,9 +136,9 @@ msgid ""
 "to intensive academic research. It is the anonymity network which benefits "
 "from the most auditing and peer review."
 msgstr ""
-"Tor se ha unido a instituciones punta de investigación, y ha sido muy "
-"estudiado en la academia. Es la red de anonimización que se beneficia de la "
-"mayor cantidad de auditorías y revisiones de pares."
+"Tor se ha asociado con las principales instituciones de investigación y ha "
+"sido objeto de una intensa investigación académica. Es la red de anonimato "
+"que se beneficia de más auditorías y revisiones."
 
 #. type: Plain text
 msgid ""
@@ -171,25 +171,19 @@ msgid "<h1 id=\"relationship\">Relationship between Tor and Tails</h1>\n"
 msgstr "Relación entre Tor y Tails"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The Tor software is made by [The Tor Project](https://torproject.org/)."
 msgid ""
 "- The Tor software is made by [The Tor Project](https://torproject.org/)."
 msgstr ""
-"El software Tor está hecho por el  [Tor Project](https://torproject.org/)."
+"- El software de Tor está hecho por el [Proyecto Tor](https://torproject.org/"
+")."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "The Tor network is run by a worldwide community of volunteers."
 msgid "- The Tor network is run by a worldwide community of volunteers."
-msgstr "La red Tor es mantenida por una comunidad mundial de voluntarios."
+msgstr "- La red Tor es mantenida por una comunidad mundial de voluntarios."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Tails is a separate project made by a different group of people."
 msgid "- Tails is a separate project made by a different group of people."
-msgstr "Tails es un proyecto separado hecho por un grupo distinto de gente."
+msgstr "- Tails es un proyecto separado hecho por un grupo distinto de gente."
 
 #. type: Plain text
 #, no-wrap

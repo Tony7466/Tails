@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2024-01-07 12:38+0000\n"
+"PO-Revision-Date: 2024-01-16 16:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "thunderbird/es/>\n"
@@ -51,13 +51,7 @@ msgid "[[!toc levels=2]]\n"
 msgstr "[[!toc levels=2]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "To start <span class=\"application\">Thunderbird</span> choose\n"
-#| "<span class=\"menuchoice\">\n"
-#| "  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
-#| "  <span class=\"guisubmenu\">Internet</span>&nbsp;▸\n"
-#| "  <span class=\"guimenuitem\">Thunderbird</span></span>.\n"
+#, no-wrap
 msgid ""
 "To start <span class=\"application\">Thunderbird</span> choose\n"
 "<span class=\"menuchoice\">\n"
@@ -443,16 +437,12 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-#| "link=\"no\"]]&nbsp;▸ Account Settings**."
 msgid ""
 "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
 "link=\"no\"]]&nbsp;▸ Settings**."
 msgstr ""
-"Elige **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-"link=\"no\"]]&nbsp;▸ Configuración de cuenta**."
+"Elige **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" link=\"no\""
+"]]&nbsp;▸ Configuración**."
 
 #. type: Bullet: '1. '
 msgid "Choose **Privacy & Security**."
