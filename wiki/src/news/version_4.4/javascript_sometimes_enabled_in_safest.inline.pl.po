@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-05-10 15:03+0000\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
 "PO-Revision-Date: 2023-12-23 21:22+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,8 +30,8 @@ msgid ""
 "Tor_Browser#security-level]] in some situations."
 msgstr ""
 "Tor jest świadomy problemu technicznego, który pozwala na wykonywanie "
-"skryptów JavaScript na poziomie bezpieczeństwa *Safest* [[security-level of *"
-"Tor Browser*|doc/anonymous_internet/Tor_Browser#security-level]] w "
+"skryptów JavaScript na poziomie bezpieczeństwa *Safest* [[security-level of "
+"*Tor Browser*|doc/anonymous_internet/Tor_Browser#security-level]] w "
 "niektórych sytuacjach."
 
 #. type: Plain text
@@ -43,9 +43,7 @@ msgstr ""
 "JavaScript zamiast ustawiać poziom bezpieczeństwa:"
 
 #. type: Bullet: '1. '
-msgid ""
-"Open the address <span class=\"command\">about:config</span> in *Tor "
-"Browser*."
+msgid "Open the address `about:config` in *Tor Browser*."
 msgstr ""
 
 #. type: Plain text
@@ -58,9 +56,7 @@ msgid "Click the **I accept the risk!** button."
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid ""
-"At the top of the page, search for <span class=\"command\">javascript."
-"enabled</span>."
+msgid "At the top of the page, search for `javascript.enabled`."
 msgstr ""
 
 #. type: Bullet: '1. '

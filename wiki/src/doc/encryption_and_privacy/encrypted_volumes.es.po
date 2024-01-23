@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2024-01-06 00:26+0000\n"
+"PO-Revision-Date: 2024-01-17 22:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <https://translate.tails.boum.org/projects/tails/"
 "first_stepsindex/es/>\n"
@@ -182,18 +182,13 @@ msgstr ""
 "desplegable <span class=\"guilabel\">Borrar</span>."
 
 #. type: Bullet: '     - '
-#, fuzzy
-#| msgid ""
-#| "Choose <span class=\"guilabel\">Compatible with all systems and devices "
-#| "(MBR/DOS)</span> in the <span class=\"guilabel\">Partitioning</span> drop-"
-#| "down list."
 msgid ""
 "Choose <span class=\"guilabel\">Compatible with all systems and devices (MBR/"
 "DOS)</span> in the <span class=\"guilabel\">Partitioning</span> menu."
 msgstr ""
 "Elige <span class=\"guilabel\">Compatible con todos los sistemas y "
-"dispositivos (MBR/DOS)</span> en el menú desplegable <span "
-"class=\"guilabel\">Tipo</span>."
+"dispositivos (MBR/DOS)</span> en el menú <span class=\"guilabel\""
+">Tipo</span>."
 
 #. type: Plain text
 #, fuzzy, no-wrap

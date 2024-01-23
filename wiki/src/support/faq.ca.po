@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2024-01-05 17:15+0000\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
 "PO-Revision-Date: 2024-01-05 19:22+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -673,10 +673,8 @@ msgid ""
 "So, the information retrieved by such fingerprinting websites is not harmful for\n"
 "anonymity in itself, as long as it is the same for all users of <span class=\"application\">Tor Browser</span>.\n"
 msgstr ""
-"Per tant, la informació recuperada per aquests llocs web d'empremtes "
-"digitals no és perjudicial\n"
-"per a l'anonimat en si mateix, sempre que sigui la mateixa per a tots els "
-"usuaris del <span class=\"application\">Navegador Tor</span>.\n"
+"Per tant, la informació recuperada per aquests llocs web d'empremtes digitals no és perjudicial\n"
+"per a l'anonimat en si mateix, sempre que sigui la mateixa per a tots els usuaris del <span class=\"application\">Navegador Tor</span>.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -929,19 +927,25 @@ msgstr ""
 "és complicat i encara no està documentat."
 
 #. type: Plain text
-#, no-wrap
-msgid "<h2 id=\"ping\">Can I use <span class=\"command\">ping</span> in Tails?</h2>\n"
+#, fuzzy, no-wrap
+#| msgid "<h2 id=\"ping\">Can I use <span class=\"command\">ping</span> in Tails?</h2>\n"
+msgid "<h2 id=\"ping\">Can I use <code>ping</code> in Tails?</h2>\n"
 msgstr "<h2 id=\"ping\">Puc utilitzar <span class=\"command\">ping</span> a Tails?</h2>\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "It is impossible to use <span class=\"command\">ping</span> in Tails,\n"
+#| "because <span class=\"command\">ping</span> uses the ICMP protocol while "
+#| "Tor\n"
+#| "can only transport TCP connections.\n"
 msgid ""
-"It is impossible to use <span class=\"command\">ping</span> in Tails,\n"
-"because <span class=\"command\">ping</span> uses the ICMP protocol while Tor\n"
-"can only transport TCP connections.\n"
+"It is impossible to use `ping` in Tails, because `ping` uses the ICMP "
+"protocol while Tor can only transport TCP connections."
 msgstr ""
 "És impossible utilitzar <span class=\"command\">ping</span> a Tails,\n"
-"perquè <span class=\"command\">ping</span> utilitza el protocol ICMP mentre Tor\n"
+"perquè <span class=\"command\">ping</span> utilitza el protocol ICMP mentre "
+"Tor\n"
 "només pot transportar connexions TCP.\n"
 
 #. type: Plain text
@@ -1153,8 +1157,9 @@ msgstr ""
 "terminal:"
 
 #. type: Plain text
-#, no-wrap
-msgid "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
+#, fuzzy, no-wrap
+#| msgid "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
+msgid "<p class=\"command\">torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"</p>\n"
 msgstr "    torsocks youtube-dl \"https://www.youtube.com/watch?v=JWII85UlzKw\"\n"
 
 #. type: Plain text
@@ -1395,10 +1400,8 @@ msgid ""
 "<p>In the future, we might make it possible to verify the integrity of a Tails\n"
 "USB stick from another trusted OS. ([[!tails_ticket 7496]])</p>\n"
 msgstr ""
-"<p>En el futur, intentarem fer possible verificar la integritat d'un llapis "
-"USB\n"
-"de Tails des d'un altre sistema operatiu de confiança. ([[!tails_ticket "
-"7496]])</p>\n"
+"<p>En el futur, intentarem fer possible verificar la integritat d'un llapis USB\n"
+"de Tails des d'un altre sistema operatiu de confiança. ([[!tails_ticket 7496]])</p>\n"
 
 #. type: Plain text
 #, no-wrap

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-01 03:08+0000\n"
-"PO-Revision-Date: 2024-01-03 13:22+0000\n"
+"PO-Revision-Date: 2024-01-11 18:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -105,10 +105,9 @@ msgid "[[Download and install Tails|install]]"
 msgstr "[[Descargar e instalar Tails|install]]"
 
 #. type: Content of: <section><div><div><ul><li>
-#, fuzzy
-#| msgid "[[System requirements|doc/about/requirements]]"
 msgid "[[System requirements and recommended hardware|doc/about/requirements]]"
-msgstr "[[Requisitos del sistema|doc/about/requirements]]"
+msgstr ""
+"[[Requisitos del sistema y hardware recomendado|doc/about/requirements]]"
 
 #. type: Content of: <section><div>
 msgid ""

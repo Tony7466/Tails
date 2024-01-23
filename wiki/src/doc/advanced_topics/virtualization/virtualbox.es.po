@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2024-01-03 23:05+0000\n"
-"PO-Revision-Date: 2023-12-29 16:22+0000\n"
+"PO-Revision-Date: 2024-01-21 11:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "advanced_topics_virtualbox/es/>\n"
@@ -170,6 +170,8 @@ msgid ""
 "[[Download Tails as an ISO image|install/download-iso]], instead of a USB "
 "image."
 msgstr ""
+"[[Descargar Tails como una imagen ISO|install/download-iso]], en vez de una "
+"imagen USB."
 
 #. type: Bullet: '1. '
 #, fuzzy
