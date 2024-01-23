@@ -149,11 +149,11 @@ Then /^I connect to an SFTP server on the Internet$/ do
     # Since Bookworm Nautilus behaves odd with our default showingOnly
     # == true, it just lists a single frame as the only child.
     connect_bar = nautilus.child('Connect to Server',
-                                 roleName: 'label',
+                                 roleName:    'label',
                                  showingOnly: false)
                           .parent.parent
     connect_bar.child('Connect to Server',
-                      roleName: 'text',
+                      roleName:    'text',
                       showingOnly: false).text =
       "sftp://#{@sftp_username}@#{@sftp_host}:#{@sftp_port}"
     connect_bar.childLabelled('Connect', showingOnly: false).click

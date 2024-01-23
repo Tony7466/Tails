@@ -7,21 +7,7 @@
 # IMPORTS
 
 # Custom imports
-import gettext
 import random
-
-# DOCUMENTATION
-
-
-def _(string):
-    try:
-        encoded = gettext.translation("tails", "/usr/share/locale").lgettext(string)
-        string = encoded.decode("utf-8")
-    except IOError:
-        pass
-    finally:
-        return string
-
 
 # ENCRYPTION
 #
@@ -72,7 +58,7 @@ socks_port = 9062
 
 # The subject of the email to be sent
 # Please take into account that this will not be encrypted
-mail_subject = "Bug report: %x" % random.randrange(16**32)
+mail_subject = "Bug report: %x" % random.randrange(16**32)  # noqa: S311
 
 
 def mail_prepended_info():
