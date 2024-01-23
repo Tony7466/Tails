@@ -41,7 +41,6 @@ class ASPDataError(ASPError):
     """Raised when the data read does not have the expected format."""
 
 
-
 def set_up_logging(log_to_journal=False):
     debug = os.getenv("DEBUG") or "debug" in Path("/proc/cmdline").read_text().split()
     log_level = logging.DEBUG if debug else logging.INFO
