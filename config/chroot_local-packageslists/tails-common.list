@@ -96,7 +96,6 @@ fonts-dejavu
 fonts-liberation
 fonts-linuxlibertine
 gdm3
-gedit
 gimp
 git
 gkbd-capplet
@@ -113,6 +112,7 @@ gnome-shell-extensions
 gnome-sound-recorder
 gnome-system-monitor
 gnome-terminal
+gnome-text-editor
 gnome-themes-extra
 gnome-user-docs
 gnupg-agent

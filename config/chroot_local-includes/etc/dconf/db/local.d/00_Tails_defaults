@@ -46,9 +46,6 @@ allow-volume-above-100-percent=true
 [org/gnome/desktop/wm/preferences]
 button-layout = 'appmenu:minimize,maximize,close'
 
-[org/gnome/gedit/preferences/editor]
-create-backup-copy = false
-
 [org/gnome/nautilus/desktop]
 volumes-visible = false
 
