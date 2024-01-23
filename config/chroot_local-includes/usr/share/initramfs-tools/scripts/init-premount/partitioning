@@ -139,7 +139,7 @@ first_boot_repartition() {
 	# Recompute CHS values for the hybrid MBR (see #16389),
 	# set the partition type again (something has reset it to "Basic data"),
 	# and set the following attributes on the system partition
-	# (we have to set themafter running fatresize, because fatresize
+	# (we have to set them after running fatresize, because fatresize
 	# resets them):
 	#   0: system partition
 	#   2: legacy BIOS bootable

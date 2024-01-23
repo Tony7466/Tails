@@ -14,7 +14,7 @@ module Dogtail
   # left intact when doing new (proxied) method calls.  This way we
   # can support stuff like:
   #
-  #     app = Dogtail::Application.new('gedit')
+  #     app = Dogtail::Application.new('evince')
   #     menu = app.menu('Menu')
   #     menu.click()
   #     menu.something_else()

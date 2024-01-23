@@ -144,12 +144,12 @@ class TimezonePopover:
         self.relative_to = relative_to
         self._create_tz_store()
         self.value_changed_by_user = False
-        popover_box = self.builder.get_object("box_{}_popover".format(self.id))
+        popover_box = self.builder.get_object(f"box_{self.id}_popover")
         self.popover = Popover(self.relative_to, popover_box)
         self.popover.widget.set_constrain_to(Gtk.PopoverConstraint.NONE)
         self.popover.widget.set_position(Gtk.PositionType.RIGHT)
 
-        self.treeview = self.builder.get_object("treeview_{}".format(self.id))
+        self.treeview = self.builder.get_object(f"treeview_{self.id}")
         self.treeview.connect("row-activated", self.cb_treeview_row_activated)
 
         # Fill the treeview
@@ -158,7 +158,7 @@ class TimezonePopover:
         column = Gtk.TreeViewColumn("", renderer, text=0)
         self.treeview.append_column(column)
 
-        searchentry = self.builder.get_object("searchentry_{}".format(self.id))
+        searchentry = self.builder.get_object(f"searchentry_{self.id}")
         searchentry.connect("search-changed", self.cb_searchentry_search_changed)
         searchentry.connect("activate", self.cb_searchentry_activate)
 

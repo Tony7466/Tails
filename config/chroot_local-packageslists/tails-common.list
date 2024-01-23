@@ -96,7 +96,6 @@ fonts-dejavu
 fonts-liberation
 fonts-linuxlibertine
 gdm3
-gedit
 gimp
 git
 gkbd-capplet
@@ -113,6 +112,7 @@ gnome-shell-extensions
 gnome-sound-recorder
 gnome-system-monitor
 gnome-terminal
+gnome-text-editor
 gnome-themes-extra
 gnome-user-docs
 gnupg-agent
@@ -423,3 +423,6 @@ usbguard
 # Useful to fix PGP keys with a SHA-1 signature in airgapped/offline setups.
 # See https://sequoia-pgp.org/blog/2023/02/01/202302-happy-sha1-day/
 sq-keyring-linter
+
+# Needed by Electrum
+python3-pyqt5
