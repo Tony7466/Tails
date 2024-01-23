@@ -7,21 +7,7 @@
 # IMPORTS
 
 # Custom imports
-import gettext
 import random
-
-# DOCUMENTATION
-
-
-def _(string):
-    try:
-        encoded = gettext.translation("tails", "/usr/share/locale").lgettext(string)
-        string = encoded.decode("utf-8")
-    except OSError:
-        pass
-    finally:
-        return string
-
 
 # ENCRYPTION
 #
