@@ -115,7 +115,7 @@ class Service(DBusObject, ServiceUsingJobs):
         self.object_manager = None  # type: Optional[Gio.DBusObjectManagerServer]
         self.config_file = ConfigFile(TPS_MOUNT_POINT)
         self.bus_id = None
-        self.features: list = []
+        self.features: list[Feature] = []
         self._tps_partition = None  # type: Optional[TPSPartition]
         self._device = ""
         self.state = State.UNKNOWN
