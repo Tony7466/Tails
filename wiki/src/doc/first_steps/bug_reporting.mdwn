@@ -7,7 +7,7 @@ to fix it.
 
 [[!toc levels=2]]
 
-<h1 id="already-known">Check if the error is already known</h1>
+<h1 id="known">Check if the error is already known</h1>
 
 Have a look at:
 
@@ -17,7 +17,7 @@ Have a look at:
   [[!tails_gitlab groups/tails/-/milestones
   desc="list of things that will be fixed or improved in the next release"]]
 
-<h1 id="useful-bug-report">How to write a useful error report</h1>
+<h1 id="useful">How to write a useful error report</h1>
 
 - The first aim of a error report is to **tell the developers exactly
   how to reproduce the failure**, so try to reproduce the issue
@@ -41,7 +41,7 @@ Simon Tatham.
 
 **WhisperBack is an application written specifically to report errors anonymously
 from inside Tails. If you are not able to use WhisperBack, see the [[special
-cases|bug_reporting#special-cases]].**
+cases|bug_reporting#special]].**
 
 WhisperBack will help you fill-up an error report, including relevant technical
 details and send it to us encrypted and through Tor.
@@ -145,7 +145,7 @@ Once you are done writing your report, send it by clicking the *Send* button.
 Once your email has been sent correctly you will get the following
 notification: <span class="guilabel">Your message has been sent</span>.
 
-<h1 id="special-cases">If you cannot use <span class="application">WhisperBack</span></h1>
+<h1 id="special">If you cannot use <span class="application">WhisperBack</span></h1>
 
 You might not always be able to use WhisperBack. In those cases, you can also
 send your error report by [[email|support/talk]] directly.
@@ -153,7 +153,7 @@ send your error report by [[email|support/talk]] directly.
 Note that if you send the report yourself, it might not be anonymous unless you
 take special care (for example, using Tor with a throw-away email account).
 
-<h2 id="no-internet-access">No Internet access</h2>
+<h2 id="offline">No Internet access</h2>
 
 If you are not able to connect to the Internet from Tails, you can try
 following our
@@ -178,7 +178,7 @@ report:
 
 6. Boot into a system with Internet connection and send your report.
 
-<h2 id="does-not-start">Tails does not start</h2>
+<h2 id="not_start">Tails does not start</h2>
 
 For troubleshooting instructions in case Tails fails to start, refer to
 our installation instructions on:
