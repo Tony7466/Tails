@@ -733,11 +733,6 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
         for signal_match in self.signals_connected:
             signal_match.remove()
 
-        # Unmount the device if needed
-        if self.live.drive["mount"]:
-            self.live.dest = self.live.drive["mount"]
-            self.live.unmount_device()
-
         if not self.opts.partition:
             try:
                 self.live.mount_device()
