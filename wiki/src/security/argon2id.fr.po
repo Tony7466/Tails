@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2024-01-12 15:22+0000\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
 "PO-Revision-Date: 2023-11-08 09:12+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -935,7 +935,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "      <p class=\"pre command\">sudo cryptsetup luksDump /dev/<span class=\"command-placeholder\">[partition]</span></p>\n"
+msgid "      <p class=\"pre command-template\">sudo cryptsetup luksDump /dev/<span class=\"command-placeholder\">[partition]</span></p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -944,22 +944,13 @@ msgid "      In the output:\n"
 msgstr "      Dans la sortie :\n"
 
 #. type: Bullet: '      - '
-msgid ""
-"<span class=\"command\">Version</span> indicates the version of LUKS, either "
-"<span class=\"command\">1</span> or <span class=\"command\">2</span>."
+msgid "`Version` indicates the version of LUKS, either `1` or `2`."
 msgstr ""
-"<span class=\"command\">Version</span> indique la version de LUKS, soit "
-"<span class=\"command\">1</span> ou <span class=\"command\">2</span>."
 
 #. type: Bullet: '      - '
 msgid ""
-"<span class=\"command\">PBKDF</span> indicates the key derivation function, "
-"either <span class=\"command\">pbkdf2</span> or <span "
-"class=\"command\">argon2id</span>."
+"`PBKDF` indicates the key derivation function, either `pbkdf2` or `rgon2id`."
 msgstr ""
-"<span class=\"command\">PBKDF</span> indique la fonction de dérivation de "
-"clé, soit <span class=\"command\">pbkdf2</span> ou <span "
-"class=\"command\">argon2id</span>."
 
 #. type: Title ###
 #, no-wrap
@@ -972,3 +963,24 @@ msgid ""
 "      Replace <span class=\"command-placeholder\">[partition]</span> with the\n"
 "      partition name found in step 6.\n"
 msgstr ""
+
+#. type: Bullet: '      - '
+#, fuzzy
+#| msgid ""
+#| "<span class=\"command\">PBKDF</span> indicates the key derivation "
+#| "function, either <span class=\"command\">pbkdf2</span> or <span "
+#| "class=\"command\">argon2id</span>."
+msgid ""
+"`PBKDF` indicates the key derivation function, either `pbkdf2` or `argon2id`."
+msgstr ""
+"<span class=\"command\">PBKDF</span> indique la fonction de dérivation de "
+"clé, soit <span class=\"command\">pbkdf2</span> ou <span "
+"class=\"command\">argon2id</span>."
+
+#~ msgid ""
+#~ "<span class=\"command\">Version</span> indicates the version of LUKS, "
+#~ "either <span class=\"command\">1</span> or <span class=\"command\">2</"
+#~ "span>."
+#~ msgstr ""
+#~ "<span class=\"command\">Version</span> indique la version de LUKS, soit "
+#~ "<span class=\"command\">1</span> ou <span class=\"command\">2</span>."

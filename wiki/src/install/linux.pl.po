@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-22 04:29+0000\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
 "PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: Polish <http://translate.tails.boum.org/projects/tails/linux/"
@@ -28,9 +28,7 @@ msgstr "[[!meta title=\"Zainstaluj Tails z Linuksa\"]]\n"
 #. type: Plain text
 #, fuzzy, no-wrap
 msgid "[[!meta stylesheet=\"inc/stylesheets/overview\" rel=\"stylesheet\" title=\"\"]]\n"
-msgstr ""
-"[[!meta stylesheet=\"inc/stylesheets/overview\" rel=\"stylesheet\" title=\"\""
-"]]\n"
+msgstr "[[!meta stylesheet=\"inc/stylesheets/overview\" rel=\"stylesheet\" title=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -112,7 +110,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "     You can also install Tails using the\n"
-"     <span class=\"command\">dd</span> command from any Linux distribution\n"
+"     `dd` command from any Linux distribution\n"
 "     as described in our instructions for [[installing from Debian using\n"
 "     the command line|install/expert#install]].\n"
 msgstr ""
