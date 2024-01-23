@@ -78,38 +78,6 @@ reply from us.</p>
 
 </div>
 
-<h2 id="screenshot">Take a screenshot</h2>
-
-It might be helpful to include a screenshot with your error report.
-
-- To take a screenshot of the entire desktop, press
-  **Print Screen**.
-
-- To take a screenshot of a single window, press
-  **Alt + Print Screen**.
-
-- To take a screenshot of an area you select,
-  press **Shift + Print Screen**.
-
-The screenshot will automatically be saved in the
-*Pictures* folder located in your
-*Home* folder. The file name will begin with the
-word *Screenshot*.
-
-You can also take a screenshot using
-*GNOME Screenshot*.
-
-To start *GNOME Screenshot*, choose **Applications**&nbsp;▸
-**Utilities**&nbsp;▸ **Screenshot**.
-
-You can upload the screenshot to an
-[encrypted Up1 host](https://github.com/Upload/Up1) such as the one
-available at:
-
-<https://share.riseup.net/>
-
-Make sure to include in your error report a link to the screenshot.
-
 Optional email address
 ----------------------
 
