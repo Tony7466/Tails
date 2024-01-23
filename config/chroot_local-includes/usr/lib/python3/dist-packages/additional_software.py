@@ -94,9 +94,9 @@ def get_additional_packages():
     try:
         with open(get_packages_list_path()) as f:
             for line in f:
-                line = line.strip()
-                if line:
-                    packages.add(line)
+                pkg = line.strip()
+                if pkg:
+                    packages.add(pkg)
     except FileNotFoundError:
         # Just return an empty set.
         pass
