@@ -372,7 +372,7 @@ In systemd the remote shell is defined as notify type, that means the remote
 shell can tell systemd, when it is ready. So we just need to make sure that the
 remote shell is needed to be started before another service.
 
-How to achive that?
+How to achieve that?
 
 In the service file of the remote shell we define the service, we want to hook
 on in Before.
