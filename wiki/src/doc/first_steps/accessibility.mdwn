@@ -59,5 +59,26 @@ documentation](https://help.gnome.org/users/orca/stable/).
 If you prefer a pointing device over the keyboard, you can activate the
 <span class="guilabel">Screen Keyboard</span> accessibility feature.
 
+<div class="tip">
+
+<p>You can also use the screen keyboard to protect against hardware keyloggers
+by avoiding to use the actual keyboard.</p>
+
+<p>If a keylogger has been physically installed on the computer, your
+passwords, personal information, and other data typed on the keyboard could be
+stored and accessed by someone else, even if you are using Tails.</p>
+
+<p>For an example, see
+<a href="https://www.youtube.com/watch?v=6JJo8qCYE8M">KeeLog: KeyGrabber
+forensic keylogger getting started</a>.</p>
+
+<p>Keyloggers are more likely on public computers, in internet cafés or
+libraries, and on desktop computers, where a device is easier to hide.</p>
+
+<p>See also: [[Reducing risks when using untrusted
+computers|doc/about/warnings/computer]].</p>
+
+</div>
+
 For more detailed documentation refer to the official
 [<span class="application">GNOME</span> Screen Keyboard documentation](https://help.gnome.org/users/gnome-help/stable/keyboard-osk.html.en).
