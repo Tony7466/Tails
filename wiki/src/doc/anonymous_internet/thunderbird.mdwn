@@ -68,10 +68,10 @@ Support](https://support.mozilla.org/en-US/products/thunderbird) website.
    <span class="application">Thunderbird</span>, you need to:</p>
 
    <ol>
-     <li>Enable IMAP or POP. See <a href="https://support.google.com/mail/answer/7126229">Gmail Help: Check Gmail through other email platforms</a>.</li>
-     <li>Turn on 2-Step Verification. See <a href="https://support.google.com/accounts/answer/185839">Google Account Help: 2-Step Verification</a>.</li>
-     <li>Create an App Password. See <a href="https://support.google.com/mail/answer/185833">Gmail Help: Sign in with App Passwords</a>.</li>
-     <li>Use the App Password in <em>Thunderbird</em>.</li>
+     <li><p>Enable IMAP or POP. See <a href="https://support.google.com/mail/answer/7126229">Gmail Help: Check Gmail through other email platforms</a>.</p></li>
+     <li><p>Turn on 2-Step Verification. See <a href="https://support.google.com/accounts/answer/185839">Google Account Help: 2-Step Verification</a>.</p></li>
+     <li><p>Create an App Password. See <a href="https://support.google.com/mail/answer/185833">Gmail Help: Sign in with App Passwords</a>.</p></li>
+     <li><p>Use the App Password in <em>Thunderbird</em>.</p></li>
    </ol>
 
    </div>
