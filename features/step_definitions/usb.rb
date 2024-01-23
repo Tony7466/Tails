@@ -838,6 +838,22 @@ def parse_udisksctl_info(input)
   tree
 end
 
+# Returns the first non-nosymfollow mountpoint of device. If the
+# device has a LUKS mapping we instead return where it is mounted.
+def mountpoint(device)
+  info = parse_udisksctl_info(
+    $vm.execute_successfully("udisksctl info -b #{device}").stdout
+  )
+  if info['org.freedesktop.UDisks2.Block']['IdType'] == 'crypto_LUKS'
+    uuid = info['org.freedesktop.UDisks2.Block']['IdUUID']
+    luks_mapping = "/dev/mapper/luks-#{uuid}"
+    return mountpoint(luks_mapping)
+  else
+    info['org.freedesktop.UDisks2.Filesystem']['MountPoints']
+      .find { |p| !p.match?(Regexp.new('^/run/nosymfollow/')) }
+  end
+end
+
 Then /^Tails is running from (.*) drive "([^"]+)"$/ do |bus, name|
   bus = bus.downcase
   expected_bus = bus == 'sata' ? 'ata' : bus
