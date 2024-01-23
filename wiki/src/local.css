@@ -702,6 +702,10 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
   margin-top: 30px;
 }
 
+.block .block {
+  border: none;
+}
+
 .blocks .block-full {
   width: 100%;
 }
