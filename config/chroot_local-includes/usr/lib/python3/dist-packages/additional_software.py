@@ -164,8 +164,7 @@ def notify(
                 documentation_target,
                 urgent,
             ],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
+            capture_output=True,
             text=True,
         )
         if completed_process.stderr:
