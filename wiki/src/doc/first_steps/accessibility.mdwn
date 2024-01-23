@@ -6,8 +6,7 @@ assistive devices.
 
 [[!toc]]
 
-Accessibility menu
-==================
+<h1 id="menu">Accessibility menu</h1>
 
 You can activate several assistive technologies, like a screen reader or large
 text, from the accessibility menu in the top bar, the
@@ -22,8 +21,7 @@ Visual Alters, Sticky Keys, Slow Keys, Bounce Keys, and Mouse Keys"]]
 These technologies are documented in more details in
 [GNOME Help: Accessibility](https://help.gnome.org/users/gnome-help/stable/a11y.html).
 
-Keyboard shortcuts
-==================
+<h1 id="shortcuts">Keyboard shortcuts</h1>
 
 <table>
 <tr><td>Turn screen reader on or off</td><td>Alt+Super+S</td></tr>
@@ -47,8 +45,7 @@ To access the accessibility menu using the keyboard:
 
 1. Press <span class="bold">Esc</span> to close the menu.
 
-Screen reader
-=============
+<h1 id="reader">Screen reader</h1>
 
 To hear screen elements spoken to you, you can activate the
 <span class="guilabel">Screen Reader</span> accessibility feature.
@@ -57,8 +54,7 @@ For more detailed documentation refer to the official [<span
 class="application">Orca</span> Screen Reader
 documentation](https://help.gnome.org/users/orca/stable/).
 
-Screen keyboard
-===============
+<h1 id="keyboard">Screen keyboard</h1>
 
 If you prefer a pointing device over the keyboard, you can activate the
 <span class="guilabel">Screen Keyboard</span> accessibility feature.
