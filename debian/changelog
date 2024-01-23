@@ -713,7 +713,6 @@ tails (5.19) unstable; urgency=medium
       - fix deprecation warning
 
  -- Tails developers <tails@boum.org>  Mon, 30 Oct 2023 07:45:10 +0000
->>>>>>> stable
 
 tails (5.18) unstable; urgency=medium
 
