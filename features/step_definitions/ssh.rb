@@ -146,11 +146,17 @@ Then /^I connect to an SFTP server on the Internet$/ do
     # have no a11y action, so Dogtail cannot interact with them.
     # They don't react to #grabFocus either.
     @screen.click('NautilusOtherLocations.png')
-    connect_bar = nautilus.child('Connect to Server', roleName: 'label')
+    # Since Bookworm Nautilus behaves odd with our default showingOnly
+    # == true, it just lists a single frame as the only child.
+    connect_bar = nautilus.child('Connect to Server',
+                                 roleName: 'label',
+                                 showingOnly: false)
                           .parent.parent
-    connect_bar.child('Connect to Server', roleName: 'text').text =
+    connect_bar.child('Connect to Server',
+                      roleName: 'text',
+                      showingOnly: false).text =
       "sftp://#{@sftp_username}@#{@sftp_host}:#{@sftp_port}"
-    connect_bar.childLabelled('Connect').click
+    connect_bar.childLabelled('Connect', showingOnly: false).click
     step 'I verify the SSH fingerprint for the SFTP server'
   end
 end
@@ -166,8 +172,11 @@ Then /^I verify the SSH fingerprint for the SFTP server$/ do
 end
 
 Then /^I successfully connect to the SFTP server$/ do
+  # Since Bookworm Nautilus behaves odd with our default showingOnly
+  # == true, it just lists a single frame as the only child.
   try_for(60) do
     Dogtail::Application.new('org.gnome.Nautilus')
-                        .child?("#{@sftp_username} on #{@sftp_host}")
+                        .child?("#{@sftp_username} on #{@sftp_host}",
+                                showingOnly: false)
   end
 end
