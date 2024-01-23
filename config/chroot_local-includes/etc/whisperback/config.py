@@ -58,7 +58,7 @@ socks_port = 9062
 
 # The subject of the email to be sent
 # Please take into account that this will not be encrypted
-mail_subject = "Bug report: %x" % random.randrange(16**32)
+mail_subject = "Bug report: %x" % random.randrange(16**32)  # noqa: S311
 
 
 def mail_prepended_info():
