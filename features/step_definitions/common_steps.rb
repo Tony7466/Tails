@@ -1296,7 +1296,7 @@ end
 
 def mount_usb_drive(disk, **fs_options)
   fs_options[:encrypted] ||= false
-  @tmp_usb_drive_mount_dir = $vm.execute_successfully('mktemp -d').stdout.chomp
+  mount_dir = $vm.execute_successfully('mktemp -d').stdout.chomp
   dev = $vm.disk_dev(disk)
   partition = "#{dev}1"
   if fs_options[:encrypted]
@@ -1308,15 +1308,12 @@ def mount_usb_drive(disk, **fs_options)
       "cryptsetup luksOpen #{partition} #{luks_mapping}"
     )
     $vm.execute_successfully(
-      "mount /dev/mapper/#{luks_mapping} #{@tmp_usb_drive_mount_dir}"
+      "mount /dev/mapper/#{luks_mapping} #{mount_dir}"
     )
   else
-    $vm.execute_successfully("mount #{partition} #{@tmp_usb_drive_mount_dir}")
+    $vm.execute_successfully("mount #{partition} #{mount_dir}")
   end
-  @tmp_filesystem_disk = disk
-  @tmp_filesystem_options = fs_options
-  @tmp_filesystem_partition = partition
-  @tmp_usb_drive_mount_dir
+  mount_dir
 end
 
 When(/^I plug and mount a (\d+) MiB USB drive with an? (.*)$/) do |size_MiB, fs|
@@ -1326,25 +1323,49 @@ When(/^I plug and mount a (\d+) MiB USB drive with an? (.*)$/) do |size_MiB, fs|
   step "I create a gpt partition labeled \"#{disk}\" with " \
        "an #{fs} on disk \"#{disk}\""
   step "I plug USB drive \"#{disk}\""
+  device = $vm.disk_dev(disk)
+  partition = "#{device}1"
+  mount_dir = nil
   fs_options = {}
   fs_options[:filesystem] = /(.*) filesystem/.match(fs)[1]
   if /\bencrypted with password\b/.match(fs)
     fs_options[:encrypted] = true
     fs_options[:password] = /encrypted with password "([^"]+)"/.match(fs)[1]
   end
-  mount_dir = mount_usb_drive(disk, **fs_options)
+  # GNOME auto-mounts removable media, except encrypted devices that
+  # need to be manually unlocked with the GNOME password prompt that
+  # automatically appears
+  if fs_options[:encrypted]
+    prompt = Dogtail::Application.new('gnome-shell')
+                                 .child('Authentication Required', roleName: 'label')
+                                 .parent.parent.parent
+    prompt.child(roleName: 'password text').text = "asdf"
+    prompt.button('Unlock').grabFocus
+    @screen.press('Return')
+  end
+  # Wait for GNOME to (maybe unlock) and mount
+  try_for(20) do
+    mount_dir = mountpoint(partition)
+    !mount_dir.nil?
+  end
+  @tmp_filesystem_disk = disk
+  @tmp_filesystem_options = fs_options
   @tmp_filesystem_size_b = avail_space_in_mountpoint(mount_dir)
+  @tmp_usb_drive_mount_dir = mount_dir
 end
 
 When(/^I mount the USB drive again$/) do
-  mount_usb_drive(@tmp_filesystem_disk, **@tmp_filesystem_options)
+  @tmp_usb_drive_mount_dir = mount_usb_drive(@tmp_filesystem_disk,
+                                             **@tmp_filesystem_options)
 end
 
 When(/^I umount the USB drive$/) do
-  $vm.execute_successfully("umount #{@tmp_usb_drive_mount_dir}")
+  device = $vm.execute_successfully(
+    "findmnt --noheadings --output SOURCE #{@tmp_usb_drive_mount_dir}"
+  ).stdout
+  $vm.execute_successfully("umount #{device}")
   if @tmp_filesystem_options[:encrypted]
-    $vm.execute_successfully('cryptsetup luksClose ' \
-                             "#{@tmp_filesystem_disk}_unlocked")
+    $vm.execute_successfully("cryptsetup luksClose #{device}")
   end
 end
 
