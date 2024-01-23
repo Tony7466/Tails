@@ -1333,10 +1333,7 @@ When(/^I plug and mount a (\d+) MiB USB drive with an? (.*)$/) do |size_MiB, fs|
     fs_options[:password] = /encrypted with password "([^"]+)"/.match(fs)[1]
   end
   mount_dir = mount_usb_drive(disk, **fs_options)
-  @tmp_filesystem_size_b = convert_to_bytes(
-    avail_space_in_mountpoint_kB(mount_dir),
-    'KB'
-  )
+  @tmp_filesystem_size_b = avail_space_in_mountpoint(mount_dir)
 end
 
 When(/^I mount the USB drive again$/) do

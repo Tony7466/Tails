@@ -107,17 +107,17 @@ When /^I kill the allocating process$/ do
   end
 end
 
-def avail_space_in_mountpoint_kB(mountpoint)
+def avail_space_in_mountpoint(mountpoint)
   $vm.execute_successfully(
-    "df --output=avail '#{mountpoint}'"
+    "df --block-size=1 --output=avail '#{mountpoint}'"
   ).stdout.split("\n")[1].to_i
 end
 
 def assert_filesystem_is_full(mountpoint)
-  avail_space = avail_space_in_mountpoint_kB(mountpoint)
+  avail_space = avail_space_in_mountpoint(mountpoint)
   assert_equal(
     0, avail_space,
-    "#{avail_space} kB is still free on #{mountpoint}," \
+    "#{avail_space} bytes are still free on #{mountpoint}," \
     'while this filesystem was expected to be full'
   )
 end
