@@ -154,7 +154,7 @@ def notify(
 
     try:
         completed_process = subprocess.run(  # noqa: PLW1510
-            [
+            [  # noqa: S603
                 "/usr/local/lib/run-with-user-env",
                 cmd,
                 title,
