@@ -47,17 +47,17 @@ To access the accessibility menu using the keyboard:
 
 <h1 id="reader">Screen reader</h1>
 
-To hear screen elements spoken to you, you can activate the
-<span class="guilabel">Screen Reader</span> accessibility feature.
+To hear screen elements spoken to you, turn on the **Screen Reader** from the
+accessibility menu ([[!img lib/accessibility.png alt="accessiblity menu"
+class="symbolic" link="no"]]).
 
-For more detailed documentation refer to the official [<span
-class="application">Orca</span> Screen Reader
-documentation](https://help.gnome.org/users/orca/stable/).
+See also: [GNOME Help: *Orca* Screen Reader](https://help.gnome.org/users/orca/stable/).
 
 <h1 id="keyboard">Screen keyboard</h1>
 
-If you prefer a pointing device over the keyboard, you can activate the
-<span class="guilabel">Screen Keyboard</span> accessibility feature.
+If you prefer a pointing device over the keyboard, turn on the **Screen
+Keyboard** from the accessibility menu ([[!img lib/accessibility.png
+alt="accessiblity menu" class="symbolic" link="no"]]).
 
 <div class="tip">
 
