@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2024-01-12 15:22+0000\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
 "PO-Revision-Date: 2024-01-13 16:38+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -993,7 +993,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "      <p class=\"pre command\">sudo cryptsetup luksDump /dev/<span class=\"command-placeholder\">[partition]</span></p>\n"
+msgid "      <p class=\"pre command-template\">sudo cryptsetup luksDump /dev/<span class=\"command-placeholder\">[partition]</span></p>\n"
 msgstr ""
 
 #. type: Plain text
@@ -1002,18 +1002,12 @@ msgid "      In the output:\n"
 msgstr ""
 
 #. type: Bullet: '      - '
-msgid ""
-"<span class=\"command\">Version</span> indicates the version of LUKS, either "
-"<span class=\"command\">1</span> or <span class=\"command\">2</span>."
+msgid "`Version` indicates the version of LUKS, either `1` or `2`."
 msgstr ""
-"<span class=\"command\">Version</span> indica las versión de LUKS, ya sea "
-"<span class=\"command\">1</span> o <span class=\"command\">2</span>."
 
 #. type: Bullet: '      - '
 msgid ""
-"<span class=\"command\">PBKDF</span> indicates the key derivation function, "
-"either <span class=\"command\">pbkdf2</span> or <span "
-"class=\"command\">argon2id</span>."
+"`PBKDF` indicates the key derivation function, either `pbkdf2` or `rgon2id`."
 msgstr ""
 
 #. type: Title ###
@@ -1027,6 +1021,19 @@ msgid ""
 "      Replace <span class=\"command-placeholder\">[partition]</span> with the\n"
 "      partition name found in step 6.\n"
 msgstr ""
+
+#. type: Bullet: '      - '
+msgid ""
+"`PBKDF` indicates the key derivation function, either `pbkdf2` or `argon2id`."
+msgstr ""
+
+#~ msgid ""
+#~ "<span class=\"command\">Version</span> indicates the version of LUKS, "
+#~ "either <span class=\"command\">1</span> or <span class=\"command\">2</"
+#~ "span>."
+#~ msgstr ""
+#~ "<span class=\"command\">Version</span> indica las versión de LUKS, ya sea "
+#~ "<span class=\"command\">1</span> o <span class=\"command\">2</span>."
 
 #, no-wrap
 #~ msgid "Persistent Storage (4 words of fewer)"
