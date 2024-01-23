@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"POT-Creation-Date: 2024-01-12 15:22+0000\n"
 "PO-Revision-Date: 2023-07-02 11:34+0000\n"
 "Last-Translator: xin <xin@riseup.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -284,7 +284,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "Persistent Storage (4 words of fewer)"
+msgid "Persistent Storage (4 words or fewer)"
 msgstr ""
 
 #. type: Plain text
@@ -903,8 +903,8 @@ msgstr ""
 #. type: Bullet: '      - '
 msgid ""
 "<span class=\"command\">PBKDF</span> indicates the key derivation function, "
-"either <span class=\"command\">pbkdf2</span> or <span class=\"command"
-"\">argon2id</span>."
+"either <span class=\"command\">pbkdf2</span> or <span "
+"class=\"command\">argon2id</span>."
 msgstr ""
 
 #. type: Title ###

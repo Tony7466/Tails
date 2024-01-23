@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-02-25 15:41-0600\n"
-"PO-Revision-Date: 2023-12-23 19:21+0000\n"
-"Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
+"PO-Revision-Date: 2024-01-11 01:42+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgid "[[!meta title=\"Our achievements in 2020\"]]\n"
 msgstr "[[!meta title=\"Nasze osiągnięcia w 2020 roku\"]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[[!meta date=\"Wed, 23 Dec 2020 18:02:12 +0000\"]]\n"
 msgstr "[[!meta date=\"Wed, 23 Dec 2020 18:02:12 +0000\"]]\n"
 
