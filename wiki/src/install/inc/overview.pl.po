@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-07 00:11+0000\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
 "PO-Revision-Date: 2023-12-23 19:21+0000\n"
 "Last-Translator: Rcvrvugyvgvb <xzdfrlhz@duck.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,12 +59,12 @@ msgstr ""
 #. type: Content of: <div><div><div>
 #, fuzzy
 msgid ""
-"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" text="
-"\"\"]]"
+"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
+"text=\"\"]]"
 msgstr ""
-"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" text="
-"\"X\"]] [[!inline pages=\"install/inc/router/why_extra.inline.pl\" raw=\"yes"
-"\" sort=\"age\"]] \"\"\"]]"
+"[[!toggleable id=\"why_extra\" text=\"\"\" [[!toggle id=\"why_extra\" "
+"text=\"X\"]] [[!inline pages=\"install/inc/router/why_extra.inline.pl\" "
+"raw=\"yes\" sort=\"age\"]] \"\"\"]]"
 
 #. type: Content of: <div><div><div><p>
 msgid ""
@@ -316,7 +316,7 @@ msgid "Install Tails using <i>GNOME Disks</i>"
 msgstr ""
 
 #. type: Content of: <div><a><p>
-msgid "Install Tails using <span class=\"command\">dd</span>"
+msgid "Install Tails using <code>dd</code>"
 msgstr ""
 
 #. type: Content of: <div><a>
@@ -461,8 +461,8 @@ msgstr ""
 
 #, fuzzy
 #~ msgid ""
-#~ "[[!img install/inc/infography/install-etcher.png link=\"no\" alt="
-#~ "\"balenaEtcher downloaded\"]]"
+#~ "[[!img install/inc/infography/install-etcher.png link=\"no\" "
+#~ "alt=\"balenaEtcher downloaded\"]]"
 #~ msgstr "[[!img install/inc/icons/1-usb.png link=\"no\" alt=\"\"]]"
 
 #, fuzzy

@@ -346,10 +346,10 @@ It is currently impossible to run a Tor relay or bridge in Tails.
 It is technically possible to use Tails to provide an onion service
 but it is complicated and not documented yet.
 
-<h2 id="ping">Can I use <span class="command">ping</span> in Tails?</h2>
+<h2 id="ping">Can I use <code>ping</code> in Tails?</h2>
 
-It is impossible to use <span class="command">ping</span> in Tails,
-because <span class="command">ping</span> uses the ICMP protocol while Tor
+It is impossible to use `ping` in Tails,
+because `ping` uses the ICMP protocol while Tor
 can only transport TCP connections.
 
 <h1 id="software">Software not included in Tails</h1>
@@ -436,7 +436,7 @@ allows downloading videos from more than
 For example, to download a YouTube video, execute the following command
 in a terminal:
 
-    torsocks youtube-dl "https://www.youtube.com/watch?v=JWII85UlzKw"
+<p class="command">torsocks youtube-dl "https://www.youtube.com/watch?v=JWII85UlzKw"</p>
 
 For more information, refer to the official
 [<span class="application">youtube-dl</span> website](https://ytdl-org.github.io/youtube-dl/index.html).

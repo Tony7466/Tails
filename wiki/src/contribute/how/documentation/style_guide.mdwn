@@ -317,7 +317,9 @@ Style and usage
 
   - Application and file names
 
-    Write in italic the names of files and applications other than Tails.
+    Write in italic the names of files and GUI applications other than Tails.
+
+    Write as code the names of command line applications.
 
     *For example:*
 
@@ -334,6 +336,14 @@ Style and usage
     * HTML: `<i>~/.gnupg/gpg.conf</i>`
 
     * Result: *~/.gnupg/gpg.conf*
+
+    *For example:*
+
+    * Ping: <code>`ping`</code>
+
+    * HTML: `<code>ping</code>`
+
+    * Result: `ping`
 
   - Button names, GUI labels, key caps, and menu items
 
