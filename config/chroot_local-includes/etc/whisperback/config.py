@@ -17,7 +17,7 @@ def _(string):
     try:
         encoded = gettext.translation("tails", "/usr/share/locale").lgettext(string)
         string = encoded.decode("utf-8")
-    except IOError:
+    except OSError:
         pass
     finally:
         return string
