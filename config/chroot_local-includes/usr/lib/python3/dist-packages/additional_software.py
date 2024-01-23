@@ -40,7 +40,6 @@ class ASPError(Exception):
 class ASPDataError(ASPError):
     """Raised when the data read does not have the expected format."""
 
-    pass
 
 
 def set_up_logging(log_to_journal=False):
