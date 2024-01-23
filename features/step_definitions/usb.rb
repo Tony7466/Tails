@@ -831,6 +831,10 @@ def parse_udisksctl_info(input)
       tree[section][key] += line
     end
   end
+  fs_section = tree['org.freedesktop.UDisks2.Filesystem']
+  if fs_section && fs_section['MountPoints']
+    fs_section['MountPoints'] = fs_section['MountPoints'].split
+  end
   tree
 end
 
