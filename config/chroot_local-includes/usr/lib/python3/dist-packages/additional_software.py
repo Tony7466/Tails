@@ -153,7 +153,7 @@ def notify(
         urgent = ""
 
     try:
-        completed_process = subprocess.run(
+        completed_process = subprocess.run(  # noqa: PLW1510
             [
                 "/usr/local/lib/run-with-user-env",
                 cmd,
