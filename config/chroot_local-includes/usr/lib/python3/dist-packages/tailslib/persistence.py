@@ -48,6 +48,7 @@ def is_tails_media_writable():
     return (
         subprocess.run(
             "/usr/local/lib/tails-boot-device-can-have-persistence",
+            check=False,
         ).returncode
         == 0
     )
@@ -63,6 +64,7 @@ def additional_software_persistence_feature_is_active() -> bool:
     return (
         subprocess.run(
             ["/usr/local/lib/tpscli", "is-active", "AdditionalSoftware"],
+            check=False,
         ).returncode
         == 0
     )
