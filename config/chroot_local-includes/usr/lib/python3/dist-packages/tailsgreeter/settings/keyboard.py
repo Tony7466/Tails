@@ -229,9 +229,9 @@ class KeyboardSetting(LocalizationSetting):
 
         if not layouts:
             layouts = set(
-                l
-                for l in language_layouts
-                if self._split_variant(l)[0] == country.lower
+                layout
+                for layout in language_layouts
+                if self._split_variant(layout)[0] == country.lower
             )
             logging.debug(
                 "Empty intersection of language and country, filter "
@@ -241,7 +241,7 @@ class KeyboardSetting(LocalizationSetting):
             )
         if not layouts:
             layouts = set(
-                l for l in language_layouts if self._split_variant(l)[0] == language
+                layout for layout in language_layouts if self._split_variant(layout)[0] == language
             )
             logging.debug(
                 "List still empty, filter by language %s only: %s", language, layouts
