@@ -116,9 +116,7 @@ class Window(Gtk.ApplicationWindow):
         changed_properties: GLib.Variant,
         invalidated_properties: list[str],
     ):
-        if not any(
-            p for p in changed_properties.keys() if p == "State"  # noqa: SIM118
-        ):
+        if "State" not in changed_properties.keys():  # noqa: SIM118
             return
 
         variant = changed_properties.lookup_value("State")
