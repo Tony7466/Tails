@@ -1339,7 +1339,7 @@ When(/^I plug and mount a (\d+) MiB USB drive with an? (.*)$/) do |size_MiB, fs|
     prompt = Dogtail::Application.new('gnome-shell')
                                  .child('Authentication Required', roleName: 'label')
                                  .parent.parent.parent
-    prompt.child(roleName: 'password text').text = "asdf"
+    prompt.child(roleName: 'password text').text = fs_options[:password]
     prompt.button('Unlock').grabFocus
     @screen.press('Return')
   end
