@@ -80,13 +80,13 @@ class Python(Language):
 class Shell(Language):
     NAME = "shell"
     EXTENSIONS = (".sh",)
-    SHEBANGS = ("/bin/sh", "/bin/bash", "/usr/bin/env bash")
+    SHEBANGS = (re.compile(r"/bin/(ba|)sh\b"), re.compile(r"/usr/bin/env bash\b"))
 
 
 class Ruby(Language):
     NAME = "ruby"
     EXTENSIONS = (".rb",)
-    SHEBANGS = ("/usr/bin/ruby", "/usr/bin/env ruby")
+    SHEBANGS = (re.compile(r"/usr/bin/(env |)ruby\b"),)
 
 
 def get_parser():
