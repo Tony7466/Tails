@@ -759,8 +759,8 @@ Then /^I (do not )?see "([^"]*)" after at most (\d+) seconds$/ do |negation, ima
   end
 end
 
-Given /^I enter the sudo password in the pkexec prompt$/ do
-  step "I enter the \"#{@sudo_password}\" password in the pkexec prompt"
+Given /^I enter the sudo password in the GNOME authentication prompt$/ do
+  step "I enter the \"#{@sudo_password}\" password in the GNOME authentication prompt"
 end
 
 def gnome_shell_unlock_dialog(title = 'Authentication Required')
@@ -800,7 +800,7 @@ def deal_with_polkit_prompt(password, **opts)
   end
 end
 
-Given /^I enter the "([^"]*)" password in the pkexec prompt$/ do |password|
+Given /^I enter the "([^"]*)" password in the GNOME authentication prompt$/ do |password|
   deal_with_polkit_prompt(password)
 end
 
