@@ -395,7 +395,7 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
             # to wait for anything
             return
 
-        logger.info(f"Waiting for the user to terminate processes {apps}")
+        logger.info("Waiting for the user to terminate processes %s", apps)
         while any(job.ConflictingApps.values()):
             if job.cancellable.is_cancelled():
                 logger.info("Job was cancelled")
