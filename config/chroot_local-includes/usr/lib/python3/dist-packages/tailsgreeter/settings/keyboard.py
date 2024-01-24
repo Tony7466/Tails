@@ -99,9 +99,9 @@ class KeyboardSetting(LocalizationSetting):
 
     def get_all(self) -> list[str]:
         """Return a list of all keyboard layout codes"""
-        layouts =  set(self.xkbinfo.get_all_layouts())
+        layouts = set(self.xkbinfo.get_all_layouts())
         # Filter out unwanted layouts
-        layouts -= {'custom'}
+        layouts -= {"custom"}
         return list(layouts)
 
     def _layout_name(self, layout_code) -> str:
@@ -241,7 +241,9 @@ class KeyboardSetting(LocalizationSetting):
             )
         if not layouts:
             layouts = set(
-                layout for layout in language_layouts if self._split_variant(layout)[0] == language
+                layout
+                for layout in language_layouts
+                if self._split_variant(layout)[0] == language
             )
             logging.debug(
                 "List still empty, filter by language %s only: %s", language, layouts
