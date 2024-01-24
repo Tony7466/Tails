@@ -163,7 +163,7 @@ def iterate_file_list(args, delimiter="\n"):
 def main_filter(args):
     delimiter = "\0" if args.zero else "\n"
     for file in iterate_file_list(args, delimiter=delimiter):
-        if not file.is_file():
+        if not file.is_file() or file.is_symlink():
             continue
         if args.language.check(file):
             print(file, end=delimiter)
