@@ -48,11 +48,11 @@ class KeyboardSetting(LocalizationSetting):
     def load(self) -> tuple[str, bool]:
         try:
             settings = read_settings(self.settings_file)
-        except FileNotFoundError:
+        except FileNotFoundError as e:
             raise SettingNotFoundError(
                 "No persistent keyboard settings file found (path: %s)"
                 % self.settings_file
-            )
+            ) from e
 
         keyboard_layout = settings.get("TAILS_XKBLAYOUT")
         if keyboard_layout is None:
