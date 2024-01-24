@@ -99,6 +99,8 @@ class Service(DBusObject, ServiceUsingJobs):
                 <property name="IsCreated" type="b" access="read"/>
                 <property name="IsUnlocked" type="b" access="read"/>
                 <property name="IsUpgraded" type="b" access="read"/>
+                <property name="CanDelete" type="b" access="read"/>
+                <property name="CanUnlock" type="b" access="read"/>
                 <property name="BootDeviceIsSupported" type="b" access="read"/>
                 <property name="Device" type="s" access="read"/>
                 <property name="Job" type="o" access="read"/>
@@ -121,12 +123,14 @@ class Service(DBusObject, ServiceUsingJobs):
         self.state = State.UNKNOWN
         self._error: int = 0
         self._unlocked = False
+        self._can_delete = False
+        self._can_unlock = False
         self._upgraded = False
         self._created = False
         self.enable_features_lock = threading.Lock()
         self._boot_device = None  # type: Optional[BootDevice]
 
-        # Check if the boot device is valid for creating a Persistent
+        # Check if the boot device is valid for creating or using a Persistent
         # Storage. We only do this once and not in refresh_state(),
         # because we don't expect the boot device to change while the
         # service is running. Unfortunately, this implies we'll keep
@@ -584,6 +588,44 @@ class Service(DBusObject, ServiceUsingJobs):
         )
 
     @property
+    def CanUnlock(self) -> bool:
+        """Whether the Persistent Storage can be unlocked"""
+        self.refresh_state()
+        return self._can_unlock
+
+    @CanUnlock.setter
+    def CanUnlock(self, value: bool):
+        if self._can_unlock == value:
+            # Nothing to do
+            return
+        self._can_unlock = value
+        changed_properties = {"CanUnlock": GLib.Variant("b", value)}
+        self.emit_properties_changed_signal(
+            self.connection,
+            DBUS_SERVICE_INTERFACE,
+            changed_properties,
+        )
+
+    @property
+    def CanDelete(self) -> bool:
+        """Whether the Persistent Storage can be deleted"""
+        self.refresh_state()
+        return self._can_delete
+
+    @CanDelete.setter
+    def CanDelete(self, value: bool):
+        if self._can_delete == value:
+            # Nothing to do
+            return
+        self._can_delete = value
+        changed_properties = {"CanDelete": GLib.Variant("b", value)}
+        self.emit_properties_changed_signal(
+            self.connection,
+            DBUS_SERVICE_INTERFACE,
+            changed_properties,
+        )
+
+    @property
     def BootDeviceIsSupported(self) -> bool:
         return bool(self._boot_device)
 
@@ -766,6 +808,14 @@ class Service(DBusObject, ServiceUsingJobs):
         if not self._tps_partition.is_unlocked_and_mounted():
             self.State = State.NOT_UNLOCKED
             self.IsUnlocked = False
+            if self._boot_device.block.props.read_only:
+                logger.error("Boot device is read-only")
+                self.CanDelete = False
+                self.CanUnlock = False
+                self.Error = InvalidBootDeviceErrorType.READ_ONLY
+            else:
+                self.CanDelete = True
+                self.CanUnlock = True
             return
 
         self.State = State.UNLOCKED
