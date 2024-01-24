@@ -44,9 +44,7 @@ You can have a look at:
   <h1>Report an error</h1>
 
   <p>[[Report an error using
-  <i>WhisperBack</i>|doc/first_steps/bug_reporting]]</p>
-
-</div>
+  <i>WhisperBack</i>|doc/first_steps/whisperback]]</p>
 
 <div class="block block-half">
 
