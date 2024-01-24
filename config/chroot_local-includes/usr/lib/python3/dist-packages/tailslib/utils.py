@@ -42,4 +42,4 @@ def start_as_transient_user_scope_unit(command, *args):
     is run as a transient systemd user scope unit, so it doesn't exit
     when the parent process exits."""
     cmdline = ["/usr/local/lib/run-with-user-env", "--systemd-run", command, *args]
-    subprocess.Popen(cmdline, stderr=subprocess.PIPE, universal_newlines=True)
+    subprocess.Popen(cmdline)

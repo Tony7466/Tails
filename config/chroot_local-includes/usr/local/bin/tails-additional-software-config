@@ -113,9 +113,7 @@ class ASPConfigApplicationWindow(Gtk.ApplicationWindow):
         dialog.destroy()
 
     def cb_persistence_button_clicked(self, button, data=None):
-        subprocess.Popen(["/usr/local/bin/tails-persistent-storage"],
-                         stderr=subprocess.PIPE,
-                         universal_newlines=True)
+        subprocess.Popen(["/usr/local/bin/tails-persistent-storage"])
         print("Waiting for Persistent Storage to be ready")
         # This can take a while: tps is copying the APT lists and packages
         # to the newly created Persistent Storage.
