@@ -331,7 +331,10 @@ When /^I open this VeraCrypt volume in GNOME Files$/ do
 end
 
 Then /^I see the expected contents in this VeraCrypt volume$/ do
-  nautilus_with_open_veracrypt_volume.child('GPL-3', roleName: 'table cell')
+  # Since Bookworm Nautilus behaves odd with our default showingOnly
+  # == true, it just lists a single frame as the only child.
+  nautilus_with_open_veracrypt_volume.child('GPL-3', roleName: 'table cell',
+                                            showingOnly: false)
 end
 
 When /^I lock the currently opened VeraCrypt (volume|file container)$/ do |support|
