@@ -37,9 +37,9 @@ def run_with_user_env(command, *args):
         raise
 
 
-def start_as_transient_user_scope_unit(command, *args):
+def start_as_transient_systemd_service(command, *args):
     """Launch a command as amnesia and return immediately. The command
-    is run as a transient systemd user scope unit, so it doesn't exit
-    when the parent process exits."""
+    is run as a transient systemd user service, so it doesn't exit when
+    the parent process exits."""
     cmdline = ["/usr/local/lib/run-with-user-env", "--systemd-run", command, *args]
     subprocess.Popen(cmdline)

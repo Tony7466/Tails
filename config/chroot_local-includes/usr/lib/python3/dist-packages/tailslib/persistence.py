@@ -3,7 +3,7 @@
 import os
 import subprocess
 
-from tailslib.utils import start_as_transient_user_scope_unit
+from tailslib.utils import start_as_transient_systemd_service
 
 
 PERSISTENCE_DIR = "/live/persistence/TailsData_unlocked"
@@ -56,7 +56,7 @@ def is_tails_media_writable():
 
 def spawn_tps_frontend(*args):
     """Launch tps-frontend, don't wait for its completion."""
-    start_as_transient_user_scope_unit("/usr/local/bin/tails-persistent-storage", *args)
+    start_as_transient_systemd_service("/usr/local/bin/tails-persistent-storage", *args)
 
 
 def additional_software_persistence_feature_is_active() -> bool:
