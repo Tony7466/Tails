@@ -82,9 +82,9 @@ Encryption and privacy
 
   * [Thunderbird](https://www.thunderbird.net/) has an integrated OpenPGP feature for encrypted emails
 
-- [GNOME screen keyboard](https://help.gnome.org/users/gnome-help/stable/keyboard-osk.html.en)
-  for accessibility, and as a countermeasure against hardware
-  [[!wikipedia Keystroke logging desc="keyloggers"]] ([[More...|doc/encryption_and_privacy/virtual_keyboard]])
+- [GNOME Screen Keyboard](https://help.gnome.org/users/gnome-help/stable/keyboard-osk.html.en)
+  for accessibility and protection against hardware
+  [[!wikipedia Keystroke logging desc="keyloggers"]] ([[More...|doc/first_steps/accessibility#keyboard]])
 
 - [Metadata Cleaner](https://metadatacleaner.romainvigier.fr/) and [mat2](https://0xacab.org/jvoisin/mat2) to remove metadata from files ([[More...|doc/sensitive_documents/metadata]])
 
