@@ -248,6 +248,7 @@ When /^I unlock and mount this VeraCrypt (volume|file container) with GNOME Disk
                   app: :gtk_file_chooser)
     sleep 2 # avoid ENTER being eaten by the auto-completion system
     @screen.press('Return')
+    step 'I cancel the GNOME authentication prompt'
     try_for(15) do
       disks.children(roleName: 'table cell')
            .find { |row| /^#{size} Loop Device/.match(row.name) }

@@ -804,6 +804,11 @@ Given /^I enter the "([^"]*)" password in the GNOME authentication prompt$/ do |
   deal_with_polkit_prompt(password)
 end
 
+Given /^I cancel the GNOME authentication prompt$/ do
+  gnome_shell_unlock_dialog
+  @screen.press('escape')
+end
+
 Given /^process "([^"]+)" is (not )?running$/ do |process, not_running|
   if not_running
     assert(!$vm.process_running?(process), "Process '#{process}' is running")
