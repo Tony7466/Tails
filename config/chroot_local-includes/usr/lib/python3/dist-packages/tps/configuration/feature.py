@@ -404,7 +404,7 @@ class Feature(DBusObject, ServiceUsingJobs, metaclass=abc.ABCMeta):
                 # to cancel the cancellable of the GDBus method call
                 # *before* cancelling the job, so in that case they
                 # won't receive the error anyway.
-                raise JobCancelledError
+                raise JobCancelledError()
 
             # Check if processes were terminated
             for app in job.ConflictingApps:
