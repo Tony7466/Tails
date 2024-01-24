@@ -1336,12 +1336,7 @@ When(/^I plug and mount a (\d+) MiB USB drive with an? (.*)$/) do |size_MiB, fs|
   # need to be manually unlocked with the GNOME password prompt that
   # automatically appears
   if fs_options[:encrypted]
-    prompt = Dogtail::Application.new('gnome-shell')
-                                 .child('Authentication Required', roleName: 'label')
-                                 .parent.parent.parent
-    prompt.child(roleName: 'password text').text = fs_options[:password]
-    prompt.button('Unlock').grabFocus
-    @screen.press('Return')
+    deal_with_polkit_prompt(fs_options[:password])
   end
   # Wait for GNOME to (maybe unlock) and mount
   try_for(20) do
