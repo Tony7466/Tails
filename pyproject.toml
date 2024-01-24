@@ -119,6 +119,8 @@ extend-select = [
 extend-ignore = [
     # Accept shared, mostly innocuous habit
     "RET505",
+    # Error-prone
+    "RSE102",
     # Allow noqa directives that may be useful with other linters
     "RUF100",
     # We don't compile Python code so our `assert`s won't be optimized out
