@@ -80,7 +80,7 @@ class Python(Language):
 class Shell(Language):
     NAME = "shell"
     EXTENSIONS = (".sh",)
-    SHEBANGS = (re.compile(r"/bin/(ba|)sh\b"), re.compile(r"/usr/bin/env bash\b"))
+    SHEBANGS = (re.compile(r"/bin/(ba|da|)sh\b"), re.compile(r"/usr/bin/env bash\b"))
 
 
 class Ruby(Language):
