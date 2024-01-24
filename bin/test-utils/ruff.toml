@@ -77,6 +77,8 @@ extend-ignore = [
     "TD002",
     # Accept commonly used "TODO:Bookworm"
     "TD007",
+    # Prone to false positives (see https://github.com/astral-sh/ruff/issues/4045)
+    "S603",
 
     # Now, things we don't like but that we don't consider serious enough for CI to fail
 
