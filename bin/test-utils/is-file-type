@@ -12,6 +12,7 @@ class Language:
     NAME = ""
     EXTENSIONS = ()
     SHEBANGS = ()
+    SHEBANGS_ONLY_EXECUTABLE = True
 
     def extract_shebang(self, file: Path) -> Optional[str]:
         with file.open("rb") as buf:
@@ -36,7 +37,7 @@ class Language:
     def check_shebang(self, file: Path) -> bool:
         if not self.SHEBANGS:
             return False
-        if not os.access(str(file), os.X_OK):
+        if self.SHEBANGS_ONLY_EXECUTABLE and not os.access(str(file), os.X_OK):
             return False
         shebang = self.extract_shebang(file)
         if shebang is None:
@@ -81,6 +82,7 @@ class Shell(Language):
     NAME = "shell"
     EXTENSIONS = (".sh",)
     SHEBANGS = (re.compile(r"/bin/(ba|da|)sh\b"), re.compile(r"/usr/bin/env bash\b"))
+    SHEBANGS_ONLY_EXECUTABLE = False   # we have shell scripts which aren't executable
 
 
 class Ruby(Language):
