@@ -18,7 +18,7 @@ gi.require_version("GLib", "2.0")
 gi.require_version("GnomeDesktop", "3.0")
 gi.require_version("GObject", "2.0")
 gi.require_version("Gtk", "3.0")
-from gi.repository import Gio, GLib, GnomeDesktop, GObject, Gtk
+from gi.repository import Gio, GLib, GnomeDesktop, GObject, Gtk  # noqa: E402
 
 
 class KeyboardSetting(LocalizationSetting):
