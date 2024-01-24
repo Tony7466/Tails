@@ -1,9 +1,8 @@
 """Miscelaneous Tails Python utilities."""
 
 import contextlib
-import glob
-import os
 import logging
+import os
 import subprocess
 
 
@@ -24,13 +23,14 @@ def run_with_user_env(command, *args):
     cmdline = ["/usr/local/lib/run-with-user-env", command, *args]
     try:
         subprocess.run(
-            cmdline, stderr=subprocess.PIPE, check=True, universal_newlines=True
+            cmdline,
+            stderr=subprocess.PIPE,
+            check=True,
+            text=True,
         )
     except subprocess.CalledProcessError as e:
         logging.error(
-            "{command} returned with {returncode}".format(
-                command=command, returncode=e.returncode
-            )
+            f"{command} returned with {e.returncode}",
         )
         for line in e.stderr.splitlines():
             logging.error(line)
