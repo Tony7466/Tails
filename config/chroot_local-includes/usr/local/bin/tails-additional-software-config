@@ -114,7 +114,7 @@ class ASPConfigApplicationWindow(Gtk.ApplicationWindow):
         dialog.destroy()
 
     def cb_persistence_button_clicked(self, button, data=None):
-        subprocess.Popen(["/usr/local/bin/tails-persistent-storage"])
+        subprocess.check_call(["/usr/bin/gtk-launch", "org.boum.tails.PersistentStorage.desktop"])
 
     def _wait_for_persistence_ready(self):
         print("Waiting for Persistent Storage to be ready")
