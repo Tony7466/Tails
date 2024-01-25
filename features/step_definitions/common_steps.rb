@@ -1063,7 +1063,7 @@ def pulseaudio_sink_inputs
   sink_inputs_line.match(/^\d+/)[0].to_i
 end
 
-When /^I double-click on the (Tails documentation|Report an Error) launcher on the desktop$/ do |launcher|
+When /^I open the (Tails documentation|Report an Error) launcher on the desktop$/ do |launcher|
   image = "Desktop#{launcher.split.map(&:capitalize).join}.png"
   info = xul_application_info('Tor Browser')
   # Sometimes the double-click is lost (#12131).
