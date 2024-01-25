@@ -50,7 +50,7 @@ fi
 
 if [ -n "${SYSTEMD_RUN:-}" ]; then
   # Run the command as a transient systemd service.
-  exec systemd-run --user \
+  exec systemd-run --user -p "SyslogIdentifier=$(basename "$1")" \
     /usr/local/lib/run-with-env --env-file "${USER_ENV_FILE}" -- "$@"
 else
   exec /usr/local/lib/run-with-env --env-file "${USER_ENV_FILE}" -- "$@"
