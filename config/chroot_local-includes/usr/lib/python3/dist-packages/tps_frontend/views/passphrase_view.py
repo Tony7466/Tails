@@ -30,7 +30,14 @@ def get_passphrase_suggestion():
     passphrase = ""
     try:
         p = subprocess.run(
-            ["/usr/bin/diceware", "--no-caps", "-d", " ", "--wordlist", wordlist()],
+            [  # noqa: S603
+                "/usr/bin/diceware",
+                "--no-caps",
+                "-d",
+                " ",
+                "--wordlist",
+                wordlist(),
+            ],
             stdout=subprocess.PIPE,
             check=True,
             text=True,

@@ -772,7 +772,7 @@ Additionally, Tails installs by default:
  - All available Tor Browser localization packages
  - For each Tier-1 language, when available in Debian:
    - Spell checking dictionaries (usable at least in Tor Browser,
-     LibreOffice and gedit)
+     LibreOffice and GNOME Text Editor)
    - Localization packages for LibreOffice and Thunderbird
 
 ### 3.3.3 Input methods

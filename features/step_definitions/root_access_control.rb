@@ -47,7 +47,7 @@ end
 
 Then /^I can run a command as root with pkexec$/ do
   step 'I run "pkexec touch /root/pkexec-test" in GNOME Terminal'
-  step 'I enter the sudo password in the pkexec prompt'
+  step 'I enter the sudo password in the GNOME authentication prompt'
   try_for(10, msg: 'The /root/pkexec-test file was not created.') do
     $vm.file_exist?('/root/pkexec-test')
   end
