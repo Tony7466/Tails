@@ -333,7 +333,8 @@ end
 Then /^I see the expected contents in this VeraCrypt volume$/ do
   # Since Bookworm Nautilus behaves odd with our default showingOnly
   # == true, it just lists a single frame as the only child.
-  nautilus_with_open_veracrypt_volume.child('GPL-3', roleName: 'table cell',
+  nautilus_with_open_veracrypt_volume.child('GPL-3',
+                                            roleName:    'table cell',
                                             showingOnly: false)
 end
 
