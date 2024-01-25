@@ -42,4 +42,4 @@ def start_as_transient_systemd_service(command, *args):
     is run as a transient systemd user service, so it doesn't exit when
     the parent process exits."""
     cmdline = ["/usr/local/lib/run-with-user-env", "--systemd-run", command, *args]
-    subprocess.Popen(cmdline)
+    subprocess.check_call(cmdline)
