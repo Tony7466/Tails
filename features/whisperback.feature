@@ -9,6 +9,10 @@ Feature: I can report a bug with WhisperBack
     Given I have started Tails from DVD without network and logged in
     Then running "sudo /usr/local/sbin/tails-debugging-info" as user "amnesia" fails
 
+  Scenario: The Report an Error launcher opens WhisperBack
+    Given I have started Tails from DVD without network and logged in
+    When I open the Report an Error launcher on the desktop
+    Then WhisperBack starts
 
   Scenario: WhisperBack has access to debugging information
     Given I have started Tails from DVD without network and logged in
