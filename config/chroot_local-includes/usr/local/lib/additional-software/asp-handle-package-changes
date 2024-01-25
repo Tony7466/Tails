@@ -116,6 +116,21 @@ def create_persistence_and_setup_additional_packages(packages: Set[str]):
     # This can take a while: tps is copying the APT lists and packages
     # to the newly created Persistent Storage.
     while not additional_software_persistence_feature_is_active():
+        # Check if tps-frontend is still running
+        try:
+            subprocess.run(
+                ["/usr/bin/pgrep", "-f", "/usr/local/lib/tps-frontend"],
+                stderr=subprocess.PIPE,
+                stdout=subprocess.DEVNULL,
+                check=True,
+                text=True)
+        except subprocess.CalledProcessError as e:
+            if e.stderr:
+                logging.error(e.stderr)
+            # The Persistent Storage is not ready yet, but tps-frontend
+            # is not running anymore, so the user probably closed it
+            # without creating a Persistent Storage.
+            return
         time.sleep(2)
     logging.info("Persistent Storage is ready, setting up additional packages")
     add_additional_packages(packages)
