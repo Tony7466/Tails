@@ -79,7 +79,9 @@ def get_persistent_storage_backup_size():
     back up the current Tails, else None."""
     luks2_header_size = 16
     if has_unlocked_persistence():
-        return psutil.disk_usage(PERSISTENCE_DIR).used + mebibytes_to_bytes(luks2_header_size)
+        return psutil.disk_usage(PERSISTENCE_DIR).used + mebibytes_to_bytes(
+            luks2_header_size
+        )
 
 
 def _dir_size(source):
