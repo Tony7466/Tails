@@ -93,9 +93,9 @@ msgid ""
 "      Your encrypted volume appears as a new device with a list of partitions.\n"
 "      Check that the partition size corresponds to your encrypted volume.\n"
 msgstr ""
-"      Su volumen cifrado aparece como un nuevo dispositivo con una lista de "
+"      Tu volumen cifrado aparece como un nuevo dispositivo con una lista de "
 "particiones.\n"
-"      Compruebe que el tamaño de la partición corresponda a su volumen "
+"      Comprueba que el tamaño de la partición corresponde a tu volumen "
 "cifrado.\n"
 
 #. type: Plain text
