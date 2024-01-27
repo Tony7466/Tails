@@ -125,7 +125,7 @@ class TailsInstallerThread(threading.Thread):
         self.live.save_full_drive()
         try:
             if self.parent.opts.partition:
-                self.live.unmount_device()
+                self.live.unmount_device(unmount_all=True)
                 if not self.live.can_read_partition_table():
                     self.live.log.info("Clearing unreadable partition table.")
                     self.live.clear_all_partition_tables()
@@ -554,13 +554,6 @@ class TailsInstallerWindow(Gtk.ApplicationWindow):
                 # Skip the running device
                 if self.live.running_device() in [info["udi"], info["parent_udi"]]:
                     self.live.log.debug("Skipping running device: %s" % info["device"])
-                    continue
-                # Skip LUKS-encrypted partitions
-                if info["fstype"] and info["fstype"] == "crypto_LUKS":
-                    self.live.log.debug(
-                        "Skipping LUKS-encrypted partition: %s" % info["device"]
-                    )
-                    self.devices_with_persistence.append(info["parent"])
                     continue
                 pretty_name = self.get_device_pretty_name(info)
                 # Skip devices with non-removable bit enabled
