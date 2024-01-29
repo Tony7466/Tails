@@ -378,7 +378,9 @@ class TailsInstallerCreator(object):
                         % {"speed": (write_size(self) / delta) / 1000**2}
                     )
                 return ret_val
+
             return wrapper
+
         return decorator
 
     @log_write_speed(write_size=lambda self: self.source.size)
