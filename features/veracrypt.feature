@@ -11,6 +11,7 @@ Feature: Using VeraCrypt encrypted volumes
 
   Scenario: Use Unlock VeraCrypt Volumes to unlock a USB drive that has a basic VeraCrypt volume
     When I plug a USB drive containing a basic VeraCrypt volume
+    And I cancel the GNOME authentication prompt
     And I unlock and mount this VeraCrypt volume with Unlock VeraCrypt Volumes
     And I open this VeraCrypt volume in GNOME Files
     Then I see the expected contents in this VeraCrypt volume
@@ -19,6 +20,7 @@ Feature: Using VeraCrypt encrypted volumes
 
   Scenario: Use Unlock VeraCrypt Volumes to unlock a USB drive that has a hidden VeraCrypt volume
     When I plug a USB drive containing a hidden VeraCrypt volume
+    And I cancel the GNOME authentication prompt
     And I unlock and mount this VeraCrypt volume with Unlock VeraCrypt Volumes
     And I open this VeraCrypt volume in GNOME Files
     Then I see the expected contents in this VeraCrypt volume
@@ -45,6 +47,7 @@ Feature: Using VeraCrypt encrypted volumes
 
   Scenario: Use GNOME Disks to unlock a USB drive that has a basic VeraCrypt volume with a keyfile
     When I plug a USB drive containing a basic VeraCrypt volume with a keyfile
+    And I cancel the GNOME authentication prompt
     And I unlock and mount this VeraCrypt volume with GNOME Disks
     And I open this VeraCrypt volume in GNOME Files
     Then I see the expected contents in this VeraCrypt volume
@@ -53,6 +56,7 @@ Feature: Using VeraCrypt encrypted volumes
 
   Scenario: Use GNOME Disks to unlock a USB drive that has a hidden VeraCrypt volume
     When I plug a USB drive containing a hidden VeraCrypt volume
+    And I cancel the GNOME authentication prompt
     And I unlock and mount this VeraCrypt volume with GNOME Disks
     And I open this VeraCrypt volume in GNOME Files
     Then I see the expected contents in this VeraCrypt volume
