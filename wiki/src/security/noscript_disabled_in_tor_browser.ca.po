@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-01-23 00:41+0000\n"
-"PO-Revision-Date: 2023-12-22 12:20+0000\n"
+"PO-Revision-Date: 2024-01-24 21:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -113,14 +113,8 @@ msgstr ""
 "*NoScript* cada vegada que inicieu Tails:"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Open the address <span class=\"command\">about:config</span> in *Tor "
-#| "Browser*."
 msgid "Open the address `about:config` in *Tor Browser*."
-msgstr ""
-"Obriu l'adreça <span class=\"command\">about:config</span> al *Navegador "
-"Tor*."
+msgstr "Obriu l'adreça `about:config` al *Navegador Tor*."
 
 #. type: Plain text
 #, no-wrap
@@ -132,14 +126,9 @@ msgid "Click the **I accept the risk!** button."
 msgstr "Feu clic al botó **Accepto el risc!**."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "At the top of the page, search for <span class=\"command\">xpinstall."
-#| "signatures.required</span>."
 msgid "At the top of the page, search for `xpinstall.signatures.required`."
 msgstr ""
-"A la part superior de la pàgina, cerqueu <span class=\"command\">xpinstall."
-"signatures.required</span>."
+"A la part superior de la pàgina, cerqueu `xpinstall.signatures.required`."
 
 #. type: Bullet: '1. '
 msgid ""
