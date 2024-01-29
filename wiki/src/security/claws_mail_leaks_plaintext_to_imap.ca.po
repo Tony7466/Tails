@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2024-01-23 00:41+0000\n"
-"PO-Revision-Date: 2023-12-22 12:20+0000\n"
+"PO-Revision-Date: 2024-01-24 21:36+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -233,12 +233,7 @@ msgstr ""
 "crear una bústia de correu local on baixar els vostres correus electrònics.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "1. To store the mailbox in the persistent volume, specify\n"
-#| "<span class=\"command\">.claws-mail/Mail</span> as location.\n"
-#| "Make sure to type the <span class=\"command\">.</span> before\n"
-#| "<span class=\"command\">claws-mail/Mail</span>.\n"
+#, no-wrap
 msgid ""
 "1. To store the mailbox in the persistent volume, specify\n"
 "`.claws-mail/Mail` as location.\n"
@@ -246,9 +241,9 @@ msgid ""
 "`claws-mail/Mail`.\n"
 msgstr ""
 "1. Per emmagatzemar la bústia al volum persistent, especifiqueu\n"
-"<span class=\"command\">.claws-mail/Mail</span> com a ubicació.\n"
-"Assegureu-vos d'escriure el <span class=\"command\">.</span> abans de\n"
-"<span class=\"command\">claws-mail/Mail</span>.\n"
+"`.claws-mail/Mail` com a ubicació.\n"
+"Assegureu-vos d'escriure el `.` abans de\n"
+"`claws-mail/Mail`.\n"
 
 #. type: Plain text
 #, no-wrap
