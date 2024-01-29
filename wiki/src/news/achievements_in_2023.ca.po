@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-20 20:40+0000\n"
-"PO-Revision-Date: 2024-01-12 15:38+0000\n"
+"PO-Revision-Date: 2024-01-24 21:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -74,7 +74,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "**But, we also made plans to call their ante.**\n"
-msgstr ""
+msgstr "**Però, també hem fet plans per marcar la seva aposta.**\n"
 
 #. type: Plain text
 msgid ""
@@ -86,15 +86,23 @@ msgid ""
 "All this while introducing new features and improvements to existing "
 "features that make Tails even more relevant."
 msgstr ""
+"Hem construït una estratègia de 3 anys d'última generació per convertir "
+"Tails en un adversari formidable d'aquestes forces repressives poderoses. "
+"Hem fet plans per entendre millor l'ús de Tails per part de periodistes i "
+"activistes, i per entendre i millorar l'ús de Tails al [món "
+"majoritari](https://www.harvarddesignmagazine.org/articles/"
+"shahidul-alam-on-the-majority-world/). Tot això alhora que introduïm noves "
+"funcions i millores a les funcions existents que fan que Tails sigui encara "
+"més rellevant."
 
 #. type: Plain text
 msgid "Here's the progress we made in the first year of the plan."
-msgstr ""
+msgstr "Aquest és el progrés que hem fet durant el primer any del pla."
 
 #. type: Title ##
 #, no-wrap
 msgid "Product development"
-msgstr ""
+msgstr "Desenvolupament de productes"
 
 #. type: Plain text
 #, no-wrap
@@ -112,12 +120,22 @@ msgid ""
 "settings.  The icing on the cake: a dashing makeover for the Persistent "
 "Storage!"
 msgstr ""
+"[[Tails 5.8|news/version_5.8/]] ha sigut un dels llançaments de Tails més "
+"importants en anys. A Tails 5.8, vam presentar un nou Emmagatzematge "
+"Persistent. El nou Emmagatzematge Persistent no requereix ser reiniciat "
+"després de la seva creació ni en cap moment després d'activar una "
+"funcionalitat nova. També ha facilitat la persistència de més "
+"configuracions. La cirereta del pastís: un canvi d'imatge elegant per a "
+"l'Emmagatzematge Persistent!"
 
 #. type: Plain text
 msgid ""
 "But the new Persistent Storage wasn't all fun and games for Tails users. It "
 "was buggy and we worked extra hard to fix the issues our users faced."
 msgstr ""
+"Però el nou Emmagatzematge Persistent no ha sigut del tot divertit i fàcil "
+"per als usuaris de Tails. Tenia errors i vam treballar molt dur per "
+"solucionar els problemes als quals s'enfrontaven els nostres usuaris."
 
 #. type: Plain text
 msgid ""
@@ -126,6 +144,10 @@ msgid ""
 "Persistent Storage|news/version_5.14/]] and [[delete the data of a each "
 "feature|news/version_5.12/]]."
 msgstr ""
+"No ens vam aturar aquí. També hem continuat afegint funcionalitats a "
+"l'Emmagatzematge Persistent. Ara, és més fàcil fer [[còpies de seguretat de "
+"tot l'Emmagatzematge Persistent|news/version_5.14/]] i [[esborrar les dades "
+"de cada funcionalitat|news/version_5.12/]]."
 
 #. type: Plain text
 #, no-wrap
@@ -148,6 +170,11 @@ msgid ""
 "passphrases and an upgraded encryption format make the Persistent Storage "
 "[[exponentially more secure|security/argon2id]]."
 msgstr ""
+"També hem introduït millors pràctiques de contrasenya per protegir "
+"l'Emmagatzematge Persistent. Les contrasenyes [diceware](https://diceware."
+"dmuth.org/) generades aleatòriament i un format d'encriptatge millorat fan "
+"que l'Emmagatzematge Persistent sigui [[exponencialment més segur|security/"
+"argon2id]]."
 
 #. type: Plain text
 #, no-wrap
@@ -162,6 +189,8 @@ msgid ""
 "**Improvements to the [[Tor Connection|news/version_4.20]] make it easier to\n"
 "circumvent censorship.**\n"
 msgstr ""
+"**Les millores a la [[Connexió Tor|news/version_4.20]] faciliten\n"
+"l'elusió de la censura.**\n"
 
 #. type: Plain text
 msgid ""
@@ -169,6 +198,9 @@ msgid ""
 "when connecting automatically to the Tor network and the handling of captive "
 "portals."
 msgstr ""
+"L'assistent de Connexió Tor és més elegant. Hem millorat la missatgeria "
+"d'error en connectar-se automàticament a la xarxa Tor i el maneig dels "
+"portals captius."
 
 #. type: Plain text
 msgid ""
@@ -177,6 +209,10 @@ msgid ""
 "So, we've made it easier to close pesky Tor circuits that we can sometimes "
 "land on."
 msgstr ""
+"Connectar-se a Tor és només una part de la història. De vegades, els usuaris "
+"de Tails poden trobar-se en circuits de Tor lents. I pitjor encara, és "
+"possible que no puguin resoldre els problemes. Per tant, hem fet que sigui "
+"més fàcil tancar els circuits de Tor molestos."
 
 #. type: Plain text
 #, no-wrap
@@ -188,13 +224,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "**Tails remains one of the most secure operating systems in the world.**\n"
-msgstr ""
+msgstr "**Tails segueix sent un dels sistemes operatius més segurs del món.**\n"
 
 #. type: Plain text
 msgid ""
 "This year, we released 15 versions of Tails, ensuring users had the latest "
 "Tor Browser and Thunderbird. Yes, FIFTEEN!"
 msgstr ""
+"Aquest any, hem llançat 15 versions de Tails, assegurant-nos que els usuaris "
+"tinguessin l'última versió del Navegador Tor i Thunderbird. Sí, QUINZE!"
 
 #. type: Plain text
 msgid ""
@@ -202,6 +240,9 @@ msgid ""
 "com/)  to do a security audit of Tails. Their [[findings|news/audit_by_ROS]] "
 "affirmed our cutting-edge security."
 msgstr ""
+"També vam demanar a [Radically Open Security](https://www.radicalopensecurity"
+".com/) que fes una auditoria de seguretat de Tails. Les seves [[troballes|"
+"news/audit_by_ROS]] van confirmar la nostra seguretat d'avantguarda."
 
 #. type: Plain text
 msgid ""
@@ -227,6 +268,10 @@ msgid ""
 "language switcher. We just added Catalan translations too. *Gràcies per ser "
 "aquí!*"
 msgstr ""
+"Hem realitzat un munt de projectes de millora de la llar. Així que la nostra "
+"nova llar és encara més acollidora per a gent que parla diferents idiomes, "
+"hem revisat el commutador d'idiomes. També hem afegit traduccions al català. "
+"*Gràcies per ser aquí!*"
 
 #. type: Plain text
 #, no-wrap
@@ -239,6 +284,9 @@ msgid ""
 "[[Contribute|contribute]], [[Support|support]], and [[Contact us|about/"
 "contact]] pages."
 msgstr ""
+"Les zones d'alt trànsit del lloc web també tenen una nova catifa. Feu una "
+"ullada a les nostres noves pàgines de [[Contribuir|contribute]], "
+"[[Assistència|support]] i [[Contacte|about/contact]]."
 
 #. type: Plain text
 msgid ""
@@ -246,11 +294,15 @@ msgid ""
 "(https://gitlab.tails.boum.org/jawlensky) for the website redesign and to "
 "our [[Catalan translations team|contribute/how/translate/team/ca]]!"
 msgstr ""
+"Un gran aplaudiment als voluntaris que ho han fet possible: "
+"[@jawlensky](https://gitlab.tails.boum.org/jawlensky) pel redisseny del lloc "
+"web i al nostre [[equip de traduccions al català|contribute/how/translate/"
+"team/ca]]!"
 
 #. type: Title ##
 #, no-wrap
 msgid "Community and organizational health"
-msgstr ""
+msgstr "Salut comunitària i organitzativa"
 
 #. type: Bullet: '- '
 msgid ""
@@ -262,6 +314,14 @@ msgid ""
 "reflected on our efforts this year and hatched plans for a more sustainable "
 "future of the project."
 msgstr ""
+"**Sprints.** El nostre equip principal ha organitzat dos sprints aquest any. "
+"Al voltant de Setmana Santa, ens vam ajuntar a París. L'agenda era "
+"pressupostar l'any vinent i construir un full de ruta per a la salut "
+"financera. També a l'agenda: formatge francès, aperitius indis picants i "
+"[Dixit](https://boardgamegeek.com/boardgame/39856/dixit). Més tard l'any, "
+"ens vam tornar a trobar en una combinació de participació en línia i "
+"presencial. Vam reflexionar sobre els nostres esforços d'aquest any i vam "
+"traçar plans per a un futur més sostenible del projecte."
 
 #. type: Bullet: '- '
 msgid ""
@@ -272,6 +332,13 @@ msgid ""
 "Organizations](https://coco-net.org/wp-content/uploads/2019/11/Coco-"
 "WhiteSupCulture-ENG4.pdf)  as our guide to reflection and improvement."
 msgstr ""
+"**Reflexions.** Amb l'aspiració d'arribar i animar a poblacions més diverses "
+"d'usuaris de Tails, també hem iniciat un camí per millorar la diversitat del "
+"projecte. El nostre equip bàsic va començar a reunir-se quinzenalment per "
+"reflexionar sobre les normes del nostre lloc de treball. Estem utilitzant ["
+"aquest text del Centre d'Organitzacions Comunitàries](https://coco-net.org/"
+"wp-content/uploads/2019/11/Coco-WhiteSupCulture-ENG4.pdf) com a guia per a "
+"la reflexió i la millora."
 
 #. type: Title ##
 #, no-wrap
@@ -286,6 +353,11 @@ msgid ""
 "nocallaronlasolas.serendipia.digital/) of the Mexican army's systematic "
 "surveillance of feminists in the country."
 msgstr ""
+"Els actors maliciosos no s'enfonsaran, però nosaltres tampoc. Aquest any, "
+"Tails ha sigut fonamental en diverses investigacions d'alt risc i lluites "
+"per un canvi progressiu. Com aquesta [condemnadora "
+"acusació](https://nocallaronlasolas.serendipia.digital/) de la vigilància "
+"sistemàtica de les feministes del país per part de l'exèrcit mexicà."
 
 #. type: Plain text
 msgid ""
@@ -295,6 +367,11 @@ msgid ""
 "Tails while keeping it free. And one thing is already clear: we will need "
 "your help. Often."
 msgstr ""
+"Jo, ([@bokonon](https://gitlab.tails.boum.org/bokonon)), m'he unit al nostre "
+"petit equip de Tails aquest any per dirigir les nostres activitats de "
+"recaptació de fons. He estat obsessionat per com un projecte de programari "
+"lliure com el nostre pot seguir millorant Tails mentre el manté lliure. I "
+"una cosa ja està clara: necessitarem la vostra ajuda. Sovint."
 
 #. type: Plain text
 msgid ""
@@ -303,12 +380,19 @@ msgid ""
 "of whom are likely to not be in a position to contribute. Your donations "
 "keep Tails free for everybody else!"
 msgstr ""
+"Tot i que no sabem quants usuaris de Tails fan donacions a Tails, la nostra "
+"estimació és de ~1%. Tails està dissenyat per a persones que viuen vides "
+"vulnerables i d'alt risc. Molts dels quals probablement no estiguin en "
+"condicions de contribuir. Les vostres donacions mantenen Tails gratuït per a "
+"tots els altres!"
 
 #. type: Plain text
 msgid ""
 "We are near the end of our campaign to fund Tails in 2024, but quite a way "
 "off our goals."
 msgstr ""
+"Estem a prop del final de la nostra campanya per finançar Tails el 2024, "
+"però molt lluny dels nostres objectius."
 
 #. type: Plain text
 msgid ""
@@ -317,6 +401,10 @@ msgid ""
 "the holidays, join us in ensuring that the Internet does not become "
 "synonymous with surveillance and censorship. Give the gift of privacy today!"
 msgstr ""
+"Potser mai tinguem els recursos que tenen els actors poderosos i maliciosos, "
+"però sabem una cosa: junts, podem arribar molt més lluny. A mesura que anem "
+"de vacances, uniu-vos a nosaltres per garantir que Internet no es "
+"converteixi en sinònim de vigilància i censura. Regaleu privadesa avui!"
 
 #. type: Plain text
 #, no-wrap
