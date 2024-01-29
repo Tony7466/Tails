@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2024-01-23 00:41+0000\n"
-"PO-Revision-Date: 2023-12-28 15:07+0000\n"
+"PO-Revision-Date: 2024-01-24 21:36+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -189,11 +189,15 @@ msgstr ""
 #. type: Bullet: '1.  '
 msgid "When starting Tails, add the `toram` boot option in the *Boot Loader*."
 msgstr ""
+"Quan inicieu Tails, afegiu l'opció d'arrencada `toram` al *Carregador "
+"d'Arrencada*."
 
 #. type: Plain text
 #, no-wrap
 msgid "    See [[using the *Boot Loader*|advanced_topics/boot_options]].\n"
 msgstr ""
+"    Vegeu com [[usar el *Carregador d'Arrencada*|advanced_topics/"
+"boot_options]].\n"
 
 #. type: Bullet: '2.  '
 msgid ""
