@@ -1,4 +1,4 @@
-tails (5.22) UNRELEASED; urgency=medium
+tails (5.22) unstable; urgency=medium
 
   * Resolve "Upgrade to Tor Browser based on ESR 115.7" (tails/tails!1366)
 
@@ -274,7 +274,7 @@ tails (5.22) UNRELEASED; urgency=medium
 
   * Upgrade Thunderbird to 115.7
 
- -- Tails developers <tails@boum.org>  Mon, 29 Jan 2024 10:03:15 +0000
+ -- Tails developers <tails@boum.org>  Mon, 29 Jan 2024 13:04:11 +0100
 
 tails (5.21) unstable; urgency=medium
 
