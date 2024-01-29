@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2024-01-23 00:41+0000\n"
-"PO-Revision-Date: 2023-12-17 18:19+0000\n"
+"PO-Revision-Date: 2024-01-24 21:36+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -334,10 +334,8 @@ msgid "Install Tails using <i>GNOME Disks</i>"
 msgstr "Instal·lar Tails utilitzant <i>Discs de GNOME</i>"
 
 #. type: Content of: <div><a><p>
-#, fuzzy
-#| msgid "Install Tails using <i>balenaEtcher</i>"
 msgid "Install Tails using <code>dd</code>"
-msgstr "Instal·lar Tails utilitzant <i>balenaEtcher</i>"
+msgstr "Instal·lar Tails utilitzant <code>dd</code>"
 
 #. type: Content of: <div><a>
 msgid ""
