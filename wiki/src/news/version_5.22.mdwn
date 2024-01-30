@@ -44,9 +44,6 @@ For more details, read our [[!tails_gitweb debian/changelog desc="changelog"]].
 
 - Automatic upgrades are available from Tails 5.0 or later to 5.22.
 
-  You can [[reduce the size of the download|doc/upgrade#reduce]] of future
-  automatic upgrades by doing a manual upgrade to the latest version.
-
 - If you cannot do an automatic upgrade or if Tails fails to start after an
   automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]].
 
