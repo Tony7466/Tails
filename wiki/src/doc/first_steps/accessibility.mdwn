@@ -51,7 +51,7 @@ To hear screen elements spoken to you, turn on the **Screen Reader** from the
 accessibility menu ([[!img lib/accessibility.png alt="accessiblity menu"
 class="symbolic" link="no"]]).
 
-See also: [GNOME Help: *Orca* Screen Reader](https://help.gnome.org/users/orca/stable/).
+[GNOME Help: *Orca* Screen Reader](https://help.gnome.org/users/orca/stable/)
 
 <h1 id="keyboard">Screen keyboard</h1>
 
@@ -75,8 +75,8 @@ forensic keylogger getting started</a>.</p>
 <p>Keyloggers are more likely on public computers, in internet cafés or
 libraries, and on desktop computers, where a device is easier to hide.</p>
 
-<p>See also: [[Reducing risks when using untrusted
-computers|doc/about/warnings/computer]].</p>
+<p>[[Reducing risks when using untrusted
+computers|doc/about/warnings/computer]]</p>
 
 </div>
 
