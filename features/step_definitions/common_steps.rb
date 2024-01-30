@@ -804,6 +804,7 @@ Given /^I enter the "([^"]*)" password in the GNOME authentication prompt$/ do |
   deal_with_polkit_prompt(password)
 end
 
+Given /^I cancel the GNOME authentication prompt$/ do
   gnome_shell_unlock_dialog
   @screen.press('escape')
   try_for(20) { !gnome_shell_unlock_dialog? }
