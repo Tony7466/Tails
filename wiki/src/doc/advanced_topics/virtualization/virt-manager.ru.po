@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
-"POT-Creation-Date: 2023-12-22 04:29+0000\n"
+"POT-Creation-Date: 2024-01-29 11:27+0100\n"
 "PO-Revision-Date: 2021-12-25 13:15+0000\n"
 "Last-Translator: dedmoroz <cj75300@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -685,6 +685,12 @@ msgstr ""
 "   Начните с видеоустройств *Virtio* и *QXL*: они обычно дают\n"
 "наилучшие результаты. Если не получится, попробуйте\n"
 "другие варианты.\n"
+
+#. type: Bullet: '3. '
+msgid ""
+"Try enabling or disabling the OpenGL and 3D acceleration options of the "
+"display and video device."
+msgstr ""
 
 #, fuzzy
 #~| msgid "[[Download a USB image|install/download]] instead of an ISO image."
