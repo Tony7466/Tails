@@ -87,6 +87,8 @@ Examples of additional useful software
 
 - [*Calibre*](https://calibre-ebook.com/), an EPUB reader and library manager.
 
+- [*GtkHash*](https://gtkhash.org/), a utility to calculate the checksum of files.
+
 <a id="language-packs"></a>
 
 Language packs
