@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2024-01-23 00:41+0000\n"
-"PO-Revision-Date: 2024-01-13 16:37+0000\n"
+"PO-Revision-Date: 2024-01-24 21:37+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
@@ -1076,10 +1076,11 @@ msgstr ""
 "      nom de la partició trobat al pas 4.\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "      <p class=\"pre command\">sudo cryptsetup luksDump /dev/<span class=\"command-placeholder\">[partition]</span></p>\n"
+#, no-wrap
 msgid "      <p class=\"pre command-template\">sudo cryptsetup luksDump /dev/<span class=\"command-placeholder\">[partition]</span></p>\n"
-msgstr "      <p class=\"pre command\">sudo cryptsetup luksDump /dev/<span class=\"command-placeholder\">[partició]</span></p>\n"
+msgstr ""
+"      <p class=\"pre command-template\">sudo cryptsetup luksDump /dev/<span "
+"class=\"command-placeholder\">[partició]</span></p>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -1088,12 +1089,13 @@ msgstr "      A la sortida:\n"
 
 #. type: Bullet: '      - '
 msgid "`Version` indicates the version of LUKS, either `1` or `2`."
-msgstr ""
+msgstr "`Version` indica la versió de LUKS, ja sigui `1` o `2`."
 
 #. type: Bullet: '      - '
 msgid ""
 "`PBKDF` indicates the key derivation function, either `pbkdf2` or `rgon2id`."
 msgstr ""
+"`PBKDF` indica la funció de derivació de clau, ja sigui `pbkdf2` o `rgon2id`."
 
 #. type: Title ###
 #, no-wrap
@@ -1110,17 +1112,11 @@ msgstr ""
 "      nom de la partició trobat al pas 6.\n"
 
 #. type: Bullet: '      - '
-#, fuzzy
-#| msgid ""
-#| "<span class=\"command\">PBKDF</span> indicates the key derivation "
-#| "function, either <span class=\"command\">pbkdf2</span> or <span "
-#| "class=\"command\">argon2id</span>."
 msgid ""
 "`PBKDF` indicates the key derivation function, either `pbkdf2` or `argon2id`."
 msgstr ""
-"<span class=\"command\">PBKDF</span> indica la funció de derivació de clau, "
-"ja sigui <span class=\"command\">pbkdf2</span> o <span "
-"class=\"command\">argon2id</span>."
+"`PBKDF` indica la funció de derivació de clau, ja sigui `pbkdf2` o "
+"`argon2id`."
 
 #~ msgid ""
 #~ "<span class=\"command\">Version</span> indicates the version of LUKS, "

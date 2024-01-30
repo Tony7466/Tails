@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-22 04:29+0000\n"
-"PO-Revision-Date: 2024-01-16 16:38+0000\n"
+"PO-Revision-Date: 2024-01-28 18:36+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "thunderbird/es/>\n"
@@ -446,29 +446,22 @@ msgstr ""
 
 #. type: Bullet: '1. '
 msgid "Choose **Privacy & Security**."
-msgstr "Escoge **Privacidad & Seguridad**."
+msgstr "Elige **Privacidad y Seguridad**."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "In the **Passwords** section, select the option **Use a master password**."
 msgid ""
 "In the **Passwords** section, select the option **Use a Primary Password**."
 msgstr ""
 "En la sección **Contraseñas**, selecciona la opción **Usar una contraseña "
-"maestra**."
+"principal**."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "In the **Change Master Password** dialog, enter your Master Password and "
-#| "click **Ok**."
 msgid ""
 "In the **Change Primary Password** dialog, enter your Primary Password and "
 "click **Ok**."
 msgstr ""
-"En el cuadro de diálogo **Cambiar contraseña maestra**, ingresa tu "
-"contraseña maestra y haz clic en **Aceptar**."
+"En el cuadro de diálogo **Cambiar contraseña principal**, ingresa tu "
+"contraseña principal y haz clic en **Aceptar**."
 
 #. type: Plain text
 #, no-wrap
@@ -497,10 +490,8 @@ msgid "From the desktop:"
 msgstr "Desde el escritorio:"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid "Choose **Applications&nbsp;▸ Utilities&nbsp;▸ Passwords and Keys**."
 msgid "Choose **Applications&nbsp;▸ Accessories&nbsp;▸ Kleopatra**."
-msgstr "Elige **Aplicaciones&nbsp;▸ Utilidades&nbsp;▸ Contraseñas y claves**."
+msgstr "Elige **Aplicaciones&nbsp;▸ Accesorios&nbsp;▸ Kleopatra**."
 
 #. type: Bullet: '1. '
 #, fuzzy
@@ -513,10 +504,13 @@ msgstr ""
 "y usar en *Thunderbird*."
 
 #. type: Bullet: '1. '
+#, fuzzy
 msgid ""
 "Choose **File&nbsp;▸ Export Secret Keys…** and save this private key to your "
 "*Home* directory."
 msgstr ""
+"Elige **Archivo&nbsp;▸ Exportar&hellip;** y guarda estas claves públicas en "
+"el directorio *Home*."
 
 #. type: Bullet: '1. '
 msgid "Close *Kleopatra*."
@@ -532,16 +526,12 @@ msgid "In *Thunderbird*:"
 msgstr "En *Thunderbird*:"
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid ""
-#| "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-#| "link=\"no\"]]&nbsp;▸ Account Settings**."
 msgid ""
 "Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
 "link=\"no\"]]&nbsp;▸ Account Settings**."
 msgstr ""
-"Elige **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
-"link=\"no\"]]&nbsp;▸ Configuración de cuenta**."
+"Elige **[[!img lib/open-menu.png alt=\"Menú\" class=\"symbolic\" link=\"no\""
+"]]&nbsp;▸ Configuración de cuenta**."
 
 #. type: Bullet: '1. '
 msgid ""
@@ -552,10 +542,8 @@ msgstr ""
 "privada que deseas importar y elige **Cifrado de extremo a extremo**."
 
 #. type: Bullet: '1. '
-#, fuzzy
-#| msgid "In the right pane, click the **Add Key…** button."
 msgid "In the right pane, click the **Add Key…** button."
-msgstr "En el panel derecho, haz clic en el botón **Agregar clave ...**."
+msgstr "En el panel derecho, haz clic en el botón **Agregar clave...**."
 
 #. type: Bullet: '1. '
 #, fuzzy

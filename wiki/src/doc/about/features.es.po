@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Tails\n"
 "Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
 "POT-Creation-Date: 2023-12-21 23:11+0000\n"
-"PO-Revision-Date: 2024-01-07 12:38+0000\n"
+"PO-Revision-Date: 2024-01-28 00:36+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Spanish <http://translate.tails.boum.org/projects/tails/"
 "features/es/>\n"
@@ -119,6 +119,8 @@ msgstr ""
 #. type: Plain text
 msgid "- [OnionShare](https://onionshare.org/) for anonymous file sharing"
 msgstr ""
+"- [OnionShare](https://onionshare.org/) para compartir archivos de forma "
+"anónima"
 
 #. type: Plain text
 msgid ""
@@ -126,28 +128,28 @@ msgid ""
 "OpenPGP and RSS and Atom news feeds ([[More...|doc/anonymous_internet/"
 "thunderbird]])"
 msgstr ""
+"- [Thunderbird](https://www.thunderbird.net/), un cliente de correo "
+"electrónico compatible con OpenPGP y fuentes de noticias RSS y Atom "
+"([[Más...|doc/anonymous_internet/thunderbird]])"
 
 #. type: Plain text
 msgid "- [Aircrack-ng](http://aircrack-ng.org/) for wireless network auditing"
 msgstr ""
+"- [Aircrack-ng](http://aircrack-ng.org/) para la auditoría de redes "
+"inalámbricas"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[NetworkManager](https://wiki.gnome.org/Projects/NetworkManager) for easy "
-#| "network configuration ([[More...|doc/anonymous_internet/networkmanager]])"
 msgid ""
 "- [Electrum](https://electrum.org/), an easy-to-use bitcoin client "
 "([[More...|doc/anonymous_internet/electrum]])"
 msgstr ""
-"[NetworkManager](https://wiki.gnome.org/Projects/NetworkManager) para una "
-"fácil configuración de la red ([[Mas...|doc/anonymous_internet/"
-"networkmanager]])"
+"- [Electrum](https://electrum.org/), un cliente bitcoin fácil de usar "
+"([[Más...|doc/anonymous_internet/electrum]])"
 
 #. type: Plain text
 msgid ""
 "- [Wget](https://www.gnu.org/software/wget/) and [curl](https://curl.se)"
-msgstr ""
+msgstr "- [Wget](https://www.gnu.org/software/wget/) y [curl](https://curl.se)"
 
 #. type: Title -
 #, no-wrap
@@ -191,6 +193,8 @@ msgid ""
 "- [Document Scanner](https://gitlab.gnome.org/GNOME/simple-scan) to scan "
 "documents"
 msgstr ""
+"- [Escáner de Documentos](https://gitlab.gnome.org/GNOME/simple-scan) para "
+"escanear documentos"
 
 #. type: Plain text
 msgid "- [Brasero](https://wiki.gnome.org/Apps/Brasero) to burn CD/DVDs"
@@ -262,17 +266,14 @@ msgstr ""
 "encryption_and_privacy/virtual_keyboard]])"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[Gimp](https://www.gimp.org/) and [Inkscape](https://inkscape.org/) to "
-#| "edit images ([[More...|doc/sensitive_documents/graphics]])"
 msgid ""
 "- [Metadata Cleaner](https://metadatacleaner.romainvigier.fr/) and [mat2]"
 "(https://0xacab.org/jvoisin/mat2) to remove metadata from files ([[More...|"
 "doc/sensitive_documents/metadata]])"
 msgstr ""
-"[Gimp](https://www.gimp.org/) e [Inkscape](https://inkscape.org/) para "
-"editar imágenes ([[Más...|doc/sensitive_documents/graphics]])"
+"- [Limpiador de Metadatos](https://metadatacleaner.romainvigier.fr/) y "
+"[mat2](https://0xacab.org/jvoisin/mat2) para eliminar los metadatos de los "
+"archivos ([[Más...|doc/sensitive_documents/metadata]])"
 
 #. type: Plain text
 msgid ""
