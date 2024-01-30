@@ -152,6 +152,7 @@ def notify(
         urgent = ""
 
     try:
+        success_exit_codes = (0, 3, 5)
         completed_process = subprocess.run(  # noqa: PLW1510
             [  # noqa: S603
                 "/usr/local/lib/run-with-user-env",
@@ -168,7 +169,7 @@ def notify(
         )
         if completed_process.stderr:
             logging.warning("%s", completed_process.stderr)
-        if completed_process.returncode != 0:
+        if completed_process.returncode not in success_exit_codes:
             raise OSError(completed_process.stderr)
     except OSError as e:
         logging.warning("Warning: unable to notify the user. %s", e)
