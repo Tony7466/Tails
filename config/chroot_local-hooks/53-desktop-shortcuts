@@ -9,6 +9,8 @@ APPS="tails-documentation whisperback"
 mkdir --parents /etc/skel/Desktop
 
 for app in $APPS; do
-    cp "/usr/share/applications/${app}.desktop" /etc/skel/Desktop/
-    chmod 700 "/etc/skel/Desktop/${app}.desktop"
+    install \
+	--mode=0755 \
+	"/usr/share/applications/${app}.desktop" \
+	/etc/skel/Desktop/
 done
