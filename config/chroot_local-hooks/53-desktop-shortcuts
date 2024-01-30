@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -eu
+
+echo "Copying WhisperBack and documentation launchers to the desktop"
+
+APPS="tails-documentation whisperback"
+
+mkdir --parents /etc/skel/Desktop
+
+for app in $APPS; do
+    cp "/usr/share/applications/${app}.desktop" /etc/skel/Desktop/
+    chmod 700 "/etc/skel/Desktop/${app}.desktop"
+done

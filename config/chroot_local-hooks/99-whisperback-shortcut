@@ -1,8 +1,0 @@
-#!/bin/sh
-
-set -eu
-
-echo "Copying WhisperBack launcher to the desktop"
-
-cp /usr/share/applications/whisperback.desktop /etc/skel/Desktop/
-chmod 700 /etc/skel/Desktop/whisperback.desktop
