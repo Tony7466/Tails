@@ -602,20 +602,9 @@ Then /^a Tails persistence partition exists( with LUKS version 1)? on USB drive 
   dev = $vm.persistent_storage_dev_on_disk(name)
   check_part_integrity(name, dev, 'crypto', 'crypto_LUKS',
                        part_label: 'TailsData')
-
-  luks_dev = nil
   # The LUKS container may already be opened, e.g. by udisks after
   # we've created the Persistent Storage.
-  c = $vm.execute("ls -1 --hide 'control' /dev/mapper/")
-  if c.success?
-    c.stdout.split("\n").each do |candidate|
-      luks_info = $vm.execute("cryptsetup status '#{candidate}'")
-      if luks_info.success? && luks_info.stdout.match("^\s+device:\s+#{dev}$")
-        luks_dev = "/dev/mapper/#{candidate}"
-        break
-      end
-    end
-  end
+  luks_dev = luks_mapping(dev)
   if luks_dev.nil?
     assert_vmcommand_success(
       $vm.execute("echo #{@persistence_password} | " \
@@ -831,7 +820,40 @@ def parse_udisksctl_info(input)
       tree[section][key] += line
     end
   end
+  fs_section = tree['org.freedesktop.UDisks2.Filesystem']
+  if fs_section && fs_section['MountPoints']
+    fs_section['MountPoints'] = fs_section['MountPoints'].split
+  end
   tree
+end
+
+# Get the LUKS mapping of device, or nil if there is none
+def luks_mapping(device)
+  c = $vm.execute("ls -1 --hide 'control' /dev/mapper/")
+  if c.success?
+    c.stdout.split("\n").each do |candidate|
+      luks_info = $vm.execute("cryptsetup status '#{candidate}'")
+      if luks_info.success? && luks_info.stdout.match("^\s+device:\s+#{device}$")
+        return "/dev/mapper/#{candidate}"
+      end
+    end
+  end
+  nil
+end
+
+# Returns the first non-nosymfollow mountpoint of device. If the
+# device has a LUKS mapping we instead return where it is mounted.
+def mountpoint(device)
+  info = parse_udisksctl_info(
+    $vm.execute_successfully("udisksctl info -b #{device}").stdout
+  )
+  if info['org.freedesktop.UDisks2.Block']['IdType'] == 'crypto_LUKS'
+    luks_device = luks_mapping(device)
+    mountpoint(luks_device) if luks_device
+  else
+    info['org.freedesktop.UDisks2.Filesystem']['MountPoints']
+      .find { |p| !p.match?(Regexp.new('^/run/nosymfollow/')) }
+  end
 end
 
 Then /^Tails is running from (.*) drive "([^"]+)"$/ do |bus, name|
