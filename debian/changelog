@@ -3,7 +3,285 @@ tails (6.0) UNRELEASED; urgency=medium
   * Dummy entry for next release.
   * Dummy entry for next release.
 
- -- intrigeri <intrigeri@debian.org>  Fri, 22 Dec 2023 09:16:01 +0000
+ -- boyska <boyska@riseup.net>  Tue, 30 Jan 2024 12:06:27 +0100
+
+tails (5.22) unstable; urgency=medium
+
+  * Resolve "Upgrade to Tor Browser based on ESR 115.7" (tails/tails!1366)
+
+    Closes issues:
+      - Upgrade to Tor Browser based on ESR 115.7 (tails/tails#20060)
+
+    Commits:
+      - Fetch Tor Browser from our own archive
+      - Upgrade Tor Browser to 13.0.9
+
+  * replace bookworm-updates with bookworm-security and upgrade kernel to 6.1.69
+    (tails/tails!1343)
+
+    Closes issues:
+      - Re-enable bookworm-security APT source (tails/tails#20010)
+      - Upgrade to Linux 6.1.69 (DSA 5593-1) (tails/tails#20121)
+
+    Commits:
+      - replace bookworm-updates with bookworm-security and update kernel
+
+  * htpdate: privacyinternational.org -> securitylab.amnesty.org (tails/tails!1370)
+
+    Closes issues:
+      - https-get-expired failing for https://www.privacyinternational.org
+        (tails/tails#20146)
+
+    Commits:
+      - black reformatting
+      - refer to design in source code
+      - htpdate: privacyinternational.org -> securitylab.amnesty.org
+
+  * Don't try to create a Persistent Storage on a device that already has 2
+    partitions (tails/tails!1348)
+
+    Closes issues:
+      - Don't try to create a Persistent Storage on a device that already has 2
+        partitions (tails/tails#20000)
+
+    Commits:
+      - Disable error prone Ruff rule
+      - Revert error prone linting
+      - Fix Ruff G004
+      - Bring back type annotation lost by linting
+      - Make indentation consistent
+      - Simplify
+      - Reformat with black
+      - Fix logging level
+      - Fix check for too many partitions
+      - Remove unused import
+      - Linting prompted by, and done by, ruff
+      - Linting prompted by the ruff-changed-files CI job
+      - Document limitation
+      - Reformat with black
+      - Explain the user that we can't create a Persistent Storage on a device that
+        already has 2 partitions
+      - Improve name of widget
+      - Don't try to create a Persistent Storage on a device that already has 2
+        partitions
+      - Fix buggy refactoring
+      - Reformat with black
+      - refactor InvalidBootDeviceErrorType
+      - Convey reason why the boot device is not supported from the tps backend to the
+        frontend
+
+  * Check and attempt to safely repair the Persistent Storage filesystem before
+    mounting it (tails/tails!1351)
+
+    Commits:
+      - Reformat with black
+      - Check and safely attempt to repair Persistent Storage filesystem before
+        mounting it
+
+  * Bugfix: Additional Software was sometimes left unconfigured after creating
+    Persistent Storage (tails/tails!1350)
+
+    Closes issues:
+      - Additional Software sometimes left unconfigured after creating Persistent
+        Storage (tails/tails#19926)
+
+    Commits:
+      - Bugfix: Additional Software was sometimes left unconfigured after creating
+        Persistent Storage
+
+  * Don't try to unlock or delete a Persistent Storage that's on a read-only USB
+    stick (tails/tails!1349)
+
+    Closes issues:
+      - tpsd should not try to unlock or delete a Persistent Storage that's on a read-
+        only USB stick (tails/tails#20024)
+
+    Commits:
+      - Simplify code
+      - Fix ordering of widgets
+      - Reformat with black
+      - Lint
+      - Implement updated UI phrasing
+      - Lint
+      - Let Ruff fix the issues that it reported and can fix itself
+      - Don't try to delete a Persistent Storage that's on a read-only USB stick
+      - tpsd: expose whether the Persistent Storage can be deleted
+      - Welcome Screen: link to help when we don't allow unlocking Persistent Storage
+        on a read-only device
+      - Save UI file with current Glade
+      - Simplify
+      - Reformat with black
+      - Lint files changed by this MR
+      - Add missing space in log message
+      - Let Ruff fix the issues that it reported and can fix itself
+      - Welcome Screen: don't allow unlocking Persistent Storage on a read-only device
+      - tps: identify when the device is read-only and we should not try to unlock it
+      - Remove unused imports
+
+  * Resolve "Test suite often fails to grabFocus of the Persistent Storage
+    passphrase entry" (tails/tails!1345)
+
+    Closes issues:
+      - Test suite often fails to grabFocus of the Persistent Storage passphrase entry
+        (tails/tails#20054)
+
+    Commits:
+      - Test suite: log when applying workaround for #20054
+      - Test suite: revolutionize code readability thanks to RuboCop
+      - Test suite: appease RuboCop
+      - Add forgotten closing parenthesis
+      - Test suite: improve method name
+      - Test suite: prefix #20054 logging to make all of it easier to grep from
+        debug.log
+      - Test suite: attempt to detect and work around tails/tails#20054
+      - Move variable to where it is used
+
+  * onion-grater: only log dropped stream/circ events when debugging is enabled...
+    (tails/tails!1344)
+
+    Closes issues:
+      - onion-grater's "dropped restricted circuit event" is spammy and leaky
+        (tails/tails#20126)
+
+    Commits:
+      - onion-grater: only log dropped stream/circ events when debugging is enabled
+        (refs: tails/tails#20126)
+      - onion-grater: fix typo
+
+  * tor-browser uses local documentation (tails/tails!1341)
+
+    Closes issues:
+      - Tor Browser should open documentation links from local website when offline
+        (tails/tails#20095)
+
+    Commits:
+      - ruff --fix + black
+      - avoid tails.net.attack.er sneaking in
+      - skip offline warning when url has been resolved
+      - disable doctest
+      - black reformatting
+      - less globals, easier testing
+      - urls we can't resolve are passed through
+      - check if link is to tails website
+      - sane defaults
+      - fix argument parsing
+      - FIX leftover shell interpolation
+      - tor-browser uses local documentation
+      - tor-browser reimplemented in Python3
+      - refactor tails-documentation
+
+  * ruff works for feature/bookworm, too (tails/tails!1339)
+
+    Closes issues:
+      - ruff-changed-files false positives in GitLab CI:
+        origin/${CI_MERGE_REQUEST_TARGET_BRANCH_NAME:?} is an unknown ref
+        (tails/tails#20094)
+
+    Commits:
+      - make sure that the target branch is known
+
+  * move actual URL outside of the translatable string (tails/tails!1337)
+
+    Closes issues:
+      - tails-report-disk-errors includes a translatable URLs to the Tails live website
+        (tails/tails#20096)
+
+    Commits:
+      - Update POT file
+      - move actual URL outside of the translatable string
+
+  * Add wrote to device at speed MB/sec INFO log to `clone_persistent_storage`
+    (tails/tails!1335)
+
+    Closes issues:
+      - Log wrote to device at MB/sec for clone Persistent Storage too
+        (tails/tails#20092)
+
+    Commits:
+      - Only run `clone_persistent_storage()` method if requested. Fixes printing wrong
+        write speed if Persistent Storage unlocked but unrequested.
+      - Check `write_size` is not None or 0.0 before logging write speed.
+      - refactor "wrote to device" into `@log_write_speed()` decorator
+      - Rename `get_persistent_storage_backup_size` import and usage to match the new
+        name from: https://gitlab.tails.boum.org/tails/tails/-
+        /commit/8021cdae30af640537c4c234049b9d69b955f1cd?merge_request_iid=1335
+      - fix wrong unit math should be Megabytes not Mebibytes
+      - remove duplicated `PERSISTENCE_DIR` from config.py and import `from
+        tailslib.persistence` instead.
+      - rename: `get_persistent_storage_backup_size()` function to refer to the size of
+        the backup / used space.
+      - revert: "iff" was not a typo but an abbreviation that looks like one. Used full
+        phrase for clarity.
+      - switch to time.monotonic() which returns floating point seconds, remove unused
+        datetime import
+      - Move luks2 header size to function where it is used
+      - Fix: use "s" as the symbol for "second" instead of "sec"
+      - Add get_persistent_storage_size()
+      - Add `luks2_header_size` and `persistence_mountpoint` keys
+      - Add wrote to device at speed MB/sec INFO log to `clone_persistent_storage`
+
+  * Allow Tor Browser to save files to Documents, Downloads, Music, Pictures,
+    Videos and their subfolders (tails/tails!1333)
+
+    Closes issues:
+      - Allow Tor Browser to save files to Documents, Downloads, Music, Pictures,
+        Videos and their subfolders (tails/tails#19255)
+
+    Commits:
+      - Make usages of "Bookmark" in the context unique.
+      - Add set -u
+      - Add set -u
+      - Point submodule to the version with torbrowser-launcher!7 merged
+      - fix paths to real binary.
+      - Don't patch files if a simple hook is possible.
+      - Make XDG dir tests passes.
+      - make rubocop really happy.
+      - Fix patches.
+      - Run rubocop
+      - Do file changes to xdg-user-dirs.desktop/user-dirs-update-gtk.desktop via
+        patches.
+      - The negative tests is failing, so removing it for the moment.
+      - To select different desternation folders from bookmarks.
+      - Make the tests for XDG User Dirs working.
+      - Find the bookmarks an a German localized system.
+      - Fix localized.feature tests.
+      - don't ask the user to localize xdg user dirs.
+      - Add autotests to make sure, we can use the XDG User Dirs correctly.
+      - Make sure, that the xdg-user-dirs are not translated.
+      - Update torbrowser-luncher Apparmor profile.
+
+  * Fix Tails Cloner AttributeError: 'NoneType' object has no attribute 'props'
+    (#18986) (tails/tails!1312)
+
+    Closes issues:
+      - Tails Cloner sometimes fails to format the newly created system partition
+        (tails/tails#18986)
+
+    Commits:
+      - Remove useless @retry decorator
+      - Fix typo
+      - Remove retry decorator on non-idempotent method
+      - Remove unused method
+      - Remove unused method
+      - Remove `get_system_partition` redundant for loop due to @retry decorator,
+        remove some trailing white spaces
+      - Change retry range from 10 to 11 so the last retry will be the 10th.
+      - Fix: "No such interface" by adding @retry decorator function to problematic
+        udisks methods closes #18986
+      - Remove temporary debug print() statements
+      - Set `_get_object` default prop='drive', use "block" arg for
+        `try_getting_udisks_object`
+      - add `props` param to `_get_object` so hasattr(obj, props) can be checked before
+        return
+      - Remove obsolete comment about 'NoneType' from old racy `_get_object`. New code
+        raises exception.
+      - Fix None object in unmount_device @ filesystem =
+        self._get_object(udi).props.filesystem
+      - Solves AttributeError: 'NoneType' object has no attribute 'props' (#18986)
+
+  * Upgrade Thunderbird to 115.7
+
+ -- Tails developers <tails@boum.org>  Mon, 29 Jan 2024 13:04:11 +0100
 
 tails (5.21) unstable; urgency=medium
 
