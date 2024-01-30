@@ -132,8 +132,9 @@ To use *Thunderbird* in another language, you can
 install the <code>thunderbird-l10n-<span class="command-placeholder">lang</span></code>
 package using the [[Additional Software|persistent_storage/additional_software]]
 feature. Replace <span class="command-placeholder">lang</span> with the code
-for your language. For example, `es` for Spanish or
-`de` for German.
+for your language. For example, `fr` for French or `pt-br` for Brazilian Portuguese.
+
+[List of all *Thunderbird* language packages](https://packages.debian.org/search?keywords=thunderbird-l10n&searchon=names&suite=stable&section=all)
 
 <h1 id="openpgp">OpenPGP encryption</h1>
 

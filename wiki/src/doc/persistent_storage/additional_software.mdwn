@@ -89,28 +89,34 @@ Examples of additional useful software
 
 - [*GtkHash*](https://gtkhash.org/), a utility to calculate the checksum of files.
 
-<a id="language-packs"></a>
+<a id="language-packages"></a>
 
-Language packs
---------------
-
-- For *LibreOffice*: <code>libreoffice-l10n-<span class="command-placeholder">lang</span></code>
-
-- For *Thunderbird*: <code>thunderbird-l10n-<span class="command-placeholder">lang</span></code>
+Language packages
+-----------------
 
 Replace <span class="command-placeholder">lang</span> with the code for your
-language. For example, `es` for Spanish or `de` for German.
+language. For example, `es` for Spanish or `pt-br` for Brazilian Portuguese.
 
-Spell-checking dictionaries
+- *LibreOffice* language package: <code>libreoffice-l10n-<span class="command-placeholder">lang</span></code>
+
+  [List of all *LibreOffice* language packages](https://packages.debian.org/search?keywords=libreoffice-l10n&searchon=names&suite=stable&section=all)
+
+- *Thunderbird* language package: <code>thunderbird-l10n-<span class="command-placeholder">lang</span></code>
+
+  [List of all *Thunderbird* language packages](https://packages.debian.org/search?keywords=thunderbird-l10n&searchon=names&suite=stable&section=all)
+
+Spell checking dictionaries
 ---------------------------
 
-- <code>hunspell-<span class="command-placeholder">lang</span></code>
-
-The `hunspell` dictionaries are used for spell-checking by *Tor Browser*,
-*LibreOffice*, *Thunderbird*, and many other applications.
-
 Replace <span class="command-placeholder">lang</span> with the code for your
-language. For example, `es` for Spanish or `de` for German.
+language. For example, `es` for Spanish or `pt-br` for Brazilian Portuguese.
+
+- *Hunspell* dictionnary: <code>hunspell-<span class="command-placeholder">lang</span></code>
+
+  The *Hunspell* dictionaries are used for spell-checking by *Tor Browser*,
+  *LibreOffice*, *Thunderbird*, and many other applications.
+
+  [List of all *Hunspell* dictionnaries](https://packages.debian.org/search?keywords=hunspell&searchon=names&suite=stable&section=all)
 
 Installing additional software
 ==============================
