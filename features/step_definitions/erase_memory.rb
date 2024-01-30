@@ -240,7 +240,7 @@ When /^I fill a (\d+) MiB file with a known pattern on the (persistent|root) fil
   else
     raise 'This should not happen'
   end
-  # Note that `yes` prints its own newline, so we have to skip it in
+  # `fill_file` prints its own newline after each `pattern`, so we have to skip it in
   # `pattern` below.
   fill_file(path: dest_file, pattern: pattern[0..-2], iterations: pattern_nb)
 end
